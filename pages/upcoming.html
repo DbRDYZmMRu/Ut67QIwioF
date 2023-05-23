@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--===== Required meta tags =====-->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Infinitysoftway" />
+    <meta name="description" content="statistic charts" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--===== Title =====-->
+    <title>Upcoming Poetry</title>
+
+    <!--===== Favicon =====-->
+    <link rel="shortcut icon" href="../images/favicon.png" />
+
+    <!--===== Google fonts =====-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Jost:wght@300;400;500;600;700;800;900&display=swap"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--===== Global bootstrap required css =====-->
+    <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css" />
+    <!--===== Global styles including: Font Icons, Plugins, etc =====-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/../css/font-awesome/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/feather/iconfont.css" />
+    <link rel="stylesheet" href="../css/pe-icon-stroke/Pe-icon-7-stroke.css" />
+    <link
+      rel="stylesheet"
+      href="../css/simple-line-icons/simple-line-icons.css"
+    />
+    <link rel="stylesheet" href="../css/themify-icons/themify-icons.css" />
+    <link rel="stylesheet" href="../css/pe-icon-stroke/Pe-icon-7-stroke.css" />
+    <link rel="stylesheet" href="../css/swiper/swiper.min.css" />
+    <link rel="stylesheet" href="../css/magnific-popup/magnific-popup.css" />
+    <!--===== Main theme css =====-->
+    <link rel="stylesheet" href="../css/style.css" />
+    <style>
+      [v-cloak] {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body class="stokes-wrapper" id="ctrlArea" v-cloak>
+    <!--========== 
+	Start of loader ==========-->
+
+    <div class="template-loader">
+      <div class="loaderCenter">
+        <div class="pencil">
+          <p>nightswan.com.ng</p>
+          <div class="loaderTop"></div>
+        </div>
+        <div class="stroke"></div>
+      </div>
+    </div>
+
+    <!--========== 
+	End of loader ==========-->
+
+    <!--========== 
+    Start of  cookie modal notification section ==========-->
+    <div class="modal-subscribe">
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        data-bs-backdrop="static"
+        id="myModal"
+        tabindex="-1"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body p-0 bg-secondary rounded">
+              <div class="p-5 text-center">
+                <img
+                  class="img-fluid px-5"
+                  src="/images/svg/cookie.svg"
+                  alt=""
+                />
+                <h3>Cookies</h3>
+                <p class="text-dark">
+                  <b>Hilton</b> uses cookies to enhance user experience
+                </p>
+                <a href="/cookies.html" class="text-primary-gradient fw-bold"
+                  >Our policy</a
+                >
+                <div class="d-grid mt-5">
+                  <button
+                    type="button"
+                    class="btn btn-white rounded"
+                    data-bs-dismiss="modal"
+                    @click="store.acceptCookieUse()"
+                  >
+                    Accept
+                  </button>
+                  <p class="text-dark mt-4">
+                    Coupled with
+                    <svg
+                      class="logo"
+                      viewBox="0 0 128 128"
+                      width="24"
+                      height="24"
+                      data-v-53ccc107=""
+                    >
+                      <path
+                        fill="#42b883"
+                        d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z"
+                        data-v-53ccc107=""
+                      ></path>
+                      <path
+                        fill="#35495e"
+                        d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z"
+                        data-v-53ccc107=""
+                      ></path>
+                    </svg>
+                    <a
+                      href="https://github.com/vuejs/petite-vue"
+                      target="_blank"
+                      style="color: #42b883"
+                      ><b>petite-vue</b></a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--========== 
+          End of cookie modal notification section ==========-->
+    <!--==========-->
+
+    <!--========== 
+	Start of Header Section ==========-->
+
+    <header class="header">
+      <!--===== Start of navbar =====-->
+      <nav class="navbar navbar-light navbar-expand-lg navbar-default">
+        <div class="container-fluid">
+          <!--===== Start of logo =====-->
+          <a class="navbar-brand" href="/"
+            ><img class="logo" src="../images/logo.png" alt="Logo"
+          /></a>
+          <!--===== End of logo =====-->
+
+          <button
+            class="navbar-toggler collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="icon-bar top-bar mt-0"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <!--===== Start of nav =====-->
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarCollapse"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="/"
+                  ><span class="text-line"> Home </span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/published/poetry/collection-IV.html"
+                  ><span class="text-line">Collection IV </span
+                  ><span class="badge bg-primary" style="font-size: 0.55em"
+                    >New</span
+                  ></a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbar-pages"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <span class="text-line"> Published </span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbar-pages">
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#"
+                      ><span class="text-line"> Poetry </span></a
+                    >
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/published/poetry/collection-I.html"
+                          ><span class="text-line">
+                            Frith Hilton Collection I
+                          </span></a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/published/poetry/collection-II.html"
+                          ><span class="text-line">
+                            Frith Hilton Collection II
+                          </span></a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/published/poetry/collection-III.html"
+                          ><span class="text-line">
+                            Frith Hilton Collection III
+                          </span></a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/published/poetry/collection-IV.html"
+                          ><span class="text-line">
+                            Frith Hilton Collection IV
+                          </span></a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="/published/journal/a-life-worth-living.html"
+                      ><span class="text-line">
+                        A Life Worth Living (Vision @ 2020)
+                      </span></a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="/pages/upcoming.html"
+                  ><span class="text-line"> Upcoming </span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/cookies.html"
+                  ><span class="text-line"> Cookies Policy </span></a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-icons list-unstyled mb-0 ms-auto">
+            <a
+              class="icon"
+              href="https://www.facebook.com/frithhilton"
+              target="_blank"
+            >
+              <i class="feather icon-facebook"></i>
+            </a>
+            <a
+              class="icon"
+              href="https://www.instagram.com/frithhilton"
+              target="_blank"
+            >
+              <i class="feather icon-instagram"></i>
+            </a>
+            <a
+              class="icon"
+              href="https://www.twitter.com/frithhilton"
+              target="_blank"
+            >
+              <i class="feather icon-twitter"></i>
+            </a>
+          </div>
+          <!--===== End of nav =====-->
+        </div>
+      </nav>
+      <!--===== End of navbar =====-->
+    </header>
+
+    <!--========== 
+	End of header ==========-->
+
+    <!--========== 
+  Start of Timeline section ==========-->
+
+    <section class="slice-ptb" id="reading">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <!--===== Start of  Upcoming timeline =====-->
+            <div class="mb-5">
+              <h4 class="ms-3">upcoming poetry</h4>
+            </div>
+            <div class="feature-timeline ms-5">
+              <div v-for="poem in store.getUpcomingPoems()" :key="poem.id">
+                <div
+                  class="d-flex mt-5 mb-5"
+                  v-if="store.getPageState() == 'upcomingPoemTitles'"
+                  @click="store.setPageState(poem.id)"
+                >
+                  <span
+                    ><i class="feather icon-circle fa-2x text-pink-gradient"></i
+                    ><span class="h-50vh text-pink-gradient"
+                      >{{poem.id}}</span
+                    ></span
+                  >
+                  <div class="ms-4">
+                    <button
+                      class="btn btn-naked btn-icon-right"
+                      href="#!"
+                      v-effect="if (store.currentPoemId == poem.id) $el.focus()"
+                    ></button>
+                    <h5 class="ls-1">{{poem.title}}</h5>
+                    <p>{{poem.date}}</p>
+                  </div>
+                </div>
+              </div>
+              <div v-else></div>
+              <!--===== End of Upcoming timeline =====-->
+            </div>
+            <!-- === Beginning of poetry content ==========-->
+            <div
+              v-if="store.getPageState() ==
+              'currentPoem'"
+            >
+              <!--===== Start of Title =====-->
+              <div class="mb-5 text-center">
+                <h5>{{store.getCurrentPoem().title}}</h5>
+                <div
+                  v-html="store.getCurrentPoem().content"
+                  class="mt-4 me-4 ms-4 mb-5"
+                ></div>
+                <div
+                  class="social-icons social-text-small icon-colored mt-7 mb-5"
+                >
+                  <a
+                    @click="store.shareToFacebook()"
+                    class="icon facebook"
+                    href="#!"
+                    id="shareToFacebookBtn"
+                  >
+                    <i class="fab fa-facebook-f"></i>
+                    <span>Share</span>
+                  </a>
+                  <!-- <a
+                  @click="store.shareToTwitter()"
+                  class="icon twitter"
+                  data-show-count="false"
+                  id="shareToTwitterBtn" href="https://twitter.com/share?ref_src=twsrc%5Etfw" target="_blank"  :data-url="https://dev.nightswan.com.ng/pages/Hilton/collections/iv/one.html" data-hashtags="frithhiltoncollection" data-show-count="false"
+                >
+                  <i class="fab fa-twitter"></i>
+                  <span>Tweet</span>
+                </a>  -->
+                  <a @click="store.copyURL()" class="icon link" id="copyURLBtn">
+                    <i class="fas fa-link" id="copyURLIcon"></i>
+                    <span id="CopyURLText">{{store.CopyURLText}}</span>
+                  </a>
+                  <a
+                    @click="store.shareToWhatsApp()"
+                    class="icon link"
+                    href="#!"
+                    id="shareToWhatsAppBtn"
+                  >
+                    <i class="fab fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                  </a>
+                </div>
+                <span class="bg-warning-soft-01 px-4 py-2 text-dark rounded"
+                  >{{store.getCurrentPoem().date}}</span
+                >
+              </div>
+
+              <hr class="my-5" />
+
+              <div class="col-lg-3 col-sm-6">
+                <p
+                  @click="store.goBack()"
+                  class="btn btn-naked-wrap go-back-btn"
+                >
+                  <i class="feather icon-arrow-left"></i>
+                  <span> upcoming . . . </span>
+                </p>
+              </div>
+            </div>
+            <!--========== 
+End of poetry content ==========-->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--========== 
+    End of Timeline section ==========-->
+
+    <!--========== 
+  Start of bottom page  ==========-->
+
+    <section class="py-5 bg-pink-gradient">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center">
+            <h3 class="text-white" id="some-id">
+              I'm here
+              <u
+                class="typer text-warning"
+                data-words="writing,making music,"
+                data-delay="100"
+                data-deletedelay="1000"
+                style="color: black"
+              ></u>
+              often.
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--========== 
+End of bottom page  ==========-->
+
+    <!--========== 
+  Map section ==========-->
+
+    <section id="contact-us" class="position-relative">
+      <div class="google-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.629367104963!2d3.2316144785641425!3d6.692744576034127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b996ae457d243%3A0x63b338921b72fdf9!2sFrith%20Nightswan%20Enterprises!5e0!3m2!1sen!2sng!4v1683451340692!5m2!1sen!2sng"
+          width="800"
+          height="600"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
+      <!--========== 
+  End of map section ==========-->
+    </section>
+    <!--========== 
+Start of footer section ==========-->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 position-relative mb-5 mb-sm-0">
+            <div
+              class="position-absolute top-0 start-0 slice-pt ps-5 ps-lg-8"
+            ></div>
+          </div>
+          <div class="col-lg-6">
+            <!--===== Start of footer item =====-->
+            <div class="text-center slice-ptb">
+              <h4 class="mb-4 mt-5 mt-lg-0">Time Open</h4>
+              <div class="mb-4">
+                <h5>Monday to Friday</h5>
+                <p>8:30 am to 5 pm</p>
+              </div>
+
+              <h4 class="mb-4">Address</h4>
+              <div class="mb-4">
+                <h5>11, Akindenoh street Ota, Ogun State.</h5>
+                <p>info@nightswan.com.ng</p>
+              </div>
+              <h2 class="text-green mb-0 mt-5">
+                <i class="feather icon-phone-call"></i> (234) 815 813 2408
+              </h2>
+            </div>
+            <!--===== End of footer item =====-->
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <footer class="footer bg-black slice-pt">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-lg-4 offset-lg-2">
+            <h2 class="text-white display-2 mb-4">
+              <span
+                class="typer text-white"
+                id="some-id"
+                data-words="Catch up!"
+                data-delay="100"
+              >
+              </span>
+            </h2>
+
+            <div class="social-icons icons-xl mt-5">
+              <a
+                class="icon text-white"
+                href="https://www.facebook.com/frithhilton"
+                target="_blank"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a
+                class="icon text-white"
+                href="https://www.twitter.com/frithhilton"
+                target="_blank"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a
+                class="icon text-white"
+                href="https://www.instagram.com/frithhilton"
+                target="_blank"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr class="mt-7" />
+        <div class="row text-center">
+          <div class="col-12">
+            <p class="text-white mt-3 mb-4 pe-6">
+              © <span id="getFullYear"></span>
+              <span class="text-pink-gradient">Nightswan Frith Hilton</span>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--========== 
+End of footer section ==========-->
+
+    <!--========== 
+	Start of back to top section ==========-->
+
+    <div class="go-top">
+      <p class="go-top-text">
+        Scroll to top <i class="fas fa-long-arrow-alt-right ps-2"></i>
+      </p>
+    </div>
+
+    <!--========== 
+	End of back to top section ==========-->
+
+    <!--========== 
+	Start of Javascript ==========-->
+
+    <!--===== Global required js =====-->
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap/bootstrap.min.js"></script>
+
+    <!--===== Global script: js libraries and plugins =====-->
+    <script src="../js/appear/jquery.appear.js"></script>
+    <script src="../js/swiper/swiper.min.js"></script>
+    <script src="../js/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="../js/isotope/isotope.pkgd.min.js"></script>
+    <script src="../js/typer/typer.js"></script>
+    <script src="../js/jarallax/jarallax.min.js"></script>
+    <script src="../js/mCustomScrollbar/jquery.mCustomScrollbar.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/numbered/1.1.0/index.min.js"
+      integrity="sha512-UQKbSOyUPIxk4a5/TIcqKUfl2JX0b1Rgq16BgvZbIWa7g5g3Rl/RXzFJFt2iu9LzDUpqDbcaak2ifjW887SxPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!--===== Main theme script =====-->
+    <script src="../js/functions.js"></script>
+    <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          appId: "1292503991685432",
+          autoLogAppEvents: true,
+          xfbml: true,
+          version: "v16.0",
+        });
+      };
+    </script>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_US/sdk.js"
+    ></script>
+    <script type="module">
+      import { createApp, reactive } from "https://unpkg.com/petite-vue?module";
+      const store = reactive({
+        currentURL: "/pages/upcoming.html",
+        staticPoemURL: "",
+        poemURL: "",
+        URLPoemID: 0,
+        CopyURLText: "Copy URL",
+        goBackState: false,
+        currentPoemId: 0,
+
+        getCurrentPoemView() {
+          if (localStorage.getItem("currentPoemId")) {
+            this.currentPoemId = localStorage.getItem("currentPoemId");
+          } else {
+            localStorage.removeItem("currentPoemId");
+          }
+        },
+        poemTitle: "",
+        getPoemContent() {
+          const poemTitle = this.pageResources().poemTitles.at(
+            this.currentPoem
+          );
+          this.poemTitle = poemTitle;
+          const poemContent = this.pageResources().upcomingPoemTitles;
+          return poemContent.at(this.currentPoem);
+        },
+        initialPageState: {
+          viewii: "upcomingPoemTitles",
+        },
+        pageState: localStorage.getItem("viewii"),
+        getPageState() {
+          if (this.pageState == "upcomingPoemTitles") {
+            const state = "upcomingPoemTitles";
+            localStorage.removeItem("currentPoemId");
+            return state;
+          } else if (this.pageState == "currentPoem") {
+            this.getCurrentPoemView();
+            const state = "currentPoem";
+            return state;
+          } else {
+            localStorage.setItem("viewii", this.initialPageState.viewii);
+            const state = this.initialPageState.viewii;
+            return state;
+          }
+        },
+        setPageState(index) {
+          localStorage.setItem("viewii", "currentPoem");
+          (this.pageState = localStorage.getItem("viewii")),
+            (location.href = "#reading");
+          this.currentPoemId = index;
+          localStorage.setItem("currentPoemId", this.currentPoemId);
+        },
+        goBack() {
+          localStorage.setItem("viewii", "upcomingPoemTitles");
+          this.pageState = localStorage.getItem("viewii");
+          this.getPageState();
+        },
+        pageResources() {
+          return {
+            upcomingPoems: [
+              {
+                id: 1,
+                title: "the lakes",
+                content: `<p>In dreamlike states</p><p>it’s unlikely you’ll find a flame</p><p>something is the matter; you’re awake</p><p>for something new to share the space</p><p>an unlearning, a descending phase</p><p>and in the waiting, you bathe</p><p>and I’ll wait, hoping it isn’t just fate</p><p>let’s go somewhere on a date</p><p>catch new pages through weekdays</p><p>get up on our immersing bathe claims</p><p>like it'd take forever to hit the lakes.</p>`,
+                date: "1st of May",
+              },
+              {
+                id: 2,
+                title: "cantus firmus",
+                content: `<p>Probably the few toes</p><p>heart to two toads</p><p>hard to deduce those</p><p>half swing at a time hoax</p><p>atchoos at the true rote</p><p>bent, mourn the clue tolls.</p>`,
+                date: "1st of May",
+              },
+              {
+                id: 3,
+                title: "hip-hip whip",
+                content: `<p>When it is time</p><p>and this day sides</p><p>like every other filed</p><p>then, it’s okay, fine</p><p>the candles, cake, and wine</p><p>the bass that hits we dine</p><p>I’m drawn to yours pied</p><p>insatiable as shy</p><p>as the years commit</p><p>to our long framed fit</p><p>nosing no felt stitch</p><p>this day aims a beam</p><p>a sweet playing melody</p><p>a cloth that unfurls unending</p><p>my friend is on a new stepping</p><p>sixteen this more, I’ll quill.</p>`,
+                date: "1st of May",
+              },
+              {
+                id: 4,
+                title: "at eden",
+                content: `<p>A phantom arm</p><p>one for each of my friends</p><p>have cares . . . use its hands</p><p>to its reach, you’ll find no ends</p><p>once we lived with plants</p><p>a garden, a paradise of merriments</p><p>we gathered wads</p><p>names, and of the famed, all documents</p><p>oh they’d ask:</p><p>could I be parrot, I’ll be your pet . . .</p><p>a token advance . . .</p><p>say I’m mango, I was wherever you went</p><p>and how apart</p><p>when today, I make juice, seek revenge</p><p>it is my grasp</p><p>it doesn’t hurt, not as much as I pretend</p><p>for it’s really calm</p><p>same fingers flipping pages of the best.</p>`,
+                date: "2nd of May",
+              },
+              {
+                id: 5,
+                title: "a happy place",
+                content: `<p>It is when I’m grinding</p><p>frankly, wherever I’m biting</p><p>how do you see it on me?</p><p>it’s what page that amazes</p><p>avoiding what has been instilled</p><p>dictations with no score, but seen</p><p>it’s just me, just me, it’s me you see</p><p>in the spotlight, we’re on the scene</p><p>when you’re beyond, and you know me</p><p>all shows with a fee</p><p>in the meantime, when you teach</p><p>it’s everywhere you are baby.</p>`,
+                date: "3rd of May",
+              },
+              {
+                id: 6,
+                title: "mother's day",
+                content: `<p>. . . of the other sage</p><p>wiggle your legs and say</p><p>mummy, I am afraid</p><p>hold the bands and say: </p><p>"aid"</p><p>mum you're first everyday</p><p>I see this, even on Sundays</p><p>when I'm awake</p><p>is it true, it is the same?</p><p>a very long day with no grey.</p>`,
+                date: "13th of May",
+              },
+              {
+                id: 7,
+                title: "co-cain",
+                content: `<p>We rebellious</p><p>in the face fastidious</p><p>out of the haze serious</p><p>heat tissue rush</p><p>count the pace lush</p><p>huff heal, hush this dosh.</p>`,
+                date: "18th of May",
+              },
+              {
+                id: 8,
+                title: "busk her fees",
+                content: `<p>To sing to her willy-nilly</p><p>her time on the high street</p><p>pitapat clock, known raft scene</p><p>hue yeast</p><p>posh spoof screen.</p>`,
+                date: "18th of May",
+              },
+              {
+                id: 9,
+                title: "disaster",
+                content: `<p>Who did?</p><p>mood heed</p><p>for this switch</p><p>rue foot reach.</p>`,
+                date: "18th of May",
+              },
+              {
+                id: 10,
+                title: "much this",
+                content: `<p>Pin the coquette</p><p>sum’s in the locket</p><p>hock the nugget</p><p>be careful marionette</p><p>it is worse with debts.</p>`,
+                date: "19th of May",
+              },
+              {
+                id: 11,
+                title: "menacing numbers",
+                content: `<p>Servility and pulchritude</p><p>stair years, tree stood</p><p>heard ears, rich strewed</p><p>turn! of . . . all two allude</p><p>who is the galling wuss?</p><p>the birds who stool</p><p>rule . . .</p><p>the dogs who choose.</p>`,
+                date: "19th of May",
+              },
+              {
+                id: 12,
+                title: "byte",
+                content: `<p>A bit, a bit, a bit</p><p>move a bit, inch neat</p><p>avoid the bit in your teeth</p><p>a bit left is the dream</p><p>the bit right is a twin</p><p>if not, the bit is in sheen</p><p>a bit, a bit, don’t cheat</p><p>my bite’s a bit, you’ll see.</p>`,
+                date: "19th of May",
+              },
+              {
+                id: 13,
+                title: "feathers",
+                content: `<p>Always a thing to give</p><p>. . . pruning</p><p>like tears of the grieving</p><p>and the day says evening</p><p>brunch not supper cleaving</p><p>here is a sprog crawling</p><p>his mum is curt and unfriendly</p><p>some more heights if here gleaning.</p>`,
+                date: "21st of May",
+              },
+            ],
+            convertIndex(prop) {
+              var indexNumber = prop;
+              console.log(indexNumber);
+              var number = numbered.stringify(indexNumber);
+              return number;
+            },
+          };
+        },
+        getUpcomingPoems() {
+          return this.pageResources().upcomingPoems.reverse();
+        },
+        getCurrentPoem() {
+          var theValue = localStorage.getItem("currentPoemId");
+          const result = this.pageResources().upcomingPoems.find(
+            ({ id }) => id == theValue
+          );
+          return result;
+        },
+        acceptCookieUse() {
+          localStorage.setItem("cookieUse", true);
+        },
+        generatePoemURL() {
+          var domainName = window.location.origin;
+          const queryToAppend =
+            domainName +
+            this.currentURL +
+            "?typeIsUpcomingPoem" +
+            "&id=" +
+            this.currentPoemId;
+          this.poemURL = queryToAppend;
+        },
+        generateStaticPoemURL() {
+          var domainName = window.location.origin;
+          const convertPoemID = this.pageResources().convertIndex(
+            this.currentPoemId
+          );
+          var shareURL =
+            domainName +
+            "/pages/Hilton/upcoming/season/one/" +
+            convertPoemID +
+            ".html";
+          this.staticPoemURL = shareURL;
+        },
+        decodePoemURL() {
+          var bookmarkURL = new URLSearchParams(location.search);
+          var getPoemIdFromURL = bookmarkURL.get("id");
+          if (
+            bookmarkURL.has("typeIsUpcomingPoem") &&
+            getPoemIdFromURL <= this.pageResources().upcomingPoems.length
+          ) {
+            localStorage.setItem("viewii", "currentPoem");
+            this.pageState = "currentPoem";
+            this.URLPoemID = getPoemIdFromURL;
+            this.currentPoemId = this.URLPoemID;
+            localStorage.setItem("currentPoemId", this.currentPoemId);
+            // this.goBackState = false;
+          } else if (
+            bookmarkURL.has("typeIsUpcomingPoem") &&
+            getPoemIdFromURL > this.pageResources().upcomingPoems.length
+          ) {
+            localStorage.setItem("viewii", this.initialPageState.view);
+            window.location.href =
+              window.location.origin + "/pages/not-found.html";
+          } else {
+            window.location.origin + "/pages/not-found.html";
+          }
+        },
+        copyURL() {
+          this.CopyURLText = "URL copied to clipboard";
+          this.generateStaticPoemURL();
+          navigator.clipboard.writeText(this.staticPoemURL);
+          $("#CopyURLText").css("color", "green");
+          $("#copyURLIcon").css("color", "green");
+          setTimeout(() => {
+            $("#CopyURLText").css("color", "#010521");
+            $("#copyURLIcon").css("color", "#010521");
+            this.CopyURLText = "Copy URL";
+          }, 8000);
+        },
+        shareToWhatsApp() {
+          this.generateStaticPoemURL();
+          const linkToShare = "whatsapp://send?text=" + this.staticPoemURL;
+          window.open(linkToShare, "_blank");
+        },
+        shareToFacebook() {
+          this.generateStaticPoemURL();
+          console.log(this.generateStaticPoemURL());
+          FB.ui(
+            {
+              display: "popup",
+              method: "share",
+              href: this.staticPoemURL,
+            },
+            function (response) {}
+          );
+        },
+      });
+      createApp({
+        store,
+      }).mount("#ctrlArea");
+    </script>
+    <!--========== 
+	End of Javascript ==========-->
+  </body>
+</html>

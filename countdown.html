@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--===== Required meta tags =====-->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="author" content="Infinitysoftway" />
+  <meta name="description" content="statistic charts" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!--===== Title =====-->
+  <title>Collection IV Countdown</title>
+
+  <!--===== Favicon =====-->
+  <link rel="shortcut icon" href="/images/favicon.png" />
+
+  <!--===== Google fonts =====-->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Jost:wght@300;400;500;600;700;800;900&display=swap" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet" />
+
+  <!--===== Global bootstrap required css =====-->
+  <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css" />
+
+  <!--===== Global styles including: Font Icons, Plugins, etc =====-->
+  <link rel="stylesheet" href="/css/font-awesome/all.min.css" />
+  <link rel="stylesheet" href="/css/feather/iconfont.css" />
+  <link rel="stylesheet" href="/css/pe-icon-stroke/Pe-icon-7-stroke.css" />
+  <link rel="stylesheet" href="/css/simple-line-icons/simple-line-icons.css" />
+  <link rel="stylesheet" href="/css/themify-icons/themify-icons.css" />
+  <link rel="stylesheet" href="/css/pe-icon-stroke/Pe-icon-7-stroke.css" />
+  <link rel="stylesheet" href="/css/swiper/swiper.min.css" />
+  <link rel="stylesheet" href="/css/magnific-popup/magnific-popup.css" />
+
+  <!--===== Main theme css =====-->
+  <link rel="stylesheet" href="/css/style.css" />
+
+
+
+</head>
+
+<body class="stokes-wrapper">
+
+
+  <!--========== 
+  Start of Header Section ==========-->
+
+  <header class="header text-center py-5">
+    <a class="navbar-brand" href="index.html">
+      <img class="logo" src="/images/logo.png" alt="Nightswan" />
+    </a>
+  </header>
+
+  <!--========== 
+    End of Header Section ==========-->
+
+  <!--========== 
+    Start of maintenance section ==========-->
+
+  <section class="slice-ptb coming-soon mt-5">
+    <span style="display: none;" id="getFullYear"></span>
+    <span class="display-1 d-none d-lg-block text-center text-black-soft-01">Collection IV</span>
+    <div class="container">
+      <div class="row mt-n6">
+        <div class="col-lg-5">
+          <h1>
+            <span class="text-primary-gradient">Hilton's <br />Collection IV</span><br />will be up in
+            <u class="typer text-warning" data-words="⏰" data-delay="100" data-deleteDelay="1000"></u>
+          </h1>
+
+          <!--===== Start of countdown =====-->
+          <ul class="countdown countdown-item countdown-small mt-5">
+            <li>
+              <span class="days text-primary-gradient">00</span>
+              <p class="days_text">Days</p>
+            </li>
+            <li class="seperator">:</li>
+            <li>
+              <span class="hours text-primary-gradient">00</span>
+              <p class="hours_text">Hours</p>
+            </li>
+            <li class="seperator">:</li>
+            <li>
+              <span class="minutes text-primary-gradient">00</span>
+              <p class="minutes_text">Minutes</p>
+            </li>
+            <li class="seperator">:</li>
+            <li>
+              <span class="seconds text-primary-gradient">00</span>
+              <p class="seconds_text">Seconds</p>
+            </li>
+          </ul>
+          <!--===== End of countdown =====-->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--========== 
+    End of maintenance section ==========-->
+
+  <!--========== 
+  Start of Javascript ==========-->
+
+  <!--===== Global required js =====-->
+  <script src="/js/jquery-3.6.0.min.js"></script>
+  <script src="/js/popper.min.js"></script>
+  <script src="/js/bootstrap/bootstrap.min.js"></script>
+
+  <!--===== Global script: js libraries and plugins =====-->
+  <script src="/js/appear/jquery.appear.js"></script>
+  <script src="/js/swiper/swiper.min.js"></script>
+  <script src="/js/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="/js/isotope/isotope.pkgd.min.js"></script>
+  <script src="/js/typer/typer.js"></script>
+  <script src="/js/mCustomScrollbar/jquery.mCustomScrollbar.min.js"></script>
+  <script src="/js/countdown/jquery.countdown.min.js"></script>
+
+  <!--===== Main theme script =====-->
+  <script src="/js/functions.js"></script>
+
+
+  <script>
+      $(".countdown").countdown(
+        {
+          date: '05/13/2023 12:00:00',
+          offset: +2,
+          day: "Day",
+          days: "Days",
+          hideOnComplete: true,
+        },
+        function (container) {
+          setTimeout(() => {
+            window.location.href = "/timedout.html";
+          }, 3000);
+        }
+      );
+    </script>
+
+  <!--========== 
+  End of Javascript ==========-->
+</body>
+
+</html>

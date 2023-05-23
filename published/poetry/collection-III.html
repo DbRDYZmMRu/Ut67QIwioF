@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--===== Required meta tags =====-->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="author" content="Infinitysoftway" />
+  <meta name="description" content="statistic charts" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--===== Title =====-->
+  <title>Collection III</title>
+
+  <!--===== Favicon =====-->
+  <link rel="shortcut icon" href="/images/favicon.png" />
+
+  <!--===== Google fonts =====-->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Jost:wght@300;400;500;600;700;800;900&display=swap" />
+      <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet" />
+
+  <!--===== Global bootstrap required css =====-->
+  <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css" />
+  <!--===== Global styles including: Font Icons, Plugins, etc =====-->
+  <link rel="stylesheet" type="text/css" href="/css/font-awesome/all.min.css" />
+  <link rel="stylesheet" href="/css/feather/iconfont.css" />
+  <link rel="stylesheet" href="/css/pe-icon-stroke/Pe-icon-7-stroke.css" />
+  <link rel="stylesheet" href="/css/simple-line-icons/simple-line-icons.css" />
+  <link rel="stylesheet" href="/css/themify-icons/themify-icons.css" />
+  <link rel="stylesheet" href="/css/pe-icon-stroke/Pe-icon-7-stroke.css" />
+  <link rel="stylesheet" href="/css/swiper/swiper.min.css" />
+  <link rel="stylesheet" href="/css/magnific-popup/magnific-popup.css" />
+  <!--===== Main theme css =====-->
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body class="stokes-wrapper" id="ctrlArea">
+
+    <!--========== 
+	Start of loader ==========-->
+
+  <div class="template-loader">
+    <div class="loaderCenter">
+      <div class="pencil">
+          <p>nightswan.com.ng</p>
+          <div class="loaderTop"></div>
+      </div>
+      <div class="stroke">
+      </div>
+  </div>
+  </div>
+
+  <!--========== 
+	End of loader ==========-->
+
+
+  <!--========== 
+    Start of  cookie modal notification section ==========-->
+  <div class="modal-subscribe">
+    <!-- Modal -->
+    <div class="modal fade" data-bs-backdrop="static" id="myModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog ">
+        <div class="modal-content">
+          <div class="modal-body p-0 bg-secondary rounded">
+            <div class="p-5 text-center">
+              <img class="img-fluid px-5" src="/images/svg/cookie.svg" alt="">
+              <h3>Cookies</h3>
+              <p class="text-dark"><b>Nightswan</b> uses cookies to
+                enhance user experience</p>
+              <a href="/cookies.html" class="text-primary-gradient
+                    fw-bold">Our policy</a>
+              <div class="d-grid mt-5">
+                <button type="button" class="btn btn-white rounded" data-bs-dismiss="modal"
+                  @click="store.acceptCookieUse()">Accept</button>
+                <p class="text-dark mt-4">Coupled with
+                  <svg class="logo" viewBox="0 0 128 128" width="24" height="24" data-v-53ccc107="">
+                    <path fill="#42b883" d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z"
+                      data-v-53ccc107=""></path>
+                    <path fill="#35495e" d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z" data-v-53ccc107="">
+                    </path>
+                  </svg>
+                  <a href="https://github.com/vuejs/petite-vue" target="_blank"
+                    style="color: #42b883;"><b>petite-vue</b></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--========== 
+          End of cookie modal notification section ==========-->
+  <!--==========-->
+
+
+  <!--========== 
+	Start of Header Section ==========-->
+
+  <header class="header">
+    <!--===== Start of navbar =====-->
+    <nav class="navbar navbar-light navbar-expand-lg navbar-default">
+      <div class="container-fluid">
+        <!--===== Start of logo =====-->
+        <a class="navbar-brand" href="/"><img class="logo" src="/images/logo.png" alt="Logo" /></a>
+        <!--===== End of logo =====-->
+
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="icon-bar top-bar mt-0"></span>
+          <span class="icon-bar middle-bar"></span>
+          <span class="icon-bar bottom-bar"></span>
+        </button>
+
+        <!--===== Start of nav =====-->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/"><span class="text-line"> Home
+                </span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/published/poetry/collection-IV.html"><span class="text-line">Collection IV
+                </span><span class="badge
+                    bg-primary" style="font-size: .55em;">New</span></a>
+            </li>
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="#" id="navbar-pages" data-bs-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <span class="text-line"> Published </span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbar-pages">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Poetry </span></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="/published/poetry/collection-I.html"><span class="text-line">
+                          Frith Hilton Collection I
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="/published/poetry/collection-II.html"><span class="text-line">
+                          Frith Hilton Collection II
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="/published/poetry/collection-III.html"><span class="text-line">
+                          Frith Hilton Collection III
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="/published/poetry/collection-IV.html"><span class="text-line">
+                          Frith Hilton Collection IV
+                        </span></a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/published/journal/a-life-worth-living.html"><span class="text-line">
+                      A Life Worth Living (Vision @ 2020)
+                    </span></a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/upcoming.html"><span class="text-line"> Upcoming </span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/cookies.html"><span class="text-line"> Cookies Policy </span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar-icons list-unstyled mb-0 ms-auto">
+          <a class="icon" href="https://www.facebook.com/frithhilton" target="_blank">
+            <i class="feather icon-facebook"></i>
+          </a>
+          <a class="icon" href="https://www.instagram.com/frithhilton" target="_blank">
+            <i class="feather icon-instagram"></i>
+          </a>
+          <a class="icon" href="https://www.twitter.com/frithhilton" target="_blank">
+            <i class="feather icon-twitter"></i>
+          </a>
+
+
+        </div>
+        <!--===== End of nav =====-->
+      </div>
+    </nav>
+    <!--===== End of navbar =====-->
+  </header>
+
+  <!--========== 
+	End of header ==========-->
+
+
+
+<!--========== 
+  Start of 404 Page ==========-->
+
+  <section class="slice-ptb">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-xl-6">
+          <b class="text-primary lead fw-bold">Book isn't here yet.</b>
+          <h1 class="error-title mt-4 mb-5">📖 </h1>
+          <h3>Check back soon</h3>
+          <p><b class="fw-bold">Collection III </b> will be here for you to enjoy.</p>
+          <a class="btn btn-warning btn-rounded mt-4" href="/index.html">Back to home</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!--========== 
+    End of 404 Page ==========-->
+
+
+
+
+  <!--========== 
+  Start of bottom page  ==========-->
+
+  <section class="py-5 bg-pink-gradient">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <h3 class="text-white" id="some-id">
+            I'm here
+            <u class="typer text-warning" data-words="writing,making music," data-delay="100" data-deletedelay="1000"
+              style="color: black"></u>
+            often.
+          </h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--========== 
+  End of bottom page  ==========-->
+
+  <!--========== 
+    Map section ==========-->
+
+  <section id="contact-us" class="position-relative">
+    <div class="google-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.629367104963!2d3.2316144785641425!3d6.692744576034127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b996ae457d243%3A0x63b338921b72fdf9!2sFrith%20Nightswan%20Enterprises!5e0!3m2!1sen!2sng!4v1683451340692!5m2!1sen!2sng"
+        width="800" height="600" style="border: 0" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!--========== 
+    End of map section ==========-->
+  </section>
+  <!--========== 
+  Start of footer section ==========-->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 position-relative mb-5 mb-sm-0">
+          <div class="position-absolute top-0 start-0 slice-pt ps-5 ps-lg-8"></div>
+        </div>
+        <div class="col-lg-6">
+          <!--===== Start of footer item =====-->
+          <div class="text-center slice-ptb">
+            <h4 class="mb-4 mt-5 mt-lg-0">Time Open</h4>
+            <div class="mb-4">
+              <h5>Monday to Friday</h5>
+              <p>8:30 am to 5 pm</p>
+            </div>
+
+            <h4 class="mb-4">Address</h4>
+            <div class="mb-4">
+              <h5>11, Akindenoh street Ota, Ogun State.</h5>
+              <p>info@nightswan.com.ng</p>
+            </div>
+            <h2 class="text-green mb-0 mt-5">
+              <i class="feather icon-phone-call"></i> (234) 815 813 2408
+            </h2>
+          </div>
+          <!--===== End of footer item =====-->
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <footer class="footer bg-black slice-pt">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 offset-lg-2">
+          <h2 class="text-white display-2 mb-4">
+            <span class="typer text-white" id="some-id" data-words="Catch up!" data-delay="100">
+            </span>
+          </h2>
+
+          <div class="social-icons icons-xl mt-5">
+            <a class="icon text-white" href="https://www.facebook.com/frithhilton" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a class="icon text-white" href="https://www.twitter.com/frithhilton" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a class="icon text-white" href="https://www.instagram.com/frithhilton" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr class="mt-7" />
+      <div class="row text-center">
+        <div class="col-12">
+          <p class="text-white mt-3 mb-4 pe-6">
+            © <span id="getFullYear"></span>
+            <span class="text-pink-gradient">Nightswan Frith Hilton</span>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--========== 
+  End of footer section ==========-->
+
+
+
+
+    <!--========== 
+	Start of back to top section ==========-->
+
+    <div class="go-top">
+      <p class="go-top-text">
+        Scroll to top <i class="fas fa-long-arrow-alt-right ps-2"></i>
+      </p>
+    </div>
+
+    <!--========== 
+	End of back to top section ==========-->
+
+  <!--========== 
+	Start of Javascript ==========-->
+
+  <!--===== Global required js =====-->
+  <script src="/js/jquery-3.6.0.min.js"></script>
+  <script src="/js/popper.min.js"></script>
+  <script src="/js/bootstrap/bootstrap.min.js"></script>
+
+  <!--===== Global script: js libraries and plugins =====-->
+  <script src="/js/appear/jquery.appear.js"></script>
+  <script src="/js/swiper/swiper.min.js"></script>
+  <script src="/js/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="/js/isotope/isotope.pkgd.min.js"></script>
+  <script src="/js/typer/typer.js"></script>
+  <script src="/js/jarallax/jarallax.min.js"></script>
+  <script src="/js/mCustomScrollbar/jquery.mCustomScrollbar.min.js"></script>
+  <!--===== Main theme script =====-->
+  <script src="/js/functions.js"></script>
+  <script type="module">
+    import {
+      createApp,
+      reactive
+    } from 'https://unpkg.com/petite-vue?module';
+    const store = reactive({
+      acceptCookieUse() {
+        localStorage.setItem("cookieUse", true)
+      }
+    })
+    createApp({
+      store
+    }).mount("#ctrlArea")
+  </script>
+  <!--========== 
+	End of Javascript ==========-->
+</body>
+
+</html>
