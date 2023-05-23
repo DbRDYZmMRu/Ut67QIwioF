@@ -1,0 +1,80 @@
+/**********************/
+/* Food  */
+/**********************/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.btn {
+  font-family: "Lora", sans-serif;
+  font-weight: 600;
+}
+
+.navbar .navbar-nav li .text-line:before {
+  background: #50d294;
+  }
+  
+.navbar .navbar-nav .dropdown-menu li .dropdown-item .text-line:before {
+  background: #50d294;
+}
+
+.navbar .navbar-nav .dropdown-item:focus .dropdown-toggle::after, .navbar .navbar-nav .dropdown-item:hover.dropdown-toggle::after {
+  color: #50d294;
+}
+
+.banner-food {
+  padding: 300px 0;
+}
+
+.food-menu-item .food-menu-border {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.food-menu-item .food-menu-border h5 {
+  position: relative;
+}
+
+.food-menu-item .food-menu-border:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 12px;
+  width: 100%;
+  border: 1px dashed #ced4da;
+}
+
+.swiper-button-green .swiper-button-next .icon-btn,
+.swiper-button-green .swiper-button-prev .icon-btn {
+  background: #50d294;
+}
+
+.swiper-button-green .swiper-button-next .icon-btn:hover,
+.swiper-button-green .swiper-button-prev .icon-btn:hover {
+  background: #50d294;
+  color: #fff;
+}
+
+@media (max-width:991px) {
+  .banner-food {
+    padding: 150px 0;
+  }
+
+}
+
+@media (max-width:767px) {
+  .food-footer-bg .position-absolute {
+    position: relative !important;
+  }
+
+}
+
+@media (max-width:576px) {
+  .banner-food {
+    padding: 100px 0;
+  }
+
+}

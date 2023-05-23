@@ -1,0 +1,14 @@
+/**********************/
+/* Personal  */
+/**********************/
+.navbar .navbar-nav li .text-line:before {
+  background: #fd692e;
+  }
+  
+.navbar .navbar-nav .dropdown-menu li .dropdown-item .text-line:before {
+  background: #fd692e;
+}
+
+.navbar .navbar-nav .dropdown-item:focus .dropdown-toggle::after, .navbar .navbar-nav .dropdown-item:hover.dropdown-toggle::after {
+  color: #fd692e;
+}

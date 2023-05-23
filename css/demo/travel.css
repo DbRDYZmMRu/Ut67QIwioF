@@ -1,0 +1,93 @@
+/**********************/
+/* Travel  */
+/**********************/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header .nav-link,
+.topbar .topbar-list li {
+  font-family: 'Oswald', sans-serif;
+}
+
+
+
+.navbar .navbar-nav li .text-line:before {
+  background: #ff7171;
+}
+
+.navbar .navbar-nav .dropdown-menu li .dropdown-item .text-line:before {
+  background: #ff7171;
+}
+
+.navbar .navbar-nav .dropdown-item:focus .dropdown-toggle::after, .navbar .navbar-nav .dropdown-item:hover.dropdown-toggle::after {
+  color: #ff7171;
+}
+
+.banner-travel {
+  padding: 170px 0;
+}
+
+.tour-item {
+  position: relative;
+  z-index: 1;
+}
+
+.tour-item .tour-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.tour-item .tour-image:before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(to top, #000000 0%, transparent 100%);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  border-radius: .25rem;
+}
+
+.tour-item .tour-image img {
+  transition: all 0.4s ease-in-out;
+}
+
+.tour-item .tour-caption {
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.tour-item .tour-caption .tour-title {
+  color: #ffffff;
+}
+
+.tour-item .tour-caption .tour-title:hover {
+  color: #3452ff;
+}
+
+.tour-item .tour-location {
+  position: absolute;
+  padding: 20px 30px;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.tour-item:hover .tour-image img {
+  transform: scale(1.05);
+}
+
+@media (max-width:991px) {
+  .banner-travel {
+    padding: 100px 0;
+  }
+
+}

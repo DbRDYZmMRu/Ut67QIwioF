@@ -1,0 +1,56 @@
+/**********************/
+/* Charity  */
+/**********************/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.btn {
+  font-family: "Poppins", sans-serif;
+}
+
+.banner-charity {
+  padding: 300px 0;
+}
+
+.tab-default.tab-number .nav-item .nav-link {
+  padding: 16px 38px;
+}
+
+.tab-default.tab-light .nav .nav-item .nav-link.active {
+  background: #50d294;
+}
+
+.tab-default.tab-number .nav-item .nav-link.active span {
+  color: #50d294;
+}
+
+.tab-default.tab-light .nav .nav-item .nav-link {
+  background: #fff;
+}
+
+.blog-post .blog-caption .blog-meta a:hover {
+  color: #50d294 !important;
+}
+
+.navbar .navbar-nav li .text-line:before {
+  background: #50d294;
+  }
+  
+.navbar .navbar-nav .dropdown-menu li .dropdown-item .text-line:before {
+  background: #50d294;
+}
+
+.navbar .navbar-nav .dropdown-item:focus .dropdown-toggle::after, .navbar .navbar-nav .dropdown-item:hover.dropdown-toggle::after {
+  color: #50d294;
+}
+
+@media (max-width:991px) {
+  .banner-charity {
+    padding: 100px 0;
+  }
+
+}

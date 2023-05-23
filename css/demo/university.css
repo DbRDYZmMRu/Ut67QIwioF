@@ -1,0 +1,25 @@
+/**********************/
+/* University  */
+/**********************/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.btn {
+  font-family: 'Noto Serif', serif;
+  font-weight: 700;
+}
+
+.banner-university {
+  padding: 240px 0;
+}
+
+@media (max-width:991px) {
+  .banner-university {
+    padding: 170px 0 100px;
+  }
+
+}

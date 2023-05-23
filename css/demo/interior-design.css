@@ -1,0 +1,63 @@
+/**********************/
+/* Interior design  */
+/**********************/
+
+body {
+  font-family: 'Questrial', sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.btn {
+  font-family: 'Questrial', sans-serif;
+}
+
+.navbar .navbar-nav li .text-line:before {
+  background: #000;
+  }
+  
+.navbar .navbar-nav .dropdown-menu li .dropdown-item .text-line:before {
+  background: #000;
+}
+
+.navbar .navbar-nav .dropdown-item:focus .dropdown-toggle::after, .navbar .navbar-nav .dropdown-item:hover.dropdown-toggle::after {
+  color: #000;
+}
+
+.banner-interior-design {
+  padding: 230px 0;
+}
+
+.swiper-button-dark .swiper-button-next .icon-btn,
+.swiper-button-dark .swiper-button-prev .icon-btn {
+  background: #000;
+}
+
+.swiper-button-dark .swiper-button-next .icon-btn:hover,
+.swiper-button-dark .swiper-button-prev .icon-btn:hover {
+  background: #000;
+  color: #fff;
+}
+
+.portfolio-item-01 .portfolio-item-hover a {
+  color: #000;
+}
+
+@media (max-width:991px) {
+  .banner-interior-design {
+    padding: 100px 0;
+  }
+
+}
+
+@media (max-width:576px) {
+  .banner-interior-design {
+    padding: 70px 0;
+  }
+
+}

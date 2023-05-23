@@ -1,0 +1,57 @@
+/**********************/
+/* GYM  */
+/**********************/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.btn {
+   font-family: 'Oswald', sans-serif;
+   text-transform: uppercase;
+}
+
+a:hover {
+   color: #e91c28;
+}
+
+.navbar .navbar-nav li .text-line:before {
+  background: #e91c28;
+  }
+  
+.navbar .navbar-nav .dropdown-menu li .dropdown-item .text-line:before {
+  background: #e91c28;
+}
+
+.navbar .navbar-nav .dropdown-item:focus .dropdown-toggle::after, .navbar .navbar-nav .dropdown-item:hover.dropdown-toggle::after {
+  color: #e91c28;
+}
+
+.footer .footer-links ul li a:hover {
+   color: #e91c28 !important;
+}
+
+.banner-gym {
+   padding-top: 600px;
+}
+
+.btn.btn-white:hover {
+   background: #e91c28;
+   color: #ffffff;
+}
+
+@media (max-width:991px) {
+   .banner-gym {
+      padding-top: 400px;
+   }
+
+}
+
+@media (max-width:567px) {
+   .banner-gym {
+      padding-top: 200px;
+   }
+
+}

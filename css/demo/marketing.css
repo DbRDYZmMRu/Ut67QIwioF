@@ -1,0 +1,52 @@
+/**********************/
+/* Marketing  */
+/**********************/
+
+.navbar .navbar-nav li .text-line:before {
+  background: #f97204;
+  }
+  
+.navbar .navbar-nav .dropdown-menu li .dropdown-item .text-line:before {
+  background: #f97204;
+}
+
+.navbar .navbar-nav .dropdown-item:focus .dropdown-toggle::after, .navbar .navbar-nav .dropdown-item:hover.dropdown-toggle::after {
+  color: #f97204;
+}
+
+.banner-marketing {
+  padding: 150px 0;
+}
+
+.swiper-button-orange .swiper-button-next .icon-btn,
+.swiper-button-orange .swiper-button-prev .icon-btn {
+  background: rgba(249, 114, 4, 0.2);
+}
+
+.swiper-button-orange .swiper-button-next .icon-btn:hover,
+.swiper-button-orange .swiper-button-prev .icon-btn:hover {
+  background: #f97204;
+  color: #fff;
+}
+
+@media (max-width:991px) {
+  .banner-marketing {
+    padding: 100px 0;
+  }
+
+  .top-divider img {
+    margin-top: -70px;
+  }
+
+  .bottom-divider img {
+    margin-bottom: -20px !important;
+  }
+
+}
+
+@media (max-width:575px) {
+  .banner-marketing {
+    padding: 100px 0 80px;
+  }
+
+}

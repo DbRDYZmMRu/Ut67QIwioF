@@ -1,0 +1,15 @@
+
+/**********************/
+/* One page  */
+/**********************/
+
+.one-page-banner {
+  padding: 300px 0;
+}
+
+@media (max-width:991px) {
+  .one-page-banner {
+    padding: 160px 0 100px;
+  }
+
+}
