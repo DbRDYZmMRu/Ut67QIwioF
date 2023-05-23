@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="404" height="19.406" viewBox="0 0 404 19.406">
+  <defs>
+    <style>
+.fill-warning { fill: orange; }
+    </style>    
+  </defs>
+  <path class="cls-1 fill-warning" d="M0,20V15S365.327-2.186,402,1l2,5S10.914,17.531,0,20Z" transform="translate(0 -0.594)"/>
+</svg>
