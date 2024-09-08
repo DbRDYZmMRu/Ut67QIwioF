@@ -25,6 +25,8 @@
       href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap"
       rel="stylesheet"
     />
+ <!-- font-awesome-icons -->
+ <script src="https://kit.fontawesome.com/c7fbb1b458.js" crossorigin="anonymous"></script>  
 
     <!--===== Global bootstrap required css =====-->
     <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css" />
@@ -54,251 +56,252 @@
   </head>
 
   <body class="stokes-wrapper" id="ctrlArea" v-cloak>
-    <!--========== 
-	Start of loader ==========-->
+  <!--========== 
+        Start of loader ==========-->
 
-    <div class="template-loader">
-      <div class="loaderCenter">
-        <div class="pencil">
-          <p>nightswan.com.ng</p>
+  <div class="template-loader">
+    <div class="loaderCenter">
+      <div class="pencil">
+          <p>Frith Hilton Library</p>
           <div class="loaderTop"></div>
-        </div>
-        <div class="stroke"></div>
       </div>
-    </div>
+      <div class="stroke">
+      </div>
+  </div>
+  </div>
 
-    <!--========== 
-	End of loader ==========-->
+  <!--========== 
+        End of loader ==========-->
 
-    <!--========== 
+
+  <!--========== 
     Start of  cookie modal notification section ==========-->
-    <div class="modal-subscribe">
-      <!-- Modal -->
-      <div
-        class="modal fade"
-        data-bs-backdrop="static"
-        id="myModal"
-        tabindex="-1"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-body p-0 bg-secondary rounded">
-              <div class="p-5 text-center">
-                <img
-                  class="img-fluid px-5"
-                  src="/images/svg/cookie.svg"
-                  alt=""
-                />
-                <h3>Cookies</h3>
-                <p class="text-dark">
-                  <b>Hilton</b> uses cookies to enhance user experience
+  <div class="modal-subscribe">
+    <!-- Modal -->
+    <div class="modal fade" data-bs-backdrop="static" id="myModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog ">
+        <div class="modal-content">
+          <div class="modal-body p-0 bg-secondary rounded">
+            <div class="p-5 text-center">
+              <img class="img-fluid px-5" src="../images/svg/cookie.svg" alt="">
+              <h3>Cookies</h3>
+              <p class="text-dark"><b>Hilton</b> uses cookies to
+                enhance user experience</p>
+              <a href="cookies.html" class="text-primary-gradient
+                    fw-bold">Our policy</a>
+              <div class="d-grid mt-5">
+                <button type="button" class="btn btn-white rounded" data-bs-dismiss="modal"
+                  @click="store.acceptCookieUse()">Accept</button>
+                <p class="text-dark mt-4">Coupled with
+                  <svg class="logo" viewBox="0 0 128 128" width="24" height="24" data-v-53ccc107="">
+                    <path fill="#42b883" d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z"
+                      data-v-53ccc107=""></path>
+                    <path fill="#35495e" d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z" data-v-53ccc107="">
+                    </path>
+                  </svg>
+                  <a href="https://github.com/vuejs/petite-vue" target="_blank"
+                    style="color: #42b883;"><b>petite-vue</b></a>
                 </p>
-                <a href="/cookies.html" class="text-primary-gradient fw-bold"
-                  >Our policy</a
-                >
-                <div class="d-grid mt-5">
-                  <button
-                    type="button"
-                    class="btn btn-white rounded"
-                    data-bs-dismiss="modal"
-                    @click="store.acceptCookieUse()"
-                  >
-                    Accept
-                  </button>
-                  <p class="text-dark mt-4">
-                    Coupled with
-                    <svg
-                      class="logo"
-                      viewBox="0 0 128 128"
-                      width="24"
-                      height="24"
-                      data-v-53ccc107=""
-                    >
-                      <path
-                        fill="#42b883"
-                        d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z"
-                        data-v-53ccc107=""
-                      ></path>
-                      <path
-                        fill="#35495e"
-                        d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z"
-                        data-v-53ccc107=""
-                      ></path>
-                    </svg>
-                    <a
-                      href="https://github.com/vuejs/petite-vue"
-                      target="_blank"
-                      style="color: #42b883"
-                      ><b>petite-vue</b></a
-                    >
-                  </p>
-                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!--========== 
+  </div>
+  <!--========== 
           End of cookie modal notification section ==========-->
+  <!--==========-->
     <!--==========-->
 
-    <!--========== 
-	Start of Header Section ==========-->
+  <!--========== 
+        Start of Header Section ==========-->
 
-    <header class="header">
-      <!--===== Start of navbar =====-->
-      <nav class="navbar navbar-light navbar-expand-lg navbar-default">
-        <div class="container-fluid">
-          <!--===== Start of logo =====-->
-          <a class="navbar-brand" href="/"
-            ><img class="logo" src="../images/logo.png" alt="Logo"
-          /></a>
-          <!--===== End of logo =====-->
+  <header class="header">
+    <!--===== Start of navbar =====-->
+    <nav class="navbar navbar-light navbar-expand-lg navbar-default">
+      <div class="container-fluid">
+        <!--===== Start of logo =====-->
+        <a class="navbar-brand" href="../index.html"><img class="logo" src="../images/logo.png" alt="Frith Hilton Logo" /></a>
+        <!--===== End of logo =====-->
 
-          <button
-            class="navbar-toggler collapsed"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarCollapse"
-            aria-controls="navbarCollapse"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="icon-bar top-bar mt-0"></span>
-            <span class="icon-bar middle-bar"></span>
-            <span class="icon-bar bottom-bar"></span>
-          </button>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="icon-bar top-bar mt-0"></span>
+          <span class="icon-bar middle-bar"></span>
+          <span class="icon-bar bottom-bar"></span>
+        </button>
 
-          <!--===== Start of nav =====-->
-          <div
-            class="collapse navbar-collapse justify-content-center"
-            id="navbarCollapse"
-          >
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="/"
-                  ><span class="text-line"> Home </span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/published/poetry/collection-IV.html"
-                  ><span class="text-line">Collection IV </span
-                  ><span class="badge bg-primary" style="font-size: 0.55em"
-                    >New</span
-                  ></a
-                >
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbar-pages"
-                  data-bs-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  <span class="text-line"> Published </span>
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbar-pages">
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#"
-                      ><span class="text-line"> Poetry </span></a
-                    >
-                    <ul class="dropdown-menu">
-                      <li>
-                        <a
-                          class="dropdown-item"
-                          href="/published/poetry/collection-I.html"
-                          ><span class="text-line">
-                            Frith Hilton Collection I
-                          </span></a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          class="dropdown-item"
-                          href="/published/poetry/collection-II.html"
-                          ><span class="text-line">
-                            Frith Hilton Collection II
-                          </span></a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          class="dropdown-item"
-                          href="/published/poetry/collection-III.html"
-                          ><span class="text-line">
-                            Frith Hilton Collection III
-                          </span></a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          class="dropdown-item"
-                          href="/published/poetry/collection-IV.html"
-                          ><span class="text-line">
-                            Frith Hilton Collection IV
-                          </span></a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="/published/journal/a-life-worth-living.html"
-                      ><span class="text-line">
-                        A Life Worth Living (Vision @ 2020)
-                      </span></a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="/pages/upcoming.html"
-                  ><span class="text-line"> Upcoming </span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/cookies.html"
-                  ><span class="text-line"> Cookies Policy </span></a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="navbar-icons list-unstyled mb-0 ms-auto">
-            <a
-              class="icon"
-              href="https://www.facebook.com/frithhilton"
-              target="_blank"
-            >
-              <i class="feather icon-facebook"></i>
-            </a>
-            <a
-              class="icon"
-              href="https://www.instagram.com/frithhilton"
-              target="_blank"
-            >
-              <i class="feather icon-instagram"></i>
-            </a>
-            <a
-              class="icon"
-              href="https://www.twitter.com/frithhilton"
-              target="_blank"
-            >
-              <i class="feather icon-twitter"></i>
-            </a>
-          </div>
-          <!--===== End of nav =====-->
+        <!--===== Start of nav =====-->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="../index.html"><span class="text-line"> Home </span></a>
+            </li>                       
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbar-pages" data-bs-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <span class="text-line"> Publications</span>
+              </a>
+              
+              <ul class="dropdown-menu" aria-labelledby="navbar-pages">
+                  <div class="mb-3 mt-3">
+                      <a  href="#">
+             Frith Hilton Collections
+                        </a>                      
+                  </div>                                        
+
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections I — III </span></a>
+                  <ul class="dropdown-menu">                    
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-I.html"><span class="text-line">
+                          Collection I
+                        </span></a>                                                
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-II.html"><span class="text-line">
+             Collection II
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-III.html"><span class="text-line">
+             Collection III
+                        </span></a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections IV — VI </span></a>
+                  <ul class="dropdown-menu">                    
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-IV.html"><span class="text-line">
+                          Collection IV
+                        </span></a>                                                
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-V.html"><span class="text-line">
+             Collection V
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-VI.html"><span class="text-line">
+             Collection VI
+                        </span></a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections VII — IX </span></a>
+                  <ul class="dropdown-menu">                    
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-VII.html"><span class="text-line">
+                          Collection VII
+                        </span></a>                                                
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-VIII.html"><span class="text-line">
+             Collection VIII
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-IX.html"><span class="text-line">
+             Collection IX
+                        </span></a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections X — XII </span></a>
+                  <ul class="dropdown-menu">                    
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-X.html"><span class="text-line">
+                          Collection X
+                        </span></a>                                                
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-XI.html"><span class="text-line">
+             Collection XI
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-XII.html"><span class="text-line">
+             Collection XII
+                        </span></a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections XIII — XIV </span></a>
+                  <ul class="dropdown-menu">                    
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-XIII.html"><span class="text-line">
+                          Collection XIII
+                        </span></a>                                                
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-XIV.html"><span class="text-line">
+             Collection XIV
+                        </span><span class="badge bg-primary" style="font-size: 0.55em">New</span></a>
+                    </li>
+                  </ul>
+                </li>
+                  <div class="mb-3 mt-3">
+                      <a  href="#">
+             Non-Fiction
+                        </a>                      
+                  </div>
+                
+                <li>
+                  <a class="dropdown-item" href="published/poetry/bury-me-in-1965.html"><span class="text-line">
+                      Bury me in 1965
+                    </span></a>
+                </li>
+                                                
+                <li>
+                  <a class="dropdown-item" href="published/journal/a-life-worth-living.html"><span class="text-line">
+                      A Life Worth Living (Vision @ 2020)
+                    </span></a>
+                </li>
+              </ul>
+            </li>
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="pages/upcoming.html"><span class="text-line"> Upcoming Poetry</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/musicpool.html"><span class="text-line"> Musicpool </span></a>
+            </li>            
+            <li class="nav-item">
+              <a class="nav-link" href="cookies.html"><span class="text-line"> Cookies Policy </span></a>
+            </li>
+          </ul>
         </div>
-      </nav>
-      <!--===== End of navbar =====-->
-    </header>
+        <div class="navbar-icons list-unstyled mb-0 ms-auto">
+          <a class="icon" href="https://www.facebook.com/frithhilton17" target="_blank">
+            <i class="feather icon-facebook"></i>
+          </a>
+          <a class="icon" href="https://www.instagram.com/frithhilton17" target="_blank">
+            <i class="feather icon-instagram"></i>
+          </a>
+          <a class="icon" href="https://www.twitter.com/frithhilton17" target="_blank">
+            <i class="feather icon-twitter"></i>
+          </a>
+        </div>
+        <!--===== End of nav =====-->
+      </div>
+    </nav>
+    <!--===== End of navbar =====-->
+  </header>
 
-    <!--========== 
-	End of header ==========-->
+  <!--========== 
+        End of header ==========-->
+
+  <!--========== 
+        End of Sidebar ==========-->
+
 
     <!--========== 
   Start of Timeline section ==========-->
@@ -309,7 +312,7 @@
           <div class="col-lg-6">
             <!--===== Start of  Upcoming timeline =====-->
             <div class="mb-5">
-              <h4 class="ms-3">upcoming poetry</h4>
+              <h4 class="ms-3 text-pink-gradient">upcoming poetry</h4>
             </div>
             <div class="feature-timeline ms-5">
               <div v-for="poem in store.getUpcomingPoems()" :key="poem.id">
@@ -345,46 +348,13 @@
             >
               <!--===== Start of Title =====-->
               <div class="mb-5 text-center">
-                <h5>{{store.getCurrentPoem().title}}</h5>
+                  <div class="mb-5 mt-5">
+                <h5>{{store.getCurrentPoem().title}}</h5>                      
+                  </div>
                 <div
                   v-html="store.getCurrentPoem().content"
                   class="mt-4 me-4 ms-4 mb-5"
                 ></div>
-                <div
-                  class="social-icons social-text-small icon-colored mt-7 mb-5"
-                >
-                  <a
-                    @click="store.shareToFacebook()"
-                    class="icon facebook"
-                    href="#!"
-                    id="shareToFacebookBtn"
-                  >
-                    <i class="fab fa-facebook-f"></i>
-                    <span>Share</span>
-                  </a>
-                  <!-- <a
-                  @click="store.shareToTwitter()"
-                  class="icon twitter"
-                  data-show-count="false"
-                  id="shareToTwitterBtn" href="https://twitter.com/share?ref_src=twsrc%5Etfw" target="_blank"  :data-url="https://dev.nightswan.com.ng/pages/Hilton/collections/iv/one.html" data-hashtags="frithhiltoncollection" data-show-count="false"
-                >
-                  <i class="fab fa-twitter"></i>
-                  <span>Tweet</span>
-                </a>  -->
-                  <a @click="store.copyURL()" class="icon link" id="copyURLBtn">
-                    <i class="fas fa-link" id="copyURLIcon"></i>
-                    <span id="CopyURLText">{{store.CopyURLText}}</span>
-                  </a>
-                  <a
-                    @click="store.shareToWhatsApp()"
-                    class="icon link"
-                    href="#!"
-                    id="shareToWhatsAppBtn"
-                  >
-                    <i class="fab fa-whatsapp"></i>
-                    <span>WhatsApp</span>
-                  </a>
-                </div>
                 <span class="bg-warning-soft-01 px-4 py-2 text-dark rounded"
                   >{{store.getCurrentPoem().date}}</span
                 >
@@ -412,151 +382,132 @@ End of poetry content ==========-->
     <!--========== 
     End of Timeline section ==========-->
 
-    <!--========== 
+
+  <!--========== 
   Start of bottom page  ==========-->
 
-    <section class="py-5 bg-pink-gradient">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12 text-center">
-            <h3 class="text-white" id="some-id">
-              I'm here
-              <u
-                class="typer text-warning"
-                data-words="writing,making music,"
-                data-delay="100"
-                data-deletedelay="1000"
-                style="color: black"
-              ></u>
-              often.
-            </h3>
-          </div>
+  <section class="py-5 bg-pink-gradient">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <h3 class="text-white" id="some-id">
+            I'm here
+            <u class="typer text-warning" data-words="writing,making music," data-delay="100" data-deletedelay="1000"
+              style="color: black"></u>
+            often.
+          </h3>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!--========== 
-End of bottom page  ==========-->
+  <!--========== 
+  End of bottom page  ==========-->
 
-    <!--========== 
-  Map section ==========-->
+  <!--========== 
+    Map section ==========-->
 
-    <section id="contact-us" class="position-relative">
-      <div class="google-map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.629367104963!2d3.2316144785641425!3d6.692744576034127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b996ae457d243%3A0x63b338921b72fdf9!2sFrith%20Nightswan%20Enterprises!5e0!3m2!1sen!2sng!4v1683451340692!5m2!1sen!2sng"
-          width="800"
-          height="600"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </div>
-
-      <!--========== 
-  End of map section ==========-->
-    </section>
-    <!--========== 
-Start of footer section ==========-->
-
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 position-relative mb-5 mb-sm-0">
-            <div
-              class="position-absolute top-0 start-0 slice-pt ps-5 ps-lg-8"
-            ></div>
-          </div>
-          <div class="col-lg-6">
-            <!--===== Start of footer item =====-->
-            <div class="text-center slice-ptb">
-              <h4 class="mb-4 mt-5 mt-lg-0">Time Open</h4>
-              <div class="mb-4">
-                <h5>Monday to Friday</h5>
-                <p>8:30 am to 5 pm</p>
-              </div>
-
-              <h4 class="mb-4">Address</h4>
-              <div class="mb-4">
-                <h5>11, Akindenoh street Ota, Ogun State.</h5>
-                <p>info@nightswan.com.ng</p>
-              </div>
-              <h2 class="text-green mb-0 mt-5">
-                <i class="feather icon-phone-call"></i> (234) 815 813 2408
-              </h2>
-            </div>
-            <!--===== End of footer item =====-->
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <footer class="footer bg-black slice-pt">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-lg-4 offset-lg-2">
-            <h2 class="text-white display-2 mb-4">
-              <span
-                class="typer text-white"
-                id="some-id"
-                data-words="Catch up!"
-                data-delay="100"
-              >
-              </span>
-            </h2>
-
-            <div class="social-icons icons-xl mt-5">
-              <a
-                class="icon text-white"
-                href="https://www.facebook.com/frithhilton"
-                target="_blank"
-              >
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a
-                class="icon text-white"
-                href="https://www.twitter.com/frithhilton"
-                target="_blank"
-              >
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a
-                class="icon text-white"
-                href="https://www.instagram.com/frithhilton"
-                target="_blank"
-              >
-                <i class="fab fa-instagram"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <hr class="mt-7" />
-        <div class="row text-center">
-          <div class="col-12">
-            <p class="text-white mt-3 mb-4 pe-6">
-              © <span id="getFullYear"></span>
-              <span class="text-pink-gradient">Nightswan Frith Hilton</span>.
-            </p>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!--========== 
-End of footer section ==========-->
-
-    <!--========== 
-	Start of back to top section ==========-->
-
-    <div class="go-top">
-      <p class="go-top-text">
-        Scroll to top <i class="fas fa-long-arrow-alt-right ps-2"></i>
-      </p>
+  <section id="contact-us" class="position-relative">
+    <div class="google-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.629367104963!2d3.2316144785641425!3d6.692744576034127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b996ae457d243%3A0x63b338921b72fdf9!2sFrith%20Nightswan%20Enterprises!5e0!3m2!1sen!2sng!4v1683451340692!5m2!1sen!2sng"
+        width="800" height="600" style="border: 0" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
     <!--========== 
-	End of back to top section ==========-->
+    End of map section ==========-->
+  </section>
+  <!--========== 
+  Start of footer section ==========-->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 position-relative mb-5 mb-sm-0">
+          <div class="position-absolute top-0 start-0 slice-pt ps-5 ps-lg-8"></div>
+        </div>
+        <div class="col-lg-6">
+          <!--===== Start of footer item =====-->
+          <div class="text-center slice-ptb">
+            <h4 class="mb-4 mt-5 mt-lg-0">Time Open</h4>
+            <div class="mb-4">
+              <h5>Monday to Friday</h5>
+              <p>8:30 am to 5 pm</p>
+            </div>
+
+            <h4 class="mb-4">Address</h4>
+            <div class="mb-4">
+              <h5>11, Akindenoh street Ota, Ogun State.</h5>
+              <p><a href="mailto:nightswan.enterprise@gmail.com">Send Frith Hilton Mail</a></p> 
+                           
+            </div>
+            <h2 class="text-green mb-0 mt-5">
+              <i class="feather icon-phone-call"></i> (234) 815 813 2408
+            </h2>
+          </div>
+          <!--===== End of footer item =====-->
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <footer class="footer bg-black slice-pt">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 offset-lg-2">
+          <h2 class="text-white display-2 mb-4">
+            <span class="typer text-white" id="some-id" data-words="Catch up!" data-delay="100">
+            </span>
+          </h2>
+
+          <div class="social-icons icons-xl mt-5">
+            <a class="icon text-white" href="https://youtube.com/@frithhilton17?si=8pEsa1wf1KxLNvBK" target="_blank">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a class="icon text-white" href="https://www.tiktok.com/@frithhilton17" target="_blank">
+              <i class="fab fa-tiktok"></i>
+            </a>            
+            <a class="icon text-white" href="https://www.twitter.com/frithhilton17" target="_blank">
+              <i class="fab fa-x-twitter"></i>
+            </a>
+            <a class="icon text-white" href="https://www.instagram.com/frithhilton17" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr class="mt-7" />
+      <div class="row text-center">
+        <div class="col-12">
+<div class="developer-footer mb-2">
+  <img src="../images/Leondev.png" alt="lEoNDɘv" width="80" height="80">
+</div>                            
+          <p class="text-white mt-3 mb-4">
+            © <span id="getFullYear"></span>
+            <span class="text-pink-gradient">Howard Frith Hilton</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--========== 
+  End of footer section ==========-->
+
+  <!--========== 
+        Start of back to top section ==========-->
+
+  <div class="go-top">
+    <p class="go-top-text">
+      Scroll to top <i class="fas fa-long-arrow-alt-right ps-2"></i>
+    </p>
+  </div>
+
+  <!--========== 
+        End of back to top section ==========-->
+
+
 
     <!--========== 
 	Start of Javascript ==========-->
@@ -661,82 +612,92 @@ End of footer section ==========-->
             upcomingPoems: [
               {
                 id: 1,
-                title: "the lakes",
-                content: `<p>In dreamlike states</p><p>it’s unlikely you’ll find a flame</p><p>something is the matter; you’re awake</p><p>for something new to share the space</p><p>an unlearning, a descending phase</p><p>and in the waiting, you bathe</p><p>and I’ll wait, hoping it isn’t just fate</p><p>let’s go somewhere on a date</p><p>catch new pages through weekdays</p><p>get up on our immersing bathe claims</p><p>like it'd take forever to hit the lakes.</p>`,
-                date: "1st of May",
+                title: "Patchwork",
+                content: `<p>I haven't had much to do </p>
+<p>since we gave up the marbles</p>
+<p>when I'm asked to choose</p>
+<p>playing hypothetical angles</p>
+<p>I forget my attitudes</p>
+<p>I tell them, like, pick me a fool </p>
+<p>but the buds sit well and settle </p>
+<p>too, they assume I've no lettuce</p>
+<p>for in the landscape oomph is removed</p>
+<p>and it's the rest to hop fast footed to</p>
+<p>when I get my mind but in a hurtle</p>
+<p>of nothing at all but thoughts soot</p>
+<p>I see I'm mad, as I'm stuck rippled</p>
+<p>I know well, and see the bigger good</p>
+<p>I'm happy, appointed a cowlick statue. </p>
+<p> </p>`,
+                date: "3rd of September",
               },
               {
                 id: 2,
-                title: "cantus firmus",
-                content: `<p>Probably the few toes</p><p>heart to two toads</p><p>hard to deduce those</p><p>half swing at a time hoax</p><p>atchoos at the true rote</p><p>bent, mourn the clue tolls.</p>`,
-                date: "1st of May",
+                title: "she could be the queen",
+                content: `<p>Definitely worth a rethink</p>
+<p>all my problems of mischief </p>
+<p>so I took a banned degree</p>
+<p>outside three hundred sixty </p>
+<p>she was there on an ant hill</p>
+<p>she'd no more on than the heat</p>
+<p>spicy with no role in colony. </p>`,
+                date: "3rd of September",
               },
               {
                 id: 3,
-                title: "hip-hip whip",
-                content: `<p>When it is time</p><p>and this day sides</p><p>like every other filed</p><p>then, it’s okay, fine</p><p>the candles, cake, and wine</p><p>the bass that hits we dine</p><p>I’m drawn to yours pied</p><p>insatiable as shy</p><p>as the years commit</p><p>to our long framed fit</p><p>nosing no felt stitch</p><p>this day aims a beam</p><p>a sweet playing melody</p><p>a cloth that unfurls unending</p><p>my friend is on a new stepping</p><p>sixteen this more, I’ll quill.</p>`,
-                date: "1st of May",
+                title: "summer hotel receipts",
+                content: `<p>A long grief</p>
+<p>&nbsp;</p>
+<p>seating feelings</p>
+<p>softly whispering </p>
+<p>what the crevice sees</p>
+<p>&nbsp;</p>
+<p>a lime worries a twig</p>
+<p>what hasn't it, sweet</p>
+<p>sour, it says immersive</p>
+<p>where no tongue leads</p>
+<p>how meetings ours hid. </p>`,
+                date: "5th of September",
               },
               {
                 id: 4,
-                title: "at eden",
-                content: `<p>A phantom arm</p><p>one for each of my friends</p><p>have cares . . . use its hands</p><p>to its reach, you’ll find no ends</p><p>once we lived with plants</p><p>a garden, a paradise of merriments</p><p>we gathered wads</p><p>names, and of the famed, all documents</p><p>oh they’d ask:</p><p>could I be parrot, I’ll be your pet . . .</p><p>a token advance . . .</p><p>say I’m mango, I was wherever you went</p><p>and how apart</p><p>when today, I make juice, seek revenge</p><p>it is my grasp</p><p>it doesn’t hurt, not as much as I pretend</p><p>for it’s really calm</p><p>same fingers flipping pages of the best.</p>`,
-                date: "2nd of May",
+                title: "if mentioning",
+                content: `<p>Seeing evil daily</p>
+<p>never smells lately</p>
+<p>amassing the amiss</p>
+<p>&nbsp;</p>
+<p>no request appeasing</p>
+<p>if any asking</p>
+<p>it seems evil has me</p>
+<p>&nbsp;</p>
+<p>so to hear isn't winning</p>
+<p>how much as to read</p>
+<p>isn't it to dream</p>
+<p>we're ridding of visits </p>
+<p>remaining flowery. </p>`,
+                date: "7th of September",
               },
               {
                 id: 5,
-                title: "a happy place",
-                content: `<p>It is when I’m grinding</p><p>frankly, wherever I’m biting</p><p>how do you see it on me?</p><p>it’s what page that amazes</p><p>avoiding what has been instilled</p><p>dictations with no score, but seen</p><p>it’s just me, just me, it’s me you see</p><p>in the spotlight, we’re on the scene</p><p>when you’re beyond, and you know me</p><p>all shows with a fee</p><p>in the meantime, when you teach</p><p>it’s everywhere you are baby.</p>`,
-                date: "3rd of May",
+                title: "fifty-two weeks",
+                content: `<p>Nor is it my will</p>
+<p>I'll have to in passing</p>
+<p>get you up the hill</p>
+<p>and whenever taken</p>
+<p>by my shrewd shrill</p>
+<p>calming, up, tilt it</p>
+<p>it's as the season's green</p>
+<p>to your nogging changing</p>
+<p>it's hours clocking</p>
+<p>a serpentine mourning</p>
+<p>when the days repeat </p>
+<p>yet better seizing grit</p>
+<p>rewarding in remembering </p>
+<p>is the hollow of memory</p>
+<p>the awe in a new beginning. </p>`,
+                date: "8th of September",
               },
-              {
-                id: 6,
-                title: "mother's day",
-                content: `<p>. . . of the other sage</p><p>wiggle your legs and say</p><p>mummy, I am afraid</p><p>hold the bands and say: </p><p>"aid"</p><p>mum you're first everyday</p><p>I see this, even on Sundays</p><p>when I'm awake</p><p>is it true, it is the same?</p><p>a very long day with no grey.</p>`,
-                date: "13th of May",
-              },
-              {
-                id: 7,
-                title: "co-cain",
-                content: `<p>We rebellious</p><p>in the face fastidious</p><p>out of the haze serious</p><p>heat tissue rush</p><p>count the pace lush</p><p>huff heal, hush this dosh.</p>`,
-                date: "18th of May",
-              },
-              {
-                id: 8,
-                title: "busk her fees",
-                content: `<p>To sing to her willy-nilly</p><p>her time on the high street</p><p>pitapat clock, known raft scene</p><p>hue yeast</p><p>posh spoof screen.</p>`,
-                date: "18th of May",
-              },
-              {
-                id: 9,
-                title: "disaster",
-                content: `<p>Who did?</p><p>mood heed</p><p>for this switch</p><p>rue foot reach.</p>`,
-                date: "18th of May",
-              },
-              {
-                id: 10,
-                title: "much this",
-                content: `<p>Pin the coquette</p><p>sum’s in the locket</p><p>hock the nugget</p><p>be careful marionette</p><p>it is worse with debts.</p>`,
-                date: "19th of May",
-              },
-              {
-                id: 11,
-                title: "menacing numbers",
-                content: `<p>Servility and pulchritude</p><p>stair years, tree stood</p><p>heard ears, rich strewed</p><p>turn! of . . . all two allude</p><p>who is the galling wuss?</p><p>the birds who stool</p><p>rule . . .</p><p>the dogs who choose.</p>`,
-                date: "19th of May",
-              },
-              {
-                id: 12,
-                title: "byte",
-                content: `<p>A bit, a bit, a bit</p><p>move a bit, inch neat</p><p>avoid the bit in your teeth</p><p>a bit left is the dream</p><p>the bit right is a twin</p><p>if not, the bit is in sheen</p><p>a bit, a bit, don’t cheat</p><p>my bite’s a bit, you’ll see.</p>`,
-                date: "19th of May",
-              },
-              {
-                id: 13,
-                title: "feathers",
-                content: `<p>Always a thing to give</p><p>. . . pruning</p><p>like tears of the grieving</p><p>and the day says evening</p><p>brunch not supper cleaving</p><p>here is a sprog crawling</p><p>his mum is curt and unfriendly</p><p>some more heights if here gleaning.</p>`,
-                date: "21st of May",
-              },
+              
             ],
             convertIndex(prop) {
               var indexNumber = prop;
