@@ -409,7 +409,7 @@
                   aria-selected="true"
                   @click="store.setCoverIIAsTab()"
                 >
-                  Cover
+                  Cover & Epilogue
                 </button>
               </li>
               <li class="nav-item" role="presentation">
@@ -470,9 +470,17 @@
                     <img
                       class="img-fluid"
                       src="/images/collections/ii/Cover Image.png"
-                      alt="Frith Hilton Collection IV"
+                      alt="Frith Hilton Collection I"
                     />
                   </div>
+                  <div class="col-lg-5 mt-5">
+                    <h4 class="text-center">Epilogue</h4>
+                    <div
+                      v-html="store.pageResources().epilogue"
+                      class="mt-4 me-4 ms-4"
+                    ></div>
+                  </div>
+                  
                 </div>
               </div>
               <div
@@ -487,7 +495,7 @@
                       v-html="store.pageResources().authorsNote"
                       class="mt-4 me-4 ms-4"
                     ></div>
-                  </div>
+                  </div>                  
                 </div>
               </div>
               <div
@@ -884,6 +892,7 @@
         pageResources() {
           return {
             dedication: `<p class="text-center">To Taylor Alison Swift</p>`,
+            epilogue: `<p>Picking of the pieces of me after a traumatic recoup of what is, but wasn’t. These poems journal the encountering days belonging to wefty seasons through 2020 to 2021 round summer; the lodge of emotions foisting demystifying the realisation of self.<p/><p>Shared on nascence through X as the basal end of who I was — following a lake of experiencing what it is to be clean — got a re-invite at imbibing. These words shatter conflict, praising the crater of friendship, family and love.<p/>`, 
             acknowledgements: `<p class="ql-align-justify">Before I met Jessica Andrea, before I was lost in the uncertainty of beautiful assumptions, Taylor Swift wanting childen with me, new parents of Richard and Kathy Hilton, knowledge of my cover of XXXtentacion's Moonlight, and an original, Bleeding heart, which has nothing to do with Bleeding Heart Absolutism, garnering up a following on the web. All I wanted before this was to leave Nigeria, escape its dystopic IOT mess, for a weapon newly activated had me crosshaired. I even sent distress messages to an old business partner, if he'd be interested in investing to progressing my career.</p>
             <p class="ql-align-justify">The truth is, I didn't see a direct way out of my troubles, my state of mind was frail, I suffered, and I assumed the guise of a misfit, an exiled member of my immediate community. My immediate family had failed me, and I was lost at shore, asking if I needed a quick dip for the long journey ahead.</p>
             <p class="ql-align-justify">My addiction was the sea that brought me to my natural parents' home, and seeing myself go through the reimbibing of everyday activities now sober was important, especially around loved ones. It was why I'd come, but I was facing honest hostility, and my freedom wasn't being giving to me, it was being ceased. I gained one freedom, substance abstention, to be literally detained, and coerced, put in difficult situations that could lead to my picking up use again, if not for a deeper plunge.</p>
@@ -906,104 +915,1979 @@
             authorsNote: [
               `<p class="ql-align-justify"> I beat at the drum when I have to, if I could for every time happiness grips me in its shawl, I would tap the hi-hats. More. A drum roll for valentine.</p><p class="ql-align-justify">Jauntingly 2020’s valentine came with neither happening. I have always found myself at ease in expression when writing poems and I only write poems when I stumble or meet someone of interest. The day went by without a nostalgic sap; no poems.</p><p class="ql-align-justify">It’s beautiful when someone of interest helps you re-discover the classic good in all.</p><p class="ql-align-justify">These poems simply demonstrate this, a quiet re-acquaintance to the cool for years I reserved for getting the girl.</p>`,
             ],
-            chapterTitles: [
-              "0",
-              "Our March Hatch",
-              "Business as Casual",
-              "X, Y, Z Intersect Crotch",
-              "Trepidation of the Past Sold",
-              "An Iris Morning",
-              "Toe Bump",
-              "Teacher",
-              "Chest to Chest",
-              "Both of Us",
-              "Tea",
-              "Olive",
-              "Yam Rind Steeple",
-              "Our Relationship has been Poetry",
-              "Slack",
-              "On Connection",
-              "CTRL",
-              "Come Sit",
-              "Get off my Wall",
-              "La-La Land",
-              "Re: Beau’s Humectant",
-              "Hard Water",
-              "Afternoons",
-              "Early Reminder",
-              "Final Answer",
-              "North",
-              "Boa",
-              "Blush Vitals",
-              "Whispers",
-              "Twenty29Nine",
-              "Waiting for Sonsy",
-              "Radio",
-              "Generators have no Degree",
-              "Hirsute Rams",
-              "I Drew",
-              "Stories",
-              "Alison’s Band",
-              "Blank Space",
-              "Virgae",
-              "Welkin",
-              "Potch Shoe",
-              "Enwreathe",
-              "Stalwart",
-              "Defilade",
-              "On a Hot Day",
-              "On the Dromos for the Grith",
-              "West to West",
-            ],
+chapterTitles: [
+    "0",
+    "Goodnight Irene",
+    "The Day Club",
+    "Favourite Cardigan",
+
+    "The Week",
+
+    "Morning Pale",
+
+    "Whiskers",
+
+    "Dog-Eared Love",
+
+    "Cubicle",
+
+    "Lover",
+
+    "Paper Planes",
+
+    "Vinyl Perfect",
+
+    "Pinchbeck Desire",
+
+    "Hallway",
+
+    "Those Things",
+
+    "Grungy Ball",
+
+    "The Absence Of Self",
+
+    "Blind Reflection",
+
+    "Ever Land",
+
+    "Haiku. Why Cool!",
+
+    "With You",
+
+    "What Could Have Been",
+
+    "Zebra High",
+
+    "Look What You Made Me Do",
+
+    "Popcorn Tub",
+
+    "Style",
+
+    "Rose Lens",
+
+    "Clock Tock",
+
+    "Far From The Early Y2K",
+
+    "Plan Bs",
+
+    "Dense Thrusting Shadows",
+
+    "The Release",
+
+    "Crock Forte",
+
+    "A Rainy Day",
+
+    "Cows",
+
+    "Yuck",
+
+    "XXX",
+
+    "Le Nippy Deux",
+
+    "Fruit",
+
+    "Numero Uno",
+
+    "I",
+
+    "Cut",
+
+    "Hue",
+
+    "Pop",
+
+    "Blacktop Garage",
+
+    "Fait Accompli",
+
+    "Cloud Aperture",
+
+    "Pinky",
+
+    "Screens",
+
+    "Up To Eleven",
+
+    "1251",
+
+    "Half Blue Pod",
+
+    "The Dark",
+
+    "XV",
+
+    "XVI",
+
+    "Brood X",
+
+    "A Tonnage",
+
+    "Meeting a Girl Is Like Swinging a Set",
+
+    "Hands",
+
+    "It’s a New Day",
+
+    "Earth Tweet",
+
+    "Question Mark",
+
+    "Im-Proach",
+
+    "Hecatomb",
+
+    "Velcro",
+
+    "Docusoap",
+
+    "Over To",
+
+    "Stool",
+
+    "Cake",
+
+    "Wonder Tincture",
+
+    "Panache Of a Late Cheer",
+
+    "August 19",
+
+    "Errands",
+
+    "We Met",
+
+    "Are You?",
+
+    "Butt And Ash",
+
+    "Every",
+
+    "La Mia Innamorata",
+
+    "Charly Cox",
+
+    "Pesky 1989",
+
+    "Tease",
+
+    "Amadavat",
+
+    "Roast",
+
+    "She’s The Trip",
+
+    "What Choice",
+
+    "Electric",
+
+    "Metachrosis Buckle",
+
+    "Taylor Swift",
+
+    "Ready",
+
+    "Sign Of The Cornicle",
+
+    "In My Place",
+
+    "Ellipsis",
+
+    "This Is Me Trying (Home)",
+
+    "LVH Healing",
+
+    "Tunnel",
+
+    "Mum",
+
+    "Sock",
+
+    "The Bubble Wrap",
+
+    "Earworms",
+
+    "I",
+
+    "II",
+
+    "Divan",
+
+    "Bouchée à La Reine",
+
+    "Again",
+
+    "Two High",
+
+    "Graphic Grey Stencil",
+
+    "Body Heat",
+
+    "Her Wit Spittle",
+
+    "Issue: What Remains?",
+
+    "Taylor Do",
+
+    "Poem 108",
+
+    "Late For The Revue",
+
+    "Stodgy Pouffe",
+
+    "Apostrophe",
+
+    "The Re-Occurring Transition",
+
+    "Roadwork Ahead",
+
+    "The Anon",
+
+    "The wait (Journal entry)",
+], 
             chapters: [
               `0`,
-              `<p>I created a base of fermented cider</p><p>To our love of its kinky halter fetter</p><p>We both hid in the blanket’s shelter</p><p>And let our breath sweep like dusters.</p><p><br></p><p>It was the evening’s veil blister</p><p>My girl had arrived offhand</p><p>And we held on the shoulder</p><p>More kisses, already misses pants</p><p>Welly scud grabs.</p><p><br></p><p><em>Bread to the crumbs, you’ll starve</em></p><p>Whispering half</p><p>I felt a passion raft</p><p>Pierce me awl sharp through scrim bath.</p><p><br></p><p>Days of us and the cold date nearer</p><p>You wanted more whatever</p><p>But we had it all March.</p><p><br></p><p>When I went home for more cider</p><p>I told her of a new party of hunters.</p><p><br></p><p>We had it wrong weeks further</p><p>Your toe swelling my face with your lilting height.</p>`,
-              `<p>The hobbies have blunt</p><p>Burnt pursuits at once.</p><p><br></p><p>And there was you, with us.</p><p><br></p><p>Wise and gaunt</p><p>Still by known old rungs</p><p>In new blossom.</p>`,
-              `<p>I always thought in kind.</p><p><br></p><p>Doors and their raring tag in cline</p><p>Rooms with acme ubiety sides</p><p>Adduced twingeing words by lines</p><p>Sonorous ooze, hankering find.</p><p><br></p><p>And now a cleaving story starts behind</p><p>Back of faces of pastel shuttered minds.</p><p><br></p><p>Unsure reflections: cliché. Which is mine?</p><p>I.</p>`,
-              `<p>Rowing bane ane did it</p><p>Waiting late at the same post</p><p>East gate loafing.</p><p><br></p><p>Threads made her:</p><p>Haven’t taste</p><p>The take hardly plate.</p><p><br></p><p>Her legging’s trappings</p><p>Spinning that first view oat party.</p>`,
-              `<p>My keyboard hasn’t any on-board light</p><p>My screen’s night light keeps the white</p><p>Tonight I have gone without it all right</p><p>And its phosphorescence’s striking indite</p><p>Has simpatico-blue, both my wide eyes.</p><p><br></p><p>I’m offline, and with that, is a certain bite</p><p>Missing <em>Alissa</em>, her pug, <em>London</em>, the times</p><p>My big sister, <em>Paris</em>, and her hollow guise</p><p>To the beating she has for my bedroom tripe</p><p>Stories puncturing for miles my online pike</p><p>. . .</p><p>Lumme! It’s dawn! it crept bamfoozling dry</p><p>With shadows bedaubed in its sepia twilight.</p><p><br></p><p>The brown seems forgotten by the hillock rise</p><p>Its green shows in the splendour of tree stiles</p><p>Violet gathers, orange collects, concrete shies</p><p>I woke up late and to an iris, most colourful his.</p>`,
-              `<p>Incessant chatters</p><p>Hop on a tractor</p><p>Hauling trail of</p><p>A topper-weighed shoulder</p><p>Its rants.</p><p><br></p><p>Mead, as such</p><p>Bottling the cloistered.</p><p><br></p><p>Barring out silence’s act</p><p>In smooth slakes of direction</p><p>Of favourite conversations</p><p>The warmer considered</p><p>Teeth locking in</p><p>Pulling up.</p><p><br></p><p>Taking off its perimeter defences</p><p>A ratio decision report to potshot</p><p>Coming to water after sweet honey</p><p>I tell of the grade, how intoxicating.&nbsp;</p>`,
-              `<p>How did we give up</p><p>To meeting in the real world?</p><p><br></p><p>From our last days in the halls</p><p>To my bedroom’s nooky spot.</p><p><br></p><p>In there, we had the braid <em>1101</em> bun</p><p>Racking stature every o’clock shore</p><p>Patching new again my shudder fur.</p><p><br></p><p>I for one stopped</p><p>In tracks on spurs</p><p>To listen, stunned</p><p>By a geek’s <em>Red</em> love.</p><p><br></p><p>Meets in the shower room to shop</p><p>And po-faced <em>Adam’s</em> frame’s drub</p><p>Home, he was choirmaster, conductor</p><p>And everything I could touch, I bought.</p><p><br></p><p><em>I would love to sing, strew tunes forth</em></p><p><em>They say I own a voice, a bit of flavour</em></p><p><em>But not how they sing any good songs.</em></p><p><br></p><p>And on, long on, he would teach, bare butt.</p><p><br></p><p><em>Your old songs are no good, very immature</em></p><p><em>It’s time you’re serious and pen new ones.</em></p><p><br></p><p>He hadn’t heard any, but gave his opinion</p><p>It had me embarrassed from my own hunch</p><p>Having written so little in years, then stopped</p><p>It expired my little jotters, and my best chorus</p><p>My favourite line remains like fine wine stored.</p><p><br></p><p><em>And paints my world in a little rainbow</em> . . . Only love.</p><p><br></p><p>The tune came from a <em>white film</em>, a romcom</p><p>The scene had snow, so <em>white</em> it is dubbed</p><p>The theme song had stirred my emotions</p><p>The tele place so far, but still within touch</p><p>I had no worries then, but a song addition</p><p>So I wrote <em>Only love</em> for the still far future</p><p>To my dutch.</p><p><br></p><p>But a few years later brought me transition</p><p>Too young for the old “wedding” thoughts</p><p>“Too old” for <em>Only love</em> and now impervious</p><p>Meaning my new jotter holds a quiet edition.</p><p><br></p><p><em>Adam</em> sang exceptionally, but was not serious</p><p>He’d written no songs, but replicated scores</p><p>His music playlist though was a real junction.</p><p><br></p><p>The first <em>Taylor Swift</em> fan told me I’m a bore</p><p>So I never listened to <em>Red </em>or followed the cult</p><p>Instead, I chewed his bits and dibs on <em>Red’s</em> cud.</p><p><br></p><p>Time passed and Facebook became passport</p><p>Everywhere but there, there was a withdraw</p><p>I started weed, and I wrote a lot on my wall</p><p>The summer I was too musical, but no <em>Taylor</em></p><p>Then it happened, the <em>1989</em> album dropped!</p><p><br></p><p>I met you, <em>Teacher</em>, it was the best welcome</p><p>It is sick! The beat on <em>Welcome To New York</em> </p><p>How I started my mornings, screen sessions</p><p>Then like a para-influence, my very first <em>o’clock</em></p><p>And another, and yet again in a mood summon.</p><p><br></p><p>I told myself, I’d awoken in a “virtual” simulation</p><p>Of my brain being alive, the reconciliatory factor</p><p>The best thing from looking for nothing at all.</p><p><br></p><p>A calm hit me, with few months to graduation</p><p>With <em>Owl City</em> and <em>Aloe Blacc’s </em>congratulations</p><p>It declared all: clocks on necks ticking on a run</p><p><em>Out on the edge for the rest of our lives. </em>Period.</p><p><br></p><p>Everything changed for me at <em>1989’s</em> airport</p><p>But I did not rush into <em>Taylor Swift’s nation</em></p><p>At least not immediately, I had a cart to fill up</p><p>So I picked the Voice Memos in the collection</p><p>Hearing you play, learning, developing a bond.</p><p><br></p><p>A hundred and eighty songs to track were fun</p><p>I credit you <em>Teacher</em> for the mighty turn around</p><p>And your <em>Taylor</em> insignia on every beat dump!</p><p><br></p><p>It was a dream, and now it’s reality in perception</p><p>Unbelievable, I think I write songs? I write pop!</p><p><br></p><p>I and <em>Adam’s</em> relationship later fell off</p><p>He knew my girlfriends, all that botch</p><p>We talked music, it’s a lot we discussed</p><p>And there was bad advice for me to trust.</p><p><br></p><p>He’d lent me money to get ostentatious</p><p>She didn’t need or ask for the high storm</p><p>But it felt good sending her the big sum</p><p>It’s my whole month’s allowance she got</p><p>For her birthday, but come mine she forgot.</p><p><br></p><p>Her reprise back to me, whacked and it hurt</p><p>With the typical, daily calls and discussion</p><p>Not seeing mine, not bothering with a call</p><p>For my birthday, for its date, not one fuss</p><p>So I called that one off and picked a crutch.</p><p><br></p><p>Time came to payback for the mis-venture</p><p>And I did, like any debt, forgetting the loss</p><p>Here is where <em>Adam</em> showed me his disgust.</p><p><br></p><p>His claim was I have a voodooish purse</p><p>And money I paid to him had dissolved</p><p>Right into thin air, in dark imagination</p><p>I’d have to pay what I owe, no witch hunt.</p>`,
-              `<p>Thought breast.</p><p><br></p><p>Of your head and mine in rest</p><p>Bed buckling in its feel of nest.</p><p><br></p><p>Your bosom keeping how much in nascence?</p><p><br></p><p>Grovelling with mine in pick of beat perfect.</p><p><br></p><p>Troth to our first fist bump dear.</p>`,
-              `<p>Our heart tugs must be bam</p><p>From birth to death</p><p>Not to say it’s me.</p><p><br></p><p>Here, you.</p><p><br></p><p>I was with you</p><p>It was the both of us.</p><p><br></p><p>And the graph</p><p>What it draws beating</p><p>Pounds</p><p>Prurient thump rhythm.</p><p><br></p><p>I ponder my days excited</p><p>Our moments</p><p>The tug of the fraidy committing to jeopardy</p><p>Our breaststroke to the finish brook.</p><p><br></p><p>For us, it is in the choices.</p>`,
-              `<p>She made tea for me</p><p>At the bat’s heart wing</p><p>Long before.</p><p><br></p><p>With the whop of my sling</p><p>A better taut massé for the dream</p><p>Unfurling the carpet fin.</p><p><br></p><p>Not for sure</p><p>In all ’s pure.</p><p><br></p><p>Lust in foot hope cure</p><p>Not a ’tis more.</p><p><br></p><p>And a trait tape</p><p>Slurp chemistry.</p>`,
-              `<p>When I will</p><p>If I build a bridge</p><p>A more startling nude ridge</p><p>Forging path marching</p><p>On to the house of siege.</p><p><br></p><p>Before I had knickerbockers zip</p><p>Little worries, still a kid</p><p>Spending his time, had smock as bib</p><p>Pens, notebooks, and a friendly verdant mist.</p><p><br></p><p>Evenings set, swallowing lines of dialogue</p><p>And the most nights, I sang of love</p><p>Of love with a meadow’s brush.</p><p><br></p><p>A summer saw me better off in a group</p><p>Away from my playground’s loony dupes</p><p>So the bastion, forth with thoughts of kith</p><p>Coming to noontide at a school by <em>Olive</em>.</p><p><br></p><p>And there were whips, quizzy bullies</p><p>Assignments, and once I wept convulsively.</p><p><br></p><p>I think of the classroom, I see shrieks</p><p><em>Olive</em>, its fence’s mural oil painting.</p><p><br></p><p>Not a face I remember or a repartee</p><p>But the odd peculiar is of a boy’s lip</p><p>My bleeding purlicue, his pencil’s tip</p><p>Eraser and unfriendly table margins.</p><p><br></p><p>The house of siege</p><p>Visiting</p><p>Anywhere about its purlieu</p><p>A quiet can be heard crying.</p>`,
-              `<p>Peel. Drill.</p><p>Peel all</p><p>To the withers of the peel </p><p>Agreeing the knee the fairer.</p><p><br></p><p>Whee!</p><p>Callow barrier</p><p>Ersatz accosting my mind’s dial</p><p>. . . more time tuber!</p><p><br></p><p>I’ll bury you some feet</p><p>Please grow thicker skin</p><p>Or thinner</p><p>For so rude sheath.</p><p><br></p><p>At it</p><p>Lose the bitter-fanny’s sleaze</p><p>Then we will feast.</p><p><br></p><p>None than</p><p>The steeple before I learned myself the carving</p><p>The dissolved sugar cubes should be the pointer</p><p>Those trompe l'œils were windsocks to this pokey</p><p>Where bent, I’m trying, cussing this pantry cadaver.</p><p><br></p><p>I remember piles of you rad</p><p>Showing off your staple win.</p><p><br></p><p>A sunny afternoon on a cellophane’s back</p><p>Stretched in display like those showy ads.</p><p><br></p><p>It dwindles natch</p><p><em>Itch, itches</em></p><p>'Twill</p><p>Wilting careless strips</p><p>At the thought of more food in the pantry</p><p>Of its twee through the mill</p><p>Rubbing your sense still.</p>`,
-              `<p>Between the guava root</p><p>And its spring hot shoot</p><p>Was a poem laid for good.</p><p><br></p><p>It came to noon</p><p>On its first day of soon</p><p>And nothing but a breeze of soothe.</p><p><br></p><p>Of the sweet good life set below the blues</p><p>Hue banter of ruddy med, titivating tooth</p><p>Waxed wing clambering in a trilling boon.</p><p><br></p><p>Irrigating the seed was a lust for mood</p><p>To play, get frolic, achieve the height of should.</p><p><br></p><p>Down with its whistling the breeze of a lover in maroon</p><p>Amoroso burgundy sweet in the wind’s playing flute</p><p>The seed shook its shack weighed in laughter at the foot.</p>`,
-              `<p>I used to have a paucity of girlfriends</p><p>Knick-ties, movie tits, booty kenned</p><p>All baddies hitting early on the sands. </p><p><br></p><p>If familiar with <em>Coldplay</em>, to and listened:</p><p>The tod ruler of that old clatty world</p><p>Who sweeps now, the streets he owned. </p><p><br></p><p>Of all my stored gifts and paraphernalia</p><p>My favourite is an old tawdry black band</p><p>Mayhap, slack from stones in its past hold. </p><p><br></p><p>We used to be a pack with the lights, spelled grand</p><p>And to the outside world, everything, remove bland</p><p>Recoil; another recon, it all made for spangle, clang!</p><p><br></p><p>And there was my <em>Janice</em>.</p><p>. . . then <em>Janice</em> came in.</p><p>The truce to our huddling!</p><p><br></p><p>First, on a close sheila's page</p><p>We met . . .</p><p>By my account, a <em>we</em> case. </p><p><br></p><p>Flecks on her bosom that displaced</p><p>What whom knows, how got braced</p><p>Mistaken for vitiligo scattered <em>heys</em>.</p><p><br></p><p>Knocking for the seltzer</p><p>Taste, exquisite</p><p>Too, slat</p><p>With bibbed cantrip heel pace</p><p>Strewn as every follower in cadge ache </p><p>Scrolling unto another shake. </p><p><br></p><p>Come another day</p><p>Was here to her name</p><p>And another . . .</p><p><br></p><p>Innumerable merry dates</p><p>Till I was in for all her fame. </p><p><br></p><p>Her mincing in were like that in heels</p><p>Likening irony of a sprocket's teeth</p><p>Nonslack was her hold on me and clear</p><p>The whittling of our ingot agreement</p><p>Left me enervate in ground bare tears.</p><p><br></p><p>The much: <em>on another's touch</em>. </p><p><br></p><p>And he did touch, all too very much</p><p>Caught on camera, to say my fudge</p><p>Loaded to me, through me, surged. </p><p><br></p><p>Laying tears, eying . . .</p><p>Does the indelible tideline</p><p>Back sulkier. </p><p><br></p><p><em>I think I am . . .</em></p><p>Even now so matt</p><p><em>I think I am . . .</em></p><p>Trialled and lammed</p><p><br></p><p><br></p><p>Voices in a halo to another band occupant</p><p>Concinnous rhythm now a whine discrepant </p><p>In précis of my tears for desolation shards</p><p>A DJ, as she, a model; beautiful queued pants</p><p>Residual dale carnage posts, all due dew tart. </p><p><br></p><p>All night soddened in face apprehensive, contrite</p><p>I pleased in rumpled sheets, my only dare height</p><p>My lookalike comparison of her to an old cobber</p><p>Brought on the wilt, this biff, and my footle plight</p><p>One she rebuked in parse and farce</p><p>Cheering to her night</p><p>Wading celebration days spliced</p><p>Turning a new age, truly happy without spite.</p><p><br></p><p>I expected better for my old gal, the trodden wall</p><p>The old ghost of bad blood, despised by everyone</p><p>But what came mimicked beating drums of war</p><p>The percussionist literally did, collecting mulct</p><p>His paradiddle, the fondle, then boss sticks drop</p><p>Imploring credence of my will with a touch gall. </p><p><br></p><p>Supposing his steel attitude, I grinned my teeth</p><p>Such a forearm touch could only be by a git</p><p>She is just way too special, chose jugée</p><p>She had to know, not even for a flick, if.</p><p><br></p><p>A clear message from a colleague</p><p>Hack! And it was a good beat.</p><p><br></p><p>I gave a dune smile like a cretin</p><p>A device holding cretin pinning whid. </p><p><br></p><p>Back in my office, in my chair, ill the wind</p><p>I thought of disbanding, bye to the coterie</p><p>Maybe for better air, but for my mood’s heed?</p><p><br></p><p>I’ll tell my tailor I have a better flair</p><p>Not the notions dressing this affair</p><p>Higgle on in my ensemble of the fair</p><p>Something simple, pedestrian and breadth</p><p><em>Sex.</em></p><p><br></p><p>It'd be too plain, too bright, so I wrote this</p><p>About a black band with only a stone in it</p><p>The rest all out, all to their own still. </p><p><br></p><p>I corral one stone at the moment </p><p>And she brushes through not one street</p><p>A band slacked for her free feel</p><p><em>To your treat. </em></p><p><br></p><p>And what does <em>Janice</em> say? </p><p><em>I've got a new girl, a hottie</em></p><p><em>For you. </em></p><p><br></p><p><em>I hope she knows you got no birthday wishes.&nbsp;</em></p>`,
-              `<p>Out of seeking connexion</p><p>You laid quiescently, kink’s con</p><p>With my eyes oneirically pawned</p><p>I saw you there on your turn</p><p>Eyes closed, shedding a jiff one</p><p>Burying me in swimming fuscous</p><p>Seeping bubble passage</p><p>In a barre-brow oeillade.</p>`,
-              `<p>It’s scrambling, fending handy.</p><p><br></p><p><em>Let’s say I figure the squeeze</em></p><p>When it gets glitchy</p><p>Which is</p><p>I’m busy</p><p>And the screen spreads <em>fishes</em></p><p>Hard to catch, bait </p><p>Wetting me late.</p><p><br></p><p><em>Let’s say I figure the squeeze</em></p><p>Whacking in haste</p><p>But it’s a lorry on my mind </p><p>And I can’t write</p><p>The maps all key wrongly</p><p>I’m trying twice</p><p>Now worrying</p><p>Haunting, the aphorism</p><p>Always to temper with sense</p><p>A pad’s hence burnt-out ends</p><p>Ends with</p><p><em>Let’s say I’d figured the squeeze.</em></p><p><br></p><p><em>Let’s say I figure the squeeze </em></p><p>Lumber dopey</p><p>Not boot it</p><p>All three</p><p>In a spree of </p><p>Punch! Punch! Punch!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p>Down chutes of missing</p><p><em>O no!</em></p><p><br></p><p><em>Let’s say I figure the squeeze</em></p><p>The ConTRoL.</p><p>End it all.</p>`,
-              `<p>Four grey ever curving stilt trolls lift my purple one-seater</p><p>The lone chair in this bedroom with faux fur giving feather</p><p>Kludged out so, for I won’t let my buttocks a line that’s flat.</p><p><br></p><p>The house is not every old stitch seam-prick clean catered</p><p>As the dining-room, it’s without stick, enter a name holder</p><p>Occupied by worthening sentimental junk, sorts for a cellar.</p><p><br></p><p>The room next, tagged parlour has no curtains, nor is better</p><p>With no door handle, my bedroom is missing several louvers</p><p>When it rains, it pours in my room, so the poor curtains shiver</p><p>Sliding my bed over apace, the headboard holds them in a catch.</p><p><br></p><p>For staying guests, it’s choose a dohyo or develop a cataract</p><p>As a long time guest, I have fought, too many times crabbed</p><p>And I still see, with my eyesight, it is frank better in a delta.</p><p><br></p><p>I've slept for days in a bedroom with cockroaches shacked</p><p>It was after an apartment switch, away for weeks at large</p><p>Maybe it is why my page got lotta likes from <em>Madagascar</em>?</p><p><br></p><p>Round the clock I was making a mixtape, writing a program</p><p>With so much to do, being away from home was very usual</p><p>With most hours in my office, only home for laundry tasks</p><p>At night, I would sleep on a pile of greasy jumpsuits stacked.</p><p><br></p><p>Coming home finally to the new apartment brought drats</p><p>It was a maladaptive snag with some pest control brands</p><p>Little cockroaches numbering hundreds in night’s hands. </p><p><br></p><p>It was hard telling where they came from by most cards</p><p>But I suspected my bed frames only, out tiny, and so calm</p><p>They eventually reduced in number; several times halved</p><p>That was not enough, it’d left me very dazed, so I packed. </p><p><br></p><p>My purple chair enjoys time alone, it’s an old shod papa</p><p>Its borrowed fur is my travelling buddy, acquaint with <em>Mat</em></p><p>And has seen three of my houses, and is now on a fourth lap</p><p><em>Mat</em> is endearingly new, very young, and lately got manned.</p><p><br></p><p>I was on the flush toilet yesterday and there was a rat </p><p>Maybe a mouse, tiny, observing, and a bustling whit rap</p><p>I made it out from the parlour, came from the cellar it had </p><p>Nothing amusing, its nimble; it had to be <em>that</em> absconder. </p><p><br></p><p>Locked motionless at the parlour’s doorway, then it departs</p><p>Through the passageway, past a footlocker, moving in trad</p><p>In the few seconds of its appearance, it had inched closer</p><p>Not in my view now, its skedaddle for the wall and sharp.</p><p><br></p><p>Eyes in a wincing face owned by a head in total stealth bath</p><p>Towering, deigning in silence its every move from man strata</p><p>Its room entry was effortless, well imitating my own prance</p><p>Next to a mop, it follows the edge, unto a black bowl's back</p><p>A wash-hand basin hangs over the black bowl, it’s ever under</p><p>It’d be hidden behind the shower curtain now, if now further</p><p><br></p><p>Silence and no movements, I remain stolid, holding my cat</p><p>It shows up, sliding past the shower, and the heater tank</p><p>Now having completed twice, two turns perpendicular </p><p>With few tile cells to a good scare and a successful grab</p><p>It freezes by my right; I size it up like an unstriped zebra.</p><p><br></p><p>Did faint whiffs of my poop lure it in some attract? </p><p>Did getting so close quench all rouse of a feast pang?</p><p><br></p><p>I was hillock with the toilet, and wasn't its mishmash</p><p>Its sudden stop started mine of odd thoughts in cark</p><p>Less than a jiff, it ribs in front of the bowl in a thwart.</p><p><br></p><p>It had to be the poop for there was no longer a hatch</p><p>Months have passed since that cement stop up patch.</p><p><br></p><p>Having no business with the wall, a long way of a path</p><p>Its visit bruised me and the natural fashion it scarpered.</p><p><br></p><p>It drove through the doorway quickly, hiding in a dash</p><p>And this part, I am not so sure, but for a behaviour pass.</p><p><br></p><p>A tiny speck appeared just at the spot I had seen it last</p><p>Not after my poop myself, the lure around my sphincter</p><p>I walk forward from seating to the door dropping my act</p><p>And my, amiss, what is here isn't dirt or grit, but a spider </p><p>The rat had a good spider keep watch? A decoy for rank!</p><p><br></p><p>Die for me? In total shock I squash brusquely its topper.</p>`,
-              `<p>Past midnight in a room</p><p>In loss of any quiet tune</p><p>The walls whitewashed new</p><p>In bosh of machinery speech dew</p><p>Straggling knacky-clank way my pew</p><p>Ware rhythm caught combing mood.</p><p><br></p><p>Instead, it is the simple</p><p>Shades hidden group.</p><p><br></p><p>Sternly unlike this foot</p><p>Inaffable clumped youth</p><p>Ashenly highday brute</p><p>Stamped passport mute</p><p>A blimpish backdoor route</p><p>Guarding a stain.</p>`,
-              `<p><em>I met self in a cabin without design</em></p><p>The path hath led from a mien sign</p><p>Arriving guided, and lethargus eyes.</p><p><br></p><p>The seconds of a leavened enzyme</p><p>Enjoining in darkness-whiff shrine.</p><p><br></p><p>Cluttering from the mantelshelf WiFi</p><p>The coruscating power-icon, it smiles:</p><p><br></p><p><em>A lapidary sight</em></p><p><em>Or whispering word-ride</em></p><p><br></p><p><em>I met myself in a cabin without design.</em></p>`,
-              `<p>Incising in topiary</p><p>Butter-melt skims</p><p>Piecemeal chaw</p><p>Until chock sure.</p><p><br></p><p>Your smile has me</p><p>Even écorché in love.</p>`,
-              `<p>With the table set</p><p>At up: breakfast.</p><p><br></p><p>By the well mount</p><p>Lay a silly jest</p><p>A frog in death</p><p>Floating in water coat</p><p>Appellant in my bucket.</p><p><br></p><p>Knew nothing fair</p><p>Way doubt</p><p>So I threw it out.</p>`,
-              `<p>Tho' midnights switch</p><p>It tocks headlong lead</p><p>And It’s dah-dah-di-dit</p><p>Stats: Savoir faire dip.</p><p><br></p><p>Muzzling blately dingy</p><p>An otiose poetry seat</p><p>Nodding only terms fit</p><p>An alp tryst</p><p>Our marriage piste.</p>`,
-              `<p>XXXIV prods on a tense here</p><p>And the sense of my peace twos</p><p>Galvanizes with care of a fast tap</p><p>With a nail hold of knowing it first</p><p>Your need of a new mug’s whoosh.</p><p><br></p><p>My dart unto your bull's eye</p><p>As you set its path to a mark</p><p>For schlep on a round of mess.</p><p><br></p><p><em>How you love it this thirteen.</em></p>`,
-              `<p>I should pace and feign</p><p>Atop a mound</p><p>The thought bouncing around</p><p>Of the <em>a</em> sound and <em>o</em> sound</p><p>Enounced the same</p><p>Especially with these names.</p><p><br></p><p><em>Fontana</em> or <em>Fontano</em>. Shape?</p><p>Critic or the shriek breaker?</p><p><br></p><p>If true, I would have to bake</p><p>To lay my hands on any cake</p><p>Then manage staying awake</p><p>Taking the pressure off taste</p><p>Just for the oven’s own sake</p><p>Sipping tea, mind hobby away</p><p>Tapping on by the alarm break.</p><p><br></p><p>These cakes I’d owe my brain</p><p>Not a win at the <em>Anon’s</em> game.</p><p><br></p><p>No ruining babe</p><p>It’s silence draped</p><p>Sweet aroma’s date</p><p>My tambourine’s flake</p><p>Locking the third date</p><p><em>Joy</em>, happy birthday.</p>`,
-              `<p>Drinking drops me off sissy</p><p>I’ll hold blank stares easy</p><p>It is easier when on duty.</p><p><br></p><p>I am <em>Nightswan</em>, Mr poetic</p><p>Appearing so from quiddity.</p><p><br></p><p>Having spent the day being</p><p>No more how you had me</p><p>Canned to this such, piddly.</p><p><br></p><p>It’s unlikely, weird for me</p><p>Maybe it is your singing.</p><p><br></p><p>And if this works, my pity.</p><p><br></p><p>Happy birthday North.</p>`,
-              `<p>Thoughts have broad chest</p><p>Memories bear conscience</p><p>The former delivers a spin</p><p>Framing the frail thing brill</p><p>The latter, a hold that make one’s</p><p>Swatch the métier’s riposte or churn.</p><p><br></p><p>Too clear, vivid—soppy convincing</p><p>The cinch, wart soothe, shale punch.</p><p><br></p><p>Memory pranks, well corbelled sumps</p><p>An isolated flash; a temple’s bead drip</p><p>Briefly feeling snared in a right mitten</p><p>It isn’t scary, but there is a dot of fright</p><p>A speck in that big space, very reassuring</p><p>A returning phantom taste of chutney</p><p>Obvious like the hardback of a new read</p><p>A long knotted rope drawn, as if eternally</p><p>Pulled out from my mouth; a bad dream.</p><p><br></p><p>Iota orifices of weal screech cheer</p><p>Could be li’l somethings to cherish</p><p>A safe haven, to let go, seek asylum</p><p>An ecdysis to the long consanguinity</p><p>To ponder away from the accustomed</p><p>The union of thoughts and memories</p><p>Their concinnity, to that I’ll acquiesce.</p>`,
-              `<p>If it writhes, rolls on its belly</p><p>I'll point, call it a snake clearly. </p><p><br></p><p>Sprog tomato, sourpuss barely. </p><p>Roof fixtures, undo. My muse belie. </p><p><br></p><p>Cereal phalanx, a spoon perky. </p><p>Rationed sup, tog healthy.</p>`,
-              `<p>Why does it feel like you whisper?</p><p>An alternate world</p><p>Where a light beam to the eye</p><p>Isn't infuriating</p><p>But appreciated.</p><p><br></p><p>Glad in the blindness.</p>`,
-              `<p>Thanks up in tacks, tarts</p><p>Plans and pranks</p><p>Marks on marks</p><p>The alphabetic type</p><p>Be aesthetic write</p><p>Low thoughts, tick height</p><p>Roam clots, nick brights</p><p>With the calls of franks</p><p>'tis neat odds cuff.</p>`,
-              `<p>I waited at the quit end.</p><p><br></p><p>All over the fizz crest</p><p>Was my eye rest.</p><p><br></p><p>I did have the thirst</p><p>How to put it?</p><p><br></p><p>A heavy led leaving.</p><p><br></p><p>We could close seal</p><p>Meet to tea</p><p>Wait for the creat</p><p>And call toots.</p><p><br></p><p>But now, how?</p><p><br></p><p>How mine by her bow.</p><p><br></p><p>I left store caught subtle</p><p>Hitting on the strip:</p><p><br></p><p>I'll be waiting for sonsy.</p>`,
-              `<p>Thirteen saw me grow</p><p>I landed some old goals.</p><p><br></p><p>I got gifted two radios</p><p>One at a time rodeos.</p><p><br></p><p>Saponaceous things I owned</p><p>Brought more than trivia close.</p><p><br></p><p>Tombs to hit, soft spoken prose</p><p>OAP’s nod to this, and oh nos!</p><p><br></p><p>Shimmy crêpe letters insole</p><p>Wand waves at girls’ clothes.</p>`,
-              `<p>Argh! 'Em vibrating fidgets!</p><p>Grinning blanching sets</p><p>Clattering laid then sooth.</p><p><br></p><p>The wakening construes</p><p>I mean, hurrying boots</p><p>Hitting pedals, jinn jets.</p><p><br></p><p>Generators have no degree tooth</p><p>Hopping every ear met</p><p>Just cause the lights went shoo.</p>`,
-              `<p>A running tap and a dying lizard</p><p>Took no time saving the busy man.</p><p><br></p><p>Too busy for his wife, bashing rams.</p><p>He studied snails, faces they make in their path</p><p>And on her part, reasons for the running tap.</p><p><br></p><p>He thought she never got it, his idleness and her</p><p>The running tap, dying lizard, the idler.</p><p><br></p><p>Maybe with babies together.</p><p><br></p><p><em>My gaudy art.</em></p>`,
-              `<p>I had a thought gland to run with</p><p>The morning was sodden</p><p>As birds chirping, tweeting . . .</p><p><br></p><p>I picked up to lookup in a dictionary</p><p>Heard a neigh on my walk in the mews</p><p>I picked up, pipped the pea to the pony</p><p>And in the draw of my hands, had it feed.</p><p><br></p><p>In the soaring of the singing flock’s stream</p><p>A count swelled and its neigh, it was glee.</p>`,
-              `<p>To call and to say to you the must</p><p>Your narrowing goads at my droll lust</p><p>As your adds meet my duct at my choice</p><p>Likened to the rate, this time I hold back, stuck</p><p>Caught in the thought to text, a sort of filial dross.</p><p><br></p><p>Attraction amuses like a shocker's pulse</p><p>As the air bathes in no reasons at all</p><p>Taking that one time still, playing the fall</p><p>A silent movie with a twisted rerun of must calls.</p>`,
-              `<p>Hospice whispers</p><p>Not sung</p><p>Under breath</p><p>On hushed lips.</p><p><br></p><p>Hips dangle</p><p>Shackle, tangle</p><p>Hair wet.</p><p><br></p><p>Breath, earth</p><p>Statuesque, shingle</p><p>Where to?</p><p>Rattled, daffy.</p><p><br></p><p>Wind food</p><p>Brought about</p><p>Athwart</p><p>Tune. Tune</p><p>Nipple, cockle</p><p>Address to still, snap.</p><p><br></p><p>Napped, crapped</p><p>Sat at that awe too pap</p><p>Would've, could've, should've.</p><p><br></p><p>Crude groove suckles</p><p>Too purple.</p><p><br></p><p>Beat bad, forfeit chant</p><p>Beatbox’s ruff fall</p><p>Slant, pant</p><p>Pant, bantam hump</p><p>Tit for tat, dart tracks</p><p>Quant, ever quant?</p><p>Turnt tap.</p>`,
-              `<p>I could get a locker</p><p>Doesn’t have to be a safe</p><p>I trust the courtier</p><p>From the grin on his face</p><p>Hits the better</p><p>I might get this one package</p><p>Sent continual</p><p>But if it does, I’ll manage</p><p>Unbox an anorak</p><p>Pick out, identify any fails</p><p>Mail back barrage.</p><p><br></p><p>Twice arriving on the day</p><p>Then straight purlers</p><p>No deliveries, blank space.</p><p><br></p><p>Weighing the drack</p><p>Assuming the contravening sake</p><p>I seal it up wrapped</p><p>Over expecting, for another way.</p>`,
-              `<p>With several buckets of doubt</p><p>Slew whacks with her droit flout.</p>`,
-              `<p>My motion flows and stows</p><p>With caution she old knows.</p>`,
-              `<p>The tithe’s snit</p><p>Bare dearth.</p>`,
-              `<p>My mummy has a Greenwich</p><p>She says it’s off the wish list.</p>`,
-              `<p>Her first opinion</p><p>Were my dote dinghy roam</p><p>From</p><p>Her taking my minuscule croak</p><p>Serious</p><p>She’s won at the pageant of jinks and bones</p><p>Contention.</p>`,
-              `<p>Paste this athwart</p><p>Word bought three short</p><p>Ward dot strut</p><p>For runt snub</p><p>Podge purse shod.</p>`,
-              `<p>Nothing feels as much</p><p>I do too, as complacent</p><p>The spinning fan’s knob</p><p>Dial’s stop, speeds in step</p><p>Thoughts ‘tween conclusions</p><p>Describing the crunch evident</p><p>Pores sopped; thoughts clogged</p><p>And its sole direction for west</p><p>My mind remains as staunched.</p>`,
-              `<p>What does it mean to you?</p><p>With the blurs of the rust</p><p>Ousting the non-eventual decay</p><p>For winnow the shucks of ego</p><p>Actions of their weight drought.</p>`,
-              `<p>I greased the windows of heaven’s walls</p><p>So let all springs just shower free</p><p>From our heart in where we act</p><p>Seek perfection for the helpless path</p><p>If that’s all we can give them</p><p>It will only show how much we care</p><p>From all around in our world</p><p>Make this love we have be still</p><p>Tomorrow changes not</p><p>Make this love we have remain</p><p>From “WEST to WEST” for everyone.</p>`,
+              `
+<p>I laid my head to rest</p>
+<p>and saw my mind's dress</p>
+<p> </p>
+<p>its prim Sunday's best</p>
+<p>with fabric air-succulent</p>
+<p> </p>
+<p>so very soft in its tidiness</p>
+<p> </p>
+<p>relaxing ocean tenderness </p>
+<p>contained as to never forget </p>
+<p>its bowl, as also my body felt</p>
+<p>as my muscles held all I'd meant </p>
+<p> </p>
+<p>to sleep as the moon tempts.</p>`,
 
+              `
+<p>If I've to attend to the morning</p>
+<p>I'll need to see it as first weaning</p>
+<p> </p>
+<p>for my nights are gentle and dreamy</p>
+<p> </p>
+<p>my head sleeps and we go swimming</p>
+<p> </p>
+<p>my darkness seeps into her night mint</p>
+<p>when her native darkling arms take me </p>
+<p> </p>
+<p>carrying me everywhere naïveté beats</p>
+<p>whereto also the only fault be in rhythm</p>
+<p>my dance breaks off and I see the mean</p>
+<p> </p>
+<p>I see the barkeeps in their last grunting</p>
+<p>with the DJ's spin in a different melody</p>
+<p> </p>
+<p>today at home, it's like sounds from trees</p>
+<p>and I've seen the rhythm also unchanging</p>
+<p>like a stuck frame in a still playing movie</p>
+<p> </p>
+<p>unlike the ones where she's a rapid rabbit</p>
+<p> </p>
+<p>but now she's a client, one probably asleep</p>
+<p>and I'm a barkeep who must remain standing.</p>`,
+
+              `<p> Has arbitrary actions die</p>
+<p>lead to this magic of nigh heights?</p>
+<p>Please don’t leave me.</p>
+<p> </p>
+<p>Will you miss me?</p>
+<p>If on evenings</p>
+<p>only need me</p>
+<p>out of; for a lack of reason.</p>
+<p> </p>
+<p>Love you ways I shouldn’t</p>
+<p>pill riddles</p>
+<p>couldn’t . . .</p>
+<p>Wont, need you in flare of this.</p>`,
+
+              `<p>In the morn</p>
+<p>at first blush of who</p>
+<p>mulling, it is you.</p>
+<p>Eyes prised hum.</p>`,
+
+              `<p>I say dear: I am young.</p>
+<p>I wake by A.M tall.</p>
+<p>I hail what may but burns.</p>`,
+
+              `<p>You've unfettered my affection</p>
+<p>in eddying rabble</p>
+<p>cold-spring flush</p>
+<p>of underbelly 'quaintance.</p>
+<p> </p>
+<p>Who is to deny love?</p>
+<p>Ever drawn in orb.</p>
+<p> </p>
+<p>Our barycentre fortune.</p>`,
+
+`<p>All you had to do was stay.</p>
+<p>You skitter ever always</p>
+<p>I rock on about a book.</p>
+<p> </p>
+<p>I'm pinned chez seven a skittle</p>
+<p>here in need waiting for you</p>
+<p>but I don't know what to say.</p>
+<p> </p>
+<p>Come run me over again.</p>
+<p>All you had to do was stay.</p>`,
+
+`<p>Wasp or bee?</p>
+<p>Your endearing art sting</p>
+<p>I'll enjoy</p>
+<p>till you return to love.</p>
+<p>Oh now bobble tortuous</p>
+<p>how furlough.</p>`,
+
+
+`<p>My wit I tweet like spittle, vernacular</p>
+<p>with your tips as like whips and pips I pick at</p>
+<p>pretending you’ve hit at a niche of nurture.</p>
+<p> </p>
+<p>My heights, doom at my every pantry reach claw</p>
+<p>meddling it’s become. The loon is out the door</p>
+<p>my nerve throbs</p>
+<p>words shrunken sink to the sucker.</p>
+<p> </p>
+<p>. . . I’ll remain where you find your thrall in my heart.</p>`,
+
+`<p>Carefree creole reverie</p>
+<p>amidst arms way mummery.</p>
+<p>I dote every scrip thought dust</p>
+<p>as pines in merry crust.</p>`,
+              
+
+`<p> I Hurt myself again today</p>
+<p>won't matter. Given anyway.</p>
+<p> </p>
+<p>Elbows and ankles same mistake.</p>
+<p>Who'll miss me, that once clear clean bake?</p>`,
+
+`<p> My nape sates of goose pimples</p>
+<p>pitching my eyes deep wasted</p>
+<p>in long held-back tuft mistakes</p>
+<p> </p>
+<p>with ire pumps beating witty</p>
+<p>my forlorn courteousness.</p>
+<p> </p>
+<p>I reek sore imperfection</p>
+<p>corroding indignation</p>
+<p>kneading flunk condescension</p>
+<p>but it's this haughty mischief:</p>
+<p>my every call; long harangue.</p>
+<p> </p>
+<p>Your continuous stolid</p>
+<p>dilution is fart unfair.</p>`,
+              
+
+`<p>Goodnight cuddle turf</p>
+<p>crump muffle touch.</p>
+<p>You and I </p>
+<p>a subtle wank off.</p>`,
+
+`<p>My flatulence<p/>
+<p>opt innocence<p/>
+<p>is tacit apparency <p/>
+<p>of my humanity.<p/>
+<p>But it is not.<p/>`,
+              
+
+`<p>I get through the day<p/>
+<p>under impression<p/>
+<p>nothing really<p/>
+<p>is going on<p/>
+<p>well<p/>
+<p>that is just you there.<p/>
+<p> <p/>
+<p>It isn't awkward. No.<p/>
+<p>It'd be frosty. Stop.<p/>
+<p>If you are not all<p/>
+<p>I think of blaming ends.<p/>
+<p> <p/>
+<p>My tatami time.<p/>
+<p> <p/>
+<p>Break my heart<p/>
+<p>liquor it'll be all my swipes.<p/>
+<p><i>Whizz!</i><p/>`,
+
+`<p>The tincture<p/>
+<p>the strong disjoint.<p/>
+<p> <p/>
+<p>It is the second fall from sleep<p/>
+<p>deep it speaks life<p/>
+<p> <p/>
+<p>a rile lie.<p/>
+<p> <p/>
+<p>It is obvious what is going on again<p/>
+<p> <p/>
+<p>I have fooled myself<p/>
+<p>wedged what was askew.<p/>
+<p>Sat in wait<p/>
+<p>in pretence of companionship.<p/>
+<p> <p/>
+<p>The leaf has fallen<p/>
+<p>the twilight has faded.<p/>
+<p> <p/>
+<p>You’re here.<p/>
+<p>Naked.<p/>
+<p>I see it all<p/>
+<p>you in another’s arms<p/>
+<p>my absence in the milieux of all.<p/>
+<p> <p/>
+<p>I see everything<p/>
+<p>with my self now absent<p/>
+<p> <p/>
+<p>I see it all<p/>
+<p> <p/>
+<p>with me now absent.<p/>`,
+              
+
+`<p>Funny<p/>
+<p>how I open my eyes<p/>
+<p>to a spout of cognizance<p/>
+<p>of your splendour<p/>
+<p>its stark contrast<p/>
+<p>to the inhabitable enclave<p/>
+<p>of a mind I've got.<p/>
+<p> <p/>
+<p>A creek leaked dry.<p/>`,
+
+`<p> Pocket of thoughts.<p/>
+<p> <p/>
+<p>Orchestrating octets<p/>
+<p>dotage montage.<p/>
+<p> <p/>
+<p>Sunset. Hush<p/>
+<p>rest.<p/>`,
+              
+
+`<p>Read the text again.<p/>
+<p>Being stranded bore nothing . . .<p/>
+<p>Not with a poem! <p/>`,
+
+`<p>Whistle kiss issues<p/>
+<p>your music my soul crush in<p/>
+<p>ivy pestle thuds.<p/>`,
+              
+
+`<p>If it is, isn’t<p/>
+<p>lead me on beyond end’s wait.<p/>
+<p>Mirth taste in your gait.<p/>`,
+
+`<p>Clocks ticking through lines<p/>
+<p>heels missing on the right side<p/>
+<p>heaven waits here now.<p/>`,
+              
+
+`<p>Cock-a-doodle-doo.<p/>
+<p>You sprout my sombre heart bloom<p/>
+<p>with sultry tunes um . . .<p/>`,
+
+`<p>In event Taylor<p/>
+<p>seat next to seat don’t warm hearts<p/>
+<p>miss only the corn.<p/>`,
+              
+
+`<p>Every shade of you<p/>
+<p>is bower<p/>
+<p>synergy of pat showery moods<p/>
+<p>soaking me up in misty bliss.<p/>
+<p>Evanescent, sensational<p/>
+<p>fraught lust seat<p/>
+<p>the posit point.<p/>`,
+
+`<p>I grew old the first time.<p/>
+<p>My vocabulary suddenly grew meaning<p/>
+<p> <p/>
+<p>you hitch-hiked<p/>
+<p>I love you.<p/>
+<p> <p/>
+<p>Pressed on, rubbing against<p/>
+<p> <p/>
+<p>misguided and fractured<p/>
+<p>I braved, heaved<p/>
+<p>asked: what? Who? How?<p/>
+<p>Messages don’t get unread?<p/>
+<p> <p/>
+<p>Understanding your undertaking<p/>
+<p> <p/>
+<p>a mere strike spurt wouldn’t<p/>
+<p>a tip aflame like.<p/>
+<p>It had to be its mourning<p/>
+<p> <p/>
+<p>my death’s taste<p/>
+<p>in all I did;<p/>
+<p>a symbolic terrific function.<p/>
+<p>My lesser acuity.<p/>
+<p> <p/>
+<p>I pillow shop in wonder lust<p/>
+<p>often stop roasting on this pause<p/>
+<p>blaming it on forceful friction<p/>
+<p>the candid illusion;<p/>
+<p>laud station<p/>
+<p>on where it started:<p/>
+<p> <p/>
+<p>of pictures<p/>
+<p>removed. Distance.<p/>
+<p> <p/>
+<p>A new substance in my brain.<p/>
+<p> <p/>
+<p>Adjusting vitals.<p/>
+<p> <p/>
+<p>The pin falls back in groove<p/>
+<p>in tape uncovered.<p/>
+<p> <p/>
+<p>All that remained<p/>
+<p>unsaid<p/>
+<p> <p/>
+<p>a quiet slap beneath<p/>
+<p>waves<p/>
+<p>the old scientific saying:<p/>
+<p> <p/>
+<p>I don’t know the world<p/>
+<p>just what<p/>
+<p>it<p/>
+<p>the brain says it is.<p/>`,
+              
+
+`<p> Craggy exposure<p/>
+<p>of it means to relax<p/>
+<p> <p/>
+<p>to perceive.<p/>
+<p>Furling.<p/>
+<p> <p/>
+<p>To delve at:<p/>
+<p>spruce question of what;<p/>
+<p>foaling the creeping second hand<p/>
+<p>fearing the derby.<p/>
+<p> <p/>
+<p>Now as never<p/>
+<p>It souses<p/>
+<p>framed in the hollow nest.<p/>`,
+
+`<p>Pre-eminent what thought says<p/>
+<p>this morphing phase<p/>
+<p>serving its days<p/>
+<p> <p/>
+<p>the turn-fetch space<p/>
+<p> <p/>
+<p>sussing out the waste<p/>
+<p>wedging the motley layers.<p/>
+<p> <p/>
+<p>Venture I pre-bait<p/>
+<p>the cram; its date.<p/>`,
+              
+
+`<p>Maybe<p/>
+<p>I want to weep<p/>
+<p>is it . . .<p/>
+<p>I have not one to?<p/>
+<p> <p/>
+<p>Drib drips.<p/>
+<p>Flak fount.<p/>
+<p>My cranium <p/>
+<p>locked skein faff.<p/>`,
+
+`<p>Afraid no swat weighs enough.<p/>
+<p>This bole raises a toll so high<p/>
+<p>vending a brash coda<p/>
+<p>before the last gulp.<p/>
+<p> <p/>
+<p>She's here and I miss it.<p/>
+<p> <p/>
+<p>Spritz back at my thought;<p/>
+<p>words coiffing<p/>
+<p>the alley pent-up.<p/>`,
+              
+
+`<p>If the crackling whip startles<p/>
+<p>file it a grub.<p/>`,
+
+`<p>Hurt deep in naught<p/>
+<p>a pond of thumping comb<p/>
+<p>lacier.<p/>
+<p> <p/>
+<p>Hapless a wrist. Weightier.<p/>`,
+              
+
+`<p>Ever written something close<p/>
+<p>fore where you stand . . .<p/>
+<p> <p/>
+<p>A stab surreptitious at the spatial<p/>
+<p> <p/>
+<p>nodding detritus<p/>
+<p>clouds reaching for midrib pencils<p/>
+<p> <p/>
+<p>stippling scarecrow roofs<p/>
+<p>with callow shoulder lain ants<p/>
+<p>plunking avian ruts<p/>
+<p>pelting fracas ascertains:<p/>
+<p> <p/>
+<p>The filters of louder creaks.<p/>
+<p>The drab of now sopped soil missed.<p/>
+<p>Snails slip like blue murder.<p/>
+<p>The ambage of guano and my wet hat.<p/>`,
+
+`<p>Cows should be without eyes.<p/>
+<p>Just for that peel that riles.<p/>
+<p> <p/>
+<p>I made a turn<p/>
+<p>didn’t, they went on.<p/>
+<p> <p/>
+<p>Cows should be without eyes.<p/>
+<p> <p/>
+<p>Heard they are deities<p/>
+<p>or used to, now busy?<p/>
+<p>Free-ranged with distend easy<p/>
+<p> <p/>
+<p>well now I’m god<p/>
+<p>in my plate they’re done.<p/>
+<p>How well they end their stall?<p/>
+<p> <p/>
+<p>Cows should be without eyes.<p/>
+<p> <p/>
+<p>I love their hides<p/>
+<p>honest, a bit shy<p/>
+<p>all colours no wry.<p/>
+<p> <p/>
+<p>Black, red or white<p/>
+<p>the total lack of floss is a great buy.<p/>
+<p>Still I get upset after every hike.<p/>
+<p> <p/>
+<p>Cows should be without eyes.<p/>`,
+              
+
+`<p>I haven’t had a meal in days<p/>
+<p>so now brushing my stubble<p/>
+<p>feels like coir to dig to.<p/>
+<p> <p/>
+<p>As a crotch of a construct<p/>
+<p>in here I am;<p/>
+<p>mulling<p/>
+<p>in this state<p/>
+<p>thoughts corded:<p/>
+<p>the fable of the remote.<p/>
+<p> <p/>
+<p>Could it effect:<p/>
+<p> <p/>
+<p>a squeegee larceny.<p/>
+<p>Baulk at this hunger . . .<p/>
+<p>squiffy fugue!<p/>
+<p>Appoggiatura parley.<p/>
+<p>Codswallop poetry.<p/>
+<p> <p/>
+<p>In wait<p/>
+<p>in hope of vagary at the nub.<p/>
+<p> <p/>
+<p>Tomorrow will be here.<p/>`,
+
+`<p>The cremating of the old tangle<p/>
+<p>was quick.<p/>
+<p>Evaporating quickly.<p/>
+<p>Sundial wit with.<p/>`,
+              
+
+`<p>Facing walled cells off a grid<p/>
+<p>smirk doodle<p/>
+<p>purvey two soles off to work<p/>
+<p>splotch the left<p/>
+<p>ratchet in bebops<p/>
+<p>edging nifty<p/>
+<p> <p/>
+<p>sewing bare<p/>
+<p> <p/>
+<p>the footprint of yet.<p/>
+<p>Le nippy deux.<p/>`,
+
+`<p>A fruit fought<p/>
+<p>got caught<p/>
+<p>foot high<p/>
+<p>‘fore touchdown<p/>
+<p>land line pick up.<p/>`,
+              
+
+`<p>Uno this day.<p/>
+<p>Pin rolling<p/>
+<p>to zero.<p/>`,
+
+`<p>Dribble ribbons.<p/>
+<p>Ebb slink I<p/>
+<p>regarding haughty splatter<p/>
+<p>at boom thrust.<p/>`,
+              
+
+`<p>A box in a circle.<p/>
+<p>Threads . . .<p/>
+<p> <p/>
+<p>cut!<p/>`,
+
+`<p>Call out.<p/>
+<p>Leaping off.<p/>
+<p>Under range.<p/>`,
+              
+
+`<p>Yapping. Endless.<p/>
+<p>Leaving. Loving.<p/>
+<p>Out. With.<p/>
+<p>Pop!<p/>`,
+
+`<p>Back beat<p/>
+<p>thud stamps<p/>
+<p>enlivening fusion<p/>
+<p>rev.<p/>`,
+              
+
+`<p>Hand stretched<p/>
+<p>back<p/>
+<p>in peal.<p/>`,
+
+`<p>In the wind<p/>
+<p> <p/>
+<p>saw I thought<p/>
+<p>laburnum dew<p/>
+<p>trill rush<p/>
+<p>into a bowl of lapping<p/>
+<p>growing muckle plug holes.<p/>
+<p> <p/>
+<p>Chiaroscuro scion flecks<p/>
+<p>tamping<p/>
+<p>ferreting<p/>
+<p>Tash. Red.<p/>`,
+              
+
+`<p>I can see it.<p/>
+<p> <p/>
+<p>Just the first few moments.<p/>
+<p> <p/>
+<p>Can I pass away?<p/>
+<p>Empty my all in there . . .<p/>
+<p> <p/>
+<p>arrive just at the number.<p/>
+<p>Say it’s me who<p/>
+<p>slept in your arms.<p/>`,
+
+`<p>Say it’s off<p/>
+<p>the calf love<p/>
+<p>past the crumb etch<p/>
+<p> <p/>
+<p>edge while<p/>
+<p>further the chaise.<p/>`,
+              
+
+`<p>Scarcely in anthem<p/>
+<p>heads pendant hardy.<p/>
+<p>Legs out dirty.<p/>
+<p>Outwit.<p/>
+<p> <p/>
+<p>First attendance . . .<p/>
+<p> <p/>
+<p>eleven bows out.<p/>
+<p>The plenum subverting.<p/>`,
+
+`<p>That umlaut chin<p/>
+<p>tall courting spin<p/>
+<p>ult sati dream<p/>
+<p>dreck maiming<p/>
+<p>awe saw<p/>
+<p>bait a treat<p/>
+<p>lateral grasp of<p/>
+<p>wish bone<p/>
+<p>swizzle stick<p/>
+<p>upswing hoot<p/>
+<p>bliss corm<p/>
+<p>shiver.<p/>`,
+              
+
+`<p>Creation bangs!<p/>
+<p> <p/>
+<p>In a shoot<p/>
+<p>off the viny grooved capital<p/>
+<p> <p/>
+<p>darting through the air.<p/>
+<p> <p/>
+<p>Temperately<p/>
+<p>up there<p/>
+<p>in the fleece sphere;<p/>
+<p> <p/>
+<p>wham!<p/>
+<p>Into a baby tomato.<p/>
+<p> <p/>
+<p>With so many bangs<p/>
+<p>now blue.<p/>
+<p>Its other half<p/>
+<p>sluices . . .<p/>
+<p> <p/>
+<p>Stuck hewn<p/>
+<p>asks:<p/>
+<p>who gives a dowry where that went?<p/>`,
+
+`<p>Caught in the fluorescence;<p/>
+<p> <p/>
+<p>each icky stair<p/>
+<p>metronome<p/>
+<p>girth<p/>
+<p>of fortnight reticence<p/>
+<p> <p/>
+<p>here<p/>
+<p>at the tetrakaidecagon letterbox<p/>
+<p>is no flounder.<p/>
+<p> <p/>
+<p>Dredge<p/>
+<p>a stile<p/>
+<p>to outline<p/>
+<p> <p/>
+<p>I<p/>
+<p>love you.<p/>`,
+              
+
+`<p>Once on the toboggan<p/>
+<p>told you:<p/>
+<p>coming back this path<p/>
+<p>you said<p/>
+<p>not to fritter<p/>
+<p> <p/>
+<p>I combed<p/>
+<p>waxing:<p/>
+<p>the slush aria will guide us.<p/>
+<p> <p/>
+<p>Pall our every hob you mean?<p/>
+<p> <p/>
+<p>Fief . . . Fifteen.<p/>
+<p>Another fatuous blackleg.<p/>`,
+
+`<p>Trams ran through that will-o-wisp rivulet.<p/>
+<p>Shoal of fish hopping through repast canisters.<p/>
+<p>The geyser chimney if you remember<p/>
+<p>was our favourite.<p/>
+<p> <p/>
+<p>The only cupcake pouffe forebear scriptum<p/>
+<p> <p/>
+<p>fifteen, sixteen.<p/>
+<p> <p/>
+<p>In our heads;<p/>
+<p>ass epaulettes.<p/>
+<p>Why those carrel cask of wanton moxie.<p/>
+<p> <p/>
+<p>Fashion me another.<p/>
+<p>Its humdrum.<p/>
+<p>Pectoral sighs . . .<p/>
+<p>chirpy husk to our gads.<p/>
+<p> <p/>
+<p>Make a dime off a macadam.<p/>
+<p>Yes ma’am.<p/>
+<p>I’d always forgive.<p/>`,
+              
+
+`<p>Down the camber<p/>
+<p>remains the plop;<p/>
+<p>germinal morbid harem of thought stint.<p/>
+<p> <p/>
+<p>Come.<p/>
+<p>See the abstruse mishmash filled ovipositor<p/>
+<p>accompanying dirge to tort.<p/>
+<p>Lurching<p/>
+<p>as result of swigs;<p/>
+<p>backdrop of invective mantra.<p/>
+<p> <p/>
+<p>Hie this seventeen<p/>
+<p>my prolix stymied nights<p/>
+<p>only right to leave you here<p/>
+<p>queen of outed octets.<p/>
+<p> <p/>
+<p>Now.<p/>
+<p> <p/>
+<p>Slithery slip off that nuptial bond<p/>
+<p>sibilant of carious freedom.<p/>
+<p> <p/>
+<p>Wilful neophyte furore.<p/>`,
+
+`<p>My!<p/>
+<p>Outré!<p/>
+<p>The somatic fatigue.<p/>
+<p>Pixelated drab.<p/>
+<p>Briefs in vivo.<p/>
+<p>If I could rejig<p/>
+<p>pestering stripes<p/>
+<p>in its stead.<p/>
+<p>Maybe then<p/>
+<p>I won’t wear them fault always.<p/>`,
+              
+
+`<p>I want smacks<p/>
+<p>sort that ripple<p/>
+<p>through vallecula.<p/>
+<p> <p/>
+<p>In public<p/>
+<p>toss out<p/>
+<p>hash knobs.<p/>
+<p> <p/>
+<p>Yes!<p/>
+<p>Sequin pitons.<p/>
+<p>The quotidian ones too.<p/>
+<p>Make it to the lintel ritual.<p/>
+<p>Swan song to the pitter-patter<p/>
+<p>out the incontinent bleed duct;<p/>
+<p>the holstered gossip.<p/>
+<p> <p/>
+<p>I want smacks.<p/>`,
+
+`<p>Round the goal line are fingerprints<p/>
+<p>enduring finicky of left.<p/>
+<p>Beryl cloth fasten my cuirass.<p/>
+<p>Our love be kept.<p/>
+<p> <p/>
+<p>Sad in the moonlight wholly wept.<p/>
+<p>Veridical. Left shut no doors.<p/>
+<p>Temptation removed, far intent.<p/>
+<p> <p/>
+<p>Solace in guild my Artemis.<p/>
+<p>Roseate centrefold her mien depth.<p/>
+<p>Mine whorl. Tentedarch was that yours?<p/>
+<p>Our love be kept.<p/>`,
+              
+
+`<p>Calling for tomorrow<p/>
+<p>when reflexive<p/>
+<p>its response always is<p/>
+<p>diurnal élan.<p/>`,
+
+`<p>In boudoir torpor<p/>
+<p>while horses stalk<p/>
+<p>my bride<p/>
+<p>vitrify wake<p/>
+<p> <p/>
+<p>drapery clouds<p/>
+<p>flung<p/>
+<p>cold sweats<p/>
+<p>drenching me<p/>
+<p>in nonce<p/>
+<p>ansible thoughts<p/>
+<p> <p/>
+<p>tine putter<p/>
+<p>blithely reverie.<p/>
+<p> <p/>
+<p>Every lip gore<p/>
+<p>cru corpuscle vert<p/>
+<p> <p/>
+<p>here<p/>
+<p> <p/>
+<p>tardy<p/>
+<p>rueing<p/>
+<p> <p/>
+<p>spangle soul<p/>
+<p>turret pennon<p/>
+<p>flies.<p/>`,
+              
+
+`<p>Corollary mischief<p/>
+<p>kiting dulcet rebuttal<p/>
+<p>hum and haw.<p/>
+<p> <p/>
+<p>Playing elementary kvetch<p/>
+<p>throttling groping gewgaw<p/>
+<p>hum and haw.<p/>
+<p> <p/>
+<p>Denying stopgaps<p/>
+<p>smiles down sweat sate berth thighs<p/>
+<p>hum and haw.<p/>
+<p> <p/>
+<p>Flailed tricks<p/>
+<p>credence and duds<p/>
+<p>hum and haw.<p/>
+<p> <p/>
+<p>Pratfalls at eight.<p/>`,
+
+`<p>Never until now<p/>
+<p>seen birds tap flap<p/>
+<p>past each other.<p/>
+<p> <p/>
+<p>Aims at seeing bare eaves<p/>
+<p>antecede broomed<p/>
+<p>thunderclap.<p/>
+<p> <p/>
+<p>Impressions of dashing rede<p/>
+<p>conjugating no known fissure.<p/>
+<p>Blind.<p/>
+<p> <p/>
+<p>Periods in marks<p/>
+<p>pasting fellow touches.<p/>
+<p> <p/>
+<p>Spent time at free.<p/>`,
+              
+
+`<p>We laid the tompion.<p/>
+<p> <p/>
+<p>Behind<p/>
+<p>the churning fritz<p/>
+<p>— easel eve exult — <p/>
+<p>cowling<p/>
+<p>obsidian rape.<p/>
+<p> <p/>
+<p>Botulin gazump.<p/>
+<p>Pucker happiness.<p/>`,
+
+`<p>I’d be a prig<p/>
+<p>a big wig<p/>
+<p>not to swing this:<p/>
+<p> <p/>
+<p>flapping the brisk damper.<p/>
+<p>It’s sparks<p/>
+<p>all in place ‘cause of you.<p/>`,
+              
+
+`<p>Lit wick.<p/>
+<p> <p/>
+<p>In my thought: <p/>
+<p>west. <p/>
+<p> <p/>
+<p>You and I come across: <p/>
+<p>splice fiend. <p/>
+<p> <p/>
+<p>Warm a cornflower carto-phase. <p/>
+<p> <p/>
+<p>Truffle tom-tom gumption. <p/>
+<p>Pellucid. <p/>
+<p> <p/>
+<p>Pointrel bleat suite. <p/>
+<p>Kayak enchaînement.<p/>`,
+
+`<p>i.<p/>
+<p> <p/>
+<p>Turn day. <p/>
+<p>Off a bit: <p/>
+<p>turf bit. <p/>
+<p>Birthday kibitz: <p/>
+<p>mind the schist bit. <p/>
+<p> <p/>
+<p>Here. <p/>
+<p>A digit. <p/>
+<p>Wish! <p/>
+<p> <p/>
+<p>ii.<p/>
+<p> <p/>
+<p>Oh terse!<p/>
+<p>Emote, mote. <p/>
+<p>Test. <p/>
+<p>Muzak instead? <p/>
+<p> <p/>
+<p>Top pet<p/>
+<p>my moppet <p/>
+<p>mitt thump. <p/>
+<p>Dent! <p/>
+<p>Quaint thaw. <p/>
+<p>Lark lore. <p/>
+<p>Porch taint. <p/>
+<p>Day to go <p/>
+<p>that’s all.<p/>`,
+              
+
+`<p>Singly hinting . . .<p/>
+<p>I bray. <p/>
+<p> <p/>
+<p>Congrats on <p/>
+<p>growing the third limb <p/>
+<p>stool!<p/>`,
+
+`<p>Found a shears in shamble <p/>
+<p>and wished it was a scissor handle. <p/>
+<p> <p/>
+<p>Thank heavens it's candles <p/>
+<p>easy to ram fingers through. <p/>
+<p>Sheer pleasure crossing this ribbon brook. <p/>
+<p> <p/>
+<p>Bratty seal tore day do. 🎉<p/>`,
+              
+
+`<p>It's a birthday!<p/>
+<p>Like yesterday . . .<p/>
+<p> <p/>
+<p>A wine intrepid <p/>
+<p>sweeter. <p/>
+<p>Doodah to the aha! <p/>
+<p> <p/>
+<p>Now that really isn't . . . <p/>
+<p> <p/>
+<p>Brine froth in aleatory spill. <p/>
+<p> <p/>
+<p>Its still: <p/>
+<p>terry loops ilk <p/>
+<p>in reflective effervescent bubbles.<p/>`,
+
+`<p>I bore it a must <p/>
+<p>a fair rumply butt. <p/>
+<p>All do it for the jut <p/>
+<p>that birthday sop. <p/>
+<p>. . . dote wrote to your clop top.<p/>`,
+              
+
+`<p>We say August and it’s nineteen<p/>
+<p>with this my lungs and drums go all upbeat <p/>
+<p>for with just orders we’ve made it. <p/>
+<p> <p/>
+<p>Oh auntie! <p/>
+<p>Tell me this too with a bite is heightened. <p/>
+<p> <p/>
+<p>I taped a calendar for the tally-bark route was thorn streaked, <p/>
+<p>some reminder being out here is modern in every tasting. <p/>
+<p> <p/>
+<p>I dote days, birthdays two ways, it is your grace this nineteen. <p/>
+<p>With chords and stop, my cup’s raised, in open fervency. <p/>
+<p>It’s nineteen and oh my auntie, it is back rich.<p/>`,
+
+`<p>Days better as checks. <p/>
+<p>Patterns in row of expectancy. <p/>
+<p>Weatherboard of shaded mordent prick. <p/>
+<p> <p/>
+<p>When the hanky swipes: <p/>
+<p>Phew! <p/>
+<p>Bay's a box away <p/>
+<p>in bollard <p/>
+<p>where behaviour whets my manner.<p/>`,
+              
+
+`<p>Seem. <p/>
+<p>Seam. <p/>
+<p>The yellow line <p/>
+<p>of forever <p/>
+<p>with your favourite hat <p/>
+<p>on.<p/>`,
+
+`<p>Caged away a bird. Peeled. <p/>
+<p>It had perched on my sill. <p/>
+<p> <p/>
+<p>Beak clack! Clack! <p/>
+<p>Clack! Clack! <p/>
+<p> <p/>
+<p>Strange for a call <p/>
+<p>now out park. <p/>
+<p> <p/>
+<p>Tap! At the sash. <p/>
+<p>Clack! At its glam. <p/>
+<p> <p/>
+<p>It pares. Pares it seems. <p/>
+<p>Din here, din there; on seam. <p/>
+<p> <p/>
+<p>In beams . . . on its shimmery plumage <p/>
+<p>I wrest him in my hands cupped siege. <p/>
+<p> <p/>
+<p>Now a mirror cage <p/>
+<p>a singing page he stages. <p/>
+<p> <p/>
+<p>Beak clack! Clack! <p/>
+<p>Clack! Clack!<p/>`,
+              
+
+`<p>Froze in thought. <p/>
+<p>Comprehension! <p/>
+<p>Debilitating contrast. <p/>
+<p>Touché! <p/>
+<p>Demerit. <p/>
+<p> <p/>
+<p>Pertinent apace. <p/>
+<p> <p/>
+<p>Au fait <p/>
+<p>flâneur on his way.<p/>`,
+
+`<p>For every grime <p/>
+<p>I tried every font. <p/>
+<p>Every wash <p/>
+<p>every stone colour. <p/>
+<p>Pledged at every. <p/>
+<p>Round every. <p/>
+<p>Top of every. <p/>
+<p>Every seemed heavier. <p/>
+<p>Every was never a try. <p/>
+<p>A face for every.<p/>`,
+              
+
+`<p>I saw a movie. <p/>
+<p>Its frills weave: <p/>
+<p> <p/>
+<p>love is fractal <p/>
+<p>punctum hay. <p/>
+<p>The spiel needle drop. <p/>
+<p>Relevé data crump. <p/>
+<p> <p/>
+<p>The garland of Ireneo Funes.<p/>`,
+
+`<p>Besotted . . . <p/>
+<p>I offered a Popsicle wick fáilte. <p/>
+<p> <p/>
+<p>Frolic with feet over my head <p/>
+<p>the canon of my ken; <p/>
+<p>bare with no jock. Meshed <p/>
+<p> <p/>
+<p>I broached: <p/>
+<p>you’re a skinflint at admissible emotions. <p/>
+<p> <p/>
+<p>Togged up as the effusive divider. <p/>
+<p>You daintily replete my kempt <p/>
+<p>canary heart with mitzvah social blocks. <p/>
+<p> <p/>
+<p>I thought: <p/>
+<p>you bovine. <p/>
+<p> <p/>
+<p>Drivel! <p/>
+<p>It was just en garde. <p/>
+<p> <p/>
+<p>Was it a fallow? <p/>
+<p>That drench of silence before the tweet. <p/>
+<p>I lacked the antennae<p/>
+<p>but I picked off the crate.<p/>`,
+              
+
+`<p>Who is fondling <p/>
+<p>your sepal into words? <p/>
+<p>Beguile the echo of your singing <p/>
+<p>in the transpersonal loft. <p/>
+<p> <p/>
+<p>Way of a scrounge with <p/>
+<p>nourishment I feel how with the times. <p/>
+<p> <p/>
+<p>An ever bis; <p/>
+<p>flare mood-tweed. <p/>
+<p> <p/>
+<p>Play me <p/>
+<p>say: <p/>
+<p>dipping tutelage in freight kowtower. <p/>
+<p> <p/>
+<p>Feisty iridescent pried prim nails are all I see.<p/>`,
+
+`<p>Come here! <p/>
+<p> <p/>
+<p>Fretfully perched though, <p/>
+<p>I fused with din. <p/>
+<p>Closer. <p/>
+<p>Acquainted. <p/>
+<p>My beady eyes dove to wash <p/>
+<p>tween the sight <p/>
+<p>freeing sound. <p/>
+<p> <p/>
+<p>Applesauce. Stashed <p/>
+<p>pinned with whim <p/>
+<p>will dream.<p/>`,
+              
+
+`<p>I peered the pore <p/>
+<p>its faint fall pass. <p/>
+<p>Poured a sprawl <p/>
+<p>and hoped for a doll.<p/>`,
+
+`<p>Due brain.<p/>
+<p>Fytte for a vista vertu.<p/>
+<p>She’s out with a jealous front. <p/>
+<p>To her my love <p/>
+<p>I’m a randy mate. <p/>
+<p>Never could be mine. <p/>
+<p>just ply. <p/>
+<p>Love me how I please! <p/>
+<p> <p/>
+<p>Never a goad jut. <p/>
+<p>A sessile thatch <p/>
+<p>if only <p/>
+<p>a chattel visor <p/>
+<p>was my hourly avid. <p/>
+<p> <p/>
+<p>I told her of you. <p/>
+<p>Your view. <p/>
+<p>How it’s ever <p/>
+<p>always few hours to morning <p/>
+<p>with you <p/>
+<p>and our greenmail plan. <p/>
+<p> <p/>
+<p>A fringing reef <p/>
+<p>she says <p/>
+<p>you’ll write a poem for. <p/>
+<p>It’s great you wallow. <p/>
+<p> <p/>
+<p>She doesn’t get it. <p/>
+<p>The gentle rub. <p/>
+<p>Thumb over fore <p/>
+<p>how it’s no whim. <p/>
+<p> <p/>
+<p>Flowers that remind . . . <p/>
+<p>it is an anastrophe tailor scour <p/>
+<p>your pulchritude. <p/>
+<p> <p/>
+<p>Mine to tease out. <p/>
+<p>Swelter hot <p/>
+<p>seeping grace of the hourglass.<p/>`,
+              
+
+`<p>She seizes the day <p/>
+<p>owning the only <p/>
+<p>penny staking romp. <p/>
+<p> <p/>
+<p>It’s fine <p/>
+<p>serve me a spiked punch. <p/>
+<p>Puff the kif. <p/>
+<p> <p/>
+<p>She’s my oar. <p/>
+<p>My intuition touch <p/>
+<p>the stroke. <p/>
+<p> <p/>
+<p>Her curve mow truce; <p/>
+<p>thewy lip sweep <p/>
+<p>flays the quail. <p/>
+<p> <p/>
+<p>My shunts. <p/>
+<p>Cripes! <p/>
+<p>I do. <p/>
+<p> <p/>
+<p>Souffle in my waned flint; <p/>
+<p>vogue flown foe. <p/>
+<p>The clef mushroom with a smile.<p/>
+<p> <p/>
+<p>My evermore levee.<p/>`,
+
+`<p>I feel too <p/>
+<p>how we two. <p/>
+<p> <p/>
+<p>Now if you <p/>
+<p>will be too. <p/>
+<p> <p/>
+<p>I feel too.<p/>`,
+              
+
+`<p>Brim vim I<p/>
+<p>heap thrill ride. <p/>
+<p>I stand pat at tie <p/>
+<p>bookmark line <p/>
+<p>ampersand heights <p/>
+<p> <p/>
+<p>squeaky clean bind. <p/>
+<p> <p/>
+<p>Rung rung plight <p/>
+<p>patina kibosh wife <p/>
+<p>fawn lawn aisle. <p/>
+<p> <p/>
+<p>My Rihanna with a blowgun <p/>
+<p>you’ve left me in stitches.<p/>`,
+
+`<p>Entry. Ending. <p/>
+<p>Evenly carefree. <p/>
+<p> <p/>
+<p>Three loops to eight <p/>
+<p>lending empty. <p/>
+<p> <p/>
+<p>Best this poetry <p/>
+<p>come through <p/>
+<p>bubbly. <p/>
+<p> <p/>
+<p>Ending entry.<p/>`,
+              
+
+`<p>These birds singing ensconce <p/>
+<p>remind me: <p/>
+<p> <p/>
+<p>It’s a feat to dump tunes. <p/>
+<p> <p/>
+<p>your hands label me queer; <p/>
+<p>like why <p/>
+<p>I should know where the only pressure is <p/>
+<p> <p/>
+<p>been sussing the raison d'être; <p/>
+<p> <p/>
+<p>fraying fronds. <p/>
+<p> <p/>
+<p>I know it’s no marring <p/>
+<p>the dividend <p/>
+<p>redound to waking quell. <p/>
+<p> <p/>
+<p>Humanizing trauma. <p/>
+<p>I love you.<p/>`,
+
+`<p>Shaking it off <p/>
+<p>jiff wiggle. <p/>
+<p> <p/>
+<p>Splaying single biped. <p/>
+<p>Prostrate angst denial. <p/>
+<p> <p/>
+<p>Brushing my teeth <p/>
+<p>at time.<p/>`,
+              
+
+`<p>Kiss me in paste of this luscious dream. <p/>
+<p>Rake the pale off its medley dew. <p/>
+<p> <p/>
+<p>Speak of on-page bordering touch <p/>
+<p>eschewing their smarmy daze. <p/>
+<p>A thousand seat coach of a smile.<p/>`,
+
+`<p>Hoop peace. <p/>
+<p>Ship peeve <p/>
+<p>right the non sequitur weight. <p/>
+<p> <p/>
+<p>Wait! <p/>
+<p> <p/>
+<p>Stage a whelp rage. <p/>
+<p>Only a crèche fascia. <p/>
+<p> <p/>
+<p>Wet your address book. <p/>
+<p>Barely a schuss. <p/>
+<p> <p/>
+<p>So wait. <p/>
+<p>I can play whooper <p/>
+<p>if we are friends <p/>
+<p>only, toady.<p/>`,
+              
+
+`<p>It is a lackey. <p/>
+<p>He has just <p/>
+<p>frail inanity <p/>
+<p>arrived at the furore. <p/>
+<p> <p/>
+<p>Pudgy<p/>
+<p>he arrives on a mare hocussed. <p/>
+<p> <p/>
+<p>Nerved. <p/>
+<p> <p/>
+<p>Hilt grip. <p/>
+<p> <p/>
+<p>Thought there’d be pomp! <p/>
+<p> <p/>
+<p>Bent. <p/>
+<p>Himself out of shape. <p/>
+<p> <p/>
+<p>Au naturel floodlit; <p/>
+<p>jabot to his mare coffle. <p/>
+<p> <p/>
+<p>For the rent to his regal skin <p/>
+<p>a vicissitude euphemism: <p/>
+<p> <p/>
+<p>this perturbation akin to a house fly <p/>
+<p>an awn by the ear. <p/>
+<p> <p/>
+<p>A brachistochrone, my mare <p/>
+<p>course.<p/>`,
+
+`<p>At the threshold <p/>
+<p>with locket hands <p/>
+<p>emptying a pocket <p/>
+<p>of ocean flaws <p/>
+<p>the past unzips. <p/>
+<p> <p/>
+<p>Each step <p/>
+<p>canoodle <p/>
+<p>soft like a head’s cushion <p/>
+<p>comes the kula <p/>
+<p>as sleep at night. <p/>
+<p> <p/>
+<p>For the time <p/>
+<p>the rut of autumn’s raked bed-rise. <p/>
+<p> <p/>
+<p>I’m here fine <p/>
+<p>where I sit right <p/>
+<p>in lye-rhyme, clipped <p/>
+<p>a pen with lines.<p/>`,
+              
+
+`<p>It’s moments <p/>
+<p>cycling through shadows; <p/>
+<p> <p/>
+<p>concave throb seats <p/>
+<p>bobbin holding pangs. <p/>
+<p> <p/>
+<p>Not the hurt! <p/>
+<p> <p/>
+<p>Nine came in confetti <p/>
+<p>traducing the palate of my heart wine. <p/>
+<p> <p/>
+<p>Quale lethargic dower clouds <p/>
+<p>bedaubed over my soma. <p/>
+<p> <p/>
+<p>It’s been the bar between my I’s <p/>
+<p>my H. <p/>
+<p>Beating memento mori with a drogue. <p/>
+<p>The latch on articulo mortis. <p/>
+<p>A native pine rhythm now hackneyed. <p/>
+<p>Thrust trail of decades. <p/>
+<p>Reason it bickers different at the adytum . . . <p/>
+<p> <p/>
+<p>With a chill to the feet <p/>
+<p>comes the hurt. <p/>
+<p> <p/>
+<p>A track without a compatriot.<p/>`,
+
+`<p>If you know of any tunnel <p/>
+<p>. . . it is opening <p/>
+<p>you can follow <p/>
+<p>for there’ll be no patch. <p/>
+<p> <p/>
+<p>Your naïvety is fine; <p/>
+<p>only a blindfold. <p/>
+<p> <p/>
+<p>There’s a diorama <p/>
+<p>and I also can’t tell <p/>
+<p>how much sleep <p/>
+<p>is on the natal brain.<p/>`,
+              
+
+`<p>This circadian tress <p/>
+<p>lack that theine; nous-stock <p/>
+<p>of my doyenne. <p/>
+<p> <p/>
+<p>I’d beg the day tarry <p/>
+<p>avow its flub . . . <p/>
+<p>paint it all ham <p/>
+<p>for this dearth of loop. <p/>
+<p>Beg the sash <p/>
+<p>to celebrate you longer.<p/>`,
+
+`<p>Lofty hung . . . <p/>
+<p>detained<p/>
+<p>in memory. <p/>
+<p>Neurons bay the sluice. <p/>
+<p> <p/>
+<p>Rock. Bottom. <p/>
+<p>Gauntlet grippy <p/>
+<p>squirmy crinkle folds. <p/>
+<p> <p/>
+<p>Douse. <p/>
+<p>And again. <p/>
+<p> <p/>
+<p>New ones.<p/>`,
+              
+
+`<p>The bulge <p/>
+<p>and its pupil. <p/>
+<p> <p/>
+<p>Pun qualms. <p/>
+<p>Damn bombs go off! <p/>
+<p> <p/>
+<p>Duty one. <p/>
+<p>Staple. <p/>
+<p>I see it <p/>
+<p> <p/>
+<p>mete its protest. <p/>
+<p>Simple. <p/>
+<p>Oh into. <p/>
+<p> <p/>
+<p>Ample my tut-sea.<p/>`,
+
+`<p>I don’t play with purse<p/>
+<p>for need of months. <p/>
+<p>Out by the corner with a dump sump <p/>
+<p>it’s forever that blunt. <p/>
+<p> <p/>
+<p>Both pulse of the only hump. <p/>
+<p>When I freeze — <p/>
+<p>cusp on the pervy slab <p/>
+<p>— it’s with a feather. <p/>
+<p>An empty reason for another tender-tender. <p/>
+<p> <p/>
+<p>Pet me, it’s surly suave. <p/>
+<p>Been with many enough for a curfew valve <p/>
+<p>fairly I piss camp. <p/>
+<p> <p/>
+<p>Sex on my burdened platitude.<p/>`,
+              
+
+`<p>LTrundling heels clicks. <p/>
+<p>Skipping conversations. <p/>
+<p>Fettering hiccups. <p/>
+<p> <p/>
+<p>Bare feet. <p/>
+<p>Pair stilts. <p/>
+<p> <p/>
+<p>Couriers of the custom. <p/>
+<p> <p/>
+<p>Her words . . . <p/>
+<p>when spoken <p/>
+<p>fondle you stiff; <p/>
+<p>running deviant ball-pen. <p/>
+<p> <p/>
+<p>Back of the boom <p/>
+<p>is where her motion lies. <p/>
+<p>A slap. A clap pat <p/>
+<p>plus she parts the lap. <p/>
+<p> <p/>
+<p>If the night is young <p/>
+<p>she leaves without a ruffle, no ache bet. <p/>
+<p> <p/>
+<p>Her ranks lay the snorkel <p/>
+<p>of wad kingdom cum.<p/>`,
+
+`<p>I hate the drive-through <p/>
+<p>now the traversing side; <p/>
+<p> <p/>
+<p>a cable <p/>
+<p> <p/>
+<p>unchastened spirit in a flatbed. <p/>
+<p> <p/>
+<p>All I do is pick and dump <p/>
+<p>more on the morose when it’s onerous . . . <p/>
+<p> <p/>
+<p>I’ll leave the curtains that way <p/>
+<p>the white light represents . . . <p/>
+<p> <p/>
+<p>Another unnecessary accustomed waste tense. <p/>
+<p> <p/>
+<p>I love the placid. <p/>
+<p> <p/>
+<p>A minimal <p/>
+<p>routine accede. <p/>
+<p> <p/>
+<p>Cancelling.<p/>`,
+              
+
+`<p>Daintily<p/>
+<p>I took a sip <p/>
+<p>taping faint cloves. <p/>
+<p> <p/>
+<p>Scintilla finagle seizing hisses; <p/>
+<p>kisses pitting <p/>
+<p>stymie edge turns. <p/>
+<p> <p/>
+<p>Neat aural black hem; <p/>
+<p>the plummy drone. <p/>
+<p>Grapy sores <p/>
+<p>even in this cuff.<p/>`,
+
+`<p>Crayon bomb! <p/>
+<p>Stick! <p/>
+<p>Doting French roll bun. <p/>
+<p>Don’t leave me <p/>
+<p>for other. <p/>
+<p>Else.<p/>`,
+              
+
+`<p>How many crouched <p/>
+<p>by that highway kerb? <p/>
+<p>This time <p/>
+<p>unlike every <p/>
+<p>one<p/>
+<p>torpor<p/>
+<p>nigher, in consternation. <p/>
+<p> <p/>
+<p>No wiles . . . <p/>
+<p>Don’t ever leave here. <p/>
+<p> <p/>
+<p>O, to run. <p/>
+<p> <p/>
+<p>No use! <p/>
+<p> <p/>
+<p>Always<p/>
+<p>it is. <p/>
+<p> <p/>
+<p>The spurt pant further now. <p/>
+<p>Am I still here? <p/>
+<p>Does it matter <p/>
+<p> <p/>
+<p>where?<p/>`,
+
+`<p>In a gnomic house <p/>
+<p>some duppy weaved <p/>
+<p>tussle teem tear. <p/>
+<p> <p/>
+<p>Ink wage. <p/>
+<p>Drench page. <p/>
+<p>Down joist. <p/>
+<p>All . . . <p/>
+<p>creaky mewling poise. <p/>
+<p> <p/>
+<p>Crisply hover . . . <p/>
+<p> <p/>
+<p>her crumpet <p/>
+<p>dryly smuttiness <p/>
+<p>tabi gourmet.<p/>
+<p>. . . feral tact panache <p/>
+<p>chicanery demotic doors <p/>
+<p>daunting privy belie quaich. <p/>
+<p> <p/>
+<p>Regal um, dash <p/>
+<p>accosting geld sprezzatura. <p/>
+<p> <p/>
+<p>Bosh coitus <p/>
+<p> <p/>
+<p>cum gosh! <p/>
+<p> <p/>
+<p>True rivet: <p/>
+<p>crush balls <p/>
+<p>tit tart. <p/>
+<p> <p/>
+<p>Cloche.<p/>`,
+              
+
+`<p>Some clay <p/>
+<p>will do <p/>
+<p>in place <p/>
+<p>for hue. <p/>
+<p> <p/>
+<p>Splat! <p/>
+<p> <p/>
+<p>Clipped digits. <p/>
+<p>Hue tunic of clam juice. <p/>
+<p> <p/>
+<p>Imagine. <p/>
+<p>The drag <p/>
+<p>its facing side; <p/>
+<p> <p/>
+<p>pointing. <p/>
+<p> <p/>
+<p>Spittle enzymes <p/>
+<p>to meeting you faster. <p/>
+<p> <p/>
+<p>Closest; <p/>
+<p>heart line. <p/>
+<p> <p/>
+<p>First sound in sea, <p/>
+<p>whirl story of spoke. <p/>
+<p> <p/>
+<p>Tried leaving with it <p/>
+<p>but how <p/>
+<p>with these numina resplendent smudges.<p/>`,
+
+`<p>LllTattle triage quiver<p/>
+<p>bathing interstice babel . . . <p/>
+<p> <p/>
+<p>Cinched hand! <p/>
+<p>. . . crying belfry. <p/>
+<p>Taut towel. <p/>
+<p> <p/>
+<p>Filch. <p/>
+<p>Which? <p/>
+<p>The dreg under rock. <p/>
+<p>Birth: flicker. <p/>
+<p>Absolved in the sweet bar beth; <p/>
+<p> <p/>
+<p>could be tonight.<p/>`,
+              
+
+`<p>Most mornings, it’s prawn I’ve got in my mouth <p/>
+<p>rating 'very younker’s yawn: budding lout. <p/>
+<p>I take a brush, prop the top <p/>
+<p>and wait for that big rod rout. <p/>
+<p>Always with the bout but that's out. <p/>
+<p> <p/>
+<p>This morning I made a round; south. <p/>
+<p>A gain for her. A game I need it'd stop. <p/>
+<p>Out by the door, I taste it: last night's gout.<p/>`,
+
+`<p>Where in the continuum <p/>
+<p>will pretence <p/>
+<p>level this long ill-hale? <p/>
+<p> <p/>
+<p>Gut the dimorphism <p/>
+<p>through the lateral ends . . . <p/>
+<p> <p/>
+<p>A limning gravitas question. <p/>
+<p>Could win back Quebec <p/>
+<p>my madame.<p/>`,
+              
+
+`<p>I’ve been sick out of this love for you. <p/>
+<p>Pair of jigs; lost to green so true. <p/>
+<p>These cats all too drew. Those two. <p/>
+<p>Meet me down the drain-surf for enough foo <p/>
+<p>drowning a swain so blue. <p/>
+<p>The inane pointlessness. Together. One loose. ❤<p/>`,
+
+`<p>i.<p/>
+<p> <p/>
+<p>Four louvres at mine; its only side <p/>
+<p>with a door as the child squiggly lines <p/>
+<p>I was apt to draw hang pretty fine. <p/>
+<p>No baggage, just bad aches lending hard times. <p/>
+<p>Orange citrus hue in a burst long due cry <p/>
+<p>shoving mutely the shoehorning feeling outside. <p/>
+<p> <p/>
+<p>ii.<p/>
+<p> <p/>
+<p>In. It’s green walling off its best previous life. <p/>
+<p>Dated use wire off the hook, every no fan night. <p/>
+<p>A bed, stove, with a mat up my hind. <p/>
+<p>The two polar reposed doors tittering: we’d be post he and I <p/>
+<p>weekday or fly. Shopkeepers; sundry visile. <p/>
+<p>I dredge with stubbly bristle fingers quaking tiny craters stopping tiles <p/>
+<p>with flies roaming: reasons for a door open wide. <p/>
+<p> <p/>
+<p>iii.<p/>
+<p> <p/>
+<p>Nefandous shards bud scuttlebutt rife <p/>
+<p>lettering broad on bold stink stiles <p/>
+<p>snuffing that puerile roof gable drawing out mind <p/>
+<p>in plumes through doorway median of wish and live. <p/>
+<p>A dream of a triangle’s deck fenestra — playing wind — <p/>
+<p>alive on the ground — ragbag testy lees of fluviatile lies — <p/>
+<p>by dunnage ere dogie, buckling by wild anger bind. <p/>
+<p>Its ripple ambience ends in snafu, abrasive ulalgia. Save smiles. <p/>
+<p> <p/>
+<p>iv.<p/>
+<p> <p/>
+<p>Leaves bode-effaced. A child’s mindless stable vice. <p/>
+<p>Every ball-tip crawl scrim: screams of letters B-O-D-E. Fried <p/>
+<p>like a glowing déjà vu peculiar sound. A name. The wish-meet ends its hide. <p/>
+<p>A new flow, feeling, of gust. Draught in a skylit mine. <p/>
+<p>Shock is a gift. Won’t hurt a bit. I lift my bags light. <p/>
+<p>Anyone’s help! A bar across, he loved the poetry. He’s right! <p/>
+<p>It isn’t always about a purchase for him to be welcome. A call-in deliverance isn’t a try. <p/>
+<p>Does it cushion, with the elders? Your eyes! <p/>
+<p>You left drowned . . . A stem paced bide. <p/>
+<p> <p/>
+<p>v.<p/>
+<p> <p/>
+<p>The toughest walk up an inselberg strait why <p/>
+<p>in wobbling funk soothing in crossed-out whines <p/>
+<p>fills the pitcher seat with naught ‘ut peccavi crime. <p/>
+<p>With water to take home. I thank four lobes twined. <p/>
+<p>Three brothers. The fare dime. <p/>
+<p>The slip-fall of a mum. Sorry. A slip promised another; truth in time. Future grime. <p/>
+<p>A parlour meet ends with a feint sprig of whodunnit, smitten token bite-sized. <p/>
+<p>The loudest hail from a clock shift sides and gore tears dried. <p/>
+<p>Peace with the marauder when he derides: his timbre; plots of dove heights. <p/>
+<p>Poise in his amnesia dissipating cloud with the willow lite. <p/>
+<p> <p/>
+<p>vi.<p/>
+<p> <p/>
+<p>I left with a hoe, it felt a whit of jut mile <p/>
+<p>a careen curse avoirdupois unearthed bye <p/>
+<p>in the wake of a diglossic family bier mire. <p/>
+<p>A secret! Of what? One amiss. Outlandish? My lot to writ . . . clandestine kind. <p/>
+<p>The unnerved breaths had the pause — light in capture — trite <p/>
+<p>as bearer returns tonsure betoken through a fjord bar-long. A chine. <p/>
+<p>Homebody loves a sit even if he can’t afford a swig, but this chide? <p/>
+<p>A quiet pit: I close soon, been here for you. Still. Faced with the leaden, at loss to the idling. <p/>
+<p>Twiddling, I bother he help me with the lighter of the two. His pooch: security crisis. <p/>
+<p>You could die over the night’s course. He plumped from behind. <p/>
+<p>Loathing his . . . His! At the back of the tricycle the bonged hype.<p/>`,
+              
+
+`<p>A hutch of aims.<p/>
+<p>Arranged.<p/>
+<p>Memories arched<p/>
+<p>come in gains.<p/>
+<p> <p/>
+<p>I zapped the open-fury with a cloze test.<p/>
+<p>The routinised sauce attitude<p/>
+<p>at this vapid meaninglessness of what dangled.<p/>
+<p>The commissure braille for the deaf.<p/>
+<p>The seated extended, what for sederunt<p/>
+<p>or a Rorschach letting a crumble<p/>
+<p>through the steeplechase.<p/>
+<p>Nothing heard but perceived<p/>
+<p>a changing soliloquy by night's bathe<p/>
+<p>with voice inflections registered but not haptic<p/>
+<p>lest it be sentimental. <p/>
+<p> <p/>
+<p>I to wait for an attaboy at admittance to an inly soot no longer venial. <p/>
+<p>Storming out has the weight of a cadre chase out. <p/>
+<p>A bride leaving for a date . . .<p/>`,
+
+`<p>i.<p/>
+<p> <p/>
+<p>The aerial canopy over my head <p/>
+<p>came down <p/>
+<p>in the form <p/>
+<p>of a fall morning’s chill. <p/>
+<p> <p/>
+<p>I couldn’t retail quite <p/>
+<p>the chink of id; <p/>
+<p>fink in the room <p/>
+<p>bogged eyes, jink boon. <p/>
+<p> <p/>
+<p>The past days bottled the said and said <p/>
+<p>wile reticent advertent. <p/>
+<p> <p/>
+<p>Leaving untrue. <p/>
+<p> <p/>
+<p>I made carefree the finicky loss <p/>
+<p>in the darkness owning the dust lustre of everyone met. <p/>
+<p> <p/>
+<p>Performative recluse crumbs of altering posture; <p/>
+<p>damning thoughts splintered in blank cuddles <p/>
+<p>undress, in foible clag up squat pergola <p/>
+<p>infuscating backsides dimming away rode-taut <p/>
+<p>in welcome of leitmotif gilded cages. <p/>
+<p> <p/>
+<p>ii.<p/>
+<p> <p/>
+<p>The aerial canopy over my head <p/>
+<p>came down <p/>
+<p>in the form <p/>
+<p>of a glass graduate <p/>
+<p>collimating the flesh out. <p/>
+<p> <p/>
+<p>A paroxysm pallor screed <p/>
+<p>halting the solarium grith <p/>
+<p>in inkwell pluvial dushes.<p/>`,
+              
+
+`<p>Light poles . . . <p/>
+<p>still they are always here. <p/>
+<p>You’d expect fair. <p/>
+<p>Matching the year. <p/>
+<p> <p/>
+<p>And it goes. <p/>
+<p> <p/>
+<p>When I'm away from you, I miss your touch <p/>
+<p>you're the reason I believe in love. <p/>
+<p>Oh, I'm a wreck without you here. <p/>
+<p>Yeah, I'm a wreck since you've been gone. <p/>
+<p>I'll see you again, my loved one.<p/>`,
+
+`<p>. . . creeps up the mob stick <p/>
+<p>wobbling streak-tick. <p/>
+<p>Tail flick. <p/>
+<p>Air nick. <p/>
+<p>The distant sink <p/>
+<p>out of reach. Prick! <p/>
+<p> <p/>
+<p>In a moment's click <p/>
+<p>she knew sudden clink <p/>
+<p>this air sweep quick <p/>
+<p>is new blink.<p/>`,
+              
+
+`<p> Deal! You dill. <p/>
+<p> <p/>
+<p>Steer . . .<p/>
+<p>. . . Well, swing.<p/>
+<p> <p/>
+<p>Off!<p/>`,
+
+`<p>Mono. Don't know. A no-no.<p/>
+<p>The old log. Repetition. Soul-eater. <p/>
+<p>With the curtains drawn<p/>
+<p>the billowy hate-tan bellows . . . <p/>
+<p>The ode-lock. <p/>
+<p> <p/>
+<p>Puff! Puff! <p/>
+<p> <p/>
+<p>The old log. <p/>
+<p>The old log. <p/>
+<p>My journal’s noob at pernicious derailment. <p/>
+<p>A jolt over probable self-denseness. <p/>
+<p>The runner-sense leads: <p/>
+<p>clad your thoughts with words. Bear forth ASCII; <p/>
+<p>the game-ball muff. <p/>
+<p> <p/>
+<p>I had won. <p/>
+<p>Seventy two thousand word . . . <p/>
+<p>They need it . . . let them go at it. <p/>
+<p> <p/>
+<p>Want more?<p/>`,
+              
+
+`<p>     I’ve spent days spent heaving away seething thoughts carving prodding craves at enlisting few days from now at the camp of embellished time wasters.<p/>
+<p> <p/>
+<p>         The wise publisher at the desk; a temple’s sudden weight-way; chestnut-lens broken for its fit-wit lack? <p/>
+<p> <p/>
+<p>         I’m beyond scared, a demurring artery escaping its bed as it worries bothersome. <p/>
+<p> <p/>
+<p>         Writing again — true to its flow — word-hedged, as its credence outside of the paleness riveting its now thought of unworthiness remaining at the bed. <p/>
+<p> <p/>
+<p>         Better to be a blood stained parchment than the fingers clenched in grating teeth ferreting a long closed road for a new route.<p/>
+<p> <p/>
+<p>         The email read four, or five working days, I’ve lost the dose. If it counts for a cure. <p/>
+<p> <p/>
+<p>         Poorly received they’d think, if my response goes in late. But a rigorous count till it exactly marks the stipulated wait-time is my plan. Get a device, get on the internet and weigh the dame. I loved and still; them slim.<p/>`,                                   
             ],
             convertIndex(prop) {
               var indexNumber = prop;
