@@ -1,0 +1,202 @@
+@charset "UTF-8";
+/* CSS Document */
+/*==============================================================
+	Google Fonts
+==============================================================*/
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,600i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One&display=swap');
+
+/*==============================================================
+	Common Styles Initials
+==============================================================*/
+
+.slick-slide{
+	outline: none !important;
+}
+.slick-slider{
+	user-select: text;
+}
+/*==============================================================
+	CTA style start
+==============================================================*/
+.cta-btn{}
+.cta-btn .cta-link{
+	position: relative;
+	display: inline-block;
+	background: #d2d6ef;
+	color: #081c2d;
+	font-size: 15px;
+	min-width: 220px;
+	text-align: center;
+	letter-spacing: 0.050em;;
+	line-height: 18px;
+	font-weight: 400;
+	padding: 15px 30px;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-family: 'Fugaz One', cursive;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.cta-btn .cta-link.cta-block{
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.cta-btn .cta-link i{
+	margin-right: 5px;
+}
+.cta-btn .cta-link:hover{
+	background: #081c2d;
+	color: #d2d6ef;
+	-webkit-box-shadow: 0px 5px 20px rgba(0, 33, 71, .4);
+	-moz-box-shadow: 0px 5px 20px rgba(0, 33, 71, .4);
+	box-shadow: 0px 5px 20px rgba(0, 33, 71, .4);
+}
+/*==============================================================
+	CTA style end
+==============================================================*/
+/*==============================================================
+	banner Style start
+==============================================================*/
+.banner-wrap{
+	height: auto;
+	position: relative;
+	overflow: hidden;
+}
+.shape{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+.shape svg{
+	width: 100%;
+}
+.banner-slider{
+	height: 100%;
+}
+.banner-slider > .banner-slide{
+	display: none;
+}
+.banner-slider > .banner-slide:first-child{
+	display: block;
+}
+.slick-initialized .banner-slide{
+	position: relative;
+	height: 900px;
+	padding-bottom: 300px;
+	display:-webkit-flex !important;
+	display:flex !important;
+	-webkit-align-items:center;
+	align-items:center;
+}
+
+.banner-slider .slick-arrow{
+	position: absolute;
+	right: 25px;
+	bottom: 50px;
+	font-size: 0;
+	background: #ffffff;
+	border: 0;
+	width: 50px;
+	height: 50px;
+	z-index: 12;
+	cursor: pointer;
+	border-radius: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.12);
+}
+.banner-slider .slick-arrow:before{
+	font-family: "boxicons";
+	font-size: 30px;
+	text-align: center;
+	line-height: 50px;
+	color: rgba(0,33,71,1);
+}
+.banner-slider .slick-arrow.slick-prev{
+	right: 95px;
+}
+.banner-slider .slick-arrow.slick-prev:before{
+	content: "\ea9b";
+}
+.banner-slider .slick-arrow.slick-next{
+	right: 25px;
+}
+.banner-slider .slick-arrow.slick-next:before{
+	content: "\eb1c";
+}
+.hero-image{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+}
+.banner-wrap .container{
+	position: relative;
+	z-index: 12;
+}
+.hero-overlay{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: .5;
+}
+.hero-content{	
+	color: #ffffff;
+}
+.hero-content p{
+	font-size: 20px;
+	line-height: 32px;
+	max-width: 600px;
+	color: rgba(255,255,255,0.9);
+	letter-spacing: 0.010em;
+}
+.blog-detail-banner .hero-content{
+	max-width: 900px;
+}
+.blog-detail-banner .hero-content h1{
+	font-size: 53px;
+}
+.hero-content h3{
+	font-size: 16px;
+	color: rgba(255,255,255,.6);
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	position: relative;
+	font-weight: 500;
+	margin-top: 0;
+	margin-bottom: 12px;
+	margin-left: 6px;
+}
+.hero-content h1{
+	font-size: 63px;
+	line-height: 1.333;
+	margin-bottom: 18px;
+	color: #e6e8f6;
+	font-weight: 400;
+	max-width: 760px;
+	font-family: 'Fugaz One', cursive;
+}
+.hero-content .cta-btn{
+	padding-top: 30px;
+}
+.hero-content .cta-btn .cta-link.cta-outline-white:hover{
+	background: #ffffff;
+	color: rgba(0,33,71,1);
+}
+/*==============================================================
+	banner Style end
+==============================================================*/
+
