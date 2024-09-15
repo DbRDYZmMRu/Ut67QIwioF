@@ -655,7 +655,7 @@
 		if (_grouploop_16.exists()) {
 			$('#grouploop-16').grouploop({
 				velocity: 3,
-				forward: true,
+				forward: false,
 				pauseOnHover: true,
 				childNode: '.item',
 				childWrapper: '.item-wrap'
