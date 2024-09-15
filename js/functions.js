@@ -661,6 +661,17 @@
 				childWrapper: '.item-wrap'
 			});
 		}
+		var _grouploop_17 = $('#grouploop-17');
+		_grouploop_17
+		if (_grouploop_17.exists()) {
+			$('#grouploop-17').grouploop({
+				velocity: 3,
+				forward: true,
+				pauseOnHover: true,
+				childNode: '.item',
+				childWrapper: '.item-wrap'
+			});
+		}
 
 		/* ------------------------------------------------------------------------
 		 * AOS animation
