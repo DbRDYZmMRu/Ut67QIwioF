@@ -489,8 +489,8 @@
 		_grouploop_1
 		if (_grouploop_1.exists()) {
 			_grouploop_1.grouploop({
-				velocity: 1,
-				forward: false,
+				velocity: 3,
+				forward: true,
 				pauseOnHover: true,
 				childNode: '.item',
 				childWrapper: '.item-wrap',
@@ -500,8 +500,8 @@
 		_grouploop_2
 		if (_grouploop_2.exists()) {
 			$('#grouploop-2').grouploop({
-				velocity: 1,
-				forward: true,
+				velocity: 3,
+				forward: false,
 				pauseOnHover: true,
 				childNode: '.item',
 				childWrapper: '.item-wrap'
@@ -511,8 +511,8 @@
 		_grouploop_3
 		if (_grouploop_3.exists()) {
 			$('#grouploop-3').grouploop({
-				velocity: 1,
-				forward: false,
+				velocity: 3,
+				forward: true,
 				pauseOnHover: true,
 				childNode: '.item',
 				childWrapper: '.item-wrap'
@@ -522,8 +522,8 @@
 		_grouploop_4
 		if (_grouploop_4.exists()) {
 			$('#grouploop-4').grouploop({
-				velocity: 1,
-				forward: true,
+				velocity: 3,
+				forward: false,
 				pauseOnHover: true,
 				childNode: '.item',
 				childWrapper: '.item-wrap'
@@ -533,8 +533,8 @@
 		_grouploop_5
 		if (_grouploop_5.exists()) {
 			$('#grouploop-5').grouploop({
-				velocity: 1,
-				forward: false,
+				velocity: 3,
+				forward: true,
 				pauseOnHover: true,
 				childNode: '.item',
 				childWrapper: '.item-wrap'
@@ -544,7 +544,106 @@
 		_grouploop_6
 		if (_grouploop_6.exists()) {
 			$('#grouploop-6').grouploop({
-				velocity: 1,
+				velocity: 3,
+				forward: false,
+				pauseOnHover: true,
+				childNode: '.item',
+				childWrapper: '.item-wrap'
+			});
+		}
+		var _grouploop_7 = $('#grouploop-7');
+		_grouploop_7
+		if (_grouploop_7.exists()) {
+			$('#grouploop-7').grouploop({
+				velocity: 3,
+				forward: true,
+				pauseOnHover: true,
+				childNode: '.item',
+				childWrapper: '.item-wrap'
+			});
+		}
+		var _grouploop_8 = $('#grouploop-8');
+		_grouploop_8
+		if (_grouploop_8.exists()) {
+			$('#grouploop-8').grouploop({
+				velocity: 3,
+				forward: false,
+				pauseOnHover: true,
+				childNode: '.item',
+				childWrapper: '.item-wrap'
+			});
+		}
+		var _grouploop_9 = $('#grouploop-9');
+		_grouploop_9
+		if (_grouploop_9.exists()) {
+			$('#grouploop-9').grouploop({
+				velocity: 3,
+				forward: true,
+				pauseOnHover: true,
+				childNode: '.item',
+				childWrapper: '.item-wrap'
+			});
+		}
+		var _grouploop_10 = $('#grouploop-10');
+		_grouploop_10
+		if (_grouploop_10.exists()) {
+			$('#grouploop-10').grouploop({
+				velocity: 3,
+				forward: false,
+				pauseOnHover: true,
+				childNode: '.item',
+				childWrapper: '.item-wrap'
+			});
+		}
+		var _grouploop_11 = $('#grouploop-11');
+		_grouploop_11
+		if (_grouploop_11.exists()) {
+			$('#grouploop-11').grouploop({
+				velocity: 3,
+				forward: true,
+				pauseOnHover: true,
+				childNode: '.item',
+				childWrapper: '.item-wrap'
+			});
+		}
+		var _grouploop_12 = $('#grouploop-12');
+		_grouploop_12
+		if (_grouploop_12.exists()) {
+			$('#grouploop-12').grouploop({
+				velocity: 3,
+				forward: false,
+				pauseOnHover: true,
+				childNode: '.item',
+				childWrapper: '.item-wrap'
+			});
+		}
+		var _grouploop_13 = $('#grouploop-13');
+		_grouploop_13
+		if (_grouploop_13.exists()) {
+			$('#grouploop-13').grouploop({
+				velocity: 3,
+				forward: true,
+				pauseOnHover: true,
+				childNode: '.item',
+				childWrapper: '.item-wrap'
+			});
+		}
+		var _grouploop_14 = $('#grouploop-14');
+		_grouploop_14
+		if (_grouploop_14.exists()) {
+			$('#grouploop-14').grouploop({
+				velocity: 3,
+				forward: false,
+				pauseOnHover: true,
+				childNode: '.item',
+				childWrapper: '.item-wrap'
+			});
+		}
+		var _grouploop_15 = $('#grouploop-15');
+		_grouploop_15
+		if (_grouploop_15.exists()) {
+			$('#grouploop-15').grouploop({
+				velocity: 3,
 				forward: true,
 				pauseOnHover: true,
 				childNode: '.item',
