@@ -799,9 +799,9 @@
           return chapterContent.at(this.currentChapter);
         },
         initialPageState: {
-          view: "chapters",
+          viewIII: "chapters",
         },
-        pageState: localStorage.getItem("view"),
+        pageState: localStorage.getItem("viewIII"),
         getPageState() {
           this.decodePoemURL();
           if (this.pageState == "chapters") {
@@ -815,22 +815,22 @@
 
             return state;
           } else {
-            localStorage.setItem("view", this.initialPageState.view);
-            const state = this.initialPageState.view;
+            localStorage.setItem("viewIII", this.initialPageState.viewIII);
+            const state = this.initialPageState.viewIII;
             return state;
           }
         },
         setPageState(index) {
-          localStorage.setItem("view", "poetry");
+          localStorage.setItem("viewIII", "poetry");
           location.href = "#reading";
-          (this.pageState = localStorage.getItem("view")),
+          (this.pageState = localStorage.getItem("viewIII")),
             (this.currentChapter = index);
           localStorage.setItem("IIICurrentChapter", this.currentChapter);
         },
         goBack() {
           this.goBackState = true;
-          localStorage.setItem("view", "chapters");
-          this.pageState = localStorage.getItem("view");
+          localStorage.setItem("viewIII", "chapters");
+          this.pageState = localStorage.getItem("viewIII");
           this.getPageState();
         },
         pageResources() {
@@ -2051,14 +2051,14 @@
             var getPoemIdFromURL = bookmarkURL.get("id");
             if (bookmarkURL.has("typeIsPoem") && getPoemIdFromURL <= 46) {
               this.changeTabToChapter();
-              localStorage.setItem("view", "poetry");
+              localStorage.setItem("viewIII", "poetry");
               this.pageState = "poetry";
               this.URLPoemID = getPoemIdFromURL;
               this.currentChapter = this.URLPoemID;
               localStorage.setItem("IIICurrentChapter", this.currentChapter);
               this.goBackState = false;
             } else if (bookmarkURL.has("typeIsPoem") && getPoemIdFromURL > 46) {
-              localStorage.setItem("view", this.initialPageState.view);
+              localStorage.setItem("viewIII", this.initialPageState.viewIII);
               window.location.href =
                 window.location.origin + "/pages/not-found.html";
             } else {

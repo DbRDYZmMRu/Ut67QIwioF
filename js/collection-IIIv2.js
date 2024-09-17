@@ -1147,7 +1147,7 @@
 		 *  Set Tab state
 		 * ------------------------------------------------------------------------ */
 
-		const lastTabIIIv2 = localStorage.getItem("lastTabIIIv2");
+		let lastTabIIIv2 = localStorage.getItem("lastTabIIIv2");
 		if (lastTabIIIv2) {
 			switch (lastTabIIIv2) {
 				case "Cover":

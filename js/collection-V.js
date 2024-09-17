@@ -1147,7 +1147,7 @@
 		 *  Set Tab state
 		 * ------------------------------------------------------------------------ */
 
-		const lastTabV = localStorage.getItem("lastTabV");
+		let lastTabV = localStorage.getItem("lastTabV");
 		if (lastTabV) {
 			switch (lastTabV) {
 				case "Cover":
