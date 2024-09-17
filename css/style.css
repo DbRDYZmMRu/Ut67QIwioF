@@ -377,7 +377,7 @@ iframe {
 /* Halper class */
 /**********************/
 .text-primary {
-  color: #1d5457 !important;
+  color: #1D5457 !important;
 }
 
 .text-secondary {
@@ -615,7 +615,7 @@ iframe {
 }
 
 .text-pink-gradient {
-  color: #1d5457;
+  color: #1D5457;
   background: linear-gradient(to right, #fd2590, #fd692e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -5269,7 +5269,7 @@ iframe {
   border-right: none;
   border-bottom: none;
   border-left: none;
-  color: #9ca0b5;
+  color: #9CA0B5;
   font-family: 'Font Awesome\ 5 Free';
   font-weight: 900;
   margin-right: 15px;
@@ -5278,7 +5278,7 @@ iframe {
 }
 
 .navbar .navbar-nav .nav-item .nav-link:hover.dropdown-toggle::after {
-  color: #1d5457;
+  color: #1D5457;
 }
 
 .navbar .navbar-nav .dropdown-item:focus,

@@ -415,7 +415,7 @@
                   role="tab"
                   aria-controls="pills-trekking"
                   aria-selected="true"
-                  @click="store.setCoverIIAsTab()"
+                  @click="store.setCoverIAsTab()"
                 >
                   Cover & Epilogue
                 </button>
@@ -430,7 +430,7 @@
                   role="tab"
                   aria-controls="pills-analysis"
                   aria-selected="false"
-                  @click="store.setAuthorIIAsTab()"
+                  @click="store.setAuthorIAsTab()"
                 >
                   Author's Note
                 </button>
@@ -445,7 +445,7 @@
                   role="tab"
                   aria-controls="pills-investment-management-11"
                   aria-selected="false"
-                  @click="store.setDedIIAsTab()"
+                  @click="store.setDedIAsTab()"
                 >
                   Dedication & Acknowledgements
                 </button>
@@ -460,7 +460,7 @@
                   role="tab"
                   aria-controls="pills-integration"
                   aria-selected="false"
-                  @click="store.setChaptersIIAsTab()"
+                  @click="store.setChaptersIAsTab()"
                 >
                   Chapters
                 </button>
@@ -774,7 +774,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="../../js/collection-II.js"></script>
+    <script src="../../js/collection-I.js"></script>
     <script>
       window.fbAsyncInit = function () {
         FB.init({
@@ -2868,43 +2868,43 @@ chapterTitles: [
         acceptCookieUse() {
           localStorage.setItem("cookieUse", true);
         },
-        lastTabII: "",
-        coverTabIIIsActive: localStorage.getItem("coverTabIIIsActive"),
-        authorTabIIIsActive: localStorage.getItem("authorTabIIIsActive"),
-        dedTabIIIsActive: localStorage.getItem("dedTabIIIsActive"),
-        chapterTabIIIsActive: localStorage.getItem("chapterTabIIIsActive"),
+        lastTabI: "",
+        coverTabIIsActive: localStorage.getItem("coverTabIIsActive"),
+        authorTabIIsActive: localStorage.getItem("authorTabIIsActive"),
+        dedTabIIsActive: localStorage.getItem("dedTabIIsActive"),
+        chapterTabIIsActive: localStorage.getItem("chapterTabIIsActive"),
         navLink: true,
-        setCoverIIAsTab() {
-          this.lastTabII = "Cover";
-          localStorage.setItem("lastTabII", this.lastTabII);
-          localStorage.setItem("coverTabIIIsActive", true);
-          localStorage.setItem("authorTabIIIsActive", false);
-          localStorage.setItem("dedTabIIIsActive", false);
-          localStorage.setItem("chapterTabIIIsActive", false);
+        setCoverIAsTab() {
+          this.lastTabI = "Cover";
+          localStorage.setItem("lastTabI", this.lastTabI);
+          localStorage.setItem("coverTabIIsActive", true);
+          localStorage.setItem("authorTabIIsActive", false);
+          localStorage.setItem("dedTabIIsActive", false);
+          localStorage.setItem("chapterTabIIsActive", false);
         },
-        setAuthorIIAsTab() {
-          this.lastTabII = "Author";
-          localStorage.setItem("lastTabII", this.lastTabII);
-          localStorage.setItem("coverTabIIIsActive", false);
-          localStorage.setItem("authorTabIIIsActive", true);
-          localStorage.setItem("dedTabIIIsActive", false);
-          localStorage.setItem("chapterTabIIIsActive", false);
+        setAuthorIAsTab() {
+          this.lastTabI = "Author";
+          localStorage.setItem("lastTabI", this.lastTabI);
+          localStorage.setItem("coverTabIIsActive", false);
+          localStorage.setItem("authorTabIIsActive", true);
+          localStorage.setItem("dedTabIIsActive", false);
+          localStorage.setItem("chapterTabIIsActive", false);
         },
-        setDedIIAsTab() {
-          this.lastTabII = "Dedication";
-          localStorage.setItem("lastTabII", this.lastTabII);
-          localStorage.setItem("coverTabIIIsActive", false);
-          localStorage.setItem("authorTabIIIsActive", false);
-          localStorage.setItem("dedTabIIIsActive", true);
-          localStorage.setItem("chapterTabIIIsActive", false);
+        setDedIAsTab() {
+          this.lastTabI = "Dedication";
+          localStorage.setItem("lastTabI", this.lastTabI);
+          localStorage.setItem("coverTabIIsActive", false);
+          localStorage.setItem("authorTabIIsActive", false);
+          localStorage.setItem("dedTabIIsActive", true);
+          localStorage.setItem("chapterTabIIsActive", false);
         },
-        setChaptersIIAsTab() {
-          this.lastTabII = "Chapters";
-          localStorage.setItem("lastTabII", this.lastTabII);
-          localStorage.setItem("coverTabIIIsActive", false);
-          localStorage.setItem("authorTabIIIsActive", false);
-          localStorage.setItem("dedTabIIIsActive", false);
-          localStorage.setItem("chapterTabIIIsActive", true);
+        setChaptersIAsTab() {
+          this.lastTabI = "Chapters";
+          localStorage.setItem("lastTabI", this.lastTabI);
+          localStorage.setItem("coverTabIIsActive", false);
+          localStorage.setItem("authorTabIIsActive", false);
+          localStorage.setItem("dedTabIIsActive", false);
+          localStorage.setItem("chapterTabIIsActive", true);
         },
         shareToFacebook() {
           this.generateStaticPoemURL();
@@ -2952,10 +2952,10 @@ chapterTitles: [
           this.poemURL = queryToAppend;
         },
         changeTabToChapter() {
-          localStorage.setItem("coverTabIIIsActive", false);
-          localStorage.setItem("authorTabIIIsActive", false);
-          localStorage.setItem("dedTabIIIsActive", false);
-          localStorage.setItem("chapterTabIIIsActive", true);
+          localStorage.setItem("coverTabIIsActive", false);
+          localStorage.setItem("authorTabIIsActive", false);
+          localStorage.setItem("dedTabIIsActive", false);
+          localStorage.setItem("chapterTabIIsActive", true);
           document.getElementById("pills-integration-tab").click();
         },
         decodePoemURL() {
@@ -2970,7 +2970,7 @@ chapterTitles: [
               this.pageState = "poetry";
               this.URLPoemID = getPoemIdFromURL;
               this.currentChapter = this.URLPoemID;
-              localStorage.setItem("IICurrentChapter", this.currentChapter);
+              localStorage.setItem("ICurrentChapter", this.currentChapter);
               this.goBackState = false;
             } else if (bookmarkURL.has("typeIsPoem") && getPoemIdFromURL > 46) {
               localStorage.setItem("view", this.initialPageState.view);
@@ -2988,7 +2988,7 @@ chapterTitles: [
           );
           var shareURL =
             domainName +
-            "/pages/Hilton/collections/ii/" +
+            "/pages/Hilton/collections/i/" +
             convertPoemID +
             ".html";
           this.staticPoemURL = shareURL;

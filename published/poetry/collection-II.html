@@ -581,45 +581,6 @@
                           v-html="store.getChapterContent()"
                           class="mt-4 me-4 ms-4"
                         ></div>
-                        <div
-                          class="social-icons social-text-small icon-colored mt-7"
-                        >
-                          <a
-                            @click="store.shareToFacebook()"
-                            class="icon facebook"
-                            href="#!"
-                            id="shareToFacebookBtn"
-                          >
-                            <i class="fab fa-facebook-f"></i>
-                            <span>Share</span>
-                          </a>
-                          <!-- <a
-                          @click="store.shareToTwitter()"
-                          class="icon twitter"
-                          data-show-count="false"
-                          id="shareToTwitterBtn" href="https://twitter.com/share?ref_src=twsrc%5Etfw" target="_blank"  :data-url="https://dev.nightswan.com.ng/pages/Hilton/collections/iv/one.html" data-hashtags="frithhiltoncollection" data-show-count="false"
-                        >
-                          <i class="fab fa-twitter"></i>
-                          <span>Tweet</span>
-                        </a>  -->
-                          <a
-                            @click="store.copyURL()"
-                            class="icon link"
-                            id="copyURLBtn"
-                          >
-                            <i class="fas fa-link" id="copyURLIcon"></i>
-                            <span id="CopyURLText">{{store.CopyURLText}}</span>
-                          </a>
-                          <a
-                            @click="store.shareToWhatsApp()"
-                            class="icon link"
-                            href="#!"
-                            id="shareToWhatsAppBtn"
-                          >
-                            <i class="fab fa-whatsapp"></i>
-                            <span>WhatsApp</span>
-                          </a>
-                        </div>
                       </div>
                       <!--===== End of Title =====-->
                       <hr class="my-5" />
