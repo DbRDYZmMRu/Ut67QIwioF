@@ -1179,7 +1179,7 @@
 					$('#pills-integration-tab').click();
 			}
 		} else {
-			lastTabIV = localStorage.setItem("lastTabIII", "Cover");
+			lastTabIII = localStorage.setItem("lastTabIII", "Cover");
 			localStorage.setItem("coverTabIIIIsActive", true);
 			localStorage.setItem("authorTabIIIIsActive", false);
 			localStorage.setItem("dedTabIIIIsActive", false);
