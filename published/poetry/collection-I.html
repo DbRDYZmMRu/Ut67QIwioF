@@ -805,12 +805,12 @@
         currentChapter: 0,
         goBackState: false,
         getCurrentChapter() {
-          if (localStorage.getItem("IICurrentChapter")) {
-            this.currentChapter = localStorage.getItem("IICurrentChapter");
+          if (localStorage.getItem("ICurrentChapter")) {
+            this.currentChapter = localStorage.getItem("ICurrentChapter");
           } else if (this.currentChapter == 0) {
             this.currentChapter = this.URLPoemID;
           } else {
-            localStorage.removeItem("IICurrentChapter");
+            localStorage.removeItem("ICurrentChapter");
           }
         },
         chapterTitle: "",
@@ -831,7 +831,7 @@
           this.decodePoemURL();
           if (this.pageState == "chapters") {
             const state = "chapters";
-            localStorage.removeItem("IICurrentChapter");
+            localStorage.removeItem("ICurrentChapter");
             return state;
           } else if (this.pageState == "poetry") {
             this.decodePoemURL();
@@ -850,7 +850,7 @@
           location.href = "#reading";
           (this.pageState = localStorage.getItem("view")),
             (this.currentChapter = index);
-          localStorage.setItem("IICurrentChapter", this.currentChapter);
+          localStorage.setItem("ICurrentChapter", this.currentChapter);
         },
         goBack() {
           this.goBackState = true;
