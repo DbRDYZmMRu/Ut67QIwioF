@@ -79,6 +79,12 @@ $.getJSON('../pages/musicpool-db/playlist.json',function(data){
         if(play==0){play = 1;audio.play();$('#menu button#play i').removeClass("fa-play");$('#menu button#play i').addClass("fa-pause");}
         else{play = 0;audio.pause();$('#menu button#play i').removeClass("fa-pause");$('#menu button#play i').addClass("fa-play");}
     }
+    function stopSong(){
+        if(abort_other_json){abort_other_json.abort();}reset();timeList=[];previousTime=0;counter=0;
+        clearInterval(stopTimer);
+        loadSong(); 
+        if(play==1){play = 0;audio.load();$('#menu button#play i').removeClass("fa-pause");$('#menu button#play i').addClass("fa-play");}
+    }
     function processing(data){
       indexing = playlist.songs[index];
       data.indexing = indexing;
@@ -114,7 +120,6 @@ $.getJSON('../pages/musicpool-db/playlist.json',function(data){
     });
  function changeProgress(){
    dragHandler = (event)=>{
-     console.log("I see u");
           event.preventDefault;
           if(event.offsetY > 5 || event.offsetY < 1) return;
           var width = $('#progress-bar').css("width");
@@ -225,6 +230,7 @@ $.getJSON('../pages/musicpool-db/playlist.json',function(data){
     $('#prev').on('click',prevSong);
     $('#next').on('click',nextSong);
     $('#play').on('click',playSong);
+    $('#stop').on('click',stopSong);
     $('#repeat').on('click',toggleRepeat);
     $('#shuffle').on('click',toggleShuffle);
     function playSongAtIndex(data){

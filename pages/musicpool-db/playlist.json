@@ -6,14 +6,6 @@
         "song": "Unwilling",
         "json":"../pages/musicpool-db/unwilling.json",
         "audio":"../pages/musicpool-db/Unwilling.mp3 "
-      }, 
-      {
-        "albumart": "musicpool-db/cover.jpg",
-        "author": "Frith Hilton",
-        "song": "Unwilling",
-        "json":"../pages/musicpool-db/unwilling.json",
-        "audio":"../pages/musicpool-db/Unwilling.mp3 "
       }
-      
     ]
   }
