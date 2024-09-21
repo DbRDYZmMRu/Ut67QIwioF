@@ -16,7 +16,7 @@ html,body{
   height:100vh;
   background: var(--bg-color);
 }
-#album-art{ position:fixed; z-index:-1; left: 50%; transform: translateX(-50%);opacity: 0.15;width: auto; height: 100%;}
+#album-art{ position:fixed; z-index:-1; left: 50%; transform: translateX(-50%);opacity: 0.5;width: auto; height: 100%;}
 #top-bar{
   position: relative;
   height: 8vh;
@@ -43,7 +43,7 @@ html,body{
   color: var(--lyrics-color);
   text-align: center;
   overflow-Y: scroll;
-  font-size: 2vh;
+  font-size: 1.3vh;
 }
 #lyrics-content{
   margin:0;

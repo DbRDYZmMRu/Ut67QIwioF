@@ -6,7 +6,7 @@ $.expr[":"].contains = $.expr.createPseudo(function(arg) {
 });
 var buttonColorOnPress = "white";
 $(document).ready(function(){
-$.getJSON('https://raw.githubusercontent.com/frithhilton/web/refs/heads/main/pages/musicpool-db/playlist.json',function(data){
+$.getJSON('../pages/musicpool-db/playlist.json',function(data){
     var abort_other_json;
     var playlist = data;
     var index = 0;
@@ -62,7 +62,8 @@ $.getJSON('https://raw.githubusercontent.com/frithhilton/web/refs/heads/main/pag
     }
     function setAlbumArt(albumart){
         var context = $('#album-art');
-        context.attr("src",albumart);
+        indexing = playlist.songs[index];
+        context.attr("src",indexing.albumart);
     }
     function processTime(a){
         var b = parseInt(a/60000);
@@ -79,6 +80,11 @@ $.getJSON('https://raw.githubusercontent.com/frithhilton/web/refs/heads/main/pag
         else{play = 0;audio.pause();$('#menu button#play i').removeClass("fa-pause");$('#menu button#play i').addClass("fa-play");}
     }
     function processing(data){
+      indexing = playlist.songs[index];
+      data.indexing = indexing;
+      data = { ...data, ...data.indexing };
+      delete data.indexing;
+      
         if(data.author == ""){ data.author = "Unknown"; }
         setSongName(data.song);
         setArtistName(data.author);
@@ -108,10 +114,13 @@ $.getJSON('https://raw.githubusercontent.com/frithhilton/web/refs/heads/main/pag
     });
  function changeProgress(){
    dragHandler = (event)=>{
+     console.log("I see u");
           event.preventDefault;
           if(event.offsetY > 5 || event.offsetY < 1) return;
           var width = $('#progress-bar').css("width");
+          console.log("width", width);
           var percent = parseInt(event.offsetX)/parseInt(width)*100;
+          console.log("percent", percent);
           $('#progress').css("width",percent+"%");
           time = parseInt(totalTime * (percent/100));
           audio.currentTime = parseInt(time/1000);
@@ -171,6 +180,7 @@ $.getJSON('https://raw.githubusercontent.com/frithhilton/web/refs/heads/main/pag
         clearInterval(stopTimer);
         index = (index-1)%playlist.songs.length;
         indexing = playlist.songs[index];
+        console.log("audio", indexing)
         $('#audioFile').attr('src',indexing.audio);
         loadSong();
     }
@@ -227,7 +237,9 @@ $.getJSON('https://raw.githubusercontent.com/frithhilton/web/refs/heads/main/pag
         loadSong();
     }
     function addToPlayList(data,index){
-        var html = "";html = $('#show-list').html();html +="<div class=\"float-song-card\" data-index=\""+index+"\"><img class=\"album-art\" src=\""+data.albumart+"\"><h2 class=\"song\">"+data.song+"</h2><h4 class=\"artist\">"+data.author+"</h4></div>";$('#show-list').html(html);$('.float-song-card').on('click',function(){playSongAtIndex($(this).attr("data-index"));});
+      indexing = playlist.songs[index];
+      
+        var html = "";html = $('#show-list').html();html +="<div class=\"float-song-card\" data-index=\""+index+"\"><img class=\"album-art\" src=\""+indexing.albumart+"\"><h2 class=\"song\">"+indexing.song+"</h2><h4 class=\"artist\">"+indexing.author+"</h4></div>";$('#show-list').html(html);$('.float-song-card').on('click',function(){playSongAtIndex($(this).attr("data-index"));});
     }
     function setPlaylist(){
         for(var i=0;i<playlist.songs.length;i++){
