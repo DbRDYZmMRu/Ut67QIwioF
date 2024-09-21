@@ -1,11 +1,11 @@
 {
     "songs":[
       {
-        "albumart": "https://t2.genius.com/unsafe/275x0/https%3A%2F%2Fimages.genius.com%2F76c6355dde0dcc5e9c923b3598a74f81.1000x996x1.jpg",
-        "author": "Daughter",
-        "song": "Youth",
-        "json":"https://jewel998.github.io/playlist/data/Daughter-Youth.json",
-        "audio":"https://jewel998.github.io/playlist/music/Daughter-Youth.mp3"
+        "albumart": "https://images.genius.com/3cf460d2ba2d17874d7fc477e3160a3d.600x600x1.jpg",
+        "author": "Frith Hilton",
+        "song": "Unwilling",
+        "json":"https://raw.githubusercontent.com/frithhilton/web/e41dbba413278f79077ad2a70952c451472aa989/pages/musicpool-db/unwilling.json",
+        "audio":"https://github.com/frithhilton/web/raw/e41dbba413278f79077ad2a70952c451472aa989/pages/musicpool-db/sample.mp3"
       }
     ]
   }

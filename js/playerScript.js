@@ -6,7 +6,7 @@ $.expr[":"].contains = $.expr.createPseudo(function(arg) {
 });
 var buttonColorOnPress = "white";
 $(document).ready(function(){
-$.getJSON('https://jewel998.github.io/playlist/playlist.json',function(data){
+$.getJSON('https://raw.githubusercontent.com/frithhilton/web/e41dbba413278f79077ad2a70952c451472aa989/pages/musicpool-db/playlist.json',function(data){
     var abort_other_json;
     var playlist = data;
     var index = 0;
