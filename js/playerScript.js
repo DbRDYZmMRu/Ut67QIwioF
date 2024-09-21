@@ -49,13 +49,13 @@ $.getJSON('../pages/musicpool-db/playlist.json',function(data){
         current.prev().addClass('current');
     }
     function setSongName(songName){
-        var context = $('.song-name');
+        var context = $('.song-names');
         for(var i=0;i<context.length;i++){
             context[i].innerHTML = songName;
         }
     }
     function setArtistName(artistName){
-        var context = $('.artist-name');
+        var context = $('.artist-names');
         for(var i=0;i<context.length;i++){
             context[i].innerHTML = artistName;
         }
@@ -269,5 +269,9 @@ $('#back').on('click',function(){
     $('#playlist').css("transform","translateX(100%)");
     togglePlaylist = 0;
   }
+});
+$('#leavePool').on('click',function(){
+  window.location.href = 'https://frithhilton.com.ng/musicpool.html';
+  
 });
 });
