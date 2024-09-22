@@ -49,13 +49,13 @@ $.getJSON('../pages/musicpool-db/playlist.json',function(data){
         current.prev().addClass('current');
     }
     function setSongName(songName){
-        var context = $('.song-names');
+        var context = $('#songName');
         for(var i=0;i<context.length;i++){
             context[i].innerHTML = songName;
         }
     }
     function setArtistName(artistName){
-        var context = $('.artist-names');
+        var context = $('#artistName');
         for(var i=0;i<context.length;i++){
             context[i].innerHTML = artistName;
         }

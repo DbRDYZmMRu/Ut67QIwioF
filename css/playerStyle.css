@@ -28,7 +28,7 @@ html,body{
 #top-bar > *{ display:inline-block; }
 #top-bar button{ margin:0;background: inherit; border: none; color: white; font-size: 100%;vertical-align:middle;transform:translateY(-40%);padding: 5px 10px;}
 #about-song{ width: 60%; margin: 0 5%; line-height: 1vh; font-size:70%;}
-.artist-name{ color: #ffffff79;}
+.artist-name{ color: #fff;}
 @media only screen and (max-width: 340px){
   #top-bar > button{ font-size: 15px; }
   #top-bar > #about-song *{ font-size:120%;line-height:0; }
