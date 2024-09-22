@@ -94,7 +94,7 @@ html,body{
 #progress{
   height:100%;
   width:0%;
-  background: red;
+  background: #9ca0b5;
   border-radius: 20px;
   text-align: right;
   transition: ease all;

@@ -118,26 +118,48 @@ $.getJSON('../pages/musicpool-db/playlist.json',function(data){
           audio.currentTime = parseInt(time/1000);
         });
     });
- function changeProgress(){
-   dragHandler = (event)=>{
-          event.preventDefault;
-          if(event.offsetY > 5 || event.offsetY < 1) return;
-          var width = $('#progress-bar').css("width");
-          console.log("width", width);
-          var percent = parseInt(event.offsetX)/parseInt(width)*100;
-          console.log("percent", percent);
-          $('#progress').css("width",percent+"%");
-          time = parseInt(totalTime * (percent/100));
-          audio.currentTime = parseInt(time/1000);
-        }
+
+
+
+
+
+$('#progressButton').on('mousedown touchstart', function(event) {
+  event.preventDefault();
+
+  var progressBarWidth = $('#progress-bar').width();
+  var progressBarOffset = $('#progress-bar').offset().left;
+
+  $(document).on('mousemove touchmove', function(event) {
+    var clickPosition;
+
+    // Calculate touch position
+    if (event.type === 'touchmove') {
+      clickPosition = event.touches[0].clientX - progressBarOffset;
+    } else {
+      clickPosition = event.clientX - progressBarOffset;
     }
-    $('#progressButton').on('mousedown',changeProgress());
-    $('#progress-bar').mouseup(function(){
-        $('#progress-bar').off('mousemove');
-    });
-    $('#progressButton').mouseup(function(){
-        $('#progress-bar').off('mousemove');
-    });
+
+    var percent = (clickPosition / progressBarWidth) * 100;
+
+    if (percent < 0) percent = 0;
+    if (percent > 100) percent = 100;
+
+    $('#progress').css("width", percent + "%");
+    time = parseInt(totalTime * (percent / 100));
+    audio.currentTime = parseInt(time / 1000);
+  });
+
+  $(document).one('mouseup touchend', function() {
+    $(document).off('mousemove touchmove');
+  });
+});
+
+
+
+    
+    
+    
+    
     function rewind5s(){
         if(time > 5000)
             time = time - 5000;
