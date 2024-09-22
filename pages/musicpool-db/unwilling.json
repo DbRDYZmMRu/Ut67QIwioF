@@ -30,18 +30,42 @@
     { "line": "How do I get to me?", "time": 92530 },
     { "line": "When you take my soul away", "time": 94470 },
     { "line": "And you say it's not mine anymore", "time": 97740 },
-
-    { "line": "[Bridge]", "time": 101680 },
-    { "line": "All these damn ones and zeros", "time": 101680 },
-    { "line": "All these damn computers", "time": 103920 },
-    { "line": "Got me feeling, it's zeros", "time": 104540 },
-    { "line": "So you're the warden", "time": 106530 },
-    { "line": "Each stop, of the boss send bills", "time": 109110 },
-    { "line": "All these damn ones and zeros", "time": 111530 },
-    { "line": "All these damn computers", "time": 113170 },
-    { "line": "Got me feeling like keys", "time": 115530 },
-    { "line": "So you're lingering", "time": 117270 },
-
+    {
+      "line": "All these damn ones and zeros",
+      "time": 101520
+    },
+    {
+      "line": "All these damn computers",
+      "time": 103800
+    },
+    {
+      "line": "Got me feeling, it's zeros",
+      "time": 105270
+    },
+    {
+      "line": "So you're the warden",
+      "time": 107100
+    },
+    {
+      "line": "Each stop, of the boss send bills",
+      "time": 109410
+    },
+    {
+      "line": "All these damn ones and zeros",
+      "time": 112730
+    },
+    {
+      "line": "All these damn computers",
+      "time": 114850
+    },
+    {
+      "line": "Got me feeling like keys",
+      "time": 116450
+    },
+    {
+      "line": "So you're lingering",
+      "time": 118120
+    }, 
     { "line": "[Chorus]", "time": 125430 },
     { "line": "I'm so unwilling to go on with this love", "time": 125430 },
     { "line": "After the cart, I see there is nothing in here", "time": 131170 },

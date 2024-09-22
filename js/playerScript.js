@@ -31,7 +31,7 @@ $.getJSON('../pages/musicpool-db/playlist.json',function(data){
         var d = $(".current").offset().top - $(".current").parent().offset().top;
         var e = d + (a/2) - (c*1/4);
         $("#lyrics").animate(
-            {scrollTop: e + "px"}, {easing: "swing", duration: 500}
+            {scrollTop: e + "px"}, {easing: "swing", duration: 100}
         );
     }
     function next(){
