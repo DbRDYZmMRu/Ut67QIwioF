@@ -116,7 +116,7 @@ html,body{
   margin: 0 5px;
   background: inherit;
   color: white;
-  font-size: 15px;
+  font-size: 35px;
   text-align: center;
   opacity: 0.75;
   cursor: pointer;
@@ -126,7 +126,7 @@ html,body{
 }
 #menu > button#play{
   opacity: 1;
-  border: 2px solid white;
+  
 }
 #menu > button:focus{
   outline: none;

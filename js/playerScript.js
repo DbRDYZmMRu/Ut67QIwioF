@@ -76,14 +76,14 @@ $.getJSON('../pages/musicpool-db/playlist.json',function(data){
         audio.currentTime = 0;
     }
     function playSong(){
-        if(play==0){play = 1;audio.play();$('#menu button#play i').removeClass("fa-play");$('#menu button#play i').addClass("fa-pause");}
-        else{play = 0;audio.pause();$('#menu button#play i').removeClass("fa-pause");$('#menu button#play i').addClass("fa-play");}
+        if(play==0){play = 1;audio.play();$('#menu button#play i').removeClass("fa-solid fa-circle-play fa-lg");$('#menu button#play i').addClass("fa-solid fa-circle-pause fa-lg");}
+        else{play = 0;audio.pause();$('#menu button#play i').removeClass("fa-solid fa-circle-pause fa-lg");$('#menu button#play i').addClass("fa-solid fa-circle-play fa-lg");}
     }
     function stopSong(){
         if(abort_other_json){abort_other_json.abort();}reset();timeList=[];previousTime=0;counter=0;
         clearInterval(stopTimer);
         loadSong(); 
-        if(play==1){play = 0;audio.load();$('#menu button#play i').removeClass("fa-pause");$('#menu button#play i').addClass("fa-play");}
+        if(play==1){play = 0;audio.load();$('#menu button#play i').removeClass("fa-solid fa-circle-pause fa-lg");$('#menu button#play i').addClass("fa-solid fa-circle-play fa-lg");}
     }
     function processing(data){
       indexing = playlist.songs[index];
@@ -118,11 +118,8 @@ $.getJSON('../pages/musicpool-db/playlist.json',function(data){
           audio.currentTime = parseInt(time/1000);
         });
     });
-
-
-
-
-
+    
+    
 $('#progressButton').on('mousedown touchstart', function(event) {
   event.preventDefault();
 
@@ -153,6 +150,12 @@ $('#progressButton').on('mousedown touchstart', function(event) {
     $(document).off('mousemove touchmove');
   });
 });
+
+
+
+
+
+
 
 
 
