@@ -296,7 +296,7 @@ $('#back').on('click',function(){
   }
 });
 $('#leavePool').on('click',function(){
-  window.location.href = 'https://frithhilton.com.ng/musicpool.html';
+  window.location.href = 'https://frithhilton.com.ng/pages/musicpool.html';
   
 });
 });

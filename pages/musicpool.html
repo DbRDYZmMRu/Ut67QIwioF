@@ -128,6 +128,47 @@ button {
 }
 
   </style>
+  
+  <style>
+   .latestRelease {
+  background: rgb(20,20,20);
+  text-align: center;
+  height: 100%;
+  overflow: hidden;
+}
+.svg-wrapper {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+    margin: 0 auto;
+  width: 320px;  
+}
+.shape {
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+  fill: transparent;
+  stroke: #19f6e8;
+  border-bottom: 5px solid black;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+.text {
+  font-family: 'Architects Daughter', cursive; 
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 8px;
+  color: #fff;
+  top: -48px;
+  position: relative;
+}
+.svg-wrapper:hover .shape {
+  stroke-width: 2px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 760;
+} 
+  </style>
+  
+  
 </head>
 <body class="stokes-wrapper" id="ctrlArea">
 
@@ -365,6 +406,17 @@ button {
     </nav>
     <!--===== End of navbar =====-->
   </header>
+  
+<div class="latestRelease">
+<div class="svg-wrapper">
+  <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg" @click="store.loadNewRelease">
+    <rect class="shape" height="60" width="320" />
+    <div class="text">LATEST RELEASE</div>
+  </svg>
+</div>
+  
+</div>  
+  
 
 <div @click="store.navigateToAlbum14" class='gradient-item'>
   <div class="gradient-wrap">
@@ -1163,6 +1215,9 @@ button {
     }, 
       navigateToAlbum1() {
       window.location.href = 'https://genius.com/albums/Frith-hilton/H-i-v';
+    }, 
+      loadNewRelease() {
+      window.location.href = 'https://frithhilton.com.ng/pages/latest-release.html';
     }, 
 
     })
