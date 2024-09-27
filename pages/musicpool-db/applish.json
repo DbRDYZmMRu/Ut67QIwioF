@@ -1,0 +1,182 @@
+{
+  "title": "Applish",
+  "artist": "Frith Hilton",
+  "album": "Farther memes",
+  "version": "24.9.18",
+  "length": "03:14.49",
+  "lyrics": [
+    { "time": 3390, "line": "[Intro]" },
+    { "time": 4370, "line": "Fresh Boy Chilling" },
+    { "time": 6480, "line": "Oh oh oh oh" },
+    { "time": 20230, "line": "[Chorus]" },
+    { "time": 21570, "line": "Scripting tweezers" },
+    { "time": 22640, "line": "Applish feverish" },
+    { "time": 23740, "line": "Ambling in nix" },
+    { "time": 25430, "line": "Hackling in the peevish" },
+    { "time": 30140, "line": "Scripting tweezers" },
+    { "time": 31350, "line": "Applish feverish" },
+    { "time": 32400, "line": "Ambling in nix" },
+    { "time": 33680, "line": "Hackling in the peevish" },
+    { "time": 36000, "line": "[Bridge]" },
+    { "time": 38750, "line": "I get the runtime" },
+    { "time": 40970, "line": "You get the uptime" },
+    { "time": 43070, "line": "Making up for downtimes" },
+    { "time": 45250, "line": "I can not pronounce frowns" },
+    { "time": 47950, "line": "I met you at the helm of mayhem" },
+    { "time": 50640, "line": "Car park with a backdrop fleeting" },
+    { "time": 53470, "line": "[Verse 1]" },
+    { "time": 54240, "line": "I think it's freeing" },
+    { "time": 57320, "line": "I make me feel so feverish" },
+    { "time": 62430, "line": "I can't fill in on a nap on no one" },
+    { "time": 66910, "line": "Oh woah" },
+    { "time": 71310, "line": "[Bridge]" },
+    { "time": 73530, "line": "I get the runtime" },
+    { "time": 75530, "line": "You get the uptime" },
+    { "time": 77790, "line": "Making up for downtimes" },
+    { "time": 79940, "line": "I can not pronounce my frowns" },
+    { "time": 86550, "line": "I met you at the helm of mayhem" },
+    { "time": 89280, "line": "Car park with a backdrop fleeting" },
+    { "time": 90540, "line": "[Chorus]" },
+    { "time": 90800, "line": "Scripting tweezers" },
+    { "time": 91880, "line": "Applish feverish" },
+    { "time": 93010, "line": "Ambling in nix" },
+    { "time": 94720, "line": "Hackling in the peevish" },
+    { "time": 99390, "line": "Scripting tweezers" },
+    { "time": 100530, "line": "Applish feverish" },
+    { "time": 101520, "line": "Ambling in nix" },
+    { "time": 102760, "line": "Hackling in the peevish" },
+    {
+      "line": "[Verse 2]",
+      "time": 105300
+    },
+    {
+      "line": "Wishing on a fetter falling in place",
+      "time": 108050
+    },
+    {
+      "line": "Quizzing our affair, I fear it's you, you",
+      "time": 112150
+    },
+    {
+      "line": "Hopping undercover",
+      "time": 117640
+    },
+    {
+      "line": "(Hopping undercover)",
+      "time": 118660
+    },
+    {
+      "line": "Looking for what other",
+      "time": 120170
+    },
+    {
+      "line": "(Looking for what other)",
+      "time": 121760
+    },
+    {
+      "line": "Now I'm wishing, and I'm pacing",
+      "time": 124940
+    },
+    {
+      "line": "And I'm dancing with my heart",
+      "time": 127070
+    },
+    {
+      "line": "Looking for her fault",
+      "time": 129590
+    },
+    {
+      "line": "I think I'll finally afford her",
+      "time": 131860
+    },
+    {
+      "line": "I've been dancing, I've been calling",
+      "time": 134020
+    },
+    {
+      "line": "Looking for it, her heart linked to another",
+      "time": 136210
+    }, 
+    
+    {
+      "line": "[Chorus]",
+      "time": 141200
+    },
+    {
+      "line": "Scripting tweezers",
+      "time": 142790
+    },
+    {
+      "line": "Applish feverish",
+      "time": 143810
+    },
+    {
+      "line": "Ambling in nix",
+      "time": 144890
+    },
+    {
+      "line": "Hackling in the peevish",
+      "time": 146470
+    },
+    {
+      "line": "Scripting tweezers",
+      "time": 151150
+    },
+    {
+      "line": "Applish feverish",
+      "time": 152380
+    },
+    {
+      "line": "Ambling in nix",
+      "time": 153420
+    },
+    {
+      "line": "Hackling in the peevish",
+      "time": 154710
+    }, 
+    {
+      "line": "[Verse 3]",
+      "time": 153736
+    },
+    {
+      "line": "My problems dress the same",
+      "time": 155990
+    },
+    {
+      "line": "Looking for whodunit hey",
+      "time": 158214
+    },
+    {
+      "line": "Think I might be a crescent",
+      "time": 160420
+    },
+    {
+      "line": "Looking like he's gonna paint",
+      "time": 162643
+    },
+    {
+      "line": "What's your name",
+      "time": 164971
+    },
+    {
+      "line": "Her kill will say",
+      "time": 166112
+    },
+    {
+      "line": "I'll fade away with leaves",
+      "time": 168310
+    },
+    {
+      "line": "Fade away with leaves",
+      "time": 175928
+    },
+    {
+      "line": "Damn it, another day comes",
+      "time": 184475
+    },
+    {
+      "line": "Fade away with leaves",
+      "time": 188804
+    }
+  ]
+}
