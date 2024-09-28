@@ -588,7 +588,7 @@ $(document).ready(function () {
 
             var html = "";
             html = $("#show-list").html();
-            html += '<div class="float-song-card" data-index="' + index + '"><img class="album-art" src="' + indexing.albumart + '"><h2 class="song">' + indexing.song + '</h2><h4 class="artist">' + indexing.author + "</h4></div>";
+            html += '<div class="float-song-card" data-index="' + index + '"><img class="album-art" src="' + indexing.albumart + '"><h2 class="song">' + indexing.song + '</h2>';
             $("#show-list").html(html);
             $(".float-song-card").on("click", function () {
                 playSongAtIndex($(this).attr("data-index"));

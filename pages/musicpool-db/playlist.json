@@ -1,11 +1,11 @@
 {
     "songs":[
       {
-        "albumart": "musicpool-db/coveriii.jpg",
+        "albumart": "musicpool-db/cover.jpg",
         "author": "Frith Hilton",
-        "song": "Home alone",
-        "json":"../pages/musicpool-db/homeAlone.json",
-        "audio":"../pages/musicpool-db/HomeAlone.mp3 "
+        "song": "Unwilling",
+        "json":"../pages/musicpool-db/unwilling.json",
+        "audio":"../pages/musicpool-db/Unwilling.mp3 "
       }, 
       {
         "albumart": "musicpool-db/coverii.jpg",
@@ -13,13 +13,13 @@
         "song": "Applish",
         "json":"../pages/musicpool-db/applish.json",
         "audio":"../pages/musicpool-db/Applish.mp3 "
-      }, 
+      },
       {
-        "albumart": "musicpool-db/cover.jpg",
+        "albumart": "musicpool-db/coveriii.jpg",
         "author": "Frith Hilton",
-        "song": "Unwilling",
-        "json":"../pages/musicpool-db/unwilling.json",
-        "audio":"../pages/musicpool-db/Unwilling.mp3 "
+        "song": "Home alone",
+        "json":"../pages/musicpool-db/homeAlone.json",
+        "audio":"../pages/musicpool-db/HomeAlone.mp3 "
       }
     ]
   }
