@@ -13,9 +13,9 @@
 			slideanimate($animatingElements);
 		});
 		$bannerSlider.slick({
-			slidesToShow: 1,
-			slidesToScroll: 1,
-			arrows: true,
+			slidesToShow: 3,
+			slidesToScroll: 3,
+			arrows: false,
 			fade: true,
 			dots: false,
 			swipe: true,
@@ -26,7 +26,7 @@
 				settings: {
 					slidesToShow: 1,
 					slidesToScroll: 1,
-					autoplay: false,
+					autoplay: true,
 					autoplaySpeed: 4000,
 					swipe: true,
 				}
