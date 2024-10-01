@@ -1,10 +1,1101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Page title</title>
+  <!--===== Required meta tags =====-->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="author" content="Nightswan Frith Hilton" />
+  <meta name="description" content="statistic charts" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta property="og:url"
+    content="" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Frith Hilton Collection XIV" />
+  <meta property="og:description" content="Frith Hilton Collection XIV
+      description goes here, do not forget that farthings and pounds don't
+      accrue neglecting another." />
+  <meta property="og:image"
+    content="" />
+
+  <!--===== Title =====-->
+  <title>Collection XIV </title>
+
+  <!--===== Favicon =====-->
+  <link rel="shortcut icon" href="../../images/favicon.png" />
+
+  <!--===== Google fonts =====-->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Jost:wght@300;400;500;600;700;800;900&display=swap" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet" />
+ <!-- font-awesome-icons -->
+ <script src="https://kit.fontawesome.com/c7fbb1b458.js" crossorigin="anonymous"></script>  
+
+  <!--===== Global bootstrap required css =====-->
+  <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css" />
+  <!--===== Global styles including: Font Icons, Plugins, etc =====-->
+  <link rel="stylesheet" type="text/css" href="../../css/font-awesome/all.min.css" />
+  <link rel="stylesheet" href="../../css/feather/iconfont.css" />
+  <link rel="stylesheet" href="../../css/pe-icon-stroke/Pe-icon-7-stroke.css" />
+  <link rel="stylesheet" href="../../css/simple-line-icons/simple-line-icons.css" />
+  <link rel="stylesheet" href="../../css/themify-icons/themify-icons.css" />
+  <link rel="stylesheet" href="../../css/pe-icon-stroke/Pe-icon-7-stroke.css" />
+  <link rel="stylesheet" href="../../css/swiper/swiper.min.css" />
+  <link rel="stylesheet" href="../../css/magnific-popup/magnific-popup.css" />
+  <!--===== Main theme css =====-->
+  <link rel="stylesheet" href="../../css/style.css" />
+
 </head>
-<body>
-    <p>Collection XIV</p>
+
+  <body class="stokes-wrapper" id="ctrlArea" v-cloak>
+    <!--========== 
+	Start of loader ==========-->
+
+  <div class="template-loader">
+    <div class="loaderCenter">
+      <div class="book">
+        <div class="book__pg-shadow"></div>
+        <div class="book__pg"></div>
+        <div class="book__pg book__pg--2"></div>
+        <div class="book__pg book__pg--3"></div>
+        <div class="book__pg book__pg--4"></div>
+        <div class="book__pg book__pg--5"></div>
+      </div>
+    </div>
+  </div>
+
+    <!--========== 
+	End of loader ==========-->
+
+    <!--========== 
+    Start of  cookie modal notification section ==========-->
+    <div class="modal-subscribe">
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        data-bs-backdrop="static"
+        id="myModal"
+        tabindex="-1"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body p-0 bg-secondary rounded">
+              <div class="p-5 text-center">
+                <img
+                  class="img-fluid px-5"
+                  src="/images/svg/cookie.svg"
+                  alt=""
+                />
+                <h3>Cookies</h3>
+                <p class="text-dark">
+                  <b>Hilton</b> uses cookies to enhance user experience
+                </p>
+                <a href="/cookies.html" class="text-primary-gradient fw-bold"
+                  >Our policy</a
+                >
+                <div class="d-grid mt-5">
+                  <button
+                    type="button"
+                    class="btn btn-white rounded"
+                    data-bs-dismiss="modal"
+                    @click="store.acceptCookieUse()"
+                  >
+                    Accept
+                  </button>
+                  <p class="text-dark mt-4">
+                    Coupled with
+                    <svg
+                      class="logo"
+                      viewBox="0 0 128 128"
+                      width="24"
+                      height="24"
+                      data-v-53ccc107=""
+                    >
+                      <path
+                        fill="#42b883"
+                        d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z"
+                        data-v-53ccc107=""
+                      ></path>
+                      <path
+                        fill="#35495e"
+                        d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z"
+                        data-v-53ccc107=""
+                      ></path>
+                    </svg>
+                    <a
+                      href="https://github.com/vuejs/petite-vue"
+                      target="_blank"
+                      style="color: #42b883"
+                      ><b>petite-vue</b></a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--========== 
+          End of cookie modal notification section ==========-->
+    <!--==========-->
+
+
+
+
+
+  <header class="header">
+    <!--===== Start of navbar =====-->
+    <nav class="navbar navbar-light navbar-expand-lg navbar-default">
+      <div class="container-fluid">
+        <!--===== Start of logo =====-->
+        <a class="navbar-brand" href="/"><img class="logo" src="/images/logo.png" alt="Frith Hilton Logo" /></a>
+        <!--===== End of logo =====-->
+
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="icon-bar top-bar mt-0"></span>
+          <span class="icon-bar middle-bar"></span>
+          <span class="icon-bar bottom-bar"></span>
+        </button>
+
+        <!--===== Start of nav =====-->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/"><span class="text-line"> Home </span></a>
+            </li>                       
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="#" id="navbar-pages" data-bs-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <span class="text-line"> Publications</span>
+              </a>
+              
+              <ul class="dropdown-menu" aria-labelledby="navbar-pages">
+                  <div class="mb-3 mt-3">
+                      <a  href="#">
+             Frith Hilton Collections
+                        </a>                      
+                  </div>                                        
+
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections I — III </span></a>
+                  <ul class="dropdown-menu">                    
+                    <li>
+                      <a class="dropdown-item" href="collection-I.html"><span class="text-line">
+                          Collection I
+                        </span></a>                                                
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="collection-II.html"><span class="text-line">
+             Collection II
+                        </span></a>
+                    </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collection III </span></a>
+                  <ul class="dropdown-menu">                    
+                    <li>
+                      <a class="dropdown-item" href="collection-III.html"><span class="text-line">
+                          Valentine Edition
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="collection-III-ii.html"><span class="text-line">
+             Original Edition
+                        </span></a>
+                    </li>
+                  </ul>
+                </li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu active">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections IV — VI </span></a>
+                  <ul class="dropdown-menu">                    
+                    <li>
+                      <a class="dropdown-item" href="collection-IV.html"><span class="text-line">
+                          Collection IV
+                        </span></a>                                                
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="collection-V.html"><span class="text-line">
+             Collection V
+                        </span></a>
+                    </li>
+<li class="active">
+                      <a class="dropdown-item" href="collection-VI.html"><span class="text-line">
+                          Collection VI
+                        </span></a>
+                    </li>
+                  </ul>
+                </li>
+                <!--<li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections VII — IX </span></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-VII.html"><span class="text-line">
+                          Collection VII
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-VIII.html"><span class="text-line">
+                          Collection VIII
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-IX.html"><span class="text-line">
+                          Collection IX
+                        </span></a>
+                    </li>
+                  </ul>
+                </li>-->
+                <!--<li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections X — XII </span></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-X.html"><span class="text-line">
+                          Collection X
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-XI.html"><span class="text-line">
+                          Collection XI
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-XII.html"><span class="text-line">
+                          Collection XII
+                        </span></a>
+                    </li>
+                  </ul>
+                </li>-->
+                <!--<li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections XIII — XIV </span></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-XIII.html"><span class="text-line">
+                          Collection XIII
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-XIV.html"><span class="text-line">
+                          Collection XIV
+                        </span><span class="badge bg-primary" style="font-size: 0.55em">New</span></a>
+                    </li>
+                  </ul>
+                </li>
+                <div class="mb-3 mt-3">
+                  <a href="#">
+                    Non-Fiction
+                  </a>
+                </div>
+
+                <li>
+                  <a class="dropdown-item" href="published/poetry/bury-me-in-1965.html"><span class="text-line">
+                      Bury me in 1965
+                    </span></a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="published/journal/a-life-worth-living.html"><span class="text-line">
+                      A Life Worth Living (Vision @ 2020)
+                    </span></a>
+                </li>-->
+              </ul>
+            </li>
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="../../pages/upcoming.html"><span class="text-line"> Upcoming Poetry</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../pages/musicpool.html"><span class="text-line"> Musicpool </span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/bio.html"><span class="text-line"> Bio </span></a>
+            </li>            
+            <li class="nav-item">
+              <a class="nav-link" href="../../cookies.html"><span class="text-line"> Cookies Policy </span></a>
+            </li>
+          </ul>
+        </div>
+        <!--===== End of nav =====-->
+      </div>
+    </nav>
+    <!--===== End of navbar =====-->
+  </header>
+
+  <!--========== 
+        End of header ==========-->
+
+  <!--========== 
+        End of Sidebar ==========-->
+  <section class="position-relative slice-ptb">
+          <div class="mb-0">
+          <a id="designer" href="https://leondev.com.ng" target="_blank">
+            <img class="img-fluid" src="../../images/ads/designedBySamsungS8.png" alt="">
+          </a>
+          </div>
+  </section>
+  <section class="position-relative slice-ptb">
+    <div class="top-separator">
+      <img class="img-fluid" src="../../images/separator/brush.svg" alt="" />
+    </div>
+    <div class="slice-ptb text-nightswan-gradient mt-n5">
+      <div class="container">
+        <div class="row text-center justify-content-center">
+          <div class="col-lg-9 col-xl-8">
+            <h1 class="text-white">
+              Frith Hilton Collection
+              <span class="text-nightswan-gradient"> XIV</span>
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-divider mt-n5">
+      <img class="img-fluid" :src="'../../images/separator/brush.svg'" alt="" />
+    </div>
+  </section>
+
+  <section class="position-relative slice-ptb">
+    <div class="container">
+      <button class="btn btn-naked btn-icon-right" href="#!" v-effect="if
+        (store.currentChapter == 0) $el.focus()"></button>
+      <div class="row align-items-center mt-6">
+        <h2 class="mb-6 text-center">Contents</h2>
+        <div class="col-12">
+          <ul class="nav nav-pills nav-border-wide justify-content-center mb-3" id="pills-tab-07" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-trekking-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-trekking" type="button" role="tab" aria-controls="pills-trekking"
+                aria-selected="true" @click="store.setCoverXIVAsTab()">
+                Cover
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-analysis-tab" data-bs-toggle="pill" data-bs-target="#pills-analysis"
+                type="button" role="tab" aria-controls="pills-analysis" aria-selected="false"
+                @click="store.setAuthorXIVAsTab()">
+                Author's Note
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-investment-management-11-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-investment-management-11" type="button" role="tab"
+                aria-controls="pills-investment-management-11" aria-selected="false" @click="store.setDedXIVAsTab()">
+                Dedication & Acknowledgements
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-integration-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-integration" type="button" role="tab" aria-controls="pills-integration"
+                aria-selected="false" @click="store.setChaptersXIVAsTab()">
+                Chapters
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content mt-5" id="pills-tabContent-07">
+            <div class="tab-pane fade show active" id="pills-trekking" role="tabpanel"
+              aria-labelledby="pills-trekking-tab">
+              <div class="row">
+                <div class="col-lg-6">
+                  <img class="img-fluid" src="/images/collections/xiv/cover.jpeg"
+                    alt="Frith Hilton Collection XIV" />
+                    <hr class="my-5" />
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-analysis" role="tabpanel" aria-labelledby="pills-analysis-tab">
+              <div class="row justify-content-center">
+                <div class="col-lg-6">
+                  <div v-html="store.pageResources().authorsNote" class="mt-4 me-4 ms-4"></div>
+                  <hr class="my-5" />
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-investment-management-11" role="tabpanel">
+              <div class="row">
+                <div class="col-lg-6">
+                  <h4 class="text-center">Dedication</h4>
+                  <div v-html="store.pageResources().dedication" class="mt-4 me-4 ms-4"></div>
+                </div>
+                <div class="col-lg-5 mt-5">
+                  <h4 class="text-center">Acknowledgements</h4>
+                  <div v-html="store.pageResources().acknowledgements" class="mt-4 me-4 ms-4"></div>
+                </div>
+              </div>
+              <hr class="my-5" />
+            </div>
+            <div class="tab-pane fade" id="pills-integration" role="tabpanel" aria-labelledby="pills-integration-tab">
+
+              <div class="row justify-content-center">
+                <div class="col-lg-6" id="reading">
+
+                  <hr class="my-5" />
+                  <!--========== 
+          Beginning of chapter titles ==========-->
+                  <div v-for="(title, index) in
+                      store.pageResources().chapterTitles" :key="index">
+                    <div v-if="index !== 0 && store.getPageState() ==
+                        'chapters'" @click="store.setPageState(index)" :id="index">
+                      <!--===== Start of Title =====-->
+                      <div class="mb-5 text-center">
+                        <h2 class="col-4">
+                          <span class="hedding-svg">{{store.pageResources().convertIndex(index)}}</span>
+                        </h2>
+                        <button class="btn btn-naked btn-icon-right" href="#!" v-effect="if (store.currentChapter ==
+                            index ) $el.focus()"></button>
+                        <h5 class="mt-3">{{title}}</h5>
+                        <span v-show="store.currentChapter == index" class="title-separator"></span>
+                      </div>
+
+                      <!--===== End of Title =====-->
+                      <hr class="my-4" />
+                    </div>
+                  </div>
+                  <!--========== 
+          End of chapter titles ==========-->
+                  <!--========== 
+          Beginning of chapter content ==========-->
+                  <div v-if="store.currentChapter !== 0 &&
+                      store.getPageState() ==
+                      'poetry'">
+                    <!--===== Start of Title =====-->
+                    <div class="mb-5 text-center">
+                      <h2 class="col-4 fw-bold mb-4">
+                        <span class="hedding-svg">{{store.pageResources().convertIndex(store.currentChapter)}}</span>
+                      </h2>
+                      <h5>{{store.chapterTitle}}</h5>
+
+                      <div v-html="store.getChapterContent()" class="mt-4 me-4 ms-4"></div>
+                    </div>
+                    <!--===== End of Title =====-->
+                    <hr class="my-5" />
+
+                    <!--===== Go back  =====-->
+                    <div class="col-lg-3 col-sm-6">
+                      <p @click="store.goBack()" class="btn btn-naked-wrap go-back-btn">
+                        <i class="feather icon-arrow-left"></i>
+                        <span> Chapters </span>
+                      </p>
+                    </div>
+                    <!--===== End Go back  =====-->
+                  </div>
+
+                  <!--========== 
+          End of chapter content ==========-->
+                </div>
+              </div>
+            </div>
+          </div>
+                              <div class="mt-5 mb-5">
+          <a id="ad2" href="#ad2">
+            <img class="img-fluid" src="../../images/bg/bg5.jpg" alt="">
+          </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+    <!--========== 
+  Start of bottom page  ==========-->
+
+  <section class="py-5 bg-pink-gradient">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <h3 class="text-white" id="some-id">
+            I'm here
+            <u class="typer text-warning" data-words="writing,making music," data-delay="100" data-deletedelay="1000"
+              style="color: black"></u>
+            often.
+          </h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--========== 
+  End of bottom page  ==========-->
+
+  <!--========== 
+    Map section ==========-->
+
+  <section id="contact-us" class="position-relative">
+    <div class="google-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.629367104963!2d3.2316144785641425!3d6.692744576034127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b996ae457d243%3A0x63b338921b72fdf9!2sFrith%20Nightswan%20Enterprises!5e0!3m2!1sen!2sng!4v1683451340692!5m2!1sen!2sng"
+        width="800" height="600" style="border: 0" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!--========== 
+    End of map section ==========-->
+  </section>
+  <!--========== 
+  Start of footer section ==========-->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 position-relative mb-5 mb-sm-0">
+          <div class="position-absolute top-0 start-0 slice-pt ps-5 ps-lg-8"></div>
+        </div>
+        <div class="col-lg-6">
+          <!--===== Start of footer item =====-->
+          <div class="text-center slice-ptb">
+            <h4 class="mb-4 mt-5 mt-lg-0">Time Open</h4>
+            <div class="mb-4">
+              <h5>Monday to Friday</h5>
+              <p>8:30 am to 5 pm</p>
+            </div>
+
+            <h4 class="mb-4">Address</h4>
+            <div class="mb-4">
+              <h5>11, Akindenoh street Ota, Ogun State.</h5>
+              <p><a href="mailto:nightswan.enterprise@gmail.com">Send Frith Hilton Mail</a></p> 
+                           
+            </div>
+            <h2 class="text-green mb-0 mt-5">
+              <i class="feather icon-phone-call"></i> (234) 815 813 2408
+            </h2>
+          </div>
+          <!--===== End of footer item =====-->
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <footer class="footer bg-black slice-pt">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 offset-lg-2">
+          <h2 class="text-white display-2 mb-4">
+            <span class="typer text-white" id="some-id" data-words="Catch up!" data-delay="100">
+            </span>
+          </h2>
+
+          <div class="social-icons icons-xl mt-5">
+            <a class="icon text-white" href="https://youtube.com/@frithhilton17?si=8pEsa1wf1KxLNvBK" target="_blank">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a class="icon text-white" href="https://www.tiktok.com/@frithhilton17" target="_blank">
+              <i class="fab fa-tiktok"></i>
+            </a>            
+            <a class="icon text-white" href="https://www.twitter.com/frithhilton17" target="_blank">
+              <i class="fab fa-x-twitter"></i>
+            </a>
+            <a class="icon text-white" href="https://www.instagram.com/frithhilton17" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr class="mt-7" />
+      <div class="row text-center">
+        <div class="col-12">
+<div class="developer-footer mb-2">
+    <a href="https://leondev.com.ng" target="_blank"><img src="/images/Leondev.png" alt="lEoNDɘv" width="80" height="80"></a>  
+</div>                            
+          <p class="text-white mt-3 mb-4">
+            © <span id="getFullYear"></span>
+            <span class="text-pink-gradient">Howard Frith Hilton</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--========== 
+  End of footer section ==========-->
+
+  <!--========== 
+        Start of back to top section ==========-->
+
+  <div class="go-top">
+    <p class="go-top-text">
+      Scroll to top <i class="fas fa-long-arrow-alt-right ps-2"></i>
+    </p>
+  </div>
+
+  <!--========== 
+	End of back to top section ==========-->
+  <!--========== 
+	Start of Javascript ==========-->
+
+  <!--===== Global required js =====-->
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <script src="../../js/jquery-3.6.0.min.js"></script>
+  <script src="../../js/popper.min.js"></script>
+  <script src="../../js/bootstrap/bootstrap.min.js"></script>
+
+  <!--===== Global script: js libraries and plugins =====-->
+  <script src="../../js/appear/jquery.appear.js"></script>
+  <script src="../../js/swiper/swiper.min.js"></script>
+  <script src="../../js/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="../../js/isotope/isotope.pkgd.min.js"></script>
+  <script src="../../js/typer/typer.js"></script>
+  <script src="../../js/jarallax/jarallax.min.js"></script>
+  <script src="../../js/mCustomScrollbar/jquery.mCustomScrollbar.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/numbered/1.1.0/index.min.js"
+    integrity="sha512-UQKbSOyUPIxk4a5/TIcqKUfl2JX0b1Rgq16BgvZbIWa7g5g3Rl/RXzFJFt2iu9LzDUpqDbcaak2ifjW887SxPw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="../../js/collection-XIV.js"></script>
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        appId: "1292503991685432",
+        autoLogAppEvents: true,
+        xfbml: true,
+        version: "v16.0",
+      });
+    };
+  </script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+
+  <!--===== Main theme script =====-->
+
+  <script type="module">
+    import {
+      createApp,
+      reactive
+    } from "https://unpkg.com/petite-vue?module";
+    const store = reactive({
+      currentURL: "/published/poetry/collection-XIV.html",
+      staticPoemURL: "",
+      poemURL: "",
+      URLPoemID: 0,
+      CopyURLText: "Copy URL",
+      currentChapter: 0,
+      goBackState: false,
+      getCurrentChapter() {
+        if (localStorage.getItem("XIVCurrentChapter")) {
+          this.currentChapter = localStorage.getItem("XIVCurrentChapter");
+        } else if (this.currentChapter == 0) {
+          this.currentChapter = this.URLPoemID;
+        } else {
+          localStorage.removeItem("XIVCurrentChapter");
+        }
+      },
+      chapterTitle: "",
+      getChapterContent() {
+        const chapterTitle = this.pageResources().chapterTitles.at(
+          this.currentChapter
+        );
+        this.generatePoemURL();
+        this.chapterTitle = chapterTitle;
+        const chapterContent = this.pageResources().chapters;
+        return chapterContent.at(this.currentChapter);
+      },
+      initialPageState: {
+        viewXIV: "chapters",
+      },
+      pageState: localStorage.getItem("viewXIV"),
+      getPageState() {
+        this.decodePoemURL();
+        if (this.pageState == "chapters") {
+          const state = "chapters";
+          localStorage.removeItem("XIVCurrentChapter");
+          return state;
+        } else if (this.pageState == "poetry") {
+          this.decodePoemURL();
+          this.getCurrentChapter();
+          const state = "poetry";
+
+          return state;
+        } else {
+          localStorage.setItem("viewXIV", this.initialPageState.viewXIV);
+          const state = this.initialPageState.viewXIV;
+          return state;
+        }
+      },
+      setPageState(index) {
+        localStorage.setItem("viewXIV", "poetry");
+        location.href = "#reading";
+        (this.pageState = localStorage.getItem("viewXIV")),
+        (this.currentChapter = index);
+        localStorage.setItem("XIVCurrentChapter", this.currentChapter);
+      },
+      goBack() {
+        this.goBackState = true;
+        localStorage.setItem("viewXIV", "chapters");
+        this.pageState = localStorage.getItem("viewXIV");
+        this.getPageState();
+      },
+      pageResources() {
+        return {
+          dedication: `<p class="text-center">To <strong style="color: #010521"> Vice president of the United States, <span class="fw-bold">Kamala Harris.</span>  </strong></p>`,
+          acknowledgements: `<p>         Everyone who makes these publications possible deserves a mention. My readers, you all make my days meaningful, for writing poetry has been an expression breakthrough for me.</p> <p>         Thank you to beautiful Princess Leonor of Spain for great cover photographs I use for my X, where all the writing occurs, they make everything I do regal.</p>`,
+          authorsNote: [
+            ` <img class="img-fluid" src="../../images/collections/xiv/01.jpeg" alt=""> 
+            <p class="text-center">Vice president of the United States.</p>
+            <p class="text-center fw-bold"> Kamala Harris. </p>`,
+          ],
+          chapterTitles: [
+            "0",
+"It's Momma's Clock",
+"Every Word",
+"Rome In a Still",
+"Red",
+"Hardcore",
+"The Chick In",
+"Too Clever By Half",
+"It Goes",
+"Falling For Winter",
+"Every Canoe Paddler",
+"Tell Me Again, What Gives?",
+"Aiming On How?",
+"Hell Mate",
+"Clap Butt Shut",
+"Charming, I buy her",
+"She's by the Oldie Station",
+"Sly Tut",
+          ],
+          chapters: [
+            `0`,
+`<p>I tell myself</p>
+<p>I'm by twelve</p>
+<p>dozens of spells</p>
+<p>and solve the wealth</p>
+<p>in her hobbing love ed.</p>`, 
+`<p>The issue with nothing is echo</p>
+<p>it never returning home</p>
+<p> </p>
+<p>with a glow, two running folds</p>
+<p>I've got something to hold</p>
+<p>an idea on a hitched up road</p>
+<p> </p>
+<p>It fell, but so too as it rose</p>
+<p>with depth by the callow</p>
+<p>the lovely to see its growth</p>
+<p>nothing swathes like a prose</p>
+<p>its incandescence harrows.</p>`, 
+`<p>Damn, I don't have anything</p>
+<p>what isn't fought in feelings</p>
+<p>the beak will find like a pick</p>
+<p>but I must now sing a wish</p>
+<p>a number from my learning.</p>`, 
+`<p>Sending roses to Damascus</p>
+<p>a fair warning to albatross</p>
+<p>I have a laid-back rash horse</p>
+<p>her name's her like rust locks</p>
+<p>they team without a hue stop.</p>`, 
+`<p>With doors unlocked</p>
+<p>I come up to fine dust</p>
+<p>I hold up in stymie pause</p>
+<p> </p>
+<p>the mood is stale rancor</p>
+<p>as the day always before</p>
+<p>then with a palm I've lost</p>
+<p>in the chafe he well robs</p>
+<p>I sweep him off my desktop</p>
+<p> </p>
+<p>but just before any work</p>
+<p>I peruse where he belonged</p>
+<p>and in retches no wrong</p>
+<p>of no torrid or the astute</p>
+<p> </p>
+<p>but he's a bug</p>
+<p>don't you see his wrongs</p>
+<p>they are flies over pus</p>
+<p> </p>
+<p>daily he reminds his worth</p>
+<p>as he hits the grounds I walk.</p>`, 
+`<p>If I was a chicken</p>
+<p>I'd bear nude feet</p>
+<p>Wander wondering</p>
+<p>why I am ever horny</p>
+<p></p>
+<p>Cause unlike feelings</p>
+<p>the ones in my knead</p>
+<p></p>
+<p>Creeping down streets</p>
+<p>Soft, even when craggy</p>
+<p>By your pen, I'm shaggy.</p>`, 
+`<p>Sometimes I can't think</p>
+<p>it's literal, I'm skunk's hiss</p>
+<p>I push where I will</p>
+<p>and what do I see?</p>
+<p>I'm diseased</p>
+<p>deceased in feeling</p>
+<p>an offal feast</p>
+<p>an emotional nit.</p>`, 
+`<p>So I like a good girl</p>
+<p> </p>
+<p>and a camel's hump</p>
+<p>whichever to her spell</p>
+<p>I spot</p>
+<p>frolic in the crepuscule</p>
+<p>I'm waking everyone up</p>
+<p> </p>
+<p>in impel</p>
+<p>I ruffle for a red dot</p>
+<p>canary singing to tell</p>
+<p>feelings intervening forth.</p>`, 
+`<p>Sweeping the streets of oaths</p>
+<p>the wind struck on gold</p>
+<p> </p>
+<p>now missing its home</p>
+<p>only sure it used to be cold</p>
+<p>nothing else was bold</p>
+<p>but of the season's fold</p>
+<p> </p>
+<p>It'd taken its own</p>
+<p>and now for the road</p>
+<p>It was told</p>
+<p> </p>
+<p>If only in hopes</p>
+<p>to repeat its own ode</p>
+<p>for only home is sole</p>
+<p>in feeling, in roam</p>
+<p>errant, all are reposed.</p>`, 
+`<p>This is reaching for a fist</p>
+<p>as does the hackneyed</p>
+<p>not unlike if recouping</p>
+<p>and it does without visit</p>
+<p> </p>
+<p>waiting for a beginning</p>
+<p>it latches onto past meanings</p>
+<p>where it found me eating</p>
+<p> </p>
+<p>I'd not gotten off without a meal</p>
+<p>camomile, all the way, I had tea.</p>`, 
+`<p>Dying with my arms open</p>
+<p>my spirit lunging too soon</p>
+<p>meeting place of the pools</p>
+<p>of the new, the old, spruced</p>
+<p>no faint light was as untrue</p>
+<p>where darkness transfigured.</p>`,
+`<p>With his flight light</p>
+<p>I'd worry about pier nights</p>
+<p>and if nothing had died</p>
+<p>all out to divide</p>
+<p>none now to highlight</p>
+<p> </p>
+<p>he fed my fire's bright</p>
+<p>nothing with my hint tined.</p>`, 
+`<p>Silliness, hereafter hunger</p>
+<p>the baker's only gram pan</p>
+<p>way in on the scale of smarts</p>
+<p>coming fit with eyes that bats</p>
+<p>as tonight, it gets a ciabatta</p>
+<p>anon by the file for breakfast.</p>`, 
+`<p>Birthdays — rushes</p>
+<p>instantly crumbling</p>
+<p>my hard pristine</p>
+<p> </p>
+<p>but I saw you win</p>
+<p>you looked like ritz</p>
+<p>the Eden of endings.</p>`, 
+`<p>How can this love be untrue</p>
+<p>with this hold, it's demure</p>
+<p>a fermented girthy spoon</p>
+<p> </p>
+<p>have you the spur to inure</p>
+<p>from root to fruit</p>
+<p>a retail creature's chore.</p>`,
+`<p>Greetings from the gruffy side</p>
+<p> </p>
+<p>once they hockey, roaring tides</p>
+<p>ideas in my head as take lines</p>
+<p> </p>
+<p>it's my time</p>
+<p>wildfires led out in crocodile</p>
+<p>to drench your youth senile</p>
+<p> </p>
+<p>beetling, nicking you imp right</p>
+<p>I watched all your friends' delight</p>
+<p>glowing hopes of being his wife</p>
+<p> </p>
+<p>and what I've noticed has my eye</p>
+<p>it is its brightness in the vile</p>
+<p> </p>
+<p>their empathy is key to my design</p>
+<p>see, I have your loyal mind</p>
+<p>it's pledged as theirs, old servile</p>
+<p> </p>
+<p>they aid you, you're a ramp to my ally</p>
+<p>and she's got a good humour fight</p>
+<p> </p>
+<p>if I were you, I'd get a simple sign</p>
+<p>something to give off the wrong mile</p>
+<p>it's afterall a while since you'd to decide</p>
+<p> </p>
+<p>and I'm not shedding your appetite</p>
+<p>you're mine until it's no longer fine</p>
+<p>when no one's grasp of your find</p>
+<p>sells you your needed stimuli</p>
+<p>that'll be me, your only, on life.</p>`, 
+`<p>A blurt in meaning left a face</p>
+<p>the cops questioned by their ways</p>
+<p>but found no word on your shame</p>
+<p>they thought, how outrightly blamed</p>
+<p>she is a mad woman, but to be displaced</p>
+<p>is it left to the civil or the insane</p>
+<p>soon word crept up their pad a page</p>
+<p>and another till you were disgraced</p>
+<p>they'd found you by no one's sake</p>
+<p>the horror was you didn't have a shade</p>
+<p>all knew well than to comment on a sheik.</p>`
+
+            
+            
+            
+            
+          ],
+          convertIndex(prop) {
+            var indexNumber = prop;
+            var number = numbered.stringify(indexNumber);
+            return number;
+          },
+        };
+      },
+      acceptCookieUse() {
+        localStorage.setItem("cookieUse", true);
+      },
+      lastTabXIV: "",
+      coverTabXIVIsActive: localStorage.getItem("coverTabXIVIsActive"),
+      authorTabXIVIsActive: localStorage.getItem("authorTabXIVIsActive"),
+      dedTabXIVIsActive: localStorage.getItem("dedTabXIVIsActive"),
+      chapterTabXIVIsActive: localStorage.getItem("chapterTabXIVIsActive"),
+      navLink: true,
+      setCoverXIVAsTab() {
+        this.lastTabXIV = "Cover";
+        localStorage.setItem("lastTabXIV", this.lastTabXIV);
+        localStorage.setItem("coverTabXIVIsActive", true);
+        localStorage.setItem("authorTabXIVIsActive", false);
+        localStorage.setItem("dedTabXIVIsActive", false);
+        localStorage.setItem("chapterTabXIVIsActive", false);
+      },
+      setAuthorXIVAsTab() {
+        this.lastTabXIV = "Author";
+        localStorage.setItem("lastTabXIV", this.lastTabXIV);
+        localStorage.setItem("coverTabXIVIsActive", false);
+        localStorage.setItem("authorTabXIVIsActive", true);
+        localStorage.setItem("dedTabXIVIsActive", false);
+        localStorage.setItem("chapterTabXIVIsActive", false);
+      },
+      setDedXIVAsTab() {
+        this.lastTabXIV = "Dedication";
+        localStorage.setItem("lastTabXIV", this.lastTabXIV);
+        localStorage.setItem("coverTabXIVIsActive", false);
+        localStorage.setItem("authorTabXIVIsActive", false);
+        localStorage.setItem("dedTabXIVIsActive", true);
+        localStorage.setItem("chapterTabXIVIsActive", false);
+      },
+      setChaptersXIVAsTab() {
+        this.lastTabXIV = "Chapters";
+        localStorage.setItem("lastTabXIV", this.lastTabXIV);
+        localStorage.setItem("coverTabXIVIsActive", false);
+        localStorage.setItem("authorTabXIVIsActive", false);
+        localStorage.setItem("dedTabXIVIsActive", false);
+        localStorage.setItem("chapterTabXIVIsActive", true);
+      },
+      shareToFacebook() {
+        this.generateStaticPoemURL();
+        console.log(this.generateStaticPoemURL());
+        FB.ui({
+            display: "popup",
+            method: "share",
+            href: this.staticPoemURL,
+          },
+          function (response) {}
+        );
+      },
+      copyURL() {
+        this.CopyURLText = "URL copied to clipboard";
+        this.generateStaticPoemURL();
+        navigator.clipboard.writeText(this.staticPoemURL);
+        $("#CopyURLText").css("color", "green");
+        $("#copyURLIcon").css("color", "green");
+        setTimeout(() => {
+          $("#CopyURLText").css("color", "#010521");
+          $("#copyURLIcon").css("color", "#010521");
+          this.CopyURLText = "Copy URL";
+        }, 8000);
+      },
+      shareToWhatsApp() {
+        this.generateStaticPoemURL();
+        const linkToShare = "whatsapp://send?text=" + this.staticPoemURL;
+        window.open(linkToShare, "_blank");
+      },
+      shareToTwitter() {
+        return
+      },
+      loadBookmark() {
+        var urlParams = new URLSearchParams(location.search);
+      },
+      generatePoemURL() {
+        var domainName = window.location.origin;
+        const queryToAppend =
+          domainName +
+          this.currentURL +
+          "?typeIsPoem" +
+          "&id=" +
+          this.currentChapter;
+        this.poemURL = queryToAppend;
+      },
+      changeTabToChapter() {
+        localStorage.setItem("coverTabXIVIsActive", false);
+        localStorage.setItem("authorTabXIVIsActive", false);
+        localStorage.setItem("dedTabXIVIsActive", false);
+        localStorage.setItem("chapterTabXIVIsActive", true);
+        document.getElementById("pills-integration-tab").click();
+      },
+      decodePoemURL() {
+        if (this.goBackState == true) {
+          return;
+        } else {
+          var bookmarkURL = new URLSearchParams(location.search);
+          var getPoemIdFromURL = bookmarkURL.get("id");
+          if (bookmarkURL.has("typeIsPoem") && getPoemIdFromURL <= 38) {
+            this.changeTabToChapter();
+            localStorage.setItem("viewXIV", "poetry");
+            this.pageState = "poetry";
+            this.URLPoemID = getPoemIdFromURL;
+            this.currentChapter = this.URLPoemID;
+            localStorage.setItem("XIVCurrentChapter", this.currentChapter);
+            this.goBackState = false;
+          } else if (bookmarkURL.has("typeIsPoem") && getPoemIdFromURL > 38) {
+            localStorage.setItem("viewXIV", this.initialPageState.viewVI);
+            window.location.href =
+              window.location.origin + "/pages/not-found.html";
+          } else {
+            window.location.origin + "/pages/not-found.html";
+          }
+        }
+      },
+      generateStaticPoemURL() {
+        var domainName = window.location.origin;
+        const convertPoemID = this.pageResources().convertIndex(
+          this.currentChapter
+        );
+        var shareURL =
+          domainName +
+          "/pages/Hilton/collections/iv/" +
+          convertPoemID +
+          ".html";
+        this.staticPoemURL = shareURL;
+      },
+    });
+
+    createApp({
+      store,
+    }).mount("#ctrlArea");
+  </script>
+  <!--========== 
+	End of Javascript ==========-->
 </body>
+
 </html>

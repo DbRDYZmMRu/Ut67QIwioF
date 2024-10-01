@@ -241,11 +241,11 @@
              Collection V
                         </span></a>
                     </li>
-                    <!--<li>
+                    
                       <a class="dropdown-item" href="../published/poetry/collection-VI.html"><span class="text-line">
                           Collection VI
                         </span></a>
-                    </li>-->
+                    </li>
                   </ul>
                 </li>
                 <!--<li class="dropdown-submenu">
@@ -394,7 +394,7 @@
         (store.currentChapter == 0) $el.focus()"
         ></button>
         <div class="row align-items-center mt-6">
-          <h2 id="reading" class="mb-6 text-center">Contents</h2>
+          <h2 class="mb-6 text-center">Contents</h2>
           <div class="col-12">
             <ul
               class="nav nav-pills nav-border-wide justify-content-center mb-3"
@@ -426,7 +426,7 @@
                   role="tab"
                   aria-controls="pills-analysis"
                   aria-selected="false"
-                  @click="store.setAuthorIIAsTab()"
+                  @click="store.setAuthorVAsTab()"
                 >
                   Author's Note
                 </button>
@@ -523,7 +523,7 @@
                 aria-labelledby="pills-integration-tab"
               >
                 <div class="row justify-content-center">
-                  <div class="col-lg-6">
+                  <div class="col-lg-6" id="reading">
                     <hr class="my-5" />
                     <!--========== 
           Beginning of chapter titles ==========-->
