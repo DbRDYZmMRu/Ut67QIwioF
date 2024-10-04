@@ -12,7 +12,7 @@
         "author": "Frith Hilton",
         "song": "First lines",
         "json":"../pages/musicpool-db/firstLines.json",
-        "audio":"../pages/musicpool-db/firstLines.mp3 "
+        "audio":"../pages/musicpool-db/FirstLines.mp3 "
       }
     ]
   }
