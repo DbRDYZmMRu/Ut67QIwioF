@@ -11,8 +11,8 @@
         "albumart": "musicpool-db/coveriv.jpg",
         "author": "Frith Hilton",
         "song": "First lines",
-        "json":"../pages/musicpool-db/firstLines.json",
-        "audio":"../pages/musicpool-db/FirstLines.mp3 "
+        "json":"../pages/musicpool-db/firstLinesLytics.json",
+        "audio":"../pages/musicpool-db/FirstLinesMp3.mp3 "
       }
     ]
   }
