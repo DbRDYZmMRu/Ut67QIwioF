@@ -1,25 +1,18 @@
 {
     "songs":[
       {
-        "albumart": "musicpool-db/coverii.jpg",
-        "author": "Frith Hilton",
-        "song": "Applish",
-        "json":"../pages/musicpool-db/applish.json",
-        "audio":"../pages/musicpool-db/Applish.mp3 "
-      },
-      {
-        "albumart": "musicpool-db/coveriii.jpg",
-        "author": "Frith Hilton",
-        "song": "Home alone",
-        "json":"../pages/musicpool-db/homeAlone.json",
-        "audio":"../pages/musicpool-db/HomeAlone.mp3 "
-      }, 
-      {
         "albumart": "musicpool-db/coveri.jpg",
         "author": "Frith Hilton",
         "song": "Aureole sigh",
         "json":"../pages/musicpool-db/AureoleSigh.json",
         "audio":"../pages/musicpool-db/AureoleSigh.mp3 "
-      }     
+      }, 
+      {
+        "albumart": "musicpool-db/coveriv.jpg",
+        "author": "Frith Hilton",
+        "song": "First lines",
+        "json":"../pages/musicpool-db/firstLines.json",
+        "audio":"../pages/musicpool-db/firstLines.mp3 "
+      }
     ]
   }
