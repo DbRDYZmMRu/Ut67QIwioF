@@ -1,11 +1,11 @@
 {
     "songs":[
       {
-        "albumart": "musicpool-db/coveri.jpg",
+        "albumart": "musicpool-db/spaghetti.jpg",
         "author": "Frith Hilton",
-        "song": "Aureole sigh",
-        "json":"../pages/musicpool-db/AureoleSigh.json",
-        "audio":"../pages/musicpool-db/AureoleSigh.mp3 "
+        "song": "Spaghetti code",
+        "json":"../pages/musicpool-db/SpaghettiCode.json",
+        "audio":"../pages/musicpool-db/SpaghettiCode.mp3"
       }, 
       {
         "albumart": "musicpool-db/coveriv.jpg",
