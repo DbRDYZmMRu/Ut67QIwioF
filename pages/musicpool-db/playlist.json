@@ -1,18 +1,18 @@
 {
     "songs":[
       {
+        "albumart": "musicpool-db/covers/fartherMemes/22.jpg",
+        "author": "Frith Hilton",
+        "song": "Fish",
+        "json":"../pages/musicpool-db/lyrics/fartherMemes/22.json",
+        "audio":"../pages/musicpool-db/mp3/fartherMemes/22.mp3"
+      }, 
+      {
         "albumart": "musicpool-db/covers/fartherMemes/21.jpg",
         "author": "Frith Hilton",
         "song": "Fire",
         "json":"../pages/musicpool-db/lyrics/fartherMemes/21.json",
         "audio":"../pages/musicpool-db/mp3/fartherMemes/21.mp3"
-      }, 
-      {
-        "albumart": "musicpool-db/spaghetti.jpg",
-        "author": "Frith Hilton",
-        "song": "Spaghetti code",
-        "json":"../pages/musicpool-db/SpaghettiCode.json",
-        "audio":"../pages/musicpool-db/SpaghettiCode.mp3"
-      } 
+      }
     ]
   }
