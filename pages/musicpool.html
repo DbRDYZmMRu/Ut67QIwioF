@@ -253,11 +253,11 @@ button {
               <a class=" nav-link" href="../index.html"><span class="text-line"> Home </span></a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbar-pages" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a @click="store.goToPublished" class="nav-link dropdown-toggle" href="#" id="navbar-pages" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="text-line"> Publications</span>
               </a>
 
-              <ul class="dropdown-menu" aria-labelledby="navbar-pages">
+              <!--<ul class="dropdown-menu" aria-labelledby="navbar-pages">
                 <div class="mb-3 mt-3">
                   <a href="#">
                     Frith Hilton Collections
@@ -307,14 +307,14 @@ button {
                           Collection V
                         </span></a>
                     </li>
-                    <!--<li>
+                    <li>
                       <a class="dropdown-item" href="../published/poetry/collection-VI.html"><span class="text-line">
                           Collection VI
                         </span></a>
-                    </li>-->
+                    </li>
                   </ul>
                 </li>
-                <!--<li class="dropdown-submenu">
+                <li class="dropdown-submenu">
                   <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections VII — IX </span></a>
                   <ul class="dropdown-menu">
                     <li>
@@ -333,8 +333,8 @@ button {
                         </span></a>
                     </li>
                   </ul>
-                </li>-->
-                <!--<li class="dropdown-submenu">
+                </li>
+                <li class="dropdown-submenu">
                   <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections X — XII </span></a>
                   <ul class="dropdown-menu">
                     <li>
@@ -353,8 +353,8 @@ button {
                         </span></a>
                     </li>
                   </ul>
-                </li>-->
-                <!--<li class="dropdown-submenu">
+                </li>
+                <li class="dropdown-submenu">
                   <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections XIII — XIV </span></a>
                   <ul class="dropdown-menu">
                     <li>
@@ -385,8 +385,9 @@ button {
                   <a class="dropdown-item" href="published/journal/a-life-worth-living.html"><span class="text-line">
                       A Life Worth Living (Vision @ 2020)
                     </span></a>
-                </li>-->
-              </ul>
+                </li>
+              
+              </ul>-->
             </li>
 
 
@@ -1229,6 +1230,10 @@ button {
       loadNewRelease() {
       window.location.href = 'https://frithhilton.com.ng/pages/latest-release.html';
     }, 
+   goToPublished() {
+      window.location.href = '../published/books.html';
+    }
+    
 
     })
     createApp({
