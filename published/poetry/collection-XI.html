@@ -12,15 +12,15 @@
   <meta property="og:url"
     content="" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="Frith Hilton Collection XVI" />
-  <meta property="og:description" content="Frith Hilton Collection XVI
+  <meta property="og:title" content="Frith Hilton Collection XI" />
+  <meta property="og:description" content="Frith Hilton Collection XI
       description goes here, do not forget that farthings and pounds don't
       accrue neglecting another." />
   <meta property="og:image"
     content="" />
 
   <!--===== Title =====-->
-  <title>Collection XVI </title>
+  <title>Collection XI </title>
 
   <!--===== Favicon =====-->
   <link rel="shortcut icon" href="../../images/favicon.png" />
@@ -350,7 +350,7 @@
           <div class="col-lg-9 col-xl-8">
             <h1 class="text-white">
               Frith Hilton Collection
-              <span class="text-nightswan-gradient"> XVI</span>
+              <span class="text-nightswan-gradient"> XI</span>
             </h1>
           </div>
         </div>
@@ -372,28 +372,28 @@
             <li class="nav-item" role="presentation">
               <button class="nav-link active" id="pills-trekking-tab" data-bs-toggle="pill"
                 data-bs-target="#pills-trekking" type="button" role="tab" aria-controls="pills-trekking"
-                aria-selected="true" @click="store.setCoverXVIAsTab()">
+                aria-selected="true" @click="store.setCoverXIAsTab()">
                 Cover
               </button>
             </li>
             <li class="nav-item" role="presentation">
               <button class="nav-link" id="pills-analysis-tab" data-bs-toggle="pill" data-bs-target="#pills-analysis"
                 type="button" role="tab" aria-controls="pills-analysis" aria-selected="false"
-                @click="store.setAuthorXVIAsTab()">
+                @click="store.setAuthorXIAsTab()">
                 Author's Note
               </button>
             </li>
             <li class="nav-item" role="presentation">
               <button class="nav-link" id="pills-investment-management-11-tab" data-bs-toggle="pill"
                 data-bs-target="#pills-investment-management-11" type="button" role="tab"
-                aria-controls="pills-investment-management-11" aria-selected="false" @click="store.setDedXVIAsTab()">
+                aria-controls="pills-investment-management-11" aria-selected="false" @click="store.setDedXIAsTab()">
                 Dedication & Acknowledgements
               </button>
             </li>
             <li class="nav-item" role="presentation">
               <button class="nav-link" id="pills-integration-tab" data-bs-toggle="pill"
                 data-bs-target="#pills-integration" type="button" role="tab" aria-controls="pills-integration"
-                aria-selected="false" @click="store.setChaptersXVIAsTab()">
+                aria-selected="false" @click="store.setChaptersXIAsTab()">
                 Chapters
               </button>
             </li>
@@ -403,8 +403,8 @@
               aria-labelledby="pills-trekking-tab">
               <div class="row">
                 <div class="col-lg-6">
-                  <img class="img-fluid" src="/images/collections/xvi/cover.jpg"
-                    alt="Frith Hilton Collection XVI" />
+                  <img class="img-fluid" src="/images/collections/xi/cover.jpg"
+                    alt="Frith Hilton Collection XI" />
                     <hr class="my-5" />
                 </div>
               </div>
@@ -650,7 +650,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/numbered/1.1.0/index.min.js"
     integrity="sha512-UQKbSOyUPIxk4a5/TIcqKUfl2JX0b1Rgq16BgvZbIWa7g5g3Rl/RXzFJFt2iu9LzDUpqDbcaak2ifjW887SxPw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="../../js/collection-XVI.js"></script>
+  <script src="../../js/collection-XI.js"></script>
   <script>
     window.fbAsyncInit = function () {
       FB.init({
@@ -671,7 +671,7 @@
       reactive
     } from "https://unpkg.com/petite-vue?module";
     const store = reactive({
-      currentURL: "/published/poetry/collection-XVI.html",
+      currentURL: "/published/poetry/collection-XI.html",
       staticPoemURL: "",
       poemURL: "",
       URLPoemID: 0,
@@ -679,12 +679,12 @@
       currentChapter: 0,
       goBackState: false,
       getCurrentChapter() {
-        if (localStorage.getItem("XVICurrentChapter")) {
-          this.currentChapter = localStorage.getItem("XVICurrentChapter");
+        if (localStorage.getItem("XICurrentChapter")) {
+          this.currentChapter = localStorage.getItem("XICurrentChapter");
         } else if (this.currentChapter == 0) {
           this.currentChapter = this.URLPoemID;
         } else {
-          localStorage.removeItem("XVICurrentChapter");
+          localStorage.removeItem("XICurrentChapter");
         }
       },
       chapterTitle: "",
@@ -698,14 +698,14 @@
         return chapterContent.at(this.currentChapter);
       },
       initialPageState: {
-        viewXVI: "chapters",
+        viewXI: "chapters",
       },
-      pageState: localStorage.getItem("viewXVI"),
+      pageState: localStorage.getItem("viewXI"),
       getPageState() {
         this.decodePoemURL();
         if (this.pageState == "chapters") {
           const state = "chapters";
-          localStorage.removeItem("XVICurrentChapter");
+          localStorage.removeItem("XICurrentChapter");
           return state;
         } else if (this.pageState == "poetry") {
           this.decodePoemURL();
@@ -714,31 +714,73 @@
 
           return state;
         } else {
-          localStorage.setItem("viewXVI", this.initialPageState.viewXVI);
-          const state = this.initialPageState.viewXVI;
+          localStorage.setItem("viewXI", this.initialPageState.viewXI);
+          const state = this.initialPageState.viewXI;
           return state;
         }
       },
       setPageState(index) {
-        localStorage.setItem("viewXVI", "poetry");
+        localStorage.setItem("viewXI", "poetry");
         location.href = "#reading";
-        (this.pageState = localStorage.getItem("viewXVI")),
+        (this.pageState = localStorage.getItem("viewXI")),
         (this.currentChapter = index);
-        localStorage.setItem("XVICurrentChapter", this.currentChapter);
+        localStorage.setItem("XICurrentChapter", this.currentChapter);
       },
       goBack() {
         this.goBackState = true;
-        localStorage.setItem("viewXVI", "chapters");
-        this.pageState = localStorage.getItem("viewXVI");
+        localStorage.setItem("viewXI", "chapters");
+        this.pageState = localStorage.getItem("viewXI");
         this.getPageState();
       },
       pageResources() {
         return {
-          dedication: `<p class="text-center">To <strong style="color: #010521"> Their Royal Majesties <span class="fw-bold"> Queen Letizia and King Felipe of Spain.</span>  </strong></p>`,
-          acknowledgements: `<p>         I am deeply indebted to the enduring presence of authenticity in my life, a guiding force that has accompanied me since childhood. From an early age, I harboured an unwavering passion to craft words into meaningful expression. Today, as a poet, I am humbled by the understanding that my verses find resonance with those who resonate with the timber of my words.</p> <p>         To each reader who has taken the time to connect with my words, thank you. Your presence means the world to me. I promise to keep sharing my heart, hopes, and struggles through my poetry, and I look forward to continuing this journey together.</p> <p>         I'll meet you again in the pages of Frith Hilton Collection XVII. Until then, warm regards,</p> <p>         Your loyal poet.</p>`,
+          dedication: `<p class="text-center">To <strong style="color: #010521"> <span class="fw-bold"> Mikaela Testa 💍</span>  </strong></p>`,
+          acknowledgements: `<p>         Thank you to Paris Hilton for being a great big sister, and a well-meaning boss. You continue to inspire me with your ironclad grip of your brand. For showing me what pride looks like, for helping me navigate this far. To your softness, I'm an adherent and I wish to write you more poetry in the future.</p> <p>         I have so much love for Dan Brown, Margaret Artwood and Stephen King, I do this because you continue to inspire. Thank you.</p> <p>         I've got big love for David Alan Nicholls, thank you for providing me with a helping hand.</p>`,
           authorsNote: [
-            ` <img class="img-fluid" src="../../images/collections/xvi/01.jpg" alt="">
-            <p class="text-center mt-1">Their Royal Majesties <span class="fw-bold"> Queen Letizia and King Felipe of Spain.</span> </p>`,
+            `<img class="img-fluid" alt="Olivia Casta" src="/images/collections/xi/x01.jpg" />
+<p style="text-align:center"><i><span class="fw-bold">Olivia Casta</span></i></p>
+<p style="text-align:center"><i>The phone rings in the middle of the night</i></p>
+<p style="text-align:center"><i>My father says, "My boy, what do you want from your life?"</i></p>
+<p style="text-align:center"><i>Father dear, you are the fortunate one</i></p>
+<p style="text-align:center"><i>Girls just wanna have fun</i></p>
+<p style="text-align:center"><i>Yeah, girls just wanna have fun</i></p>
+
+<p>         In Hilton's universe, eleven represents endings. While I'm no more a trick, it's unlikely I can stay away from masturbation.</p>
+
+<p>         I fap a lot that Mariam Rod asks to see it twice a week, which is hard, from being the only number of times my dad will agree to. So at times she gets stodgily made videos, or just pictures.</p>
+
+<p>         It's been impossible to get me to stop, so she's making do with seeing what I'm up to, collecting my releases, which is so as a wife should. Perfect! </p>
+
+<img class="img-fluid" alt="Bright Emily" src="/images/collections/xi/x02.jpg" />
+<p style="text-align:center"><i><span class="fw-bold">Bright Emily</span></i></p>
+
+<p>         When the year started, I made something good: it was to keep a list of the ladies that help me get there. I promise you, it's hard to tell if you ever have, especially if she's not as familiar. So with Bright Emily ending 2023 on the 31st of December, I started my list, with the very first entry coming from January 1st, three hours into the new year. And the last easement is of the 26th of March. Now, I present to you twenty-six poems. </p>
+
+<img class="img-fluid" alt="Claudia Tihan" src="/images/collections/xi/x04.jpg" />
+<p style="text-align:center"><i><span class="fw-bold">Claudia Tihan</span></i></p>
+
+<p>         Claudia knocked me out three times during the time, but she isn't on this list, while it's important she's mentioned. It shows how much I get off unwittingly.</p>
+
+<p>         It's particular because when the list started on X, which after a while got to be appropriated to celebrate Princess Leonor's eighteenth birthday, achieving adulthood, having met her at seventeen with gully drooly feelings. Some faps were lost in between number eighteen and deciding to record the number nineteen. I had my hit, point proven! Continuing with the record was to catching myself after Claudia, Sommer Ray and faces I now can't remember skidded off to a not so unsettling list. It was to let the fad, now tradition continue, to tease out more meaning of the act away from public scrutiny. So maybe I am by a longer list now.</p>
+
+<p>         If here for an accurate stat figure, this is behind a couple, maybe six or seven pants down for the time chosen.</p>
+
+<p>         For top of the list on who I'd love to get physical with. Well, I'd love to fondle Sommer Ray all life long, and be another reason she giggles. I'll waste no time getting with Madison Beer. It'd be stirred in romance too. And natch, Taylor Swift has been a do-or-die obligation.</p>
+
+<img class="img-fluid" alt="Sommer Ray" src="/images/collections/xi/x06.jpg" />
+<p style="text-align:center"><i><span class="fw-bold">Sommer Ray</span></i></p>
+
+<img class="img-fluid" alt="Madison Beer" src="/images/collections/xi/x05.jpg" />
+<p style="text-align:center"><i><span class="fw-bold">Madison Beer</span></i></p>
+
+<img class="img-fluid" alt="Taylor Swift" src="/images/collections/xi/x08.jpg" />
+<p style="text-align:center"><i><span class="fw-bold">Taylor Swift</span></i></p>
+
+<p>         A number of the poetry in this collection were written for Paris Hilton on a countdown to her 43rd birthday.</p>
+
+<img class="img-fluid" alt="Paris Hilton" src="/images/collections/xi/x03.jpg" />
+<p style="text-align:center"><i>Inspired by <span class="fw-bold">Paris Hilton</span>'s softness.</i></p>
+<p style="text-align:center"><i>Love you, big sis</i> 💖<i>. </i></p>`,
           ],
           chapterTitles: [
             "0",
@@ -1142,43 +1184,43 @@
       acceptCookieUse() {
         localStorage.setItem("cookieUse", true);
       },
-      lastTabXVI: "",
-      coverTabXVIIsActive: localStorage.getItem("coverTabXVIIsActive"),
-      authorTabXVIIsActive: localStorage.getItem("authorTabXVIIsActive"),
-      dedTabXVIIsActive: localStorage.getItem("dedTabXVIIsActive"),
-      chapterTabXVIIsActive: localStorage.getItem("chapterTabXVIIsActive"),
+      lastTabXI: "",
+      coverTabXIIsActive: localStorage.getItem("coverTabXIIsActive"),
+      authorTabXIIsActive: localStorage.getItem("authorTabXIIsActive"),
+      dedTabXIIsActive: localStorage.getItem("dedTabXIIsActive"),
+      chapterTabXIIsActive: localStorage.getItem("chapterTabXIIsActive"),
       navLink: true,
-      setCoverXVIAsTab() {
-        this.lastTabXVI = "Cover";
-        localStorage.setItem("lastTabXVI", this.lastTabXVI);
-        localStorage.setItem("coverTabXVIIsActive", true);
-        localStorage.setItem("authorTabXVIIsActive", false);
-        localStorage.setItem("dedTabXVIIsActive", false);
-        localStorage.setItem("chapterTabXVIIsActive", false);
+      setCoverXIAsTab() {
+        this.lastTabXI = "Cover";
+        localStorage.setItem("lastTabXI", this.lastTabXI);
+        localStorage.setItem("coverTabXIIsActive", true);
+        localStorage.setItem("authorTabXIIsActive", false);
+        localStorage.setItem("dedTabXIIsActive", false);
+        localStorage.setItem("chapterTabXIIsActive", false);
       },
-      setAuthorXVIAsTab() {
-        this.lastTabXVI = "Author";
-        localStorage.setItem("lastTabXVI", this.lastTabXVI);
-        localStorage.setItem("coverTabXVIIsActive", false);
-        localStorage.setItem("authorTabXVIIsActive", true);
-        localStorage.setItem("dedTabXVIIsActive", false);
-        localStorage.setItem("chapterTabXVIIsActive", false);
+      setAuthorXIAsTab() {
+        this.lastTabXI = "Author";
+        localStorage.setItem("lastTabXI", this.lastTabXI);
+        localStorage.setItem("coverTabXIIsActive", false);
+        localStorage.setItem("authorTabXIIsActive", true);
+        localStorage.setItem("dedTabXIIsActive", false);
+        localStorage.setItem("chapterTabXIIsActive", false);
       },
-      setDedXVIAsTab() {
-        this.lastTabXVI = "Dedication";
-        localStorage.setItem("lastTabXVI", this.lastTabXVI);
-        localStorage.setItem("coverTabXVIIsActive", false);
-        localStorage.setItem("authorTabXVIIsActive", false);
-        localStorage.setItem("dedTabXVIIsActive", true);
-        localStorage.setItem("chapterTabXVIIsActive", false);
+      setDedXIAsTab() {
+        this.lastTabXI = "Dedication";
+        localStorage.setItem("lastTabXI", this.lastTabXI);
+        localStorage.setItem("coverTabXIIsActive", false);
+        localStorage.setItem("authorTabXIIsActive", false);
+        localStorage.setItem("dedTabXIIsActive", true);
+        localStorage.setItem("chapterTabXIIsActive", false);
       },
-      setChaptersXVIAsTab() {
-        this.lastTabXVI = "Chapters";
-        localStorage.setItem("lastTabXVI", this.lastTabXVI);
-        localStorage.setItem("coverTabXVIIsActive", false);
-        localStorage.setItem("authorTabXVIIsActive", false);
-        localStorage.setItem("dedTabXVIIsActive", false);
-        localStorage.setItem("chapterTabXVIIsActive", true);
+      setChaptersXIAsTab() {
+        this.lastTabXI = "Chapters";
+        localStorage.setItem("lastTabXI", this.lastTabXI);
+        localStorage.setItem("coverTabXIIsActive", false);
+        localStorage.setItem("authorTabXIIsActive", false);
+        localStorage.setItem("dedTabXIIsActive", false);
+        localStorage.setItem("chapterTabXIIsActive", true);
       },
       shareToFacebook() {
         this.generateStaticPoemURL();
@@ -1225,10 +1267,10 @@
         this.poemURL = queryToAppend;
       },
       changeTabToChapter() {
-        localStorage.setItem("coverTabXVIIsActive", false);
-        localStorage.setItem("authorTabXVIIsActive", false);
-        localStorage.setItem("dedTabXVIIsActive", false);
-        localStorage.setItem("chapterTabXVIIsActive", true);
+        localStorage.setItem("coverTabXIIsActive", false);
+        localStorage.setItem("authorTabXIIsActive", false);
+        localStorage.setItem("dedTabXIIsActive", false);
+        localStorage.setItem("chapterTabXIIsActive", true);
         document.getElementById("pills-integration-tab").click();
       },
       decodePoemURL() {
@@ -1239,14 +1281,14 @@
           var getPoemIdFromURL = bookmarkURL.get("id");
           if (bookmarkURL.has("typeIsPoem") && getPoemIdFromURL <= 38) {
             this.changeTabToChapter();
-            localStorage.setItem("viewXVI", "poetry");
+            localStorage.setItem("viewXI", "poetry");
             this.pageState = "poetry";
             this.URLPoemID = getPoemIdFromURL;
             this.currentChapter = this.URLPoemID;
-            localStorage.setItem("XVICurrentChapter", this.currentChapter);
+            localStorage.setItem("XICurrentChapter", this.currentChapter);
             this.goBackState = false;
           } else if (bookmarkURL.has("typeIsPoem") && getPoemIdFromURL > 38) {
-            localStorage.setItem("viewXVI", this.initialPageState.viewVI);
+            localStorage.setItem("viewXI", this.initialPageState.viewVI);
             window.location.href =
               window.location.origin + "/pages/not-found.html";
           } else {
