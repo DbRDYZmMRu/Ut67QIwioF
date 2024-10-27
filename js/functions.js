@@ -1315,10 +1315,89 @@ if (_lorder.length > 0) {
 
 		var _getFullYear = document.getElementById("getFullYear").innerHTML = new Date().getFullYear();
 
+		/* ------------------------------------------------------------------------
+
+const imageSources = [
+  {"src": "../images/ads/Crocs.gif", "link": "https://www.crocs.com/stories/come-as-you-are.html"},
+  {"src": "../images/ads/cocacola.gif", "link": "(link unavailable)"},
+  {"src": "../images/ads/Hilton.jpg", "link": "(link unavailable)"},
+  {"src": "../images/ads/818.gif", "link": "(link unavailable)"},
+  {"src": "../images/ads/Rhode.gif", "link": "(link unavailable)"}
+];
+
+let currentImageIndex = 0;
+
+function shuffleImages() {
+  try {
+    const adImage = document.getElementById("ad-image");
+    const imageLink = document.getElementById("image-link");
+
+    if (adImage && imageLink) {
+      adImage.src = imageSources[currentImageIndex].src;
+      imageLink.href = imageSources[currentImageIndex].link;
+
+      currentImageIndex = (currentImageIndex + 1) % imageSources.length;
+    } else {
+      console.error("Image or link element not found.");
+    }
+  } catch (error) {
+    console.error("Error shuffling images:", error);
+  }
+}
+
+// Change image every 8 seconds (adjust interval as needed)
+setInterval(shuffleImages, 8000);
+
+// Initialize with first image
+shuffleImages();
+
+		 * ------------------------------------------------------------------------ */
 
 
+const mediaSources = [
+  {"type": "image", "src": "../images/ads/Crocs.gif", "link": "https://www.crocs.com/stories/come-as-you-are.html"},
+  {"type": "image", "src": "../images/ads/818.gif", "link": "#"},
+  {"type": "image", "src": "../images/ads/Rhode.gif", "link": "https://www.rhodeskin.com"},
+  {"type": "image", "src": "../images/ads/Rhode1.gif", "link": "https://www.rhodeskin.com"},
+  {"type": "image", "src": "../images/ads/cocacola.gif", "link": "#"},
+];
 
+let currentMediaIndex = 0;
 
+function shuffleMedia() {
+  try {
+    const mediaContainer = document.getElementById("media-container");
+    const mediaLink = document.getElementById("media-link");
+
+    if (mediaContainer && mediaLink) {
+      const currentMedia = mediaSources[currentMediaIndex];
+
+      if (currentMedia.type === "image") {
+        mediaContainer.innerHTML = `<img src="${currentMedia.src}" alt="Ad" class="img-fluid mb-5">`;
+      } else if (currentMedia.type === "video") {
+        mediaContainer.innerHTML = `
+          <video autoplay loop poster="${currentMedia.poster}">
+            <source src="${currentMedia.src}" type="video/mp4" class="img-fluid mb-5">
+          </video>
+        `;
+      }
+
+      mediaLink.href = currentMedia.link;
+
+      currentMediaIndex = (currentMediaIndex + 1) % mediaSources.length;
+    } else {
+      console.error("Media container or link element not found.");
+    }
+  } catch (error) {
+    console.error("Error shuffling media:", error);
+  }
+}
+
+// Change media every 10 seconds (adjust interval as needed)
+setInterval(shuffleMedia, 10000);
+
+// Initialize with first media
+shuffleMedia();
 
 
 
