@@ -41,6 +41,35 @@
       display: none;
     }
   </style>
+  <style>
+.popup-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+}
+
+.image-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.image-container img {
+  width: 85vw; /* Increased width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  object-fit: contain; /* Ensure image fits within container */
+} 
+    
+  </style>
 </head>
 
 <body class="stokes-wrapper" id="ctrlArea" v-cloak>
@@ -486,6 +515,14 @@ End of poetry content ==========-->
   <!--========== 
         End of back to top section ==========-->
 
+<!-- Popup container -->
+<div class="popup-container" id="popup-container">
+
+  <!-- Image container -->
+  <div class="image-container">
+    <img  src="../images/ads/Personalday.gif" alt="Popup Image" />
+  </div>
+</div>
 
 
   <!--========== 
@@ -507,6 +544,53 @@ End of poetry content ==========-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/numbered/1.1.0/index.min.js" integrity="sha512-UQKbSOyUPIxk4a5/TIcqKUfl2JX0b1Rgq16BgvZbIWa7g5g3Rl/RXzFJFt2iu9LzDUpqDbcaak2ifjW887SxPw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!--===== Main theme script =====-->
   <script src="../js/functions.js"></script>
+  <script>
+$(document).ready(function() {
+  // Function to check if it's the first load in the hour
+  function isFirstLoadInHour() {
+    const currentTime = new Date().getTime();
+    const storedTime = localStorage.getItem('popupLoadTime');
+    
+    if (!storedTime || (currentTime - storedTime) >= 3600000) { // 3600000ms = 1 hour
+      localStorage.setItem('popupLoadTime', currentTime);
+      return true;
+    }
+    
+    return false;
+  }
+  
+  // Open popup on first load in the hour with 5-second delay
+  if (isFirstLoadInHour()) {
+    setTimeout(function() {
+      $('#popup-container').fadeIn();
+    }, 5000); // 5000ms = 5 seconds
+  }
+  
+  // Close popup on close button click, escape key press, or outside click
+  $('#close-btn').on('click', function() {
+    $('#popup-container').fadeOut();
+  });
+  
+  $(document).keyup(function(e) {
+    if (e.key === 'Escape') {
+      $('#popup-container').fadeOut();
+    }
+  });
+  
+  // Close popup when clicking outside the image
+  $('#popup-container').on('click', function(e) {
+    if ($(e.target).is('#popup-container') && !$(e.target).closest('.image-container').length) {
+      $(this).fadeOut();
+    }
+  });
+  
+ // Make image clickable
+  $('.image-container img').on('click', function() {
+    // Replace with your desired action
+    window.open('https://www.personalday.com/', '_blank');
+  });
+});
+  </script>
   <script>
     window.fbAsyncInit = function() {
       FB.init({
@@ -640,6 +724,18 @@ End of poetry content ==========-->
 <p> </p>
 <p>so it's to remember, <i>nothing over pens</i>. </p>`,
               date: "27th of October ",
+              },
+            {
+              id: 5,
+              title: "gooey wish",
+              content: `<p>She's just a princess</p>
+<p>how I ought to feel in this dress</p>
+<p>with diapers sewn in and fresh</p>
+<p>not soiled, prodding tumescent</p>
+<p>oh what a dead end I traipse to fend</p>
+<p>ingest how you'll find me in distress </p>
+<p>too small in a dress that should caress. </p>`,
+              date: "28th of October ",
               },
 
               
