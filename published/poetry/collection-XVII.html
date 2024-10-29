@@ -47,6 +47,35 @@
   <link rel="stylesheet" href="../../css/magnific-popup/magnific-popup.css" />
   <!--===== Main theme css =====-->
   <link rel="stylesheet" href="../../css/style.css" />
+  <style>
+.popup-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+}
+
+.image-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.image-container img {
+  width: 85vw; /* Increased width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  object-fit: contain; /* Ensure image fits within container */
+} 
+    
+  </style>
 
 </head>
 
@@ -403,7 +432,7 @@
               aria-labelledby="pills-trekking-tab">
               <div class="row">
                 <div class="col-lg-6">
-                  <img class="img-fluid" src="/images/collections/XVIIi/cover.jpg"
+                  <img class="img-fluid" src="/images/collections/xvii/cover.jpg"
                     alt="Frith Hilton Collection XVII" />
                     <hr class="my-5" />
                 </div>
@@ -492,11 +521,11 @@
               </div>
             </div>
           </div>
-                              <div class="mt-5 mb-5">
-          <a id="ad2" href="#ad2">
-            <img class="img-fluid" src="../../images/bg/bg5.jpg" alt="">
-          </a>
-          </div>
+                    <div class="mb-5">
+                      <a id="media-link" href="#" target="_blank">
+                        <div id="media-container"></div>
+                      </a>
+                    </div>
 
         </div>
       </div>
@@ -630,6 +659,18 @@
 
   <!--========== 
 	End of back to top section ==========-->
+	
+<!-- Popup container -->
+<div class="popup-container" id="popup-container">
+
+  <!-- Image container -->
+  <div class="image-container">
+    <img  src="../../images/ads/Harris.gif" alt="Popup Image" />
+  </div>
+</div>
+	
+	
+	
   <!--========== 
 	Start of Javascript ==========-->
 
@@ -650,7 +691,57 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/numbered/1.1.0/index.min.js"
     integrity="sha512-UQKbSOyUPIxk4a5/TIcqKUfl2JX0b1Rgq16BgvZbIWa7g5g3Rl/RXzFJFt2iu9LzDUpqDbcaak2ifjW887SxPw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../../js/ads.js"></script>  
   <script src="../../js/collection-XVII.js"></script>
+  <script>
+$(document).ready(function() {
+  // Function to check if it's the first load in the hour
+  function isFirstLoadInHour() {
+    const currentTime = new Date().getTime();
+    const storedTime = localStorage.getItem('popupLoadTime');
+    
+    if (!storedTime || (currentTime - storedTime) >= 600000) { // 600000ms = 10 minutes
+      localStorage.setItem('popupLoadTime', currentTime);
+      return true;
+    }
+    
+    return false;
+  }
+  
+  // Open popup on first load in the hour with 5-second delay
+  if (isFirstLoadInHour()) {
+    setTimeout(function() {
+      $('#popup-container').fadeIn();
+    }, 5000); // 5000ms = 5 seconds
+  }
+  
+  // Close popup on close button click, escape key press, or outside click
+  $('#close-btn').on('click', function() {
+    $('#popup-container').fadeOut();
+  });
+  
+  $(document).keyup(function(e) {
+    if (e.key === 'Escape') {
+      $('#popup-container').fadeOut();
+    }
+  });
+  
+  // Close popup when clicking outside the image
+  $('#popup-container').on('click', function(e) {
+    if ($(e.target).is('#popup-container') && !$(e.target).closest('.image-container').length) {
+      $(this).fadeOut();
+    }
+  });
+  
+ // Make image clickable
+  $('.image-container img').on('click', function() {
+    // Replace with your desired action
+    window.open('https://iwillvote.com/', '_blank');
+  });
+});
+  </script>
+    
+
   <script>
     window.fbAsyncInit = function () {
       FB.init({
@@ -734,11 +825,13 @@
       },
       pageResources() {
         return {
-          dedication: `<p class="text-center">To <strong style="color: #010521"> Their Royal Majesties <span class="fw-bold"> Queen Letizia and King Felipe of Spain.</span>  </strong></p>`,
-          acknowledgements: `<p>         I am deeply indebted to the enduring presence of authenticity in my life, a guiding force that has accompanied me since childhood. From an early age, I harboured an unwavering passion to craft words into meaningful expression. Today, as a poet, I am humbled by the understanding that my verses find resonance with those who resonate with the timber of my words.</p> <p>         To each reader who has taken the time to connect with my words, thank you. Your presence means the world to me. I promise to keep sharing my heart, hopes, and struggles through my poetry, and I look forward to continuing this journey together.</p> <p>         I'll meet you again in the pages of Frith Hilton Collection XVII. Until then, warm regards,</p> <p>         Your loyal poet.</p>`,
+          dedication: `<p class="text-center">To <strong style="color: #010521"> <span class="fw-bold"> Leonor, Princess of Asturias.</span>  </strong></p>`,
+          acknowledgements: `<p>         A big thank you to Leonor, Princess of Asturias for her drop-dead gorgeousness. Her good looks gorge my thoughts, and in fishing for a picture of her to use, I lost my breath for a split inimic second. Thank you for that!
+.</p> <p>         It's mighty awesome to be Frith these days! Thank you to Frith for doing the things he promised, and mostly, thank you to the people of Spain! Spanish-speaking people everywhere; you all make the language a friendly tune to the ears.</p> <p>         This is seventeen! It's everything and more, as it personally reminds me not to leave this station without objects and pieces where they should be; each where appropriate. 
+</p> <p>         Thank you to everyone who shows up every time I write new poetry on my website, you all make being a poet so special. Thank you for choosing me.</p>`,
           authorsNote: [
-            ` <img class="img-fluid" src="../../images/collections/xvi/01.jpg" alt="">
-            <p class="text-center mt-1">Their Royal Majesties <span class="fw-bold"> Queen Letizia and King Felipe of Spain.</span> </p>`,
+            ` <img class="img-fluid" src="../../images/collections/xvii/Leonor.jpg" alt="Leonor, Princess of Asturias. ">
+            <p class="text-center mt-1"> <span class="fw-bold"> Leonor, Princess of Asturias.</span> </p>`,
           ],
           chapterTitles: [
             "0",
