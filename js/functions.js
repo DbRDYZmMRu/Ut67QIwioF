@@ -1351,9 +1351,9 @@ setInterval(shuffleImages, 8000);
 // Initialize with first image
 shuffleImages();
 
-		 * ------------------------------------------------------------------------ */
 
 
+		 -------------------------------------------------------
 const mediaSources = [
   {"type": "image", "src": "../images/ads/Crocs.gif", "link": "https://www.crocs.com/stories/come-as-you-are.html"},
   {"type": "image", "src": "../images/ads/818.gif", "link": "#"},
@@ -1398,7 +1398,7 @@ setInterval(shuffleMedia, 10000);
 
 // Initialize with first media
 shuffleMedia();
-
+----------------- */
 
 
 
