@@ -13,37 +13,44 @@ const mediaSources = [
     type: "image",
     src: "/../images/ads/Crocs.gif",
     link: "https://www.crocs.com/stories/come-as-you-are.html",
-    duration: 5000 // 10 seconds
+    duration: 5000 // 5 seconds
   },
+  {
+    type: "image",
+    src: "/../images/ads/Celsius.gif",
+    link: "#",
+    duration: 10000 // 10 seconds
+  },
+  
   {
     type: "image",
     src: "/../images/ads/Harris.gif",
     link: "#",
-    duration: 20000 // 10 seconds
+    duration: 20000 // 20 seconds
   },  
   {
     type: "image",
     src: "/../images/ads/818.gif",
     link: "#",
-    duration: 9000 // 15 seconds
+    duration: 9000 // 9 seconds
   }, 
   {
     type: "image",
     src: "/../images/ads/Rhode.gif",
     link: "https://www.rhodeskin.com",
-    duration: 7500 // 10 seconds
+    duration: 7500 // 7.5 seconds
   },
   {
     type: "image",
     src: "/../images/ads/Rhode1.gif",
     link: "https://www.rhodeskin.com",
-    duration: 12000 // 10 seconds
+    duration: 12000 // 12 seconds
   },
   {
     type: "image",
     src: "/../images/ads/cocacola.gif",
     link: "#",
-    duration: 5000 // 10 seconds
+    duration: 5000 // 5 seconds
   },
   {
     type: "image",
