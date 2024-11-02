@@ -553,7 +553,7 @@ $(document).ready(function() {
     const currentTime = new Date().getTime();
     const storedTime = localStorage.getItem('popupLoadTime');
     
-    if (!storedTime || (currentTime - storedTime) >= 300000) { // 300000ms = 5 minutes 
+    if (!storedTime || (currentTime - storedTime) >= 0) { // 0ms = 0 seconds 
       localStorage.setItem('popupLoadTime', currentTime);
       return true;
     }
