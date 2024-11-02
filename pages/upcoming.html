@@ -520,7 +520,7 @@ End of poetry content ==========-->
 
   <!-- Image container -->
   <div class="image-container">
-    <img  src="../images/ads/Personalday.gif" alt="Popup Image" />
+    <img  src="../images/ads/Harris.gif" alt="Popup Image" />
   </div>
 </div>
 
@@ -553,7 +553,7 @@ $(document).ready(function() {
     const currentTime = new Date().getTime();
     const storedTime = localStorage.getItem('popupLoadTime');
     
-    if (!storedTime || (currentTime - storedTime) >= 3600000) { // 3600000ms = 1 hour
+    if (!storedTime || (currentTime - storedTime) >= 300000) { // 300000ms = 5 minutes 
       localStorage.setItem('popupLoadTime', currentTime);
       return true;
     }
@@ -589,7 +589,7 @@ $(document).ready(function() {
  // Make image clickable
   $('.image-container img').on('click', function() {
     // Replace with your desired action
-    window.open('https://www.personalday.com/', '_blank');
+    window.open('#');
   });
 });
   </script>
@@ -751,6 +751,25 @@ $(document).ready(function() {
 <p> </p>
 <p>a seat line of only true wards. </p> `,
               date: "31st of October ",
+              },
+            {
+              id: 7,
+              title: "wise deposits",
+              content: `<p>Swift in mentions </p>
+<p>like cookies in dentures </p>
+<p>as the sweetest mentors </p>
+<p>whose roots paint the picture</p>
+<p> </p>
+<p>a remaining retort </p>
+<p>at the tail of a torque </p>
+<p>a fading malaise frock</p>
+<p>a table of glutton schlurps</p>
+<p> </p>
+<p>when it's a newborn</p>
+<p>the walls murmur in turns </p>
+<p>the roof is summary, adjusts </p>
+<p>your eyes; lucky — high landlords. </p>`,
+              date: "2nd of November",
               },
 
               
