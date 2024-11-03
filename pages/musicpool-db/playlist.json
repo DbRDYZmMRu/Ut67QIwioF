@@ -1,17 +1,18 @@
 {
     "songs":[
       {
+        "albumart": "musicpool-db/covers/fartherMemes/25.jpg",
+        "author": "Frith Hilton",
+        "song": "Keyhole",
+        "json": "../pages/musicpool-db/lyrics/fartherMemes/25.json",
+        "audio": "../pages/musicpool-db/mp3/fartherMemes/25.mp3"
+      },      
+      {
         "albumart": "musicpool-db/covers/fartherMemes/24.jpg",
         "author": "Frith Hilton",
         "song": "Lens",
         "json":"../pages/musicpool-db/lyrics/fartherMemes/24.json",
         "audio":"../pages/musicpool-db/mp3/fartherMemes/24.mp3"
-      }, 
-      {
-        "albumart": "musicpool-db/covers/fartherMemes/23.jpg",
-        "author": "Frith Hilton",
-        "song": "Greener",
-        "json":"../pages/musicpool-db/lyrics/fartherMemes/23.json",
-        "audio":"../pages/musicpool-db/mp3/fartherMemes/23.mp3"
-      }    ]
+      }
+    ]
   }
