@@ -21,14 +21,7 @@ const mediaSources = [
     link: "#",
     duration: 10000 // 10 seconds
   },
-  
-  {
-    type: "image",
-    src: "/../images/ads/Harris.gif",
-    link: "#",
-    duration: 20000 // 20 seconds
-  },  
-  {
+    {
     type: "image",
     src: "/../images/ads/818.gif",
     link: "#",
