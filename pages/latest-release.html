@@ -21,6 +21,35 @@
         <link rel="stylesheet" href="../css/playerStyle.css" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+.popup-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+}
+
+.image-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.image-container img {
+  width: 85vw; /* Increased width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  object-fit: contain; /* Ensure image fits within container */
+} 
+    
+  </style>
     </head>
 
     <body>
@@ -85,5 +114,52 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="../js/playerScript.js"></script>
+  <script>
+$(document).ready(function() {
+  // Function to check if it's the first load in the hour
+  function isFirstLoadInHour() {
+    const currentTime = new Date().getTime();
+    const storedTime = localStorage.getItem('popupLoadTime');
+    
+    if (!storedTime || (currentTime - storedTime) >= 0) { // 0ms = 0 seconds 
+      localStorage.setItem('popupLoadTime', currentTime);
+      return true;
+    }
+    
+    return false;
+  }
+  
+  // Open popup on first load in the hour with 5-second delay
+  if (isFirstLoadInHour()) {
+    setTimeout(function() {
+      $('#popup-container').fadeIn();
+    }, 5000); // 5000ms = 5 seconds
+  }
+  
+  // Close popup on close button click, escape key press, or outside click
+  $('#close-btn').on('click', function() {
+    $('#popup-container').fadeOut();
+  });
+  
+  $(document).keyup(function(e) {
+    if (e.key === 'Escape') {
+      $('#popup-container').fadeOut();
+    }
+  });
+  
+  // Close popup when clicking outside the image
+  $('#popup-container').on('click', function(e) {
+    if ($(e.target).is('#popup-container') && !$(e.target).closest('.image-container').length) {
+      $(this).fadeOut();
+    }
+  });
+  
+ // Make image clickable
+  $('.image-container img').on('click', function() {
+    // Replace with your desired action
+    window.open('https://orebella.com/');
+  });
+});
+  </script>
     </body>
 </html>
