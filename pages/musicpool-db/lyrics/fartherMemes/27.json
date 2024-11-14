@@ -1,5 +1,10 @@
-
-[
+{
+  "title": "Bright-eyed",
+  "artist": "Frith Hilton",
+  "album": "Farther memes",
+  "version": "24.9.18",
+  "length": "02:25.59",
+  "lyrics": [ 
   {"line": "[Intro]", "time": 182},
   {"line": "Fresh Boy Chilling", "time": 3170},
   {"line": "The remification of things I ponder is", "time": 6920},
@@ -32,3 +37,4 @@
   {"line": "For being a bad ass man", "time": 68060},
   {"line": "With an addict cut in fame", "time": 71076}
 ]
+} 
