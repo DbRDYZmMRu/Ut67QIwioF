@@ -125,23 +125,23 @@
   <script>
 $(document).ready(function() {
   // Function to check if it's the first load in the hour
-  function isFirstLoadInHour() {
+  function isFirstLoad() {
     const currentTime = new Date().getTime();
-    const storedTime = localStorage.getItem('popupLoadTime');
+    const storedTime = localStorage.getItem('playerPopupLoadTime');
     
     if (!storedTime || (currentTime - storedTime) >= 0) { // 0ms = 0 seconds 
-      localStorage.setItem('popupLoadTime', currentTime);
+      localStorage.setItem('playerPopupLoadTime', currentTime);
       return true;
     }
     
     return false;
   }
   
-  // Open popup on first load in the hour with 5-second delay
-  if (isFirstLoadInHour()) {
+  // Open popup on first load in the hour with 1-second delay
+  if (isFirstLoad()) {
     setTimeout(function() {
       $('#popup-container').fadeIn();
-    }, 5000); // 5000ms = 5 seconds
+    }, 1000); // 1000ms = 1 seconds
   }
   
   // Close popup on close button click, escape key press, or outside click
