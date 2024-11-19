@@ -1,7 +1,7 @@
 {
     "songs":[
       {
-        "albumart": "musicpool-db/covers/fartherMemes/28.jpg",
+        "albumart": "musicpool-db/covers/fartherMemes/28.jpg?v=1.0",
         "author": "Frith Hilton",
         "song": "Feel good",
         "json": "../pages/musicpool-db/lyrics/fartherMemes/28.json",
