@@ -295,8 +295,8 @@ $(document).ready(function () {
                 audio.currentTime = parseInt(time / 1000);
             });
 
-            $(document).one("mouseup touchend", function () {
-                $(document).off("mousemove touchmove");
+            $(document).one("touchend", function () {
+                $(document).off("touchmove");
             });
         });
 
