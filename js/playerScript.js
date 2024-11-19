@@ -273,16 +273,14 @@ $(document).ready(function () {
 
             var progressBarOffset = $("#progress-bar").offset().left;
 
-            $(document).on("mousemove touchmove", function (event) {
+            $(document).on("touchmove", function (event) {
                 var clickPosition;
 
                 // Calculate touch position
 
                 if (event.type === "touchmove") {
                     clickPosition = event.touches[0].clientX - progressBarOffset;
-                } else {
-                    clickPosition = event.clientX - progressBarOffset;
-                }
+                } else 
 
                 var percent = (clickPosition / progressBarWidth) * 100;
 
