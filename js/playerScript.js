@@ -248,57 +248,66 @@ $(document).ready(function () {
             $("#progress").css("width", percent + "%");
         }
 
-        $("#progress-bar").on("mousedown", function () {
-            $("#progress-bar").on("mousemove", function handler(event) {
-                event.preventDefault;
 
-                if (event.offsetY > 5 || event.offsetY < 1) return;
+$("#progress-bar, #progressButton").on("mousedown touchstart", function (event) {
+  event.preventDefault();
+  var progressBarWidth = $("#progress-bar").width();
+  var progressBarOffset = $("#progress-bar").offset().left;
 
-                var width = $("#progress-bar").css("width");
+  $(document).on("mousemove touchmove", function (event) {
+    var clickPosition;
 
-                var percent = (parseInt(event.offsetX) / parseInt(width)) * 100;
+    // Calculate touch position
+    if (event.type === "touchmove") {
+      clickPosition = event.touches[0].clientX - progressBarOffset;
+    } else {
+      clickPosition = event.clientX - progressBarOffset;
+    }
 
-                $("#progress").css("width", percent + "%");
+    var percent = (clickPosition / progressBarWidth) * 100;
+    if (percent < 0) percent = 0;
+    if (percent > 100) percent = 100;
 
-                time = parseInt(totalTime * (percent / 100));
+    $("#progress").css("width", percent + "%");
+    time = parseInt(totalTime * (percent / 100));
+    audio.currentTime = parseInt(time / 1000);
+  });
 
-                audio.currentTime = parseInt(time / 1000);
-            });
-        });
+  $(document).one("mouseup touchend", function () {
+    $(document).off("mousemove touchmove");
+  });
+});
 
-        $("#progressButton").on("mousedown touchstart", function (event) {
-            event.preventDefault();
+// Additional event listener for click/touch on progress bar
+$("#progress-bar").on("click touchend", function (event) {
+  var progressBarWidth = $("#progress-bar").width();
+  var clickPosition;
 
-            var progressBarWidth = $("#progress-bar").width();
+  // Calculate touch position
+  if (event.type === "touchend") {
+    clickPosition = event.changedTouches[0].clientX - $(this).offset().left;
+  } else {
+    clickPosition = event.clientX - $(this).offset().left;
+  }
 
-            var progressBarOffset = $("#progress-bar").offset().left;
+  var percent = (clickPosition / progressBarWidth) * 100;
+  
+  if (percent < 0) percent = 0;
+  if (percent > 100) percent = 100;
+  
+  $("#progress").css("width", percent + "%");
+  time = parseInt(totalTime * (percent / 100));
+  audio.currentTime = parseInt(time / 1000);
+});
+ 
 
-            $(document).on("touchmove", function (event) {
-                var clickPosition;
 
-                // Calculate touch position
 
-                if (event.type === "touchmove") {
-                    clickPosition = event.touches[0].clientX - progressBarOffset;
-                } else 
 
-                var percent = (clickPosition / progressBarWidth) * 100;
 
-                if (percent < 0) percent = 0;
 
-                if (percent > 100) percent = 100;
 
-                $("#progress").css("width", percent + "%");
 
-                time = parseInt(totalTime * (percent / 100));
-
-                audio.currentTime = parseInt(time / 1000);
-            });
-
-            $(document).one("touchend", function () {
-                $(document).off("touchmove");
-            });
-        });
 
         function rewind5s() {
             if (time > 5000) time = time - 5000;
