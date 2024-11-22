@@ -1,18 +1,18 @@
 {
     "songs":[
       {
-        "albumart": "musicpool-db/covers/fartherMemes/28.jpg?v=1.0",
+        "albumart": "musicpool-db/covers/fartherMemes/29.jpg",
+        "author": "Frith Hilton",
+        "song": "Adios",
+        "json":"../pages/musicpool-db/lyrics/fartherMemes/29.json",
+        "audio":"../pages/musicpool-db/mp3/fartherMemes/29.mp3"
+      }, 
+      {
+        "albumart": "musicpool-db/covers/fartherMemes/28.jpg",
         "author": "Frith Hilton",
         "song": "Feel good",
         "json": "../pages/musicpool-db/lyrics/fartherMemes/28.json",
         "audio": "../pages/musicpool-db/mp3/fartherMemes/28.mp3"
-      },     
-      {
-        "albumart": "musicpool-db/covers/fartherMemes/27.jpg",
-        "author": "Frith Hilton",
-        "song": "Cut in fame",
-        "json":"../pages/musicpool-db/lyrics/fartherMemes/27.json",
-        "audio":"../pages/musicpool-db/mp3/fartherMemes/27.mp3"
-      }
+      }     
     ]
   }
