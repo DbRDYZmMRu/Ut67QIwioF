@@ -662,8 +662,17 @@
 <div class="popup-container" id="popup-container">
 
   <!-- Image container -->
-  <div class="image-container">
+  <div id="image-container" class="image-container">
     <img  src="../../images/ads/xokhloei.gif" alt="Popup Image" />
+  </div>
+</div>
+
+<!-- Popup container -->
+<div class="popup-container" id="popup-container-ii">
+
+  <!-- Image container -->
+  <div id="image-container-ii" class="image-container">
+    <img  src="../../images/ads/Orebella.gif" alt="Popup Image ii" />
   </div>
 </div>
 	
@@ -731,11 +740,24 @@ $(document).ready(function() {
     }
   });
   
+    $('#popup-container-ii').on('click', function(e) {
+    if ($(e.target).is('#popup-container-ii') && !$(e.target).closest('.image-container').length) {
+      $(this).fadeOut();
+    }
+  });
+
+  
  // Make image clickable
-  $('.image-container img').on('click', function() {
+  $('#image-container').on('click', function() {
     // Replace with your desired action
     window.open('https://www.ulta.com/p/xo-khloe-pimprod2049077?sku=2632566&fbclid=PAZXh0bgNhZW0CMTEAAaZVXM4Lkj92LaOM2GEyeMxVRAlahdOYqvDPGzl8R2-Jsf758_E9PY8hyC8_aem__mk4AnSGz28b8amcS9xKDg', '_blank');
   });
+
+  $('#image-container-ii').on('click', function() {
+    // Replace with your desired action
+    window.open('https://orebella.com', '_blank');
+  });  
+  
 });
   </script>
     
@@ -818,7 +840,7 @@ $(document).ready(function() {
         this.chapterClickNo ++;
         console.log(this.chapterClickNo);
         if (this.chapterClickNo == 3) {
-          $('#popup-container').fadeIn();
+          $('#popup-container-ii').fadeIn();
           this.chapterClickNo = 0;
         }
         
