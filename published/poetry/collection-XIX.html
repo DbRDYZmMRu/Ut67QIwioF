@@ -767,6 +767,7 @@ $(document).ready(function() {
       CopyURLText: "Copy URL",
       currentChapter: 0,
       goBackState: false,
+      chapterClickNo: 0,
       getCurrentChapter() {
         if (localStorage.getItem("XIXCurrentChapter")) {
           this.currentChapter = localStorage.getItem("XIXCurrentChapter");
@@ -814,6 +815,13 @@ $(document).ready(function() {
         (this.pageState = localStorage.getItem("viewXIX")),
         (this.currentChapter = index);
         localStorage.setItem("XIXCurrentChapter", this.currentChapter);
+        this.chapterClickNo ++;
+        console.log(this.chapterClickNo);
+        if (this.chapterClickNo == 3) {
+          $('#popup-container').fadeIn();
+          this.chapterClickNo = 0;
+        }
+        
       },
       goBack() {
         this.goBackState = true;
