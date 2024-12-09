@@ -73,7 +73,7 @@ const mediaSources = [
 
       if (elapsedTime >= mediaSources[currentMediaIndex].duration) {
         currentMediaIndex = (currentMediaIndex + 1) % mediaSources.length;
-        startTime = currentTime;
+        startTime = new Date().getTime();
         updateMedia();
       }
 
