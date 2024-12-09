@@ -11,84 +11,75 @@
 const mediaSources = [
   {
     
-    src: "/../images/ads/Crocs.gif",
-    link: "https://www.crocs.com/stories/come-as-you-are.html",
+    src: '/../images/ads/Crocs.gif',
+    link: 'https://www.crocs.com/stories/come-as-you-are.html',
     duration: 5000 // 5 seconds
   },
   {
     
-    src: "/../images/ads/Celsius.gif",
-    link: "#",
+    src: '/../images/ads/Celsius.gif',
+    link: '#',
     duration: 10000 // 10 seconds
   },
     {
     
-    src: "/../images/ads/818.gif",
-    link: "#",
+    src: '/../images/ads/818.gif',
+    link: '#',
     duration: 9000 // 9 seconds
   }, 
   {
     
-    src: "/../images/ads/Rhode.gif",
-    link: "https://www.rhodeskin.com",
+    src: '/../images/ads/Rhode.gif',
+    link: 'https://www.rhodeskin.com',
     duration: 7500 // 7.5 seconds
   },
   {
     
-    src: "/../images/ads/Rhode1.gif",
-    link: "https://www.rhodeskin.com",
+    src: '/../images/ads/Rhode1.gif',
+    link: 'https://www.rhodeskin.com',
     duration: 12000 // 12 seconds
   },
   {
     
-    src: "/../images/ads/cocacola.gif",
-    link: "#",
+    src: '/../images/ads/cocacola.gif',
+    link: '#',
     duration: 5000 // 5 seconds
   },
   {
     
-    src: "/../images/ads/Personalday.gif",
-    link: "https://www.personalday.com/",
+    src: '/../images/ads/Personalday.gif',
+    link: 'https://www.personalday.com/',
     duration: 10000 // 10 seconds
   } 
 ];
 
 
-// Initialize the current image index
-var currentIndex = 0;
+    const mediaContainer = $("#media-container");
+    const mediaLink = $("#media-link");
 
-// Initialize the start time of the current image
-var startTime = new Date().getTime();
+    let currentMediaIndex = 0;
+    let timeoutId;
 
-// Function to switch images
-function switchImage() {
-  // Get the current time
-  var currentTime = new Date().getTime();
+    function updateMedia() {
+      const currentMedia = mediaSources[currentMediaIndex];
 
-  // Check if the current image's duration has passed
-  if (currentTime - startTime >= mediaSources[currentIndex].duration) {
-    // Increment the current index
-    currentIndex = (currentIndex + 1) % mediaSources.length;
+      mediaContainer.html(`<img src="${currentMedia.src}" alt="Ad" width="100%" height="100%">`);
+      mediaLink.attr("href", currentMedia.link);
+    }
 
-    // Update the start time
-    startTime = currentTime;
-  }
+    function switchMedia() {
+      clearTimeout(timeoutId);
+      currentMediaIndex = (currentMediaIndex + 1) % mediaSources.length;
+      updateMedia();
+      timeoutId = setTimeout(switchMedia, mediaSources[currentMediaIndex].duration);
+    }
 
-  // Update the image and link
-  $('#media-container').css('background-image', 'url(' + mediaSources[currentIndex].src + ')');
-  $('#media-link').attr('href', mediaSources[currentIndex].link);
-
-  // Request the next animation frame
-  requestAnimationFrame(switchImage);
-}
-
-// Start the image switching
-switchImage();
-
-      
-      
+    updateMedia();
+    timeoutId = setTimeout(switchMedia, mediaSources[currentMediaIndex].duration);
+  
       
       
       
     }); /* end of on load */
 })(jQuery); // End of use strict
+        
