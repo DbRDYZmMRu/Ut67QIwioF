@@ -58,7 +58,7 @@ const mediaSources = [
     const mediaLink = $("#media-link");
 
     let currentMediaIndex = 0;
-    let timeoutId;
+    let startTime = new Date().getTime();
 
     function updateMedia() {
       const currentMedia = mediaSources[currentMediaIndex];
@@ -67,15 +67,21 @@ const mediaSources = [
       mediaLink.attr("href", currentMedia.link);
     }
 
-    function switchMedia() {
-      clearTimeout(timeoutId);
-      currentMediaIndex = (currentMediaIndex + 1) % mediaSources.length;
-      updateMedia();
-      timeoutId = setTimeout(switchMedia, mediaSources[currentMediaIndex].duration);
+    function checkDuration() {
+      const currentTime = new Date().getTime();
+      const elapsedTime = currentTime - startTime;
+
+      if (elapsedTime >= mediaSources[currentMediaIndex].duration) {
+        currentMediaIndex = (currentMediaIndex + 1) % mediaSources.length;
+        startTime = currentTime;
+        updateMedia();
+      }
+
+      requestAnimationFrame(checkDuration);
     }
 
     updateMedia();
-    timeoutId = setTimeout(switchMedia, mediaSources[currentMediaIndex].duration);
+    checkDuration();
   
       
       
