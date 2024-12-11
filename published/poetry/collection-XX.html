@@ -676,6 +676,29 @@
   </div>
 </div>
 	
+<div class="popup-container" id="popup-container-iii">
+
+  <!-- Image container -->
+  <div id="image-container-iii" class="image-container">
+    <img  src="../../images/ads/wildflower.gif" alt="Popup Image iii" />
+  </div>
+</div>
+
+<div class="popup-container" id="popup-container-iv">
+
+  <!-- Image container -->
+  <div id="image-container-iv" class="image-container">
+    <img  src="../../images/ads/cosmic.gif" alt="Popup Image iv" />
+  </div>
+</div>
+
+<div class="popup-container" id="popup-container-v">
+
+  <!-- Image container -->
+  <div id="image-container-v" class="image-container">
+    <img  src="../../images/ads/khy.gif" alt="Popup Image v" />
+  </div>
+</div>
 	
 	
   <!--========== 
@@ -746,6 +769,32 @@ $(document).ready(function() {
     }
   });
 
+    $('#popup-container-iii').on('click', function(e) {
+    if ($(e.target).is('#popup-container-iii') && !$(e.target).closest('.image-container').length) {
+      $(this).fadeOut();
+    }
+  });
+
+    $('#popup-container-iv').on('click', function(e) {
+    if ($(e.target).is('#popup-container-iv') && !$(e.target).closest('.image-container').length) {
+      $(this).fadeOut();
+    }
+  });
+
+    $('#popup-container-v').on('click', function(e) {
+    if ($(e.target).is('#popup-container-v') && !$(e.target).closest('.image-container').length) {
+      $(this).fadeOut();
+    }
+  });
+
+
+
+
+
+
+
+
+
   
  // Make image clickable
   $('#image-container').on('click', function() {
@@ -757,6 +806,28 @@ $(document).ready(function() {
     // Replace with your desired action
     window.open('https://orebella.com', '_blank');
   });  
+  
+  $('#image-container-iii').on('click', function() {
+    // Replace with your desired action
+    window.open('https://www.wildflowercases.com/en-ad', '_blank');
+  });  
+
+  $('#image-container-iv').on('click', function() {
+    // Replace with your desired action
+    window.open('https://www.ulta.com/p/cosmic-kylie-jenner-eau-de-parfum-pimprod2044205', '_blank');
+  });  
+
+  $('#image-container-v').on('click', function() {
+    // Replace with your desired action
+    window.open('https://www.khy.com/', '_blank');
+  });  
+  
+  
+  
+  
+  
+  
+  
   
 });
   </script>
@@ -841,7 +912,15 @@ $(document).ready(function() {
         console.log(this.chapterClickNo);
         if (this.chapterClickNo == 3) {
           $('#popup-container-ii').fadeIn();
-          this.chapterClickNo = 0;
+        }
+        if (this.chapterClickNo == 6) {
+          $('#popup-container-iii').fadeIn();
+        }
+        if (this.chapterClickNo == 9) {
+          $('#popup-container-iv').fadeIn();
+        }
+        if (this.chapterClickNo == 12) {
+          $('#popup-container-v').fadeIn();
         }
         
       },
