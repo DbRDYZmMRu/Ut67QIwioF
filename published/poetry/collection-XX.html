@@ -699,6 +699,17 @@
     <img  src="../../images/ads/khy.gif" alt="Popup Image v" />
   </div>
 </div>
+
+<div class="popup-container" id="popup-container-vi">
+
+  <!-- Image container -->
+  <div id="image-container-vi" class="image-container">
+    <img  src="../../images/ads/Personalday.gif" alt="Popup Image vi" />
+  </div>
+</div>
+
+
+
 	
 	
   <!--========== 
@@ -787,6 +798,12 @@ $(document).ready(function() {
     }
   });
 
+    $('#popup-container-vi').on('click', function(e) {
+    if ($(e.target).is('#popup-container-vi') && !$(e.target).closest('.image-container').length) {
+      $(this).fadeOut();
+    }
+  });
+
 
 
 
@@ -820,6 +837,10 @@ $(document).ready(function() {
   $('#image-container-v').on('click', function() {
     // Replace with your desired action
     window.open('https://www.khy.com/', '_blank');
+  });  
+  $('#image-container-vi').on('click', function() {
+    // Replace with your desired action
+    window.open('https://www.personalday.com/', '_blank');
   });  
   
   
@@ -910,18 +931,30 @@ $(document).ready(function() {
         localStorage.setItem("XXCurrentChapter", this.currentChapter);
         this.chapterClickNo ++;
         console.log(this.chapterClickNo);
-        if (this.chapterClickNo == 3) {
+        if (this.chapterClickNo == 2) {
           $('#popup-container-ii').fadeIn();
         }
-        if (this.chapterClickNo == 6) {
+        if (this.chapterClickNo == 4) {
           $('#popup-container-iii').fadeIn();
         }
-        if (this.chapterClickNo == 9) {
+        if (this.chapterClickNo == 6) {
           $('#popup-container-iv').fadeIn();
+        }
+        if (this.chapterClickNo == 8) {
+          $('#popup-container-v').fadeIn();
+        }
+        if (this.chapterClickNo == 10) {
+          $('#popup-container').fadeIn();
         }
         if (this.chapterClickNo == 12) {
           $('#popup-container-v').fadeIn();
+          this.chapterClickNo = 0;
         }
+
+
+
+
+
         
       },
       goBack() {
