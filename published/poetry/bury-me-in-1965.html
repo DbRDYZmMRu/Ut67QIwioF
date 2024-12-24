@@ -429,8 +429,7 @@
               aria-labelledby="pills-trekking-tab">
               <div class="row">
                 <div class="col-lg-6">
-                  <img class="img-fluid" src="/images/collections/1965/cover.jpg"
-                    alt="Frith Hilton's Bury me in 1965" />
+                  <img alt="Frith Hilton's Bury me in 1965" class="img-fluid lazy" src="../../images/loading.gif"  data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/coverDesign.jpg">
                     <hr class="my-5" />
                 </div>
               </div>
@@ -470,16 +469,17 @@
                         'chapters'" @click="store.setPageState(index)" :id="index">
                       
                       <div v-if="index !== 0 && store.getPageState() == 'chapters' && [1, 5, 7, 11].includes(index)">
-                        <h2>Chapter {{store.pageResources().convertIndex(index)}} </h2>
+                        <h1 v-if="index == 1" class="col-12 mb-5 mt-5 text-center text-nightswan-gradient fw-bold addSomePadding ">Part One</h1>
+                        <h1 v-if="index == 5" class="col-12 mb-5 mt-5 text-center text-nightswan-gradient fw-bold addSomePadding ">Part Two</h1>
+                        <h1 v-if="index == 7" class="col-12 mb-5 mt-5 text-center text-nightswan-gradient fw-bold addSomePadding ">Part Three</h1>
+                        <h1 v-if="index == 11" class="col-12 mb-5 mt-5 text-center text-nightswan-gradient fw-bold addSomePadding ">Photo Albums</h1>
+                        
                       </div>
                       <!--===== Start of Title =====-->
                       <div class="mb-5 text-center">
-                        <h2 class="col-4">
-                          <span class="hedding-svg">{{store.pageResources().convertIndex(index)}}</span>
-                        </h2>
                         <button class="btn btn-naked btn-icon-right" href="#!" v-effect="if (store.currentChapter ==
                             index ) $el.focus()"></button>
-                        <h5 class="mt-3">{{title}}</h5>
+                        <h3 class="mt-3"><span class="hedding-svg-i">{{title}}</span></h3>
                         <span v-show="store.currentChapter == index" class="title-separator"></span>
                       </div>
 
@@ -985,16 +985,14 @@ initialPageState: {
       },
       pageResources() {
         return {
-          dedication: `<p class="text-center">To <strong style="color: #010521"> <span class="fw-bold"> Taylor Swift</span>  </strong></p>`,
-          acknowledgements: `<p>         The Frith Hilton Collection has come to a close, and it's ended not with a bang, but a whimper – a paltry sum of five. I've traversed a vast landscape, from a hundred and seventeen to a mere five. For those who've been along for the ride, it's been a journey from "Goodnight Irene" to "I Hate It Here." If you're new here, welcome! You've joined me on a path that began with "Favourite Cardigan" and concluded with "I Hate It Here." A total of six hundred and fourteen. Along the way, I passed milestone eighty-seven, aptly titled "Taylor Swift" – a curious coincidence, given that eighty-seven is also the jersey number of Taylor's current boyfriend, a tight end for the Kansas City Chiefs. On a personal note, I'd like to extend my gratitude to Taylor's parents, Scott and Andrea Swift. Thank you for being amazing parents!</p>
+          dedication: `<p class="text-center">For <strong style="color: #010521"> <span class="fw-bold"> both my mums</span>  </strong></p> <p class="text-center"> <strong style="color: #010521"> <span class="fw-bold">Kathy Hilton</span></strong></p> <p class="text-center">and</p> <p class="text-center"><strong style="color: #010521"> <span class="fw-bold">Queen Letizia of Spain</span></strong></p>`,
+          acknowledgements: `<p>         Thank you to everyone who was a part of this, we are like a big mob giving our voice for a coherent whole. This project is the result of our collective impressions. The independent soul of the internet, the heartbeat of Western values, its artists, musicians, architects, the scientists.</p>
 
-<p>Thank you to the folks on the internet that make life believable… every day, Elon Musk's X takes the earth and leaves it plugged in—and when I'm up for over twenty-four hours, it's astonishing how so many people can harmoniously make life's noise—the living; and in doing so, levelling the chaos of the off-road ruts.</p>
-<p>Thank you to the readers, I mean all of the doctors and professors too. I love you guys, you're like candy, visiting my tiny website. I'm forever slavish for your opinions.</p>
-<p>And now, without further ado, welcome to the next chapter. Call me Dr. Carl Hill. My first poetry piece is titled "Smerd." We'll meet again in the new collection.</p>
-<p>Cheers!</p>`,
+<p>Thank you to the royal houses of Europe, Asia and Middle East, famous politicians, actors and musicians, Neil De Grasse Tyson, Logan Paul, Kris Jenner, Jimmy Fallon, Kourtney Kardashian, Ariana Grande, and my mum and dad.</p>
+<p>I'm also immensely grateful, and apologize to everyone who has been of tremendous help but isn't mentioned in this book, I owe a lot to every one of you, thank you.</p>`,
           authorsNote: [
-            ` <img class="img-fluid" src="../../images/collections/1965/Taylor.jpg" alt="Taylor Swift.">
-            <p class="text-center mt-1"> <span class="fw-bold"> Taylor Swift.</span> </p>`,
+            ` <img alt="Image" class="img-fluid lazy mb-3" src="../../images/loading.gif"  data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/author%20note.jpg">
+            <p class="text-center mt-1"> <span class="fw-bold"><i>I love you all immensely.</i></span> </p>`,
           ],
           chapterTitles: [
             "0",
@@ -1008,8 +1006,8 @@ initialPageState: {
 "Diarrhoea", 
 "Death race for love", 
 "Transformer", 
-"i", 
-"ii", 
+"first", 
+"second", 
 ],
           chapters: [
             `0`,
@@ -1191,7 +1189,7 @@ initialPageState: {
 <p>I was suffering a relapse and thought of the worst</p>
 <p>he was a mechanic just arriving from his workshop?</p>
 <p>for he’d slept out and a retired officer in customs.</p>
-<img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/Family%20Picture.jpg" class="img-fluid">
+<img alt="Image" class="img-fluid lazy mb-3" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/Family%20Picture.jpg" class="img-fluid">
 <p>It is one of the times he has teased my depressions</p>
 <p>there is a favourite, it helped my relapse intention</p>
 <p>it’s a picture of him in a blue cardigan with nap fuzz</p>
@@ -1214,7 +1212,7 @@ initialPageState: {
 <p>in oversized jeans, the picture still is an eyesore</p>
 <p>but my dad has helped me forge ahead, beyond</p>
 <p>there wasn’t hope, only desertion in the capture.</p>
-<img alt="Image" class="img-fluid lazy" src="../../images/loading.gif"  data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/Belt%20Image.jpg" class="img-fluid">
+<img alt="Image" class="img-fluid lazy mb-3" src="../../images/loading.gif"  data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/Belt%20Image.jpg" class="img-fluid">
 <p>For me it was the worst picture in the world</p>
 <p>so I tucked it in the cloud off the Samsung</p>
 <p>I remember years later receiving a notification</p>
@@ -1926,7 +1924,7 @@ initialPageState: {
 <p>she then asked I humour her with a nude cover with her phone's face</p>
 <p>so well into the mixtape, and in love, I offered her my Hilton surname</p>
 <p>but it wasn't straightforward, no, it started from emotional scrimmage.</p>
-<img  alt="Image" class="img-fluid lazy" src="../../images/loading.gif"  data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/0009.jpg" >
+<img  alt="Image" class="img-fluid lazy mb-3" src="../../images/loading.gif"  data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/0009.jpg" >
 <p>Chantel introduced me to Alissa Violet, and her sister Seemaje</p>
 <p>Selah Jeffries her sis, has convinced me of the kitchen’s blockade</p>
 <p>I’m convinced baking croissants is for chefs and is to be deliberate</p>
@@ -1943,7 +1941,7 @@ initialPageState: {
 <p>and through her, Carmella Rose, Mariam Rod, Kate Beckinsale</p>
 <p>Janice Joostema, Meredith Mickelson, Ice Spice, Alice Palay</p>
 <p>Maya Henry, Mahlagha Jaberi, and my hype DJ, Sommer Ray.</p>
-<img  alt="Image" class="img-fluid lazy" src="../../images/loading.gif"  data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/Chantel%20and%20Selah%20Jeffries.jpg"/>
+<img  alt="Image" class="img-fluid lazy mb-3" src="../../images/loading.gif"  data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/Chantel%20and%20Selah%20Jeffries.jpg"/>
 
 <p>Serendipity, a movie Jess suggested, it’s where I first saw Kate</p>
 <p>then I followed Guilty Party series and thought it quite accurate</p>
@@ -1959,7 +1957,7 @@ initialPageState: {
 <p>from my poetry first collection, patterns looking like one I’d fabricate</p>
 <p>settling on Blacktop Garage at page forty-four as one to inebriate</p>
 <p>as random as the big bang, or as propensity with attention regained.</p>
-<img  alt="Image" class="img-fluid lazy" src="../../images/loading.gif"  data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/Kate%20Beckinsale.jpeg">
+<img  alt="Image" class="img-fluid lazy mb-3" src="../../images/loading.gif"  data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/Kate%20Beckinsale.jpeg">
 <p>No. forty-four ‘s me, but Kendall Jenner has me a roiled jackanapes</p>
 <p>our fizzy romance of late is frightening, and I’m stuck in her carriage</p>
 <p>my love’s doubled, and is well in the end for her to take this suffrage</p>
@@ -1967,7 +1965,7 @@ initialPageState: {
 <p>for I’ve ‘d a thing for her years now, and it’s been a fair amity-scape</p>
 <p>I only truly wonder if it is her fancy, over here visiting the consulate</p>
 <p>getting married, have kids, sort of things that’ll see us never separate.</p>
-<img  alt="Image" class="img-fluid lazy" src="../../images/loading.gif"  data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/0006.jpg">
+<img  alt="Image" class="img-fluid lazy mb-3" src="../../images/loading.gif"  data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/0006.jpg">
 <p>Time, a pundit of change has left me with those words to impregnate</p>
 <p>as Corinna, Stella, and Mikayla giving up indecency in a final micturate.</p>
 <p> </p>
@@ -2009,8 +2007,8 @@ initialPageState: {
 <p>I wasn’t getting married, for the groom had left his bride astray</p>
 <p>some more shots went off and he darted out as someone caned</p>
 <p>speeding off with the other police men in a mind calming rampage.</p>
-<img  alt="Image" class="img-fluid lazy" src="../../images/loading.gif"  data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/0001.jpg">
-<img alt="Image" class="img-fluid lazy" src="../../images/loading.gif"  data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/0002.jpg">
+<img  alt="Image" class="img-fluid lazy mb-3" src="../../images/loading.gif"  data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/0001.jpg">
+<img alt="Image" class="img-fluid lazy mb-3" src="../../images/loading.gif"  data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/0002.jpg">
 <p>Pimple had left me, still the hotel’s crowd weren’t awry or drained</p>
 <p>I got my phone back hours later; the reason of arrest wasn’t plain</p>
 <p>no official reason was given, none was convincing, or hit the nail</p>
@@ -6154,6 +6152,14 @@ and <i>P1Harmony</i>
   <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/50.jpg"/>
 
   <p class="text-center mt-1" >growing up, the <i>the Williams sisters</i> were my favourite female celebrities, then it was <i>Tyra Lynne Banks</i>. wanna read my first letter to <i>Serena Jameka Williams</i>? Read my next book of letters</p>
+  
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/venusWilliams.jpg"/>
+
+  <p class="text-center mt-1" > <i>Venus Williams</i></p>  
+  
+    <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/tyraBanks.jpg"/>
+
+  <p class="text-center mt-1" ><i>Tyra Lynne Banks</i></p>
 
   <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/51.jpg"/>
 
