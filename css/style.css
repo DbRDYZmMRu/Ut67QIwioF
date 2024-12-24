@@ -5070,6 +5070,16 @@ iframe {
   background-position: bottom center;
 }
 
+.hedding-svg-i {
+  background-image: url(../images/svg/bottom-border.svg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  padding-bottom: 20px; /* adjust the value to your liking */
+}
+.addSomePadding {
+  padding-top: 50px;
+} 
+
 .animation {
   animation: example 2s infinite;
   font-size: 200px;
