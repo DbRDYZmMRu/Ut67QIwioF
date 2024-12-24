@@ -72,7 +72,7 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   object-fit: contain; /* Ensure image fits within container */
 } 
-    
+
   </style>
 
 </head>
@@ -114,7 +114,7 @@
               <div class="p-5 text-center">
                 <img
                   class="img-fluid px-5"
-                  src="/images/svg/cookie.svg"
+                  src="../../images/svg/cookie.svg"
                   alt=""
                 />
                 <h3>Cookies</h3>
@@ -179,7 +179,7 @@
     <nav class="navbar navbar-light navbar-expand-lg navbar-default">
       <div class="container-fluid">
         <!--===== Start of logo =====-->
-        <a class="navbar-brand" href="/"><img class="logo" src="/images/logo.png" alt="Frith Hilton Logo" /></a>
+        <a class="navbar-brand" href="/"><img class="logo" src="../../images/logo.png" alt="Frith Hilton Logo" /></a>
         <!--===== End of logo =====-->
 
         <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
@@ -501,7 +501,7 @@
                       </h2>
                       <h5>{{store.chapterTitle}}</h5>
 
-                      <div v-html="store.getChapterContent()" class="mt-4 me-4 ms-4"></div>
+                      <div id="content" v-html="store.getChapterContent()" class="mt-4 me-4 ms-4"></div>
                     </div>
                     <!--===== End of Title =====-->
                     <hr class="my-5" />
@@ -736,6 +736,11 @@
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="../../js/ads.js"></script>  
   <script src="../../js/1965.js"></script>
+  <!-- cdnjs -->
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>   
+
+
   <script>
 $(document).ready(function() {
   // Function to check if it's the first load in the hour
@@ -876,6 +881,7 @@ $(document).ready(function() {
       reactive
     } from "https://unpkg.com/petite-vue?module";
     const store = reactive({
+      jQueryObj: $,
       currentURL: "/published/poetry/bury-me-in-1965.html",
       staticPoemURL: "",
       poemURL: "",
@@ -901,9 +907,21 @@ $(document).ready(function() {
         this.generatePoemURL();
         this.chapterTitle = chapterTitle;
         const chapterContent = this.pageResources().chapters;
+        
+setTimeout(() => {
+$('.lazy').Lazy({
+scrollDirection: 'vertical',
+effect: 'fadeIn',
+visibleOnly: true,
+onError: function(element) {
+console.log('error loading ' + element.data('src'));
+}
+});
+}, 500);
+        
         return chapterContent.at(this.currentChapter);
       },
-      initialPageState: {
+initialPageState: {
         view1965: "chapters",
       },
       pageState: localStorage.getItem("view1965"),
@@ -3604,7 +3622,1718 @@ $(document).ready(function() {
 <p>I left home with several forms to fill in richness</p>
 <p>I felt lucky, the day bright and with no threats.</p>`, 
 
+`Online wisdom`, 
 
+`Moves`, 
+
+`Diarrhoea`, 
+
+`Death race for love`, 
+
+`Transformer`, 
+
+`
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/130.jpg"/>
+
+  <p class="text-center mt-1" > <i>Pedro Sánchez</i>, Prime Minister of Spain</p>
+  
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/0004.jpg"/>
+
+  <p class="text-center mt-1" ><i>Mr. Hilton</i> with the <i>university colleague </i></p>
+  
+    <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/0003.jpg"/>
+
+  <p class="text-center mt-1" >back at my time at Online Wisdom <br/></p>
+  
+  
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/00.jpg"/>
+
+  <p class="text-center mt-1" >my girl <br/><i>Kendall Jenner</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/02.jpg"/>
+
+  <p class="text-center mt-1" >mirth in her gait <br/><i>Lili Reinhart</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/04%20%28ii%29.jpg"/>
+
+  <p class="text-center mt-1" ><i>Justin Skye</i> is hot chocolate</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/03.jpg"/>
+
+  <p class="text-center mt-1" >don't remind me I fap a lot.<br/><i>Chantel Jeffries</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/163.jpg"/>
+  
+   <p class="text-center mt-1" >my second mixtape's cover <br/><i>Colourful Light </i></p>
+    
+    
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/167.jpeg"/>
+
+  <p class="text-center mt-1" ><i>David Guetta</i></p> 
+    
+ <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/164.jpg"/>
+ 
+ 
+ <p class="text-center mt-1" >my third mixtape's cover <br/><i>December 13 </i></p>
+ 
+ 
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/04.jpg"/>
+
+  <p class="text-center mt-1" >is it true my hold is strong Abigail Bergstrom? Lili Reinhart swears</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/04%20%28i%29.jpeg"/>
+
+  <p class="text-center mt-1" > Beauty Editor who loves to do a lot of things <br/><i>Chloé Burcham</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/04%20%28iii%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Fernando J Garcia</i></p>
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/165.jpeg"/>
+
+  <p class="text-center mt-1" >The Internet's busiest music nerd <br/> <i>Anthony Fantano </i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/04%20%28iv%29.jpeg"/>
+
+  <p class="text-center mt-1" >the night wasn't at all different from the one I got the first notification on YouTube, from Jess' channel, but this was on the home feed when I loaded the app. I wasn't big on alcohol, so prior, I'd never heard the word <i>bourbon</i>, preposterous right? But there is more.<br/> I was suffering. Music heals the spirit, but at times, a friendly voice, a sentimental atmosphere is the salve for a heartache. I'd bruised my self-esteem again from using months past; arriving from Dubai. I felt I deserved the Anon's noise, the hardship previously orchestrated for me, me in place as an axle. <br/> Just because of the series of videos, maybe it's why when I met Jess, I could write her. <br/>
+<i>Introducing Wild Turkey Longbranch</i>. It was the breeze of confidence, a content so foreign and outside from what I'd expect.<br/> Friendship had found me at home, <i>family</i>, and it was a bourbon, by Master Distiller Jimmy and Eddie Russell, made in their fine DNA with Matthew McConaughey as creative director. <br/> Now I'm counting down to Bourbon, head to Madrid for education. <br/> I wonder if Princess Leonor knew about it, don't forget she's got super computers. <br/>The kindest words I'd heard in a while, by far months, as Matthew McConaughey described what Longbranch was in its simplest form:<br/> <i>the extension of a hand, an invitation, a welcome, when friends can become family.</i><br/> <i>Mesquite! Mesquite!</i> That stuck. <br/><i>Matthew McConaughey</i> and <i>Katherine Schwarzenegger</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/159.jpg"/>
+
+  <p class="text-center mt-1" ><i>Princess Leonor</i> and <i>King Felipe VI</i> of Spain</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/51%20%28iv%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Lewis Hamilton</i> says don the cap, you're British, and thinks Brazilians are fab.<br/> I know, I just have to take a gaze at <i>Camila Mendes</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/05.jpg"/>
+
+  <p class="text-center mt-1" >Pokémon, yellow cabs, selling us on a lamb<br/><i>Vanessa Morgan, Camila Mendes and Lili Reinhart</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/06%20%28i%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Laura Kim</i></p>
+
+
+<img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/166.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Calvin Harris</i> and <i>Ellie Goulding</i></p>
+    <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/00010.jpg"/>
+
+  <p class="text-center mt-1" > to all his friends in this textbook, <i>Adam Young</i> says he cannot be here because his blood cells cannot depend on the weather in photographs</p>
+  
+    <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/206.jpeg"/> 
+
+  <p class="text-center mt-1" ><i>Idris</i> and <i>Sabrina Elba</i></p>
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/06.jpg"/>
+
+  <p class="text-center mt-1" >crackers <br/><i>Gemma Styles</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/07.jpg"/>
+
+  <p class="text-center mt-1" >healing <br/><i>Cassidy Jordan</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/7%20%28ii%29.jpg"/>
+
+  <p class="text-center mt-1" ><i>Lil Baby</i> made me feel recognized after my first collection, it was worth more than what money could pay for</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/07%20%28i%29.jpg"/>
+
+  <p class="text-center mt-1" >i'll spend a big cheque on you <br/><i>Charlotte Parkes</i>
+</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/08.jpg"/>
+
+  <p class="text-center mt-1" >an aeroplane just flew over</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/08%20%28iii%29.jpeg"/>
+
+  <p class="text-center mt-1" >when i got home, my search for wisdom in no time brought me to the feet of <i>Vishen Lakhiani</i>. Even when my PC was stolen with all its resources, I was full of praises as I started my 2020 journal</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/80%20%28ii%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Logan Paul</i> and <i>Jake Paul</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/08%20%28iv%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Victoria</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/08%20%28v%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>YG</i> and <i>Sexyy Red</i> </p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/08%20%28ii%29.jpg"/>
+
+  <p class="text-center mt-1" >an immersive experience soon <br/><i>Sydney Sweeney</i></p>
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/178.jpg"/> 
+
+  <p class="text-center mt-1" >here is the cover to the song I asked Kendall Jenner to be my wife, she thought it was cute but said it should have been for Taylor Swift <br/><i>Tangerine clouds</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/09%20%28ii%29.jpg"/>
+
+  <p class="text-center mt-1" ><i>Bright Emily</i> provides just the right amount of gusto for the watchful eye </p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/09%20%28iv%29.jpeg"/>
+
+  <p class="text-center mt-1" >i think <i>Post Malone</i> has trolled me the most.<br/> My record <i>Bleeding heart</i> came out. Posty dropped his new album, <i>Hollywood is bleeding</i> <br/>Swish!</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/09.jpg"/>
+
+  <p class="text-center mt-1" >did you say Kendall Jenner? <br/><i>Jessica Andrea</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/10.jpg"/>
+
+  <p class="text-center mt-1" >he's so cool <i>Cole Sprouse</i>, I wrote a poem for him, relieved he's married but that was his identical twin <i>Dylan Sprouse</i>. <br/><i>He’s Glad</i>, in Collection VI</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/09%20%28iii%29.jpeg"/>
+
+  <p class="text-center mt-1" >i had a crush on <i>Khloe Kardashian</i> for a long time, I'm king of indecent </p>
+
+
+ <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/168.jpeg"/>
+
+  <p class="text-center mt-1" >i loved his dogs first, then him <br/> <i>Melton</i></p>
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/11.jpg"/>
+
+  <p class="text-center mt-1" >can't hide your theme <br/><i>Chiara Ferragni</i> and <i>Fedez</i>.  <br/>I asked Fedez if he'd be my <i>Chris Brown</i><br/><i>Fedez</i> gives good advice</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/12.png"/>
+
+  <p class="text-center mt-1" >my only mum and dad, and there is Queen Letizia. <br/>The best parents in the observable universe <br/> <i>Kathy</i> and <i>Richard Hilton</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/13.jpg"/>
+
+  <p class="text-center mt-1" >i wrote a bank app on AWS for some guys a while back, the AWS AI said I was funny, it also told me <i>Taylor Swift</i> is <i>only love</i>. whew! Chirpy</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/14.png"/>
+
+  <p class="text-center mt-1" >she released the book <i>sexual Illumination</i>, she's been gone since then <br/> <i>Kali Kavara</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/15.jpg"/>
+
+  <p class="text-center mt-1" >she said yes, 'cause I recorded the song in my teenage bedroom, it was on the bed</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/15%20%28i%29.jpeg"/>
+
+  <p class="text-center mt-1" >meeting the <i>Ajeyemis</i> gave me an air of confidence I hadn't known before, because it had no strings attached, it was first, friendship, a first among the Yorubas, as if I'm not Yoruba. Icky illiteracy <br/><i>Toyin Abraham and Kolawole Ajeyemi</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/15%20%28ii%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>French Montana</i> to the rescue, I know a lot of heroes</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/16.jpg"/>
+
+  <p class="text-center mt-1" >show me a girl, tell me her name is nothing to tell. it could be <i>Antoinette</i>, it could be <i>Jess</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/170.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Kerry Washington</i></p>
+
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/17.jpg"/>
+
+  <p class="text-center mt-1" >a lonely grave without <i>Janice Joostemaa</i></p>
+
+ <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/169.jpeg"/>
+
+  <p class="text-center mt-1" >. . . there are angels all around <br/><i>Jodeci Rochelle</i></p>
+
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/18.jpg"/>
+
+  <p class="text-center mt-1" >whom I've been dreaming of . . .<br/> <i>Kendall and Kylie Jenner</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/19.jpg"/>
+
+  <p class="text-center mt-1" >it'll take nothing away, us getting together, don't be worried <br/> <i>Madelaine Petsch</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/172.jpeg"/>
+
+  <p class="text-center mt-1" >fine wine<br/> <i>Racquel Natasha</i></p>
+
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/19%20%28i%29.jpeg"/>
+
+  <p class="text-center mt-1" >just after my resignation, in my apartment, trying to find balance, the song <i>Sunflower</i> came out, <i>Post Malone</i> was also on the record. It was a theme song for Spiderman. I wanted to be Spiderman as a child. <br/>For weeks, I was sure something was up, I knew what I was hearing all right, since I never look up lyrics. Glad I'm sober now. <br/> <i>Swae Lee</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/173.jpeg"/>
+
+  <p class="text-center mt-1" > <i>Sophia Kylie</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/171.jpeg"/>
+
+  <p class="text-center mt-1" ><i>LaKeith Stanfield</i></p>
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/19%20%28ii%29.jpeg"/>
+
+  <p class="text-center mt-1" >when I got home I picked up <b>Hurricanes</b>: A Memoir by Rick Ross and nothing was the same, I kind of got the message from Juice Wrld: 
+  <br/><i>Time really moves fast, fast, fast, fast</i>
+<br/><i>But hurry up and get in your bag, bag, bag, bag</i>
+<br/><i>I wear Dior, not a fad, 'ad, 'ad, 'ad</i>
+<br/>
+then I picked up the <b>The Autobiography of Gucci Mane</b>.<br/><i>Boss!</i><br/>
+<i>Rick Ross</i> and <i>Meek Mill</i>
+  </p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/20.jpg"/>
+
+  <p class="text-center mt-1" >are you taking me higher? <br/><i>Pamela Hilton</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/21.jpg"/>
+
+  <p class="text-center mt-1" >yas <br/><i>Paris Hilton</i></p>
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/174.jpeg"/> 
+
+  <p class="text-center mt-1" ><i>Sabrina Carpenter</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/21%20%28i%29.jpeg"/>
+
+  <p class="text-center mt-1" >i am jealous of her Instagram boyfriend, I want her always <br/> <i>Anastasia Karanikolaou</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/21%20%28ix%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Adele</i> is the only singer whose voice sung in my ears, few moments after I woke up from sleep, quite audibly even with no headphones on, it is magic</p>
+  
+    <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/198.jpeg"/> 
+
+  <p class="text-center mt-1" ><i>Lo Nightly</i></p>
+
+  
+  
+  
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/21%20%28iii%29.jpg"/>
+
+  <p class="text-center mt-1" >Cute <i>Milou</i></p>
+  
+  
+<img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/175.jpeg"/> 
+
+ <p class="text-center mt-1" >what is it like meeting a semi-tech nerdy rockstar? Yup, I was convinced he was, just from hearing him say  "former Google and Facebook employee" <br/><i>Patrick Shyu</i></p>
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/197.jpeg"/> 
+
+  <p class="text-center mt-1" ><i>Nicole</i></p>
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/21%20%28x%29.jpeg"/>
+
+  <p class="text-center mt-1" >it's a cute image with <b>1111</b>.<br/> Can't wait! <br/> <i>Peggy Gou</i> and <i>Zane Lowe</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/21%20%28vi%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Kelsy Karter</i> got buns</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/21%20%28xi%29.jpeg"/>
+
+  <p class="text-center mt-1" >i think we cuddle just after every session, I could swear. It's the ASMR GLOW<br/><i>Sharon Dubois</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/139.jpg"/>
+
+  <p class="text-center mt-1" ><i>Jorja Smith</i></p>
+  
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/176.jpeg"/> 
+
+  <p class="text-center mt-1" ><i>Mariah Carey</i></p> 
+  
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/21%20%28vii%29.jpeg"/>
+
+  <p class="text-center mt-1" >his house chain reminds me of <i>Poem 108</i> from collection I <br/>I'll get me one to party too<br/><i>Cardi B </i>and<i> Offset</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/138.jpeg"/>
+
+  <p class="text-center mt-1" >don't say it out <br/><i>Bludnymph</i></p>
+  
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/179.jpg"/> 
+
+  <p class="text-center mt-1" >the cover to the song of saying I love Lili Reinhart dearly,  but I'm convinced my marriage daydream with Taylor Swift is why anyway. <br/> <i>You make it rain<br/>
+Out the wall whoa whoa whoa<br/>
+You make it rain<br/>
+Outta control<br/></i>
+
+ I recorded it after reading a certain poem in Lili Reinhart's poetry book: <i>Swimming Lessons.</i> <br/>But first I recorded a song entitled <i>Still can't swim</i>, this was the second song of the hour. I swear she was onto me <br/><i>Well with her eff fame </i></p>
+ 
+   <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/199.jpeg"/> 
+
+  <p class="text-center mt-1" >I enjoy making music for Mariam <br/><i>Don't be Sarah</i> <br/> <i>Don't be so far from me</i> <br/><i>Mariam Rod</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/200.jpeg"/> 
+
+  <p class="text-center mt-1" ><i>Mariam Rod </i></p>
+
+
+   <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/201.jpeg"/> 
+
+  <p class="text-center mt-1" ><i>Cole Bennett</i></p>
+ 
+   <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/182.jpeg"/> 
+
+  <p class="text-center mt-1" ><i>Druski</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/183.jpeg"/> 
+
+  <p class="text-center mt-1" ><i> Travis Kelce</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/184.jpeg"/> 
+
+  <p class="text-center mt-1" ><i>Tom Cruise</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/203.jpeg"/> 
+
+  <p class="text-center mt-1" ><i>Emily Blunt </i></p>
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/185.jpeg"/> 
+
+  <p class="text-center mt-1" ><i>Kai Cenat</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/186.jpeg"/> 
+
+  <p class="text-center mt-1" ><i>Marina Di Guardo</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/187.jpeg"/> 
+
+  <p class="text-center mt-1" ><i>Jhene Aiko</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/188.jpeg"/> 
+
+  <p class="text-center mt-1" ><i>Blake Lively </i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/189.jpeg"/> 
+
+  <p class="text-center mt-1" ><i>Ryan Reynolds </i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/190.jpeg"/> 
+
+  <p class="text-center mt-1" ><i>Chiara, Valentina</i>, and <i>Francesca Ferragni </i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/191.jpeg"/> 
+
+  <p class="text-center mt-1" >it's a good bun <br/> <i>Carmella Rose</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/192.jpeg"/> 
+
+  <p class="text-center mt-1" ><i>Jimmy Kimmel </i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/193.jpeg"/> 
+
+  <p class="text-center mt-1" ><i>Paris Hilton </i>
+and <i>P1Harmony</i>
+</p>
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/194.jpeg"/> 
+
+  <p class="text-center mt-1" ><i>Shaquille O'Neal </i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/195.jpeg"/> 
+
+  <p class="text-center mt-1" ><i>Aster Angagaw</i> and <i>Magic Johnson </i>
+</p>
+
+
+
+
+
+
+
+
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/21%20%28v%29.jpeg"/>
+
+  <p class="text-center mt-1" >she says she loves me for real <br/><i>Sydney Lynn</i> </p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/21%20%28xii%29.jpg"/>
+
+  <p class="text-center mt-1" >after my resignation, those few weeks in the apartment, I remember writing on a rizla kind words to myself, the act was inspired by his <i>KOD</i> (an initialism for Kids on Drugs, King Overdosed and Kill Our Demons) album<br/><i>J Cole</i></p>
+  
+    <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/180.jpg"/> 
+
+  <p class="text-center mt-1" >i later smoked with it, a day later <br/> <i>rizla </i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/21%20%28xiii%29.jpg"/>
+
+  <p class="text-center mt-1" >i'm only a Good Kid, in a M.A.A.D City. but DAMN! I've been Overly Dedicated <br/><i>Kendrick Lamar</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/202.jpeg"/> 
+
+  <p class="text-center mt-1" ><i> Cillian Murphy </i></p>
+
+
+
+
+ <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/177.jpeg"/> 
+
+ <p class="text-center mt-1" ><i>Danny Glover </i> and <i>Jenifer Hudson</i></p>
+
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/127.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Rita Ora</i> and <i>Taika Waititi</i></p>
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/204.jpeg"/> 
+
+  <p class="text-center mt-1" ><i>Brian Cox</i></p>
+
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/21%20%28viii%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Grant</i> and <i>Helena Cardone</i> have been big inspirations in my life. Their words inspire me to believe there is prosperity outside, and in abundance. <br/>Grant's story of how he met Helena has been my recipe so far with <i>Kendall Jenner</i>, and now with <i>Princess Leonor</i>, let's not forget <i>Taylor Swift</i>. cheers</p>
+  
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/21%20%28iv%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Victoria Villarroel</i> burnt the vista</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/21%20%28xiv%29.jpeg"/>
+
+  <p class="text-center mt-1" >i was lucky a local TV station aired her show, <i>The Oprah Winfrey Show</i> when I was a boy, they were like windows to a place only sitting and listening could describe. Thank you ma<br/><i>Oprah Winfrey</i></p>
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/205.jpeg"/> 
+
+  <p class="text-center mt-1" ><i>Robert Downey Jr. </i></p>
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/21%20%28ii%29.jpg"/>
+
+  <p class="text-center mt-1" ><i>Drake</i> isn't enigmatic, I believe his words are clear-cut, I first met the person when I read the words <br/>
+  <i>If You’re</i> <br/><i>Reading</i><br/> <i>This It’s</i><br/> <i>Too Late</i> 
+  </p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/22.jpg"/>
+
+  <p class="text-center mt-1" >address is 419 Saint Cloud <br/><i>Kathy Hilton</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/22%20%28i%29.jpeg"/>
+
+  <p class="text-center mt-1" >i heard <i>Rema</i> on <i>Anthony Fantano's</i> Friday radio, got on X and poked fun at how he sounds, like someone smeared in pussy oil. I was trying to tell <i>Jess</i> I love her voice, hehehe.<br/> It was because the same guy that introduced me to <i>Logan Paul</i> but no longer <i>knows</i> him, berated Rema when he told me about him. Yuck!</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/22%20%28ii%29.jpeg"/>
+
+  <p class="text-center mt-1" >i haven't met anyone who dosen't like him, it's a lot of people I know now, I just need to pop the question <br/><i>Trevor Noah</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/23.png"/>
+
+  <p class="text-center mt-1" >i haven't giving it much thought, but first time I made her acquaintance, she was nude, to meeting her in real life, it's a thriller. <br/><i>Paris Jackson</i> and my momma <i>Kathy Hilton</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/23%20%28i%29.jpeg"/>
+
+  <p class="text-center mt-1" >I was in Dubai when the headlines went:<br/> <i>Actor Kevin Hart was taken to hospital with "major back injuries" on Sunday following a car accident in Los Angeles. </i>2nd of September 2019 <br/>It was spooky for me, the man is superman, I guess I was too far from home, and closer, throwing him some John Hancock vibes<br/><i>Kevin Hart</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/24.jpg"/>
+
+  <p class="text-center mt-1" ><i>Doja Cat </i>as<i> Amala</i> </p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/137.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Ariana Grande</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/120.jpeg"/>
+
+  <p class="text-center mt-1" ><i>A$AP ROCKY</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/24%20%28ii%29.jpg"/>
+
+  <p class="text-center mt-1" ><i>Trippie Redd</i> said this: <i>pussy ass nigger stay in church</i> <br/> soon later, he got a cross tattoo on his forehead</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/196.webp"/> 
+
+  <p class="text-center mt-1" ><i>BTS</i></p>
+
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/24%20%28iv%29.jpeg"/>
+
+  <p class="text-center mt-1" >if I meet the the first second gentleman in American history, I'll ask how he thinks I'll do, first as a Prince, <i>Princess Leonor</i> deserves the best <br/><i>Douglas Emhoff</i>
+</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/24%20%28i%29.jpeg"/>
+
+  <p class="text-center mt-1" >do you think <i>Wizkid</i> will ever stop smoking? hahaha, let's go ask <i>Wiz Khalifa</i> . . .</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/25.jpg"/>
+
+  <p class="text-center mt-1" >please tell <i>Kali Uchis</i> to keep singing for me. <br/>I loved <i>Tyler, The Creator's</i> reaction to me resignation<br/> <i>Earfquake!</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/24%20%28iii%29.jpg"/>
+
+  <p class="text-center mt-1" >everyone knows her as just <i>Blinkx</i>, well I have, she's been very helpful.<br/> <i>X rocks.</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/26.jpg"/>
+
+  <p class="text-center mt-1" >i must have children with you, what's all these been about? introduction to <i>mi casa, su casa</i><br/><i>Taylor Swift</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/26%20%28i%29.jpg"/>
+
+  <p class="text-center mt-1" >watching his lecture videos are like crib sheets. I was obviously birth far from Western civilization's root content<br/><i>Dr. Jordan Peterson</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/27.png"/>
+
+  <p class="text-center mt-1" >i found my swag <i>Jackie Gansky</i>, family is everything <br/> <b>L-R</b> <i>Jackie </i>and <i>Sutton Angel</i><br/> <b>R-L </b> <i>Maria Roush</i> and <i>Alissa Violet</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/27%20%28iii%29.jpeg"/>
+
+  <p class="text-center mt-1" >the internet is truly beautiful, I remember wanting to join a male clan program but still suffering addiction, today I'm free<br/><i>Preston Smiles</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/27%20%28ii%29.jpeg"/>
+
+  <p class="text-center mt-1" >what is <i>Noelia Ramirez</i> thinking?</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/27%20%28i%29.jpg"/>
+
+  <p class="text-center mt-1" >Emily Ratajkowski: <i>It's absurd to think that desire for attention doesn't drive both women and men. Why are women scrutinized for it more, then?</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/01%20%28i%29.jpg"/>
+
+  <p class="text-center mt-1" ><i>Justin Bieber</i> told me she did the unthinkable, she touched herself, she seduced me once, it was obvious too, just ones and zeros right? <i>Hahaha</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/01%20%28ii%29.jpeg"/>
+
+  <p class="text-center mt-1" >i told Megan Thee Stallion something I can't repeat here, though it was a question, she really was the first woman I could ask. Chlöe Bailey is hot. I like that Thee Stallion reads my poetry</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/84.jpeg"/>
+
+  <p class="text-center mt-1" ><br/>i was in the hotel room in Abuja; a day before I took the passport in the <i>Transformer</i> chapter, we'd just arrived. The reception was better with my cell phone now charged, there was a notification on Facebook, he'd gone live. His tears moved me, I'd be the kind of man who could afford alimony.<br/> I used to wonder what I was doing on his end of the internet, he said all his clients were millionaires, I wasn't one and was going through a crisis<br/><i>Jesse Elder</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/85.jpeg"/>
+
+  <p class="text-center mt-1" >i'm convinced she wrote songs, side-inspired by the romance between me and Mariam Rod, I love her voice too, and I think she's very beautiful<br/><i>Leigh-Anne Pinnock</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/01%20%28iii%29.jpeg"/>
+
+  <p class="text-center mt-1" >Amanda Padilla is a new acquittance, I can only say that, work buddies</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/86.jpeg"/>
+
+  <p class="text-center mt-1" >after seeing the music video for <i>simple times</i> on the <i>star-crossed</i> album, I sort of wanted to scream, because surreptitiously <i>Kacey</i> had teased content from my work on the internet, it felt gooey good <br/><i>Kacey Musgraves</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/87.jpeg"/>
+
+  <p class="text-center mt-1" >at my last employment, the manager had the book <i>Awaken the Giant Within</i> by <i>Tony Robbins</i> on her desk, when I was by myself with everyone clocked off, I questioned my own trajectory and if I wasn't an imposter. It was another book I never finished, and at the time I read it, I was too young, a teenager, nothing was urgent, and saw the exercises as incredulous. <br/>When I resigned, I found her through Audible, she'd just released <i>Take Control of Your Life</i> but I soon stopped listening, the examples weren't working for me, I felt I wasn't <i>posh</i>, and the problems were unrelatable. <br/>But being part of a mailing list, I discovered her free three day program, called <i>Mindset Reset</i>, I printed what I had to, and answered all of the questions.<br/> Doing so gave me a sense of what I needed to address. It was a lifesaver. Thank you <br/><i>Mel Robbins</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/28.jpg"/>
+
+  <p class="text-center mt-1" > <br/><i>Zack bia</i> is awesome, but I need to giggle <br/><i>DJ Zack Bia</i> and <i>Cordae</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/88.jpeg"/>
+
+  <p class="text-center mt-1" >unconditional love is hard, but I'll try. kisses<br/><i>Katy Perry</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/28%20%28i%29.jpeg"/>
+
+  <p class="text-center mt-1" >i listened to the song <i>Julia</i> by <i>SZA</i> for a long time without knowing the person, or better, seeing the music video. It was like a station for my stoner brain, it was literally heaven. It's like this, if we were up on the rooftop blowing smoke, and I played the song on your YouTube account, only ads usually personalized for me would follow, hahaha. <br/> It took years before <i>Logic</i> also had a face. I've been that tireless worker</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/29%20%28i%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Conrad Hughes Hilton</i> with a puppy, saying it's only a moment before all this is done, and you're ready. <br/> yup, younger bro. Delicious</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/30.jpg"/>
+
+  <p class="text-center mt-1" >i love his bag</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/31%20%28i%29.jpg"/>
+
+  <p class="text-center mt-1" >angel <i>Mikayla Demaiter</i> was first to send congratulatory message for part three, it kind of equates to how much I appreciated <b>Carl XVI Gustaf, King of Sweden</b>'s acknowledgment of part two, it was the cap for me. Thank you your majesty.</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/140.jpeg"/>
+
+  <p class="text-center mt-1" >i love his style<br/><i>Travis Scott</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/89.jpeg"/>
+
+  <p class="text-center mt-1" ><b>We the best!</b><br/><i>DJ Khaled</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/90.jpg"/>
+
+  <p class="text-center mt-1" ><i>Jay Z</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/91.jpg"/>
+
+  <p class="text-center mt-1" >I remember singing <br/> <i>Real friends, how many of us?</i><br/>
+<i>How many of us, how many jealous? Real friends</i><br/>
+<i>It's not many of us, we smile at each other</i><br/>
+<i>But how many honest?</i><br/> Glad the record came out just around when I met the guys who helped me move out from my work apartment<br/><i>Kanye West</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/29.jpg"/>
+
+  <p class="text-center mt-1" >i bet these cool guys were high <br/><i>Jaden Smith</i> and <i>Justin Bieber</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/92.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Jack Harlow</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/93.jpeg"/>
+
+  <p class="text-center mt-1" ><i>50 Cent</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/94.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Eminem</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/95.jpg"/>
+
+  <p class="text-center mt-1" >isn't she cute . . . my wife, still a baby <br/><i>Princess Leonor of Asturias</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/31%20%28vii%29.jpg"/>
+
+  <p class="text-center mt-1" >their excellencies <i>President Joe Biden</i> and <i>Vice president Kamala Harris</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/31%20%28viii%29.jpg"/>
+
+  <p class="text-center mt-1" >my first million, I have so many people to thank, I want to cry</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/31%20%28ix%29.jpg"/>
+
+  <p class="text-center mt-1" >happy 81st birthday to Joe Biden (20th of November 2023) <br/>when all this is done, I'll read all your books Your Excellency</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/31%20%28v%29.jpeg"/>
+
+  <p class="text-center mt-1" >she's Billie Eilish and I used to be weary of association, I know she's human now</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/31%20%28x%29.jpg"/>
+
+  <p class="text-center mt-1" >their serene Highnesses <i>Princess Charlene Wittstock</i> and <i>Albert II, Prince of Monaco</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/31%20%28ii%29.jpeg"/>
+
+  <p class="text-center mt-1" >i like her telling me what to do, sweet <i>Ava Weintraub</i>. I remember being truly thankful for the Christian God on blessing me with such beauty, male member in hand, ousted of all desirous lust but thanks. Then weeks later I suspected the pic was edited, but her boobs like here, are great enough for a Sunday special. I should have thanked <i>Rob Minkoff</i> and <i>Kathy Hilton</i>. 😎 I see things clearly now.</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/31%20%28iii%29.jpeg"/>
+
+  <p class="text-center mt-1" >if it's true Lola-May Wheatley was the cart tart on my trip back from Dubai; the Emirates attendant who obliterated my pain? Then someone's been ever busy over me a long time, thanks for getting me out of the funk dear. <br/><b>PS</b>: Ava introduced me to Lola <br/><i>Lola</i> and her <i>mum</i> </p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/31%20%28iv%29.jpeg"/>
+
+  <p class="text-center mt-1" >love is fractal <br/><i>Grace Adèle</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/35%20%28i%29.jpeg"/>
+
+  <p class="text-center mt-1" >i fell twice in love with Jess because I thought a cover to Tate's song was originally written by her. the charms still have me in place today. kisses <br/> <i>Tate Mcrae</i> </p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/31%20%28vi%29.jpeg"/>
+
+  <p class="text-center mt-1" >i despise how I'm busy, and can't write <i>Olivia Rodrigo</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/31.jpg"/>
+
+  <p class="text-center mt-1" >no more Mr nice guy <br/>I'm glad you broke up with the other guy in <i>The Chainsmokers</i>, that's <i>Alex Pall</i>. but it's fine if you listen to his song <i>I Love U</i>, I enjoy it too. <br/>They both are releasing my wives or are a protecting band? <br/><i>Moa Aberg</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/32.jpg"/>
+
+  <p class="text-center mt-1" ><i>The Rothschilds</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/32%20%28i%29.jpg"/>
+
+  <p class="text-center mt-1" >I promise to kiss her often</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/32%20%28ii%29.jpg"/>
+
+  <p class="text-center mt-1" ><b>Alux</b>: <i>The place where future billionaires come to get inspired</i>, can someone tell the show's host I now work for the Rothschilds. ah!</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/33.jpg"/>
+
+  <p class="text-center mt-1" >address is 419 Saint Cloud</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/32%20%28iii%29.jpg"/>
+
+  <p class="text-center mt-1" >best backbone <br/><i>mum</i> and <i>dad</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/160.jpeg"/>
+
+  <p class="text-center mt-1" >i want <i>The Chainsmokers</i> to make me cry when I'm a king <i>Alexander "Alex" Pall</i>, <i>Afrojack</i>, <i>Steve Aoki</i> and <i>Andrew "Drew" Taggart</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/33%20%28i%29.jpg"/>
+
+  <p class="text-center mt-1" ><i>Lily-Grace Rothschild</i> thinking of rent</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/34.jpg"/>
+
+  <p class="text-center mt-1" >first time <i>Pamela Hilton</i> posted a picture showing this much, now I only want to make her cry . . . she'll only see me cry</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/35.jpg"/>
+
+  <p class="text-center mt-1" >if <i>Sommer Ray</i> is a cowgirl with me, the townspeople would be happy</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/36.jpg"/>
+
+  <p class="text-center mt-1" >ladies and gentlemen, <i>Timmy Hilton</i>, he sells cocaine</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/41.jpg"/>
+
+  <p class="text-center mt-1" >no one's made me feel so hip for breathing English. <i>Charli!</i> XCX</p>
+
+  
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/96.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Lady Gaga</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/97.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Romeo Beckham</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/38.jpg"/>
+
+  <p class="text-center mt-1" >when <i>Griff</i> told me my mum dropped a message, I knew what I had to do, start seeing Teletubbies again</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/98.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Julia Michaels</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/39.jpg"/>
+
+  <p class="text-center mt-1" >i told <i>Tessa Brooks</i> I'd need new clothes, but I really needed body cream for the trouble</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/40.jpg"/>
+
+  <p class="text-center mt-1" >how funny is it telling an ex Nevada beauty queen <i>how about Lagos for the best vaca of your life</i>, oh darn she made me feel that important, gratifying <br/><i>Carolina Adriana Urrea</i> </p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/42.jpg"/>
+
+  <p class="text-center mt-1" ><i>Katelyn Rae Byrd</i> is the flow</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/43.jpg"/>
+
+  <p class="text-center mt-1" >ember</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/44.jpg"/>
+
+  <p class="text-center mt-1" ><i>Meredith Mickelson</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/99.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Cristiano Ronaldo</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/44%20%28ii%29.jpg"/>
+
+  <p class="text-center mt-1" ><i>Carmella Rose</i> I promise to make love with you and all of my wives whenever the opportunity owns the time, there will be no hiccups excuses </p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/44%20%28i%29.jpeg"/>
+
+  <p class="text-center mt-1" >addiction isn't what is swallowing me now dear <i>Tina Leung</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/100.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Kylie Jenner</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/45.jpg"/>
+
+  <p class="text-center mt-1" >Diplo:
+<i>Before they get started I wanna let 'em know there's two million gillion hundred watts of electrical vibes, electric voltage coming through these speakers right into your ears, holes</i> <b> <br/>Don’t Do Drugs Just Take Some Jack Ü</b></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/46%20%28ii%29.jpg"/>
+
+  <p class="text-center mt-1" >i love your shade this time of the day <i>Demi Lovato</i>, what's the last book you opened?  </p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/101.jpg"/>
+
+  <p class="text-center mt-1" ><i>Jack Antonoff</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/102.jpg"/>
+
+  <p class="text-center mt-1" >She once brought me back to life, I believe so<br/><i>Sia</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/126.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Elena Ora</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/141.jpeg"/>
+
+  <p class="text-center mt-1" >i can hear the Superman theme song<br/><i>Gary Vay-Ner-Chuk</i> and <i>Paul "Triple H" Levesque</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/103.jpg"/>
+
+  <p class="text-center mt-1" ><i>Timothée Chalamet</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/142.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Devin Booker</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/109.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Naomi</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/110.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Olivia White</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/104.jpg"/>
+
+  <p class="text-center mt-1" ><i>Sam Smith</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/111.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Hasbulla Magomedov</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/105.jpg"/>
+
+  <p class="text-center mt-1" ><i>BLACKPINK</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/112.jpg"/>
+
+  <p class="text-center mt-1" ><i>Halle Bailey</i> </p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/46.jpg"/>
+
+  <p class="text-center mt-1" >thank you <i>Mr Ryan Seacrest</i> for  holding <i>Shayna Terse Taylor</i> back from attending too many emo parties</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/46%20%28i%29.jpg"/>
+
+  <p class="text-center mt-1" >a haven for all of us</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/47.jpg"/>
+
+  <p class="text-center mt-1" >dear God, you've blessed me immensely beyond my dreams of a cork, how could I run out of gratitude . . . thank you <br/><i>Logic</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/48.jpg"/>
+
+  <p class="text-center mt-1" ><i>now I'm feelin' so fly like a G6</i>
+</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/49.jpg"/>
+
+  <p class="text-center mt-1" >an Italian I fell in love with for her name is Veronica in life <br/> <i>Veronica Ferraro</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/49%20%28i%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Valentina Ferragni</i> knows I've been improper, but we get along just fine</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/50.jpg"/>
+
+  <p class="text-center mt-1" >growing up, the <i>the Williams sisters</i> were my favourite female celebrities, then it was <i>Tyra Lynne Banks</i>. wanna read my first letter to <i>Serena Jameka Williams</i>? Read my next book of letters</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/51.jpg"/>
+
+  <p class="text-center mt-1" >the agency told me I won some money from the lottery and how about I make plans for receiving it through smurfing, so I contacted my Romanian pal, and he told me all about creating several businesses across the NATO, oh, he was in on the drama  </p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/51%20%28ii%29.jpeg"/>
+
+  <p class="text-center mt-1" >i love Bulgari, <br/><i>Anne Hathaway</i> dazzling in Bulgari.<br/><i>damn, she is fine</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/51%20%28i%29.jpeg"/>
+
+  <p class="text-center mt-1" >i watched too many of <i>Ben Belack</i> videos on Instagram and figured I could be a realtor, make some passive income, but that was before my dad told me he needs me to start making tapes, what can I say, I am out here grinding away for these kids</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/51%20%28iii%29.jpg"/>
+
+  <p class="text-center mt-1" ><i>Leonardo DiCaprio</i> and his cinematic father figure <i>Martin Scorsese</i>; a national treasure.<br/> I admire Leonardo DiCaprio's work off and on the screen. It isn't difficult to see how he's making the world a better place once knowledgeable. I am in awe at his staggering efforts</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/52.jpeg"/>
+
+  <p class="text-center mt-1" >give me a band, I want to marry the three sisters, but please don't say I asked you for the band first, say I only showed you the band. <br/><b>L-R</b> <i>Alexia Simone Umansky, Sophia Kylie Umansky</i> and <i>Farrah Brittany</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/106.jpeg"/>
+
+  <p class="text-center mt-1" >knowing cool noble people from being socially accepted is a thing to get a hang of, thank you so much . . . I'm working on it <br/><b>L-R</b> their excellencies <i>Akshata Murty, Rishi Sunak, Kamala Harris</i> and <i>Douglas Emhoff</i> </p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/51%20%28v%29.jpg"/>
+
+  <p class="text-center mt-1" >This isn't <i>Herman Northrop Frye</i> neither is it <i>Phillip J. Fry</i>, who then is this? <br/>Let's ask <i>Jessica Andrea</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/107.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Iann Dior</i>
+</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/51%20%28vii%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Oliver Tree</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/108.jpeg"/>
+
+  <p class="text-center mt-1" >i didn't know him much when I used his album's cover as my SoundCloud's display image, I was also unaware of the traffic on that page. It calls to mind Taylor Swift's <i>1989</i> (original) album cover, at least for me, it was his <i>i am &gt; i was</i> album. Thank you for not coming for my legs<br/><i>21 Savage</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/51%20%28viii%29.jpg"/>
+
+  <p class="text-center mt-1" ><i>Judy Sollee</i>, <i>Jessica Andrea</i> and <i>Lindsay Kulik</i>
+</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/51%20%28ix%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Brian Rose</i> and his handsome boys</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/51%20%28x%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Madelyn Francesca</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/119.jpeg"/>
+
+  <p class="text-center mt-1" >well, she deserves all the happiness in the world <br/><i>George Daniel</i> and <i>Charli XCX</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/51%20%28xi%29.jpg"/>
+
+  <p class="text-center mt-1" ><i>Chantel Jeffries</i> introduced me to this beauty</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/51%20%28xii%29.jpg"/>
+
+  <p class="text-center mt-1" ><i>Bri Teresi</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/51%28xiii%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Quenlin Blackwell</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/51%20%28xiv%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Ryan Bailey Potter</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/52%20%28i%29.jpeg"/>
+
+  <p class="text-center mt-1" >when I see pictures like this, I wonder if they straight away sheltered in an overcoat or something, is this the case <i>Portia Umansky</i>? <br/>I asked <i>Carolina Adriana Urrea</i> the same question</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/52%20%28ii%29.jpeg"/>
+
+  <p class="text-center mt-1" >on my blogette when I announced chapter eight would be <i>Diarrhoea</i>, <i>Kyle Richards Umansky</i> wanted to be the first to read it, I felt smart, <i>Shayna Terse Taylor</i> said, everyone here likes <i>KWAT</i>, she was in London.<br/> Long live the King and Queen! </p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/53.jpg"/>
+
+  <p class="text-center mt-1" >dad throwing the middle finger to a sense of my  natural dad being racist, this was after he read the first draft of chapter seven, <b>the finger</b>, <i>the averring drat</i>, meaning <i>we are one family, the human family</i>, you now know what <i>the finger</i> means around here </p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/53%20%28i%29.jpeg"/>
+
+  <p class="text-center mt-1" >when this is done, I'll get hugs and big dollars, I wanted this all my life, a girl like <i>Kendall Jenner</i>, how is it I end up with a princess? First it was <i>Taylor Swift</i>, did it all unroll a carpet to meeting <i>Princess Leonor</i>? <br/><i>Kris Jenner</i> and dapper <i>Corey Gamble</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/53%20%28ii%29.jpeg"/>
+
+  <p class="text-center mt-1" >i don't know <i>Mr Everett Jack Jr</i> so well but my mum is often with <i>Faye Resnick</i>
+</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/53%20%28v%29.jpeg"/>
+
+  <p class="text-center mt-1" >watching <i>Andy Cohen</i>'s show WWHL I stumbled on a very corresponding sight as with a disturbing memory from my past, but it's different, my mum is asked to describe items to Paris who is sightless, the similarity is the <i>bottomless</i>, from Mary Poppins' bottomless purse, but the memory is different, it's a man next to a lady, and for minutes I watched as he screwed with a hand behind her ass for items and brought them out, this went on for a while, I really pondered what was behind for a while  </p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/53%20%28iii%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Max</i> and <i>Zoe</i> listen to my music, their mum <i>Crystal Kung Minkoff</i> inspired the last verse of Milk, the line <i>zipline to your room</i> same verse with <i>Corinna Kopf.</i><br/> Thanks Crystal</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/53%20%28iv%29.jpg"/>
+
+  <p class="text-center mt-1" ><i>Zoey Deschanel</i>, an unknown doll and <i>Rob Minkoff</i>, what do you think it's like for me knowing these magnanimous people? I love Hollywood </p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/54%20%28i%29.jpeg"/>
+
+  <p class="text-center mt-1" >oh my back aches, meet <i>Kara Zwaanstra</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/54%20%28ii%29.jpeg"/>
+
+  <p class="text-center mt-1" >the poem <i>Lame in Dubai</i> from Collection III was originally posted on X as <i>Lame in Tokyo</i>, <i>Kara</i> inspired that poem</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/54%20%28iii%29.jpeg"/>
+
+  <p class="text-center mt-1" >paraphrasing <i>Jack Harries</i>  . . . <i>communities have the potential to nurture and sustain each other, and create ecosystems that thrive.</i> I love what he represents</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/128.jpg"/>
+
+  <p class="text-center mt-1" ><i>Sophie Snazz</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/58%20Uncle%20Snoop%20giving%20up%20smoke.jpg"/>
+
+  <p class="text-center mt-1" >this was two weeks after the release of part two, I hope <i>uncle Snoop</i> is fine <br/><b>PS</b> I caught uncle Snoop with something looking like smoke on Instagram Live, hours before finishing this book. <br/><i>He is fine</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/129.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Lil Yachty</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/51%20%28vi%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Travis Barker</i> and <i>Kourtney Kardashian Barker</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/54.jpg"/>
+
+  <p class="text-center mt-1" >she is beautiful, I saw her ass on the beach, she was on a Pacific island for a photoshoot, and I asked myself, why doesn't <i>Taylor Swift</i> have an ass like that, come on</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/55.jpg"/>
+
+  <p class="text-center mt-1" >eager pals when I made the mixtape <b>December 13</b>, <i>Michael Braun</i> and <i>Vas J Morgan</i>
+<br/><i>Don't be mad
+<br/>This is Beethovenian<br/>
+Minding my lips like A. William</i>
+
+</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/55%20%28ii%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Paris Hilton</i> and <i>Will.i.am</i>. <br/><i>Great!</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/220.jpg"/> 
+
+  <p class="text-center mt-1" ><i><i>Wes Moore</i> </i></p>
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/221.jpg"/> 
+
+  <p class="text-center mt-1" ><i><i>Michelle</i> and <i>Barrack Obama</i></i></p>
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/56.jpg"/>
+
+  <p class="text-center mt-1" >for a while I thought I adopted him, but his dad showed up, <i>swish</i>. <i>Vanessa Morgan</i> hasn't said a word about River since then</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/57.jpg"/>
+
+  <p class="text-center mt-1" >my family</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/59.jpg"/>
+
+  <p class="text-center mt-1" >in an alternate world, I am married to <i>Dua Lipa</i>, can't deny I'm lucky, she is fine. Please tell <i>Rina Lipa</i> I owe her but dither how to say thank you, she's got so many playgrounds</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/60.jpg"/>
+
+  <p class="text-center mt-1" ><i>Cortège in the pool</i><br/>you know she used to be a website designer, and a big alcoholic, big ups to <i>Eliza Rose Watson</i>, she even told me she's a virgin.<br/> <i>wow!</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/61.jpg"/>
+
+  <p class="text-center mt-1" >dad says he's my best friend, <i>but he isn't your brother</i> . . . <br/>Okay dad. <br/>I saw <i>You and I</i> by One Direction a million times high on weed, so innocent, <i>hehehe.</i> <br/> I love <i>Harry Styles</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/131.jpg"/>
+
+  <p class="text-center mt-1" >i used to dream of having an old worthful X account, and now I do, but my early days on X, after <i>Melanie Joy Fontana</i> wrote me saying she like my poems, I went on X and announced to the world that Britney had messaged me, and I convinced myself she did, it was worth it, because these days I'm convinced when I see pictures or videos of Britney topless, she's yelling out: <i>Frith is a boob</i><br/><i>Britney Spears</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/62.jpg"/>
+
+  <p class="text-center mt-1" >if I ever have this number of street lights, call <i>Taylor Swift</i> the sexiest woman on the planet, please. Thank you, I won't disappoint your warm hearts. <br/><i>Jennifer Lopez and  Ben Affleck</i> </p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/63.jpg"/>
+
+  <p class="text-center mt-1" >well, if it isn't <i>Selena Gomez</i><br/> I love what she did to me at my last workplace</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/64.jpg"/>
+
+  <p class="text-center mt-1" ><i>Madonna</i> says the future started from a mob, I'll try to be honest always your Majesty</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/64%20%28i%29.jpeg"/>
+
+  <p class="text-center mt-1" >i was new to Computer Village when the neighbour who helps me down every morning, her son told me of the trend, <br/> <i>he is cool, better than the previous ones, he's Burna Boy,</i> <br/> the hood soon got scary after that, they stopped listening to the man</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/64%20%28iii%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Alan Walker</i> gave me hope, made me feel seen, and gave me a cute mob to walk with, thank you very much</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/114.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Coco Rosa</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/64%20%28v%29.jpeg"/>
+
+  <p class="text-center mt-1" >when I think of Versace, <i>private estate</i> pops into my mind. <br/>It's probably from a rap, or ordering so many items from FRWD, writing this, it is couture. <br/><i>Donatella Versace</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/64%20%28iv%29.jpeg"/>
+
+  <p class="text-center mt-1" >have you listened to <i>Flume's</i> Palaces, his third studio album? </p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/115.jpeg"/>
+
+  <p class="text-center mt-1" >she used to be my manager, which led to an affair, which turned sour, grumbles about how she's no good past the bed or something, ah . . . women, wasn't she the manager? <br/> <i>Ashley Benson</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/144.jpg"/>
+
+  <p class="text-center mt-1" ><i>Nicki Minaj</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/161.jpg"/>
+
+  <p class="text-center mt-1" ><i>Larry</i> and <i>Nicole English</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/64%20%28ii%29.jpeg"/>
+
+  <p class="text-center mt-1" >it's possible this musician <i>Davido</i> has always been like a watchful angel over my shoulders, I can't speak any less </p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/65.jpg"/>
+
+  <p class="text-center mt-1" ><i>Chris Martin</i> asked what I thought of <i>Griff</i>, I said nothing</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/66.jpg"/>
+
+  <p class="text-center mt-1" ><i>Stephen King</i> provided me with painted tale-scapes that the Anon will relive forever</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/66%20%28i%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Teodora Dan</i> loves a pose</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/66%20%28ii%29.jpg"/>
+
+  <p class="text-center mt-1" ><i>Charly Cox</i> potty haughty</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/67.jpg"/>
+
+  <p class="text-center mt-1" >without <i>Wiz Khalifa</i> when my dad told me to work on a new mixtape, I'd have settled for a pace too slow for <i>Mia Khalifa</i>, thank you, I was soon on the next one </p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/116.jpeg"/>
+
+  <p class="text-center mt-1" >i wonder if <i>Princess Leonor</i> loves me so <br/><i>Jon Hales</i> and <i>Charly Cox</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/68.jpg"/>
+
+  <p class="text-center mt-1" >take me there</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/117.jpg"/>
+
+  <p class="text-center mt-1" >do you baby doll? <br/><i>Princess Leonor of Asturias</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/118.jpeg"/>
+
+  <p class="text-center mt-1" >to my princess<br/> <i>roses are red, violets are blue, my love for you kindles ruse</i> </p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/69.jpg"/>
+
+  <p class="text-center mt-1" >it's possible <i>Chris Brown</i> meant no harm when he had that collab with <i>Davido</i> and someone blurted <i>you're a star</i>. <i>Juice Wrld</i> was alive, my first mixtape had dropped, I'd just suffered a relapse, and was recuperating, new ideas were dangerous. Years later I told <i>Lil Nas X</i> a little secret <br/> I told him: <br/> <i>it's between stars</i> </p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/69%20%28i%29.jpg"/>
+
+  <p class="text-center mt-1" >thoughts and wishes are forever without water if they come out like:<br/> <i>I believe someday, someday I'll smash Rihanna</i><br/> like I'll own a car someday, have my own home, but the first, gawd help me. I'm married and she is too</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/69%20%28ii%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Jess</i> and I were in hot romance, I picked up the title <i>The Happy Ever After Playlist</i> by <i>Abby Jimenez</i>, it spiced up the atmosphere. When I finished the book, I went back to rediscover the accompanying songs and it's there I found <i>Between Friends</i>. Christmas day, 2022, I listened to their song <i>affection</i> and felt inspired, I recorded the song <i>Trauma</i> thereafter and posted it on X. It was for <i>Taylor Swift</i>, she was upset, but I was elated </p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/121.jpeg"/>
+
+  <p class="text-center mt-1" >i still like my friends who listened to <i>A$AP ROCKY</i> back in the university, even though they acted like they didn't know what the Anon was after, only y'all <br/><i>shalom</i> </p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/119.jpg"/>
+
+  <p class="text-center mt-1" ><i>can you quit?</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/70.jpg"/>
+
+  <p class="text-center mt-1" ><i>Kim</i> has been in my head since . . .</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/70%20%28vi%29.jpeg"/>
+
+  <p class="text-center mt-1" > I remember <i>Chrishell Stause</i> informing me she wrote a review for one of my books, Collection III, Thanks.<br/><i>Bre Tiesi, Emma Hernan</i>, and <i>Chrishell Stause</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/70%20%28i%29.jpeg"/>
+
+  <p class="text-center mt-1" >if <i>Caroline Polachek</i> would go on a date with me</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/70%20%28ii%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Wiz Khalifa</i> says if you see a hater, <i>let's wave</i>, what if it's in 3D? <br/> asking for <i>A. G. Cook</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/70%20%28iii%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>XCX</i> gave me a chart to map my feelings, it was really cute. I love her</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/70%20%28vii%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Kim Petras</i> for the win! <i>XCX</i> hooked me up on new narcotics.</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/70%20%28iv%29.jpeg"/>
+
+  <p class="text-center mt-1" >peace and love from <i>Becky Hill</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/70%20%28viii%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Maisie Peters</i> has interest for my old girlfriends, the very promiscuous ones, she's a good witch?</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/162.jpeg"/>
+
+  <p class="text-center mt-1" >aunty <i>Kim Richards</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/70%20%28v%29.jpeg"/>
+
+  <p class="text-center mt-1" >There is a certain X pap page that trolls the Duchess, <i>Elon Musk</i> says trolls go to heaven, so I guess it's fine.<br/> <i>Garcelle Beauvais and Meghan, Duchess of Sussex</i> </p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/71%20%28i%29.jpeg"/>
+
+  <p class="text-center mt-1" >Infanta<i> Sofia</i> of Spain donning green and white, a clandestine love affair?</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/71%20%28ii%29.jpeg"/>
+
+  <p class="text-center mt-1" >but for <i>Lili Reinhart</i> I met beautiful <i>Nguyễn Thúc Thuỳ Tiên</i>, I teased her about her reign as a beauty queen and finally started a rapport after she passed the tiara, <i>ain't that something?</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/71%20%28iii%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Lili</i> told me about famous <i>Charli Howard</i>, I told her <br/> <i>I'll start with your rent</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/132.jpeg"/>
+
+  <p class="text-center mt-1" >a couple made in Hollywood's heaven <br/><i>Jack Martin</i> and <i>Lili Reinhart</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/73.jpg"/>
+
+  <p class="text-center mt-1" ><i>Camila Cabello</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/74.jpg"/>
+
+  <p class="text-center mt-1" ><i>Rita Ora</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/75%20%28iii%29.jpg"/>
+
+  <p class="text-center mt-1" >two adorable Hiltons<br/> <i>Caspian</i> and <i>Milou</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/124.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Finn Harries</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/75.jpg"/>
+
+  <p class="text-center mt-1" ><i>Addison Rae</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/125.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Yomi Adegoke</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/76.png"/>
+
+  <p class="text-center mt-1" >this is <i>Dagny</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/76%20%28i%29.jpeg"/>
+
+  <p class="text-center mt-1" >i love <i>Lily Collins</i> too</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/76%20%28ii%29.jpeg"/>
+
+  <p class="text-center mt-1" >The Real Housewives of Beverly Hills, <i>mwah</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/76%20%28iii%29.jpg"/>
+
+  <p class="text-center mt-1" >rare beauties. <i>Emma Hernan</i> and <i>Chelsea Lazkani</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/122.jpg"/>
+
+  <p class="text-center mt-1" >if my mum and dad really do love me, would I need to say cheese?<br/><i>Ellen von Unwerth</i> and <i>Miley Cyrus</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/77%20%28i%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Mariam Rod</i> told me <i>Princess Sab Zada</i> and I would enjoy each other's company, time is waiting to hear the tale</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/79.jpg"/>
+
+  <p class="text-center mt-1" >mum and <i>Michael Coste</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/79%20%28i%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Stella Hudgens</i> loves my cover of Moonlight</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/79%20%28ii%29.png"/>
+
+  <p class="text-center mt-1" >a depiction of <b>Poem 108</b> by director <i>Kristian Berg</i> from <b>Paradise</b> by <i>Alan Walker</i>, <i>K-391</i>, and <i>Boy in Space</i><br/>you took something horrible away from me</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/123.jpeg"/>
+
+  <p class="text-center mt-1" >i'm fine guys, thanks for asking, my dad is awesome, I know<br/><i>Twenty One Pilots </i><br/><i>Tyler Joseph</i> and <i>Josh Dun</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/80%20%28iii%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Princess Maria Carolina di Borbone delle Due Sicilie</i> and <i>Princess Maria Chiara di Borbone delle Due Sicilie</i>, angels of light, thank you</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/134.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Julia Fox</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/80%20%28iv%29.jpg"/>
+
+  <p class="text-center mt-1" >what's <i>Stella Barey</i> looking for?</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/80%20%28v%29.jpeg"/>
+
+  <p class="text-center mt-1" >this isn't <i>Corinna Kopf</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/80%20%28vi%29.jpeg"/>
+
+  <p class="text-center mt-1" >meet <i>Kendall Jenner</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/80%20%28viii%29.jpg"/>
+
+  <p class="text-center mt-1" >maybe it was her</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/80%20%28ix%29.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Brian Rose</i> and his beautiful boys</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/80%20%28x%29.jpg"/>
+
+  <p class="text-center mt-1" >Here she is, only one <i>Corinna Kopf</i>. I love you</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/80.jpg"/>
+
+  <p class="text-center mt-1" >Paris makes me cry always, just joy ones<br/><i>Paris Hilton</i> and <i>little Phoenix</i> </p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/80%20%28vii%29.jpeg"/>
+
+  <p class="text-center mt-1" >i'm missing something, where is <i>Rina Lipa</i>?</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/113.jpeg"/>
+
+  <p class="text-center mt-1" >no one is like her <br/><i>Rina Lipa</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/135.jpeg"/>
+
+  <p class="text-center mt-1" >three beauties <br/> <i>Sofia Wylie, Katie Campbell</i> and <i>Ellie Grace</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/136.jpeg"/>
+
+  <p class="text-center mt-1" >team! team!<br/><i>Amber J Greaves</i> and <i>Devyn Richard</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/133.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Olivia Pierson</i> and <i>Natalie June Halcro</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/81%28i%29.jpg"/>
+
+  <p class="text-center mt-1" >the first princess that said hi, ah! . . . <i>Catharina-Amalia, Princess of Orange</i>, though I think I sent an email to King James Bible, the publishers of the bible or a similar group based in Netherlands, it was about copyrights</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/143.jpeg"/>
+
+  <p class="text-center mt-1" >lovely numbers, lovely<br/><i>LeBron James</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/81.jpg"/>
+
+  <p class="text-center mt-1" >and my wife, Princess Leonor of Asturias, love at first sight, seventeen, isn't it obvious this girl is up to something? Do you know the song Jolene by Dolly Parton?</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/82.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Queen Letizia</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/83.jpeg"/>
+
+  <p class="text-center mt-1" ><i>King Felipe VI</i></p>
+
+<p> </p>
+
+`, 
+
+`
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_01.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Chloe Bailey</i> has got that scare, but still I'd touch</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/207.jpg"/> 
+
+  <p class="text-center mt-1" >my natural parents. <br/>My natural mum's grandfather used to be the royal ruler of my current town, <i>the Olota of Ota</i>, the king of Ota, and my natural dad's father used to be <i>the Olubadan of Ibadan</i>, the king of Ibadan. <br/> When I was younger, in high school they enjoyed the status of <i>omoba to fe omoba</i> meaning two married royalties, and everyone dubbed me <i>double prince</i>, <i>DP</i> for short <br/><i>The Ogundipes</i></p>
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/217.jpg"/> 
+
+  <p class="text-center mt-1" ><i>my natural maternal great-grandfather </i></p>
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/216.jpg"/> 
+
+  <p class="text-center mt-1" ><i>my natural paternal grandfather </i></p>
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/208.jpg"/> 
+
+  <p class="text-center mt-1" ><i>the tallest female, a year younger is now late. <br/> My natural siblings </i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/209.jpg"/> 
+
+  <p class="text-center mt-1" ><i>a family picture on my natural mum's birthday at the turn of the new millennium</i></p>
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/210.jpg"/> 
+
+  <p class="text-center mt-1" >with my secondary school classmates on my thirteenth birthday. My shirt reads: <br/><i>Enjoy the edge <br/>Surf. </i><br/>A note to Taylor Swift from the past</p>
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/211.jpg"/> 
+
+  <p class="text-center mt-1" ><i>the most beautiful thing in the world is to be wonderfully alive </i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/212.jpg"/> 
+
+  <p class="text-center mt-1" ><i>little Nightswan </i></p>
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/213.jpg"/> 
+
+  <p class="text-center mt-1" ><i>before cells phone were a thing </i></p>
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/214.jpg"/> 
+
+  <p class="text-center mt-1" ><i>top bunk, that was my sleep pod</i></p>
+
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/215.jpg"/> 
+
+  <p class="text-center mt-1" ><i>not sure how stoned I was but I was shy cos now I could try out one of my get rich quick schemes  </i></p>
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/218.jpg"/> 
+
+  <p class="text-center mt-1" ><i>Nightswan during writing </i></p>
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/house.jpg"/>
+  
+  <p class="text-center mt-1" >it is here I write you from</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/my%20room%20%28i%29.jpg"/>
+
+  <p class="text-center mt-1" >from this room</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/my%20room%20%28ii%29.jpg"/>
+
+  <p class="text-center mt-1" >that isn't my bedsheet, sadly mine has got rents</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/my%20room%20%28iii%29.jpg"/>
+
+  <p class="text-center mt-1" >I work from that desk a lot. <br/> Pretty much all I own. But just days before I started with part three, my PC's battery went flat; couldn't hold any charge, and from constant electricity disconnection, my OS got corrupt, but I was lucky, I got this PC from a serviceman whom I've known for over a year now</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_02.jpg"/>
+
+  <p class="text-center mt-1" >here is <i>Kara Zwaanstra</i>'s hubby, lucky or unlucky man? <br/> I wonder how influential I am</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_3%20Frith%20Hilton.jpg"/>
+
+  <p class="text-center mt-1" >back in university, I was twenty, I hadn't touched the cess, disregard the two lines on my arm, and the USB cord</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_04.jpg"/>
+
+  <p class="text-center mt-1" ><i>BLACKPINK'S Lisa</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_05.jpg"/>
+
+  <p class="text-center mt-1" >we should tie  the knot baby <br/><i>Ice Spice</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_07.jpg"/>
+
+  <p class="text-center mt-1" ><i>Kelsey Kimler</i> and her girlfriend <i>Tess Chevalier</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_08.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Amanda Padilla</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/145.jpeg"/>
+
+  <p class="text-center mt-1" >it's <i>Marc Jacobs</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_09.jpg"/>
+
+  <p class="text-center mt-1" ><i>Beyonce</i> has a tattoo across my heart</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/147.jpeg"/>
+
+  <p class="text-center mt-1" >fine ass <i>Astrid</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_10.jpg"/>
+
+  <p class="text-center mt-1" >wishing you more kids, congrats on London<br/> <i>Paris Hilton</i> and <i>Carter Reum</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_11.jpg"/>
+
+  <p class="text-center mt-1" >if you'll be a Prince someday, get you a beauty like <i>Mira Nowhere</i> to bring you messages from the Princess</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_31%20%28i%29.jpg"/>
+
+  <p class="text-center mt-1" >her Majesty <i>Queen Letizia</i> of Spain</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_32.jpg"/>
+
+  <p class="text-center mt-1" >her Majesty <i>Queen Maxima</i> of Netherlands</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/148.jpg"/>
+
+  <p class="text-center mt-1" >their Majesties <i>Queen Rania</i> of Jordan and <i>Queen Letizia</i> of Spain</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_33.jpg"/>
+
+  <p class="text-center mt-1" >their Majesties <i>King Felipe VI</i> and <i>Queen Letizia</i> of Spain</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_34.jpg"/>
+
+  <p class="text-center mt-1" >their Highnesses <i>Crown Prince Frederick</i> and <i>Crown Princess Mary</i> of Denmark</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_35.jpg"/>
+
+  <p class="text-center mt-1" >their Majesties <i>Queen Mathilde</i> and <i>King Philippe</i> of Belgium of Belgium</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_36.jpg"/>
+
+  <p class="text-center mt-1" >their serene Highnesses <i> Prince Albert II</i> and <i>Princess Charlene Wittstock</i> of Monaco</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_37.jpg"/>
+
+  <p class="text-center mt-1" >
+their Majesties <i>Empress Masako</i> and <i>Emperor Naruhito</i> of Japan</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_40.jpg"/>
+
+  <p class="text-center mt-1" >their Majesties <i>Queen Maxima</i> and  <i>King Willem-Alexander</i> of The Netherlands, that's Jacaranda behind</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_44.jpg"/>
+
+  <p class="text-center mt-1" >their Highnesses <i>Crown Prince Frederick</i> and <i>Crown Princess Mary</i> of Denmark</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_45.jpg"/>
+
+  <p class="text-center mt-1" >her Majesty <i>Queen Margrethe II</i> of Denmark</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_38.jpg"/>
+
+  <p class="text-center mt-1" >their Highnesses <i>Prince William</i> and <i>Princess Catherine</i> of Wales</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_42.jpg"/>
+
+  <p class="text-center mt-1" >her Highness <i>Crown Princess Victoria</i> of Sweden</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_43.jpg"/>
+
+  <p class="text-center mt-1" >their Highnesses <i>Crown Princess Victoria</i> and <i>Prince Daniel of Sweden</i></p>
+  
+    <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/219.jpg"/> 
+
+  <p class="text-center mt-1" >their Highnesses <i>Prince Carl Philip</i> and <i>Princess Sofia of Sweden</i></p>
+
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/149.jpg"/>
+
+  <p class="text-center mt-1" >his Majesty <i>King Carl XVI Gustaf</i> of Sweden</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/150.jpg"/>
+
+  <p class="text-center mt-1" >her Majesty <i>Queen Silvia</i> of Sweden</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/153.jpg"/>
+
+  <p class="text-center mt-1" >their Majesties <i>King Carl XVI Gustaf</i> and <i>Queen Silvia</i> of Sweden</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/151.jpg"/>
+
+  <p class="text-center mt-1" >his Majesty <i>King Abdullah II,</i> her Majesty <i>Queen Rania,</i> and his Highness <i>Crown Prince Hussein</i> of Jordan</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/152.jpg"/>
+
+  <p class="text-center mt-1" > <i>Crown Princess Rajwa Al Hussein</i> and <i>Crown Prince Hussein</i> of Jordan</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/154.jpg"/>
+
+  <p class="text-center mt-1" >their Highnesses <i>Crown Prince Haakon</i> and <i>Crown Princess Mette-Marit</i> of Norway</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/155.jpg"/>
+
+  <p class="text-center mt-1" >their Majesties <i>Queen Sonja</i> and <i>King Harald V</i> of Norway</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/156.jpg"/>
+
+  <p class="text-center mt-1" ><i>Grand Duke Henri</i> and <i>Grand Duchess Maria Teresa</i> of Luxembourg</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/157.jpg"/>
+
+  <p class="text-center mt-1" ><i>Hereditary Grand Duchess Stéphanie</i> and <i>Hereditary Grand Duke Guillaume</i> of Luxembourg</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_39.jpg"/>
+
+  <p class="text-center mt-1" >their Majesties <i>Queen Camilla</i> and <i>King Charles III</i> of the United Kingdom alongside their Excellencies <i>President Yoon Suk Yeol</i> and <i>First Lady Kim Keon-hee</i> of South Korea</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_41.jpg"/>
+
+  <p class="text-center mt-1" >her Majesty <i>Queen Camilla</i> of the United Kingdom</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_46.jpg"/>
+
+  <p class="text-center mt-1" >as a child I knew the professor, first, because their were artist paintings of him everywhere, and found him interesting because it was common knowledge, his atheism</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_47.jpg"/>
+
+  <p class="text-center mt-1" ><i>Prof. Wole Soyinka</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_12.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Amala</i>'s bosom bears a cross</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_13.jpg"/>
+
+  <p class="text-center mt-1" >i love the bun</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_14.jpg"/>
+
+  <p class="text-center mt-1" >romance would be so easy <br/><i>Justin Skye</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_15.jpg"/>
+
+  <p class="text-center mt-1" >my older siblings, do you see the constellations in his eyes? <i>Baby Barron</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_17.jpg"/>
+
+  <p class="text-center mt-1" ><i>Evan You</i>, creator of the only JavaScript frontend framework I use, <i>Vue JS</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_18.jpg"/>
+
+  <p class="text-center mt-1" ><i>Cocoa House</i> everyone</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_19.jpg"/>
+
+  <p class="text-center mt-1" ><i>Janelle Monáe</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_20.jpg"/>
+
+  <p class="text-center mt-1" ><i>Emma Hernan</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_21.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Alissa Violet</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_22.jpg"/>
+
+  <p class="text-center mt-1" >their Highnesses <i>The Prince of Wales</i> and <i>Princess of Wales</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_23.jpg"/>
+
+  <p class="text-center mt-1" >how do you impress a rapper? <br/> wrap her? <br/> <i>BLACKPINK's Lisa</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_24.jpg"/>
+
+  <p class="text-center mt-1" ><i>Miley Cyrus</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_25.jpeg"/>
+
+  <p class="text-center mt-1" ><i>Zara Larsson</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_26.jpg"/>
+
+  <p class="text-center mt-1" ><i>Mahlagha Jaberi</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_27.jpg"/>
+
+  <p class="text-center mt-1" ><i>Princess Leonor</i> and <i>Infanta Sofia</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_28.jpg"/>
+
+  <p class="text-center mt-1" ><i>Swizz Beatz</i>, <i>Alicia Keys</i> and <i>Genesis Ali Dean</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_29.jpg"/>
+
+  <p class="text-center mt-1" >kisses</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/158.jpg"/>
+
+  <p class="text-center mt-1" ><i>John Gwynne</i></p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_30.jpg"/>
+
+  <p class="text-center mt-1" >I love <i>Elon Musk</i>, he loves me too</p>
+
+  <img alt="Image" class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/1965/_31.jpg"/>
+
+  <p class="text-center mt-1" >Los Angeles County Museum of Art (LACMA)</p>
+
+
+
+`, 
 
 
 
