@@ -451,8 +451,14 @@
                 </div>
 
                 <div v-if="store.calendarState == 'days' ">
-                  <div v-for="(day, dayIndex) in store.calendarResources().data[store.activeCalendar.year][Object.keys(store.calendarResources().data[store.activeCalendar.year])[store.activeCalendar.month]]" :key="dayIndex">
-                    <h1> {{ day.date }} {{ day.data }} </h1>
+                  <div v-for="(day, dayIndex) in store.calendarResources().data[store.activeCalendar.year][Object.keys(store.calendarResources().data[store.activeCalendar.year])[store.activeCalendar.month]]" :key="dayIndex" class="mb-5 text-center">
+                        <h2 class="col-4">
+                          <span class="hedding-svg">{{store.convertIndex(dayIndex + 1)}}</span>
+                        </h2>
+                        <button class="btn btn-naked btn-icon-right" href="#!" v-effect="if (store.activeCalendar.day ==
+                            dayIndex ) $el.focus()"></button>
+                        <h5 class="mt-3">{{day.date}}</h5>
+                        <span v-show="store.currentChapter == index" class="title-separator"></span>
                   </div>
                   <!--===== Go back  =====-->
                   <div class="col-lg-3 col-sm-6">
@@ -826,6 +832,11 @@
         year: "",
         month: "",
         day: "",
+      },         
+      convertIndex(prop) {
+         var indexNumber = prop;
+         var number = numbered.stringify(indexNumber);
+         return number;
       },
       calendarResources() {
         return {
