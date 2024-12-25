@@ -5,82 +5,122 @@
   <!--===== Required meta tags =====-->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="author" content="Infinitysoftway" />
+  <meta name="author" content="Nightswan Frith Hilton" />
   <meta name="description" content="statistic charts" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta property="og:url" content="" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Frith Hilton's Vision 2020 (A Life Worth Living) " />
+  <meta property="og:description" content="Frith Hilton's Vision 2020 (A Life Worth Living) " />
+  <meta property="og:image" content="" />
 
   <!--===== Title =====-->
-  <title>A Life Worth Living (Vision @ 2020)</title>
+  <title>Vision 2020 (A Life Worth Living) </title>
 
   <!--===== Favicon =====-->
-  <link rel="shortcut icon" href="/images/favicon.png" />
+  <link rel="shortcut icon" href="../../images/favicon.png" />
 
   <!--===== Google fonts =====-->
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Jost:wght@300;400;500;600;700;800;900&display=swap" />
-      <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Jost:wght@300;400;500;600;700;800;900&display=swap" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet" />
+  <!-- font-awesome-icons -->
+  <script src="https://kit.fontawesome.com/c7fbb1b458.js" crossorigin="anonymous"></script>
 
   <!--===== Global bootstrap required css =====-->
-  <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css" />
+  <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css" />
   <!--===== Global styles including: Font Icons, Plugins, etc =====-->
-  <link rel="stylesheet" type="text/css" href="/css/font-awesome/all.min.css" />
-  <link rel="stylesheet" href="/css/feather/iconfont.css" />
-  <link rel="stylesheet" href="/css/pe-icon-stroke/Pe-icon-7-stroke.css" />
-  <link rel="stylesheet" href="/css/simple-line-icons/simple-line-icons.css" />
-  <link rel="stylesheet" href="/css/themify-icons/themify-icons.css" />
-  <link rel="stylesheet" href="/css/pe-icon-stroke/Pe-icon-7-stroke.css" />
-  <link rel="stylesheet" href="/css/swiper/swiper.min.css" />
-  <link rel="stylesheet" href="/css/magnific-popup/magnific-popup.css" />
+  <link rel="stylesheet" type="text/css" href="../../css/font-awesome/all.min.css" />
+  <link rel="stylesheet" href="../../css/feather/iconfont.css" />
+  <link rel="stylesheet" href="../../css/pe-icon-stroke/Pe-icon-7-stroke.css" />
+  <link rel="stylesheet" href="../../css/simple-line-icons/simple-line-icons.css" />
+  <link rel="stylesheet" href="../../css/themify-icons/themify-icons.css" />
+  <link rel="stylesheet" href="../../css/pe-icon-stroke/Pe-icon-7-stroke.css" />
+  <link rel="stylesheet" href="../../css/swiper/swiper.min.css" />
+  <link rel="stylesheet" href="../../css/magnific-popup/magnific-popup.css" />
   <!--===== Main theme css =====-->
-  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="../../css/style.css" />
+  <style>
+    .popup-container {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      z-index: 9999;
+    }
+
+    .image-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    .image-container img {
+      width: 85vw;
+      /* Increased width */
+      height: auto;
+      /* Maintain aspect ratio */
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      object-fit: contain;
+      /* Ensure image fits within container */
+    }
+  </style>
+
 </head>
 
-<body class="stokes-wrapper" id="ctrlArea">
-
-    <!--========== 
+<body class="stokes-wrapper" id="ctrlArea" v-cloak>
+  <!--========== 
 	Start of loader ==========-->
 
-  <div class="template-loader">
+  <!--<div class="template-loader">
     <div class="loaderCenter">
-      <div class="pencil">
-          <p>nightswan.com.ng</p>
-          <div class="loaderTop"></div>
+      <div class="book">
+        <div class="book__pg-shadow"></div>
+        <div class="book__pg"></div>
+        <div class="book__pg book__pg--2"></div>
+        <div class="book__pg book__pg--3"></div>
+        <div class="book__pg book__pg--4"></div>
+        <div class="book__pg book__pg--5"></div>
       </div>
-      <div class="stroke">
-      </div>
-  </div>
-  </div>
+    </div>
+  </div>-->
 
   <!--========== 
 	End of loader ==========-->
-
 
   <!--========== 
     Start of  cookie modal notification section ==========-->
   <div class="modal-subscribe">
     <!-- Modal -->
     <div class="modal fade" data-bs-backdrop="static" id="myModal" tabindex="-1" aria-hidden="true">
-      <div class="modal-dialog ">
+      <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-body p-0 bg-secondary rounded">
             <div class="p-5 text-center">
-              <img class="img-fluid px-5" src="/images/svg/cookie.svg" alt="">
+              <img class="img-fluid px-5" src="../../images/svg/cookie.svg" alt="" />
               <h3>Cookies</h3>
-              <p class="text-dark">Managed by <b>F</b>rith<b> N</b>ightswan<b> E</b>nterprises</p> 
-              <a href="/cookies.html" class="text-primary-gradient
-                    fw-bold">Our policy</a>
+              <p class="text-dark">
+                Managed by <b>F</b>rith<b> N</b>ightswan<b> E</b>nterprises</p>
+              <a href="/cookies.html" class="text-primary-gradient fw-bold">Our policy</a>
               <div class="d-grid mt-5">
-                <button type="button" class="btn btn-white rounded" data-bs-dismiss="modal"
-                  @click="store.acceptCookieUse()">Accept</button>
-                <p class="text-dark mt-4">Coupled with
+                <button type="button" class="btn btn-white rounded" data-bs-dismiss="modal" @click="store.acceptCookieUse()">
+                  Accept
+                </button>
+                <p class="text-dark mt-4">
+                  Coupled with
                   <svg class="logo" viewBox="0 0 128 128" width="24" height="24" data-v-53ccc107="">
-                    <path fill="#42b883" d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z"
-                      data-v-53ccc107=""></path>
-                    <path fill="#35495e" d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z" data-v-53ccc107="">
-                    </path>
+                    <path fill="#42b883" d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z" data-v-53ccc107=""></path>
+                    <path fill="#35495e" d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z" data-v-53ccc107=""></path>
                   </svg>
-                  <a href="https://github.com/vuejs/petite-vue" target="_blank"
-                    style="color: #42b883;"><b>petite-vue</b></a>
+                  <a href="https://github.com/vuejs/petite-vue" target="_blank" style="color: #42b883"><b>petite-vue</b></a>
                 </p>
               </div>
             </div>
@@ -94,20 +134,18 @@
   <!--==========-->
 
 
-  <!--========== 
-	Start of Header Section ==========-->
+
+
 
   <header class="header">
     <!--===== Start of navbar =====-->
     <nav class="navbar navbar-light navbar-expand-lg navbar-default">
       <div class="container-fluid">
         <!--===== Start of logo =====-->
-        <a class="navbar-brand" href="/"><img class="logo" src="/images/logo.png" alt="Logo" /></a>
+        <a class="navbar-brand" href="/"><img class="logo" src="../../images/logo.png" alt="Frith Hilton Logo" /></a>
         <!--===== End of logo =====-->
 
-        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-          aria-label="Toggle navigation">
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="icon-bar top-bar mt-0"></span>
           <span class="icon-bar middle-bar"></span>
           <span class="icon-bar bottom-bar"></span>
@@ -117,72 +155,159 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="/"><span class="text-line"> Home
-                </span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/published/poetry/collection-IV.html"><span class="text-line">Collection IV
-                </span><span class="badge
-                    bg-primary" style="font-size: .55em;">New</span></a>
+              <a class="nav-link" href="/"><span class="text-line"> Home </span></a>
             </li>
             <li class="nav-item dropdown active">
-              <a class="nav-link dropdown-toggle" href="#" id="navbar-pages" data-bs-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                <span class="text-line"> Published </span>
+              <a @click="store.goToPublished" class="nav-link dropdown-toggle" href="#" id="navbar-pages" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="text-line"> Publications</span>
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbar-pages">
+
+              <!--<ul class="dropdown-menu" aria-labelledby="navbar-pages">
+                <div class="mb-3 mt-3">
+                  <a href="#">
+                    Frith Hilton Collections
+                  </a>
+                </div>
+
                 <li class="dropdown-submenu">
-                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Poetry </span></a>
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections I — III </span></a>
                   <ul class="dropdown-menu">
                     <li>
-                      <a class="dropdown-item" href="/published/poetry/collection-I.html"><span class="text-line">
-                          Frith Hilton Collection I
+                      <a class="dropdown-item" href="../published/poetry/collection-I.html"><span class="text-line">
+                          Collection I
                         </span></a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/published/poetry/collection-II.html"><span class="text-line">
-                          Frith Hilton Collection II
+                      <a class="dropdown-item" href="../published/poetry/collection-II.html"><span class="text-line">
+                          Collection II
+                        </span></a>
+                    </li>
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collection III </span></a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="../published/poetry/collection-III.html"><span class="text-line">
+                              Valentine Edition
+                            </span></a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="../published/poetry/collection-III-ii.html"><span class="text-line">
+                              Original Edition
+                            </span></a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections IV — VI </span></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="../published/poetry/collection-IV.html"><span class="text-line">
+                          Collection IV
                         </span></a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/published/poetry/collection-III.html"><span class="text-line">
-                          Frith Hilton Collection III
+                      <a class="dropdown-item" href="../published/poetry/collection-V.html"><span class="text-line">
+                          Collection V
                         </span></a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/published/poetry/collection-IV.html"><span class="text-line">
-                          Frith Hilton Collection IV
+                      <a class="dropdown-item" href="../published/poetry/collection-VI.html"><span class="text-line">
+                          Collection VI
                         </span></a>
                     </li>
                   </ul>
                 </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections VII — IX </span></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-VII.html"><span class="text-line">
+                          Collection VII
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-VIII.html"><span class="text-line">
+                          Collection VIII
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-IX.html"><span class="text-line">
+                          Collection IX
+                        </span></a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections X — XII </span></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-X.html"><span class="text-line">
+                          Collection X
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-XI.html"><span class="text-line">
+                          Collection XI
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-XII.html"><span class="text-line">
+                          Collection XII
+                        </span></a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections XIII — XIV </span></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-XIII.html"><span class="text-line">
+                          Collection XIII
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-XIV.html"><span class="text-line">
+                          Collection XIV
+                        </span><span class="badge bg-primary" style="font-size: 0.55em">New</span></a>
+                    </li>
+                  </ul>
+                </li>
+                <div class="mb-3 mt-3">
+                  <a href="#">
+                    Non-Fiction
+                  </a>
+                </div>
+
                 <li>
-                  <a class="dropdown-item" href="/published/journal/a-life-worth-living.html"><span class="text-line">
+                  <a class="dropdown-item" href="published/poetry/bury-me-in-2020.html"><span class="text-line">
+                      Vision 2020 (A Life Worth Living) 
+                    </span></a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="published/journal/a-life-worth-living.html"><span class="text-line">
                       A Life Worth Living (Vision @ 2020)
                     </span></a>
                 </li>
-              </ul>
+              
+              </ul>-->
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="../../pages/upcoming.html"><span class="text-line"> Upcoming Poetry</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/pages/upcoming.html"><span class="text-line"> Upcoming </span></a>
+              <a class="nav-link" href="../../pages/musicpool.html"><span class="text-line"> Musicpool </span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/cookies.html"><span class="text-line"> Cookies Policy </span></a>
+              <a class="nav-link" href="pages/bio.html"><span class="text-line"> Bio </span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../cookies.html"><span class="text-line"> Cookies Policy </span></a>
             </li>
           </ul>
-        </div>
-        <div class="navbar-icons list-unstyled mb-0 ms-auto">
-          <a class="icon" href="https://www.facebook.com/frithhilton" target="_blank">
-            <i class="feather icon-facebook"></i>
-          </a>
-          <a class="icon" href="https://www.instagram.com/frithhilton" target="_blank">
-            <i class="feather icon-instagram"></i>
-          </a>
-          <a class="icon" href="https://www.twitter.com/frithhilton" target="_blank">
-            <i class="feather icon-twitter"></i>
-          </a>
-
-
         </div>
         <!--===== End of nav =====-->
       </div>
@@ -191,29 +316,158 @@
   </header>
 
   <!--========== 
-	End of header ==========-->
+        End of header ==========-->
 
+  <!--========== 
+        End of Sidebar ==========-->
+  <section class="position-relative slice-ptb">
+    <div class="mb-0">
+      <a id="designer" href="https://leondev.com.ng" target="_blank">
+        <img class="img-fluid" src="../../images/ads/designedBySamsungS8.png" alt="">
+      </a>
+    </div>
+  </section>
+  <section class="position-relative slice-ptb">
+    <div class="top-separator">
+      <img class="img-fluid" src="../../images/separator/brush.svg" alt="" />
+    </div>
+    <div class="slice-ptb text-nightswan-gradient mt-n5">
+      <div class="container">
+        <div class="row text-center justify-content-center">
+          <div class="col-lg-9 col-xl-8">
+            <h1 class="text-white">
+              Bury me in
+              <span class="text-nightswan-gradient"> 2020</span>
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-divider mt-n5">
+      <img class="img-fluid" :src="'../../images/separator/brush.svg'" alt="" />
+    </div>
+  </section>
 
-
-<!--========== 
-  Start of 404 Page ==========-->
-
-  <section class="slice-ptb">
+  <section class="position-relative slice-ptb">
     <div class="container">
-      <div class="row justify-content-center text-center">
-        <div class="col-xl-6">
-          <b class="text-primary lead fw-bold">Book isn't here yet.</b>
-          <h1 class="error-title mt-4 mb-5">📖 </h1>
-          <h3>Check back soon</h3>
-          <p><b class="fw-bold">The Journal </b> will be here for you to enjoy.</p>
-          <a class="btn btn-warning btn-rounded mt-4" href="/index.html">Back to home</a>
+      <button class="btn btn-naked btn-icon-right" href="#!" v-effect="if
+        (store.currentChapter == 0) $el.focus()"></button>
+      <div class="row align-items-center mt-6">
+        <h2 class="mb-6 text-center">Contents</h2>
+        <div class="col-12">
+          <ul class="nav nav-pills nav-border-wide justify-content-center mb-3" id="pills-tab-07" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-trekking-tab" data-bs-toggle="pill" data-bs-target="#pills-trekking" type="button" role="tab" aria-controls="pills-trekking" aria-selected="true" @click="store.setCover2020AsTab()">
+                Cover
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-analysis-tab" data-bs-toggle="pill" data-bs-target="#pills-analysis" type="button" role="tab" aria-controls="pills-analysis" aria-selected="false" @click="store.setAuthor2020AsTab()">
+                Author's Note
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-investment-management-11-tab" data-bs-toggle="pill" data-bs-target="#pills-investment-management-11" type="button" role="tab" aria-controls="pills-investment-management-11" aria-selected="false" @click="store.setDed2020AsTab()">
+                Dedication & Acknowledgements
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-integration-tab" data-bs-toggle="pill" data-bs-target="#pills-integration" type="button" role="tab" aria-controls="pills-integration" aria-selected="false" @click="store.setChapters2020AsTab()">
+                Chapters
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content mt-5" id="pills-tabContent-07">
+            <div class="tab-pane fade show active" id="pills-trekking" role="tabpanel" aria-labelledby="pills-trekking-tab">
+              <div class="row">
+                <div class="col-lg-6">
+                  <img alt="Frith Hilton's Vision 2020 (A Life Worth Living) " class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/2020/coverDesign.jpg">
+                  <hr class="my-5" />
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-analysis" role="tabpanel" aria-labelledby="pills-analysis-tab">
+              <div class="row justify-content-center">
+                <div class="col-lg-6">
+                  <div v-html="store.pageResources().authorsNote" class="mt-4 me-4 ms-4"></div>
+                  <hr class="my-5" />
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-investment-management-11" role="tabpanel">
+              <div class="row">
+                <div class="col-lg-6">
+                  <h4 class="text-center">Dedication</h4>
+                  <div v-html="store.pageResources().dedication" class="mt-4 me-4 ms-4"></div>
+                </div>
+                <div class="col-lg-5 mt-5">
+                  <h4 class="text-center">Acknowledgements</h4>
+                  <div v-html="store.pageResources().acknowledgements" class="mt-4 me-4 ms-4"></div>
+                </div>
+              </div>
+              <hr class="my-5" />
+            </div>
+            <div class="tab-pane fade" id="pills-integration" role="tabpanel" aria-labelledby="pills-integration-tab">
+
+              <div class="row justify-content-center" id="reading">
+                <!--Reading Content-->
+                <div v-if="store.calendarState == 'years' ">
+                  <h1 @click="store.setcalendarState({ year: '2019', state: 'months' }) " class="col-12 mb-5 mt-5 text-center text-nightswan-gradient fw-bold addSomePadding ">2019</h1>
+                  <hr class="my-5" />
+                  <h1 @click="store.setcalendarState({ year: '2020', state: 'months' }) " class="col-12 mb-5 mt-5 text-center text-nightswan-gradient fw-bold addSomePadding ">2020</h1>
+                  <hr class="my-5" />
+                  <h1 @click="store.setcalendarState({ year: '2021', state: 'months' }) " class="col-12 mb-5 mt-5 text-center text-nightswan-gradient fw-bold addSomePadding ">2021</h1>
+                  <hr class="my-5" />
+                </div>
+
+                <div v-if="store.calendarState == 'months' ">
+                  <div v-if="store.activeCalendar.year == '2019'">
+                    2019
+                    <div v-for="(month, monthIndex) in Object.keys(store.calendarResources().data['2019'])" :key="monthIndex">
+                      <h1 @click="store.setcalendarState({ year: '2019', month: monthIndex, state: 'days' }) " class="col-12 mb-5 mt-5 text-center text-nightswan-gradient fw-bold addSomePadding ">{{month}}</h1>
+                    </div>
+                  </div>
+                  <div v-if="store.activeCalendar.year == '2020'">
+                    2020
+                    <div v-for="(month, monthIndex) in Object.keys(store.calendarResources().data['2020'])" :key="monthIndex">
+                      <h1 @click="store.setcalendarState({ year: '2020', month: monthIndex, state: 'days' }) " class="col-12 mb-5 mt-5 text-center text-nightswan-gradient fw-bold addSomePadding ">{{month}}</h1>
+                    </div>
+                  </div>
+                  <div v-if="store.activeCalendar.year == '2021'">
+                    2021
+                    <div v-for="(month, monthIndex) in Object.keys(store.calendarResources().data['2021'])" :key="monthIndex">
+                      <h1 @click="store.setcalendarState({ year: '2021', month: monthIndex, state: 'days' }) " class="col-12 mb-5 mt-5 text-center text-nightswan-gradient fw-bold addSomePadding ">{{month}}</h1>
+                    </div>
+                  </div>
+                  <!--===== Go back  =====-->
+                  <div class="col-lg-3 col-sm-6">
+                    <p @click="store.goBackInState()" class="btn btn-naked-wrap go-back-btn">
+                      <i class="feather icon-arrow-left"></i>
+                      <span> Years </span>
+                    </p>
+                  </div>
+                  <!--===== End Go back  =====-->
+
+                </div>
+
+                <div v-if="store.calendarState == 'days' ">
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="mb-5">
+            <a id="media-link" href="#" target="_blank">
+              <div id="media-container"></div>
+            </a>
+          </div>
+
         </div>
       </div>
     </div>
   </section>
-  
-  <!--========== 
-    End of 404 Page ==========-->
+
 
 
 
@@ -227,8 +481,7 @@
         <div class="col-12 text-center">
           <h3 class="text-white" id="some-id">
             I'm here
-            <u class="typer text-warning" data-words="writing,making music," data-delay="100" data-deletedelay="1000"
-              style="color: black"></u>
+            <u class="typer text-warning" data-words="writing,making music," data-delay="100" data-deletedelay="1000" style="color: black"></u>
             often.
           </h3>
         </div>
@@ -244,10 +497,7 @@
 
   <section id="contact-us" class="position-relative">
     <div class="google-map">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.629367104963!2d3.2316144785641425!3d6.692744576034127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b996ae457d243%3A0x63b338921b72fdf9!2sFrith%20Nightswan%20Enterprises!5e0!3m2!1sen!2sng!4v1683451340692!5m2!1sen!2sng"
-        width="800" height="600" style="border: 0" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.629367104963!2d3.2316144785641425!3d6.692744576034127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b996ae457d243%3A0x63b338921b72fdf9!2sFrith%20Nightswan%20Enterprises!5e0!3m2!1sen!2sng!4v1683451340692!5m2!1sen!2sng" width="800" height="600" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
     <!--========== 
@@ -274,7 +524,8 @@
             <h4 class="mb-4">Address</h4>
             <div class="mb-4">
               <h5>11, Akindenoh street Ota, Ogun State.</h5>
-              <p>info@nightswan.com.ng</p>
+              <p><a href="mailto:nightswan.enterprise@gmail.com">Send Frith Hilton Mail</a></p>
+
             </div>
             <h2 class="text-green mb-0 mt-5">
               <i class="feather icon-phone-call"></i> (234) 815 813 2408
@@ -296,13 +547,16 @@
           </h2>
 
           <div class="social-icons icons-xl mt-5">
-            <a class="icon text-white" href="https://www.facebook.com/frithhilton" target="_blank">
-              <i class="fab fa-facebook-f"></i>
+            <a class="icon text-white" href="https://youtube.com/@frithhilton17?si=8pEsa1wf1KxLNvBK" target="_blank">
+              <i class="fab fa-youtube"></i>
             </a>
-            <a class="icon text-white" href="https://www.twitter.com/frithhilton" target="_blank">
-              <i class="fab fa-twitter"></i>
+            <a class="icon text-white" href="https://www.tiktok.com/@frithhilton17" target="_blank">
+              <i class="fab fa-tiktok"></i>
             </a>
-            <a class="icon text-white" href="https://www.instagram.com/frithhilton" target="_blank">
+            <a class="icon text-white" href="https://www.twitter.com/frithhilton17" target="_blank">
+              <i class="fab fa-x-twitter"></i>
+            </a>
+            <a class="icon text-white" href="https://www.instagram.com/frithhilton17" target="_blank">
               <i class="fab fa-instagram"></i>
             </a>
           </div>
@@ -311,9 +565,12 @@
       <hr class="mt-7" />
       <div class="row text-center">
         <div class="col-12">
-          <p class="text-white mt-3 mb-4 pe-6">
+          <div class="developer-footer mb-2">
+            <a href="https://leondev.com.ng" target="_blank"><img src="/images/Leondev.png" alt="lEoNDɘv" width="80" height="80"></a>
+          </div>
+          <p class="text-white mt-3 mb-4">
             © <span id="getFullYear"></span>
-            <span class="text-pink-gradient">Nightswan Frith Hilton</span>.
+            <b>|</b> Managed by <span class="text-pink-gradient"> Frith Nightswan Enterprises</span>
           </p>
         </div>
       </div>
@@ -323,52 +580,748 @@
   <!--========== 
   End of footer section ==========-->
 
+  <!--========== 
+        Start of back to top section ==========-->
 
+  <div class="go-top">
+    <p class="go-top-text">
+      Scroll to top <i class="fas fa-long-arrow-alt-right ps-2"></i>
+    </p>
+  </div>
 
-
-    <!--========== 
-	Start of back to top section ==========-->
-
-    <div class="go-top">
-      <p class="go-top-text">
-        Scroll to top <i class="fas fa-long-arrow-alt-right ps-2"></i>
-      </p>
-    </div>
-
-    <!--========== 
+  <!--========== 
 	End of back to top section ==========-->
+
+  <!-- Popup container -->
+  <div class="popup-container" id="popup-container">
+
+    <!-- Image container -->
+    <div id="image-container" class="image-container">
+      <img src="../../images/ads/xokhloei.gif" alt="Popup Image" />
+    </div>
+  </div>
+
+  <!-- Popup container -->
+  <div class="popup-container" id="popup-container-ii">
+
+    <!-- Image container -->
+    <div id="image-container-ii" class="image-container">
+      <img src="../../images/ads/Orebella.gif" alt="Popup Image ii" />
+    </div>
+  </div>
+
+  <div class="popup-container" id="popup-container-iii">
+
+    <!-- Image container -->
+    <div id="image-container-iii" class="image-container">
+      <img src="../../images/ads/wildflower.gif" alt="Popup Image iii" />
+    </div>
+  </div>
+
+  <div class="popup-container" id="popup-container-iv">
+
+    <!-- Image container -->
+    <div id="image-container-iv" class="image-container">
+      <img src="../../images/ads/cosmic.gif" alt="Popup Image iv" />
+    </div>
+  </div>
+
+  <div class="popup-container" id="popup-container-v">
+
+    <!-- Image container -->
+    <div id="image-container-v" class="image-container">
+      <img src="../../images/ads/khy.gif" alt="Popup Image v" />
+    </div>
+  </div>
+
+  <div class="popup-container" id="popup-container-vi">
+
+    <!-- Image container -->
+    <div id="image-container-vi" class="image-container">
+      <img src="../../images/ads/skims.gif" alt="Popup Image vi" />
+    </div>
+  </div>
+
+
+
+
 
   <!--========== 
 	Start of Javascript ==========-->
 
   <!--===== Global required js =====-->
-  <script src="/js/jquery-3.6.0.min.js"></script>
-  <script src="/js/popper.min.js"></script>
-  <script src="/js/bootstrap/bootstrap.min.js"></script>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <script src="../../js/jquery-3.6.0.min.js"></script>
+  <script src="../../js/popper.min.js"></script>
+  <script src="../../js/bootstrap/bootstrap.min.js"></script>
 
   <!--===== Global script: js libraries and plugins =====-->
-  <script src="/js/appear/jquery.appear.js"></script>
-  <script src="/js/swiper/swiper.min.js"></script>
-  <script src="/js/magnific-popup/jquery.magnific-popup.min.js"></script>
-  <script src="/js/isotope/isotope.pkgd.min.js"></script>
-  <script src="/js/typer/typer.js"></script>
-  <script src="/js/jarallax/jarallax.min.js"></script>
-  <script src="/js/mCustomScrollbar/jquery.mCustomScrollbar.min.js"></script>
+  <script src="../../js/appear/jquery.appear.js"></script>
+  <script src="../../js/swiper/swiper.min.js"></script>
+  <script src="../../js/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="../../js/isotope/isotope.pkgd.min.js"></script>
+  <script src="../../js/typer/typer.js"></script>
+  <script src="../../js/jarallax/jarallax.min.js"></script>
+  <script src="../../js/mCustomScrollbar/jquery.mCustomScrollbar.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/numbered/1.1.0/index.min.js" integrity="sha512-UQKbSOyUPIxk4a5/TIcqKUfl2JX0b1Rgq16BgvZbIWa7g5g3Rl/RXzFJFt2iu9LzDUpqDbcaak2ifjW887SxPw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="../../js/ads.js"></script>
+  <script src="../../js/2020.js"></script>
+  <!-- cdnjs -->
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
+
+
+  <script>
+    $(document).ready(function() {
+      // Function to check if it's the first load in the hour
+      function isFirstLoadInHour() {
+        const currentTime = new Date().getTime();
+        const storedTime = localStorage.getItem('popupLoadTime');
+
+        if (!storedTime || (currentTime - storedTime) >= 0) { // 0ms = 0 minutes
+          localStorage.setItem('popupLoadTime', currentTime);
+          return true;
+        }
+
+        return false;
+      }
+
+      // Open popup on first load in the hour with 5-second delay
+      if (isFirstLoadInHour()) {
+        setTimeout(function() {
+          $('#popup-container').fadeIn();
+        }, 5000); // 5000ms = 5 seconds
+      }
+
+      // Close popup on close button click, escape key press, or outside click
+      $('#close-btn').on('click', function() {
+        $('#popup-container').fadeOut();
+      });
+
+      $(document).keyup(function(e) {
+        if (e.key === 'Escape') {
+          $('#popup-container').fadeOut();
+        }
+      });
+
+      // Close popup when clicking outside the image
+      $('#popup-container').on('click', function(e) {
+        if ($(e.target).is('#popup-container') && !$(e.target).closest('.image-container').length) {
+          $(this).fadeOut();
+        }
+      });
+
+      $('#popup-container-ii').on('click', function(e) {
+        if ($(e.target).is('#popup-container-ii') && !$(e.target).closest('.image-container').length) {
+          $(this).fadeOut();
+        }
+      });
+
+      $('#popup-container-iii').on('click', function(e) {
+        if ($(e.target).is('#popup-container-iii') && !$(e.target).closest('.image-container').length) {
+          $(this).fadeOut();
+        }
+      });
+
+      $('#popup-container-iv').on('click', function(e) {
+        if ($(e.target).is('#popup-container-iv') && !$(e.target).closest('.image-container').length) {
+          $(this).fadeOut();
+        }
+      });
+
+      $('#popup-container-v').on('click', function(e) {
+        if ($(e.target).is('#popup-container-v') && !$(e.target).closest('.image-container').length) {
+          $(this).fadeOut();
+        }
+      });
+
+      $('#popup-container-vi').on('click', function(e) {
+        if ($(e.target).is('#popup-container-vi') && !$(e.target).closest('.image-container').length) {
+          $(this).fadeOut();
+        }
+      });
+
+
+
+
+
+
+
+
+
+      // Make image clickable
+      $('#image-container').on('click', function() {
+        // Replace with your desired action
+        window.open('https://www.ulta.com/p/xo-khloe-pimprod2049077?sku=2632566&fbclid=PAZXh0bgNhZW0CMTEAAaZVXM4Lkj92LaOM2GEyeMxVRAlahdOYqvDPGzl8R2-Jsf758_E9PY8hyC8_aem__mk4AnSGz28b8amcS9xKDg', '_blank');
+      });
+
+      $('#image-container-ii').on('click', function() {
+        // Replace with your desired action
+        window.open('https://orebella.com', '_blank');
+      });
+
+      $('#image-container-iii').on('click', function() {
+        // Replace with your desired action
+        window.open('https://www.wildflowercases.com/en-ad', '_blank');
+      });
+
+      $('#image-container-iv').on('click', function() {
+        // Replace with your desired action
+        window.open('https://www.ulta.com/p/cosmic-kylie-jenner-eau-de-parfum-pimprod2044205', '_blank');
+      });
+
+      $('#image-container-v').on('click', function() {
+        // Replace with your desired action
+        window.open('https://www.khy.com/', '_blank');
+      });
+      $('#image-container-vi').on('click', function() {
+        // Replace with your desired action
+        window.open('https://www.skims.com/', '_blank');
+      });
+
+
+
+
+
+
+
+
+    });
+  </script>
+
+
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId: "1292503991685432",
+        autoLogAppEvents: true,
+        xfbml: true,
+        version: "v16.0",
+      });
+    };
+  </script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+
   <!--===== Main theme script =====-->
-  <script src="/js/functions.js"></script>
+
   <script type="module">
     import {
       createApp,
       reactive
-    } from 'https://unpkg.com/petite-vue?module';
+    } from "https://unpkg.com/petite-vue?module";
     const store = reactive({
+      calendarState: "years",
+      activeCalendar: {
+        year: "",
+        month: "",
+        day: "",
+      },
+      activeCalendarYear: "",
+      calendarResources() {
+        return {
+          data: {
+            2019: {
+              June: [
+                { date: 'Tuesday, June 18, 2019', data: '<p>Merry Go</p>' },
+        ],
+            },
+            2020: {
+              February: [
+                { date: 'Saturday, February 8, 2020', data: '<p></p>' }
+                { date: 'Sunday, February 9, 2020', data: '<p></p>' }
+                { date: 'Tuesday, February 11, 2020', data: '<p></p>' }
+                { date: 'Wednesday, February 12, 2020', data: '<p></p>' }
+                { date: 'Thursday, February 13, 2020', data: '<p></p>' }
+                { date: 'Friday, February 14, 2020', data: '<p></p>' }
+                { date: 'Saturday, February 15, 2020', data: '<p></p>' }
+                { date: 'Sunday, February 16, 2020', data: '<p></p>' }
+                { date: 'Monday, February 17, 2020', data: '<p></p>' }
+                { date: 'Saturday, February 22, 2020', data: '<p></p>' }
+                { date: 'Monday, February 24, 2020', data: '<p></p>' }
+                { date: 'Tuesday, February 25, 2020', data: '<p></p>' }
+                { date: 'Wednesday, February 26, 2020', data: '<p></p>' }
+                { date: 'Saturday, February 29, 2020', data: '<p></p>' }],
+              March: [
+                { date: 'Sunday, March 1, 2020', data: '<p></p>' }
+                { date: 'Monday, March 2, 2020', data: '<p></p>' }
+                { date: 'Thursday, March 5, 2020', data: '<p></p>' }
+                { date: 'Friday, March 6, 2020', data: '<p></p>' }
+                { date: 'Saturday, March 7, 2020', data: '<p></p>' }
+                { date: 'Sunday, March 8, 2020', data: '<p></p>' }
+                { date: 'Monday, March 9, 2020', data: '<p></p>' }
+                { date: 'Tuesday, March 10, 2020', data: '<p></p>' }
+                { date: 'Wednesday, March 11, 2020', data: '<p></p>' }
+                { date: 'Thursday, March 12, 2020', data: '<p></p>' }
+                { date: 'Friday, March 13, 2020', data: '<p></p>' }
+                { date: 'Saturday, March 14, 2020', data: '<p></p>' }
+                { date: 'Sunday, March 15, 2020', data: '<p></p>' }
+                { date: 'Monday, March 16, 2020', data: '<p></p>' }
+                { date: 'Tuesday, March 17, 2020', data: '<p></p>' }
+                { date: 'Thursday, March 19, 2020', data: '<p></p>' }
+                { date: 'Friday, March 20, 2020', data: '<p></p>' }
+                { date: 'Saturday, March 21, 2020', data: '<p></p>' }
+                { date: 'Sunday, March 22, 2020', data: '<p></p>' }
+                { date: 'Tuesday, March 24, 2020', data: '<p></p>' }
+                { date: 'Wednesday, March 25, 2020', data: '<p></p>' }
+                { date: 'Thursday, March 26, 2020', data: '<p></p>' }
+                { date: 'Friday, March 27, 2020', data: '<p></p>' }
+                { date: 'Saturday, March 28, 2020', data: '<p></p>' }
+                { date: 'Sunday, March 29, 2020', data: '<p></p>' }
+                { date: 'Monday, March 30, 2020', data: '<p></p>' }
+        ],
+              April: [
+                { date: 'Thursday, April 2, 2020', data: '<p></p>' }
+                { date: 'Friday, April 3, 2020', data: '<p></p>' }
+                { date: 'Saturday, April 4, 2020', data: '<p></p>' }
+                { date: 'Sunday, April 5, 2020', data: '<p></p>' }
+                { date: 'Tuesday, April 7, 2020', data: '<p></p>' }
+                { date: 'Wednesday, April 8, 2020', data: '<p></p>' }
+                { date: 'Thursday, April 9, 2020', data: '<p></p>' }
+                { date: 'Friday, April 10, 2020', data: '<p></p>' }
+                { date: 'Saturday, April 11, 2020', data: '<p></p>' }
+                { date: 'Sunday, April 12, 2020', data: '<p></p>' }
+                { date: 'Monday, April 13, 2020', data: '<p></p>' }
+                { date: 'Tuesday, April 14, 2020', data: '<p></p>' }
+                { date: 'Wednesday, April 15, 2020', data: '<p></p>' }
+                { date: 'Thursday, April 16, 2020', data: '<p></p>' }
+                { date: 'Friday, April 17, 2020', data: '<p></p>' }
+                { date: 'Saturday, April 18, 2020', data: '<p></p>' }
+                { date: 'Sunday, April 19, 2020', data: '<p></p>' }
+                { date: 'Monday, April 20, 2020', data: '<p></p>' }
+                { date: 'Tuesday, April 21, 2020', data: '<p></p>' }
+                { date: 'Wednesday, April 22, 2020', data: '<p></p>' }
+                { date: 'Thursday, April 23, 2020', data: '<p></p>' }
+                { date: 'Friday, April 24, 2020', data: '<p></p>' }
+                { date: 'Saturday, April 25, 2020', data: '<p></p>' }
+                { date: 'Sunday, April 26, 2020', data: '<p></p>' }
+                { date: 'Monday, April 27, 2020', data: '<p></p>' }
+                { date: 'Tuesday, April 28, 2020', data: '<p></p>' }
+                { date: 'Wednesday, April 29, 2020', data: '<p></p>' }
+                { date: 'Thursday, April 30, 2020', data: '<p></p>' }
+        ],
+              May: [
+                { date: 'Friday, May 1, 2020', data: '<p></p>' }
+                { date: 'Saturday, May 2, 2020', data: '<p></p>' }
+                { date: 'Sunday, May 3, 2020', data: '<p></p>' }
+                { date: 'Monday, May 4, 2020', data: '<p></p>' }
+                { date: 'Tuesday, May 5, 2020', data: '<p></p>' }
+                { date: 'Wednesday, May 6, 2020', data: '<p></p>' }
+                { date: 'Thursday, May 7, 2020', data: '<p></p>' }
+                { date: 'Friday, May 8, 2020', data: '<p></p>' }
+                { date: 'Saturday, May 9, 2020', data: '<p></p>' }
+                { date: 'Sunday, May 10, 2020', data: '<p></p>' }
+                { date: 'Monday, May 11, 2020', data: '<p></p>' }
+                { date: 'Tuesday, May 12, 2020', data: '<p></p>' }
+                { date: 'Wednesday, May 13, 2020', data: '<p></p>' }
+                { date: 'Thursday, May 14, 2020', data: '<p></p>' }
+                { date: 'Friday, May 15, 2020', data: '<p></p>' }
+                { date: 'Saturday, May 16, 2020', data: '<p></p>' }
+                { date: 'Sunday, May 17, 2020', data: '<p></p>' }
+                { date: 'Monday, May 18, 2020', data: '<p></p>' }
+                { date: 'Tuesday, May 19, 2020', data: '<p></p>' }
+                { date: 'Wednesday, May 20, 2020', data: '<p></p>' }
+                { date: 'Thursday, May 21, 2020', data: '<p></p>' }
+                { date: 'Friday, May 22, 2020', data: '<p></p>' }
+                { date: 'Saturday, May 23, 2020', data: '<p></p>' }
+                { date: 'Monday, May 25, 2020', data: '<p></p>' }
+                { date: 'Tuesday, May 26, 2020', data: '<p></p>' }
+                { date: 'Wednesday, May 27, 2020', data: '<p></p>' }
+                { date: 'Thursday, May 28, 2020', data: '<p></p>' }
+                { date: 'Saturday, May 30, 2020', data: '<p></p>' }
+                { date: 'Sunday, May 31, 2020', data: '<p></p>' }
+        ],
+              June: [
+                { date: 'Thursday, June 3, 2020', data: '<p></p>' }
+                { date: 'Saturday, June 6, 2020', data: '<p></p>' }
+                { date: 'Sunday, June 7, 2020', data: '<p></p>' }
+                { date: 'Monday, June 8, 2020', data: '<p></p>' }
+                { date: 'Tuesday, June 9, 2020', data: '<p></p>' }
+                { date: 'Wednesday, June 10, 2020', data: '<p></p>' }
+                { date: 'Thursday, June 11, 2020', data: '<p></p>' }
+                { date: 'Friday, June 12, 2020', data: '<p></p>' }
+                { date: 'Saturday, June 13, 2020', data: '<p></p>' }
+                { date: 'Sunday, June 14, 2020', data: '<p></p>' }
+                { date: 'Monday, June 15, 2020', data: '<p></p>' }
+                { date: 'Friday, June 19, 2020', data: '<p></p>' }
+                { date: 'Saturday, June 20, 2020', data: '<p></p>' }
+                { date: 'Monday, June 22, 2020', data: '<p></p>' }
+                { date: 'Tuesday, June 23, 2020', data: '<p></p>' }
+                { date: 'Wednesday, June 24, 2020', data: '<p></p>' }
+                { date: 'Sunday, June 28, 2020', data: '<p></p>' }
+                { date: 'Monday, June 29, 2020', data: '<p></p>' }
+                { date: 'Tuesday, June 30, 2020', data: '<p></p>' }
+        ],
+              July: [
+                { date: 'Wednesday, July 1, 2020', data: '<p></p>' }
+                { date: 'Thursday, July 2, 2020', data: '<p></p>' }
+                { date: 'Friday, July 3, 2020', data: '<p></p>' }
+                { date: 'Saturday, July 4, 2020', data: '<p></p>' }
+                { date: 'Sunday, July 5, 2020', data: '<p></p>' }
+                { date: 'Monday, July 6, 2020', data: '<p></p>' }
+                { date: 'Tuesday, July 7, 2020', data: '<p></p>' }
+                { date: 'Wednesday, July 8, 2020', data: '<p></p>' }
+                { date: 'Thursday, July 9, 2020', data: '<p></p>' }
+                { date: 'Friday, July 10, 2020', data: '<p></p>' }
+                { date: 'Saturday, July 11, 2020', data: '<p></p>' }
+                { date: 'Sunday, July 12, 2020', data: '<p></p>' }
+                { date: 'Monday, July 13, 2020', data: '<p></p>' }
+                { date: 'Wednesday, July 15, 2020', data: '<p></p>' }
+                { date: 'Wednesday, July 22, 2020', data: '<p></p>' }
+                { date: 'Saturday, July 25, 2020', data: '<p></p>' }
+                { date: 'Sunday, July 26, 2020', data: '<p></p>' }
+                { date: 'Monday, July 27, 2020', data: '<p></p>' }
+                { date: 'Tuesday, July 28, 2020', data: '<p></p>' }
+                { date: 'Wednesday, July 29, 2020', data: '<p></p>' }
+                { date: 'Thursday, July 30, 2020', data: '<p></p>' }
+        ],
+              August: [
+                { date: 'Saturday, August 1, 2020', data: '<p></p>' }
+                { date: 'Sunday, August 2, 2020', data: '<p></p>' }
+                { date: 'Tuesday, August 4, 2020', data: '<p></p>' }
+                { date: 'Wednesday, August 5, 2020', data: '<p></p>' }
+                { date: 'Friday, August 7, 2020', data: '<p></p>' }
+                { date: 'Saturday, August 8, 2020', data: '<p></p>' }
+                { date: 'Sunday, August 9, 2020', data: '<p></p>' }
+                { date: 'Sunday, August 9, 2020', data: '<p></p>' }
+                { date: 'Friday, August 14, 2020', data: '<p></p>' }
+                { date: 'Sunday, August 16, 2020', data: '<p></p>' }
+                { date: 'Monday, August 17, 2020', data: '<p></p>' }
+                { date: 'Tuesday, August 18, 2020', data: '<p></p>' }
+                { date: 'Wednesday, August 19, 2020', data: '<p></p>' }
+                { date: 'Friday, August 21, 2020', data: '<p></p>' }
+                { date: 'Saturday, August 22, 2020', data: '<p></p>' }
+                { date: 'Tuesday, August 25, 2020', data: '<p></p>' }
+        ],
+              September: [
+                { date: 'Friday, September 11, 2020', data: '<p></p>' }
+                { date: 'Monday, September 21, 2020', data: '<p></p>' }
+                { date: 'Tuesday, September 22, 2020', data: '<p></p>' }
+                { date: 'Wednesday, September 23, 2020', data: '<p></p>' }
+                { date: 'Thursday, September 24, 2020', data: '<p></p>' }
+                { date: 'Friday, September 25, 2020', data: '<p></p>' }
+                { date: 'Saturday, September 26, 2020', data: '<p></p>' }
+                { date: 'Monday, September 28, 2020', data: '<p></p>' }
+                { date: 'Wednesday, September 30, 2020', data: '<p></p>' }
+        ],
+              October: [
+                { date: 'Thursday, October 1, 2020', data: '<p></p>' }
+                { date: 'Saturday, October 3, 2020', data: '<p></p>' }
+                { date: 'Saturday, October 10, 2020', data: '<p></p>' }
+                { date: 'Sunday, October 11, 2020', data: '<p></p>' }
+                { date: 'Sunday, October 18, 2020', data: '<p></p>' }
+                { date: 'Wednesday, October 21, 2020', data: '<p></p>' }
+                { date: 'Thursday, October 22, 2020', data: '<p></p>' }
+                { date: 'Monday, October 26, 2020', data: '<p></p>' }
+                { date: 'Wednesday, October 28, 2020', data: '<p></p>' }
+                { date: 'Saturday, October 31, 2020', data: '<p></p>' }
+        ],
+              November: [
+                { date: 'Tuesday, November 3, 2020', data: '<p></p>' }
+                { date: 'Friday, November 6, 2020', data: '<p></p>' }
+                { date: 'Tuesday, November 10, 2020', data: '<p></p>' }
+                { date: 'Wednesday, November 11, 2020', data: '<p></p>' }
+                { date: 'Thursday, November 12, 2020', data: '<p></p>' }
+                { date: 'Thursday, November 19, 2020', data: '<p></p>' }
+                { date: 'Friday, November 20, 2020', data: '<p></p>' }
+                { date: 'Saturday, November 21, 2020', data: '<p></p>' }
+                { date: 'Tuesday, November 24, 2020', data: '<p></p>' }
+                { date: 'Thursday, November 26, 2020', data: '<p></p>' }
+                { date: 'Monday, November 30, 2020', data: '<p></p>' }
+        ],
+              December: [
+                { date: 'Sunday, December 20, 2020', data: '<p></p>' }
+                { date: 'Thursday, December 24, 2020', data: '<p></p>' }
+                { date: 'Friday, December 25, 2020', data: '<p></p>' }
+                { date: 'Tuesday, December 29, 2020', data: '<p></p>' }
+        ]
+            },
+            2021: {
+              January: [
+                { date: 'Friday, January 29, 2021', data: '<p></p>' } 
+                { date: 'Saturday, January 30, 2021', data: '<p></p>' }
+        ],
+            }
+          }
+        }
+      },
+      setcalendarState(stateObj) {
+        this.calendarState = stateObj.state;
+        localStorage.setItem("calendarState", stateObj.state);
+        this.activeCalendar.year = stateObj.year;
+        this.activeCalendar.month = stateObj.month;
+        this.activeCalendar.day = stateObj.day;
+        localStorage.setItem('activeCalendar', JSON.stringify(this.activeCalendar));
+      },
+      goBackInState() {
+        this.calendarState = "years";
+      },
+      jQueryObj: $,
+      currentURL: "/published/poetry/bury-me-in-2020.html",
+      staticPoemURL: "",
+      poemURL: "",
+      URLPoemID: 0,
+      CopyURLText: "Copy URL",
+      currentChapter: 0,
+      goBackState: false,
+      chapterClickNo: 0,
+      getCurrentChapter() {
+        if (localStorage.getItem("2020CurrentChapter")) {
+          this.currentChapter = localStorage.getItem("2020CurrentChapter");
+        } else if (this.currentChapter == 0) {
+          this.currentChapter = this.URLPoemID;
+        } else {
+          localStorage.removeItem("2020CurrentChapter");
+        }
+      },
+      chapterTitle: "",
+      getChapterContent() {
+        const chapterTitle = this.pageResources().chapterTitles.at(
+          this.currentChapter
+        );
+        this.generatePoemURL();
+        this.chapterTitle = chapterTitle;
+        const chapterContent = this.pageResources().chapters;
+
+        setTimeout(() => {
+          $('.lazy').Lazy({
+            scrollDirection: 'vertical',
+            effect: 'fadeIn',
+            visibleOnly: true,
+            onError: function(element) {
+              console.log('error loading ' + element.data('src'));
+            }
+          });
+        }, 500);
+
+        return chapterContent.at(this.currentChapter);
+      },
+      initialPageState: {
+        view2020: "chapters",
+      },
+      pageState: localStorage.getItem("view2020"),
+      getPageState() {
+        this.decodePoemURL();
+        if (this.pageState == "chapters") {
+          const state = "chapters";
+          localStorage.removeItem("2020CurrentChapter");
+          return state;
+        } else if (this.pageState == "poetry") {
+          this.decodePoemURL();
+          this.getCurrentChapter();
+          const state = "poetry";
+
+          return state;
+        } else {
+          localStorage.setItem("view2020", this.initialPageState.view2020);
+          const state = this.initialPageState.view2020;
+          return state;
+        }
+      },
+      setPageState(index) {
+        localStorage.setItem("view2020", "poetry");
+        location.href = "#reading";
+        (this.pageState = localStorage.getItem("view2020")),
+        (this.currentChapter = index);
+        localStorage.setItem("2020CurrentChapter", this.currentChapter);
+        this.chapterClickNo++;
+        console.log(this.chapterClickNo);
+        if (this.chapterClickNo == 1) {
+          $('#popup-container-ii').fadeIn();
+        }
+        if (this.chapterClickNo == 2) {
+          $('#popup-container-iii').fadeIn();
+        }
+        if (this.chapterClickNo == 3) {
+          $('#popup-container-iv').fadeIn();
+        }
+        if (this.chapterClickNo == 4) {
+          $('#popup-container-v').fadeIn();
+        }
+        if (this.chapterClickNo == 5) {
+          $('#popup-container-vi').fadeIn();
+        }
+        if (this.chapterClickNo == 6) {
+          $('#popup-container').fadeIn();
+          this.chapterClickNo = 0;
+        }
+      },
+      goBack() {
+        this.goBackState = true;
+        localStorage.setItem("view2020", "chapters");
+        this.pageState = localStorage.getItem("view2020");
+        this.getPageState();
+      },
+      pageResources() {
+        return {
+          dedication: `<p class="text-center">For <strong style="color: #010521"> <span class="fw-bold"> both my mums</span>  </strong></p> <p class="text-center"> <strong style="color: #010521"> <span class="fw-bold">Kathy Hilton</span></strong></p> <p class="text-center">and</p> <p class="text-center"><strong style="color: #010521"> <span class="fw-bold">Queen Letizia of Spain</span></strong></p>`,
+          acknowledgements: `<p>         Thank you to everyone who was a part of this, we are like a big mob giving our voice for a coherent whole. This project is the result of our collective impressions. The independent soul of the internet, the heartbeat of Western values, its artists, musicians, architects, the scientists.</p>
+
+<p>Thank you to the royal houses of Europe, Asia and Middle East, famous politicians, actors and musicians, Neil De Grasse Tyson, Logan Paul, Kris Jenner, Jimmy Fallon, Kourtney Kardashian, Ariana Grande, and my mum and dad.</p>
+<p>I'm also immensely grateful, and apologize to everyone who has been of tremendous help but isn't mentioned in this book, I owe a lot to every one of you, thank you.</p>`,
+          authorsNote: [
+            ` <img alt="Image" class="img-fluid lazy mb-3" src="../../images/loading.gif"  data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/2020/author%20note.jpg">
+            <p class="text-center mt-1"> <span class="fw-bold"><i>I love you all immensely.</i></span> </p>`,
+          ],
+          chapterTitles: [
+            "0",
+"The Wipe",
+"Pipes",
+"I quit",
+"Where are you?",
+"Outside",
+"Online wisdom",
+"Moves",
+"Diarrhoea",
+"Death race for love",
+"Transformer",
+"first",
+"second",
+],
+          chapters: [
+  ],
+          convertIndex(prop) {
+            var indexNumber = prop;
+            var number = numbered.stringify(indexNumber);
+            return number;
+          },
+        };
+      },
       acceptCookieUse() {
-        localStorage.setItem("cookieUse", true)
+        localStorage.setItem("cookieUse", true);
+      },
+      lastTab2020: "",
+      coverTab2020IsActive: localStorage.getItem("coverTab2020IsActive"),
+      authorTab2020IsActive: localStorage.getItem("authorTab2020IsActive"),
+      dedTab2020IsActive: localStorage.getItem("dedTab2020IsActive"),
+      chapterTab2020IsActive: localStorage.getItem("chapterTab2020IsActive"),
+      navLink: true,
+      setCover2020AsTab() {
+        this.lastTab2020 = "Cover";
+        localStorage.setItem("lastTab2020", this.lastTab2020);
+        localStorage.setItem("coverTab2020IsActive", true);
+        localStorage.setItem("authorTab2020IsActive", false);
+        localStorage.setItem("dedTab2020IsActive", false);
+        localStorage.setItem("chapterTab2020IsActive", false);
+      },
+      setAuthor2020AsTab() {
+        this.lastTab2020 = "Author";
+        localStorage.setItem("lastTab2020", this.lastTab2020);
+        localStorage.setItem("coverTab2020IsActive", false);
+        localStorage.setItem("authorTab2020IsActive", true);
+        localStorage.setItem("dedTab2020IsActive", false);
+        localStorage.setItem("chapterTab2020IsActive", false);
+      },
+      setDed2020AsTab() {
+        this.lastTab2020 = "Dedication";
+        localStorage.setItem("lastTab2020", this.lastTab2020);
+        localStorage.setItem("coverTab2020IsActive", false);
+        localStorage.setItem("authorTab2020IsActive", false);
+        localStorage.setItem("dedTab2020IsActive", true);
+        localStorage.setItem("chapterTab2020IsActive", false);
+      },
+      setChapters2020AsTab() {
+        this.lastTab2020 = "Chapters";
+        localStorage.setItem("lastTab2020", this.lastTab2020);
+        localStorage.setItem("coverTab2020IsActive", false);
+        localStorage.setItem("authorTab2020IsActive", false);
+        localStorage.setItem("dedTab2020IsActive", false);
+        localStorage.setItem("chapterTab2020IsActive", true);
+      },
+      shareToFacebook() {
+        this.generateStaticPoemURL();
+        console.log(this.generateStaticPoemURL());
+        FB.ui({
+            display: "popup",
+            method: "share",
+            href: this.staticPoemURL,
+          },
+          function(response) {}
+        );
+      },
+      copyURL() {
+        this.CopyURLText = "URL copied to clipboard";
+        this.generateStaticPoemURL();
+        navigator.clipboard.writeText(this.staticPoemURL);
+        $("#CopyURLText").css("color", "green");
+        $("#copyURLIcon").css("color", "green");
+        setTimeout(() => {
+          $("#CopyURLText").css("color", "#010521");
+          $("#copyURLIcon").css("color", "#010521");
+          this.CopyURLText = "Copy URL";
+        }, 8000);
+      },
+      shareToWhatsApp() {
+        this.generateStaticPoemURL();
+        const linkToShare = "whatsapp://send?text=" + this.staticPoemURL;
+        window.open(linkToShare, "_blank");
+      },
+      shareToTwitter() {
+        return
+      },
+      loadBookmark() {
+        var urlParams = new URLSearchParams(location.search);
+      },
+      generatePoemURL() {
+        var domainName = window.location.origin;
+        const queryToAppend =
+          domainName +
+          this.currentURL +
+          "?typeIsPoem" +
+          "&id=" +
+          this.currentChapter;
+        this.poemURL = queryToAppend;
+      },
+      changeTabToChapter() {
+        localStorage.setItem("coverTab2020IsActive", false);
+        localStorage.setItem("authorTab2020IsActive", false);
+        localStorage.setItem("dedTab2020IsActive", false);
+        localStorage.setItem("chapterTab2020IsActive", true);
+        document.getElementById("pills-integration-tab").click();
+      },
+      decodePoemURL() {
+        if (this.goBackState == true) {
+          return;
+        } else {
+          var bookmarkURL = new URLSearchParams(location.search);
+          var getPoemIdFromURL = bookmarkURL.get("id");
+          if (bookmarkURL.has("typeIsPoem") && getPoemIdFromURL <= 38) {
+            this.changeTabToChapter();
+            localStorage.setItem("view2020", "poetry");
+            this.pageState = "poetry";
+            this.URLPoemID = getPoemIdFromURL;
+            this.currentChapter = this.URLPoemID;
+            localStorage.setItem("2020CurrentChapter", this.currentChapter);
+            this.goBackState = false;
+          } else if (bookmarkURL.has("typeIsPoem") && getPoemIdFromURL > 5) {
+            localStorage.setItem("view2020", this.initialPageState.viewVI);
+            window.location.href =
+              window.location.origin + "/pages/not-found.html";
+          } else {
+            window.location.origin + "/pages/not-found.html";
+          }
+        }
+      },
+      generateStaticPoemURL() {
+        var domainName = window.location.origin;
+        const convertPoemID = this.pageResources().convertIndex(
+          this.currentChapter
+        );
+        var shareURL =
+          domainName +
+          "/pages/Hilton/collections/iv/" +
+          convertPoemID +
+          ".html";
+        this.staticPoemURL = shareURL;
+      },
+      goToPublished() {
+        window.location.href = '../books.html';
       }
-    })
+
+    });
+
     createApp({
-      store
-    }).mount("#ctrlArea")
+      store,
+    }).mount("#ctrlArea");
   </script>
   <!--========== 
 	End of Javascript ==========-->
