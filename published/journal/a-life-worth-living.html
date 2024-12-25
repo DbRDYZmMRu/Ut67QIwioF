@@ -441,7 +441,7 @@
                   </div>
                   <!--===== Go back  =====-->
                   <div class="col-lg-3 col-sm-6">
-                    <p @click="store.goBackInState()" class="btn btn-naked-wrap go-back-btn">
+                    <p @click="store.goBackInState('years' )" class="btn btn-naked-wrap go-back-btn">
                       <i class="feather icon-arrow-left"></i>
                       <span> Years </span>
                     </p>
@@ -451,6 +451,17 @@
                 </div>
 
                 <div v-if="store.calendarState == 'days' ">
+                  <div v-for="(day, dayIndex) in store.calendarResources().data[store.activeCalendar.year][Object.keys(store.calendarResources().data[store.activeCalendar.year])[store.activeCalendar.month]]" :key="dayIndex">
+                    <h1> {{ day.date }} {{ day.data }} </h1>
+                  </div>
+                  <!--===== Go back  =====-->
+                  <div class="col-lg-3 col-sm-6">
+                    <p @click="store.goBackInState('months' )" class="btn btn-naked-wrap go-back-btn">
+                      <i class="feather icon-arrow-left"></i>
+                      <span> Months </span>
+                    </p>
+                  </div>
+                  <!--===== End Go back  =====-->
 
                 </div>
 
@@ -816,7 +827,6 @@
         month: "",
         day: "",
       },
-      activeCalendarYear: "",
       calendarResources() {
         return {
           data: {
@@ -827,218 +837,218 @@
             },
             2020: {
               February: [
-                { date: 'Saturday, February 8, 2020', data: '<p></p>' }
-                { date: 'Sunday, February 9, 2020', data: '<p></p>' }
-                { date: 'Tuesday, February 11, 2020', data: '<p></p>' }
-                { date: 'Wednesday, February 12, 2020', data: '<p></p>' }
-                { date: 'Thursday, February 13, 2020', data: '<p></p>' }
-                { date: 'Friday, February 14, 2020', data: '<p></p>' }
-                { date: 'Saturday, February 15, 2020', data: '<p></p>' }
-                { date: 'Sunday, February 16, 2020', data: '<p></p>' }
-                { date: 'Monday, February 17, 2020', data: '<p></p>' }
-                { date: 'Saturday, February 22, 2020', data: '<p></p>' }
-                { date: 'Monday, February 24, 2020', data: '<p></p>' }
-                { date: 'Tuesday, February 25, 2020', data: '<p></p>' }
-                { date: 'Wednesday, February 26, 2020', data: '<p></p>' }
-                { date: 'Saturday, February 29, 2020', data: '<p></p>' }],
+                { date: 'Saturday, February 8, 2020', data: '<p></p>' },
+                { date: 'Sunday, February 9, 2020', data: '<p></p>' },
+                { date: 'Tuesday, February 11, 2020', data: '<p></p>' },
+                { date: 'Wednesday, February 12, 2020', data: '<p></p>' },
+                { date: 'Thursday, February 13, 2020', data: '<p></p>' },
+                { date: 'Friday, February 14, 2020', data: '<p></p>' },
+                { date: 'Saturday, February 15, 2020', data: '<p></p>' },
+                { date: 'Sunday, February 16, 2020', data: '<p></p>' },
+                { date: 'Monday, February 17, 2020', data: '<p></p>' },
+                { date: 'Saturday, February 22, 2020', data: '<p></p>' },
+                { date: 'Monday, February 24, 2020', data: '<p></p>' },
+                { date: 'Tuesday, February 25, 2020', data: '<p></p>' },
+                { date: 'Wednesday, February 26, 2020', data: '<p></p>' },
+                { date: 'Saturday, February 29, 2020', data: '<p></p>' }, ],
               March: [
-                { date: 'Sunday, March 1, 2020', data: '<p></p>' }
-                { date: 'Monday, March 2, 2020', data: '<p></p>' }
-                { date: 'Thursday, March 5, 2020', data: '<p></p>' }
-                { date: 'Friday, March 6, 2020', data: '<p></p>' }
-                { date: 'Saturday, March 7, 2020', data: '<p></p>' }
-                { date: 'Sunday, March 8, 2020', data: '<p></p>' }
-                { date: 'Monday, March 9, 2020', data: '<p></p>' }
-                { date: 'Tuesday, March 10, 2020', data: '<p></p>' }
-                { date: 'Wednesday, March 11, 2020', data: '<p></p>' }
-                { date: 'Thursday, March 12, 2020', data: '<p></p>' }
-                { date: 'Friday, March 13, 2020', data: '<p></p>' }
-                { date: 'Saturday, March 14, 2020', data: '<p></p>' }
-                { date: 'Sunday, March 15, 2020', data: '<p></p>' }
-                { date: 'Monday, March 16, 2020', data: '<p></p>' }
-                { date: 'Tuesday, March 17, 2020', data: '<p></p>' }
-                { date: 'Thursday, March 19, 2020', data: '<p></p>' }
-                { date: 'Friday, March 20, 2020', data: '<p></p>' }
-                { date: 'Saturday, March 21, 2020', data: '<p></p>' }
-                { date: 'Sunday, March 22, 2020', data: '<p></p>' }
-                { date: 'Tuesday, March 24, 2020', data: '<p></p>' }
-                { date: 'Wednesday, March 25, 2020', data: '<p></p>' }
-                { date: 'Thursday, March 26, 2020', data: '<p></p>' }
-                { date: 'Friday, March 27, 2020', data: '<p></p>' }
-                { date: 'Saturday, March 28, 2020', data: '<p></p>' }
-                { date: 'Sunday, March 29, 2020', data: '<p></p>' }
-                { date: 'Monday, March 30, 2020', data: '<p></p>' }
+                { date: 'Sunday, March 1, 2020', data: '<p></p>' },
+                { date: 'Monday, March 2, 2020', data: '<p></p>' },
+                { date: 'Thursday, March 5, 2020', data: '<p></p>' },
+                { date: 'Friday, March 6, 2020', data: '<p></p>' },
+                { date: 'Saturday, March 7, 2020', data: '<p></p>' },
+                { date: 'Sunday, March 8, 2020', data: '<p></p>' },
+                { date: 'Monday, March 9, 2020', data: '<p></p>' },
+                { date: 'Tuesday, March 10, 2020', data: '<p></p>' },
+                { date: 'Wednesday, March 11, 2020', data: '<p></p>' },
+                { date: 'Thursday, March 12, 2020', data: '<p></p>' },
+                { date: 'Friday, March 13, 2020', data: '<p></p>' },
+                { date: 'Saturday, March 14, 2020', data: '<p></p>' },
+                { date: 'Sunday, March 15, 2020', data: '<p></p>' },
+                { date: 'Monday, March 16, 2020', data: '<p></p>' },
+                { date: 'Tuesday, March 17, 2020', data: '<p></p>' },
+                { date: 'Thursday, March 19, 2020', data: '<p></p>' },
+                { date: 'Friday, March 20, 2020', data: '<p></p>' },
+                { date: 'Saturday, March 21, 2020', data: '<p></p>' },
+                { date: 'Sunday, March 22, 2020', data: '<p></p>' },
+                { date: 'Tuesday, March 24, 2020', data: '<p></p>' },
+                { date: 'Wednesday, March 25, 2020', data: '<p></p>' },
+                { date: 'Thursday, March 26, 2020', data: '<p></p>' },
+                { date: 'Friday, March 27, 2020', data: '<p></p>' },
+                { date: 'Saturday, March 28, 2020', data: '<p></p>' },
+                { date: 'Sunday, March 29, 2020', data: '<p></p>' },
+                { date: 'Monday, March 30, 2020', data: '<p></p>' },
         ],
               April: [
-                { date: 'Thursday, April 2, 2020', data: '<p></p>' }
-                { date: 'Friday, April 3, 2020', data: '<p></p>' }
-                { date: 'Saturday, April 4, 2020', data: '<p></p>' }
-                { date: 'Sunday, April 5, 2020', data: '<p></p>' }
-                { date: 'Tuesday, April 7, 2020', data: '<p></p>' }
-                { date: 'Wednesday, April 8, 2020', data: '<p></p>' }
-                { date: 'Thursday, April 9, 2020', data: '<p></p>' }
-                { date: 'Friday, April 10, 2020', data: '<p></p>' }
-                { date: 'Saturday, April 11, 2020', data: '<p></p>' }
-                { date: 'Sunday, April 12, 2020', data: '<p></p>' }
-                { date: 'Monday, April 13, 2020', data: '<p></p>' }
-                { date: 'Tuesday, April 14, 2020', data: '<p></p>' }
-                { date: 'Wednesday, April 15, 2020', data: '<p></p>' }
-                { date: 'Thursday, April 16, 2020', data: '<p></p>' }
-                { date: 'Friday, April 17, 2020', data: '<p></p>' }
-                { date: 'Saturday, April 18, 2020', data: '<p></p>' }
-                { date: 'Sunday, April 19, 2020', data: '<p></p>' }
-                { date: 'Monday, April 20, 2020', data: '<p></p>' }
-                { date: 'Tuesday, April 21, 2020', data: '<p></p>' }
-                { date: 'Wednesday, April 22, 2020', data: '<p></p>' }
-                { date: 'Thursday, April 23, 2020', data: '<p></p>' }
-                { date: 'Friday, April 24, 2020', data: '<p></p>' }
-                { date: 'Saturday, April 25, 2020', data: '<p></p>' }
-                { date: 'Sunday, April 26, 2020', data: '<p></p>' }
-                { date: 'Monday, April 27, 2020', data: '<p></p>' }
-                { date: 'Tuesday, April 28, 2020', data: '<p></p>' }
-                { date: 'Wednesday, April 29, 2020', data: '<p></p>' }
-                { date: 'Thursday, April 30, 2020', data: '<p></p>' }
+                { date: 'Thursday, April 2, 2020', data: '<p></p>' },
+                { date: 'Friday, April 3, 2020', data: '<p></p>' },
+                { date: 'Saturday, April 4, 2020', data: '<p></p>' },
+                { date: 'Sunday, April 5, 2020', data: '<p></p>' },
+                { date: 'Tuesday, April 7, 2020', data: '<p></p>' },
+                { date: 'Wednesday, April 8, 2020', data: '<p></p>' },
+                { date: 'Thursday, April 9, 2020', data: '<p></p>' },
+                { date: 'Friday, April 10, 2020', data: '<p></p>' },
+                { date: 'Saturday, April 11, 2020', data: '<p></p>' },
+                { date: 'Sunday, April 12, 2020', data: '<p></p>' },
+                { date: 'Monday, April 13, 2020', data: '<p></p>' },
+                { date: 'Tuesday, April 14, 2020', data: '<p></p>' },
+                { date: 'Wednesday, April 15, 2020', data: '<p></p>' },
+                { date: 'Thursday, April 16, 2020', data: '<p></p>' },
+                { date: 'Friday, April 17, 2020', data: '<p></p>' },
+                { date: 'Saturday, April 18, 2020', data: '<p></p>' },
+                { date: 'Sunday, April 19, 2020', data: '<p></p>' },
+                { date: 'Monday, April 20, 2020', data: '<p></p>' },
+                { date: 'Tuesday, April 21, 2020', data: '<p></p>' },
+                { date: 'Wednesday, April 22, 2020', data: '<p></p>' },
+                { date: 'Thursday, April 23, 2020', data: '<p></p>' },
+                { date: 'Friday, April 24, 2020', data: '<p></p>' },
+                { date: 'Saturday, April 25, 2020', data: '<p></p>' },
+                { date: 'Sunday, April 26, 2020', data: '<p></p>' },
+                { date: 'Monday, April 27, 2020', data: '<p></p>' },
+                { date: 'Tuesday, April 28, 2020', data: '<p></p>' },
+                { date: 'Wednesday, April 29, 2020', data: '<p></p>' },
+                { date: 'Thursday, April 30, 2020', data: '<p></p>' },
         ],
               May: [
-                { date: 'Friday, May 1, 2020', data: '<p></p>' }
-                { date: 'Saturday, May 2, 2020', data: '<p></p>' }
-                { date: 'Sunday, May 3, 2020', data: '<p></p>' }
-                { date: 'Monday, May 4, 2020', data: '<p></p>' }
-                { date: 'Tuesday, May 5, 2020', data: '<p></p>' }
-                { date: 'Wednesday, May 6, 2020', data: '<p></p>' }
-                { date: 'Thursday, May 7, 2020', data: '<p></p>' }
-                { date: 'Friday, May 8, 2020', data: '<p></p>' }
-                { date: 'Saturday, May 9, 2020', data: '<p></p>' }
-                { date: 'Sunday, May 10, 2020', data: '<p></p>' }
-                { date: 'Monday, May 11, 2020', data: '<p></p>' }
-                { date: 'Tuesday, May 12, 2020', data: '<p></p>' }
-                { date: 'Wednesday, May 13, 2020', data: '<p></p>' }
-                { date: 'Thursday, May 14, 2020', data: '<p></p>' }
-                { date: 'Friday, May 15, 2020', data: '<p></p>' }
-                { date: 'Saturday, May 16, 2020', data: '<p></p>' }
-                { date: 'Sunday, May 17, 2020', data: '<p></p>' }
-                { date: 'Monday, May 18, 2020', data: '<p></p>' }
-                { date: 'Tuesday, May 19, 2020', data: '<p></p>' }
-                { date: 'Wednesday, May 20, 2020', data: '<p></p>' }
-                { date: 'Thursday, May 21, 2020', data: '<p></p>' }
-                { date: 'Friday, May 22, 2020', data: '<p></p>' }
-                { date: 'Saturday, May 23, 2020', data: '<p></p>' }
-                { date: 'Monday, May 25, 2020', data: '<p></p>' }
-                { date: 'Tuesday, May 26, 2020', data: '<p></p>' }
-                { date: 'Wednesday, May 27, 2020', data: '<p></p>' }
-                { date: 'Thursday, May 28, 2020', data: '<p></p>' }
-                { date: 'Saturday, May 30, 2020', data: '<p></p>' }
-                { date: 'Sunday, May 31, 2020', data: '<p></p>' }
+                { date: 'Friday, May 1, 2020', data: '<p></p>' },
+                { date: 'Saturday, May 2, 2020', data: '<p></p>' },
+                { date: 'Sunday, May 3, 2020', data: '<p></p>' },
+                { date: 'Monday, May 4, 2020', data: '<p></p>' },
+                { date: 'Tuesday, May 5, 2020', data: '<p></p>' },
+                { date: 'Wednesday, May 6, 2020', data: '<p></p>' },
+                { date: 'Thursday, May 7, 2020', data: '<p></p>' },
+                { date: 'Friday, May 8, 2020', data: '<p></p>' },
+                { date: 'Saturday, May 9, 2020', data: '<p></p>' },
+                { date: 'Sunday, May 10, 2020', data: '<p></p>' },
+                { date: 'Monday, May 11, 2020', data: '<p></p>' },
+                { date: 'Tuesday, May 12, 2020', data: '<p></p>' },
+                { date: 'Wednesday, May 13, 2020', data: '<p></p>' },
+                { date: 'Thursday, May 14, 2020', data: '<p></p>' },
+                { date: 'Friday, May 15, 2020', data: '<p></p>' },
+                { date: 'Saturday, May 16, 2020', data: '<p></p>' },
+                { date: 'Sunday, May 17, 2020', data: '<p></p>' },
+                { date: 'Monday, May 18, 2020', data: '<p></p>' },
+                { date: 'Tuesday, May 19, 2020', data: '<p></p>' },
+                { date: 'Wednesday, May 20, 2020', data: '<p></p>' },
+                { date: 'Thursday, May 21, 2020', data: '<p></p>' },
+                { date: 'Friday, May 22, 2020', data: '<p></p>' },
+                { date: 'Saturday, May 23, 2020', data: '<p></p>' },
+                { date: 'Monday, May 25, 2020', data: '<p></p>' },
+                { date: 'Tuesday, May 26, 2020', data: '<p></p>' },
+                { date: 'Wednesday, May 27, 2020', data: '<p></p>' },
+                { date: 'Thursday, May 28, 2020', data: '<p></p>' },
+                { date: 'Saturday, May 30, 2020', data: '<p></p>' },
+                { date: 'Sunday, May 31, 2020', data: '<p></p>' },
         ],
               June: [
-                { date: 'Thursday, June 3, 2020', data: '<p></p>' }
-                { date: 'Saturday, June 6, 2020', data: '<p></p>' }
-                { date: 'Sunday, June 7, 2020', data: '<p></p>' }
-                { date: 'Monday, June 8, 2020', data: '<p></p>' }
-                { date: 'Tuesday, June 9, 2020', data: '<p></p>' }
-                { date: 'Wednesday, June 10, 2020', data: '<p></p>' }
-                { date: 'Thursday, June 11, 2020', data: '<p></p>' }
-                { date: 'Friday, June 12, 2020', data: '<p></p>' }
-                { date: 'Saturday, June 13, 2020', data: '<p></p>' }
-                { date: 'Sunday, June 14, 2020', data: '<p></p>' }
-                { date: 'Monday, June 15, 2020', data: '<p></p>' }
-                { date: 'Friday, June 19, 2020', data: '<p></p>' }
-                { date: 'Saturday, June 20, 2020', data: '<p></p>' }
-                { date: 'Monday, June 22, 2020', data: '<p></p>' }
-                { date: 'Tuesday, June 23, 2020', data: '<p></p>' }
-                { date: 'Wednesday, June 24, 2020', data: '<p></p>' }
-                { date: 'Sunday, June 28, 2020', data: '<p></p>' }
-                { date: 'Monday, June 29, 2020', data: '<p></p>' }
-                { date: 'Tuesday, June 30, 2020', data: '<p></p>' }
+                { date: 'Thursday, June 3, 2020', data: '<p></p>' },
+                { date: 'Saturday, June 6, 2020', data: '<p></p>' },
+                { date: 'Sunday, June 7, 2020', data: '<p></p>' },
+                { date: 'Monday, June 8, 2020', data: '<p></p>' },
+                { date: 'Tuesday, June 9, 2020', data: '<p></p>' },
+                { date: 'Wednesday, June 10, 2020', data: '<p></p>' },
+                { date: 'Thursday, June 11, 2020', data: '<p></p>' },
+                { date: 'Friday, June 12, 2020', data: '<p></p>' },
+                { date: 'Saturday, June 13, 2020', data: '<p></p>' },
+                { date: 'Sunday, June 14, 2020', data: '<p></p>' },
+                { date: 'Monday, June 15, 2020', data: '<p></p>' },
+                { date: 'Friday, June 19, 2020', data: '<p></p>' },
+                { date: 'Saturday, June 20, 2020', data: '<p></p>' },
+                { date: 'Monday, June 22, 2020', data: '<p></p>' },
+                { date: 'Tuesday, June 23, 2020', data: '<p></p>' },
+                { date: 'Wednesday, June 24, 2020', data: '<p></p>' },
+                { date: 'Sunday, June 28, 2020', data: '<p></p>' },
+                { date: 'Monday, June 29, 2020', data: '<p></p>' },
+                { date: 'Tuesday, June 30, 2020', data: '<p></p>' },
         ],
               July: [
-                { date: 'Wednesday, July 1, 2020', data: '<p></p>' }
-                { date: 'Thursday, July 2, 2020', data: '<p></p>' }
-                { date: 'Friday, July 3, 2020', data: '<p></p>' }
-                { date: 'Saturday, July 4, 2020', data: '<p></p>' }
-                { date: 'Sunday, July 5, 2020', data: '<p></p>' }
-                { date: 'Monday, July 6, 2020', data: '<p></p>' }
-                { date: 'Tuesday, July 7, 2020', data: '<p></p>' }
-                { date: 'Wednesday, July 8, 2020', data: '<p></p>' }
-                { date: 'Thursday, July 9, 2020', data: '<p></p>' }
-                { date: 'Friday, July 10, 2020', data: '<p></p>' }
-                { date: 'Saturday, July 11, 2020', data: '<p></p>' }
-                { date: 'Sunday, July 12, 2020', data: '<p></p>' }
-                { date: 'Monday, July 13, 2020', data: '<p></p>' }
-                { date: 'Wednesday, July 15, 2020', data: '<p></p>' }
-                { date: 'Wednesday, July 22, 2020', data: '<p></p>' }
-                { date: 'Saturday, July 25, 2020', data: '<p></p>' }
-                { date: 'Sunday, July 26, 2020', data: '<p></p>' }
-                { date: 'Monday, July 27, 2020', data: '<p></p>' }
-                { date: 'Tuesday, July 28, 2020', data: '<p></p>' }
-                { date: 'Wednesday, July 29, 2020', data: '<p></p>' }
-                { date: 'Thursday, July 30, 2020', data: '<p></p>' }
+                { date: 'Wednesday, July 1, 2020', data: '<p></p>' },
+                { date: 'Thursday, July 2, 2020', data: '<p></p>' },
+                { date: 'Friday, July 3, 2020', data: '<p></p>' },
+                { date: 'Saturday, July 4, 2020', data: '<p></p>' },
+                { date: 'Sunday, July 5, 2020', data: '<p></p>' },
+                { date: 'Monday, July 6, 2020', data: '<p></p>' },
+                { date: 'Tuesday, July 7, 2020', data: '<p></p>' },
+                { date: 'Wednesday, July 8, 2020', data: '<p></p>' },
+                { date: 'Thursday, July 9, 2020', data: '<p></p>' },
+                { date: 'Friday, July 10, 2020', data: '<p></p>' },
+                { date: 'Saturday, July 11, 2020', data: '<p></p>' },
+                { date: 'Sunday, July 12, 2020', data: '<p></p>' },
+                { date: 'Monday, July 13, 2020', data: '<p></p>' },
+                { date: 'Wednesday, July 15, 2020', data: '<p></p>' },
+                { date: 'Wednesday, July 22, 2020', data: '<p></p>' },
+                { date: 'Saturday, July 25, 2020', data: '<p></p>' },
+                { date: 'Sunday, July 26, 2020', data: '<p></p>' },
+                { date: 'Monday, July 27, 2020', data: '<p></p>' },
+                { date: 'Tuesday, July 28, 2020', data: '<p></p>' },
+                { date: 'Wednesday, July 29, 2020', data: '<p></p>' },
+                { date: 'Thursday, July 30, 2020', data: '<p></p>' },
         ],
               August: [
-                { date: 'Saturday, August 1, 2020', data: '<p></p>' }
-                { date: 'Sunday, August 2, 2020', data: '<p></p>' }
-                { date: 'Tuesday, August 4, 2020', data: '<p></p>' }
-                { date: 'Wednesday, August 5, 2020', data: '<p></p>' }
-                { date: 'Friday, August 7, 2020', data: '<p></p>' }
-                { date: 'Saturday, August 8, 2020', data: '<p></p>' }
-                { date: 'Sunday, August 9, 2020', data: '<p></p>' }
-                { date: 'Sunday, August 9, 2020', data: '<p></p>' }
-                { date: 'Friday, August 14, 2020', data: '<p></p>' }
-                { date: 'Sunday, August 16, 2020', data: '<p></p>' }
-                { date: 'Monday, August 17, 2020', data: '<p></p>' }
-                { date: 'Tuesday, August 18, 2020', data: '<p></p>' }
-                { date: 'Wednesday, August 19, 2020', data: '<p></p>' }
-                { date: 'Friday, August 21, 2020', data: '<p></p>' }
-                { date: 'Saturday, August 22, 2020', data: '<p></p>' }
-                { date: 'Tuesday, August 25, 2020', data: '<p></p>' }
+                { date: 'Saturday, August 1, 2020', data: '<p></p>' },
+                { date: 'Sunday, August 2, 2020', data: '<p></p>' },
+                { date: 'Tuesday, August 4, 2020', data: '<p></p>' },
+                { date: 'Wednesday, August 5, 2020', data: '<p></p>' },
+                { date: 'Friday, August 7, 2020', data: '<p></p>' },
+                { date: 'Saturday, August 8, 2020', data: '<p></p>' },
+                { date: 'Sunday, August 9, 2020', data: '<p></p>' },
+                { date: 'Sunday, August 9, 2020', data: '<p></p>' },
+                { date: 'Friday, August 14, 2020', data: '<p></p>' },
+                { date: 'Sunday, August 16, 2020', data: '<p></p>' },
+                { date: 'Monday, August 17, 2020', data: '<p></p>' },
+                { date: 'Tuesday, August 18, 2020', data: '<p></p>' },
+                { date: 'Wednesday, August 19, 2020', data: '<p></p>' },
+                { date: 'Friday, August 21, 2020', data: '<p></p>' },
+                { date: 'Saturday, August 22, 2020', data: '<p></p>' },
+                { date: 'Tuesday, August 25, 2020', data: '<p></p>' },
         ],
               September: [
-                { date: 'Friday, September 11, 2020', data: '<p></p>' }
-                { date: 'Monday, September 21, 2020', data: '<p></p>' }
-                { date: 'Tuesday, September 22, 2020', data: '<p></p>' }
-                { date: 'Wednesday, September 23, 2020', data: '<p></p>' }
-                { date: 'Thursday, September 24, 2020', data: '<p></p>' }
-                { date: 'Friday, September 25, 2020', data: '<p></p>' }
-                { date: 'Saturday, September 26, 2020', data: '<p></p>' }
-                { date: 'Monday, September 28, 2020', data: '<p></p>' }
-                { date: 'Wednesday, September 30, 2020', data: '<p></p>' }
+                { date: 'Friday, September 11, 2020', data: '<p></p>' },
+                { date: 'Monday, September 21, 2020', data: '<p></p>' },
+                { date: 'Tuesday, September 22, 2020', data: '<p></p>' },
+                { date: 'Wednesday, September 23, 2020', data: '<p></p>' },
+                { date: 'Thursday, September 24, 2020', data: '<p></p>' },
+                { date: 'Friday, September 25, 2020', data: '<p></p>' },
+                { date: 'Saturday, September 26, 2020', data: '<p></p>' },
+                { date: 'Monday, September 28, 2020', data: '<p></p>' },
+                { date: 'Wednesday, September 30, 2020', data: '<p></p>' },
         ],
               October: [
-                { date: 'Thursday, October 1, 2020', data: '<p></p>' }
-                { date: 'Saturday, October 3, 2020', data: '<p></p>' }
-                { date: 'Saturday, October 10, 2020', data: '<p></p>' }
-                { date: 'Sunday, October 11, 2020', data: '<p></p>' }
-                { date: 'Sunday, October 18, 2020', data: '<p></p>' }
-                { date: 'Wednesday, October 21, 2020', data: '<p></p>' }
-                { date: 'Thursday, October 22, 2020', data: '<p></p>' }
-                { date: 'Monday, October 26, 2020', data: '<p></p>' }
-                { date: 'Wednesday, October 28, 2020', data: '<p></p>' }
-                { date: 'Saturday, October 31, 2020', data: '<p></p>' }
+                { date: 'Thursday, October 1, 2020', data: '<p></p>' },
+                { date: 'Saturday, October 3, 2020', data: '<p></p>' },
+                { date: 'Saturday, October 10, 2020', data: '<p></p>' },
+                { date: 'Sunday, October 11, 2020', data: '<p></p>' },
+                { date: 'Sunday, October 18, 2020', data: '<p></p>' },
+                { date: 'Wednesday, October 21, 2020', data: '<p></p>' },
+                { date: 'Thursday, October 22, 2020', data: '<p></p>' },
+                { date: 'Monday, October 26, 2020', data: '<p></p>' },
+                { date: 'Wednesday, October 28, 2020', data: '<p></p>' },
+                { date: 'Saturday, October 31, 2020', data: '<p></p>' },
         ],
               November: [
-                { date: 'Tuesday, November 3, 2020', data: '<p></p>' }
-                { date: 'Friday, November 6, 2020', data: '<p></p>' }
-                { date: 'Tuesday, November 10, 2020', data: '<p></p>' }
-                { date: 'Wednesday, November 11, 2020', data: '<p></p>' }
-                { date: 'Thursday, November 12, 2020', data: '<p></p>' }
-                { date: 'Thursday, November 19, 2020', data: '<p></p>' }
-                { date: 'Friday, November 20, 2020', data: '<p></p>' }
-                { date: 'Saturday, November 21, 2020', data: '<p></p>' }
-                { date: 'Tuesday, November 24, 2020', data: '<p></p>' }
-                { date: 'Thursday, November 26, 2020', data: '<p></p>' }
-                { date: 'Monday, November 30, 2020', data: '<p></p>' }
+                { date: 'Tuesday, November 3, 2020', data: '<p></p>' },
+                { date: 'Friday, November 6, 2020', data: '<p></p>' },
+                { date: 'Tuesday, November 10, 2020', data: '<p></p>' },
+                { date: 'Wednesday, November 11, 2020', data: '<p></p>' },
+                { date: 'Thursday, November 12, 2020', data: '<p></p>' },
+                { date: 'Thursday, November 19, 2020', data: '<p></p>' },
+                { date: 'Friday, November 20, 2020', data: '<p></p>' },
+                { date: 'Saturday, November 21, 2020', data: '<p></p>' },
+                { date: 'Tuesday, November 24, 2020', data: '<p></p>' },
+                { date: 'Thursday, November 26, 2020', data: '<p></p>' },
+                { date: 'Monday, November 30, 2020', data: '<p></p>' },
         ],
               December: [
-                { date: 'Sunday, December 20, 2020', data: '<p></p>' }
-                { date: 'Thursday, December 24, 2020', data: '<p></p>' }
-                { date: 'Friday, December 25, 2020', data: '<p></p>' }
-                { date: 'Tuesday, December 29, 2020', data: '<p></p>' }
+                { date: 'Sunday, December 20, 2020', data: '<p></p>' },
+                { date: 'Thursday, December 24, 2020', data: '<p></p>' },
+                { date: 'Friday, December 25, 2020', data: '<p></p>' },
+                { date: 'Tuesday, December 29, 2020', data: '<p></p>' },
         ]
             },
             2021: {
               January: [
-                { date: 'Friday, January 29, 2021', data: '<p></p>' } 
-                { date: 'Saturday, January 30, 2021', data: '<p></p>' }
+                { date: 'Friday, January 29, 2021', data: '<p></p>' },
+                { date: 'Saturday, January 30, 2021', data: '<p></p>' },
         ],
             }
           }
@@ -1051,9 +1061,11 @@
         this.activeCalendar.month = stateObj.month;
         this.activeCalendar.day = stateObj.day;
         localStorage.setItem('activeCalendar', JSON.stringify(this.activeCalendar));
+
       },
-      goBackInState() {
-        this.calendarState = "years";
+      goBackInState(state) {
+        this.calendarState = state;
+        localStorage.setItem("calendarState", state);
       },
       jQueryObj: $,
       currentURL: "/published/poetry/bury-me-in-2020.html",
