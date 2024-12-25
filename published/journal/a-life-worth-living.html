@@ -72,6 +72,18 @@
       object-fit: contain;
       /* Ensure image fits within container */
     }
+
+    .spaceOutText {
+      letter-spacing: 4px;
+    }
+
+    .hit-area-expansion {
+      padding: 40px;
+      /* adjust to increase the hit area */
+      background-color: transparent;
+      border: none;
+      pointer-events: auto;
+    }
   </style>
 
 </head>
@@ -381,7 +393,7 @@
             <div class="tab-pane fade show active" id="pills-trekking" role="tabpanel" aria-labelledby="pills-trekking-tab">
               <div class="row">
                 <div class="col-lg-6">
-                  <img alt="Frith Hilton's Vision 2020 (A Life Worth Living) " class="img-fluid lazy" src="../../images/loading.gif" data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/2020/coverDesign.jpg">
+                  <img alt="Frith Hilton's Vision 2020 (A Life Worth Living) " class="img-fluid lazy" src="../../images/loading.gif" data-src="">
                   <hr class="my-5" />
                 </div>
               </div>
@@ -412,11 +424,25 @@
               <div class="row justify-content-center" id="reading">
                 <!--Reading Content-->
                 <div v-if="store.calendarState == 'years' ">
-                  <h1 @click="store.setcalendarState({ year: '2019', state: 'months' }) " class="col-12 mb-5 mt-5 text-center text-nightswan-gradient fw-bold addSomePadding ">2019</h1>
+                  <h1 @click="store.setcalendarState({ year: '2019', state: 'months' }) " class="col-12 mt-5 text-center text-nightswan-gradient fw-bold  spaceOutText">2019</h1>
+                  <span v-show="store.activeCalendar.year ==
+'2019' " class="title-separator"></span>
+                  <button class="btn btn-naked btn-icon-right addSomePadding mb-5" href="#!" v-effect="if (store.activeCalendar.year ==
+                            '2019' ) $el.focus()"></button>
                   <hr class="my-5" />
-                  <h1 @click="store.setcalendarState({ year: '2020', state: 'months' }) " class="col-12 mb-5 mt-5 text-center text-nightswan-gradient fw-bold addSomePadding ">2020</h1>
+
+                  <h1 @click="store.setcalendarState({ year: '2020', state: 'months' }) " class="col-12 mt-5 text-center text-nightswan-gradient fw-bold  spaceOutText">2020</h1>
+                  <span v-show="store.activeCalendar.year ==
+'2020' " class="title-separator"></span>
+                  <button class="btn btn-naked btn-icon-right addSomePadding mb-5" href="#!" v-effect="if (store.activeCalendar.year ==
+                            '2020' ) $el.focus()"></button>
                   <hr class="my-5" />
-                  <h1 @click="store.setcalendarState({ year: '2021', state: 'months' }) " class="col-12 mb-5 mt-5 text-center text-nightswan-gradient fw-bold addSomePadding ">2021</h1>
+
+                  <h1 @click="store.setcalendarState({ year: '2021', state: 'months' }) " class="col-12 mt-5 text-center text-nightswan-gradient fw-bold  spaceOutText">2021</h1>
+                  <span v-show="store.activeCalendar.year ==
+'2021' " class="title-separator"></span>
+                  <button class="btn btn-naked btn-icon-right addSomePadding mb-5" href="#!" v-effect="if (store.activeCalendar.year ==
+                            '2021' ) $el.focus()"></button>
                   <hr class="my-5" />
                 </div>
 
@@ -424,64 +450,90 @@
                   <div v-if="store.activeCalendar.year == '2019'">
                     2019
                     <div v-for="(month, monthIndex) in Object.keys(store.calendarResources().data['2019'])" :key="monthIndex">
-                      <h1 @click="store.setcalendarState({ year: '2019', month: monthIndex, state: 'days' }) " class="col-12 mb-5 mt-5 text-center text-nightswan-gradient fw-bold addSomePadding ">{{month}}</h1>
+                      <h1 @click="store.setcalendarState({ year: '2019', month: monthIndex, state: 'days' }) " class="col-12 mt-5 text-center text-nightswan-gradient fw-bold spaceOutText ">{{month}}</h1>
+                      <span v-show="store.activeCalendar.month == monthIndex" class="title-separator"></span>
+                      <button class="btn btn-naked btn-icon-right addSomePadding mb-5" href="#!" v-effect="if (store.activeCalendar.month == monthIndex ) $el.focus()"></button>
                     </div>
                   </div>
                   <div v-if="store.activeCalendar.year == '2020'">
                     2020
                     <div v-for="(month, monthIndex) in Object.keys(store.calendarResources().data['2020'])" :key="monthIndex">
-                      <h1 @click="store.setcalendarState({ year: '2020', month: monthIndex, state: 'days' }) " class="col-12 mb-5 mt-5 text-center text-nightswan-gradient fw-bold addSomePadding ">{{month}}</h1>
+                      <h1 @click="store.setcalendarState({ year: '2020', month: monthIndex, state: 'days' }) " class="col-12 mt-5 text-center text-nightswan-gradient fw-bold spaceOutText ">{{month}}</h1>
+                      <span v-show="store.activeCalendar.month == monthIndex" class="title-separator"></span>
+                      <button class="btn btn-naked btn-icon-right addSomePadding mb-5" href="#!" v-effect="if (store.activeCalendar.month == monthIndex ) $el.focus()"></button>
                     </div>
                   </div>
                   <div v-if="store.activeCalendar.year == '2021'">
                     2021
                     <div v-for="(month, monthIndex) in Object.keys(store.calendarResources().data['2021'])" :key="monthIndex">
-                      <h1 @click="store.setcalendarState({ year: '2021', month: monthIndex, state: 'days' }) " class="col-12 mb-5 mt-5 text-center text-nightswan-gradient fw-bold addSomePadding ">{{month}}</h1>
+                      <h1 @click="store.setcalendarState({ year: '2021', month: monthIndex, state: 'days' }) " class="col-12 mt-5 text-center text-nightswan-gradient fw-bold spaceOutText ">{{month}}</h1>
+                      <span v-show="store.activeCalendar.month == monthIndex" class="title-separator"></span>
+                      <button class="btn btn-naked btn-icon-right addSomePadding mb-5" href="#!" v-effect="if (store.activeCalendar.month == monthIndex ) $el.focus()"></button>
                     </div>
                   </div>
                   <!--===== Go back  =====-->
                   <div class="col-lg-3 col-sm-6">
-                    <p @click="store.goBackInState('years' )" class="btn btn-naked-wrap go-back-btn">
-                      <i class="feather icon-arrow-left"></i>
-                      <span> Years </span>
-                    </p>
+                    <div class="hit-area-expansion" @click="store.goBackInState('years')">
+                      <p class="btn btn-naked-wrap go-back-btn">
+                        <i class="feather icon-arrow-left"></i>
+                        <span> Years </span>
+                      </p>
+                    </div>
                   </div>
-                  <!--===== End Go back  =====-->
+                </div> <!--===== End Go back  =====-->
 
-                </div>
+              </div>
 
-                <div v-if="store.calendarState == 'days' ">
-                  <div v-for="(day, dayIndex) in store.calendarResources().data[store.activeCalendar.year][Object.keys(store.calendarResources().data[store.activeCalendar.year])[store.activeCalendar.month]]" :key="dayIndex" class="mb-5 text-center">
-                        <h2 class="col-4">
-                          <span class="hedding-svg">{{store.convertIndex(dayIndex + 1)}}</span>
-                        </h2>
-                        <button class="btn btn-naked btn-icon-right" href="#!" v-effect="if (store.activeCalendar.day ==
+              <div v-if="store.calendarState == 'days' ">
+                <div v-for="(day, dayIndex) in store.calendarResources().data[store.activeCalendar.year][Object.keys(store.calendarResources().data[store.activeCalendar.year])[store.activeCalendar.month]]" :key="dayIndex" class="mb-5 text-center" @click="store.setcalendarState({ year: store.activeCalendar.year, month: store.activeCalendar.month, day: dayIndex, state: 'journal' })">
+                  <h2 class="col-4">
+                    <span class="hedding-svg">{{store.convertIndex(dayIndex + 1)}}</span>
+                  </h2>
+                  <button class="btn btn-naked btn-icon-right" href="#!" v-effect="if (store.activeCalendar.day ==
                             dayIndex ) $el.focus()"></button>
-                        <h5 class="mt-3">{{day.date}}</h5>
-                        <span v-show="store.currentChapter == index" class="title-separator"></span>
-                  </div>
-                  <!--===== Go back  =====-->
-                  <div class="col-lg-3 col-sm-6">
-                    <p @click="store.goBackInState('months' )" class="btn btn-naked-wrap go-back-btn">
+                  <h5 class="mt-3">{{day.date}}</h5>
+                  <span v-show="store.activeCalendar.day ==
+dayIndex" class="title-separator"></span>
+                </div>
+                <!--===== Go back  =====-->
+                <div class="col-lg-3 col-sm-6">
+                  <div class="hit-area-expansion" @click="store.goBackInState('months')">
+                    <p class="btn btn-naked-wrap go-back-btn">
                       <i class="feather icon-arrow-left"></i>
                       <span> Months </span>
                     </p>
                   </div>
-                  <!--===== End Go back  =====-->
-
                 </div>
+              </div> <!--===== End Go back  =====-->
 
-              </div>
             </div>
-          </div>
-          <div class="mb-5">
-            <a id="media-link" href="#" target="_blank">
-              <div id="media-container"></div>
-            </a>
+
+            <div v-if="store.calendarState == 'journal' ">
+              <h1>Journal</h1>
+              <!--===== Go back  =====-->
+              <div class="col-lg-3 col-sm-6">
+                <div class="hit-area-expansion" @click="store.goBackInState('days')">
+                  <p class="btn btn-naked-wrap go-back-btn">
+                    <i class="feather icon-arrow-left"></i>
+                    <span> Days </span>
+                  </p>
+                </div>
+              </div>
+            </div> <!--===== End Go back  =====-->
+
           </div>
 
         </div>
       </div>
+    </div>
+    <div class="mb-5">
+      <a id="media-link" href="#" target="_blank">
+        <div id="media-container"></div>
+      </a>
+    </div>
+
+    </div>
+    </div>
     </div>
   </section>
 
@@ -832,11 +884,11 @@
         year: "",
         month: "",
         day: "",
-      },         
+      },
       convertIndex(prop) {
-         var indexNumber = prop;
-         var number = numbered.stringify(indexNumber);
-         return number;
+        var indexNumber = prop;
+        var number = numbered.stringify(indexNumber);
+        return number;
       },
       calendarResources() {
         return {
@@ -1182,7 +1234,7 @@
 <p>Thank you to the royal houses of Europe, Asia and Middle East, famous politicians, actors and musicians, Neil De Grasse Tyson, Logan Paul, Kris Jenner, Jimmy Fallon, Kourtney Kardashian, Ariana Grande, and my mum and dad.</p>
 <p>I'm also immensely grateful, and apologize to everyone who has been of tremendous help but isn't mentioned in this book, I owe a lot to every one of you, thank you.</p>`,
           authorsNote: [
-            ` <img alt="Image" class="img-fluid lazy mb-3" src="../../images/loading.gif"  data-src="https://raw.githubusercontent.com/DbRDYZmMRu/fhw-two/refs/heads/main/books/2020/author%20note.jpg">
+            ` <img alt="Image" class="img-fluid lazy mb-3" src="../../images/loading.gif"  data-src="">
             <p class="text-center mt-1"> <span class="fw-bold"><i>I love you all immensely.</i></span> </p>`,
           ],
           chapterTitles: [
