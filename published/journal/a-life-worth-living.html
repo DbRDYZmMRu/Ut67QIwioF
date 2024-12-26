@@ -385,7 +385,7 @@
             </li>
             <li class="nav-item" role="presentation">
               <button class="nav-link" id="pills-integration-tab" data-bs-toggle="pill" data-bs-target="#pills-integration" type="button" role="tab" aria-controls="pills-integration" aria-selected="false" @click="store.setChapters2020AsTab()">
-                Chapters
+                Content
               </button>
             </li>
           </ul>
@@ -444,6 +444,14 @@
                   <button class="btn btn-naked btn-icon-right addSomePadding mb-5" href="#!" v-effect="if (store.activeCalendar.year ==
                             '2021' ) $el.focus()"></button>
                   <hr class="my-5" />
+
+                  <h1 @click="store.setcalendarState({ year: 'resources', state: 'resourcesList' }) " class="col-12 mt-5 text-center text-nightswan-gradient fw-bold  spaceOutText">Resources</h1>
+                  <span v-show="store.activeCalendar.year ==
+'resources' " class="title-separator"></span>
+                  <button class="btn btn-naked btn-icon-right addSomePadding mb-5" href="#!" v-effect="if (store.activeCalendar.year ==
+                            'resources' ) $el.focus()"></button>
+                  <hr class="my-5" />
+                  
                 </div>
 
                 <div v-if="store.calendarState == 'months' ">
@@ -536,8 +544,28 @@ dayIndex" class="title-separator"></span>
                     <span> Days </span>
                   </p>
                 </div>
-              </div>
-            </div> <!--===== End Go back  =====-->
+              </div> <!--===== End Go back  =====-->
+            </div>
+            
+            <div v-if="store.calendarState == 'resourcesList' ">
+                              <h2 class="col-4 fw-bold mb-4">
+                  <span class="hedding-svg">Resources</span>
+                </h2>
+              <div class="mt-4 me-4 ms-4" v-html="store.resources().data.content"></div>
+              
+              
+                <!--===== Go back  =====-->
+                <div class="col-lg-3 col-sm-6">
+                  <div class="hit-area-expansion" @click="store.goBackInState('years')">
+                    <p class="btn btn-naked-wrap go-back-btn">
+                      <i class="feather icon-arrow-left"></i>
+                      <span> Years </span>
+                    </p>
+                  </div>
+                </div>
+              </div> <!--===== End Go back  =====-->
+              
+            </div>
 
           </div>
 
@@ -1768,6 +1796,199 @@ dayIndex" class="title-separator"></span>
           }
         }
       },
+      resources() {
+        return {
+          data: {
+            content: `    <p><b class="fw-bold">Devotionals</b>: </p>
+
+    <p> The Daily Stoic <i>by</i> Ryan Holiday and Stephen Hanselman</p>
+
+    <p> Live Like a Stoic <i>by</i> Assimo P Igliucci and G Regory L Opez</p>
+
+    <p> </p>
+
+    <p><b class="fw-bold">Musical</b>: </p>
+
+    <p> Year of Wonder <i>by</i> Clemency Burton-Hill</p>
+
+    <p> </p>
+
+    <p><b class="fw-bold">Poetry Books</b>: </p>
+
+    <p> A Poem for Every Day of the Year <i>by</i> Allie Esiri</p>
+
+    <p> Poems to Live Your Life By <i>by</i> Chris Riddell</p>
+
+    <p> </p>
+
+    <p><b class="fw-bold">Books</b>:</p>
+
+    <p> 21 lessons of the 21st century <i>by</i> Yuval Noah Harari</p>
+
+    <p> Be obsessed or be average <i>by</i> Grant Cardone</p>
+
+    <p> Moonwalking with Einstein <i>by</i> Joshua Foer</p>
+
+    <p> The Manifesto of art <i>by</i> Ayn Rand</p>
+
+    <p> The Patternist Series <i>by</i> Octavia E. Butler</p>
+
+    <p> The Lucky one <i>by</i> Lori-Day</p>
+
+    <p> City of girls <i>by</i> Elizabeth Gilbert</p>
+
+    <p> Consolation of Philosophy <i>by</i> Arthur Schopenhauer</p>
+
+    <p> THINK <i>by</i> Cal Newport</p>
+
+    <p> Waking up <i>by</i> Sam Harris</p>
+
+    <p> The six pillars of self-esteem <i>by</i> Nathaniel Branden</p>
+
+    <p> The Xenogenesis trilogy <i>by</i> Octavia E. Butler</p>
+
+    <p> Numero zero <i>by</i> Umberto Uco</p>
+
+    <p> When Nietzsche wept <i>by</i> Irvin D. Yalom</p>
+
+    <p> The institution <i>by</i> Stephen King</p>
+
+    <p> Digital Fortress <i>by</i> Dan Brown</p>
+
+    <p> For the New Intellectual <i>by</i> Ayn Rand</p>
+
+    <p> Atlas shrugged <i>by</i> Ayn Rand</p>
+
+    <p> The Savage Messiah <i>by</i> Jim Proser</p>
+
+    <p> Daily Rituals: How Artists Work <i>by</i> Mason Currey</p>
+
+    <p> Creating Characters: How to Build Story People <i>by</i> Dwight V. Swain</p>
+
+    <p> The Ayn Rand lexicon <i>by</i> Ayn Rand</p>
+
+    <p> Heroes and Heroines <i>by</i> Tami D Cowden, Caro LaFever and Sue Viders</p>
+
+    <p> The Diary of Søren Kierkegaard <i>by</i> Søren Kierkegaard</p>
+
+    <p> The Upanishads <i>by</i> Eknath Easwaran</p>
+
+    <p> Sanity is Impossibility <i>by</i> Santosh Jha</p>
+
+    <p> Breaking open the head <i>by</i> Daniel Pinchbeck</p>
+
+    <p> Cult X <i>by</i> Fuminori Nakamura</p>
+
+    <p> Digital Fortress <i>by</i> Daniel Defoe</p>
+
+    <p> Why Beauty Matters <i>by</i> Roger Scruton</p>
+
+    <p> A Brief History of Mathematical Thought <i>by</i> Luke Heaton</p>
+
+    <p> The Romanticism Manifesto <i>by</i> Ayn Rand</p>
+
+    <p> The Room <i>by</i> Jonas Karlsson</p>
+
+    <p> The bridegroom was a dog <i>by</i> Yoko Tawada</p>
+
+    <p> Thief <i>by</i> Fuminori Nakumara</p>
+
+    <p> The kingdom <i>by</i> Fuminori Nakumara</p>
+
+    <p> The weekend <i>by</i> Charlotte Wood</p>
+
+    <p> Last winter we departed <i>by</i> Fuminori Nakumara</p>
+
+    <p> The Stoic Challenge <i>by</i> William B. Irvine</p>
+
+    <p> On Death and Dying <i>by</i> Elisabeth KüblerRoss</p>
+
+    <p> Monsieur Teste <i>by</i> Paul Valery</p>
+
+    <p> Reasons to stay alive <i>by</i> Matt Heig</p>
+
+    <p> Music and the Mind <i>by</i> Anthony Storr</p>
+
+    <p> </p>
+
+    <p><b class="fw-bold">Courses</b>: </p>
+
+    <p> Waking up with Sam Harris</p>
+
+    <p> History of World Literature <i>by</i> Grant L. Voth, Ph.D.</p>
+
+
+    <p> The Science of Mindfulness <i>by</i> Professor Ronald D. Siegel</p>
+
+    <p> Skepticism 101: How to think like a scientist</p>
+
+    <p> </p>
+
+    <p><b class="fw-bold">Other Readings</b>: </p>
+
+    <p> The cart-horses and the saddle-horse <i>by</i> Robert Louis</p>
+
+    <p> The tadpole and the frog <i>by</i> Robert Louis</p>
+
+    <p> Something in it <i>by</i> Robert Louis</p>
+
+    <p> Faith, half faith and no faith at all <i>by</i> Robert Louis</p>
+
+    <p> The touchstone <i>by</i> Robert Louis</p>
+
+    <p> The poor thing <i>by</i> Robert Louis</p>
+
+    <p> The song of the morrow <i>by</i> Robert Louis</p>
+
+    <p> The man and his friend <i>by</i> Robert Louis</p>
+
+    <p> The four reformers <i>by</i> Robert Louis</p>
+
+    <p> The house of eld <i>by</i> Robert Louis</p>
+
+    <p> Bloodchild <i>by</i> Octavia E. Butler</p>
+
+    <p> Speech Sounds <i>by</i> Octavia E. Butler</p>
+
+    <p> The Evening and the Morning and the Night <i>by</i> Octavia E. Butler</p>
+
+    <p> The yellow paint <i>by</i> Robert Louis</p>
+
+    <p> The penitent <i>by</i> Robert Louis</p>
+
+    <p> The devil and the innkeeper <i>by</i> Robert Louis</p>
+
+    <p> Near of kin <i>by</i> Octavia E. Butler</p>
+
+    <p> Crossover <i>by</i> Octavia E. Butler</p>
+
+    <p> Positive obsession <i>by</i> Octavia E. Butler</p>
+
+    <p> Furor scribendi <i>by</i> Octavia E. Butler</p>
+
+    <p> He Would Never Use One Word Where None Would Do <i>by</i> Philip Levine titled </p>
+
+    <p> Introduction <i>by</i> William Blake</p>
+
+    <p> The shepherd <i>by</i> William Blake</p>
+
+    <p> The ecchoing green <i>by</i> William Blake</p>
+
+    <p> Human <i>by</i> Maya Angelou</p>
+
+    <p> Insignificant <i>by</i> Maya Angelou</p>
+
+    <p> Love Letter <i>by</i> Maya Angelou</p>
+
+    <p> Me And My Work <i>by</i> Maya Angelou</p>
+
+    <p> Changing <i>by</i> Maya Angelou</p>
+
+    <p> </p><p> </p>
+`
+          } 
+        } 
+      }, 
       setcalendarState(stateObj) {
         this.calendarState = stateObj.state;
         localStorage.setItem("calendarState", stateObj.state);
