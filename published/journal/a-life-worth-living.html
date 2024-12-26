@@ -451,7 +451,7 @@
                   <button class="btn btn-naked btn-icon-right addSomePadding mb-5" href="#!" v-effect="if (store.activeCalendar.year ==
                             'resources' ) $el.focus()"></button>
                   <hr class="my-5" />
-                  
+
                 </div>
 
                 <div v-if="store.calendarState == 'months' ">
@@ -546,31 +546,31 @@ dayIndex" class="title-separator"></span>
                 </div>
               </div> <!--===== End Go back  =====-->
             </div>
-            
+
             <div v-if="store.calendarState == 'resourcesList' ">
-                              <h2 class="col-4 fw-bold mb-4">
-                  <span class="hedding-svg">Resources</span>
-                </h2>
+              <h2 class="col-4 fw-bold mb-4">
+                <span class="hedding-svg">Resources</span>
+              </h2>
               <div class="mt-4 me-4 ms-4" v-html="store.resources().data.content"></div>
-              
-              
-                <!--===== Go back  =====-->
-                <div class="col-lg-3 col-sm-6">
-                  <div class="hit-area-expansion" @click="store.goBackInState('years')">
-                    <p class="btn btn-naked-wrap go-back-btn">
-                      <i class="feather icon-arrow-left"></i>
-                      <span> Years </span>
-                    </p>
-                  </div>
+
+
+              <!--===== Go back  =====-->
+              <div class="col-lg-3 col-sm-6">
+                <div class="hit-area-expansion" @click="store.goBackInState('years')">
+                  <p class="btn btn-naked-wrap go-back-btn">
+                    <i class="feather icon-arrow-left"></i>
+                    <span> Years </span>
+                  </p>
                 </div>
-              </div> <!--===== End Go back  =====-->
-              
-            </div>
+              </div>
+            </div> <!--===== End Go back  =====-->
 
           </div>
 
         </div>
+
       </div>
+    </div>
     </div>
     <div class="mb-5">
       <a id="media-link" href="#" target="_blank">
@@ -925,6 +925,7 @@ dayIndex" class="title-separator"></span>
       reactive
     } from "https://unpkg.com/petite-vue?module";
     const store = reactive({
+      jQueryObj: $,
       calendarState: "years",
       activeCalendar: {
         year: "",
@@ -1731,9 +1732,9 @@ dayIndex" class="title-separator"></span>
             },
             2021: {
               January: [
-  {
-    "date": "Friday, January 29, 2021",
-    "data": `<p><b class="fw-bold">Devotional</b>: KEEP IT SIMPLE</p>
+                {
+                  "date": "Friday, January 29, 2021",
+                  "data": `<p><b class="fw-bold">Devotional</b>: KEEP IT SIMPLE</p>
 
     <p> </p>
 
@@ -1759,12 +1760,12 @@ dayIndex" class="title-separator"></span>
 
     <p>         An excerpt from my current read, Music, and the Mind by Anthony Storr: <i> Bird songs resemble human music both in the sound patterns and in the behaviour setting. Songs illustrate the aesthetic mean between chaotic irregularity and monotonous regularity . . . The essential difference from human music is in the brief temporal span of the bird’s repeatable patterns, commonly three seconds or less, with an upper limit of about fifteen seconds. This limitation conforms to the concept of primitive musicality. Every simple musical device, even transposition and simultaneous harmony, occurs in bird music.</i> </p>
 
-    <p> </p><p> </p>`, 
+    <p> </p><p> </p>`,
 
   },
-  {
-    "date": "Saturday, January 30, 2021",
-    "data": `    <p><b class="fw-bold">Devotional</b>: YOU DON’T HAVE TO STAY ON TOP OF EVERYTHING</p>
+                {
+                  "date": "Saturday, January 30, 2021",
+                  "data": `    <p><b class="fw-bold">Devotional</b>: YOU DON’T HAVE TO STAY ON TOP OF EVERYTHING</p>
 
     <p> </p>
 
@@ -1788,9 +1789,9 @@ dayIndex" class="title-separator"></span>
 
     <p>         A wrench away from my past conditioning of leaving my daily rituals for trifle. I’m back, hopefully on track, and a bit shaken, but not broken, maybe I never can be broken.</p>
 
-    <p> </p><p> </p>`, 
+    <p> </p><p> </p>`,
   }
-                
+
         ],
             }
           }
@@ -1986,9 +1987,9 @@ dayIndex" class="title-separator"></span>
 
     <p> </p><p> </p>
 `
-          } 
-        } 
-      }, 
+          }
+        }
+      },
       setcalendarState(stateObj) {
         this.calendarState = stateObj.state;
         localStorage.setItem("calendarState", stateObj.state);
@@ -2295,6 +2296,23 @@ dayIndex" class="title-separator"></span>
       }
 
     });
+
+    store.jQueryObj(document).ready(function() {
+      const activeCalendar = localStorage.getItem('activeCalendar');
+      if (activeCalendar) {
+        const data = JSON.parse(activeCalendar);
+        store.activeCalendar = data;
+
+      }
+
+      const calendarState = localStorage.getItem('calendarState');
+      if (calendarState) {
+        const data = calendarState;
+        store.calendarState = data;
+      }
+
+    });
+
 
     createApp({
       store,
