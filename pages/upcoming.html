@@ -42,38 +42,39 @@
     }
   </style>
   <style>
-.popup-container {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  z-index: 9999;
-}
+    .popup-container {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      z-index: 9999;
+    }
 
-.image-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
+    .image-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
 
-.image-container img {
-  width: 85vw; /* Increased width */
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  object-fit: contain; /* Ensure image fits within container */
-} 
+    .image-container img {
+      width: 85vw;
+      /* Increased width */
+      height: auto;
+      /* Maintain aspect ratio */
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      object-fit: contain;
+      /* Ensure image fits within container */
+    }
 
     .spaceOutText {
       letter-spacing: 4px;
     }
-   
-    
   </style>
 </head>
 
@@ -305,7 +306,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="pages/bio.html"><span class="text-line"> Bio </span></a>
-            </li>            
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="../cookies.html"><span class="text-line"> Cookies Policy </span></a>
             </li>
@@ -334,15 +335,15 @@
       <div class="row justify-content-center">
         <div class="col-lg-6">
           <div class="mb-5">
-          <a id="designer" href="https://leondev.com.ng" target="_blank">
-            <img class="img-fluid" src="../images/ads/designedBySamsungS8.png" alt="">
-          </a>
+            <a id="designer" href="https://leondev.com.ng" target="_blank">
+              <img class="img-fluid" src="../images/ads/designedBySamsungS8.png" alt="">
+            </a>
           </div>
-          
+
           <div class="mb-5">
-          <a target="_blank" href="https://www.tesla.com/we-robot">
-            <img class="img-fluid" src="../images/ads/Robovan-RoboTaxi.gif" alt="Tesla Robovan">
-          </a>
+            <a target="_blank" href="https://www.tesla.com/we-robot">
+              <img class="img-fluid" src="../images/ads/Robovan-RoboTaxi.gif" alt="Tesla Robovan">
+            </a>
           </div>
           <!--===== Start of  Upcoming timeline =====-->
           <div class="mt-5 mb-5" id="reading">
@@ -384,11 +385,11 @@
               </p>
             </div>
           </div>
-                    <div class="mb-5">
-                      <a id="media-link" href="#" target="_blank">
-                        <div id="media-container"></div>
-                      </a>
-                    </div>
+          <div class="mb-5">
+            <a id="media-link" href="#" target="_blank">
+              <div id="media-container"></div>
+            </a>
+          </div>
 
           <!--========== 
 End of poetry content ==========-->
@@ -521,14 +522,14 @@ End of poetry content ==========-->
   <!--========== 
         End of back to top section ==========-->
 
-<!-- Popup container -->
-<div class="popup-container" id="popup-container">
+  <!-- Popup container -->
+  <div class="popup-container" id="popup-container">
 
-  <!-- Image container -->
-  <div class="image-container">
-    <img  src="../images/ads/xokhloei.gif" alt="Popup Image" />
+    <!-- Image container -->
+    <div class="image-container">
+      <img src="../images/ads/xokhloei.gif" alt="Popup Image" />
+    </div>
   </div>
-</div>
 
 
   <!--========== 
@@ -550,54 +551,54 @@ End of poetry content ==========-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/numbered/1.1.0/index.min.js" integrity="sha512-UQKbSOyUPIxk4a5/TIcqKUfl2JX0b1Rgq16BgvZbIWa7g5g3Rl/RXzFJFt2iu9LzDUpqDbcaak2ifjW887SxPw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!--===== Main theme script =====-->
   <script src="../js/functions.js"></script>
-    <script src="../js/siteAds.js"></script>  
-  
+  <script src="../js/siteAds.js"></script>
+
   <script>
-$(document).ready(function() {
-  // Function to check if it's the first load in the hour
-  function isFirstLoadInHour() {
-    const currentTime = new Date().getTime();
-    const storedTime = localStorage.getItem('popupLoadTime');
-    
-    if (!storedTime || (currentTime - storedTime) >= 0) { // 0ms = 0 seconds 
-      localStorage.setItem('popupLoadTime', currentTime);
-      return true;
-    }
-    
-    return false;
-  }
-  
-  // Open popup on first load in the hour with 5-second delay
-  if (isFirstLoadInHour()) {
-    setTimeout(function() {
-      $('#popup-container').fadeIn();
-    }, 5000); // 5000ms = 5 seconds
-  }
-  
-  // Close popup on close button click, escape key press, or outside click
-  $('#close-btn').on('click', function() {
-    $('#popup-container').fadeOut();
-  });
-  
-  $(document).keyup(function(e) {
-    if (e.key === 'Escape') {
-      $('#popup-container').fadeOut();
-    }
-  });
-  
-  // Close popup when clicking outside the image
-  $('#popup-container').on('click', function(e) {
-    if ($(e.target).is('#popup-container') && !$(e.target).closest('.image-container').length) {
-      $(this).fadeOut();
-    }
-  });
-  
- // Make image clickable
-  $('.image-container img').on('click', function() {
-    // Replace with your desired action
-    window.open('https://www.ulta.com/p/xo-khloe-pimprod2049077?sku=2632566&fbclid=PAZXh0bgNhZW0CMTEAAaZVXM4Lkj92LaOM2GEyeMxVRAlahdOYqvDPGzl8R2-Jsf758_E9PY8hyC8_aem__mk4AnSGz28b8amcS9xKDg');
-  });
-});
+    $(document).ready(function() {
+      // Function to check if it's the first load in the hour
+      function isFirstLoadInHour() {
+        const currentTime = new Date().getTime();
+        const storedTime = localStorage.getItem('popupLoadTime');
+
+        if (!storedTime || (currentTime - storedTime) >= 0) { // 0ms = 0 seconds 
+          localStorage.setItem('popupLoadTime', currentTime);
+          return true;
+        }
+
+        return false;
+      }
+
+      // Open popup on first load in the hour with 5-second delay
+      if (isFirstLoadInHour()) {
+        setTimeout(function() {
+          $('#popup-container').fadeIn();
+        }, 5000); // 5000ms = 5 seconds
+      }
+
+      // Close popup on close button click, escape key press, or outside click
+      $('#close-btn').on('click', function() {
+        $('#popup-container').fadeOut();
+      });
+
+      $(document).keyup(function(e) {
+        if (e.key === 'Escape') {
+          $('#popup-container').fadeOut();
+        }
+      });
+
+      // Close popup when clicking outside the image
+      $('#popup-container').on('click', function(e) {
+        if ($(e.target).is('#popup-container') && !$(e.target).closest('.image-container').length) {
+          $(this).fadeOut();
+        }
+      });
+
+      // Make image clickable
+      $('.image-container img').on('click', function() {
+        // Replace with your desired action
+        window.open('https://www.ulta.com/p/xo-khloe-pimprod2049077?sku=2632566&fbclid=PAZXh0bgNhZW0CMTEAAaZVXM4Lkj92LaOM2GEyeMxVRAlahdOYqvDPGzl8R2-Jsf758_E9PY8hyC8_aem__mk4AnSGz28b8amcS9xKDg');
+      });
+    });
   </script>
   <script>
     window.fbAsyncInit = function() {
@@ -674,7 +675,9 @@ $(document).ready(function() {
             {
               id: 1,
               title: "karma’s sequel",
-              content: `<p> — </p>`,
+              content: `<p>Delve into the pallidity of a fresco</p>
+<p>while I'm alive, I appropriate homes</p>
+<p>telling rames wanton tales of my own.</p> `,
               date: "27th of December",
               }
 
@@ -700,8 +703,7 @@ $(document).ready(function() {
 
 
 
-              
-           
+
             ],
           convertIndex(prop) {
             var indexNumber = prop;
@@ -799,10 +801,10 @@ $(document).ready(function() {
           function(response) {}
         );
       },
-   goToPublished() {
-      window.location.href = '../published/books.html';
-    }
-      
+      goToPublished() {
+        window.location.href = '../published/books.html';
+      }
+
     });
     createApp({
       store,
