@@ -526,10 +526,60 @@ End of poetry content ==========-->
   <div class="popup-container" id="popup-container">
 
     <!-- Image container -->
-    <div class="image-container">
-      <img src="../images/ads/KylieCosmetics.gif" alt="Popup Image" />
+    <div id="image-container" class="image-container">
+      <img src="../../images/ads/KylieCosmetics.gif" alt="Kylie Cosmetics" />
     </div>
   </div>
+
+  <!-- Popup container -->
+  <div class="popup-container" id="popup-container-ii">
+
+    <!-- Image container -->
+    <div id="image-container-vii" class="image-container">
+      <img src="../../images/ads/Orebella.gif" alt="Popup Image vii" />
+    </div>
+  </div>
+
+  <div class="popup-container" id="popup-container-iii">
+
+    <!-- Image container -->
+    <div id="image-container-iii" class="image-container">
+      <img src="../../images/ads/wildflower.gif" alt="Popup Image iii" />
+    </div>
+  </div>
+
+  <div class="popup-container" id="popup-container-iv">
+
+    <!-- Image container -->
+    <div id="image-container-iv" class="image-container">
+      <img src="../../images/ads/cosmic.gif" alt="Popup Image iv" />
+    </div>
+  </div>
+
+  <div class="popup-container" id="popup-container-v">
+
+    <!-- Image container -->
+    <div id="image-container-v" class="image-container">
+      <img src="../../images/ads/khy.gif" alt="Popup Image v" />
+    </div>
+  </div>
+
+  <div class="popup-container" id="popup-container-vi">
+
+    <!-- Image container -->
+    <div id="image-container-vi" class="image-container">
+      <img src="../../images/ads/skims.gif" alt="Popup Image vi" />
+    </div>
+  </div>
+
+  <div class="popup-container" id="popup-container-vii">
+
+    <!-- Image container -->
+    <div id="image-container-ii" class="image-container">
+      <img src="../../images/ads/xokhloe.gif" alt="Popup Image ii" />
+    </div>
+  </div>
+
 
 
   <!--========== 
@@ -552,7 +602,6 @@ End of poetry content ==========-->
   <!--===== Main theme script =====-->
   <script src="../js/functions.js"></script>
   <script src="../js/siteAds.js"></script>
-
   <script>
     $(document).ready(function() {
       // Function to check if it's the first load in the hour
@@ -560,7 +609,7 @@ End of poetry content ==========-->
         const currentTime = new Date().getTime();
         const storedTime = localStorage.getItem('popupLoadTime');
 
-        if (!storedTime || (currentTime - storedTime) >= 0) { // 0ms = 0 seconds 
+        if (!storedTime || (currentTime - storedTime) >= 0) { // 0ms = 0 minutes
           localStorage.setItem('popupLoadTime', currentTime);
           return true;
         }
@@ -593,13 +642,92 @@ End of poetry content ==========-->
         }
       });
 
-      // Make image clickable
-      $('.image-container img').on('click', function() {
-        // Replace with your desired action
-        window.open('https://www.ulta.com/brand/kylie-cosmetics');
+      $('#popup-container-ii').on('click', function(e) {
+        if ($(e.target).is('#popup-container-ii') && !$(e.target).closest('.image-container').length) {
+          $(this).fadeOut();
+        }
       });
+
+      $('#popup-container-iii').on('click', function(e) {
+        if ($(e.target).is('#popup-container-iii') && !$(e.target).closest('.image-container').length) {
+          $(this).fadeOut();
+        }
+      });
+
+      $('#popup-container-iv').on('click', function(e) {
+        if ($(e.target).is('#popup-container-iv') && !$(e.target).closest('.image-container').length) {
+          $(this).fadeOut();
+        }
+      });
+
+      $('#popup-container-v').on('click', function(e) {
+        if ($(e.target).is('#popup-container-v') && !$(e.target).closest('.image-container').length) {
+          $(this).fadeOut();
+        }
+      });
+
+      $('#popup-container-vi').on('click', function(e) {
+        if ($(e.target).is('#popup-container-vi') && !$(e.target).closest('.image-container').length) {
+          $(this).fadeOut();
+        }
+      });
+
+      $('#popup-container-vii').on('click', function(e) {
+        if ($(e.target).is('#popup-container-vii') && !$(e.target).closest('.image-container').length) {
+          $(this).fadeOut();
+        }
+      });
+
+
+
+
+
+
+
+
+      // Make image clickable
+      $('#image-container').on('click', function() {
+        // Replace with your desired action
+        window.open('https://www.ulta.com/brand/kylie-cosmetics', '_blank');
+      });
+
+      $('#image-container-vii').on('click', function() {
+        // Replace with your desired action
+        window.open('https://orebella.com', '_blank');
+      });
+
+      $('#image-container-iii').on('click', function() {
+        // Replace with your desired action
+        window.open('https://www.wildflowercases.com/en-ad', '_blank');
+      });
+
+      $('#image-container-iv').on('click', function() {
+        // Replace with your desired action
+        window.open('https://www.ulta.com/p/cosmic-kylie-jenner-eau-de-parfum-pimprod2044205', '_blank');
+      });
+
+      $('#image-container-v').on('click', function() {
+        // Replace with your desired action
+        window.open('https://www.khy.com/', '_blank');
+      });
+      $('#image-container-vi').on('click', function() {
+        // Replace with your desired action
+        window.open('https://www.skims.com/', '_blank');
+      });
+
+      $('#image-container-ii').on('click', function() {
+        // Replace with your desired action
+        window.open('https://www.ulta.com/p/xo-khloe-pimprod2049077?sku=2632566&fbclid=PAZXh0bgNhZW0CMTEAAaZVXM4Lkj92LaOM2GEyeMxVRAlahdOYqvDPGzl8R2-Jsf758_E9PY8hyC8_aem__mk4AnSGz28b8amcS9xKDg', '_blank');
+      });
+
+
+
+
+
+
     });
   </script>
+
   <script>
     window.fbAsyncInit = function() {
       FB.init({
@@ -621,6 +749,7 @@ End of poetry content ==========-->
       CopyURLText: "Copy URL",
       goBackState: false,
       currentPoemId: 0,
+      chapterClickNo: 0,
 
       getCurrentPoemView() {
         if (localStorage.getItem("currentPoemId")) {
@@ -663,6 +792,31 @@ End of poetry content ==========-->
         (location.href = "#reading");
         this.currentPoemId = index;
         localStorage.setItem("currentPoemId", this.currentPoemId);
+        this.chapterClickNo++;
+        console.log(this.chapterClickNo);
+        if (this.chapterClickNo == 1) {
+          $('#popup-container-ii').fadeIn();
+        }
+        if (this.chapterClickNo == 2) {
+          $('#popup-container-iii').fadeIn();
+        }
+        if (this.chapterClickNo == 3) {
+          $('#popup-container-iv').fadeIn();
+        }
+        if (this.chapterClickNo == 4) {
+          $('#popup-container-v').fadeIn();
+        }
+        if (this.chapterClickNo == 5) {
+          $('#popup-container-vi').fadeIn();
+        }
+        if (this.chapterClickNo == 6) {
+          $('#popup-container').fadeIn();
+        }
+        if (this.chapterClickNo == 7) {
+          $('#popup-container-vii').fadeIn();
+          this.chapterClickNo = 0;
+        }
+ 
       },
       goBack() {
         localStorage.setItem("viewii", "upcomingPoemTitles");
