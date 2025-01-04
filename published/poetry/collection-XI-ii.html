@@ -18,7 +18,7 @@
   <meta property="og:image" content="" />
 
   <!--===== Title =====-->
-  <title>Collection XI-ii </title>
+  <title>Frith Hilton Collection XI (2025 Edition) </title>
 
   <!--===== Favicon =====-->
   <link rel="shortcut icon" href="../../images/favicon.png" />
@@ -656,6 +656,13 @@
     </div>
   </div>
 
+  <div class="popup-container" id="popup-container-vii">
+
+    <!-- Image container -->
+    <div id="image-container-vii" class="image-container">
+      <img src="../../images/ads/xokhloe.gif" alt="Popup Image vii" />
+    </div>
+  </div>
 
 
 
@@ -750,6 +757,11 @@
         }
       });
 
+      $('#popup-container-vii').on('click', function(e) {
+        if ($(e.target).is('#popup-container-vii') && !$(e.target).closest('.image-container').length) {
+          $(this).fadeOut();
+        }
+      });
 
 
 
@@ -761,7 +773,7 @@
       // Make image clickable
       $('#image-container').on('click', function() {
         // Replace with your desired action
-        window.open('#', '_blank');
+        window.open('https://www.ulta.com/brand/kylie-cosmetics', '_blank');
       });
 
       $('#image-container-ii').on('click', function() {
@@ -788,7 +800,10 @@
         window.open('https://www.skims.com/', '_blank');
       });
 
-
+      $('#image-container-vii').on('click', function() {
+        // Replace with your desired action
+        window.open('https://www.ulta.com/p/xo-khloe-pimprod2049077?sku=2632566&fbclid=PAZXh0bgNhZW0CMTEAAaZVXM4Lkj92LaOM2GEyeMxVRAlahdOYqvDPGzl8R2-Jsf758_E9PY8hyC8_aem__mk4AnSGz28b8amcS9xKDg', '_blank');
+      });
 
 
 
@@ -893,6 +908,9 @@
         }
         if (this.chapterClickNo == 6) {
           $('#popup-container').fadeIn();
+        }
+        if (this.chapterClickNo == 7) {
+          $('#popup-container-vii').fadeIn();
           this.chapterClickNo = 0;
         }
 
