@@ -426,7 +426,27 @@ button {
 </div>
   
 </div>  
+
   
+<div id="15" @click="store.navigateToAlbum15" class='gradient-item'>
+  <div class="gradient-wrap">
+    <img src="../images/albums/ValenceEve.jpg" alt="" crossorigin="anonymous" />
+  </div>
+</div>
+  <section class="py-4 bg-black" @click="store.navigateToAlbum15">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <h3 class="text-white">
+        valence eve
+          </h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
 
 <div id="14" @click="store.navigateToAlbum14" class='gradient-item'>
   <div class="gradient-wrap">
@@ -639,7 +659,7 @@ button {
 
 <div id="1" class='gradient-item' @click="store.navigateToAlbum1">
   <div class="gradient-wrap">
-<img src="https://images.genius.com/5332966e33dbd4e90638e079db3f9905.1000x1000x1.jpg" alt="" crossorigin="anonymous" /> </div>
+<img src="../images/albums/hiv.jpg" alt="" crossorigin="anonymous" /> </div>
 </div>
   <section class="py-4 bg-black" @click="store.navigateToAlbum1">
     <div class="container">
@@ -1182,7 +1202,10 @@ button {
     const store = reactive({
       acceptCookieUse() {
         localStorage.setItem("cookieUse", true)
-      }, 
+      },
+      navigateToAlbum15() {
+      window.location.href = 'https://genius.com/albums/Frith-hilton/Valence-Eve';
+    }, 
       navigateToAlbum14() {
       window.location.href = 'https://genius.com/albums/Frith-hilton/Farther-memes';
     }, 
