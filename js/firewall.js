@@ -12,7 +12,7 @@ async function getUserLocation() {
 // Function to check if the user is in the special group
 function isSpecialGroup(country) {
     // Define your special group countries
-    const specialGroupCountries = ['US'];
+    const specialGroupCountries = ['NG'];
     return specialGroupCountries.includes(country);
 }
 
@@ -21,7 +21,7 @@ async function checkLocation() {
     const storedData = JSON.parse(localStorage.getItem('userLocationData'));
     const currentTime = new Date().getTime();
 
-    if (storedData) {
+    if (storedData && storedData.timestamp + 7 * 24 * 60 * 60 * 1000 > currentTime) {
         // Use the stored location data if it's less than a week old
         return storedData.country;
     } else {
