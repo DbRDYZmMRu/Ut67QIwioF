@@ -21,7 +21,7 @@ async function checkLocation() {
     const storedData = JSON.parse(localStorage.getItem('userLocationData'));
     const currentTime = new Date().getTime();
 
-    if (storedData && storedData.timestamp + 7 * 24 * 60 * 60 * 1000 > currentTime) {
+    if (storedData) {
         // Use the stored location data if it's less than a week old
         return storedData.country;
     } else {
