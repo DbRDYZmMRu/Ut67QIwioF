@@ -12,7 +12,7 @@ async function getUserLocation() {
 // Function to check if the user is in the special group
 function isSpecialGroup(country) {
     // Define your special group countries
-    const specialGroupCountries = ['NG'];
+    const specialGroupCountries = ['US'];
     return specialGroupCountries.includes(country);
 }
 
