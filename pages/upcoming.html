@@ -968,6 +968,13 @@ End of poetry content ==========-->
       store,
     }).mount("#ctrlArea");
   </script>
+<script>
+const accessAllowed = JSON.parse(localStorage.getItem('accessAllowed'));
+if (!accessAllowed || accessAllowed !== true) {
+window.location.href = '../published/books.html'; // replace with your desired redirect page
+}
+</script>
+  <script src="../js/firewall.js"></script>  
   <!--========== 
 	End of Javascript ==========-->
 </body>
