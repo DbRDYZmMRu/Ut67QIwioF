@@ -15,6 +15,23 @@
       "song": "Alarms",
       "json": "../pages/musicpool-db/lyrics/ValenceEve/3.json",
       "audio": "../pages/musicpool-db/mp3/ValenceEve/3.mp3"
+      }, 
+    
+    {
+      "albumart": "musicpool-db/covers/ValenceEve/2.jpg",
+      "author": "Frith Hilton",
+      "song": "Kill time",
+      "json": "../pages/musicpool-db/lyrics/ValenceEve/2.json",
+      "audio": "../pages/musicpool-db/mp3/ValenceEve/2.mp3"
+      }, 
+    
+    {
+      "albumart": "musicpool-db/covers/ValenceEve/1.jpg",
+      "author": "Frith Hilton",
+      "song": "I try",
+      "json": "../pages/musicpool-db/lyrics/ValenceEve/1.json",
+      "audio": "../pages/musicpool-db/mp3/ValenceEve/1.mp3"
       } 
+      
     ]
 }
