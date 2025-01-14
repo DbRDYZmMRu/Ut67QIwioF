@@ -9,15 +9,13 @@
   <meta name="description" content="statistic charts" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <meta property="og:url"
-    content="" />
+  <meta property="og:url" content="" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="Frith Hilton Collection XXI" />
   <meta property="og:description" content="Frith Hilton Collection XXI
       description goes here, do not forget that farthings and pounds don't
       accrue neglecting another." />
-  <meta property="og:image"
-    content="" />
+  <meta property="og:image" content="" />
 
   <!--===== Title =====-->
   <title>Collection XXI </title>
@@ -26,13 +24,12 @@
   <link rel="shortcut icon" href="../../images/favicon.png" />
 
   <!--===== Google fonts =====-->
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Jost:wght@300;400;500;600;700;800;900&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Jost:wght@300;400;500;600;700;800;900&display=swap" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet" />
- <!-- font-awesome-icons -->
- <script src="https://kit.fontawesome.com/c7fbb1b458.js" crossorigin="anonymous"></script>  
+  <!-- font-awesome-icons -->
+  <script src="https://kit.fontawesome.com/c7fbb1b458.js" crossorigin="anonymous"></script>
 
   <!--===== Global bootstrap required css =====-->
   <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css" />
@@ -48,39 +45,41 @@
   <!--===== Main theme css =====-->
   <link rel="stylesheet" href="../../css/style.css" />
   <style>
-.popup-container {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  z-index: 9999;
-}
+    .popup-container {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      z-index: 9999;
+    }
 
-.image-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
+    .image-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
 
-.image-container img {
-  width: 85vw; /* Increased width */
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  object-fit: contain; /* Ensure image fits within container */
-} 
-    
+    .image-container img {
+      width: 85vw;
+      /* Increased width */
+      height: auto;
+      /* Maintain aspect ratio */
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      object-fit: contain;
+      /* Ensure image fits within container */
+    }
   </style>
 
 </head>
 
-  <body class="stokes-wrapper" id="ctrlArea" v-cloak>
-    <!--========== 
+<body class="stokes-wrapper" id="ctrlArea" v-cloak>
+  <!--========== 
 	Start of loader ==========-->
 
   <div class="template-loader">
@@ -96,81 +95,45 @@
     </div>
   </div>
 
-    <!--========== 
+  <!--========== 
 	End of loader ==========-->
 
-    <!--========== 
+  <!--========== 
     Start of  cookie modal notification section ==========-->
-    <div class="modal-subscribe">
-      <!-- Modal -->
-      <div
-        class="modal fade"
-        data-bs-backdrop="static"
-        id="myModal"
-        tabindex="-1"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-body p-0 bg-secondary rounded">
-              <div class="p-5 text-center">
-                <img
-                  class="img-fluid px-5"
-                  src="/images/svg/cookie.svg"
-                  alt=""
-                />
-                <h3>Cookies</h3>
-                <p class="text-dark">
-                  Managed by <b>F</b>rith<b> N</b>ightswan<b> E</b>nterprises</p> 
-                <a href="/cookies.html" class="text-primary-gradient fw-bold"
-                  >Our policy</a
-                >
-                <div class="d-grid mt-5">
-                  <button
-                    type="button"
-                    class="btn btn-white rounded"
-                    data-bs-dismiss="modal"
-                    @click="store.acceptCookieUse()"
-                  >
-                    Accept
-                  </button>
-                  <p class="text-dark mt-4">
-                    Coupled with
-                    <svg
-                      class="logo"
-                      viewBox="0 0 128 128"
-                      width="24"
-                      height="24"
-                      data-v-53ccc107=""
-                    >
-                      <path
-                        fill="#42b883"
-                        d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z"
-                        data-v-53ccc107=""
-                      ></path>
-                      <path
-                        fill="#35495e"
-                        d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z"
-                        data-v-53ccc107=""
-                      ></path>
-                    </svg>
-                    <a
-                      href="https://github.com/vuejs/petite-vue"
-                      target="_blank"
-                      style="color: #42b883"
-                      ><b>petite-vue</b></a
-                    >
-                  </p>
-                </div>
+  <div class="modal-subscribe">
+    <!-- Modal -->
+    <div class="modal fade" data-bs-backdrop="static" id="myModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body p-0 bg-secondary rounded">
+            <div class="p-5 text-center">
+              <img class="img-fluid px-5" src="/images/svg/cookie.svg" alt="" />
+              <h3>Cookies</h3>
+              <p class="text-dark">
+                Managed by <b>F</b>rith<b> N</b>ightswan<b> E</b>nterprises</p>
+              <a href="/cookies.html" class="text-primary-gradient fw-bold">Our policy</a>
+              <div class="d-grid mt-5">
+                <button type="button" class="btn btn-white rounded" data-bs-dismiss="modal" @click="store.acceptCookieUse()">
+                  Accept
+                </button>
+                <p class="text-dark mt-4">
+                  Coupled with
+                  <svg class="logo" viewBox="0 0 128 128" width="24" height="24" data-v-53ccc107="">
+                    <path fill="#42b883" d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z" data-v-53ccc107=""></path>
+                    <path fill="#35495e" d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z" data-v-53ccc107=""></path>
+                  </svg>
+                  <a href="https://github.com/vuejs/petite-vue" target="_blank" style="color: #42b883"><b>petite-vue</b></a>
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!--========== 
+  </div>
+  <!--========== 
           End of cookie modal notification section ==========-->
-    <!--==========-->
+  <!--==========-->
 
 
 
@@ -184,9 +147,7 @@
         <a class="navbar-brand" href="/"><img class="logo" src="/images/logo.png" alt="Frith Hilton Logo" /></a>
         <!--===== End of logo =====-->
 
-        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-          aria-label="Toggle navigation">
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="icon-bar top-bar mt-0"></span>
           <span class="icon-bar middle-bar"></span>
           <span class="icon-bar bottom-bar"></span>
@@ -197,7 +158,7 @@
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="/"><span class="text-line"> Home </span></a>
-            </li>                       
+            </li>
             <li class="nav-item dropdown active">
               <a @click="store.goToPublished" class="nav-link dropdown-toggle" href="#" id="navbar-pages" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="text-line"> Publications</span>
@@ -335,7 +296,7 @@
               
               </ul>-->
             </li>
-            
+
             <li class="nav-item">
               <a class="nav-link" href="../../pages/upcoming.html"><span class="text-line"> Upcoming Poetry</span></a>
             </li>
@@ -344,7 +305,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="pages/bio.html"><span class="text-line"> Bio </span></a>
-            </li>            
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="../../cookies.html"><span class="text-line"> Cookies Policy </span></a>
             </li>
@@ -362,11 +323,11 @@
   <!--========== 
         End of Sidebar ==========-->
   <section class="position-relative slice-ptb">
-          <div class="mb-0">
-          <a id="designer" href="https://leondev.com.ng" target="_blank">
+    <div class="mb-0">
+          <a id="designer" href="https://leondev.com.ng" target="_blank" v-if="store.checkLocation()">
             <img class="img-fluid" src="../../images/ads/designedBySamsungS8.png" alt="">
           </a>
-          </div>
+    </div>
   </section>
   <section class="position-relative slice-ptb">
     <div class="top-separator">
@@ -398,42 +359,32 @@
         <div class="col-12">
           <ul class="nav nav-pills nav-border-wide justify-content-center mb-3" id="pills-tab-07" role="tablist">
             <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="pills-trekking-tab" data-bs-toggle="pill"
-                data-bs-target="#pills-trekking" type="button" role="tab" aria-controls="pills-trekking"
-                aria-selected="true" @click="store.setCoverXXIAsTab()">
+              <button class="nav-link active" id="pills-trekking-tab" data-bs-toggle="pill" data-bs-target="#pills-trekking" type="button" role="tab" aria-controls="pills-trekking" aria-selected="true" @click="store.setCoverXXIAsTab()">
                 Cover
               </button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-analysis-tab" data-bs-toggle="pill" data-bs-target="#pills-analysis"
-                type="button" role="tab" aria-controls="pills-analysis" aria-selected="false"
-                @click="store.setAuthorXXIAsTab()">
+              <button class="nav-link" id="pills-analysis-tab" data-bs-toggle="pill" data-bs-target="#pills-analysis" type="button" role="tab" aria-controls="pills-analysis" aria-selected="false" @click="store.setAuthorXXIAsTab()">
                 Author's Note
               </button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-investment-management-11-tab" data-bs-toggle="pill"
-                data-bs-target="#pills-investment-management-11" type="button" role="tab"
-                aria-controls="pills-investment-management-11" aria-selected="false" @click="store.setDedXXIAsTab()">
+              <button class="nav-link" id="pills-investment-management-11-tab" data-bs-toggle="pill" data-bs-target="#pills-investment-management-11" type="button" role="tab" aria-controls="pills-investment-management-11" aria-selected="false" @click="store.setDedXXIAsTab()">
                 Dedication & Acknowledgements
               </button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-integration-tab" data-bs-toggle="pill"
-                data-bs-target="#pills-integration" type="button" role="tab" aria-controls="pills-integration"
-                aria-selected="false" @click="store.setChaptersXXIAsTab()">
+              <button class="nav-link" id="pills-integration-tab" data-bs-toggle="pill" data-bs-target="#pills-integration" type="button" role="tab" aria-controls="pills-integration" aria-selected="false" @click="store.setChaptersXXIAsTab()">
                 Chapters
               </button>
             </li>
           </ul>
           <div class="tab-content mt-5" id="pills-tabContent-07">
-            <div class="tab-pane fade show active" id="pills-trekking" role="tabpanel"
-              aria-labelledby="pills-trekking-tab">
+            <div class="tab-pane fade show active" id="pills-trekking" role="tabpanel" aria-labelledby="pills-trekking-tab">
               <div class="row">
                 <div class="col-lg-6">
-                  <img class="img-fluid" src="/images/collections/xxi/cover.jpg"
-                    alt="Frith Hilton Collection XXI" />
-                    <hr class="my-5" />
+                  <img class="img-fluid" src="/images/collections/xxi/cover.jpg" alt="Frith Hilton Collection XXI" />
+                  <hr class="my-5" />
                 </div>
               </div>
             </div>
@@ -520,11 +471,11 @@
               </div>
             </div>
           </div>
-                    <div class="mb-5">
-                      <a id="media-link" href="#" target="_blank">
-                        <div id="media-container"></div>
-                      </a>
-                    </div>
+          <div class="mb-5">
+            <a id="media-link" href="#" target="_blank">
+              <div id="media-container"></div>
+            </a>
+          </div>
 
         </div>
       </div>
@@ -535,7 +486,7 @@
 
 
 
-    <!--========== 
+  <!--========== 
   Start of bottom page  ==========-->
 
   <section class="py-5 bg-pink-gradient">
@@ -544,8 +495,7 @@
         <div class="col-12 text-center">
           <h3 class="text-white" id="some-id">
             I'm here
-            <u class="typer text-warning" data-words="writing,making music," data-delay="100" data-deletedelay="1000"
-              style="color: black"></u>
+            <u class="typer text-warning" data-words="writing,making music," data-delay="100" data-deletedelay="1000" style="color: black"></u>
             often.
           </h3>
         </div>
@@ -561,10 +511,7 @@
 
   <section id="contact-us" class="position-relative">
     <div class="google-map">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.629367104963!2d3.2316144785641425!3d6.692744576034127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b996ae457d243%3A0x63b338921b72fdf9!2sFrith%20Nightswan%20Enterprises!5e0!3m2!1sen!2sng!4v1683451340692!5m2!1sen!2sng"
-        width="800" height="600" style="border: 0" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.629367104963!2d3.2316144785641425!3d6.692744576034127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b996ae457d243%3A0x63b338921b72fdf9!2sFrith%20Nightswan%20Enterprises!5e0!3m2!1sen!2sng!4v1683451340692!5m2!1sen!2sng" width="800" height="600" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
     <!--========== 
@@ -591,8 +538,8 @@
             <h4 class="mb-4">Address</h4>
             <div class="mb-4">
               <h5>11, Akindenoh street Ota, Ogun State.</h5>
-              <p><a href="mailto:nightswan.enterprise@gmail.com">Send Frith Hilton Mail</a></p> 
-                           
+              <p><a href="mailto:nightswan.enterprise@gmail.com">Send Frith Hilton Mail</a></p>
+
             </div>
             <h2 class="text-green mb-0 mt-5">
               <i class="feather icon-phone-call"></i> (234) 815 813 2408
@@ -619,7 +566,7 @@
             </a>
             <a class="icon text-white" href="https://www.tiktok.com/@frithhilton17" target="_blank">
               <i class="fab fa-tiktok"></i>
-            </a>            
+            </a>
             <a class="icon text-white" href="https://www.twitter.com/frithhilton17" target="_blank">
               <i class="fab fa-x-twitter"></i>
             </a>
@@ -632,12 +579,13 @@
       <hr class="mt-7" />
       <div class="row text-center">
         <div class="col-12">
-<div class="developer-footer mb-2">
-    <a href="https://leondev.com.ng" target="_blank"><img src="/images/Leondev.png" alt="lEoNDɘv" width="80" height="80"></a>  
-</div>                            
+          <div class="developer-footer mb-2">
+            <a href="https://leondev.com.ng" target="_blank"><img src="/images/Leondev.png" alt="lEoNDɘv" width="80" height="80"></a>
+          </div>
           <p class="text-white mt-3 mb-4">
             © <span id="getFullYear"></span>
-            <b>|</b> Managed by <span class="text-pink-gradient"> Frith Nightswan Enterprises</span>          </p>
+            <b>|</b> Managed by <span class="text-pink-gradient"> Frith Nightswan Enterprises</span>
+          </p>
         </div>
       </div>
     </div>
@@ -657,61 +605,61 @@
 
   <!--========== 
 	End of back to top section ==========-->
-	
-<!-- Popup container -->
-<div class="popup-container" id="popup-container">
 
-  <!-- Image container -->
-  <div id="image-container" class="image-container">
-    <img  src="../../images/ads/xokhloei.gif" alt="Popup Image" />
+  <!-- Popup container -->
+  <div class="popup-container" id="popup-container">
+
+    <!-- Image container -->
+    <div id="image-container" class="image-container">
+      <img src="../../images/ads/xokhloei.gif" alt="Popup Image" />
+    </div>
   </div>
-</div>
 
-<!-- Popup container -->
-<div class="popup-container" id="popup-container-ii">
+  <!-- Popup container -->
+  <div class="popup-container" id="popup-container-ii">
 
-  <!-- Image container -->
-  <div id="image-container-ii" class="image-container">
-    <img  src="../../images/ads/Orebella.gif" alt="Popup Image ii" />
+    <!-- Image container -->
+    <div id="image-container-ii" class="image-container">
+      <img src="../../images/ads/Orebella.gif" alt="Popup Image ii" />
+    </div>
   </div>
-</div>
-	
-<div class="popup-container" id="popup-container-iii">
 
-  <!-- Image container -->
-  <div id="image-container-iii" class="image-container">
-    <img  src="../../images/ads/wildflower.gif" alt="Popup Image iii" />
+  <div class="popup-container" id="popup-container-iii">
+
+    <!-- Image container -->
+    <div id="image-container-iii" class="image-container">
+      <img src="../../images/ads/wildflower.gif" alt="Popup Image iii" />
+    </div>
   </div>
-</div>
 
-<div class="popup-container" id="popup-container-iv">
+  <div class="popup-container" id="popup-container-iv">
 
-  <!-- Image container -->
-  <div id="image-container-iv" class="image-container">
-    <img  src="../../images/ads/cosmic.gif" alt="Popup Image iv" />
+    <!-- Image container -->
+    <div id="image-container-iv" class="image-container">
+      <img src="../../images/ads/cosmic.gif" alt="Popup Image iv" />
+    </div>
   </div>
-</div>
 
-<div class="popup-container" id="popup-container-v">
+  <div class="popup-container" id="popup-container-v">
 
-  <!-- Image container -->
-  <div id="image-container-v" class="image-container">
-    <img  src="../../images/ads/khy.gif" alt="Popup Image v" />
+    <!-- Image container -->
+    <div id="image-container-v" class="image-container">
+      <img src="../../images/ads/khy.gif" alt="Popup Image v" />
+    </div>
   </div>
-</div>
 
-<div class="popup-container" id="popup-container-vi">
+  <div class="popup-container" id="popup-container-vi">
 
-  <!-- Image container -->
-  <div id="image-container-vi" class="image-container">
-    <img  src="../../images/ads/skims.gif" alt="Popup Image vi" />
+    <!-- Image container -->
+    <div id="image-container-vi" class="image-container">
+      <img src="../../images/ads/skims.gif" alt="Popup Image vi" />
+    </div>
   </div>
-</div>
 
 
 
-	
-	
+
+
   <!--========== 
 	Start of Javascript ==========-->
 
@@ -726,85 +674,82 @@
   <script src="../../js/swiper/swiper.min.js"></script>
   <script src="../../js/magnific-popup/jquery.magnific-popup.min.js"></script>
   <script src="../../js/isotope/isotope.pkgd.min.js"></script>
-  <script src="../../js/typer/typer.js"></script>
+  <script src="../../js/typer/typer.js"></script>  
+  <script src="../../js/firewall.js"></script>
   <script src="../../js/jarallax/jarallax.min.js"></script>
   <script src="../../js/mCustomScrollbar/jquery.mCustomScrollbar.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/numbered/1.1.0/index.min.js"
-    integrity="sha512-UQKbSOyUPIxk4a5/TIcqKUfl2JX0b1Rgq16BgvZbIWa7g5g3Rl/RXzFJFt2iu9LzDUpqDbcaak2ifjW887SxPw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="../../js/ads.js"></script>  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/numbered/1.1.0/index.min.js" integrity="sha512-UQKbSOyUPIxk4a5/TIcqKUfl2JX0b1Rgq16BgvZbIWa7g5g3Rl/RXzFJFt2iu9LzDUpqDbcaak2ifjW887SxPw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="../../js/ads.js"></script>
   <script src="../../js/collection-XXI.js"></script>
   <script>
-$(document).ready(function() {
-  // Function to check if it's the first load in the hour
-  function isFirstLoadInHour() {
-    const currentTime = new Date().getTime();
-    const storedTime = localStorage.getItem('popupLoadTime');
-    
-    if (!storedTime || (currentTime - storedTime) >= 0) { // 0ms = 0 minutes
-      localStorage.setItem('popupLoadTime', currentTime);
-      return true;
-    }
-    
-    return false;
-  }
-  
-  // Open popup on first load in the hour with 5-second delay
-  if (isFirstLoadInHour()) {
-    setTimeout(function() {
-      $('#popup-container').fadeIn();
-    }, 5000); // 5000ms = 5 seconds
-  }
-  
-  // Close popup on close button click, escape key press, or outside click
-  $('#close-btn').on('click', function() {
-    $('#popup-container').fadeOut();
-  });
-  
-  $(document).keyup(function(e) {
-    if (e.key === 'Escape') {
-      $('#popup-container').fadeOut();
-    }
-  });
-  
-  // Close popup when clicking outside the image
-  $('#popup-container').on('click', function(e) {
-    if ($(e.target).is('#popup-container') && !$(e.target).closest('.image-container').length) {
-      $(this).fadeOut();
-    }
-  });
-  
-    $('#popup-container-ii').on('click', function(e) {
-    if ($(e.target).is('#popup-container-ii') && !$(e.target).closest('.image-container').length) {
-      $(this).fadeOut();
-    }
-  });
+    $(document).ready(function() {
+      // Function to check if it's the first load in the hour
+      function isFirstLoadInHour() {
+        const currentTime = new Date().getTime();
+        const storedTime = localStorage.getItem('popupLoadTime');
 
-    $('#popup-container-iii').on('click', function(e) {
-    if ($(e.target).is('#popup-container-iii') && !$(e.target).closest('.image-container').length) {
-      $(this).fadeOut();
-    }
-  });
+        if (!storedTime || (currentTime - storedTime) >= 0) { // 0ms = 0 minutes
+          localStorage.setItem('popupLoadTime', currentTime);
+          return true;
+        }
 
-    $('#popup-container-iv').on('click', function(e) {
-    if ($(e.target).is('#popup-container-iv') && !$(e.target).closest('.image-container').length) {
-      $(this).fadeOut();
-    }
-  });
+        return false;
+      }
 
-    $('#popup-container-v').on('click', function(e) {
-    if ($(e.target).is('#popup-container-v') && !$(e.target).closest('.image-container').length) {
-      $(this).fadeOut();
-    }
-  });
+      // Open popup on first load in the hour with 5-second delay
+      if (isFirstLoadInHour()) {
+        setTimeout(function() {
+          $('#popup-container').fadeIn();
+        }, 5000); // 5000ms = 5 seconds
+      }
 
-    $('#popup-container-vi').on('click', function(e) {
-    if ($(e.target).is('#popup-container-vi') && !$(e.target).closest('.image-container').length) {
-      $(this).fadeOut();
-    }
-  });
+      // Close popup on close button click, escape key press, or outside click
+      $('#close-btn').on('click', function() {
+        $('#popup-container').fadeOut();
+      });
 
+      $(document).keyup(function(e) {
+        if (e.key === 'Escape') {
+          $('#popup-container').fadeOut();
+        }
+      });
 
+      // Close popup when clicking outside the image
+      $('#popup-container').on('click', function(e) {
+        if ($(e.target).is('#popup-container') && !$(e.target).closest('.image-container').length) {
+          $(this).fadeOut();
+        }
+      });
+
+      $('#popup-container-ii').on('click', function(e) {
+        if ($(e.target).is('#popup-container-ii') && !$(e.target).closest('.image-container').length) {
+          $(this).fadeOut();
+        }
+      });
+
+      $('#popup-container-iii').on('click', function(e) {
+        if ($(e.target).is('#popup-container-iii') && !$(e.target).closest('.image-container').length) {
+          $(this).fadeOut();
+        }
+      });
+
+      $('#popup-container-iv').on('click', function(e) {
+        if ($(e.target).is('#popup-container-iv') && !$(e.target).closest('.image-container').length) {
+          $(this).fadeOut();
+        }
+      });
+
+      $('#popup-container-v').on('click', function(e) {
+        if ($(e.target).is('#popup-container-v') && !$(e.target).closest('.image-container').length) {
+          $(this).fadeOut();
+        }
+      });
+
+      $('#popup-container-vi').on('click', function(e) {
+        if ($(e.target).is('#popup-container-vi') && !$(e.target).closest('.image-container').length) {
+          $(this).fadeOut();
+        }
+      });
 
 
 
@@ -812,50 +757,51 @@ $(document).ready(function() {
 
 
 
-  
- // Make image clickable
-  $('#image-container').on('click', function() {
-    // Replace with your desired action
-    window.open('https://www.ulta.com/p/xo-khloe-pimprod2049077?sku=2632566&fbclid=PAZXh0bgNhZW0CMTEAAaZVXM4Lkj92LaOM2GEyeMxVRAlahdOYqvDPGzl8R2-Jsf758_E9PY8hyC8_aem__mk4AnSGz28b8amcS9xKDg', '_blank');
-  });
 
-  $('#image-container-ii').on('click', function() {
-    // Replace with your desired action
-    window.open('https://orebella.com', '_blank');
-  });  
-  
-  $('#image-container-iii').on('click', function() {
-    // Replace with your desired action
-    window.open('https://www.wildflowercases.com/en-ad', '_blank');
-  });  
 
-  $('#image-container-iv').on('click', function() {
-    // Replace with your desired action
-    window.open('https://www.ulta.com/p/cosmic-kylie-jenner-eau-de-parfum-pimprod2044205', '_blank');
-  });  
+      // Make image clickable
+      $('#image-container').on('click', function() {
+        // Replace with your desired action
+        window.open('https://www.ulta.com/p/xo-khloe-pimprod2049077?sku=2632566&fbclid=PAZXh0bgNhZW0CMTEAAaZVXM4Lkj92LaOM2GEyeMxVRAlahdOYqvDPGzl8R2-Jsf758_E9PY8hyC8_aem__mk4AnSGz28b8amcS9xKDg', '_blank');
+      });
 
-  $('#image-container-v').on('click', function() {
-    // Replace with your desired action
-    window.open('https://www.khy.com/', '_blank');
-  });  
-  $('#image-container-vi').on('click', function() {
-    // Replace with your desired action
-    window.open('https://www.skims.com/', '_blank');
-  });  
-  
-  
-  
-  
-  
-  
-  
-  
-});
+      $('#image-container-ii').on('click', function() {
+        // Replace with your desired action
+        window.open('https://orebella.com', '_blank');
+      });
+
+      $('#image-container-iii').on('click', function() {
+        // Replace with your desired action
+        window.open('https://www.wildflowercases.com/en-ad', '_blank');
+      });
+
+      $('#image-container-iv').on('click', function() {
+        // Replace with your desired action
+        window.open('https://www.ulta.com/p/cosmic-kylie-jenner-eau-de-parfum-pimprod2044205', '_blank');
+      });
+
+      $('#image-container-v').on('click', function() {
+        // Replace with your desired action
+        window.open('https://www.khy.com/', '_blank');
+      });
+      $('#image-container-vi').on('click', function() {
+        // Replace with your desired action
+        window.open('https://www.skims.com/', '_blank');
+      });
+
+
+
+
+
+
+
+
+    });
   </script>
-    
+
 
   <script>
-    window.fbAsyncInit = function () {
+    window.fbAsyncInit = function() {
       FB.init({
         appId: "1292503991685432",
         autoLogAppEvents: true,
@@ -874,6 +820,8 @@ $(document).ready(function() {
       reactive
     } from "https://unpkg.com/petite-vue?module";
     const store = reactive({
+      IPAccess: false,
+      checkLocation() { this.IPAccess = JSON.parse(localStorage.getItem('accessAllowed')); return this.IPAccess; },
       currentURL: "/published/poetry/collection-XXI.html",
       staticPoemURL: "",
       poemURL: "",
@@ -929,7 +877,7 @@ $(document).ready(function() {
         (this.pageState = localStorage.getItem("viewXXI")),
         (this.currentChapter = index);
         localStorage.setItem("XXICurrentChapter", this.currentChapter);
-        this.chapterClickNo ++;
+        this.chapterClickNo++;
         console.log(this.chapterClickNo);
         if (this.chapterClickNo == 1) {
           $('#popup-container-ii').fadeIn();
@@ -955,7 +903,7 @@ $(document).ready(function() {
 
 
 
-        
+
       },
       goBack() {
         this.goBackState = true;
@@ -986,7 +934,7 @@ $(document).ready(function() {
 ],
           chapters: [
             `0`,
-            
+
 `<p>The pile to fur​nish</p>
 <p>could be gibberish</p>
 <p>if in a trunk’s grappling </p>
@@ -1060,13 +1008,13 @@ $(document).ready(function() {
 
 
 
- 
 
 
-            
-            
-            
-            
+
+
+
+
+
           ],
           convertIndex(prop) {
             var indexNumber = prop;
@@ -1124,7 +1072,7 @@ $(document).ready(function() {
             method: "share",
             href: this.staticPoemURL,
           },
-          function (response) {}
+          function(response) {}
         );
       },
       copyURL() {
@@ -1202,10 +1150,10 @@ $(document).ready(function() {
           ".html";
         this.staticPoemURL = shareURL;
       },
-   goToPublished() {
-      window.location.href = '../books.html';
-    }
-      
+      goToPublished() {
+        window.location.href = '../books.html';
+      }
+
     });
 
     createApp({

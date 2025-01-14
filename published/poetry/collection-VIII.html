@@ -92,7 +92,8 @@
                 />
                 <h3>Cookies</h3>
                 <p class="text-dark">
-                  Managed by <b>F</b>rith<b> N</b>ightswan<b> E</b>nterprises</p> 
+                  <b>Hilton</b> uses cookies to enhance user experience
+                </p>
                 <a href="/cookies.html" class="text-primary-gradient fw-bold"
                   >Our policy</a
                 >
@@ -335,7 +336,7 @@
         End of Sidebar ==========-->
   <section class="position-relative slice-ptb">
           <div class="mb-0">
-          <a id="designer" href="https://leondev.com.ng" target="_blank">
+          <a id="designer" href="https://leondev.com.ng" target="_blank" v-if="store.checkLocation()">
             <img class="img-fluid" src="../../images/ads/designedBySamsungS8.png" alt="">
           </a>
           </div>
@@ -609,7 +610,8 @@
 </div>                            
           <p class="text-white mt-3 mb-4">
             © <span id="getFullYear"></span>
-            <b>|</b> Managed by <span class="text-pink-gradient"> Frith Nightswan Enterprises</span>          </p>
+            <span class="text-pink-gradient">Howard Frith Hilton</span>
+          </p>
         </div>
       </div>
     </div>
@@ -643,7 +645,7 @@
   <script src="../../js/swiper/swiper.min.js"></script>
   <script src="../../js/magnific-popup/jquery.magnific-popup.min.js"></script>
   <script src="../../js/isotope/isotope.pkgd.min.js"></script>
-  <script src="../../js/typer/typer.js"></script>
+  <script src="../../js/typer/typer.js"></script>     <script src="../../js/firewall.js"></script>
   <script src="../../js/jarallax/jarallax.min.js"></script>
   <script src="../../js/mCustomScrollbar/jquery.mCustomScrollbar.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/numbered/1.1.0/index.min.js"
@@ -669,7 +671,7 @@
       createApp,
       reactive
     } from "https://unpkg.com/petite-vue?module";
-    const store = reactive({
+       const store = reactive({       IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage.getItem('accessAllowed')); return this.IPAccess; },
       currentURL: "/published/poetry/collection-VIII.html",
       staticPoemURL: "",
       poemURL: "",

@@ -681,7 +681,7 @@
   <script src="../../js/swiper/swiper.min.js"></script>
   <script src="../../js/magnific-popup/jquery.magnific-popup.min.js"></script>
   <script src="../../js/isotope/isotope.pkgd.min.js"></script>
-  <script src="../../js/typer/typer.js"></script>
+  <script src="../../js/typer/typer.js"></script>     <script src="../../js/firewall.js"></script>
   <script src="../../js/jarallax/jarallax.min.js"></script>
   <script src="../../js/mCustomScrollbar/jquery.mCustomScrollbar.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/numbered/1.1.0/index.min.js" integrity="sha512-UQKbSOyUPIxk4a5/TIcqKUfl2JX0b1Rgq16BgvZbIWa7g5g3Rl/RXzFJFt2iu9LzDUpqDbcaak2ifjW887SxPw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -832,7 +832,7 @@
       createApp,
       reactive
     } from "https://unpkg.com/petite-vue?module";
-    const store = reactive({
+       const store = reactive({       IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage.getItem('accessAllowed')); return this.IPAccess; },
       currentURL: "/published/poetry/collection-XI-ii.html",
       staticPoemURL: "",
       poemURL: "",
