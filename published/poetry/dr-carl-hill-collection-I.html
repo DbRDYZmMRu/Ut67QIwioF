@@ -609,16 +609,16 @@
 
     <!-- Image container -->
     <div id="image-container" class="image-container">
-      <img src="../../images/ads/xokhloei.gif" alt="Popup Image" />
+      <img src="../../images/ads/louisvuitton.gif" alt="Louis vuitton" />
     </div>
   </div>
 
   <!-- Popup container -->
-  <div class="popup-container" id="popup-container-ii">
+  <div class="popup-container" id="popup-container-vii">
 
     <!-- Image container -->
-    <div id="image-container-ii" class="image-container">
-      <img src="../../images/ads/Orebella.gif" alt="Popup Image ii" />
+    <div id="image-container-vii" class="image-container">
+      <img src="../../images/ads/Orebella.gif" alt="Popup Image vii" />
     </div>
   </div>
 
@@ -651,6 +651,14 @@
     <!-- Image container -->
     <div id="image-container-vi" class="image-container">
       <img src="../../images/ads/skims.gif" alt="Popup Image vi" />
+    </div>
+  </div>
+
+  <div class="popup-container" id="popup-container-ii">
+
+    <!-- Image container -->
+    <div id="image-container-ii" class="image-container">
+      <img src="../../images/ads/xokhloe.gif" alt="Popup Image ii" />
     </div>
   </div>
 
@@ -749,6 +757,13 @@
         }
       });
 
+      $('#popup-container-vii').on('click', function(e) {
+        if ($(e.target).is('#popup-container-vii') && !$(e.target).closest('.image-container').length) {
+          $(this).fadeOut();
+        }
+      });
+
+
 
 
 
@@ -760,10 +775,10 @@
       // Make image clickable
       $('#image-container').on('click', function() {
         // Replace with your desired action
-        window.open('https://www.ulta.com/p/xo-khloe-pimprod2049077?sku=2632566&fbclid=PAZXh0bgNhZW0CMTEAAaZVXM4Lkj92LaOM2GEyeMxVRAlahdOYqvDPGzl8R2-Jsf758_E9PY8hyC8_aem__mk4AnSGz28b8amcS9xKDg', '_blank');
+        window.open('https://us.louisvuitton.com/eng-us/stories/the-lv-footprint-soccer?utm_source=instagram&utm_medium=social&utm_campaign=PUBL_MENSCAMPAIGNSS25_IG_US_ENG_AW_20250107_20250109_MEN_RTW_MEN_SS25', '_blank');
       });
 
-      $('#image-container-ii').on('click', function() {
+      $('#image-container-vii').on('click', function() {
         // Replace with your desired action
         window.open('https://orebella.com', '_blank');
       });
@@ -785,6 +800,11 @@
       $('#image-container-vi').on('click', function() {
         // Replace with your desired action
         window.open('https://www.skims.com/', '_blank');
+      });
+
+      $('#image-container-ii').on('click', function() {
+        // Replace with your desired action
+        window.open('https://www.ulta.com/p/xo-khloe-pimprod2049077?sku=2632566&fbclid=PAZXh0bgNhZW0CMTEAAaZVXM4Lkj92LaOM2GEyeMxVRAlahdOYqvDPGzl8R2-Jsf758_E9PY8hyC8_aem__mk4AnSGz28b8amcS9xKDg', '_blank');
       });
 
 
