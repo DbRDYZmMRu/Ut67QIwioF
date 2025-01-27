@@ -170,6 +170,7 @@ $(document).ready(function () {
         // Play song function
 
         function playSong() {
+          $('#popup-container-i').fadeIn();
             if (play == 0) {
                 play = 1;
                 audio.play();
