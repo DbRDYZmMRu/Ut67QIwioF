@@ -1,6 +1,14 @@
 {
   "songs": [
     {
+      "albumart": "musicpool-db/covers/ValenceEve/8.jpg",
+      "author": "Frith Hilton",
+      "song": "Beautiful Taylor",
+      "json": "../pages/musicpool-db/lyrics/ValenceEve/8.json",
+      "audio": "../pages/musicpool-db/mp3/ValenceEve/8.mp3"
+      }, 
+    
+    {
       "albumart": "musicpool-db/covers/ValenceEve/7.jpg",
       "author": "Frith Hilton",
       "song": "Yahoo",
