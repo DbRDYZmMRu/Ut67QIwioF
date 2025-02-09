@@ -1,6 +1,14 @@
 {
   "songs": [
     {
+      "albumart": "musicpool-db/covers/ValenceEve/10.jpg",
+      "author": "Frith Hilton",
+      "song": "To you",
+      "json": "../pages/musicpool-db/lyrics/ValenceEve/10.json",
+      "audio": "../pages/musicpool-db/mp3/ValenceEve/10.mp3"
+      }, 
+    
+    {
       "albumart": "musicpool-db/covers/ValenceEve/9.jpg",
       "author": "Frith Hilton",
       "song": "Farce Emotions",
