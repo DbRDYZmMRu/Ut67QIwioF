@@ -1,6 +1,14 @@
 {
   "songs": [
     {
+      "albumart": "musicpool-db/covers/ValenceEve/11.jpg",
+      "author": "Frith Hilton",
+      "song": "Honest",
+      "json": "../pages/musicpool-db/lyrics/ValenceEve/11.json",
+      "audio": "../pages/musicpool-db/mp3/ValenceEve/11.mp3"
+      }, 
+    
+    {
       "albumart": "musicpool-db/covers/ValenceEve/10.jpg",
       "author": "Frith Hilton",
       "song": "To you",
