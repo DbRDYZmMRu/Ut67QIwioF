@@ -1,6 +1,14 @@
 {
   "songs": [
     {
+      "albumart": "musicpool-db/covers/ValenceEve/12.jpg",
+      "author": "Frith Hilton",
+      "song": "Recruits",
+      "json": "../pages/musicpool-db/lyrics/ValenceEve/12.json",
+      "audio": "../pages/musicpool-db/mp3/ValenceEve/12.mp3"
+      }, 
+    
+    {
       "albumart": "musicpool-db/covers/ValenceEve/11.jpg",
       "author": "Frith Hilton",
       "song": "Honest",
