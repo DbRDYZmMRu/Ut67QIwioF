@@ -1,6 +1,14 @@
 {
   "songs": [
     {
+      "albumart": "musicpool-db/covers/ValenceEve/15.jpg",
+      "author": "Frith Hilton",
+      "song": "Take you home",
+      "json": "../pages/musicpool-db/lyrics/ValenceEve/15.json",
+      "audio": "../pages/musicpool-db/mp3/ValenceEve/15.mp3"
+      }, 
+    
+    {
       "albumart": "musicpool-db/covers/ValenceEve/14.jpg",
       "author": "Frith Hilton",
       "song": "Porn star",
