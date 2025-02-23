@@ -1,6 +1,22 @@
 {
   "songs": [
     {
+      "albumart": "musicpool-db/covers/ValenceEve/14.jpg",
+      "author": "Frith Hilton",
+      "song": "Porn star",
+      "json": "../pages/musicpool-db/lyrics/ValenceEve/14.json",
+      "audio": "../pages/musicpool-db/mp3/ValenceEve/14.mp3"
+      }, 
+    
+    {
+      "albumart": "musicpool-db/covers/ValenceEve/13.jpg",
+      "author": "Frith Hilton",
+      "song": "Butcher feel",
+      "json": "../pages/musicpool-db/lyrics/ValenceEve/13.json",
+      "audio": "../pages/musicpool-db/mp3/ValenceEve/13.mp3"
+      }, 
+    
+    {
       "albumart": "musicpool-db/covers/ValenceEve/12.jpg",
       "author": "Frith Hilton",
       "song": "Recruits",
