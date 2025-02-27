@@ -1,6 +1,14 @@
 {
   "songs": [
     {
+      "albumart": "musicpool-db/covers/ValenceEve/16.jpg",
+      "author": "Frith Hilton",
+      "song": "Kai Trump",
+      "json": "../pages/musicpool-db/lyrics/ValenceEve/16.json",
+      "audio": "../pages/musicpool-db/mp3/ValenceEve/16.mp3"
+      }, 
+    
+    {
       "albumart": "musicpool-db/covers/ValenceEve/15.jpg",
       "author": "Frith Hilton",
       "song": "Take you home",
