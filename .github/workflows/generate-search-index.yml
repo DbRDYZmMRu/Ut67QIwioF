@@ -16,7 +16,7 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '15' # Ensure using Node.js version 15 or higher
+        node-version: '16' # Ensure using Node.js version 16 (LTS)
 
     - name: Install dependencies
       run: npm install cheerio
