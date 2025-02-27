@@ -9,6 +9,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write  # Ensure the workflow has write permission to contents
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
