@@ -14,12 +14,19 @@ fs.readdirSync(booksDir).forEach(file => {
     const bookTitle = $('meta[property="og:title"]').attr('content');
     const chapters = [];
 
-    $('div[id^="pills-integration"]').find('div[v-for]').each((i, elem) => {
-      const chapterTitle = $(elem).find('h5').text().trim();
-      let chapterContent = $(elem).find('div[v-html]').html();
-      chapterContent = chapterContent ? chapterContent.trim() : '';
-      chapters.push({ chapterTitle, chapterContent });
-    });
+    // Extract chapter titles and content from the Vue instance's method output
+    const pageResources = $('script').html().match(/pageResources\s*:\s*function\s*\(\)\s*{[\s\S]*?return\s*({[\s\S]*?})\s*;}/);
+    if (pageResources) {
+      const resources = eval(`(${pageResources[1]})`);
+
+      resources.chapterTitles.forEach((title, index) => {
+        const content = resources.chapters[index];
+        chapters.push({
+          chapterTitle: title,
+          chapterContent: content
+        });
+      });
+    }
 
     output.push({ bookTitle, chapters });
   }
