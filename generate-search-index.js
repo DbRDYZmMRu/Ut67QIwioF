@@ -44,12 +44,17 @@ fs.readdirSync(booksDir).forEach(file => {
         chapters.push({
           chapterTitle: title,
           chapterContent: content,
-          chapterTextContent: textContent
+          chapterTextContent: textContent,
+          chapterLink: `${file}#chapter-${index}` // Link to individual chapter
         });
       }
     });
 
-    output.push({ bookTitle, chapters });
+    output.push({ 
+      bookTitle, 
+      bookLink: `${file}`, // Link to individual book
+      chapters 
+    });
   }
 });
 
