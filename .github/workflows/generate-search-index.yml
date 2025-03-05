@@ -27,9 +27,6 @@ jobs:
     - name: Generate search index
       run: node generate-search-index.js
 
-    - name: Check for changes
-      run: git status
-
     - name: Commit and push changes
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
