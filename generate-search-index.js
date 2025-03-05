@@ -22,11 +22,13 @@ fs.readdirSync(booksDir).forEach(file => {
       const resources = eval(`(${pageResourcesMatch[1]})`);
 
       resources.chapterTitles.forEach((title, index) => {
-        const content = resources.chapters[index];
-        chapters.push({
-          chapterTitle: title,
-          chapterContent: content
-        });
+        if (index > 0) { // Skip the first empty item
+          const content = resources.chapters[index];
+          chapters.push({
+            chapterTitle: title,
+            chapterContent: content
+          });
+        }
       });
     }
 
