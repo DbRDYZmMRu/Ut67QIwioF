@@ -14,10 +14,12 @@ fs.readdirSync(booksDir).forEach(file => {
     const bookTitle = $('meta[property="og:title"]').attr('content');
     const chapters = [];
 
-    // Extract chapter titles and content from the Vue instance's method output
-    const pageResources = $('script').html().match(/pageResources\s*:\s*function\s*\(\)\s*{[\s\S]*?return\s*({[\s\S]*?})\s*;}/);
-    if (pageResources) {
-      const resources = eval(`(${pageResources[1]})`);
+    // Locate and extract the pageResources method content
+    const scriptContent = $('script[type="module"]').html();
+    const pageResourcesMatch = scriptContent.match(/pageResources\s*\(\)\s*{[\s\S]*?return\s*({[\s\S]*?})\s*;}/);
+
+    if (pageResourcesMatch) {
+      const resources = eval(`(${pageResourcesMatch[1]})`);
 
       resources.chapterTitles.forEach((title, index) => {
         const content = resources.chapters[index];
