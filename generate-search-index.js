@@ -12,25 +12,39 @@ fs.readdirSync(booksDir).forEach(file => {
     const $ = cheerio.load(html);
 
     const bookTitle = $('meta[property="og:title"]').attr('content');
-    const chapters = [];
-
-    // Locate and extract the pageResources method content
-    const scriptContent = $('script[type="module"]').html();
-    const pageResourcesMatch = scriptContent.match(/pageResources\s*\(\)\s*{[\s\S]*?return\s*({[\s\S]*?})\s*;}/);
-
-    if (pageResourcesMatch) {
-      const resources = eval(`(${pageResourcesMatch[1]})`);
-
-      resources.chapterTitles.forEach((title, index) => {
-        if (index > 0) { // Skip the first empty item
-          const content = resources.chapters[index];
-          chapters.push({
-            chapterTitle: title,
-            chapterContent: content
-          });
-        }
-      });
+    if (!bookTitle) {
+      console.error(`Book title not found in ${filePath}`);
+      return;
     }
+
+    const scriptContent = $('script[type="module"]').html();
+    if (!scriptContent) {
+      console.error(`Script content not found in ${filePath}`);
+      return;
+    }
+
+    const pageResourcesMatch = scriptContent.match(/pageResources\s*\(\)\s*{\s*return\s*({[\s\S]*?})\s*;\s*}/);
+    if (!pageResourcesMatch) {
+      console.error(`pageResources method not found in ${filePath}`);
+      return;
+    }
+
+    const resources = eval(`(${pageResourcesMatch[1]})`);
+    if (!resources.chapterTitles || !resources.chapters) {
+      console.error(`chapterTitles or chapters not found in ${filePath}`);
+      return;
+    }
+
+    const chapters = [];
+    resources.chapterTitles.forEach((title, index) => {
+      if (index > 0) { // Skip the first empty item
+        const content = resources.chapters[index];
+        chapters.push({
+          chapterTitle: title,
+          chapterContent: content
+        });
+      }
+    });
 
     output.push({ bookTitle, chapters });
   }
