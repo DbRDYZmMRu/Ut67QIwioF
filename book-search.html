@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta property="og:title" content="Sample Book Title">
+    <title>Sample Book</title>
+</head>
+<body>
+    <div id="ctrlArea">
+        <!-- Vue.js app mount point -->
+        <input type="text" v-model="query" placeholder="Search...">
+        <button @click="search">Search</button>
+
+        <div v-if="results.length">
+            <div v-for="book in results" :key="book.bookTitle">
+                <h2>{{ book.bookTitle }}</h2>
+                <div v-for="chapter in book.chapters" :key="chapter.chapterTitle">
+                    <h3>{{ chapter.chapterTitle }}</h3>
+                    <p v-html="chapter.chapterContent"></p>
+                </div>
+            </div>
+        </div>
+        <div v-else>
+            <p>No results found</p>
+        </div>
+    </div>
+
+    <script type="module">
+        import {
+            createApp,
+            reactive
+        } from "https://unpkg.com/petite-vue?module";
+
+        const store = reactive({
+            query: '',
+            results: [],
+            searchIndex: [],
+            async loadSearchIndex() {
+                const response = await fetch('/search-index.json');
+                this.searchIndex = await response.json();
+            },
+            search() {
+                const query = this.query.toLowerCase();
+                this.results = this.searchIndex.filter(book => {
+                    const matchingChapters = book.chapters.filter(chapter => {
+                        return chapter.chapterTitle.toLowerCase().includes(query) ||
+                            chapter.chapterContent.toLowerCase().includes(query);
+                    });
+
+                    if (matchingChapters.length > 0) {
+                        return {
+                            ...book,
+                            chapters: matchingChapters
+                        };
+                    }
+
+                    return false;
+                });
+            }
+        });
+
+        createApp({
+            store,
+            mounted() {
+                this.store.loadSearchIndex();
+            }
+        }).mount("#ctrlArea");
+    </script>
+</body>
+</html>
