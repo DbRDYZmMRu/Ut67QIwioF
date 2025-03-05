@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const cheerio = require('cheerio');
 
-const booksDir = './published/poetry'; // Directory containing your HTML files
+const booksDir = './published/poetry';
 const output = [];
 
 fs.readdirSync(booksDir).forEach(file => {
@@ -39,9 +39,11 @@ fs.readdirSync(booksDir).forEach(file => {
     resources.chapterTitles.forEach((title, index) => {
       if (index > 0) { // Skip the first empty item
         const content = resources.chapters[index];
+        const textContent = $(content).text(); // Strip HTML tags
         chapters.push({
           chapterTitle: title,
-          chapterContent: content
+          chapterContent: content,
+          chapterTextContent: textContent
         });
       }
     });
