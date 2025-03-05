@@ -39,7 +39,8 @@ fs.readdirSync(booksDir).forEach(file => {
     resources.chapterTitles.forEach((title, index) => {
       if (index > 0) { // Skip the first empty item
         const content = resources.chapters[index];
-        const textContent = $(content).text(); // Strip HTML tags
+        let textContent = $(content).text(); // Strip HTML tags
+        textContent = textContent.replace(/\s+/g, ' ').trim(); // Clean up extra whitespace
         chapters.push({
           chapterTitle: title,
           chapterContent: content,
