@@ -45,7 +45,7 @@ fs.readdirSync(booksDir).forEach(file => {
           chapterTitle: title,
           chapterContent: content,
           chapterTextContent: textContent,
-          chapterLink: `${file}#chapter-${index}` // Link to individual chapter
+          chapterLink: `${file}/${index}` // Link to individual chapter
         });
       }
     });
