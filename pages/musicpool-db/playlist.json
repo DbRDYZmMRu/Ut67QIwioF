@@ -1,6 +1,14 @@
 {
   "songs": [
     {
+      "albumart": "musicpool-db/covers/ValenceEve/17.jpg",
+      "author": "Frith Hilton",
+      "song": "Dime piece",
+      "json": "../pages/musicpool-db/lyrics/ValenceEve/17.json",
+      "audio": "../pages/musicpool-db/mp3/ValenceEve/17.mp3"
+      }, 
+    
+    {
       "albumart": "musicpool-db/covers/ValenceEve/16.jpg",
       "author": "Frith Hilton",
       "song": "Kai Trump",
