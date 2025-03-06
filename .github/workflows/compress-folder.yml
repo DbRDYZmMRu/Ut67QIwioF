@@ -26,34 +26,33 @@ jobs:
 
     - name: Compress folder
       run: |
-        node -e "
-const fs = require('fs');
-const archiver = require('archiver');
-
-const folderToCompress = 'published/poetry';
-const outputZip = 'compressed-poetry-folder.zip';
-
-const output = fs.createWriteStream(outputZip);
-const archive = archiver('zip', {
-  zlib: { level: 9 } // Sets the compression level
-});
-
-output.on('close', function() {
-  console.log(archive.pointer() + ' total bytes');
-  console.log('archiver has been finalized and the output file descriptor has closed.');
-});
-
-archive.on('error', function(err) {
-  console.error('Error during compression', err);
-  process.exit(1);
-});
-
-archive.pipe(output);
-
-archive.directory(folderToCompress, false);
-
-archive.finalize();
-"
+        echo "const fs = require('fs');
+        const archiver = require('archiver');
+        
+        const folderToCompress = 'published/poetry';
+        const outputZip = 'compressed-poetry-folder.zip';
+        
+        const output = fs.createWriteStream(outputZip);
+        const archive = archiver('zip', {
+          zlib: { level: 9 } // Sets the compression level
+        });
+        
+        output.on('close', function() {
+          console.log(archive.pointer() + ' total bytes');
+          console.log('archiver has been finalized and the output file descriptor has closed.');
+        });
+        
+        archive.on('error', function(err) {
+          console.error('Error during compression', err);
+          process.exit(1);
+        });
+        
+        archive.pipe(output);
+        
+        archive.directory(folderToCompress, false);
+        
+        archive.finalize();" > compress.js
+        node compress.js
 
     - name: Commit and push compressed folder
       env:
