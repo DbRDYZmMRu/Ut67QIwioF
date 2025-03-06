@@ -4,45 +4,67 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:
 
 jobs:
   compress:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write  # Ensure the workflow has write permission to contents
+
     steps:
-    - name: Check out repository
+    - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
       with:
-        python-version: '3.x'
+        node-version: '18' # Ensure using Node.js version 18
 
     - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install zipfile36
+      run: npm install archiver
 
     - name: Compress folder
-      env:
-        FOLDER_TO_COMPRESS: 'your-folder-path'  # Replace with the path to the folder you want to compress
-        OUTPUT_ZIP: 'compressed-folder.zip'     # Replace with the desired output zip file name
       run: |
-        python -c "
-import zipfile
-import os
+        node -e "
+const fs = require('fs');
+const archiver = require('archiver');
 
-folder_to_compress = os.getenv('FOLDER_TO_COMPRESS')
-output_zip = os.getenv('OUTPUT_ZIP')
+const folderToCompress = 'published/poetry';
+const outputZip = 'compressed-poetry-folder.zip';
 
-with zipfile.ZipFile(output_zip, 'w', zipfile.ZIP_DEFLATED) as zipf:
-    for root, dirs, files in os.walk(folder_to_compress):
-        for file in files:
-            zipf.write(os.path.join(root, file), os.path.relpath(os.path.join(root, file), folder_to_compress))
-        "
-    - name: Upload compressed folder
-      uses: actions/upload-artifact@v2
-      with:
-        name: compressed-folder
-        path: ${{ env.OUTPUT_ZIP }}
+const output = fs.createWriteStream(outputZip);
+const archive = archiver('zip', {
+  zlib: { level: 9 } // Sets the compression level
+});
+
+output.on('close', function() {
+  console.log(archive.pointer() + ' total bytes');
+  console.log('archiver has been finalized and the output file descriptor has closed.');
+});
+
+archive.on('error', function(err) {
+  console.error('Error during compression', err);
+  process.exit(1);
+});
+
+archive.pipe(output);
+
+archive.directory(folderToCompress, false);
+
+archive.finalize();
+"
+
+    - name: Commit and push compressed folder
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add compressed-poetry-folder.zip
+        if git diff --cached --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m 'Compress published/poetry folder'
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+        fi
