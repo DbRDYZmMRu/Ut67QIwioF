@@ -5,6 +5,7 @@ const cheerio = require('cheerio');
 const booksDir = './published/poetry';
 const output = [];
 
+// Read all HTML files in the directory
 fs.readdirSync(booksDir).forEach(file => {
   if (path.extname(file) === '.html') {
     const filePath = path.join(booksDir, file);
@@ -39,8 +40,7 @@ fs.readdirSync(booksDir).forEach(file => {
     resources.chapterTitles.forEach((title, index) => {
       if (index > 0) { // Skip the first empty item
         const content = resources.chapters[index];
-        let textContent = $(content).text(); // Strip HTML tags
-        textContent = textContent.replace(/\s+/g, ' ').trim(); // Clean up extra whitespace
+        const textContent = convertChapterContentToText(content, $);
         chapters.push({
           chapterTitle: title,
           chapterContent: content,
@@ -52,11 +52,25 @@ fs.readdirSync(booksDir).forEach(file => {
 
     output.push({ 
       bookTitle, 
-      bookLink: `${file}`, // Link to individual book
+      bookLink: file, // Link to individual book
       chapters 
     });
   }
 });
 
+// Write the output to a JSON file
 fs.writeFileSync('search-index.json', JSON.stringify(output, null, 2), 'utf8');
 console.log('Search index generated.');
+
+/**
+ * Convert chapter content to plain text by preserving spaces and line breaks.
+ * @param {string} chapterContent - The HTML content of the chapter.
+ * @param {object} $ - The loaded Cheerio instance.
+ * @returns {string} - The plain text content of the chapter.
+ */
+function convertChapterContentToText(chapterContent, $) {
+  const tempDiv = $('<div>').html(chapterContent);
+  const paragraphs = tempDiv.find('p');
+  const textContent = Array.from(paragraphs).map(p => $(p).text()).join(' ');
+  return textContent;
+}
