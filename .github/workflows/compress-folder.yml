@@ -1,0 +1,63 @@
+name: Compress Folder
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  compress:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+
+    - name: Install dependencies
+      run: |
+        npm install archiver
+
+    - name: Compress folder
+      env:
+        FOLDER_TO_COMPRESS: 'published/poetry'  # Replace with the path to the folder you want to compress
+        OUTPUT_ZIP: 'compressed-folder.zip'     # Replace with the desired output zip file name
+      run: |
+        node -e "
+const fs = require('fs');
+const archiver = require('archiver');
+
+const folderToCompress = process.env.FOLDER_TO_COMPRESS;
+const outputZip = process.env.OUTPUT_ZIP;
+
+const output = fs.createWriteStream(outputZip);
+const archive = archiver('zip', {
+  zlib: { level: 9 } // Sets the compression level
+});
+
+output.on('close', function() {
+  console.log(archive.pointer() + ' total bytes');
+  console.log('archiver has been finalized and the output file descriptor has closed.');
+});
+
+archive.on('error', function(err) {
+  throw err;
+});
+
+archive.pipe(output);
+
+archive.directory(folderToCompress, false);
+
+archive.finalize();
+        "
+
+    - name: Upload compressed folder
+      uses: actions/upload-artifact@v2
+      with:
+        name: compressed-folder
+        path: ${{ env.OUTPUT_ZIP }}
