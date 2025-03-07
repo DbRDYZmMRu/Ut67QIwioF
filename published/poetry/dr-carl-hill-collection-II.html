@@ -2,11 +2,58 @@
 <html lang="en">
 
 <head>
+<script>
+    function getQueryParam(param) {
+        const urlParams = new URLSearchParams(window.location.search);
+
+        return urlParams.get(param);
+    }
+
+    /**
+
+ * Run the query parameter extraction on page load and update the page content.
+
+ */
+
+    function runOnPageLoad() {
+        const queryValue = getQueryParam("query");
+
+        if (queryValue !== null) {
+            localStorage.setItem("viewDrCarlHillII", "poetry");
+
+            localStorage.setItem("DrCarlHillIICurrentChapter", queryValue);
+
+            console.log("Query parameter value:", queryValue); // You can replace this line with any other action
+
+            // Update the page content based on the query parameter value
+
+            localStorage.setItem("coverTabDrCarlHillIIIsActive", false);
+            localStorage.setItem("authorTabDrCarlHillIIIsActive", false);
+
+            localStorage.setItem("dedTabDrCarlHillIIIsActive", false);
+
+            localStorage.setItem("chapterTabDrCarlHillIIIsActive", true);
+
+            document.addEventListener("DOMContentLoaded", function () {
+                var integrationTab = document.getElementById("pills-integration-tab");
+
+                if (integrationTab) {
+                    integrationTab.click();
+                } else {
+                    console.error("Element with ID 'pills-integration-tab' not found.");
+                }
+            });
+        }
+    }
+
+    runOnPageLoad();
+</script>
+  
   <!--===== Required meta tags =====-->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="author" content="Nightswan Frith Hilton" />
-  <meta name="description" content="statistic charts" />
+  <meta name="author" content="Howard Frith Hilton" />
+  <meta name="description" content="Dr. Carl Hill Collection (Book Two)" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta property="og:url" content="" />
@@ -371,22 +418,22 @@
         <div class="col-12">
           <ul class="nav nav-pills nav-border-wide justify-content-center mb-3" id="pills-tab-07" role="tablist">
             <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="pills-trekking-tab" data-bs-toggle="pill" data-bs-target="#pills-trekking" type="button" role="tab" aria-controls="pills-trekking" aria-selected="true" @click="store.setCoverDrCarlHillIAsTab()">
+              <button class="nav-link active" id="pills-trekking-tab" data-bs-toggle="pill" data-bs-target="#pills-trekking" type="button" role="tab" aria-controls="pills-trekking" aria-selected="true" @click="store.setCoverDrCarlHillIIAsTab()">
                 Cover
               </button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-analysis-tab" data-bs-toggle="pill" data-bs-target="#pills-analysis" type="button" role="tab" aria-controls="pills-analysis" aria-selected="false" @click="store.setAuthorDrCarlHillIAsTab()">
+              <button class="nav-link" id="pills-analysis-tab" data-bs-toggle="pill" data-bs-target="#pills-analysis" type="button" role="tab" aria-controls="pills-analysis" aria-selected="false" @click="store.setAuthorDrCarlHillIIAsTab()">
                 Author's Note
               </button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-investment-management-11-tab" data-bs-toggle="pill" data-bs-target="#pills-investment-management-11" type="button" role="tab" aria-controls="pills-investment-management-11" aria-selected="false" @click="store.setDedDrCarlHillIAsTab()">
+              <button class="nav-link" id="pills-investment-management-11-tab" data-bs-toggle="pill" data-bs-target="#pills-investment-management-11" type="button" role="tab" aria-controls="pills-investment-management-11" aria-selected="false" @click="store.setDedDrCarlHillIIAsTab()">
                 Dedication & Acknowledgements
               </button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-integration-tab" data-bs-toggle="pill" data-bs-target="#pills-integration" type="button" role="tab" aria-controls="pills-integration" aria-selected="false" @click="store.setChaptersDrCarlHillIAsTab()">
+              <button class="nav-link" id="pills-integration-tab" data-bs-toggle="pill" data-bs-target="#pills-integration" type="button" role="tab" aria-controls="pills-integration" aria-selected="false" @click="store.setChaptersDrCarlHillIIAsTab()">
                 Chapters
               </button>
             </li>
@@ -866,12 +913,12 @@
       goBackState: false,
       chapterClickNo: 0,
       getCurrentChapter() {
-        if (localStorage.getItem("DrCarlHillICurrentChapter")) {
-          this.currentChapter = localStorage.getItem("DrCarlHillICurrentChapter");
+        if (localStorage.getItem("DrCarlHillIICurrentChapter")) {
+          this.currentChapter = localStorage.getItem("DrCarlHillIICurrentChapter");
         } else if (this.currentChapter == 0) {
           this.currentChapter = this.URLPoemID;
         } else {
-          localStorage.removeItem("DrCarlHillICurrentChapter");
+          localStorage.removeItem("DrCarlHillIICurrentChapter");
         }
       },
       chapterTitle: "",
@@ -885,14 +932,14 @@
         return chapterContent.at(this.currentChapter);
       },
       initialPageState: {
-        viewDrCarlHillI: "chapters",
+        viewDrCarlHillII: "chapters",
       },
-      pageState: localStorage.getItem("viewDrCarlHillI"),
+      pageState: localStorage.getItem("viewDrCarlHillII"),
       getPageState() {
         this.decodePoemURL();
         if (this.pageState == "chapters") {
           const state = "chapters";
-          localStorage.removeItem("DrCarlHillICurrentChapter");
+          localStorage.removeItem("DrCarlHillIICurrentChapter");
           return state;
         } else if (this.pageState == "poetry") {
           this.decodePoemURL();
@@ -901,17 +948,17 @@
 
           return state;
         } else {
-          localStorage.setItem("viewDrCarlHillI", this.initialPageState.viewDrCarlHillI);
-          const state = this.initialPageState.viewDrCarlHillI;
+          localStorage.setItem("viewDrCarlHillII", this.initialPageState.viewDrCarlHillII);
+          const state = this.initialPageState.viewDrCarlHillII;
           return state;
         }
       },
       setPageState(index) {
-        localStorage.setItem("viewDrCarlHillI", "poetry");
+        localStorage.setItem("viewDrCarlHillII", "poetry");
         location.href = "#reading";
-        (this.pageState = localStorage.getItem("viewDrCarlHillI")),
+        (this.pageState = localStorage.getItem("viewDrCarlHillII")),
         (this.currentChapter = index);
-        localStorage.setItem("DrCarlHillICurrentChapter", this.currentChapter);
+        localStorage.setItem("DrCarlHillIICurrentChapter", this.currentChapter);
         this.chapterClickNo++;
         console.log(this.chapterClickNo);
         if (this.chapterClickNo == 1) {
@@ -942,8 +989,8 @@
       },
       goBack() {
         this.goBackState = true;
-        localStorage.setItem("viewDrCarlHillI", "chapters");
-        this.pageState = localStorage.getItem("viewDrCarlHillI");
+        localStorage.setItem("viewDrCarlHillII", "chapters");
+        this.pageState = localStorage.getItem("viewDrCarlHillII");
         this.getPageState();
       },
       pageResources() {
@@ -1045,42 +1092,42 @@
         localStorage.setItem("cookieUse", true);
       },
       lastTabDrCarlHillII: "",
-      coverTabDrCarlHillIIsActive: localStorage.getItem("coverTabDrCarlHillIIsActive"),
-      authorTabDrCarlHillIIsActive: localStorage.getItem("authorTabDrCarlHillIIsActive"),
-      dedTabDrCarlHillIIsActive: localStorage.getItem("dedTabDrCarlHillIIsActive"),
-      chapterTabDrCarlHillIIsActive: localStorage.getItem("chapterTabDrCarlHillIIsActive"),
+      coverTabDrCarlHillIIIsActive: localStorage.getItem("coverTabDrCarlHillIIIsActive"),
+      authorTabDrCarlHillIIIsActive: localStorage.getItem("authorTabDrCarlHillIIIsActive"),
+      dedTabDrCarlHillIIIsActive: localStorage.getItem("dedTabDrCarlHillIIIsActive"),
+      chapterTabDrCarlHillIIIsActive: localStorage.getItem("chapterTabDrCarlHillIIIsActive"),
       navLink: true,
-      setCoverDrCarlHillIAsTab() {
+      setCoverDrCarlHillIIAsTab() {
         this.lastTabDrCarlHillII = "Cover";
         localStorage.setItem("lastTabDrCarlHillII", this.lastTabDrCarlHillII);
-        localStorage.setItem("coverTabDrCarlHillIIsActive", true);
-        localStorage.setItem("authorTabDrCarlHillIIsActive", false);
-        localStorage.setItem("dedTabDrCarlHillIIsActive", false);
-        localStorage.setItem("chapterTabDrCarlHillIIsActive", false);
+        localStorage.setItem("coverTabDrCarlHillIIIsActive", true);
+        localStorage.setItem("authorTabDrCarlHillIIIsActive", false);
+        localStorage.setItem("dedTabDrCarlHillIIIsActive", false);
+        localStorage.setItem("chapterTabDrCarlHillIIIsActive", false);
       },
-      setAuthorDrCarlHillIAsTab() {
+      setAuthorDrCarlHillIIAsTab() {
         this.lastTabDrCarlHillII = "Author";
-        localStorage.setItem("lastTabDrCarlHillI", this.lastTabDrCarlHillI);
-        localStorage.setItem("coverTabDrCarlHillIIsActive", false);
-        localStorage.setItem("authorTabDrCarlHillIIsActive", true);
-        localStorage.setItem("dedTabDrCarlHillIIsActive", false);
-        localStorage.setItem("chapterTabDrCarlHillIIsActive", false);
+        localStorage.setItem("lastTabDrCarlHillII", this.lastTabDrCarlHillII);
+        localStorage.setItem("coverTabDrCarlHillIIIsActive", false);
+        localStorage.setItem("authorTabDrCarlHillIIIsActive", true);
+        localStorage.setItem("dedTabDrCarlHillIIIsActive", false);
+        localStorage.setItem("chapterTabDrCarlHillIIIsActive", false);
       },
-      setDedDrCarlHillIAsTab() {
-        this.lastTabDrCarlHillI = "Dedication";
-        localStorage.setItem("lastTabDrCarlHillI", this.lastTabDrCarlHillI);
-        localStorage.setItem("coverTabDrCarlHillIIsActive", false);
-        localStorage.setItem("authorTabDrCarlHillIIsActive", false);
-        localStorage.setItem("dedTabDrCarlHillIIsActive", true);
-        localStorage.setItem("chapterTabDrCarlHillIIsActive", false);
+      setDedDrCarlHillIIAsTab() {
+        this.lastTabDrCarlHillII = "Dedication";
+        localStorage.setItem("lastTabDrCarlHillII", this.lastTabDrCarlHillII);
+        localStorage.setItem("coverTabDrCarlHillIIIsActive", false);
+        localStorage.setItem("authorTabDrCarlHillIIIsActive", false);
+        localStorage.setItem("dedTabDrCarlHillIIIsActive", true);
+        localStorage.setItem("chapterTabDrCarlHillIIIsActive", false);
       },
       setChaptersDrCarlHillIAsTab() {
-        this.lastTabDrCarlHillI = "Chapters";
-        localStorage.setItem("lastTabDrCarlHillI", this.lastTabDrCarlHillI);
-        localStorage.setItem("coverTabDrCarlHillIIsActive", false);
-        localStorage.setItem("authorTabDrCarlHillIIsActive", false);
-        localStorage.setItem("dedTabDrCarlHillIIsActive", false);
-        localStorage.setItem("chapterTabDrCarlHillIIsActive", true);
+        this.lastTabDrCarlHillII = "Chapters";
+        localStorage.setItem("lastTabDrCarlHillII", this.lastTabDrCarlHillII);
+        localStorage.setItem("coverTabDrCarlHillIIIsActive", false);
+        localStorage.setItem("authorTabDrCarlHillIIIsActive", false);
+        localStorage.setItem("dedTabDrCarlHillIIIsActive", false);
+        localStorage.setItem("chapterTabDrCarlHillIIIsActive", true);
       },
       shareToFacebook() {
         this.generateStaticPoemURL();
@@ -1127,10 +1174,10 @@
         this.poemURL = queryToAppend;
       },
       changeTabToChapter() {
-        localStorage.setItem("coverTabDrCarlHillIIsActive", false);
-        localStorage.setItem("authorTabDrCarlHillIIsActive", false);
-        localStorage.setItem("dedTabDrCarlHillIIsActive", false);
-        localStorage.setItem("chapterTabDrCarlHillIIsActive", true);
+        localStorage.setItem("coverTabDrCarlHillIIIsActive", false);
+        localStorage.setItem("authorTabDrCarlHillIIIsActive", false);
+        localStorage.setItem("dedTabDrCarlHillIIIsActive", false);
+        localStorage.setItem("chapterTabDrCarlHillIIIsActive", true);
         document.getElementById("pills-integration-tab").click();
       },
       decodePoemURL() {
@@ -1141,14 +1188,14 @@
           var getPoemIdFromURL = bookmarkURL.get("id");
           if (bookmarkURL.has("typeIsPoem") && getPoemIdFromURL <= 38) {
             this.changeTabToChapter();
-            localStorage.setItem("viewDrCarlHillI", "poetry");
+            localStorage.setItem("viewDrCarlHillII", "poetry");
             this.pageState = "poetry";
             this.URLPoemID = getPoemIdFromURL;
             this.currentChapter = this.URLPoemID;
-            localStorage.setItem("DrCarlHillICurrentChapter", this.currentChapter);
+            localStorage.setItem("DrCarlHillIICurrentChapter", this.currentChapter);
             this.goBackState = false;
           } else if (bookmarkURL.has("typeIsPoem") && getPoemIdFromURL > 5) {
-            localStorage.setItem("viewDrCarlHillI", this.initialPageState.viewVI);
+            localStorage.setItem("viewDrCarlHillII", this.initialPageState.viewVI);
             window.location.href =
               window.location.origin + "/pages/not-found.html";
           } else {

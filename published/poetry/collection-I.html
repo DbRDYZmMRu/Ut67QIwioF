@@ -1,11 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+<script>
+    function getQueryParam(param) {
+        const urlParams = new URLSearchParams(window.location.search);
+
+        return urlParams.get(param);
+    }
+
+    /**
+
+ * Run the query parameter extraction on page load and update the page content.
+
+ */
+
+    function runOnPageLoad() {
+        const queryValue = getQueryParam("query");
+
+        if (queryValue !== null) {
+            localStorage.setItem("viewI", "poetry");
+
+            localStorage.setItem("ICurrentChapter", queryValue);
+
+            console.log("Query parameter value:", queryValue); // You can replace this line with any other action
+
+            // Update the page content based on the query parameter value
+
+					localStorage.setItem("coverTabIIsActive", false);
+					localStorage.setItem("authorTabIIsActive", false);
+					localStorage.setItem("dedTabIIsActive", false);
+					localStorage.setItem("chapterTabIIsActive", true);
+
+            document.addEventListener("DOMContentLoaded", function () {
+                var integrationTab = document.getElementById("pills-integration-tab");
+
+                if (integrationTab) {
+                    integrationTab.click();
+                } else {
+                    console.error("Element with ID 'pills-integration-tab' not found.");
+                }
+            });
+        }
+    }
+
+    runOnPageLoad();
+</script>
+    
     <!--===== Required meta tags =====-->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="Nightswan Frith Hilton" />
-    <meta name="description" content="statistic charts" />
+    <meta name="author" content="Howard Frith Hilton" />
+    <meta name="description" content="Frith Hilton Collection I" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <meta property="og:url" content="" />
@@ -18,7 +63,7 @@
     <meta property="og:image" content="" />
 
     <!--===== Title =====-->
-    <title>Collection I</title>
+    <title>Frith Hilton Collection I</title>
 
     <!--===== Favicon =====-->
     <link rel="shortcut icon" href="../../images/favicon.png" />
@@ -854,7 +899,7 @@
           location.href = "#reading";
           (this.pageState = localStorage.getItem("viewI")),
             (this.currentChapter = index);
-          localStorage.setItem("ICurrentChapter", this.currentChapter);
+          localStorage.setItem("viewI", this.currentChapter);
         },
         goBack() {
           this.goBackState = true;
@@ -881,7 +926,7 @@
             <p class="ql-align-justify">I wouldn't be here without the love of my family, the Hiltons. In the past years since the publication of the first edition, my journey has continued on your shoulders.</p>
             <p class="ql-align-justify">Mum, you're simply the best, your presence docks my age and I feel like a little child again. Dad, you make me feel so protected and safe, thank you for being my rock. Thank you Paris for being omnipresent on the internet, and still so caring. I love how you make time fly, your messages are the best Nicky, thank you. Thank you James Rothschild for making a dream of mine come true. Big bro Barron, thank you for being the  indispensable brother I've always wanted. Tessa for being kind and present, for showing me the younger ones, thank you. And my younger bro Conrad, thank you for allowing me in your life, and for keeping me up at night, working on my English somehow, keeping me on my toes. Thank you to all my cousins, aunts, and uncles. I love you all so dearly.</p>
             <p>&nbsp;</p>
-            <p class="ql-align-justify">Nightswan Frith Hilton </p>
+            <p class="ql-align-justify">Howard Frith Hilton </p>
             <p class="ql-align-justify">January 2024</p>
             
             `,

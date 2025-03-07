@@ -2,11 +2,58 @@
 <html lang="en">
 
 <head>
+<script>
+    function getQueryParam(param) {
+        const urlParams = new URLSearchParams(window.location.search);
+
+        return urlParams.get(param);
+    }
+
+    /**
+
+ * Run the query parameter extraction on page load and update the page content.
+
+ */
+
+    function runOnPageLoad() {
+        const queryValue = getQueryParam("query");
+
+        if (queryValue !== null) {
+            localStorage.setItem("view1965", "poetry");
+
+            localStorage.setItem("1965CurrentChapter", queryValue);
+
+            console.log("Query parameter value:", queryValue); // You can replace this line with any other action
+
+            // Update the page content based on the query parameter value
+
+            localStorage.setItem("coverTab1965IsActive", false);
+            localStorage.setItem("authorTab1965IsActive", false);
+
+            localStorage.setItem("dedTab1965IsActive", false);
+
+            localStorage.setItem("chapterTab1965IsActive", true);
+
+            document.addEventListener("DOMContentLoaded", function () {
+                var integrationTab = document.getElementById("pills-integration-tab");
+
+                if (integrationTab) {
+                    integrationTab.click();
+                } else {
+                    console.error("Element with ID 'pills-integration-tab' not found.");
+                }
+            });
+        }
+    }
+
+    runOnPageLoad();
+</script>
+  
   <!--===== Required meta tags =====-->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="author" content="Nightswan Frith Hilton" />
-  <meta name="description" content="statistic charts" />
+  <meta name="author" content="Howard Frith Hilton" />
+  <meta name="description" content="Bury me in 1965 " />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta property="og:url"

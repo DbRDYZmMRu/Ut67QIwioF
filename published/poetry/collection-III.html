@@ -1,19 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+<script>
+    function getQueryParam(param) {
+        const urlParams = new URLSearchParams(window.location.search);
+
+        return urlParams.get(param);
+    }
+
+    /**
+
+ * Run the query parameter extraction on page load and update the page content.
+
+ */
+
+    function runOnPageLoad() {
+        const queryValue = getQueryParam("query");
+
+        if (queryValue !== null) {
+            localStorage.setItem("viewIII", "poetry");
+
+            localStorage.setItem("IIICurrentChapter", queryValue);
+
+            console.log("Query parameter value:", queryValue); // You can replace this line with any other action
+
+            // Update the page content based on the query parameter value
+
+					localStorage.setItem("coverTabIIIIsActive", false);
+					localStorage.setItem("authorTabIIIIsActive", false);
+					localStorage.setItem("dedTabIIIIsActive", false);
+					localStorage.setItem("chapterTabIIIIsActive", true);
+
+            document.addEventListener("DOMContentLoaded", function () {
+                var integrationTab = document.getElementById("pills-integration-tab");
+
+                if (integrationTab) {
+                    integrationTab.click();
+                } else {
+                    console.error("Element with ID 'pills-integration-tab' not found.");
+                }
+            });
+        }
+    }
+
+    runOnPageLoad();
+</script>
+    
     <!--===== Required meta tags =====-->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="Nightswan Frith Hilton" />
-    <meta name="description" content="statistic charts" />
+    <meta name="author" content="Howard Frith Hilton" />
+    <meta name="description" content="Frith Hilton Collection III (Valentine Edition)" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <meta property="og:url" content="" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="Frith Hilton Collection III" />
+    <meta property="og:title" content="Frith Hilton Collection III (Valentine Edition)" />
     <meta
       property="og:description"
-      content="Frith Hilton Collection III"
+      content="Frith Hilton Collection III (Valentine Edition)"
     />
     <meta property="og:image" content="" />
 

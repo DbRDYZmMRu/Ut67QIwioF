@@ -1,11 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+<script>
+    function getQueryParam(param) {
+        const urlParams = new URLSearchParams(window.location.search);
+
+        return urlParams.get(param);
+    }
+
+    /**
+
+ * Run the query parameter extraction on page load and update the page content.
+
+ */
+
+    function runOnPageLoad() {
+        const queryValue = getQueryParam("query");
+
+        if (queryValue !== null) {
+            localStorage.setItem("viewII", "poetry");
+
+            localStorage.setItem("IICurrentChapter", queryValue);
+
+            console.log("Query parameter value:", queryValue); // You can replace this line with any other action
+
+            // Update the page content based on the query parameter value
+
+					localStorage.setItem("coverTabIIIsActive", false);
+					localStorage.setItem("authorTabIIIsActive", false);
+					localStorage.setItem("dedTabIIIsActive", false);
+					localStorage.setItem("chapterTabIIIsActive", true);
+
+            document.addEventListener("DOMContentLoaded", function () {
+                var integrationTab = document.getElementById("pills-integration-tab");
+
+                if (integrationTab) {
+                    integrationTab.click();
+                } else {
+                    console.error("Element with ID 'pills-integration-tab' not found.");
+                }
+            });
+        }
+    }
+
+    runOnPageLoad();
+</script>
+    
     <!--===== Required meta tags =====-->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="Nightswan Frith Hilton" />
-    <meta name="description" content="statistic charts" />
+    <meta name="author" content="Howard Frith Hilton" />
+    <meta name="description" content="Frith Hilton Collection II" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <meta property="og:url" content="" />
@@ -13,14 +58,12 @@
     <meta property="og:title" content="Frith Hilton Collection II" />
     <meta
       property="og:description"
-      content="Frith Hilton Collection II
-      description goes here, do not forget that farthings and pounds don't
-      accrue neglecting another."
+      content="Frith Hilton Collection II"
     />
     <meta property="og:image" content="" />
 
     <!--===== Title =====-->
-    <title>Collection II</title>
+    <title>Frith Hilton Collection II</title>
 
     <!--===== Favicon =====-->
     <link rel="shortcut icon" href="../../images/favicon.png" />
