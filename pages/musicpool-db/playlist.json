@@ -1,6 +1,14 @@
 {
   "songs": [
     {
+      "albumart": "musicpool-db/covers/ValenceEve/18.jpg",
+      "author": "Frith Hilton",
+      "song": "Fisherman",
+      "json": "../pages/musicpool-db/lyrics/ValenceEve/18.json",
+      "audio": "../pages/musicpool-db/mp3/ValenceEve/18.mp3"
+      }, 
+    
+    {
       "albumart": "musicpool-db/covers/ValenceEve/17.jpg",
       "author": "Frith Hilton",
       "song": "Dime piece",
