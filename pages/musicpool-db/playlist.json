@@ -1,6 +1,14 @@
 {
   "songs": [
     {
+      "albumart": "musicpool-db/covers/ValenceEve/19.jpg",
+      "author": "Frith Hilton",
+      "song": "Bedtime",
+      "json": "../pages/musicpool-db/lyrics/ValenceEve/19.json",
+      "audio": "../pages/musicpool-db/mp3/ValenceEve/19.mp3"
+      }, 
+    
+    {
       "albumart": "musicpool-db/covers/ValenceEve/18.jpg",
       "author": "Frith Hilton",
       "song": "Fisherman",
