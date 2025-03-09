@@ -1,5 +1,15 @@
 {
   "songs": [
+    
+    {
+      "albumart": "musicpool-db/covers/ValenceEve/20.jpg",
+      "author": "Frith Hilton",
+      "song": "Madness",
+      "json": "../pages/musicpool-db/lyrics/ValenceEve/20.json",
+      "audio": "../pages/musicpool-db/mp3/ValenceEve/20.mp3"
+      }, 
+    
+    
     {
       "albumart": "musicpool-db/covers/ValenceEve/19.jpg",
       "author": "Frith Hilton",
