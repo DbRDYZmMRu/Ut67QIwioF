@@ -2,6 +2,14 @@
   "songs": [
     
     {
+      "albumart": "musicpool-db/covers/ValenceEve/21.jpg",
+      "author": "Frith Hilton",
+      "song": "Clubbing sad",
+      "json": "../pages/musicpool-db/lyrics/ValenceEve/21.json",
+      "audio": "../pages/musicpool-db/mp3/ValenceEve/21.mp3"
+      }, 
+    
+    {
       "albumart": "musicpool-db/covers/ValenceEve/20.jpg",
       "author": "Frith Hilton",
       "song": "Madness",
