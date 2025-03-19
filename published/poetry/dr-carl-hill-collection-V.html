@@ -2,51 +2,52 @@
 <html lang="en">
 
 <head>
-<script>
+  <script>
     function getQueryParam(param) {
-        const urlParams = new URLSearchParams(window.location.search);
-
-        return urlParams.get(param);
+      const urlParams = new URLSearchParams(window.location.search);
+      
+      return urlParams.get(param);
     }
-
+    
     /**
 
  * Run the query parameter extraction on page load and update the page content.
 
  */
-
+    
     function runOnPageLoad() {
-        const queryValue = getQueryParam("query");
-
-        if (queryValue !== null) {
-            localStorage.setItem("viewDrCarlHillV", "poetry");
-
-            localStorage.setItem("DrCarlHillVCurrentChapter", queryValue);
-
-            console.log("Query parameter value:", queryValue); // You can replace this line with any other action
-
-            // Update the page content based on the query parameter value
-
+      const queryValue = getQueryParam("query");
+      
+      if (queryValue !== null) {
+        localStorage.setItem("viewDrCarlHillV", "poetry");
+        
+        localStorage.setItem("DrCarlHillVCurrentChapter", queryValue);
+        
+        console.log("Query parameter value:", queryValue); // You can replace this line with any other action
+        
+        // Update the page content based on the query parameter value
+        
         localStorage.setItem("lastTabDrCarlHillV", this.lastTabDrCarlHillV);
         localStorage.setItem("coverTabDrCarlHillVIsActive", false);
         localStorage.setItem("authorTabDrCarlHillVIsActive", false);
         localStorage.setItem("dedTabDrCarlHillVIsActive", false);
         localStorage.setItem("chapterTabDrCarlHillVIsActive", true);
-
-            document.addEventListener("DOMContentLoaded", function () {
-                var integrationTab = document.getElementById("pills-integration-tab");
-
-                if (integrationTab) {
-                    integrationTab.click();
-                } else {
-                    console.error("Element with ID 'pills-integration-tab' not found.");
-                }
-            });
-        }
+        
+        document.addEventListener("DOMContentLoaded", function() {
+          var integrationTab = document.getElementById("pills-integration-tab");
+          
+          if (integrationTab) {
+            integrationTab.click();
+          } else {
+            console.error("Element with ID 'pills-integration-tab' not found.");
+          }
+        });
+      }
     }
-
+    
     runOnPageLoad();
-</script>
+  </script>
+  
   
   <!--===== Required meta tags =====-->
   <meta charset="utf-8" />
@@ -54,19 +55,19 @@
   <meta name="author" content="Howard Frith Hilton" />
   <meta name="description" content="Dr. Carl Hill Collection (Book Five)" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+  
   <meta property="og:url" content="" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="Dr. Carl Hill Collection (Book Five)" />
   <meta property="og:description" content="Dr. Carl Hill Collection (Book Five)" />
   <meta property="og:image" content="" />
-
+  
   <!--===== Title =====-->
   <title>Dr. Carl Hill Collection (Book Five) </title>
-
+  
   <!--===== Favicon =====-->
   <link rel="shortcut icon" href="../../images/favicon.png" />
-
+  
   <!--===== Google fonts =====-->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Jost:wght@300;400;500;600;700;800;900&display=swap" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -74,7 +75,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet" />
   <!-- font-awesome-icons -->
   <script src="https://kit.fontawesome.com/c7fbb1b458.js" crossorigin="anonymous"></script>
-
+  
   <!--===== Global bootstrap required css =====-->
   <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css" />
   <!--===== Global styles including: Font Icons, Plugins, etc =====-->
@@ -99,7 +100,7 @@
       background-color: rgba(0, 0, 0, 0.7);
       z-index: 9999;
     }
-
+    
     .image-container {
       position: absolute;
       top: 50%;
@@ -107,7 +108,7 @@
       transform: translate(-50%, -50%);
       text-align: center;
     }
-
+    
     .image-container img {
       width: 85vw;
       /* Increased width */
@@ -118,8 +119,40 @@
       object-fit: contain;
       /* Ensure image fits within container */
     }
-  </style>
+    
+    .highlighted {
+      animation: bubble 0.5s ease-in-out;
+      color: #00698f;
+      font-size: 200%;
+      font-weight: 900;
+    }
+    
+    @keyframes bubble {
+      0% {
+        transform: scale(1);
+      }
+      
+      50% {
+        transform: scale(1.2);
+      }
+      
+      100% {
+        transform: scale(1);
+      }
+    }
+   .pauseHighlight {
+           color: #00698f;
+      font-size: 150%;
+      font-weight: 300;
 
+   } 
+    .disabled {
+pointer-events: none;
+opacity: 0.5;
+}
+
+  </style>
+  
 </head>
 
 <body class="stokes-wrapper" id="ctrlArea" v-cloak>
@@ -141,7 +174,7 @@
 
   <!--========== 
 	End of loader ==========-->
-
+  
   <!--========== 
     Start of  cookie modal notification section ==========-->
   <div class="modal-subscribe">
@@ -178,11 +211,11 @@
   <!--========== 
           End of cookie modal notification section ==========-->
   <!--==========-->
-
-
-
-
-
+  
+  
+  
+  
+  
   <header class="header">
     <!--===== Start of navbar =====-->
     <nav class="navbar navbar-light navbar-expand-lg navbar-default">
@@ -190,13 +223,13 @@
         <!--===== Start of logo =====-->
         <a class="navbar-brand" href="/"><img class="logo" src="/images/logo.png" alt="Frith Hilton Logo" /></a>
         <!--===== End of logo =====-->
-
+        
         <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="icon-bar top-bar mt-0"></span>
           <span class="icon-bar middle-bar"></span>
           <span class="icon-bar bottom-bar"></span>
         </button>
-
+        
         <!--===== Start of nav =====-->
         <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
           <ul class="navbar-nav">
@@ -207,7 +240,7 @@
               <a @click="store.goToPublished" class="nav-link dropdown-toggle" href="#" id="navbar-pages" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="text-line"> Publications</span>
               </a>
-
+              
               <!--<ul class="dropdown-menu" aria-labelledby="navbar-pages">
                 <div class="mb-3 mt-3">
                   <a href="#">
@@ -340,7 +373,7 @@
               
               </ul>-->
             </li>
-
+            
             <li class="nav-item">
               <a class="nav-link" href="../../pages/upcoming.html"><span class="text-line"> Upcoming Poetry</span></a>
             </li>
@@ -360,29 +393,33 @@
     </nav>
     <!--===== End of navbar =====-->
   </header>
-
+  
   <!--========== 
         End of header ==========-->
-
+  
   <!--========== 
         End of Sidebar ==========-->
   <section class="position-relative slice-ptb">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-6">
-
+          
           <div class="mb-0">
             <a id="designer" href="https://leondev.com.ng" target="_blank" v-if="store.checkLocation()">
               <img class="img-fluid" src="../../images/ads/designedBySamsungS8.png" alt="">
             </a>
-
+            
           </div>
+                    <div class="mb-5">
+            <div id="ad-top"></div>
+          </div>
+
           <div class="mb-5">
             <a target="_blank" href="https://annazuckerman.com/">
               <img class="img-fluid justify-content-center" src="../../images/ads/AnnaZuckermanCampaign1.gif" alt="Anna Zuckerman">
             </a>
           </div>
-
+          
         </div>
       </div>
     </div>
@@ -407,7 +444,7 @@
       <img class="img-fluid" :src="'../../images/separator/brush.svg'" alt="" />
     </div>
   </section>
-
+  
   <section class="position-relative slice-ptb">
     <div class="container">
       <button class="btn btn-naked btn-icon-right" href="#!" v-effect="if
@@ -468,14 +505,14 @@
               <hr class="my-5" />
             </div>
             <div class="tab-pane fade" id="pills-integration" role="tabpanel" aria-labelledby="pills-integration-tab">
-
+              
               <div class="row justify-content-center" id="reading">
                 <div class="col-lg-6">
-
+                  
                   <div>
                     <h3 class="mt-3 mb-5 text-center"><strong>Across the Bridge</strong></h3>
                   </div>
-
+                  
                   <hr class="my-5" />
                   <!--========== 
           Beginning of chapter titles ==========-->
@@ -493,7 +530,7 @@
                         <h5 class="mt-3">{{title}}</h5>
                         <span v-show="store.currentChapter == index" class="title-separator"></span>
                       </div>
-
+                      
                       <!--===== End of Title =====-->
                       <hr class="my-4" />
                     </div>
@@ -510,13 +547,50 @@
                       <h2 class="col-4 fw-bold mb-4">
                         <span class="hedding-svg">{{store.pageResources().convertIndex(store.currentChapter)}}</span>
                       </h2>
+                      
+                      <div id="buttonHold">
+                        <div id="audioButtonContainer">
+                          <div id="audioButton" :class="['round-button', { 'audioInactive': !store.audioIsPlaying, 'audioActive': store.audioIsPlaying, 'audioPause': store.audioIsPlaying }]" @click="store.playPoetry()">
+                            <i id="audioSwitcher" :class="store.audioIsPlaying ? 'fa-solid fa-pause' : 'fa-solid fa-play'"></i>
+                          </div>
+                          <div class="color-wave"></div>
+                        </div>
+                      </div>
+                      
+                      <audio id="audioElement"></audio>
+                      
+                      
+                      
+                      
+<div class="social-icons social-text-small icon-colored mb-7 mt-7">
+  <a @click="store.shareToFacebook()" :class="{ 'disabled': store.isDisabled }" class="icon facebook" href="#!" id="shareToFacebookBtn">
+    <i class="fab fa-facebook-f"></i>
+    <span>Share</span>
+  </a>
+  <a @click="store.shareToTwitter()" :class="{ 'disabled': store.isDisabled }" class="icon twitter" data-show-count="false" id="shareToTwitterBtn" href="https://twitter.com/share?ref_src=twsrc%5Etfw" target="_blank" :data-url="https://dev.nightswan.com.ng/pages/Hilton/collections/iv/one.html" data-hashtags="frithhiltoncollection" data-show-count="false">
+    <i class="fa-brands fa-x"></i>
+    <span>Share</span>
+  </a>
+  <a @click="store.copyURL()" :class="{ 'disabled': store.isDisabled }" class="icon link" id="copyURLBtn">
+    <i class="fas fa-link" id="copyURLIcon"></i>
+    <span id="CopyURLText">{{store.CopyURLText}}</span>
+  </a>
+  <a @click="store.shareToWhatsApp()" :class="{ 'disabled': store.isDisabled }" class="icon link" href="#!" id="shareToWhatsAppBtn">
+    <i class="fab fa-whatsapp"></i>
+    <span>WhatsApp</span>
+  </a>
+</div>
+                      
                       <h5>{{store.chapterTitle}}</h5>
-
-                      <div v-html="store.getChapterContent()" class="mt-4 me-4 ms-4"></div>
+                      
+                      <div id="htmlContent" class="mt-4 me-4 ms-4 htmlContent" v-html="store.getChapterContent()"></div>
+                      
+                      
+                      
                     </div>
                     <!--===== End of Title =====-->
                     <hr class="my-5" />
-
+                    
                     <!--===== Go back  =====-->
                     <div class="col-lg-3 col-sm-6">
                       <p @click="store.goBack()" class="btn btn-naked-wrap go-back-btn">
@@ -526,7 +600,7 @@
                     </div>
                     <!--===== End Go back  =====-->
                   </div>
-
+                  
                   <!--========== 
           End of chapter content ==========-->
                 </div>
@@ -534,29 +608,25 @@
             </div>
           </div>
           <div class="mb-5">
-            <a id="media-link" href="#" target="_blank">
-              <div id="media-container"></div>
-            </a>
+            <div id="ad-bottom"></div>
           </div>
-
+          
         </div>
       </div>
     </div>
   </section>
-
-
-
-
-
+  
+  
+  
   <!--========== 
   Start of bottom page  ==========-->
-
+  
   <section class="py-5 bg-pink-gradient">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 text-center">
           <h3 class="text-white" id="some-id">
-            I'm here
+            
             <u class="typer text-warning" data-words="writing,making music," data-delay="100" data-deletedelay="1000" style="color: black"></u>
             often.
           </h3>
@@ -564,24 +634,24 @@
       </div>
     </div>
   </section>
-
+  
   <!--========== 
   End of bottom page  ==========-->
-
+  
   <!--========== 
     Map section ==========-->
-
+  
   <section id="contact-us" class="position-relative">
     <div class="google-map">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.629367104963!2d3.2316144785641425!3d6.692744576034127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b996ae457d243%3A0x63b338921b72fdf9!2sFrith%20Nightswan%20Enterprises!5e0!3m2!1sen!2sng!4v1683451340692!5m2!1sen!2sng" width="800" height="600" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-
+    
     <!--========== 
     End of map section ==========-->
   </section>
   <!--========== 
   Start of footer section ==========-->
-
+  
   <footer class="footer">
     <div class="container">
       <div class="row">
@@ -596,12 +666,12 @@
               <h5>Monday to Friday</h5>
               <p>8:30 am to 5 pm</p>
             </div>
-
+            
             <h4 class="mb-4">Address</h4>
             <div class="mb-4">
               <h5>11, Akindenoh street Ota, Ogun State.</h5>
               <p><a href="mailto:hello@frithhilton.com.ng">Send Frith Hilton Mail</a></p>
-
+              
             </div>
             <h2 class="text-green mb-0 mt-5">
               <i class="feather icon-phone-call"></i> (234) 815 813 2408
@@ -612,7 +682,7 @@
       </div>
     </div>
   </footer>
-
+  
   <footer class="footer bg-black slice-pt">
     <div class="container">
       <div class="row">
@@ -621,7 +691,7 @@
             <span class="typer text-white" id="some-id" data-words="Catch up!" data-delay="100">
             </span>
           </h2>
-
+          
           <div class="social-icons icons-xl mt-5">
             <a class="icon text-white" href="https://youtube.com/@frithhilton17?si=8pEsa1wf1KxLNvBK" target="_blank">
               <i class="fab fa-youtube"></i>
@@ -652,94 +722,96 @@
       </div>
     </div>
   </footer>
-
+  
   <!--========== 
   End of footer section ==========-->
-
+  
   <!--========== 
         Start of back to top section ==========-->
-
+  
   <div class="go-top">
     <p class="go-top-text">
       Scroll to top <i class="fas fa-long-arrow-alt-right ps-2"></i>
     </p>
   </div>
-
+  
   <!--========== 
 	End of back to top section ==========-->
-       <div class="col-lg-3 col-sm-6">                        <p                          @click="window.location.href='../search.html'"                          class="btn btn-naked-wrap search-btn"                        >                          <i class="fas fa-search"></i>                          <span> search </span>                        </p>                      </div> 
-
+  <div class="col-lg-3 col-sm-6">
+    <p @click="window.location.href='../search.html'" class="btn btn-naked-wrap search-btn"> <i class="fas fa-search"></i> <span> search </span> </p>
+  </div>
+  
   <!-- Popup container -->
   <div class="popup-container" id="popup-container">
-
+    
     <!-- Image container -->
     <div id="image-container" class="image-container">
       <img src="../../images/ads/miumiu.gif" alt="Miu Miu" />
     </div>
   </div>
-
+  
   <!-- Popup container -->
   <div class="popup-container" id="popup-container-vii">
-
+    
     <!-- Image container -->
     <div id="image-container-vii" class="image-container">
       <img src="../../images/ads/Orebella.gif" alt="Popup Image vii" />
     </div>
   </div>
-
+  
   <div class="popup-container" id="popup-container-iii">
-
+    
     <!-- Image container -->
     <div id="image-container-iii" class="image-container">
       <img src="../../images/ads/wildflower.gif" alt="Popup Image iii" />
     </div>
   </div>
-
+  
   <div class="popup-container" id="popup-container-iv">
-
+    
     <!-- Image container -->
     <div id="image-container-iv" class="image-container">
       <img src="../../images/ads/cosmic.gif" alt="Popup Image iv" />
     </div>
   </div>
-
+  
   <div class="popup-container" id="popup-container-v">
-
+    
     <!-- Image container -->
     <div id="image-container-v" class="image-container">
       <img src="../../images/ads/khy-wardrobe.gif" alt="Popup Image v" />
     </div>
   </div>
-
+  
   <div class="popup-container" id="popup-container-vi">
-
+    
     <!-- Image container -->
     <div id="image-container-vi" class="image-container">
       <img src="../../images/ads/skims.gif" alt="Popup Image vi" />
     </div>
   </div>
-
+  
   <div class="popup-container" id="popup-container-ii">
-
+    
     <!-- Image container -->
     <div id="image-container-ii" class="image-container">
       <img src="../../images/ads/xokhloe.gif" alt="Popup Image ii" />
     </div>
   </div>
-
-
-
-
-
+  
+  
+  
+  
+  
   <!--========== 
 	Start of Javascript ==========-->
-
+  
   <!--===== Global required js =====-->
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   <script src="../../js/jquery-3.6.0.min.js"></script>
   <script src="../../js/popper.min.js"></script>
   <script src="../../js/bootstrap/bootstrap.min.js"></script>
-
+  
   <!--===== Global script: js libraries and plugins =====-->
   <script src="../../js/appear/jquery.appear.js"></script>
   <script src="../../js/swiper/swiper.min.js"></script>
@@ -752,111 +824,113 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/numbered/1.1.0/index.min.js" integrity="sha512-UQKbSOyUPIxk4a5/TIcqKUfl2JX0b1Rgq16BgvZbIWa7g5g3Rl/RXzFJFt2iu9LzDUpqDbcaak2ifjW887SxPw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="../../js/ads.js"></script>
   <script src="../../js/DrCarlHillV.js"></script>
+  <script src="../../js/upcomingPageAds.js"></script>  
+
   <script>
     $(document).ready(function() {
       // Function to check if it's the first load in the hour
       function isFirstLoadInHour() {
         const currentTime = new Date().getTime();
         const storedTime = localStorage.getItem('popupLoadTime');
-
+        
         if (!storedTime || (currentTime - storedTime) >= 0) { // 0ms = 0 minutes
           localStorage.setItem('popupLoadTime', currentTime);
           return true;
         }
-
+        
         return false;
       }
-
+      
       // Open popup on first load in the hour with 5-second delay
       if (isFirstLoadInHour()) {
         setTimeout(function() {
           $('#popup-container').fadeIn();
         }, 5000); // 5000ms = 5 seconds
       }
-
+      
       // Close popup on close button click, escape key press, or outside click
       $('#close-btn').on('click', function() {
         $('#popup-container').fadeOut();
       });
-
+      
       $(document).keyup(function(e) {
         if (e.key === 'Escape') {
           $('#popup-container').fadeOut();
         }
       });
-
+      
       // Close popup when clicking outside the image
       $('#popup-container').on('click', function(e) {
         if ($(e.target).is('#popup-container') && !$(e.target).closest('.image-container').length) {
           $(this).fadeOut();
         }
       });
-
+      
       $('#popup-container-ii').on('click', function(e) {
         if ($(e.target).is('#popup-container-ii') && !$(e.target).closest('.image-container').length) {
           $(this).fadeOut();
         }
       });
-
+      
       $('#popup-container-iii').on('click', function(e) {
         if ($(e.target).is('#popup-container-iii') && !$(e.target).closest('.image-container').length) {
           $(this).fadeOut();
         }
       });
-
+      
       $('#popup-container-iv').on('click', function(e) {
         if ($(e.target).is('#popup-container-iv') && !$(e.target).closest('.image-container').length) {
           $(this).fadeOut();
         }
       });
-
+      
       $('#popup-container-v').on('click', function(e) {
         if ($(e.target).is('#popup-container-v') && !$(e.target).closest('.image-container').length) {
           $(this).fadeOut();
         }
       });
-
+      
       $('#popup-container-vi').on('click', function(e) {
         if ($(e.target).is('#popup-container-vi') && !$(e.target).closest('.image-container').length) {
           $(this).fadeOut();
         }
       });
-
+      
       $('#popup-container-vii').on('click', function(e) {
         if ($(e.target).is('#popup-container-vii') && !$(e.target).closest('.image-container').length) {
           $(this).fadeOut();
         }
       });
-
-
-
-
-
-
-
-
-
+      
+      
+      
+      
+      
+      
+      
+      
+      
       // Make image clickable
       $('#image-container').on('click', function() {
         // Replace with your desired action
         window.open('https://clicklinkin.bio/miumiu?fbclid=PAY2xjawIYGF9leHRuA2FlbQIxMQABpty8JWZkrJHYl04QkNw_-SfPVWMXQp0sHioNDNUgK1sUtfpB7w56WZEwjw_aem_rWOmS-mWjRVH4jeRmbTORQ', '_blank');
       });
-
+      
       $('#image-container-vii').on('click', function() {
         // Replace with your desired action
         window.open('https://orebella.com', '_blank');
       });
-
+      
       $('#image-container-iii').on('click', function() {
         // Replace with your desired action
         window.open('https://www.wildflowercases.com/en-ad', '_blank');
       });
-
+      
       $('#image-container-iv').on('click', function() {
         // Replace with your desired action
         window.open('https://www.ulta.com/p/cosmic-kylie-jenner-eau-de-parfum-pimprod2044205', '_blank');
       });
-
+      
       $('#image-container-v').on('click', function() {
         // Replace with your desired action
         window.open('https://www.khy.com/pages/wardrobe?fbclid=PAY2xjawICrBJleHRuA2FlbQIxMQABpnTcHafMzC6bedRk_jGcKKLw_Qo60ipUANWhcdWC1TORtK4tF7n3YwA15w_aem__Z_2kS8T5xv2979yBkDWaw', '_blank');
@@ -865,23 +939,24 @@
         // Replace with your desired action
         window.open('https://www.skims.com/', '_blank');
       });
-
+      
       $('#image-container-ii').on('click', function() {
         // Replace with your desired action
         window.open('https://www.ulta.com/p/xo-khloe-pimprod2049077?sku=2632566&fbclid=PAZXh0bgNhZW0CMTEAAaZVXM4Lkj92LaOM2GEyeMxVRAlahdOYqvDPGzl8R2-Jsf758_E9PY8hyC8_aem__mk4AnSGz28b8amcS9xKDg', '_blank');
       });
-
-
-
-
-
-
-
-
+      
+      
+      
+      
+      
+      
+      
+      
     });
   </script>
-
-
+  
+  
+  
   <script>
     window.fbAsyncInit = function() {
       FB.init({
@@ -893,14 +968,14 @@
     };
   </script>
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
-
+  
   <!--===== Main theme script =====-->
-
+  
   <script type="module">
     import {
       createApp,
       reactive
-    } from "https://unpkg.com/petite-vue?module";
+    } from "../../js/petite-vue.js";
     const store = reactive({
       IPAccess: false,
       checkLocation() { this.IPAccess = JSON.parse(localStorage.getItem('accessAllowed')); return this.IPAccess; },
@@ -912,6 +987,21 @@
       currentChapter: 0,
       goBackState: false,
       chapterClickNo: 0,
+      audioIsPlaying: false,
+      audioContext: null,
+      analyser: null,
+      frequencyData: null,
+      animationFrameId: null,
+      lyrics: [],
+      playbackData: [],
+      currentLyric: null,
+      highlightedWords: {},
+      audioElement: document.getElementById('audioElement'),
+      source: null,
+      hiddenLyricsDiv: null,
+      playCount: 0,
+      isDisabled: true, 
+      
       getCurrentChapter() {
         if (localStorage.getItem("DrCarlHillVCurrentChapter")) {
           this.currentChapter = localStorage.getItem("DrCarlHillVCurrentChapter");
@@ -929,8 +1019,310 @@
         this.generatePoemURL();
         this.chapterTitle = chapterTitle;
         const chapterContent = this.pageResources().chapters;
+        this.audioElement.src = this.pageResources().poetryAudio[this.currentChapter];
+        
+        fetch(this.pageResources().poetryJson.at(this.currentChapter))
+          .then(response => response.json())
+          .then(data => {
+            this.lyrics = data.lyrics;
+          });
         return chapterContent.at(this.currentChapter);
       },
+      getChapterWords() {
+        const chapters = this.pageResources().chapters;
+        const chapterContent = chapters.at(this.currentChapter);
+        
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(chapterContent, 'text/html');
+        const paragraphs = doc.body.getElementsByTagName('p');
+        const textContent = Array.from(paragraphs).map(p => p.textContent).join(' ');
+        const words = textContent.split(/\s+|(?<=[.!?])\s* /);
+        const filteredWords = words.filter((word) => word.trim() !== "" && word !== "\n");
+        
+        const wordData = filteredWords.map((word, index) => ({
+          id: index + 1,
+          text: word,
+        }));
+        
+        wordData.forEach((word) => {
+          const matchingWord = this.lyrics.flatMap(lyric => lyric.words).find(w => w.id === word.id && w.text === word.text);
+          if (matchingWord) {
+            word.startTime = matchingWord.startTime;
+            word.endTime = matchingWord.endTime;
+          }
+        });
+        
+        this.playbackData = wordData;
+        
+        this.loadPoetryWithAttributes();
+      },
+      
+      
+      loadPoetryWithAttributes() {
+        const paragraphs = document.querySelectorAll('#htmlContent p');
+        let wordId = 1;
+        paragraphs.forEach((paragraph, index) => {
+          Array.from(paragraph.childNodes).forEach((childNode) => {
+            if (childNode.nodeType === Node.TEXT_NODE && childNode.textContent.trim() !== '') {
+              // Process text nodes as before
+              const text = childNode.textContent;
+              const words = text.split(/\s+/).filter((word) => word !== '');
+              const fragment = document.createDocumentFragment();
+              words.forEach((word, wordIndex) => {
+                const span = document.createElement('span');
+                span.textContent = word;
+                span.setAttribute('id', wordId);
+                const wordData = this.playbackData.find((data) => data.id === wordId);
+                if (wordData) {
+                  span.setAttribute('data-start-time', wordData.startTime);
+                  span.setAttribute('data-end-time', wordData.endTime);
+                }
+                fragment.appendChild(span);
+                if (wordIndex < words.length - 1) {
+                  fragment.appendChild(document.createTextNode(' '));
+                }
+                wordId++;
+              });
+              paragraph.replaceChild(fragment, childNode);
+            } else if (childNode.nodeType === Node.ELEMENT_NODE) {
+              // Handle italic elements
+              if (childNode.tagName === 'I' || childNode.tagName === 'EM') {
+                // Get the original text content of the italic element
+                const italicText = childNode.textContent;
+                // Remove the text content of the italic element
+                childNode.textContent = '';
+                // Split the italic text into individual words
+                const italicWords = italicText.split(/\s+/).filter((word) => word !== '');
+                // Create a fragment to hold the italic words
+                const italicFragment = document.createDocumentFragment();
+                // Process each italic word
+                italicWords.forEach((word, wordIndex) => {
+                  // Create a span element for the italic word
+                  const italicSpan = document.createElement('span');
+                  italicSpan.textContent = word;
+                  italicSpan.setAttribute('id', wordId);
+                  // Get the word data for the italic word
+                  const wordData = this.playbackData.find((data) => data.id === wordId);
+                  if (wordData) {
+                    italicSpan.setAttribute('data-start-time', wordData.startTime);
+                    italicSpan.setAttribute('data-end-time', wordData.endTime);
+                  }
+                  // Append the italic span to the fragment
+                  italicFragment.appendChild(italicSpan);
+                  if (wordIndex < italicWords.length - 1) {
+                    italicFragment.appendChild(document.createTextNode(' '));
+                  }
+                  wordId++;
+                });
+                // Append the italic fragment to the child node
+                childNode.appendChild(italicFragment);
+              } else {
+                // Recursively process child nodes as before
+                this.processChildNodes(childNode, wordId);
+                wordId += Array.from(childNode.childNodes).length;
+              }
+            }
+          });
+        });
+        const spanElements = document.querySelectorAll('#htmlContent span');
+        spanElements.forEach((span) => {
+          span.addEventListener('click', () => {
+            const startTime = parseFloat(span.getAttribute('data-start-time'));
+            this.seekAudioPlayback(startTime);
+          });
+        });
+      },
+      
+      processChildNodes(childNode, wordId) {
+        Array.from(childNode.childNodes).forEach((grandChildNode) => {
+          if (grandChildNode.nodeType === Node.TEXT_NODE && grandChildNode.textContent.trim() !== '') {
+            const text = grandChildNode.textContent;
+            const words = text.split(/\s+/);
+            const fragment = document.createDocumentFragment();
+            words.forEach((word, wordIndex) => {
+              const span = document.createElement('span');
+              span.textContent = word;
+              span.setAttribute('id', wordId);
+              const wordData = this.playbackData.find((data) => data.id === wordId);
+              if (wordData) {
+                span.setAttribute('data-start-time', wordData.startTime);
+                span.setAttribute('data-end-time', wordData.endTime);
+              }
+              fragment.appendChild(span);
+              if (wordIndex < words.length - 1) {
+                fragment.appendChild(document.createTextNode(' '));
+              }
+              wordId++;
+            });
+            childNode.replaceChild(fragment, grandChildNode);
+          } else if (grandChildNode.nodeType === Node.ELEMENT_NODE) {
+            // Recursively process child nodes
+            this.processChildNodes(grandChildNode, wordId);
+            wordId += Array.from(grandChildNode.childNodes).length;
+          }
+        });
+      },
+      
+      seekAudioPlayback(startTime) {
+        this.audioElement.currentTime = startTime;
+        
+      },
+      
+      
+      // Method to handle playback
+      playback(event) {
+        console.log("fired", event.target);
+        const target = event.target;
+        if (target.tagName === 'SPAN') {
+          console.log("fired too");
+          const startTime = target.getAttribute('data-start-time');
+          const endTime = target.getAttribute('data-end-time');
+          // Trigger playback here using the start and end times
+          console.log(`Playing from ${startTime} to ${endTime}`);
+          // Add your playback logic here
+        }
+      },
+      
+      
+      
+      
+      
+      
+      
+      playPoetry() {
+        console.log('playPoetry called');
+        this.audioIsPlaying = !this.audioIsPlaying;
+        if (this.audioIsPlaying) {
+          if (this.playCount === 0) {
+            this.getChapterWords();
+            this.playCount++;
+          }
+          this.audioElement.play();
+          this.removeHighlighting();
+          
+          if (!this.analyser) {
+            this.initAnalyser();
+          } else {
+            // Update the analyser and source objects
+            this.analyser.disconnect();
+            this.source.connect(this.analyser);
+            this.analyser.connect(this.audioContext.destination);
+          }
+          this.updateVisualizer();
+        } else {
+          this.audioElement.pause();
+          this.audioIsPlaying = false;
+          cancelAnimationFrame(this.animationFrameId); // Cancel animation frame
+          this.resetVisualizer();
+          // Switch icon back to play button
+          const audioSwitcher = document.getElementById('audioSwitcher');
+          audioSwitcher.classList.remove('fa-pause');
+          audioSwitcher.classList.add('fa-play');
+          this.resetHighlighting();
+          
+        }
+        // Add event listeners for audio end and pause events
+        this.audioElement.addEventListener('ended', () => {
+          this.audioIsPlaying = false;
+          cancelAnimationFrame(this.animationFrameId); // Cancel animation frame
+          this.resetVisualizer();
+          // Switch icon back to play button
+          const audioSwitcher = document.getElementById('audioSwitcher');
+          audioSwitcher.classList.remove('fa-pause');
+          audioSwitcher.classList.add('fa-play');
+          this.removeHighlighting();
+        });
+        
+        
+        
+        this.audioElement.addEventListener('timeupdate', () => {
+          const audioTime = this.audioElement.currentTime;
+          this.highlightWords(audioTime);
+        });
+        
+        
+      },
+      resetVisualizer() {
+        
+        const audioButton = document.getElementById('audioButton');
+        audioButton.style.transform = 'scale(1)'; // Reset scale
+        audioButton.style.setProperty('--wave-opacity', 0); // Reset glow effect
+        this.frequencyData.fill(0); // Reset frequency data
+      },
+      initAnalyser() {
+        if (this.source) {
+          this.source.disconnect();
+        }
+        
+        this.audioContext = new AudioContext();
+        this.analyser = this.audioContext.createAnalyser();
+        this.source = this.audioContext.createMediaElementSource(this.audioElement);
+        
+        if (!this.source.isConnected) {
+          this.source.connect(this.analyser);
+          this.analyser.connect(this.audioContext.destination);
+        }
+        
+        this.frequencyData = new Uint8Array(this.analyser.frequencyBinCount);
+      },
+      updateVisualizer() {
+        if (!this.analyser) return;
+        this.analyser.getByteFrequencyData(this.frequencyData);
+        const spectralCentroid = this.frequencyData.reduce((a, b, i) => a + b * i, 0) / this.frequencyData.reduce((a, b) => a + b, 0);
+        const averageFrequency = this.frequencyData.reduce((a, b) => a + b, 0) / this.frequencyData.length;
+        const audioButton = document.getElementById('audioButton');
+        const scale = 1 + (averageFrequency / 255) * 2; // adjust this value to control the growth rate
+        audioButton.style.setProperty('--wave-opacity', spectralCentroid / 1000); // adjust the value to control the sensitivity
+        audioButton.style.transform = `scale(${scale})`;
+        if (this.audioIsPlaying) {
+          this.animationFrameId = requestAnimationFrame(() => this.updateVisualizer());
+        }
+      },
+      updateCurrentLyric(audioTime) {
+        const currentLyric = this.lyrics.find((lyric) => lyric.startTime <= audioTime && lyric.endTime >= audioTime);
+        if (currentLyric) {
+          this.currentLyric = currentLyric;
+          this.highlightedWords = {};
+          currentLyric.words.forEach((word) => {
+            this.highlightedWords[word.text] = true;
+            //console.log(`Highlighting word: ${word.text}`);
+          });
+        }
+      },
+            highlightWords(audioTime) {
+        if (this.audioIsPlaying === false) return; // Do not highlight if audio is paused
+        console.log(`Highlighting word at time ${audioTime}`);
+        const spanElements = document.querySelectorAll('#htmlContent span');
+        spanElements.forEach((span) => {
+          const wordText = span.textContent.trim();
+          if (wordText === '') return; // Ignore empty words
+          const startTime = parseFloat(span.getAttribute('data-start-time'));
+          const endTime = parseFloat(span.getAttribute('data-end-time'));
+          if (audioTime >= startTime && audioTime < endTime) {
+            console.log(`Highlighting word: "${wordText}" (start: ${startTime}, end: ${endTime})`);
+            span.classList.add('highlighted');
+          } else {
+            span.classList.remove('highlighted');
+          }
+        });
+      },
+      removeHighlighting() {
+        console.log('Removing highlighting...');
+        const spanElements = document.querySelectorAll('#htmlContent span');
+        spanElements.forEach((span) => {
+          span.classList.remove('highlighted');
+          span.classList.remove('pauseHighlight');
+        });
+      },
+      resetHighlighting() {
+        const highlightedElements = document.querySelectorAll('.highlighted');
+        
+          highlightedElements.forEach((element) => {
+            element.classList.add('pauseHighlight');
+            element.classList.remove('highlighted');
+            
+  });
+}, 
       initialPageState: {
         viewDrCarlHillV: "chapters",
       },
@@ -945,7 +1337,7 @@
           this.decodePoemURL();
           this.getCurrentChapter();
           const state = "poetry";
-
+          
           return state;
         } else {
           localStorage.setItem("viewDrCarlHillV", this.initialPageState.viewDrCarlHillV);
@@ -980,18 +1372,27 @@
           $('#popup-container').fadeIn();
           this.chapterClickNo = 0;
         }
-
-
-
-
-
-
+        this.getChapterContent();
+        
+        
+        
+        
+        
       },
       goBack() {
         this.goBackState = true;
         localStorage.setItem("viewDrCarlHillV", "chapters");
         this.pageState = localStorage.getItem("viewDrCarlHillV");
         this.getPageState();
+        this.audioElement.pause();
+        this.audioElement.currentTime = 0;
+        this.audioIsPlaying = false;
+        this.playCount = 0;
+        
+        
+        
+        
+        
       },
       pageResources() {
         return {
@@ -1004,48 +1405,86 @@
             <p class="text-center mt-1"> <span class="fw-bold">Mom</span> </p>`,
           ],
           chapterTitles: [
-"0",
-"Mom's cover-up",
-"While she's spot-on",
-],
-
-          chapters: [
-`0`,
-
-`<p>My meals taste how I mean</p>
-<p>cooking to heat, to pretty hit</p>
-<p> </p>
-<p>tonight, it's the palate’s degree</p>
-<p>starting with the kettle’s hissing</p>
-<p>as yet, a maravedi in its ill speak</p>
-<p>the pot’s far in height blackening</p>
-<p>steaming gifts to perceive in relish </p>
-<p> </p>
-<p>ingredients say the cool in her real</p>
-<p>as the pissed dissolves to cleaving</p>
-<p>and gets this chef too sore to lick</p>
-<p>her eccentricity line in the recipe</p>
-<p> </p>
-<p><i>well, I'm picky</i></p>
-<p> </p>
-<p>along, dough rued, said fatigued</p>
-<p> </p>
-<p>affixed to her sweet tooth tip</p>
-<p>are the lies she too tells squeaky</p>
-<p>lo, daily, weekly — ever plate clean</p>
-<p>every day is a solstice in her kitchen</p>
-<p>all waiting is of this chef’s serving. </p>`,
-
-`<p>My mom has such a beautiful heart</p>
-<p>one so demure in failing a polygraph</p>
-<p>by actions making up a balanced diet</p>
-<p>heavier than any scale’s mass bracket </p>
-<p>so she's my forever mouthful of thanks</p>
-<p>resulting feeling of big lotto settlements</p>
-<p>I swallow her up now, piecing her apart</p>
-<p>as I would a remedy for a doubtful fever. </p>`,
+            "0",
+            "Mom's cover-up",
+            "While she's spot-on",
+            "Announcement",
+            "How to"
           ],
-
+          
+          chapters: [
+            `0`,
+            
+            `<p>My meals taste how I mean</p>
+            <p>cooking to heat, to pretty hit</p>
+            <p> </p>
+            <p>tonight, it's the palate’s degree</p>
+            <p>starting with the kettle’s hissing</p>
+            <p>as yet, a maravedi in its ill speak</p>
+            <p>the pot’s far in height blackening</p>
+            <p>steaming gifts to perceive in relish </p>
+            <p> </p>
+            <p>ingredients say the cool in her real</p>
+            <p>as the pissed dissolves to cleaving</p>
+            <p>and gets this chef too sore to lick</p>
+            <p>her eccentricity line in the recipe</p>
+            <p> </p>
+            <p><i>well, I'm picky</i></p>
+            <p> </p>
+            <p>along, dough rued, said fatigued</p>
+            <p> </p>
+            <p>affixed to her sweet tooth tip</p>
+            <p>are the lies she too tells squeaky</p>
+            <p>lo, daily, weekly — ever plate clean</p>
+            <p>every day is a solstice in her kitchen</p>
+            <p>all waiting is of this chef’s serving. </p>`,
+            
+            `<p>My mom has such a beautiful heart</p>
+            <p>one so demure in failing a polygraph</p>
+            <p>by actions making up a balanced diet</p>
+            <p>heavier than any scale’s mass bracket </p>
+            <p>so she's my forever mouthful of thanks</p>
+            <p>resulting feeling of big lotto settlements</p>
+            <p>I swallow her up now, piecing her apart</p>
+            <p>as I would a remedy for a doubtful fever. </p>`,
+            
+            `<p>Hooray, my mom is sixty-six! </p>
+            <p>That's a whole lot of numbers </p>
+            <p>And, I have released this feature</p>
+            <p>To celebrate her sixty-sixth birthday</p>
+            <p>So, henceforth</p>
+            <p>You can read your favorite poems</p>
+            <p>On the page, all you need to do is press the play button</p>
+            <p>And you get to read, it reads it out to you</p>
+            <p>It's just how it works</p>
+            <p>So I will announce when the poems get audio</p>
+            <p>And I'm telling you, they are rolling out</p>
+            <p>This here is the first one</p>
+            <p>Enjoy, bye. </p>`, 
+            
+            `<p>Click the play button</p>
+            <p>This starts the audio, playing the selected poetry’s text</p>
+            <p>You can select anywhere on the text to continue playback from the word. </p>`
+            
+            
+          ],
+          
+          poetryAudio: [
+            `0`,
+            `../audio/DrCarlHillV/1.mp3`,
+            `../audio/DrCarlHillV/2.mp3`,
+            `../audio/DrCarlHillV/3.mp3`,
+            `../audio/DrCarlHillV/4.mp3`,
+          ],
+          
+          poetryJson: [
+            `0`,
+            `../json/DrCarlHillV/1.json`,
+            `../json/DrCarlHillV/2.json`,
+            `../json/DrCarlHillV/3.json`,
+            `../json/DrCarlHillV/4.json`,
+          ],
+          
           convertIndex(prop) {
             var indexNumber = prop;
             var number = numbered.stringify(indexNumber);
@@ -1182,17 +1621,23 @@
       },
       goToPublished() {
         window.location.href = '../books.html';
+      },
+      generatePoetryCard() {
+        
       }
-
+      
     });
-
+    
     createApp({
-      store,
+      store
     }).mount("#ctrlArea");
   </script>
+  <script>
+    // Get the div element
+  </script>
+  
   <!--========== 
 	End of Javascript ==========-->
 </body>
 
 </html>
-
