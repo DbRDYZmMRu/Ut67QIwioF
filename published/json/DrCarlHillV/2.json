@@ -1,0 +1,410 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "My mom has such a beautiful heart",
+      "startTime": 6.575977,
+      "endTime": 12.769522,
+      "words": [
+        {
+          "id": 1,
+          "text": "My",
+          "startTime": 6.575977,
+          "endTime": 8.451843
+        },
+        {
+          "id": 2,
+          "text": "mom",
+          "startTime": 8.451843,
+          "endTime": 8.91372
+        },
+        {
+          "id": 3,
+          "text": "has",
+          "startTime": 8.91372,
+          "endTime": 10.111142
+        },
+        {
+          "id": 4,
+          "text": "such",
+          "startTime": 10.111142,
+          "endTime": 10.312455
+        },
+        {
+          "id": 5,
+          "text": "a",
+          "startTime": 10.312455,
+          "endTime": 10.442733
+        },
+        {
+          "id": 6,
+          "text": "beautiful",
+          "startTime": 10.442733,
+          "endTime": 11.04112
+        },
+        {
+          "id": 7,
+          "text": "heart",
+          "startTime": 11.04112,
+          "endTime": 12.769522
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "one so demure in failing a polygraph",
+      "startTime": 12.769522,
+      "endTime": 17.088735,
+      "words": [
+        {
+          "id": 8,
+          "text": "one",
+          "startTime": 12.769522,
+          "endTime": 12.970806
+        },
+        {
+          "id": 9,
+          "text": "so",
+          "startTime": 12.970806,
+          "endTime": 13.171962
+        },
+        {
+          "id": 10,
+          "text": "demure",
+          "startTime": 13.171962,
+          "endTime": 13.965517
+        },
+        {
+          "id": 11,
+          "text": "in",
+          "startTime": 13.965517,
+          "endTime": 14.628051
+        },
+        {
+          "id": 12,
+          "text": "failing",
+          "startTime": 14.628051,
+          "endTime": 14.962019
+        },
+        {
+          "id": 13,
+          "text": "a",
+          "startTime": 14.962019,
+          "endTime": 15.163123
+        },
+        {
+          "id": 14,
+          "text": "polygraph",
+          "startTime": 15.163123,
+          "endTime": 17.088735
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "by actions making up a balanced diet",
+      "startTime": 17.088735,
+      "endTime": 20.807833,
+      "words": [
+        {
+          "id": 15,
+          "text": "by",
+          "startTime": 17.088735,
+          "endTime": 17.219822
+        },
+        {
+          "id": 16,
+          "text": "actions",
+          "startTime": 17.219822,
+          "endTime": 17.882879
+        },
+        {
+          "id": 17,
+          "text": "making",
+          "startTime": 17.882879,
+          "endTime": 18.283738
+        },
+        {
+          "id": 18,
+          "text": "up",
+          "startTime": 18.283738,
+          "endTime": 18.415844
+        },
+        {
+          "id": 19,
+          "text": "a",
+          "startTime": 18.415844,
+          "endTime": 18.616857
+        },
+        {
+          "id": 20,
+          "text": "balanced",
+          "startTime": 18.616857,
+          "endTime": 19.214549
+        },
+        {
+          "id": 21,
+          "text": "diet",
+          "startTime": 19.214549,
+          "endTime": 20.807833
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "heavier than any scale’s mass bracket",
+      "startTime": 20.807833,
+      "endTime": 24.791131,
+      "words": [
+        {
+          "id": 22,
+          "text": "heavier",
+          "startTime": 20.807833,
+          "endTime": 21.402474
+        },
+        {
+          "id": 23,
+          "text": "than",
+          "startTime": 21.402474,
+          "endTime": 21.869957
+        },
+        {
+          "id": 24,
+          "text": "any",
+          "startTime": 21.869957,
+          "endTime": 22.202275
+        },
+        {
+          "id": 25,
+          "text": "scale’s",
+          "startTime": 22.202275,
+          "endTime": 22.865084
+        },
+        {
+          "id": 26,
+          "text": "mass",
+          "startTime": 22.865084,
+          "endTime": 23.26212
+        },
+        {
+          "id": 27,
+          "text": "bracket",
+          "startTime": 23.26212,
+          "endTime": 24.791131
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "so she's my forever mouthful of thanks",
+      "startTime": 24.791131,
+      "endTime": 28.907781,
+      "words": [
+        {
+          "id": 28,
+          "text": "so",
+          "startTime": 24.791131,
+          "endTime": 25.585242
+        },
+        {
+          "id": 29,
+          "text": "she's",
+          "startTime": 25.585242,
+          "endTime": 25.721663
+        },
+        {
+          "id": 30,
+          "text": "my",
+          "startTime": 25.721663,
+          "endTime": 25.988216
+        },
+        {
+          "id": 31,
+          "text": "forever",
+          "startTime": 25.988216,
+          "endTime": 26.650588
+        },
+        {
+          "id": 32,
+          "text": "mouthful",
+          "startTime": 26.650588,
+          "endTime": 27.180765
+        },
+        {
+          "id": 33,
+          "text": "of",
+          "startTime": 27.180765,
+          "endTime": 27.582473
+        },
+        {
+          "id": 34,
+          "text": "thanks",
+          "startTime": 27.582473,
+          "endTime": 28.907781
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "resulting feeling of big lotto settlements",
+      "startTime": 28.907781,
+      "endTime": 33.027244,
+      "words": [
+        {
+          "id": 35,
+          "text": "resulting",
+          "startTime": 28.907781,
+          "endTime": 29.772576
+        },
+        {
+          "id": 36,
+          "text": "feeling",
+          "startTime": 29.772576,
+          "endTime": 30.634968
+        },
+        {
+          "id": 37,
+          "text": "of",
+          "startTime": 30.634968,
+          "endTime": 31.030231
+        },
+        {
+          "id": 38,
+          "text": "big",
+          "startTime": 31.030231,
+          "endTime": 31.297667
+        },
+        {
+          "id": 39,
+          "text": "lotto",
+          "startTime": 31.297667,
+          "endTime": 31.698813
+        },
+        {
+          "id": 40,
+          "text": "settlements",
+          "startTime": 31.698813,
+          "endTime": 33.027244
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "I swallow her up now, piecing her apart",
+      "startTime": 33.027244,
+      "endTime": 37.808647,
+      "words": [
+        {
+          "id": 41,
+          "text": "I",
+          "startTime": 33.027244,
+          "endTime": 34.353799
+        },
+        {
+          "id": 42,
+          "text": "swallow",
+          "startTime": 34.353799,
+          "endTime": 34.952866
+        },
+        {
+          "id": 43,
+          "text": "her",
+          "startTime": 34.952866,
+          "endTime": 35.28488
+        },
+        {
+          "id": 44,
+          "text": "up",
+          "startTime": 35.28488,
+          "endTime": 35.414411
+        },
+        {
+          "id": 45,
+          "text": "now,",
+          "startTime": 35.414411,
+          "endTime": 36.612277
+        },
+        {
+          "id": 46,
+          "text": "piecing",
+          "startTime": 36.612277,
+          "endTime": 36.878716
+        },
+        {
+          "id": 47,
+          "text": "her",
+          "startTime": 36.878716,
+          "endTime": 37.073776
+        },
+        {
+          "id": 48,
+          "text": "apart",
+          "startTime": 37.073776,
+          "endTime": 37.808647
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "as I would a remedy for a doubtful fever.",
+      "startTime": 37.808647,
+      "endTime": 44.05774,
+      "words": [
+        {
+          "id": 49,
+          "text": "as",
+          "startTime": 37.808647,
+          "endTime": 38.668037
+        },
+        {
+          "id": 50,
+          "text": "I",
+          "startTime": 38.668037,
+          "endTime": 38.870165
+        },
+        {
+          "id": 51,
+          "text": "would",
+          "startTime": 38.870165,
+          "endTime": 39.20131
+        },
+        {
+          "id": 52,
+          "text": "a",
+          "startTime": 39.20131,
+          "endTime": 39.46721
+        },
+        {
+          "id": 53,
+          "text": "remedy",
+          "startTime": 39.46721,
+          "endTime": 39.995735
+        },
+        {
+          "id": 54,
+          "text": "for",
+          "startTime": 39.995735,
+          "endTime": 41.061164
+        },
+        {
+          "id": 55,
+          "text": "a",
+          "startTime": 41.061164,
+          "endTime": 41.191895
+        },
+        {
+          "id": 56,
+          "text": "doubtful",
+          "startTime": 41.191895,
+          "endTime": 42.05774
+        },
+        {
+          "id": 57,
+          "text": "fever.",
+          "startTime": 42.05774,
+          "endTime": 44.05774
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Click the play button",
+      "startTime": 1.979522,
+      "endTime": 4.436373,
+      "words": [
+        {
+          "id": 1,
+          "text": "Click",
+          "startTime": 1.979522,
+          "endTime": 2.646833
+        },
+        {
+          "id": 2,
+          "text": "the",
+          "startTime": 2.646833,
+          "endTime": 2.842538
+        },
+        {
+          "id": 3,
+          "text": "play",
+          "startTime": 2.842538,
+          "endTime": 2.978047
+        },
+        {
+          "id": 4,
+          "text": "button",
+          "startTime": 2.978047,
+          "endTime": 4.436373
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "This starts the audio, playing the selected poetry’s text",
+      "startTime": 4.436373,
+      "endTime": 9.487318,
+      "words": [
+        {
+          "id": 5,
+          "text": "This",
+          "startTime": 4.436373,
+          "endTime": 4.571997
+        },
+        {
+          "id": 6,
+          "text": "starts",
+          "startTime": 4.571997,
+          "endTime": 4.969532
+        },
+        {
+          "id": 7,
+          "text": "the",
+          "startTime": 4.969532,
+          "endTime": 5.034589
+        },
+        {
+          "id": 8,
+          "text": "audio,",
+          "startTime": 5.034589,
+          "endTime": 6.029418
+        },
+        {
+          "id": 9,
+          "text": "playing",
+          "startTime": 6.029418,
+          "endTime": 6.362068
+        },
+        {
+          "id": 10,
+          "text": "the",
+          "startTime": 6.362068,
+          "endTime": 6.497447
+        },
+        {
+          "id": 11,
+          "text": "selected",
+          "startTime": 6.497447,
+          "endTime": 7.029627
+        },
+        {
+          "id": 12,
+          "text": "poetry’s",
+          "startTime": 7.029627,
+          "endTime": 7.627795
+        },
+        {
+          "id": 13,
+          "text": "text",
+          "startTime": 7.627795,
+          "endTime": 9.487318
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "You can select anywhere on the text to continue playback from the word. ",
+      "startTime": 9.487318,
+      "endTime": 16.068956,
+      "words": [
+        {
+          "id": 14,
+          "text": "You",
+          "startTime": 9.487318,
+          "endTime": 9.553547
+        },
+        {
+          "id": 15,
+          "text": "can",
+          "startTime": 9.553547,
+          "endTime": 9.688796
+        },
+        {
+          "id": 16,
+          "text": "select",
+          "startTime": 9.688796,
+          "endTime": 10.086681
+        },
+        {
+          "id": 17,
+          "text": "anywhere",
+          "startTime": 10.086681,
+          "endTime": 10.620004
+        },
+        {
+          "id": 18,
+          "text": "on",
+          "startTime": 10.620004,
+          "endTime": 10.750827
+        },
+        {
+          "id": 19,
+          "text": "the",
+          "startTime": 10.750827,
+          "endTime": 10.885044
+        },
+        {
+          "id": 20,
+          "text": "text",
+          "startTime": 10.885044,
+          "endTime": 11.61465
+        },
+        {
+          "id": 21,
+          "text": "to",
+          "startTime": 11.61465,
+          "endTime": 12.077364
+        },
+        {
+          "id": 22,
+          "text": "continue",
+          "startTime": 12.077364,
+          "endTime": 12.475245
+        },
+        {
+          "id": 23,
+          "text": "playback",
+          "startTime": 12.475245,
+          "endTime": 13.072499
+        },
+        {
+          "id": 24,
+          "text": "from",
+          "startTime": 13.072499,
+          "endTime": 13.872097
+        },
+        {
+          "id": 25,
+          "text": "the",
+          "startTime": 13.872097,
+          "endTime": 14.068956
+        },
+        {
+          "id": 26,
+          "text": "word.",
+          "startTime": 14.068956,
+          "endTime": 16.068956
+        }
+      ]
+    }
+  ]
+}

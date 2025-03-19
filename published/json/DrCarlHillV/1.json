@@ -1,0 +1,820 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "My meals taste how I mean",
+      "startTime": 3.124478,
+      "endTime": 7.572566,
+      "words": [
+        {
+          "id": 1,
+          "text": "My",
+          "startTime": 3.124478,
+          "endTime": 4.587383
+        },
+        {
+          "id": 2,
+          "text": "meals",
+          "startTime": 4.587383,
+          "endTime": 5.050264
+        },
+        {
+          "id": 3,
+          "text": "taste",
+          "startTime": 5.050264,
+          "endTime": 5.319368
+        },
+        {
+          "id": 4,
+          "text": "how",
+          "startTime": 5.319368,
+          "endTime": 5.583052
+        },
+        {
+          "id": 5,
+          "text": "I",
+          "startTime": 5.583052,
+          "endTime": 5.783636
+        },
+        {
+          "id": 6,
+          "text": "mean",
+          "startTime": 5.783636,
+          "endTime": 7.572566
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "cooking to heat, to pretty hit",
+      "startTime": 7.572566,
+      "endTime": 12.558709,
+      "words": [
+        {
+          "id": 7,
+          "text": "cooking",
+          "startTime": 7.572566,
+          "endTime": 7.971119
+        },
+        {
+          "id": 8,
+          "text": "to",
+          "startTime": 7.971119,
+          "endTime": 8.237456
+        },
+        {
+          "id": 9,
+          "text": "heat,",
+          "startTime": 8.237456,
+          "endTime": 8.770927
+        },
+        {
+          "id": 10,
+          "text": "to",
+          "startTime": 8.770927,
+          "endTime": 9.967304
+        },
+        {
+          "id": 11,
+          "text": "pretty",
+          "startTime": 9.967304,
+          "endTime": 10.298893
+        },
+        {
+          "id": 12,
+          "text": "hit",
+          "startTime": 10.298893,
+          "endTime": 12.558709
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "tonight, it's the palate’s degree",
+      "startTime": 12.558709,
+      "endTime": 15.543543,
+      "words": [
+        {
+          "id": 13,
+          "text": "tonight,",
+          "startTime": 12.558709,
+          "endTime": 13.157096
+        },
+        {
+          "id": 14,
+          "text": "it's",
+          "startTime": 13.157096,
+          "endTime": 13.287371
+        },
+        {
+          "id": 15,
+          "text": "the",
+          "startTime": 13.287371,
+          "endTime": 13.415942
+        },
+        {
+          "id": 16,
+          "text": "palate’s",
+          "startTime": 13.415942,
+          "endTime": 14.015073
+        },
+        {
+          "id": 17,
+          "text": "degree",
+          "startTime": 14.015073,
+          "endTime": 15.543543
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "starting with the kettle’s hissing",
+      "startTime": 15.543543,
+      "endTime": 19.193651,
+      "words": [
+        {
+          "id": 18,
+          "text": "starting",
+          "startTime": 15.543543,
+          "endTime": 16.142017
+        },
+        {
+          "id": 19,
+          "text": "with",
+          "startTime": 16.142017,
+          "endTime": 16.342784
+        },
+        {
+          "id": 20,
+          "text": "the",
+          "startTime": 16.342784,
+          "endTime": 16.473086
+        },
+        {
+          "id": 21,
+          "text": "kettle’s",
+          "startTime": 16.473086,
+          "endTime": 17.006703
+        },
+        {
+          "id": 22,
+          "text": "hissing",
+          "startTime": 17.006703,
+          "endTime": 19.193651
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "as yet, a maravedi in its ill speak",
+      "startTime": 19.193651,
+      "endTime": 24.774858,
+      "words": [
+        {
+          "id": 23,
+          "text": "as",
+          "startTime": 19.193651,
+          "endTime": 19.396591
+        },
+        {
+          "id": 24,
+          "text": "yet,",
+          "startTime": 19.396591,
+          "endTime": 20.72241
+        },
+        {
+          "id": 25,
+          "text": "a",
+          "startTime": 20.72241,
+          "endTime": 20.85823
+        },
+        {
+          "id": 26,
+          "text": "maravedi",
+          "startTime": 20.85823,
+          "endTime": 21.586149
+        },
+        {
+          "id": 27,
+          "text": "in",
+          "startTime": 21.586149,
+          "endTime": 21.786734
+        },
+        {
+          "id": 28,
+          "text": "its",
+          "startTime": 21.786734,
+          "endTime": 21.918417
+        },
+        {
+          "id": 29,
+          "text": "ill",
+          "startTime": 21.918417,
+          "endTime": 22.186361
+        },
+        {
+          "id": 30,
+          "text": "speak",
+          "startTime": 22.186361,
+          "endTime": 24.774858
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "the pot’s far in height blackening",
+      "startTime": 24.774858,
+      "endTime": 28.027175,
+      "words": [
+        {
+          "id": 31,
+          "text": "the",
+          "startTime": 24.774858,
+          "endTime": 24.903449
+        },
+        {
+          "id": 32,
+          "text": "pot’s",
+          "startTime": 24.903449,
+          "endTime": 25.105496
+        },
+        {
+          "id": 33,
+          "text": "far",
+          "startTime": 25.105496,
+          "endTime": 25.236784
+        },
+        {
+          "id": 34,
+          "text": "in",
+          "startTime": 25.236784,
+          "endTime": 25.372138
+        },
+        {
+          "id": 35,
+          "text": "height",
+          "startTime": 25.372138,
+          "endTime": 25.638544
+        },
+        {
+          "id": 36,
+          "text": "blackening",
+          "startTime": 25.638544,
+          "endTime": 28.027175
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "steaming gifts to perceive in relish",
+      "startTime": 28.027175,
+      "endTime": 33.342051,
+      "words": [
+        {
+          "id": 37,
+          "text": "steaming",
+          "startTime": 28.027175,
+          "endTime": 28.56079
+        },
+        {
+          "id": 38,
+          "text": "gifts",
+          "startTime": 28.56079,
+          "endTime": 29.158709
+        },
+        {
+          "id": 39,
+          "text": "to",
+          "startTime": 29.158709,
+          "endTime": 29.888144
+        },
+        {
+          "id": 40,
+          "text": "perceive",
+          "startTime": 29.888144,
+          "endTime": 30.485474
+        },
+        {
+          "id": 41,
+          "text": "in",
+          "startTime": 30.485474,
+          "endTime": 30.68208
+        },
+        {
+          "id": 42,
+          "text": "relish",
+          "startTime": 30.68208,
+          "endTime": 33.342051
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "ingredients say the cool in her real",
+      "startTime": 33.342051,
+      "endTime": 37.058139,
+      "words": [
+        {
+          "id": 43,
+          "text": "ingredients",
+          "startTime": 33.342051,
+          "endTime": 34.070816
+        },
+        {
+          "id": 44,
+          "text": "say",
+          "startTime": 34.070816,
+          "endTime": 34.337063
+        },
+        {
+          "id": 45,
+          "text": "the",
+          "startTime": 34.337063,
+          "endTime": 34.533907
+        },
+        {
+          "id": 46,
+          "text": "cool",
+          "startTime": 34.533907,
+          "endTime": 34.93586
+        },
+        {
+          "id": 47,
+          "text": "in",
+          "startTime": 34.93586,
+          "endTime": 35.33334
+        },
+        {
+          "id": 48,
+          "text": "her",
+          "startTime": 35.33334,
+          "endTime": 35.46247
+        },
+        {
+          "id": 49,
+          "text": "real",
+          "startTime": 35.46247,
+          "endTime": 37.058139
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "as the pissed dissolves to cleaving",
+      "startTime": 37.058139,
+      "endTime": 41.24054,
+      "words": [
+        {
+          "id": 50,
+          "text": "as",
+          "startTime": 37.058139,
+          "endTime": 37.323382
+        },
+        {
+          "id": 51,
+          "text": "the",
+          "startTime": 37.323382,
+          "endTime": 37.458717
+        },
+        {
+          "id": 52,
+          "text": "pissed",
+          "startTime": 37.458717,
+          "endTime": 38.585908
+        },
+        {
+          "id": 53,
+          "text": "dissolves",
+          "startTime": 38.585908,
+          "endTime": 39.249008
+        },
+        {
+          "id": 54,
+          "text": "to",
+          "startTime": 39.249008,
+          "endTime": 39.384646
+        },
+        {
+          "id": 55,
+          "text": "cleaving",
+          "startTime": 39.384646,
+          "endTime": 41.24054
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "and gets this chef too sore to lick",
+      "startTime": 41.24054,
+      "endTime": 47.152945,
+      "words": [
+        {
+          "id": 56,
+          "text": "and",
+          "startTime": 41.24054,
+          "endTime": 41.505787
+        },
+        {
+          "id": 57,
+          "text": "gets",
+          "startTime": 41.505787,
+          "endTime": 41.77393
+        },
+        {
+          "id": 58,
+          "text": "this",
+          "startTime": 41.77393,
+          "endTime": 42.105181
+        },
+        {
+          "id": 59,
+          "text": "chef",
+          "startTime": 42.105181,
+          "endTime": 43.633361
+        },
+        {
+          "id": 60,
+          "text": "too",
+          "startTime": 43.633361,
+          "endTime": 43.831231
+        },
+        {
+          "id": 61,
+          "text": "sore",
+          "startTime": 43.831231,
+          "endTime": 44.828395
+        },
+        {
+          "id": 62,
+          "text": "to",
+          "startTime": 44.828395,
+          "endTime": 44.961743
+        },
+        {
+          "id": 63,
+          "text": "lick",
+          "startTime": 44.961743,
+          "endTime": 47.152945
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "her eccentricity line in the recipe",
+      "startTime": 47.152945,
+      "endTime": 51.934948,
+      "words": [
+        {
+          "id": 64,
+          "text": "her",
+          "startTime": 47.152945,
+          "endTime": 47.419982
+        },
+        {
+          "id": 65,
+          "text": "eccentricity",
+          "startTime": 47.419982,
+          "endTime": 48.279735
+        },
+        {
+          "id": 66,
+          "text": "line",
+          "startTime": 48.279735,
+          "endTime": 48.878653
+        },
+        {
+          "id": 67,
+          "text": "in",
+          "startTime": 48.878653,
+          "endTime": 49.014301
+        },
+        {
+          "id": 68,
+          "text": "the",
+          "startTime": 49.014301,
+          "endTime": 49.144622
+        },
+        {
+          "id": 69,
+          "text": "recipe",
+          "startTime": 49.144622,
+          "endTime": 51.934948
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "well, I'm picky",
+      "startTime": 51.934948,
+      "endTime": 54.460361,
+      "words": [
+        {
+          "id": 70,
+          "text": "well,",
+          "startTime": 51.934948,
+          "endTime": 52.20149
+        },
+        {
+          "id": 71,
+          "text": "I'm",
+          "startTime": 52.20149,
+          "endTime": 52.39654
+        },
+        {
+          "id": 72,
+          "text": "picky",
+          "startTime": 52.39654,
+          "endTime": 54.460361
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "paragraph": "along, dough rued, said fatigued",
+      "startTime": 54.460361,
+      "endTime": 59.703346,
+      "words": [
+        {
+          "id": 73,
+          "text": "along,",
+          "startTime": 54.460361,
+          "endTime": 55.519999
+        },
+        {
+          "id": 74,
+          "text": "dough",
+          "startTime": 55.519999,
+          "endTime": 55.72149
+        },
+        {
+          "id": 75,
+          "text": "rued,",
+          "startTime": 55.72149,
+          "endTime": 56.981586
+        },
+        {
+          "id": 76,
+          "text": "said",
+          "startTime": 56.981586,
+          "endTime": 57.178063
+        },
+        {
+          "id": 77,
+          "text": "fatigued",
+          "startTime": 57.178063,
+          "endTime": 59.703346
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "paragraph": "affixed to her sweet tooth tip",
+      "startTime": 59.703346,
+      "endTime": 61.829654,
+      "words": [
+        {
+          "id": 78,
+          "text": "affixed",
+          "startTime": 59.703346,
+          "endTime": 60.17002
+        },
+        {
+          "id": 79,
+          "text": "to",
+          "startTime": 60.17002,
+          "endTime": 60.432071
+        },
+        {
+          "id": 80,
+          "text": "her",
+          "startTime": 60.432071,
+          "endTime": 60.633404
+        },
+        {
+          "id": 81,
+          "text": "sweet",
+          "startTime": 60.633404,
+          "endTime": 61.095226
+        },
+        {
+          "id": 82,
+          "text": "tooth",
+          "startTime": 61.095226,
+          "endTime": 61.362945
+        },
+        {
+          "id": 83,
+          "text": "tip",
+          "startTime": 61.362945,
+          "endTime": 61.829654
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "paragraph": "are the lies she too tells squeaky",
+      "startTime": 61.829654,
+      "endTime": 66.808679,
+      "words": [
+        {
+          "id": 84,
+          "text": "are",
+          "startTime": 61.829654,
+          "endTime": 62.762901
+        },
+        {
+          "id": 85,
+          "text": "the",
+          "startTime": 62.762901,
+          "endTime": 62.891135
+        },
+        {
+          "id": 86,
+          "text": "lies",
+          "startTime": 62.891135,
+          "endTime": 63.554446
+        },
+        {
+          "id": 87,
+          "text": "she",
+          "startTime": 63.554446,
+          "endTime": 63.886371
+        },
+        {
+          "id": 88,
+          "text": "too",
+          "startTime": 63.886371,
+          "endTime": 64.418414
+        },
+        {
+          "id": 89,
+          "text": "tells",
+          "startTime": 64.418414,
+          "endTime": 65.083535
+        },
+        {
+          "id": 90,
+          "text": "squeaky",
+          "startTime": 65.083535,
+          "endTime": 66.808679
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "paragraph": "lo, daily, weekly — ever plate clean",
+      "startTime": 66.808679,
+      "endTime": 73.650819,
+      "words": [
+        {
+          "id": 91,
+          "text": "lo,",
+          "startTime": 66.808679,
+          "endTime": 67.938373
+        },
+        {
+          "id": 92,
+          "text": "daily,",
+          "startTime": 67.938373,
+          "endTime": 69.39691
+        },
+        {
+          "id": 93,
+          "text": "weekly",
+          "startTime": 69.39691,
+          "endTime": 69.799257
+        },
+        {
+          "id": 94,
+          "text": "—",
+          "startTime": 69.799257,
+          "endTime": 70.392363
+        },
+        {
+          "id": 95,
+          "text": "ever",
+          "startTime": 70.392363,
+          "endTime": 70.661426
+        },
+        {
+          "id": 96,
+          "text": "plate",
+          "startTime": 70.661426,
+          "endTime": 71.322677
+        },
+        {
+          "id": 97,
+          "text": "clean",
+          "startTime": 71.322677,
+          "endTime": 73.650819
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "paragraph": "every day is a solstice in her kitchen",
+      "startTime": 73.650819,
+      "endTime": 77.767284,
+      "words": [
+        {
+          "id": 98,
+          "text": "every",
+          "startTime": 73.650819,
+          "endTime": 73.982501
+        },
+        {
+          "id": 99,
+          "text": "day",
+          "startTime": 73.982501,
+          "endTime": 74.380263
+        },
+        {
+          "id": 100,
+          "text": "is",
+          "startTime": 74.380263,
+          "endTime": 74.509913
+        },
+        {
+          "id": 101,
+          "text": "a",
+          "startTime": 74.509913,
+          "endTime": 74.711942
+        },
+        {
+          "id": 102,
+          "text": "solstice",
+          "startTime": 74.711942,
+          "endTime": 75.506839
+        },
+        {
+          "id": 103,
+          "text": "in",
+          "startTime": 75.506839,
+          "endTime": 75.642813
+        },
+        {
+          "id": 104,
+          "text": "her",
+          "startTime": 75.642813,
+          "endTime": 75.83912
+        },
+        {
+          "id": 105,
+          "text": "kitchen",
+          "startTime": 75.83912,
+          "endTime": 77.767284
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "paragraph": "all waiting is of this chef’s serving.",
+      "startTime": 77.767284,
+      "endTime": 82.619015,
+      "words": [
+        {
+          "id": 106,
+          "text": "all",
+          "startTime": 77.767284,
+          "endTime": 78.098467
+        },
+        {
+          "id": 107,
+          "text": "waiting",
+          "startTime": 78.098467,
+          "endTime": 79.622743
+        },
+        {
+          "id": 108,
+          "text": "is",
+          "startTime": 79.622743,
+          "endTime": 79.761305
+        },
+        {
+          "id": 109,
+          "text": "of",
+          "startTime": 79.761305,
+          "endTime": 79.954825
+        },
+        {
+          "id": 110,
+          "text": "this",
+          "startTime": 79.954825,
+          "endTime": 80.221485
+        },
+        {
+          "id": 111,
+          "text": "chef’s",
+          "startTime": 80.221485,
+          "endTime": 80.619015
+        },
+        {
+          "id": 112,
+          "text": "serving.",
+          "startTime": 80.619015,
+          "endTime": 82.619015
+        }
+      ]
+    }
+  ]
+}

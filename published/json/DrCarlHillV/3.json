@@ -1,0 +1,612 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Hooray, my mom is sixty-six! ",
+      "startTime": 1.620712,
+      "endTime": 7.074351,
+      "words": [
+        {
+          "id": 1,
+          "text": "Hooray,",
+          "startTime": 1.620712,
+          "endTime": 3.688102
+        },
+        {
+          "id": 2,
+          "text": "my",
+          "startTime": 3.688102,
+          "endTime": 5.2133
+        },
+        {
+          "id": 3,
+          "text": "mom",
+          "startTime": 5.2133,
+          "endTime": 5.344262
+        },
+        {
+          "id": 4,
+          "text": "is",
+          "startTime": 5.344262,
+          "endTime": 5.544995
+        },
+        {
+          "id": 5,
+          "text": "sixty-six!",
+          "startTime": 5.544995,
+          "endTime": 7.074351
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "That's a whole lot of numbers ",
+      "startTime": 7.074351,
+      "endTime": 10.523181,
+      "words": [
+        {
+          "id": 6,
+          "text": "That's",
+          "startTime": 7.074351,
+          "endTime": 7.204999
+        },
+        {
+          "id": 7,
+          "text": "a",
+          "startTime": 7.204999,
+          "endTime": 7.406545
+        },
+        {
+          "id": 8,
+          "text": "whole",
+          "startTime": 7.406545,
+          "endTime": 7.803603
+        },
+        {
+          "id": 9,
+          "text": "lot",
+          "startTime": 7.803603,
+          "endTime": 8.200923
+        },
+        {
+          "id": 10,
+          "text": "of",
+          "startTime": 8.200923,
+          "endTime": 8.466488
+        },
+        {
+          "id": 11,
+          "text": "numbers",
+          "startTime": 8.466488,
+          "endTime": 10.523181
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "And, I have released this feature",
+      "startTime": 10.523181,
+      "endTime": 13.515068,
+      "words": [
+        {
+          "id": 12,
+          "text": "And,",
+          "startTime": 10.523181,
+          "endTime": 10.725436
+        },
+        {
+          "id": 13,
+          "text": "I",
+          "startTime": 10.725436,
+          "endTime": 11.721215
+        },
+        {
+          "id": 14,
+          "text": "have",
+          "startTime": 11.721215,
+          "endTime": 11.855026
+        },
+        {
+          "id": 15,
+          "text": "released",
+          "startTime": 11.855026,
+          "endTime": 12.187339
+        },
+        {
+          "id": 16,
+          "text": "this",
+          "startTime": 12.187339,
+          "endTime": 12.449097
+        },
+        {
+          "id": 17,
+          "text": "feature",
+          "startTime": 12.449097,
+          "endTime": 13.515068
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "To celebrate her sixty-sixth birthday",
+      "startTime": 13.515068,
+      "endTime": 17.301274,
+      "words": [
+        {
+          "id": 18,
+          "text": "To",
+          "startTime": 13.515068,
+          "endTime": 13.644594
+        },
+        {
+          "id": 19,
+          "text": "celebrate",
+          "startTime": 13.644594,
+          "endTime": 14.444546
+        },
+        {
+          "id": 20,
+          "text": "her",
+          "startTime": 14.444546,
+          "endTime": 14.777063
+        },
+        {
+          "id": 21,
+          "text": "sixty-sixth",
+          "startTime": 14.777063,
+          "endTime": 15.636295
+        },
+        {
+          "id": 22,
+          "text": "birthday",
+          "startTime": 15.636295,
+          "endTime": 17.301274
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "So, henceforth",
+      "startTime": 17.301274,
+      "endTime": 20.086793,
+      "words": [
+        {
+          "id": 23,
+          "text": "So,",
+          "startTime": 17.301274,
+          "endTime": 18.694169
+        },
+        {
+          "id": 24,
+          "text": "henceforth",
+          "startTime": 18.694169,
+          "endTime": 20.086793
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "You can read your favorite poems",
+      "startTime": 20.086793,
+      "endTime": 23.078018,
+      "words": [
+        {
+          "id": 25,
+          "text": "You",
+          "startTime": 20.086793,
+          "endTime": 20.222475
+        },
+        {
+          "id": 26,
+          "text": "can",
+          "startTime": 20.222475,
+          "endTime": 20.353101
+        },
+        {
+          "id": 27,
+          "text": "read",
+          "startTime": 20.353101,
+          "endTime": 20.749912
+        },
+        {
+          "id": 28,
+          "text": "your",
+          "startTime": 20.749912,
+          "endTime": 21.21678
+        },
+        {
+          "id": 29,
+          "text": "favorite",
+          "startTime": 21.21678,
+          "endTime": 21.680437
+        },
+        {
+          "id": 30,
+          "text": "poems",
+          "startTime": 21.680437,
+          "endTime": 23.078018
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "On the page, all you need to do is press the play button",
+      "startTime": 23.078018,
+      "endTime": 31.377519,
+      "words": [
+        {
+          "id": 31,
+          "text": "On",
+          "startTime": 23.078018,
+          "endTime": 26.663661
+        },
+        {
+          "id": 32,
+          "text": "the",
+          "startTime": 26.663661,
+          "endTime": 26.729087
+        },
+        {
+          "id": 33,
+          "text": "page,",
+          "startTime": 26.729087,
+          "endTime": 28.055438
+        },
+        {
+          "id": 34,
+          "text": "all",
+          "startTime": 28.055438,
+          "endTime": 28.120964
+        },
+        {
+          "id": 35,
+          "text": "you",
+          "startTime": 28.120964,
+          "endTime": 28.256958
+        },
+        {
+          "id": 36,
+          "text": "need",
+          "startTime": 28.256958,
+          "endTime": 28.32219
+        },
+        {
+          "id": 37,
+          "text": "to",
+          "startTime": 28.32219,
+          "endTime": 28.452727
+        },
+        {
+          "id": 38,
+          "text": "do",
+          "startTime": 28.452727,
+          "endTime": 28.588497
+        },
+        {
+          "id": 39,
+          "text": "is",
+          "startTime": 28.588497,
+          "endTime": 29.31752
+        },
+        {
+          "id": 40,
+          "text": "press",
+          "startTime": 29.31752,
+          "endTime": 29.519194
+        },
+        {
+          "id": 41,
+          "text": "the",
+          "startTime": 29.519194,
+          "endTime": 29.584854
+        },
+        {
+          "id": 42,
+          "text": "play",
+          "startTime": 29.584854,
+          "endTime": 29.915878
+        },
+        {
+          "id": 43,
+          "text": "button",
+          "startTime": 29.915878,
+          "endTime": 31.377519
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "And you get to read, it reads it out to you",
+      "startTime": 31.377519,
+      "endTime": 35.562491,
+      "words": [
+        {
+          "id": 44,
+          "text": "And",
+          "startTime": 31.377519,
+          "endTime": 31.509655
+        },
+        {
+          "id": 45,
+          "text": "you",
+          "startTime": 31.509655,
+          "endTime": 31.640461
+        },
+        {
+          "id": 46,
+          "text": "get",
+          "startTime": 31.640461,
+          "endTime": 31.777017
+        },
+        {
+          "id": 47,
+          "text": "to",
+          "startTime": 31.777017,
+          "endTime": 31.906263
+        },
+        {
+          "id": 48,
+          "text": "read,",
+          "startTime": 31.906263,
+          "endTime": 34.033532
+        },
+        {
+          "id": 49,
+          "text": "it",
+          "startTime": 34.033532,
+          "endTime": 34.099102
+        },
+        {
+          "id": 50,
+          "text": "reads",
+          "startTime": 34.099102,
+          "endTime": 34.229794
+        },
+        {
+          "id": 51,
+          "text": "it",
+          "startTime": 34.229794,
+          "endTime": 34.366095
+        },
+        {
+          "id": 52,
+          "text": "out",
+          "startTime": 34.366095,
+          "endTime": 34.497323
+        },
+        {
+          "id": 53,
+          "text": "to",
+          "startTime": 34.497323,
+          "endTime": 34.698201
+        },
+        {
+          "id": 54,
+          "text": "you",
+          "startTime": 34.698201,
+          "endTime": 35.562491
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "It's just how it works",
+      "startTime": 35.562491,
+      "endTime": 38.084335,
+      "words": [
+        {
+          "id": 55,
+          "text": "It's",
+          "startTime": 35.562491,
+          "endTime": 35.69332
+        },
+        {
+          "id": 56,
+          "text": "just",
+          "startTime": 35.69332,
+          "endTime": 36.356605
+        },
+        {
+          "id": 57,
+          "text": "how",
+          "startTime": 36.356605,
+          "endTime": 36.687885
+        },
+        {
+          "id": 58,
+          "text": "it",
+          "startTime": 36.687885,
+          "endTime": 36.823682
+        },
+        {
+          "id": 59,
+          "text": "works",
+          "startTime": 36.823682,
+          "endTime": 38.084335
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "So I will announce when the poems get audio",
+      "startTime": 38.084335,
+      "endTime": 45.853703,
+      "words": [
+        {
+          "id": 60,
+          "text": "So",
+          "startTime": 38.084335,
+          "endTime": 38.282588
+        },
+        {
+          "id": 61,
+          "text": "I",
+          "startTime": 38.282588,
+          "endTime": 38.417326
+        },
+        {
+          "id": 62,
+          "text": "will",
+          "startTime": 38.417326,
+          "endTime": 38.74959
+        },
+        {
+          "id": 63,
+          "text": "announce",
+          "startTime": 38.74959,
+          "endTime": 39.875417
+        },
+        {
+          "id": 64,
+          "text": "when",
+          "startTime": 39.875417,
+          "endTime": 40.077625
+        },
+        {
+          "id": 65,
+          "text": "the",
+          "startTime": 40.077625,
+          "endTime": 41.339296
+        },
+        {
+          "id": 66,
+          "text": "poems",
+          "startTime": 41.339296,
+          "endTime": 42.531007
+        },
+        {
+          "id": 67,
+          "text": "get",
+          "startTime": 42.531007,
+          "endTime": 43.194734
+        },
+        {
+          "id": 68,
+          "text": "audio",
+          "startTime": 43.194734,
+          "endTime": 45.853703
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "And I'm telling you, they are rolling out",
+      "startTime": 45.853703,
+      "endTime": 49.307995,
+      "words": [
+        {
+          "id": 69,
+          "text": "And",
+          "startTime": 45.853703,
+          "endTime": 45.984397
+        },
+        {
+          "id": 70,
+          "text": "I'm",
+          "startTime": 45.984397,
+          "endTime": 46.121097
+        },
+        {
+          "id": 71,
+          "text": "telling",
+          "startTime": 46.121097,
+          "endTime": 46.517991
+        },
+        {
+          "id": 72,
+          "text": "you,",
+          "startTime": 46.517991,
+          "endTime": 47.1825
+        },
+        {
+          "id": 73,
+          "text": "they",
+          "startTime": 47.1825,
+          "endTime": 47.246528
+        },
+        {
+          "id": 74,
+          "text": "are",
+          "startTime": 47.246528,
+          "endTime": 47.382233
+        },
+        {
+          "id": 75,
+          "text": "rolling",
+          "startTime": 47.382233,
+          "endTime": 47.576709
+        },
+        {
+          "id": 76,
+          "text": "out",
+          "startTime": 47.576709,
+          "endTime": 49.307995
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "This here is the first one",
+      "startTime": 49.307995,
+      "endTime": 51.826684,
+      "words": [
+        {
+          "id": 77,
+          "text": "This",
+          "startTime": 49.307995,
+          "endTime": 49.439365
+        },
+        {
+          "id": 78,
+          "text": "here",
+          "startTime": 49.439365,
+          "endTime": 49.640531
+        },
+        {
+          "id": 79,
+          "text": "is",
+          "startTime": 49.640531,
+          "endTime": 49.771346
+        },
+        {
+          "id": 80,
+          "text": "the",
+          "startTime": 49.771346,
+          "endTime": 49.972447
+        },
+        {
+          "id": 81,
+          "text": "first",
+          "startTime": 49.972447,
+          "endTime": 50.168885
+        },
+        {
+          "id": 82,
+          "text": "one",
+          "startTime": 50.168885,
+          "endTime": 51.826684
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "paragraph": "Enjoy, bye. ",
+      "startTime": 51.826684,
+      "endTime": 54.958878,
+      "words": [
+        {
+          "id": 83,
+          "text": "Enjoy,",
+          "startTime": 51.826684,
+          "endTime": 52.958878
+        },
+        {
+          "id": 84,
+          "text": "bye.",
+          "startTime": 52.958878,
+          "endTime": 54.958878
+        }
+      ]
+    }
+  ]
+}
