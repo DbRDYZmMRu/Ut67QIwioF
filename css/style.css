@@ -12642,6 +12642,7 @@ svg.radial-progress.radial-progress-green circle {
   --white: hsl(var(--hue), 10%, 100%);
   --white-d: hsl(var(--hue), 10%, 45%);
   font-size: calc(16px + (24 - 16) * (100vw - 320px) / (1280 - 320));
+  --wave-opacity: 0;
 }
 
 .book,
@@ -13308,3 +13309,115 @@ small {
 }
 
 
+
+#buttonHold {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+
+
+#audioButtonContainer {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+
+
+#audioButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: #fff;
+  box-shadow: 5px 5px 11px #7b7b7b, -5px -5px 11px #ffffff;
+  transition: box-shadow 0.2s ease-in-out;
+  top: 0;
+  left: 0;
+  position: relative;
+  z-index: 1;
+}
+
+#audioButton::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: radial-gradient(circle, #CCCCCC, #DDDDDD, #EEEEEE);
+  opacity: var(--wave-opacity);
+  z-index: -1;
+  transition: transform 0.1s ease-in-out;
+  box-shadow: 0 0 50px rgba(255, 255, 255, 0.5),
+    0 0 100px rgba(255, 255, 255, 0.3),
+    0 0 150px rgba(255, 255, 255, 0.2);
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 0.5;
+  }
+
+  50% {
+    transform: translate(-50%, -50%) scale(1.5);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 0.5;
+  }
+}
+
+
+
+
+.audioInactive {
+  text-shadow: 1px 1px 2px rgba(220, 220, 220, 0.5),
+    -1px -1px 2px rgba(0, 0, 0, 0.1),
+    2px 2px 4px rgba(240, 240, 240, 0.5);
+}
+
+.audioActive {
+  background-color: #e0e0e0;
+  box-shadow: inset 5px 5px 11px #7b7b7b, inset -5px -5px 11px #ffffff;
+}
+
+#audioButton.audioActive {
+  box-shadow: inset 2px 2px 5px #7B7B7B, inset -2px -2px 5px #ffffff;
+}
+
+#audioButton:active {
+  box-shadow: inset 2px 2px 5px #7B7B7B, inset -2px -2px 5px #ffffff;
+}
+
+#audioSwitcher {
+  color: #898b96;
+  font-size: 2.5em;
+  text-shadow: 1px 1px 2px rgba(220, 220, 220, 0.5),
+    -1px -1px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+.color-wave {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(120%);
+  height: calc(120%);
+  border-radius: 50%;
+  background-image: linear-gradient(120deg, #ff69b4, #ffe6f2, #ffe6cc);
+  background-size: calc(200% 200%);
+  opacity: 0;
+  z-index: -1;
+}
