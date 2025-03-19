@@ -140,17 +140,18 @@
         transform: scale(1);
       }
     }
-   .pauseHighlight {
-           color: #00698f;
+    
+    .pauseHighlight {
+      color: #00698f;
       font-size: 150%;
       font-weight: 300;
-
-   } 
+      
+    }
+    
     .disabled {
-pointer-events: none;
-opacity: 0.5;
-}
-
+      pointer-events: none;
+      opacity: 0.5;
+    }
   </style>
   
 </head>
@@ -158,7 +159,7 @@ opacity: 0.5;
 <body class="stokes-wrapper" id="ctrlArea" v-cloak>
   <!--========== 
 	Start of loader ==========-->
-
+  
   <div class="template-loader">
     <div class="loaderCenter">
       <div class="book">
@@ -171,7 +172,7 @@ opacity: 0.5;
       </div>
     </div>
   </div>
-
+  
   <!--========== 
 	End of loader ==========-->
   
@@ -410,10 +411,10 @@ opacity: 0.5;
             </a>
             
           </div>
-                    <div class="mb-5">
+          <div class="mb-5">
             <div id="ad-top"></div>
           </div>
-
+          
           <div class="mb-5">
             <a target="_blank" href="https://annazuckerman.com/">
               <img class="img-fluid justify-content-center" src="../../images/ads/AnnaZuckermanCampaign1.gif" alt="Anna Zuckerman">
@@ -562,24 +563,24 @@ opacity: 0.5;
                       
                       
                       
-<div class="social-icons social-text-small icon-colored mb-7 mt-7">
-  <a @click="store.shareToFacebook()" :class="{ 'disabled': store.isDisabled }" class="icon facebook" href="#!" id="shareToFacebookBtn">
-    <i class="fab fa-facebook-f"></i>
-    <span>Share</span>
-  </a>
-  <a @click="store.shareToTwitter()" :class="{ 'disabled': store.isDisabled }" class="icon twitter" data-show-count="false" id="shareToTwitterBtn" href="https://twitter.com/share?ref_src=twsrc%5Etfw" target="_blank" :data-url="https://dev.nightswan.com.ng/pages/Hilton/collections/iv/one.html" data-hashtags="frithhiltoncollection" data-show-count="false">
-    <i class="fa-brands fa-x"></i>
-    <span>Share</span>
-  </a>
-  <a @click="store.copyURL()" :class="{ 'disabled': store.isDisabled }" class="icon link" id="copyURLBtn">
-    <i class="fas fa-link" id="copyURLIcon"></i>
-    <span id="CopyURLText">{{store.CopyURLText}}</span>
-  </a>
-  <a @click="store.shareToWhatsApp()" :class="{ 'disabled': store.isDisabled }" class="icon link" href="#!" id="shareToWhatsAppBtn">
-    <i class="fab fa-whatsapp"></i>
-    <span>WhatsApp</span>
-  </a>
-</div>
+                      <div class="social-icons social-text-small icon-colored mb-7 mt-7">
+                        <a @click="store.shareToFacebook()" :class="{ 'disabled': store.isDisabled }" class="icon facebook" href="#!" id="shareToFacebookBtn">
+                          <i class="fab fa-facebook-f"></i>
+                          <span>Share</span>
+                        </a>
+                        <a @click="store.shareToTwitter()" :class="{ 'disabled': store.isDisabled }" class="icon twitter" data-show-count="false" id="shareToTwitterBtn" href="https://twitter.com/share?ref_src=twsrc%5Etfw" target="_blank" :data-url="https://dev.nightswan.com.ng/pages/Hilton/collections/iv/one.html" data-hashtags="frithhiltoncollection" data-show-count="false">
+                          <i class="fa-brands fa-x"></i>
+                          <span>Share</span>
+                        </a>
+                        <a @click="store.copyURL()" :class="{ 'disabled': store.isDisabled }" class="icon link" id="copyURLBtn">
+                          <i class="fas fa-link" id="copyURLIcon"></i>
+                          <span id="CopyURLText">{{store.CopyURLText}}</span>
+                        </a>
+                        <a @click="store.shareToWhatsApp()" :class="{ 'disabled': store.isDisabled }" class="icon link" href="#!" id="shareToWhatsAppBtn">
+                          <i class="fab fa-whatsapp"></i>
+                          <span>WhatsApp</span>
+                        </a>
+                      </div>
                       
                       <h5>{{store.chapterTitle}}</h5>
                       
@@ -823,8 +824,8 @@ opacity: 0.5;
   <script src="../../js/mCustomScrollbar/jquery.mCustomScrollbar.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/numbered/1.1.0/index.min.js" integrity="sha512-UQKbSOyUPIxk4a5/TIcqKUfl2JX0b1Rgq16BgvZbIWa7g5g3Rl/RXzFJFt2iu9LzDUpqDbcaak2ifjW887SxPw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="../../js/DrCarlHillV.js"></script>
-  <script src="../../js/upcomingPageAds.js"></script>  
-
+  <script src="../../js/upcomingPageAds.js"></script>
+  
   <script>
     $(document).ready(function() {
       // Function to check if it's the first load in the hour
@@ -971,10 +972,7 @@ opacity: 0.5;
   <!--===== Main theme script =====-->
   
   <script type="module">
-    import {
-      createApp,
-      reactive
-    } from "../../js/petite-vue.js";
+    import { createApp, reactive } from "https://unpkg.com/petite-vue?module";
     const store = reactive({
       IPAccess: false,
       checkLocation() { this.IPAccess = JSON.parse(localStorage.getItem('accessAllowed')); return this.IPAccess; },
@@ -999,7 +997,7 @@ opacity: 0.5;
       source: null,
       hiddenLyricsDiv: null,
       playCount: 0,
-      isDisabled: true, 
+      isDisabled: true,
       
       getCurrentChapter() {
         if (localStorage.getItem("DrCarlHillVCurrentChapter")) {
@@ -1288,7 +1286,7 @@ opacity: 0.5;
           });
         }
       },
-            highlightWords(audioTime) {
+      highlightWords(audioTime) {
         if (this.audioIsPlaying === false) return; // Do not highlight if audio is paused
         console.log(`Highlighting word at time ${audioTime}`);
         const spanElements = document.querySelectorAll('#htmlContent span');
@@ -1316,12 +1314,12 @@ opacity: 0.5;
       resetHighlighting() {
         const highlightedElements = document.querySelectorAll('.highlighted');
         
-          highlightedElements.forEach((element) => {
-            element.classList.add('pauseHighlight');
-            element.classList.remove('highlighted');
-            
-  });
-}, 
+        highlightedElements.forEach((element) => {
+          element.classList.add('pauseHighlight');
+          element.classList.remove('highlighted');
+          
+        });
+      },
       initialPageState: {
         viewDrCarlHillV: "chapters",
       },
@@ -1459,7 +1457,7 @@ opacity: 0.5;
             <p>So I will announce when the poems get audio</p>
             <p>And I'm telling you, they are rolling out</p>
             <p>This here is the first one</p>
-            <p>Enjoy, bye. </p>`, 
+            <p>Enjoy, bye. </p>`,
             
             `<p>Click the play button</p>
             <p>This starts the audio, playing the selected poetry’s text</p>
