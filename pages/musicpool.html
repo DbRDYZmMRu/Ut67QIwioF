@@ -1197,11 +1197,11 @@ button {
 
   </script>
   <script src="..../js/album.js"></script>
-  <script type="module">
+<script type="module">
     import {
       createApp,
       reactive
-    } from 'https://unpkg.com/petite-vue?module';
+    } from "../../js/petite-vue.js";
     const store = reactive({
       acceptCookieUse() {
         localStorage.setItem("cookieUse", true)
