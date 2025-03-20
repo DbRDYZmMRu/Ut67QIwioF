@@ -870,12 +870,13 @@
 
   <!--===== Main theme script =====-->
 
-  <script type="module">
+<script type="module">
     import {
       createApp,
       reactive
-    } from "https://unpkg.com/petite-vue?module";
-       const store = reactive({       IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage.getItem('accessAllowed')); return this.IPAccess; },
+    } from "../../js/petite-vue.js";
+    const store = reactive({
+      IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage.getItem('accessAllowed')); return this.IPAccess; },
       currentURL: "/published/poetry/collection-XI-ii.html",
       staticPoemURL: "",
       poemURL: "",
