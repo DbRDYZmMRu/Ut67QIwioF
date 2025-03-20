@@ -825,9 +825,12 @@
 
     <!--===== Main theme script =====-->
 
-    <script type="module">
-      import { createApp, reactive } from "https://unpkg.com/petite-vue?module";
-      const store = reactive({
+  <script type="module">
+    import {
+      createApp,
+      reactive
+    } from "../../js/petite-vue.js";
+    const store = reactive({
         currentURL: "/published/poetry/collection-V.html",
         staticPoemURL: "",
         poemURL: "",
