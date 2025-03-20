@@ -708,8 +708,11 @@ End of poetry content ==========-->
     };
   </script>
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
-  <script type="module">
-    import { createApp, reactive } from "https://unpkg.com/petite-vue?module";
+<script type="module">
+    import {
+      createApp,
+      reactive
+    } from "../../js/petite-vue.js";
     const store = reactive({
       currentURL: "/pages/upcoming.html",
       staticPoemURL: "",
