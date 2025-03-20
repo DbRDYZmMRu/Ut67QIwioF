@@ -708,13 +708,13 @@
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
 
   <!--===== Main theme script =====-->
-
   <script type="module">
     import {
       createApp,
       reactive
-    } from "https://unpkg.com/petite-vue?module";
-       const store = reactive({       IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage.getItem('accessAllowed')); return this.IPAccess; },
+    } from "../../js/petite-vue.js";
+    const store = reactive({
+IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage.getItem('accessAllowed')); return this.IPAccess; },
       currentURL: "/published/poetry/collection-VI.html",
       staticPoemURL: "",
       poemURL: "",
