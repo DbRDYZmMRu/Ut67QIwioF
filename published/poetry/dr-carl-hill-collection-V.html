@@ -972,7 +972,10 @@
   <!--===== Main theme script =====-->
   
   <script type="module">
-    import { createApp, reactive } from "https://unpkg.com/petite-vue?module";
+    import {
+      createApp,
+      reactive
+    } from "../../js/petite-vue.js";
     const store = reactive({
       IPAccess: false,
       checkLocation() { this.IPAccess = JSON.parse(localStorage.getItem('accessAllowed')); return this.IPAccess; },
