@@ -9239,12 +9239,12 @@ svg.radial-progress.radial-progress-green circle {
 }
 
 .social-icons.icon-colored .icon.twitter {
-  color: #1DA1F2;
+  color: #000;
 }
 
 .social-icons.icon-colored .icon.twitter:hover {
   background: transparent;
-  color: #1DA1F2;
+  color: #000;
 }
 
 .social-icons.icon-colored .icon.pinterest {
@@ -9293,11 +9293,11 @@ svg.radial-progress.radial-progress-green circle {
 }
 
 .social-icons.social-icon-box.icon-colored .icon.twitter {
-  color: #1DA1F2;
+  color: #000;
 }
 
 .social-icons.social-icon-box.icon-colored .icon.twitter:hover {
-  background: #1DA1F2;
+  background: #000;
   color: #ffffff;
 }
 
@@ -9349,7 +9349,7 @@ svg.radial-progress.radial-progress-green circle {
 
 .social-icons.icon-bg-colored .icon.twitter {
   color: #ffffff;
-  background: #1DA1F2;
+  background: #000;
 }
 
 .social-icons.icon-bg-colored .icon.twitter:hover {
