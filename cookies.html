@@ -538,14 +538,13 @@
       <script src="js/jarallax/jarallax.min.js"></script>
       <script src="js/mCustomScrollbar/jquery.mCustomScrollbar.min.js"></script>
       <!--===== Main theme script =====-->
-      <script src="js/functions.js"></script>
-  <script type="module">
+     <script src="js/functions.js"></script>
+     <script type="module">
     import {
       createApp,
       reactive
-    } from "https://unpkg.com/petite-vue?module";
-    const store = reactive({
-   goToPublished() {
+    } from "./js/petite-vue.js";
+    const store = reactive({   goToPublished() {
       window.location.href = 'published/books.html';
     }
     });
