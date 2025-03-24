@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Share Page</title>
+</head>
+
+<body>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const bookId = urlParams.get('book');
+    const poetryId = urlParams.get('poetry');
+    
+    if (bookId && poetryId) {
+      const bookHtmlFile = getBookHtmlFile(bookId);
+      if (bookHtmlFile) {
+        const redirectUrl = new URL(bookHtmlFile, window.location.origin);
+        redirectUrl.searchParams.set('query', poetryId);
+        window.location.href = redirectUrl.href;
+      } else {
+        console.log(`Book ID ${bookId} not found`);
+      }
+    } else {
+      console.log('Invalid query parameters');
+    }
+    
+    function getBookHtmlFile(bookId) {
+      const bookHtmlFiles = {
+        // Add your mappings here
+        '1': '/published/poetry/collection-I.html',
+        '2': '/published/poetry/collection-II.html',
+        '3': '/published/poetry/collection-III.html',
+        '30': '/published/poetry/collection-III-ii.html',
+        '4': '/published/poetry/collection-IV.html',
+        '5': '/published/poetry/collection-V.html',
+        '6': '/published/poetry/collection-VI.html',
+        '7': '/published/poetry/collection-VII.html',
+        '8': '/published/poetry/collection-VIII.html',
+        '9': '/published/poetry/collection-IX.html',
+        '10': '/published/poetry/collection-X.html',
+        '11': '/published/poetry/collection-XI.html',
+        '110': '/published/poetry/collection-XI-ii.html',
+        '12': '/published/poetry/collection-XII.html',
+        '13': '/published/poetry/collection-XIII.html',
+        '14': '/published/poetry/collection-XIV.html',
+        '15': '/published/poetry/collection-XV.html',
+        '16': '/published/poetry/collection-XVI.html',
+        '17': '/published/poetry/collection-XVII.html',
+        '18': '/published/poetry/collection-XVIII.html',
+        '19': '/published/poetry/collection-XIX.html',
+        '20': '/published/poetry/collection-XX.html',
+        '21': '/published/poetry/collection-XXI.html',
+        '01': '/published/poetry/dr-carl-hill-collection-I.html',
+        '02': '/published/poetry/dr-carl-hill-collection-II.html',
+        '03': '/published/poetry/dr-carl-hill-collection-III.html',
+        '04': '/published/poetry/dr-carl-hill-collection-IV.html',
+        '05': '/published/poetry/dr-carl-hill-collection-V.html',
+        '1965': '/published/poetry/bury-me-in-1965.html',
+        '0': '/pages/upcoming.html',
+        
+      };
+      return bookHtmlFiles[bookId] || null; // Return null if book ID not found
+    }
+  </script>
+</body>
+
+</html>
