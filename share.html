@@ -2,7 +2,16 @@
 <html>
 
 <head>
-  <title>Share Page</title>
+  <title></title>
+  <meta name="description" content="">
+  <meta property="og:image" content="">
+  <meta property="og:title" content="">
+  <meta property="og:description" content="">
+  <meta property="og:url" content="">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="">
 </head>
 
 <body>
@@ -10,6 +19,21 @@
     const urlParams = new URLSearchParams(window.location.search);
     const bookId = urlParams.get('book');
     const poetryId = urlParams.get('poetry');
+    
+    if (bookId && metaData[bookId]) {
+      const metaTags = metaData[bookId];
+      document.title = metaTags.title;
+      document.querySelector('meta[name="description"]').content = metaTags.description;
+      document.querySelector('meta[property="og:image"]').content = metaTags.image;
+      document.querySelector('meta[property="og:title"]').content = metaTags.title;
+      document.querySelector('meta[property="og:description"]').content = metaTags.description;
+      document.querySelector('meta[property="og:url"]').content = window.location.href;
+      document.querySelector('meta[name="twitter:title"]').content = metaTags.title;
+      document.querySelector('meta[name="twitter:description"]').content = metaTags.description;
+      document.querySelector('meta[name="twitter:image"]').content = metaTags.image;
+    }
+    
+    
     
     if (bookId && poetryId) {
       const bookHtmlFile = getBookHtmlFile(bookId);
@@ -61,6 +85,159 @@
       };
       return bookHtmlFiles[bookId] || null; // Return null if book ID not found
     }
+    
+    const metaData = {
+      '1': { 
+        title: 'Frith Hilton Collection I',
+        description: 'A collection of poetry by Howard Frith Hilton',
+        image: 'https://example.com/image1.jpg',
+      },
+      '2': {
+        title: 'Frith Hilton Collection II',
+        description: 'A collection of poetry by Howard Frith Hilton',
+        image: 'https://example.com/image2.jpg',
+      },
+      '3': {
+        title: 'Frith Hilton Collection III',
+        description: 'A collection of poetry by Howard Frith Hilton',
+        image: 'https://example.com/image3.jpg',
+      },
+      '30': {
+        title: 'Frith Hilton Collection III (Part 2)',
+        description: 'A collection of poetry by Howard Frith Hilton',
+        image: 'https://example.com/image3-2.jpg',
+      },
+      '4': {
+        title: 'Frith Hilton Collection IV',
+        description: 'A collection of poetry by Howard Frith Hilton',
+        image: 'https://example.com/image4.jpg',
+      },
+      '5': {
+        title: 'Frith Hilton Collection V',
+        description: 'A collection of poetry by Howard Frith Hilton',
+        image: 'https://example.com/image5.jpg',
+      },
+      '6': {
+        title: 'Frith Hilton Collection VI',
+        description: 'A collection of poetry by Howard Frith Hilton',
+        image: 'https://example.com/image6.jpg',
+      },
+      '7': {
+        title: 'Frith Hilton Collection VII',
+        description: 'A collection of poetry by Howard Frith Hilton',
+        image: 'https://example.com/image7.jpg',
+      },
+      '8': {
+        title: 'Frith Hilton Collection VIII',
+        description: 'A collection of poetry by Howard Frith Hilton',
+        image: 'https://example.com/image8.jpg',
+      },
+      '9': {
+        title: 'Frith Hilton Collection IX',
+        description: 'A collection of poetry by Howard Frith Hilton',
+        image: 'https://example.com/image9.jpg',
+      },
+      '10': {
+        title: 'Frith Hilton Collection X',
+        description: 'A collection of poetry by Howard Frith Hilton',
+        image: 'https://example.com/image10.jpg',
+      },
+      '11': {
+        title: 'Frith Hilton Collection XI',
+        description: 'A collection of poetry by Howard Frith Hilton',
+        image: 'https://example.com/image11.jpg',
+      },
+      '110': {
+        title: 'Frith Hilton Collection XI (Part 2)',
+        description: 'A collection of poetry by Howard Frith Hilton',
+        image: 'https://example.com/image11-2.jpg',
+      },
+      '12': {
+        title: 'Frith Hilton Collection XII',
+        description: 'A collection of poetry by Howard Frith Hilton',
+        image: 'https://example.com/image12.jpg',
+      },
+      '13': {
+        title: 'Frith Hilton Collection XIII',
+        description: 'A collection of poetry by Howard Frith Hilton',
+        image: 'https://example.com/image13.jpg',
+      },
+      '14': {
+        title: 'Frith Hilton Collection XIV',
+        description: 'A collection of poetry by Howard Frith Hilton',
+        image: 'https://example.com/image14.jpg',
+      },
+      '15': {
+        title: 'Frith Hilton Collection XV',
+        description: 'A collection of poetry by Howard Frith Hilton',
+        image: 'https://example.com/image15.jpg',
+      },
+      '16': {
+        title: 'Frith Hilton Collection XVI',
+        description: 'A collection of poetry by Howard Frith Hilton',
+        image: 'https://example.com/image16.jpg',
+      },
+      '17': {
+        title: 'Frith Hilton Collection XVII',
+        description: 'A collection of poetry by Howard Frith Hilton',
+        image: 'https://example.com/image17.jpg',
+      },
+      '18': {
+        title: 'Frith Hilton Collection XVIII',
+        description: 'A collection of poetry by Howard Frith Hilton',
+        image: 'https://example.com/image18.jpg',
+      },
+      '19': {
+        title: 'Frith Hilton Collection XIX',
+        description: 'A collection of poetry by Howard Frith Hilton',
+        image: 'https://example.com/image19.jpg',
+      },
+      '20': {
+        title: 'Frith Hilton Collection XX',
+        description: 'A collection of poetry by Howard Frith Hilton',
+        image: 'https://example.com/image20.jpg',
+      },
+      '21': {
+        title: 'Frith Hilton Collection XXI',
+        description: 'A collection of poetry by Howard Frith Hilton',
+        image: 'https://example.com/image21.jpg',
+      },
+      '01': {
+        title: 'Dr. Carl Hill Collection (Book One)',
+        description: 'A collection of poetry by Howard Frith Hilton',
+        image: 'https://example.com/dr-carl-hill-image1.jpg',
+      },
+      '02': {
+        title: 'Dr. Carl Hill Collection (Book Two)',
+        description: 'A collection of poetry by Howard Frith Hilton',
+        image: 'https://example.com/dr-carl-hill-image2.jpg',
+      },
+      '03': {
+        title: 'Dr. Carl Hill Collection (Book Three)',
+        description: 'A collection of poetry by Howard Frith Hilton',
+        image: 'https://example.com/dr-carl-hill-image3.jpg',
+      },
+      '04': {
+        title: 'Dr. Carl Hill Collection (Book Four)',
+        description: 'A collection of poetry by Howard Frith Hilton',
+        image: 'https://example.com/dr-carl-hill-image4.jpg',
+      },
+      '05': {
+        title: 'Dr. Carl Hill Collection (Book Five)',
+        description: 'A collection of poetry by Howard Frith Hilton',
+        image: 'https://example.com/dr-carl-hill-image5.jpg',
+      },
+      '1965': {
+        title: 'Bury Me In 1965',
+        description: 'A collection of poetry by Howard Frith Hilton',
+        image: 'https://example.com/bury-me-in-1965-image.jpg',
+      },
+      '0': {
+        title: 'Upcoming',
+        description: `Howard Frith Hilton's upcoming poetry `,
+        image: 'https://example.com/upcoming-image.jpg',
+      },
+    };
   </script>
 </body>
 
