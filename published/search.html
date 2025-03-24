@@ -1,244 +1,568 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <title></title>
-  <meta name="description" content="">
-  <meta property="og:image" content="">
-  <meta property="og:title" content="">
-  <meta property="og:description" content="">
-  <meta property="og:url" content="">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="">
-  <meta name="twitter:description" content="">
-  <meta name="twitter:image" content="">
+  <!--===== Required meta tags =====-->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="author" content="Infinitysoftway" />
+  <meta name="description" content="statistic charts" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!--===== Title =====-->
+  <title>What's the poem? | Frith Hilton</title>
+
+  <!--===== Favicon =====-->
+  <link rel="shortcut icon" href="images/favicon.png" />
+
+  <!--===== Google fonts =====-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Jost:wght@300;400;500;600;700;800;900&display=swap" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet" />
+
+  <!--===== Global bootstrap required css =====-->
+  <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css" />
+
+  <!--===== Global styles including: Font Icons, Plugins, etc =====-->
+  <!-- font-awesome-icons -->
+  <script src="https://kit.fontawesome.com/c7fbb1b458.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="../css/font-awesome/all.min.css" />
+  <link rel="stylesheet" href="../css/feather/iconfont.css" />
+  <link rel="stylesheet" href="../css/pe-icon-stroke/Pe-icon-7-stroke.css" />
+  <link rel="stylesheet" href="../css/simple-line-icons/simple-line-icons.css" />
+  <link rel="stylesheet" href="../css/themify-icons/themify-icons.css" />
+  <link rel="stylesheet" href="../css/pe-icon-stroke/Pe-icon-7-stroke.css" />
+  <link rel="stylesheet" href="../css/swiper/swiper.min.css" />
+  <link rel="stylesheet" href="../css/magnific-popup/magnific-popup.css" />
+  <!--===== Main theme css =====-->
+  <link rel="stylesheet" href="../css/style.css" />
+  <style>
+    [v-cloak] {
+      display: none;
+    }
+  </style>
 </head>
 
-<body>
-  <script>
-    const urlParams = new URLSearchParams(window.location.search);
-    const bookId = urlParams.get('book');
-    const poetryId = urlParams.get('poetry');
-    
-    if (bookId && metaData[bookId]) {
-      const metaTags = metaData[bookId];
-      document.title = metaTags.title;
-      document.querySelector('meta[name="description"]').content = metaTags.description;
-      document.querySelector('meta[property="og:image"]').content = metaTags.image;
-      document.querySelector('meta[property="og:title"]').content = metaTags.title;
-      document.querySelector('meta[property="og:description"]').content = metaTags.description;
-      document.querySelector('meta[property="og:url"]').content = window.location.href;
-      document.querySelector('meta[name="twitter:title"]').content = metaTags.title;
-      document.querySelector('meta[name="twitter:description"]').content = metaTags.description;
-      document.querySelector('meta[name="twitter:image"]').content = metaTags.image;
-    }
-    
-    
-    
-    if (bookId && poetryId) {
-      const bookHtmlFile = getBookHtmlFile(bookId);
-      if (bookHtmlFile) {
-        const redirectUrl = new URL(bookHtmlFile, window.location.origin);
-        redirectUrl.searchParams.set('query', poetryId);
-        window.location.href = redirectUrl.href;
-      } else {
-        console.log(`Book ID ${bookId} not found`);
+<body class="stokes-wrapper" id="ctrlArea" v-cloak>
+
+
+
+
+  <!--========== 
+        Start of loader ==========-->
+
+<div class="template-loader">
+    <div class="loaderCenter">
+      <div class="book">
+        <div class="book__pg-shadow"></div>
+        <div class="book__pg"></div>
+        <div class="book__pg book__pg--2"></div>
+        <div class="book__pg book__pg--3"></div>
+        <div class="book__pg book__pg--4"></div>
+        <div class="book__pg book__pg--5"></div>
+      </div>
+    </div>
+  </div>
+
+
+          <!--========== 
+        End of loader ==========-->
+
+
+
+
+
+  <!--========== 
+        Start of Header Section ==========-->
+
+  <header class="header">
+    <!--===== Start of navbar =====-->
+    <nav class="navbar navbar-light navbar-expand-lg navbar-default">
+      <div class="container-fluid">
+        <!--===== Start of logo =====-->
+        <a class="navbar-brand" href="../index.html"><img class="logo" src="../images/logo.png" alt="Frith Hilton Logo" /></a>
+        <!--===== End of logo =====-->
+
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="icon-bar top-bar mt-0"></span>
+          <span class="icon-bar middle-bar"></span>
+          <span class="icon-bar bottom-bar"></span>
+        </button>
+
+        <!--===== Start of nav =====-->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html"><span class="text-line"> Home </span></a>
+            </li>
+            <li class="nav-item dropdown active">
+              <a @click="store.goToPublished" class="nav-link dropdown-toggle" href="#" id="navbar-pages" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="text-line"> Publications</span>
+              </a>
+
+              <!--<ul class="dropdown-menu" aria-labelledby="navbar-pages">
+                <div class="mb-3 mt-3">
+                  <a href="#">
+                    Frith Hilton Collections
+                  </a>
+                </div>
+
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections I — III </span></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="../published/poetry/collection-I.html"><span class="text-line">
+                          Collection I
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="../published/poetry/collection-II.html"><span class="text-line">
+                          Collection II
+                        </span></a>
+                    </li>
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collection III </span></a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="../published/poetry/collection-III.html"><span class="text-line">
+                              Valentine Edition
+                            </span></a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="../published/poetry/collection-III-ii.html"><span class="text-line">
+                              Original Edition
+                            </span></a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections IV — VI </span></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="../published/poetry/collection-IV.html"><span class="text-line">
+                          Collection IV
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="../published/poetry/collection-V.html"><span class="text-line">
+                          Collection V
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="../published/poetry/collection-VI.html"><span class="text-line">
+                          Collection VI
+                        </span></a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections VII — IX </span></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-VII.html"><span class="text-line">
+                          Collection VII
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-VIII.html"><span class="text-line">
+                          Collection VIII
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-IX.html"><span class="text-line">
+                          Collection IX
+                        </span></a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections X — XII </span></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-X.html"><span class="text-line">
+                          Collection X
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-XI.html"><span class="text-line">
+                          Collection XI
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-XII.html"><span class="text-line">
+                          Collection XII
+                        </span></a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections XIII — XIV </span></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-XIII.html"><span class="text-line">
+                          Collection XIII
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-XIV.html"><span class="text-line">
+                          Collection XIV
+                        </span><span class="badge bg-primary" style="font-size: 0.55em">New</span></a>
+                    </li>
+                  </ul>
+                </li>
+                <div class="mb-3 mt-3">
+                  <a href="#">
+                    Non-Fiction
+                  </a>
+                </div>
+
+                <li>
+                  <a class="dropdown-item" href="published/poetry/bury-me-in-1965.html"><span class="text-line">
+                      Bury me in 1965
+                    </span></a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="published/journal/a-life-worth-living.html"><span class="text-line">
+                      A Life Worth Living (Vision @ 2020)
+                    </span></a>
+                </li>
+              
+              </ul>-->
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/upcoming.html"><span class="text-line"> Upcoming Poetry</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/musicpool.html"><span class="text-line"> Musicpool </span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/bio.html"><span class="text-line"> Bio </span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../cookies.html"><span class="text-line"> Cookies Policy </span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar-icons list-unstyled mb-0 ms-auto">
+          <a class="icon" href="https://www.facebook.com/frithhilton17" target="_blank">
+            <i class="feather icon-facebook"></i>
+          </a>
+          <a class="icon" href="https://www.instagram.com/frithhilton17" target="_blank">
+            <i class="feather icon-instagram"></i>
+          </a>
+          <a class="icon" href="https://www.twitter.com/frithhilton17" target="_blank">
+            <i class="feather icon-twitter"></i>
+          </a>
+        </div>
+        <!--===== End of nav =====-->
+      </div>
+    </nav>
+    <!--===== End of navbar =====-->
+  </header>
+
+  <!--========== 
+        End of header ==========-->
+
+
+
+  <!--========== 
+  Start of FAQs section ==========-->
+
+  <section class="slice-ptb">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-5">
+          <div class="mb-5">
+
+            <h2 claclass="mb-3"><span class="text-primary">Find poetry lines</span></h2>
+            <hr class="my-4 mb-5" />
+            <div class="barSearch mt-5">
+              <input autocomplete="off" autofill="off" id="searchQuery" class="searchbar" type="text" title="Search" oninput="search()">
+            </div>
+            <div class="search-results my-4" id="searchResults">
+              <p class="text-primary">start a search</p>
+              <p class="text-primary">
+                <u class="typer text-info" data-words="Look What You Made Me Do" data-delay="100" data-deletedelay="1000" style="color: black"></u>
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--========== 
+    End of FAQs section ==========-->
+
+
+
+  <!--========== 
+  Start of bottom page  ==========-->
+
+  <section class="py-5 bg-pink-gradient">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <h3 class="text-white" id="some-id">
+            I'm here
+            <u class="typer text-warning" data-words="writing,making music," data-delay="100" data-deletedelay="1000" style="color: black"></u>
+            often.
+          </h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--========== 
+  End of bottom page  ==========-->
+
+  <!--========== 
+    Map section ==========-->
+
+  <section id="contact-us" class="position-relative">
+    <div class="google-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.629367104963!2d3.2316144785641425!3d6.692744576034127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b996ae457d243%3A0x63b338921b72fdf9!2sFrith%20Nightswan%20Enterprises!5e0!3m2!1sen!2sng!4v1683451340692!5m2!1sen!2sng" width="800" height="600" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!--========== 
+    End of map section ==========-->
+  </section>
+  <!--========== 
+  Start of footer section ==========-->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 position-relative mb-5 mb-sm-0">
+          <div class="position-absolute top-0 start-0 slice-pt ps-5 ps-lg-8"></div>
+        </div>
+        <div class="col-lg-6">
+          <!--===== Start of footer item =====-->
+          <div class="text-center slice-ptb">
+            <h4 class="mb-4 mt-5 mt-lg-0">Time Open</h4>
+            <div class="mb-4">
+              <h5>Monday to Friday</h5>
+              <p>8:30 am to 5 pm</p>
+            </div>
+
+            <h4 class="mb-4">Address</h4>
+            <div class="mb-4">
+              <h5>11, Akindenoh street Ota, Ogun State.</h5>
+              <p><a href="mailto:info@frithhilton.com.ng">Send Frith Hilton Mail</a></p>
+
+            </div>
+            <h2 class="text-green mb-0 mt-5">
+              <i class="feather icon-phone-call"></i> (234) 815 813 2408
+            </h2>
+          </div>
+          <!--===== End of footer item =====-->
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <footer class="footer bg-black slice-pt">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 offset-lg-2">
+          <h2 class="text-white display-2 mb-4">
+            <span class="typer text-white" id="some-id" data-words="Catch up!" data-delay="100">
+            </span>
+          </h2>
+
+          <div class="social-icons icons-xl mt-5">
+            <a class="icon text-white" href="https://youtube.com/@frithhilton17?si=8pEsa1wf1KxLNvBK" target="_blank">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a class="icon text-white" href="https://www.tiktok.com/@frithhilton17" target="_blank">
+              <i class="fab fa-tiktok"></i>
+            </a>
+            <a class="icon text-white" href="https://www.twitter.com/frithhilton17" target="_blank">
+              <i class="fab fa-x-twitter"></i>
+            </a>
+            <a class="icon text-white" href="https://www.instagram.com/frithhilton17" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr class="mt-7" />
+      <div class="row text-center">
+        <div class="col-12">
+          <div class="developer-footer mb-2">
+            <a href="http://leondev.com.ng" target="_blank"><img src="/images/Leondev.png" alt="lEoNDɘv" width="80" height="80"></a>
+          </div>
+          <p class="text-white mt-3 mb-4">
+            © <span id="getFullYear"></span>
+            <span class="text-pink-gradient">Howard Frith Hilton</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--========== 
+  End of footer section ==========-->
+
+  <!--========== 
+        Start of back to top section ==========-->
+
+  <div class="go-top">
+    <p class="go-top-text">
+      Scroll to top <i class="fas fa-long-arrow-alt-right ps-2"></i>
+    </p>
+  </div>
+
+  <!--========== 
+        End of back to top section ==========-->
+
+
+  <!--========== 
+	Start of Javascript ==========-->
+
+  <!--===== Global required js =====-->
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap/bootstrap.min.js"></script>
+
+  <!--===== Global script: js libraries and plugins =====-->
+  <script src="../js/appear/jquery.appear.js"></script>
+  <script src="../js/swiper/swiper.min.js"></script>
+  <script src="../js/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="../js/isotope/isotope.pkgd.min.js"></script>
+  <script src="../js/typer/typer.js"></script>
+  <script src="../js/jarallax/jarallax.min.js"></script>
+  <script src="../js/mCustomScrollbar/jquery.mCustomScrollbar.min.js"></script>
+  <!--===== Main theme script =====-->
+  <script src="../js/functions.js"></script>
+     <script type="module">
+    import {
+      createApp,
+      reactive
+    } from "../js/petite-vue.js";
+    const store = reactive({
+      goToPublished() {
+        window.location.href = 'published/books.html';
       }
-    } else {
-      console.log('Invalid query parameters');
-    }
-    
-    function getBookHtmlFile(bookId) {
-      const bookHtmlFiles = {
-        // Add your mappings here
-        '1': '/published/poetry/collection-I.html',
-        '2': '/published/poetry/collection-II.html',
-        '3': '/published/poetry/collection-III.html',
-        '30': '/published/poetry/collection-III-ii.html',
-        '4': '/published/poetry/collection-IV.html',
-        '5': '/published/poetry/collection-V.html',
-        '6': '/published/poetry/collection-VI.html',
-        '7': '/published/poetry/collection-VII.html',
-        '8': '/published/poetry/collection-VIII.html',
-        '9': '/published/poetry/collection-IX.html',
-        '10': '/published/poetry/collection-X.html',
-        '11': '/published/poetry/collection-XI.html',
-        '110': '/published/poetry/collection-XI-ii.html',
-        '12': '/published/poetry/collection-XII.html',
-        '13': '/published/poetry/collection-XIII.html',
-        '14': '/published/poetry/collection-XIV.html',
-        '15': '/published/poetry/collection-XV.html',
-        '16': '/published/poetry/collection-XVI.html',
-        '17': '/published/poetry/collection-XVII.html',
-        '18': '/published/poetry/collection-XVIII.html',
-        '19': '/published/poetry/collection-XIX.html',
-        '20': '/published/poetry/collection-XX.html',
-        '21': '/published/poetry/collection-XXI.html',
-        '01': '/published/poetry/dr-carl-hill-collection-I.html',
-        '02': '/published/poetry/dr-carl-hill-collection-II.html',
-        '03': '/published/poetry/dr-carl-hill-collection-III.html',
-        '04': '/published/poetry/dr-carl-hill-collection-IV.html',
-        '05': '/published/poetry/dr-carl-hill-collection-V.html',
-        '1965': '/published/poetry/bury-me-in-1965.html',
-        '0': '/pages/upcoming.html',
-        
-      };
-      return bookHtmlFiles[bookId] || null; // Return null if book ID not found
-    }
-    
-    const metaData = {
-      '1': {
-        title: 'Frith Hilton Collection I',
-        description: 'A collection of poetry by Howard Frith Hilton',
-        image: 'https://example.com/image1.jpg',
-      },
-      '2': {
-        title: 'Frith Hilton Collection II',
-        description: 'A collection of poetry by Howard Frith Hilton',
-        image: 'https://example.com/image2.jpg',
-      },
-      '3': {
-        title: 'Frith Hilton Collection III',
-        description: 'A collection of poetry by Howard Frith Hilton',
-        image: 'https://example.com/image3.jpg',
-      },
-      '30': {
-        title: 'Frith Hilton Collection III (Part 2)',
-        description: 'A collection of poetry by Howard Frith Hilton',
-        image: 'https://example.com/image3-2.jpg',
-      },
-      '4': {
-        title: 'Frith Hilton Collection IV',
-        description: 'A collection of poetry by Howard Frith Hilton',
-        image: 'https://example.com/image4.jpg',
-      },
-      '5': {
-        title: 'Frith Hilton Collection V',
-        description: 'A collection of poetry by Howard Frith Hilton',
-        image: 'https://example.com/image5.jpg',
-      },
-      '6': {
-        title: 'Frith Hilton Collection VI',
-        description: 'A collection of poetry by Howard Frith Hilton',
-        image: 'https://example.com/image6.jpg',
-      },
-      '7': {
-        title: 'Frith Hilton Collection VII',
-        description: 'A collection of poetry by Howard Frith Hilton',
-        image: 'https://example.com/image7.jpg',
-      },
-      '8': {
-        title: 'Frith Hilton Collection VIII',
-        description: 'A collection of poetry by Howard Frith Hilton',
-        image: 'https://example.com/image8.jpg',
-      },
-      '9': {
-        title: 'Frith Hilton Collection IX',
-        description: 'A collection of poetry by Howard Frith Hilton',
-        image: 'https://example.com/image9.jpg',
-      },
-      '10': {
-        title: 'Frith Hilton Collection X',
-        description: 'A collection of poetry by Howard Frith Hilton',
-        image: 'https://example.com/image10.jpg',
-      },
-      '11': {
-        title: 'Frith Hilton Collection XI',
-        description: 'A collection of poetry by Howard Frith Hilton',
-        image: 'https://example.com/image11.jpg',
-      },
-      '110': {
-        title: 'Frith Hilton Collection XI (Part 2)',
-        description: 'A collection of poetry by Howard Frith Hilton',
-        image: 'https://example.com/image11-2.jpg',
-      },
-      '12': {
-        title: 'Frith Hilton Collection XII',
-        description: 'A collection of poetry by Howard Frith Hilton',
-        image: 'https://example.com/image12.jpg',
-      },
-      '13': {
-        title: 'Frith Hilton Collection XIII',
-        description: 'A collection of poetry by Howard Frith Hilton',
-        image: 'https://example.com/image13.jpg',
-      },
-      '14': {
-        title: 'Frith Hilton Collection XIV',
-        description: 'A collection of poetry by Howard Frith Hilton',
-        image: 'https://example.com/image14.jpg',
-      },
-      '15': {
-        title: 'Frith Hilton Collection XV',
-        description: 'A collection of poetry by Howard Frith Hilton',
-        image: 'https://example.com/image15.jpg',
-      },
-      '16': {
-        title: 'Frith Hilton Collection XVI',
-        description: 'A collection of poetry by Howard Frith Hilton',
-        image: 'https://example.com/image16.jpg',
-      },
-      '17': {
-        title: 'Frith Hilton Collection XVII',
-        description: 'A collection of poetry by Howard Frith Hilton',
-        image: 'https://example.com/image17.jpg',
-      },
-      '18': {
-        title: 'Frith Hilton Collection XVIII',
-        description: 'A collection of poetry by Howard Frith Hilton',
-        image: 'https://example.com/image18.jpg',
-      },
-      '19': {
-        title: 'Frith Hilton Collection XIX',
-        description: 'A collection of poetry by Howard Frith Hilton',
-        image: 'https://example.com/image19.jpg',
-      },
-      '20': {
-        title: 'Frith Hilton Collection XX',
-        description: 'A collection of poetry by Howard Frith Hilton',
-        image: 'https://example.com/image20.jpg',
-      },
-      '21': {
-        title: 'Frith Hilton Collection XXI',
-        description: 'A collection of poetry by Howard Frith Hilton',
-        image: 'https://example.com/image21.jpg',
-      },
-      '01': {
-        title: 'Dr. Carl Hill Collection (Book One)',
-        description: 'A collection of poetry by Howard Frith Hilton',
-        image: 'https://example.com/dr-carl-hill-image1.jpg',
-      },
-      '02': {
-        title: 'Dr. Carl Hill Collection (Book Two)',
-        description: 'A collection of poetry by Howard Frith Hilton',
-        image: 'https://example.com/dr-carl-hill-image2.jpg',
-      },
-      '03': {
-        title: 'Dr. Carl Hill Collection (Book Three)',
-        description: 'A collection of poetry by Howard Frith Hilton',
-        image: 'https://example.com/dr-carl-hill-image3.jpg',
-      },
-      '04': {
-        title: 'Dr. Carl Hill Collection (Book Four)',
-        description: 'A collection of poetry by Howard Frith Hilton',
-        image: 'https://example.com/dr-carl-hill-image4.jpg',
-      },
-      '05': {
-        title: 'Dr. Carl Hill Collection (Book Five)',
-        description: 'A collection of poetry by Howard Frith Hilton',
-        image: 'https://example.com/dr-carl-hill-image5.jpg',
-      },
-      '1965': {
-        title: 'Bury Me In 1965',
-        description: 'A collection of poetry by Howard Frith Hilton',
-        image: 'https://example.com/bury-me-in-1965-image.jpg',
-      },
-      '0': {
-        title: 'Upcoming',
-        description: `Howard Frith Hilton's upcoming poetry `,
-        image: 'https://example.com/upcoming-image.jpg',
-      },
-    };
+    });
+    createApp({
+      store
+    }).mount("#ctrlArea");
   </script>
+  <script>
+    let searchIndex = [];
+
+    // Load the search index JSON file
+    async function loadSearchIndex() {
+      try {
+        const response = await fetch('../search-index.json');
+        searchIndex = await response.json();
+      } catch (error) {
+        console.error('Error loading search index:', error);
+      }
+    }
+
+    // Perform the search
+    function search() {
+      const query = document.getElementById('searchQuery').value.toLowerCase();
+      if (query.length <= 1) {
+        clearResults();
+        return;
+      }
+      const results = searchIndex.flatMap(book => {
+        const bookMatches = [];
+        if (book.bookTitle.toLowerCase().includes(query)) {
+          bookMatches.push({
+            bookTitle: book.bookTitle,
+            bookLink: book.bookLink,
+            snippet: getSnippet(book.bookTitle, query)
+          });
+        }
+        book.chapters.forEach((chapter, index) => {
+          if (chapter.chapterTitle.toLowerCase().includes(query)) {
+            bookMatches.push({
+              bookTitle: book.bookTitle,
+              bookLink: book.bookLink,
+              chapterTitle: chapter.chapterTitle,
+              chapterLink: chapter.chapterLink,
+              snippet: getSnippet(chapter.chapterTitle, query)
+            });
+          } else if (chapter.chapterTextContent.toLowerCase().includes(query)) {
+            bookMatches.push({
+              bookTitle: book.bookTitle,
+              bookLink: book.bookLink,
+              chapterTitle: chapter.chapterTitle,
+              chapterLink: chapter.chapterLink,
+              snippet: getSnippet(chapter.chapterTextContent, query)
+            });
+          }
+        });
+        return bookMatches;
+      });
+
+      displayResults(results);
+    }
+
+    // Get a snippet with highlight
+    function getSnippet(content, query) {
+      const start = content.toLowerCase().indexOf(query);
+      const end = start + query.length;
+      const snippetStart = Math.max(start - 30, 0);
+      const snippetEnd = Math.min(end + 30, content.length);
+      const snippet = content.slice(snippetStart, snippetEnd);
+      return snippet.replace(new RegExp(query, 'gi'), match => `<span class="highlight">${match}</span>`);
+    }
+
+    // Display the search results
+    function displayResults(results) {
+      const searchResults = document.getElementById('searchResults');
+      searchResults.innerHTML = '';
+
+      if (results.length === 0) {
+        searchResults.innerHTML = '<p>No poetry lines match </p>';
+        return;
+      }
+
+      results.forEach(result => {
+        const resultElement = document.createElement('div');
+        resultElement.classList.add('result');
+        resultElement.innerHTML = `
+                    <div onclick="location.href='/published/poetry/${result.bookLink}?query=${result.chapterLink.split('/').pop()}'" style="cursor:pointer;">
+                    <div class="book-title"><a href="/published/poetry/${result.bookLink}?query=${result.chapterLink.split('/').pop()}">${result.chapterTitle}</a></div>
+${result.bookTitle ? `<div class="chapter-title"><a href="/published/poetry/${result.bookLink}?query=${result.chapterLink.split('/').pop()}" >${result.bookTitle}</a></div>` : ''}
+<div class="snippet">${result.snippet}</div>
+</div>        
+                    <hr class="my-4" />
+                `;
+        searchResults.appendChild(resultElement);
+      });
+
+
+
+
+
+
+    }
+
+    // Clear the search results
+    function clearResults() {
+      const searchResults = document.getElementById('searchResults');
+      searchResults.innerHTML = '<p class="text-primary">write your favourite line</p>';
+    }
+
+    // Load the search index on page load
+    window.onload = loadSearchIndex;
+  </script>
+  <!--========== 
+	End of Javascript ==========-->
 </body>
 
 </html>
