@@ -26,14 +26,14 @@ jobs:
 
       - name: Commit and push changes
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT }}
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add .
+          git add images/share/FHC/1
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
             git commit -m 'Move images to folder 1'
-            git push origin HEAD:main
+            git push https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }} HEAD:main
           fi
