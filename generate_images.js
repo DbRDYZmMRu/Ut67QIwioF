@@ -9,7 +9,7 @@ const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
 const outputDir = path.join(__dirname, 'images', 'share', 'FHC');
 const titles = [
-"Look What You Made Me Do", "Goodnight Irene", "The Day Club", "Favourite Cardigan", "The Week"
+    "Look What You Made Me Do", "Goodnight Irene", "The Day Club", "Favourite Cardigan", "The Week"
 ];
 
 const drawText = (ctx, text, x, y, maxWidth) => {
@@ -54,12 +54,12 @@ const generateImages = async () => {
         ctx.textBaseline = 'middle';
         drawText(ctx, titles[i], imageSize / 2, imageSize / 2, imageSize - 40);
 
-        // Draw the top right text
+        // Draw the top center text
         ctx.font = '60px "Architects Daughter"';
         ctx.fillStyle = 'black';
         ctx.textAlign = 'center';
         ctx.textBaseline = 'top';
-        ctx.fillText('FRITH HILTON COLLECTION I', 10, 10);
+        ctx.fillText('FRITH HILTON COLLECTION I', imageSize / 2, 10); // Corrected position
 
         // Save the image
         const buffer = canvas.toBuffer('image/png');
