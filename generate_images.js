@@ -9,36 +9,33 @@ const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
 const outputDir = path.join(__dirname, 'images', 'share', 'FHC');
 const titles = [
-    "Question Mark",
-    "Im-Proach",
-    "Hecatomb",
-    "Velcro",
-    "Docusoap",
-    "Over To",
-    "Stool",
-    "Cake",
-    "Wonder Tincture",
-    "Panache Of a Late Cheer",
-    "August 19",
-    "Errands",
-    "We Met",
-    "Are You?",
-    "Butt And Ash",
-    "Every",
-    "La Mia Innamorata",
-    "Charly Cox",
-    "Pesky 1989",
-    "Tease",
-    "Amadavat",
-    "Roast",
-    "She’s The Trip",
-    "What Choice",
-    "Electric",
-    "Metachrosis Buckle",
-    "Taylor Swift",
-    "Ready",
-    "Sign Of The Cornicle",
-    "In My Place"
+    "Ellipsis",
+    "This Is Me Trying (Home)",
+    "LVH Healing",
+    "Tunnel",
+    "Mum",
+    "Sock",
+    "The Bubble Wrap",
+    "Earworms",
+    "I",
+    "II",
+    "Divan",
+    "Bouchée à La Reine",
+    "Again",
+    "Two High",
+    "Graphic Grey Stencil",
+    "Body Heat",
+    "Her Wit Spittle",
+    "Issue: What Remains?",
+    "Taylor Do",
+    "Poem 108",
+    "Late For The Revue",
+    "Stodgy Pouffe",
+    "Apostrophe",
+    "The Re-Occurring Transition",
+    "Roadwork Ahead",
+    "The Anon",
+    "The wait (Journal entry)"
 ];
 
 const drawText = (ctx, text, x, y, maxWidth) => {
@@ -92,7 +89,7 @@ const generateImages = async () => {
 
         // Save the image
         const buffer = canvas.toBuffer('image/png');
-        fs.writeFileSync(path.join(outputDir, `image_${i + 61}.png`), buffer);
+        fs.writeFileSync(path.join(outputDir, `image_${i + 91}.png`), buffer);
     }
 };
 
