@@ -63,7 +63,7 @@ const generateImages = async () => {
 
         // Save the image
         const buffer = canvas.toBuffer('image/png');
-        fs.writeFileSync(path.join(outputDir, `image_${i + 23}.png`), buffer);
+        fs.writeFileSync(path.join(outputDir, `image_${i + 1}.png`), buffer);
     }
 };
 
