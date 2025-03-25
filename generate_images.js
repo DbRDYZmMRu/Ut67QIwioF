@@ -20,7 +20,7 @@ const titles = [
 const drawText = (ctx, text, x, y, maxWidth) => {
     const words = text.split(' ');
     let line = '';
-    const lineHeight = 40;
+    const lineHeight = parseInt(ctx.font, 10); // Adjust lineHeight to the font size
     let yOffset = y;
 
     for (let n = 0; n < words.length; n++) {
@@ -53,14 +53,14 @@ const generateImages = async () => {
         ctx.drawImage(bgImage, 0, 0, imageSize, imageSize);
 
         // Draw the main text
-        ctx.font = '64px "Architects Daughter"';
+        ctx.font = '72px "Architects Daughter"';
         ctx.fillStyle = 'black';
         ctx.textAlign = 'center';
         ctx.textBaseline = 'middle';
         drawText(ctx, titles[i], imageSize / 2, imageSize / 2, imageSize - 40);
 
         // Draw the top left text
-        ctx.font = '30px "Architects Daughter"';
+        ctx.font = '50px "Architects Daughter"';
         ctx.fillStyle = 'black';
         ctx.textAlign = 'left';
         ctx.textBaseline = 'top';
