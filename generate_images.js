@@ -9,7 +9,7 @@ const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
 const outputDir = path.join(__dirname, 'images', 'share', 'FHC');
 const titles = [
-"Look What You Made Me Do",
+"Look What You Made Me Do", "Goodnight Irene", "The Day Club", "Favourite Cardigan", "The Week"
 ];
 
 const drawText = (ctx, text, x, y, maxWidth) => {
