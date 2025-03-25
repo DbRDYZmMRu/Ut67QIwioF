@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Register the font
-registerFont('path/to/Architects_Daughter.ttf', { family: 'Architects Daughter' });
+registerFont('font/Architects_Daughter.ttf', { family: 'Architects Daughter' });
 
 const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
