@@ -1,4 +1,4 @@
-name: Generate Poemss
+name: Generate Poems
 
 on:
   push:
