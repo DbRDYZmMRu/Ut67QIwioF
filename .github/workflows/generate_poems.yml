@@ -20,23 +20,6 @@ jobs:
         with:
           node-version: '14'
 
-      - name: Install Git LFS
-        run: |
-          curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
-          sudo apt-get install git-lfs
-          git lfs install
-
-      - name: Configure Git user
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-
-      - name: Untrack large files with Git LFS
-        run: |
-          git lfs untrack "node_modules/canvas/build/Release/librsvg-2.so.2"
-          git add .gitattributes
-          git commit -m "Untrack large file with Git LFS"
-
       - name: Install dependencies
         run: npm install
 
