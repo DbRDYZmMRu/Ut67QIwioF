@@ -7,35 +7,38 @@ registerFont('font/Architects_Daughter.ttf', { family: 'Architects Daughter' });
 
 const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
-const outputDir = path.join(__dirname, 'images', 'share', 'FHC');
+const outputDir = path.join(__dirname, 'images', 'share', 'FHC', '2');
 const titles = [
-    "Ellipsis",
-    "This Is Me Trying (Home)",
-    "LVH Healing",
-    "Tunnel",
-    "Mum",
-    "Sock",
-    "The Bubble Wrap",
-    "Earworms",
-    "I",
-    "II",
-    "Divan",
-    "Bouchée à La Reine",
-    "Again",
-    "Two High",
-    "Graphic Grey Stencil",
-    "Body Heat",
-    "Her Wit Spittle",
-    "Issue: What Remains?",
-    "Taylor Do",
-    "Poem 108",
-    "Late For The Revue",
-    "Stodgy Pouffe",
-    "Apostrophe",
-    "The Re-Occurring Transition",
-    "Roadwork Ahead",
-    "The Anon",
-    "The wait (Journal entry)"
+               "Our March Hatch",
+              "Business as Casual",
+              "X, Y, Z Intersect Crotch",
+              "Trepidation of the Past Sold",
+              "An Iris Morning",
+              "Toe Bump",
+              "Teacher",
+              "Chest to Chest",
+              "Both of Us",
+              "Tea",
+              "Olive",
+              "Yam Rind Steeple",
+              "Our Relationship has been Poetry",
+              "Slack",
+              "On Connection",
+              "CTRL",
+              "Come Sit",
+              "Get off my Wall",
+              "La-La Land",
+              "Re: Beau’s Humectant",
+              "Hard Water",
+              "Afternoons",
+              "Early Reminder",
+              "Final Answer",
+              "North",
+              "Boa",
+              "Blush Vitals",
+              "Whispers",
+              "Twenty29Nine",
+              "Waiting for Sonsy"
 ];
 
 const drawText = (ctx, text, x, y, maxWidth) => {
@@ -85,11 +88,11 @@ const generateImages = async () => {
         ctx.fillStyle = 'black';
         ctx.textAlign = 'center';
         ctx.textBaseline = 'top';
-        ctx.fillText('FRITH HILTON COLLECTION I', imageSize / 2, 10); // Corrected position
+        ctx.fillText('FRITH HILTON COLLECTION II', imageSize / 2, 10); // Corrected position
 
         // Save the image
         const buffer = canvas.toBuffer('image/png');
-        fs.writeFileSync(path.join(outputDir, `image_${i + 91}.png`), buffer);
+        fs.writeFileSync(path.join(outputDir, `image_${i + 1}.png`), buffer);
     }
 };
 
