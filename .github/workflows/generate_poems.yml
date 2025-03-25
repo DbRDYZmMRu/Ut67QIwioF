@@ -39,4 +39,3 @@ jobs:
         else
           git commit -m 'Generate poem images'
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
-        fi
