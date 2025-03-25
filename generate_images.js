@@ -9,37 +9,36 @@ const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
 const outputDir = path.join(__dirname, 'images', 'share', 'FHC');
 const titles = [
-     "Dense Thrusting Shadows",
-    "The Release",
-    "Crock Forte",
-    "A Rainy Day",
-    "Cows",
-    "Yuck",
-    "XXX",
-    "Le Nippy Deux",
-    "Fruit",
-    "Numero Uno",
-    "I",
-    "Cut",
-    "Hue",
-    "Pop",
-    "Blacktop Garage",
-    "Fait Accompli",
-    "Cloud Aperture",
-    "Pinky",
-    "Screens",
-    "Up To Eleven",
-    "1251",
-    "Half Blue Pod",
-    "The Dark",
-    "XV",
-    "XVI",
-    "Brood X",
-    "A Tonnage",
-    "Meeting a Girl Is Like Swinging a Set",
-    "Hands",
-    "It’s a New Day",
-    "Earth Tweet"
+    "Question Mark",
+    "Im-Proach",
+    "Hecatomb",
+    "Velcro",
+    "Docusoap",
+    "Over To",
+    "Stool",
+    "Cake",
+    "Wonder Tincture",
+    "Panache Of a Late Cheer",
+    "August 19",
+    "Errands",
+    "We Met",
+    "Are You?",
+    "Butt And Ash",
+    "Every",
+    "La Mia Innamorata",
+    "Charly Cox",
+    "Pesky 1989",
+    "Tease",
+    "Amadavat",
+    "Roast",
+    "She’s The Trip",
+    "What Choice",
+    "Electric",
+    "Metachrosis Buckle",
+    "Taylor Swift",
+    "Ready",
+    "Sign Of The Cornicle",
+    "In My Place"
 ];
 
 const drawText = (ctx, text, x, y, maxWidth) => {
@@ -93,7 +92,7 @@ const generateImages = async () => {
 
         // Save the image
         const buffer = canvas.toBuffer('image/png');
-        fs.writeFileSync(path.join(outputDir, `image_${i + 30}.png`), buffer);
+        fs.writeFileSync(path.join(outputDir, `image_${i + 61}.png`), buffer);
     }
 };
 
