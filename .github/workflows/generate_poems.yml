@@ -20,6 +20,18 @@ jobs:
         with:
           node-version: '14'
 
+      - name: Install Git LFS
+        run: |
+          curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+          sudo apt-get install git-lfs
+          git lfs install
+
+      - name: Track large files with Git LFS
+        run: |
+          git lfs track "node_modules/canvas/build/Release/librsvg-2.so.2"
+          git add .gitattributes
+          git commit -m "Track large file with Git LFS"
+
       - name: Install dependencies
         run: npm install
 
