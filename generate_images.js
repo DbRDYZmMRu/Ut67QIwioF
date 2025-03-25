@@ -15,7 +15,7 @@ const titles = [
 const drawText = (ctx, text, x, y, maxWidth) => {
     const words = text.split(' ');
     let line = '';
-    const lineHeight = 127; // Set lineHeight to 85
+    const lineHeight = 140; // Set lineHeight to 140
     let yOffset = y;
 
     for (let n = 0; n < words.length; n++) {
@@ -48,7 +48,7 @@ const generateImages = async () => {
         ctx.drawImage(bgImage, 0, 0, imageSize, imageSize);
 
         // Draw the main text
-        ctx.font = '85px "Architects Daughter"';
+        ctx.font = '95px "Architects Daughter"';
         ctx.fillStyle = 'black';
         ctx.textAlign = 'center';
         ctx.textBaseline = 'middle';
@@ -57,7 +57,7 @@ const generateImages = async () => {
         // Draw the top right text
         ctx.font = '60px "Architects Daughter"';
         ctx.fillStyle = 'black';
-        ctx.textAlign = 'right';
+        ctx.textAlign = 'center';
         ctx.textBaseline = 'top';
         ctx.fillText('FRITH HILTON COLLECTION I', 10, 10);
 
