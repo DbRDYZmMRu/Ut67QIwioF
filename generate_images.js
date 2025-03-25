@@ -9,18 +9,13 @@ const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
 const outputDir = path.join(__dirname, 'images', 'share', 'FHC');
 const titles = [
-    "Popcorn Tub", "Style",
-    "Rose Lens", "Clock Tock", "Far From The Early Y2K", "Plan Bs", "Dense Thrusting Shadows", "The Release",
-    "Crock Forte", "A Rainy Day", "Cows", "Yuck", "XXX", "Le Nippy Deux", "Fruit", "Numero Uno", "I", "Cut",
-    "Hue", "Pop", "Blacktop Garage", "Fait Accompli", "Cloud Aperture", "Pinky", "Screens", "Up To Eleven",
-    "1251", "Half Blue Pod", "The Dark", "XV", "XVI", "Brood X", "A Tonnage", "Meeting a Girl Is Like Swinging a Set",
-    "Hands", "It’s a New Day", "Earth Tweet", "Question Mark", "Im-Proach", "Hecatomb"
+"Look What You Made Me Do",
 ];
 
 const drawText = (ctx, text, x, y, maxWidth) => {
     const words = text.split(' ');
     let line = '';
-    const lineHeight = parseInt(ctx.font, 10); // Adjust lineHeight to the font size
+    const lineHeight = 127; // Set lineHeight to 85
     let yOffset = y;
 
     for (let n = 0; n < words.length; n++) {
@@ -53,14 +48,14 @@ const generateImages = async () => {
         ctx.drawImage(bgImage, 0, 0, imageSize, imageSize);
 
         // Draw the main text
-        ctx.font = '72px "Architects Daughter"';
+        ctx.font = '85px "Architects Daughter"';
         ctx.fillStyle = 'black';
         ctx.textAlign = 'center';
         ctx.textBaseline = 'middle';
         drawText(ctx, titles[i], imageSize / 2, imageSize / 2, imageSize - 40);
 
         // Draw the top left text
-        ctx.font = '50px "Architects Daughter"';
+        ctx.font = '30px "Architects Daughter"';
         ctx.fillStyle = 'black';
         ctx.textAlign = 'left';
         ctx.textBaseline = 'top';
