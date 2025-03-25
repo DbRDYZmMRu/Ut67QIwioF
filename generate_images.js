@@ -9,7 +9,36 @@ const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
 const outputDir = path.join(__dirname, 'images', 'share', 'FHC');
 const titles = [
-    "Look What You Made Me Do", "Goodnight Irene", "The Day Club", "Favourite Cardigan", "The Week"
+    "Goodnight Irene",
+    "The Day Club",
+    "Favourite Cardigan",
+    "The Week",
+    "Morning Pale",
+    "Whiskers",
+    "Dog-Eared Love",
+    "Cubicle",
+    "Lover",
+    "Paper Planes",
+    "Vinyl Perfect",
+    "Pinchbeck Desire",
+    "Hallway",
+    "Those Things",
+    "Grungy Ball",
+    "The Absence Of Self",
+    "Blind Reflection",
+    "Ever Land",
+    "Haiku. Why Cool!",
+    "With You",
+    "What Could Have Been",
+    "Zebra High",
+    "Look What You Made Me Do",
+    "Popcorn Tub",
+    "Style",
+    "Rose Lens",
+    "Clock Tock",
+    "Far From The Early Y2K",
+    "Plan Bs",
+    "Dense Thrusting Shadows"
 ];
 
 const drawText = (ctx, text, x, y, maxWidth) => {
