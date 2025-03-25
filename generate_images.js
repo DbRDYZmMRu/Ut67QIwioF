@@ -1,54 +1,99 @@
-name: Generate Poems
+const { createCanvas, loadImage, registerFont } = require('canvas');
+const fs = require('fs');
+const path = require('path');
 
-on:
-  push:
-    branches:
-      - main
+// Register the font
+registerFont('font/Architects_Daughter.ttf', { family: 'Architects Daughter' });
 
-jobs:
-  generate_poems:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write  # Ensure the workflow has write permission to contents
+const imageSize = 1080;
+const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
+const outputDir = path.join(__dirname, 'images', 'share', 'FHC');
+const titles = [
+        "Goodnight Irene",
+    "The Day Club",
+    "Favourite Cardigan",
+    "The Week",
+    "Morning Pale",
+    "Whiskers",
+    "Dog-Eared Love",
+    "Cubicle",
+    "Lover",
+    "Paper Planes",
+    "Vinyl Perfect",
+    "Pinchbeck Desire",
+    "Hallway",
+    "Those Things",
+    "Grungy Ball",
+    "The Absence Of Self",
+    "Blind Reflection",
+    "Ever Land",
+    "Haiku. Why Cool!",
+    "With You",
+    "What Could Have Been",
+    "Zebra High",
+    "Look What You Made Me Do",
+    "Popcorn Tub",
+    "Style",
+    "Rose Lens",
+    "Clock Tock",
+    "Far From The Early Y2K",
+    "Plan Bs",
+    "Dense Thrusting Shadows"
+];
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+const drawText = (ctx, text, x, y, maxWidth) => {
+    const words = text.split(' ');
+    let line = '';
+    const lineHeight = 160; // Set lineHeight to 160
+    let yOffset = y;
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14'
+    for (let n = 0; n < words.length; n++) {
+        const testLine = line + words[n] + ' ';
+        const metrics = ctx.measureText(testLine);
+        const testWidth = metrics.width;
+        if (testWidth > maxWidth && n > 0) {
+            ctx.fillText(line, x, yOffset);
+            line = words[n] + ' ';
+            yOffset += lineHeight;
+        } else {
+            line = testLine;
+        }
+    }
+    ctx.fillText(line, x, yOffset);
+};
 
-      - name: Install Git LFS
-        run: |
-          curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
-          sudo apt-get install git-lfs
-          git lfs install
+const generateImages = async () => {
+    if (!fs.existsSync(outputDir)) {
+        fs.mkdirSync(outputDir, { recursive: true });
+    }
 
-      - name: Configure Git user
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+    const bgImage = await loadImage(bgImagePath);
 
-      - name: Clean and install dependencies
-        run: |
-          npm install -g npm@latest
-          npm ci  # Clean install to ensure all dependencies are fresh
+    for (let i = 0; i < titles.length; i++) {
+        const canvas = createCanvas(imageSize, imageSize);
+        const ctx = canvas.getContext('2d');
 
-      - name: Run generation script
-        run: node generate_images.js
+        // Draw the background image
+        ctx.drawImage(bgImage, 0, 0, imageSize, imageSize);
 
-      - name: Commit and push changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add .
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m 'Generate poem images'
-            git push origin HEAD:main
-          fi
+        // Draw the main text
+        ctx.font = '105px "Architects Daughter"';
+        ctx.fillStyle = 'black';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        drawText(ctx, titles[i], imageSize / 2, imageSize / 2, imageSize - 40);
+
+        // Draw the top center text
+        ctx.font = '60px "Architects Daughter"';
+        ctx.fillStyle = 'black';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'top';
+        ctx.fillText('FRITH HILTON COLLECTION I', imageSize / 2, 10); // Corrected position
+
+        // Save the image
+        const buffer = canvas.toBuffer('image/png');
+        fs.writeFileSync(path.join(outputDir, `image_${i + 1}.png`), buffer);
+    }
+};
+
+generateImages().catch(console.error);
