@@ -54,10 +54,10 @@ const generateImages = async () => {
         ctx.textBaseline = 'middle';
         drawText(ctx, titles[i], imageSize / 2, imageSize / 2, imageSize - 40);
 
-        // Draw the top left text
-        ctx.font = '30px "Architects Daughter"';
+        // Draw the top right text
+        ctx.font = '60px "Architects Daughter"';
         ctx.fillStyle = 'black';
-        ctx.textAlign = 'left';
+        ctx.textAlign = 'right';
         ctx.textBaseline = 'top';
         ctx.fillText('FRITH HILTON COLLECTION I', 10, 10);
 
