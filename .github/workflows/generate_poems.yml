@@ -9,6 +9,9 @@ jobs:
   generate_poems:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write  # Ensure the workflow has write permission to contents
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
@@ -16,7 +19,7 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '14'
+        node-version: '14'  # Using Node.js version 14 as in the original workflow
 
     - name: Install dependencies
       run: npm install
@@ -25,11 +28,15 @@ jobs:
       run: node generate_images.js
 
     - name: Commit and push changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add .
-        git commit -m 'Generate poem images'
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        if git diff --cached --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m 'Generate poem images'
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+        fi
