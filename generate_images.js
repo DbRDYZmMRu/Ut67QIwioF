@@ -9,36 +9,22 @@ const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
 const outputDir = path.join(__dirname, 'images', 'share', 'FHC', '2');
 const titles = [
-               "Our March Hatch",
-              "Business as Casual",
-              "X, Y, Z Intersect Crotch",
-              "Trepidation of the Past Sold",
-              "An Iris Morning",
-              "Toe Bump",
-              "Teacher",
-              "Chest to Chest",
-              "Both of Us",
-              "Tea",
-              "Olive",
-              "Yam Rind Steeple",
-              "Our Relationship has been Poetry",
-              "Slack",
-              "On Connection",
-              "CTRL",
-              "Come Sit",
-              "Get off my Wall",
-              "La-La Land",
-              "Re: Beau’s Humectant",
-              "Hard Water",
-              "Afternoons",
-              "Early Reminder",
-              "Final Answer",
-              "North",
-              "Boa",
-              "Blush Vitals",
-              "Whispers",
-              "Twenty29Nine",
-              "Waiting for Sonsy"
+              "Radio",
+              "Generators have no Degree",
+              "Hirsute Rams",
+              "I Drew",
+              "Stories",
+              "Alison’s Band",
+              "Blank Space",
+              "Virgae",
+              "Welkin",
+              "Potch Shoe",
+              "Enwreathe",
+              "Stalwart",
+              "Defilade",
+              "On a Hot Day",
+              "On the Dromos for the Grith",
+              "West to West"
 ];
 
 const drawText = (ctx, text, x, y, maxWidth) => {
@@ -92,7 +78,7 @@ const generateImages = async () => {
 
         // Save the image
         const buffer = canvas.toBuffer('image/png');
-        fs.writeFileSync(path.join(outputDir, `image_${i + 1}.png`), buffer);
+        fs.writeFileSync(path.join(outputDir, `image_${i + 31}.png`), buffer);
     }
 };
 
