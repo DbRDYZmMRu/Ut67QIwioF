@@ -37,8 +37,7 @@ const titles = [
     "Rose Lens",
     "Clock Tock",
     "Far From The Early Y2K",
-    "Plan Bs",
-    "Dense Thrusting Shadows"
+    "Plan Bs"
 ];
 
 const drawText = (ctx, text, x, y, maxWidth) => {
