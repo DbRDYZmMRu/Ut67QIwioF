@@ -9,7 +9,7 @@ jobs:
   generate_poems:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write  # Ensure the workflow has write permission to contents
 
     steps:
       - name: Checkout repository
