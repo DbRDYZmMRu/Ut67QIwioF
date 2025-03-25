@@ -51,14 +51,14 @@ const generateImages = async () => {
         ctx.drawImage(bgImage, 0, 0, imageSize, imageSize);
 
         // Draw the main text
-        ctx.font = '32px "Architects Daughter"';
+        ctx.font = '64px "Architects Daughter"';
         ctx.fillStyle = 'black';
         ctx.textAlign = 'center';
         ctx.textBaseline = 'middle';
         drawText(ctx, titles[i], imageSize / 2, imageSize / 2, imageSize - 40);
 
         // Draw the top left text
-        ctx.font = '15px "Architects Daughter"';
+        ctx.font = '30px "Architects Daughter"';
         ctx.fillStyle = 'black';
         ctx.textAlign = 'left';
         ctx.textBaseline = 'top';
