@@ -1,17 +1,12 @@
-
 {
-  "name": "generate-search-index",
+  "name": "image-generator",
   "version": "1.0.0",
-  "description": "Generate search index for static website",
-  "main": "generate-search-index.js",
+  "description": "Generate images with text overlay",
+  "main": "generate_images.js",
   "scripts": {
-    "start": "node generate-search-index.js"
+    "start": "node generate_images.js"
   },
   "dependencies": {
-  "chalk": "^5.3.0",
-    "fs": "^0.0.1-security", 
-    "cheerio": "^1.0.0-rc.10"
-  },
-  "author": "",
-  "license": "ISC"
+    "canvas": "^2.8.0"
+  }
 }
