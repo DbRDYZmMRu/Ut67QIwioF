@@ -7,19 +7,13 @@ registerFont('font/Architects_Daughter.ttf', { family: 'Architects Daughter' });
 
 const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
-const outputDir = path.join(__dirname, 'images', 'share', 'DRH', '1');
+const outputDir = path.join(__dirname, 'images', 'share', 'DRH', '2');
 const titles = [
-"Karma’s Sequel",
-"Insipid Arrivals",
-"New Sayings",
-"Kirk Kirkendall",
-"Meow Khalifa",
-"Two Hands",
-"Cinerary Eyes",
-"Dour Trimmings",
-"Levulose",
-"Hearthstoned Exuberance",
-"At least Folly Knows"
+"Dungaree",
+"Drawer",
+"In a Teenager’s Studio Flat",
+"Holds",
+"A Gender Promise"
 ];
 
 const drawText = (ctx, text, x, y, maxWidth) => {
@@ -69,7 +63,7 @@ const generateImages = async () => {
         ctx.fillStyle = 'black';
         ctx.textAlign = 'center';
         ctx.textBaseline = 'top';
-        ctx.fillText('DR. CARL HILL COLLECTION (BOOK ONE)', imageSize / 2, 10); // Corrected position
+        ctx.fillText('DR. CARL HILL COLLECTION (BOOK TWO)', imageSize / 2, 10); // Corrected position
 
         // Save the image
         const buffer = canvas.toBuffer('image/png');
