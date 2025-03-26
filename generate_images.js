@@ -7,28 +7,34 @@ registerFont('font/Architects_Daughter.ttf', { family: 'Architects Daughter' });
 
 const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
-const outputDir = path.join(__dirname, 'images', 'share', 'FHC', '10');
+const outputDir = path.join(__dirname, 'images', 'share', 'FHC', '11');
 const titles = [
-"I’ve Been Waiting",
-"Pumped Kin",
-"A Long Dream",
-"Her Other Names",
-"Silver",
-"I Made Myself Write Today",
-"Owl Light Ideas",
-"Love Animal Stripes",
-"Flamingo Slut",
-"She Feels",
-"The Man",
-"Interred Tale Not Yelled",
-"An Angel’s Midnight Sigh",
-"Worth His Salt, But Not Meant",
-"Did You Ask For Spring Water But Got Rain?",
-"The Surf",
-"Clip Spot X to Fly",
-"Book Spirits",
-"Her Hex",
-"Cold Call"
+"Village Bicycle",
+"Kill The Calm Co-Duh",
+"Natural Arson",
+"Tuck Shop",
+"A Dawn Fib",
+"Paris' Seventeen",
+"A Stroll With Paris",
+"How I'll Say I Love",
+"Paris' Porcelain Room",
+"We’re Not The Weak",
+"Rides To The Barrow",
+"She Was Sunshine",
+"Am I Sad?",
+"In Class Again",
+"Valentine Orbit",
+"But Please Let Me Go",
+"A Black Mirror",
+"SPAD",
+"The Masterpiece Plot",
+"Still Busy",
+"Gyne",
+"A Brute Would",
+"How You Say",
+"Returning",
+"Graves Under Letters",
+"Hanging"
 ];
 
 const drawText = (ctx, text, x, y, maxWidth) => {
@@ -78,7 +84,7 @@ const generateImages = async () => {
         ctx.fillStyle = 'black';
         ctx.textAlign = 'center';
         ctx.textBaseline = 'top';
-        ctx.fillText('FRITH HILTON COLLECTION X', imageSize / 2, 10); // Corrected position
+        ctx.fillText('FRITH HILTON COLLECTION XI', imageSize / 2, 10); // Corrected position
 
         // Save the image
         const buffer = canvas.toBuffer('image/png');
