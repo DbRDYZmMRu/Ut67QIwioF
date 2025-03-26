@@ -7,11 +7,14 @@ registerFont('font/Architects_Daughter.ttf', { family: 'Architects Daughter' });
 
 const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
-const outputDir = path.join(__dirname, 'images', 'share', 'DRH', '5');
+const outputDir = path.join(__dirname, 'images', 'share', 'W2W', '1');
 const titles = [
-            "Mom's cover-up",
-            "While she's spot-on"
-
+"Spurs Sore",
+"Dawn Stunned",
+"A Reverie’s Busy Bee",
+"In the Distance",
+"Dubious Poise",
+"Webbed Feet"
 ];
 
 const drawText = (ctx, text, x, y, maxWidth) => {
@@ -57,11 +60,11 @@ const generateImages = async () => {
         drawText(ctx, titles[i], imageSize / 2, imageSize / 2, imageSize - 40);
 
         // Draw the top center text
-        ctx.font = '50px "Architects Daughter"';
+        ctx.font = '60px "Architects Daughter"';
         ctx.fillStyle = 'black';
         ctx.textAlign = 'center';
         ctx.textBaseline = 'top';
-        ctx.fillText('DR. CARL HILL COLLECTION (BOOK FIVE)', imageSize / 2, 10); // Corrected position
+        ctx.fillText('WEST TO WEST COLLECTION I', imageSize / 2, 10); // Corrected position
 
         // Save the image
         const buffer = canvas.toBuffer('image/png');
