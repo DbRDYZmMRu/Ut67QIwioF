@@ -7,33 +7,28 @@ registerFont('font/Architects_Daughter.ttf', { family: 'Architects Daughter' });
 
 const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
-const outputDir = path.join(__dirname, 'images', 'share', 'FHC', '9');
+const outputDir = path.join(__dirname, 'images', 'share', 'FHC', '10');
 const titles = [
-"Landing Page",
-"Who’s that Chick",
-"Indigo for Romeo",
-"Mens rea",
-"Sweet Nothings",
-"Incredulous Passwords",
-"The Sour in Pricing",
-"Moonlight Flit",
-"Be Kind, Rewind",
-"Slings and Arrows",
-"Number One",
-"Nolens volens",
-"Knell",
-"Ataractic Actor Adore",
-"Bigot Now Most",
-"For When You Need It",
-"This Is It",
-"Whose City?",
-"Freckles",
-"My Sister’s Apron Strings",
-"35-68-8-23",
-"What Ingredient in An Open Book",
-"Rolling stone",
-"So For a Hand of Rain",
-"Stereobate Position"
+"I’ve Been Waiting",
+"Pumped Kin",
+"A Long Dream",
+"Her Other Names",
+"Silver",
+"I Made Myself Write Today",
+"Owl Light Ideas",
+"Love Animal Stripes",
+"Flamingo Slut",
+"She Feels",
+"The Man",
+"Interred Tale Not Yelled",
+"An Angel’s Midnight Sigh",
+"Worth His Salt, But Not Meant",
+"Did You Ask For Spring Water But Got Rain?",
+"The Surf",
+"Clip Spot X to Fly",
+"Book Spirits",
+"Her Hex",
+"Cold Call"
 ];
 
 const drawText = (ctx, text, x, y, maxWidth) => {
@@ -83,7 +78,7 @@ const generateImages = async () => {
         ctx.fillStyle = 'black';
         ctx.textAlign = 'center';
         ctx.textBaseline = 'top';
-        ctx.fillText('FRITH HILTON COLLECTION IX', imageSize / 2, 10); // Corrected position
+        ctx.fillText('FRITH HILTON COLLECTION X', imageSize / 2, 10); // Corrected position
 
         // Save the image
         const buffer = canvas.toBuffer('image/png');
