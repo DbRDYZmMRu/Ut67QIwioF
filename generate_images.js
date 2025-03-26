@@ -7,13 +7,12 @@ registerFont('font/Architects_Daughter.ttf', { family: 'Architects Daughter' });
 
 const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
-const outputDir = path.join(__dirname, 'images', 'share', 'DRH', '2');
+const outputDir = path.join(__dirname, 'images', 'share', 'DRH', '3');
 const titles = [
-"Dungaree",
-"Drawer",
-"In a Teenager’s Studio Flat",
-"Holds",
-"A Gender Promise"
+"What She Admires",
+"Serpentine Bounty",
+"Lies in a Mirror",
+"An Indifferent Wealth in Health"
 ];
 
 const drawText = (ctx, text, x, y, maxWidth) => {
@@ -63,7 +62,7 @@ const generateImages = async () => {
         ctx.fillStyle = 'black';
         ctx.textAlign = 'center';
         ctx.textBaseline = 'top';
-        ctx.fillText('DR. CARL HILL COLLECTION (BOOK TWO)', imageSize / 2, 10); // Corrected position
+        ctx.fillText('DR. CARL HILL COLLECTION (BOOK THREE)', imageSize / 2, 10); // Corrected position
 
         // Save the image
         const buffer = canvas.toBuffer('image/png');
