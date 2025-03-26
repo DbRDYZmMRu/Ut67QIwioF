@@ -65,7 +65,7 @@ const generateImages = async () => {
         drawText(ctx, titles[i], imageSize / 2, imageSize / 2, imageSize - 40);
 
         // Draw the top center text
-        ctx.font = '60px "Architects Daughter"';
+        ctx.font = '50px "Architects Daughter"';
         ctx.fillStyle = 'black';
         ctx.textAlign = 'center';
         ctx.textBaseline = 'top';
