@@ -7,53 +7,37 @@ registerFont('font/Architects_Daughter.ttf', { family: 'Architects Daughter' });
 
 const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
-const outputDir = path.join(__dirname, 'images', 'share', 'FHC', '6');
+const outputDir = path.join(__dirname, 'images', 'share', 'FHC', '7');
 const titles = [
-"All Factory",
-"Model Versions",
-"Can I?",
-"Bad Listener",
-"To Compromise",
-"Baggy heart",
-"A High Old Time",
-"Thunder Son",
-"Shooting Star Daddy",
-"Junkie Mood",
-"The Rush at the Theatre",
-"He’s Glad",
-"I Think She Knows",
-"Prime Mover",
-"Made of Squiffy Cotton",
-"I Hope You Do",
-"Wrote This Last",
-"Ears and Else What",
-"Bill and Coo",
-"Bad Litter",
-"No Return",
-"Games",
-"Alas",
-"Funnel",
-"High Gunsels",
-"We Have a Boy",
-"A New Picket’s Cost",
-"Bam, Bam Cheddar",
-"Enemy",
-"A Twinge Pitch",
-"Darling’s Blue Jeans",
-"No Ricochet Recollection",
-"Every Pound",
-"Till I bathe In It",
-"Selling a Day",
-"Caret in Ink",
-"My Gawd, I’m Watched",
-"To Reach You",
-"Cinderella’s Closet",
-"Suerte",
-"Terra Incognita",
-"The Fustian",
-"Lithium",
-"I Met You",
-"It’s the First Time"
+"Serendipity",
+"Third Person Omniscient",
+"Survive Belong and Become",
+"No Collection",
+"One Sweet Hick",
+"Instagram Is Her Joujou",
+"Dad's Gamp",
+"Whelmed Men",
+"The Geezer's Fowl",
+"Collection VI",
+"The Film Festival",
+"Crimson as Red Stain",
+"A Taste of the Unworthy",
+"The Same Thing as in Catch",
+"The Bad Does Good, Good Does Bad",
+"Yowzah",
+"Taylor's Thighs",
+"All His Love",
+"In Graduations",
+"Antenna",
+"Yobs, Some Poetry Don't Rhyme",
+"August",
+"If I Was Your Boyfriend",
+"A Curio",
+"Where New Chicks Hatch",
+"Daddy, Daddy, Daddy Bandying",
+"Dovetail",
+"Eyrie",
+"Shaking for an Idol"
 ];
 
 const drawText = (ctx, text, x, y, maxWidth) => {
@@ -103,7 +87,7 @@ const generateImages = async () => {
         ctx.fillStyle = 'black';
         ctx.textAlign = 'center';
         ctx.textBaseline = 'top';
-        ctx.fillText('FRITH HILTON COLLECTION VI', imageSize / 2, 10); // Corrected position
+        ctx.fillText('FRITH HILTON COLLECTION VII', imageSize / 2, 10); // Corrected position
 
         // Save the image
         const buffer = canvas.toBuffer('image/png');
