@@ -7,25 +7,22 @@ registerFont('font/Architects_Daughter.ttf', { family: 'Architects Daughter' });
 
 const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
-const outputDir = path.join(__dirname, 'images', 'share', 'FHC', '14');
+const outputDir = path.join(__dirname, 'images', 'share', 'FHC', '15');
 const titles = [
-"It's Momma's Clock",
-"Every Word",
-"Rome In a Still",
-"Red",
-"Hardcore",
-"The Chick In",
-"Too Clever By Half",
-"It Goes",
-"Falling For Winter",
-"Every Canoe Paddler",
-"Tell Me Again, What Gives?",
-"Aiming On How?",
+"Patchwork",
+"She Could Be the Queen",
+"Summer Hotel Receipts",
+"If Mentioning",
+"Fifty-Two Weeks",
+"Bally Opted",
+"Heart Rhythm",
+"Our P Wave",
+"Aftertaste",
+"She's a Rockstar",
+"Sabali",
+"Halftime Affiche",
 "Hell Mate",
-"Clap Butt Shut",
-"Charming, I buy her",
-"She's by the Oldie Station",
-"Sly Tut"
+"By the Hearth"
 ];
 
 const drawText = (ctx, text, x, y, maxWidth) => {
@@ -75,7 +72,7 @@ const generateImages = async () => {
         ctx.fillStyle = 'black';
         ctx.textAlign = 'center';
         ctx.textBaseline = 'top';
-        ctx.fillText('FRITH HILTON COLLECTION XIV', imageSize / 2, 10); // Corrected position
+        ctx.fillText('FRITH HILTON COLLECTION XV', imageSize / 2, 10); // Corrected position
 
         // Save the image
         const buffer = canvas.toBuffer('image/png');
