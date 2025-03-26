@@ -7,34 +7,42 @@ registerFont('font/Architects_Daughter.ttf', { family: 'Architects Daughter' });
 
 const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
-const outputDir = path.join(__dirname, 'images', 'share', 'FHC', '11');
+const outputDir = path.join(__dirname, 'images', 'share', 'FHC', '12');
 const titles = [
-"Village Bicycle",
-"Kill The Calm Co-Duh",
-"Natural Arson",
-"Tuck Shop",
-"A Dawn Fib",
-"Paris' Seventeen",
-"A Stroll With Paris",
-"How I'll Say I Love",
-"Paris' Porcelain Room",
-"We’re Not The Weak",
-"Rides To The Barrow",
-"She Was Sunshine",
-"Am I Sad?",
-"In Class Again",
-"Valentine Orbit",
-"But Please Let Me Go",
-"A Black Mirror",
-"SPAD",
-"The Masterpiece Plot",
-"Still Busy",
-"Gyne",
-"A Brute Would",
-"How You Say",
-"Returning",
-"Graves Under Letters",
-"Hanging"
+"Three In Corm",
+"Iniquity",
+"Highlight",
+"No One Else's Burble",
+"Maggot Beach",
+"Article By A Freelancer",
+"Highway Folks",
+"Hill Spirit",
+"Priest Hole",
+"For The Ore In The Urn",
+"What Knows And Owes",
+"But Not Of Her Boot Chill",
+"Open Au ​Revoirs",
+"The Fugue Comes",
+"Pistachio Ross Details",
+"Our Tamagotchi Isle",
+"Sneaky Mercenaries",
+"Man Leash Man",
+"All That I Have",
+"Not My Patched Eye I Promise",
+"The Suspense Grid",
+"Pumped Price",
+"Braggadocious",
+"Sabot Ready",
+"Riff-Formation",
+"No Rheum",
+"Pirouette",
+"Plenary",
+"Progeny Variants",
+"Moth Emote",
+"Unseemly Elysium",
+"Life And Death Familiar",
+"Shoulder Pads",
+"An Icon's Roof"
 ];
 
 const drawText = (ctx, text, x, y, maxWidth) => {
@@ -84,7 +92,7 @@ const generateImages = async () => {
         ctx.fillStyle = 'black';
         ctx.textAlign = 'center';
         ctx.textBaseline = 'top';
-        ctx.fillText('FRITH HILTON COLLECTION XI', imageSize / 2, 10); // Corrected position
+        ctx.fillText('FRITH HILTON COLLECTION XII', imageSize / 2, 10); // Corrected position
 
         // Save the image
         const buffer = canvas.toBuffer('image/png');
