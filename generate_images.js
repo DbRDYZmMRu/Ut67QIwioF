@@ -7,22 +7,18 @@ registerFont('font/Architects_Daughter.ttf', { family: 'Architects Daughter' });
 
 const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
-const outputDir = path.join(__dirname, 'images', 'share', 'FHC', '16');
+const outputDir = path.join(__dirname, 'images', 'share', 'FHC', '17');
 const titles = [
-"Set.Go", 
-"Dear Abbys Coo", 
-"Typeface", 
-"The Last Supper", 
-"A Painter's Brush Rush", 
-"Eddy Ick", 
-"Window Blinds of Silk", 
-"An Exchange Student",
-"Infamous", 
-"Say Uncle", 
-"A Smitten Bed", 
-"Mouth to Mouth", 
-"Hell Mate", 
-"Cordial"
+"Syndicate",
+"Again We Wait",
+"Watchful Hills",
+"With the World At",
+"Dirt Streets",
+"The Moon!",
+"For The Stay",
+"Celsius Wait",
+"Heart Meet Break",
+"An Apple"
 ];
 
 const drawText = (ctx, text, x, y, maxWidth) => {
@@ -72,7 +68,7 @@ const generateImages = async () => {
         ctx.fillStyle = 'black';
         ctx.textAlign = 'center';
         ctx.textBaseline = 'top';
-        ctx.fillText('FRITH HILTON COLLECTION XVI', imageSize / 2, 10); // Corrected position
+        ctx.fillText('FRITH HILTON COLLECTION XVII', imageSize / 2, 10); // Corrected position
 
         // Save the image
         const buffer = canvas.toBuffer('image/png');
