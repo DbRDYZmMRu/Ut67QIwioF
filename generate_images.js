@@ -7,31 +7,33 @@ registerFont('font/Architects_Daughter.ttf', { family: 'Architects Daughter' });
 
 const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
-const outputDir = path.join(__dirname, 'images', 'share', 'FHC', '8');
+const outputDir = path.join(__dirname, 'images', 'share', 'FHC', '9');
 const titles = [
-"When the Bad Men Browbeat",
-"You Sexy Thing I Believe in Miracles",
-"Pomona Bears a Lantern",
-"Remorse Restaurant",
-"How I'd Employ a Boring Tongue",
-"Red Thread of Fate",
-"Closed Circuit",
-"Whopper Bopper",
-"Dismissed Laud",
-"The Rod of Asclepius",
-"It's a Military Campaign",
-"Got it Bad or Great?",
-"Bestie",
-"Fine Gyre",
-"Unfamiliar Stories",
-"Kendall's Swatch",
-"Oh Nadir",
-"Mummy's Hutch",
-"Quoit",
-"The Queen",
-"No Handle to this Gavel",
-"The Demure Chalice",
-"Hello Proprietor"
+"Landing Page",
+"Who’s that Chick",
+"Indigo for Romeo",
+"Mens rea",
+"Sweet Nothings",
+"Incredulous Passwords",
+"The Sour in Pricing",
+"Moonlight Flit",
+"Be Kind, Rewind",
+"Slings and Arrows",
+"Number One",
+"Nolens volens",
+"Knell",
+"Ataractic Actor Adore",
+"Bigot Now Most",
+"For When You Need It",
+"This Is It",
+"Whose City?",
+"Freckles",
+"My Sister’s Apron Strings",
+"35-68-8-23",
+"What Ingredient in An Open Book",
+"Rolling stone",
+"So For a Hand of Rain",
+"Stereobate Position"
 ];
 
 const drawText = (ctx, text, x, y, maxWidth) => {
@@ -81,7 +83,7 @@ const generateImages = async () => {
         ctx.fillStyle = 'black';
         ctx.textAlign = 'center';
         ctx.textBaseline = 'top';
-        ctx.fillText('FRITH HILTON COLLECTION VIII', imageSize / 2, 10); // Corrected position
+        ctx.fillText('FRITH HILTON COLLECTION IX', imageSize / 2, 10); // Corrected position
 
         // Save the image
         const buffer = canvas.toBuffer('image/png');
