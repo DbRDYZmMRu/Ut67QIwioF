@@ -9,12 +9,7 @@ const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
 const outputDir = path.join(__dirname, 'images', 'share', 'W2W', '1');
 const titles = [
-"Spurs Sore",
-"Dawn Stunned",
-"A Reverie’s Busy Bee",
-"In the Distance",
-"Dubious Poise",
-"Webbed Feet"
+"New Clothes"
 ];
 
 const drawText = (ctx, text, x, y, maxWidth) => {
@@ -68,7 +63,7 @@ const generateImages = async () => {
 
         // Save the image
         const buffer = canvas.toBuffer('image/png');
-        fs.writeFileSync(path.join(outputDir, `image_${i + 1}.png`), buffer);
+        fs.writeFileSync(path.join(outputDir, `image_${i + 7}.png`), buffer);
     }
 };
 
