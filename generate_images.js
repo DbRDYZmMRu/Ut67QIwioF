@@ -7,37 +7,31 @@ registerFont('font/Architects_Daughter.ttf', { family: 'Architects Daughter' });
 
 const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
-const outputDir = path.join(__dirname, 'images', 'share', 'FHC', '7');
+const outputDir = path.join(__dirname, 'images', 'share', 'FHC', '8');
 const titles = [
-"Serendipity",
-"Third Person Omniscient",
-"Survive Belong and Become",
-"No Collection",
-"One Sweet Hick",
-"Instagram Is Her Joujou",
-"Dad's Gamp",
-"Whelmed Men",
-"The Geezer's Fowl",
-"Collection VI",
-"The Film Festival",
-"Crimson as Red Stain",
-"A Taste of the Unworthy",
-"The Same Thing as in Catch",
-"The Bad Does Good, Good Does Bad",
-"Yowzah",
-"Taylor's Thighs",
-"All His Love",
-"In Graduations",
-"Antenna",
-"Yobs, Some Poetry Don't Rhyme",
-"August",
-"If I Was Your Boyfriend",
-"A Curio",
-"Where New Chicks Hatch",
-"Daddy, Daddy, Daddy Bandying",
-"Dovetail",
-"Eyrie",
-"Shaking for an Idol"
+"When the Bad Men Browbeat",
+"You Sexy Thing I Believe in Miracles",
+"Pomona Bears a Lantern",
+"Remorse Restaurant",
+"How I'd Employ a Boring Tongue",
+"Red Thread of Fate",
+"Closed Circuit",
+"Whopper Bopper",
+"Dismissed Laud",
+"The Rod of Asclepius",
+"It's a Military Campaign",
+"Got it Bad or Great?",
+"Bestie",
+"Fine Gyre",
+"Unfamiliar Stories",
+"Kendall's Swatch",
+"Oh Nadir",
+"Mummy's Hutch",
+"Quoit",
+"The Queen",
+"No Handle to this Gavel",
+"The Demure Chalice",
+"Hello Proprietor"
 ];
 
 const drawText = (ctx, text, x, y, maxWidth) => {
@@ -87,7 +81,7 @@ const generateImages = async () => {
         ctx.fillStyle = 'black';
         ctx.textAlign = 'center';
         ctx.textBaseline = 'top';
-        ctx.fillText('FRITH HILTON COLLECTION VII', imageSize / 2, 10); // Corrected position
+        ctx.fillText('FRITH HILTON COLLECTION VIII', imageSize / 2, 10); // Corrected position
 
         // Save the image
         const buffer = canvas.toBuffer('image/png');
