@@ -7,21 +7,13 @@ registerFont('font/Architects_Daughter.ttf', { family: 'Architects Daughter' });
 
 const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
-const outputDir = path.join(__dirname, 'images', 'share', 'FHC', '20');
+const outputDir = path.join(__dirname, 'images', 'share', 'FHC', '21');
 const titles = [
-"A Truant’s Pose",
-"Shapes made out of flour",
-"Big Bang Theory",
-"A Baby Crocodile",
-"Camping",
-"Say Something",
-"God Blessed Me",
-"The Roof Left",
-"The Answer",
-"Pinpoint",
-"Electric city, unelectric roses",
-"Unmatched",
-"Morning Rides as a Pupil"
+"Ideas Usurping",
+"Guilty as Sin?",
+"loml",
+"So High School",
+"I Hate It Here"
 ];
 
 const drawText = (ctx, text, x, y, maxWidth) => {
@@ -71,7 +63,7 @@ const generateImages = async () => {
         ctx.fillStyle = 'black';
         ctx.textAlign = 'center';
         ctx.textBaseline = 'top';
-        ctx.fillText('FRITH HILTON COLLECTION XX', imageSize / 2, 10); // Corrected position
+        ctx.fillText('FRITH HILTON COLLECTION XXI', imageSize / 2, 10); // Corrected position
 
         // Save the image
         const buffer = canvas.toBuffer('image/png');
