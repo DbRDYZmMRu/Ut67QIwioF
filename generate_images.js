@@ -7,18 +7,22 @@ registerFont('font/Architects_Daughter.ttf', { family: 'Architects Daughter' });
 
 const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
-const outputDir = path.join(__dirname, 'images', 'share', 'FHC', '17');
+const outputDir = path.join(__dirname, 'images', 'share', 'FHC', '18');
 const titles = [
-"Syndicate",
-"Again We Wait",
-"Watchful Hills",
-"With the World At",
-"Dirt Streets",
-"The Moon!",
-"For The Stay",
-"Celsius Wait",
-"Heart Meet Break",
-"An Apple"
+"Pink Slip",
+"Snout Population",
+"Asymmetrical Lives",
+"Little Life Tuppence",
+"Gooey Wish",
+"Touch the Battery",
+"Wise Deposits",
+"Lent Reasons",
+"My Boy",
+"Cursory Impulse",
+"Pelmets of Diamonds",
+"Capisce?",
+"Repeat",
+"Jasmine"
 ];
 
 const drawText = (ctx, text, x, y, maxWidth) => {
@@ -68,7 +72,7 @@ const generateImages = async () => {
         ctx.fillStyle = 'black';
         ctx.textAlign = 'center';
         ctx.textBaseline = 'top';
-        ctx.fillText('FRITH HILTON COLLECTION XVII', imageSize / 2, 10); // Corrected position
+        ctx.fillText('FRITH HILTON COLLECTION XVIII', imageSize / 2, 10); // Corrected position
 
         // Save the image
         const buffer = canvas.toBuffer('image/png');
