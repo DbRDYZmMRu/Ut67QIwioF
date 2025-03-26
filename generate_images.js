@@ -7,36 +7,25 @@ registerFont('font/Architects_Daughter.ttf', { family: 'Architects Daughter' });
 
 const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
-const outputDir = path.join(__dirname, 'images', 'share', 'FHC', '13');
+const outputDir = path.join(__dirname, 'images', 'share', 'FHC', '14');
 const titles = [
-"Repatriate",
-"A Gaining Day",
-"Lettuce And Potato In An Old Rag",
-"Meaning To Means",
-"Adenosine Diphosphate",
-"Misunderstood",
-"An Aniconist",
-"Swim Theory",
-"Time’s Peccavi",
-"Silent Miracles",
-"It’s The Jungle",
-"But I’m Still Sick",
-"You’re A Jewel",
-"The Truth That Lies",
-"Buffalo",
-"The Croupier’s Mullet",
-"Swallowing Pride",
-"Whiffling Ease",
-"Sell Ebbs",
-"Climate Change",
-"Buddy",
-"What Folly Brought",
-"The Brittle’s Candy Store",
-"Disguised Misanthropy",
-"Knell Culture",
-"Downhill Feelings",
-"All Time Borne",
-"Not Unlike Being Poetic"
+"It's Momma's Clock",
+"Every Word",
+"Rome In a Still",
+"Red",
+"Hardcore",
+"The Chick In",
+"Too Clever By Half",
+"It Goes",
+"Falling For Winter",
+"Every Canoe Paddler",
+"Tell Me Again, What Gives?",
+"Aiming On How?",
+"Hell Mate",
+"Clap Butt Shut",
+"Charming, I buy her",
+"She's by the Oldie Station",
+"Sly Tut"
 ];
 
 const drawText = (ctx, text, x, y, maxWidth) => {
@@ -86,7 +75,7 @@ const generateImages = async () => {
         ctx.fillStyle = 'black';
         ctx.textAlign = 'center';
         ctx.textBaseline = 'top';
-        ctx.fillText('FRITH HILTON COLLECTION XIII', imageSize / 2, 10); // Corrected position
+        ctx.fillText('FRITH HILTON COLLECTION XIV', imageSize / 2, 10); // Corrected position
 
         // Save the image
         const buffer = canvas.toBuffer('image/png');
