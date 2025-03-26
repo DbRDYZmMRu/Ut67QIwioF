@@ -7,12 +7,12 @@ registerFont('font/Architects_Daughter.ttf', { family: 'Architects Daughter' });
 
 const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
-const outputDir = path.join(__dirname, 'images', 'share', 'DRH', '3');
+const outputDir = path.join(__dirname, 'images', 'share', 'DRH', '4');
 const titles = [
-"What She Admires",
-"Serpentine Bounty",
-"Lies in a Mirror",
-"An Indifferent Wealth in Health"
+"The Euphony of Heist",
+"At the Local Church",
+"As Wine Sweet",
+"In a Toast"
 ];
 
 const drawText = (ctx, text, x, y, maxWidth) => {
@@ -62,7 +62,7 @@ const generateImages = async () => {
         ctx.fillStyle = 'black';
         ctx.textAlign = 'center';
         ctx.textBaseline = 'top';
-        ctx.fillText('DR. CARL HILL COLLECTION (BOOK THREE)', imageSize / 2, 10); // Corrected position
+        ctx.fillText('DR. CARL HILL COLLECTION (BOOK FOUR)', imageSize / 2, 10); // Corrected position
 
         // Save the image
         const buffer = canvas.toBuffer('image/png');
