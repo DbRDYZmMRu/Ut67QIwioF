@@ -1,0 +1,192 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Forgiveness runs like a late brook",
+      "startTime": 3.571652,
+      "endTime": 8.766047,
+      "words": [
+        {
+          "id": 1,
+          "text": "Forgiveness",
+          "startTime": 3.571652,
+          "endTime": 6.175613
+        },
+        {
+          "id": 2,
+          "text": "runs",
+          "startTime": 6.175613,
+          "endTime": 7.1728
+        },
+        {
+          "id": 3,
+          "text": "like",
+          "startTime": 7.1728,
+          "endTime": 7.436295
+        },
+        {
+          "id": 4,
+          "text": "a",
+          "startTime": 7.436295,
+          "endTime": 7.568512
+        },
+        {
+          "id": 5,
+          "text": "late",
+          "startTime": 7.568512,
+          "endTime": 7.966582
+        },
+        {
+          "id": 6,
+          "text": "brook",
+          "startTime": 7.966582,
+          "endTime": 8.766047
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "but the first day of spring’s groove",
+      "startTime": 8.766047,
+      "endTime": 14.280462,
+      "words": [
+        {
+          "id": 7,
+          "text": "but",
+          "startTime": 8.766047,
+          "endTime": 9.962162
+        },
+        {
+          "id": 8,
+          "text": "the",
+          "startTime": 9.962162,
+          "endTime": 10.028118
+        },
+        {
+          "id": 9,
+          "text": "first",
+          "startTime": 10.028118,
+          "endTime": 10.294415
+        },
+        {
+          "id": 10,
+          "text": "day",
+          "startTime": 10.294415,
+          "endTime": 10.555482
+        },
+        {
+          "id": 11,
+          "text": "of",
+          "startTime": 10.555482,
+          "endTime": 11.621092
+        },
+        {
+          "id": 12,
+          "text": "spring’s",
+          "startTime": 11.621092,
+          "endTime": 12.289523
+        },
+        {
+          "id": 13,
+          "text": "groove",
+          "startTime": 12.289523,
+          "endTime": 14.280462
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "seeing it mismatch my earlier foot",
+      "startTime": 14.280462,
+      "endTime": 17.337058,
+      "words": [
+        {
+          "id": 14,
+          "text": "seeing",
+          "startTime": 14.280462,
+          "endTime": 14.747144
+        },
+        {
+          "id": 15,
+          "text": "it",
+          "startTime": 14.747144,
+          "endTime": 15.008927
+        },
+        {
+          "id": 16,
+          "text": "mismatch",
+          "startTime": 15.008927,
+          "endTime": 15.607808
+        },
+        {
+          "id": 17,
+          "text": "my",
+          "startTime": 15.607808,
+          "endTime": 15.809166
+        },
+        {
+          "id": 18,
+          "text": "earlier",
+          "startTime": 15.809166,
+          "endTime": 16.203917
+        },
+        {
+          "id": 19,
+          "text": "foot",
+          "startTime": 16.203917,
+          "endTime": 17.337058
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "it's to go, flowing alongside my lute.",
+      "startTime": 17.337058,
+      "endTime": 23.527416,
+      "words": [
+        {
+          "id": 20,
+          "text": "it's",
+          "startTime": 17.337058,
+          "endTime": 18.331809
+        },
+        {
+          "id": 21,
+          "text": "to",
+          "startTime": 18.331809,
+          "endTime": 18.529616
+        },
+        {
+          "id": 22,
+          "text": "go,",
+          "startTime": 18.529616,
+          "endTime": 19.535302
+        },
+        {
+          "id": 23,
+          "text": "flowing",
+          "startTime": 19.535302,
+          "endTime": 20.395386
+        },
+        {
+          "id": 24,
+          "text": "alongside",
+          "startTime": 20.395386,
+          "endTime": 21.262525
+        },
+        {
+          "id": 25,
+          "text": "my",
+          "startTime": 21.262525,
+          "endTime": 21.527416
+        },
+        {
+          "id": 26,
+          "text": "lute.",
+          "startTime": 21.527416,
+          "endTime": 23.527416
+        }
+      ]
+    }
+  ]
+}

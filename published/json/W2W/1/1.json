@@ -1,0 +1,118 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "The breast of thoughts",
+      "startTime": 4.911539,
+      "endTime": 9.030337,
+      "words": [
+        {
+          "id": 1,
+          "text": "The",
+          "startTime": 4.911539,
+          "endTime": 6.9691
+        },
+        {
+          "id": 2,
+          "text": "breast",
+          "startTime": 6.9691,
+          "endTime": 7.502286
+        },
+        {
+          "id": 3,
+          "text": "of",
+          "startTime": 7.502286,
+          "endTime": 7.767574
+        },
+        {
+          "id": 4,
+          "text": "thoughts",
+          "startTime": 7.767574,
+          "endTime": 9.030337
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "solo waiting at the fuss",
+      "startTime": 9.030337,
+      "endTime": 11.483721,
+      "words": [
+        {
+          "id": 5,
+          "text": "solo",
+          "startTime": 9.030337,
+          "endTime": 9.627146
+        },
+        {
+          "id": 6,
+          "text": "waiting",
+          "startTime": 9.627146,
+          "endTime": 10.220118
+        },
+        {
+          "id": 7,
+          "text": "at",
+          "startTime": 10.220118,
+          "endTime": 10.357372
+        },
+        {
+          "id": 8,
+          "text": "the",
+          "startTime": 10.357372,
+          "endTime": 10.553405
+        },
+        {
+          "id": 9,
+          "text": "fuss",
+          "startTime": 10.553405,
+          "endTime": 11.483721
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "finicky, at a rush of loss.",
+      "startTime": 11.483721,
+      "endTime": 17.60167,
+      "words": [
+        {
+          "id": 10,
+          "text": "finicky,",
+          "startTime": 11.483721,
+          "endTime": 13.480048
+        },
+        {
+          "id": 11,
+          "text": "at",
+          "startTime": 13.480048,
+          "endTime": 14.408957
+        },
+        {
+          "id": 12,
+          "text": "a",
+          "startTime": 14.408957,
+          "endTime": 14.540906
+        },
+        {
+          "id": 13,
+          "text": "rush",
+          "startTime": 14.540906,
+          "endTime": 15.138269
+        },
+        {
+          "id": 14,
+          "text": "of",
+          "startTime": 15.138269,
+          "endTime": 15.60167
+        },
+        {
+          "id": 15,
+          "text": "loss.",
+          "startTime": 15.60167,
+          "endTime": 17.60167
+        }
+      ]
+    }
+  ]
+}

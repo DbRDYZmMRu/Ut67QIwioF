@@ -1,0 +1,218 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Spitballing aeroplane traffic",
+      "startTime": 3.835213,
+      "endTime": 8.883453,
+      "words": [
+        {
+          "id": 1,
+          "text": "Spitballing",
+          "startTime": 3.835213,
+          "endTime": 7.425041
+        },
+        {
+          "id": 2,
+          "text": "aeroplane",
+          "startTime": 7.425041,
+          "endTime": 8.088299
+        },
+        {
+          "id": 3,
+          "text": "traffic",
+          "startTime": 8.088299,
+          "endTime": 8.883453
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "as I sweeten my rise in public ",
+      "startTime": 8.883453,
+      "endTime": 12.735704,
+      "words": [
+        {
+          "id": 4,
+          "text": "as",
+          "startTime": 8.883453,
+          "endTime": 9.748447
+        },
+        {
+          "id": 5,
+          "text": "I",
+          "startTime": 9.748447,
+          "endTime": 10.014122
+        },
+        {
+          "id": 6,
+          "text": "sweeten",
+          "startTime": 10.014122,
+          "endTime": 10.411098
+        },
+        {
+          "id": 7,
+          "text": "my",
+          "startTime": 10.411098,
+          "endTime": 10.613619
+        },
+        {
+          "id": 8,
+          "text": "rise",
+          "startTime": 10.613619,
+          "endTime": 11.14153
+        },
+        {
+          "id": 9,
+          "text": "in",
+          "startTime": 11.14153,
+          "endTime": 11.472452
+        },
+        {
+          "id": 10,
+          "text": "public",
+          "startTime": 11.472452,
+          "endTime": 12.735704
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "liftoff whistles belts are fastened",
+      "startTime": 12.735704,
+      "endTime": 16.459689,
+      "words": [
+        {
+          "id": 11,
+          "text": "liftoff",
+          "startTime": 12.735704,
+          "endTime": 13.996508
+        },
+        {
+          "id": 12,
+          "text": "whistles",
+          "startTime": 13.996508,
+          "endTime": 14.661013
+        },
+        {
+          "id": 13,
+          "text": "belts",
+          "startTime": 14.661013,
+          "endTime": 15.394304
+        },
+        {
+          "id": 14,
+          "text": "are",
+          "startTime": 15.394304,
+          "endTime": 15.655382
+        },
+        {
+          "id": 15,
+          "text": "fastened",
+          "startTime": 15.655382,
+          "endTime": 16.459689
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "so does a daily escaping feeling",
+      "startTime": 16.459689,
+      "endTime": 20.113143,
+      "words": [
+        {
+          "id": 16,
+          "text": "so",
+          "startTime": 16.459689,
+          "endTime": 17.520541
+        },
+        {
+          "id": 17,
+          "text": "does",
+          "startTime": 17.520541,
+          "endTime": 17.786652
+        },
+        {
+          "id": 18,
+          "text": "a",
+          "startTime": 17.786652,
+          "endTime": 17.987878
+        },
+        {
+          "id": 19,
+          "text": "daily",
+          "startTime": 17.987878,
+          "endTime": 18.584482
+        },
+        {
+          "id": 20,
+          "text": "escaping",
+          "startTime": 18.584482,
+          "endTime": 19.115062
+        },
+        {
+          "id": 21,
+          "text": "feeling",
+          "startTime": 19.115062,
+          "endTime": 20.113143
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "a door waiting for you to mum me.",
+      "startTime": 20.113143,
+      "endTime": 25.36842,
+      "words": [
+        {
+          "id": 22,
+          "text": "a",
+          "startTime": 20.113143,
+          "endTime": 21.043778
+        },
+        {
+          "id": 23,
+          "text": "door",
+          "startTime": 21.043778,
+          "endTime": 21.310069
+        },
+        {
+          "id": 24,
+          "text": "waiting",
+          "startTime": 21.310069,
+          "endTime": 22.239867
+        },
+        {
+          "id": 25,
+          "text": "for",
+          "startTime": 22.239867,
+          "endTime": 22.701994
+        },
+        {
+          "id": 26,
+          "text": "you",
+          "startTime": 22.701994,
+          "endTime": 22.90329
+        },
+        {
+          "id": 27,
+          "text": "to",
+          "startTime": 22.90329,
+          "endTime": 23.105702
+        },
+        {
+          "id": 28,
+          "text": "mum",
+          "startTime": 23.105702,
+          "endTime": 23.36842
+        },
+        {
+          "id": 29,
+          "text": "me.",
+          "startTime": 23.36842,
+          "endTime": 25.36842
+        }
+      ]
+    }
+  ]
+}

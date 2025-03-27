@@ -1,0 +1,210 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "The rain came with its trivia events",
+      "startTime": 4.040038,
+      "endTime": 8.690952,
+      "words": [
+        {
+          "id": 1,
+          "text": "The",
+          "startTime": 4.040038,
+          "endTime": 6.100739
+        },
+        {
+          "id": 2,
+          "text": "rain",
+          "startTime": 6.100739,
+          "endTime": 6.563315
+        },
+        {
+          "id": 3,
+          "text": "came",
+          "startTime": 6.563315,
+          "endTime": 6.765347
+        },
+        {
+          "id": 4,
+          "text": "with",
+          "startTime": 6.765347,
+          "endTime": 6.960883
+        },
+        {
+          "id": 5,
+          "text": "its",
+          "startTime": 6.960883,
+          "endTime": 7.22736
+        },
+        {
+          "id": 6,
+          "text": "trivia",
+          "startTime": 7.22736,
+          "endTime": 7.694015
+        },
+        {
+          "id": 7,
+          "text": "events",
+          "startTime": 7.694015,
+          "endTime": 8.690952
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "the dog left to note, not to befriend ",
+      "startTime": 8.690952,
+      "endTime": 14.66341,
+      "words": [
+        {
+          "id": 8,
+          "text": "the",
+          "startTime": 8.690952,
+          "endTime": 10.08276
+        },
+        {
+          "id": 9,
+          "text": "dog",
+          "startTime": 10.08276,
+          "endTime": 10.544764
+        },
+        {
+          "id": 10,
+          "text": "left",
+          "startTime": 10.544764,
+          "endTime": 11.408886
+        },
+        {
+          "id": 11,
+          "text": "to",
+          "startTime": 11.408886,
+          "endTime": 11.676839
+        },
+        {
+          "id": 12,
+          "text": "note,",
+          "startTime": 11.676839,
+          "endTime": 12.405999
+        },
+        {
+          "id": 13,
+          "text": "not",
+          "startTime": 12.405999,
+          "endTime": 13.13892
+        },
+        {
+          "id": 14,
+          "text": "to",
+          "startTime": 13.13892,
+          "endTime": 13.334071
+        },
+        {
+          "id": 15,
+          "text": "befriend",
+          "startTime": 13.334071,
+          "endTime": 14.66341
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "passing with a heavy leg not recent ",
+      "startTime": 14.66341,
+      "endTime": 19.117162,
+      "words": [
+        {
+          "id": 16,
+          "text": "passing",
+          "startTime": 14.66341,
+          "endTime": 16.593072
+        },
+        {
+          "id": 17,
+          "text": "with",
+          "startTime": 16.593072,
+          "endTime": 16.79432
+        },
+        {
+          "id": 18,
+          "text": "a",
+          "startTime": 16.79432,
+          "endTime": 16.995969
+        },
+        {
+          "id": 19,
+          "text": "heavy",
+          "startTime": 16.995969,
+          "endTime": 17.256255
+        },
+        {
+          "id": 20,
+          "text": "leg",
+          "startTime": 17.256255,
+          "endTime": 17.523963
+        },
+        {
+          "id": 21,
+          "text": "not",
+          "startTime": 17.523963,
+          "endTime": 17.855722
+        },
+        {
+          "id": 22,
+          "text": "recent",
+          "startTime": 17.855722,
+          "endTime": 19.117162
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "my path held me as fabrics smelts. ",
+      "startTime": 19.117162,
+      "endTime": 24.968757,
+      "words": [
+        {
+          "id": 23,
+          "text": "my",
+          "startTime": 19.117162,
+          "endTime": 20.378078
+        },
+        {
+          "id": 24,
+          "text": "path",
+          "startTime": 20.378078,
+          "endTime": 20.709707
+        },
+        {
+          "id": 25,
+          "text": "held",
+          "startTime": 20.709707,
+          "endTime": 21.043857
+        },
+        {
+          "id": 26,
+          "text": "me",
+          "startTime": 21.043857,
+          "endTime": 22.23966
+        },
+        {
+          "id": 27,
+          "text": "as",
+          "startTime": 22.23966,
+          "endTime": 22.369741
+        },
+        {
+          "id": 28,
+          "text": "fabrics",
+          "startTime": 22.369741,
+          "endTime": 22.968757
+        },
+        {
+          "id": 29,
+          "text": "smelts.",
+          "startTime": 22.968757,
+          "endTime": 24.968757
+        }
+      ]
+    }
+  ]
+}

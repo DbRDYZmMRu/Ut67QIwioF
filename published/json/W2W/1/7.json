@@ -1,0 +1,244 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Farther than the shadow’s bluff ",
+      "startTime": 4.224511,
+      "endTime": 8.008597,
+      "words": [
+        {
+          "id": 1,
+          "text": "Farther",
+          "startTime": 4.224511,
+          "endTime": 6.344047
+        },
+        {
+          "id": 2,
+          "text": "than",
+          "startTime": 6.344047,
+          "endTime": 6.545493
+        },
+        {
+          "id": 3,
+          "text": "the",
+          "startTime": 6.545493,
+          "endTime": 6.747851
+        },
+        {
+          "id": 4,
+          "text": "shadow’s",
+          "startTime": 6.747851,
+          "endTime": 7.276172
+        },
+        {
+          "id": 5,
+          "text": "bluff",
+          "startTime": 7.276172,
+          "endTime": 8.008597
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "my mind took a detour to shop",
+      "startTime": 8.008597,
+      "endTime": 12.587266,
+      "words": [
+        {
+          "id": 6,
+          "text": "my",
+          "startTime": 8.008597,
+          "endTime": 9.799438
+        },
+        {
+          "id": 7,
+          "text": "mind",
+          "startTime": 9.799438,
+          "endTime": 10.065911
+        },
+        {
+          "id": 8,
+          "text": "took",
+          "startTime": 10.065911,
+          "endTime": 10.267075
+        },
+        {
+          "id": 9,
+          "text": "a",
+          "startTime": 10.267075,
+          "endTime": 10.461918
+        },
+        {
+          "id": 10,
+          "text": "detour",
+          "startTime": 10.461918,
+          "endTime": 11.527201
+        },
+        {
+          "id": 11,
+          "text": "to",
+          "startTime": 11.527201,
+          "endTime": 11.660366
+        },
+        {
+          "id": 12,
+          "text": "shop",
+          "startTime": 11.660366,
+          "endTime": 12.587266
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "forgetting, forgiven, as had brud",
+      "startTime": 12.587266,
+      "endTime": 18.633672,
+      "words": [
+        {
+          "id": 13,
+          "text": "forgetting,",
+          "startTime": 12.587266,
+          "endTime": 14.181708
+        },
+        {
+          "id": 14,
+          "text": "forgiven,",
+          "startTime": 14.181708,
+          "endTime": 16.109693
+        },
+        {
+          "id": 15,
+          "text": "as",
+          "startTime": 16.109693,
+          "endTime": 16.97198
+        },
+        {
+          "id": 16,
+          "text": "had",
+          "startTime": 16.97198,
+          "endTime": 17.30586
+        },
+        {
+          "id": 17,
+          "text": "brud",
+          "startTime": 17.30586,
+          "endTime": 18.633672
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "the silhouette’s napless overture ",
+      "startTime": 18.633672,
+      "endTime": 22.485362,
+      "words": [
+        {
+          "id": 18,
+          "text": "the",
+          "startTime": 18.633672,
+          "endTime": 19.82494
+        },
+        {
+          "id": 19,
+          "text": "silhouette’s",
+          "startTime": 19.82494,
+          "endTime": 20.357063
+        },
+        {
+          "id": 20,
+          "text": "napless",
+          "startTime": 20.357063,
+          "endTime": 20.892009
+        },
+        {
+          "id": 21,
+          "text": "overture",
+          "startTime": 20.892009,
+          "endTime": 22.485362
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "totting the price of her sunburn",
+      "startTime": 22.485362,
+      "endTime": 26.069643,
+      "words": [
+        {
+          "id": 22,
+          "text": "totting",
+          "startTime": 22.485362,
+          "endTime": 23.414361
+        },
+        {
+          "id": 23,
+          "text": "the",
+          "startTime": 23.414361,
+          "endTime": 23.613136
+        },
+        {
+          "id": 24,
+          "text": "price",
+          "startTime": 23.613136,
+          "endTime": 24.012447
+        },
+        {
+          "id": 25,
+          "text": "of",
+          "startTime": 24.012447,
+          "endTime": 24.540571
+        },
+        {
+          "id": 26,
+          "text": "her",
+          "startTime": 24.540571,
+          "endTime": 24.807121
+        },
+        {
+          "id": 27,
+          "text": "sunburn",
+          "startTime": 24.807121,
+          "endTime": 26.069643
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "saving she implores the broad. ",
+      "startTime": 26.069643,
+      "endTime": 31.056468,
+      "words": [
+        {
+          "id": 28,
+          "text": "saving",
+          "startTime": 26.069643,
+          "endTime": 27.195537
+        },
+        {
+          "id": 29,
+          "text": "she",
+          "startTime": 27.195537,
+          "endTime": 28.059478
+        },
+        {
+          "id": 30,
+          "text": "implores",
+          "startTime": 28.059478,
+          "endTime": 28.859871
+        },
+        {
+          "id": 31,
+          "text": "the",
+          "startTime": 28.859871,
+          "endTime": 29.056468
+        },
+        {
+          "id": 32,
+          "text": "broad.",
+          "startTime": 29.056468,
+          "endTime": 31.056468
+        }
+      ]
+    }
+  ]
+}

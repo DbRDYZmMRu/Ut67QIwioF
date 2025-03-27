@@ -1,0 +1,238 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Douse the trust of years",
+      "startTime": 3.452455,
+      "endTime": 8.233515,
+      "words": [
+        {
+          "id": 1,
+          "text": "Douse",
+          "startTime": 3.452455,
+          "endTime": 6.041835
+        },
+        {
+          "id": 2,
+          "text": "the",
+          "startTime": 6.041835,
+          "endTime": 6.242678
+        },
+        {
+          "id": 3,
+          "text": "trust",
+          "startTime": 6.242678,
+          "endTime": 6.704274
+        },
+        {
+          "id": 4,
+          "text": "of",
+          "startTime": 6.704274,
+          "endTime": 6.971774
+        },
+        {
+          "id": 5,
+          "text": "years",
+          "startTime": 6.971774,
+          "endTime": 8.233515
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "with a butted ample share",
+      "startTime": 8.233515,
+      "endTime": 12.618875,
+      "words": [
+        {
+          "id": 6,
+          "text": "with",
+          "startTime": 8.233515,
+          "endTime": 9.56074
+        },
+        {
+          "id": 7,
+          "text": "a",
+          "startTime": 9.56074,
+          "endTime": 9.76082
+        },
+        {
+          "id": 8,
+          "text": "butted",
+          "startTime": 9.76082,
+          "endTime": 10.159212
+        },
+        {
+          "id": 9,
+          "text": "ample",
+          "startTime": 10.159212,
+          "endTime": 10.692648
+        },
+        {
+          "id": 10,
+          "text": "share",
+          "startTime": 10.692648,
+          "endTime": 12.618875
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "I told you his love yearns ",
+      "startTime": 12.618875,
+      "endTime": 15.539008,
+      "words": [
+        {
+          "id": 11,
+          "text": "I",
+          "startTime": 12.618875,
+          "endTime": 13.48273
+        },
+        {
+          "id": 12,
+          "text": "told",
+          "startTime": 13.48273,
+          "endTime": 13.814744
+        },
+        {
+          "id": 13,
+          "text": "you",
+          "startTime": 13.814744,
+          "endTime": 14.010963
+        },
+        {
+          "id": 14,
+          "text": "his",
+          "startTime": 14.010963,
+          "endTime": 14.146943
+        },
+        {
+          "id": 15,
+          "text": "love",
+          "startTime": 14.146943,
+          "endTime": 14.544317
+        },
+        {
+          "id": 16,
+          "text": "yearns",
+          "startTime": 14.544317,
+          "endTime": 15.539008
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "still, never the one here",
+      "startTime": 15.539008,
+      "endTime": 19.259712,
+      "words": [
+        {
+          "id": 17,
+          "text": "still,",
+          "startTime": 15.539008,
+          "endTime": 16.534189
+        },
+        {
+          "id": 18,
+          "text": "never",
+          "startTime": 16.534189,
+          "endTime": 17.862421
+        },
+        {
+          "id": 19,
+          "text": "the",
+          "startTime": 17.862421,
+          "endTime": 18.128179
+        },
+        {
+          "id": 20,
+          "text": "one",
+          "startTime": 18.128179,
+          "endTime": 18.394832
+        },
+        {
+          "id": 21,
+          "text": "here",
+          "startTime": 18.394832,
+          "endTime": 19.259712
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "so with the hate it sears ",
+      "startTime": 19.259712,
+      "endTime": 23.045018,
+      "words": [
+        {
+          "id": 22,
+          "text": "so",
+          "startTime": 19.259712,
+          "endTime": 20.320751
+        },
+        {
+          "id": 23,
+          "text": "with",
+          "startTime": 20.320751,
+          "endTime": 20.521772
+        },
+        {
+          "id": 24,
+          "text": "the",
+          "startTime": 20.521772,
+          "endTime": 20.71769
+        },
+        {
+          "id": 25,
+          "text": "hate",
+          "startTime": 20.71769,
+          "endTime": 21.250597
+        },
+        {
+          "id": 26,
+          "text": "it",
+          "startTime": 21.250597,
+          "endTime": 21.450621
+        },
+        {
+          "id": 27,
+          "text": "sears",
+          "startTime": 21.450621,
+          "endTime": 23.045018
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "afraid its parachute snags.",
+      "startTime": 23.045018,
+      "endTime": 26.70521,
+      "words": [
+        {
+          "id": 28,
+          "text": "afraid",
+          "startTime": 23.045018,
+          "endTime": 23.774366
+        },
+        {
+          "id": 29,
+          "text": "its",
+          "startTime": 23.774366,
+          "endTime": 23.970956
+        },
+        {
+          "id": 30,
+          "text": "parachute",
+          "startTime": 23.970956,
+          "endTime": 24.70521
+        },
+        {
+          "id": 31,
+          "text": "snags.",
+          "startTime": 24.70521,
+          "endTime": 26.70521
+        }
+      ]
+    }
+  ]
+}

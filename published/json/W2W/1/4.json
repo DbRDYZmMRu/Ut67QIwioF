@@ -1,0 +1,182 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Like notes to a grimed past",
+      "startTime": 3.708624,
+      "endTime": 7.956499,
+      "words": [
+        {
+          "id": 1,
+          "text": "Like",
+          "startTime": 3.708624,
+          "endTime": 5.63469
+        },
+        {
+          "id": 2,
+          "text": "notes",
+          "startTime": 5.63469,
+          "endTime": 6.099886
+        },
+        {
+          "id": 3,
+          "text": "to",
+          "startTime": 6.099886,
+          "endTime": 6.362997
+        },
+        {
+          "id": 4,
+          "text": "a",
+          "startTime": 6.362997,
+          "endTime": 6.627861
+        },
+        {
+          "id": 5,
+          "text": "grimed",
+          "startTime": 6.627861,
+          "endTime": 6.895623
+        },
+        {
+          "id": 6,
+          "text": "past",
+          "startTime": 6.895623,
+          "endTime": 7.956499
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "tippytoes that soil ignorance",
+      "startTime": 7.956499,
+      "endTime": 12.542624,
+      "words": [
+        {
+          "id": 7,
+          "text": "tippytoes",
+          "startTime": 7.956499,
+          "endTime": 9.952952
+        },
+        {
+          "id": 8,
+          "text": "that",
+          "startTime": 9.952952,
+          "endTime": 10.682676
+        },
+        {
+          "id": 9,
+          "text": "soil",
+          "startTime": 10.682676,
+          "endTime": 11.144053
+        },
+        {
+          "id": 10,
+          "text": "ignorance",
+          "startTime": 11.144053,
+          "endTime": 12.542624
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "the cached catch remnants ",
+      "startTime": 12.542624,
+      "endTime": 16.794353,
+      "words": [
+        {
+          "id": 11,
+          "text": "the",
+          "startTime": 12.542624,
+          "endTime": 13.869226
+        },
+        {
+          "id": 12,
+          "text": "cached",
+          "startTime": 13.869226,
+          "endTime": 14.332847
+        },
+        {
+          "id": 13,
+          "text": "catch",
+          "startTime": 14.332847,
+          "endTime": 15.135681
+        },
+        {
+          "id": 14,
+          "text": "remnants",
+          "startTime": 15.135681,
+          "endTime": 16.794353
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "carbon copies with a cashier",
+      "startTime": 16.794353,
+      "endTime": 20.711176,
+      "words": [
+        {
+          "id": 15,
+          "text": "carbon",
+          "startTime": 16.794353,
+          "endTime": 18.519213
+        },
+        {
+          "id": 16,
+          "text": "copies",
+          "startTime": 18.519213,
+          "endTime": 19.318164
+        },
+        {
+          "id": 17,
+          "text": "with",
+          "startTime": 19.318164,
+          "endTime": 19.715963
+        },
+        {
+          "id": 18,
+          "text": "a",
+          "startTime": 19.715963,
+          "endTime": 19.916736
+        },
+        {
+          "id": 19,
+          "text": "cashier",
+          "startTime": 19.916736,
+          "endTime": 20.711176
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "held more talents considered.",
+      "startTime": 20.711176,
+      "endTime": 24.304546,
+      "words": [
+        {
+          "id": 20,
+          "text": "held",
+          "startTime": 20.711176,
+          "endTime": 21.374799
+        },
+        {
+          "id": 21,
+          "text": "more",
+          "startTime": 21.374799,
+          "endTime": 21.574992
+        },
+        {
+          "id": 22,
+          "text": "talents",
+          "startTime": 21.574992,
+          "endTime": 22.304546
+        },
+        {
+          "id": 23,
+          "text": "considered.",
+          "startTime": 22.304546,
+          "endTime": 24.304546
+        }
+      ]
+    }
+  ]
+}
