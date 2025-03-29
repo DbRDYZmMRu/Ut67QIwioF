@@ -176,10 +176,26 @@ const htmlTemplate = (title, description, keywords, ogImage, ogUrl, twitterImage
   
   <!-- Redirection Meta Tag -->
   <meta http-equiv="refresh" content="5; url=${redirectUrl}">
+	<style>
+		body {
+			margin: 0;
+			background-color: #fff;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+		}
+		
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	</style>
   
 </head>
 
 <body>
+	<img src="https://frithhilton.com.ng/images/favicon/FrithHiltonLogo.png" alt="Redirection Image">
   <!-- Your content goes here -->
 </body>
 
@@ -190,14 +206,14 @@ const htmlTemplate = (title, description, keywords, ogImage, ogUrl, twitterImage
 poetryTitles.forEach((title, index) => {
   const description = `${title} is a poem from Frith Hilton Collection I by Howard Frith Hilton`;
   const keywords = `${title}, Frith Hilton Collection I`;
-  const ogImage = `https://frithhilton.com.ng/images/share/FHC/I/image_${index + 1}.png`;
+  const ogImage = `https://frithhilton.com.ng/images/share/FHC/1/image_${index + 1}.png`;
   const ogUrl = `https://www.frithhilton.com.ng/published/poetry/collection-I.html?query=${index + 1}`;
   const twitterImage = ogImage;
   const canonicalUrl = ogUrl;
   const redirectUrl = ogUrl;
   
   const htmlContent = htmlTemplate(
-    `Frith Hilton Collection I - ${title}`,
+    `${title} - Frith Hilton Collection I`,
     description,
     keywords,
     ogImage,
