@@ -3,40 +3,34 @@ const path = require('path');
 
 // Array of poetry titles
 const poetryTitles = [
-"Serendipity",
-"Third Person Omniscient",
-"Survive Belong and Become",
-"No Collection",
-"One Sweet Hick",
-"Instagram Is Her Joujou",
-"Dad's Gamp",
-"Whelmed Men",
-"The Geezer's Fowl",
-"Collection VI",
-"The Film Festival",
-"Crimson as Red Stain",
-"A Taste of the Unworthy",
-"The Same Thing as in Catch",
-"The Bad Does Good, Good Does Bad",
-"Yowzah",
-"Taylor's Thighs",
-"All His Love",
-"In Graduations",
-"Antenna",
-"Yobs, Some Poetry Don't Rhyme",
-"August",
-"If I Was Your Boyfriend",
-"A Curio",
-"Where New Chicks Hatch",
-"Daddy, Daddy, Daddy Bandying",
-"Dovetail",
-"Eyrie",
-"Shaking for an Idol"
+"When the Bad Men Browbeat",
+"You Sexy Thing I Believe in Miracles",
+"Pomona Bears a Lantern",
+"Remorse Restaurant",
+"How I'd Employ a Boring Tongue",
+"Red Thread of Fate",
+"Closed Circuit",
+"Whopper Bopper",
+"Dismissed Laud",
+"The Rod of Asclepius",
+"It's a Military Campaign",
+"Got it Bad or Great?",
+"Bestie",
+"Fine Gyre",
+"Unfamiliar Stories",
+"Kendall's Swatch",
+"Oh Nadir",
+"Mummy's Hutch",
+"Quoit",
+"The Queen",
+"No Handle to this Gavel",
+"The Demure Chalice",
+"Hello Proprietor"
   
 ];
 
 // Create necessary directories
-const shareDir = path.join(__dirname, 'share', 'FHC', 'VII');
+const shareDir = path.join(__dirname, 'share', 'FHC', 'VIII');
 fs.mkdirSync(shareDir, { recursive: true });
 
 // Template for the HTML content
@@ -117,16 +111,16 @@ const htmlTemplate = (title, description, keywords, ogImage, ogUrl, twitterImage
 
 // Generate HTML files
 poetryTitles.forEach((title, index) => {
-  const description = `${title} is a poem from Frith Hilton Collection VII by Howard Frith Hilton`;
-  const keywords = `${title}, Frith Hilton Collection VII`;
-  const ogImage = `https://frithhilton.com.ng/images/share/FHC/7/image_${index + 1}.png`;
-  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/collection-VII.html?query=${index + 1}`;
+  const description = `${title} is a poem from Frith Hilton Collection VIII by Howard Frith Hilton`;
+  const keywords = `${title}, Frith Hilton Collection VIII`;
+  const ogImage = `https://frithhilton.com.ng/images/share/FHC/8/image_${index + 1}.png`;
+  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/collection-VIII.html?query=${index + 1}`;
   const twitterImage = ogImage;
   const canonicalUrl = ogUrl;
   const redirectUrl = ogUrl;
   
   const htmlContent = htmlTemplate(
-    `${title} - Frith Hilton Collection VII`,
+    `${title} - Frith Hilton Collection VIII`,
     description,
     keywords,
     ogImage,
