@@ -4,45 +4,38 @@ const path = require('path');
 // Array of poetry titles
 const poetryTitles = [
 
-"Three In Corm",
-"Iniquity",
-"Highlight",
-"No One Else's Burble",
-"Maggot Beach",
-"Article By A Freelancer",
-"Highway Folks",
-"Hill Spirit",
-"Priest Hole",
-"For The Ore In The Urn",
-"What Knows And Owes",
-"But Not Of Her Boot Chill",
-"Open Au ​Revoirs",
-"The Fugue Comes",
-"Pistachio Ross Details",
-"Our Tamagotchi Isle",
-"Sneaky Mercenaries",
-"Man Leash Man",
-"All That I Have",
-"Not My Patched Eye I Promise",
-"The Suspense Grid",
-"Pumped Price",
-"Braggadocious",
-"Sabot Ready",
-"Riff-Formation",
-"No Rheum",
-"Pirouette",
-"Plenary",
-"Progeny Variants",
-"Moth Emote",
-"Unseemly Elysium",
-"Life And Death Familiar",
-"Shoulder Pads",
-"An Icon's Roof",
-            
+"Repatriate",
+"A Gaining Day",
+"Lettuce And Potato In An Old Rag",
+"Meaning To Means",
+"Adenosine Diphosphate",
+"Misunderstood",
+"An Aniconist",
+"Swim Theory",
+"Time’s Peccavi",
+"Silent Miracles",
+"It’s The Jungle",
+"But I’m Still Sick",
+"You’re A Jewel",
+"The Truth That Lies",
+"Buffalo",
+"The Croupier’s Mullet",
+"Swallowing Pride",
+"Whiffling Ease",
+"Sell Ebbs",
+"Climate Change",
+"Buddy",
+"What Folly Brought",
+"The Brittle’s Candy Store",
+"Disguised Misanthropy",
+"Knell Culture",
+"Downhill Feelings",
+"All Time Borne",
+"Not Unlike Being Poetic",            
 ];
 
 // Create necessary directories
-const shareDir = path.join(__dirname, 'share', 'FHC', 'XII');
+const shareDir = path.join(__dirname, 'share', 'FHC', 'XIII');
 fs.mkdirSync(shareDir, { recursive: true });
 
 // Template for the HTML content
@@ -123,16 +116,16 @@ const htmlTemplate = (title, description, keywords, ogImage, ogUrl, twitterImage
 
 // Generate HTML files
 poetryTitles.forEach((title, index) => {
-  const description = `${title} is a poem from Frith Hilton Collection XII by Howard Frith Hilton`;
-  const keywords = `${title}, Frith Hilton Collection XII`;
-  const ogImage = `https://frithhilton.com.ng/images/share/FHC/12/image_${index + 1}.png`;
-  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/collection-XII.html?query=${index + 1}`;
+  const description = `${title} is a poem from Frith Hilton Collection XIII by Howard Frith Hilton`;
+  const keywords = `${title}, Frith Hilton Collection XIII`;
+  const ogImage = `https://frithhilton.com.ng/images/share/FHC/13/image_${index + 1}.png`;
+  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/collection-XIII.html?query=${index + 1}`;
   const twitterImage = ogImage;
   const canonicalUrl = ogUrl;
   const redirectUrl = ogUrl;
   
   const htmlContent = htmlTemplate(
-    `${title} - Frith Hilton Collection XII`,
+    `${title} - Frith Hilton Collection XIII`,
     description,
     keywords,
     ogImage,
