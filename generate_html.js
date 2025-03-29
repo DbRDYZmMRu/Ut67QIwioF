@@ -3,56 +3,48 @@ const path = require('path');
 
 // Array of poetry titles
 const poetryTitles = [
-              "Our March Hatch",
-              "Business as Casual",
-              "X, Y, Z Intersect Crotch",
-              "Trepidation of the Past Sold",
-              "An Iris Morning",
-              "Toe Bump",
-              "Teacher",
-              "Chest to Chest",
-              "Both of Us",
-              "Tea",
-              "Olive",
-              "Yam Rind Steeple",
-              "Our Relationship has been Poetry",
-              "Slack",
-              "On Connection",
-              "CTRL",
-              "Come Sit",
-              "Get off my Wall",
-              "La-La Land",
-              "Re: Beau’s Humectant",
-              "Hard Water",
-              "Afternoons",
-              "Early Reminder",
-              "Final Answer",
-              "North",
-              "Boa",
-              "Blush Vitals",
-              "Whispers",
-              "Twenty29Nine",
-              "Waiting for Sonsy",
-              "Radio",
-              "Generators have no Degree",
-              "Hirsute Rams",
-              "I Drew",
-              "Stories",
-              "Alison’s Band",
-              "Blank Space",
-              "Virgae",
-              "Welkin",
-              "Potch Shoe",
-              "Enwreathe",
-              "Stalwart",
-              "Defilade",
-              "On a Hot Day",
-              "On the Dromos for the Grith",
-              "West to West",
+  "Mirrors",
+  "Steady",
+  "Offering off a Lark",
+  "The Masked Girl",
+  "Dough",
+  "The Brazen Spider, Unwanted Nut",
+  "The Bug, the First Car",
+  "Driver Licence",
+  "A Pitch Run",
+  "Caspian’s Autumn Foam",
+  "Before it’s Time",
+  "Upside Down Shower",
+  "Sir William Alexander Craigie (August 13)",
+  "Malefic Rookie",
+  "Quiver Barnet",
+  "The Last Artisan",
+  "To be Left Alone",
+  "Happy Birthday",
+  "Hallelujah Gate",
+  "Questions Making Trouble",
+  "Crocs to Go",
+  "Ditch the Sunset",
+  "Lazy",
+  "Caged Poems",
+  "New House",
+  "Snores, Doors and Jolts",
+  "Accounting for My Trips (A — Z)",
+  "Mariam",
+  "Love Letters and Promenades",
+  "My Rip Jean",
+  "Six to Eight",
+  "Catlick",
+  "The Dot before the Hallo",
+  "The Sleazy",
+  "Lame in Dubai",
+  "Our Love",
+  "Twenty-Four",
+  "Title",
 ];
 
 // Create necessary directories
-const shareDir = path.join(__dirname, 'share', 'FHC', 'II');
+const shareDir = path.join(__dirname, 'share', 'FHC', 'III');
 fs.mkdirSync(shareDir, { recursive: true });
 
 // Template for the HTML content
@@ -133,16 +125,16 @@ const htmlTemplate = (title, description, keywords, ogImage, ogUrl, twitterImage
 
 // Generate HTML files
 poetryTitles.forEach((title, index) => {
-  const description = `${title} is a poem from Frith Hilton Collection II by Howard Frith Hilton`;
-  const keywords = `${title}, Frith Hilton Collection II`;
-  const ogImage = `https://frithhilton.com.ng/images/share/FHC/2/image_${index + 1}.png`;
-  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/collection-II.html?query=${index + 1}`;
+  const description = `${title} is a poem from Frith Hilton Collection III by Howard Frith Hilton`;
+  const keywords = `${title}, Frith Hilton Collection III`;
+  const ogImage = `https://frithhilton.com.ng/images/share/FHC/3/image_${index + 1}.png`;
+  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/collection-III.html?query=${index + 1}`;
   const twitterImage = ogImage;
   const canonicalUrl = ogUrl;
   const redirectUrl = ogUrl;
   
   const htmlContent = htmlTemplate(
-    `${title} - Frith Hilton Collection II`,
+    `${title} - Frith Hilton Collection III`,
     description,
     keywords,
     ogImage,
