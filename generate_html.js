@@ -3,48 +3,47 @@ const path = require('path');
 
 // Array of poetry titles
 const poetryTitles = [
-  "Mirrors",
-  "Steady",
-  "Offering off a Lark",
-  "The Masked Girl",
-  "Dough",
-  "The Brazen Spider, Unwanted Nut",
-  "The Bug, the First Car",
-  "Driver Licence",
-  "A Pitch Run",
-  "Caspian’s Autumn Foam",
-  "Before it’s Time",
-  "Upside Down Shower",
-  "Sir William Alexander Craigie (August 13)",
-  "Malefic Rookie",
-  "Quiver Barnet",
-  "The Last Artisan",
-  "To be Left Alone",
-  "Happy Birthday",
-  "Hallelujah Gate",
-  "Questions Making Trouble",
-  "Crocs to Go",
-  "Ditch the Sunset",
-  "Lazy",
-  "Caged Poems",
-  "New House",
-  "Snores, Doors and Jolts",
-  "Accounting for My Trips (A — Z)",
-  "Mariam",
-  "Love Letters and Promenades",
-  "My Rip Jean",
-  "Six to Eight",
-  "Catlick",
-  "The Dot before the Hallo",
-  "The Sleazy",
-  "Lame in Dubai",
-  "Our Love",
-  "Twenty-Four",
-  "Title",
-];
+            "Saved by Oxford and the King",
+            "Rappynarrow",
+            "Private Number",
+            "The Artisan's Atelier",
+            "Spicy, Feeling Through",
+            "How High on the Rungs",
+            "Guardian Angel",
+            "The Severed Branch",
+            "Bye Dear Man",
+            "Wolf Bite",
+            "The End",
+            "The First Street Light",
+            "Only Hollywood Films",
+            "In Time",
+            "Weed and Horticulture",
+            "Vines",
+            "Examples I Could Be",
+            "Hop the Sound Bus",
+            "Whisk",
+            "Cuss Words",
+            "Descriptions and Directions",
+            "Dead Letter",
+            "Presentations",
+            "Bagpipes and Fights",
+            "Plots Have Clops",
+            "Spaghetti Soul",
+            "Blenders and Jams",
+            "With All Due Respect",
+            "A Room Untidy",
+            "A Cup of Lemonade",
+            "The Lights You Don't See",
+            "Briefcase",
+            "Very Bad Parlance",
+            "Do They See Us?",
+            "Painstaking Blows",
+            "Criss-Cross",
+            "Even in Your Doubts",
+            "Take It or Leave It",];
 
 // Create necessary directories
-const shareDir = path.join(__dirname, 'share', 'FHC', 'III');
+const shareDir = path.join(__dirname, 'share', 'FHC', 'IV');
 fs.mkdirSync(shareDir, { recursive: true });
 
 // Template for the HTML content
@@ -125,16 +124,16 @@ const htmlTemplate = (title, description, keywords, ogImage, ogUrl, twitterImage
 
 // Generate HTML files
 poetryTitles.forEach((title, index) => {
-  const description = `${title} is a poem from Frith Hilton Collection III by Howard Frith Hilton`;
-  const keywords = `${title}, Frith Hilton Collection III`;
-  const ogImage = `https://frithhilton.com.ng/images/share/FHC/3/image_${index + 1}.png`;
-  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/collection-III.html?query=${index + 1}`;
+  const description = `${title} is a poem from Frith Hilton Collection IV by Howard Frith Hilton`;
+  const keywords = `${title}, Frith Hilton Collection IV`;
+  const ogImage = `https://frithhilton.com.ng/images/share/FHC/4/image_${index + 1}.png`;
+  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=${index + 1}`;
   const twitterImage = ogImage;
   const canonicalUrl = ogUrl;
   const redirectUrl = ogUrl;
   
   const htmlContent = htmlTemplate(
-    `${title} - Frith Hilton Collection III`,
+    `${title} - Frith Hilton Collection IV`,
     description,
     keywords,
     ogImage,
