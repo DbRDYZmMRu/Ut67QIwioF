@@ -24,7 +24,7 @@ const poetryTitles = [
 ];
 
 // Create necessary directories
-const shareDir = path.join(__dirname, 'share', 'FHC', 'XV');
+const shareDir = path.join(__dirname, 'share', 'FHC', 'XIV');
 fs.mkdirSync(shareDir, { recursive: true });
 
 // Template for the HTML content
@@ -105,16 +105,16 @@ const htmlTemplate = (title, description, keywords, ogImage, ogUrl, twitterImage
 
 // Generate HTML files
 poetryTitles.forEach((title, index) => {
-  const description = `${title} is a poem from Frith Hilton Collection XV by Howard Frith Hilton`;
-  const keywords = `${title}, Frith Hilton Collection XV`;
-  const ogImage = `https://frithhilton.com.ng/images/share/FHC/15/image_${index + 1}.png`;
-  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/collection-XV.html?query=${index + 1}`;
+  const description = `${title} is a poem from Frith Hilton Collection XIV by Howard Frith Hilton`;
+  const keywords = `${title}, Frith Hilton Collection XIV`;
+  const ogImage = `https://frithhilton.com.ng/images/share/FHC/14/image_${index + 1}.png`;
+  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/collection-XIV.html?query=${index + 1}`;
   const twitterImage = ogImage;
   const canonicalUrl = ogUrl;
   const redirectUrl = ogUrl;
   
   const htmlContent = htmlTemplate(
-    `${title} - Frith Hilton Collection XV`,
+    `${title} - Frith Hilton Collection XIV`,
     description,
     keywords,
     ogImage,
