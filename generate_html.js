@@ -4,37 +4,45 @@ const path = require('path');
 // Array of poetry titles
 const poetryTitles = [
 
-"Village Bicycle",
-"Kill The Calm Co-Duh",
-"Natural Arson",
-"Tuck Shop",
-"A Dawn Fib",
-"Paris' Seventeen",
-"A Stroll With Paris",
-"How I'll Say I Love",
-"Paris' Porcelain Room",
-"We’re Not The Weak",
-"Rides To The Barrow",
-"She Was Sunshine",
-"Am I Sad?",
-"In Class Again",
-"Valentine Orbit",
-"But Please Let Me Go",
-"A Black Mirror",
-"SPAD",
-"The Masterpiece Plot",
-"Still Busy",
-"Gyne",
-"A Brute Would",
-"How You Say",
-"Returning",
-"Graves Under Letters",
-"Hanging",
+"Three In Corm",
+"Iniquity",
+"Highlight",
+"No One Else's Burble",
+"Maggot Beach",
+"Article By A Freelancer",
+"Highway Folks",
+"Hill Spirit",
+"Priest Hole",
+"For The Ore In The Urn",
+"What Knows And Owes",
+"But Not Of Her Boot Chill",
+"Open Au ​Revoirs",
+"The Fugue Comes",
+"Pistachio Ross Details",
+"Our Tamagotchi Isle",
+"Sneaky Mercenaries",
+"Man Leash Man",
+"All That I Have",
+"Not My Patched Eye I Promise",
+"The Suspense Grid",
+"Pumped Price",
+"Braggadocious",
+"Sabot Ready",
+"Riff-Formation",
+"No Rheum",
+"Pirouette",
+"Plenary",
+"Progeny Variants",
+"Moth Emote",
+"Unseemly Elysium",
+"Life And Death Familiar",
+"Shoulder Pads",
+"An Icon's Roof",
             
 ];
 
 // Create necessary directories
-const shareDir = path.join(__dirname, 'share', 'FHC', 'XI');
+const shareDir = path.join(__dirname, 'share', 'FHC', 'XII');
 fs.mkdirSync(shareDir, { recursive: true });
 
 // Template for the HTML content
@@ -115,16 +123,16 @@ const htmlTemplate = (title, description, keywords, ogImage, ogUrl, twitterImage
 
 // Generate HTML files
 poetryTitles.forEach((title, index) => {
-  const description = `${title} is a poem from Frith Hilton Collection XI by Howard Frith Hilton`;
-  const keywords = `${title}, Frith Hilton Collection XI`;
-  const ogImage = `https://frithhilton.com.ng/images/share/FHC/11/image_${index + 1}.png`;
-  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/collection-XI.html?query=${index + 1}`;
+  const description = `${title} is a poem from Frith Hilton Collection XII by Howard Frith Hilton`;
+  const keywords = `${title}, Frith Hilton Collection XII`;
+  const ogImage = `https://frithhilton.com.ng/images/share/FHC/12/image_${index + 1}.png`;
+  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/collection-XII.html?query=${index + 1}`;
   const twitterImage = ogImage;
   const canonicalUrl = ogUrl;
   const redirectUrl = ogUrl;
   
   const htmlContent = htmlTemplate(
-    `${title} - Frith Hilton Collection XI`,
+    `${title} - Frith Hilton Collection XII`,
     description,
     keywords,
     ogImage,
