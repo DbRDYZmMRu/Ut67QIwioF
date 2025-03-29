@@ -115,7 +115,7 @@ const htmlTemplate = (title, description, keywords, ogImage, ogUrl, twitterImage
 
 // Generate HTML files
 poetryTitles.forEach((title, index) => {
-  const description = `${title} is a poem from Frith Hilton Collection X by Howard Frith Hilton`;
+  const description = `${title} is a poem from Frith Hilton Collection XI by Howard Frith Hilton`;
   const keywords = `${title}, Frith Hilton Collection XI`;
   const ogImage = `https://frithhilton.com.ng/images/share/FHC/11/image_${index + 1}.png`;
   const ogUrl = `https://www.frithhilton.com.ng/published/poetry/collection-XI.html?query=${index + 1}`;
