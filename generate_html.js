@@ -3,47 +3,61 @@ const path = require('path');
 
 // Array of poetry titles
 const poetryTitles = [
-            "Saved by Oxford and the King",
-            "Rappynarrow",
-            "Private Number",
-            "The Artisan's Atelier",
-            "Spicy, Feeling Through",
-            "How High on the Rungs",
-            "Guardian Angel",
-            "The Severed Branch",
-            "Bye Dear Man",
-            "Wolf Bite",
-            "The End",
-            "The First Street Light",
-            "Only Hollywood Films",
-            "In Time",
-            "Weed and Horticulture",
-            "Vines",
-            "Examples I Could Be",
-            "Hop the Sound Bus",
-            "Whisk",
-            "Cuss Words",
-            "Descriptions and Directions",
-            "Dead Letter",
-            "Presentations",
-            "Bagpipes and Fights",
-            "Plots Have Clops",
-            "Spaghetti Soul",
-            "Blenders and Jams",
-            "With All Due Respect",
-            "A Room Untidy",
-            "A Cup of Lemonade",
-            "The Lights You Don't See",
-            "Briefcase",
-            "Very Bad Parlance",
-            "Do They See Us?",
-            "Painstaking Blows",
-            "Criss-Cross",
-            "Even in Your Doubts",
-            "Take It or Leave It",];
+  "The Lakes",
+  "Cantus Firmus",
+  "Hip-Hip Whip",
+  "At Eden",
+  "A Happy Place",
+  "Mother's Day",
+  "Co-Cain",
+  "Busk Her Fees",
+  "Disaster",
+  "Much This",
+  "Menacing Numbers",
+  "Byte",
+  "Feathers",
+  "To Say Goodbyes",
+  "What is Love?",
+  "My Scouring Garb",
+  "Far Away from Here",
+  "Schlep on It",
+  "Headphone Ratatats",
+  "Read it Late",
+  "Busy Must Bee",
+  "Father’s Day Reverie",
+  "Butterfly",
+  "Barbie Rebus",
+  "It’s no Home",
+  "Spread-eagle",
+  "Skin Care",
+  "Here She Comes Flapping",
+  "Detour",
+  "Encephalon",
+  "See You Soon",
+  "Drawstring",
+  "Bodged Bugging",
+  "Come Over",
+  "Boob Breeze In",
+  "Flame Blame",
+  "Is It So?",
+  "Rant Attack",
+  "Sides of Swipe",
+  "Can this Bard Relate?",
+  "Code-Conduct",
+  "Blah, Black, Man Peep",
+  "What’s Love Got to Do with it?",
+  "I’ll Know you for More",
+  "Aliens over Flowers",
+  "Outlive",
+  "Hair Cream",
+  "What makes up for Bosh",
+  "Beast and Wifey",
+  "A Map to Nap",
+  
+];
 
 // Create necessary directories
-const shareDir = path.join(__dirname, 'share', 'FHC', 'IV');
+const shareDir = path.join(__dirname, 'share', 'FHC', 'V');
 fs.mkdirSync(shareDir, { recursive: true });
 
 // Template for the HTML content
@@ -124,16 +138,16 @@ const htmlTemplate = (title, description, keywords, ogImage, ogUrl, twitterImage
 
 // Generate HTML files
 poetryTitles.forEach((title, index) => {
-  const description = `${title} is a poem from Frith Hilton Collection IV by Howard Frith Hilton`;
-  const keywords = `${title}, Frith Hilton Collection IV`;
-  const ogImage = `https://frithhilton.com.ng/images/share/FHC/4/image_${index + 1}.png`;
-  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=${index + 1}`;
+  const description = `${title} is a poem from Frith Hilton Collection V by Howard Frith Hilton`;
+  const keywords = `${title}, Frith Hilton Collection V`;
+  const ogImage = `https://frithhilton.com.ng/images/share/FHC/5/image_${index + 1}.png`;
+  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/collection-V.html?query=${index + 1}`;
   const twitterImage = ogImage;
   const canonicalUrl = ogUrl;
   const redirectUrl = ogUrl;
   
   const htmlContent = htmlTemplate(
-    `${title} - Frith Hilton Collection IV`,
+    `${title} - Frith Hilton Collection V`,
     description,
     keywords,
     ogImage,
