@@ -3,35 +3,34 @@ const path = require('path');
 
 // Array of poetry titles
 const poetryTitles = [
-"Landing Page",
-"Who’s that Chick",
-"Indigo for Romeo",
-"Mens rea",
-"Sweet Nothings",
-"Incredulous Passwords",
-"The Sour in Pricing",
-"Moonlight Flit",
-"Be Kind, Rewind",
-"Slings and Arrows",
-"Number One",
-"Nolens volens",
-"Knell",
-"Ataractic Actor Adore",
-"Bigot Now Most",
-"For When You Need It",
-"This Is It",
-"Whose City?",
-"Freckles",
-"My Sister’s Apron Strings",
-"35-68-8-23",
-"What Ingredient in An Open Book",
-"Rolling stone",
-"So For a Hand of Rain",
-"Stereobate Position",            
+
+"I’ve Been Waiting",
+"Pumped Kin",
+"A Long Dream",
+"Her Other Names",
+"Silver",
+"I Made Myself Write Today",
+"Owl Light Ideas",
+"Love Animal Stripes",
+"Flamingo Slut",
+"She Feels",
+"The Man",
+"Interred Tale Not Yelled",
+"An Angel’s Midnight Sigh",
+"Worth His Salt, But Not Meant",
+"Did You Ask For Spring Water But Got Rain?",
+"The Surf",
+"Clip Spot X to Fly",
+"Book Spirits",
+"Her Hex",
+"Cold Call",       
+ 
+
+            
 ];
 
 // Create necessary directories
-const shareDir = path.join(__dirname, 'share', 'FHC', 'IX');
+const shareDir = path.join(__dirname, 'share', 'FHC', 'X');
 fs.mkdirSync(shareDir, { recursive: true });
 
 // Template for the HTML content
@@ -112,16 +111,16 @@ const htmlTemplate = (title, description, keywords, ogImage, ogUrl, twitterImage
 
 // Generate HTML files
 poetryTitles.forEach((title, index) => {
-  const description = `${title} is a poem from Frith Hilton Collection IX by Howard Frith Hilton`;
-  const keywords = `${title}, Frith Hilton Collection IX`;
-  const ogImage = `https://frithhilton.com.ng/images/share/FHC/9/image_${index + 1}.png`;
-  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/collection-IX.html?query=${index + 1}`;
+  const description = `${title} is a poem from Frith Hilton Collection X by Howard Frith Hilton`;
+  const keywords = `${title}, Frith Hilton Collection X`;
+  const ogImage = `https://frithhilton.com.ng/images/share/FHC/10/image_${index + 1}.png`;
+  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/collection-X.html?query=${index + 1}`;
   const twitterImage = ogImage;
   const canonicalUrl = ogUrl;
   const redirectUrl = ogUrl;
   
   const htmlContent = htmlTemplate(
-    `${title} - Frith Hilton Collection IX`,
+    `${title} - Frith Hilton Collection X`,
     description,
     keywords,
     ogImage,
