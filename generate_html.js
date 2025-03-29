@@ -4,19 +4,24 @@ const path = require('path');
 // Array of poetry titles
 const poetryTitles = [
 
-"Belly Kisses",
-"Pouffe",
-"Woof",
-"A Waif’s Attention Drop",
-"Sentry Piece",
-"Furthermore",
-"A Cowboy’s Torch",
-"Thanksgiving", 
+"A Truant’s Pose",
+"Shapes made out of flour",
+"Big Bang Theory",
+"A Baby Crocodile",
+"Camping",
+"Say Something",
+"God Blessed Me",
+"The Roof Left",
+"The Answer",
+"Pinpoint",
+"Electric city, unelectric roses",
+"Unmatched",
+"Morning Rides as a Pupil",
  
 ];
 
 // Create necessary directories
-const shareDir = path.join(__dirname, 'share', 'FHC', 'XIX');
+const shareDir = path.join(__dirname, 'share', 'FHC', 'XX');
 fs.mkdirSync(shareDir, { recursive: true });
 
 // Template for the HTML content
@@ -97,16 +102,16 @@ const htmlTemplate = (title, description, keywords, ogImage, ogUrl, twitterImage
 
 // Generate HTML files
 poetryTitles.forEach((title, index) => {
-  const description = `${title} is a poem from Frith Hilton Collection XIX by Howard Frith Hilton`;
-  const keywords = `${title}, Frith Hilton Collection XIX`;
-  const ogImage = `https://frithhilton.com.ng/images/share/FHC/19/image_${index + 1}.png`;
-  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/collection-XIX.html?query=${index + 1}`;
+  const description = `${title} is a poem from Frith Hilton Collection XX by Howard Frith Hilton`;
+  const keywords = `${title}, Frith Hilton Collection XX`;
+  const ogImage = `https://frithhilton.com.ng/images/share/FHC/20/image_${index + 1}.png`;
+  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/collection-XX.html?query=${index + 1}`;
   const twitterImage = ogImage;
   const canonicalUrl = ogUrl;
   const redirectUrl = ogUrl;
   
   const htmlContent = htmlTemplate(
-    `${title} - Frith Hilton Collection XIX`,
+    `${title} - Frith Hilton Collection XX`,
     description,
     keywords,
     ogImage,
