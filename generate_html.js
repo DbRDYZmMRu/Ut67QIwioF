@@ -3,61 +3,56 @@ const path = require('path');
 
 // Array of poetry titles
 const poetryTitles = [
-  "The Lakes",
-  "Cantus Firmus",
-  "Hip-Hip Whip",
-  "At Eden",
-  "A Happy Place",
-  "Mother's Day",
-  "Co-Cain",
-  "Busk Her Fees",
-  "Disaster",
-  "Much This",
-  "Menacing Numbers",
-  "Byte",
-  "Feathers",
-  "To Say Goodbyes",
-  "What is Love?",
-  "My Scouring Garb",
-  "Far Away from Here",
-  "Schlep on It",
-  "Headphone Ratatats",
-  "Read it Late",
-  "Busy Must Bee",
-  "Father’s Day Reverie",
-  "Butterfly",
-  "Barbie Rebus",
-  "It’s no Home",
-  "Spread-eagle",
-  "Skin Care",
-  "Here She Comes Flapping",
-  "Detour",
-  "Encephalon",
-  "See You Soon",
-  "Drawstring",
-  "Bodged Bugging",
-  "Come Over",
-  "Boob Breeze In",
-  "Flame Blame",
-  "Is It So?",
-  "Rant Attack",
-  "Sides of Swipe",
-  "Can this Bard Relate?",
-  "Code-Conduct",
-  "Blah, Black, Man Peep",
-  "What’s Love Got to Do with it?",
-  "I’ll Know you for More",
-  "Aliens over Flowers",
-  "Outlive",
-  "Hair Cream",
-  "What makes up for Bosh",
-  "Beast and Wifey",
-  "A Map to Nap",
+"All Factory",
+"Model Versions",
+"Can I?",
+"Bad Listener",
+"To Compromise",
+"Baggy heart",
+"A High Old Time",
+"Thunder Son",
+"Shooting Star Daddy",
+"Junkie Mood",
+"The Rush at the Theatre",
+"He’s Glad",
+"I Think She Knows",
+"Prime Mover",
+"Made of Squiffy Cotton",
+"I Hope You Do",
+"Wrote This Last",
+"Ears and Else What",
+"Bill and Coo",
+"Bad Litter",
+"No Return",
+"Games",
+"Alas",
+"Funnel",
+"High Gunsels",
+"We Have a Boy",
+"A New Picket’s Cost",
+"Bam, Bam Cheddar",
+"Enemy",
+"A Twinge Pitch",
+"Darling’s Blue Jeans",
+"No Ricochet Recollection",
+"Every Pound",
+"Till I bathe In It",
+"Selling a Day",
+"Caret in Ink",
+"My Gawd, I’m Watched",
+"To Reach You",
+"Cinderella’s Closet",
+"Suerte",
+"Terra Incognita",
+"The Fustian",
+"Lithium",
+"I Met You",
+"It’s the First Time",
   
 ];
 
 // Create necessary directories
-const shareDir = path.join(__dirname, 'share', 'FHC', 'V');
+const shareDir = path.join(__dirname, 'share', 'FHC', 'VI');
 fs.mkdirSync(shareDir, { recursive: true });
 
 // Template for the HTML content
@@ -138,16 +133,16 @@ const htmlTemplate = (title, description, keywords, ogImage, ogUrl, twitterImage
 
 // Generate HTML files
 poetryTitles.forEach((title, index) => {
-  const description = `${title} is a poem from Frith Hilton Collection V by Howard Frith Hilton`;
-  const keywords = `${title}, Frith Hilton Collection V`;
-  const ogImage = `https://frithhilton.com.ng/images/share/FHC/5/image_${index + 1}.png`;
-  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/collection-V.html?query=${index + 1}`;
+  const description = `${title} is a poem from Frith Hilton Collection VI by Howard Frith Hilton`;
+  const keywords = `${title}, Frith Hilton Collection VI`;
+  const ogImage = `https://frithhilton.com.ng/images/share/FHC/6/image_${index + 1}.png`;
+  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=${index + 1}`;
   const twitterImage = ogImage;
   const canonicalUrl = ogUrl;
   const redirectUrl = ogUrl;
   
   const htmlContent = htmlTemplate(
-    `${title} - Frith Hilton Collection V`,
+    `${title} - Frith Hilton Collection VI`,
     description,
     keywords,
     ogImage,
