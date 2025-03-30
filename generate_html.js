@@ -4,13 +4,18 @@ const path = require('path');
 // Array of poetry titles
 const poetryTitles = [
 
-"Mom's cover-up", 
-"While she's spot-on",
+"Spurs Sore",
+"Dawn Stunned",
+"A Reverie’s Busy Bee",
+"In the Distance",
+"Dubious Poise",
+"Webbed Feet",
+"New Clothes",
   
 ];
 
 // Create necessary directories
-const shareDir = path.join(__dirname, 'share', 'DRH', 'five');
+const shareDir = path.join(__dirname, 'share', 'W2W', 'I');
 fs.mkdirSync(shareDir, { recursive: true });
 
 // Template for the HTML content
@@ -91,16 +96,16 @@ const htmlTemplate = (title, description, keywords, ogImage, ogUrl, twitterImage
 
 // Generate HTML files
 poetryTitles.forEach((title, index) => {
-  const description = `${title} is a poem from Dr. Carl Hill Collection (Book Five) by Howard Frith Hilton`;
-  const keywords = `${title}, Dr. Carl Hill Collection (Book Five)`;
-  const ogImage = `https://frithhilton.com.ng/images/share/DRH/5/image_${index + 1}.png`;
-  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/dr-carl-hill-collection-V.html?query=${index + 1}`;
+  const description = `${title} is a poem from West to West Collection I by Howard Frith Hilton`;
+  const keywords = `${title}, West to West Collection I`;
+  const ogImage = `https://frithhilton.com.ng/images/share/W2W/1/image_${index + 1}.png`;
+  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/west-to-west-collection-I.html?query=${index + 1}`;
   const twitterImage = ogImage;
   const canonicalUrl = ogUrl;
   const redirectUrl = ogUrl;
   
   const htmlContent = htmlTemplate(
-    `${title} - Dr. Carl Hill Collection (Book Five)`,
+    `${title} - West to West Collection I`,
     description,
     keywords,
     ogImage,
