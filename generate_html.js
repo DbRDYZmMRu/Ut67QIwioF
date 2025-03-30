@@ -3,22 +3,17 @@ const path = require('path');
 
 // Array of poetry titles
 const poetryTitles = [
-"Karma’s Sequel",
-"Insipid Arrivals",
-"New Sayings",
-"Kirk Kirkendall",
-"Meow Khalifa",
-"Two Hands",
-"Cinerary Eyes",
-"Dour Trimmings",
-"Levulose",
-"Hearthstoned Exuberance",
-"At least Folly Knows",
+"Dungaree",
+"Drawer",
+"In a Teenager’s Studio Flat",
+"Holds",
+"A Gender Promise",
+
   
 ];
 
 // Create necessary directories
-const shareDir = path.join(__dirname, 'share', 'DRH', 'one');
+const shareDir = path.join(__dirname, 'share', 'DRH', 'two');
 fs.mkdirSync(shareDir, { recursive: true });
 
 // Template for the HTML content
@@ -99,16 +94,16 @@ const htmlTemplate = (title, description, keywords, ogImage, ogUrl, twitterImage
 
 // Generate HTML files
 poetryTitles.forEach((title, index) => {
-  const description = `${title} is a poem from Dr. Carl Hill Collection (Book One) by Howard Frith Hilton`;
-  const keywords = `${title}, Dr. Carl Hill Collection (Book One)`;
-  const ogImage = `https://frithhilton.com.ng/images/share/DRH/1/image_${index + 1}.png`;
-  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/dr-carl-hill-collection-I.html?query=${index + 1}`;
+  const description = `${title} is a poem from Dr. Carl Hill Collection (Book Two) by Howard Frith Hilton`;
+  const keywords = `${title}, Dr. Carl Hill Collection (Book Two)`;
+  const ogImage = `https://frithhilton.com.ng/images/share/DRH/2/image_${index + 1}.png`;
+  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/dr-carl-hill-collection-II.html?query=${index + 1}`;
   const twitterImage = ogImage;
   const canonicalUrl = ogUrl;
   const redirectUrl = ogUrl;
   
   const htmlContent = htmlTemplate(
-    `${title} - Dr. Carl Hill Collection (Book One)`,
+    `${title} - Dr. Carl Hill Collection (Book Two)`,
     description,
     keywords,
     ogImage,
