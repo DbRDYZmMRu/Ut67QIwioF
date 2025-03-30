@@ -18,7 +18,7 @@ const poetryTitles = [
 ];
 
 // Create necessary directories
-const shareDir = path.join(__dirname, 'share', 'DCH', 'one');
+const shareDir = path.join(__dirname, 'share', 'DRH', 'one');
 fs.mkdirSync(shareDir, { recursive: true });
 
 // Template for the HTML content
@@ -101,7 +101,7 @@ const htmlTemplate = (title, description, keywords, ogImage, ogUrl, twitterImage
 poetryTitles.forEach((title, index) => {
   const description = `${title} is a poem from Dr. Carl Hill Collection (Book One) by Howard Frith Hilton`;
   const keywords = `${title}, Dr. Carl Hill Collection (Book One)`;
-  const ogImage = `https://frithhilton.com.ng/images/share/DCH/1/image_${index + 1}.png`;
+  const ogImage = `https://frithhilton.com.ng/images/share/DRH/1/image_${index + 1}.png`;
   const ogUrl = `https://www.frithhilton.com.ng/published/poetry/dr-carl-hill-collection-I.html?query=${index + 1}`;
   const twitterImage = ogImage;
   const canonicalUrl = ogUrl;
