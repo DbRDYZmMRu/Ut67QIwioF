@@ -3,17 +3,22 @@ const path = require('path');
 
 // Array of poetry titles
 const poetryTitles = [
-           
-"Ideas Usurping",
-"Guilty as Sin?",
-"loml",
-"So High School",
-"I Hate It Here",
- 
+"Karma’s Sequel",
+"Insipid Arrivals",
+"New Sayings",
+"Kirk Kirkendall",
+"Meow Khalifa",
+"Two Hands",
+"Cinerary Eyes",
+"Dour Trimmings",
+"Levulose",
+"Hearthstoned Exuberance",
+"At least Folly Knows",
+  
 ];
 
 // Create necessary directories
-const shareDir = path.join(__dirname, 'share', 'FHC', 'XXI');
+const shareDir = path.join(__dirname, 'share', 'DCH', 'one');
 fs.mkdirSync(shareDir, { recursive: true });
 
 // Template for the HTML content
@@ -94,16 +99,16 @@ const htmlTemplate = (title, description, keywords, ogImage, ogUrl, twitterImage
 
 // Generate HTML files
 poetryTitles.forEach((title, index) => {
-  const description = `${title} is a poem from Frith Hilton Collection XXI by Howard Frith Hilton`;
-  const keywords = `${title}, Frith Hilton Collection XXI`;
-  const ogImage = `https://frithhilton.com.ng/images/share/FHC/21/image_${index + 1}.png`;
-  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/collection-XXI.html?query=${index + 1}`;
+  const description = `${title} is a poem from Dr. Carl Hill Collection (Book One) by Howard Frith Hilton`;
+  const keywords = `${title}, Dr. Carl Hill Collection (Book One)`;
+  const ogImage = `https://frithhilton.com.ng/images/share/DCH/1/image_${index + 1}.png`;
+  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/dr-carl-hill-collection-I.html?query=${index + 1}`;
   const twitterImage = ogImage;
   const canonicalUrl = ogUrl;
   const redirectUrl = ogUrl;
   
   const htmlContent = htmlTemplate(
-    `${title} - Frith Hilton Collection XXI`,
+    `${title} - Dr. Carl Hill Collection (Book One)`,
     description,
     keywords,
     ogImage,
