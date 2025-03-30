@@ -4,15 +4,13 @@ const path = require('path');
 // Array of poetry titles
 const poetryTitles = [
 
-"The Euphony of Heist",
-"At the Local Church",
-"As Wine Sweet",
-"In a Toast",
+"Mom's cover-up", 
+"While she's spot-on",
   
 ];
 
 // Create necessary directories
-const shareDir = path.join(__dirname, 'share', 'DRH', 'four');
+const shareDir = path.join(__dirname, 'share', 'DRH', 'five');
 fs.mkdirSync(shareDir, { recursive: true });
 
 // Template for the HTML content
@@ -93,16 +91,16 @@ const htmlTemplate = (title, description, keywords, ogImage, ogUrl, twitterImage
 
 // Generate HTML files
 poetryTitles.forEach((title, index) => {
-  const description = `${title} is a poem from Dr. Carl Hill Collection (Book Four) by Howard Frith Hilton`;
-  const keywords = `${title}, Dr. Carl Hill Collection (Book Four)`;
-  const ogImage = `https://frithhilton.com.ng/images/share/DRH/4/image_${index + 1}.png`;
-  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/dr-carl-hill-collection-IV.html?query=${index + 1}`;
+  const description = `${title} is a poem from Dr. Carl Hill Collection (Book Five) by Howard Frith Hilton`;
+  const keywords = `${title}, Dr. Carl Hill Collection (Book Five)`;
+  const ogImage = `https://frithhilton.com.ng/images/share/DRH/5/image_${index + 1}.png`;
+  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/dr-carl-hill-collection-V.html?query=${index + 1}`;
   const twitterImage = ogImage;
   const canonicalUrl = ogUrl;
   const redirectUrl = ogUrl;
   
   const htmlContent = htmlTemplate(
-    `${title} - Dr. Carl Hill Collection (Book Four)`,
+    `${title} - Dr. Carl Hill Collection (Book Five)`,
     description,
     keywords,
     ogImage,
