@@ -12,7 +12,7 @@ const poetryTitles = [
 ];
 
 // Create necessary directories
-const shareDir = path.join(__dirname, 'share', 'DRH', four');
+const shareDir = path.join(__dirname, 'share', 'DRH', 'four');
 fs.mkdirSync(shareDir, { recursive: true });
 
 // Template for the HTML content
