@@ -237,7 +237,7 @@
 <body class="stokes-wrapper" id="ctrlArea" v-cloak>
   <!--========== 
 	Start of loader ==========-->
-  <!--========== 
+
   <div class="template-loader">
     <div class="loaderCenter">
       <div class="book">
@@ -1069,7 +1069,7 @@
       
       for (let i = 0;; i++) {
         const imageName = `${index}${i > 0 ? `-${i}` : ''}.png`;
-        const imageUrl = `../../images/collections/DrCarlHillV/five/${imageName}`;
+        const imageUrl = `../../images/collections/drCarlHill/five/${imageName}`;
         
         const img = new Image();
         img.src = imageUrl;
@@ -1844,7 +1844,7 @@
         utilityButtons.classList.replace('mb-3', 'mb-7');
       },
       downloadEpub() {
-        const path = "published/files/DRH/five/Dr. Carl Hill Collection (Book Five) by Howard Frith Hilton.epub";
+        const path = "https://frithhilton.com.ng/published/files/DRH/five/Dr. Carl Hill Collection (Book Five) by Howard Frith Hilton.epub";
         const link = document.createElement('a');
         link.href = path;
         link.download = 'Dr. Carl Hill Collection (Book Five) by Howard Frith Hilton.epub'; // Set the file name for the download
