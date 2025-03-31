@@ -235,9 +235,9 @@
 </head>
 
 <body class="stokes-wrapper" id="ctrlArea" v-cloak>
-  <!--========== 
+  <!--========
 	Start of loader ==========-->
-  <!--========== 
+  
   <div class="template-loader">
     <div class="loaderCenter">
       <div class="book">
@@ -254,7 +254,7 @@
   <!--========== 
 	End of loader ==========-->
   
-  <!--========== 
+  <!--=========
     Start of  cookie modal notification section ==========-->
   <div class="modal-subscribe">
     <!-- Modal -->
@@ -1063,7 +1063,7 @@
       
       for (let i = 0;; i++) {
         const imageName = `${index}${i > 0 ? `-${i}` : ''}.png`;
-        const imageUrl = `../../images/collections/W2WI/five/${imageName}`;
+        const imageUrl = `../../images/collections/W2W/1/${imageName}`;
         
         const img = new Image();
         img.src = imageUrl;
@@ -1134,7 +1134,7 @@
     async function generateImage(text) {
       const canvas = document.getElementById('canvas');
       const ctx = canvas.getContext('2d');
-      const bgImagePath = './poetryBGStock.png';
+      const bgImagePath = '../../images/generator/poetryBGStock.png';
       const bgImage = await loadImage(bgImagePath);
       ctx.drawImage(bgImage, 0, 0, canvas.width, canvas.height);
       
