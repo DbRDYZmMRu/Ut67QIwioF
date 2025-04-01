@@ -1,5 +1,8 @@
-const puppeteer = require('puppeteer');
+const puppeteer = require('puppeteer-extra');
+const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 const fs = require('fs');
+
+puppeteer.use(StealthPlugin());
 
 (async () => {
     const url = "https://genius.com/Frith-hilton-oliver-sacks-lyrics";
