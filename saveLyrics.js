@@ -1,3 +1,5 @@
+
+
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 
@@ -8,12 +10,24 @@ const fs = require('fs');
   await page.goto(url, { waitUntil: 'networkidle2' });
 
   // Wait for the lyrics to load
-  await page.waitForSelector('div.Lyrics__Container', { timeout: 10000 });
+  await page.waitForFunction(() => {
+    return document.querySelector('*')?.textContent.includes('Oliver Sacks Lyrics');
+  }, { timeout: 10000 });
 
   // Extract the lyrics
   const lyrics = await page.evaluate(() => {
-    const lyricsElement = document.querySelector('div.Lyrics__Container');
-    return lyricsElement ? lyricsElement.innerText : 'Lyrics not found';
+    const elements = document.querySelectorAll('*');
+    let lyricsHeader;
+    elements.forEach((element) => {
+      if (element.textContent.includes('Oliver Sacks Lyrics')) {
+        lyricsHeader = element;
+      }
+    });
+    if (lyricsHeader) {
+      const lyricsContainer = lyricsHeader.nextElementSibling;
+      return lyricsContainer ? lyricsContainer.innerText : 'Lyrics not found';
+    }
+    return 'Lyrics not found';
   });
 
   // Save the lyrics to a text file
