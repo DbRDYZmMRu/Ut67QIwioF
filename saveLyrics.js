@@ -2,21 +2,22 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 
 (async () => {
-    const url = "https://genius.com/Frith-hilton-oliver-sacks-lyrics";
-    const browser = await puppeteer.launch({
-        args: ['--no-sandbox', '--disable-setuid-sandbox']
-    });
-    const page = await browser.newPage();
-    await page.goto(url, { waitUntil: 'networkidle2' });
+  const url = "https://genius.com/Frith-hilton-oliver-sacks-lyrics";
+  const browser = await puppeteer.launch({ args: ['--no-sandbox', '--disable-setuid-sandbox'] });
+  const page = await browser.newPage();
+  await page.goto(url, { waitUntil: 'networkidle2' });
 
-    // Extract the lyrics
-    const lyrics = await page.evaluate(() => {
-        const lyricsElement = document.querySelector('.lyrics');
-        return lyricsElement ? lyricsElement.innerText : 'Lyrics not found';
-    });
+  // Wait for the lyrics to load
+  await page.waitForSelector('div.Lyrics__Container', { timeout: 10000 });
 
-    // Save the lyrics to a text file
-    fs.writeFileSync('lyrics.txt', lyrics);
+  // Extract the lyrics
+  const lyrics = await page.evaluate(() => {
+    const lyricsElement = document.querySelector('div.Lyrics__Container');
+    return lyricsElement ? lyricsElement.innerText : 'Lyrics not found';
+  });
 
-    await browser.close();
+  // Save the lyrics to a text file
+  fs.writeFileSync('lyrics.txt', lyrics);
+
+  await browser.close();
 })();
