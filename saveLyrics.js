@@ -9,18 +9,13 @@ const fs = require('fs');
     const page = await browser.newPage();
     await page.goto(url, { waitUntil: 'networkidle2' });
 
-    // Extract the lyrics by simulating text copy action
-    const lyrics = await page.evaluate(() => {
-        const bodyText = document.body.innerText;
-        const startIndex = bodyText.indexOf("Oliver Sacks Lyrics");
-        if (startIndex === -1) return 'Lyrics not found';
-        
-        // Extract the text starting from "Oliver Sacks Lyrics" to the end
-        return bodyText.substring(startIndex);
+    // Extract the text displayed on the screen
+    const textOnScreen = await page.evaluate(() => {
+        return document.body.innerText;
     });
 
-    // Save the lyrics to a text file
-    fs.writeFileSync('lyrics.txt', lyrics);
+    // Save the text to a file
+    fs.writeFileSync('lyrics.txt', textOnScreen);
 
     await browser.close();
 })();
