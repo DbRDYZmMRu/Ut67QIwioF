@@ -18,7 +18,7 @@ puppeteer.use(StealthPlugin());
     });
 
     // Save the text to a file
-    fs.writeFileSync('lyrics.txt', textOnScreen);
+    fs.writeFileSync('lyricss.txt', textOnScreen);
 
     await browser.close();
 })();
