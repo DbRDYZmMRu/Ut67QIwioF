@@ -1,4 +1,4 @@
-# Howard Frith Hilton Library and Musicpool
+# Howard Frith Hilton Library and Music Pool
 
 # Directory Tree
 ###  .git
