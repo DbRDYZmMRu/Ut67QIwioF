@@ -1,16 +1,12 @@
 {
-  "name": "image-generator",
+  "name": "musicpool-cover-downloader",
   "version": "1.0.0",
-  "description": "Generate images with text overlay",
-  "main": "generate_images.js",
+  "description": "Download and save cover images for music albums and tracks",
+  "main": "download_and_update_images.js",
   "scripts": {
-    "start": "node generate_images.js"
+    "start": "node download_and_update_images.js"
   },
   "dependencies": {
-    "canvas": "^2.8.0", 
-    "puppeteer": "^19.0.0",
-    "puppeteer-extra": "^3.2.3",
-    "puppeteer-extra-plugin-stealth": "^2.6.6", 
     "axios": "^1.3.4"
   }
 }
