@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 const axios = require('axios');
-const jsonFilePath = path.join(__dirname, 'Musicpool', 'albums.json');
-const logFilePath = path.join(__dirname, 'Musicpool', 'covers', 'log.txt');
+const jsonFilePath = path.join(__dirname, 'musicpool', 'albums.json');
+const logFilePath = path.join(__dirname, 'musicpool', 'covers', 'log.txt');
 
 async function downloadImage(url, savePath) {
   try {
@@ -22,7 +22,7 @@ async function downloadImage(url, savePath) {
 }
 
 async function processAlbum(albumId, albumData) {
-  const albumDir = path.join(__dirname, 'Musicpool', 'covers', albumId);
+  const albumDir = path.join(__dirname, 'musicpool', 'covers', albumId);
   const albumCoverDir = path.join(albumDir, 'album_cover');
   if (!fs.existsSync(albumDir)) {
     fs.mkdirSync(albumDir, { recursive: true });
