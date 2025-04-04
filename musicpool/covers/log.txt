@@ -1,0 +1,10 @@
+Failed to download images from https://unluckiest-refund.000webhostapp.com/Colourful%20light/Track%203/Cover.jpg: getaddrinfo EAI_AGAIN unluckiest-refund.000webhostapp.com
+Failed to download images from https://unluckiest-refund.000webhostapp.com/Colourful%20light/Track%209/TheCover.jpg: getaddrinfo EAI_AGAIN unluckiest-refund.000webhostapp.com
+Failed to download images from https://unluckiest-refund.000webhostapp.com/Colourful%20light/Track%2013/Cover.jpg: getaddrinfo EAI_AGAIN unluckiest-refund.000webhostapp.com
+Failed to download images from https://frithhilton.000webhostapp.com/December%2013/My%20girl.jpg: getaddrinfo EAI_AGAIN frithhilton.000webhostapp.com
+Failed to download images from https://unluckiest-refund.000webhostapp.com/Eve/Over%20you.jpg: getaddrinfo EAI_AGAIN unluckiest-refund.000webhostapp.com
+Failed to download images from https://unluckiest-refund.000webhostapp.com/Theo/Track%201/Cover.jpg: getaddrinfo EAI_AGAIN unluckiest-refund.000webhostapp.com
+Failed to download images from https://unluckiest-refund.000webhostapp.com/Theo/Track%201/Cover.jpg: getaddrinfo EAI_AGAIN unluckiest-refund.000webhostapp.com
+Failed to download images from https://unluckiest-refund.000webhostapp.com/Theo/Track%202/Cover.jpg: getaddrinfo EAI_AGAIN unluckiest-refund.000webhostapp.com
+Failed to download images from https://unluckiest-refund.000webhostapp.com/Theo/Track%208/Cover.jpg: getaddrinfo EAI_AGAIN unluckiest-refund.000webhostapp.com
+Failed to download images from https://unluckiest-refund.000webhostapp.com/Lantern/Track%205/Cover.jpg: getaddrinfo EAI_AGAIN unluckiest-refund.000webhostapp.com
