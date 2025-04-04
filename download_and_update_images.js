@@ -17,7 +17,7 @@ async function downloadImage(url, savePath) {
       writer.on('error', reject);
     });
   } catch (error) {
-    throw new Error(`Failed to download image from ${url}: ${error.message}`);
+    throw new Error(`Failed to download images from ${url}: ${error.message}`);
   }
 }
 
