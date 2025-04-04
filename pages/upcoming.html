@@ -380,7 +380,7 @@
           <div class="mb-5">
             <div id="ad-bottom"></div>
           </div>
-          
+
 
 
           <!--========== 
@@ -509,13 +509,13 @@ End of poetry content ==========-->
   <div class="col-lg-3 col-sm-6">
     <p @click="window.location.href='../published/search.html'" class="btn btn-naked-wrap search-btn"> <i class="fas fa-search"></i> <span> search </span> </p>
   </div>
-        
+
 
   <!-- Popup container -->
   <div class="popup-container" id="popup-container">
     <!-- Image container -->
     <div id="image-container" class="image-container">
-      <img src="../../images/ads/louisVuittonAd1.gif" alt="Louis Vuitton" />
+      <img src="../../images/ads/VersaceAd1.gif" alt="Versace" />
     </div>
   </div>
 
@@ -563,7 +563,7 @@ End of poetry content ==========-->
   </div>
 
   <!--========== 
-	Start of Javascript ==========-->
+        Start of Javascript ==========-->
 
   <!--===== Global required js =====-->
   <script src="../js/jquery-3.6.0.min.js"></script>
@@ -663,7 +663,7 @@ End of poetry content ==========-->
       // Make image clickable
       $("#image-container").on("click", function() {
         // Replace with your desired action
-        window.open("https://eu.louisvuitton.com/eng-e1/products/ombre-nomade-nvprod990245v/LP0095", "_blank");
+        window.open("https://www.versace.com/sg/en/women/accessories/watches/versace-reveal-watch/PVE0C002-P0025_PNUL.html", "_blank");
       });
 
       $("#image-container-vii").on("click", function() {
@@ -729,13 +729,6 @@ End of poetry content ==========-->
         } else {
           localStorage.removeItem("currentPoemId");
         }
-      },
-      poemTitle: "",
-      getPoemContent() {
-        const poemTitle = this.pageResources().poemTitles.at(this.currentPoem);
-        this.poemTitle = poemTitle;
-        const poemContent = this.pageResources().upcomingPoemTitles;
-        return poemContent.at(this.currentPoem);
       },
       initialPageState: {
         viewii: "upcomingPoemTitles",
@@ -824,11 +817,11 @@ End of poetry content ==========-->
 <p>that strangeness it represents</p>
 <p>the hills’ faces in a boat’s steer</p>
 <p>postmen by a wittier residence</p>
-<p></p>
+<p> </p>
 <p>with her buds a meagre too pelted</p>
 <p>gossamer — so who saw the fret</p>
 <p>a dandelion clock telling innocence</p>
-<p></p>
+<p> </p>
 <p>wind high, a garden flourished; shared</p>
 <p>Pygmalion’s ardour for no sunset</p>
 <p>the diaphanous holder of his breath. </p>`, 
@@ -836,11 +829,11 @@ End of poetry content ==========-->
               poetryAudio: "./upcoming/audio/1.mp3",
               poetryJson: "./upcoming/json/1.json",
              }
-
-
-
+             
+             
+             
                         ],
-                        
+
           convertIndex(prop) {
             var indexNumber = prop;
             console.log(indexNumber);
@@ -928,12 +921,12 @@ End of poetry content ==========-->
   <script>
     const accessAllowed = JSON.parse(localStorage.getItem("accessAllowed"));
     if (!accessAllowed || accessAllowed !== true) {
-      window.location.href = '../published/books.html'; // replace with your desired redirect page
+      //window.location.href = '../published/books.html'; // replace with your desired redirect page
     }
   </script>
   <script src="../js/firewalls.js"></script>
   <!--========== 
-	End of Javascript ==========-->
+        End of Javascript ==========-->
 </body>
 
 </html>
