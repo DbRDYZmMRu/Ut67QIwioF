@@ -3,7 +3,7 @@ const adsTop = [
   { img: '../images/ads/Crocs.gif', link: 'https://www.crocs.com/stories/come-as-you-are.html', displayTime: 5000 },
   { img: '../images/ads/Celsius.gif', link: '#', displayTime: 10000 },
   { img: '../images/ads/818.gif', link: '#', displayTime: 9000 },
-  { img: '../images/ads/Rhode.gif', link: 'https://www.rhodeskin.com', displayTime: 7500 },
+  { img: '../images/ads/kimsSecret.gif', link: 'https://shop.kims-secret.com, ', displayTime: 10000 },
   { img: '../images/ads/Rhode1.gif', link: 'https://www.rhodeskin.com', displayTime: 12000 },
   { img: '../images/ads/cocacola.gif', link: '#', displayTime: 5000 },
   { img: '../images/ads/Personalday.gif', link: 'https://www.personalday.com/', displayTime: 10000 }
