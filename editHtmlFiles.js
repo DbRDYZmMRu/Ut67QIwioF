@@ -29,8 +29,8 @@ const replaceCodeBlock = (filePath, oldBlock, newBlock) => {
   fs.writeFileSync(filePath, updatedContent, 'utf8');
 };
 
-// Define the directory containing the HTML files
-const htmlDir = '/';
+// Define the directory containing the HTML files (root of the current repository)
+const htmlDir = '.';
 
 // Define the code block to delete
 const deleteBlock = `<!--========== 
