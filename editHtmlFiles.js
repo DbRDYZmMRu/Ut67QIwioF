@@ -15,22 +15,36 @@ const readFiles = (dir, fileList = []) => {
   return fileList;
 };
 
-// Function to delete code block in HTML files
-const deleteCodeBlock = (fileContent, codeBlockRegex) => {
-  return fileContent.replace(codeBlockRegex, '');
+// Function to delete code block in HTML files using keyword matching
+const deleteCodeBlock = (fileContent, keyword) => {
+  const startIndex = fileContent.indexOf(keyword);
+  if (startIndex === -1) return fileContent;
+
+  const endIndex = fileContent.indexOf('</section>', startIndex) + '</section>'.length;
+  if (endIndex === -1) return fileContent;
+
+  console.log("Found code block to delete.");
+  return fileContent.slice(0, startIndex) + fileContent.slice(endIndex);
 };
 
-// Function to replace code block in HTML files
-const replaceCodeBlock = (fileContent, oldBlockRegex, newBlock) => {
-  return fileContent.replace(oldBlockRegex, newBlock);
+// Function to replace code block in HTML files using keyword matching
+const replaceCodeBlock = (fileContent, keyword, newBlock) => {
+  const startIndex = fileContent.indexOf(keyword);
+  if (startIndex === -1) return fileContent;
+
+  const endIndex = fileContent.indexOf('</footer>', startIndex) + '</footer>'.length;
+  if (endIndex === -1) return fileContent;
+
+  console.log("Found code block to replace.");
+  return fileContent.slice(0, startIndex) + newBlock + fileContent.slice(endIndex);
 };
 
 // Define the directory containing the HTML files (root of the current repository)
 const htmlDir = '.';
 
-// Define the regex patterns for the code blocks to delete and replace
-const deleteBlockRegex = /<section id="contact-us" class="position-relative">\s*<div class="google-map">\s*<iframe[^>]*><\/iframe>\s*<\/div>\s*<\/section>/gs;
-const oldBlockRegex = /<footer class="footer">\s*<div class="container">\s*<div class="row">\s*<div class="col-lg-6 position-relative mb-5 mb-sm-0">\s*<div class="position-absolute top-0 start-0 slice-pt ps-5 ps-lg-8"><\/div>\s*<\/div>\s*<div class="col-lg-6">\s*<div class="text-center slice-ptb">\s*<h4 class="mb-4 mt-5 mt-lg-0">Time Open<\/h4>\s*<div class="mb-4">\s*<h5>Monday to Friday<\/h5>\s*<p>8:30 am to 5 pm<\/p>\s*<\/div>\s*<h4 class="mb-4">Address<\/h4>\s*<div class="mb-4">\s*<h5>11, Akindenoh street Ota, Ogun State.<\/h5>\s*<p><a href="mailto:hello@frithhilton.com.ng">Send Frith Hilton Mail<\/a><\/p>\s*<\/div>\s*<h2 class="text-green mb-0 mt-5"><i class="feather icon-phone-call"><\/i> \(234\) 815 813 2408<\/h2>\s*<\/div>\s*<\/div>\s*<\/div>\s*<\/div>\s*<\/footer>/gs;
+// Define the keywords to search for deletion and replacement
+const deleteKeyword = '<section id="contact-us" class="position-relative">';
+const replaceKeyword = '<footer class="footer">';
 
 // Define the new code block to replace the old one
 const newBlock = `<footer class="footer">
@@ -58,8 +72,8 @@ htmlFiles.forEach((file) => {
   
   console.log(`Processing file: ${file}`);
 
-  updatedContent = deleteCodeBlock(updatedContent, deleteBlockRegex);
-  updatedContent = replaceCodeBlock(updatedContent, oldBlockRegex, newBlock);
+  updatedContent = deleteCodeBlock(updatedContent, deleteKeyword);
+  updatedContent = replaceCodeBlock(updatedContent, replaceKeyword, newBlock);
   
   if (updatedContent !== originalContent) {
     fs.writeFileSync(file, updatedContent, 'utf8');
