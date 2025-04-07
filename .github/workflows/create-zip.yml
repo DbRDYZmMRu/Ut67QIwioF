@@ -12,6 +12,10 @@ jobs:
       contents: write  # Ensure the workflow has write permission to contents
 
     steps:
+      - name: Clear GitHub Actions Cache
+        run: |
+          sudo rm -rf /home/runner/work/_actions
+
       - name: Checkout repository
         uses: actions/checkout@v2
 
