@@ -15,11 +15,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Install Git LFS
-        run: |
-          curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
-          sudo apt-get install git-lfs
-          git lfs install
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.17.0'
+
+      - name: Install dependencies
+        run: npm install archiver
 
       - name: Configure Git user
         run: |
@@ -27,49 +29,7 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
       - name: Create zip file
-        run: |
-          mkdir -p output
-          zip -r output/files.zip \
-            cookies.html \
-            index.html \
-            indexii.html \
-            pages/bio.html \
-            pages/musicpool.html \
-            pages/not-found.html \
-            pages/player.html \
-            published/books.html \
-            published/journal/a-life-worth-living.html \
-            published/poetry/bury-me-in-1965.html \
-            published/poetry/collection-I.html \
-            published/poetry/collection-II.html \
-            published/poetry/collection-III-ii.html \
-            published/poetry/collection-III.html \
-            published/poetry/collection-IV.html \
-            published/poetry/collection-IX.html \
-            published/poetry/collection-V.html \
-            published/poetry/collection-VI.html \
-            published/poetry/collection-VII.html \
-            published/poetry/collection-VIII.html \
-            published/poetry/collection-X.html \
-            published/poetry/collection-XI-ii.html \
-            published/poetry/collection-XI.html \
-            published/poetry/collection-XII.html \
-            published/poetry/collection-XIII.html \
-            published/poetry/collection-XIV.html \
-            published/poetry/collection-XIX.html \
-            published/poetry/collection-XV.html \
-            published/poetry/collection-XVI.html \
-            published/poetry/collection-XVII.html \
-            published/poetry/collection-XVIII.html \
-            published/poetry/collection-XX.html \
-            published/poetry/collection-XXI.html \
-            published/poetry/dr-carl-hill-collection-I.html \
-            published/poetry/dr-carl-hill-collection-II.html \
-            published/poetry/dr-carl-hill-collection-III.html \
-            published/poetry/dr-carl-hill-collection-IV.html \
-            published/poetry/dr-carl-hill-collection-V.html \
-            published/poetry/west-to-west-collection-I.html \
-            published/search.html
+        run: node createZip.js
 
       - name: Upload artifact
         uses: actions/upload-artifact@v2
