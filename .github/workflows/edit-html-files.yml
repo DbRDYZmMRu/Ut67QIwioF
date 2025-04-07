@@ -9,7 +9,7 @@ jobs:
   edit-files:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Ensure the workflow has write permission to contents
+      contents: write
 
     steps:
       - name: Checkout repository
@@ -34,7 +34,7 @@ jobs:
       - name: Clean and install dependencies
         run: |
           npm install -g npm@latest
-          npm ci  # Clean install to ensure all dependencies are fresh
+          npm ci
 
       - name: Run script to edit HTML files
         run: node editHtmlFiles.js
