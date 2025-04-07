@@ -29,8 +29,8 @@ const replaceCodeBlock = (fileContent, oldBlockRegex, newBlock) => {
 const htmlDir = '.';
 
 // Define the regex patterns for the code blocks to delete and replace
-const deleteBlockRegex = /<section id="contact-us" class="position-relative">\s*<div class="google-map">\s*<iframe[^>]*><\/iframe>\s*<\/div>\s*<\/section>/g;
-const oldBlockRegex = /<footer class="footer">\s*<div class="container">\s*<div class="row">\s*<div class="col-lg-6 position-relative mb-5 mb-sm-0">\s*<div class="position-absolute top-0 start-0 slice-pt ps-5 ps-lg-8"><\/div>\s*<\/div>\s*<div class="col-lg-6">\s*<div class="text-center slice-ptb">\s*<h4 class="mb-4 mt-5 mt-lg-0">Time Open<\/h4>\s*<div class="mb-4">\s*<h5>Monday to Friday<\/h5>\s*<p>8:30 am to 5 pm<\/p>\s*<\/div>\s*<h4 class="mb-4">Address<\/h4>\s*<div class="mb-4">\s*<h5>11, Akindenoh street Ota, Ogun State.<\/h5>\s*<p><a href="mailto:hello@frithhilton.com.ng">Send Frith Hilton Mail<\/a><\/p>\s*<\/div>\s*<h2 class="text-green mb-0 mt-5"><i class="feather icon-phone-call"><\/i> \(234\) 815 813 2408<\/h2>\s*<\/div>\s*<\/div>\s*<\/div>\s*<\/div>\s*<\/footer>/g;
+const deleteBlockRegex = /<section id="contact-us" class="position-relative">\s*<div class="google-map">\s*<iframe[^>]*><\/iframe>\s*<\/div>\s*<\/section>/gs;
+const oldBlockRegex = /<footer class="footer">\s*<div class="container">\s*<div class="row">\s*<div class="col-lg-6 position-relative mb-5 mb-sm-0">\s*<div class="position-absolute top-0 start-0 slice-pt ps-5 ps-lg-8"><\/div>\s*<\/div>\s*<div class="col-lg-6">\s*<div class="text-center slice-ptb">\s*<h4 class="mb-4 mt-5 mt-lg-0">Time Open<\/h4>\s*<div class="mb-4">\s*<h5>Monday to Friday<\/h5>\s*<p>8:30 am to 5 pm<\/p>\s*<\/div>\s*<h4 class="mb-4">Address<\/h4>\s*<div class="mb-4">\s*<h5>11, Akindenoh street Ota, Ogun State.<\/h5>\s*<p><a href="mailto:hello@frithhilton.com.ng">Send Frith Hilton Mail<\/a><\/p>\s*<\/div>\s*<h2 class="text-green mb-0 mt-5"><i class="feather icon-phone-call"><\/i> \(234\) 815 813 2408<\/h2>\s*<\/div>\s*<\/div>\s*<\/div>\s*<\/div>\s*<\/footer>/gs;
 
 // Define the new code block to replace the old one
 const newBlock = `<footer class="footer">
