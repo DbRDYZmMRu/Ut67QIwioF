@@ -95,6 +95,8 @@ htmlFiles.forEach((file) => {
   const originalContent = fs.readFileSync(file, 'utf8');
   let updatedContent = originalContent;
   
+  console.log(`Processing file: ${file}`);
+
   updatedContent = deleteCodeBlock(updatedContent, deleteBlock);
   updatedContent = replaceCodeBlock(updatedContent, oldBlock, newBlock);
   
@@ -102,6 +104,8 @@ htmlFiles.forEach((file) => {
     fs.writeFileSync(file, updatedContent, 'utf8');
     updatedFiles.push(file);
     console.log(`Updated ${file}`);
+  } else {
+    console.log(`No changes made to ${file}`);
   }
 });
 
