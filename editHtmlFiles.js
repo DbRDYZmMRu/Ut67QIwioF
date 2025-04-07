@@ -16,17 +16,21 @@ const readFiles = (dir, fileList = []) => {
 };
 
 // Function to delete code block in HTML files
-const deleteCodeBlock = (filePath, codeBlock) => {
-  const fileContent = fs.readFileSync(filePath, 'utf8');
-  const updatedContent = fileContent.replace(codeBlock, '');
-  fs.writeFileSync(filePath, updatedContent, 'utf8');
+const deleteCodeBlock = (fileContent, codeBlock) => {
+  if (fileContent.includes(codeBlock)) {
+    console.log("Found code block to delete.");
+    return fileContent.replace(codeBlock, '');
+  }
+  return fileContent;
 };
 
 // Function to replace code block in HTML files
-const replaceCodeBlock = (filePath, oldBlock, newBlock) => {
-  const fileContent = fs.readFileSync(filePath, 'utf8');
-  const updatedContent = fileContent.replace(oldBlock, newBlock);
-  fs.writeFileSync(filePath, updatedContent, 'utf8');
+const replaceCodeBlock = (fileContent, oldBlock, newBlock) => {
+  if (fileContent.includes(oldBlock)) {
+    console.log("Found code block to replace.");
+    return fileContent.replace(oldBlock, newBlock);
+  }
+  return fileContent;
 };
 
 // Define the directory containing the HTML files (root of the current repository)
@@ -91,8 +95,8 @@ htmlFiles.forEach((file) => {
   const originalContent = fs.readFileSync(file, 'utf8');
   let updatedContent = originalContent;
   
-  updatedContent = updatedContent.replace(deleteBlock, '');
-  updatedContent = updatedContent.replace(oldBlock, newBlock);
+  updatedContent = deleteCodeBlock(updatedContent, deleteBlock);
+  updatedContent = replaceCodeBlock(updatedContent, oldBlock, newBlock);
   
   if (updatedContent !== originalContent) {
     fs.writeFileSync(file, updatedContent, 'utf8');
