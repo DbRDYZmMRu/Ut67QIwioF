@@ -6,7 +6,7 @@ const pLimit = require("p-limit"); // For limiting concurrency
 
 const linksFilePath = "links.txt";
 const downloadDir = "downloaded_html";
-const zipFilePath = "final_pages.zip";
+const zipFilePath = "final_pagess.zip";
 
 // Check if links file exists
 if (!fs.existsSync(linksFilePath)) {
