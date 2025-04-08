@@ -1,0 +1,152 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Pruning as brooding",
+      "startTime": 4.978946,
+      "endTime": 7.791281,
+      "words": [
+        {
+          "id": 1,
+          "text": "Pruning",
+          "startTime": 4.978946,
+          "endTime": 5.998074
+        },
+        {
+          "id": 2,
+          "text": "as",
+          "startTime": 5.998074,
+          "endTime": 6.598969
+        },
+        {
+          "id": 3,
+          "text": "brooding",
+          "startTime": 6.598969,
+          "endTime": 7.791281
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "in truth, too stinking;",
+      "startTime": 7.791281,
+      "endTime": 11.710054,
+      "words": [
+        {
+          "id": 4,
+          "text": "in",
+          "startTime": 7.791281,
+          "endTime": 8.92089
+        },
+        {
+          "id": 5,
+          "text": "truth,",
+          "startTime": 8.92089,
+          "endTime": 9.783434
+        },
+        {
+          "id": 6,
+          "text": "too",
+          "startTime": 9.783434,
+          "endTime": 10.385488
+        },
+        {
+          "id": 7,
+          "text": "stinking;",
+          "startTime": 10.385488,
+          "endTime": 11.710054
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "austere rift baffling",
+      "startTime": 11.710054,
+      "endTime": 16.760752,
+      "words": [
+        {
+          "id": 8,
+          "text": "austere",
+          "startTime": 11.710054,
+          "endTime": 14.034029
+        },
+        {
+          "id": 9,
+          "text": "rift",
+          "startTime": 14.034029,
+          "endTime": 15.030866
+        },
+        {
+          "id": 10,
+          "text": "baffling",
+          "startTime": 15.030866,
+          "endTime": 16.760752
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "ye who’s hammering",
+      "startTime": 16.760752,
+      "endTime": 19.145668,
+      "words": [
+        {
+          "id": 11,
+          "text": "ye",
+          "startTime": 16.760752,
+          "endTime": 17.556055
+        },
+        {
+          "id": 12,
+          "text": "who’s",
+          "startTime": 17.556055,
+          "endTime": 17.95317
+        },
+        {
+          "id": 13,
+          "text": "hammering",
+          "startTime": 17.95317,
+          "endTime": 19.145668
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "the diff digging the fill.",
+      "startTime": 19.145668,
+      "endTime": 22.811677,
+      "words": [
+        {
+          "id": 14,
+          "text": "the",
+          "startTime": 19.145668,
+          "endTime": 19.744749
+        },
+        {
+          "id": 15,
+          "text": "diff",
+          "startTime": 19.744749,
+          "endTime": 20.206651
+        },
+        {
+          "id": 16,
+          "text": "digging",
+          "startTime": 20.206651,
+          "endTime": 20.608015
+        },
+        {
+          "id": 17,
+          "text": "the",
+          "startTime": 20.608015,
+          "endTime": 20.811677
+        },
+        {
+          "id": 18,
+          "text": "fill.",
+          "startTime": 20.811677,
+          "endTime": 22.811677
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Belated, ill rated",
+      "startTime": 6.378859,
+      "endTime": 9.831983,
+      "words": [
+        {
+          "id": 1,
+          "text": "Belated,",
+          "startTime": 6.378859,
+          "endTime": 7.710606
+        },
+        {
+          "id": 2,
+          "text": "ill",
+          "startTime": 7.710606,
+          "endTime": 8.703868
+        },
+        {
+          "id": 3,
+          "text": "rated",
+          "startTime": 8.703868,
+          "endTime": 9.831983
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "infuriated, he’s hated",
+      "startTime": 9.831983,
+      "endTime": 14.344649,
+      "words": [
+        {
+          "id": 4,
+          "text": "infuriated,",
+          "startTime": 9.831983,
+          "endTime": 12.356392
+        },
+        {
+          "id": 5,
+          "text": "he’s",
+          "startTime": 12.356392,
+          "endTime": 12.951169
+        },
+        {
+          "id": 6,
+          "text": "hated",
+          "startTime": 12.951169,
+          "endTime": 14.344649
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "this statement",
+      "startTime": 14.344649,
+      "endTime": 16.541393,
+      "words": [
+        {
+          "id": 7,
+          "text": "this",
+          "startTime": 14.344649,
+          "endTime": 15.216357
+        },
+        {
+          "id": 8,
+          "text": "statement",
+          "startTime": 15.216357,
+          "endTime": 16.541393
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "wig impertinent",
+      "startTime": 16.541393,
+      "endTime": 19.062263,
+      "words": [
+        {
+          "id": 9,
+          "text": "wig",
+          "startTime": 16.541393,
+          "endTime": 17.468581
+        },
+        {
+          "id": 10,
+          "text": "impertinent",
+          "startTime": 17.468581,
+          "endTime": 19.062263
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "to see him invigorated",
+      "startTime": 19.062263,
+      "endTime": 22.318353,
+      "words": [
+        {
+          "id": 11,
+          "text": "to",
+          "startTime": 19.062263,
+          "endTime": 20.259864
+        },
+        {
+          "id": 12,
+          "text": "see",
+          "startTime": 20.259864,
+          "endTime": 20.391321
+        },
+        {
+          "id": 13,
+          "text": "him",
+          "startTime": 20.391321,
+          "endTime": 20.590702
+        },
+        {
+          "id": 14,
+          "text": "invigorated",
+          "startTime": 20.590702,
+          "endTime": 22.318353
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "he should rate it",
+      "startTime": 22.318353,
+      "endTime": 24.507216,
+      "words": [
+        {
+          "id": 15,
+          "text": "he",
+          "startTime": 22.318353,
+          "endTime": 22.979811
+        },
+        {
+          "id": 16,
+          "text": "should",
+          "startTime": 22.979811,
+          "endTime": 23.18236
+        },
+        {
+          "id": 17,
+          "text": "rate",
+          "startTime": 23.18236,
+          "endTime": 23.513018
+        },
+        {
+          "id": 18,
+          "text": "it",
+          "startTime": 23.513018,
+          "endTime": 24.507216
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "tease as to his reasoning",
+      "startTime": 24.507216,
+      "endTime": 28.826127,
+      "words": [
+        {
+          "id": 19,
+          "text": "tease",
+          "startTime": 24.507216,
+          "endTime": 26.105357
+        },
+        {
+          "id": 20,
+          "text": "as",
+          "startTime": 26.105357,
+          "endTime": 26.503096
+        },
+        {
+          "id": 21,
+          "text": "to",
+          "startTime": 26.503096,
+          "endTime": 26.699642
+        },
+        {
+          "id": 22,
+          "text": "his",
+          "startTime": 26.699642,
+          "endTime": 26.9001
+        },
+        {
+          "id": 23,
+          "text": "reasoning",
+          "startTime": 26.9001,
+          "endTime": 28.826127
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "weep a bit till he tweets",
+      "startTime": 28.826127,
+      "endTime": 32.350717,
+      "words": [
+        {
+          "id": 24,
+          "text": "weep",
+          "startTime": 28.826127,
+          "endTime": 29.424602
+        },
+        {
+          "id": 25,
+          "text": "a",
+          "startTime": 29.424602,
+          "endTime": 29.560487
+        },
+        {
+          "id": 26,
+          "text": "bit",
+          "startTime": 29.560487,
+          "endTime": 30.292344
+        },
+        {
+          "id": 27,
+          "text": "till",
+          "startTime": 30.292344,
+          "endTime": 30.957887
+        },
+        {
+          "id": 28,
+          "text": "he",
+          "startTime": 30.957887,
+          "endTime": 31.156929
+        },
+        {
+          "id": 29,
+          "text": "tweets",
+          "startTime": 31.156929,
+          "endTime": 32.350717
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "read to her his plea",
+      "startTime": 32.350717,
+      "endTime": 35.739546,
+      "words": [
+        {
+          "id": 30,
+          "text": "read",
+          "startTime": 32.350717,
+          "endTime": 33.285171
+        },
+        {
+          "id": 31,
+          "text": "to",
+          "startTime": 33.285171,
+          "endTime": 33.47867
+        },
+        {
+          "id": 32,
+          "text": "her",
+          "startTime": 33.47867,
+          "endTime": 33.683234
+        },
+        {
+          "id": 33,
+          "text": "his",
+          "startTime": 33.683234,
+          "endTime": 34.478716
+        },
+        {
+          "id": 34,
+          "text": "plea",
+          "startTime": 34.478716,
+          "endTime": 35.739546
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "greet her birthday and retreat.",
+      "startTime": 35.739546,
+      "endTime": 40.464787,
+      "words": [
+        {
+          "id": 35,
+          "text": "greet",
+          "startTime": 35.739546,
+          "endTime": 37.26841
+        },
+        {
+          "id": 36,
+          "text": "her",
+          "startTime": 37.26841,
+          "endTime": 37.401511
+        },
+        {
+          "id": 37,
+          "text": "birthday",
+          "startTime": 37.401511,
+          "endTime": 37.934631
+        },
+        {
+          "id": 38,
+          "text": "and",
+          "startTime": 37.934631,
+          "endTime": 38.464787
+        },
+        {
+          "id": 39,
+          "text": "retreat.",
+          "startTime": 38.464787,
+          "endTime": 40.464787
+        }
+      ]
+    }
+  ]
+}

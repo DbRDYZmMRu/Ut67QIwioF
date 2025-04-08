@@ -1,0 +1,186 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Drifting in grips",
+      "startTime": 4.95573,
+      "endTime": 7.082205,
+      "words": [
+        {
+          "id": 1,
+          "text": "Drifting",
+          "startTime": 4.95573,
+          "endTime": 5.882346
+        },
+        {
+          "id": 2,
+          "text": "in",
+          "startTime": 5.882346,
+          "endTime": 6.147383
+        },
+        {
+          "id": 3,
+          "text": "grips",
+          "startTime": 6.147383,
+          "endTime": 7.082205
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "dibs per wish",
+      "startTime": 7.082205,
+      "endTime": 9.467907,
+      "words": [
+        {
+          "id": 4,
+          "text": "dibs",
+          "startTime": 7.082205,
+          "endTime": 8.143554
+        },
+        {
+          "id": 5,
+          "text": "per",
+          "startTime": 8.143554,
+          "endTime": 8.608703
+        },
+        {
+          "id": 6,
+          "text": "wish",
+          "startTime": 8.608703,
+          "endTime": 9.467907
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "cleave in niche",
+      "startTime": 9.467907,
+      "endTime": 12.655768,
+      "words": [
+        {
+          "id": 7,
+          "text": "cleave",
+          "startTime": 9.467907,
+          "endTime": 11.064339
+        },
+        {
+          "id": 8,
+          "text": "in",
+          "startTime": 11.064339,
+          "endTime": 11.665301
+        },
+        {
+          "id": 9,
+          "text": "niche",
+          "startTime": 11.665301,
+          "endTime": 12.655768
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "flipping fizz’s steam",
+      "startTime": 12.655768,
+      "endTime": 15.780752,
+      "words": [
+        {
+          "id": 10,
+          "text": "flipping",
+          "startTime": 12.655768,
+          "endTime": 14.117713
+        },
+        {
+          "id": 11,
+          "text": "fizz’s",
+          "startTime": 14.117713,
+          "endTime": 14.720113
+        },
+        {
+          "id": 12,
+          "text": "steam",
+          "startTime": 14.720113,
+          "endTime": 15.780752
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "duty grimly gifts",
+      "startTime": 15.780752,
+      "endTime": 18.836399,
+      "words": [
+        {
+          "id": 13,
+          "text": "duty",
+          "startTime": 15.780752,
+          "endTime": 17.041075
+        },
+        {
+          "id": 14,
+          "text": "grimly",
+          "startTime": 17.041075,
+          "endTime": 17.570782
+        },
+        {
+          "id": 15,
+          "text": "gifts",
+          "startTime": 17.570782,
+          "endTime": 18.836399
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "pitch peach, please",
+      "startTime": 18.836399,
+      "endTime": 22.886998,
+      "words": [
+        {
+          "id": 16,
+          "text": "pitch",
+          "startTime": 18.836399,
+          "endTime": 20.096253
+        },
+        {
+          "id": 17,
+          "text": "peach,",
+          "startTime": 20.096253,
+          "endTime": 21.156447
+        },
+        {
+          "id": 18,
+          "text": "please",
+          "startTime": 21.156447,
+          "endTime": 22.886998
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "with sleeve stories.",
+      "startTime": 22.886998,
+      "endTime": 26.477206,
+      "words": [
+        {
+          "id": 19,
+          "text": "with",
+          "startTime": 22.886998,
+          "endTime": 23.748264
+        },
+        {
+          "id": 20,
+          "text": "sleeve",
+          "startTime": 23.748264,
+          "endTime": 24.477206
+        },
+        {
+          "id": 21,
+          "text": "stories.",
+          "startTime": 24.477206,
+          "endTime": 26.477206
+        }
+      ]
+    }
+  ]
+}

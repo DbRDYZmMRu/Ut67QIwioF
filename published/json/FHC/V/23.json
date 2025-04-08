@@ -1,0 +1,196 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Is it really so",
+      "startTime": 5.311802,
+      "endTime": 7.440358,
+      "words": [
+        {
+          "id": 1,
+          "text": "Is",
+          "startTime": 5.311802,
+          "endTime": 6.04205
+        },
+        {
+          "id": 2,
+          "text": "it",
+          "startTime": 6.04205,
+          "endTime": 6.248151
+        },
+        {
+          "id": 3,
+          "text": "really",
+          "startTime": 6.248151,
+          "endTime": 6.572462
+        },
+        {
+          "id": 4,
+          "text": "so",
+          "startTime": 6.572462,
+          "endTime": 7.440358
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "that change’s aglow",
+      "startTime": 7.440358,
+      "endTime": 10.644956,
+      "words": [
+        {
+          "id": 5,
+          "text": "that",
+          "startTime": 7.440358,
+          "endTime": 8.583612
+        },
+        {
+          "id": 6,
+          "text": "change’s",
+          "startTime": 8.583612,
+          "endTime": 9.179799
+        },
+        {
+          "id": 7,
+          "text": "aglow",
+          "startTime": 9.179799,
+          "endTime": 10.644956
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "nor the politic a roll",
+      "startTime": 10.644956,
+      "endTime": 13.564795,
+      "words": [
+        {
+          "id": 8,
+          "text": "nor",
+          "startTime": 10.644956,
+          "endTime": 11.573196
+        },
+        {
+          "id": 9,
+          "text": "the",
+          "startTime": 11.573196,
+          "endTime": 11.838433
+        },
+        {
+          "id": 10,
+          "text": "politic",
+          "startTime": 11.838433,
+          "endTime": 12.302178
+        },
+        {
+          "id": 11,
+          "text": "a",
+          "startTime": 12.302178,
+          "endTime": 12.500572
+        },
+        {
+          "id": 12,
+          "text": "roll",
+          "startTime": 12.500572,
+          "endTime": 13.564795
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "if their colours rose?",
+      "startTime": 13.564795,
+      "endTime": 16.747631,
+      "words": [
+        {
+          "id": 13,
+          "text": "if",
+          "startTime": 13.564795,
+          "endTime": 14.495877
+        },
+        {
+          "id": 14,
+          "text": "their",
+          "startTime": 14.495877,
+          "endTime": 14.760991
+        },
+        {
+          "id": 15,
+          "text": "colours",
+          "startTime": 14.760991,
+          "endTime": 15.359057
+        },
+        {
+          "id": 16,
+          "text": "rose?",
+          "startTime": 15.359057,
+          "endTime": 16.747631
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "for it too rose",
+      "startTime": 16.747631,
+      "endTime": 20.007442,
+      "words": [
+        {
+          "id": 17,
+          "text": "for",
+          "startTime": 16.747631,
+          "endTime": 18.612223
+        },
+        {
+          "id": 18,
+          "text": "it",
+          "startTime": 18.612223,
+          "endTime": 18.81176
+        },
+        {
+          "id": 19,
+          "text": "too",
+          "startTime": 18.81176,
+          "endTime": 19.078286
+        },
+        {
+          "id": 20,
+          "text": "rose",
+          "startTime": 19.078286,
+          "endTime": 20.007442
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "as a go-cart goes.",
+      "startTime": 20.007442,
+      "endTime": 23.800198,
+      "words": [
+        {
+          "id": 21,
+          "text": "as",
+          "startTime": 20.007442,
+          "endTime": 20.871209
+        },
+        {
+          "id": 22,
+          "text": "a",
+          "startTime": 20.871209,
+          "endTime": 21.137229
+        },
+        {
+          "id": 23,
+          "text": "go-cart",
+          "startTime": 21.137229,
+          "endTime": 21.800198
+        },
+        {
+          "id": 24,
+          "text": "goes.",
+          "startTime": 21.800198,
+          "endTime": 23.800198
+        }
+      ]
+    }
+  ]
+}

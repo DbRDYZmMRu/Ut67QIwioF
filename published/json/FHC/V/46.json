@@ -1,0 +1,894 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I know these laid pipes",
+      "startTime": 4.768243,
+      "endTime": 6.756385,
+      "words": [
+        {
+          "id": 1,
+          "text": "I",
+          "startTime": 4.768243,
+          "endTime": 5.098548
+        },
+        {
+          "id": 2,
+          "text": "know",
+          "startTime": 5.098548,
+          "endTime": 5.294623
+        },
+        {
+          "id": 3,
+          "text": "these",
+          "startTime": 5.294623,
+          "endTime": 5.562388
+        },
+        {
+          "id": 4,
+          "text": "laid",
+          "startTime": 5.562388,
+          "endTime": 5.825272
+        },
+        {
+          "id": 5,
+          "text": "pipes",
+          "startTime": 5.825272,
+          "endTime": 6.756385
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "they go everywhere but shy",
+      "startTime": 6.756385,
+      "endTime": 9.612808,
+      "words": [
+        {
+          "id": 6,
+          "text": "they",
+          "startTime": 6.756385,
+          "endTime": 7.953285
+        },
+        {
+          "id": 7,
+          "text": "go",
+          "startTime": 7.953285,
+          "endTime": 8.15453
+        },
+        {
+          "id": 8,
+          "text": "everywhere",
+          "startTime": 8.15453,
+          "endTime": 8.684572
+        },
+        {
+          "id": 9,
+          "text": "but",
+          "startTime": 8.684572,
+          "endTime": 8.881629
+        },
+        {
+          "id": 10,
+          "text": "shy",
+          "startTime": 8.881629,
+          "endTime": 9.612808
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "as if to come uninvited and die",
+      "startTime": 9.612808,
+      "endTime": 14.063844,
+      "words": [
+        {
+          "id": 11,
+          "text": "as",
+          "startTime": 9.612808,
+          "endTime": 11.475256
+        },
+        {
+          "id": 12,
+          "text": "if",
+          "startTime": 11.475256,
+          "endTime": 11.6716
+        },
+        {
+          "id": 13,
+          "text": "to",
+          "startTime": 11.6716,
+          "endTime": 11.807818
+        },
+        {
+          "id": 14,
+          "text": "come",
+          "startTime": 11.807818,
+          "endTime": 12.002553
+        },
+        {
+          "id": 15,
+          "text": "uninvited",
+          "startTime": 12.002553,
+          "endTime": 13.000945
+        },
+        {
+          "id": 16,
+          "text": "and",
+          "startTime": 13.000945,
+          "endTime": 13.264666
+        },
+        {
+          "id": 17,
+          "text": "die",
+          "startTime": 13.264666,
+          "endTime": 14.063844
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "cos I’m dangerous and I’ll cry",
+      "startTime": 14.063844,
+      "endTime": 17.913358,
+      "words": [
+        {
+          "id": 18,
+          "text": "cos",
+          "startTime": 14.063844,
+          "endTime": 14.858826
+        },
+        {
+          "id": 19,
+          "text": "I’m",
+          "startTime": 14.858826,
+          "endTime": 15.059695
+        },
+        {
+          "id": 20,
+          "text": "dangerous",
+          "startTime": 15.059695,
+          "endTime": 16.187422
+        },
+        {
+          "id": 21,
+          "text": "and",
+          "startTime": 16.187422,
+          "endTime": 16.519429
+        },
+        {
+          "id": 22,
+          "text": "I’ll",
+          "startTime": 16.519429,
+          "endTime": 16.850521
+        },
+        {
+          "id": 23,
+          "text": "cry",
+          "startTime": 16.850521,
+          "endTime": 17.913358
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "for a no-fly zone is trying high",
+      "startTime": 17.913358,
+      "endTime": 21.901848,
+      "words": [
+        {
+          "id": 24,
+          "text": "for",
+          "startTime": 17.913358,
+          "endTime": 18.709143
+        },
+        {
+          "id": 25,
+          "text": "a",
+          "startTime": 18.709143,
+          "endTime": 18.912487
+        },
+        {
+          "id": 26,
+          "text": "no-fly",
+          "startTime": 18.912487,
+          "endTime": 19.442747
+        },
+        {
+          "id": 27,
+          "text": "zone",
+          "startTime": 19.442747,
+          "endTime": 20.304073
+        },
+        {
+          "id": 28,
+          "text": "is",
+          "startTime": 20.304073,
+          "endTime": 20.568817
+        },
+        {
+          "id": 29,
+          "text": "trying",
+          "startTime": 20.568817,
+          "endTime": 20.901667
+        },
+        {
+          "id": 30,
+          "text": "high",
+          "startTime": 20.901667,
+          "endTime": 21.901848
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "and these pipes are too wide",
+      "startTime": 21.901848,
+      "endTime": 24.689015,
+      "words": [
+        {
+          "id": 31,
+          "text": "and",
+          "startTime": 21.901848,
+          "endTime": 22.497244
+        },
+        {
+          "id": 32,
+          "text": "these",
+          "startTime": 22.497244,
+          "endTime": 22.696975
+        },
+        {
+          "id": 33,
+          "text": "pipes",
+          "startTime": 22.696975,
+          "endTime": 23.492284
+        },
+        {
+          "id": 34,
+          "text": "are",
+          "startTime": 23.492284,
+          "endTime": 23.691374
+        },
+        {
+          "id": 35,
+          "text": "too",
+          "startTime": 23.691374,
+          "endTime": 23.889369
+        },
+        {
+          "id": 36,
+          "text": "wide",
+          "startTime": 23.889369,
+          "endTime": 24.689015
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "so give up and tell me the rhyme",
+      "startTime": 24.689015,
+      "endTime": 28.208609,
+      "words": [
+        {
+          "id": 37,
+          "text": "so",
+          "startTime": 24.689015,
+          "endTime": 26.086984
+        },
+        {
+          "id": 38,
+          "text": "give",
+          "startTime": 26.086984,
+          "endTime": 26.216558
+        },
+        {
+          "id": 39,
+          "text": "up",
+          "startTime": 26.216558,
+          "endTime": 26.417844
+        },
+        {
+          "id": 40,
+          "text": "and",
+          "startTime": 26.417844,
+          "endTime": 26.683977
+        },
+        {
+          "id": 41,
+          "text": "tell",
+          "startTime": 26.683977,
+          "endTime": 26.87916
+        },
+        {
+          "id": 42,
+          "text": "me",
+          "startTime": 26.87916,
+          "endTime": 27.148208
+        },
+        {
+          "id": 43,
+          "text": "the",
+          "startTime": 27.148208,
+          "endTime": 27.346231
+        },
+        {
+          "id": 44,
+          "text": "rhyme",
+          "startTime": 27.346231,
+          "endTime": 28.208609
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "where are the aliens? I have no time",
+      "startTime": 28.208609,
+      "endTime": 33.722385,
+      "words": [
+        {
+          "id": 45,
+          "text": "where",
+          "startTime": 28.208609,
+          "endTime": 29.605866
+        },
+        {
+          "id": 46,
+          "text": "are",
+          "startTime": 29.605866,
+          "endTime": 29.738056
+        },
+        {
+          "id": 47,
+          "text": "the",
+          "startTime": 29.738056,
+          "endTime": 30.003764
+        },
+        {
+          "id": 48,
+          "text": "aliens?",
+          "startTime": 30.003764,
+          "endTime": 31.195644
+        },
+        {
+          "id": 49,
+          "text": "I",
+          "startTime": 31.195644,
+          "endTime": 32.059957
+        },
+        {
+          "id": 50,
+          "text": "have",
+          "startTime": 32.059957,
+          "endTime": 32.3283
+        },
+        {
+          "id": 51,
+          "text": "no",
+          "startTime": 32.3283,
+          "endTime": 32.528884
+        },
+        {
+          "id": 52,
+          "text": "time",
+          "startTime": 32.528884,
+          "endTime": 33.722385
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "do they dine with you in brine?",
+      "startTime": 33.722385,
+      "endTime": 37.772676,
+      "words": [
+        {
+          "id": 53,
+          "text": "do",
+          "startTime": 33.722385,
+          "endTime": 35.050128
+        },
+        {
+          "id": 54,
+          "text": "they",
+          "startTime": 35.050128,
+          "endTime": 35.182471
+        },
+        {
+          "id": 55,
+          "text": "dine",
+          "startTime": 35.182471,
+          "endTime": 35.51413
+        },
+        {
+          "id": 56,
+          "text": "with",
+          "startTime": 35.51413,
+          "endTime": 35.712796
+        },
+        {
+          "id": 57,
+          "text": "you",
+          "startTime": 35.712796,
+          "endTime": 36.115159
+        },
+        {
+          "id": 58,
+          "text": "in",
+          "startTime": 36.115159,
+          "endTime": 36.314974
+        },
+        {
+          "id": 59,
+          "text": "brine?",
+          "startTime": 36.314974,
+          "endTime": 37.772676
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "have they close doors and tell no lies? ",
+      "startTime": 37.772676,
+      "endTime": 42.021522,
+      "words": [
+        {
+          "id": 60,
+          "text": "have",
+          "startTime": 37.772676,
+          "endTime": 38.700952
+        },
+        {
+          "id": 61,
+          "text": "they",
+          "startTime": 38.700952,
+          "endTime": 38.900816
+        },
+        {
+          "id": 62,
+          "text": "close",
+          "startTime": 38.900816,
+          "endTime": 39.369138
+        },
+        {
+          "id": 63,
+          "text": "doors",
+          "startTime": 39.369138,
+          "endTime": 39.628527
+        },
+        {
+          "id": 64,
+          "text": "and",
+          "startTime": 39.628527,
+          "endTime": 40.494268
+        },
+        {
+          "id": 65,
+          "text": "tell",
+          "startTime": 40.494268,
+          "endTime": 40.760292
+        },
+        {
+          "id": 66,
+          "text": "no",
+          "startTime": 40.760292,
+          "endTime": 40.960923
+        },
+        {
+          "id": 67,
+          "text": "lies?",
+          "startTime": 40.960923,
+          "endTime": 42.021522
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "come on ‘fore I‘ve no words for my climb",
+      "startTime": 42.021522,
+      "endTime": 47.131533,
+      "words": [
+        {
+          "id": 68,
+          "text": "come",
+          "startTime": 42.021522,
+          "endTime": 43.687705
+        },
+        {
+          "id": 69,
+          "text": "on",
+          "startTime": 43.687705,
+          "endTime": 44.880127
+        },
+        {
+          "id": 70,
+          "text": "‘fore",
+          "startTime": 44.880127,
+          "endTime": 45.012079
+        },
+        {
+          "id": 71,
+          "text": "I‘ve",
+          "startTime": 45.012079,
+          "endTime": 45.276544
+        },
+        {
+          "id": 72,
+          "text": "no",
+          "startTime": 45.276544,
+          "endTime": 45.476215
+        },
+        {
+          "id": 73,
+          "text": "words",
+          "startTime": 45.476215,
+          "endTime": 45.805818
+        },
+        {
+          "id": 74,
+          "text": "for",
+          "startTime": 45.805818,
+          "endTime": 45.94056
+        },
+        {
+          "id": 75,
+          "text": "my",
+          "startTime": 45.94056,
+          "endTime": 46.140156
+        },
+        {
+          "id": 76,
+          "text": "climb",
+          "startTime": 46.140156,
+          "endTime": 47.131533
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "these pipes go deep, and I see light",
+      "startTime": 47.131533,
+      "endTime": 51.657455,
+      "words": [
+        {
+          "id": 77,
+          "text": "these",
+          "startTime": 47.131533,
+          "endTime": 48.200882
+        },
+        {
+          "id": 78,
+          "text": "pipes",
+          "startTime": 48.200882,
+          "endTime": 48.532783
+        },
+        {
+          "id": 79,
+          "text": "go",
+          "startTime": 48.532783,
+          "endTime": 48.863143
+        },
+        {
+          "id": 80,
+          "text": "deep,",
+          "startTime": 48.863143,
+          "endTime": 49.925743
+        },
+        {
+          "id": 81,
+          "text": "and",
+          "startTime": 49.925743,
+          "endTime": 50.127083
+        },
+        {
+          "id": 82,
+          "text": "I",
+          "startTime": 50.127083,
+          "endTime": 50.264616
+        },
+        {
+          "id": 83,
+          "text": "see",
+          "startTime": 50.264616,
+          "endTime": 50.524974
+        },
+        {
+          "id": 84,
+          "text": "light",
+          "startTime": 50.524974,
+          "endTime": 51.657455
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "paragraph": "though I must refuse your crime",
+      "startTime": 51.657455,
+      "endTime": 56.236927,
+      "words": [
+        {
+          "id": 85,
+          "text": "though",
+          "startTime": 51.657455,
+          "endTime": 53.380249
+        },
+        {
+          "id": 86,
+          "text": "I",
+          "startTime": 53.380249,
+          "endTime": 53.447654
+        },
+        {
+          "id": 87,
+          "text": "must",
+          "startTime": 53.447654,
+          "endTime": 53.650662
+        },
+        {
+          "id": 88,
+          "text": "refuse",
+          "startTime": 53.650662,
+          "endTime": 54.241595
+        },
+        {
+          "id": 89,
+          "text": "your",
+          "startTime": 54.241595,
+          "endTime": 54.382309
+        },
+        {
+          "id": 90,
+          "text": "crime",
+          "startTime": 54.382309,
+          "endTime": 56.236927
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "paragraph": "letting me live from an uninvited whine",
+      "startTime": 56.236927,
+      "endTime": 60.487379,
+      "words": [
+        {
+          "id": 91,
+          "text": "letting",
+          "startTime": 56.236927,
+          "endTime": 56.503231
+        },
+        {
+          "id": 92,
+          "text": "me",
+          "startTime": 56.503231,
+          "endTime": 56.767808
+        },
+        {
+          "id": 93,
+          "text": "live",
+          "startTime": 56.767808,
+          "endTime": 57.36581
+        },
+        {
+          "id": 94,
+          "text": "from",
+          "startTime": 57.36581,
+          "endTime": 58.035056
+        },
+        {
+          "id": 95,
+          "text": "an",
+          "startTime": 58.035056,
+          "endTime": 58.229302
+        },
+        {
+          "id": 96,
+          "text": "uninvited",
+          "startTime": 58.229302,
+          "endTime": 59.162975
+        },
+        {
+          "id": 97,
+          "text": "whine",
+          "startTime": 59.162975,
+          "endTime": 60.487379
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "paragraph": "is it you won’t cry? bead after the grime",
+      "startTime": 60.487379,
+      "endTime": 67.142694,
+      "words": [
+        {
+          "id": 98,
+          "text": "is",
+          "startTime": 60.487379,
+          "endTime": 62.151857
+        },
+        {
+          "id": 99,
+          "text": "it",
+          "startTime": 62.151857,
+          "endTime": 62.415697
+        },
+        {
+          "id": 100,
+          "text": "you",
+          "startTime": 62.415697,
+          "endTime": 62.548452
+        },
+        {
+          "id": 101,
+          "text": "won’t",
+          "startTime": 62.548452,
+          "endTime": 63.017227
+        },
+        {
+          "id": 102,
+          "text": "cry?",
+          "startTime": 63.017227,
+          "endTime": 63.752385
+        },
+        {
+          "id": 103,
+          "text": "bead",
+          "startTime": 63.752385,
+          "endTime": 65.282007
+        },
+        {
+          "id": 104,
+          "text": "after",
+          "startTime": 65.282007,
+          "endTime": 65.611452
+        },
+        {
+          "id": 105,
+          "text": "the",
+          "startTime": 65.611452,
+          "endTime": 65.885956
+        },
+        {
+          "id": 106,
+          "text": "grime",
+          "startTime": 65.885956,
+          "endTime": 67.142694
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "paragraph": "too, I hate chamomile",
+      "startTime": 67.142694,
+      "endTime": 71.324312,
+      "words": [
+        {
+          "id": 107,
+          "text": "too,",
+          "startTime": 67.142694,
+          "endTime": 69.002686
+        },
+        {
+          "id": 108,
+          "text": "I",
+          "startTime": 69.002686,
+          "endTime": 69.798292
+        },
+        {
+          "id": 109,
+          "text": "hate",
+          "startTime": 69.798292,
+          "endTime": 70.133192
+        },
+        {
+          "id": 110,
+          "text": "chamomile",
+          "startTime": 70.133192,
+          "endTime": 71.324312
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "paragraph": "too, and carmine",
+      "startTime": 71.324312,
+      "endTime": 74.853439,
+      "words": [
+        {
+          "id": 111,
+          "text": "too,",
+          "startTime": 71.324312,
+          "endTime": 72.720941
+        },
+        {
+          "id": 112,
+          "text": "and",
+          "startTime": 72.720941,
+          "endTime": 73.651663
+        },
+        {
+          "id": 113,
+          "text": "carmine",
+          "startTime": 73.651663,
+          "endTime": 74.853439
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "paragraph": "I lie",
+      "startTime": 74.853439,
+      "endTime": 76.711642,
+      "words": [
+        {
+          "id": 114,
+          "text": "I",
+          "startTime": 74.853439,
+          "endTime": 75.849057
+        },
+        {
+          "id": 115,
+          "text": "lie",
+          "startTime": 75.849057,
+          "endTime": 76.711642
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "paragraph": "I lie, I lie, the aliens, the stimuli?",
+      "startTime": 76.711642,
+      "endTime": 84.553101,
+      "words": [
+        {
+          "id": 116,
+          "text": "I",
+          "startTime": 76.711642,
+          "endTime": 78.237967
+        },
+        {
+          "id": 117,
+          "text": "lie,",
+          "startTime": 78.237967,
+          "endTime": 79.036786
+        },
+        {
+          "id": 118,
+          "text": "I",
+          "startTime": 79.036786,
+          "endTime": 79.564838
+        },
+        {
+          "id": 119,
+          "text": "lie,",
+          "startTime": 79.564838,
+          "endTime": 81.093101
+        },
+        {
+          "id": 120,
+          "text": "the",
+          "startTime": 81.093101,
+          "endTime": 81.293821
+        },
+        {
+          "id": 121,
+          "text": "aliens,",
+          "startTime": 81.293821,
+          "endTime": 82.28535
+        },
+        {
+          "id": 122,
+          "text": "the",
+          "startTime": 82.28535,
+          "endTime": 82.553101
+        },
+        {
+          "id": 123,
+          "text": "stimuli?",
+          "startTime": 82.553101,
+          "endTime": 84.553101
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Who did?",
+      "startTime": 3.925921,
+      "endTime": 6.116365,
+      "words": [
+        {
+          "id": 1,
+          "text": "Who",
+          "startTime": 3.925921,
+          "endTime": 5.12472
+        },
+        {
+          "id": 2,
+          "text": "did?",
+          "startTime": 5.12472,
+          "endTime": 6.116365
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "mood heed",
+      "startTime": 6.116365,
+      "endTime": 7.846592,
+      "words": [
+        {
+          "id": 3,
+          "text": "mood",
+          "startTime": 6.116365,
+          "endTime": 6.851194
+        },
+        {
+          "id": 4,
+          "text": "heed",
+          "startTime": 6.851194,
+          "endTime": 7.846592
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "for this switch",
+      "startTime": 7.846592,
+      "endTime": 10.432524,
+      "words": [
+        {
+          "id": 5,
+          "text": "for",
+          "startTime": 7.846592,
+          "endTime": 8.905901
+        },
+        {
+          "id": 6,
+          "text": "this",
+          "startTime": 8.905901,
+          "endTime": 9.239804
+        },
+        {
+          "id": 7,
+          "text": "switch",
+          "startTime": 9.239804,
+          "endTime": 10.432524
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "rue foot switch.",
+      "startTime": 10.432524,
+      "endTime": 13.697952,
+      "words": [
+        {
+          "id": 8,
+          "text": "rue",
+          "startTime": 10.432524,
+          "endTime": 11.23125
+        },
+        {
+          "id": 9,
+          "text": "foot",
+          "startTime": 11.23125,
+          "endTime": 11.697952
+        },
+        {
+          "id": 10,
+          "text": "switch.",
+          "startTime": 11.697952,
+          "endTime": 13.697952
+        }
+      ]
+    }
+  ]
+}

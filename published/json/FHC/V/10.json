@@ -1,0 +1,152 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Pin the coquette",
+      "startTime": 4.906779,
+      "endTime": 7.295321,
+      "words": [
+        {
+          "id": 1,
+          "text": "Pin",
+          "startTime": 4.906779,
+          "endTime": 5.837585
+        },
+        {
+          "id": 2,
+          "text": "the",
+          "startTime": 5.837585,
+          "endTime": 6.037796
+        },
+        {
+          "id": 3,
+          "text": "coquette",
+          "startTime": 6.037796,
+          "endTime": 7.295321
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "sum’s in the locket",
+      "startTime": 7.295321,
+      "endTime": 10.022043,
+      "words": [
+        {
+          "id": 4,
+          "text": "sum’s",
+          "startTime": 7.295321,
+          "endTime": 8.429741
+        },
+        {
+          "id": 5,
+          "text": "in",
+          "startTime": 8.429741,
+          "endTime": 8.629074
+        },
+        {
+          "id": 6,
+          "text": "the",
+          "startTime": 8.629074,
+          "endTime": 8.761902
+        },
+        {
+          "id": 7,
+          "text": "locket",
+          "startTime": 8.761902,
+          "endTime": 10.022043
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "hock the nugget",
+      "startTime": 10.022043,
+      "endTime": 12.882102,
+      "words": [
+        {
+          "id": 8,
+          "text": "hock",
+          "startTime": 10.022043,
+          "endTime": 11.354406
+        },
+        {
+          "id": 9,
+          "text": "the",
+          "startTime": 11.354406,
+          "endTime": 11.620481
+        },
+        {
+          "id": 10,
+          "text": "nugget",
+          "startTime": 11.620481,
+          "endTime": 12.882102
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "be careful marionette",
+      "startTime": 12.882102,
+      "endTime": 15.938537,
+      "words": [
+        {
+          "id": 11,
+          "text": "be",
+          "startTime": 12.882102,
+          "endTime": 13.745204
+        },
+        {
+          "id": 12,
+          "text": "careful",
+          "startTime": 13.745204,
+          "endTime": 14.875735
+        },
+        {
+          "id": 13,
+          "text": "marionette",
+          "startTime": 14.875735,
+          "endTime": 15.938537
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "it is worse with debts.",
+      "startTime": 15.938537,
+      "endTime": 19.465744,
+      "words": [
+        {
+          "id": 14,
+          "text": "it",
+          "startTime": 15.938537,
+          "endTime": 16.604383
+        },
+        {
+          "id": 15,
+          "text": "is",
+          "startTime": 16.604383,
+          "endTime": 16.734165
+        },
+        {
+          "id": 16,
+          "text": "worse",
+          "startTime": 16.734165,
+          "endTime": 17.268413
+        },
+        {
+          "id": 17,
+          "text": "with",
+          "startTime": 17.268413,
+          "endTime": 17.465744
+        },
+        {
+          "id": 18,
+          "text": "debts.",
+          "startTime": 17.465744,
+          "endTime": 19.465744
+        }
+      ]
+    }
+  ]
+}

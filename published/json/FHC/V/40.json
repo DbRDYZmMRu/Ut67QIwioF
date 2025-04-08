@@ -1,0 +1,154 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Grad to raid",
+      "startTime": 5.234832,
+      "endTime": 7.158084,
+      "words": [
+        {
+          "id": 1,
+          "text": "Grad",
+          "startTime": 5.234832,
+          "endTime": 6.03057
+        },
+        {
+          "id": 2,
+          "text": "to",
+          "startTime": 6.03057,
+          "endTime": 6.359717
+        },
+        {
+          "id": 3,
+          "text": "raid",
+          "startTime": 6.359717,
+          "endTime": 7.158084
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "edict to grades",
+      "startTime": 7.158084,
+      "endTime": 10.012731,
+      "words": [
+        {
+          "id": 4,
+          "text": "edict",
+          "startTime": 7.158084,
+          "endTime": 8.355563
+        },
+        {
+          "id": 5,
+          "text": "to",
+          "startTime": 8.355563,
+          "endTime": 8.821293
+        },
+        {
+          "id": 6,
+          "text": "grades",
+          "startTime": 8.821293,
+          "endTime": 10.012731
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "facts to change",
+      "startTime": 10.012731,
+      "endTime": 12.337829,
+      "words": [
+        {
+          "id": 7,
+          "text": "facts",
+          "startTime": 10.012731,
+          "endTime": 10.949076
+        },
+        {
+          "id": 8,
+          "text": "to",
+          "startTime": 10.949076,
+          "endTime": 11.144944
+        },
+        {
+          "id": 9,
+          "text": "change",
+          "startTime": 11.144944,
+          "endTime": 12.337829
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "heavy to say",
+      "startTime": 12.337829,
+      "endTime": 14.534087,
+      "words": [
+        {
+          "id": 10,
+          "text": "heavy",
+          "startTime": 12.337829,
+          "endTime": 13.069477
+        },
+        {
+          "id": 11,
+          "text": "to",
+          "startTime": 13.069477,
+          "endTime": 13.401506
+        },
+        {
+          "id": 12,
+          "text": "say",
+          "startTime": 13.401506,
+          "endTime": 14.534087
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "barb to stay",
+      "startTime": 14.534087,
+      "endTime": 16.855131,
+      "words": [
+        {
+          "id": 13,
+          "text": "barb",
+          "startTime": 14.534087,
+          "endTime": 15.461521
+        },
+        {
+          "id": 14,
+          "text": "to",
+          "startTime": 15.461521,
+          "endTime": 15.922875
+        },
+        {
+          "id": 15,
+          "text": "stay",
+          "startTime": 15.922875,
+          "endTime": 16.855131
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "least today.",
+      "startTime": 16.855131,
+      "endTime": 20.046919,
+      "words": [
+        {
+          "id": 16,
+          "text": "least",
+          "startTime": 16.855131,
+          "endTime": 18.046919
+        },
+        {
+          "id": 17,
+          "text": "today.",
+          "startTime": 18.046919,
+          "endTime": 20.046919
+        }
+      ]
+    }
+  ]
+}

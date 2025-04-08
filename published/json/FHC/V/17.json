@@ -1,0 +1,302 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "The crisp in my fingers",
+      "startTime": 4.875342,
+      "endTime": 8.793406,
+      "words": [
+        {
+          "id": 1,
+          "text": "The",
+          "startTime": 4.875342,
+          "endTime": 6.733157
+        },
+        {
+          "id": 2,
+          "text": "crisp",
+          "startTime": 6.733157,
+          "endTime": 7.196598
+        },
+        {
+          "id": 3,
+          "text": "in",
+          "startTime": 7.196598,
+          "endTime": 7.336602
+        },
+        {
+          "id": 4,
+          "text": "my",
+          "startTime": 7.336602,
+          "endTime": 7.530459
+        },
+        {
+          "id": 5,
+          "text": "fingers",
+          "startTime": 7.530459,
+          "endTime": 8.793406
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "digit’s choice to run over paper",
+      "startTime": 8.793406,
+      "endTime": 13.175855,
+      "words": [
+        {
+          "id": 6,
+          "text": "digit’s",
+          "startTime": 8.793406,
+          "endTime": 10.319433
+        },
+        {
+          "id": 7,
+          "text": "choice",
+          "startTime": 10.319433,
+          "endTime": 10.98214
+        },
+        {
+          "id": 8,
+          "text": "to",
+          "startTime": 10.98214,
+          "endTime": 11.120849
+        },
+        {
+          "id": 9,
+          "text": "run",
+          "startTime": 11.120849,
+          "endTime": 11.451933
+        },
+        {
+          "id": 10,
+          "text": "over",
+          "startTime": 11.451933,
+          "endTime": 11.849257
+        },
+        {
+          "id": 11,
+          "text": "paper",
+          "startTime": 11.849257,
+          "endTime": 13.175855
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "tell of a tale thriving furlongs apart",
+      "startTime": 13.175855,
+      "endTime": 18.956539,
+      "words": [
+        {
+          "id": 12,
+          "text": "tell",
+          "startTime": 13.175855,
+          "endTime": 14.371119
+        },
+        {
+          "id": 13,
+          "text": "of",
+          "startTime": 14.371119,
+          "endTime": 14.569547
+        },
+        {
+          "id": 14,
+          "text": "a",
+          "startTime": 14.569547,
+          "endTime": 14.767593
+        },
+        {
+          "id": 15,
+          "text": "tale",
+          "startTime": 14.767593,
+          "endTime": 15.699062
+        },
+        {
+          "id": 16,
+          "text": "thriving",
+          "startTime": 15.699062,
+          "endTime": 16.229785
+        },
+        {
+          "id": 17,
+          "text": "furlongs",
+          "startTime": 16.229785,
+          "endTime": 17.023888
+        },
+        {
+          "id": 18,
+          "text": "apart",
+          "startTime": 17.023888,
+          "endTime": 18.956539
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "I have no risible, you plummet desire",
+      "startTime": 18.956539,
+      "endTime": 24.332644,
+      "words": [
+        {
+          "id": 19,
+          "text": "I",
+          "startTime": 18.956539,
+          "endTime": 20.676983
+        },
+        {
+          "id": 20,
+          "text": "have",
+          "startTime": 20.676983,
+          "endTime": 20.879607
+        },
+        {
+          "id": 21,
+          "text": "no",
+          "startTime": 20.879607,
+          "endTime": 21.075671
+        },
+        {
+          "id": 22,
+          "text": "risible,",
+          "startTime": 21.075671,
+          "endTime": 22.206648
+        },
+        {
+          "id": 23,
+          "text": "you",
+          "startTime": 22.206648,
+          "endTime": 22.606139
+        },
+        {
+          "id": 24,
+          "text": "plummet",
+          "startTime": 22.606139,
+          "endTime": 23.204281
+        },
+        {
+          "id": 25,
+          "text": "desire",
+          "startTime": 23.204281,
+          "endTime": 24.332644
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "of an option to be smarter",
+      "startTime": 24.332644,
+      "endTime": 26.923209,
+      "words": [
+        {
+          "id": 26,
+          "text": "of",
+          "startTime": 24.332644,
+          "endTime": 24.46495
+        },
+        {
+          "id": 27,
+          "text": "an",
+          "startTime": 24.46495,
+          "endTime": 24.596918
+        },
+        {
+          "id": 28,
+          "text": "option",
+          "startTime": 24.596918,
+          "endTime": 25.655792
+        },
+        {
+          "id": 29,
+          "text": "to",
+          "startTime": 25.655792,
+          "endTime": 25.796588
+        },
+        {
+          "id": 30,
+          "text": "be",
+          "startTime": 25.796588,
+          "endTime": 26.053688
+        },
+        {
+          "id": 31,
+          "text": "smarter",
+          "startTime": 26.053688,
+          "endTime": 26.923209
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "a son, a daughter",
+      "startTime": 26.923209,
+      "endTime": 30.575756,
+      "words": [
+        {
+          "id": 32,
+          "text": "a",
+          "startTime": 26.923209,
+          "endTime": 27.980911
+        },
+        {
+          "id": 33,
+          "text": "son,",
+          "startTime": 27.980911,
+          "endTime": 28.511351
+        },
+        {
+          "id": 34,
+          "text": "a",
+          "startTime": 28.511351,
+          "endTime": 29.442753
+        },
+        {
+          "id": 35,
+          "text": "daughter",
+          "startTime": 29.442753,
+          "endTime": 30.575756
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "a better partner",
+      "startTime": 30.575756,
+      "endTime": 33.166336,
+      "words": [
+        {
+          "id": 36,
+          "text": "a",
+          "startTime": 30.575756,
+          "endTime": 31.56929
+        },
+        {
+          "id": 37,
+          "text": "better",
+          "startTime": 31.56929,
+          "endTime": 32.033181
+        },
+        {
+          "id": 38,
+          "text": "partner",
+          "startTime": 32.033181,
+          "endTime": 33.166336
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "Mariam.",
+      "startTime": 33.166336,
+      "endTime": 35.166336,
+      "words": [
+        {
+          "id": 39,
+          "text": "Mariam.",
+          "startTime": 33.166336,
+          "endTime": 35.166336
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I once spoke with a stranger",
+      "startTime": 5.190212,
+      "endTime": 8.112619,
+      "words": [
+        {
+          "id": 1,
+          "text": "I",
+          "startTime": 5.190212,
+          "endTime": 5.921902
+        },
+        {
+          "id": 2,
+          "text": "once",
+          "startTime": 5.921902,
+          "endTime": 6.318087
+        },
+        {
+          "id": 3,
+          "text": "spoke",
+          "startTime": 6.318087,
+          "endTime": 6.715902
+        },
+        {
+          "id": 4,
+          "text": "with",
+          "startTime": 6.715902,
+          "endTime": 6.848595
+        },
+        {
+          "id": 5,
+          "text": "a",
+          "startTime": 6.848595,
+          "endTime": 7.044734
+        },
+        {
+          "id": 6,
+          "text": "stranger",
+          "startTime": 7.044734,
+          "endTime": 8.112619
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "by these words; of a straddler",
+      "startTime": 8.112619,
+      "endTime": 12.959935,
+      "words": [
+        {
+          "id": 7,
+          "text": "by",
+          "startTime": 8.112619,
+          "endTime": 8.977129
+        },
+        {
+          "id": 8,
+          "text": "these",
+          "startTime": 8.977129,
+          "endTime": 9.304244
+        },
+        {
+          "id": 9,
+          "text": "words;",
+          "startTime": 9.304244,
+          "endTime": 10.036123
+        },
+        {
+          "id": 10,
+          "text": "of",
+          "startTime": 10.036123,
+          "endTime": 11.434596
+        },
+        {
+          "id": 11,
+          "text": "a",
+          "startTime": 11.434596,
+          "endTime": 11.634064
+        },
+        {
+          "id": 12,
+          "text": "straddler",
+          "startTime": 11.634064,
+          "endTime": 12.959935
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "I caught on with a barmy fad",
+      "startTime": 12.959935,
+      "endTime": 17.209062,
+      "words": [
+        {
+          "id": 13,
+          "text": "I",
+          "startTime": 12.959935,
+          "endTime": 14.017544
+        },
+        {
+          "id": 14,
+          "text": "caught",
+          "startTime": 14.017544,
+          "endTime": 14.356905
+        },
+        {
+          "id": 15,
+          "text": "on",
+          "startTime": 14.356905,
+          "endTime": 15.151035
+        },
+        {
+          "id": 16,
+          "text": "with",
+          "startTime": 15.151035,
+          "endTime": 15.349265
+        },
+        {
+          "id": 17,
+          "text": "a",
+          "startTime": 15.349265,
+          "endTime": 15.618215
+        },
+        {
+          "id": 18,
+          "text": "barmy",
+          "startTime": 15.618215,
+          "endTime": 16.013848
+        },
+        {
+          "id": 19,
+          "text": "fad",
+          "startTime": 16.013848,
+          "endTime": 17.209062
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "ricochetted off the arborical",
+      "startTime": 17.209062,
+      "endTime": 21.523086,
+      "words": [
+        {
+          "id": 20,
+          "text": "ricochetted",
+          "startTime": 17.209062,
+          "endTime": 19.399828
+        },
+        {
+          "id": 21,
+          "text": "off",
+          "startTime": 19.399828,
+          "endTime": 20.065423
+        },
+        {
+          "id": 22,
+          "text": "the",
+          "startTime": 20.065423,
+          "endTime": 20.395452
+        },
+        {
+          "id": 23,
+          "text": "arborical",
+          "startTime": 20.395452,
+          "endTime": 21.523086
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "refused pictures of my new car",
+      "startTime": 21.523086,
+      "endTime": 26.574853,
+      "words": [
+        {
+          "id": 24,
+          "text": "refused",
+          "startTime": 21.523086,
+          "endTime": 23.452082
+        },
+        {
+          "id": 25,
+          "text": "pictures",
+          "startTime": 23.452082,
+          "endTime": 24.711477
+        },
+        {
+          "id": 26,
+          "text": "of",
+          "startTime": 24.711477,
+          "endTime": 24.8437
+        },
+        {
+          "id": 27,
+          "text": "my",
+          "startTime": 24.8437,
+          "endTime": 25.108833
+        },
+        {
+          "id": 28,
+          "text": "new",
+          "startTime": 25.108833,
+          "endTime": 25.441792
+        },
+        {
+          "id": 29,
+          "text": "car",
+          "startTime": 25.441792,
+          "endTime": 26.574853
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "but picked you, the pedestrian.",
+      "startTime": 26.574853,
+      "endTime": 31.032064,
+      "words": [
+        {
+          "id": 30,
+          "text": "but",
+          "startTime": 26.574853,
+          "endTime": 27.368751
+        },
+        {
+          "id": 31,
+          "text": "picked",
+          "startTime": 27.368751,
+          "endTime": 27.6347
+        },
+        {
+          "id": 32,
+          "text": "you,",
+          "startTime": 27.6347,
+          "endTime": 28.365854
+        },
+        {
+          "id": 33,
+          "text": "the",
+          "startTime": 28.365854,
+          "endTime": 29.032064
+        },
+        {
+          "id": 34,
+          "text": "pedestrian.",
+          "startTime": 29.032064,
+          "endTime": 31.032064
+        }
+      ]
+    }
+  ]
+}

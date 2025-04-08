@@ -1,0 +1,194 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Breaking new day of empty columns",
+      "startTime": 5.170878,
+      "endTime": 9.750193,
+      "words": [
+        {
+          "id": 1,
+          "text": "Breaking",
+          "startTime": 5.170878,
+          "endTime": 6.562328
+        },
+        {
+          "id": 2,
+          "text": "new",
+          "startTime": 6.562328,
+          "endTime": 6.827212
+        },
+        {
+          "id": 3,
+          "text": "day",
+          "startTime": 6.827212,
+          "endTime": 7.027718
+        },
+        {
+          "id": 4,
+          "text": "of",
+          "startTime": 7.027718,
+          "endTime": 7.955257
+        },
+        {
+          "id": 5,
+          "text": "empty",
+          "startTime": 7.955257,
+          "endTime": 8.357552
+        },
+        {
+          "id": 6,
+          "text": "columns",
+          "startTime": 8.357552,
+          "endTime": 9.750193
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "the percolator’s errant blunderbuss",
+      "startTime": 9.750193,
+      "endTime": 14.198561,
+      "words": [
+        {
+          "id": 7,
+          "text": "the",
+          "startTime": 9.750193,
+          "endTime": 10.877831
+        },
+        {
+          "id": 8,
+          "text": "percolator’s",
+          "startTime": 10.877831,
+          "endTime": 11.677481
+        },
+        {
+          "id": 9,
+          "text": "errant",
+          "startTime": 11.677481,
+          "endTime": 12.342339
+        },
+        {
+          "id": 10,
+          "text": "blunderbuss",
+          "startTime": 12.342339,
+          "endTime": 14.198561
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "poor afternoons of lucky doldrums",
+      "startTime": 14.198561,
+      "endTime": 18.794499,
+      "words": [
+        {
+          "id": 11,
+          "text": "poor",
+          "startTime": 14.198561,
+          "endTime": 15.190709
+        },
+        {
+          "id": 12,
+          "text": "afternoons",
+          "startTime": 15.190709,
+          "endTime": 16.391477
+        },
+        {
+          "id": 13,
+          "text": "of",
+          "startTime": 16.391477,
+          "endTime": 16.922676
+        },
+        {
+          "id": 14,
+          "text": "lucky",
+          "startTime": 16.922676,
+          "endTime": 17.320268
+        },
+        {
+          "id": 15,
+          "text": "doldrums",
+          "startTime": 17.320268,
+          "endTime": 18.794499
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "eve fish wrap horsefeathers reports",
+      "startTime": 18.794499,
+      "endTime": 24.171556,
+      "words": [
+        {
+          "id": 16,
+          "text": "eve",
+          "startTime": 18.794499,
+          "endTime": 20.055376
+        },
+        {
+          "id": 17,
+          "text": "fish",
+          "startTime": 20.055376,
+          "endTime": 20.385683
+        },
+        {
+          "id": 18,
+          "text": "wrap",
+          "startTime": 20.385683,
+          "endTime": 20.982094
+        },
+        {
+          "id": 19,
+          "text": "horsefeathers",
+          "startTime": 20.982094,
+          "endTime": 22.24503
+        },
+        {
+          "id": 20,
+          "text": "reports",
+          "startTime": 22.24503,
+          "endTime": 24.171556
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "hamadryad’s sign off in abscission.",
+      "startTime": 24.171556,
+      "endTime": 29.492257,
+      "words": [
+        {
+          "id": 21,
+          "text": "hamadryad’s",
+          "startTime": 24.171556,
+          "endTime": 25.897319
+        },
+        {
+          "id": 22,
+          "text": "sign",
+          "startTime": 25.897319,
+          "endTime": 26.22477
+        },
+        {
+          "id": 23,
+          "text": "off",
+          "startTime": 26.22477,
+          "endTime": 27.094288
+        },
+        {
+          "id": 24,
+          "text": "in",
+          "startTime": 27.094288,
+          "endTime": 27.492257
+        },
+        {
+          "id": 25,
+          "text": "abscission.",
+          "startTime": 27.492257,
+          "endTime": 29.492257
+        }
+      ]
+    }
+  ]
+}

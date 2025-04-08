@@ -1,0 +1,736 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "A phantom arm",
+      "startTime": 4.249303,
+      "endTime": 7.109452,
+      "words": [
+        {
+          "id": 1,
+          "text": "A",
+          "startTime": 4.249303,
+          "endTime": 5.907586
+        },
+        {
+          "id": 2,
+          "text": "phantom",
+          "startTime": 5.907586,
+          "endTime": 6.37296
+        },
+        {
+          "id": 3,
+          "text": "arm",
+          "startTime": 6.37296,
+          "endTime": 7.109452
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "one for each of my friends",
+      "startTime": 7.109452,
+      "endTime": 9.961771,
+      "words": [
+        {
+          "id": 4,
+          "text": "one",
+          "startTime": 7.109452,
+          "endTime": 8.103788
+        },
+        {
+          "id": 5,
+          "text": "for",
+          "startTime": 8.103788,
+          "endTime": 8.299791
+        },
+        {
+          "id": 6,
+          "text": "each",
+          "startTime": 8.299791,
+          "endTime": 8.567919
+        },
+        {
+          "id": 7,
+          "text": "of",
+          "startTime": 8.567919,
+          "endTime": 8.697523
+        },
+        {
+          "id": 8,
+          "text": "my",
+          "startTime": 8.697523,
+          "endTime": 8.899699
+        },
+        {
+          "id": 9,
+          "text": "friends",
+          "startTime": 8.899699,
+          "endTime": 9.961771
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "have cares… use its hand",
+      "startTime": 9.961771,
+      "endTime": 13.67641,
+      "words": [
+        {
+          "id": 10,
+          "text": "have",
+          "startTime": 9.961771,
+          "endTime": 10.957214
+        },
+        {
+          "id": 11,
+          "text": "cares…",
+          "startTime": 10.957214,
+          "endTime": 11.755513
+        },
+        {
+          "id": 12,
+          "text": "use",
+          "startTime": 11.755513,
+          "endTime": 12.616857
+        },
+        {
+          "id": 13,
+          "text": "its",
+          "startTime": 12.616857,
+          "endTime": 12.750023
+        },
+        {
+          "id": 14,
+          "text": "hand",
+          "startTime": 12.750023,
+          "endTime": 13.67641
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "to its reach, you’ll find no end",
+      "startTime": 13.67641,
+      "endTime": 17.394802,
+      "words": [
+        {
+          "id": 15,
+          "text": "to",
+          "startTime": 13.67641,
+          "endTime": 14.475295
+        },
+        {
+          "id": 16,
+          "text": "its",
+          "startTime": 14.475295,
+          "endTime": 14.611449
+        },
+        {
+          "id": 17,
+          "text": "reach,",
+          "startTime": 14.611449,
+          "endTime": 15.343313
+        },
+        {
+          "id": 18,
+          "text": "you’ll",
+          "startTime": 15.343313,
+          "endTime": 15.741403
+        },
+        {
+          "id": 19,
+          "text": "find",
+          "startTime": 15.741403,
+          "endTime": 16.006002
+        },
+        {
+          "id": 20,
+          "text": "no",
+          "startTime": 16.006002,
+          "endTime": 16.335431
+        },
+        {
+          "id": 21,
+          "text": "end",
+          "startTime": 16.335431,
+          "endTime": 17.394802
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "once we lived with plants",
+      "startTime": 17.394802,
+      "endTime": 20.052299,
+      "words": [
+        {
+          "id": 22,
+          "text": "once",
+          "startTime": 17.394802,
+          "endTime": 18.398124
+        },
+        {
+          "id": 23,
+          "text": "we",
+          "startTime": 18.398124,
+          "endTime": 18.593425
+        },
+        {
+          "id": 24,
+          "text": "lived",
+          "startTime": 18.593425,
+          "endTime": 18.795856
+        },
+        {
+          "id": 25,
+          "text": "with",
+          "startTime": 18.795856,
+          "endTime": 18.992333
+        },
+        {
+          "id": 26,
+          "text": "plants",
+          "startTime": 18.992333,
+          "endTime": 20.052299
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "a garden, a paradise of merriments",
+      "startTime": 20.052299,
+      "endTime": 24.306066,
+      "words": [
+        {
+          "id": 27,
+          "text": "a",
+          "startTime": 20.052299,
+          "endTime": 20.586902
+        },
+        {
+          "id": 28,
+          "text": "garden,",
+          "startTime": 20.586902,
+          "endTime": 21.315977
+        },
+        {
+          "id": 29,
+          "text": "a",
+          "startTime": 21.315977,
+          "endTime": 22.11671
+        },
+        {
+          "id": 30,
+          "text": "paradise",
+          "startTime": 22.11671,
+          "endTime": 22.780114
+        },
+        {
+          "id": 31,
+          "text": "of",
+          "startTime": 22.780114,
+          "endTime": 23.043502
+        },
+        {
+          "id": 32,
+          "text": "merriments",
+          "startTime": 23.043502,
+          "endTime": 24.306066
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "we gathered wads",
+      "startTime": 24.306066,
+      "endTime": 26.82604,
+      "words": [
+        {
+          "id": 33,
+          "text": "we",
+          "startTime": 24.306066,
+          "endTime": 25.237498
+        },
+        {
+          "id": 34,
+          "text": "gathered",
+          "startTime": 25.237498,
+          "endTime": 25.56975
+        },
+        {
+          "id": 35,
+          "text": "wads",
+          "startTime": 25.56975,
+          "endTime": 26.82604
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "names, and of the famed, all documents",
+      "startTime": 26.82604,
+      "endTime": 31.94244,
+      "words": [
+        {
+          "id": 36,
+          "text": "names,",
+          "startTime": 26.82604,
+          "endTime": 27.891275
+        },
+        {
+          "id": 37,
+          "text": "and",
+          "startTime": 27.891275,
+          "endTime": 28.888307
+        },
+        {
+          "id": 38,
+          "text": "of",
+          "startTime": 28.888307,
+          "endTime": 29.024042
+        },
+        {
+          "id": 39,
+          "text": "the",
+          "startTime": 29.024042,
+          "endTime": 29.216372
+        },
+        {
+          "id": 40,
+          "text": "famed,",
+          "startTime": 29.216372,
+          "endTime": 30.082512
+        },
+        {
+          "id": 41,
+          "text": "all",
+          "startTime": 30.082512,
+          "endTime": 30.416781
+        },
+        {
+          "id": 42,
+          "text": "documents",
+          "startTime": 30.416781,
+          "endTime": 31.94244
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "oh they’d ask:",
+      "startTime": 31.94244,
+      "endTime": 33.535669,
+      "words": [
+        {
+          "id": 43,
+          "text": "oh",
+          "startTime": 31.94244,
+          "endTime": 32.53689
+        },
+        {
+          "id": 44,
+          "text": "they’d",
+          "startTime": 32.53689,
+          "endTime": 32.801256
+        },
+        {
+          "id": 45,
+          "text": "ask:",
+          "startTime": 32.801256,
+          "endTime": 33.535669
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "could I be parrot? I’ll be your pet…",
+      "startTime": 33.535669,
+      "endTime": 37.853549,
+      "words": [
+        {
+          "id": 46,
+          "text": "could",
+          "startTime": 33.535669,
+          "endTime": 34.398674
+        },
+        {
+          "id": 47,
+          "text": "I",
+          "startTime": 34.398674,
+          "endTime": 34.532666
+        },
+        {
+          "id": 48,
+          "text": "be",
+          "startTime": 34.532666,
+          "endTime": 34.732805
+        },
+        {
+          "id": 49,
+          "text": "parrot?",
+          "startTime": 34.732805,
+          "endTime": 35.723319
+        },
+        {
+          "id": 50,
+          "text": "I’ll",
+          "startTime": 35.723319,
+          "endTime": 36.525376
+        },
+        {
+          "id": 51,
+          "text": "be",
+          "startTime": 36.525376,
+          "endTime": 36.651592
+        },
+        {
+          "id": 52,
+          "text": "your",
+          "startTime": 36.651592,
+          "endTime": 36.857566
+        },
+        {
+          "id": 53,
+          "text": "pet…",
+          "startTime": 36.857566,
+          "endTime": 37.853549
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "a token advance…",
+      "startTime": 37.853549,
+      "endTime": 40.376515,
+      "words": [
+        {
+          "id": 54,
+          "text": "a",
+          "startTime": 37.853549,
+          "endTime": 38.779802
+        },
+        {
+          "id": 55,
+          "text": "token",
+          "startTime": 38.779802,
+          "endTime": 39.112086
+        },
+        {
+          "id": 56,
+          "text": "advance…",
+          "startTime": 39.112086,
+          "endTime": 40.376515
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "\n    say I’m mango, I was wherever you went\n",
+      "startTime": 40.376515,
+      "endTime": 46.287645,
+      "words": [
+        {
+          "id": 57,
+          "text": "say",
+          "startTime": 40.376515,
+          "endTime": 41.437373
+        },
+        {
+          "id": 58,
+          "text": "I’m",
+          "startTime": 41.437373,
+          "endTime": 41.638938
+        },
+        {
+          "id": 59,
+          "text": "mango,",
+          "startTime": 41.638938,
+          "endTime": 42.56797
+        },
+        {
+          "id": 60,
+          "text": "I",
+          "startTime": 42.56797,
+          "endTime": 43.429041
+        },
+        {
+          "id": 61,
+          "text": "was",
+          "startTime": 43.429041,
+          "endTime": 43.628269
+        },
+        {
+          "id": 62,
+          "text": "wherever",
+          "startTime": 43.628269,
+          "endTime": 44.761286
+        },
+        {
+          "id": 63,
+          "text": "you",
+          "startTime": 44.761286,
+          "endTime": 45.095392
+        },
+        {
+          "id": 64,
+          "text": "went",
+          "startTime": 45.095392,
+          "endTime": 46.287645
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "paragraph": "and how apart",
+      "startTime": 46.287645,
+      "endTime": 49.210029,
+      "words": [
+        {
+          "id": 65,
+          "text": "and",
+          "startTime": 46.287645,
+          "endTime": 48.347453
+        },
+        {
+          "id": 66,
+          "text": "how",
+          "startTime": 48.347453,
+          "endTime": 48.548018
+        },
+        {
+          "id": 67,
+          "text": "apart",
+          "startTime": 48.548018,
+          "endTime": 49.210029
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "paragraph": "when today, I make juice, seek revenge",
+      "startTime": 49.210029,
+      "endTime": 54.859475,
+      "words": [
+        {
+          "id": 68,
+          "text": "when",
+          "startTime": 49.210029,
+          "endTime": 49.406653
+        },
+        {
+          "id": 69,
+          "text": "today,",
+          "startTime": 49.406653,
+          "endTime": 50.338947
+        },
+        {
+          "id": 70,
+          "text": "I",
+          "startTime": 50.338947,
+          "endTime": 51.140688
+        },
+        {
+          "id": 71,
+          "text": "make",
+          "startTime": 51.140688,
+          "endTime": 51.398025
+        },
+        {
+          "id": 72,
+          "text": "juice,",
+          "startTime": 51.398025,
+          "endTime": 52.468748
+        },
+        {
+          "id": 73,
+          "text": "seek",
+          "startTime": 52.468748,
+          "endTime": 53.195492
+        },
+        {
+          "id": 74,
+          "text": "revenge",
+          "startTime": 53.195492,
+          "endTime": 54.859475
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "paragraph": "it is my grasp",
+      "startTime": 54.859475,
+      "endTime": 57.377145,
+      "words": [
+        {
+          "id": 75,
+          "text": "it",
+          "startTime": 54.859475,
+          "endTime": 56.11919
+        },
+        {
+          "id": 76,
+          "text": "is",
+          "startTime": 56.11919,
+          "endTime": 56.248979
+        },
+        {
+          "id": 77,
+          "text": "my",
+          "startTime": 56.248979,
+          "endTime": 56.516022
+        },
+        {
+          "id": 78,
+          "text": "grasp",
+          "startTime": 56.516022,
+          "endTime": 57.377145
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "paragraph": "it doesn’t hurt, not as much as I pretend",
+      "startTime": 57.377145,
+      "endTime": 63.291685,
+      "words": [
+        {
+          "id": 79,
+          "text": "it",
+          "startTime": 57.377145,
+          "endTime": 58.308927
+        },
+        {
+          "id": 80,
+          "text": "doesn’t",
+          "startTime": 58.308927,
+          "endTime": 58.569038
+        },
+        {
+          "id": 81,
+          "text": "hurt,",
+          "startTime": 58.569038,
+          "endTime": 59.569297
+        },
+        {
+          "id": 82,
+          "text": "not",
+          "startTime": 59.569297,
+          "endTime": 60.370595
+        },
+        {
+          "id": 83,
+          "text": "as",
+          "startTime": 60.370595,
+          "endTime": 60.565265
+        },
+        {
+          "id": 84,
+          "text": "much",
+          "startTime": 60.565265,
+          "endTime": 60.962327
+        },
+        {
+          "id": 85,
+          "text": "as",
+          "startTime": 60.962327,
+          "endTime": 61.096773
+        },
+        {
+          "id": 86,
+          "text": "I",
+          "startTime": 61.096773,
+          "endTime": 61.230006
+        },
+        {
+          "id": 87,
+          "text": "pretend",
+          "startTime": 61.230006,
+          "endTime": 63.291685
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "paragraph": "for it’s really calm",
+      "startTime": 63.291685,
+      "endTime": 65.675399,
+      "words": [
+        {
+          "id": 88,
+          "text": "for",
+          "startTime": 63.291685,
+          "endTime": 63.753204
+        },
+        {
+          "id": 89,
+          "text": "it’s",
+          "startTime": 63.753204,
+          "endTime": 63.885334
+        },
+        {
+          "id": 90,
+          "text": "really",
+          "startTime": 63.885334,
+          "endTime": 64.484597
+        },
+        {
+          "id": 91,
+          "text": "calm",
+          "startTime": 64.484597,
+          "endTime": 65.675399
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "paragraph": "same fingers flipping pages of the best.",
+      "startTime": 65.675399,
+      "endTime": 71.267752,
+      "words": [
+        {
+          "id": 92,
+          "text": "same",
+          "startTime": 65.675399,
+          "endTime": 66.545465
+        },
+        {
+          "id": 93,
+          "text": "fingers",
+          "startTime": 66.545465,
+          "endTime": 67.604085
+        },
+        {
+          "id": 94,
+          "text": "flipping",
+          "startTime": 67.604085,
+          "endTime": 68.269038
+        },
+        {
+          "id": 95,
+          "text": "pages",
+          "startTime": 68.269038,
+          "endTime": 68.996602
+        },
+        {
+          "id": 96,
+          "text": "of",
+          "startTime": 68.996602,
+          "endTime": 69.06573
+        },
+        {
+          "id": 97,
+          "text": "the",
+          "startTime": 69.06573,
+          "endTime": 69.267752
+        },
+        {
+          "id": 98,
+          "text": "best.",
+          "startTime": 69.267752,
+          "endTime": 71.267752
+        }
+      ]
+    }
+  ]
+}

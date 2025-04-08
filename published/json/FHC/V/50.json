@@ -1,0 +1,132 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Brevity in heavy spiel",
+      "startTime": 5.364585,
+      "endTime": 9.352427,
+      "words": [
+        {
+          "id": 1,
+          "text": "Brevity",
+          "startTime": 5.364585,
+          "endTime": 6.824992
+        },
+        {
+          "id": 2,
+          "text": "in",
+          "startTime": 6.824992,
+          "endTime": 7.753094
+        },
+        {
+          "id": 3,
+          "text": "heavy",
+          "startTime": 7.753094,
+          "endTime": 8.149801
+        },
+        {
+          "id": 4,
+          "text": "spiel",
+          "startTime": 8.149801,
+          "endTime": 9.352427
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "everything in nothing seen",
+      "startTime": 9.352427,
+      "endTime": 13.464919,
+      "words": [
+        {
+          "id": 5,
+          "text": "everything",
+          "startTime": 9.352427,
+          "endTime": 11.213481
+        },
+        {
+          "id": 6,
+          "text": "in",
+          "startTime": 11.213481,
+          "endTime": 11.740169
+        },
+        {
+          "id": 7,
+          "text": "nothing",
+          "startTime": 11.740169,
+          "endTime": 12.268564
+        },
+        {
+          "id": 8,
+          "text": "seen",
+          "startTime": 12.268564,
+          "endTime": 13.464919
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "chemistry in impurity scenes",
+      "startTime": 13.464919,
+      "endTime": 18.375582,
+      "words": [
+        {
+          "id": 9,
+          "text": "chemistry",
+          "startTime": 13.464919,
+          "endTime": 15.317808
+        },
+        {
+          "id": 10,
+          "text": "in",
+          "startTime": 15.317808,
+          "endTime": 15.993913
+        },
+        {
+          "id": 11,
+          "text": "impurity",
+          "startTime": 15.993913,
+          "endTime": 16.906237
+        },
+        {
+          "id": 12,
+          "text": "scenes",
+          "startTime": 16.906237,
+          "endTime": 18.375582
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "cabins in street view.",
+      "startTime": 18.375582,
+      "endTime": 22.500164,
+      "words": [
+        {
+          "id": 13,
+          "text": "cabins",
+          "startTime": 18.375582,
+          "endTime": 19.437443
+        },
+        {
+          "id": 14,
+          "text": "in",
+          "startTime": 19.437443,
+          "endTime": 20.103541
+        },
+        {
+          "id": 15,
+          "text": "street",
+          "startTime": 20.103541,
+          "endTime": 20.500164
+        },
+        {
+          "id": 16,
+          "text": "view.",
+          "startTime": 20.500164,
+          "endTime": 22.500164
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "We rebellious",
+      "startTime": 4.845585,
+      "endTime": 7.964156,
+      "words": [
+        {
+          "id": 1,
+          "text": "We",
+          "startTime": 4.845585,
+          "endTime": 6.63705
+        },
+        {
+          "id": 2,
+          "text": "rebellious",
+          "startTime": 6.63705,
+          "endTime": 7.964156
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "in the face fastidious",
+      "startTime": 7.964156,
+      "endTime": 12.281908,
+      "words": [
+        {
+          "id": 3,
+          "text": "in",
+          "startTime": 7.964156,
+          "endTime": 9.96026
+        },
+        {
+          "id": 4,
+          "text": "the",
+          "startTime": 9.96026,
+          "endTime": 10.156613
+        },
+        {
+          "id": 5,
+          "text": "face",
+          "startTime": 10.156613,
+          "endTime": 10.554681
+        },
+        {
+          "id": 6,
+          "text": "fastidious",
+          "startTime": 10.554681,
+          "endTime": 12.281908
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "out of the haze serious",
+      "startTime": 12.281908,
+      "endTime": 16.401136,
+      "words": [
+        {
+          "id": 7,
+          "text": "out",
+          "startTime": 12.281908,
+          "endTime": 13.742197
+        },
+        {
+          "id": 8,
+          "text": "of",
+          "startTime": 13.742197,
+          "endTime": 13.9386
+        },
+        {
+          "id": 9,
+          "text": "the",
+          "startTime": 13.9386,
+          "endTime": 14.140224
+        },
+        {
+          "id": 10,
+          "text": "haze",
+          "startTime": 14.140224,
+          "endTime": 14.537655
+        },
+        {
+          "id": 11,
+          "text": "serious",
+          "startTime": 14.537655,
+          "endTime": 16.401136
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "heat tissue rush",
+      "startTime": 16.401136,
+      "endTime": 18.524702,
+      "words": [
+        {
+          "id": 12,
+          "text": "heat",
+          "startTime": 16.401136,
+          "endTime": 16.931115
+        },
+        {
+          "id": 13,
+          "text": "tissue",
+          "startTime": 16.931115,
+          "endTime": 17.39174
+        },
+        {
+          "id": 14,
+          "text": "rush",
+          "startTime": 17.39174,
+          "endTime": 18.524702
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "count the pace lush",
+      "startTime": 18.524702,
+      "endTime": 21.841225,
+      "words": [
+        {
+          "id": 15,
+          "text": "count",
+          "startTime": 18.524702,
+          "endTime": 20.183344
+        },
+        {
+          "id": 16,
+          "text": "the",
+          "startTime": 20.183344,
+          "endTime": 20.452041
+        },
+        {
+          "id": 17,
+          "text": "pace",
+          "startTime": 20.452041,
+          "endTime": 20.847909
+        },
+        {
+          "id": 18,
+          "text": "lush",
+          "startTime": 20.847909,
+          "endTime": 21.841225
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "huff heal, hush this dosh.",
+      "startTime": 21.841225,
+      "endTime": 27.500145,
+      "words": [
+        {
+          "id": 19,
+          "text": "huff",
+          "startTime": 21.841225,
+          "endTime": 23.107855
+        },
+        {
+          "id": 20,
+          "text": "heal,",
+          "startTime": 23.107855,
+          "endTime": 24.965374
+        },
+        {
+          "id": 21,
+          "text": "hush",
+          "startTime": 24.965374,
+          "endTime": 25.160852
+        },
+        {
+          "id": 22,
+          "text": "this",
+          "startTime": 25.160852,
+          "endTime": 25.500145
+        },
+        {
+          "id": 23,
+          "text": "dosh.",
+          "startTime": 25.500145,
+          "endTime": 27.500145
+        }
+      ]
+    }
+  ]
+}

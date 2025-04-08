@@ -1,0 +1,582 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "When it is time",
+      "startTime": 2.972155,
+      "endTime": 5.232922,
+      "words": [
+        {
+          "id": 1,
+          "text": "When",
+          "startTime": 2.972155,
+          "endTime": 4.036301
+        },
+        {
+          "id": 2,
+          "text": "it",
+          "startTime": 4.036301,
+          "endTime": 4.164208
+        },
+        {
+          "id": 3,
+          "text": "is",
+          "startTime": 4.164208,
+          "endTime": 4.43383
+        },
+        {
+          "id": 4,
+          "text": "time",
+          "startTime": 4.43383,
+          "endTime": 5.232922
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "and this day sides",
+      "startTime": 5.232922,
+      "endTime": 7.951259,
+      "words": [
+        {
+          "id": 5,
+          "text": "and",
+          "startTime": 5.232922,
+          "endTime": 6.361681
+        },
+        {
+          "id": 6,
+          "text": "this",
+          "startTime": 6.361681,
+          "endTime": 6.627079
+        },
+        {
+          "id": 7,
+          "text": "day",
+          "startTime": 6.627079,
+          "endTime": 6.892868
+        },
+        {
+          "id": 8,
+          "text": "sides",
+          "startTime": 6.892868,
+          "endTime": 7.951259
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "like every other filed",
+      "startTime": 7.951259,
+      "endTime": 10.874212,
+      "words": [
+        {
+          "id": 9,
+          "text": "like",
+          "startTime": 7.951259,
+          "endTime": 9.283431
+        },
+        {
+          "id": 10,
+          "text": "every",
+          "startTime": 9.283431,
+          "endTime": 9.68278
+        },
+        {
+          "id": 11,
+          "text": "other",
+          "startTime": 9.68278,
+          "endTime": 10.080683
+        },
+        {
+          "id": 12,
+          "text": "filed",
+          "startTime": 10.080683,
+          "endTime": 10.874212
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "then, it’s okay, fine",
+      "startTime": 10.874212,
+      "endTime": 15.854606,
+      "words": [
+        {
+          "id": 13,
+          "text": "then,",
+          "startTime": 10.874212,
+          "endTime": 12.538515
+        },
+        {
+          "id": 14,
+          "text": "it’s",
+          "startTime": 12.538515,
+          "endTime": 13.601668
+        },
+        {
+          "id": 15,
+          "text": "okay,",
+          "startTime": 13.601668,
+          "endTime": 14.396356
+        },
+        {
+          "id": 16,
+          "text": "fine",
+          "startTime": 14.396356,
+          "endTime": 15.854606
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "the candles, cake, and wine",
+      "startTime": 15.854606,
+      "endTime": 20.572388,
+      "words": [
+        {
+          "id": 17,
+          "text": "the",
+          "startTime": 15.854606,
+          "endTime": 16.786738
+        },
+        {
+          "id": 18,
+          "text": "candles,",
+          "startTime": 16.786738,
+          "endTime": 17.716054
+        },
+        {
+          "id": 19,
+          "text": "cake,",
+          "startTime": 17.716054,
+          "endTime": 18.844307
+        },
+        {
+          "id": 20,
+          "text": "and",
+          "startTime": 18.844307,
+          "endTime": 19.37648
+        },
+        {
+          "id": 21,
+          "text": "wine",
+          "startTime": 19.37648,
+          "endTime": 20.572388
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "the bass that hits, we dine",
+      "startTime": 20.572388,
+      "endTime": 24.553467,
+      "words": [
+        {
+          "id": 22,
+          "text": "the",
+          "startTime": 20.572388,
+          "endTime": 21.233332
+        },
+        {
+          "id": 23,
+          "text": "bass",
+          "startTime": 21.233332,
+          "endTime": 21.566778
+        },
+        {
+          "id": 24,
+          "text": "that",
+          "startTime": 21.566778,
+          "endTime": 21.767432
+        },
+        {
+          "id": 25,
+          "text": "hits,",
+          "startTime": 21.767432,
+          "endTime": 22.434368
+        },
+        {
+          "id": 26,
+          "text": "we",
+          "startTime": 22.434368,
+          "endTime": 23.160761
+        },
+        {
+          "id": 27,
+          "text": "dine",
+          "startTime": 23.160761,
+          "endTime": 24.553467
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "I’m drawn to yours pied",
+      "startTime": 24.553467,
+      "endTime": 28.471881,
+      "words": [
+        {
+          "id": 28,
+          "text": "I’m",
+          "startTime": 24.553467,
+          "endTime": 25.947078
+        },
+        {
+          "id": 29,
+          "text": "drawn",
+          "startTime": 25.947078,
+          "endTime": 26.411968
+        },
+        {
+          "id": 30,
+          "text": "to",
+          "startTime": 26.411968,
+          "endTime": 27.014733
+        },
+        {
+          "id": 31,
+          "text": "yours",
+          "startTime": 27.014733,
+          "endTime": 27.412601
+        },
+        {
+          "id": 32,
+          "text": "pied",
+          "startTime": 27.412601,
+          "endTime": 28.471881
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "insatiable as shy",
+      "startTime": 28.471881,
+      "endTime": 31.728475,
+      "words": [
+        {
+          "id": 33,
+          "text": "insatiable",
+          "startTime": 28.471881,
+          "endTime": 30.533049
+        },
+        {
+          "id": 34,
+          "text": "as",
+          "startTime": 30.533049,
+          "endTime": 30.796637
+        },
+        {
+          "id": 35,
+          "text": "shy",
+          "startTime": 30.796637,
+          "endTime": 31.728475
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "as the years commit",
+      "startTime": 31.728475,
+      "endTime": 34.117257,
+      "words": [
+        {
+          "id": 36,
+          "text": "as",
+          "startTime": 31.728475,
+          "endTime": 32.657066
+        },
+        {
+          "id": 37,
+          "text": "the",
+          "startTime": 32.657066,
+          "endTime": 32.856891
+        },
+        {
+          "id": 38,
+          "text": "years",
+          "startTime": 32.856891,
+          "endTime": 33.185778
+        },
+        {
+          "id": 39,
+          "text": "commit",
+          "startTime": 33.185778,
+          "endTime": 34.117257
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "to our long framed fit",
+      "startTime": 34.117257,
+      "endTime": 37.903976,
+      "words": [
+        {
+          "id": 40,
+          "text": "to",
+          "startTime": 34.117257,
+          "endTime": 34.850435
+        },
+        {
+          "id": 41,
+          "text": "our",
+          "startTime": 34.850435,
+          "endTime": 35.048871
+        },
+        {
+          "id": 42,
+          "text": "long",
+          "startTime": 35.048871,
+          "endTime": 35.777447
+        },
+        {
+          "id": 43,
+          "text": "framed",
+          "startTime": 35.777447,
+          "endTime": 36.70687
+        },
+        {
+          "id": 44,
+          "text": "fit",
+          "startTime": 36.70687,
+          "endTime": 37.903976
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "nosing no felt stitch",
+      "startTime": 37.903976,
+      "endTime": 40.961362,
+      "words": [
+        {
+          "id": 45,
+          "text": "nosing",
+          "startTime": 37.903976,
+          "endTime": 39.229191
+        },
+        {
+          "id": 46,
+          "text": "no",
+          "startTime": 39.229191,
+          "endTime": 39.497891
+        },
+        {
+          "id": 47,
+          "text": "felt",
+          "startTime": 39.497891,
+          "endTime": 39.961656
+        },
+        {
+          "id": 48,
+          "text": "stitch",
+          "startTime": 39.961656,
+          "endTime": 40.961362
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "this day aims a beam",
+      "startTime": 40.961362,
+      "endTime": 44.407756,
+      "words": [
+        {
+          "id": 49,
+          "text": "this",
+          "startTime": 40.961362,
+          "endTime": 42.619298
+        },
+        {
+          "id": 50,
+          "text": "day",
+          "startTime": 42.619298,
+          "endTime": 43.014513
+        },
+        {
+          "id": 51,
+          "text": "aims",
+          "startTime": 43.014513,
+          "endTime": 43.48125
+        },
+        {
+          "id": 52,
+          "text": "a",
+          "startTime": 43.48125,
+          "endTime": 43.677446
+        },
+        {
+          "id": 53,
+          "text": "beam",
+          "startTime": 43.677446,
+          "endTime": 44.407756
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "paragraph": "a sweet playing melody",
+      "startTime": 44.407756,
+      "endTime": 48.993666,
+      "words": [
+        {
+          "id": 54,
+          "text": "a",
+          "startTime": 44.407756,
+          "endTime": 46.801386
+        },
+        {
+          "id": 55,
+          "text": "sweet",
+          "startTime": 46.801386,
+          "endTime": 47.263519
+        },
+        {
+          "id": 56,
+          "text": "playing",
+          "startTime": 47.263519,
+          "endTime": 47.728447
+        },
+        {
+          "id": 57,
+          "text": "melody",
+          "startTime": 47.728447,
+          "endTime": 48.993666
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "paragraph": "a cloth that unfurls unending",
+      "startTime": 48.993666,
+      "endTime": 53.647132,
+      "words": [
+        {
+          "id": 58,
+          "text": "a",
+          "startTime": 48.993666,
+          "endTime": 50.254485
+        },
+        {
+          "id": 59,
+          "text": "cloth",
+          "startTime": 50.254485,
+          "endTime": 50.852227
+        },
+        {
+          "id": 60,
+          "text": "that",
+          "startTime": 50.852227,
+          "endTime": 51.316756
+        },
+        {
+          "id": 61,
+          "text": "unfurls",
+          "startTime": 51.316756,
+          "endTime": 52.047636
+        },
+        {
+          "id": 62,
+          "text": "unending",
+          "startTime": 52.047636,
+          "endTime": 53.647132
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "paragraph": "my wife is on a new stepping",
+      "startTime": 53.647132,
+      "endTime": 57.564075,
+      "words": [
+        {
+          "id": 63,
+          "text": "my",
+          "startTime": 53.647132,
+          "endTime": 55.309638
+        },
+        {
+          "id": 64,
+          "text": "wife",
+          "startTime": 55.309638,
+          "endTime": 55.641182
+        },
+        {
+          "id": 65,
+          "text": "is",
+          "startTime": 55.641182,
+          "endTime": 55.771236
+        },
+        {
+          "id": 66,
+          "text": "on",
+          "startTime": 55.771236,
+          "endTime": 55.9022
+        },
+        {
+          "id": 67,
+          "text": "a",
+          "startTime": 55.9022,
+          "endTime": 56.103841
+        },
+        {
+          "id": 68,
+          "text": "new",
+          "startTime": 56.103841,
+          "endTime": 56.369255
+        },
+        {
+          "id": 69,
+          "text": "stepping",
+          "startTime": 56.369255,
+          "endTime": 57.564075
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "paragraph": "and sixteen this more, I’ll quill.",
+      "startTime": 57.564075,
+      "endTime": 62.882015,
+      "words": [
+        {
+          "id": 70,
+          "text": "and",
+          "startTime": 57.564075,
+          "endTime": 58.763943
+        },
+        {
+          "id": 71,
+          "text": "sixteen",
+          "startTime": 58.763943,
+          "endTime": 59.358251
+        },
+        {
+          "id": 72,
+          "text": "this",
+          "startTime": 59.358251,
+          "endTime": 59.558499
+        },
+        {
+          "id": 73,
+          "text": "more,",
+          "startTime": 59.558499,
+          "endTime": 60.220128
+        },
+        {
+          "id": 74,
+          "text": "I���ll",
+          "startTime": 60.220128,
+          "endTime": 60.882015
+        },
+        {
+          "id": 75,
+          "text": "quill.",
+          "startTime": 60.882015,
+          "endTime": 62.882015
+        }
+      ]
+    }
+  ]
+}

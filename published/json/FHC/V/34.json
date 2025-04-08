@@ -1,0 +1,148 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Raised eyebrows",
+      "startTime": 4.685015,
+      "endTime": 6.143683,
+      "words": [
+        {
+          "id": 1,
+          "text": "Raised",
+          "startTime": 4.685015,
+          "endTime": 4.950399
+        },
+        {
+          "id": 2,
+          "text": "eyebrows",
+          "startTime": 4.950399,
+          "endTime": 6.143683
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "tray high pounds",
+      "startTime": 6.143683,
+      "endTime": 8.600582,
+      "words": [
+        {
+          "id": 3,
+          "text": "tray",
+          "startTime": 6.143683,
+          "endTime": 7.077282
+        },
+        {
+          "id": 4,
+          "text": "high",
+          "startTime": 7.077282,
+          "endTime": 7.406383
+        },
+        {
+          "id": 5,
+          "text": "pounds",
+          "startTime": 7.406383,
+          "endTime": 8.600582
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "A.I mouse",
+      "startTime": 8.600582,
+      "endTime": 11.329946,
+      "words": [
+        {
+          "id": 6,
+          "text": "A.I",
+          "startTime": 8.600582,
+          "endTime": 10.198173
+        },
+        {
+          "id": 7,
+          "text": "mouse",
+          "startTime": 10.198173,
+          "endTime": 11.329946
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "brave shy bluffs",
+      "startTime": 11.329946,
+      "endTime": 14.516919,
+      "words": [
+        {
+          "id": 8,
+          "text": "brave",
+          "startTime": 11.329946,
+          "endTime": 13.052163
+        },
+        {
+          "id": 9,
+          "text": "shy",
+          "startTime": 13.052163,
+          "endTime": 13.518789
+        },
+        {
+          "id": 10,
+          "text": "bluffs",
+          "startTime": 13.518789,
+          "endTime": 14.516919
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "eh I fall",
+      "startTime": 14.516919,
+      "endTime": 17.572188,
+      "words": [
+        {
+          "id": 11,
+          "text": "eh",
+          "startTime": 14.516919,
+          "endTime": 16.239157
+        },
+        {
+          "id": 12,
+          "text": "I",
+          "startTime": 16.239157,
+          "endTime": 16.505104
+        },
+        {
+          "id": 13,
+          "text": "fall",
+          "startTime": 16.505104,
+          "endTime": 17.572188
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "grey miles off.",
+      "startTime": 17.572188,
+      "endTime": 20.634439,
+      "words": [
+        {
+          "id": 14,
+          "text": "grey",
+          "startTime": 17.572188,
+          "endTime": 18.299939
+        },
+        {
+          "id": 15,
+          "text": "miles",
+          "startTime": 18.299939,
+          "endTime": 18.634439
+        },
+        {
+          "id": 16,
+          "text": "off.",
+          "startTime": 18.634439,
+          "endTime": 20.634439
+        }
+      ]
+    }
+  ]
+}

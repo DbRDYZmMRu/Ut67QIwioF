@@ -1,0 +1,356 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "A bit, a bit, a bit",
+      "startTime": 3.629538,
+      "endTime": 10.076792,
+      "words": [
+        {
+          "id": 1,
+          "text": "A",
+          "startTime": 3.629538,
+          "endTime": 5.491431
+        },
+        {
+          "id": 2,
+          "text": "bit,",
+          "startTime": 5.491431,
+          "endTime": 6.288256
+        },
+        {
+          "id": 3,
+          "text": "a",
+          "startTime": 6.288256,
+          "endTime": 7.282541
+        },
+        {
+          "id": 4,
+          "text": "bit,",
+          "startTime": 7.282541,
+          "endTime": 7.945999
+        },
+        {
+          "id": 5,
+          "text": "a",
+          "startTime": 7.945999,
+          "endTime": 9.078832
+        },
+        {
+          "id": 6,
+          "text": "bit",
+          "startTime": 9.078832,
+          "endTime": 10.076792
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "move a bit, inch neat",
+      "startTime": 10.076792,
+      "endTime": 14.859843,
+      "words": [
+        {
+          "id": 7,
+          "text": "move",
+          "startTime": 10.076792,
+          "endTime": 11.469139
+        },
+        {
+          "id": 8,
+          "text": "a",
+          "startTime": 11.469139,
+          "endTime": 11.606461
+        },
+        {
+          "id": 9,
+          "text": "bit,",
+          "startTime": 11.606461,
+          "endTime": 12.337814
+        },
+        {
+          "id": 10,
+          "text": "inch",
+          "startTime": 12.337814,
+          "endTime": 13.267418
+        },
+        {
+          "id": 11,
+          "text": "neat",
+          "startTime": 13.267418,
+          "endTime": 14.859843
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "avoid the bit in your teeth",
+      "startTime": 14.859843,
+      "endTime": 18.577705,
+      "words": [
+        {
+          "id": 12,
+          "text": "avoid",
+          "startTime": 14.859843,
+          "endTime": 16.323573
+        },
+        {
+          "id": 13,
+          "text": "the",
+          "startTime": 16.323573,
+          "endTime": 16.458183
+        },
+        {
+          "id": 14,
+          "text": "bit",
+          "startTime": 16.458183,
+          "endTime": 16.721854
+        },
+        {
+          "id": 15,
+          "text": "in",
+          "startTime": 16.721854,
+          "endTime": 17.186362
+        },
+        {
+          "id": 16,
+          "text": "your",
+          "startTime": 17.186362,
+          "endTime": 17.45183
+        },
+        {
+          "id": 17,
+          "text": "teeth",
+          "startTime": 17.45183,
+          "endTime": 18.577705
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "a bit left is the dream",
+      "startTime": 18.577705,
+      "endTime": 23.160999,
+      "words": [
+        {
+          "id": 18,
+          "text": "a",
+          "startTime": 18.577705,
+          "endTime": 19.777793
+        },
+        {
+          "id": 19,
+          "text": "bit",
+          "startTime": 19.777793,
+          "endTime": 20.041895
+        },
+        {
+          "id": 20,
+          "text": "left",
+          "startTime": 20.041895,
+          "endTime": 21.037346
+        },
+        {
+          "id": 21,
+          "text": "is",
+          "startTime": 21.037346,
+          "endTime": 21.436315
+        },
+        {
+          "id": 22,
+          "text": "the",
+          "startTime": 21.436315,
+          "endTime": 21.636896
+        },
+        {
+          "id": 23,
+          "text": "dream",
+          "startTime": 21.636896,
+          "endTime": 23.160999
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "the bit right is a twin",
+      "startTime": 23.160999,
+      "endTime": 27.677857,
+      "words": [
+        {
+          "id": 24,
+          "text": "the",
+          "startTime": 23.160999,
+          "endTime": 24.156634
+        },
+        {
+          "id": 25,
+          "text": "bit",
+          "startTime": 24.156634,
+          "endTime": 24.359395
+        },
+        {
+          "id": 26,
+          "text": "right",
+          "startTime": 24.359395,
+          "endTime": 25.75132
+        },
+        {
+          "id": 27,
+          "text": "is",
+          "startTime": 25.75132,
+          "endTime": 26.220249
+        },
+        {
+          "id": 28,
+          "text": "a",
+          "startTime": 26.220249,
+          "endTime": 26.351912
+        },
+        {
+          "id": 29,
+          "text": "twin",
+          "startTime": 26.351912,
+          "endTime": 27.677857
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "if not, the bit is in sheen",
+      "startTime": 27.677857,
+      "endTime": 32.525765,
+      "words": [
+        {
+          "id": 30,
+          "text": "if",
+          "startTime": 27.677857,
+          "endTime": 28.541788
+        },
+        {
+          "id": 31,
+          "text": "not,",
+          "startTime": 28.541788,
+          "endTime": 29.67272
+        },
+        {
+          "id": 32,
+          "text": "the",
+          "startTime": 29.67272,
+          "endTime": 30.071366
+        },
+        {
+          "id": 33,
+          "text": "bit",
+          "startTime": 30.071366,
+          "endTime": 30.399329
+        },
+        {
+          "id": 34,
+          "text": "is",
+          "startTime": 30.399329,
+          "endTime": 30.930251
+        },
+        {
+          "id": 35,
+          "text": "in",
+          "startTime": 30.930251,
+          "endTime": 31.19864
+        },
+        {
+          "id": 36,
+          "text": "sheen",
+          "startTime": 31.19864,
+          "endTime": 32.525765
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "a bit, a bit, don’t cheat",
+      "startTime": 32.525765,
+      "endTime": 38.039128,
+      "words": [
+        {
+          "id": 37,
+          "text": "a",
+          "startTime": 32.525765,
+          "endTime": 33.652684
+        },
+        {
+          "id": 38,
+          "text": "bit,",
+          "startTime": 33.652684,
+          "endTime": 34.91708
+        },
+        {
+          "id": 39,
+          "text": "a",
+          "startTime": 34.91708,
+          "endTime": 35.382516
+        },
+        {
+          "id": 40,
+          "text": "bit,",
+          "startTime": 35.382516,
+          "endTime": 36.313326
+        },
+        {
+          "id": 41,
+          "text": "don’t",
+          "startTime": 36.313326,
+          "endTime": 36.975781
+        },
+        {
+          "id": 42,
+          "text": "cheat",
+          "startTime": 36.975781,
+          "endTime": 38.039128
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "my bite’s a bit, you’ll see.",
+      "startTime": 38.039128,
+      "endTime": 42.898726,
+      "words": [
+        {
+          "id": 43,
+          "text": "my",
+          "startTime": 38.039128,
+          "endTime": 39.037212
+        },
+        {
+          "id": 44,
+          "text": "bite’s",
+          "startTime": 39.037212,
+          "endTime": 39.369103
+        },
+        {
+          "id": 45,
+          "text": "a",
+          "startTime": 39.369103,
+          "endTime": 39.50185
+        },
+        {
+          "id": 46,
+          "text": "bit,",
+          "startTime": 39.50185,
+          "endTime": 40.296145
+        },
+        {
+          "id": 47,
+          "text": "you’ll",
+          "startTime": 40.296145,
+          "endTime": 40.898726
+        },
+        {
+          "id": 48,
+          "text": "see.",
+          "startTime": 40.898726,
+          "endTime": 42.898726
+        }
+      ]
+    }
+  ]
+}

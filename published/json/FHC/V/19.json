@@ -1,0 +1,212 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Sometimes I glean for the unheard",
+      "startTime": 4.30888,
+      "endTime": 8.361075,
+      "words": [
+        {
+          "id": 1,
+          "text": "Sometimes",
+          "startTime": 4.30888,
+          "endTime": 6.10505
+        },
+        {
+          "id": 2,
+          "text": "I",
+          "startTime": 6.10505,
+          "endTime": 6.303203
+        },
+        {
+          "id": 3,
+          "text": "glean",
+          "startTime": 6.303203,
+          "endTime": 6.766349
+        },
+        {
+          "id": 4,
+          "text": "for",
+          "startTime": 6.766349,
+          "endTime": 6.898607
+        },
+        {
+          "id": 5,
+          "text": "the",
+          "startTime": 6.898607,
+          "endTime": 7.102793
+        },
+        {
+          "id": 6,
+          "text": "unheard",
+          "startTime": 7.102793,
+          "endTime": 8.361075
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "do I find the parson’s hidden gourd",
+      "startTime": 8.361075,
+      "endTime": 13.074929,
+      "words": [
+        {
+          "id": 7,
+          "text": "do",
+          "startTime": 8.361075,
+          "endTime": 9.427393
+        },
+        {
+          "id": 8,
+          "text": "I",
+          "startTime": 9.427393,
+          "endTime": 9.621683
+        },
+        {
+          "id": 9,
+          "text": "find",
+          "startTime": 9.621683,
+          "endTime": 10.091558
+        },
+        {
+          "id": 10,
+          "text": "the",
+          "startTime": 10.091558,
+          "endTime": 10.355944
+        },
+        {
+          "id": 11,
+          "text": "parson’s",
+          "startTime": 10.355944,
+          "endTime": 10.885888
+        },
+        {
+          "id": 12,
+          "text": "hidden",
+          "startTime": 10.885888,
+          "endTime": 11.480135
+        },
+        {
+          "id": 13,
+          "text": "gourd",
+          "startTime": 11.480135,
+          "endTime": 13.074929
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "deft, soft whispers—gritty intelligence",
+      "startTime": 13.074929,
+      "endTime": 18.659891,
+      "words": [
+        {
+          "id": 14,
+          "text": "deft,",
+          "startTime": 13.074929,
+          "endTime": 13.872163
+        },
+        {
+          "id": 15,
+          "text": "soft",
+          "startTime": 13.872163,
+          "endTime": 14.8018
+        },
+        {
+          "id": 16,
+          "text": "whispers—gritty",
+          "startTime": 14.8018,
+          "endTime": 16.930619
+        },
+        {
+          "id": 17,
+          "text": "intelligence",
+          "startTime": 16.930619,
+          "endTime": 18.659891
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "paperweight stay, and rote battement",
+      "startTime": 18.659891,
+      "endTime": 24.442843,
+      "words": [
+        {
+          "id": 18,
+          "text": "paperweight",
+          "startTime": 18.659891,
+          "endTime": 20.248267
+        },
+        {
+          "id": 19,
+          "text": "stay,",
+          "startTime": 20.248267,
+          "endTime": 21.779592
+        },
+        {
+          "id": 20,
+          "text": "and",
+          "startTime": 21.779592,
+          "endTime": 22.244305
+        },
+        {
+          "id": 21,
+          "text": "rote",
+          "startTime": 22.244305,
+          "endTime": 22.642902
+        },
+        {
+          "id": 22,
+          "text": "battement",
+          "startTime": 22.642902,
+          "endTime": 24.442843
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "there at the cynosure’s pouring brim.",
+      "startTime": 24.442843,
+      "endTime": 30.491262,
+      "words": [
+        {
+          "id": 23,
+          "text": "there",
+          "startTime": 24.442843,
+          "endTime": 26.033319
+        },
+        {
+          "id": 24,
+          "text": "at",
+          "startTime": 26.033319,
+          "endTime": 26.165942
+        },
+        {
+          "id": 25,
+          "text": "the",
+          "startTime": 26.165942,
+          "endTime": 26.298448
+        },
+        {
+          "id": 26,
+          "text": "cynosure’s",
+          "startTime": 26.298448,
+          "endTime": 28.023108
+        },
+        {
+          "id": 27,
+          "text": "pouring",
+          "startTime": 28.023108,
+          "endTime": 28.491262
+        },
+        {
+          "id": 28,
+          "text": "brim.",
+          "startTime": 28.491262,
+          "endTime": 30.491262
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,494 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "In dreamlike states",
+      "startTime": 3.853664,
+      "endTime": 6.573989,
+      "words": [
+        {
+          "id": 1,
+          "text": "In",
+          "startTime": 3.853664,
+          "endTime": 5.048363
+        },
+        {
+          "id": 2,
+          "text": "dreamlike",
+          "startTime": 5.048363,
+          "endTime": 5.644441
+        },
+        {
+          "id": 3,
+          "text": "states",
+          "startTime": 5.644441,
+          "endTime": 6.573989
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "it’s unlikely you’ll find a flame",
+      "startTime": 6.573989,
+      "endTime": 10.429539,
+      "words": [
+        {
+          "id": 4,
+          "text": "it’s",
+          "startTime": 6.573989,
+          "endTime": 7.509708
+        },
+        {
+          "id": 5,
+          "text": "unlikely",
+          "startTime": 7.509708,
+          "endTime": 8.436833
+        },
+        {
+          "id": 6,
+          "text": "you’ll",
+          "startTime": 8.436833,
+          "endTime": 9.101918
+        },
+        {
+          "id": 7,
+          "text": "find",
+          "startTime": 9.101918,
+          "endTime": 9.433343
+        },
+        {
+          "id": 8,
+          "text": "a",
+          "startTime": 9.433343,
+          "endTime": 9.567302
+        },
+        {
+          "id": 9,
+          "text": "flame",
+          "startTime": 9.567302,
+          "endTime": 10.429539
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "something is the matter; you’re awake",
+      "startTime": 10.429539,
+      "endTime": 14.679864,
+      "words": [
+        {
+          "id": 10,
+          "text": "something",
+          "startTime": 10.429539,
+          "endTime": 11.959528
+        },
+        {
+          "id": 11,
+          "text": "is",
+          "startTime": 11.959528,
+          "endTime": 12.091471
+        },
+        {
+          "id": 12,
+          "text": "the",
+          "startTime": 12.091471,
+          "endTime": 12.223718
+        },
+        {
+          "id": 13,
+          "text": "matter;",
+          "startTime": 12.223718,
+          "endTime": 13.283329
+        },
+        {
+          "id": 14,
+          "text": "you’re",
+          "startTime": 13.283329,
+          "endTime": 13.815549
+        },
+        {
+          "id": 15,
+          "text": "awake",
+          "startTime": 13.815549,
+          "endTime": 14.679864
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "for something new to share the space",
+      "startTime": 14.679864,
+      "endTime": 18.53497,
+      "words": [
+        {
+          "id": 16,
+          "text": "for",
+          "startTime": 14.679864,
+          "endTime": 15.876766
+        },
+        {
+          "id": 17,
+          "text": "something",
+          "startTime": 15.876766,
+          "endTime": 16.407372
+        },
+        {
+          "id": 18,
+          "text": "new",
+          "startTime": 16.407372,
+          "endTime": 16.872053
+        },
+        {
+          "id": 19,
+          "text": "to",
+          "startTime": 16.872053,
+          "endTime": 16.937846
+        },
+        {
+          "id": 20,
+          "text": "share",
+          "startTime": 16.937846,
+          "endTime": 17.27026
+        },
+        {
+          "id": 21,
+          "text": "the",
+          "startTime": 17.27026,
+          "endTime": 17.405737
+        },
+        {
+          "id": 22,
+          "text": "space",
+          "startTime": 17.405737,
+          "endTime": 18.53497
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "an unlearning, a descending phase",
+      "startTime": 18.53497,
+      "endTime": 22.979664,
+      "words": [
+        {
+          "id": 23,
+          "text": "an",
+          "startTime": 18.53497,
+          "endTime": 19.462897
+        },
+        {
+          "id": 24,
+          "text": "unlearning,",
+          "startTime": 19.462897,
+          "endTime": 20.391331
+        },
+        {
+          "id": 25,
+          "text": "a",
+          "startTime": 20.391331,
+          "endTime": 21.458117
+        },
+        {
+          "id": 26,
+          "text": "descending",
+          "startTime": 21.458117,
+          "endTime": 22.053855
+        },
+        {
+          "id": 27,
+          "text": "phase",
+          "startTime": 22.053855,
+          "endTime": 22.979664
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "and in the waiting, you bathe",
+      "startTime": 22.979664,
+      "endTime": 27.364447,
+      "words": [
+        {
+          "id": 28,
+          "text": "and",
+          "startTime": 22.979664,
+          "endTime": 24.441059
+        },
+        {
+          "id": 29,
+          "text": "in",
+          "startTime": 24.441059,
+          "endTime": 24.574207
+        },
+        {
+          "id": 30,
+          "text": "the",
+          "startTime": 24.574207,
+          "endTime": 24.63814
+        },
+        {
+          "id": 31,
+          "text": "waiting,",
+          "startTime": 24.63814,
+          "endTime": 25.507961
+        },
+        {
+          "id": 32,
+          "text": "you",
+          "startTime": 25.507961,
+          "endTime": 26.56612
+        },
+        {
+          "id": 33,
+          "text": "bathe",
+          "startTime": 26.56612,
+          "endTime": 27.364447
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "and I’ll wait, hoping it isn’t just fate",
+      "startTime": 27.364447,
+      "endTime": 32.877145,
+      "words": [
+        {
+          "id": 34,
+          "text": "and",
+          "startTime": 27.364447,
+          "endTime": 28.629398
+        },
+        {
+          "id": 35,
+          "text": "I’ll",
+          "startTime": 28.629398,
+          "endTime": 28.821456
+        },
+        {
+          "id": 36,
+          "text": "wait,",
+          "startTime": 28.821456,
+          "endTime": 29.822144
+        },
+        {
+          "id": 37,
+          "text": "hoping",
+          "startTime": 29.822144,
+          "endTime": 30.74858
+        },
+        {
+          "id": 38,
+          "text": "it",
+          "startTime": 30.74858,
+          "endTime": 31.082716
+        },
+        {
+          "id": 39,
+          "text": "isn’t",
+          "startTime": 31.082716,
+          "endTime": 31.480812
+        },
+        {
+          "id": 40,
+          "text": "just",
+          "startTime": 31.480812,
+          "endTime": 31.744671
+        },
+        {
+          "id": 41,
+          "text": "fate",
+          "startTime": 31.744671,
+          "endTime": 32.877145
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "let’s go somewhere on a date",
+      "startTime": 32.877145,
+      "endTime": 36.132289,
+      "words": [
+        {
+          "id": 42,
+          "text": "let’s",
+          "startTime": 32.877145,
+          "endTime": 34.270915
+        },
+        {
+          "id": 43,
+          "text": "go",
+          "startTime": 34.270915,
+          "endTime": 34.404576
+        },
+        {
+          "id": 44,
+          "text": "somewhere",
+          "startTime": 34.404576,
+          "endTime": 34.86797
+        },
+        {
+          "id": 45,
+          "text": "on",
+          "startTime": 34.86797,
+          "endTime": 35.00157
+        },
+        {
+          "id": 46,
+          "text": "a",
+          "startTime": 35.00157,
+          "endTime": 35.133541
+        },
+        {
+          "id": 47,
+          "text": "date",
+          "startTime": 35.133541,
+          "endTime": 36.132289
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "catch new pages through weekdays",
+      "startTime": 36.132289,
+      "endTime": 40.184018,
+      "words": [
+        {
+          "id": 48,
+          "text": "catch",
+          "startTime": 36.132289,
+          "endTime": 37.389463
+        },
+        {
+          "id": 49,
+          "text": "new",
+          "startTime": 37.389463,
+          "endTime": 37.59207
+        },
+        {
+          "id": 50,
+          "text": "pages",
+          "startTime": 37.59207,
+          "endTime": 38.252587
+        },
+        {
+          "id": 51,
+          "text": "through",
+          "startTime": 38.252587,
+          "endTime": 38.984768
+        },
+        {
+          "id": 52,
+          "text": "weekdays",
+          "startTime": 38.984768,
+          "endTime": 40.184018
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "get up on our immersing bathe claims",
+      "startTime": 40.184018,
+      "endTime": 44.697601,
+      "words": [
+        {
+          "id": 53,
+          "text": "get",
+          "startTime": 40.184018,
+          "endTime": 41.44263
+        },
+        {
+          "id": 54,
+          "text": "up",
+          "startTime": 41.44263,
+          "endTime": 41.775084
+        },
+        {
+          "id": 55,
+          "text": "on",
+          "startTime": 41.775084,
+          "endTime": 42.104495
+        },
+        {
+          "id": 56,
+          "text": "our",
+          "startTime": 42.104495,
+          "endTime": 42.370749
+        },
+        {
+          "id": 57,
+          "text": "immersing",
+          "startTime": 42.370749,
+          "endTime": 43.168072
+        },
+        {
+          "id": 58,
+          "text": "bathe",
+          "startTime": 43.168072,
+          "endTime": 43.70068
+        },
+        {
+          "id": 59,
+          "text": "claims",
+          "startTime": 43.70068,
+          "endTime": 44.697601
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "like it'd take forever to hit the lakes.",
+      "startTime": 44.697601,
+      "endTime": 50.085012,
+      "words": [
+        {
+          "id": 60,
+          "text": "like",
+          "startTime": 44.697601,
+          "endTime": 45.890199
+        },
+        {
+          "id": 61,
+          "text": "it'd",
+          "startTime": 45.890199,
+          "endTime": 46.087075
+        },
+        {
+          "id": 62,
+          "text": "take",
+          "startTime": 46.087075,
+          "endTime": 46.356592
+        },
+        {
+          "id": 63,
+          "text": "forever",
+          "startTime": 46.356592,
+          "endTime": 47.215202
+        },
+        {
+          "id": 64,
+          "text": "to",
+          "startTime": 47.215202,
+          "endTime": 47.619064
+        },
+        {
+          "id": 65,
+          "text": "hit",
+          "startTime": 47.619064,
+          "endTime": 47.886288
+        },
+        {
+          "id": 66,
+          "text": "the",
+          "startTime": 47.886288,
+          "endTime": 48.085012
+        },
+        {
+          "id": 67,
+          "text": "lakes.",
+          "startTime": 48.085012,
+          "endTime": 50.085012
+        }
+      ]
+    }
+  ]
+}

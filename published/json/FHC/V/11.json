@@ -1,0 +1,248 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Servility and pulchritude",
+      "startTime": 6.280397,
+      "endTime": 10.132039,
+      "words": [
+        {
+          "id": 1,
+          "text": "Servility",
+          "startTime": 6.280397,
+          "endTime": 8.204034
+        },
+        {
+          "id": 2,
+          "text": "and",
+          "startTime": 8.204034,
+          "endTime": 8.80916
+        },
+        {
+          "id": 3,
+          "text": "pulchritude",
+          "startTime": 8.80916,
+          "endTime": 10.132039
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "stair years, tree stood",
+      "startTime": 10.132039,
+      "endTime": 14.183381,
+      "words": [
+        {
+          "id": 4,
+          "text": "stair",
+          "startTime": 10.132039,
+          "endTime": 11.524518
+        },
+        {
+          "id": 5,
+          "text": "years,",
+          "startTime": 11.524518,
+          "endTime": 12.451325
+        },
+        {
+          "id": 6,
+          "text": "tree",
+          "startTime": 12.451325,
+          "endTime": 13.05397
+        },
+        {
+          "id": 7,
+          "text": "stood",
+          "startTime": 13.05397,
+          "endTime": 14.183381
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "heard ears, rich strewed",
+      "startTime": 14.183381,
+      "endTime": 18.105185,
+      "words": [
+        {
+          "id": 8,
+          "text": "heard",
+          "startTime": 14.183381,
+          "endTime": 15.178327
+        },
+        {
+          "id": 9,
+          "text": "ears,",
+          "startTime": 15.178327,
+          "endTime": 16.442499
+        },
+        {
+          "id": 10,
+          "text": "rich",
+          "startTime": 16.442499,
+          "endTime": 16.904114
+        },
+        {
+          "id": 11,
+          "text": "strewed",
+          "startTime": 16.904114,
+          "endTime": 18.105185
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "turn! of… all two allude",
+      "startTime": 18.105185,
+      "endTime": 22.825016,
+      "words": [
+        {
+          "id": 12,
+          "text": "turn!",
+          "startTime": 18.105185,
+          "endTime": 19.439656
+        },
+        {
+          "id": 13,
+          "text": "of…",
+          "startTime": 19.439656,
+          "endTime": 20.6979
+        },
+        {
+          "id": 14,
+          "text": "all",
+          "startTime": 20.6979,
+          "endTime": 21.492252
+        },
+        {
+          "id": 15,
+          "text": "two",
+          "startTime": 21.492252,
+          "endTime": 21.891794
+        },
+        {
+          "id": 16,
+          "text": "allude",
+          "startTime": 21.891794,
+          "endTime": 22.825016
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "who is the galling wuss?",
+      "startTime": 22.825016,
+      "endTime": 25.544271,
+      "words": [
+        {
+          "id": 17,
+          "text": "who",
+          "startTime": 22.825016,
+          "endTime": 23.552
+        },
+        {
+          "id": 18,
+          "text": "is",
+          "startTime": 23.552,
+          "endTime": 23.754926
+        },
+        {
+          "id": 19,
+          "text": "the",
+          "startTime": 23.754926,
+          "endTime": 24.018326
+        },
+        {
+          "id": 20,
+          "text": "galling",
+          "startTime": 24.018326,
+          "endTime": 24.414708
+        },
+        {
+          "id": 21,
+          "text": "wuss?",
+          "startTime": 24.414708,
+          "endTime": 25.544271
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "the birds who stool",
+      "startTime": 25.544271,
+      "endTime": 27.869439,
+      "words": [
+        {
+          "id": 22,
+          "text": "the",
+          "startTime": 25.544271,
+          "endTime": 26.471841
+        },
+        {
+          "id": 23,
+          "text": "birds",
+          "startTime": 26.471841,
+          "endTime": 26.942573
+        },
+        {
+          "id": 24,
+          "text": "who",
+          "startTime": 26.942573,
+          "endTime": 27.140726
+        },
+        {
+          "id": 25,
+          "text": "stool",
+          "startTime": 27.140726,
+          "endTime": 27.869439
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "rule…",
+      "startTime": 27.869439,
+      "endTime": 29.658416,
+      "words": [
+        {
+          "id": 26,
+          "text": "rule…",
+          "startTime": 27.869439,
+          "endTime": 29.658416
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "the dogs who choose.",
+      "startTime": 29.658416,
+      "endTime": 33.124224,
+      "words": [
+        {
+          "id": 27,
+          "text": "the",
+          "startTime": 29.658416,
+          "endTime": 30.330551
+        },
+        {
+          "id": 28,
+          "text": "dogs",
+          "startTime": 30.330551,
+          "endTime": 30.920044
+        },
+        {
+          "id": 29,
+          "text": "who",
+          "startTime": 30.920044,
+          "endTime": 31.124224
+        },
+        {
+          "id": 30,
+          "text": "choose.",
+          "startTime": 31.124224,
+          "endTime": 33.124224
+        }
+      ]
+    }
+  ]
+}

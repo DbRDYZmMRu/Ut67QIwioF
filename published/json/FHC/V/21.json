@@ -1,0 +1,96 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Palms for arms",
+      "startTime": 6.176973,
+      "endTime": 9.821677,
+      "words": [
+        {
+          "id": 1,
+          "text": "Palms",
+          "startTime": 6.176973,
+          "endTime": 8.16483
+        },
+        {
+          "id": 2,
+          "text": "for",
+          "startTime": 8.16483,
+          "endTime": 8.42828
+        },
+        {
+          "id": 3,
+          "text": "arms",
+          "startTime": 8.42828,
+          "endTime": 9.821677
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "arms for palms",
+      "startTime": 9.821677,
+      "endTime": 12.41169,
+      "words": [
+        {
+          "id": 4,
+          "text": "arms",
+          "startTime": 9.821677,
+          "endTime": 10.690732
+        },
+        {
+          "id": 5,
+          "text": "for",
+          "startTime": 10.690732,
+          "endTime": 11.220109
+        },
+        {
+          "id": 6,
+          "text": "palms",
+          "startTime": 11.220109,
+          "endTime": 12.41169
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "I’m Adam",
+      "startTime": 12.41169,
+      "endTime": 13.680983,
+      "words": [
+        {
+          "id": 7,
+          "text": "I’m",
+          "startTime": 12.41169,
+          "endTime": 12.878322
+        },
+        {
+          "id": 8,
+          "text": "Adam",
+          "startTime": 12.878322,
+          "endTime": 13.680983
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "no qualms.",
+      "startTime": 13.680983,
+      "endTime": 16.275258,
+      "words": [
+        {
+          "id": 9,
+          "text": "no",
+          "startTime": 13.680983,
+          "endTime": 14.275258
+        },
+        {
+          "id": 10,
+          "text": "qualms.",
+          "startTime": 14.275258,
+          "endTime": 16.275258
+        }
+      ]
+    }
+  ]
+}

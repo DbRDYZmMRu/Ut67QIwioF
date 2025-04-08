@@ -1,0 +1,324 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "To it I agree",
+      "startTime": 6.268502,
+      "endTime": 8.984895,
+      "words": [
+        {
+          "id": 1,
+          "text": "To",
+          "startTime": 6.268502,
+          "endTime": 7.528945
+        },
+        {
+          "id": 2,
+          "text": "it",
+          "startTime": 7.528945,
+          "endTime": 7.794132
+        },
+        {
+          "id": 3,
+          "text": "I",
+          "startTime": 7.794132,
+          "endTime": 7.995007
+        },
+        {
+          "id": 4,
+          "text": "agree",
+          "startTime": 7.995007,
+          "endTime": 8.984895
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "for it is steep",
+      "startTime": 8.984895,
+      "endTime": 11.378745,
+      "words": [
+        {
+          "id": 5,
+          "text": "for",
+          "startTime": 8.984895,
+          "endTime": 10.119122
+        },
+        {
+          "id": 6,
+          "text": "it",
+          "startTime": 10.119122,
+          "endTime": 10.318645
+        },
+        {
+          "id": 7,
+          "text": "is",
+          "startTime": 10.318645,
+          "endTime": 10.515658
+        },
+        {
+          "id": 8,
+          "text": "steep",
+          "startTime": 10.515658,
+          "endTime": 11.378745
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "of deep sleep",
+      "startTime": 11.378745,
+      "endTime": 14.367273,
+      "words": [
+        {
+          "id": 9,
+          "text": "of",
+          "startTime": 11.378745,
+          "endTime": 12.707554
+        },
+        {
+          "id": 10,
+          "text": "deep",
+          "startTime": 12.707554,
+          "endTime": 13.040391
+        },
+        {
+          "id": 11,
+          "text": "sleep",
+          "startTime": 13.040391,
+          "endTime": 14.367273
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "my desirous greed",
+      "startTime": 14.367273,
+      "endTime": 17.955605,
+      "words": [
+        {
+          "id": 12,
+          "text": "my",
+          "startTime": 14.367273,
+          "endTime": 15.496515
+        },
+        {
+          "id": 13,
+          "text": "desirous",
+          "startTime": 15.496515,
+          "endTime": 16.359589
+        },
+        {
+          "id": 14,
+          "text": "greed",
+          "startTime": 16.359589,
+          "endTime": 17.955605
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "do the batting winks",
+      "startTime": 17.955605,
+      "endTime": 20.878214,
+      "words": [
+        {
+          "id": 15,
+          "text": "do",
+          "startTime": 17.955605,
+          "endTime": 18.750395
+        },
+        {
+          "id": 16,
+          "text": "the",
+          "startTime": 18.750395,
+          "endTime": 18.946109
+        },
+        {
+          "id": 17,
+          "text": "batting",
+          "startTime": 18.946109,
+          "endTime": 19.412988
+        },
+        {
+          "id": 18,
+          "text": "winks",
+          "startTime": 19.412988,
+          "endTime": 20.878214
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "so the burr it strips",
+      "startTime": 20.878214,
+      "endTime": 24.813864,
+      "words": [
+        {
+          "id": 19,
+          "text": "so",
+          "startTime": 20.878214,
+          "endTime": 22.801213
+        },
+        {
+          "id": 20,
+          "text": "the",
+          "startTime": 22.801213,
+          "endTime": 23.091803
+        },
+        {
+          "id": 21,
+          "text": "burr",
+          "startTime": 23.091803,
+          "endTime": 23.420902
+        },
+        {
+          "id": 22,
+          "text": "it",
+          "startTime": 23.420902,
+          "endTime": 23.617021
+        },
+        {
+          "id": 23,
+          "text": "strips",
+          "startTime": 23.617021,
+          "endTime": 24.813864
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "from my plump nostrils",
+      "startTime": 24.813864,
+      "endTime": 28.596191,
+      "words": [
+        {
+          "id": 24,
+          "text": "from",
+          "startTime": 24.813864,
+          "endTime": 26.273424
+        },
+        {
+          "id": 25,
+          "text": "my",
+          "startTime": 26.273424,
+          "endTime": 26.539997
+        },
+        {
+          "id": 26,
+          "text": "plump",
+          "startTime": 26.539997,
+          "endTime": 27.004145
+        },
+        {
+          "id": 27,
+          "text": "nostrils",
+          "startTime": 27.004145,
+          "endTime": 28.596191
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "air needing his sill drees",
+      "startTime": 28.596191,
+      "endTime": 31.92049,
+      "words": [
+        {
+          "id": 28,
+          "text": "air",
+          "startTime": 28.596191,
+          "endTime": 29.53349
+        },
+        {
+          "id": 29,
+          "text": "needing",
+          "startTime": 29.53349,
+          "endTime": 29.868222
+        },
+        {
+          "id": 30,
+          "text": "his",
+          "startTime": 29.868222,
+          "endTime": 30.129151
+        },
+        {
+          "id": 31,
+          "text": "sill",
+          "startTime": 30.129151,
+          "endTime": 30.526453
+        },
+        {
+          "id": 32,
+          "text": "drees",
+          "startTime": 30.526453,
+          "endTime": 31.92049
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "telling brittle lip glib",
+      "startTime": 31.92049,
+      "endTime": 36.376008,
+      "words": [
+        {
+          "id": 33,
+          "text": "telling",
+          "startTime": 31.92049,
+          "endTime": 33.259099
+        },
+        {
+          "id": 34,
+          "text": "brittle",
+          "startTime": 33.259099,
+          "endTime": 33.987262
+        },
+        {
+          "id": 35,
+          "text": "lip",
+          "startTime": 33.987262,
+          "endTime": 34.583481
+        },
+        {
+          "id": 36,
+          "text": "glib",
+          "startTime": 34.583481,
+          "endTime": 36.376008
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "silts in his breaking.",
+      "startTime": 36.376008,
+      "endTime": 41.297257,
+      "words": [
+        {
+          "id": 37,
+          "text": "silts",
+          "startTime": 36.376008,
+          "endTime": 38.700687
+        },
+        {
+          "id": 38,
+          "text": "in",
+          "startTime": 38.700687,
+          "endTime": 39.03041
+        },
+        {
+          "id": 39,
+          "text": "his",
+          "startTime": 39.03041,
+          "endTime": 39.297257
+        },
+        {
+          "id": 40,
+          "text": "breaking.",
+          "startTime": 39.297257,
+          "endTime": 41.297257
+        }
+      ]
+    }
+  ]
+}

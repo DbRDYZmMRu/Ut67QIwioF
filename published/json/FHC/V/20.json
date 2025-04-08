@@ -1,0 +1,376 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "As to how I must",
+      "startTime": 3.744996,
+      "endTime": 6.266652,
+      "words": [
+        {
+          "id": 1,
+          "text": "As",
+          "startTime": 3.744996,
+          "endTime": 4.543974
+        },
+        {
+          "id": 2,
+          "text": "to",
+          "startTime": 4.543974,
+          "endTime": 4.743968
+        },
+        {
+          "id": 3,
+          "text": "how",
+          "startTime": 4.743968,
+          "endTime": 4.941563
+        },
+        {
+          "id": 4,
+          "text": "I",
+          "startTime": 4.941563,
+          "endTime": 5.074395
+        },
+        {
+          "id": 5,
+          "text": "must",
+          "startTime": 5.074395,
+          "endTime": 6.266652
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "to explain in carapace font",
+      "startTime": 6.266652,
+      "endTime": 10.589962,
+      "words": [
+        {
+          "id": 6,
+          "text": "to",
+          "startTime": 6.266652,
+          "endTime": 7.001531
+        },
+        {
+          "id": 7,
+          "text": "explain",
+          "startTime": 7.001531,
+          "endTime": 8.063915
+        },
+        {
+          "id": 8,
+          "text": "in",
+          "startTime": 8.063915,
+          "endTime": 8.592997
+        },
+        {
+          "id": 9,
+          "text": "carapace",
+          "startTime": 8.592997,
+          "endTime": 9.321558
+        },
+        {
+          "id": 10,
+          "text": "font",
+          "startTime": 9.321558,
+          "endTime": 10.589962
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "without your plain art-brush",
+      "startTime": 10.589962,
+      "endTime": 14.373383,
+      "words": [
+        {
+          "id": 11,
+          "text": "without",
+          "startTime": 10.589962,
+          "endTime": 11.779159
+        },
+        {
+          "id": 12,
+          "text": "your",
+          "startTime": 11.779159,
+          "endTime": 12.049021
+        },
+        {
+          "id": 13,
+          "text": "plain",
+          "startTime": 12.049021,
+          "endTime": 12.246148
+        },
+        {
+          "id": 14,
+          "text": "art-brush",
+          "startTime": 12.246148,
+          "endTime": 14.373383
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "I’ll blame direct tricks snugged",
+      "startTime": 14.373383,
+      "endTime": 17.890912,
+      "words": [
+        {
+          "id": 15,
+          "text": "I’ll",
+          "startTime": 14.373383,
+          "endTime": 15.433144
+        },
+        {
+          "id": 16,
+          "text": "blame",
+          "startTime": 15.433144,
+          "endTime": 15.829884
+        },
+        {
+          "id": 17,
+          "text": "direct",
+          "startTime": 15.829884,
+          "endTime": 16.227986
+        },
+        {
+          "id": 18,
+          "text": "tricks",
+          "startTime": 16.227986,
+          "endTime": 16.632287
+        },
+        {
+          "id": 19,
+          "text": "snugged",
+          "startTime": 16.632287,
+          "endTime": 17.890912
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "my perambulating with no focus",
+      "startTime": 17.890912,
+      "endTime": 22.808508,
+      "words": [
+        {
+          "id": 20,
+          "text": "my",
+          "startTime": 17.890912,
+          "endTime": 19.087885
+        },
+        {
+          "id": 21,
+          "text": "perambulating",
+          "startTime": 19.087885,
+          "endTime": 20.415772
+        },
+        {
+          "id": 22,
+          "text": "with",
+          "startTime": 20.415772,
+          "endTime": 20.544364
+        },
+        {
+          "id": 23,
+          "text": "no",
+          "startTime": 20.544364,
+          "endTime": 20.75208
+        },
+        {
+          "id": 24,
+          "text": "focus",
+          "startTime": 20.75208,
+          "endTime": 22.808508
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "but I found a shape; it’s of us",
+      "startTime": 22.808508,
+      "endTime": 27.52187,
+      "words": [
+        {
+          "id": 25,
+          "text": "but",
+          "startTime": 22.808508,
+          "endTime": 24.207196
+        },
+        {
+          "id": 26,
+          "text": "I",
+          "startTime": 24.207196,
+          "endTime": 24.338959
+        },
+        {
+          "id": 27,
+          "text": "found",
+          "startTime": 24.338959,
+          "endTime": 24.735321
+        },
+        {
+          "id": 28,
+          "text": "a",
+          "startTime": 24.735321,
+          "endTime": 24.871515
+        },
+        {
+          "id": 29,
+          "text": "shape;",
+          "startTime": 24.871515,
+          "endTime": 25.795228
+        },
+        {
+          "id": 30,
+          "text": "it’s",
+          "startTime": 25.795228,
+          "endTime": 26.59431
+        },
+        {
+          "id": 31,
+          "text": "of",
+          "startTime": 26.59431,
+          "endTime": 26.726597
+        },
+        {
+          "id": 32,
+          "text": "us",
+          "startTime": 26.726597,
+          "endTime": 27.52187
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "our long time fortune blob",
+      "startTime": 27.52187,
+      "endTime": 32.239693,
+      "words": [
+        {
+          "id": 33,
+          "text": "our",
+          "startTime": 27.52187,
+          "endTime": 29.317393
+        },
+        {
+          "id": 34,
+          "text": "long",
+          "startTime": 29.317393,
+          "endTime": 29.650542
+        },
+        {
+          "id": 35,
+          "text": "time",
+          "startTime": 29.650542,
+          "endTime": 30.110803
+        },
+        {
+          "id": 36,
+          "text": "fortune",
+          "startTime": 30.110803,
+          "endTime": 30.710894
+        },
+        {
+          "id": 37,
+          "text": "blob",
+          "startTime": 30.710894,
+          "endTime": 32.239693
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "this of math in poetry bosh",
+      "startTime": 32.239693,
+      "endTime": 37.684439,
+      "words": [
+        {
+          "id": 38,
+          "text": "this",
+          "startTime": 32.239693,
+          "endTime": 34.228994
+        },
+        {
+          "id": 39,
+          "text": "of",
+          "startTime": 34.228994,
+          "endTime": 34.95768
+        },
+        {
+          "id": 40,
+          "text": "math",
+          "startTime": 34.95768,
+          "endTime": 35.355595
+        },
+        {
+          "id": 41,
+          "text": "in",
+          "startTime": 35.355595,
+          "endTime": 35.559846
+        },
+        {
+          "id": 42,
+          "text": "poetry",
+          "startTime": 35.559846,
+          "endTime": 36.090981
+        },
+        {
+          "id": 43,
+          "text": "bosh",
+          "startTime": 36.090981,
+          "endTime": 37.684439
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "I hope you like it as much.",
+      "startTime": 37.684439,
+      "endTime": 41.744845,
+      "words": [
+        {
+          "id": 44,
+          "text": "I",
+          "startTime": 37.684439,
+          "endTime": 38.882183
+        },
+        {
+          "id": 45,
+          "text": "hope",
+          "startTime": 38.882183,
+          "endTime": 39.080404
+        },
+        {
+          "id": 46,
+          "text": "you",
+          "startTime": 39.080404,
+          "endTime": 39.214637
+        },
+        {
+          "id": 47,
+          "text": "like",
+          "startTime": 39.214637,
+          "endTime": 39.410086
+        },
+        {
+          "id": 48,
+          "text": "it",
+          "startTime": 39.410086,
+          "endTime": 39.612232
+        },
+        {
+          "id": 49,
+          "text": "as",
+          "startTime": 39.612232,
+          "endTime": 39.744845
+        },
+        {
+          "id": 50,
+          "text": "much.",
+          "startTime": 39.744845,
+          "endTime": 41.744845
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Always a thing to give",
+      "startTime": 4.153517,
+      "endTime": 7.672925,
+      "words": [
+        {
+          "id": 1,
+          "text": "Always",
+          "startTime": 4.153517,
+          "endTime": 5.606017
+        },
+        {
+          "id": 2,
+          "text": "a",
+          "startTime": 5.606017,
+          "endTime": 5.810591
+        },
+        {
+          "id": 3,
+          "text": "thing",
+          "startTime": 5.810591,
+          "endTime": 6.277422
+        },
+        {
+          "id": 4,
+          "text": "to",
+          "startTime": 6.277422,
+          "endTime": 6.40982
+        },
+        {
+          "id": 5,
+          "text": "give",
+          "startTime": 6.40982,
+          "endTime": 7.672925
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "…pruning",
+      "startTime": 7.672925,
+      "endTime": 10.263138,
+      "words": [
+        {
+          "id": 6,
+          "text": "…pruning",
+          "startTime": 7.672925,
+          "endTime": 10.263138
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "like tears of the grieving",
+      "startTime": 10.263138,
+      "endTime": 12.853322,
+      "words": [
+        {
+          "id": 7,
+          "text": "like",
+          "startTime": 10.263138,
+          "endTime": 10.594301
+        },
+        {
+          "id": 8,
+          "text": "tears",
+          "startTime": 10.594301,
+          "endTime": 11.055029
+        },
+        {
+          "id": 9,
+          "text": "of",
+          "startTime": 11.055029,
+          "endTime": 11.189454
+        },
+        {
+          "id": 10,
+          "text": "the",
+          "startTime": 11.189454,
+          "endTime": 11.255819
+        },
+        {
+          "id": 11,
+          "text": "grieving",
+          "startTime": 11.255819,
+          "endTime": 12.853322
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "and the day says evening",
+      "startTime": 12.853322,
+      "endTime": 16.83755,
+      "words": [
+        {
+          "id": 12,
+          "text": "and",
+          "startTime": 12.853322,
+          "endTime": 14.046237
+        },
+        {
+          "id": 13,
+          "text": "the",
+          "startTime": 14.046237,
+          "endTime": 14.243754
+        },
+        {
+          "id": 14,
+          "text": "day",
+          "startTime": 14.243754,
+          "endTime": 14.509777
+        },
+        {
+          "id": 15,
+          "text": "says",
+          "startTime": 14.509777,
+          "endTime": 14.907712
+        },
+        {
+          "id": 16,
+          "text": "evening",
+          "startTime": 14.907712,
+          "endTime": 16.83755
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "brunch not supper cleaving",
+      "startTime": 16.83755,
+      "endTime": 21.016325,
+      "words": [
+        {
+          "id": 17,
+          "text": "brunch",
+          "startTime": 16.83755,
+          "endTime": 17.964161
+        },
+        {
+          "id": 18,
+          "text": "not",
+          "startTime": 17.964161,
+          "endTime": 18.495124
+        },
+        {
+          "id": 19,
+          "text": "supper",
+          "startTime": 18.495124,
+          "endTime": 18.956625
+        },
+        {
+          "id": 20,
+          "text": "cleaving",
+          "startTime": 18.956625,
+          "endTime": 21.016325
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "here is a sprog crawling",
+      "startTime": 21.016325,
+      "endTime": 24.13803,
+      "words": [
+        {
+          "id": 21,
+          "text": "here",
+          "startTime": 21.016325,
+          "endTime": 21.616212
+        },
+        {
+          "id": 22,
+          "text": "is",
+          "startTime": 21.616212,
+          "endTime": 21.746551
+        },
+        {
+          "id": 23,
+          "text": "a",
+          "startTime": 21.746551,
+          "endTime": 22.011972
+        },
+        {
+          "id": 24,
+          "text": "sprog",
+          "startTime": 22.011972,
+          "endTime": 22.543616
+        },
+        {
+          "id": 25,
+          "text": "crawling",
+          "startTime": 22.543616,
+          "endTime": 24.13803
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "his mum is crisp and unfriendly",
+      "startTime": 24.13803,
+      "endTime": 28.259061,
+      "words": [
+        {
+          "id": 26,
+          "text": "his",
+          "startTime": 24.13803,
+          "endTime": 24.800933
+        },
+        {
+          "id": 27,
+          "text": "mum",
+          "startTime": 24.800933,
+          "endTime": 25.134934
+        },
+        {
+          "id": 28,
+          "text": "is",
+          "startTime": 25.134934,
+          "endTime": 25.798963
+        },
+        {
+          "id": 29,
+          "text": "crisp",
+          "startTime": 25.798963,
+          "endTime": 26.460499
+        },
+        {
+          "id": 30,
+          "text": "and",
+          "startTime": 26.460499,
+          "endTime": 26.592687
+        },
+        {
+          "id": 31,
+          "text": "unfriendly",
+          "startTime": 26.592687,
+          "endTime": 28.259061
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "some more heights if here gleaning.",
+      "startTime": 28.259061,
+      "endTime": 33.310302,
+      "words": [
+        {
+          "id": 32,
+          "text": "some",
+          "startTime": 28.259061,
+          "endTime": 29.11947
+        },
+        {
+          "id": 33,
+          "text": "more",
+          "startTime": 29.11947,
+          "endTime": 29.38316
+        },
+        {
+          "id": 34,
+          "text": "heights",
+          "startTime": 29.38316,
+          "endTime": 30.444149
+        },
+        {
+          "id": 35,
+          "text": "if",
+          "startTime": 30.444149,
+          "endTime": 30.577919
+        },
+        {
+          "id": 36,
+          "text": "here",
+          "startTime": 30.577919,
+          "endTime": 31.310302
+        },
+        {
+          "id": 37,
+          "text": "gleaning.",
+          "startTime": 31.310302,
+          "endTime": 33.310302
+        }
+      ]
+    }
+  ]
+}

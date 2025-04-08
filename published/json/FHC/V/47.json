@@ -1,0 +1,138 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I've no ed",
+      "startTime": 4.26228,
+      "endTime": 5.993885,
+      "words": [
+        {
+          "id": 1,
+          "text": "I've",
+          "startTime": 4.26228,
+          "endTime": 4.995704
+        },
+        {
+          "id": 2,
+          "text": "no",
+          "startTime": 4.995704,
+          "endTime": 5.327666
+        },
+        {
+          "id": 3,
+          "text": "ed",
+          "startTime": 5.327666,
+          "endTime": 5.993885
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "it’s no use here",
+      "startTime": 5.993885,
+      "endTime": 8.983252,
+      "words": [
+        {
+          "id": 4,
+          "text": "it’s",
+          "startTime": 5.993885,
+          "endTime": 7.325398
+        },
+        {
+          "id": 5,
+          "text": "no",
+          "startTime": 7.325398,
+          "endTime": 7.655203
+        },
+        {
+          "id": 6,
+          "text": "use",
+          "startTime": 7.655203,
+          "endTime": 7.989061
+        },
+        {
+          "id": 7,
+          "text": "here",
+          "startTime": 7.989061,
+          "endTime": 8.983252
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "on your butt he said",
+      "startTime": 8.983252,
+      "endTime": 11.504837,
+      "words": [
+        {
+          "id": 8,
+          "text": "on",
+          "startTime": 8.983252,
+          "endTime": 9.911498
+        },
+        {
+          "id": 9,
+          "text": "your",
+          "startTime": 9.911498,
+          "endTime": 10.179694
+        },
+        {
+          "id": 10,
+          "text": "butt",
+          "startTime": 10.179694,
+          "endTime": 10.513679
+        },
+        {
+          "id": 11,
+          "text": "he",
+          "startTime": 10.513679,
+          "endTime": 10.645741
+        },
+        {
+          "id": 12,
+          "text": "said",
+          "startTime": 10.645741,
+          "endTime": 11.504837
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "and my attention was birth.",
+      "startTime": 11.504837,
+      "endTime": 15.50087,
+      "words": [
+        {
+          "id": 13,
+          "text": "and",
+          "startTime": 11.504837,
+          "endTime": 12.369011
+        },
+        {
+          "id": 14,
+          "text": "my",
+          "startTime": 12.369011,
+          "endTime": 12.63544
+        },
+        {
+          "id": 15,
+          "text": "attention",
+          "startTime": 12.63544,
+          "endTime": 13.168838
+        },
+        {
+          "id": 16,
+          "text": "was",
+          "startTime": 13.168838,
+          "endTime": 13.50087
+        },
+        {
+          "id": 17,
+          "text": "birth.",
+          "startTime": 13.50087,
+          "endTime": 15.50087
+        }
+      ]
+    }
+  ]
+}

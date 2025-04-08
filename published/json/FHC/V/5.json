@@ -1,0 +1,526 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "It is when I’m grinding",
+      "startTime": 3.291012,
+      "endTime": 7.478603,
+      "words": [
+        {
+          "id": 1,
+          "text": "It",
+          "startTime": 3.291012,
+          "endTime": 5.812556
+        },
+        {
+          "id": 2,
+          "text": "is",
+          "startTime": 5.812556,
+          "endTime": 5.946394
+        },
+        {
+          "id": 3,
+          "text": "when",
+          "startTime": 5.946394,
+          "endTime": 6.146059
+        },
+        {
+          "id": 4,
+          "text": "I’m",
+          "startTime": 6.146059,
+          "endTime": 6.344307
+        },
+        {
+          "id": 5,
+          "text": "grinding",
+          "startTime": 6.344307,
+          "endTime": 7.478603
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "frankly, wherever I’m biting",
+      "startTime": 7.478603,
+      "endTime": 12.453603,
+      "words": [
+        {
+          "id": 6,
+          "text": "frankly,",
+          "startTime": 7.478603,
+          "endTime": 8.936055
+        },
+        {
+          "id": 7,
+          "text": "wherever",
+          "startTime": 8.936055,
+          "endTime": 10.666348
+        },
+        {
+          "id": 8,
+          "text": "I’m",
+          "startTime": 10.666348,
+          "endTime": 10.865748
+        },
+        {
+          "id": 9,
+          "text": "biting",
+          "startTime": 10.865748,
+          "endTime": 12.453603
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "how do you see it on me?",
+      "startTime": 12.453603,
+      "endTime": 15.576704,
+      "words": [
+        {
+          "id": 10,
+          "text": "how",
+          "startTime": 12.453603,
+          "endTime": 14.118103
+        },
+        {
+          "id": 11,
+          "text": "do",
+          "startTime": 14.118103,
+          "endTime": 14.243854
+        },
+        {
+          "id": 12,
+          "text": "you",
+          "startTime": 14.243854,
+          "endTime": 14.384391
+        },
+        {
+          "id": 13,
+          "text": "see",
+          "startTime": 14.384391,
+          "endTime": 14.576013
+        },
+        {
+          "id": 14,
+          "text": "it",
+          "startTime": 14.576013,
+          "endTime": 14.71378
+        },
+        {
+          "id": 15,
+          "text": "on",
+          "startTime": 14.71378,
+          "endTime": 14.846661
+        },
+        {
+          "id": 16,
+          "text": "me?",
+          "startTime": 14.846661,
+          "endTime": 15.576704
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "it’s what page that amazes",
+      "startTime": 15.576704,
+      "endTime": 20.630655,
+      "words": [
+        {
+          "id": 17,
+          "text": "it’s",
+          "startTime": 15.576704,
+          "endTime": 17.770899
+        },
+        {
+          "id": 18,
+          "text": "what",
+          "startTime": 17.770899,
+          "endTime": 17.972775
+        },
+        {
+          "id": 19,
+          "text": "page",
+          "startTime": 17.972775,
+          "endTime": 19.300214
+        },
+        {
+          "id": 20,
+          "text": "that",
+          "startTime": 19.300214,
+          "endTime": 19.498834
+        },
+        {
+          "id": 21,
+          "text": "amazes",
+          "startTime": 19.498834,
+          "endTime": 20.630655
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "avoiding what has been instilled",
+      "startTime": 20.630655,
+      "endTime": 25.013006,
+      "words": [
+        {
+          "id": 22,
+          "text": "avoiding",
+          "startTime": 20.630655,
+          "endTime": 22.822449
+        },
+        {
+          "id": 23,
+          "text": "what",
+          "startTime": 22.822449,
+          "endTime": 23.089429
+        },
+        {
+          "id": 24,
+          "text": "has",
+          "startTime": 23.089429,
+          "endTime": 23.221064
+        },
+        {
+          "id": 25,
+          "text": "been",
+          "startTime": 23.221064,
+          "endTime": 23.420731
+        },
+        {
+          "id": 26,
+          "text": "instilled",
+          "startTime": 23.420731,
+          "endTime": 25.013006
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "dictations with no score, but seen",
+      "startTime": 25.013006,
+      "endTime": 30.261764,
+      "words": [
+        {
+          "id": 27,
+          "text": "dictations",
+          "startTime": 25.013006,
+          "endTime": 27.202918
+        },
+        {
+          "id": 28,
+          "text": "with",
+          "startTime": 27.202918,
+          "endTime": 27.536541
+        },
+        {
+          "id": 29,
+          "text": "no",
+          "startTime": 27.536541,
+          "endTime": 27.867782
+        },
+        {
+          "id": 30,
+          "text": "score,",
+          "startTime": 27.867782,
+          "endTime": 28.733618
+        },
+        {
+          "id": 31,
+          "text": "but",
+          "startTime": 28.733618,
+          "endTime": 28.932224
+        },
+        {
+          "id": 32,
+          "text": "seen",
+          "startTime": 28.932224,
+          "endTime": 30.261764
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "it’s just me, just me, it’s me you see",
+      "startTime": 30.261764,
+      "endTime": 36.437913,
+      "words": [
+        {
+          "id": 33,
+          "text": "it’s",
+          "startTime": 30.261764,
+          "endTime": 31.52052
+        },
+        {
+          "id": 34,
+          "text": "just",
+          "startTime": 31.52052,
+          "endTime": 31.72399
+        },
+        {
+          "id": 35,
+          "text": "me,",
+          "startTime": 31.72399,
+          "endTime": 32.583143
+        },
+        {
+          "id": 36,
+          "text": "just",
+          "startTime": 32.583143,
+          "endTime": 33.447836
+        },
+        {
+          "id": 37,
+          "text": "me,",
+          "startTime": 33.447836,
+          "endTime": 34.576288
+        },
+        {
+          "id": 38,
+          "text": "it’s",
+          "startTime": 34.576288,
+          "endTime": 34.907535
+        },
+        {
+          "id": 39,
+          "text": "me",
+          "startTime": 34.907535,
+          "endTime": 35.174167
+        },
+        {
+          "id": 40,
+          "text": "you",
+          "startTime": 35.174167,
+          "endTime": 35.307759
+        },
+        {
+          "id": 41,
+          "text": "see",
+          "startTime": 35.307759,
+          "endTime": 36.437913
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "in the spotlight, we’re on the scene",
+      "startTime": 36.437913,
+      "endTime": 41.878233,
+      "words": [
+        {
+          "id": 42,
+          "text": "in",
+          "startTime": 36.437913,
+          "endTime": 37.763902
+        },
+        {
+          "id": 43,
+          "text": "the",
+          "startTime": 37.763902,
+          "endTime": 37.897052
+        },
+        {
+          "id": 44,
+          "text": "spotlight,",
+          "startTime": 37.897052,
+          "endTime": 39.892251
+        },
+        {
+          "id": 45,
+          "text": "we’re",
+          "startTime": 39.892251,
+          "endTime": 40.023155
+        },
+        {
+          "id": 46,
+          "text": "on",
+          "startTime": 40.023155,
+          "endTime": 40.222349
+        },
+        {
+          "id": 47,
+          "text": "the",
+          "startTime": 40.222349,
+          "endTime": 40.356905
+        },
+        {
+          "id": 48,
+          "text": "scene",
+          "startTime": 40.356905,
+          "endTime": 41.878233
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "when you’re beyond, and you know me",
+      "startTime": 41.878233,
+      "endTime": 47.59515,
+      "words": [
+        {
+          "id": 49,
+          "text": "when",
+          "startTime": 41.878233,
+          "endTime": 44.476547
+        },
+        {
+          "id": 50,
+          "text": "you’re",
+          "startTime": 44.476547,
+          "endTime": 44.672191
+        },
+        {
+          "id": 51,
+          "text": "beyond,",
+          "startTime": 44.672191,
+          "endTime": 45.869309
+        },
+        {
+          "id": 52,
+          "text": "and",
+          "startTime": 45.869309,
+          "endTime": 46.006231
+        },
+        {
+          "id": 53,
+          "text": "you",
+          "startTime": 46.006231,
+          "endTime": 46.198243
+        },
+        {
+          "id": 54,
+          "text": "know",
+          "startTime": 46.198243,
+          "endTime": 46.470022
+        },
+        {
+          "id": 55,
+          "text": "me",
+          "startTime": 46.470022,
+          "endTime": 47.59515
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "all shows with a fee",
+      "startTime": 47.59515,
+      "endTime": 52.045281,
+      "words": [
+        {
+          "id": 56,
+          "text": "all",
+          "startTime": 47.59515,
+          "endTime": 50.122818
+        },
+        {
+          "id": 57,
+          "text": "shows",
+          "startTime": 50.122818,
+          "endTime": 50.65124
+        },
+        {
+          "id": 58,
+          "text": "with",
+          "startTime": 50.65124,
+          "endTime": 50.853581
+        },
+        {
+          "id": 59,
+          "text": "a",
+          "startTime": 50.853581,
+          "endTime": 50.983931
+        },
+        {
+          "id": 60,
+          "text": "fee",
+          "startTime": 50.983931,
+          "endTime": 52.045281
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "in the meantime, when you teach",
+      "startTime": 52.045281,
+      "endTime": 57.420512,
+      "words": [
+        {
+          "id": 61,
+          "text": "in",
+          "startTime": 52.045281,
+          "endTime": 53.770971
+        },
+        {
+          "id": 62,
+          "text": "the",
+          "startTime": 53.770971,
+          "endTime": 53.906416
+        },
+        {
+          "id": 63,
+          "text": "meantime,",
+          "startTime": 53.906416,
+          "endTime": 55.16812
+        },
+        {
+          "id": 64,
+          "text": "when",
+          "startTime": 55.16812,
+          "endTime": 55.697892
+        },
+        {
+          "id": 65,
+          "text": "you",
+          "startTime": 55.697892,
+          "endTime": 55.898018
+        },
+        {
+          "id": 66,
+          "text": "teach",
+          "startTime": 55.898018,
+          "endTime": 57.420512
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "it’s everywhere you are baby.",
+      "startTime": 57.420512,
+      "endTime": 61.421263,
+      "words": [
+        {
+          "id": 67,
+          "text": "it’s",
+          "startTime": 57.420512,
+          "endTime": 58.493573
+        },
+        {
+          "id": 68,
+          "text": "everywhere",
+          "startTime": 58.493573,
+          "endTime": 59.02179
+        },
+        {
+          "id": 69,
+          "text": "you",
+          "startTime": 59.02179,
+          "endTime": 59.218425
+        },
+        {
+          "id": 70,
+          "text": "are",
+          "startTime": 59.218425,
+          "endTime": 59.421263
+        },
+        {
+          "id": 71,
+          "text": "baby.",
+          "startTime": 59.421263,
+          "endTime": 61.421263
+        }
+      ]
+    }
+  ]
+}

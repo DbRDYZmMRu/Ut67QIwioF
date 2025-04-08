@@ -1,0 +1,404 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Cars on cars",
+      "startTime": 6.055703,
+      "endTime": 8.047263,
+      "words": [
+        {
+          "id": 1,
+          "text": "Cars",
+          "startTime": 6.055703,
+          "endTime": 6.450672
+        },
+        {
+          "id": 2,
+          "text": "on",
+          "startTime": 6.450672,
+          "endTime": 6.719162
+        },
+        {
+          "id": 3,
+          "text": "cars",
+          "startTime": 6.719162,
+          "endTime": 8.047263
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "flanked in drags",
+      "startTime": 8.047263,
+      "endTime": 10.899868,
+      "words": [
+        {
+          "id": 4,
+          "text": "flanked",
+          "startTime": 8.047263,
+          "endTime": 8.844153
+        },
+        {
+          "id": 5,
+          "text": "in",
+          "startTime": 8.844153,
+          "endTime": 9.309993
+        },
+        {
+          "id": 6,
+          "text": "drags",
+          "startTime": 9.309993,
+          "endTime": 10.899868
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "schnapps on schnapps",
+      "startTime": 10.899868,
+      "endTime": 13.160307,
+      "words": [
+        {
+          "id": 7,
+          "text": "schnapps",
+          "startTime": 10.899868,
+          "endTime": 11.83427
+        },
+        {
+          "id": 8,
+          "text": "on",
+          "startTime": 11.83427,
+          "endTime": 12.032457
+        },
+        {
+          "id": 9,
+          "text": "schnapps",
+          "startTime": 12.032457,
+          "endTime": 13.160307
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "sham in charm",
+      "startTime": 13.160307,
+      "endTime": 15.881609,
+      "words": [
+        {
+          "id": 10,
+          "text": "sham",
+          "startTime": 13.160307,
+          "endTime": 14.288454
+        },
+        {
+          "id": 11,
+          "text": "in",
+          "startTime": 14.288454,
+          "endTime": 14.818651
+        },
+        {
+          "id": 12,
+          "text": "charm",
+          "startTime": 14.818651,
+          "endTime": 15.881609
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "past in the span",
+      "startTime": 15.881609,
+      "endTime": 18.7406,
+      "words": [
+        {
+          "id": 13,
+          "text": "past",
+          "startTime": 15.881609,
+          "endTime": 17.274447
+        },
+        {
+          "id": 14,
+          "text": "in",
+          "startTime": 17.274447,
+          "endTime": 17.410321
+        },
+        {
+          "id": 15,
+          "text": "the",
+          "startTime": 17.410321,
+          "endTime": 17.805578
+        },
+        {
+          "id": 16,
+          "text": "span",
+          "startTime": 17.805578,
+          "endTime": 18.7406
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "shards past sparks",
+      "startTime": 18.7406,
+      "endTime": 21.523409,
+      "words": [
+        {
+          "id": 17,
+          "text": "shards",
+          "startTime": 18.7406,
+          "endTime": 19.869731
+        },
+        {
+          "id": 18,
+          "text": "past",
+          "startTime": 19.869731,
+          "endTime": 20.398785
+        },
+        {
+          "id": 19,
+          "text": "sparks",
+          "startTime": 20.398785,
+          "endTime": 21.523409
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "traverse back; gad",
+      "startTime": 21.523409,
+      "endTime": 25.647301,
+      "words": [
+        {
+          "id": 20,
+          "text": "traverse",
+          "startTime": 21.523409,
+          "endTime": 23.056797
+        },
+        {
+          "id": 21,
+          "text": "back;",
+          "startTime": 23.056797,
+          "endTime": 24.249576
+        },
+        {
+          "id": 22,
+          "text": "gad",
+          "startTime": 24.249576,
+          "endTime": 25.647301
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "darker had; stark",
+      "startTime": 25.647301,
+      "endTime": 28.831276,
+      "words": [
+        {
+          "id": 23,
+          "text": "darker",
+          "startTime": 25.647301,
+          "endTime": 26.707694
+        },
+        {
+          "id": 24,
+          "text": "had;",
+          "startTime": 26.707694,
+          "endTime": 27.702582
+        },
+        {
+          "id": 25,
+          "text": "stark",
+          "startTime": 27.702582,
+          "endTime": 28.831276
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "like cart hearts, knack",
+      "startTime": 28.831276,
+      "endTime": 33.019299,
+      "words": [
+        {
+          "id": 26,
+          "text": "like",
+          "startTime": 28.831276,
+          "endTime": 30.096892
+        },
+        {
+          "id": 27,
+          "text": "cart",
+          "startTime": 30.096892,
+          "endTime": 30.691408
+        },
+        {
+          "id": 28,
+          "text": "hearts,",
+          "startTime": 30.691408,
+          "endTime": 31.62196
+        },
+        {
+          "id": 29,
+          "text": "knack",
+          "startTime": 31.62196,
+          "endTime": 33.019299
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "darts that appear",
+      "startTime": 33.019299,
+      "endTime": 35.604726,
+      "words": [
+        {
+          "id": 30,
+          "text": "darts",
+          "startTime": 33.019299,
+          "endTime": 34.148802
+        },
+        {
+          "id": 31,
+          "text": "that",
+          "startTime": 34.148802,
+          "endTime": 34.677788
+        },
+        {
+          "id": 32,
+          "text": "appear",
+          "startTime": 34.677788,
+          "endTime": 35.604726
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "trad in starve",
+      "startTime": 35.604726,
+      "endTime": 37.800607,
+      "words": [
+        {
+          "id": 33,
+          "text": "trad",
+          "startTime": 35.604726,
+          "endTime": 36.203269
+        },
+        {
+          "id": 34,
+          "text": "in",
+          "startTime": 36.203269,
+          "endTime": 36.400868
+        },
+        {
+          "id": 35,
+          "text": "starve",
+          "startTime": 36.400868,
+          "endTime": 37.800607
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "man, the brag",
+      "startTime": 37.800607,
+      "endTime": 40.593437,
+      "words": [
+        {
+          "id": 36,
+          "text": "man,",
+          "startTime": 37.800607,
+          "endTime": 39.128706
+        },
+        {
+          "id": 37,
+          "text": "the",
+          "startTime": 39.128706,
+          "endTime": 39.725711
+        },
+        {
+          "id": 38,
+          "text": "brag",
+          "startTime": 39.725711,
+          "endTime": 40.593437
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "paragraph": "of raft on a path",
+      "startTime": 40.593437,
+      "endTime": 43.112968,
+      "words": [
+        {
+          "id": 39,
+          "text": "of",
+          "startTime": 40.593437,
+          "endTime": 41.719798
+        },
+        {
+          "id": 40,
+          "text": "raft",
+          "startTime": 41.719798,
+          "endTime": 42.051798
+        },
+        {
+          "id": 41,
+          "text": "on",
+          "startTime": 42.051798,
+          "endTime": 42.250358
+        },
+        {
+          "id": 42,
+          "text": "a",
+          "startTime": 42.250358,
+          "endTime": 42.450393
+        },
+        {
+          "id": 43,
+          "text": "path",
+          "startTime": 42.450393,
+          "endTime": 43.112968
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "paragraph": "in a canal of desire.",
+      "startTime": 43.112968,
+      "endTime": 47.571055,
+      "words": [
+        {
+          "id": 44,
+          "text": "in",
+          "startTime": 43.112968,
+          "endTime": 43.842736
+        },
+        {
+          "id": 45,
+          "text": "a",
+          "startTime": 43.842736,
+          "endTime": 44.042354
+        },
+        {
+          "id": 46,
+          "text": "canal",
+          "startTime": 44.042354,
+          "endTime": 45.304225
+        },
+        {
+          "id": 47,
+          "text": "of",
+          "startTime": 45.304225,
+          "endTime": 45.571055
+        },
+        {
+          "id": 48,
+          "text": "desire.",
+          "startTime": 45.571055,
+          "endTime": 47.571055
+        }
+      ]
+    }
+  ]
+}

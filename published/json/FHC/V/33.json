@@ -1,0 +1,188 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Scion amity",
+      "startTime": 6.893166,
+      "endTime": 9.012651,
+      "words": [
+        {
+          "id": 1,
+          "text": "Scion",
+          "startTime": 6.893166,
+          "endTime": 7.687898
+        },
+        {
+          "id": 2,
+          "text": "amity",
+          "startTime": 7.687898,
+          "endTime": 9.012651
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "ply on cavity",
+      "startTime": 9.012651,
+      "endTime": 11.273574,
+      "words": [
+        {
+          "id": 3,
+          "text": "ply",
+          "startTime": 9.012651,
+          "endTime": 9.880336
+        },
+        {
+          "id": 4,
+          "text": "on",
+          "startTime": 9.880336,
+          "endTime": 10.145722
+        },
+        {
+          "id": 5,
+          "text": "cavity",
+          "startTime": 10.145722,
+          "endTime": 11.273574
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "marathon waiting",
+      "startTime": 11.273574,
+      "endTime": 15.256703,
+      "words": [
+        {
+          "id": 6,
+          "text": "marathon",
+          "startTime": 11.273574,
+          "endTime": 13.270295
+        },
+        {
+          "id": 7,
+          "text": "waiting",
+          "startTime": 13.270295,
+          "endTime": 15.256703
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "carbon dating",
+      "startTime": 15.256703,
+      "endTime": 17.451107,
+      "words": [
+        {
+          "id": 8,
+          "text": "carbon",
+          "startTime": 15.256703,
+          "endTime": 16.058229
+        },
+        {
+          "id": 9,
+          "text": "dating",
+          "startTime": 16.058229,
+          "endTime": 17.451107
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "jargon debating",
+      "startTime": 17.451107,
+      "endTime": 20.769772,
+      "words": [
+        {
+          "id": 10,
+          "text": "jargon",
+          "startTime": 17.451107,
+          "endTime": 18.84428
+        },
+        {
+          "id": 11,
+          "text": "debating",
+          "startTime": 18.84428,
+          "endTime": 20.769772
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "humdrum dictating",
+      "startTime": 20.769772,
+      "endTime": 23.289397,
+      "words": [
+        {
+          "id": 12,
+          "text": "humdrum",
+          "startTime": 20.769772,
+          "endTime": 21.833556
+        },
+        {
+          "id": 13,
+          "text": "dictating",
+          "startTime": 21.833556,
+          "endTime": 23.289397
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "prop, he isn't…",
+      "startTime": 23.289397,
+      "endTime": 27.140959,
+      "words": [
+        {
+          "id": 14,
+          "text": "prop,",
+          "startTime": 23.289397,
+          "endTime": 25.349579
+        },
+        {
+          "id": 15,
+          "text": "he",
+          "startTime": 25.349579,
+          "endTime": 26.282408
+        },
+        {
+          "id": 16,
+          "text": "isn't…",
+          "startTime": 26.282408,
+          "endTime": 27.140959
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "you perturb, I’m busy.",
+      "startTime": 27.140959,
+      "endTime": 32.333690000000004,
+      "words": [
+        {
+          "id": 17,
+          "text": "you",
+          "startTime": 27.140959,
+          "endTime": 28.474648
+        },
+        {
+          "id": 18,
+          "text": "perturb,",
+          "startTime": 28.474648,
+          "endTime": 29.470635
+        },
+        {
+          "id": 19,
+          "text": "I’m",
+          "startTime": 29.470635,
+          "endTime": 30.33369
+        },
+        {
+          "id": 20,
+          "text": "busy.",
+          "startTime": 30.33369,
+          "endTime": 32.333690000000004
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Psst",
+      "startTime": 5.733146,
+      "endTime": 7.587213,
+      "words": [
+        {
+          "id": 1,
+          "text": "Psst",
+          "startTime": 5.733146,
+          "endTime": 7.587213
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "be this",
+      "startTime": 7.587213,
+      "endTime": 9.781473,
+      "words": [
+        {
+          "id": 2,
+          "text": "be",
+          "startTime": 7.587213,
+          "endTime": 8.789206
+        },
+        {
+          "id": 3,
+          "text": "this",
+          "startTime": 8.789206,
+          "endTime": 9.781473
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "yeast",
+      "startTime": 9.781473,
+      "endTime": 10.715579,
+      "words": [
+        {
+          "id": 4,
+          "text": "yeast",
+          "startTime": 9.781473,
+          "endTime": 10.715579
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "it’d be",
+      "startTime": 10.715579,
+      "endTime": 12.770959,
+      "words": [
+        {
+          "id": 5,
+          "text": "it’d",
+          "startTime": 10.715579,
+          "endTime": 12.506029
+        },
+        {
+          "id": 6,
+          "text": "be",
+          "startTime": 12.506029,
+          "endTime": 12.770959
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "mist",
+      "startTime": 12.770959,
+      "endTime": 13.76846,
+      "words": [
+        {
+          "id": 7,
+          "text": "mist",
+          "startTime": 12.770959,
+          "endTime": 13.76846
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "you’d be magic.",
+      "startTime": 13.76846,
+      "endTime": 17.360317000000002,
+      "words": [
+        {
+          "id": 8,
+          "text": "you’d",
+          "startTime": 13.76846,
+          "endTime": 15.164897
+        },
+        {
+          "id": 9,
+          "text": "be",
+          "startTime": 15.164897,
+          "endTime": 15.360317
+        },
+        {
+          "id": 10,
+          "text": "magic.",
+          "startTime": 15.360317,
+          "endTime": 17.360317000000002
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Abbreviating jars",
+      "startTime": 5.443028,
+      "endTime": 8.897156,
+      "words": [
+        {
+          "id": 1,
+          "text": "Abbreviating",
+          "startTime": 5.443028,
+          "endTime": 7.702894
+        },
+        {
+          "id": 2,
+          "text": "jars",
+          "startTime": 7.702894,
+          "endTime": 8.897156
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "head the parlay in a snap",
+      "startTime": 8.897156,
+      "endTime": 12.087425,
+      "words": [
+        {
+          "id": 3,
+          "text": "head",
+          "startTime": 8.897156,
+          "endTime": 9.559833
+        },
+        {
+          "id": 4,
+          "text": "the",
+          "startTime": 9.559833,
+          "endTime": 10.093942
+        },
+        {
+          "id": 5,
+          "text": "parlay",
+          "startTime": 10.093942,
+          "endTime": 10.823957
+        },
+        {
+          "id": 6,
+          "text": "in",
+          "startTime": 10.823957,
+          "endTime": 11.1589
+        },
+        {
+          "id": 7,
+          "text": "a",
+          "startTime": 11.1589,
+          "endTime": 11.425287
+        },
+        {
+          "id": 8,
+          "text": "snap",
+          "startTime": 11.425287,
+          "endTime": 12.087425
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "weaving frantic saps",
+      "startTime": 12.087425,
+      "endTime": 15.472318,
+      "words": [
+        {
+          "id": 9,
+          "text": "weaving",
+          "startTime": 12.087425,
+          "endTime": 13.613765
+        },
+        {
+          "id": 10,
+          "text": "frantic",
+          "startTime": 13.613765,
+          "endTime": 14.276872
+        },
+        {
+          "id": 11,
+          "text": "saps",
+          "startTime": 14.276872,
+          "endTime": 15.472318
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "sarky in their raps",
+      "startTime": 15.472318,
+      "endTime": 18.463164,
+      "words": [
+        {
+          "id": 12,
+          "text": "sarky",
+          "startTime": 15.472318,
+          "endTime": 16.536553
+        },
+        {
+          "id": 13,
+          "text": "in",
+          "startTime": 16.536553,
+          "endTime": 16.933845
+        },
+        {
+          "id": 14,
+          "text": "their",
+          "startTime": 16.933845,
+          "endTime": 17.200208
+        },
+        {
+          "id": 15,
+          "text": "raps",
+          "startTime": 17.200208,
+          "endTime": 18.463164
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "sine qua non sceptre.",
+      "startTime": 18.463164,
+      "endTime": 22.785259,
+      "words": [
+        {
+          "id": 16,
+          "text": "sine",
+          "startTime": 18.463164,
+          "endTime": 19.922242
+        },
+        {
+          "id": 17,
+          "text": "qua",
+          "startTime": 19.922242,
+          "endTime": 20.255983
+        },
+        {
+          "id": 18,
+          "text": "non",
+          "startTime": 20.255983,
+          "endTime": 20.785259
+        },
+        {
+          "id": 19,
+          "text": "sceptre.",
+          "startTime": 20.785259,
+          "endTime": 22.785259
+        }
+      ]
+    }
+  ]
+}

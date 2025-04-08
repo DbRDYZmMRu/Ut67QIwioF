@@ -1,0 +1,130 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Drastic measures",
+      "startTime": 4.023433,
+      "endTime": 6.482855,
+      "words": [
+        {
+          "id": 1,
+          "text": "Drastic",
+          "startTime": 4.023433,
+          "endTime": 5.485623
+        },
+        {
+          "id": 2,
+          "text": "measures",
+          "startTime": 5.485623,
+          "endTime": 6.482855
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "habit pressures",
+      "startTime": 6.482855,
+      "endTime": 9.264736,
+      "words": [
+        {
+          "id": 3,
+          "text": "habit",
+          "startTime": 6.482855,
+          "endTime": 8.139922
+        },
+        {
+          "id": 4,
+          "text": "pressures",
+          "startTime": 8.139922,
+          "endTime": 9.264736
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "khaki inspections",
+      "startTime": 9.264736,
+      "endTime": 12.793248,
+      "words": [
+        {
+          "id": 5,
+          "text": "khaki",
+          "startTime": 9.264736,
+          "endTime": 11.13007
+        },
+        {
+          "id": 6,
+          "text": "inspections",
+          "startTime": 11.13007,
+          "endTime": 12.793248
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "charges inflations",
+      "startTime": 12.793248,
+      "endTime": 16.178763,
+      "words": [
+        {
+          "id": 7,
+          "text": "charges",
+          "startTime": 12.793248,
+          "endTime": 14.384392
+        },
+        {
+          "id": 8,
+          "text": "inflations",
+          "startTime": 14.384392,
+          "endTime": 16.178763
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "classic divisions",
+      "startTime": 16.178763,
+      "endTime": 19.098656,
+      "words": [
+        {
+          "id": 9,
+          "text": "classic",
+          "startTime": 16.178763,
+          "endTime": 17.50303
+        },
+        {
+          "id": 10,
+          "text": "divisions",
+          "startTime": 17.50303,
+          "endTime": 19.098656
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "smash hit convictions.",
+      "startTime": 19.098656,
+      "endTime": 22.827896,
+      "words": [
+        {
+          "id": 11,
+          "text": "smash",
+          "startTime": 19.098656,
+          "endTime": 20.50118
+        },
+        {
+          "id": 12,
+          "text": "hit",
+          "startTime": 20.50118,
+          "endTime": 20.827896
+        },
+        {
+          "id": 13,
+          "text": "convictions.",
+          "startTime": 20.827896,
+          "endTime": 22.827896
+        }
+      ]
+    }
+  ]
+}

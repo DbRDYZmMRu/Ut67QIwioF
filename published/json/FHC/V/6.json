@@ -1,0 +1,360 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "…of the other sage",
+      "startTime": 4.029544,
+      "endTime": 6.556992,
+      "words": [
+        {
+          "id": 1,
+          "text": "…of",
+          "startTime": 4.029544,
+          "endTime": 5.098775
+        },
+        {
+          "id": 2,
+          "text": "the",
+          "startTime": 5.098775,
+          "endTime": 5.296462
+        },
+        {
+          "id": 3,
+          "text": "other",
+          "startTime": 5.296462,
+          "endTime": 5.563884
+        },
+        {
+          "id": 4,
+          "text": "sage",
+          "startTime": 5.563884,
+          "endTime": 6.556992
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "wiggle your legs and say",
+      "startTime": 6.556992,
+      "endTime": 9.416321,
+      "words": [
+        {
+          "id": 5,
+          "text": "wiggle",
+          "startTime": 6.556992,
+          "endTime": 7.949987
+        },
+        {
+          "id": 6,
+          "text": "your",
+          "startTime": 7.949987,
+          "endTime": 8.153636
+        },
+        {
+          "id": 7,
+          "text": "legs",
+          "startTime": 8.153636,
+          "endTime": 8.42085
+        },
+        {
+          "id": 8,
+          "text": "and",
+          "startTime": 8.42085,
+          "endTime": 8.685836
+        },
+        {
+          "id": 9,
+          "text": "say",
+          "startTime": 8.685836,
+          "endTime": 9.416321
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "mummy, I am afraid",
+      "startTime": 9.416321,
+      "endTime": 12.402408,
+      "words": [
+        {
+          "id": 10,
+          "text": "mummy,",
+          "startTime": 9.416321,
+          "endTime": 11.072103
+        },
+        {
+          "id": 11,
+          "text": "I",
+          "startTime": 11.072103,
+          "endTime": 11.210536
+        },
+        {
+          "id": 12,
+          "text": "am",
+          "startTime": 11.210536,
+          "endTime": 11.403049
+        },
+        {
+          "id": 13,
+          "text": "afraid",
+          "startTime": 11.403049,
+          "endTime": 12.402408
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "hold the band and say:",
+      "startTime": 12.402408,
+      "endTime": 15.793804,
+      "words": [
+        {
+          "id": 14,
+          "text": "hold",
+          "startTime": 12.402408,
+          "endTime": 14.13167
+        },
+        {
+          "id": 15,
+          "text": "the",
+          "startTime": 14.13167,
+          "endTime": 14.264774
+        },
+        {
+          "id": 16,
+          "text": "band",
+          "startTime": 14.264774,
+          "endTime": 14.795171
+        },
+        {
+          "id": 17,
+          "text": "and",
+          "startTime": 14.795171,
+          "endTime": 15.059521
+        },
+        {
+          "id": 18,
+          "text": "say:",
+          "startTime": 15.059521,
+          "endTime": 15.793804
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "aid",
+      "startTime": 15.793804,
+      "endTime": 18.046993,
+      "words": [
+        {
+          "id": 19,
+          "text": "aid",
+          "startTime": 15.793804,
+          "endTime": 18.046993
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "mum you're first everyday",
+      "startTime": 18.046993,
+      "endTime": 22.165816,
+      "words": [
+        {
+          "id": 20,
+          "text": "mum",
+          "startTime": 18.046993,
+          "endTime": 19.846052
+        },
+        {
+          "id": 21,
+          "text": "you're",
+          "startTime": 19.846052,
+          "endTime": 20.507678
+        },
+        {
+          "id": 22,
+          "text": "first",
+          "startTime": 20.507678,
+          "endTime": 20.773312
+        },
+        {
+          "id": 23,
+          "text": "everyday",
+          "startTime": 20.773312,
+          "endTime": 22.165816
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "I see this, even on Sundays",
+      "startTime": 22.165816,
+      "endTime": 26.553184,
+      "words": [
+        {
+          "id": 24,
+          "text": "I",
+          "startTime": 22.165816,
+          "endTime": 23.698028
+        },
+        {
+          "id": 25,
+          "text": "see",
+          "startTime": 23.698028,
+          "endTime": 23.894546
+        },
+        {
+          "id": 26,
+          "text": "this,",
+          "startTime": 23.894546,
+          "endTime": 24.42415
+        },
+        {
+          "id": 27,
+          "text": "even",
+          "startTime": 24.42415,
+          "endTime": 24.955776
+        },
+        {
+          "id": 28,
+          "text": "on",
+          "startTime": 24.955776,
+          "endTime": 25.152845
+        },
+        {
+          "id": 29,
+          "text": "Sundays",
+          "startTime": 25.152845,
+          "endTime": 26.553184
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "when I'm awake",
+      "startTime": 26.553184,
+      "endTime": 29.536156,
+      "words": [
+        {
+          "id": 30,
+          "text": "when",
+          "startTime": 26.553184,
+          "endTime": 28.339904
+        },
+        {
+          "id": 31,
+          "text": "I'm",
+          "startTime": 28.339904,
+          "endTime": 28.541607
+        },
+        {
+          "id": 32,
+          "text": "awake",
+          "startTime": 28.541607,
+          "endTime": 29.536156
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "is it true, it is the same?",
+      "startTime": 29.536156,
+      "endTime": 32.525582,
+      "words": [
+        {
+          "id": 33,
+          "text": "is",
+          "startTime": 29.536156,
+          "endTime": 29.86655
+        },
+        {
+          "id": 34,
+          "text": "it",
+          "startTime": 29.86655,
+          "endTime": 30.073246
+        },
+        {
+          "id": 35,
+          "text": "true,",
+          "startTime": 30.073246,
+          "endTime": 31.064946
+        },
+        {
+          "id": 36,
+          "text": "it",
+          "startTime": 31.064946,
+          "endTime": 31.263727
+        },
+        {
+          "id": 37,
+          "text": "is",
+          "startTime": 31.263727,
+          "endTime": 31.465513
+        },
+        {
+          "id": 38,
+          "text": "the",
+          "startTime": 31.465513,
+          "endTime": 31.530885
+        },
+        {
+          "id": 39,
+          "text": "same?",
+          "startTime": 31.530885,
+          "endTime": 32.525582
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "a very long day with no grey.",
+      "startTime": 32.525582,
+      "endTime": 37.913705,
+      "words": [
+        {
+          "id": 40,
+          "text": "a",
+          "startTime": 32.525582,
+          "endTime": 33.789786
+        },
+        {
+          "id": 41,
+          "text": "very",
+          "startTime": 33.789786,
+          "endTime": 34.118817
+        },
+        {
+          "id": 42,
+          "text": "long",
+          "startTime": 34.118817,
+          "endTime": 34.520131
+        },
+        {
+          "id": 43,
+          "text": "day",
+          "startTime": 34.520131,
+          "endTime": 35.448393
+        },
+        {
+          "id": 44,
+          "text": "with",
+          "startTime": 35.448393,
+          "endTime": 35.64492
+        },
+        {
+          "id": 45,
+          "text": "no",
+          "startTime": 35.64492,
+          "endTime": 35.913705
+        },
+        {
+          "id": 46,
+          "text": "grey.",
+          "startTime": 35.913705,
+          "endTime": 37.913705
+        }
+      ]
+    }
+  ]
+}

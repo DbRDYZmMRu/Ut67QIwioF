@@ -1,0 +1,386 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I fell in love lissome",
+      "startTime": 6.743526,
+      "endTime": 10.064612,
+      "words": [
+        {
+          "id": 1,
+          "text": "I",
+          "startTime": 6.743526,
+          "endTime": 8.204636
+        },
+        {
+          "id": 2,
+          "text": "fell",
+          "startTime": 8.204636,
+          "endTime": 8.4059
+        },
+        {
+          "id": 3,
+          "text": "in",
+          "startTime": 8.4059,
+          "endTime": 8.539224
+        },
+        {
+          "id": 4,
+          "text": "love",
+          "startTime": 8.539224,
+          "endTime": 8.937567
+        },
+        {
+          "id": 5,
+          "text": "lissome",
+          "startTime": 8.937567,
+          "endTime": 10.064612
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "that fair view from",
+      "startTime": 10.064612,
+      "endTime": 12.786786,
+      "words": [
+        {
+          "id": 6,
+          "text": "that",
+          "startTime": 10.064612,
+          "endTime": 11.131696
+        },
+        {
+          "id": 7,
+          "text": "fair",
+          "startTime": 11.131696,
+          "endTime": 11.531834
+        },
+        {
+          "id": 8,
+          "text": "view",
+          "startTime": 11.531834,
+          "endTime": 11.92781
+        },
+        {
+          "id": 9,
+          "text": "from",
+          "startTime": 11.92781,
+          "endTime": 12.786786
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "now we have up qualms",
+      "startTime": 12.786786,
+      "endTime": 16.306278,
+      "words": [
+        {
+          "id": 10,
+          "text": "now",
+          "startTime": 12.786786,
+          "endTime": 14.518231
+        },
+        {
+          "id": 11,
+          "text": "we",
+          "startTime": 14.518231,
+          "endTime": 14.64747
+        },
+        {
+          "id": 12,
+          "text": "have",
+          "startTime": 14.64747,
+          "endTime": 14.850552
+        },
+        {
+          "id": 13,
+          "text": "up",
+          "startTime": 14.850552,
+          "endTime": 15.047693
+        },
+        {
+          "id": 14,
+          "text": "qualms",
+          "startTime": 15.047693,
+          "endTime": 16.306278
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "gobbling gobs in records",
+      "startTime": 16.306278,
+      "endTime": 19.6282,
+      "words": [
+        {
+          "id": 15,
+          "text": "gobbling",
+          "startTime": 16.306278,
+          "endTime": 17.76472
+        },
+        {
+          "id": 16,
+          "text": "gobs",
+          "startTime": 17.76472,
+          "endTime": 18.302349
+        },
+        {
+          "id": 17,
+          "text": "in",
+          "startTime": 18.302349,
+          "endTime": 18.563806
+        },
+        {
+          "id": 18,
+          "text": "records",
+          "startTime": 18.563806,
+          "endTime": 19.6282
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "…I ponder at all?",
+      "startTime": 19.6282,
+      "endTime": 23.021568,
+      "words": [
+        {
+          "id": 19,
+          "text": "…I",
+          "startTime": 19.6282,
+          "endTime": 21.4225
+        },
+        {
+          "id": 20,
+          "text": "ponder",
+          "startTime": 21.4225,
+          "endTime": 21.887003
+        },
+        {
+          "id": 21,
+          "text": "at",
+          "startTime": 21.887003,
+          "endTime": 22.087175
+        },
+        {
+          "id": 22,
+          "text": "all?",
+          "startTime": 22.087175,
+          "endTime": 23.021568
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "and it sums the question",
+      "startTime": 23.021568,
+      "endTime": 27.143206,
+      "words": [
+        {
+          "id": 23,
+          "text": "and",
+          "startTime": 23.021568,
+          "endTime": 25.083285
+        },
+        {
+          "id": 24,
+          "text": "it",
+          "startTime": 25.083285,
+          "endTime": 25.216897
+        },
+        {
+          "id": 25,
+          "text": "sums",
+          "startTime": 25.216897,
+          "endTime": 25.547717
+        },
+        {
+          "id": 26,
+          "text": "the",
+          "startTime": 25.547717,
+          "endTime": 25.681429
+        },
+        {
+          "id": 27,
+          "text": "question",
+          "startTime": 25.681429,
+          "endTime": 27.143206
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "…at which with gloves?",
+      "startTime": 27.143206,
+      "endTime": 30.007542,
+      "words": [
+        {
+          "id": 28,
+          "text": "…at",
+          "startTime": 27.143206,
+          "endTime": 27.873831
+        },
+        {
+          "id": 29,
+          "text": "which",
+          "startTime": 27.873831,
+          "endTime": 28.875941
+        },
+        {
+          "id": 30,
+          "text": "with",
+          "startTime": 28.875941,
+          "endTime": 29.072833
+        },
+        {
+          "id": 31,
+          "text": "gloves?",
+          "startTime": 29.072833,
+          "endTime": 30.007542
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "my promises of more",
+      "startTime": 30.007542,
+      "endTime": 33.527415,
+      "words": [
+        {
+          "id": 32,
+          "text": "my",
+          "startTime": 30.007542,
+          "endTime": 31.862101
+        },
+        {
+          "id": 33,
+          "text": "promises",
+          "startTime": 31.862101,
+          "endTime": 32.464069
+        },
+        {
+          "id": 34,
+          "text": "of",
+          "startTime": 32.464069,
+          "endTime": 32.666624
+        },
+        {
+          "id": 35,
+          "text": "more",
+          "startTime": 32.666624,
+          "endTime": 33.527415
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "being the attending door",
+      "startTime": 33.527415,
+      "endTime": 35.39153,
+      "words": [
+        {
+          "id": 36,
+          "text": "being",
+          "startTime": 33.527415,
+          "endTime": 33.728069
+        },
+        {
+          "id": 37,
+          "text": "the",
+          "startTime": 33.728069,
+          "endTime": 33.929913
+        },
+        {
+          "id": 38,
+          "text": "attending",
+          "startTime": 33.929913,
+          "endTime": 34.592454
+        },
+        {
+          "id": 39,
+          "text": "door",
+          "startTime": 34.592454,
+          "endTime": 35.39153
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "for records when you're sore",
+      "startTime": 35.39153,
+      "endTime": 38.973623,
+      "words": [
+        {
+          "id": 40,
+          "text": "for",
+          "startTime": 35.39153,
+          "endTime": 36.519668
+        },
+        {
+          "id": 41,
+          "text": "records",
+          "startTime": 36.519668,
+          "endTime": 37.515844
+        },
+        {
+          "id": 42,
+          "text": "when",
+          "startTime": 37.515844,
+          "endTime": 37.780468
+        },
+        {
+          "id": 43,
+          "text": "you're",
+          "startTime": 37.780468,
+          "endTime": 38.044501
+        },
+        {
+          "id": 44,
+          "text": "sore",
+          "startTime": 38.044501,
+          "endTime": 38.973623
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "aliens, aliens, that was spur.",
+      "startTime": 38.973623,
+      "endTime": 46.023091,
+      "words": [
+        {
+          "id": 45,
+          "text": "aliens,",
+          "startTime": 38.973623,
+          "endTime": 41.23334
+        },
+        {
+          "id": 46,
+          "text": "aliens,",
+          "startTime": 41.23334,
+          "endTime": 42.690099
+        },
+        {
+          "id": 47,
+          "text": "that",
+          "startTime": 42.690099,
+          "endTime": 43.823058
+        },
+        {
+          "id": 48,
+          "text": "was",
+          "startTime": 43.823058,
+          "endTime": 44.023091
+        },
+        {
+          "id": 49,
+          "text": "spur.",
+          "startTime": 44.023091,
+          "endTime": 46.023091
+        }
+      ]
+    }
+  ]
+}

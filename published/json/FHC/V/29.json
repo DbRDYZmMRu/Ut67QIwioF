@@ -1,0 +1,422 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "On an A-road fraught",
+      "startTime": 5.151124,
+      "endTime": 8.275979,
+      "words": [
+        {
+          "id": 1,
+          "text": "On",
+          "startTime": 5.151124,
+          "endTime": 5.884994
+        },
+        {
+          "id": 2,
+          "text": "an",
+          "startTime": 5.884994,
+          "endTime": 6.077907
+        },
+        {
+          "id": 3,
+          "text": "A-road",
+          "startTime": 6.077907,
+          "endTime": 6.748915
+        },
+        {
+          "id": 4,
+          "text": "fraught",
+          "startTime": 6.748915,
+          "endTime": 8.275979
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "broad as it is long",
+      "startTime": 8.275979,
+      "endTime": 10.798313,
+      "words": [
+        {
+          "id": 5,
+          "text": "broad",
+          "startTime": 8.275979,
+          "endTime": 9.071003
+        },
+        {
+          "id": 6,
+          "text": "as",
+          "startTime": 9.071003,
+          "endTime": 9.203023
+        },
+        {
+          "id": 7,
+          "text": "it",
+          "startTime": 9.203023,
+          "endTime": 9.406676
+        },
+        {
+          "id": 8,
+          "text": "is",
+          "startTime": 9.406676,
+          "endTime": 9.531621
+        },
+        {
+          "id": 9,
+          "text": "long",
+          "startTime": 9.531621,
+          "endTime": 10.798313
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "rotter rambunctious",
+      "startTime": 10.798313,
+      "endTime": 13.719433,
+      "words": [
+        {
+          "id": 10,
+          "text": "rotter",
+          "startTime": 10.798313,
+          "endTime": 11.926054
+        },
+        {
+          "id": 11,
+          "text": "rambunctious",
+          "startTime": 11.926054,
+          "endTime": 13.719433
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "I'd a stud in the trunk",
+      "startTime": 13.719433,
+      "endTime": 17.304444,
+      "words": [
+        {
+          "id": 12,
+          "text": "I'd",
+          "startTime": 13.719433,
+          "endTime": 15.2454
+        },
+        {
+          "id": 13,
+          "text": "a",
+          "startTime": 15.2454,
+          "endTime": 15.513247
+        },
+        {
+          "id": 14,
+          "text": "stud",
+          "startTime": 15.513247,
+          "endTime": 16.045016
+        },
+        {
+          "id": 15,
+          "text": "in",
+          "startTime": 16.045016,
+          "endTime": 16.176691
+        },
+        {
+          "id": 16,
+          "text": "the",
+          "startTime": 16.176691,
+          "endTime": 16.378616
+        },
+        {
+          "id": 17,
+          "text": "trunk",
+          "startTime": 16.378616,
+          "endTime": 17.304444
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": ". . . twenty-ninth junction",
+      "startTime": 17.304444,
+      "endTime": 21.292899,
+      "words": [
+        {
+          "id": 18,
+          "text": ".",
+          "startTime": 17.304444,
+          "endTime": 17.374502
+        },
+        {
+          "id": 19,
+          "text": ".",
+          "startTime": 17.374502,
+          "endTime": 17.508668
+        },
+        {
+          "id": 20,
+          "text": ".",
+          "startTime": 17.508668,
+          "endTime": 17.707001
+        },
+        {
+          "id": 21,
+          "text": "twenty-ninth",
+          "startTime": 17.707001,
+          "endTime": 19.958914
+        },
+        {
+          "id": 22,
+          "text": "junction",
+          "startTime": 19.958914,
+          "endTime": 21.292899
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "I wheedled ‘bout my bod",
+      "startTime": 21.292899,
+      "endTime": 25.078674,
+      "words": [
+        {
+          "id": 23,
+          "text": "I",
+          "startTime": 21.292899,
+          "endTime": 22.881593
+        },
+        {
+          "id": 24,
+          "text": "wheedled",
+          "startTime": 22.881593,
+          "endTime": 23.279483
+        },
+        {
+          "id": 25,
+          "text": "‘bout",
+          "startTime": 23.279483,
+          "endTime": 23.551434
+        },
+        {
+          "id": 26,
+          "text": "my",
+          "startTime": 23.551434,
+          "endTime": 23.745673
+        },
+        {
+          "id": 27,
+          "text": "bod",
+          "startTime": 23.745673,
+          "endTime": 25.078674
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "told him my swing left divots",
+      "startTime": 25.078674,
+      "endTime": 29.45836,
+      "words": [
+        {
+          "id": 28,
+          "text": "told",
+          "startTime": 25.078674,
+          "endTime": 25.60462
+        },
+        {
+          "id": 29,
+          "text": "him",
+          "startTime": 25.60462,
+          "endTime": 25.873246
+        },
+        {
+          "id": 30,
+          "text": "my",
+          "startTime": 25.873246,
+          "endTime": 26.008176
+        },
+        {
+          "id": 31,
+          "text": "swing",
+          "startTime": 26.008176,
+          "endTime": 26.93476
+        },
+        {
+          "id": 32,
+          "text": "left",
+          "startTime": 26.93476,
+          "endTime": 27.929372
+        },
+        {
+          "id": 33,
+          "text": "divots",
+          "startTime": 27.929372,
+          "endTime": 29.45836
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "never flagged to dangerous",
+      "startTime": 29.45836,
+      "endTime": 33.841213,
+      "words": [
+        {
+          "id": 34,
+          "text": "never",
+          "startTime": 29.45836,
+          "endTime": 31.38245
+        },
+        {
+          "id": 35,
+          "text": "flagged",
+          "startTime": 31.38245,
+          "endTime": 31.852356
+        },
+        {
+          "id": 36,
+          "text": "to",
+          "startTime": 31.852356,
+          "endTime": 32.184702
+        },
+        {
+          "id": 37,
+          "text": "dangerous",
+          "startTime": 32.184702,
+          "endTime": 33.841213
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "the range of my anaclitic clutch",
+      "startTime": 33.841213,
+      "endTime": 38.958176,
+      "words": [
+        {
+          "id": 38,
+          "text": "the",
+          "startTime": 33.841213,
+          "endTime": 35.039096
+        },
+        {
+          "id": 39,
+          "text": "range",
+          "startTime": 35.039096,
+          "endTime": 35.3058
+        },
+        {
+          "id": 40,
+          "text": "of",
+          "startTime": 35.3058,
+          "endTime": 35.968413
+        },
+        {
+          "id": 41,
+          "text": "my",
+          "startTime": 35.968413,
+          "endTime": 36.233809
+        },
+        {
+          "id": 42,
+          "text": "anaclitic",
+          "startTime": 36.233809,
+          "endTime": 36.826768
+        },
+        {
+          "id": 43,
+          "text": "clutch",
+          "startTime": 36.826768,
+          "endTime": 38.958176
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "how about skive on kludge",
+      "startTime": 38.958176,
+      "endTime": 41.742332,
+      "words": [
+        {
+          "id": 44,
+          "text": "how",
+          "startTime": 38.958176,
+          "endTime": 39.420107
+        },
+        {
+          "id": 45,
+          "text": "about",
+          "startTime": 39.420107,
+          "endTime": 39.754524
+        },
+        {
+          "id": 46,
+          "text": "skive",
+          "startTime": 39.754524,
+          "endTime": 40.152174
+        },
+        {
+          "id": 47,
+          "text": "on",
+          "startTime": 40.152174,
+          "endTime": 40.417117
+        },
+        {
+          "id": 48,
+          "text": "kludge",
+          "startTime": 40.417117,
+          "endTime": 41.742332
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "a shuffle to get you on spot?",
+      "startTime": 41.742332,
+      "endTime": 46.729008,
+      "words": [
+        {
+          "id": 49,
+          "text": "a",
+          "startTime": 41.742332,
+          "endTime": 42.741661
+        },
+        {
+          "id": 50,
+          "text": "shuffle",
+          "startTime": 42.741661,
+          "endTime": 44.065266
+        },
+        {
+          "id": 51,
+          "text": "to",
+          "startTime": 44.065266,
+          "endTime": 44.197835
+        },
+        {
+          "id": 52,
+          "text": "get",
+          "startTime": 44.197835,
+          "endTime": 44.333926
+        },
+        {
+          "id": 53,
+          "text": "you",
+          "startTime": 44.333926,
+          "endTime": 44.53204
+        },
+        {
+          "id": 54,
+          "text": "on",
+          "startTime": 44.53204,
+          "endTime": 44.729008
+        },
+        {
+          "id": 55,
+          "text": "spot?",
+          "startTime": 44.729008,
+          "endTime": 46.729008
+        }
+      ]
+    }
+  ]
+}

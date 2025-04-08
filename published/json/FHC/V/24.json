@@ -1,0 +1,416 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Once a homily we crossed",
+      "startTime": 5.398967,
+      "endTime": 9.117937,
+      "words": [
+        {
+          "id": 1,
+          "text": "Once",
+          "startTime": 5.398967,
+          "endTime": 6.527493
+        },
+        {
+          "id": 2,
+          "text": "a",
+          "startTime": 6.527493,
+          "endTime": 6.85618
+        },
+        {
+          "id": 3,
+          "text": "homily",
+          "startTime": 6.85618,
+          "endTime": 8.053033
+        },
+        {
+          "id": 4,
+          "text": "we",
+          "startTime": 8.053033,
+          "endTime": 8.254456
+        },
+        {
+          "id": 5,
+          "text": "crossed",
+          "startTime": 8.254456,
+          "endTime": 9.117937
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "the time has been tremulous",
+      "startTime": 9.117937,
+      "endTime": 13.102691,
+      "words": [
+        {
+          "id": 6,
+          "text": "the",
+          "startTime": 9.117937,
+          "endTime": 10.510791
+        },
+        {
+          "id": 7,
+          "text": "time",
+          "startTime": 10.510791,
+          "endTime": 11.041433
+        },
+        {
+          "id": 8,
+          "text": "has",
+          "startTime": 11.041433,
+          "endTime": 11.177064
+        },
+        {
+          "id": 9,
+          "text": "been",
+          "startTime": 11.177064,
+          "endTime": 11.438733
+        },
+        {
+          "id": 10,
+          "text": "tremulous",
+          "startTime": 11.438733,
+          "endTime": 13.102691
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "overhead remains a stratus",
+      "startTime": 13.102691,
+      "endTime": 17.54776,
+      "words": [
+        {
+          "id": 11,
+          "text": "overhead",
+          "startTime": 13.102691,
+          "endTime": 14.826617
+        },
+        {
+          "id": 12,
+          "text": "remains",
+          "startTime": 14.826617,
+          "endTime": 15.758373
+        },
+        {
+          "id": 13,
+          "text": "a",
+          "startTime": 15.758373,
+          "endTime": 16.0235
+        },
+        {
+          "id": 14,
+          "text": "stratus",
+          "startTime": 16.0235,
+          "endTime": 17.54776
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "an umbel umbrella of truss",
+      "startTime": 17.54776,
+      "endTime": 22.265686,
+      "words": [
+        {
+          "id": 15,
+          "text": "an",
+          "startTime": 17.54776,
+          "endTime": 18.74983
+        },
+        {
+          "id": 16,
+          "text": "umbel",
+          "startTime": 18.74983,
+          "endTime": 19.544343
+        },
+        {
+          "id": 17,
+          "text": "umbrella",
+          "startTime": 19.544343,
+          "endTime": 20.672585
+        },
+        {
+          "id": 18,
+          "text": "of",
+          "startTime": 20.672585,
+          "endTime": 20.872242
+        },
+        {
+          "id": 19,
+          "text": "truss",
+          "startTime": 20.872242,
+          "endTime": 22.265686
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "nobby, booby, this bust",
+      "startTime": 22.265686,
+      "endTime": 27.980592,
+      "words": [
+        {
+          "id": 20,
+          "text": "nobby,",
+          "startTime": 22.265686,
+          "endTime": 24.791669
+        },
+        {
+          "id": 21,
+          "text": "booby,",
+          "startTime": 24.791669,
+          "endTime": 26.257209
+        },
+        {
+          "id": 22,
+          "text": "this",
+          "startTime": 26.257209,
+          "endTime": 26.6553
+        },
+        {
+          "id": 23,
+          "text": "bust",
+          "startTime": 26.6553,
+          "endTime": 27.980592
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "that bar to be is what?",
+      "startTime": 27.980592,
+      "endTime": 32.427987,
+      "words": [
+        {
+          "id": 24,
+          "text": "that",
+          "startTime": 27.980592,
+          "endTime": 29.443305
+        },
+        {
+          "id": 25,
+          "text": "bar",
+          "startTime": 29.443305,
+          "endTime": 30.108293
+        },
+        {
+          "id": 26,
+          "text": "to",
+          "startTime": 30.108293,
+          "endTime": 30.239338
+        },
+        {
+          "id": 27,
+          "text": "be",
+          "startTime": 30.239338,
+          "endTime": 30.504098
+        },
+        {
+          "id": 28,
+          "text": "is",
+          "startTime": 30.504098,
+          "endTime": 31.368528
+        },
+        {
+          "id": 29,
+          "text": "what?",
+          "startTime": 31.368528,
+          "endTime": 32.427987
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "for I’ve seen pictures",
+      "startTime": 32.427987,
+      "endTime": 35.624646,
+      "words": [
+        {
+          "id": 30,
+          "text": "for",
+          "startTime": 32.427987,
+          "endTime": 33.767955
+        },
+        {
+          "id": 31,
+          "text": "I’ve",
+          "startTime": 33.767955,
+          "endTime": 33.901697
+        },
+        {
+          "id": 32,
+          "text": "seen",
+          "startTime": 33.901697,
+          "endTime": 34.297897
+        },
+        {
+          "id": 33,
+          "text": "pictures",
+          "startTime": 34.297897,
+          "endTime": 35.624646
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "and I can’t spell consort",
+      "startTime": 35.624646,
+      "endTime": 38.946465,
+      "words": [
+        {
+          "id": 34,
+          "text": "and",
+          "startTime": 35.624646,
+          "endTime": 36.093786
+        },
+        {
+          "id": 35,
+          "text": "I",
+          "startTime": 36.093786,
+          "endTime": 36.285284
+        },
+        {
+          "id": 36,
+          "text": "can’t",
+          "startTime": 36.285284,
+          "endTime": 36.623701
+        },
+        {
+          "id": 37,
+          "text": "spell",
+          "startTime": 36.623701,
+          "endTime": 37.489315
+        },
+        {
+          "id": 38,
+          "text": "consort",
+          "startTime": 37.489315,
+          "endTime": 38.946465
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "with a yard, here a micron",
+      "startTime": 38.946465,
+      "endTime": 44.133498,
+      "words": [
+        {
+          "id": 39,
+          "text": "with",
+          "startTime": 38.946465,
+          "endTime": 40.347293
+        },
+        {
+          "id": 40,
+          "text": "a",
+          "startTime": 40.347293,
+          "endTime": 40.478955
+        },
+        {
+          "id": 41,
+          "text": "yard,",
+          "startTime": 40.478955,
+          "endTime": 41.608236
+        },
+        {
+          "id": 42,
+          "text": "here",
+          "startTime": 41.608236,
+          "endTime": 41.740533
+        },
+        {
+          "id": 43,
+          "text": "a",
+          "startTime": 41.740533,
+          "endTime": 42.339943
+        },
+        {
+          "id": 44,
+          "text": "micron",
+          "startTime": 42.339943,
+          "endTime": 44.133498
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "to hold as a laniard does",
+      "startTime": 44.133498,
+      "endTime": 48.582806,
+      "words": [
+        {
+          "id": 45,
+          "text": "to",
+          "startTime": 44.133498,
+          "endTime": 45.060841
+        },
+        {
+          "id": 46,
+          "text": "hold",
+          "startTime": 45.060841,
+          "endTime": 46.257003
+        },
+        {
+          "id": 47,
+          "text": "as",
+          "startTime": 46.257003,
+          "endTime": 46.390202
+        },
+        {
+          "id": 48,
+          "text": "a",
+          "startTime": 46.390202,
+          "endTime": 46.523151
+        },
+        {
+          "id": 49,
+          "text": "laniard",
+          "startTime": 46.523151,
+          "endTime": 47.188666
+        },
+        {
+          "id": 50,
+          "text": "does",
+          "startTime": 47.188666,
+          "endTime": 48.582806
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "from that player immature.",
+      "startTime": 48.582806,
+      "endTime": 52.110175,
+      "words": [
+        {
+          "id": 51,
+          "text": "from",
+          "startTime": 48.582806,
+          "endTime": 48.98075
+        },
+        {
+          "id": 52,
+          "text": "that",
+          "startTime": 48.98075,
+          "endTime": 49.244605
+        },
+        {
+          "id": 53,
+          "text": "player",
+          "startTime": 49.244605,
+          "endTime": 50.110175
+        },
+        {
+          "id": 54,
+          "text": "immature.",
+          "startTime": 50.110175,
+          "endTime": 52.110175
+        }
+      ]
+    }
+  ]
+}

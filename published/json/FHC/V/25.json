@@ -1,0 +1,150 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I’ll recycle my mistakes",
+      "startTime": 6.267496,
+      "endTime": 9.586966,
+      "words": [
+        {
+          "id": 1,
+          "text": "I’ll",
+          "startTime": 6.267496,
+          "endTime": 7.529313
+        },
+        {
+          "id": 2,
+          "text": "recycle",
+          "startTime": 7.529313,
+          "endTime": 8.25799
+        },
+        {
+          "id": 3,
+          "text": "my",
+          "startTime": 8.25799,
+          "endTime": 8.390436
+        },
+        {
+          "id": 4,
+          "text": "mistakes",
+          "startTime": 8.390436,
+          "endTime": 9.586966
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "in three rounds of stakes",
+      "startTime": 9.586966,
+      "endTime": 13.702015,
+      "words": [
+        {
+          "id": 5,
+          "text": "in",
+          "startTime": 9.586966,
+          "endTime": 10.18357
+        },
+        {
+          "id": 6,
+          "text": "three",
+          "startTime": 10.18357,
+          "endTime": 10.57936
+        },
+        {
+          "id": 7,
+          "text": "rounds",
+          "startTime": 10.57936,
+          "endTime": 11.578078
+        },
+        {
+          "id": 8,
+          "text": "of",
+          "startTime": 11.578078,
+          "endTime": 11.838691
+        },
+        {
+          "id": 9,
+          "text": "stakes",
+          "startTime": 11.838691,
+          "endTime": 13.702015
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "so three to parade faith",
+      "startTime": 13.702015,
+      "endTime": 16.959909,
+      "words": [
+        {
+          "id": 10,
+          "text": "so",
+          "startTime": 13.702015,
+          "endTime": 14.231826
+        },
+        {
+          "id": 11,
+          "text": "three",
+          "startTime": 14.231826,
+          "endTime": 14.897108
+        },
+        {
+          "id": 12,
+          "text": "to",
+          "startTime": 14.897108,
+          "endTime": 15.625726
+        },
+        {
+          "id": 13,
+          "text": "parade",
+          "startTime": 15.625726,
+          "endTime": 16.028096
+        },
+        {
+          "id": 14,
+          "text": "faith",
+          "startTime": 16.028096,
+          "endTime": 16.959909
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "in our old air balustrade.",
+      "startTime": 16.959909,
+      "endTime": 20.946239,
+      "words": [
+        {
+          "id": 15,
+          "text": "in",
+          "startTime": 16.959909,
+          "endTime": 17.819776
+        },
+        {
+          "id": 16,
+          "text": "our",
+          "startTime": 17.819776,
+          "endTime": 18.150658
+        },
+        {
+          "id": 17,
+          "text": "old",
+          "startTime": 18.150658,
+          "endTime": 18.54848
+        },
+        {
+          "id": 18,
+          "text": "air",
+          "startTime": 18.54848,
+          "endTime": 18.946239
+        },
+        {
+          "id": 19,
+          "text": "balustrade.",
+          "startTime": 18.946239,
+          "endTime": 20.946239
+        }
+      ]
+    }
+  ]
+}

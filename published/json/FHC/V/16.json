@@ -1,0 +1,358 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I wait with the sleeveen",
+      "startTime": 5.375388,
+      "endTime": 8.366425,
+      "words": [
+        {
+          "id": 1,
+          "text": "I",
+          "startTime": 5.375388,
+          "endTime": 6.571426
+        },
+        {
+          "id": 2,
+          "text": "wait",
+          "startTime": 6.571426,
+          "endTime": 7.035439
+        },
+        {
+          "id": 3,
+          "text": "with",
+          "startTime": 7.035439,
+          "endTime": 7.105194
+        },
+        {
+          "id": 4,
+          "text": "the",
+          "startTime": 7.105194,
+          "endTime": 7.299285
+        },
+        {
+          "id": 5,
+          "text": "sleeveen",
+          "startTime": 7.299285,
+          "endTime": 8.366425
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "rampaging the reach;",
+      "startTime": 8.366425,
+      "endTime": 11.085561,
+      "words": [
+        {
+          "id": 6,
+          "text": "rampaging",
+          "startTime": 8.366425,
+          "endTime": 9.826302
+        },
+        {
+          "id": 7,
+          "text": "the",
+          "startTime": 9.826302,
+          "endTime": 10.024708
+        },
+        {
+          "id": 8,
+          "text": "reach;",
+          "startTime": 10.024708,
+          "endTime": 11.085561
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "closed bay of a dream.",
+      "startTime": 11.085561,
+      "endTime": 14.942782,
+      "words": [
+        {
+          "id": 9,
+          "text": "closed",
+          "startTime": 11.085561,
+          "endTime": 12.482342
+        },
+        {
+          "id": 10,
+          "text": "bay",
+          "startTime": 12.482342,
+          "endTime": 12.811535
+        },
+        {
+          "id": 11,
+          "text": "of",
+          "startTime": 12.811535,
+          "endTime": 13.477844
+        },
+        {
+          "id": 12,
+          "text": "a",
+          "startTime": 13.477844,
+          "endTime": 13.611317
+        },
+        {
+          "id": 13,
+          "text": "dream.",
+          "startTime": 13.611317,
+          "endTime": 14.942782
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "Who else will they be?",
+      "startTime": 14.942782,
+      "endTime": 18.328739,
+      "words": [
+        {
+          "id": 14,
+          "text": "Who",
+          "startTime": 14.942782,
+          "endTime": 16.533561
+        },
+        {
+          "id": 15,
+          "text": "else",
+          "startTime": 16.533561,
+          "endTime": 16.863723
+        },
+        {
+          "id": 16,
+          "text": "will",
+          "startTime": 16.863723,
+          "endTime": 16.998001
+        },
+        {
+          "id": 17,
+          "text": "they",
+          "startTime": 16.998001,
+          "endTime": 17.259748
+        },
+        {
+          "id": 18,
+          "text": "be?",
+          "startTime": 17.259748,
+          "endTime": 18.328739
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "from the tv to the settee",
+      "startTime": 18.328739,
+      "endTime": 22.378389,
+      "words": [
+        {
+          "id": 19,
+          "text": "from",
+          "startTime": 18.328739,
+          "endTime": 19.323559
+        },
+        {
+          "id": 20,
+          "text": "the",
+          "startTime": 19.323559,
+          "endTime": 19.522264
+        },
+        {
+          "id": 21,
+          "text": "tv",
+          "startTime": 19.522264,
+          "endTime": 20.383692
+        },
+        {
+          "id": 22,
+          "text": "to",
+          "startTime": 20.383692,
+          "endTime": 20.712876
+        },
+        {
+          "id": 23,
+          "text": "the",
+          "startTime": 20.712876,
+          "endTime": 20.847116
+        },
+        {
+          "id": 24,
+          "text": "settee",
+          "startTime": 20.847116,
+          "endTime": 22.378389
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "a porcupine in time’s degree.",
+      "startTime": 22.378389,
+      "endTime": 26.427043,
+      "words": [
+        {
+          "id": 25,
+          "text": "a",
+          "startTime": 22.378389,
+          "endTime": 23.573201
+        },
+        {
+          "id": 26,
+          "text": "porcupine",
+          "startTime": 23.573201,
+          "endTime": 24.366981
+        },
+        {
+          "id": 27,
+          "text": "in",
+          "startTime": 24.366981,
+          "endTime": 24.634012
+        },
+        {
+          "id": 28,
+          "text": "time’s",
+          "startTime": 24.634012,
+          "endTime": 24.896344
+        },
+        {
+          "id": 29,
+          "text": "degree.",
+          "startTime": 24.896344,
+          "endTime": 26.427043
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "I awake to find you asleep",
+      "startTime": 26.427043,
+      "endTime": 30.277922,
+      "words": [
+        {
+          "id": 30,
+          "text": "I",
+          "startTime": 26.427043,
+          "endTime": 27.954633
+        },
+        {
+          "id": 31,
+          "text": "awake",
+          "startTime": 27.954633,
+          "endTime": 28.48195
+        },
+        {
+          "id": 32,
+          "text": "to",
+          "startTime": 28.48195,
+          "endTime": 28.683402
+        },
+        {
+          "id": 33,
+          "text": "find",
+          "startTime": 28.683402,
+          "endTime": 28.816042
+        },
+        {
+          "id": 34,
+          "text": "you",
+          "startTime": 28.816042,
+          "endTime": 29.081456
+        },
+        {
+          "id": 35,
+          "text": "asleep",
+          "startTime": 29.081456,
+          "endTime": 30.277922
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "true to what you believe",
+      "startTime": 30.277922,
+      "endTime": 33.931105,
+      "words": [
+        {
+          "id": 36,
+          "text": "true",
+          "startTime": 30.277922,
+          "endTime": 31.673243
+        },
+        {
+          "id": 37,
+          "text": "to",
+          "startTime": 31.673243,
+          "endTime": 32.003862
+        },
+        {
+          "id": 38,
+          "text": "what",
+          "startTime": 32.003862,
+          "endTime": 32.136513
+        },
+        {
+          "id": 39,
+          "text": "you",
+          "startTime": 32.136513,
+          "endTime": 32.332921
+        },
+        {
+          "id": 40,
+          "text": "believe",
+          "startTime": 32.332921,
+          "endTime": 33.931105
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "hen do, but I’m male you see.",
+      "startTime": 33.931105,
+      "endTime": 39.781923,
+      "words": [
+        {
+          "id": 41,
+          "text": "hen",
+          "startTime": 33.931105,
+          "endTime": 34.9936
+        },
+        {
+          "id": 42,
+          "text": "do,",
+          "startTime": 34.9936,
+          "endTime": 35.658473
+        },
+        {
+          "id": 43,
+          "text": "but",
+          "startTime": 35.658473,
+          "endTime": 36.984915
+        },
+        {
+          "id": 44,
+          "text": "I’m",
+          "startTime": 36.984915,
+          "endTime": 37.187489
+        },
+        {
+          "id": 45,
+          "text": "male",
+          "startTime": 37.187489,
+          "endTime": 37.585412
+        },
+        {
+          "id": 46,
+          "text": "you",
+          "startTime": 37.585412,
+          "endTime": 37.781923
+        },
+        {
+          "id": 47,
+          "text": "see.",
+          "startTime": 37.781923,
+          "endTime": 39.781923
+        }
+      ]
+    }
+  ]
+}

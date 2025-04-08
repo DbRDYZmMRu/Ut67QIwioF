@@ -1,0 +1,2372 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Do not speak so plainly",
+      "startTime": 5.935327,
+      "endTime": 9.062011,
+      "words": [
+        {
+          "id": 1,
+          "text": "Do",
+          "startTime": 5.935327,
+          "endTime": 7.135062
+        },
+        {
+          "id": 2,
+          "text": "not",
+          "startTime": 7.135062,
+          "endTime": 7.32926
+        },
+        {
+          "id": 3,
+          "text": "speak",
+          "startTime": 7.32926,
+          "endTime": 7.735339
+        },
+        {
+          "id": 4,
+          "text": "so",
+          "startTime": 7.735339,
+          "endTime": 8.064844
+        },
+        {
+          "id": 5,
+          "text": "plainly",
+          "startTime": 8.064844,
+          "endTime": 9.062011
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "if your taste is of idiocy",
+      "startTime": 9.062011,
+      "endTime": 12.785573,
+      "words": [
+        {
+          "id": 6,
+          "text": "if",
+          "startTime": 9.062011,
+          "endTime": 9.591354
+        },
+        {
+          "id": 7,
+          "text": "your",
+          "startTime": 9.591354,
+          "endTime": 9.791048
+        },
+        {
+          "id": 8,
+          "text": "taste",
+          "startTime": 9.791048,
+          "endTime": 10.518488
+        },
+        {
+          "id": 9,
+          "text": "is",
+          "startTime": 10.518488,
+          "endTime": 10.986743
+        },
+        {
+          "id": 10,
+          "text": "of",
+          "startTime": 10.986743,
+          "endTime": 11.184142
+        },
+        {
+          "id": 11,
+          "text": "idiocy",
+          "startTime": 11.184142,
+          "endTime": 12.785573
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "“I want a dad,” I’m screaming",
+      "startTime": 12.785573,
+      "endTime": 16.652112,
+      "words": [
+        {
+          "id": 12,
+          "text": "“I",
+          "startTime": 12.785573,
+          "endTime": 13.648111
+        },
+        {
+          "id": 13,
+          "text": "want",
+          "startTime": 13.648111,
+          "endTime": 13.780893
+        },
+        {
+          "id": 14,
+          "text": "a",
+          "startTime": 13.780893,
+          "endTime": 13.920239
+        },
+        {
+          "id": 15,
+          "text": "dad,”",
+          "startTime": 13.920239,
+          "endTime": 14.713767
+        },
+        {
+          "id": 16,
+          "text": "I’m",
+          "startTime": 14.713767,
+          "endTime": 15.583287
+        },
+        {
+          "id": 17,
+          "text": "screaming",
+          "startTime": 15.583287,
+          "endTime": 16.652112
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "come buy me my dreams",
+      "startTime": 16.652112,
+      "endTime": 19.904589,
+      "words": [
+        {
+          "id": 18,
+          "text": "come",
+          "startTime": 16.652112,
+          "endTime": 18.311403
+        },
+        {
+          "id": 19,
+          "text": "buy",
+          "startTime": 18.311403,
+          "endTime": 18.508072
+        },
+        {
+          "id": 20,
+          "text": "me",
+          "startTime": 18.508072,
+          "endTime": 18.707858
+        },
+        {
+          "id": 21,
+          "text": "my",
+          "startTime": 18.707858,
+          "endTime": 18.912184
+        },
+        {
+          "id": 22,
+          "text": "dreams",
+          "startTime": 18.912184,
+          "endTime": 19.904589
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "and enough of film sheen",
+      "startTime": 19.904589,
+      "endTime": 23.42544,
+      "words": [
+        {
+          "id": 23,
+          "text": "and",
+          "startTime": 19.904589,
+          "endTime": 20.569232
+        },
+        {
+          "id": 24,
+          "text": "enough",
+          "startTime": 20.569232,
+          "endTime": 21.16185
+        },
+        {
+          "id": 25,
+          "text": "of",
+          "startTime": 21.16185,
+          "endTime": 21.639444
+        },
+        {
+          "id": 26,
+          "text": "film",
+          "startTime": 21.639444,
+          "endTime": 22.097722
+        },
+        {
+          "id": 27,
+          "text": "sheen",
+          "startTime": 22.097722,
+          "endTime": 23.42544
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "the other bumps of stream",
+      "startTime": 23.42544,
+      "endTime": 26.345745,
+      "words": [
+        {
+          "id": 28,
+          "text": "the",
+          "startTime": 23.42544,
+          "endTime": 24.418744
+        },
+        {
+          "id": 29,
+          "text": "other",
+          "startTime": 24.418744,
+          "endTime": 24.617055
+        },
+        {
+          "id": 30,
+          "text": "bumps",
+          "startTime": 24.617055,
+          "endTime": 25.015561
+        },
+        {
+          "id": 31,
+          "text": "of",
+          "startTime": 25.015561,
+          "endTime": 25.217559
+        },
+        {
+          "id": 32,
+          "text": "stream",
+          "startTime": 25.217559,
+          "endTime": 26.345745
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "it is all in rhythm",
+      "startTime": 26.345745,
+      "endTime": 29.143484,
+      "words": [
+        {
+          "id": 33,
+          "text": "it",
+          "startTime": 26.345745,
+          "endTime": 27.347945
+        },
+        {
+          "id": 34,
+          "text": "is",
+          "startTime": 27.347945,
+          "endTime": 27.613219
+        },
+        {
+          "id": 35,
+          "text": "all",
+          "startTime": 27.613219,
+          "endTime": 27.880708
+        },
+        {
+          "id": 36,
+          "text": "in",
+          "startTime": 27.880708,
+          "endTime": 28.144854
+        },
+        {
+          "id": 37,
+          "text": "rhythm",
+          "startTime": 28.144854,
+          "endTime": 29.143484
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "your hoisting beam",
+      "startTime": 29.143484,
+      "endTime": 31.732036,
+      "words": [
+        {
+          "id": 38,
+          "text": "your",
+          "startTime": 29.143484,
+          "endTime": 29.876558
+        },
+        {
+          "id": 39,
+          "text": "hoisting",
+          "startTime": 29.876558,
+          "endTime": 30.46971
+        },
+        {
+          "id": 40,
+          "text": "beam",
+          "startTime": 30.46971,
+          "endTime": 31.732036
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "from the very first inviting.",
+      "startTime": 31.732036,
+      "endTime": 35.457512,
+      "words": [
+        {
+          "id": 41,
+          "text": "from",
+          "startTime": 31.732036,
+          "endTime": 32.269522
+        },
+        {
+          "id": 42,
+          "text": "the",
+          "startTime": 32.269522,
+          "endTime": 32.467497
+        },
+        {
+          "id": 43,
+          "text": "very",
+          "startTime": 32.467497,
+          "endTime": 33.065465
+        },
+        {
+          "id": 44,
+          "text": "first",
+          "startTime": 33.065465,
+          "endTime": 33.861586
+        },
+        {
+          "id": 45,
+          "text": "inviting.",
+          "startTime": 33.861586,
+          "endTime": 35.457512
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "At all times, I have a whip",
+      "startTime": 35.457512,
+      "endTime": 39.253481,
+      "words": [
+        {
+          "id": 46,
+          "text": "At",
+          "startTime": 35.457512,
+          "endTime": 37.522728
+        },
+        {
+          "id": 47,
+          "text": "all",
+          "startTime": 37.522728,
+          "endTime": 37.716705
+        },
+        {
+          "id": 48,
+          "text": "times,",
+          "startTime": 37.716705,
+          "endTime": 38.390818
+        },
+        {
+          "id": 49,
+          "text": "I",
+          "startTime": 38.390818,
+          "endTime": 38.519786
+        },
+        {
+          "id": 50,
+          "text": "have",
+          "startTime": 38.519786,
+          "endTime": 38.654365
+        },
+        {
+          "id": 51,
+          "text": "a",
+          "startTime": 38.654365,
+          "endTime": 38.788818
+        },
+        {
+          "id": 52,
+          "text": "whip",
+          "startTime": 38.788818,
+          "endTime": 39.253481
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "come by, cheer with a grip",
+      "startTime": 39.253481,
+      "endTime": 43.646774,
+      "words": [
+        {
+          "id": 53,
+          "text": "come",
+          "startTime": 39.253481,
+          "endTime": 40.790026
+        },
+        {
+          "id": 54,
+          "text": "by,",
+          "startTime": 40.790026,
+          "endTime": 41.984502
+        },
+        {
+          "id": 55,
+          "text": "cheer",
+          "startTime": 41.984502,
+          "endTime": 42.456925
+        },
+        {
+          "id": 56,
+          "text": "with",
+          "startTime": 42.456925,
+          "endTime": 42.656132
+        },
+        {
+          "id": 57,
+          "text": "a",
+          "startTime": 42.656132,
+          "endTime": 42.787598
+        },
+        {
+          "id": 58,
+          "text": "grip",
+          "startTime": 42.787598,
+          "endTime": 43.646774
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "your name is the slip",
+      "startTime": 43.646774,
+      "endTime": 46.502214,
+      "words": [
+        {
+          "id": 59,
+          "text": "your",
+          "startTime": 43.646774,
+          "endTime": 44.778009
+        },
+        {
+          "id": 60,
+          "text": "name",
+          "startTime": 44.778009,
+          "endTime": 45.181784
+        },
+        {
+          "id": 61,
+          "text": "is",
+          "startTime": 45.181784,
+          "endTime": 45.379011
+        },
+        {
+          "id": 62,
+          "text": "the",
+          "startTime": 45.379011,
+          "endTime": 45.575787
+        },
+        {
+          "id": 63,
+          "text": "slip",
+          "startTime": 45.575787,
+          "endTime": 46.502214
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "paragraph": "any different, or isn’t",
+      "startTime": 46.502214,
+      "endTime": 50.491014,
+      "words": [
+        {
+          "id": 64,
+          "text": "any",
+          "startTime": 46.502214,
+          "endTime": 47.302551
+        },
+        {
+          "id": 65,
+          "text": "different,",
+          "startTime": 47.302551,
+          "endTime": 48.360667
+        },
+        {
+          "id": 66,
+          "text": "or",
+          "startTime": 48.360667,
+          "endTime": 49.297289
+        },
+        {
+          "id": 67,
+          "text": "isn’t",
+          "startTime": 49.297289,
+          "endTime": 50.491014
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "paragraph": "we’ll have it written",
+      "startTime": 50.491014,
+      "endTime": 53.085237,
+      "words": [
+        {
+          "id": 68,
+          "text": "we’ll",
+          "startTime": 50.491014,
+          "endTime": 51.551467
+        },
+        {
+          "id": 69,
+          "text": "have",
+          "startTime": 51.551467,
+          "endTime": 51.750037
+        },
+        {
+          "id": 70,
+          "text": "it",
+          "startTime": 51.750037,
+          "endTime": 51.950304
+        },
+        {
+          "id": 71,
+          "text": "written",
+          "startTime": 51.950304,
+          "endTime": 53.085237
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "paragraph": "come by this match please",
+      "startTime": 53.085237,
+      "endTime": 56.133924,
+      "words": [
+        {
+          "id": 72,
+          "text": "come",
+          "startTime": 53.085237,
+          "endTime": 54.074435
+        },
+        {
+          "id": 73,
+          "text": "by",
+          "startTime": 54.074435,
+          "endTime": 54.341321
+        },
+        {
+          "id": 74,
+          "text": "this",
+          "startTime": 54.341321,
+          "endTime": 54.67317
+        },
+        {
+          "id": 75,
+          "text": "match",
+          "startTime": 54.67317,
+          "endTime": 55.073114
+        },
+        {
+          "id": 76,
+          "text": "please",
+          "startTime": 55.073114,
+          "endTime": 56.133924
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "paragraph": "I’ll reserve for you a seat",
+      "startTime": 56.133924,
+      "endTime": 59.268247,
+      "words": [
+        {
+          "id": 77,
+          "text": "I���ll",
+          "startTime": 56.133924,
+          "endTime": 57.132668
+        },
+        {
+          "id": 78,
+          "text": "reserve",
+          "startTime": 57.132668,
+          "endTime": 57.531598
+        },
+        {
+          "id": 79,
+          "text": "for",
+          "startTime": 57.531598,
+          "endTime": 57.734187
+        },
+        {
+          "id": 80,
+          "text": "you",
+          "startTime": 57.734187,
+          "endTime": 58.060401
+        },
+        {
+          "id": 81,
+          "text": "a",
+          "startTime": 58.060401,
+          "endTime": 58.196324
+        },
+        {
+          "id": 82,
+          "text": "seat",
+          "startTime": 58.196324,
+          "endTime": 59.268247
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "paragraph": "for Sundays bring everything",
+      "startTime": 59.268247,
+      "endTime": 62.123125,
+      "words": [
+        {
+          "id": 83,
+          "text": "for",
+          "startTime": 59.268247,
+          "endTime": 59.93343
+        },
+        {
+          "id": 84,
+          "text": "Sundays",
+          "startTime": 59.93343,
+          "endTime": 60.665287
+        },
+        {
+          "id": 85,
+          "text": "bring",
+          "startTime": 60.665287,
+          "endTime": 60.997555
+        },
+        {
+          "id": 86,
+          "text": "everything",
+          "startTime": 60.997555,
+          "endTime": 62.123125
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "paragraph": "and when not looking",
+      "startTime": 62.123125,
+      "endTime": 64.791422,
+      "words": [
+        {
+          "id": 87,
+          "text": "and",
+          "startTime": 62.123125,
+          "endTime": 63.322615
+        },
+        {
+          "id": 88,
+          "text": "when",
+          "startTime": 63.322615,
+          "endTime": 63.58922
+        },
+        {
+          "id": 89,
+          "text": "not",
+          "startTime": 63.58922,
+          "endTime": 63.853373
+        },
+        {
+          "id": 90,
+          "text": "looking",
+          "startTime": 63.853373,
+          "endTime": 64.791422
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "paragraph": "there is more to see",
+      "startTime": 64.791422,
+      "endTime": 66.92334,
+      "words": [
+        {
+          "id": 91,
+          "text": "there",
+          "startTime": 64.791422,
+          "endTime": 65.054583
+        },
+        {
+          "id": 92,
+          "text": "is",
+          "startTime": 65.054583,
+          "endTime": 65.257072
+        },
+        {
+          "id": 93,
+          "text": "more",
+          "startTime": 65.257072,
+          "endTime": 65.726132
+        },
+        {
+          "id": 94,
+          "text": "to",
+          "startTime": 65.726132,
+          "endTime": 65.917952
+        },
+        {
+          "id": 95,
+          "text": "see",
+          "startTime": 65.917952,
+          "endTime": 66.92334
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "paragraph": "oh, the things I’d teach",
+      "startTime": 66.92334,
+      "endTime": 70.114979,
+      "words": [
+        {
+          "id": 96,
+          "text": "oh,",
+          "startTime": 66.92334,
+          "endTime": 68.053213
+        },
+        {
+          "id": 97,
+          "text": "the",
+          "startTime": 68.053213,
+          "endTime": 68.256237
+        },
+        {
+          "id": 98,
+          "text": "things",
+          "startTime": 68.256237,
+          "endTime": 68.585112
+        },
+        {
+          "id": 99,
+          "text": "I’d",
+          "startTime": 68.585112,
+          "endTime": 68.855479
+        },
+        {
+          "id": 100,
+          "text": "teach",
+          "startTime": 68.855479,
+          "endTime": 70.114979
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "paragraph": "you shouldn’t flinch",
+      "startTime": 70.114979,
+      "endTime": 72.644691,
+      "words": [
+        {
+          "id": 101,
+          "text": "you",
+          "startTime": 70.114979,
+          "endTime": 71.04756
+        },
+        {
+          "id": 102,
+          "text": "shouldn’t",
+          "startTime": 71.04756,
+          "endTime": 71.509941
+        },
+        {
+          "id": 103,
+          "text": "flinch",
+          "startTime": 71.509941,
+          "endTime": 72.644691
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "paragraph": "life is a beach",
+      "startTime": 72.644691,
+      "endTime": 75.661224,
+      "words": [
+        {
+          "id": 104,
+          "text": "life",
+          "startTime": 72.644691,
+          "endTime": 74.112865
+        },
+        {
+          "id": 105,
+          "text": "is",
+          "startTime": 74.112865,
+          "endTime": 74.245948
+        },
+        {
+          "id": 106,
+          "text": "a",
+          "startTime": 74.245948,
+          "endTime": 74.444178
+        },
+        {
+          "id": 107,
+          "text": "beach",
+          "startTime": 74.444178,
+          "endTime": 75.661224
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "paragraph": "not a big wish",
+      "startTime": 75.661224,
+      "endTime": 77.733304,
+      "words": [
+        {
+          "id": 108,
+          "text": "not",
+          "startTime": 75.661224,
+          "endTime": 76.394523
+        },
+        {
+          "id": 109,
+          "text": "a",
+          "startTime": 76.394523,
+          "endTime": 76.525248
+        },
+        {
+          "id": 110,
+          "text": "big",
+          "startTime": 76.525248,
+          "endTime": 76.866763
+        },
+        {
+          "id": 111,
+          "text": "wish",
+          "startTime": 76.866763,
+          "endTime": 77.733304
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "paragraph": "an ocean at least",
+      "startTime": 77.733304,
+      "endTime": 80.676782,
+      "words": [
+        {
+          "id": 112,
+          "text": "an",
+          "startTime": 77.733304,
+          "endTime": 78.40443
+        },
+        {
+          "id": 113,
+          "text": "ocean",
+          "startTime": 78.40443,
+          "endTime": 79.070771
+        },
+        {
+          "id": 114,
+          "text": "at",
+          "startTime": 79.070771,
+          "endTime": 79.269034
+        },
+        {
+          "id": 115,
+          "text": "least",
+          "startTime": 79.269034,
+          "endTime": 80.676782
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "paragraph": "tides never ending",
+      "startTime": 80.676782,
+      "endTime": 82.678331,
+      "words": [
+        {
+          "id": 116,
+          "text": "tides",
+          "startTime": 80.676782,
+          "endTime": 81.280575
+        },
+        {
+          "id": 117,
+          "text": "never",
+          "startTime": 81.280575,
+          "endTime": 81.751689
+        },
+        {
+          "id": 118,
+          "text": "ending",
+          "startTime": 81.751689,
+          "endTime": 82.678331
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "paragraph": "our riles don’t win",
+      "startTime": 82.678331,
+      "endTime": 86.425375,
+      "words": [
+        {
+          "id": 119,
+          "text": "our",
+          "startTime": 82.678331,
+          "endTime": 84.559488
+        },
+        {
+          "id": 120,
+          "text": "riles",
+          "startTime": 84.559488,
+          "endTime": 85.02719
+        },
+        {
+          "id": 121,
+          "text": "don’t",
+          "startTime": 85.02719,
+          "endTime": 85.495763
+        },
+        {
+          "id": 122,
+          "text": "win",
+          "startTime": 85.495763,
+          "endTime": 86.425375
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "paragraph": "who takes it gently",
+      "startTime": 86.425375,
+      "endTime": 89.615008,
+      "words": [
+        {
+          "id": 123,
+          "text": "who",
+          "startTime": 86.425375,
+          "endTime": 87.35114
+        },
+        {
+          "id": 124,
+          "text": "takes",
+          "startTime": 87.35114,
+          "endTime": 87.616238
+        },
+        {
+          "id": 125,
+          "text": "it",
+          "startTime": 87.616238,
+          "endTime": 87.879697
+        },
+        {
+          "id": 126,
+          "text": "gently",
+          "startTime": 87.879697,
+          "endTime": 89.615008
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "paragraph": "whose: what’s between?",
+      "startTime": 89.615008,
+      "endTime": 92.632013,
+      "words": [
+        {
+          "id": 127,
+          "text": "whose:",
+          "startTime": 89.615008,
+          "endTime": 90.819847
+        },
+        {
+          "id": 128,
+          "text": "what’s",
+          "startTime": 90.819847,
+          "endTime": 91.091742
+        },
+        {
+          "id": 129,
+          "text": "between?",
+          "startTime": 91.091742,
+          "endTime": 92.632013
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "paragraph": "has been, is having it",
+      "startTime": 92.632013,
+      "endTime": 96.354097,
+      "words": [
+        {
+          "id": 130,
+          "text": "has",
+          "startTime": 92.632013,
+          "endTime": 93.968682
+        },
+        {
+          "id": 131,
+          "text": "been,",
+          "startTime": 93.968682,
+          "endTime": 95.092991
+        },
+        {
+          "id": 132,
+          "text": "is",
+          "startTime": 95.092991,
+          "endTime": 95.227639
+        },
+        {
+          "id": 133,
+          "text": "having",
+          "startTime": 95.227639,
+          "endTime": 95.626672
+        },
+        {
+          "id": 134,
+          "text": "it",
+          "startTime": 95.626672,
+          "endTime": 96.354097
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "paragraph": "these curtains lead . . .",
+      "startTime": 96.354097,
+      "endTime": 99.759955,
+      "words": [
+        {
+          "id": 135,
+          "text": "these",
+          "startTime": 96.354097,
+          "endTime": 97.56038
+        },
+        {
+          "id": 136,
+          "text": "curtains",
+          "startTime": 97.56038,
+          "endTime": 98.091897
+        },
+        {
+          "id": 137,
+          "text": "lead",
+          "startTime": 98.091897,
+          "endTime": 98.291785
+        },
+        {
+          "id": 138,
+          "text": ".",
+          "startTime": 98.291785,
+          "endTime": 98.419782
+        },
+        {
+          "id": 139,
+          "text": ".",
+          "startTime": 98.419782,
+          "endTime": 98.621349
+        },
+        {
+          "id": 140,
+          "text": ".",
+          "startTime": 98.621349,
+          "endTime": 99.759955
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "paragraph": "son, always breathe",
+      "startTime": 99.759955,
+      "endTime": 103.019655,
+      "words": [
+        {
+          "id": 141,
+          "text": "son,",
+          "startTime": 99.759955,
+          "endTime": 101.224987
+        },
+        {
+          "id": 142,
+          "text": "always",
+          "startTime": 101.224987,
+          "endTime": 101.687211
+        },
+        {
+          "id": 143,
+          "text": "breathe",
+          "startTime": 101.687211,
+          "endTime": 103.019655
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "paragraph": "have you a darling",
+      "startTime": 103.019655,
+      "endTime": 106.038089,
+      "words": [
+        {
+          "id": 144,
+          "text": "have",
+          "startTime": 103.019655,
+          "endTime": 104.102539
+        },
+        {
+          "id": 145,
+          "text": "you",
+          "startTime": 104.102539,
+          "endTime": 104.300101
+        },
+        {
+          "id": 146,
+          "text": "a",
+          "startTime": 104.300101,
+          "endTime": 104.501012
+        },
+        {
+          "id": 147,
+          "text": "darling",
+          "startTime": 104.501012,
+          "endTime": 106.038089
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "paragraph": "drop the paddings",
+      "startTime": 106.038089,
+      "endTime": 108.028158,
+      "words": [
+        {
+          "id": 148,
+          "text": "drop",
+          "startTime": 106.038089,
+          "endTime": 106.50348
+        },
+        {
+          "id": 149,
+          "text": "the",
+          "startTime": 106.50348,
+          "endTime": 106.632418
+        },
+        {
+          "id": 150,
+          "text": "paddings",
+          "startTime": 106.632418,
+          "endTime": 108.028158
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "paragraph": "take in the party",
+      "startTime": 108.028158,
+      "endTime": 110.427777,
+      "words": [
+        {
+          "id": 151,
+          "text": "take",
+          "startTime": 108.028158,
+          "endTime": 108.827277
+        },
+        {
+          "id": 152,
+          "text": "in",
+          "startTime": 108.827277,
+          "endTime": 108.960581
+        },
+        {
+          "id": 153,
+          "text": "the",
+          "startTime": 108.960581,
+          "endTime": 109.09692
+        },
+        {
+          "id": 154,
+          "text": "party",
+          "startTime": 109.09692,
+          "endTime": 110.427777
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "paragraph": "the lorn for departing",
+      "startTime": 110.427777,
+      "endTime": 113.561807,
+      "words": [
+        {
+          "id": 155,
+          "text": "the",
+          "startTime": 110.427777,
+          "endTime": 110.961922
+        },
+        {
+          "id": 156,
+          "text": "lorn",
+          "startTime": 110.961922,
+          "endTime": 111.892572
+        },
+        {
+          "id": 157,
+          "text": "for",
+          "startTime": 111.892572,
+          "endTime": 112.159014
+        },
+        {
+          "id": 158,
+          "text": "departing",
+          "startTime": 112.159014,
+          "endTime": 113.561807
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "paragraph": "I’m not all the beat",
+      "startTime": 113.561807,
+      "endTime": 116.490627,
+      "words": [
+        {
+          "id": 159,
+          "text": "I’m",
+          "startTime": 113.561807,
+          "endTime": 114.693618
+        },
+        {
+          "id": 160,
+          "text": "not",
+          "startTime": 114.693618,
+          "endTime": 114.896483
+        },
+        {
+          "id": 161,
+          "text": "all",
+          "startTime": 114.896483,
+          "endTime": 115.228376
+        },
+        {
+          "id": 162,
+          "text": "the",
+          "startTime": 115.228376,
+          "endTime": 115.429833
+        },
+        {
+          "id": 163,
+          "text": "beat",
+          "startTime": 115.429833,
+          "endTime": 116.490627
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "paragraph": "so much more to receive",
+      "startTime": 116.490627,
+      "endTime": 119.435399,
+      "words": [
+        {
+          "id": 164,
+          "text": "so",
+          "startTime": 116.490627,
+          "endTime": 117.295122
+        },
+        {
+          "id": 165,
+          "text": "much",
+          "startTime": 117.295122,
+          "endTime": 117.622639
+        },
+        {
+          "id": 166,
+          "text": "more",
+          "startTime": 117.622639,
+          "endTime": 118.020482
+        },
+        {
+          "id": 167,
+          "text": "to",
+          "startTime": 118.020482,
+          "endTime": 118.224809
+        },
+        {
+          "id": 168,
+          "text": "receive",
+          "startTime": 118.224809,
+          "endTime": 119.435399
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "paragraph": "there are kisses",
+      "startTime": 119.435399,
+      "endTime": 122.161866,
+      "words": [
+        {
+          "id": 169,
+          "text": "there",
+          "startTime": 119.435399,
+          "endTime": 120.364193
+        },
+        {
+          "id": 170,
+          "text": "are",
+          "startTime": 120.364193,
+          "endTime": 120.702368
+        },
+        {
+          "id": 171,
+          "text": "kisses",
+          "startTime": 120.702368,
+          "endTime": 122.161866
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "paragraph": "thoughts to empty",
+      "startTime": 122.161866,
+      "endTime": 124.288245,
+      "words": [
+        {
+          "id": 172,
+          "text": "thoughts",
+          "startTime": 122.161866,
+          "endTime": 122.761832
+        },
+        {
+          "id": 173,
+          "text": "to",
+          "startTime": 122.761832,
+          "endTime": 123.094971
+        },
+        {
+          "id": 174,
+          "text": "empty",
+          "startTime": 123.094971,
+          "endTime": 124.288245
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "paragraph": "in sharing umpteen.",
+      "startTime": 124.288245,
+      "endTime": 127.426601,
+      "words": [
+        {
+          "id": 175,
+          "text": "in",
+          "startTime": 124.288245,
+          "endTime": 124.830982
+        },
+        {
+          "id": 176,
+          "text": "sharing",
+          "startTime": 124.830982,
+          "endTime": 125.361686
+        },
+        {
+          "id": 177,
+          "text": "umpteen.",
+          "startTime": 125.361686,
+          "endTime": 127.426601
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "paragraph": "I have a feeling",
+      "startTime": 127.426601,
+      "endTime": 130.217734,
+      "words": [
+        {
+          "id": 178,
+          "text": "I",
+          "startTime": 127.426601,
+          "endTime": 128.956651
+        },
+        {
+          "id": 179,
+          "text": "have",
+          "startTime": 128.956651,
+          "endTime": 129.154338
+        },
+        {
+          "id": 180,
+          "text": "a",
+          "startTime": 129.154338,
+          "endTime": 129.283047
+        },
+        {
+          "id": 181,
+          "text": "feeling",
+          "startTime": 129.283047,
+          "endTime": 130.217734
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "paragraph": "at home it’s dwindling",
+      "startTime": 130.217734,
+      "endTime": 134.161478,
+      "words": [
+        {
+          "id": 182,
+          "text": "at",
+          "startTime": 130.217734,
+          "endTime": 131.616514
+        },
+        {
+          "id": 183,
+          "text": "home",
+          "startTime": 131.616514,
+          "endTime": 132.485413
+        },
+        {
+          "id": 184,
+          "text": "it’s",
+          "startTime": 132.485413,
+          "endTime": 132.755404
+        },
+        {
+          "id": 185,
+          "text": "dwindling",
+          "startTime": 132.755404,
+          "endTime": 134.161478
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "paragraph": "it’s one not to believe",
+      "startTime": 134.161478,
+      "endTime": 137.3596,
+      "words": [
+        {
+          "id": 186,
+          "text": "it’s",
+          "startTime": 134.161478,
+          "endTime": 135.356447
+        },
+        {
+          "id": 187,
+          "text": "one",
+          "startTime": 135.356447,
+          "endTime": 135.689751
+        },
+        {
+          "id": 188,
+          "text": "not",
+          "startTime": 135.689751,
+          "endTime": 135.889291
+        },
+        {
+          "id": 189,
+          "text": "to",
+          "startTime": 135.889291,
+          "endTime": 136.030057
+        },
+        {
+          "id": 190,
+          "text": "believe",
+          "startTime": 136.030057,
+          "endTime": 137.3596
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "paragraph": "by my age, I’ll give",
+      "startTime": 137.3596,
+      "endTime": 141.11378,
+      "words": [
+        {
+          "id": 191,
+          "text": "by",
+          "startTime": 137.3596,
+          "endTime": 138.375054
+        },
+        {
+          "id": 192,
+          "text": "my",
+          "startTime": 138.375054,
+          "endTime": 138.507222
+        },
+        {
+          "id": 193,
+          "text": "age,",
+          "startTime": 138.507222,
+          "endTime": 139.580572
+        },
+        {
+          "id": 194,
+          "text": "I’ll",
+          "startTime": 139.580572,
+          "endTime": 140.043992
+        },
+        {
+          "id": 195,
+          "text": "give",
+          "startTime": 140.043992,
+          "endTime": 141.11378
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "paragraph": "of my sex, the spin",
+      "startTime": 141.11378,
+      "endTime": 144.43435,
+      "words": [
+        {
+          "id": 196,
+          "text": "of",
+          "startTime": 141.11378,
+          "endTime": 141.447355
+        },
+        {
+          "id": 197,
+          "text": "my",
+          "startTime": 141.447355,
+          "endTime": 141.645806
+        },
+        {
+          "id": 198,
+          "text": "sex,",
+          "startTime": 141.645806,
+          "endTime": 142.780792
+        },
+        {
+          "id": 199,
+          "text": "the",
+          "startTime": 142.780792,
+          "endTime": 142.97883
+        },
+        {
+          "id": 200,
+          "text": "spin",
+          "startTime": 142.97883,
+          "endTime": 144.43435
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "paragraph": "who’ll fetch the sheeve?",
+      "startTime": 144.43435,
+      "endTime": 147.231683,
+      "words": [
+        {
+          "id": 201,
+          "text": "who’ll",
+          "startTime": 144.43435,
+          "endTime": 145.37446
+        },
+        {
+          "id": 202,
+          "text": "fetch",
+          "startTime": 145.37446,
+          "endTime": 145.770548
+        },
+        {
+          "id": 203,
+          "text": "the",
+          "startTime": 145.770548,
+          "endTime": 146.036466
+        },
+        {
+          "id": 204,
+          "text": "sheeve?",
+          "startTime": 146.036466,
+          "endTime": 147.231683
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "paragraph": "show me off as peevish",
+      "startTime": 147.231683,
+      "endTime": 150.638669,
+      "words": [
+        {
+          "id": 205,
+          "text": "show",
+          "startTime": 147.231683,
+          "endTime": 148.175156
+        },
+        {
+          "id": 206,
+          "text": "me",
+          "startTime": 148.175156,
+          "endTime": 148.37113
+        },
+        {
+          "id": 207,
+          "text": "off",
+          "startTime": 148.37113,
+          "endTime": 149.235845
+        },
+        {
+          "id": 208,
+          "text": "as",
+          "startTime": 149.235845,
+          "endTime": 149.567455
+        },
+        {
+          "id": 209,
+          "text": "peevish",
+          "startTime": 149.567455,
+          "endTime": 150.638669
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "paragraph": "of the shun, I got feverish",
+      "startTime": 150.638669,
+      "endTime": 156.034766,
+      "words": [
+        {
+          "id": 210,
+          "text": "of",
+          "startTime": 150.638669,
+          "endTime": 151.90183
+        },
+        {
+          "id": 211,
+          "text": "the",
+          "startTime": 151.90183,
+          "endTime": 152.102979
+        },
+        {
+          "id": 212,
+          "text": "shun,",
+          "startTime": 152.102979,
+          "endTime": 153.104324
+        },
+        {
+          "id": 213,
+          "text": "I",
+          "startTime": 153.104324,
+          "endTime": 153.566502
+        },
+        {
+          "id": 214,
+          "text": "got",
+          "startTime": 153.566502,
+          "endTime": 154.638922
+        },
+        {
+          "id": 215,
+          "text": "feverish",
+          "startTime": 154.638922,
+          "endTime": 156.034766
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "paragraph": "and make me some tea",
+      "startTime": 156.034766,
+      "endTime": 158.693169,
+      "words": [
+        {
+          "id": 216,
+          "text": "and",
+          "startTime": 156.034766,
+          "endTime": 156.698531
+        },
+        {
+          "id": 217,
+          "text": "make",
+          "startTime": 156.698531,
+          "endTime": 157.03033
+        },
+        {
+          "id": 218,
+          "text": "me",
+          "startTime": 157.03033,
+          "endTime": 157.364166
+        },
+        {
+          "id": 219,
+          "text": "some",
+          "startTime": 157.364166,
+          "endTime": 157.627967
+        },
+        {
+          "id": 220,
+          "text": "tea",
+          "startTime": 157.627967,
+          "endTime": 158.693169
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "paragraph": "as you’d save a tree",
+      "startTime": 158.693169,
+      "endTime": 160.888036,
+      "words": [
+        {
+          "id": 221,
+          "text": "as",
+          "startTime": 158.693169,
+          "endTime": 158.957412
+        },
+        {
+          "id": 222,
+          "text": "you’d",
+          "startTime": 158.957412,
+          "endTime": 159.157073
+        },
+        {
+          "id": 223,
+          "text": "save",
+          "startTime": 159.157073,
+          "endTime": 159.551998
+        },
+        {
+          "id": 224,
+          "text": "a",
+          "startTime": 159.551998,
+          "endTime": 159.686062
+        },
+        {
+          "id": 225,
+          "text": "tree",
+          "startTime": 159.686062,
+          "endTime": 160.888036
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "paragraph": "in the shady, virtue signalling",
+      "startTime": 160.888036,
+      "endTime": 166.072907,
+      "words": [
+        {
+          "id": 226,
+          "text": "in",
+          "startTime": 160.888036,
+          "endTime": 162.146025
+        },
+        {
+          "id": 227,
+          "text": "the",
+          "startTime": 162.146025,
+          "endTime": 162.342064
+        },
+        {
+          "id": 228,
+          "text": "shady,",
+          "startTime": 162.342064,
+          "endTime": 164.073797
+        },
+        {
+          "id": 229,
+          "text": "virtue",
+          "startTime": 164.073797,
+          "endTime": 164.405666
+        },
+        {
+          "id": 230,
+          "text": "signalling",
+          "startTime": 164.405666,
+          "endTime": 166.072907
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "paragraph": "of my dreams that are real",
+      "startTime": 166.072907,
+      "endTime": 169.205403,
+      "words": [
+        {
+          "id": 231,
+          "text": "of",
+          "startTime": 166.072907,
+          "endTime": 167.00311
+        },
+        {
+          "id": 232,
+          "text": "my",
+          "startTime": 167.00311,
+          "endTime": 167.263324
+        },
+        {
+          "id": 233,
+          "text": "dreams",
+          "startTime": 167.263324,
+          "endTime": 167.733251
+        },
+        {
+          "id": 234,
+          "text": "that",
+          "startTime": 167.733251,
+          "endTime": 167.866225
+        },
+        {
+          "id": 235,
+          "text": "are",
+          "startTime": 167.866225,
+          "endTime": 168.128935
+        },
+        {
+          "id": 236,
+          "text": "real",
+          "startTime": 168.128935,
+          "endTime": 169.205403
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "paragraph": "one is at ease",
+      "startTime": 169.205403,
+      "endTime": 171.484599,
+      "words": [
+        {
+          "id": 237,
+          "text": "one",
+          "startTime": 169.205403,
+          "endTime": 169.46741
+        },
+        {
+          "id": 238,
+          "text": "is",
+          "startTime": 169.46741,
+          "endTime": 169.669344
+        },
+        {
+          "id": 239,
+          "text": "at",
+          "startTime": 169.669344,
+          "endTime": 169.934168
+        },
+        {
+          "id": 240,
+          "text": "ease",
+          "startTime": 169.934168,
+          "endTime": 171.484599
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "paragraph": "it is my fathering",
+      "startTime": 171.484599,
+      "endTime": 174.087421,
+      "words": [
+        {
+          "id": 241,
+          "text": "it",
+          "startTime": 171.484599,
+          "endTime": 172.084121
+        },
+        {
+          "id": 242,
+          "text": "is",
+          "startTime": 172.084121,
+          "endTime": 172.283883
+        },
+        {
+          "id": 243,
+          "text": "my",
+          "startTime": 172.283883,
+          "endTime": 172.555654
+        },
+        {
+          "id": 244,
+          "text": "fathering",
+          "startTime": 172.555654,
+          "endTime": 174.087421
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "paragraph": "my new family",
+      "startTime": 174.087421,
+      "endTime": 176.223209,
+      "words": [
+        {
+          "id": 245,
+          "text": "my",
+          "startTime": 174.087421,
+          "endTime": 174.35952
+        },
+        {
+          "id": 246,
+          "text": "new",
+          "startTime": 174.35952,
+          "endTime": 174.887532
+        },
+        {
+          "id": 247,
+          "text": "family",
+          "startTime": 174.887532,
+          "endTime": 176.223209
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "paragraph": "along in the film",
+      "startTime": 176.223209,
+      "endTime": 179.287498,
+      "words": [
+        {
+          "id": 248,
+          "text": "along",
+          "startTime": 176.223209,
+          "endTime": 177.622897
+        },
+        {
+          "id": 249,
+          "text": "in",
+          "startTime": 177.622897,
+          "endTime": 177.826032
+        },
+        {
+          "id": 250,
+          "text": "the",
+          "startTime": 177.826032,
+          "endTime": 178.153501
+        },
+        {
+          "id": 251,
+          "text": "film",
+          "startTime": 178.153501,
+          "endTime": 179.287498
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "paragraph": "I got a new script",
+      "startTime": 179.287498,
+      "endTime": 181.213916,
+      "words": [
+        {
+          "id": 252,
+          "text": "I",
+          "startTime": 179.287498,
+          "endTime": 179.552125
+        },
+        {
+          "id": 253,
+          "text": "got",
+          "startTime": 179.552125,
+          "endTime": 179.751691
+        },
+        {
+          "id": 254,
+          "text": "a",
+          "startTime": 179.751691,
+          "endTime": 179.886418
+        },
+        {
+          "id": 255,
+          "text": "new",
+          "startTime": 179.886418,
+          "endTime": 180.148732
+        },
+        {
+          "id": 256,
+          "text": "script",
+          "startTime": 180.148732,
+          "endTime": 181.213916
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "paragraph": "with all things",
+      "startTime": 181.213916,
+      "endTime": 183.343117,
+      "words": [
+        {
+          "id": 257,
+          "text": "with",
+          "startTime": 181.213916,
+          "endTime": 181.882743
+        },
+        {
+          "id": 258,
+          "text": "all",
+          "startTime": 181.882743,
+          "endTime": 182.282945
+        },
+        {
+          "id": 259,
+          "text": "things",
+          "startTime": 182.282945,
+          "endTime": 183.343117
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "paragraph": "just as they seemed",
+      "startTime": 183.343117,
+      "endTime": 185.674861,
+      "words": [
+        {
+          "id": 260,
+          "text": "just",
+          "startTime": 183.343117,
+          "endTime": 183.87658
+        },
+        {
+          "id": 261,
+          "text": "as",
+          "startTime": 183.87658,
+          "endTime": 184.406899
+        },
+        {
+          "id": 262,
+          "text": "they",
+          "startTime": 184.406899,
+          "endTime": 184.736048
+        },
+        {
+          "id": 263,
+          "text": "seemed",
+          "startTime": 184.736048,
+          "endTime": 185.674861
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "paragraph": "with everything, loving",
+      "startTime": 185.674861,
+      "endTime": 189.745871,
+      "words": [
+        {
+          "id": 264,
+          "text": "with",
+          "startTime": 185.674861,
+          "endTime": 187.136447
+        },
+        {
+          "id": 265,
+          "text": "everything,",
+          "startTime": 187.136447,
+          "endTime": 188.210089
+        },
+        {
+          "id": 266,
+          "text": "loving",
+          "startTime": 188.210089,
+          "endTime": 189.745871
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "paragraph": "and none, beguiling",
+      "startTime": 189.745871,
+      "endTime": 193.031213,
+      "words": [
+        {
+          "id": 267,
+          "text": "and",
+          "startTime": 189.745871,
+          "endTime": 190.415159
+        },
+        {
+          "id": 268,
+          "text": "none,",
+          "startTime": 190.415159,
+          "endTime": 191.35638
+        },
+        {
+          "id": 269,
+          "text": "beguiling",
+          "startTime": 191.35638,
+          "endTime": 193.031213
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "paragraph": "this is where I have been",
+      "startTime": 193.031213,
+      "endTime": 196.481469,
+      "words": [
+        {
+          "id": 270,
+          "text": "this",
+          "startTime": 193.031213,
+          "endTime": 194.691365
+        },
+        {
+          "id": 271,
+          "text": "is",
+          "startTime": 194.691365,
+          "endTime": 194.961309
+        },
+        {
+          "id": 272,
+          "text": "where",
+          "startTime": 194.961309,
+          "endTime": 195.223038
+        },
+        {
+          "id": 273,
+          "text": "I",
+          "startTime": 195.223038,
+          "endTime": 195.290155
+        },
+        {
+          "id": 274,
+          "text": "have",
+          "startTime": 195.290155,
+          "endTime": 195.620452
+        },
+        {
+          "id": 275,
+          "text": "been",
+          "startTime": 195.620452,
+          "endTime": 196.481469
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "paragraph": "with what’s on my mind freed",
+      "startTime": 196.481469,
+      "endTime": 200.296436,
+      "words": [
+        {
+          "id": 276,
+          "text": "with",
+          "startTime": 196.481469,
+          "endTime": 197.421879
+        },
+        {
+          "id": 277,
+          "text": "what’s",
+          "startTime": 197.421879,
+          "endTime": 197.886132
+        },
+        {
+          "id": 278,
+          "text": "on",
+          "startTime": 197.886132,
+          "endTime": 198.019985
+        },
+        {
+          "id": 279,
+          "text": "my",
+          "startTime": 198.019985,
+          "endTime": 198.219661
+        },
+        {
+          "id": 280,
+          "text": "mind",
+          "startTime": 198.219661,
+          "endTime": 198.883266
+        },
+        {
+          "id": 281,
+          "text": "freed",
+          "startTime": 198.883266,
+          "endTime": 200.296436
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "paragraph": "just how you do friendship",
+      "startTime": 200.296436,
+      "endTime": 203.230289,
+      "words": [
+        {
+          "id": 282,
+          "text": "just",
+          "startTime": 200.296436,
+          "endTime": 201.094641
+        },
+        {
+          "id": 283,
+          "text": "how",
+          "startTime": 201.094641,
+          "endTime": 201.359879
+        },
+        {
+          "id": 284,
+          "text": "you",
+          "startTime": 201.359879,
+          "endTime": 201.555937
+        },
+        {
+          "id": 285,
+          "text": "do",
+          "startTime": 201.555937,
+          "endTime": 201.954103
+        },
+        {
+          "id": 286,
+          "text": "friendship",
+          "startTime": 201.954103,
+          "endTime": 203.230289
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "paragraph": "I’m doing real learning",
+      "startTime": 203.230289,
+      "endTime": 206.889242,
+      "words": [
+        {
+          "id": 287,
+          "text": "I’m",
+          "startTime": 203.230289,
+          "endTime": 204.690091
+        },
+        {
+          "id": 288,
+          "text": "doing",
+          "startTime": 204.690091,
+          "endTime": 205.088068
+        },
+        {
+          "id": 289,
+          "text": "real",
+          "startTime": 205.088068,
+          "endTime": 205.419962
+        },
+        {
+          "id": 290,
+          "text": "learning",
+          "startTime": 205.419962,
+          "endTime": 206.889242
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "paragraph": "where you’ll find my daddy",
+      "startTime": 206.889242,
+      "endTime": 208.744614,
+      "words": [
+        {
+          "id": 291,
+          "text": "where",
+          "startTime": 206.889242,
+          "endTime": 207.017187
+        },
+        {
+          "id": 292,
+          "text": "you’ll",
+          "startTime": 207.017187,
+          "endTime": 207.289498
+        },
+        {
+          "id": 293,
+          "text": "find",
+          "startTime": 207.289498,
+          "endTime": 207.483726
+        },
+        {
+          "id": 294,
+          "text": "my",
+          "startTime": 207.483726,
+          "endTime": 207.750599
+        },
+        {
+          "id": 295,
+          "text": "daddy",
+          "startTime": 207.750599,
+          "endTime": 208.744614
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "paragraph": "it’s simple, a breeze",
+      "startTime": 208.744614,
+      "endTime": 212.408552,
+      "words": [
+        {
+          "id": 296,
+          "text": "it’s",
+          "startTime": 208.744614,
+          "endTime": 209.877606
+        },
+        {
+          "id": 297,
+          "text": "simple,",
+          "startTime": 209.877606,
+          "endTime": 211.271232
+        },
+        {
+          "id": 298,
+          "text": "a",
+          "startTime": 211.271232,
+          "endTime": 211.469167
+        },
+        {
+          "id": 299,
+          "text": "breeze",
+          "startTime": 211.469167,
+          "endTime": 212.408552
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "paragraph": "as a Father’s Day’s reverie.",
+      "startTime": 212.408552,
+      "endTime": 217.333859,
+      "words": [
+        {
+          "id": 300,
+          "text": "as",
+          "startTime": 212.408552,
+          "endTime": 213.069934
+        },
+        {
+          "id": 301,
+          "text": "a",
+          "startTime": 213.069934,
+          "endTime": 213.207065
+        },
+        {
+          "id": 302,
+          "text": "Father’s",
+          "startTime": 213.207065,
+          "endTime": 213.869602
+        },
+        {
+          "id": 303,
+          "text": "Day’s",
+          "startTime": 213.869602,
+          "endTime": 215.333859
+        },
+        {
+          "id": 304,
+          "text": "reverie.",
+          "startTime": 215.333859,
+          "endTime": 217.333859
+        }
+      ]
+    }
+  ]
+}

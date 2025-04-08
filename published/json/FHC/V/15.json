@@ -1,0 +1,366 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I’ve had wholly-high oughts",
+      "startTime": 4.596005,
+      "endTime": 7.915158,
+      "words": [
+        {
+          "id": 1,
+          "text": "I’ve",
+          "startTime": 4.596005,
+          "endTime": 5.922524
+        },
+        {
+          "id": 2,
+          "text": "had",
+          "startTime": 5.922524,
+          "endTime": 6.185994
+        },
+        {
+          "id": 3,
+          "text": "wholly-high",
+          "startTime": 6.185994,
+          "endTime": 6.853936
+        },
+        {
+          "id": 4,
+          "text": "oughts",
+          "startTime": 6.853936,
+          "endTime": 7.915158
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "painstaking towards rewards",
+      "startTime": 7.915158,
+      "endTime": 12.562487,
+      "words": [
+        {
+          "id": 5,
+          "text": "painstaking",
+          "startTime": 7.915158,
+          "endTime": 10.100784
+        },
+        {
+          "id": 6,
+          "text": "towards",
+          "startTime": 10.100784,
+          "endTime": 11.037382
+        },
+        {
+          "id": 7,
+          "text": "rewards",
+          "startTime": 11.037382,
+          "endTime": 12.562487
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "comings of dispossessing ruts",
+      "startTime": 12.562487,
+      "endTime": 16.810361,
+      "words": [
+        {
+          "id": 8,
+          "text": "comings",
+          "startTime": 12.562487,
+          "endTime": 14.554182
+        },
+        {
+          "id": 9,
+          "text": "of",
+          "startTime": 14.554182,
+          "endTime": 14.754046
+        },
+        {
+          "id": 10,
+          "text": "dispossessing",
+          "startTime": 14.754046,
+          "endTime": 15.618645
+        },
+        {
+          "id": 11,
+          "text": "ruts",
+          "startTime": 15.618645,
+          "endTime": 16.810361
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "avid dints in air, caught short.",
+      "startTime": 16.810361,
+      "endTime": 21.721035,
+      "words": [
+        {
+          "id": 12,
+          "text": "avid",
+          "startTime": 16.810361,
+          "endTime": 18.010752
+        },
+        {
+          "id": 13,
+          "text": "dints",
+          "startTime": 18.010752,
+          "endTime": 18.673691
+        },
+        {
+          "id": 14,
+          "text": "in",
+          "startTime": 18.673691,
+          "endTime": 18.806238
+        },
+        {
+          "id": 15,
+          "text": "air,",
+          "startTime": 18.806238,
+          "endTime": 19.734644
+        },
+        {
+          "id": 16,
+          "text": "caught",
+          "startTime": 19.734644,
+          "endTime": 20.198745
+        },
+        {
+          "id": 17,
+          "text": "short.",
+          "startTime": 20.198745,
+          "endTime": 21.721035
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "In taking what isn’t yours",
+      "startTime": 21.721035,
+      "endTime": 25.845401,
+      "words": [
+        {
+          "id": 18,
+          "text": "In",
+          "startTime": 21.721035,
+          "endTime": 23.121829
+        },
+        {
+          "id": 19,
+          "text": "taking",
+          "startTime": 23.121829,
+          "endTime": 23.5857
+        },
+        {
+          "id": 20,
+          "text": "what",
+          "startTime": 23.5857,
+          "endTime": 23.917946
+        },
+        {
+          "id": 21,
+          "text": "isn’t",
+          "startTime": 23.917946,
+          "endTime": 24.247345
+        },
+        {
+          "id": 22,
+          "text": "yours",
+          "startTime": 24.247345,
+          "endTime": 25.845401
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "have a fade implore its course",
+      "startTime": 25.845401,
+      "endTime": 29.229257,
+      "words": [
+        {
+          "id": 23,
+          "text": "have",
+          "startTime": 25.845401,
+          "endTime": 26.376598
+        },
+        {
+          "id": 24,
+          "text": "a",
+          "startTime": 26.376598,
+          "endTime": 26.575467
+        },
+        {
+          "id": 25,
+          "text": "fade",
+          "startTime": 26.575467,
+          "endTime": 27.037651
+        },
+        {
+          "id": 26,
+          "text": "implore",
+          "startTime": 27.037651,
+          "endTime": 27.438645
+        },
+        {
+          "id": 27,
+          "text": "its",
+          "startTime": 27.438645,
+          "endTime": 27.70214
+        },
+        {
+          "id": 28,
+          "text": "course",
+          "startTime": 27.70214,
+          "endTime": 29.229257
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "when we met the door",
+      "startTime": 29.229257,
+      "endTime": 31.751218,
+      "words": [
+        {
+          "id": 29,
+          "text": "when",
+          "startTime": 29.229257,
+          "endTime": 30.028062
+        },
+        {
+          "id": 30,
+          "text": "we",
+          "startTime": 30.028062,
+          "endTime": 30.227013
+        },
+        {
+          "id": 31,
+          "text": "met",
+          "startTime": 30.227013,
+          "endTime": 30.6245
+        },
+        {
+          "id": 32,
+          "text": "the",
+          "startTime": 30.6245,
+          "endTime": 30.759118
+        },
+        {
+          "id": 33,
+          "text": "door",
+          "startTime": 30.759118,
+          "endTime": 31.751218
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "odds were your cusp",
+      "startTime": 31.751218,
+      "endTime": 34.476558,
+      "words": [
+        {
+          "id": 34,
+          "text": "odds",
+          "startTime": 31.751218,
+          "endTime": 32.685816
+        },
+        {
+          "id": 35,
+          "text": "were",
+          "startTime": 32.685816,
+          "endTime": 32.88115
+        },
+        {
+          "id": 36,
+          "text": "your",
+          "startTime": 32.88115,
+          "endTime": 33.085399
+        },
+        {
+          "id": 37,
+          "text": "cusp",
+          "startTime": 33.085399,
+          "endTime": 34.476558
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "maybe a bit too tough",
+      "startTime": 34.476558,
+      "endTime": 38.19639,
+      "words": [
+        {
+          "id": 38,
+          "text": "maybe",
+          "startTime": 34.476558,
+          "endTime": 35.602048
+        },
+        {
+          "id": 39,
+          "text": "a",
+          "startTime": 35.602048,
+          "endTime": 35.805314
+        },
+        {
+          "id": 40,
+          "text": "bit",
+          "startTime": 35.805314,
+          "endTime": 36.072437
+        },
+        {
+          "id": 41,
+          "text": "too",
+          "startTime": 36.072437,
+          "endTime": 36.334054
+        },
+        {
+          "id": 42,
+          "text": "tough",
+          "startTime": 36.334054,
+          "endTime": 38.19639
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "in the end, what’s love?",
+      "startTime": 38.19639,
+      "endTime": 42.053793,
+      "words": [
+        {
+          "id": 43,
+          "text": "in",
+          "startTime": 38.19639,
+          "endTime": 38.328397
+        },
+        {
+          "id": 44,
+          "text": "the",
+          "startTime": 38.328397,
+          "endTime": 38.392272
+        },
+        {
+          "id": 45,
+          "text": "end,",
+          "startTime": 38.392272,
+          "endTime": 39.593073
+        },
+        {
+          "id": 46,
+          "text": "what’s",
+          "startTime": 39.593073,
+          "endTime": 40.053793
+        },
+        {
+          "id": 47,
+          "text": "love?",
+          "startTime": 40.053793,
+          "endTime": 42.053793
+        }
+      ]
+    }
+  ]
+}

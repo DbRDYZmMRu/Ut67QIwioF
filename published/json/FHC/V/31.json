@@ -1,0 +1,380 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "This place",
+      "startTime": 5.93773,
+      "endTime": 8.06317,
+      "words": [
+        {
+          "id": 1,
+          "text": "This",
+          "startTime": 5.93773,
+          "endTime": 7.067177
+        },
+        {
+          "id": 2,
+          "text": "place",
+          "startTime": 7.067177,
+          "endTime": 8.06317
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "its fleecing wait",
+      "startTime": 8.06317,
+      "endTime": 10.983671,
+      "words": [
+        {
+          "id": 3,
+          "text": "its",
+          "startTime": 8.06317,
+          "endTime": 9.258446
+        },
+        {
+          "id": 4,
+          "text": "fleecing",
+          "startTime": 9.258446,
+          "endTime": 9.787159
+        },
+        {
+          "id": 5,
+          "text": "wait",
+          "startTime": 9.787159,
+          "endTime": 10.983671
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "all of its gritty waste",
+      "startTime": 10.983671,
+      "endTime": 14.437353,
+      "words": [
+        {
+          "id": 6,
+          "text": "all",
+          "startTime": 10.983671,
+          "endTime": 12.116288
+        },
+        {
+          "id": 7,
+          "text": "of",
+          "startTime": 12.116288,
+          "endTime": 12.248242
+        },
+        {
+          "id": 8,
+          "text": "its",
+          "startTime": 12.248242,
+          "endTime": 12.57936
+        },
+        {
+          "id": 9,
+          "text": "gritty",
+          "startTime": 12.57936,
+          "endTime": 12.975074
+        },
+        {
+          "id": 10,
+          "text": "waste",
+          "startTime": 12.975074,
+          "endTime": 14.437353
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "dreams of your waist",
+      "startTime": 14.437353,
+      "endTime": 17.955729,
+      "words": [
+        {
+          "id": 11,
+          "text": "dreams",
+          "startTime": 14.437353,
+          "endTime": 16.09985
+        },
+        {
+          "id": 12,
+          "text": "of",
+          "startTime": 16.09985,
+          "endTime": 16.295473
+        },
+        {
+          "id": 13,
+          "text": "your",
+          "startTime": 16.295473,
+          "endTime": 16.56208
+        },
+        {
+          "id": 14,
+          "text": "waist",
+          "startTime": 16.56208,
+          "endTime": 17.955729
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "clips at my reaching grace",
+      "startTime": 17.955729,
+      "endTime": 21.808734,
+      "words": [
+        {
+          "id": 15,
+          "text": "clips",
+          "startTime": 17.955729,
+          "endTime": 19.155812
+        },
+        {
+          "id": 16,
+          "text": "at",
+          "startTime": 19.155812,
+          "endTime": 19.752858
+        },
+        {
+          "id": 17,
+          "text": "my",
+          "startTime": 19.752858,
+          "endTime": 19.950271
+        },
+        {
+          "id": 18,
+          "text": "reaching",
+          "startTime": 19.950271,
+          "endTime": 20.349163
+        },
+        {
+          "id": 19,
+          "text": "grace",
+          "startTime": 20.349163,
+          "endTime": 21.808734
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "the fritz in my feign",
+      "startTime": 21.808734,
+      "endTime": 25.722916,
+      "words": [
+        {
+          "id": 20,
+          "text": "the",
+          "startTime": 21.808734,
+          "endTime": 22.875265
+        },
+        {
+          "id": 21,
+          "text": "fritz",
+          "startTime": 22.875265,
+          "endTime": 23.535853
+        },
+        {
+          "id": 22,
+          "text": "in",
+          "startTime": 23.535853,
+          "endTime": 23.669694
+        },
+        {
+          "id": 23,
+          "text": "my",
+          "startTime": 23.669694,
+          "endTime": 23.933568
+        },
+        {
+          "id": 24,
+          "text": "feign",
+          "startTime": 23.933568,
+          "endTime": 25.722916
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "I give, I breathe, I’m not afraid",
+      "startTime": 25.722916,
+      "endTime": 31.03952,
+      "words": [
+        {
+          "id": 25,
+          "text": "I",
+          "startTime": 25.722916,
+          "endTime": 26.189856
+        },
+        {
+          "id": 26,
+          "text": "give,",
+          "startTime": 26.189856,
+          "endTime": 27.322529
+        },
+        {
+          "id": 27,
+          "text": "I",
+          "startTime": 27.322529,
+          "endTime": 27.91695
+        },
+        {
+          "id": 28,
+          "text": "breathe,",
+          "startTime": 27.91695,
+          "endTime": 29.112073
+        },
+        {
+          "id": 29,
+          "text": "I’m",
+          "startTime": 29.112073,
+          "endTime": 29.509958
+        },
+        {
+          "id": 30,
+          "text": "not",
+          "startTime": 29.509958,
+          "endTime": 29.647975
+        },
+        {
+          "id": 31,
+          "text": "afraid",
+          "startTime": 29.647975,
+          "endTime": 31.03952
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "not the ilk of change",
+      "startTime": 31.03952,
+      "endTime": 34.825466,
+      "words": [
+        {
+          "id": 32,
+          "text": "not",
+          "startTime": 31.03952,
+          "endTime": 32.831415
+        },
+        {
+          "id": 33,
+          "text": "the",
+          "startTime": 32.831415,
+          "endTime": 33.034754
+        },
+        {
+          "id": 34,
+          "text": "ilk",
+          "startTime": 33.034754,
+          "endTime": 33.499885
+        },
+        {
+          "id": 35,
+          "text": "of",
+          "startTime": 33.499885,
+          "endTime": 33.630136
+        },
+        {
+          "id": 36,
+          "text": "change",
+          "startTime": 33.630136,
+          "endTime": 34.825466
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "grief hatch at your pane",
+      "startTime": 34.825466,
+      "endTime": 39.274846,
+      "words": [
+        {
+          "id": 37,
+          "text": "grief",
+          "startTime": 34.825466,
+          "endTime": 37.013594
+        },
+        {
+          "id": 38,
+          "text": "hatch",
+          "startTime": 37.013594,
+          "endTime": 37.813235
+        },
+        {
+          "id": 39,
+          "text": "at",
+          "startTime": 37.813235,
+          "endTime": 37.947412
+        },
+        {
+          "id": 40,
+          "text": "your",
+          "startTime": 37.947412,
+          "endTime": 38.279237
+        },
+        {
+          "id": 41,
+          "text": "pane",
+          "startTime": 38.279237,
+          "endTime": 39.274846
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "weave music staves",
+      "startTime": 39.274846,
+      "endTime": 43.523321,
+      "words": [
+        {
+          "id": 42,
+          "text": "weave",
+          "startTime": 39.274846,
+          "endTime": 41.863829
+        },
+        {
+          "id": 43,
+          "text": "music",
+          "startTime": 41.863829,
+          "endTime": 42.394575
+        },
+        {
+          "id": 44,
+          "text": "staves",
+          "startTime": 42.394575,
+          "endTime": 43.523321
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "to wearily potty say.",
+      "startTime": 43.523321,
+      "endTime": 47.848276,
+      "words": [
+        {
+          "id": 45,
+          "text": "to",
+          "startTime": 43.523321,
+          "endTime": 44.722816
+        },
+        {
+          "id": 46,
+          "text": "wearily",
+          "startTime": 44.722816,
+          "endTime": 45.318288
+        },
+        {
+          "id": 47,
+          "text": "potty",
+          "startTime": 45.318288,
+          "endTime": 45.848276
+        },
+        {
+          "id": 48,
+          "text": "say.",
+          "startTime": 45.848276,
+          "endTime": 47.848276
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Even the miser’s brass",
+      "startTime": 5.401752,
+      "endTime": 8.527113,
+      "words": [
+        {
+          "id": 1,
+          "text": "Even",
+          "startTime": 5.401752,
+          "endTime": 6.461359
+        },
+        {
+          "id": 2,
+          "text": "the",
+          "startTime": 6.461359,
+          "endTime": 6.662333
+        },
+        {
+          "id": 3,
+          "text": "miser’s",
+          "startTime": 6.662333,
+          "endTime": 7.396238
+        },
+        {
+          "id": 4,
+          "text": "brass",
+          "startTime": 7.396238,
+          "endTime": 8.527113
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "the best of riders’ gads",
+      "startTime": 8.527113,
+      "endTime": 12.773689,
+      "words": [
+        {
+          "id": 5,
+          "text": "the",
+          "startTime": 8.527113,
+          "endTime": 9.5165
+        },
+        {
+          "id": 6,
+          "text": "best",
+          "startTime": 9.5165,
+          "endTime": 9.982956
+        },
+        {
+          "id": 7,
+          "text": "of",
+          "startTime": 9.982956,
+          "endTime": 10.978631
+        },
+        {
+          "id": 8,
+          "text": "riders’",
+          "startTime": 10.978631,
+          "endTime": 11.580795
+        },
+        {
+          "id": 9,
+          "text": "gads",
+          "startTime": 11.580795,
+          "endTime": 12.773689
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "albatross starred persona",
+      "startTime": 12.773689,
+      "endTime": 16.691937,
+      "words": [
+        {
+          "id": 10,
+          "text": "albatross",
+          "startTime": 12.773689,
+          "endTime": 14.634854
+        },
+        {
+          "id": 11,
+          "text": "starred",
+          "startTime": 14.634854,
+          "endTime": 15.033523
+        },
+        {
+          "id": 12,
+          "text": "persona",
+          "startTime": 15.033523,
+          "endTime": 16.691937
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "couldn’t spryly whack that",
+      "startTime": 16.691937,
+      "endTime": 19.94462,
+      "words": [
+        {
+          "id": 13,
+          "text": "couldn’t",
+          "startTime": 16.691937,
+          "endTime": 17.751328
+        },
+        {
+          "id": 14,
+          "text": "spryly",
+          "startTime": 17.751328,
+          "endTime": 18.352964
+        },
+        {
+          "id": 15,
+          "text": "whack",
+          "startTime": 18.352964,
+          "endTime": 18.752773
+        },
+        {
+          "id": 16,
+          "text": "that",
+          "startTime": 18.752773,
+          "endTime": 19.94462
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "…my queen was the start.",
+      "startTime": 19.94462,
+      "endTime": 24.601655,
+      "words": [
+        {
+          "id": 17,
+          "text": "…my",
+          "startTime": 19.94462,
+          "endTime": 21.20521
+        },
+        {
+          "id": 18,
+          "text": "queen",
+          "startTime": 21.20521,
+          "endTime": 21.80581
+        },
+        {
+          "id": 19,
+          "text": "was",
+          "startTime": 21.80581,
+          "endTime": 22.404932
+        },
+        {
+          "id": 20,
+          "text": "the",
+          "startTime": 22.404932,
+          "endTime": 22.601655
+        },
+        {
+          "id": 21,
+          "text": "start.",
+          "startTime": 22.601655,
+          "endTime": 24.601655
+        }
+      ]
+    }
+  ]
+}

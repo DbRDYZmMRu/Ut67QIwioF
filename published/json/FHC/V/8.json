@@ -1,0 +1,170 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "To sing to her willy-nilly",
+      "startTime": 4.180834,
+      "endTime": 8.693631,
+      "words": [
+        {
+          "id": 1,
+          "text": "To",
+          "startTime": 4.180834,
+          "endTime": 5.44218
+        },
+        {
+          "id": 2,
+          "text": "sing",
+          "startTime": 5.44218,
+          "endTime": 5.839039
+        },
+        {
+          "id": 3,
+          "text": "to",
+          "startTime": 5.839039,
+          "endTime": 5.902766
+        },
+        {
+          "id": 4,
+          "text": "her",
+          "startTime": 5.902766,
+          "endTime": 6.702832
+        },
+        {
+          "id": 5,
+          "text": "willy-nilly",
+          "startTime": 6.702832,
+          "endTime": 8.693631
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "her time on the high street",
+      "startTime": 8.693631,
+      "endTime": 11.685845,
+      "words": [
+        {
+          "id": 6,
+          "text": "her",
+          "startTime": 8.693631,
+          "endTime": 9.488734
+        },
+        {
+          "id": 7,
+          "text": "time",
+          "startTime": 9.488734,
+          "endTime": 9.822675
+        },
+        {
+          "id": 8,
+          "text": "on",
+          "startTime": 9.822675,
+          "endTime": 10.087965
+        },
+        {
+          "id": 9,
+          "text": "the",
+          "startTime": 10.087965,
+          "endTime": 10.288218
+        },
+        {
+          "id": 10,
+          "text": "high",
+          "startTime": 10.288218,
+          "endTime": 10.552579
+        },
+        {
+          "id": 11,
+          "text": "street",
+          "startTime": 10.552579,
+          "endTime": 11.685845
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "pit-a-pat clock, known raft scene",
+      "startTime": 11.685845,
+      "endTime": 17.061872,
+      "words": [
+        {
+          "id": 12,
+          "text": "pit-a-pat",
+          "startTime": 11.685845,
+          "endTime": 13.741148
+        },
+        {
+          "id": 13,
+          "text": "clock,",
+          "startTime": 13.741148,
+          "endTime": 14.403787
+        },
+        {
+          "id": 14,
+          "text": "known",
+          "startTime": 14.403787,
+          "endTime": 15.600769
+        },
+        {
+          "id": 15,
+          "text": "raft",
+          "startTime": 15.600769,
+          "endTime": 15.998408
+        },
+        {
+          "id": 16,
+          "text": "scene",
+          "startTime": 15.998408,
+          "endTime": 17.061872
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "hue yeast",
+      "startTime": 17.061872,
+      "endTime": 19.25365,
+      "words": [
+        {
+          "id": 17,
+          "text": "hue",
+          "startTime": 17.061872,
+          "endTime": 17.922711
+        },
+        {
+          "id": 18,
+          "text": "yeast",
+          "startTime": 17.922711,
+          "endTime": 19.25365
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "posh's spoof screen.",
+      "startTime": 19.25365,
+      "endTime": 22.64753,
+      "words": [
+        {
+          "id": 19,
+          "text": "posh's",
+          "startTime": 19.25365,
+          "endTime": 19.917999
+        },
+        {
+          "id": 20,
+          "text": "spoof",
+          "startTime": 19.917999,
+          "endTime": 20.64753
+        },
+        {
+          "id": 21,
+          "text": "screen.",
+          "startTime": 20.64753,
+          "endTime": 22.64753
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Poetry found in toiletries",
+      "startTime": 4.850951,
+      "endTime": 8.433901,
+      "words": [
+        {
+          "id": 1,
+          "text": "Poetry",
+          "startTime": 4.850951,
+          "endTime": 5.643277
+        },
+        {
+          "id": 2,
+          "text": "found",
+          "startTime": 5.643277,
+          "endTime": 6.245638
+        },
+        {
+          "id": 3,
+          "text": "in",
+          "startTime": 6.245638,
+          "endTime": 6.505937
+        },
+        {
+          "id": 4,
+          "text": "toiletries",
+          "startTime": 6.505937,
+          "endTime": 8.433901
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "hubris’ sump quizzing",
+      "startTime": 8.433901,
+      "endTime": 11.753815,
+      "words": [
+        {
+          "id": 5,
+          "text": "hubris’",
+          "startTime": 8.433901,
+          "endTime": 9.563461
+        },
+        {
+          "id": 6,
+          "text": "sump",
+          "startTime": 9.563461,
+          "endTime": 10.629039
+        },
+        {
+          "id": 7,
+          "text": "quizzing",
+          "startTime": 10.629039,
+          "endTime": 11.753815
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "habits at it wincing",
+      "startTime": 11.753815,
+      "endTime": 16.603114,
+      "words": [
+        {
+          "id": 8,
+          "text": "habits",
+          "startTime": 11.753815,
+          "endTime": 13.348383
+        },
+        {
+          "id": 9,
+          "text": "at",
+          "startTime": 13.348383,
+          "endTime": 13.885359
+        },
+        {
+          "id": 10,
+          "text": "it",
+          "startTime": 13.885359,
+          "endTime": 15.010552
+        },
+        {
+          "id": 11,
+          "text": "wincing",
+          "startTime": 15.010552,
+          "endTime": 16.603114
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "convincing, it’s evening.",
+      "startTime": 16.603114,
+      "endTime": 22.185842,
+      "words": [
+        {
+          "id": 12,
+          "text": "convincing,",
+          "startTime": 16.603114,
+          "endTime": 18.664927
+        },
+        {
+          "id": 13,
+          "text": "it’s",
+          "startTime": 18.664927,
+          "endTime": 20.185842
+        },
+        {
+          "id": 14,
+          "text": "evening.",
+          "startTime": 20.185842,
+          "endTime": 22.185842
+        }
+      ]
+    }
+  ]
+}

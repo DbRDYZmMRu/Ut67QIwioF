@@ -1,0 +1,220 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Probably the few toes",
+      "startTime": 4.452183,
+      "endTime": 8.300036,
+      "words": [
+        {
+          "id": 1,
+          "text": "Probably",
+          "startTime": 4.452183,
+          "endTime": 6.970552
+        },
+        {
+          "id": 2,
+          "text": "the",
+          "startTime": 6.970552,
+          "endTime": 7.107473
+        },
+        {
+          "id": 3,
+          "text": "few",
+          "startTime": 7.107473,
+          "endTime": 7.504037
+        },
+        {
+          "id": 4,
+          "text": "toes",
+          "startTime": 7.504037,
+          "endTime": 8.300036
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "heart to two toads",
+      "startTime": 8.300036,
+      "endTime": 11.752934,
+      "words": [
+        {
+          "id": 5,
+          "text": "heart",
+          "startTime": 8.300036,
+          "endTime": 9.627643
+        },
+        {
+          "id": 6,
+          "text": "to",
+          "startTime": 9.627643,
+          "endTime": 10.222208
+        },
+        {
+          "id": 7,
+          "text": "two",
+          "startTime": 10.222208,
+          "endTime": 10.620232
+        },
+        {
+          "id": 8,
+          "text": "toads",
+          "startTime": 10.620232,
+          "endTime": 11.752934
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "hard to deduce those",
+      "startTime": 11.752934,
+      "endTime": 15.141109,
+      "words": [
+        {
+          "id": 9,
+          "text": "hard",
+          "startTime": 11.752934,
+          "endTime": 13.214868
+        },
+        {
+          "id": 10,
+          "text": "to",
+          "startTime": 13.214868,
+          "endTime": 13.411836
+        },
+        {
+          "id": 11,
+          "text": "deduce",
+          "startTime": 13.411836,
+          "endTime": 13.876414
+        },
+        {
+          "id": 12,
+          "text": "those",
+          "startTime": 13.876414,
+          "endTime": 15.141109
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "half swing at a time hoax",
+      "startTime": 15.141109,
+      "endTime": 21.248407,
+      "words": [
+        {
+          "id": 13,
+          "text": "half",
+          "startTime": 15.141109,
+          "endTime": 16.402187
+        },
+        {
+          "id": 14,
+          "text": "swing",
+          "startTime": 16.402187,
+          "endTime": 16.865124
+        },
+        {
+          "id": 15,
+          "text": "at",
+          "startTime": 16.865124,
+          "endTime": 19.787397
+        },
+        {
+          "id": 16,
+          "text": "a",
+          "startTime": 19.787397,
+          "endTime": 19.987369
+        },
+        {
+          "id": 17,
+          "text": "time",
+          "startTime": 19.987369,
+          "endTime": 20.183788
+        },
+        {
+          "id": 18,
+          "text": "hoax",
+          "startTime": 20.183788,
+          "endTime": 21.248407
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "atchoos at the true rote",
+      "startTime": 21.248407,
+      "endTime": 25.699469,
+      "words": [
+        {
+          "id": 19,
+          "text": "atchoos",
+          "startTime": 21.248407,
+          "endTime": 22.973837
+        },
+        {
+          "id": 20,
+          "text": "at",
+          "startTime": 22.973837,
+          "endTime": 23.774503
+        },
+        {
+          "id": 21,
+          "text": "the",
+          "startTime": 23.774503,
+          "endTime": 23.970019
+        },
+        {
+          "id": 22,
+          "text": "true",
+          "startTime": 23.970019,
+          "endTime": 24.367029
+        },
+        {
+          "id": 23,
+          "text": "rote",
+          "startTime": 24.367029,
+          "endTime": 25.699469
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "bent, mourn the clue tolls.",
+      "startTime": 25.699469,
+      "endTime": 31.815224,
+      "words": [
+        {
+          "id": 24,
+          "text": "bent,",
+          "startTime": 25.699469,
+          "endTime": 28.08607
+        },
+        {
+          "id": 25,
+          "text": "mourn",
+          "startTime": 28.08607,
+          "endTime": 29.283649
+        },
+        {
+          "id": 26,
+          "text": "the",
+          "startTime": 29.283649,
+          "endTime": 29.547676
+        },
+        {
+          "id": 27,
+          "text": "clue",
+          "startTime": 29.547676,
+          "endTime": 29.815224
+        },
+        {
+          "id": 28,
+          "text": "tolls.",
+          "startTime": 29.815224,
+          "endTime": 31.815224
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Filch the witch",
+      "startTime": 4.955628,
+      "endTime": 7.609941,
+      "words": [
+        {
+          "id": 1,
+          "text": "Filch",
+          "startTime": 4.955628,
+          "endTime": 6.282772
+        },
+        {
+          "id": 2,
+          "text": "the",
+          "startTime": 6.282772,
+          "endTime": 6.750792
+        },
+        {
+          "id": 3,
+          "text": "witch",
+          "startTime": 6.750792,
+          "endTime": 7.609941
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "be the humming wren wings",
+      "startTime": 7.609941,
+      "endTime": 10.730312,
+      "words": [
+        {
+          "id": 4,
+          "text": "be",
+          "startTime": 7.609941,
+          "endTime": 8.474106
+        },
+        {
+          "id": 5,
+          "text": "the",
+          "startTime": 8.474106,
+          "endTime": 8.737903
+        },
+        {
+          "id": 6,
+          "text": "humming",
+          "startTime": 8.737903,
+          "endTime": 9.138265
+        },
+        {
+          "id": 7,
+          "text": "wren",
+          "startTime": 9.138265,
+          "endTime": 9.469677
+        },
+        {
+          "id": 8,
+          "text": "wings",
+          "startTime": 9.469677,
+          "endTime": 10.730312
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "glibly at the fallen sticks",
+      "startTime": 10.730312,
+      "endTime": 14.252324,
+      "words": [
+        {
+          "id": 9,
+          "text": "glibly",
+          "startTime": 10.730312,
+          "endTime": 12.457479
+        },
+        {
+          "id": 10,
+          "text": "at",
+          "startTime": 12.457479,
+          "endTime": 12.721167
+        },
+        {
+          "id": 11,
+          "text": "the",
+          "startTime": 12.721167,
+          "endTime": 12.923146
+        },
+        {
+          "id": 12,
+          "text": "fallen",
+          "startTime": 12.923146,
+          "endTime": 13.320865
+        },
+        {
+          "id": 13,
+          "text": "sticks",
+          "startTime": 13.320865,
+          "endTime": 14.252324
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "this she forever sees",
+      "startTime": 14.252324,
+      "endTime": 18.301488,
+      "words": [
+        {
+          "id": 14,
+          "text": "this",
+          "startTime": 14.252324,
+          "endTime": 15.778036
+        },
+        {
+          "id": 15,
+          "text": "she",
+          "startTime": 15.778036,
+          "endTime": 16.310499
+        },
+        {
+          "id": 16,
+          "text": "forever",
+          "startTime": 16.310499,
+          "endTime": 16.904598
+        },
+        {
+          "id": 17,
+          "text": "sees",
+          "startTime": 16.904598,
+          "endTime": 18.301488
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "any whim, please get busy",
+      "startTime": 18.301488,
+      "endTime": 22.688042,
+      "words": [
+        {
+          "id": 18,
+          "text": "any",
+          "startTime": 18.301488,
+          "endTime": 19.366583
+        },
+        {
+          "id": 19,
+          "text": "whim,",
+          "startTime": 19.366583,
+          "endTime": 20.092506
+        },
+        {
+          "id": 20,
+          "text": "please",
+          "startTime": 20.092506,
+          "endTime": 20.957177
+        },
+        {
+          "id": 21,
+          "text": "get",
+          "startTime": 20.957177,
+          "endTime": 21.289641
+        },
+        {
+          "id": 22,
+          "text": "busy",
+          "startTime": 21.289641,
+          "endTime": 22.688042
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "not a crisis in shimmy.",
+      "startTime": 22.688042,
+      "endTime": 27.007619,
+      "words": [
+        {
+          "id": 23,
+          "text": "not",
+          "startTime": 22.688042,
+          "endTime": 23.545784
+        },
+        {
+          "id": 24,
+          "text": "a",
+          "startTime": 23.545784,
+          "endTime": 23.748197
+        },
+        {
+          "id": 25,
+          "text": "crisis",
+          "startTime": 23.748197,
+          "endTime": 24.477882
+        },
+        {
+          "id": 26,
+          "text": "in",
+          "startTime": 24.477882,
+          "endTime": 25.007619
+        },
+        {
+          "id": 27,
+          "text": "shimmy.",
+          "startTime": 25.007619,
+          "endTime": 27.007619
+        }
+      ]
+    }
+  ]
+}

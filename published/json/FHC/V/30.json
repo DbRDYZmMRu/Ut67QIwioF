@@ -1,0 +1,84 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Coming along",
+      "startTime": 4.137638,
+      "endTime": 6.657806,
+      "words": [
+        {
+          "id": 1,
+          "text": "Coming",
+          "startTime": 4.137638,
+          "endTime": 5.727539
+        },
+        {
+          "id": 2,
+          "text": "along",
+          "startTime": 5.727539,
+          "endTime": 6.657806
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "elsewhere forlorn",
+      "startTime": 6.657806,
+      "endTime": 9.778497,
+      "words": [
+        {
+          "id": 3,
+          "text": "elsewhere",
+          "startTime": 6.657806,
+          "endTime": 8.38518
+        },
+        {
+          "id": 4,
+          "text": "forlorn",
+          "startTime": 8.38518,
+          "endTime": 9.778497
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "hireling taut",
+      "startTime": 9.778497,
+      "endTime": 12.5001,
+      "words": [
+        {
+          "id": 5,
+          "text": "hireling",
+          "startTime": 9.778497,
+          "endTime": 11.440837
+        },
+        {
+          "id": 6,
+          "text": "taut",
+          "startTime": 11.440837,
+          "endTime": 12.5001
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "roué emotions.",
+      "startTime": 12.5001,
+      "endTime": 15.832841,
+      "words": [
+        {
+          "id": 7,
+          "text": "roué",
+          "startTime": 12.5001,
+          "endTime": 13.832841
+        },
+        {
+          "id": 8,
+          "text": "emotions.",
+          "startTime": 13.832841,
+          "endTime": 15.832841
+        }
+      ]
+    }
+  ]
+}

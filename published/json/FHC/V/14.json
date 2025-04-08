@@ -1,0 +1,70 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Hi, bye",
+      "startTime": 4.870255,
+      "endTime": 7.460662,
+      "words": [
+        {
+          "id": 1,
+          "text": "Hi,",
+          "startTime": 4.870255,
+          "endTime": 5.995606
+        },
+        {
+          "id": 2,
+          "text": "bye",
+          "startTime": 5.995606,
+          "endTime": 7.460662
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "open fights",
+      "startTime": 7.460662,
+      "endTime": 9.455444,
+      "words": [
+        {
+          "id": 3,
+          "text": "open",
+          "startTime": 7.460662,
+          "endTime": 8.0588
+        },
+        {
+          "id": 4,
+          "text": "fights",
+          "startTime": 8.0588,
+          "endTime": 9.455444
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "what’s the sigh?",
+      "startTime": 9.455444,
+      "endTime": 12.050829,
+      "words": [
+        {
+          "id": 5,
+          "text": "what’s",
+          "startTime": 9.455444,
+          "endTime": 9.854249
+        },
+        {
+          "id": 6,
+          "text": "the",
+          "startTime": 9.854249,
+          "endTime": 10.050829
+        },
+        {
+          "id": 7,
+          "text": "sigh?",
+          "startTime": 10.050829,
+          "endTime": 12.050829
+        }
+      ]
+    }
+  ]
+}

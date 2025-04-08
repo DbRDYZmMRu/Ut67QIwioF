@@ -1,0 +1,108 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Lordly accruing",
+      "startTime": 5.04307,
+      "endTime": 7.436319,
+      "words": [
+        {
+          "id": 1,
+          "text": "Lordly",
+          "startTime": 5.04307,
+          "endTime": 6.368904
+        },
+        {
+          "id": 2,
+          "text": "accruing",
+          "startTime": 6.368904,
+          "endTime": 7.436319
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "your bodice I’m assuming",
+      "startTime": 7.436319,
+      "endTime": 11.152709,
+      "words": [
+        {
+          "id": 3,
+          "text": "your",
+          "startTime": 7.436319,
+          "endTime": 8.695
+        },
+        {
+          "id": 4,
+          "text": "bodice",
+          "startTime": 8.695,
+          "endTime": 9.6219
+        },
+        {
+          "id": 5,
+          "text": "I’m",
+          "startTime": 9.6219,
+          "endTime": 9.820392
+        },
+        {
+          "id": 6,
+          "text": "assuming",
+          "startTime": 9.820392,
+          "endTime": 11.152709
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "sadly, it’d be eschewing",
+      "startTime": 11.152709,
+      "endTime": 16.064279,
+      "words": [
+        {
+          "id": 7,
+          "text": "sadly,",
+          "startTime": 11.152709,
+          "endTime": 13.210302
+        },
+        {
+          "id": 8,
+          "text": "it’d",
+          "startTime": 13.210302,
+          "endTime": 13.803855
+        },
+        {
+          "id": 9,
+          "text": "be",
+          "startTime": 13.803855,
+          "endTime": 14.005254
+        },
+        {
+          "id": 10,
+          "text": "eschewing",
+          "startTime": 14.005254,
+          "endTime": 16.064279
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "casting aloof.",
+      "startTime": 16.064279,
+      "endTime": 18.26493,
+      "words": [
+        {
+          "id": 11,
+          "text": "casting",
+          "startTime": 16.064279,
+          "endTime": 16.26493
+        },
+        {
+          "id": 12,
+          "text": "aloof.",
+          "startTime": 16.26493,
+          "endTime": 18.26493
+        }
+      ]
+    }
+  ]
+}

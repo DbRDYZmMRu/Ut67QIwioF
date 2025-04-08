@@ -1,0 +1,168 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Breeze",
+      "startTime": 5.354378,
+      "endTime": 6.282987,
+      "words": [
+        {
+          "id": 1,
+          "text": "Breeze",
+          "startTime": 5.354378,
+          "endTime": 6.282987
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "…she is",
+      "startTime": 6.282987,
+      "endTime": 7.41877,
+      "words": [
+        {
+          "id": 2,
+          "text": "…she",
+          "startTime": 6.282987,
+          "endTime": 6.687014
+        },
+        {
+          "id": 3,
+          "text": "is",
+          "startTime": 6.687014,
+          "endTime": 7.41877
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "grease",
+      "startTime": 7.41877,
+      "endTime": 9.009497,
+      "words": [
+        {
+          "id": 4,
+          "text": "grease",
+          "startTime": 7.41877,
+          "endTime": 9.009497
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "…cravings",
+      "startTime": 9.009497,
+      "endTime": 10.270311,
+      "words": [
+        {
+          "id": 5,
+          "text": "…cravings",
+          "startTime": 9.009497,
+          "endTime": 10.270311
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "hank kin",
+      "startTime": 10.270311,
+      "endTime": 11.93266,
+      "words": [
+        {
+          "id": 6,
+          "text": "hank",
+          "startTime": 10.270311,
+          "endTime": 11.136774
+        },
+        {
+          "id": 7,
+          "text": "kin",
+          "startTime": 11.136774,
+          "endTime": 11.93266
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "…pal in creel",
+      "startTime": 11.93266,
+      "endTime": 13.656813,
+      "words": [
+        {
+          "id": 8,
+          "text": "…pal",
+          "startTime": 11.93266,
+          "endTime": 12.728393
+        },
+        {
+          "id": 9,
+          "text": "in",
+          "startTime": 12.728393,
+          "endTime": 12.992407
+        },
+        {
+          "id": 10,
+          "text": "creel",
+          "startTime": 12.992407,
+          "endTime": 13.656813
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "doobry",
+      "startTime": 13.656813,
+      "endTime": 15.651581,
+      "words": [
+        {
+          "id": 11,
+          "text": "doobry",
+          "startTime": 13.656813,
+          "endTime": 15.651581
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "…batiste",
+      "startTime": 15.651581,
+      "endTime": 17.308083,
+      "words": [
+        {
+          "id": 12,
+          "text": "…batiste",
+          "startTime": 15.651581,
+          "endTime": 17.308083
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "hashish",
+      "startTime": 17.308083,
+      "endTime": 19.171473,
+      "words": [
+        {
+          "id": 13,
+          "text": "hashish",
+          "startTime": 17.308083,
+          "endTime": 19.171473
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "…capisce",
+      "startTime": 19.171473,
+      "endTime": 21.171473,
+      "words": [
+        {
+          "id": 14,
+          "text": "…capisce",
+          "startTime": 19.171473,
+          "endTime": 21.171473
+        }
+      ]
+    }
+  ]
+}

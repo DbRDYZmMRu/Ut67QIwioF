@@ -1,0 +1,470 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Congealed congested",
+      "startTime": 4.694804,
+      "endTime": 7.687448,
+      "words": [
+        {
+          "id": 1,
+          "text": "Congealed",
+          "startTime": 4.694804,
+          "endTime": 6.421609
+        },
+        {
+          "id": 2,
+          "text": "congested",
+          "startTime": 6.421609,
+          "endTime": 7.687448
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "unresolved preference",
+      "startTime": 7.687448,
+      "endTime": 11.472752,
+      "words": [
+        {
+          "id": 3,
+          "text": "unresolved",
+          "startTime": 7.687448,
+          "endTime": 9.674938
+        },
+        {
+          "id": 4,
+          "text": "preference",
+          "startTime": 9.674938,
+          "endTime": 11.472752
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "vitamin wastrel",
+      "startTime": 11.472752,
+      "endTime": 14.323237,
+      "words": [
+        {
+          "id": 5,
+          "text": "vitamin",
+          "startTime": 11.472752,
+          "endTime": 12.8613
+        },
+        {
+          "id": 6,
+          "text": "wastrel",
+          "startTime": 12.8613,
+          "endTime": 14.323237
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "standing sentence",
+      "startTime": 14.323237,
+      "endTime": 17.449232,
+      "words": [
+        {
+          "id": 7,
+          "text": "standing",
+          "startTime": 14.323237,
+          "endTime": 16.11785
+        },
+        {
+          "id": 8,
+          "text": "sentence",
+          "startTime": 16.11785,
+          "endTime": 17.449232
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "he was beget",
+      "startTime": 17.449232,
+      "endTime": 19.374611,
+      "words": [
+        {
+          "id": 9,
+          "text": "he",
+          "startTime": 17.449232,
+          "endTime": 18.11036
+        },
+        {
+          "id": 10,
+          "text": "was",
+          "startTime": 18.11036,
+          "endTime": 18.43833
+        },
+        {
+          "id": 11,
+          "text": "beget",
+          "startTime": 18.43833,
+          "endTime": 19.374611
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "fed up to pretend",
+      "startTime": 19.374611,
+      "endTime": 22.959731,
+      "words": [
+        {
+          "id": 12,
+          "text": "fed",
+          "startTime": 19.374611,
+          "endTime": 20.433932
+        },
+        {
+          "id": 13,
+          "text": "up",
+          "startTime": 20.433932,
+          "endTime": 21.161198
+        },
+        {
+          "id": 14,
+          "text": "to",
+          "startTime": 21.161198,
+          "endTime": 21.633567
+        },
+        {
+          "id": 15,
+          "text": "pretend",
+          "startTime": 21.633567,
+          "endTime": 22.959731
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "hampering misstep",
+      "startTime": 22.959731,
+      "endTime": 25.813621,
+      "words": [
+        {
+          "id": 16,
+          "text": "hampering",
+          "startTime": 22.959731,
+          "endTime": 24.68095
+        },
+        {
+          "id": 17,
+          "text": "misstep",
+          "startTime": 24.68095,
+          "endTime": 25.813621
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "memories of his best",
+      "startTime": 25.813621,
+      "endTime": 29.07049,
+      "words": [
+        {
+          "id": 18,
+          "text": "memories",
+          "startTime": 25.813621,
+          "endTime": 27.409135
+        },
+        {
+          "id": 19,
+          "text": "of",
+          "startTime": 27.409135,
+          "endTime": 27.87162
+        },
+        {
+          "id": 20,
+          "text": "his",
+          "startTime": 27.87162,
+          "endTime": 28.07109
+        },
+        {
+          "id": 21,
+          "text": "best",
+          "startTime": 28.07109,
+          "endTime": 29.07049
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "see my first peck",
+      "startTime": 29.07049,
+      "endTime": 32.191311,
+      "words": [
+        {
+          "id": 22,
+          "text": "see",
+          "startTime": 29.07049,
+          "endTime": 30.331466
+        },
+        {
+          "id": 23,
+          "text": "my",
+          "startTime": 30.331466,
+          "endTime": 30.596605
+        },
+        {
+          "id": 24,
+          "text": "first",
+          "startTime": 30.596605,
+          "endTime": 31.193492
+        },
+        {
+          "id": 25,
+          "text": "peck",
+          "startTime": 31.193492,
+          "endTime": 32.191311
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "first again like in death",
+      "startTime": 32.191311,
+      "endTime": 36.036474,
+      "words": [
+        {
+          "id": 26,
+          "text": "first",
+          "startTime": 32.191311,
+          "endTime": 33.118026
+        },
+        {
+          "id": 27,
+          "text": "again",
+          "startTime": 33.118026,
+          "endTime": 34.245731
+        },
+        {
+          "id": 28,
+          "text": "like",
+          "startTime": 34.245731,
+          "endTime": 34.580275
+        },
+        {
+          "id": 29,
+          "text": "in",
+          "startTime": 34.580275,
+          "endTime": 34.846099
+        },
+        {
+          "id": 30,
+          "text": "death",
+          "startTime": 34.846099,
+          "endTime": 36.036474
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "my first text",
+      "startTime": 36.036474,
+      "endTime": 38.960095,
+      "words": [
+        {
+          "id": 31,
+          "text": "my",
+          "startTime": 36.036474,
+          "endTime": 37.040089
+        },
+        {
+          "id": 32,
+          "text": "first",
+          "startTime": 37.040089,
+          "endTime": 37.43394
+        },
+        {
+          "id": 33,
+          "text": "text",
+          "startTime": 37.43394,
+          "endTime": 38.960095
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "as if to resurrect",
+      "startTime": 38.960095,
+      "endTime": 41.288674,
+      "words": [
+        {
+          "id": 34,
+          "text": "as",
+          "startTime": 38.960095,
+          "endTime": 39.426113
+        },
+        {
+          "id": 35,
+          "text": "if",
+          "startTime": 39.426113,
+          "endTime": 39.690773
+        },
+        {
+          "id": 36,
+          "text": "to",
+          "startTime": 39.690773,
+          "endTime": 39.886488
+        },
+        {
+          "id": 37,
+          "text": "resurrect",
+          "startTime": 39.886488,
+          "endTime": 41.288674
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "paragraph": "but here it is clear",
+      "startTime": 41.288674,
+      "endTime": 44.872238,
+      "words": [
+        {
+          "id": 38,
+          "text": "but",
+          "startTime": 41.288674,
+          "endTime": 42.547371
+        },
+        {
+          "id": 39,
+          "text": "here",
+          "startTime": 42.547371,
+          "endTime": 43.477144
+        },
+        {
+          "id": 40,
+          "text": "it",
+          "startTime": 43.477144,
+          "endTime": 43.675176
+        },
+        {
+          "id": 41,
+          "text": "is",
+          "startTime": 43.675176,
+          "endTime": 43.878555
+        },
+        {
+          "id": 42,
+          "text": "clear",
+          "startTime": 43.878555,
+          "endTime": 44.872238
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "paragraph": "your remote breath",
+      "startTime": 44.872238,
+      "endTime": 47.929222,
+      "words": [
+        {
+          "id": 43,
+          "text": "your",
+          "startTime": 44.872238,
+          "endTime": 46.131152
+        },
+        {
+          "id": 44,
+          "text": "remote",
+          "startTime": 46.131152,
+          "endTime": 46.664804
+        },
+        {
+          "id": 45,
+          "text": "breath",
+          "startTime": 46.664804,
+          "endTime": 47.929222
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "paragraph": "our wafting dirge",
+      "startTime": 47.929222,
+      "endTime": 51.445173,
+      "words": [
+        {
+          "id": 46,
+          "text": "our",
+          "startTime": 47.929222,
+          "endTime": 48.65861
+        },
+        {
+          "id": 47,
+          "text": "wafting",
+          "startTime": 48.65861,
+          "endTime": 49.654509
+        },
+        {
+          "id": 48,
+          "text": "dirge",
+          "startTime": 49.654509,
+          "endTime": 51.445173
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "paragraph": "letter sounds in dearth",
+      "startTime": 51.445173,
+      "endTime": 54.768262,
+      "words": [
+        {
+          "id": 49,
+          "text": "letter",
+          "startTime": 51.445173,
+          "endTime": 52.310377
+        },
+        {
+          "id": 50,
+          "text": "sounds",
+          "startTime": 52.310377,
+          "endTime": 53.502852
+        },
+        {
+          "id": 51,
+          "text": "in",
+          "startTime": 53.502852,
+          "endTime": 53.634991
+        },
+        {
+          "id": 52,
+          "text": "dearth",
+          "startTime": 53.634991,
+          "endTime": 54.768262
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "paragraph": "uncompromising of poets.",
+      "startTime": 54.768262,
+      "endTime": 59.357082,
+      "words": [
+        {
+          "id": 53,
+          "text": "uncompromising",
+          "startTime": 54.768262,
+          "endTime": 56.82503
+        },
+        {
+          "id": 54,
+          "text": "of",
+          "startTime": 56.82503,
+          "endTime": 57.357082
+        },
+        {
+          "id": 55,
+          "text": "poets.",
+          "startTime": 57.357082,
+          "endTime": 59.357082
+        }
+      ]
+    }
+  ]
+}
