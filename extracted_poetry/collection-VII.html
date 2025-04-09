@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<script>
+    function getQueryParam(param) {
+        const urlParams = new URLSearchParams(window.location.search);
+
+        return urlParams.get(param);
+    }
+
+    /**
+
+ * Run the query parameter extraction on page load and update the page content.
+
+ */
+
+    function runOnPageLoad() {
+        const queryValue = getQueryParam("query");
+
+        if (queryValue !== null) {
+            localStorage.setItem("viewVII", "poetry");
+
+            localStorage.setItem("VIICurrentChapter", queryValue);
+
+            console.log("Query parameter value:", queryValue); // You can replace this line with any other action
+
+            // Update the page content based on the query parameter value
+
+					localStorage.setItem("coverTabVIIIsActive", false);
+					localStorage.setItem("authorTabVIIIsActive", false);
+					localStorage.setItem("dedTabVIIIsActive", false);
+					localStorage.setItem("chapterTabVIIIsActive", true);
+
+            document.addEventListener("DOMContentLoaded", function () {
+                var integrationTab = document.getElementById("pills-integration-tab");
+
+                if (integrationTab) {
+                    integrationTab.click();
+                } else {
+                    console.error("Element with ID 'pills-integration-tab' not found.");
+                }
+            });
+        }
+    }
+
+    runOnPageLoad();
+</script>
+  
+  <!--===== Required meta tags =====-->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="author" content="Howard Frith Hilton" />
+  <meta name="description" content="Frith Hilton Collection VII" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta property="og:url"
+    content="" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Frith Hilton Collection VII" />
+  <meta property="og:description" content="Frith Hilton Collection VII" />
+  <meta property="og:image"
+    content="" />
+
+  <!--===== Title =====-->
+  <title>Frith Hilton Collection VII </title>
+
+  <!--===== Favicon =====-->
+  <link rel="shortcut icon" href="../../images/favicon.png" />
+
+  <!--===== Google fonts =====-->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Jost:wght@300;400;500;600;700;800;900&display=swap" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet" />
+ <!-- font-awesome-icons -->
+ <script src="https://kit.fontawesome.com/c7fbb1b458.js" crossorigin="anonymous"></script>  
+
+  <!--===== Global bootstrap required css =====-->
+  <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css" />
+  <!--===== Global styles including: Font Icons, Plugins, etc =====-->
+  <link rel="stylesheet" type="text/css" href="../../css/font-awesome/all.min.css" />
+  <link rel="stylesheet" href="../../css/feather/iconfont.css" />
+  <link rel="stylesheet" href="../../css/pe-icon-stroke/Pe-icon-7-stroke.css" />
+  <link rel="stylesheet" href="../../css/simple-line-icons/simple-line-icons.css" />
+  <link rel="stylesheet" href="../../css/themify-icons/themify-icons.css" />
+  <link rel="stylesheet" href="../../css/pe-icon-stroke/Pe-icon-7-stroke.css" />
+  <link rel="stylesheet" href="../../css/swiper/swiper.min.css" />
+  <link rel="stylesheet" href="../../css/magnific-popup/magnific-popup.css" />
+  <!--===== Main theme css =====-->
+  <link rel="stylesheet" href="../../css/style.css" />
+
+</head>
+
+  <body class="stokes-wrapper" id="ctrlArea" v-cloak>
+    <!--========== 
+	Start of loader ==========-->
+
+  <div class="template-loader">
+    <div class="loaderCenter">
+      <div class="book">
+        <div class="book__pg-shadow"></div>
+        <div class="book__pg"></div>
+        <div class="book__pg book__pg--2"></div>
+        <div class="book__pg book__pg--3"></div>
+        <div class="book__pg book__pg--4"></div>
+        <div class="book__pg book__pg--5"></div>
+      </div>
+    </div>
+  </div>
+
+    <!--========== 
+	End of loader ==========-->
+
+    <!--========== 
+    Start of  cookie modal notification section ==========-->
+    <div class="modal-subscribe">
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        data-bs-backdrop="static"
+        id="myModal"
+        tabindex="-1"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body p-0 bg-secondary rounded">
+              <div class="p-5 text-center">
+                <img
+                  class="img-fluid px-5"
+                  src="/images/svg/cookie.svg"
+                  alt=""
+                />
+                <h3>Cookies</h3>
+                <p class="text-dark">
+                  <b>Hilton</b> uses cookies to enhance user experience
+                </p>
+                <a href="/cookies.html" class="text-primary-gradient fw-bold"
+                  >Our policy</a
+                >
+                <div class="d-grid mt-5">
+                  <button
+                    type="button"
+                    class="btn btn-white rounded"
+                    data-bs-dismiss="modal"
+                    @click="store.acceptCookieUse()"
+                  >
+                    Accept
+                  </button>
+                  <p class="text-dark mt-4">
+                    Coupled with
+                    <svg
+                      class="logo"
+                      viewBox="0 0 128 128"
+                      width="24"
+                      height="24"
+                      data-v-53ccc107=""
+                    >
+                      <path
+                        fill="#42b883"
+                        d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z"
+                        data-v-53ccc107=""
+                      ></path>
+                      <path
+                        fill="#35495e"
+                        d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z"
+                        data-v-53ccc107=""
+                      ></path>
+                    </svg>
+                    <a
+                      href="https://github.com/vuejs/petite-vue"
+                      target="_blank"
+                      style="color: #42b883"
+                      ><b>petite-vue</b></a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--========== 
+          End of cookie modal notification section ==========-->
+    <!--==========-->
+
+
+
+
+
+  <header class="header">
+    <!--===== Start of navbar =====-->
+    <nav class="navbar navbar-light navbar-expand-lg navbar-default">
+      <div class="container-fluid">
+        <!--===== Start of logo =====-->
+        <a class="navbar-brand" href="/"><img class="logo" src="/images/logo.png" alt="Frith Hilton Logo" /></a>
+        <!--===== End of logo =====-->
+
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="icon-bar top-bar mt-0"></span>
+          <span class="icon-bar middle-bar"></span>
+          <span class="icon-bar bottom-bar"></span>
+        </button>
+
+        <!--===== Start of nav =====-->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/"><span class="text-line"> Home </span></a>
+            </li>
+            <li class="nav-item dropdown active">
+              <a @click="store.goToPublished" class="nav-link dropdown-toggle" href="#" id="navbar-pages" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="text-line"> Publications</span>
+              </a>
+
+              <!--<ul class="dropdown-menu" aria-labelledby="navbar-pages">
+                <div class="mb-3 mt-3">
+                  <a href="#">
+                    Frith Hilton Collections
+                  </a>
+                </div>
+
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections I — III </span></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="../published/poetry/collection-I.html"><span class="text-line">
+                          Collection I
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="../published/poetry/collection-II.html"><span class="text-line">
+                          Collection II
+                        </span></a>
+                    </li>
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collection III </span></a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="../published/poetry/collection-III.html"><span class="text-line">
+                              Valentine Edition
+                            </span></a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="../published/poetry/collection-III-ii.html"><span class="text-line">
+                              Original Edition
+                            </span></a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections IV — VI </span></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="../published/poetry/collection-IV.html"><span class="text-line">
+                          Collection IV
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="../published/poetry/collection-V.html"><span class="text-line">
+                          Collection V
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="../published/poetry/collection-VI.html"><span class="text-line">
+                          Collection VI
+                        </span></a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections VII — IX </span></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-VII.html"><span class="text-line">
+                          Collection VII
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-VIII.html"><span class="text-line">
+                          Collection VIII
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-IX.html"><span class="text-line">
+                          Collection IX
+                        </span></a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections X — XII </span></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-X.html"><span class="text-line">
+                          Collection X
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-XI.html"><span class="text-line">
+                          Collection XI
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-XII.html"><span class="text-line">
+                          Collection XII
+                        </span></a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections XIII — XIV </span></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-XIII.html"><span class="text-line">
+                          Collection XIII
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-XIV.html"><span class="text-line">
+                          Collection XIV
+                        </span><span class="badge bg-primary" style="font-size: 0.55em">New</span></a>
+                    </li>
+                  </ul>
+                </li>
+                <div class="mb-3 mt-3">
+                  <a href="#">
+                    Non-Fiction
+                  </a>
+                </div>
+
+                <li>
+                  <a class="dropdown-item" href="published/poetry/bury-me-in-1965.html"><span class="text-line">
+                      Bury me in 1965
+                    </span></a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="published/journal/a-life-worth-living.html"><span class="text-line">
+                      A Life Worth Living (Vision @ 2020)
+                    </span></a>
+                </li>
+              
+              </ul>-->
+            </li>
+            
+
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="../../pages/upcoming.html"><span class="text-line"> Upcoming Poetry</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../pages/musicpool.html"><span class="text-line"> Musicpool </span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/bio.html"><span class="text-line"> Bio </span></a>
+            </li>            
+            <li class="nav-item">
+              <a class="nav-link" href="../../cookies.html"><span class="text-line"> Cookies Policy </span></a>
+            </li>
+          </ul>
+        </div>
+        <!--===== End of nav =====-->
+      </div>
+    </nav>
+    <!--===== End of navbar =====-->
+  </header>
+
+  <!--========== 
+        End of header ==========-->
+
+  <!--========== 
+        End of Sidebar ==========-->
+  <section class="position-relative slice-ptb">
+          <div class="mb-0">
+          <a id="designer" href="https://leondev.com.ng" target="_blank" v-if="store.checkLocation()">
+            <img class="img-fluid" src="../../images/ads/designedBySamsungS8.png" alt="">
+          </a>
+          <a id="designer" href="https://www.hilton.com/en/p/for-the-stay/" target="_blank">
+            <img class="img-fluid" src="../../images/ads/Hilton.jpg" alt="Hilton For The Stay">
+          </a>
+          </div>
+  </section>
+  <section class="position-relative slice-ptb">
+    <div class="top-separator">
+      <img class="img-fluid" src="../../images/separator/brush.svg" alt="" />
+    </div>
+    <div class="slice-ptb text-nightswan-gradient mt-n5">
+      <div class="container">
+        <div class="row text-center justify-content-center">
+          <div class="col-lg-9 col-xl-8">
+            <h1 class="text-white">
+              Frith Hilton Collection
+              <span class="text-nightswan-gradient"> VII</span>
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-divider mt-n5">
+      <img class="img-fluid" :src="'../../images/separator/brush.svg'" alt="" />
+    </div>
+  </section>
+
+  <section class="position-relative slice-ptb">
+    <div class="container">
+      <button class="btn btn-naked btn-icon-right" href="#!" v-effect="if
+        (store.currentChapter == 0) $el.focus()"></button>
+      <div class="row align-items-center mt-6">
+        <h2 class="mb-6 text-center">Contents</h2>
+        <div class="col-12">
+          <ul class="nav nav-pills nav-border-wide justify-content-center mb-3" id="pills-tab-07" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-trekking-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-trekking" type="button" role="tab" aria-controls="pills-trekking"
+                aria-selected="true" @click="store.setCoverVIIAsTab()">
+                Cover
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-analysis-tab" data-bs-toggle="pill" data-bs-target="#pills-analysis"
+                type="button" role="tab" aria-controls="pills-analysis" aria-selected="false"
+                @click="store.setAuthorVIIAsTab()">
+                Author's Note
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-investment-management-11-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-investment-management-11" type="button" role="tab"
+                aria-controls="pills-investment-management-11" aria-selected="false" @click="store.setDedVIIAsTab()">
+                Dedication & Acknowledgements
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-integration-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-integration" type="button" role="tab" aria-controls="pills-integration"
+                aria-selected="false" @click="store.setChaptersVIIAsTab()">
+                Chapters
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content mt-5" id="pills-tabContent-07">
+            <div class="tab-pane fade show active" id="pills-trekking" role="tabpanel"
+              aria-labelledby="pills-trekking-tab">
+              <div class="row">
+                <div class="col-lg-6">
+                  <img class="img-fluid" src="/images/collections/vii/Cover.jpg"
+                    alt="Frith Hilton Collection VII" />
+                    <hr class="my-5" />
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-analysis" role="tabpanel" aria-labelledby="pills-analysis-tab">
+              <div class="row justify-content-center">
+                <div class="col-lg-6">
+                  <div v-html="store.pageResources().authorsNote" class="mt-4 me-4 ms-4"></div>
+                  <hr class="my-5" />
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-investment-management-11" role="tabpanel">
+              <div class="row">
+                <div class="col-lg-6">
+                  <h4 class="text-center">Dedication</h4>
+                  <div v-html="store.pageResources().dedication" class="mt-4 me-4 ms-4"></div>
+                </div>
+                <div class="col-lg-5 mt-5">
+                  <h4 class="text-center">Acknowledgements</h4>
+                  <div v-html="store.pageResources().acknowledgements" class="mt-4 me-4 ms-4"></div>
+                </div>
+              </div>
+              <hr class="my-5" />
+            </div>
+            <div class="tab-pane fade" id="pills-integration" role="tabpanel" aria-labelledby="pills-integration-tab">
+
+              <div class="row justify-content-center" id="reading">
+                <div class="col-lg-6">
+
+                  <hr class="my-5" />
+                  <!--========== 
+          Beginning of chapter titles ==========-->
+                  <div v-for="(title, index) in
+                      store.pageResources().chapterTitles" :key="index">
+                    <div v-if="index !== 0 && store.getPageState() ==
+                        'chapters'" @click="store.setPageState(index)" :id="index">
+                      <!--===== Start of Title =====-->
+                      <div class="mb-5 text-center">
+                        <h2 class="col-4">
+                          <span class="hedding-svg">{{store.pageResources().convertIndex(index)}}</span>
+                        </h2>
+                        <button class="btn btn-naked btn-icon-right" href="#!" v-effect="if (store.currentChapter ==
+                            index ) $el.focus()"></button>
+                        <h5 class="mt-3">{{title}}</h5>
+                        <span v-show="store.currentChapter == index" class="title-separator"></span>
+                      </div>
+
+                      <!--===== End of Title =====-->
+                      <hr class="my-4" />
+                    </div>
+                  </div>
+                  <!--========== 
+          End of chapter titles ==========-->
+                  <!--========== 
+          Beginning of chapter content ==========-->
+                  <div v-if="store.currentChapter !== 0 &&
+                      store.getPageState() ==
+                      'poetry'">
+                    <!--===== Start of Title =====-->
+                    <div class="mb-5 text-center">
+                      <h2 class="col-4 fw-bold mb-4">
+                        <span class="hedding-svg">{{store.pageResources().convertIndex(store.currentChapter)}}</span>
+                      </h2>
+                      <h5>{{store.chapterTitle}}</h5>
+
+                      <div v-html="store.getChapterContent()" class="mt-4 me-4 ms-4"></div>
+                    </div>
+                    <!--===== End of Title =====-->
+                    <hr class="my-5" />
+
+                    <!--===== Go back  =====-->
+                    <div class="col-lg-3 col-sm-6">
+                      <p @click="store.goBack()" class="btn btn-naked-wrap go-back-btn">
+                        <i class="feather icon-arrow-left"></i>
+                        <span> Chapters </span>
+                      </p>
+                    </div>
+                    <!--===== End Go back  =====-->
+                  </div>
+
+                  <!--========== 
+          End of chapter content ==========-->
+                </div>
+              </div>
+            </div>
+          </div>
+                              <div class="mt-5 mb-5">
+          <a id="ad2" href="#ad2">
+            <img class="img-fluid" src="../../images/ads/cocacola.gif" alt="">
+          </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+    <!--========== 
+  Start of bottom page  ==========-->
+
+  <section class="py-5 bg-pink-gradient">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <h3 class="text-white" id="some-id">
+            I'm here
+            <u class="typer text-warning" data-words="writing,making music," data-delay="100" data-deletedelay="1000"
+              style="color: black"></u>
+            often.
+          </h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--========== 
+  End of bottom page  ==========-->
+
+  <!--========== 
+    Map section ==========-->
+
+  <section id="contact-us" class="position-relative">
+    <div class="google-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.629367104963!2d3.2316144785641425!3d6.692744576034127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b996ae457d243%3A0x63b338921b72fdf9!2sFrith%20Nightswan%20Enterprises!5e0!3m2!1sen!2sng!4v1683451340692!5m2!1sen!2sng"
+        width="800" height="600" style="border: 0" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!--========== 
+    End of map section ==========-->
+  </section>
+  <!--========== 
+  Start of footer section ==========-->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 position-relative mb-5 mb-sm-0">
+          <div class="position-absolute top-0 start-0 slice-pt ps-5 ps-lg-8"></div>
+        </div>
+        <div class="col-lg-6">
+          <!--===== Start of footer item =====-->
+          <div class="text-center slice-ptb">
+            <h4 class="mb-4 mt-5 mt-lg-0">Time Open</h4>
+            <div class="mb-4">
+              <h5>Monday to Friday</h5>
+              <p>8:30 am to 5 pm</p>
+            </div>
+
+            <h4 class="mb-4">Address</h4>
+            <div class="mb-4">
+              <h5>11, Akindenoh street Ota, Ogun State.</h5>
+              <p><a href="mailto:nightswan.enterprise@gmail.com">Send Frith Hilton Mail</a></p> 
+                           
+            </div>
+            <h2 class="text-green mb-0 mt-5">
+              <i class="feather icon-phone-call"></i> (234) 815 813 2408
+            </h2>
+          </div>
+          <!--===== End of footer item =====-->
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <footer class="footer bg-black slice-pt">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 offset-lg-2">
+          <h2 class="text-white display-2 mb-4">
+            <span class="typer text-white" id="some-id" data-words="Catch up!" data-delay="100">
+            </span>
+          </h2>
+
+          <div class="social-icons icons-xl mt-5">
+            <a class="icon text-white" href="https://youtube.com/@frithhilton17?si=8pEsa1wf1KxLNvBK" target="_blank">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a class="icon text-white" href="https://www.tiktok.com/@frithhilton17" target="_blank">
+              <i class="fab fa-tiktok"></i>
+            </a>            
+            <a class="icon text-white" href="https://www.twitter.com/frithhilton17" target="_blank">
+              <i class="fab fa-x-twitter"></i>
+            </a>
+            <a class="icon text-white" href="https://www.instagram.com/frithhilton17" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr class="mt-7" />
+      <div class="row text-center">
+        <div class="col-12">
+<div class="developer-footer mb-2">
+    <a href="https://leondev.com.ng" target="_blank"><img src="/images/Leondev.png" alt="lEoNDɘv" width="80" height="80"></a>  
+</div>                            
+          <p class="text-white mt-3 mb-4">
+            © <span id="getFullYear"></span>
+            <span class="text-pink-gradient">Howard Frith Hilton</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--========== 
+  End of footer section ==========-->
+
+  <!--========== 
+        Start of back to top section ==========-->
+
+  <div class="go-top">
+    <p class="go-top-text">
+      Scroll to top <i class="fas fa-long-arrow-alt-right ps-2"></i>
+    </p>
+  </div>
+
+  <!--========== 
+	End of back to top section ==========-->	                      <div class="col-lg-3 col-sm-6">                        <p                          @click="window.location.href='../search.html'"                          class="btn btn-naked-wrap search-btn"                        >                          <i class="fas fa-search"></i>                          <span> search </span>                        </p>                      </div> 
+  <!--========== 
+	Start of Javascript ==========-->
+
+  <!--===== Global required js =====-->
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <script src="../../js/jquery-3.6.0.min.js"></script>
+  <script src="../../js/popper.min.js"></script>
+  <script src="../../js/bootstrap/bootstrap.min.js"></script>
+
+  <!--===== Global script: js libraries and plugins =====-->
+  <script src="../../js/appear/jquery.appear.js"></script>
+  <script src="../../js/swiper/swiper.min.js"></script>
+  <script src="../../js/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="../../js/isotope/isotope.pkgd.min.js"></script>
+  <script src="../../js/typer/typer.js"></script>     <script src="../../js/firewall.js"></script>
+  <script src="../../js/jarallax/jarallax.min.js"></script>
+  <script src="../../js/mCustomScrollbar/jquery.mCustomScrollbar.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/numbered/1.1.0/index.min.js"
+    integrity="sha512-UQKbSOyUPIxk4a5/TIcqKUfl2JX0b1Rgq16BgvZbIWa7g5g3Rl/RXzFJFt2iu9LzDUpqDbcaak2ifjW887SxPw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="../../js/collection-VII.js"></script>
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        appId: "1292503991685432",
+        autoLogAppEvents: true,
+        xfbml: true,
+        version: "v16.0",
+      });
+    };
+  </script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+
+  <!--===== Main theme script =====-->
+
+  <script type="module">
+    import {
+      createApp,
+      reactive
+    } from "../../js/petite-vue.js";
+    const store = reactive({
+       IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage.getItem('accessAllowed')); return this.IPAccess; },
+      currentURL: "/published/poetry/collection-VII.html",
+      staticPoemURL: "",
+      poemURL: "",
+      URLPoemID: 0,
+      CopyURLText: "Copy URL",
+      currentChapter: 0,
+      goBackState: false,
+      getCurrentChapter() {
+        if (localStorage.getItem("VIICurrentChapter")) {
+          this.currentChapter = localStorage.getItem("VIICurrentChapter");
+        } else if (this.currentChapter == 0) {
+          this.currentChapter = this.URLPoemID;
+        } else {
+          localStorage.removeItem("VIICurrentChapter");
+        }
+      },
+      chapterTitle: "",
+      getChapterContent() {
+        const chapterTitle = this.pageResources().chapterTitles.at(
+          this.currentChapter
+        );
+        this.generatePoemURL();
+        this.chapterTitle = chapterTitle;
+        const chapterContent = this.pageResources().chapters;
+        return chapterContent.at(this.currentChapter);
+      },
+      initialPageState: {
+        viewVII: "chapters",
+      },
+      pageState: localStorage.getItem("viewVII"),
+      getPageState() {
+        this.decodePoemURL();
+        if (this.pageState == "chapters") {
+          const state = "chapters";
+          localStorage.removeItem("VIICurrentChapter");
+          return state;
+        } else if (this.pageState == "poetry") {
+          this.decodePoemURL();
+          this.getCurrentChapter();
+          const state = "poetry";
+
+          return state;
+        } else {
+          localStorage.setItem("viewVII", this.initialPageState.viewVII);
+          const state = this.initialPageState.viewVII;
+          return state;
+        }
+      },
+      setPageState(index) {
+        localStorage.setItem("viewVII", "poetry");
+        location.href = "#reading";
+        (this.pageState = localStorage.getItem("viewVII")),
+        (this.currentChapter = index);
+        localStorage.setItem("VIICurrentChapter", this.currentChapter);
+      },
+      goBack() {
+        this.goBackState = true;
+        localStorage.setItem("viewVII", "chapters");
+        this.pageState = localStorage.getItem("viewVII");
+        this.getPageState();
+      },
+      pageResources() {
+        return {
+          dedication: `<p class="text-center">To <strong style="color: #010521"> my dad,  <span class="fw-bold"> Richard Howard Hilton</span>  </strong></p>`,
+          acknowledgements: `<p>         This collection rests on the shoulders of everyone who inspired me during the writing process. Thank you to Carmella Rose, Mariam Rod, Richard Hilton, Taylor Swift, Wolfie Cindy, Kendall Jenner, Jessica Andrea, Leonor, Princess of Asturias, Nicky Hilton, and Addison Rae.</p>`,
+          authorsNote: [
+            `    <p><span class="dropcap text-dark">T</span>he meaning of life has something to do with <em>seven</em>, I thought for a while. For weeks I studied phone numbers, and soon I dropped the idea after realizing a boy down the street had more sevens in his cell phone number than all the pastor’s numbers I had fed on to justify my hunch. The idea of the number seven charged up with life more than any other was influenced by very popular references, I guess it’s what being a new stoner could do to anyone. But I live in a little community of very few people, a census would peg the headcount no more than a thousand, meaning, I was doing very little socializing. I finally found a beautiful seven to hold on to, just before leaving Dubai city. And now I pass the belt to my dad, Richard Howard Hilton, he is the one who's paid all my debts, from Dubai to Singapore and Puerto Rico, no one says I owe them. I dedicate this to all the adventures you've set me on right from your <a href="https://www.instagram.com/rickhilton7?igsh=bXprZXBwYTBqbTc5" target="_blank" >@rickhilton7</a> Instagram account. </p>
+
+    <p>              It was time to leave the country, I wasn’t getting the fees for the education I had gone over to enrol for sent to me. I had my flight ticket, and very little money to get to the airport. I was assured by my host in the city of Sharjah that the sum would help me down. But soon in the taxi, watching the meter, I was stumped on how much the bill read about half a minute from the pickup point. The highway was lonely, and the streets so bright, were scary. Waiting for a while after my call to halt from the ridiculousness I was encountering, I told him to continue, the bill climbed up anyway in the wait and I went ferreting my backpack for the loose change I had in there.</p>
+
+    <p>              Arriving at the busy airport in Dubai brought panics as I had no idea what I’d do, the cabs paused, and occupants went on their way, all these in a max of sixty seconds, even heavy travellers had the streak, it was bad, I learned this from my arrival, but I’d been thrown into a position of feeling sorry for cheating this man off his remuneration. It obviously had to match with the billing display, what I was to tender, but I was seven Dirham of the journey’s charge short. It stunk as I got off, in the bright lights of the city's airport, the feeling that remained was of luck, I felt lucky, more than I had ever thought possible.</p>
+
+    <p>              19th of September, 2019 I arrived in Lagos in the morning, the same day as my grandad’s passing, William Barron Hilton. His passing had brought only good luck, and to tell how lucky I still feel,  I dedicate this collection to my dad, now knowledgeable that time’s <i>passing</i> springs meaning in every action, old and new, as it further gives life to events, also, to every good act done. I am lucky to have an awesome driver in life. Dad says to chase the bunny, as I’d be surprised to know my grandad was quite present with me and spoke to me a lot before his passing. <i>That truly wonderful world</i>.</p>
+                <img class="img-fluid mt-5" src="../../images/collections/vii/passport.jpg" alt="Author's Note - International Passport">
+
+ `,
+          ],
+          chapterTitles: [
+            "0",
+"Serendipity",
+"Third Person Omniscient",
+"Survive Belong and Become",
+"No Collection",
+"One Sweet Hick",
+"Instagram Is Her Joujou",
+"Dad's Gamp",
+"Whelmed Men",
+"The Geezer's Fowl",
+"Collection VI",
+"The Film Festival",
+"Crimson as Red Stain",
+"A Taste of the Unworthy",
+"The Same Thing as in Catch",
+"The Bad Does Good, Good Does Bad",
+"Yowzah",
+"Taylor's Thighs",
+"All His Love",
+"In Graduations",
+"Antenna",
+"Yobs, Some Poetry Don't Rhyme",
+"August",
+"If I Was Your Boyfriend",
+"A Curio",
+"Where New Chicks Hatch",
+"Daddy, Daddy, Daddy Bandying",
+"Dovetail",
+"Eyrie",
+"Shaking for an Idol"
+],
+          chapters: [
+            `0`,
+`<p>Dad, she’s a rose</p>
+<p>in hank knit pose</p>
+<p>a petrifying dote</p>
+<p>do see her photos</p>
+<p>her vicious hold</p>
+<p>will bring me home.</p>`, 
+`<p>He let her</p>
+<p>take him away.</p>
+<p>&nbsp;</p>
+<p>She’s better</p>
+<p>from her sail.</p>
+<p>&nbsp;</p>
+<p>Being together</p>
+<p>it isn’t the same.</p>
+<p>&nbsp;</p>
+<p>Too, I’d gather</p>
+<p>from how it aches.</p>`, 
+`<p>The three things</p>
+<p>one is giving</p>
+<p>other is within</p>
+<p>this is everything.</p>`, 
+`<p>Hardly do I cover up</p>
+<p>shucks</p>
+<p>my innards ruck</p>
+<p>I long your touch</p>
+<p>I haven’t much</p>
+<p>these words</p>
+<p>very few in blur</p>
+<p>isn’t it the soil</p>
+<p>your ego crossed</p>
+<p>doggone</p>
+<p>all feels lost</p>
+<p>without a picture.</p>`, 
+`<p>I itch with a stick</p>
+<p>since it’s sweet</p>
+<p>sweet adjectives</p>
+<p>long in pedigree</p>
+<p>who else visits</p>
+<p>elation in grief</p>
+<p>as with terrorists</p>
+<p>dead, incinerating.</p>`, 
+`<p>She is a lubber if she cannot work it</p>
+<p>holing up could be her favourite thing</p>
+<p>favourite to be spelled to ingratiating</p>
+<p>but she asks for the patience of myths</p>
+<p>so the legend of no Instagram stories</p>
+<p>I present to you all, gents, and ladies</p>
+<p>though I have hiccough and an inkling</p>
+<p>it is of whom it has been; her narrative.</p>`, 
+`<p>Moments lapping over my thoughts</p>
+<p>with no obvious take on any course</p>
+<p>had my spirit sat in pother comfort</p>
+<p>as if stuck in a brain shaped fusiform</p>
+<p>an arrival, an idea, <em>the</em> couple’s jaunt</p>
+<p>the rescue; first girl from your legion</p>
+<p>pepping me up around by the clock</p>
+<p>I met you in the crucible of our hum</p>
+<p>this hum with no bystander duration</p>
+<p>time here has filled up the billabong</p>
+<p>long rainy days waiting for avizandum</p>
+<p>but it could be my nature has evolved</p>
+<p>seven days come, knowing it’ll rain more.</p>`, 
+`<p>Handicapped fellows</p>
+<p>in the sailors’ burrow</p>
+<p>a stowaway’s sorrow.</p>`, 
+`<p>A shelduck</p>
+<p>a lonely path to the seldom</p>
+<p>an orange orchard’s groove</p>
+<p>a manorial pond.</p>`, 
+`<p>So alarmed to fugue</p>
+<p>for a one time whoop</p>
+<p><em>dad it’s growing huge</em></p>
+<p>seventh chasing deluge</p>
+<p>the sixth from the blue</p>
+<p>dad, cheers to the truth.</p>`, 
+`<p>Due to the recent events</p>
+<p>it’s been quite hard to tell</p>
+<p>the camp is heavy on hell</p>
+<p>everyone curses and yells</p>
+<p>the air wears tidy contempt</p>
+<p>the decrepit truth coalesced</p>
+<p>they speak of what you lent</p>
+<p>bandied around is why I wept.</p>`, 
+`<p>Am I not crying for the fathom</p>
+<p>with tears early as the autumn</p>
+<p>weakening the gauntlet’s mull</p>
+<p>from erasing no entry in datum</p>
+<p>a sojourn of not an intimation</p>
+<p>what is left is this infirm vision</p>
+<p>the horizon, clouds recidivous</p>
+<p>choppy waters so mischievous.</p>`, 
+`<p>Half seated before attempt</p>
+<p>my garnished address</p>
+<p>has a twist by its palate</p>
+<p>even resuming as talentless.</p>`, 
+`<p>Lacking a mention</p>
+<p>or an assuaging hock</p>
+<p>belabouring you knock</p>
+<p>long to tee-hee-hee dock</p>
+<p>our man and wife troth luck</p>
+<p>a mañana travesty you return</p>
+<p>the sun rises, sets, dawn to dusk</p>
+<p>I’m a husband manqué lost in his foils.</p>`, 
+`<p>This day I’m pondering the majestic</p>
+<p>floored at the strait of the authentic</p>
+<p>paraffin or gasoline, I’ve got the wick</p>
+<p>it is not the flapping doing the magic</p>
+<p>every instance, it isn’t owning the tick</p>
+<p>this air helps me burn, too, scary flick</p>
+<p>this commingling is playing an ol’ trick</p>
+<p>hopping is not walking, sing for speak</p>
+<p>hue of the dye, wax melted on a batik</p>
+<p>confusing cause of effect is the pick</p>
+<p>two tales starring in an emotional nick.</p>`, 
+`<p>The wind chill is ornate</p>
+<p>the upset has complaints</p>
+<p>shrouded in bagatelle language</p>
+<p>as poetry is obvert, never shales.</p>`, 
+`<p>No mess is made</p>
+<p>when you're baked</p>
+<p>you're like some ale</p>
+<p>oh everyone is okay</p>
+<p>for a bite, they'd wait</p>
+<p>you're yum-yum lake</p>
+<p>to dive in any D-day</p>
+<p>no mess, clean slate</p>
+<p>a counter of palisade</p>
+<p>soft on lips as duvet</p>
+<p>pungent like migraine</p>
+<p>gone, leaving no stain</p>
+<p>mwa, you are my bail</p>
+<p>the cooling space</p>
+<p>of course, I'll wait</p>
+<p>wish list to package</p>
+<p>I'm hungry for dates</p>
+<p>1989, when is the wake</p>
+<p>mine, I'm way too slain</p>
+<p>the roach, the afraid</p>
+<p>be the swat, my claim</p>
+<p>... heaven her way.</p>`, 
+`<p>Leafing through pages</p>
+<p>living through wages</p>
+<p>he stumbled, paid</p>
+<p>she who swayed.</p>`, 
+`<p>It was deafening sentence</p>
+<p>on a par with what not to expect</p>
+<p>the brigade of their death</p>
+<p>arriving with a pack of cigarettes</p>
+<p>his skin shiny, but modest</p>
+<p>asking for nothing, only my best.</p>`, 
+`<p>Everyone picks up words</p>
+<p>words yet to be illustrious</p>
+<p>coinings opening new doors</p>
+<p>monsoons engaging new pours</p>
+<p><em>antenna</em>, the best of the new ones</p>
+<p>favourite for weeks, I wouldn’t budge</p>
+<p>if I only I had a pair to catch the ominous</p>
+<p>in hindsight, it was to be free that bedaubed</p>
+<p>to sense my little world, accurately paint pictures.</p>`, 
+`<p>Contraptions signed petitions</p>
+<p>in hiding, we penned gawked</p>
+<p>amazed at their signatures</p>
+<p>muffled, everyone bawled</p>
+<p>I’ve begun a distribution</p>
+<p>of poetry, not of guns</p>
+<p>a kerb after a kerb.</p>`, 
+`<p>He’s saying he met you</p>
+<p>not without lots to undo</p>
+<p>high stereotype hurdles</p>
+<p>that body, ass construe</p>
+<p>he’s never been the fool</p>
+<p>as fooled as you choose</p>
+<p>swathe in fervent bristle</p>
+<p>it’s half, no dud in fruits</p>
+<p>the gaffe in obfuscation.</p>`, 
+`<p>Remaining as still and quiet</p>
+<p>blissful as those sight's rest</p>
+<p>on the other side of tenets</p>
+<p>a place of little sum patience</p>
+<p>where the heavy gets assent</p>
+<p>its hour where it is tempest.</p>`, 
+`<p>Evening time in the herd</p>
+<p>with my head unearth</p>
+<p>a thing stirred</p>
+<p>and I heard.</p>`, 
+`<p>A mail arrived from yonder</p>
+<p>of our infractions apart</p>
+<p>insuperable it yaks</p>
+<p>I have the map</p>
+<p>sleuth’s plan</p>
+<p>be calm.</p>`, 
+`<p>A birthday wants memories</p>
+<p>they are like the hairpins</p>
+<p>so I’ve offered poetry</p>
+<p>oft  mishmash yucky</p>
+<p>honking dungaree</p>
+<p>as I am wearing</p>
+<p>go numbering</p>
+<p>increasing.</p>`, 
+`<p>I hear voices</p>
+<p>especially</p>
+<p>when sleepy</p>
+<p>detesting</p>
+<p>any phallic</p>
+<p>breathing</p>
+<p>feminine</p>
+<p>the soothing</p>
+<p>chit chatting</p>
+<p>not minding</p>
+<p>bantering</p>
+<p>sell me</p>
+<p>the melody.</p>`, 
+`<p>Can you dance with your sister</p>
+<p>the slow dance of a getaway</p>
+<p>dratted from mindless arms</p>
+<p>… seeing that dirty maim</p>
+<p><em>I could love that part</em></p>
+<p><em>oh I’ve had no day</em></p>
+<p><em>yes it’s a ritual.</em></p>`, 
+`<p>By comely contrivance</p>
+<p>set besides the passage</p>
+<p>doorway too in traverse</p>
+<p>came a man, all he’s cast</p>
+<p>for a location, by a date</p>
+<p>he’d no need for a gaffer</p>
+<p>sixty, three-sixty arcane</p>
+<p>but of the paraphernalia</p>
+<p>shake off, an idea shake.</p>`,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+            
+            
+            
+          ],
+          convertIndex(prop) {
+            var indexNumber = prop;
+            var number = numbered.stringify(indexNumber);
+            return number;
+          },
+        };
+      },
+      acceptCookieUse() {
+        localStorage.setItem("cookieUse", true);
+      },
+      lastTabVII: "",
+      coverTabVIIIsActive: localStorage.getItem("coverTabVIIIsActive"),
+      authorTabVIIIsActive: localStorage.getItem("authorTabVIIIsActive"),
+      dedTabVIIIsActive: localStorage.getItem("dedTabVIIIsActive"),
+      chapterTabVIIIsActive: localStorage.getItem("chapterTabVIIIsActive"),
+      navLink: true,
+      setCoverVIIAsTab() {
+        this.lastTabVII = "Cover";
+        localStorage.setItem("lastTabVII", this.lastTabVII);
+        localStorage.setItem("coverTabVIIIsActive", true);
+        localStorage.setItem("authorTabVIIIsActive", false);
+        localStorage.setItem("dedTabVIIIsActive", false);
+        localStorage.setItem("chapterTabVIIIsActive", false);
+      },
+      setAuthorVIIAsTab() {
+        this.lastTabVII = "Author";
+        localStorage.setItem("lastTabVII", this.lastTabVII);
+        localStorage.setItem("coverTabVIIIsActive", false);
+        localStorage.setItem("authorTabVIIIsActive", true);
+        localStorage.setItem("dedTabVIIIsActive", false);
+        localStorage.setItem("chapterTabVIIIsActive", false);
+      },
+      setDedVIIAsTab() {
+        this.lastTabVII = "Dedication";
+        localStorage.setItem("lastTabVII", this.lastTabVII);
+        localStorage.setItem("coverTabVIIIsActive", false);
+        localStorage.setItem("authorTabVIIIsActive", false);
+        localStorage.setItem("dedTabVIIIsActive", true);
+        localStorage.setItem("chapterTabVIIIsActive", false);
+      },
+      setChaptersVIIAsTab() {
+        this.lastTabVII = "Chapters";
+        localStorage.setItem("lastTabVII", this.lastTabVII);
+        localStorage.setItem("coverTabVIIIsActive", false);
+        localStorage.setItem("authorTabVIIIsActive", false);
+        localStorage.setItem("dedTabVIIIsActive", false);
+        localStorage.setItem("chapterTabVIIIsActive", true);
+      },
+      shareToFacebook() {
+        this.generateStaticPoemURL();
+        console.log(this.generateStaticPoemURL());
+        FB.ui({
+            display: "popup",
+            method: "share",
+            href: this.staticPoemURL,
+          },
+          function (response) {}
+        );
+      },
+      copyURL() {
+        this.CopyURLText = "URL copied to clipboard";
+        this.generateStaticPoemURL();
+        navigator.clipboard.writeText(this.staticPoemURL);
+        $("#CopyURLText").css("color", "green");
+        $("#copyURLIcon").css("color", "green");
+        setTimeout(() => {
+          $("#CopyURLText").css("color", "#010521");
+          $("#copyURLIcon").css("color", "#010521");
+          this.CopyURLText = "Copy URL";
+        }, 8000);
+      },
+      shareToWhatsApp() {
+        this.generateStaticPoemURL();
+        const linkToShare = "whatsapp://send?text=" + this.staticPoemURL;
+        window.open(linkToShare, "_blank");
+      },
+      shareToTwitter() {
+        return
+      },
+      loadBookmark() {
+        var urlParams = new URLSearchParams(location.search);
+      },
+      generatePoemURL() {
+        var domainName = window.location.origin;
+        const queryToAppend =
+          domainName +
+          this.currentURL +
+          "?typeIsPoem" +
+          "&id=" +
+          this.currentChapter;
+        this.poemURL = queryToAppend;
+      },
+      changeTabToChapter() {
+        localStorage.setItem("coverTabVIIIsActive", false);
+        localStorage.setItem("authorTabVIIIsActive", false);
+        localStorage.setItem("dedTabVIIIsActive", false);
+        localStorage.setItem("chapterTabVIIIsActive", true);
+        document.getElementById("pills-integration-tab").click();
+      },
+      decodePoemURL() {
+        if (this.goBackState == true) {
+          return;
+        } else {
+          var bookmarkURL = new URLSearchParams(location.search);
+          var getPoemIdFromURL = bookmarkURL.get("id");
+          if (bookmarkURL.has("typeIsPoem") && getPoemIdFromURL <= 38) {
+            this.changeTabToChapter();
+            localStorage.setItem("viewVII", "poetry");
+            this.pageState = "poetry";
+            this.URLPoemID = getPoemIdFromURL;
+            this.currentChapter = this.URLPoemID;
+            localStorage.setItem("VIICurrentChapter", this.currentChapter);
+            this.goBackState = false;
+          } else if (bookmarkURL.has("typeIsPoem") && getPoemIdFromURL > 38) {
+            localStorage.setItem("viewVII", this.initialPageState.viewVI);
+            window.location.href =
+              window.location.origin + "/pages/not-found.html";
+          } else {
+            window.location.origin + "/pages/not-found.html";
+          }
+        }
+      },
+      generateStaticPoemURL() {
+        var domainName = window.location.origin;
+        const convertPoemID = this.pageResources().convertIndex(
+          this.currentChapter
+        );
+        var shareURL =
+          domainName +
+          "/pages/Hilton/collections/iv/" +
+          convertPoemID +
+          ".html";
+        this.staticPoemURL = shareURL;
+      },
+   goToPublished() {
+      window.location.href = '../books.html';
+    }
+     
+    });
+
+    createApp({
+      store,
+    }).mount("#ctrlArea");
+  </script>
+  <!--========== 
+	End of Javascript ==========-->
+</body>
+
+</html>

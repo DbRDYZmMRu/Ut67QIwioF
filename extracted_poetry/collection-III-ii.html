@@ -1,0 +1,2054 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<script>
+    function getQueryParam(param) {
+        const urlParams = new URLSearchParams(window.location.search);
+
+        return urlParams.get(param);
+    }
+
+    /**
+
+ * Run the query parameter extraction on page load and update the page content.
+
+ */
+
+    function runOnPageLoad() {
+        const queryValue = getQueryParam("query");
+
+        if (queryValue !== null) {
+            localStorage.setItem("viewIIIv2", "poetry");
+
+            localStorage.setItem("IIIv2CurrentChapter", queryValue);
+
+            console.log("Query parameter value:", queryValue); // You can replace this line with any other action
+
+            // Update the page content based on the query parameter value
+					localStorage.setItem("coverTabIIIv2IsActive", false);
+					localStorage.setItem("authorTabIIIv2IsActive", false);
+					localStorage.setItem("dedTabIIIv2IsActive", false);
+					localStorage.setItem("chapterTabIIIv2IsActive", true);
+
+            document.addEventListener("DOMContentLoaded", function () {
+                var integrationTab = document.getElementById("pills-integration-tab");
+
+                if (integrationTab) {
+                    integrationTab.click();
+                } else {
+                    console.error("Element with ID 'pills-integration-tab' not found.");
+                }
+            });
+        }
+    }
+
+    runOnPageLoad();
+</script>
+    
+    <!--===== Required meta tags =====-->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Howard Frith Hilton" />
+    <meta name="description" content="Frith Hilton Collection III (Original Edition)" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Frith Hilton Collection III (Original Edition)" />
+    <meta
+      property="og:description"
+      content="Frith Hilton Collection III (Original Edition)"
+    />
+    <meta property="og:image" content="" />
+
+    <!--===== Title =====-->
+    <title>Frith Hilton Collection III (Original Edition) </title>
+
+    <!--===== Favicon =====-->
+    <link rel="shortcut icon" href="../../images/favicon.png" />
+
+    <!--===== Google fonts =====-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Jost:wght@300;400;500;600;700;800;900&display=swap"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap"
+      rel="stylesheet"
+    />
+ <!-- font-awesome-icons -->
+ <script src="https://kit.fontawesome.com/c7fbb1b458.js" crossorigin="anonymous"></script>  
+
+    <!--===== Global bootstrap required css =====-->
+    <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css" />
+    <!--===== Global styles including: Font Icons, Plugins, etc =====-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../css/font-awesome/all.min.css"
+    />
+    <link rel="stylesheet" href="../../css/feather/iconfont.css" />
+    <link
+      rel="stylesheet"
+      href="../../css/pe-icon-stroke/Pe-icon-7-stroke.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../css/simple-line-icons/simple-line-icons.css"
+    />
+    <link rel="stylesheet" href="../../css/themify-icons/themify-icons.css" />
+    <link
+      rel="stylesheet"
+      href="../../css/pe-icon-stroke/Pe-icon-7-stroke.css"
+    />
+    <link rel="stylesheet" href="../../css/swiper/swiper.min.css" />
+    <link rel="stylesheet" href="../../css/magnific-popup/magnific-popup.css" />
+    <!--===== Main theme css =====-->
+    <link rel="stylesheet" href="../../css/style.css" />
+  </head>
+
+  <body class="stokes-wrapper" id="ctrlArea" v-cloak>
+    <!--========== 
+	Start of loader ==========-->
+
+  <div class="template-loader">
+    <div class="loaderCenter">
+      <div class="book">
+        <div class="book__pg-shadow"></div>
+        <div class="book__pg"></div>
+        <div class="book__pg book__pg--2"></div>
+        <div class="book__pg book__pg--3"></div>
+        <div class="book__pg book__pg--4"></div>
+        <div class="book__pg book__pg--5"></div>
+      </div>
+    </div>
+  </div>
+
+    <!--========== 
+	End of loader ==========-->
+
+    <!--========== 
+    Start of  cookie modal notification section ==========-->
+    <div class="modal-subscribe">
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        data-bs-backdrop="static"
+        id="myModal"
+        tabindex="-1"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body p-0 bg-secondary rounded">
+              <div class="p-5 text-center">
+                <img
+                  class="img-fluid px-5"
+                  src="/images/svg/cookie.svg"
+                  alt=""
+                />
+                <h3>Cookies</h3>
+                <p class="text-dark">
+                  Managed by <b>F</b>rith<b> N</b>ightswan<b> E</b>nterprises</p> 
+                <a href="/cookies.html" class="text-primary-gradient fw-bold"
+                  >Our policy</a
+                >
+                <div class="d-grid mt-5">
+                  <button
+                    type="button"
+                    class="btn btn-white rounded"
+                    data-bs-dismiss="modal"
+                    @click="store.acceptCookieUse()"
+                  >
+                    Accept
+                  </button>
+                  <p class="text-dark mt-4">
+                    Coupled with
+                    <svg
+                      class="logo"
+                      viewBox="0 0 128 128"
+                      width="24"
+                      height="24"
+                      data-v-53ccc107=""
+                    >
+                      <path
+                        fill="#42b883"
+                        d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z"
+                        data-v-53ccc107=""
+                      ></path>
+                      <path
+                        fill="#35495e"
+                        d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z"
+                        data-v-53ccc107=""
+                      ></path>
+                    </svg>
+                    <a
+                      href="https://github.com/vuejs/petite-vue"
+                      target="_blank"
+                      style="color: #42b883"
+                      ><b>petite-vue</b></a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--========== 
+          End of cookie modal notification section ==========-->
+    <!--==========-->
+
+
+
+
+
+  <header class="header">
+    <!--===== Start of navbar =====-->
+    <nav class="navbar navbar-light navbar-expand-lg navbar-default">
+      <div class="container-fluid">
+        <!--===== Start of logo =====-->
+        <a class="navbar-brand" href="/"><img class="logo" src="/images/logo.png" alt="Frith Hilton Logo" /></a>
+        <!--===== End of logo =====-->
+
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="icon-bar top-bar mt-0"></span>
+          <span class="icon-bar middle-bar"></span>
+          <span class="icon-bar bottom-bar"></span>
+        </button>
+
+        <!--===== Start of nav =====-->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/"><span class="text-line"> Home </span></a>
+            </li>                       
+            <li class="nav-item dropdown active">
+              <a @click="store.goToPublished" class="nav-link dropdown-toggle" href="#" id="navbar-pages" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="text-line"> Publications</span>
+              </a>
+
+              <!--<ul class="dropdown-menu" aria-labelledby="navbar-pages">
+                <div class="mb-3 mt-3">
+                  <a href="#">
+                    Frith Hilton Collections
+                  </a>
+                </div>
+
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections I — III </span></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="../published/poetry/collection-I.html"><span class="text-line">
+                          Collection I
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="../published/poetry/collection-II.html"><span class="text-line">
+                          Collection II
+                        </span></a>
+                    </li>
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collection III </span></a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="../published/poetry/collection-III.html"><span class="text-line">
+                              Valentine Edition
+                            </span></a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="../published/poetry/collection-III-ii.html"><span class="text-line">
+                              Original Edition
+                            </span></a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections IV — VI </span></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="../published/poetry/collection-IV.html"><span class="text-line">
+                          Collection IV
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="../published/poetry/collection-V.html"><span class="text-line">
+                          Collection V
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="../published/poetry/collection-VI.html"><span class="text-line">
+                          Collection VI
+                        </span></a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections VII — IX </span></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-VII.html"><span class="text-line">
+                          Collection VII
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-VIII.html"><span class="text-line">
+                          Collection VIII
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-IX.html"><span class="text-line">
+                          Collection IX
+                        </span></a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections X — XII </span></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-X.html"><span class="text-line">
+                          Collection X
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-XI.html"><span class="text-line">
+                          Collection XI
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-XII.html"><span class="text-line">
+                          Collection XII
+                        </span></a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections XIII — XIV </span></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-XIII.html"><span class="text-line">
+                          Collection XIII
+                        </span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="published/poetry/collection-XIV.html"><span class="text-line">
+                          Collection XIV
+                        </span><span class="badge bg-primary" style="font-size: 0.55em">New</span></a>
+                    </li>
+                  </ul>
+                </li>
+                <div class="mb-3 mt-3">
+                  <a href="#">
+                    Non-Fiction
+                  </a>
+                </div>
+
+                <li>
+                  <a class="dropdown-item" href="published/poetry/bury-me-in-1965.html"><span class="text-line">
+                      Bury me in 1965
+                    </span></a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="published/journal/a-life-worth-living.html"><span class="text-line">
+                      A Life Worth Living (Vision @ 2020)
+                    </span></a>
+                </li>
+              
+              </ul>-->
+            </li>
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="../../pages/upcoming.html"><span class="text-line"> Upcoming Poetry</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../pages/musicpool.html"><span class="text-line"> Musicpool </span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/bio.html"><span class="text-line"> Bio </span></a>
+            </li>            
+            <li class="nav-item">
+              <a class="nav-link" href="../../cookies.html"><span class="text-line"> Cookies Policy </span></a>
+            </li>
+          </ul>
+        </div>
+        <!--===== End of nav =====-->
+      </div>
+    </nav>
+    <!--===== End of navbar =====-->
+  </header>
+
+  <!--========== 
+        End of header ==========-->
+
+  <!--========== 
+        End of Sidebar ==========-->
+
+
+    <section class="position-relative slice-ptb">
+      <div class="top-separator">
+        <img class="img-fluid" src="/images/separator/brush.svg" alt="" />
+      </div>
+      <div class="slice-ptb text-nightswan-gradient mt-n5">
+        <div class="container">
+          <div class="row text-center justify-content-center">
+            <div class="col-lg-9 col-xl-8">
+              <h1 class="text-white">
+                Frith Hilton Collection
+                <span class="text-nightswan-gradient"> III</span>
+              </h1><br>
+              <h3>Original Edition </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-divider mt-n5">
+        <img
+          class="img-fluid"
+          :src="'../../images/separator/brush.svg'"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <section class="position-relative slice-ptb">
+      <div class="container">
+        <button
+          class="btn btn-naked btn-icon-right"
+          href="#!"
+          v-effect="if
+        (store.currentChapter == 0) $el.focus()"
+        ></button>
+        <div class="row align-items-center mt-6">
+          <h2 id="reading" class="mb-6 text-center">Contents</h2>
+          <div class="col-12">
+            <ul
+              class="nav nav-pills nav-border-wide justify-content-center mb-3"
+              id="pills-tab-07"
+              role="tablist"
+            >
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="pills-trekking-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-trekking"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-trekking"
+                  aria-selected="true"
+                  @click="store.setCoverIIIv2AsTab()"
+                >
+                  Cover
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-analysis-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-analysis"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-analysis"
+                  aria-selected="false"
+                  @click="store.setAuthorIIIv2AsTab()"
+                >
+                  Author's Note
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-investment-management-11-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-investment-management-11"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-investment-management-11"
+                  aria-selected="false"
+                  @click="store.setDedIIIv2AsTab()"
+                >
+                  Dedication & Acknowledgements
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-integration-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-integration"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-integration"
+                  aria-selected="false"
+                  @click="store.setChaptersIIIv2AsTab()"
+                >
+                  Chapters
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content mt-5" id="pills-tabContent-07">
+              <div
+                class="tab-pane fade show active"
+                id="pills-trekking"
+                role="tabpanel"
+                aria-labelledby="pills-trekking-tab"
+              >
+                <div class="row">
+                  <div class="col-lg-6">
+                    <img
+                      class="img-fluid"
+                      src="/images/collections/iii-ii/Cover.jpg"
+                      alt="Frith Hilton Collection III"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-analysis"
+                role="tabpanel"
+                aria-labelledby="pills-analysis-tab"
+              >
+                <div class="row justify-content-center">
+                  <div class="col-lg-6">
+                    <div
+                      v-html="store.pageResources().authorsNote"
+                      class="mt-4 me-4 ms-4"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-investment-management-11"
+                role="tabpanel"
+              >
+                <div class="row">
+                  <div class="col-lg-6">
+                    <h4 class="text-center">Dedication</h4>
+                    <div
+                      v-html="store.pageResources().dedication"
+                      class="mt-4 me-4 ms-4"
+                    ></div>
+                  </div>
+                  <div class="col-lg-5 mt-5">
+                    <h4 class="text-center">Acknowledgements</h4>
+                    <div
+                      v-html="store.pageResources().acknowledgements"
+                      class="mt-4 me-4 ms-4"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-integration"
+                role="tabpanel"
+                aria-labelledby="pills-integration-tab"
+              >
+                <div class="row justify-content-center">
+                  <div class="col-lg-6">
+                    <hr class="my-5" />
+                    <!--========== 
+          Beginning of chapter titles ==========-->
+                    <div
+                      v-for="(title, index) in
+                      store.pageResources().chapterTitles"
+                      :key="index"
+                    >
+                      <div
+                        v-if="index !== 0 && store.getPageState() ==
+                        'chapters'"
+                        @click="store.setPageState(index)"
+                        :id="index"
+                      >
+                        <!--===== Start of Title =====-->
+                        <div class="mb-5 text-center">
+                          <h2 class="col-4">
+                            <span class="hedding-svg"
+                              >{{store.pageResources().convertIndex(index)}}</span
+                            >
+                          </h2>
+                          <button
+                            class="btn btn-naked btn-icon-right"
+                            href="#!"
+                            v-effect="if (store.currentChapter ==
+                            index ) $el.focus()"
+                          ></button>
+                          <h5 class="mt-3">{{title}}</h5>
+                          <span
+                            v-show="store.currentChapter == index"
+                            class="title-separator"
+                          ></span>
+                        </div>
+
+                        <!--===== End of Title =====-->
+                        <hr class="my-4" />
+                      </div>
+                    </div>
+                    <!--========== 
+          End of chapter titles ==========-->
+                    <!--========== 
+          Beginning of chapter content ==========-->
+                    <div
+                      v-if="store.currentChapter !== 0 &&
+                      store.getPageState() ==
+                      'poetry'"
+                    >
+                      <!--===== Start of Title =====-->
+                      <div class="mb-5 text-center">
+                        <h2 class="col-4 fw-bold mb-4">
+                          <span class="hedding-svg"
+                            >{{store.pageResources().convertIndex(store.currentChapter)}}</span
+                          >
+                        </h2>
+                        <h5>{{store.chapterTitle}}</h5>
+
+                        <div
+                          v-html="store.getChapterContent()"
+                          class="mt-4 me-4 ms-4"
+                        ></div>
+                                             </div>
+                      <!--===== End of Title =====-->
+                      <hr class="my-5" />
+
+                      <!--===== Go back  =====-->
+                      <div class="col-lg-3 col-sm-6">
+                        <p
+                          @click="store.goBack()"
+                          class="btn btn-naked-wrap go-back-btn"
+                        >
+                          <i class="feather icon-arrow-left"></i>
+                          <span> Chapters </span>
+                        </p>
+                      </div>
+                      <!--===== End Go back  =====-->
+                    </div>
+
+                    <!--========== 
+          End of chapter content ==========-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--========== 
+  Start of bottom page  ==========-->
+
+  <section class="py-5 bg-pink-gradient">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <h3 class="text-white" id="some-id">
+            I'm here
+            <u class="typer text-warning" data-words="writing,making music," data-delay="100" data-deletedelay="1000"
+              style="color: black"></u>
+            often.
+          </h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--========== 
+  End of bottom page  ==========-->
+
+  <!--========== 
+    Map section ==========-->
+
+  <section id="contact-us" class="position-relative">
+    <div class="google-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.629367104963!2d3.2316144785641425!3d6.692744576034127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b996ae457d243%3A0x63b338921b72fdf9!2sFrith%20Nightswan%20Enterprises!5e0!3m2!1sen!2sng!4v1683451340692!5m2!1sen!2sng"
+        width="800" height="600" style="border: 0" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!--========== 
+    End of map section ==========-->
+  </section>
+  <!--========== 
+  Start of footer section ==========-->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 position-relative mb-5 mb-sm-0">
+          <div class="position-absolute top-0 start-0 slice-pt ps-5 ps-lg-8"></div>
+        </div>
+        <div class="col-lg-6">
+          <!--===== Start of footer item =====-->
+          <div class="text-center slice-ptb">
+            <h4 class="mb-4 mt-5 mt-lg-0">Time Open</h4>
+            <div class="mb-4">
+              <h5>Monday to Friday</h5>
+              <p>8:30 am to 5 pm</p>
+            </div>
+
+            <h4 class="mb-4">Address</h4>
+            <div class="mb-4">
+              <h5>11, Akindenoh street Ota, Ogun State.</h5>
+              <p><a href="mailto:info@frithhilton.com.ng">Send Frith Hilton Mail</a></p> 
+                           
+            </div>
+            <h2 class="text-green mb-0 mt-5">
+              <i class="feather icon-phone-call"></i> (234) 815 813 2408
+            </h2>
+          </div>
+          <!--===== End of footer item =====-->
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <footer class="footer bg-black slice-pt">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 offset-lg-2">
+          <h2 class="text-white display-2 mb-4">
+            <span class="typer text-white" id="some-id" data-words="Catch up!" data-delay="100">
+            </span>
+          </h2>
+
+          <div class="social-icons icons-xl mt-5">
+            <a class="icon text-white" href="https://youtube.com/@frithhilton17?si=8pEsa1wf1KxLNvBK" target="_blank">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a class="icon text-white" href="https://www.tiktok.com/@frithhilton17" target="_blank">
+              <i class="fab fa-tiktok"></i>
+            </a>            
+            <a class="icon text-white" href="https://www.twitter.com/frithhilton17" target="_blank">
+              <i class="fab fa-x-twitter"></i>
+            </a>
+            <a class="icon text-white" href="https://www.instagram.com/frithhilton17" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr class="mt-7" />
+      <div class="row text-center">
+        <div class="col-12">
+<div class="developer-footer mb-2">
+    <a href="http://leondev.com.ng" target="_blank"><img src="/images/Leondev.png" alt="lEoNDɘv" width="80" height="80"></a>  
+</div>                            
+          <p class="text-white mt-3 mb-4">
+            © <span id="getFullYear"></span>
+            <b>|</b> Managed by <span class="text-pink-gradient"> Frith Nightswan Enterprises</span>          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--========== 
+  End of footer section ==========-->
+
+  <!--========== 
+        Start of back to top section ==========-->
+
+  <div class="go-top">
+    <p class="go-top-text">
+      Scroll to top <i class="fas fa-long-arrow-alt-right ps-2"></i>
+    </p>
+  </div>
+
+    <!--========== 
+	End of back to top section ==========-->	                      <div class="col-lg-3 col-sm-6">                        <p                          @click="window.location.href='../search.html'"                          class="btn btn-naked-wrap search-btn"                        >                          <i class="fas fa-search"></i>                          <span> search </span>                        </p>                      </div> 
+    <!--========== 
+	Start of Javascript ==========-->
+
+    <!--===== Global required js =====-->
+    <script
+      async
+      src="https://platform.twitter.com/widgets.js"
+      charset="utf-8"
+    ></script>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script src="../../js/popper.min.js"></script>
+    <script src="../../js/bootstrap/bootstrap.min.js"></script>
+
+    <!--===== Global script: js libraries and plugins =====-->
+    <script src="../../js/appear/jquery.appear.js"></script>
+    <script src="../../js/swiper/swiper.min.js"></script>
+    <script src="../../js/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="../../js/isotope/isotope.pkgd.min.js"></script>
+    <script src="../../js/typer/typer.js"></script>
+    <script src="../../js/jarallax/jarallax.min.js"></script>
+    <script src="../../js/mCustomScrollbar/jquery.mCustomScrollbar.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/numbered/1.1.0/index.min.js"
+      integrity="sha512-UQKbSOyUPIxk4a5/TIcqKUfl2JX0b1Rgq16BgvZbIWa7g5g3Rl/RXzFJFt2iu9LzDUpqDbcaak2ifjW887SxPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="../../js/collection-IIIv2.js"></script>
+    <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          appId: "1292503991685432",
+          autoLogAppEvents: true,
+          xfbml: true,
+          version: "v16.0",
+        });
+      };
+    </script>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_US/sdk.js"
+    ></script>
+
+    <!--===== Main theme script =====-->
+
+  <script type="module">
+    import {
+      createApp,
+      reactive
+    } from "../../js/petite-vue.js";
+    const store = reactive({
+        currentURL: "/published/poetry/collection-IIIv2.html",
+        staticPoemURL: "",
+        poemURL: "",
+        URLPoemID: 0,
+        CopyURLText: "Copy URL",
+        currentChapter: 0,
+        goBackState: false,
+        getCurrentChapter() {
+          if (localStorage.getItem("IIIv2CurrentChapter")) {
+            this.currentChapter = localStorage.getItem("IIIv2CurrentChapter");
+          } else if (this.currentChapter == 0) {
+            this.currentChapter = this.URLPoemID;
+          } else {
+            localStorage.removeItem("IIIv2CurrentChapter");
+          }
+        },
+        chapterTitle: "",
+        getChapterContent() {
+          const chapterTitle = this.pageResources().chapterTitles.at(
+            this.currentChapter
+          );
+          this.generatePoemURL();
+          this.chapterTitle = chapterTitle;
+          const chapterContent = this.pageResources().chapters;
+          return chapterContent.at(this.currentChapter);
+        },
+        initialPageState: {
+          viewIIIv2: "chapters",
+        },
+        pageState: localStorage.getItem("viewIIIv2"),
+        getPageState() {
+          this.decodePoemURL();
+          if (this.pageState == "chapters") {
+            const state = "chapters";
+            localStorage.removeItem("IIIv2CurrentChapter");
+            return state;
+          } else if (this.pageState == "poetry") {
+            this.decodePoemURL();
+            this.getCurrentChapter();
+            const state = "poetry";
+
+            return state;
+          } else {
+            localStorage.setItem("viewIIIv2", this.initialPageState.viewIIIv2);
+            const state = this.initialPageState.viewIIIv2;
+            return state;
+          }
+        },
+        setPageState(index) {
+          localStorage.setItem("viewIIIv2", "poetry");
+          location.href = "#reading";
+          (this.pageState = localStorage.getItem("viewIIIv2")),
+            (this.currentChapter = index);
+          localStorage.setItem("IIIv2CurrentChapter", this.currentChapter);
+        },
+        goBack() {
+          this.goBackState = true;
+          localStorage.setItem("viewIIIv2", "chapters");
+          this.pageState = localStorage.getItem("viewIIIv2");
+          this.getPageState();
+        },
+        pageResources() {
+          return {
+            dedication: `<p class="text-center">To sweet <strong style="color:  rgb(36, 28, 7);">Betty, </strong><strong style="color:  rgb(255, 2, 0);">Lili Reinhart</strong></p><p class="text-center"> Thanks for being here always.</p>
+            
+            `,
+            acknowledgements: `<div class="ql-editor" data-gramm="false" contenteditable="true"><p class="ql-align-justify"><span class="dropcap text-dark">I</span>am sincerely grateful for my family, the Hiltons for helping me navigate thus far. My friends remain irreplaceable. Thank you to Lili Reinhart, Taylor Swift, Kendall Jenner, Liam Payne, Charly Cox, Dua Lipa. I have had moments without any aux cord for my headphones, but not without Diplo to read my poems. Thank you to everyone who thinks I rock. Thank you David Dobrik, Melanie Joy Fontana, Marina Di Guardo, Addison Rae, Jean-Christophe Bouvet and Logan Paul. Thank you Snoop Dogg for being here from the start. Thank you so much for Collection III everyone.</p></div>
+            <p> </p><img src="../../images/collections/iii-ii/Lili Reinhart.jpg" class="img-fluid">
+            `,
+            authorsNote: [
+              `<p class="ql-align-justify"><span class="dropcap text-dark">S</span>aving this space for some candid words isn’t the crest, or getaway for getting the dumps. These poems were collected in a span of weeks to celebrate my beautiful lady’s birthday, Lili Reinhart. It is my way of sharing with her parts of myself that aren’t so obvious through stories.</p>
+              
+              <p class="ql-align-justify">
+         I hope you enjoy them as we do.</p>
+              <p> </p><img src="../../images/collections/iii-ii/Author&apos;s Note.jpg" class="img-fluid">
+                            `,
+            ],
+            chapterTitles: [
+              "0",
+"August 13",
+"Still Can’t Swim",
+"Well with her Eff Fame",
+"The Masked Girl",
+"Dough",
+"The Brazen Spider, Unwanted Nut",
+"The Bug, the First Car",
+"Steady",
+"Lazy",
+"New House",
+"Snores, Doors and Jolts",
+"Title",
+"Accounting for my Trips",
+"Six to Eight",
+"Love Letters and Promenades",
+"Our Love",
+"Ditch the Sunset",
+"Caged Poems",
+"Mirrors",
+"Crocs to Go",
+"Questions Making Trouble",
+"The Dot before the Hallo",
+"To be Left Alone",
+"The Last Artisan",
+"Hallelujah Gate",
+"Twenty-Four",
+"Lame in Tokyo",
+"My Rip Jean",
+"The Sleazy",
+"Quiver Barnet",
+"Caspian’s Autumn Foam",
+],
+            chapters: [
+              `0`,
+              `<p>Zero peal</p>
+<p>One in</p>
+<p>Threesome brings</p>
+<p>Ninety wins</p>
+<p>Quadri-scarf pins</p>
+<p>Aquifer degree</p>
+<p>Sum, three-sixty</p>
+<p>Square madid</p>
+<p>Through see</p>
+<p>Glad-hand till</p>
+<p>Mirror exergy</p>
+<p>Thirteen alterity</p>
+<p>Swish twenty-six.</p>`,              
+              `<p>Mercury . . . temerity</p>
+<p>Brought a turn . . .</p>
+<p>Flummoxing tow on.</p>
+<p> </p>
+<p>A shudder, shiver.</p>
+<p> </p>
+<p>Earth heard</p>
+<p>Cawed: God!</p> `,
+              `<p>Lang syne</p>  
+<p>Footloose . . .</p>  
+<p>Carte blanche the giddy goat</p>  
+<p>Floundering in ganache slobby</p> 
+<p>Finking out</p>
+<p>The gyve of attraction</p>
+<p>On fame grove . . . </p>
+<p>Up my heart piedmont</p>
+<p>Was a crying prithee.</p>
+`,              
+              `<p>I’ve got just one</p>
+<p>The only bromidic pole</p>
+<p>I’m back to her, that old</p>
+<p>Spray it now . . . at home</p>
+<p>Singeing pleasantness gold.</p>
+<p> </p>
+<p>Susurrus, I tippytoe</p>
+<p>By her waters, I row.</p>
+<p> </p>
+<p>It’s fine on the radio</p>
+<p>She speaking in my dome</p>
+<p>Quiet, salient, drippy-drone.</p>
+<p> </p>
+<p>Detesting, protesting, coming so</p>
+<p>Rapine with her thoughts fold.</p>
+<p> </p>
+<p>Striking, inflating, her gaudy role</p>
+<p>I write; I might, tripe tow</p>
+<p>Fecundating letters’ scold</p>
+<p>Too, watercoloured bold.</p>
+<p> </p>
+<p>. . . reception throes</p>
+<p>Flaying the other woke</p>
+<p>What can a face do to you ode?</p> `,              
+              `<p>The dough with a smile</p>
+<p>Brought with it, the clime</p>
+<p>Of a varying bring kind.</p>
+<p> </p>
+<p>I had enough off the mind</p>
+<p>On the bench wink-eyed.</p>
+<p> </p>
+<p>Affairs meddle, too, was inclined</p>
+<p>Got her off the heat, in time.</p> `,
+              `<p>The nut thought not</p>
+<p> </p>
+<p><i>An unwanted nut?</i></p>
+<p><i>Lone, no-show crud?</i></p>
+<p><i>No-show for the cull!</i></p>
+<p> </p>
+<p><i>There are spiders, pods</i></p>
+<p><i>Berries, badgers, worms</i></p>
+<p><i>But not an unwanted nut.</i></p>
+<p> </p>
+<p>The author monkey hurt</p>
+<p><i>Taste your compunction.</i></p>
+<p> </p>
+<p><i>I’ll be a spider, if a kludge</i></p>
+<p><i>Leg count with our line up.</i></p>
+<p> </p>
+<p>By a brazen spider’s spunk</p>
+<p>The nut got a burg</p>
+<p>It is one of web bores.</p>`,              
+              `<p>Who never honked neigh</p>
+<p>Herald short, long hail</p>
+<p>Hello, hi, oh time away</p>
+<p>Brittle, nettle dissuade</p>
+<p>Big who every chicane</p>
+<p>My Beetle Bug parfait.</p>`,              
+              `<p>'Tween the main</p>
+<p>Lies the hanker</p>
+<p>Aim she says.</p>`,
+              `<p>Fingers drumming knee</p>
+<p>Now way too much beat</p>
+<p>As with the needing glean</p>
+<p>He has left me now in glee.</p>
+<p> </p>
+<p><i>So long with my grief</i></p>
+<p><i>He won’t pick me</i></p>
+<p><i>Read up my mischief</i></p>
+<p><i>He is finished.</i></p>
+<p> </p>
+<p>Attitude lazy, even for a lift</p>
+<p>It is the poetry, this poetry</p>
+<p>I will need it, the dictionary</p>
+<p>These fruits, this lethargy</p>
+<p>I feel so sleepy, I mean this.</p>
+<p> </p>
+<p>Not sleepy, eyes needing a zip</p>
+<p>My index, thumb, playing three.</p>
+<p> </p>
+<p>Now my brain doesn’t count in</p>
+<p>For it has brought all these wit</p>
+<p>This heavy, round-round pleat</p>
+<p>When I could just, wait a minute!</p>`,              
+              `<p>I used to live in wait</p>
+<p>Till everyone left, I’d stay</p>
+<p>By my computer, pass the delay</p>
+<p>I’d play games to remonstrate</p>
+<p>Too long hours, even holidays.</p>
+<p> </p>
+<p>I’d wait, till all was quiet-ached</p>
+<p>The wind calling, in the only break.</p>
+<p> </p>
+<p>In my noggin, it drops in shedding weight</p>
+<p>Robe from the shoulders of a magistrate</p>
+<p>Magma flow acquiescing my nude taste.</p>
+<p> </p>
+<p>But I flung my clothes and took the day</p>
+<p>Unclad thoughts, from reproach, shame.</p>
+<p> </p>
+<p>Then I’d sing where the hollow crowns sane</p>
+<p>Parroting echoes, hear myself all so very gay</p>
+<p>Hit notes and fuss on the pitch being a may.</p>
+<p> </p>
+<p>I’d leave my room, for the new house so plain</p>
+<p>Enjoy my time alone before the bathing stage</p>
+<p>Where the colours even now never came</p>
+<p>Naked like I was, only it covered my blame.</p>`,              
+              `<p>The disparity deserves clapping</p>
+<p>A round of applause glistening</p>
+<p>Thundering to make eyes gleam.</p>
+<p> </p>
+<p>Nimble up the coop in a waking shin</p>
+<p>Cops stormed the darkroom ring . . .</p>
+<p>Before I knew, I was out the shindig.</p>
+<p> </p>
+<p>Can’t ever tell, if it’s a whank, the queen</p>
+<p>An unnoticed sudden screechy scream</p>
+<p>Being awake makes all the questioning.</p>
+<p> </p>
+<p>Checked, my bladder sac holds no urine</p>
+<p>There is movement, some stepping.</p>
+<p> </p>
+<p>You witness the door in its banging</p>
+<p>If it snores that loud . . . if ever asleep?</p>`,
+              `<p>I always make up time</p>
+<p>Staying away from chime</p>
+<p>Crime</p>
+<p>Penning rhymes</p>
+<p>Telling incredulous sour lies.</p>
+<p> </p>
+<p>Oh, for a silly needless time</p>
+<p>Come with me</p>
+<p>Tend my style.</p>`,              
+              `<p>I never was the strumpet</p>
+<p>I had just one <i>customer</i></p>
+<p>His dialect would impose</p>
+<p>Flipping over the object.</p>
+<p> </p>
+<p>I am customer, he’s rider</p>
+<p>He’s by the gate, I’m colt</p>
+<p>A better liar now, thence.</p>
+<p> </p>
+<p>Junior high with my li’l sister</p>
+<p>We’d our grapple with soles</p>
+<p>Rickety, letting everyday path.</p>
+<p> </p>
+<p>On the first day he soaked</p>
+<p>He knocked me out dead.</p>
+<p> </p>
+<p><i>He must be an accountant!</i></p>
+<p><i>A moving class on the road?</i></p>
+<p>He did say he is. Was, meant?</p>
+<p> </p>
+<p>Before the banks’ recap smoke</p>
+<p>Twenty-five billion, news heard</p>
+<p>The giants handed the mufflers</p>
+<p>He lost his job, soon he choked.</p>
+<p> </p>
+<p>One fought; munched the debt!</p>
+<p>On the chalk, board as a teacher</p>
+<p>Business studies Monsieur mo</p>
+<p>In the interim, till he’s at his best</p>
+<p>Didn’t, so he fitted headteacher.</p>
+<p> </p>
+<p>After school, he would address</p>
+<p>Pick our periods, make a mark</p>
+<p>It wasn’t a bore, neither a bloat </p>
+<p>It was fantastic, no air of dread.</p>
+<p> </p>
+<p>And days he didn’t show hand</p>
+<p>Since I thought of him as a mole</p>
+<p>The headteacher his embarkment</p>
+<p>He wasn’t there, or by the matter</p>
+<p>He figured the table! He was sold.</p>`,              
+              `<p>Bye-bye to the world of bong</p>
+<p>Cannot tell why I love <i>Taylor</i> </p>
+<p>Maybe it is her white shadow</p>
+<p>The one in the dark of the prod.</p>
+<p> </p>
+<p>With keg, bets, my days a chump</p>
+<p><i>Inez</i>, <i>Carolina</i>, the big warm rug</p>
+<p>For I don’t need a wakeup call</p>
+<p>Fast asleep in her dream broth.</p> `,
+              `<p>Never been the bad boy</p>
+<p>The mad cock, cod-lord.</p>
+<p> </p>
+<p>Then, there was a spell turn</p>
+<p>It was on the b-ball court</p>
+<p>A bawdy spot for meetups</p>
+<p>The hub leading to the slurp</p>
+<p>Where the dreams are long</p>
+<p>And the mantras are too curt.</p>
+<p> </p>
+<p>There were stories, bombs</p>
+<p>Of escapades gone wrong</p>
+<p>Dark promenades that hunt</p>
+<p>Swiftly tossed off condoms</p>
+<p>No jokes, you’d find nylons</p>
+<p>It is the <i>illusion hotel’s</i> sock</p>
+<p>It was the rep of the block</p>
+<p>In classes, third year junior.</p>
+<p> </p>
+<p>And management? For sure</p>
+<p>For mornings, it’s whose call?</p>
+<p> </p>
+<p>Those rooms. I was bought</p>
+<p>Quickie? Why not, come on.</p>
+<p> </p>
+<p>I was here, and sure purse</p>
+<p>For she just had to show up</p>
+<p>A bit further ahead, in front</p>
+<p>It was dark anyway, no spot</p>
+<p>The light falling with my walk</p>
+<p>The court and crowd, far-off.</p>
+<p> </p>
+<p>An angel is what you’re called</p>
+<p>You are white attired in plum</p>
+<p>Admired in the early months.</p>
+<p> </p>
+<p>I was months in, a grey demon</p>
+<p>Imbuing it in the night’s plot</p>
+<p>Haha, dad never sees porn</p>
+<p>If not, mine doesn’t disturb</p>
+<p>So I download ‘em, and store</p>
+<p>On his cool phone, a blind bore</p>
+<p>Being in school ended my glut.</p>
+<p> </p>
+<p>You know boarding house sucks</p>
+<p>Nothing changes to drive or spur</p>
+<p>And one morning, all that is gone.</p>
+<p> </p>
+<p>This female teacher is shocked</p>
+<p>Caught with her panties. <i>Stop!</i></p>
+<p>I should have said so, no more.</p>
+<p> </p>
+<p>The red car dude and her battle?</p>
+<p>Whoa! That’s it, why so, her voice</p>
+<p>The science teacher who flogs.</p>
+<p> </p>
+<p>That one time, I was up in blush</p>
+<p>Not spanks, but that lovely husk</p>
+<p>It gets you rasp tight in a bond</p>
+<p>I’m on, senseless mindful talk</p>
+<p>In my head I went on and on</p>
+<p>Like how the windows were shut</p>
+<p>Ones to my mind. Mind her bum</p>
+<p>Whom called to me, and implored</p>
+<p>Nothing to lose, to get her spunk</p>
+<p>Lash the big body men too butt.</p>
+<p> </p>
+<p>It went on, satisfying astricting smug</p>
+<p>By sex, with her height, a lot ’d blur</p>
+<p>Her patience, my conscience factor.</p>
+<p> </p>
+<p>And here, by my locker, dawn</p>
+<p>The male teacher quarters’ hut</p>
+<p>Panty in hand, she goes, pours</p>
+<p><i>Good morn.</i> Maybe so, burnt</p>
+<p>It was too early, scenic error</p>
+<p>She’d lost her pants, and what?</p>
+<p> </p>
+<p>Someone had to inform, report</p>
+<p>I poured it out, every suggestion</p>
+<p>A lengthy prowl sent to the box</p>
+<p>The suggestion box was small</p>
+<p>But I had just joined the club</p>
+<p>My first note was about faults.</p>
+<p> </p>
+<p>I stood in wait, gentle in cloth</p>
+<p>The night brought a wild draw</p>
+<p>A feral grit instinct production</p>
+<p>No one is ugly in the dark fog.</p>
+<p> </p>
+<p>It was that she’d traced my flaws</p>
+<p>I saw hers, head like a new figure</p>
+<p>She smelled good, but too, dumb</p>
+<p>
+<p>It wasn’t erotic, it didn’t perturb</p>
+<p>What did was what I had in funds</p>
+<p>It wasn’t enough to smash, cum</p>
+<p>The business on the dick by a stud</p>
+<p>In the dark there, I couldn’t hump</p>
+<p>Thoughts of a stolen book, more</p>
+<p>All that money to stroke her bust</p>
+<p>The classroom gave a mind fuck</p>
+<p>Its resemblance to a library floor</p>
+<p>The treasure floor always locked</p>
+<p>Where I fapped once, awkward</p>
+<p>I did, cos I had read well enough</p>
+<p>Only another interest for a fop</p>
+<p>So I let naked figures play fort.</p>
+<p> </p>
+<p>I paid her, but how? I cannot recall</p>
+<p>Not mean, she let me some clomp</p>
+<p>Pressing my business behind in gruff</p>
+<p>All the time seeing her take my prong</p>
+<p>Slowly spitting and sucking the knob.</p>
+<p> </p>
+<p>When I came, two was caught</p>
+<p>Mind clarity and a sweet influx</p>
+<p>Then her face, some tiny disgust</p>
+<p>Oh the library, the now old stomp</p>
+<p>She’d sent a latitat for my attention.</p>
+`,              
+              `<p>Do we love someone</p>
+<p>We don’t ever check up on?</p>
+<p>Ever, for <i>it</i>, not rattle.</p>
+<p> </p>
+<p>When it’s their presence</p>
+<p>Here again</p>
+<p>The awareness of feelings.</p>
+<p> </p>
+<p>Does the gust swell . . .</p>
+<p>The right flight of the butterfly.</p>
+<p> </p>
+<p>Their voice unheard</p>
+<p>Footsteps cuddle</p>
+<p>Whisper the muscle suite</p>
+<p> </p>
+<p>Our love.</p>`,              
+              `Here is the poem, formatted as before:
+
+
+<p>The sun heels sail</p>
+<p>It’s been a long day.</p>
+<p> </p>
+<p>The tyres in a wait</p>
+<p>Vapour colours striate</p>
+<p>Windows, soaked fate.</p>
+<p> </p>
+<p>Hymn and him shake</p>
+<p>Round the dim braille.</p>
+<p> </p>
+<p>With the sun, I’m awake</p>
+<p>Aware; the bridge shale</p>
+<p>Ashen, with my mum away.</p>
+<p> </p>
+<p>Meeting an early daze</p>
+<p>On a job picking shame</p>
+<p>Of gizmos bought maimed</p>
+<p>And requests for activate.</p>
+<p> </p>
+<p>As a junk monitor’s face</p>
+<p>Pixels less to procrastinate.</p>
+<p> </p>
+<p><i>Now I’d call for, to replace</i></p>
+<p>Zzzs, pinching my truth pace.</p>
+<p> </p>
+<p>In wait, a scrub, his place</p>
+<p>He owns an old mitigate</p>
+<p>Not this; sell a life shapelk</p>
+<p>A bridge to some change?</p>
+<p> </p>
+<p>Income is! In a car so lame.</p>
+<p> </p>
+<p>The sunset casts a shade</p>
+<p>Now I’d text her. <i>Hi! Hey!</i></p>
+<p> </p>
+<p>So, I scribble a poetry take.</p>
+<p> </p>
+<p><i>Hymn and him</i></p>
+<p><i>In the surround dim.</i></p>
+<p> </p>
+<p>He returns quick in a quake</p>
+<p>The sunset now in a cake.</p><p> </p><img src="../../images/collections/iii-ii/17.) Ditch the Sunset.jpg" class="img-fluid">`,
+              `<p>There is a mental crawl</p>
+<p>Happening when it’s morn.</p>
+<p> </p>
+<p>I wake crying in a drawl</p>
+<p>As I do the <i>Anon</i> also hulls</p>
+<p>Rapids of bogs for my thoughts</p>
+<p>So I get swallowed right in bud.</p>
+<p> </p>
+<p>But today, there is a different bird</p>
+<p>If it isn’t, the harmony of the song</p>
+<p>Its deflection, hunch, and pompom.</p>
+<p> </p>
+<p>A new poem in my scaling thoughts</p>
+<p>In florescence I had gotten a call</p>
+<p>A soft string pull, all in nature’s plot.</p>
+`,              
+              `<p>No working pen in sight</p>
+<p>My passport is drenched.</p>
+<p> </p>
+<p>Now I see the latter exactly</p>
+<p>The night’s dream</p>
+<p>Fop’s trouble.</p>
+<p> </p>
+<p>Some madness in the air</p>
+<p>The equivocal eating by insanity.</p>
+<p> </p>
+<p>I’ve found a third pen in my drawer</p>
+<p>The many limes on my dresser</p>
+<p>The odour of undrawn juice</p>
+<p>The changing rind colour of the older.</p>
+<p> </p>
+<p>On my rounds, I pick two more</p>
+<p>Open the gate to the potholes.</p>
+<p> </p>
+<p>One in front of your house</p>
+<p>They say</p>
+<p>You’ve gone mad.</p>
+<p> </p>
+<p>If one canine decays, I’d feel pain</p>
+<p>The mirror would offer anodyne.</p>
+<p> </p>
+<p>Of all I need laundered</p>
+<p>My bedsheet is the gaudy</p>
+<p>They aren’t dirty or muddy</p>
+<p>But once I saw one’s own</p>
+<p>And caught who I am.</p>`,              
+              `<p>I had a place to go.</p>
+<p> </p>
+<p>With an interview to close</p>
+<p>A fine finagle to reproach</p>
+<p>Shooting scuttle to dole.</p>
+<p> </p>
+<p>I had bought three glues to hold</p>
+<p>Lest my old Nike turn to brogues.</p>
+<p> </p>
+<p><i>This, this, this.</i> I held out to scold.</p>
+<p> </p>
+<p><i>I’ve an interview, I’ve got to show</i></p>
+<p>Her face glowing close to albino.</p>
+<p> </p>
+<p><i>It’s the cheaper. It’s good to know</i></p>
+<p>Still feeling simian, she says: <i>to told.</i></p>
+<p> </p>
+<p><i>Were these tubes empty to joke?</i></p>
+<p><i>Can I get a replacement, one to cope?</i></p>
+<p><i>The better brand, I’ve no cent to follow.</i></p>
+<p> </p>
+<p><i>The fluff still, I won’t have to borrow</i></p>
+<p><i>Just help. I can’t wait to tomorrow.</i></p>
+<p> </p>
+<p><i>It was bought so, crossed out to sold</i></p>
+<p>I leave. Leaving the superglue to hole.</p>
+<p> </p>
+<p>For the interview, my crocs to go.</p>`,
+              `<p>Trouble has a head that heeds</p>
+<p>It’s the question it seeks</p>
+<p>Often of a reluctant appraising</p>
+<p>From scheming imprints of cost.</p>
+<p> </p>
+<p>Take up all, if you must</p>
+<p>Leave the awakening introduction.</p>`,              
+              `<p>In the lake for the trip</p>
+<p>It took</p>
+<p>On the lane for the whistle</p>
+<p>He shook</p>
+<p>Several waves across the broad</p>
+<p>We looked.</p> `,              
+              `<p>Have a guard by the gate</p>
+<p>With a clamp to be straight</p>
+<p>Dummies head for a strait</p>
+<p>Rapport off these pages.</p> `,
+              `<p>The mannequin raptors</p>
+<p>The half-shelved occult.</p>
+<p> </p>
+<p>Twine fine line punctures</p>
+<p>Running professional awl.</p>
+<p> </p>
+<p>Her: hold on with your claws</p>
+<p>Leak here . . . my love strums.</p>`,              
+              `<p>So upon she made me cry</p>
+<p>We probably had it in dye</p>
+<p>Pattern from days, our time</p>
+<p>Early courbette before the ride.</p>
+<p> </p>
+<p>God could be a dog, to reign; lies</p>
+<p><i>Kim Kardashian</i> to me, an advice</p>
+<p>Not to fap; pilfer what’s for my bride</p>
+<p>Adjourn the sensual, just for a while</p>
+<p>With the luxate, a suave calm bide.</p>
+<p> </p>
+<p><i>Mariam’s</i> face set to the Paris sky</p>
+<p>Supple bum below beauty’s climb</p>
+<p>Blouse striped in black and in white</p>
+<p>Beret thatching Persian raven pride</p>
+<p>Eiffel tower, croissant in hand, hind</p>
+<p>A lens taking a shot to ever remind</p>
+<p>Of her frain: be a nett happy twine.</p>
+<p> </p>
+<p><i>Bella</i>, Dec 26 saw a movie and quite</p>
+<p>She had a dude warm her lonely side</p>
+<p>I had promised Xmas, delivering a bite</p>
+<p>It’d showed my failure taking to diarize</p>
+<p>I was a no-show, I was home pondering</p>
+<p>A break-up rede, it was apt, convincing</p>
+<p>Labelling her a witch as if inadvertently</p>
+<p>Our long chats now an unhealthy beguile</p>
+<p>Come Dec 27, she was ex and prehensile.</p>
+<p> </p>
+<p>“We never met.” How he met my mind</p>
+<p>Reminding me . . . she used to be mine </p>
+<p>And I lost the grease, to a topple plight.</p>
+<p> </p>
+<p>Speakers chorusing on <i>amen</i> for miles</p>
+<p>Hidden nifty indoors, lying fine supine</p>
+<p>Fellatio, while the elderly played blind</p>
+<p>Our second time intimate, also out wild</p>
+<p><i>Bella’s</i> stop at the church’s yearly chide</p>
+<p>Now waned, I defected from being trite.</p>
+<p> </p>
+<p>Our first time left me with a grim insight</p>
+<p>Still on towel, I scoped close my new find</p>
+<p>I arrived sorta early, I thought in a smile</p>
+<p><i>SpongeBob</i> tee soaking away any slight</p>
+<p>Her face blemishes didn’t ruin the hype</p>
+<p>Her voice drooling out in an oily strike</p>
+<p>Known pitch matching her towel in sly</p>
+<p>Just out of the bathroom at my alight</p>
+<p>Looking out the cab, I was high as a kite.</p>
+<p> </p>
+<p>“That’s a prick.” Hymen debate. “Can I?”</p>
+<p>Sitting room floor wet in smudge sigh</p>
+<p>My high had doubled after we dined</p>
+<p>I wanted to, but her truth I imbibed.</p>
+<p> </p>
+<p>The memory stir dried out my brine</p>
+<p>Bed peace from <i>Wale’s Vanity</i> dry</p>
+<p>Tramadol 100mg and seizure hide</p>
+<p>Protecting me from the regicide</p>
+<p>A heartbreak detour, a coleoptile</p>
+<p>I was suffering in convulsive pine.</p>
+<p> </p>
+<p>Easement and the loss of exam’s stile</p>
+<p>One in, and to go, the week’s whine</p>
+<p>“Drop the tramadol pills, come fly”</p>
+<p>“Dup weed to thoughts that edify”</p>
+<p>“Edibles is right, to find the height.”</p>
+<p> </p>
+<p>Days, <i>Robert</i> had the halls’ mood high</p>
+<p>The <i>Hallelujah chorus</i> booming incise.</p>
+<p> </p>
+<p>On top bunk ill, her response in sight</p>
+<p>“No.” it read, another that mad night</p>
+<p>Nothing cut through, remaining swine</p>
+<p>It wasn’t me, time was slow and fine</p>
+<p>It wasn’t my room still I had no gripes</p>
+<p>The air was real, his body warm, nice</p>
+<p>Mo special but the screen a dead line</p>
+<p>Every text sent, back in “No.” decline.</p>
+<p> </p>
+<p>The chorus booming again and up in tide</p>
+<p>Augury before, now a lover asking why</p>
+<p>I’d never met her; past by the halls, shy</p>
+<p>Her blare out there, here but never eye</p>
+<p>I could hear her now, in very faint chime</p>
+<p>In my head, as a portcullis shielding kinds</p>
+<p>Moving away, I had to find <i>Robert</i>, say hi.</p>
+<p> </p>
+<p>Too beautiful to be lost in a stinky fight</p>
+<p>A vernal night, and its call; ember ignite</p>
+<p>Up from his side, with a wall cold like ice</p>
+<p> Semblance from his memory stir a flight</p>
+<p>I got away from that place, leaving for life</p>
+<p>My room months ago, it was the turnpike.</p>
+<p> </p>
+<p>Felling warm, gay, wholesome, and a child</p>
+<p>Leaving with grace a “No.” could not hide</p>
+<p>By the bunk intimating to my ear: the light</p>
+<p>As a boombox my iPhone blew in oh might</p>
+<p>The aural waves doozie in colour so bright</p>
+<p>Faint ruddy, green, and purple long stripes</p>
+<p>Bordering sides to a new tread board sign.</p><p> </p><img src="../../images/collections/iii-ii/25 (Hallelujah gate).jpg" class="img-fluid">`,              
+              `<p>For how long have I had to wear a cap?</p>
+<p>Twenty-four.</p>
+<p>If that’s a year for every hour of the day</p>
+<p>A do-rag?</p>
+<p>It’s okay to say I sleep with my cap donned.</p>
+<p> </p>
+<p>I have nothing beautiful to hide or cover</p>
+<p>No beautiful long locks like Samson</p>
+<p>So you don’t spot my strength.</p>
+<p>Not enough ferocity as Mahsa Amini</p>
+<p>So you don’t pick out my valour.</p>
+<p> </p>
+<p>Scars and bars, a tale starting age six.</p>
+<p>I hide scars though detained within bars</p>
+<p>Bars holding grasp-stories I could never tell</p>
+<p>A beach afternoon with my sparse hair out.</p>
+<p> </p>
+<p>Sometimes I think when I am older . . .</p>
+<p>“Older” seems like a hold on the change I await</p>
+<p>The ums in circle of my own social weight</p>
+<p>The moral of my own morale.</p>
+<p> </p>
+<p>Starting from just us two</p>
+<p>A ball, a light fixture, a veranda</p>
+<p>I’m six, she’s three years old</p>
+<p>The ball isn’t ours, it is lost</p>
+<p>Over the fence it came like a gift.</p>
+<p> </p><p>Back from school days after</p>
+<p>I am alone and up in the air above me</p>
+<p>It hits a glass light-fixture.</p>
+<p>Below I’m blood stained frozen in shock</p>
+<p>White shirt fused in red gush of blood</p>
+<p>Soaking . . . soon I am back to.</p>
+<p> </p>
+<p>At the tap, I wash away thoughts of my wrong.</p>
+<p>I have a picture at seven</p>
+<p>I have an oversized watch</p>
+<p>And a scar</p>
+<p>No cap.</p>
+<p> </p>
+<p>It asks when I’ll go without a cap</p>
+<p>Give back the oversized watch to the photographer.</p>
+<p>The one who is three thinks she did it</p>
+<p>Cos I lied.</p>
+<p>“You threw the ball, told me to go pick it.”</p>
+<p>“And it came down.”</p>
+<p> </p>
+<p>The real fall comes from who broke the thing.</p>
+<p>For us.</p>
+<p>She says I am wrong, but I believe the older knows best</p>
+<p>“I lied back then.”</p>
+<p>How best do I know with my cap on now?</p>
+<p> </p>
+<p>I’ll be thirty soon.</p>
+<p>When I was twenty-two I spotted no hat</p>
+<p>I tried a new haircut and a friend told me</p>
+<p>“Hey I’ve never seen you try that; I like it.”</p>
+<p>What has changed?</p>
+<p> </p>
+<p>I convince myself it’s the nutrients</p>
+<p>But it’s the mural scars from the moral bars.</p>
+<p>The holding back; to a time I dream of</p>
+<p>A time like the past I won’t remember</p>
+<p>Six could be wrong, three could be right</p>
+<p>If I don’t do something.</p>
+<p> </p>
+<p>I did.</p>
+<p>I recorded a public video with no cap</p>
+<p>And now I know all the help I can get.</p>
+<p>To Mahsa Amini for all the help she gets.</p>
+<p> </p>`,
+              `<p>For weeks I’ve watched</p>
+<p>My lips caught</p>
+<p>Careful I blot thought</p>
+<p>Of you not wrought.</p>
+<p> </p>
+<p>Tramp stopped short</p>
+<p>Your silent beaut cot.</p>
+<p> </p>
+<p>Vehement ridiculous</p>
+<p>Of a pensive torch</p>
+<p>Beaming in; such flush.</p>
+<p> </p>
+<p>Sidling ghosting shawl</p>
+<p>My caught oppy love</p>
+<p>In crease that isn’t much</p>
+<p> </p>
+<p>The twos that isn’t punch</p>
+<p>See your legs, not touch</p>
+<p>Between all near hurt.</p>
+<p> </p> <p> </p><img src="../../images/collections/iii-ii/27.) Lame in Tokyo.jpg" class="img-fluid">`,  
+
+              `<p>Ahmed took one too many pictures</p>
+<p>Rummy for me, being male I thought</p>
+<p>With my Adonis face cut in the crop</p>
+<p>I’m bought.</p>
+<p> </p>
+<p>He’d go on, yapping ‘bout postures</p>
+<p>Saying: how you’re reposed is sure</p>
+<p>However you find yourself in gulf</p>
+<p>Play ball.</p>
+<p> </p>
+<p>Asking Moyo, he is no way at all a cross</p>
+<p>Classmates and best friends, their bond</p>
+<p>Six years together in high school’s jaw</p>
+<p>I was a senior.</p>
+<p> </p>
+<p>The days we’d no ties were a pleasure</p>
+<p>Both athletes, so we met during sports</p>
+<p>Sprint, beating me by a tiny gap to first</p>
+<p>Oh his burst.</p>
+<p> </p>
+<p>Often klatsch to smoke weed and talk</p>
+<p>Skunk air, money moves, high fantods </p>
+<p>He’d those by him, blacks with the pot</p>
+<p>Not visitors.</p>
+<p> </p>
+<p>Once, perched on a tree, he implored</p>
+<p>In a sudden halt, of jeopardy, our turf</p>
+<p>An eponym, the venue he’d demurred</p>
+<p>He’d a mix-up.</p>
+<p> </p>
+<p>Hellfire had bellowed at him a concuss</p>
+<p>Compromised orphically, mind fraught</p>
+<p>Quickly he douts his spliff in a full stop</p>
+<p>Triggered taut.</p>
+<p> </p>
+<p>In hackling pule bye, he left the meetup</p>
+<p>Harlem sunset, the man loved the buds</p>
+<p>It was not the first time, but this struck;</p>
+<p>That chord.</p>
+<p> </p>
+<p>Everyone wanted to leave town abroad</p>
+<p>He discussed plans if he struck a windfall</p>
+<p>With college degree foreign, not em duds</p>
+<p>He’d warn.</p>
+<p> </p>
+<p>We had Hellfire, and also another Rooftop</p>
+<p>Hellfire had a shrine, house made of mud</p>
+<p>Rooftop, a home; hotel dream shutdown</p>
+<p>By a despot.</p>
+<p> </p>
+<p>Evenings saw me over there on weed puff</p>
+<p>Two spliffs, I’m buzzing with objecting buts</p>
+<p>I left headachy, thoughts on what’s install</p>
+<p>But I enjoyed.</p>
+<p> </p>
+<p>His Rooftop visits are points of sparse blurs</p>
+<p>He introduced me to his friend, not the club</p>
+<p>In the pictures taken, his lips held a gesture</p>
+<p>As of more.</p>
+<p> </p>
+<p>Once with lips sucked in so long, he spouts</p>
+<p>If I would care to swap jeans, “It is grunge.”</p>
+<p>“A black knee-ripped dungaree” in a surge</p>
+<p>“Your court.”</p>
+<p> </p>
+<p>Stuttering as I sometimes do, I stop, pause</p>
+<p>No longer in memory now; by that I let up</p>
+<p>He wanted what I had on, and for my notch</p>
+<p>Something smut.</p>
+<p> </p>
+<p>Stonewash and a naked knee from a big gut</p>
+<p>Back having it, with a better upkeep purse</p>
+<p>I’d go down on my left knee, say the words</p>
+<p>Let’s have fun.</p>
+<p> </p>
+<p>Seeking fun is not everything; it is the call</p>
+<p>Pleasure pairs with fun and it’s on the run</p>
+<p>In the morning it’s coffee, at night it’s rum</p>
+<p>A never humdrum.</p>
+<p> </p>
+<p>I smoked weed for years before the breakup</p>
+<p>Twenty-one when I drew the first short puff</p>
+<p>Twenty-five and I couldn’t go on, not till dust</p>
+<p>Our divorce.</p>
+<p> </p>
+<p>But before then, pleasure took me on tour</p>
+<p>Without a girl, and pals on the blame stub</p>
+<p>To say I did, we visited a brothel slash pub</p>
+<p>To end my grunts.</p>
+<p> </p>
+<p>First time having hashish, lain next to a boy</p>
+<p>Wishes of it being a girl, for he dealt fudge</p>
+<p>He’d done it, he transcended, saw a whore</p>
+<p>A pivotal point.</p>
+<p> </p>
+<p>Final summer we left campus for a reunion</p>
+<p>An old mate who’d left a fresher-abandon</p>
+<p>He lost his closer friends then to expulsion</p>
+<p>He dealt drugs.</p>
+<p> </p>
+<p>He said he left because he got really bored</p>
+<p>Few Messenger messages, we had to claw</p>
+<p>We made plans to meet, it felt not so long</p>
+<p>He decked the halls.</p>
+<p> </p>
+<p>Joshua not long threw a fit, fit for a jock</p>
+<p>Everything has been wrong from the jump</p>
+<p>Even the car broke. Drawing my attention</p>
+<p>Continuing in bug.</p>
+<p> </p>
+<p>We’d just concluded our finals, no touch ups</p>
+<p>Freedom. End of university. End of lectures</p>
+<p>And a wuss who’s known, laid whores, bucks?</p>
+<p>He had my wits gone.</p>
+<p> </p>
+<p>I’m hopeless romantic with the underworld</p>
+<p>He gets up to leave, so I follow him on abut</p>
+<p>He’s the one who’d done it; I play the bong</p>
+<p>I needed to. I must.</p>
+<p> </p>
+<p>Just out. A thing amiss I could not tell at all</p>
+<p>That my phone was missing, it had dropped</p>
+<p>Bode handed it to me in good augur launch</p>
+<p>The worker wasn’t buff.</p>
+<p> </p>
+<p>Nothing changed in that town and I got a job</p>
+<p>An initial hotel accommodation with hotspot</p>
+<p>My office was nearby, I was on a row of luck</p>
+<p>It was a pleasant adjust.</p>
+<p> </p>
+<p>My new town on the scale, was a good bump</p>
+<p>A conducive estate, featuring relevant shops</p>
+<p>Quiet mornings with a keen sense impetuous</p>
+<p>For the doors!</p>
+<p> </p>
+<p>A new Apple Mac with mountains for desktop</p>
+<p>One afternoon, my FaceTime got a cool buzz</p>
+<p>It was unexpected in every way, a total prong</p>
+<p>An employer usurp.</p>
+<p> </p>
+<p>Longer conversations later through the duct</p>
+<p>Days after, I got money and very good cause</p>
+<p>Spending more than the month’s earn sum</p>
+<p>So I raised the crump.</p>
+<p> </p>
+<p>Most nights, we get a drop to the same spot</p>
+<p>Light another one up, because it is that just</p>
+<p>Pepsi Cola, great skunk, and live music pump</p>
+<p>Pass the buck.</p>
+<p> </p>
+<p>Relaxed with friends and a colleague from work</p>
+<p>Ideas we never heard flowed in slow prologue</p>
+<p>Action figure said no to excitement and crutch</p>
+<p>Fuck this crawl!</p>
+<p> </p>
+<p>He wasn’t a coward, he balled hard, a dawg</p>
+<p>He’d sex whenever around, had no remorse</p>
+<p>A field player since his first income catapult</p>
+<p>No blotch.</p>
+<p> </p>
+<p>Oh I just couldn’t have the habit on staunch</p>
+<p>He’d leave, my colleague was taking a drop</p>
+<p>For his hotel, we for the ATM to get blunt</p>
+<p>Following our plot.</p>
+<p> </p>
+<p>Two luxury bedrooms to my name by dawn</p>
+<p>A tart’s iPhone on the bed, how she forgot?</p>
+<p>Out of the plot, a gang bang was her employ</p>
+<p>I too felt lost.</p>
+<p> </p>
+<p>Another time, another place, for another shot</p>
+<p>To reignite the plot, I had just received a wand</p>
+<p>Action figure had been around, counting sluts</p>
+<p>Leaving me the clot.</p>
+<p> </p>
+<p>Man, what do we do tonight? To me like a report</p>
+<p>. . . we should hit the club. He suggests with force</p>
+<p>No, I can't tolerate the music, smoke what I want.</p>
+<p>I returned in a punch.</p>
+<p> </p>
+<p>Let’s get a whore, stay at home, smoke rocks</p>
+<p>It’ll be a gang bang, I’ll call up Chvrch my plug</p>
+<p>We were at a bar, waiting for meals; in decision</p>
+<p>Let’s hunt!</p>
+<p> </p>
+<p>Using a choice service we got through the worst</p>
+<p>Met up with Chvrch for a gram of the stain blob</p>
+<p>Headed back to my apartment, ready for the fluff</p>
+<p>I was soon left in a lurch.</p>
+<p> </p>
+<p>Action figure in the bedroom treats women as gum</p>
+<p>He chews them, pops them, and loves their engulf</p>
+<p>He’s in the bedroom, I’m in the toilet, and I’m stuck</p>
+<p>He’s the one focused.</p>
+<p> </p>
+<p>An evening in my office,ring! My phone’s blurt</p>
+<p>Thirteen seconds of his hand gripping a fat bum</p>
+<p>Straight from the soda shop, with no blip of fuss</p>
+<p>A straight boss.</p>
+<p> </p>
+<p>Oh, I couldn’t leave, the girl brought in no joy</p>
+<p>Her long eye lashes told me off like a soy boy</p>
+<p>And when he came in, it wasn’t at all for rush</p>
+<p>Here I was, PC Plod.</p>
+<p> </p>
+<p>He had burnt a tiny amount, alive, and in store</p>
+<p>I am fine by this. A smile on his face as a duck</p>
+<p>My headphones made love to me like a faggot</p>
+<p>If could see the bulge?</p>
+<p> </p>
+<p>Then he was done, and he was around for a burn</p>
+<p>Meaning also, it was time I went for my own turn</p>
+<p>A sort of gang bang? I sensed a no daring bunch</p>
+<p>I’d stalled, for a flop.</p>
+<p> </p>
+<p>As if facing the music, I branch out summoned</p>
+<p>A nog to what is rising and push for a mugshot</p>
+<p>He’d be there as I fucked her to watch me cum</p>
+<p>That’s the stuff.</p>
+<p> </p>
+<p>With my pellet in, I in no time get a full stun</p>
+<p>I didn’t get it, I had on rubber, a good condom</p>
+<p>But it wasn’t real, definitely a thing was wrong</p>
+<p>I was in top crumb.</p>
+<p> </p>
+<p>I was scared, I drew out, seeing her visage fond</p>
+<p>A second scare, it was dark and I couldn’t trust</p>
+<p>Maybe I fucked her, maybe I didn’t, can’t recall</p>
+<p>It’s a blank cloche.</p>
+<p> </p>
+<p>Pleasure chase is everything; it isn’t always yum</p>
+<p>The hedonist serves the animal and it, his word</p>
+<p>Action figure told me all about his favourite toy</p>
+<p>An app you don’t grub.</p>
+<p> </p>
+<p>Who will be the incel in society? Him why not.</p>
+<p>They need someone, but I found you; that’s love</p>
+<p>Like an ad, walking me through his chatting hub</p>
+<p>In measure, a tailor.</p>
+<p> </p>
+<p>I got a girl, had her once, a time for a second</p>
+<p>She loved it, it seemed, she called, I blocked</p>
+<p>A jolly session, I pondered my condom off</p>
+<p>Oh, oh, oh her buns.</p>
+<p> </p>
+<p>Stella was like my girlfriend, we only knobbed</p>
+<p>The sex was good, so I called in a couple bunch</p>
+<p>Bought her gifts, and smoked weed over brunch</p>
+<p>She, her strand, and cord.</p>
+`,              
+              `<p>Mistakes appliqué</p>
+<p>Add a very big slake</p>
+<p>Dodge the mindful rod</p>
+<p>At the brittle lip sync</p>
+<p>With an itch, a stitch of salt.</p>`,
+              `<p>Undressing a girl is pretty</p>
+<p>Hands apert unmatching</p>
+<p>Revealing teeth; o ut clip</p>
+<p>Of my tristesse oddity zip</p>
+<p>Telling of the rest sweet.</p>
+<p> </p>
+<p>Others’ proscenium sentries</p>
+<p>Their unflippant reprieving</p>
+<p>Tracing tips, shending cavils</p>
+<p>Protean thoughts ad-streel.</p>
+<p> </p>
+<p>Her stilettos pavé-holdings</p>
+<p>Whispers to my amanuensis</p>
+<p>My exurban afterburner reach.</p>
+<p> </p>
+<p>From her—their solicitude kiss.</p><p> </p><p> </p><img src="../../images/collections/iii-ii/30.) Quiver Barnet I.jpg" class="img-fluid"><p> </p><p> </p><p> </p><p> </p><img src="../../images/collections/iii-ii/30.) Quiver Barnet II.jpg" class="img-fluid">`,              
+              `<p>Exploring beyond mine;</p>
+<p>Imagination’s own haecceity.</p>
+<p> </p>
+<p>I’m umbra of the ebbing tide</p>
+<p>Nature’s baldachin.</p>`,              
+ 
+              ],
+            convertIndex(prop) {
+              var indexNumber = prop;
+              var number = numbered.stringify(indexNumber);
+              return number;
+            },
+          };
+        },
+        acceptCookieUse() {
+          localStorage.setItem("cookieUse", true);
+        },
+        lastTabIIIv2: "",
+        coverTabIIIv2IsActive: localStorage.getItem("coverTabIIIv2IsActive"),
+        authorTabIIIv2IsActive: localStorage.getItem("authorTabIIIv2IsActive"),
+        dedTabIIIv2IsActive: localStorage.getItem("dedTabIIIv2IsActive"),
+        chapterTabIIIv2IsActive: localStorage.getItem("chapterTabIIIv2IsActive"),
+        navLink: true,
+        setCoverIIIv2AsTab() {
+          this.lastTabIIIv2 = "Cover";
+          localStorage.setItem("lastTabIIIv2", this.lastTabIIIv2);
+          localStorage.setItem("coverTabIIIv2IsActive", true);
+          localStorage.setItem("authorTabIIIv2IsActive", false);
+          localStorage.setItem("dedTabIIIv2IsActive", false);
+          localStorage.setItem("chapterTabIIIv2IsActive", false);
+        },
+        setAuthorIIIv2AsTab() {
+          this.lastTabIIIv2 = "Author";
+          localStorage.setItem("lastTabIIIv2", this.lastTabIIIv2);
+          localStorage.setItem("coverTabIIIv2IsActive", false);
+          localStorage.setItem("authorTabIIIv2IsActive", true);
+          localStorage.setItem("dedTabIIIv2IsActive", false);
+          localStorage.setItem("chapterTabIIIv2IsActive", false);
+        },
+        setDedIIIv2AsTab() {
+          this.lastTabIIIv2 = "Dedication";
+          localStorage.setItem("lastTabIIIv2", this.lastTabIIIv2);
+          localStorage.setItem("coverTabIIIv2IsActive", false);
+          localStorage.setItem("authorTabIIIv2IsActive", false);
+          localStorage.setItem("dedTabIIIv2IsActive", true);
+          localStorage.setItem("chapterTabIIIv2IsActive", false);
+        },
+        setChaptersIIIv2AsTab() {
+          this.lastTabIIIv2 = "Chapters";
+          localStorage.setItem("lastTabIIIv2", this.lastTabIIIv2);
+          localStorage.setItem("coverTabIIIv2IsActive", false);
+          localStorage.setItem("authorTabIIIv2IsActive", false);
+          localStorage.setItem("dedTabIIIv2IsActive", false);
+          localStorage.setItem("chapterTabIIIv2IsActive", true);
+        },
+        shareToFacebook() {
+          this.generateStaticPoemURL();
+          console.log(this.generateStaticPoemURL());
+          FB.ui(
+            {
+              display: "popup",
+              method: "share",
+              href: this.staticPoemURL,
+            },
+            function (response) {}
+          );
+        },
+        copyURL() {
+          this.CopyURLText = "URL copied to clipboard";
+          this.generateStaticPoemURL();
+          navigator.clipboard.writeText(this.staticPoemURL);
+          $("#CopyURLText").css("color", "green");
+          $("#copyURLIcon").css("color", "green");
+          setTimeout(() => {
+            $("#CopyURLText").css("color", "#010521");
+            $("#copyURLIcon").css("color", "#010521");
+            this.CopyURLText = "Copy URL";
+          }, 8000);
+        },
+        shareToWhatsApp() {
+          this.generateStaticPoemURL();
+          const linkToShare = "whatsapp://send?text=" + this.staticPoemURL;
+          window.open(linkToShare, "_blank");
+        },
+        shareToTwitter() {
+          return;
+        },
+        loadBookmark() {
+          var urlParams = new URLSearchParams(location.search);
+        },
+        generatePoemURL() {
+          var domainName = window.location.origin;
+          const queryToAppend =
+            domainName +
+            this.currentURL +
+            "?typeIsPoem" +
+            "&id=" +
+            this.currentChapter;
+          this.poemURL = queryToAppend;
+        },
+        changeTabToChapter() {
+          localStorage.setItem("coverTabIIIv2IsActive", false);
+          localStorage.setItem("authorTabIIIv2IsActive", false);
+          localStorage.setItem("dedTabIIIv2IsActive", false);
+          localStorage.setItem("chapterTabIIIv2IsActive", true);
+          document.getElementById("pills-integration-tab").click();
+        },
+        decodePoemURL() {
+          if (this.goBackState == true) {
+            return;
+          } else {
+            var bookmarkURL = new URLSearchParams(location.search);
+            var getPoemIdFromURL = bookmarkURL.get("id");
+            if (bookmarkURL.has("typeIsPoem") && getPoemIdFromURL <= 46) {
+              this.changeTabToChapter();
+              localStorage.setItem("viewIIIv2", "poetry");
+              this.pageState = "poetry";
+              this.URLPoemID = getPoemIdFromURL;
+              this.currentChapter = this.URLPoemID;
+              localStorage.setItem("IIIv2CurrentChapter", this.currentChapter);
+              this.goBackState = false;
+            } else if (bookmarkURL.has("typeIsPoem") && getPoemIdFromURL > 46) {
+              localStorage.setItem("viewIIIv2", this.initialPageState.viewIIIv2);
+              window.location.href =
+                window.location.origin + "/pages/not-found.html";
+            } else {
+              window.location.origin + "/pages/not-found.html";
+            }
+          }
+        },
+        generateStaticPoemURL() {
+          var domainName = window.location.origin;
+          const convertPoemID = this.pageResources().convertIndex(
+            this.currentChapter
+          );
+          var shareURL =
+            domainName +
+            "/pages/Hilton/collections/iiiv2/" +
+            convertPoemID +
+            ".html";
+          this.staticPoemURL = shareURL;
+        },
+   goToPublished() {
+      window.location.href = '../books.html';
+    }
+        
+      });
+
+      createApp({
+        store,
+      }).mount("#ctrlArea");
+    </script>
+    <!--========== 
+	End of Javascript ==========-->
+  </body>
+</html>
