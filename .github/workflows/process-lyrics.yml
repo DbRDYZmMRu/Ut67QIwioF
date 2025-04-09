@@ -1,4 +1,4 @@
-name: Process Lyrics Folder
+name: Process Lyrics Text
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  process_lyrics:
+  process_lyrics_text:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -24,8 +24,8 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Process Lyrics Folder
-        run: node processLyricsFolder.js
+      - name: Process Lyrics Text Files
+        run: node processLyricsText.js
 
       - name: Commit and Push Changes
         env:
@@ -37,6 +37,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m 'Update lyrics files'
+            git commit -m 'Update lyrics text files'
             git push origin HEAD:main
           fi
