@@ -8,8 +8,9 @@ function executeCommand(command) {
         const output = execSync(command, { stdio: 'inherit' });
         return output;
     } catch (error) {
-        console.error(`Error executing command: ${command}`, error);
-        process.exit(1);
+        // Return the error so we can handle it explicitly
+        console.error(`Error executing command: ${command}`);
+        return error;
     }
 }
 
@@ -55,17 +56,14 @@ function registerExtractionFolder(zipFilePath, extractionFolder) {
 
     // Check for changes and commit
     console.log("Checking for changes...");
-    try {
-        // Log the current Git status for debugging
-        console.log("Git status output:");
-        executeCommand("git status --short");
+    const diffError = executeCommand("git diff --cached --quiet");
 
-        // Check for differences
-        executeCommand("git diff --cached --quiet");
-        console.log("No changes to commit");
-    } catch {
+    // If there are changes (non-zero exit code), commit and push them
+    if (diffError && diffError.status !== 0) {
         console.log("Changes detected, committing...");
         executeCommand("git commit -m 'Process and extract poetry files from compressed ZIP'");
         executeCommand("git push origin HEAD:main");
+    } else {
+        console.log("No changes to commit");
     }
 })();
