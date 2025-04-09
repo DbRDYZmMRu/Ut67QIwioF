@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 const unzipper = require('unzipper');
 
 /**
@@ -16,18 +17,21 @@ async function extractZip(zipFilePath, extractTo) {
         fs.mkdirSync(extractTo, { recursive: true });
     }
 
-    const zipStream = fs.createReadStream(zipFilePath)
-        .pipe(unzipper.Extract({ path: extractTo }));
-    
-    return new Promise((resolve, reject) => {
-        zipStream.on('close', () => {
-            console.log(`Extraction complete! Files are located at: ${extractTo}`);
-            resolve();
-        });
-        zipStream.on('error', (err) => {
-            reject(err);
-        });
-    });
+    console.log(`Starting extraction of ${zipFilePath} to ${extractTo}...`);
+    const directory = fs.createReadStream(zipFilePath).pipe(unzipper.Parse());
+
+    for await (const entry of directory) {
+        const filePath = path.join(extractTo, entry.path);
+        if (entry.type === 'Directory') {
+            console.log(`Creating directory: ${filePath}`);
+            fs.mkdirSync(filePath, { recursive: true });
+        } else {
+            console.log(`Extracting file: ${filePath}`);
+            entry.pipe(fs.createWriteStream(filePath));
+        }
+    }
+
+    console.log(`Extraction complete! Files are located at: ${extractTo}`);
 }
 
 // Main script logic
