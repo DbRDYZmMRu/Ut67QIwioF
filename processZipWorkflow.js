@@ -23,7 +23,7 @@ function registerExtractionFolder(zipFilePath, extractionFolder) {
 (async () => {
     // ZIP file and extraction folder details
     const zipFilePath = 'final_pages.zip'; // Set ZIP file name here
-    const extractionFolder = registerExtractionFolder(zipFilePath, 'lyrics_txt'); // Provide a default or custom folder
+    const extractionFolder = registerExtractionFolder(zipFilePath, 'lyrics_html_folder'); // Provide a default or custom folder
 
     // Ensure ZIP file exists
     if (!fs.existsSync(zipFilePath)) {
