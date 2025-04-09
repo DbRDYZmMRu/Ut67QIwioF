@@ -1,182 +1,89 @@
-
-
-
-[bridge 1]
-
+[Bridge 1]
 So, when it comes to gold
-
 I don’t know what is soul
-
 But i’m here though
-
 And i’m here to grow
-
 Oh
-
-[bridge 2]
-
+[Bridge 2]
 We should figure it out
-
 We should figure it out
-
 Instead of losing our cool
-
 The solving of it
-
 We should figure it out
-
 We should figure it out
-
 Instead of losing our cool
-
 It’s a mosh here
-
 I think i’m the better of the two
-
 She should better figure it out
-
 Figure
-
 Figure it out
-
 She should figure it out
-
 She think she better of the two
-
 Better of the two
-
 She better figure it out
-
 Figure it out
-
 We should figure it out
-
-[chorus]
-
+[Chorus]
 She thinks my love fit the wrong air
-
 I think i love her, just the way
-
 She thinks i’m in love with the wrong way
-
 I think his creatures are that way
-
 We should leap in the hassle
-
 We should just let it lay
-
 We should heap it on a nice song
-
 Girl just so immaculate
-
 June let the reef off
-
 Don’t let the ring fall down
-
 Don’t let the roof off
-
 June let the reef off
-
 Heavier
-
-[verse 1]
-
+[Verse 1]
 Waiting for
-
 The rainfall
-
 When it falls down
-
 The rainfall
-
 It’s your reign you fool
-
 When it falls down
-
 Falls down
-
 Down
-
 Falls down
-
 Melee on
-
-[bridge 1]
-
+[Bridge 1]
 So, when it comes to gold
-
 I don’t know what is soul
-
 But i’m here though
-
 And i’m here to grow
-
 Oh
-
-[bridge 2]
-
+[Bridge 2]
 We should figure it out
-
 We should figure it out
-
 Instead of losing our cool
-
 The solving of it
-
 We should figure it out
-
 We should figure it out
-
 Instead of losing our cool
-
 It’s a mosh here
-
 I think i’m the better of the two
-
 She should better figure it out
-
 Figure
-
 Figure it out
-
 She should figure it out
-
 She think she better of the two
-
 Better of the two
-
 She better figure it out
-
 Figure it out
-
 We should figure it out
-
-[chorus]
-
+[Chorus]
 She thinks my love fit the wrong air
-
 I think i love her, just the way
-
 She thinks i’m in love with the wrong way
-
 I think his creatures are that way
-
 We should leap in the hassle
-
 We should just let it lay
-
 We should heap it on a nice song
-
 Girl just so immaculate
-
 June let the reef off
-
 Don’t let the ring fall down
-
 Don’t let the roof off
-
 June let the reef off
-
 Heavier
-
-
