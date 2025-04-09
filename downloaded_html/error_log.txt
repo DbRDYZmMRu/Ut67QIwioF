@@ -1,4 +1,4 @@
-Failed to download https://azlyrics.biz/f/frith-hilton-lyrics/frith-hilton-gravity-lyrics/: Request failed with status code 429
+UFailed to download https://azlyrics.biz/f/frith-hilton-lyrics/frith-hilton-gravity-lyrics/: Request failed with status code 429
 Failed to download https://azlyrics.biz/f/frith-hilton-lyrics/frith-hilton-fish-lyrics/: Request failed with status code 429
 Failed to download https://azlyrics.biz/f/frith-hilton-lyrics/frith-hilton-two-bad-bitches-lyrics/: Request failed with status code 429
 Failed to download https://azlyrics.biz/f/frith-hilton-lyrics/frith-hilton-sex-is-everything-lyrics/: Request failed with status code 429
