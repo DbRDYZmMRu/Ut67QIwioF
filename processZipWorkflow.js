@@ -22,8 +22,8 @@ function registerExtractionFolder(zipFilePath, extractionFolder) {
 // Main workflow
 (async () => {
     // ZIP file and extraction folder details
-    const zipFilePath = 'compressed-poetry-folder.zip'; // Set ZIP file name here
-    const extractionFolder = registerExtractionFolder(zipFilePath, 'extracted_poetry'); // Provide a default or custom folder
+    const zipFilePath = 'final_pages.zip'; // Set ZIP file name here
+    const extractionFolder = registerExtractionFolder(zipFilePath, 'lyrics_txt'); // Provide a default or custom folder
 
     // Ensure ZIP file exists
     if (!fs.existsSync(zipFilePath)) {
