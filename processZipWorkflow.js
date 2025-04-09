@@ -53,9 +53,14 @@ function registerExtractionFolder(zipFilePath, extractionFolder) {
     console.log("Adding changes to Git...");
     executeCommand("git add .");
 
-    // Commit and push changes
+    // Check for changes and commit
     console.log("Checking for changes...");
     try {
+        // Log the current Git status for debugging
+        console.log("Git status output:");
+        executeCommand("git status --short");
+
+        // Check for differences
         executeCommand("git diff --cached --quiet");
         console.log("No changes to commit");
     } catch {
