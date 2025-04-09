@@ -2,62 +2,57 @@ const fs = require('fs');
 const path = require('path');
 
 /**
- * Capitalizes the first letter of a string.
- *
- * @param {string} str - The string to capitalize.
- * @returns {string} - The string with the first letter capitalized.
- */
-function capitalizeFirstLetter(str) {
-    return str.charAt(0).toUpperCase() + str.slice(1);
-}
-
-/**
- * Processes the content of a text file according to the rules:
- * - Capitalizes the first word of each paragraph.
- * - Replaces "+" with a single space.
- * - Removes redundant single empty lines between paragraphs.
- * - Adds three empty lines at the beginning and end of the text.
+ * Transforms the content of a text file according to the specified rules:
+ * - Capitalizes the first letter inside square brackets.
+ * - Ensures exactly one free line before lines with square brackets.
+ * - Removes free lines between regular text lines.
  *
  * @param {string} content - The original content of the text file.
- * @returns {string} - The processed content.
+ * @returns {string} - The transformed content.
  */
-function processContent(content) {
+function transformContent(content) {
     // Split the content into lines
     let lines = content.split('\n');
+    let transformedLines = [];
+    let previousLineWasEmpty = false;
 
-    // Process each line: replace "+" and capitalize the first word if the line is not empty
-    lines = lines.map((line) => {
-        if (line.trim() === '') return line; // Keep empty lines as is
-        return capitalizeFirstLetter(line.replace(/\+/g, ' '));
-    });
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
 
-    // Remove redundant single empty lines (leave only one empty line between paragraphs)
-    let processedLines = [];
-    let emptyLineCount = 0;
-
-    for (const line of lines) {
-        if (line.trim() === '') {
-            emptyLineCount++;
-            if (emptyLineCount <= 1) {
-                processedLines.push(line); // Allow only one empty line
+        // Check if the line contains square brackets
+        if (line.trim().startsWith('[') && line.trim().endsWith(']')) {
+            // Ensure there is exactly one free line before this line
+            if (!previousLineWasEmpty) {
+                transformedLines.push(''); // Add a free line if not already present
             }
+
+            // Capitalize the first letter inside the square brackets
+            const transformedLine = line.replace(/\[(\w)/, (match, firstLetter) => {
+                return `[${firstLetter.toUpperCase()}`;
+            });
+            transformedLines.push(transformedLine);
+            previousLineWasEmpty = false; // Reset because this line is not empty
+        } else if (line.trim() === '') {
+            // Skip free lines unless the next line starts with square brackets
+            previousLineWasEmpty = true;
+            continue;
         } else {
-            emptyLineCount = 0; // Reset empty line count when a non-empty line is found
-            processedLines.push(line);
+            // Regular text line: add it without any free line
+            transformedLines.push(line);
+            previousLineWasEmpty = false; // Reset because this line is not empty
         }
     }
 
-    // Add three empty lines at the beginning and end
-    const threeEmptyLines = '\n\n\n';
-    return `${threeEmptyLines}${processedLines.join('\n')}${threeEmptyLines}`;
+    // Join the transformed lines back into a single string
+    return transformedLines.join('\n');
 }
 
 /**
- * Processes all text files in the specified folder.
+ * Processes all text files in the specified folder, applying the transformation.
  *
  * @param {string} folderPath - The path to the folder containing text files.
  */
-function processLyricsFolder(folderPath) {
+function processLyricsFiles(folderPath) {
     // Ensure the folder exists
     if (!fs.existsSync(folderPath)) {
         console.error(`Folder not found: ${folderPath}`);
@@ -77,11 +72,11 @@ function processLyricsFolder(folderPath) {
             // Read the file content
             const content = fs.readFileSync(filePath, 'utf-8');
 
-            // Process the content
-            const processedContent = processContent(content);
+            // Transform the content
+            const transformedContent = transformContent(content);
 
-            // Write the updated content back to the file
-            fs.writeFileSync(filePath, processedContent, 'utf-8');
+            // Write the transformed content back to the file
+            fs.writeFileSync(filePath, transformedContent, 'utf-8');
         }
     });
 
@@ -93,9 +88,9 @@ function processLyricsFolder(folderPath) {
     const folderPath = 'Lyrics Folder'; // Set the folder name here
 
     try {
-        processLyricsFolder(folderPath);
+        processLyricsFiles(folderPath);
     } catch (error) {
-        console.error(`Error processing lyrics folder: ${error.message}`);
+        console.error(`Error processing lyrics files: ${error.message}`);
         process.exit(1);
     }
 })();
