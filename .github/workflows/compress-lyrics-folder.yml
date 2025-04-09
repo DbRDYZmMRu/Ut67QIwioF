@@ -1,0 +1,42 @@
+name: Compress Lyrics Folder
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  compress_lyrics_folder:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.17.0'
+
+      - name: Install Dependencies
+        run: npm install archiver
+
+      - name: Compress Lyrics Folder
+        run: node compressFolder.js
+
+      - name: Commit and Push ZIP File
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add LyricsFolder.zip
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m 'Add compressed Lyrics Folder'
+            git push origin HEAD:main
+          fi
