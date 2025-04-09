@@ -1,4 +1,4 @@
-name: Process ZIP File
+name: Process and Extract ZIP File
 
 on:
   push:
@@ -24,7 +24,7 @@ jobs:
       - name: Install Git LFS
         run: |
           curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
-          sudo apt-get install git-lfs
+          sudo apt-get install git-lfs -y
           git lfs install
 
       - name: Configure Git user
@@ -33,13 +33,10 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
       - name: Install dependencies
-        run: npm install unzipper
+        run: npm install
 
-      - name: Extract ZIP file
-        run: |
-          node extractZipWorkflow.js compressed-poetry-folder.zip extracted_poetry
-        env:
-          NODE_OPTIONS: '--unhandled-rejections=strict'
+      - name: Run ZIP processing script
+        run: node processZipWorkflow.js
 
       - name: Commit and push extracted files
         env:
@@ -51,6 +48,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m 'Process and extract poetry files from compressed ZIP'
+            git commit -m 'Process and extract poetry files from ZIP'
             git push origin HEAD:main
           fi
