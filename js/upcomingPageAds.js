@@ -5,7 +5,7 @@ const adsTop = [
   { img: '../images/ads/818.gif', link: '#', displayTime: 9000 },
   { img: '../images/ads/kimsSecret.gif', link: 'https://shop.kims-secret.com, ', displayTime: 10000 },
   { img: '../images/ads/Rhode1.gif', link: 'https://www.rhodeskin.com', displayTime: 12000 },
-  { img: '../images/ads/cocacola.gif', link: '#', displayTime: 5000 },
+  { img: '../images/ads/cocacola.gif', link: '#', displayTime: 30000 },
   { img: '../images/ads/Personalday.gif', link: 'https://www.personalday.com/', displayTime: 10000 }
 ];
 
