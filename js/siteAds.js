@@ -43,7 +43,7 @@ const mediaSources = [
     
     src: '/../images/ads/cocacola.gif',
     link: '#',
-    duration: 5000 // 5 seconds
+    duration: 30000 // 30 seconds
   },
   {
     
