@@ -1,5 +1,6 @@
 
 const adsTop = [
+  { img: '../images/ads/drinksprinter.gif', link: '#', displayTime: 9000 },  
   { img: '../images/ads/Crocs.gif', link: 'https://www.crocs.com/stories/come-as-you-are.html', displayTime: 5000 },
   { img: '../images/ads/Celsius.gif', link: '#', displayTime: 10000 },
   { img: '../images/ads/818.gif', link: '#', displayTime: 9000 },
