@@ -1,4 +1,4 @@
-name: Generate Lyrics JSON
+name: Generate Lyrics JSON and ZIP
 
 on:
   push:
@@ -28,17 +28,19 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Generate Lyrics JSON
-        run: node generate_lyrics_json.js
+      - name: Generate Lyrics JSON and ZIP
+        run: |
+          # Run the script to generate JSON files and ZIP the Json folder
+          node generate_lyrics_json.js
 
       - name: Commit and push changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git add Json/*.json
+          git add "Lyrics Folder/Json/*.json" "Lyrics Folder/Json.zip"
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m 'Generate lyrics JSON from text files'
+            git commit -m 'Generate lyrics JSON files and ZIP folder'
             git push origin HEAD:main
           fi
