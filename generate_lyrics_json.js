@@ -9,32 +9,22 @@ const zipFilePath = path.join(lyricsFolder, 'Json.zip'); // Path to the ZIP file
 function processLyricsFile(filePath) {
   const lines = fs.readFileSync(filePath, 'utf-8').split('\n');
   const lyrics = [];
-  let foundFirstBracketLine = false; // Flag to skip lines before the first square bracket line
+
+  // Process only non-empty lines, starting from the first non-empty line
+  let foundFirstTextLine = false;
 
   lines.forEach((line) => {
     const trimmedLine = line.trim();
-    if (!foundFirstBracketLine) {
-      // Start processing only when a square bracket line is found
-      if (trimmedLine.startsWith('[') && trimmedLine.endsWith(']')) {
-        foundFirstBracketLine = true;
+    if (!foundFirstTextLine) {
+      if (trimmedLine !== '') {
+        foundFirstTextLine = true; // Start processing from the first non-empty line
       } else {
-        return; // Skip lines before the first square bracket line
+        return; // Skip empty lines at the beginning
       }
     }
 
-    if (trimmedLine === '') {
-      lyrics.push({ line: '', annotations: {} }); // Retain empty lines
-    } else {
-      const annotations = {};
-      const words = trimmedLine.split(' ');
-      words.forEach((word) => {
-        if (word.includes('[') || word.includes(']')) {
-          annotations[word.replace(/[\[\]]/g, '')] = `Annotation for ${word}`;
-        }
-      });
-
-      lyrics.push({ line: trimmedLine, annotations });
-    }
+    // Add each line as a lyric with an empty annotations object
+    lyrics.push({ line: trimmedLine, annotations: {} });
   });
 
   return lyrics;
