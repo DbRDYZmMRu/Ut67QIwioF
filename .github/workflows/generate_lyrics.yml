@@ -1,0 +1,44 @@
+name: Generate Lyrics JSON
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate_lyrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Ensure the workflow has write permission to contents
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.17.0'
+
+      - name: Configure Git user
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate Lyrics JSON
+        run: node generate_lyrics_json.js
+
+      - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git add Json/*.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m 'Generate lyrics JSON from text files'
+            git push origin HEAD:main
+          fi
