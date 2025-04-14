@@ -2,9 +2,7 @@
   "lyrics": [
     {
       "line": "[Intro]",
-      "annotations": {
-        "Intro": "Annotation for [Intro]"
-      }
+      "annotations": {}
     },
     {
       "line": "How about it?",
@@ -28,10 +26,7 @@
     },
     {
       "line": "[Verse 1]",
-      "annotations": {
-        "1": "Annotation for 1]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "Leaving in prada",
@@ -83,9 +78,7 @@
     },
     {
       "line": "[Bridge]",
-      "annotations": {
-        "Bridge": "Annotation for [Bridge]"
-      }
+      "annotations": {}
     },
     {
       "line": "I’m never caving in",
@@ -113,10 +106,7 @@
     },
     {
       "line": "[Verse 2]",
-      "annotations": {
-        "2": "Annotation for 2]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "It is still the samе",
@@ -180,9 +170,7 @@
     },
     {
       "line": "[Outro]",
-      "annotations": {
-        "Outro": "Annotation for [Outro]"
-      }
+      "annotations": {}
     },
     {
       "line": "The soul c nt",

@@ -2,9 +2,7 @@
   "lyrics": [
     {
       "line": "[Intro]",
-      "annotations": {
-        "Intro": "Annotation for [Intro]"
-      }
+      "annotations": {}
     },
     {
       "line": "It’s up now",
@@ -20,9 +18,7 @@
     },
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "My cuff is made of something like this",
@@ -70,10 +66,7 @@
     },
     {
       "line": "[Verse 1]",
-      "annotations": {
-        "1": "Annotation for 1]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "Tell me it’s not",
@@ -109,9 +102,7 @@
     },
     {
       "line": "[Bridge]",
-      "annotations": {
-        "Bridge": "Annotation for [Bridge]"
-      }
+      "annotations": {}
     },
     {
       "line": "Sleeping (oh)",
@@ -139,9 +130,7 @@
     },
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "My cuff is made of something like this",
@@ -189,10 +178,7 @@
     },
     {
       "line": "[Verse 2]",
-      "annotations": {
-        "2": "Annotation for 2]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "Heading on",
@@ -220,9 +206,7 @@
     },
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "My cuff is made of something like this",
@@ -270,15 +254,11 @@
     },
     {
       "line": "[Outro]",
-      "annotations": {
-        "Outro": "Annotation for [Outro]"
-      }
+      "annotations": {}
     },
     {
       "line": "My girl (my girl, my girl, my girl, my girl [?])",
-      "annotations": {
-        "?)": "Annotation for [?])"
-      }
+      "annotations": {}
     },
     {
       "line": "Tell me it’s not wittily on what gone (my girl, my girl, my girl, my girl, doorway)",

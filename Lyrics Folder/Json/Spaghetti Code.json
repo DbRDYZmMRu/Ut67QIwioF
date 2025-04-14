@@ -2,10 +2,7 @@
   "lyrics": [
     {
       "line": "[Verse 1]",
-      "annotations": {
-        "1": "Annotation for 1]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "I’ve been taking it slow",
@@ -57,10 +54,7 @@
     },
     {
       "line": "[Verse 2]",
-      "annotations": {
-        "2": "Annotation for 2]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "And i never could",
@@ -112,10 +106,7 @@
     },
     {
       "line": "[Verse 3]",
-      "annotations": {
-        "3": "Annotation for 3]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "We could just havе it here",
@@ -163,9 +154,7 @@
     },
     {
       "line": "[Outro]",
-      "annotations": {
-        "Outro": "Annotation for [Outro]"
-      }
+      "annotations": {}
     },
     {
       "line": "Turn lead out",

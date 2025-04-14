@@ -2,9 +2,7 @@
   "lyrics": [
     {
       "line": "[Intro]",
-      "annotations": {
-        "Intro": "Annotation for [Intro]"
-      }
+      "annotations": {}
     },
     {
       "line": "Feeling nigh touch over here",
@@ -20,10 +18,7 @@
     },
     {
       "line": "[Verse 1]",
-      "annotations": {
-        "1": "Annotation for 1]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "Skin",
@@ -75,10 +70,7 @@
     },
     {
       "line": "[Bridge 1]",
-      "annotations": {
-        "1": "Annotation for 1]",
-        "Bridge": "Annotation for [Bridge"
-      }
+      "annotations": {}
     },
     {
       "line": "Do i ever see myself so fawn",
@@ -94,10 +86,7 @@
     },
     {
       "line": "[Verse 2]",
-      "annotations": {
-        "2": "Annotation for 2]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "Willing, not deceiving",
@@ -121,10 +110,7 @@
     },
     {
       "line": "[Bridge 2]",
-      "annotations": {
-        "2": "Annotation for 2]",
-        "Bridge": "Annotation for [Bridge"
-      }
+      "annotations": {}
     },
     {
       "line": "How it ever feels when i’m on my own",
@@ -140,9 +126,7 @@
     },
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "I need you",
@@ -182,9 +166,7 @@
     },
     {
       "line": "[Outro]",
-      "annotations": {
-        "Outro": "Annotation for [Outro]"
-      }
+      "annotations": {}
     },
     {
       "line": "Obvious, i’m not covеtous",

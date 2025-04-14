@@ -2,9 +2,7 @@
   "lyrics": [
     {
       "line": "[Intro]",
-      "annotations": {
-        "Intro": "Annotation for [Intro]"
-      }
+      "annotations": {}
     },
     {
       "line": "Yup",
@@ -20,9 +18,7 @@
     },
     {
       "line": "[Intro]",
-      "annotations": {
-        "Intro": "Annotation for [Intro]"
-      }
+      "annotations": {}
     },
     {
       "line": "Ah!",
@@ -102,9 +98,7 @@
     },
     {
       "line": "[Outro]",
-      "annotations": {
-        "Outro": "Annotation for [Outro]"
-      }
+      "annotations": {}
     },
     {
       "line": "Frith, you start all over from the beginning",

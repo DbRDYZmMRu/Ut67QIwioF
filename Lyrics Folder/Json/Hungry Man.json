@@ -2,10 +2,7 @@
   "lyrics": [
     {
       "line": "[Verse 1]",
-      "annotations": {
-        "1": "Annotation for 1]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "Register, i’m taking my affairs seriously",
@@ -93,10 +90,7 @@
     },
     {
       "line": "[Verse 2]",
-      "annotations": {
-        "2": "Annotation for 2]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "Chapter, there a freak o lane",
@@ -148,9 +142,7 @@
     },
     {
       "line": "[Outro]",
-      "annotations": {
-        "Outro": "Annotation for [Outro]"
-      }
+      "annotations": {}
     },
     {
       "line": "Maybe a rothschild smile, hmm",

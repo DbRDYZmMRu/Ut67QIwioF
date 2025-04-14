@@ -2,9 +2,7 @@
   "lyrics": [
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "Way in too deep in this to let it go",
@@ -52,10 +50,7 @@
     },
     {
       "line": "[Verse 1]",
-      "annotations": {
-        "1": "Annotation for 1]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "Been got it",
@@ -147,9 +142,7 @@
     },
     {
       "line": "[Bridge]",
-      "annotations": {
-        "Bridge": "Annotation for [Bridge]"
-      }
+      "annotations": {}
     },
     {
       "line": "I’m alive and its all right",
@@ -181,9 +174,7 @@
     },
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "Way in too deep in this to let it go (oh oh)",
@@ -227,10 +218,7 @@
     },
     {
       "line": "[Verse 2]",
-      "annotations": {
-        "2": "Annotation for 2]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "Been got it",
@@ -314,9 +302,7 @@
     },
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "Way in too deep in this to let it go",

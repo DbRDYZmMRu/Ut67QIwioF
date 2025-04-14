@@ -2,10 +2,7 @@
   "lyrics": [
     {
       "line": "[Verse 1]",
-      "annotations": {
-        "1": "Annotation for 1]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "I have spent a lot of time in darkness",
@@ -109,10 +106,7 @@
     },
     {
       "line": "[Verse 2]",
-      "annotations": {
-        "2": "Annotation for 2]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "Tell me that it’s not the rest of it",
@@ -224,10 +218,7 @@
     },
     {
       "line": "[Verse 3]",
-      "annotations": {
-        "3": "Annotation for 3]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "Put myself in front of a raven and you know",
@@ -287,10 +278,7 @@
     },
     {
       "line": "[Background music]",
-      "annotations": {
-        "Background": "Annotation for [Background",
-        "music": "Annotation for music]"
-      }
+      "annotations": {}
     },
     {
       "line": "If i was letting you go",

@@ -2,9 +2,7 @@
   "lyrics": [
     {
       "line": "[Bridge]",
-      "annotations": {
-        "Bridge": "Annotation for [Bridge]"
-      }
+      "annotations": {}
     },
     {
       "line": "Just a minute",
@@ -40,9 +38,7 @@
     },
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "Just a minute turn a foe to a lover",
@@ -86,10 +82,7 @@
     },
     {
       "line": "[Verse 1]",
-      "annotations": {
-        "1": "Annotation for 1]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "How she likes it shangri la",
@@ -193,9 +186,7 @@
     },
     {
       "line": "[Bridge]",
-      "annotations": {
-        "Bridge": "Annotation for [Bridge]"
-      }
+      "annotations": {}
     },
     {
       "line": "Just a minute",
@@ -231,9 +222,7 @@
     },
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "Just a minute turn a foe to a lover",
@@ -277,10 +266,7 @@
     },
     {
       "line": "[Verse 2]",
-      "annotations": {
-        "2": "Annotation for 2]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "Amanda love your b ttons never fastened",
@@ -372,9 +358,7 @@
     },
     {
       "line": "[Bridge]",
-      "annotations": {
-        "Bridge": "Annotation for [Bridge]"
-      }
+      "annotations": {}
     },
     {
       "line": "Just a minute",
@@ -410,9 +394,7 @@
     },
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "Just a minute turn a foe to a lover",
@@ -456,9 +438,7 @@
     },
     {
       "line": "[Outro]",
-      "annotations": {
-        "Outro": "Annotation for [Outro]"
-      }
+      "annotations": {}
     },
     {
       "line": "Back at my",

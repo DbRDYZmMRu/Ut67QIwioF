@@ -2,10 +2,7 @@
   "lyrics": [
     {
       "line": "[Verse 1]",
-      "annotations": {
-        "1": "Annotation for 1]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "I never meant to hurt you",
@@ -117,10 +114,7 @@
     },
     {
       "line": "[Outro: tai lopez]",
-      "annotations": {
-        "Outro:": "Annotation for [Outro:",
-        "lopez": "Annotation for lopez]"
-      }
+      "annotations": {}
     },
     {
       "line": "Most common question i get about",

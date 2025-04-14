@@ -2,10 +2,7 @@
   "lyrics": [
     {
       "line": "[Verse 1]",
-      "annotations": {
-        "1": "Annotation for 1]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "And it goes",
@@ -69,10 +66,7 @@
     },
     {
       "line": "[Verse 2]",
-      "annotations": {
-        "2": "Annotation for 2]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "How you look so beautiful",
@@ -124,10 +118,7 @@
     },
     {
       "line": "[Verse 3]",
-      "annotations": {
-        "3": "Annotation for 3]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "Girl therapy",

@@ -2,9 +2,7 @@
   "lyrics": [
     {
       "line": "[Intro]",
-      "annotations": {
-        "Intro": "Annotation for [Intro]"
-      }
+      "annotations": {}
     },
     {
       "line": "Yeah!",
@@ -16,9 +14,7 @@
     },
     {
       "line": "[Refrain]",
-      "annotations": {
-        "Refrain": "Annotation for [Refrain]"
-      }
+      "annotations": {}
     },
     {
       "line": "Uh!",

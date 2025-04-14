@@ -2,9 +2,7 @@
   "lyrics": [
     {
       "line": "[Intro]",
-      "annotations": {
-        "Intro": "Annotation for [Intro]"
-      }
+      "annotations": {}
     },
     {
       "line": "As a switch",
@@ -32,9 +30,7 @@
     },
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "Menacing",
@@ -90,10 +86,7 @@
     },
     {
       "line": "[Verse 1]",
-      "annotations": {
-        "1": "Annotation for 1]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "I put upon, this upon, nigh beat",
@@ -133,9 +126,7 @@
     },
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "Menacing",

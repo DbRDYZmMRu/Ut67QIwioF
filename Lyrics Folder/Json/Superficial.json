@@ -2,9 +2,7 @@
   "lyrics": [
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "Waking up superficial",
@@ -28,10 +26,7 @@
     },
     {
       "line": "[Verse 1]",
-      "annotations": {
-        "1": "Annotation for 1]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "And my mind don’t pull at the wish right",
@@ -119,10 +114,7 @@
     },
     {
       "line": "[Verse 2]",
-      "annotations": {
-        "2": "Annotation for 2]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "He’s superficial, yes, it is official",
@@ -218,10 +210,7 @@
     },
     {
       "line": "[Chorus 2]",
-      "annotations": {
-        "2": "Annotation for 2]",
-        "Chorus": "Annotation for [Chorus"
-      }
+      "annotations": {}
     },
     {
       "line": "It’s official, yeah, i am superficial",
@@ -241,9 +230,7 @@
     },
     {
       "line": "[Outro]",
-      "annotations": {
-        "Outro": "Annotation for [Outro]"
-      }
+      "annotations": {}
     },
     {
       "line": "It’s official, i’m with your love girl",

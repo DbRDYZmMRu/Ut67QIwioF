@@ -2,9 +2,7 @@
   "lyrics": [
     {
       "line": "[Intro]",
-      "annotations": {
-        "Intro": "Annotation for [Intro]"
-      }
+      "annotations": {}
     },
     {
       "line": "Yeah",
@@ -16,9 +14,7 @@
     },
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "My alter ego is like hopping off to heathrow",
@@ -54,10 +50,7 @@
     },
     {
       "line": "[Verse 1]",
-      "annotations": {
-        "1": "Annotation for 1]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "My natural mama hates it",
@@ -113,9 +106,7 @@
     },
     {
       "line": "[Bridge]",
-      "annotations": {
-        "Bridge": "Annotation for [Bridge]"
-      }
+      "annotations": {}
     },
     {
       "line": "Are you subscribed",
@@ -131,10 +122,7 @@
     },
     {
       "line": "[Chorus ii]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus",
-        "ii": "Annotation for ii]"
-      }
+      "annotations": {}
     },
     {
       "line": "My alter ego is like hopping off to heathrow",
@@ -174,10 +162,7 @@
     },
     {
       "line": "[Verse 2]",
-      "annotations": {
-        "2": "Annotation for 2]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "My natural mama hates it",
@@ -205,9 +190,7 @@
     },
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "My alter ego is like hopping off to hеathrow",

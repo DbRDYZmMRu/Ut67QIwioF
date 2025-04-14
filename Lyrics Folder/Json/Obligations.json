@@ -2,9 +2,7 @@
   "lyrics": [
     {
       "line": "[Intro]",
-      "annotations": {
-        "Intro": "Annotation for [Intro]"
-      }
+      "annotations": {}
     },
     {
       "line": "Oh oh oh oh oh oh oh oh",
@@ -20,10 +18,7 @@
     },
     {
       "line": "[Verse 1]",
-      "annotations": {
-        "1": "Annotation for 1]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "My coffee is dark",
@@ -55,9 +50,7 @@
     },
     {
       "line": "[Bridge]",
-      "annotations": {
-        "Bridge": "Annotation for [Bridge]"
-      }
+      "annotations": {}
     },
     {
       "line": "This time, i just want to lay it out",
@@ -81,10 +74,7 @@
     },
     {
       "line": "[Verse 2]",
-      "annotations": {
-        "2": "Annotation for 2]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "I want to be like the rest of the boys",
@@ -116,10 +106,7 @@
     },
     {
       "line": "[Bridge 2]",
-      "annotations": {
-        "2": "Annotation for 2]",
-        "Bridge": "Annotation for [Bridge"
-      }
+      "annotations": {}
     },
     {
       "line": "Cheating on my heart is how you make it fair",
@@ -155,10 +142,7 @@
     },
     {
       "line": "[Verse 3]",
-      "annotations": {
-        "3": "Annotation for 3]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "So i am taking my time to get through with my feelings",
@@ -186,10 +170,7 @@
     },
     {
       "line": "[Verse 4]",
-      "annotations": {
-        "4": "Annotation for 4]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "I’ve not been fair",
@@ -213,10 +194,7 @@
     },
     {
       "line": "[Verse 5]",
-      "annotations": {
-        "5": "Annotation for 5]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "Feeling like for share all the time",
@@ -244,9 +222,7 @@
     },
     {
       "line": "[Outro]",
-      "annotations": {
-        "Outro": "Annotation for [Outro]"
-      }
+      "annotations": {}
     },
     {
       "line": "Ah! it’s feeling like a d mn contract",

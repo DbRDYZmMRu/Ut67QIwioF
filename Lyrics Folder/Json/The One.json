@@ -2,9 +2,7 @@
   "lyrics": [
     {
       "line": "[ verse 1 ]",
-      "annotations": {
-        "": "Annotation for ]"
-      }
+      "annotations": {}
     },
     {
       "line": "When we first met",
@@ -72,9 +70,7 @@
     },
     {
       "line": "[ chorus: breana marin ]",
-      "annotations": {
-        "": "Annotation for ]"
-      }
+      "annotations": {}
     },
     {
       "line": "I’ll be lying",
@@ -130,9 +126,7 @@
     },
     {
       "line": "[ verse 2 ]",
-      "annotations": {
-        "": "Annotation for ]"
-      }
+      "annotations": {}
     },
     {
       "line": "Are you still the one for me",
@@ -196,9 +190,7 @@
     },
     {
       "line": "[ chorus: breana marin ]",
-      "annotations": {
-        "": "Annotation for ]"
-      }
+      "annotations": {}
     },
     {
       "line": "I’ll be lying",

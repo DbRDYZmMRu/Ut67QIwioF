@@ -2,9 +2,7 @@
   "lyrics": [
     {
       "line": "[Intro]",
-      "annotations": {
-        "Intro": "Annotation for [Intro]"
-      }
+      "annotations": {}
     },
     {
       "line": "Yo!",
@@ -36,9 +34,7 @@
     },
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "Scribble with the gun",
@@ -90,10 +86,7 @@
     },
     {
       "line": "[Verse 1]",
-      "annotations": {
-        "1": "Annotation for 1]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "I took my time",
@@ -117,9 +110,7 @@
     },
     {
       "line": "[Hisses]",
-      "annotations": {
-        "Hisses": "Annotation for [Hisses]"
-      }
+      "annotations": {}
     },
     {
       "line": "Uh oh",
@@ -131,10 +122,7 @@
     },
     {
       "line": "[Chorus 2]",
-      "annotations": {
-        "2": "Annotation for 2]",
-        "Chorus": "Annotation for [Chorus"
-      }
+      "annotations": {}
     },
     {
       "line": "I’m scribbling with the gun",
@@ -178,10 +166,7 @@
     },
     {
       "line": "[Verse 2]",
-      "annotations": {
-        "2": "Annotation for 2]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "My love’s on a purse",
@@ -201,10 +186,7 @@
     },
     {
       "line": "[Chorus 3]",
-      "annotations": {
-        "3": "Annotation for 3]",
-        "Chorus": "Annotation for [Chorus"
-      }
+      "annotations": {}
     },
     {
       "line": "I’m scribbling with the gun",
@@ -244,10 +226,7 @@
     },
     {
       "line": "[Curious chuckle]",
-      "annotations": {
-        "Curious": "Annotation for [Curious",
-        "chuckle": "Annotation for chuckle]"
-      }
+      "annotations": {}
     },
     {
       "line": "",
@@ -255,10 +234,7 @@
     },
     {
       "line": "[Verse 3]",
-      "annotations": {
-        "3": "Annotation for 3]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "I just took another step from my cup",
@@ -306,9 +282,7 @@
     },
     {
       "line": "[Outro]",
-      "annotations": {
-        "Outro": "Annotation for [Outro]"
-      }
+      "annotations": {}
     },
     {
       "line": "Yeah!",
@@ -332,9 +306,7 @@
     },
     {
       "line": "[Laughs]",
-      "annotations": {
-        "Laughs": "Annotation for [Laughs]"
-      }
+      "annotations": {}
     }
   ]
 }

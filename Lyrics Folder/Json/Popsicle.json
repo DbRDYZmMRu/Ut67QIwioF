@@ -2,9 +2,7 @@
   "lyrics": [
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "Cubes in my coffee",
@@ -44,10 +42,7 @@
     },
     {
       "line": "[Verse 1]",
-      "annotations": {
-        "1": "Annotation for 1]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "She likes it when i’m silent",
@@ -83,9 +78,7 @@
     },
     {
       "line": "[Bridge]",
-      "annotations": {
-        "Bridge": "Annotation for [Bridge]"
-      }
+      "annotations": {}
     },
     {
       "line": "Tick tick",
@@ -125,10 +118,7 @@
     },
     {
       "line": "[Pre chorus]",
-      "annotations": {
-        "Pre": "Annotation for [Pre",
-        "chorus": "Annotation for chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "Oh oh",
@@ -164,9 +154,7 @@
     },
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "Cubes in my coffee",
@@ -214,10 +202,7 @@
     },
     {
       "line": "[Verse 2]",
-      "annotations": {
-        "2": "Annotation for 2]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "Her citrus hue got me seated on this ice",
@@ -245,9 +230,7 @@
     },
     {
       "line": "[Bridge]",
-      "annotations": {
-        "Bridge": "Annotation for [Bridge]"
-      }
+      "annotations": {}
     },
     {
       "line": "I keep on bleating",
@@ -283,10 +266,7 @@
     },
     {
       "line": "[Pre chorus]",
-      "annotations": {
-        "Pre": "Annotation for [Pre",
-        "chorus": "Annotation for chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "Oh oh",
@@ -322,9 +302,7 @@
     },
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "Cubes in my coffee",

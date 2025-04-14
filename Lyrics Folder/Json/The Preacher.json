@@ -2,9 +2,7 @@
   "lyrics": [
     {
       "line": "[Intro]",
-      "annotations": {
-        "Intro": "Annotation for [Intro]"
-      }
+      "annotations": {}
     },
     {
       "line": "Fresh boy chilling",
@@ -28,10 +26,7 @@
     },
     {
       "line": "[Verse 1]",
-      "annotations": {
-        "1": "Annotation for 1]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "Fly away",
@@ -83,9 +78,7 @@
     },
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "Weekends always feel the same",
@@ -141,10 +134,7 @@
     },
     {
       "line": "[Verse 2]",
-      "annotations": {
-        "2": "Annotation for 2]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "Loving on me",
@@ -196,10 +186,7 @@
     },
     {
       "line": "[Chorus ii]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus",
-        "ii": "Annotation for ii]"
-      }
+      "annotations": {}
     },
     {
       "line": "Weekends are the same",
@@ -263,9 +250,7 @@
     },
     {
       "line": "[Outro]",
-      "annotations": {
-        "Outro": "Annotation for [Outro]"
-      }
+      "annotations": {}
     },
     {
       "line": "(laughter)",

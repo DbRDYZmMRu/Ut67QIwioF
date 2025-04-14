@@ -2,9 +2,7 @@
   "lyrics": [
     {
       "line": "[Intro]",
-      "annotations": {
-        "Intro": "Annotation for [Intro]"
-      }
+      "annotations": {}
     },
     {
       "line": "Come on, cos i don’t talk about patek and designers don’t mean i never bought some girl some. you know, trip it in, all that sh t, it cost a lot.",
@@ -20,10 +18,7 @@
     },
     {
       "line": "[Verse 1]",
-      "annotations": {
-        "1": "Annotation for 1]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "Yeah, i wanted to fly away",
@@ -71,9 +66,7 @@
     },
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "So i’m staying in my own way",
@@ -133,10 +126,7 @@
     },
     {
       "line": "[Verse 2]",
-      "annotations": {
-        "2": "Annotation for 2]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "I feel at times that my attitude is not",
@@ -188,9 +178,7 @@
     },
     {
       "line": "[Outro]",
-      "annotations": {
-        "Outro": "Annotation for [Outro]"
-      }
+      "annotations": {}
     },
     {
       "line": "Hey, so if you’re talking, make sure you’re spending money on that, cos at the end of the day, no one’s listening like? who is listening? hey! who is listening right? i could be smoking weed and doing drugs on the beach from a girl like, sommer ray is not too far from here, she’ll probably be one of the first to listen to this track, and that’s a tender care, if you know what i mean, and if you are looking for a princess, yes, you’re not looking too far, because you are listening to a prince. so, in the end it’s all about life being a vacation",

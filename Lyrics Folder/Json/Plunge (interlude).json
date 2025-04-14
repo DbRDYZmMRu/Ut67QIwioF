@@ -2,9 +2,7 @@
   "lyrics": [
     {
       "line": "[ verse 1 ]",
-      "annotations": {
-        "": "Annotation for ]"
-      }
+      "annotations": {}
     },
     {
       "line": "I hope you had fun",

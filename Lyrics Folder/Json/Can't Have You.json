@@ -2,9 +2,7 @@
   "lyrics": [
     {
       "line": "[Intro]",
-      "annotations": {
-        "Intro": "Annotation for [Intro]"
-      }
+      "annotations": {}
     },
     {
       "line": "I don’t wanna be alone",
@@ -20,9 +18,7 @@
     },
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "I don’t wanna love you",
@@ -102,9 +98,7 @@
     },
     {
       "line": "[ verse 1 ]",
-      "annotations": {
-        "": "Annotation for ]"
-      }
+      "annotations": {}
     },
     {
       "line": "Waiting wishing you’ll give me a reason",
@@ -176,9 +170,7 @@
     },
     {
       "line": "[ bridge ]",
-      "annotations": {
-        "": "Annotation for ]"
-      }
+      "annotations": {}
     },
     {
       "line": "I know that i mess it up a lot",
@@ -218,9 +210,7 @@
     },
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "I don’t wanna love you",
@@ -292,10 +282,7 @@
     },
     {
       "line": "[Verse 2]",
-      "annotations": {
-        "2": "Annotation for 2]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "I can’t figure it out",

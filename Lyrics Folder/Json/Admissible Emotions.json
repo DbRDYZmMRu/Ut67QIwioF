@@ -2,10 +2,7 @@
   "lyrics": [
     {
       "line": "[Voice note]",
-      "annotations": {
-        "Voice": "Annotation for [Voice",
-        "note": "Annotation for note]"
-      }
+      "annotations": {}
     },
     {
       "line": "Basically this song is like … i don’t know, yesterday i was in a totally bad mood, and i was like ok! i am going to write a song to be called admissible emotions and i don’t know right now, i am just like just like how am i going to like sing this? like i can’t even like put my emotions behind it … i don’t know so let’s see how it goes",
@@ -17,10 +14,7 @@
     },
     {
       "line": "[Verse 1]",
-      "annotations": {
-        "1": "Annotation for 1]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "Sorry i’m offended now",
@@ -92,9 +86,7 @@
     },
     {
       "line": "[Bridge]",
-      "annotations": {
-        "Bridge": "Annotation for [Bridge]"
-      }
+      "annotations": {}
     },
     {
       "line": "Got me festering all along all along",
@@ -118,9 +110,7 @@
     },
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "Admissible emotions",
@@ -160,9 +150,7 @@
     },
     {
       "line": "[Outro]",
-      "annotations": {
-        "Outro": "Annotation for [Outro]"
-      }
+      "annotations": {}
     },
     {
       "line": "Still very certain with my pride",

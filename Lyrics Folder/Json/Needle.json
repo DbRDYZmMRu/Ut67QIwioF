@@ -2,9 +2,7 @@
   "lyrics": [
     {
       "line": "[Intro]",
-      "annotations": {
-        "Intro": "Annotation for [Intro]"
-      }
+      "annotations": {}
     },
     {
       "line": "My mood gets through the lam",
@@ -28,10 +26,7 @@
     },
     {
       "line": "[Verse 1]",
-      "annotations": {
-        "1": "Annotation for 1]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "My mood jet going through",
@@ -107,9 +102,7 @@
     },
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "My mood is so worse",
@@ -153,10 +146,7 @@
     },
     {
       "line": "[Verse 2]",
-      "annotations": {
-        "2": "Annotation for 2]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "Keep saying that sh t",
@@ -212,10 +202,7 @@
     },
     {
       "line": "[Chorus 2]",
-      "annotations": {
-        "2": "Annotation for 2]",
-        "Chorus": "Annotation for [Chorus"
-      }
+      "annotations": {}
     },
     {
       "line": "My mood groove going through",
@@ -255,10 +242,7 @@
     },
     {
       "line": "[Verse 3]",
-      "annotations": {
-        "3": "Annotation for 3]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "Yeah!",
@@ -362,10 +346,7 @@
     },
     {
       "line": "[Chorus 3]",
-      "annotations": {
-        "3": "Annotation for 3]",
-        "Chorus": "Annotation for [Chorus"
-      }
+      "annotations": {}
     },
     {
       "line": "My mood is so farce",

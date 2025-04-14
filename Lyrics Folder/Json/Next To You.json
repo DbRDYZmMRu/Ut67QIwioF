@@ -2,9 +2,7 @@
   "lyrics": [
     {
       "line": "[ chorus ]",
-      "annotations": {
-        "": "Annotation for ]"
-      }
+      "annotations": {}
     },
     {
       "line": "My thought",
@@ -64,9 +62,7 @@
     },
     {
       "line": "[ verse 1 ]",
-      "annotations": {
-        "": "Annotation for ]"
-      }
+      "annotations": {}
     },
     {
       "line": "Got me swinging this whole",
@@ -134,9 +130,7 @@
     },
     {
       "line": "[ bridge ]",
-      "annotations": {
-        "": "Annotation for ]"
-      }
+      "annotations": {}
     },
     {
       "line": "I can’t get it right",
@@ -176,9 +170,7 @@
     },
     {
       "line": "[ chorus ]",
-      "annotations": {
-        "": "Annotation for ]"
-      }
+      "annotations": {}
     },
     {
       "line": "My thought",

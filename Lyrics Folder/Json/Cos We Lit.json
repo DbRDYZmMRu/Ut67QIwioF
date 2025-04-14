@@ -2,10 +2,7 @@
   "lyrics": [
     {
       "line": "[Theophil: intro]",
-      "annotations": {
-        "Theophil:": "Annotation for [Theophil:",
-        "intro": "Annotation for intro]"
-      }
+      "annotations": {}
     },
     {
       "line": "Put some money on my name cos you know am lit",
@@ -17,10 +14,7 @@
     },
     {
       "line": "[Octane: intro]",
-      "annotations": {
-        "Octane:": "Annotation for [Octane:",
-        "intro": "Annotation for intro]"
-      }
+      "annotations": {}
     },
     {
       "line": "Some read that sh t n gga",
@@ -80,10 +74,7 @@
     },
     {
       "line": "[Theophil: chorus]",
-      "annotations": {
-        "Theophil:": "Annotation for [Theophil:",
-        "chorus": "Annotation for chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "Put some money on my name cos you know am lit",
@@ -119,10 +110,7 @@
     },
     {
       "line": "[Cousinz dave: bridge]",
-      "annotations": {
-        "Cousinz": "Annotation for [Cousinz",
-        "bridge": "Annotation for bridge]"
-      }
+      "annotations": {}
     },
     {
       "line": "F ck that n gga g",
@@ -162,10 +150,7 @@
     },
     {
       "line": "[Octane: verse 1]",
-      "annotations": {
-        "1": "Annotation for 1]",
-        "Octane:": "Annotation for [Octane:"
-      }
+      "annotations": {}
     },
     {
       "line": "The liquor lob",
@@ -313,9 +298,7 @@
     },
     {
       "line": "She held me down in the cabin [?]",
-      "annotations": {
-        "?": "Annotation for [?]"
-      }
+      "annotations": {}
     },
     {
       "line": "",
@@ -323,10 +306,7 @@
     },
     {
       "line": "[Cousinz dave: verse 2]",
-      "annotations": {
-        "2": "Annotation for 2]",
-        "Cousinz": "Annotation for [Cousinz"
-      }
+      "annotations": {}
     },
     {
       "line": "Yeah, huh, huh",

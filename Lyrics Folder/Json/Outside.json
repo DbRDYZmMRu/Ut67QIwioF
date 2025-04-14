@@ -2,9 +2,7 @@
   "lyrics": [
     {
       "line": "[Intro]",
-      "annotations": {
-        "Intro": "Annotation for [Intro]"
-      }
+      "annotations": {}
     },
     {
       "line": "Always bout the paper",
@@ -16,10 +14,7 @@
     },
     {
       "line": "[Verse 1]",
-      "annotations": {
-        "1": "Annotation for 1]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "Always by the corners",
@@ -107,9 +102,7 @@
     },
     {
       "line": "[?]",
-      "annotations": {
-        "?": "Annotation for [?]"
-      }
+      "annotations": {}
     },
     {
       "line": "The way you running to me",

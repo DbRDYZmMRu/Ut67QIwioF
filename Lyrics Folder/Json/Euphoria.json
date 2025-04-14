@@ -2,9 +2,7 @@
   "lyrics": [
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "If i could turn the hands",
@@ -60,9 +58,7 @@
     },
     {
       "line": "[Verse1]",
-      "annotations": {
-        "Verse1": "Annotation for [Verse1]"
-      }
+      "annotations": {}
     },
     {
       "line": "You were the type of girl to always get her panties off",
@@ -218,10 +214,7 @@
     },
     {
       "line": "[Voice note clip]",
-      "annotations": {
-        "Voice": "Annotation for [Voice",
-        "clip": "Annotation for clip]"
-      }
+      "annotations": {}
     },
     {
       "line": "Whoa whoa whoa whoa whoa",
@@ -381,9 +374,7 @@
     },
     {
       "line": "[?]",
-      "annotations": {
-        "?": "Annotation for [?]"
-      }
+      "annotations": {}
     }
   ]
 }

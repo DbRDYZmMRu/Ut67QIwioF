@@ -2,10 +2,7 @@
   "lyrics": [
     {
       "line": "[Bridge 1]",
-      "annotations": {
-        "1": "Annotation for 1]",
-        "Bridge": "Annotation for [Bridge"
-      }
+      "annotations": {}
     },
     {
       "line": "So, when it comes to gold",
@@ -33,10 +30,7 @@
     },
     {
       "line": "[Bridge 2]",
-      "annotations": {
-        "2": "Annotation for 2]",
-        "Bridge": "Annotation for [Bridge"
-      }
+      "annotations": {}
     },
     {
       "line": "We should figure it out",
@@ -116,9 +110,7 @@
     },
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "She thinks my love fit the wrong air",
@@ -178,10 +170,7 @@
     },
     {
       "line": "[Verse 1]",
-      "annotations": {
-        "1": "Annotation for 1]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "Waiting for",
@@ -229,10 +218,7 @@
     },
     {
       "line": "[Bridge 1]",
-      "annotations": {
-        "1": "Annotation for 1]",
-        "Bridge": "Annotation for [Bridge"
-      }
+      "annotations": {}
     },
     {
       "line": "So, when it comes to gold",
@@ -260,10 +246,7 @@
     },
     {
       "line": "[Bridge 2]",
-      "annotations": {
-        "2": "Annotation for 2]",
-        "Bridge": "Annotation for [Bridge"
-      }
+      "annotations": {}
     },
     {
       "line": "We should figure it out",
@@ -343,9 +326,7 @@
     },
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "She thinks my love fit the wrong air",

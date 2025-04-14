@@ -2,9 +2,7 @@
   "lyrics": [
     {
       "line": "[Into]",
-      "annotations": {
-        "Into": "Annotation for [Into]"
-      }
+      "annotations": {}
     },
     {
       "line": "We’d been whiling, whiling out",
@@ -48,9 +46,7 @@
     },
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "Say this say that",
@@ -82,10 +78,7 @@
     },
     {
       "line": "[Verse 1]",
-      "annotations": {
-        "1": "Annotation for 1]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "Spiralling, it’s poor riddance",
@@ -185,9 +178,7 @@
     },
     {
       "line": "[Bridge]",
-      "annotations": {
-        "Bridge": "Annotation for [Bridge]"
-      }
+      "annotations": {}
     },
     {
       "line": "We’d been whiling, whiling out",
@@ -231,9 +222,7 @@
     },
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "Say this say that",

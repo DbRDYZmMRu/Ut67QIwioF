@@ -2,9 +2,7 @@
   "lyrics": [
     {
       "line": "[Chorus]",
-      "annotations": {
-        "Chorus": "Annotation for [Chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "Beat me down",
@@ -72,10 +70,7 @@
     },
     {
       "line": "[Verse 1]",
-      "annotations": {
-        "1": "Annotation for 1]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "I can’t take it",
@@ -175,10 +170,7 @@
     },
     {
       "line": "[2nd chorus]",
-      "annotations": {
-        "2nd": "Annotation for [2nd",
-        "chorus": "Annotation for chorus]"
-      }
+      "annotations": {}
     },
     {
       "line": "Beat me down",
@@ -246,10 +238,7 @@
     },
     {
       "line": "[Verse 2]",
-      "annotations": {
-        "2": "Annotation for 2]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "Beat me down",

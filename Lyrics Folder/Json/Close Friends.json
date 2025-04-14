@@ -2,9 +2,7 @@
   "lyrics": [
     {
       "line": "[Intro]",
-      "annotations": {
-        "Intro": "Annotation for [Intro]"
-      }
+      "annotations": {}
     },
     {
       "line": "Ugh!",
@@ -24,10 +22,7 @@
     },
     {
       "line": "[Verse 1]",
-      "annotations": {
-        "1": "Annotation for 1]",
-        "Verse": "Annotation for [Verse"
-      }
+      "annotations": {}
     },
     {
       "line": "Had to get away from me",
@@ -203,9 +198,7 @@
     },
     {
       "line": "[Laughs]",
-      "annotations": {
-        "Laughs": "Annotation for [Laughs]"
-      }
+      "annotations": {}
     },
     {
       "line": "Call me young rasta",
@@ -285,9 +278,7 @@
     },
     {
       "line": "[Laughs]",
-      "annotations": {
-        "Laughs": "Annotation for [Laughs]"
-      }
+      "annotations": {}
     },
     {
       "line": "Don’t listen to this",
