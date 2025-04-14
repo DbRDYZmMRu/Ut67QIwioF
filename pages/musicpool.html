@@ -8,14 +8,14 @@
   <meta name="author" content="Infinitysoftway" />
   <meta name="description" content="statistic charts" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  
   <!--===== Title =====-->
   <title>Musicpool | Frith Hilton</title>
-
-
+  
+  
   <!--===== Favicon =====-->
   <link rel="shortcut icon" href="../images/favicon.png" />
-
+  
   <!--===== Google fonts =====-->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Jost:wght@300;400;500;600;700;800;900&display=swap" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,7 +23,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet" />
   <!-- font-awesome-icons -->
   <script src="https://kit.fontawesome.com/c7fbb1b458.js" crossorigin="anonymous"></script>
-
+  
   <!--===== Global bootstrap required css =====-->
   <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css" />
   <!--===== Global styles including: Font Icons, Plugins, etc =====-->
@@ -37,7 +37,6 @@
   <link rel="stylesheet" href="../css/magnific-popup/magnific-popup.css" />
   <!--===== Main theme css =====-->
   <link rel="stylesheet" href="../css/style.css" />
-  <link rel="stylesheet" href="..../css/album.css">
   <style>
     [v-cloak] {
       display: none;
@@ -45,136 +44,155 @@
   </style>
   <style>
     * {
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  outline: none;
-  -webkit-transition: 0.3s linear;
-  -o-transition: 0.3s linear;
-  transition: 0.3s linear;
-}
-
-a {
-  cursor: pointer;
-}
-
-a:hover,
-a:active {
-  opacity: 0.7;
-}
-
-img {
-  width: 100%;
-}
-
-button {
-  text-transform: uppercase;
-  border-radius: 20px;
-  border: 1px solid yellow;
-  background-color: transparent;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  padding: 10px 25px;
-  color: white;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  cursor: pointer;
-}
-
-.gradient-item {
-  position: relative;
-}
-
-.gradient-wrap {
-  width: 100%;
-  height: 50vh;
-  min-height: 400px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.gradient-wrap img {
-  width: 28vh;
-  max-width: 50%;
-  min-width: 220px;
-}
-
-.share {
-  display: block;
-  position: absolute;
-  right: 40px;
-  top: 40px;
-  width: 30px;
-}
-
-.save {
-  position: absolute;
-  left: 40px;
-  top: 40px;
-}
-
-.sd {
-  background: black;
-}
-
+      padding: 0;
+      margin: 0;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      outline: none;
+      -webkit-transition: 0.3s linear;
+      -o-transition: 0.3s linear;
+      transition: 0.3s linear;
+    }
+    
+    a {
+      cursor: pointer;
+    }
+    
+    a:hover,
+    a:active {
+      opacity: 0.7;
+    }
+    
+    img {
+      width: 100%;
+    }
+    
+    button {
+      text-transform: uppercase;
+      border-radius: 20px;
+      border: 1px solid yellow;
+      background-color: transparent;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      padding: 10px 25px;
+      color: white;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      cursor: pointer;
+    }
+    
+    .gradient-item {
+      position: relative;
+    }
+    
+    .gradient-wrap {
+      width: 100%;
+      height: 50vh;
+      min-height: 400px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+    }
+    
+    .gradient-wrap img {
+      width: 28vh;
+      max-width: 50%;
+      min-width: 220px;
+    }
+    
+    .share {
+      display: block;
+      position: absolute;
+      right: 40px;
+      top: 40px;
+      width: 30px;
+    }
+    
+    .save {
+      position: absolute;
+      left: 40px;
+      top: 40px;
+    }
+    
+    .sd {
+      background: black;
+    }
   </style>
   
   <style>
-   .latestRelease {
-  background: rgb(20,20,20);
-  text-align: center;
-  height: 100%;
-  overflow: hidden;
-}
-.svg-wrapper {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-    margin: 0 auto;
-  width: 320px;  
-}
-.shape {
-  stroke-dasharray: 140 540;
-  stroke-dashoffset: -474;
-  stroke-width: 8px;
-  fill: transparent;
-  stroke: #19f6e8;
-  border-bottom: 5px solid black;
-  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
-}
-.text {
-  font-family: 'Architects Daughter', cursive; 
-  font-size: 22px;
-  line-height: 32px;
-  letter-spacing: 8px;
-  color: #fff;
-  top: -48px;
-  position: relative;
-}
-.svg-wrapper:hover .shape {
-  stroke-width: 2px;
-  stroke-dashoffset: 0;
-  stroke-dasharray: 760;
-} 
+    .latestRelease {
+      background: rgb(20, 20, 20);
+      text-align: center;
+      height: 100%;
+      overflow: hidden;
+      margin-bottom: 35px;
+    }
+    
+    .svg-wrapper {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      margin: 0 auto;
+      width: 320px;
+    }
+    
+    .shape {
+      stroke-dasharray: 140 540;
+      stroke-dashoffset: -474;
+      stroke-width: 8px;
+      fill: transparent;
+      stroke: #19f6e8;
+      border-bottom: 5px solid black;
+      transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+    }
+    
+    .text {
+      font-family: 'Architects Daughter', cursive;
+      font-size: 22px;
+      line-height: 32px;
+      letter-spacing: 8px;
+      color: #fff;
+      top: -48px;
+      position: relative;
+    }
+    
+    .svg-wrapper:hover .shape {
+      stroke-width: 2px;
+      stroke-dashoffset: 0;
+      stroke-dasharray: 760;
+    }
+    
+    /* Style for track listing */
+    ul.list-unstyled {
+      margin: 0;
+      padding: 0;
+      line-height: 2.0;
+      font-size: 1.25em;
+    }
+    
+    ul.list-unstyled li {
+      margin-bottom: 15px;
+      color: #fff;
+      /* Keeps text white */
+    }
   </style>
   
   
 </head>
-<body class="stokes-wrapper" id="ctrlArea">
 
+<body class="stokes-wrapper" id="ctrlArea">
+  
   <!--========== 
         Start of loader ==========-->
-
+  
   <div class="template-loader">
     <div class="loaderCenter">
       <div class="book">
@@ -187,11 +205,11 @@ button {
       </div>
     </div>
   </div>
-
+  
   <!--========== 
         End of loader ==========-->
-
-
+  
+  
   <!--========== 
     Start of  cookie modal notification section ==========-->
   <div class="modal-subscribe">
@@ -203,7 +221,7 @@ button {
             <div class="p-5 text-center">
               <img class="img-fluid px-5" src="../images/svg/cookie.svg" alt="">
               <h3>Cookies</h3>
-              <p class="text-dark">Managed by <b>F</b>rith<b> N</b>ightswan<b> E</b>nterprises</p> 
+              <p class="text-dark">Managed by <b>F</b>rith<b> N</b>ightswan<b> E</b>nterprises</p>
               <a href="cookies.html" class="text-primary-gradient
                     fw-bold">Our policy</a>
               <div class="d-grid mt-5">
@@ -227,10 +245,10 @@ button {
           End of cookie modal notification section ==========-->
   <!--==========-->
   <!--==========-->
-
+  
   <!--========== 
         Start of Header Section ==========-->
-
+  
   <header class="header">
     <!--===== Start of navbar =====-->
     <nav class="navbar navbar-light navbar-expand-lg navbar-default">
@@ -238,13 +256,13 @@ button {
         <!--===== Start of logo =====-->
         <a class="navbar-brand" href="../index.html"><img class="logo" src="../images/logo.png" alt="Frith Hilton Logo" /></a>
         <!--===== End of logo =====-->
-
+        
         <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="icon-bar top-bar mt-0"></span>
           <span class="icon-bar middle-bar"></span>
           <span class="icon-bar bottom-bar"></span>
         </button>
-
+        
         <!--===== Start of nav =====-->
         <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
           <ul class="navbar-nav">
@@ -255,7 +273,7 @@ button {
               <a @click="store.goToPublished" class="nav-link dropdown-toggle" href="#" id="navbar-pages" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="text-line"> Publications</span>
               </a>
-
+              
               <!--<ul class="dropdown-menu" aria-labelledby="navbar-pages">
                 <div class="mb-3 mt-3">
                   <a href="#">
@@ -388,8 +406,8 @@ button {
               
               </ul>-->
             </li>
-
-
+            
+            
             <li class="nav-item">
               <a class="nav-link" href="upcoming.html"><span class="text-line"> Upcoming Poetry</span></a>
             </li>
@@ -397,7 +415,7 @@ button {
               <a class="nav-link" href="musicpool.html"><span class="text-line"> Musicpool </span></a>
             <li class="nav-item">
               <a class="nav-link" href="pages/bio.html"><span class="text-line"> Bio </span></a>
-            </li>            
+            </li>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../cookies.html"><span class="text-line"> Cookies Policy </span></a>
@@ -411,274 +429,732 @@ button {
     </nav>
     <!--===== End of navbar =====-->
   </header>
-            <div class="mb-5">
-          <a target="_blank" href="https://www.samsung.com/us/smartphones/galaxy-z-flip6/">
-            <img class="img-fluid" src="../images/ads/designedBySamsungS8.png" alt="">
-          </a>
-          </div>
-
-<div class="latestRelease">
-<div class="svg-wrapper" @click.prevent="store.loadNewRelease">
-  <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
-    <rect class="shape" height="60" width="320" />
-    <div class="text">LATEST RELEASE</div>
-  </svg>
-</div>
-  
-</div>  
-
-  
-<div id="15" @click="store.navigateToAlbum15" class='gradient-item'>
-  <div class="gradient-wrap">
-    <img src="../images/albums/ValenceEve.jpg" alt="" crossorigin="anonymous" />
+  <div class="mb-5">
+    <a target="_blank" href="https://www.samsung.com/us/smartphones/galaxy-z-flip6/">
+      <img class="img-fluid" src="../images/ads/designedBySamsungS8.png" alt="">
+    </a>
   </div>
-</div>
-  <section class="py-4 bg-black" @click="store.navigateToAlbum15">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 text-center">
-          <h3 class="text-white">
-        valence eve
-          </h3>
-        </div>
-      </div>
+  
+  
+  <div class="latestRelease">
+    <div class="svg-wrapper" @click.prevent="store.loadNewRelease">
+      <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+        <rect class="shape" height="60" width="320" />
+        <div class="text">LATEST RELEASE</div>
+      </svg>
     </div>
-  </section>
-
-
-
-
-<div id="14" @click="store.navigateToAlbum14" class='gradient-item'>
-  <div class="gradient-wrap">
-    <img src="../images/albums/farthermemes.png" alt="" crossorigin="anonymous" />
   </div>
-</div>
-  <section class="py-4 bg-black" @click="store.navigateToAlbum14">
+  
+  <div class="gradient-item" @click="store.showAlbumTracks(15)">
+    <div class="gradient-wrap">
+      <img src="../images/albums/ValenceEve.jpg" alt="Valence Eve" crossorigin="anonymous" />
+    </div>
+  </div>
+  <section class="py-4 bg-black">
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center" @click="store.showAlbumTracks(15)">
         <div class="col-12 text-center">
-          <h3 class="text-white">
-        farther memes
-          </h3>
+          <h3 class="text-white">Valence Eve</h3>
+        </div>
+      </div>
+      <!-- Album listing -->
+      <div id="15" class="row justify-content-center mt-3" style="display: none;">
+        <div class="col-12 text-center">
+          <ul class="text-white list-unstyled">
+            <li>1. I try</li>
+            <li>2. Kill time</li>
+            <li>3. Alarms</li>
+            <li>4. Smile on me</li>
+            <li>5. Queen's daughter</li>
+            <li>6. The game we play</li>
+            <li>7. Yahoo</li>
+            <li>8. Beautiful Taylor</li>
+            <li>9. Farce emotions</li>
+            <li>10. To you</li>
+            <li>11. Honest</li>
+            <li>12. Recruits</li>
+            <li>13. Butcher feel</li>
+            <li>14. Porn star</li>
+            <li>15. Taking you home</li>
+            <li>16. Kai Trump</li>
+            <li>17. Dime piece</li>
+            <li>18. Fisherman</li>
+            <li>19. Bedtime</li>
+            <li>20. Madness</li>
+            <li>21. Clubing sad</li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
-
-<div id="13" class='gradient-item' @click="store.navigateToAlbum13">
-  <div class="gradient-wrap">
-    <img src="../images/albums/theSessions.jpg"   alt="" crossorigin="anonymous" /></div>
-</div>
-  <section class="py-4 bg-black" @click="store.navigateToAlbum13">
+  
+  
+  <div class="gradient-item" @click="store.showAlbumTracks(14)">
+    <div class="gradient-wrap">
+      <img src="../images/albums/farthermemes.png" alt="Farther Memes" crossorigin="anonymous" />
+    </div>
+  </div>
+  <section class="py-4 bg-black">
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center" @click="store.showAlbumTracks(14)">
         <div class="col-12 text-center">
-          <h3 class="text-white">
-        the Sessions...
-          </h3>
+          <h3 class="text-white">Farther Memes</h3>
+        </div>
+      </div>
+      <!-- Album listing -->
+      <div id="14" class="row justify-content-center mt-3" style="display: none;">
+        <div class="col-12 text-center">
+          <ul class="text-white list-unstyled">
+            <li>1. Oliver Sacks</li>
+            <li>2. Oliver Sacks II</li>
+            <li>3. Palacio de la Zarzuela</li>
+            <li>4. The preacher</li>
+            <li>5. Rick reflection</li>
+            <li>6. End of summer</li>
+            <li>7. Sex is everything</li>
+            <li>8. Fool for you</li>
+            <li>9. Hathaway</li>
+            <li>10. Crush</li>
+            <li>11. Jealousy</li>
+            <li>12. Obligations</li>
+            <li>13. Rust</li>
+            <li>14. Best cardigan</li>
+            <li>15. Unwilling</li>
+            <li>16. Applish</li>
+            <li>17. Home alone</li>
+            <li>18. Aureole sigh</li>
+            <li>19. First lines</li>
+            <li>20. Spaghetti code</li>
+            <li>21. Fire</li>
+            <li>22. Fish</li>
+            <li>23. Greener</li>
+            <li>24. Lens</li>
+            <li>25. Keyhole</li>
+            <li>26. Bright-eyed</li>
+            <li>27. Cut in fame</li>
+            <li>28. Feel good</li>
+            <li>29. Adios</li>
+            <li>30. Woah</li>
+            <li>31. Locked in</li>
+            <li>32. Heartbeat</li>
+            <li>33. Barefoot</li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
-
-<div id="12" class='gradient-item' @click="store.navigateToAlbum12()">
-  <div class="gradient-wrap">
-<img src="../images/albums/itspop.png" alt="" crossorigin="anonymous" /> </div>
-</div>
-  <section class="py-4 bg-black" @click="store.navigateToAlbum12">
+  
+  
+  
+  <!-- Album 13 -->
+  <div class="gradient-item" @click="store.showAlbumTracks(13)">
+    <div class="gradient-wrap">
+      <img src="../images/albums/theSessions.jpg" alt="" crossorigin="anonymous" />
+    </div>
+  </div>
+  <section class="py-4 bg-black">
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center" @click="store.showAlbumTracks(13)">
         <div class="col-12 text-center">
-          <h3 class="text-white">
-        it's pop
-          </h3>
+          <h3 class="text-white">the Sessions...</h3>
+        </div>
+      </div>
+      <!-- Album listing -->
+      <div id="13" class="row justify-content-center mt-3" style="display: none;">
+        <div class="col-12 text-center">
+          <ul class="text-white list-unstyled">
+            <li>1. Savour</li>
+            <li>2. Dizzy morning</li>
+            <li>3. Dirty laundry</li>
+            <li>4. Canticle</li>
+            <li>5. SZA</li>
+            <li>6. Undecided</li>
+            <li>7. Different</li>
+            <li>8. Session 8</li>
+            <li>9. I'll be there</li>
+            <li>10. Back to the store</li>
+            <li>11. Sorry I'm alive</li>
+            <li>12. Long way home</li>
+            <li>13. Field of faeries</li>
+            <li>14. Magical</li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
-
-<div id="11" class='gradient-item' @click="store.navigateToAlbum11">
-  <div class="gradient-wrap">
-<img src="../images/albums/Troubadour.png" alt="" crossorigin="anonymous" /> </div>
-</div>
-  <section class="py-4 bg-black" @click="store.navigateToAlbum11">
+  
+  <!-- Album 12 -->
+  <div class="gradient-item" @click="store.showAlbumTracks(12)">
+    <div class="gradient-wrap">
+      <img src="../images/albums/itspop.png" alt="" crossorigin="anonymous" />
+    </div>
+  </div>
+  <section class="py-4 bg-black">
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center" @click="store.showAlbumTracks(12)">
         <div class="col-12 text-center">
-          <h3 class="text-white">
-        troubadour 
-          </h3>
+          <h3 class="text-white">it's pop</h3>
+        </div>
+      </div>
+      <!-- Album listing -->
+      <div id="12" class="row justify-content-center mt-3" style="display: none;">
+        <div class="col-12 text-center">
+          <ul class="text-white list-unstyled">
+            <li>1. Low life dirty rat</li>
+            <li>2. A seal</li>
+            <li>3. Summit</li>
+            <li>4. New hemp plant</li>
+            <li>5. Melly</li>
+            <li>6. Stuck in life</li>
+            <li>7. Heart census</li>
+            <li>8. Kevin Hart</li>
+            <li>9. Head</li>
+            <li>10. Imagination</li>
+            <li>11. Lonely note</li>
+            <li>12. Hubble</li>
+            <li>13. Take me out</li>
+            <li>14. Reward Money</li>
+            <li>15. Big fat lie</li>
+            <li>16. The calm</li>
+            <li>17. I don't know</li>
+            <li>18. I get the ghetto</li>
+            <li>19. Sliving</li>
+            <li>20. Bagging this home</li>
+            <li>21. Bag grips</li>
+            <li>22. Outro</li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
-
-<div id="10" class='gradient-item' @click="store.navigateToAlbum10">
-  <div class="gradient-wrap">
-<img src="../images/albums/Nightswan.jpg" alt="" crossorigin="anonymous" /> </div>
-</div>
-  <section class="py-4 bg-black" @click="store.navigateToAlbum10">
+  
+  <!-- Album 11 -->
+  <div class="gradient-item" @click="store.showAlbumTracks(11)">
+    <div class="gradient-wrap">
+      <img src="../images/albums/Troubadour.png" alt="" crossorigin="anonymous" />
+    </div>
+  </div>
+  <section class="py-4 bg-black">
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center" @click="store.showAlbumTracks(11)">
         <div class="col-12 text-center">
-          <h3 class="text-white">
-        Nightswan 
-          </h3>
+          <h3 class="text-white">troubadour</h3>
+        </div>
+      </div>
+      <!-- Album listing -->
+      <div id="11" class="row justify-content-center mt-3" style="display: none;">
+        <div class="col-12 text-center">
+          <ul class="text-white list-unstyled">
+            <li>1. Eviction</li>
+            <li>2. Waste away</li>
+            <li>3. West to west</li>
+            <li>4. I'll never</li>
+            <li>5. Cave</li>
+            <li>6. Just let me go</li>
+            <li>7. Cheetah</li>
+            <li>8. Find me</li>
+            <li>9. Baby girl</li>
+            <li>10. My Hope</li>
+            <li>11. Someone asked</li>
+            <li>12. Let it go</li>
+            <li>13. Testa</li>
+            <li>14. Respiring</li>
+            <li>15. Pretty girl</li>
+            <li>16. Vacation</li>
+            <li>17. Heathrow</li>
+            <li>18. Benny</li>
+            <li>19. Beginning</li>
+            <li>20. Bedroom</li>
+            <li>21. Goodness</li>
+            <li>22. Sure we lit</li>
+            <li>23. Old door</li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
-
-<div id="9" class='gradient-item' @click="store.navigateToAlbum9">
-  <div class="gradient-wrap">
-<img src="../images/albums/theLovertap3.jpg"  alt="" crossorigin="anonymous" /> </div>
-</div>
-  <section class="py-4 bg-black" @click="store.navigateToAlbum9">
+  
+  <!-- Album 10 -->
+  <div class="gradient-item" @click="store.showAlbumTracks(10)">
+    <div class="gradient-wrap">
+      <img src="../images/albums/Nightswan.jpg" alt="" crossorigin="anonymous" />
+    </div>
+  </div>
+  <section class="py-4 bg-black">
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center" @click="store.showAlbumTracks(10)">
         <div class="col-12 text-center">
-          <h3 class="text-white">
-        the Lover tap3
-          </h3>
+          <h3 class="text-white">Nightswan</h3>
+        </div>
+      </div>
+      <!-- Album listing -->
+      <div id="10" class="row justify-content-center mt-3" style="display: none;">
+        <div class="col-12 text-center">
+          <ul class="text-white list-unstyled">
+            <li>1. Curandera</li>
+            <li>2. Marilyn</li>
+            <li>3. Being friends</li>
+            <li>4. Darbies</li>
+            <li>5. Amor fati</li>
+            <li>6. Pale</li>
+            <li>7. Nominal now</li>
+            <li>8. Best stan</li>
+            <li>9. Different man</li>
+            <li>10. Fresh</li>
+            <li>11. Bad descriptions</li>
+            <li>12. Backstage Friday</li>
+            <li>13. Amusing</li>
+            <li>14. Party ho</li>
+            <li>15. Love god</li>
+            <li>16. Hungry ladies</li>
+            <li>17. Dreadnought</li>
+            <li>18. Get it out</li>
+            <li>19. Liar</li>
+            <li>20. Skin</li>
+            <li>21. Line</li>
+            <li>22. Boss woman</li>
+            <li>23. Solid ground</li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
-
-<div id="8" class='gradient-item' @click="store.navigateToAlbum8">
-  <div class="gradient-wrap">
-<img src="../images/albums/lantern.jpg" alt="" crossorigin="anonymous" /> </div>
-</div>
-  <section class="py-4 bg-black" @click="store.navigateToAlbum8">
+  
+  
+  <!-- Album 9 -->
+  <div class="gradient-item" @click="store.showAlbumTracks(9)">
+    <div class="gradient-wrap">
+      <img src="../images/albums/theLovertap3.jpg" alt="" crossorigin="anonymous" />
+    </div>
+  </div>
+  <section class="py-4 bg-black">
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center" @click="store.showAlbumTracks(9)">
         <div class="col-12 text-center">
-          <h3 class="text-white">
-        lantern
-          </h3>
+          <h3 class="text-white">the Lover tap3</h3>
+        </div>
+      </div>
+      <!-- Album listing -->
+      <div id="9" class="row justify-content-center mt-3" style="display: none;">
+        <div class="col-12 text-center">
+          <ul class="text-white list-unstyled">
+            <li>1. Fair this time</li>
+            <li>2. Envy</li>
+            <li>3. Hump</li>
+            <li>4. Show me a girl</li>
+            <li>5. Disclose</li>
+            <li>6. On one</li>
+            <li>7. Boink</li>
+            <li>8. Seventeen</li>
+            <li>9. All girls aren't the same</li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
-
-<div id="7" class='gradient-item' @click="store.navigateToAlbum7">
-  <div class="gradient-wrap">
-<img src="../images/albums/theo.jpg" alt="" crossorigin="anonymous" /> </div>
-</div>
-  <section class="py-4 bg-black" @click="store.navigateToAlbum7">
+  
+  <!-- Album 8 -->
+  <div class="gradient-item" @click="store.showAlbumTracks(8)">
+    <div class="gradient-wrap">
+      <img src="../images/albums/lantern.jpg" alt="" crossorigin="anonymous" />
+    </div>
+  </div>
+  <section class="py-4 bg-black">
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center" @click="store.showAlbumTracks(8)">
         <div class="col-12 text-center">
-          <h3 class="text-white">
-        Theo
-          </h3>
+          <h3 class="text-white">lantern</h3>
+        </div>
+      </div>
+      <!-- Album listing -->
+      <div id="8" class="row justify-content-center mt-3" style="display: none;">
+        <div class="col-12 text-center">
+          <ul class="text-white list-unstyled">
+            <li>1. Do I ever do?</li>
+            <li>2. Number busy</li>
+            <li>3. Emma I feel</li>
+            <li>4. Raunch child</li>
+            <li>5. Jekyll</li>
+            <li>6. God of clean</li>
+            <li>7. Hungry man</li>
+            <li>8. Lantern</li>
+            <li>9. 3:30</li>
+            <li>10. Be my lover</li>
+            <li>11. Purple zone</li>
+            <li>12. Shire</li>
+            <li>13. Pussy power</li>
+            <li>14. Scent</li>
+            <li>15. Yeehaw</li>
+            <li>16. Mind talk</li>
+            <li>17. Cautious</li>
+            <li>18. Sarah</li>
+            <li>19. Call for more</li>
+            <li>20. Higher calling</li>
+            <li>21. Say it</li>
+            <li>22. Avalon</li>
+            <li>23. How I lose it</li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
-
-<div id="6" class='gradient-item' @click="store.navigateToAlbum6">
-  <div class="gradient-wrap">
-<img src="../images/albums/jacaranda.jpg" alt="" crossorigin="anonymous" /> </div>
-</div>
-  <section class="py-4 bg-black" @click="store.navigateToAlbum6">
+  
+  <!-- Album 7 -->
+  <div class="gradient-item" @click="store.showAlbumTracks(7)">
+    <div class="gradient-wrap">
+      <img src="../images/albums/theo.jpg" alt="" crossorigin="anonymous" />
+    </div>
+  </div>
+  <section class="py-4 bg-black">
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center" @click="store.showAlbumTracks(7)">
         <div class="col-12 text-center">
-          <h3 class="text-white">
-        Jacaranda
-          </h3>
+          <h3 class="text-white">Theo</h3>
+        </div>
+      </div>
+      <!-- Album listing -->
+      <div id="7" class="row justify-content-center mt-3" style="display: none;">
+        <div class="col-12 text-center">
+          <ul class="text-white list-unstyled">
+            <li>1. Easy son</li>
+            <li>2. Ex, your relay</li>
+            <li>3. Easy, hard</li>
+            <li>4. Apogee</li>
+            <li>5. Caret</li>
+            <li>6. Moment</li>
+            <li>7. Trauma</li>
+            <li>8. Yodel in a vial</li>
+            <li>9. Tate jersey love</li>
+            <li>10. Favourite</li>
+            <li>11. Rose</li>
+            <li>12. Swan</li>
+            <li>13. Demola (Zenosyne)</li>
+            <li>14. Heavy keys</li>
+            <li>15. Crash</li>
+            <li>16. Oh din!</li>
+            <li>17. Soured love</li>
+            <li>18. The one</li>
+            <li>19. Post soul</li>
+            <li>20. Our fall</li>
+            <li>21. Send me to sleep</li>
+            <li>22. Purpose</li>
+            <li>23. Waste the time</li>
+            <li>24. Mound gold</li>
+            <li>25. Jail</li>
+            <li>26. Stuck</li>
+            <li>27. Doobry</li>
+            <li>28. Cull sigh</li>
+            <li>29. I'm on air</li>
+            <li>30. Bread</li>
+            <li>31. I pray</li>
+            <li>32. My fantasy</li>
+            <li>33. A nearer echo</li>
+            <li>34. Happy married life</li>
+            <li>35. Polygamy</li>
+            <li>36. Sofia</li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
-
-<div id="5" class='gradient-item' @click="store.navigateToAlbum5">
-  <div class="gradient-wrap">
-<img src="../images/albums/screentime.jpg" alt="" crossorigin="anonymous" /> </div>
-</div>
-  <section class="py-4 bg-black" @click="store.navigateToAlbum5">
+  
+  <!-- Album 6 -->
+  <div class="gradient-item" @click="store.showAlbumTracks(6)">
+    <div class="gradient-wrap">
+      <img src="../images/albums/jacaranda.jpg" alt="" crossorigin="anonymous" />
+    </div>
+  </div>
+  <section class="py-4 bg-black">
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center" @click="store.showAlbumTracks(6)">
         <div class="col-12 text-center">
-          <h3 class="text-white">
-        screen time
-          </h3>
+          <h3 class="text-white">Jacaranda</h3>
+        </div>
+      </div>
+      <!-- Album listing -->
+      <div id="6" class="row justify-content-center mt-3" style="display: none;">
+        <div class="col-12 text-center">
+          <ul class="text-white list-unstyled">
+            <li>1. Home</li>
+            <li>2. QWERTY</li>
+            <li>3. Blue heeler</li>
+            <li>4. Gargoyle</li>
+            <li>5. Silly hen</li>
+            <li>6. June</li>
+            <li>7. Thoth</li>
+            <li>8. Real sad</li>
+            <li>9. Tangerine clouds</li>
+            <li>10. What if cell like</li>
+            <li>11. Can't hide your theme</li>
+            <li>12. Paying only you</li>
+            <li>13. The pain you need</li>
+            <li>14. Mona Lisa</li>
+            <li>15. Reusable bag</li>
+            <li>16. Street lights</li>
+            <li>17. Beautiful</li>
+            <li>18. Pro hac vice</li>
+            <li>19. Cobber momma</li>
+            <li>20. Get that education</li>
+            <li>21. Telescopic</li>
+            <li>22. Christmas sleepover</li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
-
-<div id="4" class='gradient-item' @click="store.navigateToAlbum4">
-  <div class="gradient-wrap">
-<img src="../images/albums/frith.jpg" alt="" crossorigin="anonymous" /> </div>
-</div>
-  <section class="py-4 bg-black" @click="store.navigateToAlbum4">
+  
+  <!-- Album 5 -->
+  <div class="gradient-item" @click="store.showAlbumTracks(5)">
+    <div class="gradient-wrap">
+      <img src="../images/albums/screentime.jpg" alt="" crossorigin="anonymous" />
+    </div>
+  </div>
+  <section class="py-4 bg-black">
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center" @click="store.showAlbumTracks(5)">
         <div class="col-12 text-center">
-          <h3 class="text-white">
-        Frith
-          </h3>
+          <h3 class="text-white">screen time</h3>
+        </div>
+      </div>
+      <!-- Album listing -->
+      <div id="5" class="row justify-content-center mt-3" style="display: none;">
+        <div class="col-12 text-center">
+          <ul class="text-white list-unstyled">
+            <li>1. From the start</li>
+            <li>2. Reverse</li>
+            <li>3. Get on with Jack</li>
+            <li>4. Too deep</li>
+            <li>5. Andalucía</li>
+            <li>6. Friends</li>
+            <li>7. Text</li>
+            <li>8. Sunny</li>
+            <li>9. Humming</li>
+            <li>10. Waves</li>
+            <li>11. Addison Rae</li>
+            <li>12. Pauline</li>
+            <li>13. Skyline grey</li>
+            <li>14. Bittersweet</li>
+            <li>15. Over you</li>
+            <li>16. Dreaming</li>
+            <li>17. Relapse holding</li>
+            <li>18. Not lost</li>
+            <li>19. Hideaway</li>
+            <li>20. Superficial</li>
+            <li>21. Warning sign</li>
+            <li>22. Tears to my heart</li>
+            <li>23. I'm sorry</li>
+            <li>24. Yearning</li>
+            <li>25. Silver all gone</li>
+            <li>26. Your eyes</li>
+            <li>27. Hold over me</li>
+            <li>28. A minute</li>
+            <li>29. Mariam</li>
+            <li>30. Mine</li>
+            <li>31. Back home</li>
+            <li>32. Heaven knows</li>
+            <li>33. Assets</li>
+            <li>34. Just us two</li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
-
-<div id="3" class='gradient-item' @click="store.navigateToAlbum3">
-  <div class="gradient-wrap">
-<img src="../images/albums/december13.jpg" alt="" crossorigin="anonymous" /> </div>
-</div>
-  <section class="py-4 bg-black" @click="store.navigateToAlbum3">
+  
+  <!-- Album 4 -->
+  <div class="gradient-item" @click="store.showAlbumTracks(4)">
+    <div class="gradient-wrap">
+      <img src="../images/albums/frith.jpg" alt="" crossorigin="anonymous" />
+    </div>
+  </div>
+  <section class="py-4 bg-black">
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center" @click="store.showAlbumTracks(4)">
         <div class="col-12 text-center">
-          <h3 class="text-white">
-        December 13
-          </h3>
+          <h3 class="text-white">Frith</h3>
+        </div>
+      </div>
+      <!-- Album listing -->
+      <div id="4" class="row justify-content-center mt-3" style="display: none;">
+        <div class="col-12 text-center">
+          <ul class="text-white list-unstyled">
+            
+            <li>1. Take no buck</li>
+            <li>2. Triple to the X</li>
+            <li>3. Facts</li>
+            <li>4. Consumed</li>
+            <li>5. Anon</li>
+            <li>6. Curveball</li>
+            <li>7. Sovereign</li>
+            <li>8. Playing</li>
+            <li>9. LILI</li>
+            <li>10. Hope</li>
+            <li>11. Popsicle</li>
+            <li>12. Ape</li>
+            <li>13. Close friends</li>
+            <li>14. Dad (Interlude)</li>
+            <li>15. Paris</li>
+            <li>16. Warn me you’re ready</li>
+            <li>17. Unfurled</li>
+            <li>18. Every door Taylor</li>
+            <li>19. Milk</li>
+            <li>20. Admissible emotions</li>
+            <li>21. Euphoria</li>
+            <li>22. Beat me down</li>
+            <li>23. Ready to begin</li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
-
-<div id="2" class='gradient-item' @click="store.navigateToAlbum2">
-  <div class="gradient-wrap">
-<img src="../images/albums/colourfullight.jpg" alt="" crossorigin="anonymous" /> </div>
-</div>
-  <section class="py-4 bg-black" @click="store.navigateToAlbum2">
+  
+  <!-- Album 3 -->
+  <div class="gradient-item" @click="store.showAlbumTracks(3)">
+    <div class="gradient-wrap">
+      <img src="../images/albums/december13.jpg" alt="" crossorigin="anonymous" />
+    </div>
+  </div>
+  <section class="py-4 bg-black">
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center" @click="store.showAlbumTracks(3)">
         <div class="col-12 text-center">
-          <h3 class="text-white">
-        colourful light
-          </h3>
+          <h3 class="text-white">December 13</h3>
+        </div>
+      </div>
+      <!-- Album listing -->
+      <div id="3" class="row justify-content-center mt-3" style="display: none;">
+        <div class="col-12 text-center">
+          <ul class="text-white list-unstyled">
+            <li>1. Anarchy</li>
+            <li>2. December 13</li>
+            <li>3. Can't have you</li>
+            <li>4. Got a bitch a valve</li>
+            <li>5. Tom</li>
+            <li>6. Still can't swim</li>
+            <li>7. Well with her eff fame</li>
+            <li>8. Lili Fallon</li>
+            <li>9. Missing you</li>
+            <li>10. My girl</li>
+            <li>11. Forest</li>
+            <li>12. Flutter</li>
+            <li>13. No. 13 a bore</li>
+            <li>14. Partner</li>
+            <li>15. Something simple</li>
+            <li>16. Aperient flow</li>
+            <li>17. Six</li>
+            <li>18. Beethovenian</li>
+            <li>19. Outside</li>
+            <li>20. I think I am</li>
+            <li>21. Sound of tears</li>
+            <li>22. What’s next?</li>
+            <li>23. Scribbling with a gun</li>
+            <li>24. I'm okay</li>
+            <li>25. Milou Christmas</li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
-
-<div id="1" class='gradient-item' @click="store.navigateToAlbum1">
-  <div class="gradient-wrap">
-<img src="../images/albums/hiv.jpg" alt="" crossorigin="anonymous" /> </div>
-</div>
-  <section class="py-4 bg-black" @click="store.navigateToAlbum1">
+  
+  <!-- Album 2 -->
+  <div class="gradient-item" @click="store.showAlbumTracks(2)">
+    <div class="gradient-wrap">
+      <img src="../images/albums/colourfullight.jpg" alt="" crossorigin="anonymous" />
+    </div>
+  </div>
+  <section class="py-4 bg-black">
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center" @click="store.showAlbumTracks(2)">
         <div class="col-12 text-center">
-          <h3 class="text-white">
-        H.I.V
-          </h3>
+          <h3 class="text-white">colourful light</h3>
+        </div>
+      </div>
+      <!-- Album listing -->
+      <div id="2" class="row justify-content-center mt-3" style="display: none;">
+        <div class="col-12 text-center">
+          <ul class="text-white list-unstyled">
+            <li>1. Conterminous</li>
+            <li>2. Forever</li>
+            <li>3. Not on my mobile</li>
+            <li>4. No prolix</li>
+            <li>5. Clones</li>
+            <li>6. Needle</li>
+            <li>7. Gold pack</li>
+            <li>8. Endorphin</li>
+            <li>9. Never what it means</li>
+            <li>10. How you had me</li>
+            <li>11. I won't say it</li>
+            <li>12. On you</li>
+            <li>13. Little girl</li>
+            <li>14. Ogre</li>
+            <li>15. Living video record</li>
+            <li>16. So long</li>
+            <li>17. No telling</li>
+            <li>18. Pepperoni freestyle</li>
+            <li>19. May 1st</li>
+            <li>20. Plunge (Interlude)</li>
+            <li>21. Next to you</li>
+            <li>22. Above</li>
+            <li>23. Warden</li>
+            <li>24. Automatic</li>
+            <li>25. Colourful light</li>
+            <li>26. Gravity</li>
+            <li>27. Malady</li>
+            <li>28. Favourite girl</li>
+            <li>29. Baby sways</li>
+            <li>30. What she does</li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
-
-<!-- partial -->
-
-
+  
+  <!-- Album 1 -->
+  <div class="gradient-item" @click="store.showAlbumTracks(1)">
+    <div class="gradient-wrap">
+      <img src="../images/albums/hiv.jpg" alt="" crossorigin="anonymous" />
+    </div>
+  </div>
+  <section class="py-4 bg-black">
+    <div class="container">
+      <div class="row justify-content-center" @click="store.showAlbumTracks(1)">
+        <div class="col-12 text-center">
+          <h3 class="text-white">H.I.V</h3>
+        </div>
+      </div>
+      <!-- Album listing -->
+      <div id="1" class="row justify-content-center mt-3" style="display: none;">
+        <div class="col-12 text-center">
+          <ul class="text-white list-unstyled">
+            <li>1. What is Love</li>
+            <li>2. Real Friends</li>
+            <li>3. Spotlight</li>
+            <li>4. Bleeding Heart</li>
+            <li>5. Rollie Dreams</li>
+            <li>6. Bad Vibez</li>
+            <li>7. My Heart</li>
+            <li>8. Interlude</li>
+            <li>9. What is Real</li>
+            <li>10. Sunday Special</li>
+            <li>11. Hurt You</li>
+            <li>12. Two Bad Bitches</li>
+            <li>13. What's the Price?</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  
+  
+  
+  <!-- partial -->
+  
+  
   <!--========== 
   Start of bottom page  ==========-->
-
+  
   <section class="py-5 bg-pink-gradient">
     <div class="container">
       <div class="row justify-content-center">
@@ -692,17 +1168,17 @@ button {
       </div>
     </div>
   </section>
-
+  
   <!--========== 
   End of bottom page  ==========-->
-
+  
   <!--========== 
     Map section ==========-->
-
+  
   
   <!--========== 
   Start of footer section ==========-->
-
+  
   <footer class="footer">
     <div class="container">
       <div class="row">
@@ -714,7 +1190,7 @@ button {
       </div>
     </div>
   </footer>
-
+  
   <footer class="footer bg-black slice-pt">
     <div class="container">
       <div class="row">
@@ -723,7 +1199,7 @@ button {
             <span class="typer text-white" id="some-id" data-words="Catch up!" data-delay="100">
             </span>
           </h2>
-
+          
           <div class="social-icons icons-xl mt-5">
             <a class="icon text-white" href="https://youtube.com/@frithhilton17?si=8pEsa1wf1KxLNvBK" target="_blank">
               <i class="fab fa-youtube"></i>
@@ -748,38 +1224,39 @@ button {
           </div>
           <p class="text-white mt-3 mb-4">
             © <span id="getFullYear"></span>
-            <b>|</b> Managed by <span class="text-pink-gradient"> Frith Nightswan Enterprises</span>          </p>
+            <b>|</b> Managed by <span class="text-pink-gradient"> Frith Nightswan Enterprises</span>
+          </p>
         </div>
       </div>
     </div>
   </footer>
-
-
-
-
-    <!--========== 
+  
+  
+  
+  
+  <!--========== 
 	Start of back to top section ==========-->
-
-    <div class="go-top">
-      <p class="go-top-text">
-        Scroll to top <i class="fas fa-long-arrow-alt-right ps-2"></i>
-      </p>
-    </div>
-
-    <!--========== 
+  
+  <div class="go-top">
+    <p class="go-top-text">
+      Scroll to top <i class="fas fa-long-arrow-alt-right ps-2"></i>
+    </p>
+  </div>
+  
+  <!--========== 
 	End of back to top section ==========-->
   <div class="col-lg-3 col-sm-6">
     <p @click="window.location.href='../published/search.html'" class="btn btn-naked-wrap search-btn"> <i class="fas fa-search"></i> <span> search </span> </p>
   </div>
-
+  
   <!--========== 
 	Start of Javascript ==========-->
-
+  
   <!--===== Global required js =====-->
   <script src="../js/jquery-3.6.0.min.js"></script>
   <script src="../js/popper.min.js"></script>
   <script src="../js/bootstrap/bootstrap.min.js"></script>
-
+  
   <!--===== Global script: js libraries and plugins =====-->
   <script src="../js/appear/jquery.appear.js"></script>
   <script src="../js/swiper/swiper.min.js"></script>
@@ -791,448 +1268,435 @@ button {
   <!--===== Main theme script =====-->
   <script src="../js/functions.js"></script>
   <script>
-    window.addEventListener("load", function () {
-  /*
-        A NodeList of all your image containers (Or a single Node).
-        The library will locate an <img /> within each
-        container to create the gradient from.
-     */
-  Grade(document.querySelectorAll(".gradient-wrap"));
-});
-
-(function (f) {
-  if (typeof exports === "object" && typeof module !== "undefined") {
-    module.exports = f();
-  } else if (typeof define === "function" && define.amd) {
-    define([], f);
-  } else {
-    var g;
-    if (typeof window !== "undefined") {
-      g = window;
-    } else if (typeof global !== "undefined") {
-      g = global;
-    } else if (typeof self !== "undefined") {
-      g = self;
-    } else {
-      g = this;
-    }
-    g.Grade = f();
-  }
-})(function () {
-  var define, module, exports;
-  return (function e(t, n, r) {
-    function s(o, u) {
-      if (!n[o]) {
-        if (!t[o]) {
-          var a = typeof require == "function" && require;
-          if (!u && a) return a(o, !0);
-          if (i) return i(o, !0);
-          var f = new Error("Cannot find module '" + o + "'");
-          throw ((f.code = "MODULE_NOT_FOUND"), f);
+    window.addEventListener("load", function() {
+      /*
+            A NodeList of all your image containers (Or a single Node).
+            The library will locate an <img /> within each
+            container to create the gradient from.
+         */
+      Grade(document.querySelectorAll(".gradient-wrap"));
+    });
+    
+    (function(f) {
+      if (typeof exports === "object" && typeof module !== "undefined") {
+        module.exports = f();
+      } else if (typeof define === "function" && define.amd) {
+        define([], f);
+      } else {
+        var g;
+        if (typeof window !== "undefined") {
+          g = window;
+        } else if (typeof global !== "undefined") {
+          g = global;
+        } else if (typeof self !== "undefined") {
+          g = self;
+        } else {
+          g = this;
         }
-        var l = (n[o] = { exports: {} });
-        t[o][0].call(
-          l.exports,
-          function (e) {
-            var n = t[o][1][e];
-            return s(n ? n : e);
-          },
-          l,
-          l.exports,
-          e,
-          t,
-          n,
-          r
-        );
+        g.Grade = f();
       }
-      return n[o].exports;
-    }
-
-    var i = typeof require == "function" && require;
-    for (var o = 0; o < r.length; o++) s(r[o]);
-    return s;
-  })(
-    {
-      1: [
-        function (require, module, exports) {
-          "use strict";
-
-          var _createClass = (function () {
-            function defineProperties(target, props) {
-              for (var i = 0; i < props.length; i++) {
-                var descriptor = props[i];
-                descriptor.enumerable = descriptor.enumerable || false;
-                descriptor.configurable = true;
-                if ("value" in descriptor) descriptor.writable = true;
-                Object.defineProperty(target, descriptor.key, descriptor);
-              }
+    })(function() {
+      var define, module, exports;
+      return (function e(t, n, r) {
+        function s(o, u) {
+          if (!n[o]) {
+            if (!t[o]) {
+              var a = typeof require == "function" && require;
+              if (!u && a) return a(o, !0);
+              if (i) return i(o, !0);
+              var f = new Error("Cannot find module '" + o + "'");
+              throw ((f.code = "MODULE_NOT_FOUND"), f);
             }
-
-            return function (Constructor, protoProps, staticProps) {
-              if (protoProps)
-                defineProperties(Constructor.prototype, protoProps);
-              if (staticProps) defineProperties(Constructor, staticProps);
-              return Constructor;
-            };
-          })();
-
-          function _classCallCheck(instance, Constructor) {
-            if (!(instance instanceof Constructor)) {
-              throw new TypeError("Cannot call a class as a function");
-            }
+            var l = (n[o] = { exports: {} });
+            t[o][0].call(
+              l.exports,
+              function(e) {
+                var n = t[o][1][e];
+                return s(n ? n : e);
+              },
+              l,
+              l.exports,
+              e,
+              t,
+              n,
+              r
+            );
           }
-
-          var prefixes = ["webkit"];
-
-          var Grade = (function () {
-            function Grade(container, img_selector, callback) {
-              _classCallCheck(this, Grade);
-
-              this.callback = callback || null;
-              this.container = container;
-              this.image =
-                this.container.querySelector(img_selector) ||
-                this.container.querySelector("img");
-              this.gradientData = [];
-              if (!this.image || !this.container) {
-                return;
+          return n[o].exports;
+        }
+        
+        var i = typeof require == "function" && require;
+        for (var o = 0; o < r.length; o++) s(r[o]);
+        return s;
+      })(
+        {
+          1: [
+            function(require, module, exports) {
+              "use strict";
+              
+              var _createClass = (function() {
+                function defineProperties(target, props) {
+                  for (var i = 0; i < props.length; i++) {
+                    var descriptor = props[i];
+                    descriptor.enumerable = descriptor.enumerable || false;
+                    descriptor.configurable = true;
+                    if ("value" in descriptor) descriptor.writable = true;
+                    Object.defineProperty(target, descriptor.key, descriptor);
+                  }
+                }
+                
+                return function(Constructor, protoProps, staticProps) {
+                  if (protoProps)
+                    defineProperties(Constructor.prototype, protoProps);
+                  if (staticProps) defineProperties(Constructor, staticProps);
+                  return Constructor;
+                };
+              })();
+              
+              function _classCallCheck(instance, Constructor) {
+                if (!(instance instanceof Constructor)) {
+                  throw new TypeError("Cannot call a class as a function");
+                }
               }
-              this.canvas = document.createElement("canvas");
-              this.ctx = this.canvas.getContext("2d");
-              this.imageDimensions = {
-                width: 0,
-                height: 0
-              };
-              this.imageData = [];
-              this.readImage();
-            }
-
-            _createClass(Grade, [
-              {
-                key: "readImage",
-                value: function readImage() {
-                  this.imageDimensions.width = this.image.width * 0.1;
-                  this.imageDimensions.height = this.image.height * 0.1;
-                  this.render();
+              
+              var prefixes = ["webkit"];
+              
+              var Grade = (function() {
+                function Grade(container, img_selector, callback) {
+                  _classCallCheck(this, Grade);
+                  
+                  this.callback = callback || null;
+                  this.container = container;
+                  this.image =
+                    this.container.querySelector(img_selector) ||
+                    this.container.querySelector("img");
+                  this.gradientData = [];
+                  if (!this.image || !this.container) {
+                    return;
+                  }
+                  this.canvas = document.createElement("canvas");
+                  this.ctx = this.canvas.getContext("2d");
+                  this.imageDimensions = {
+                    width: 0,
+                    height: 0
+                  };
+                  this.imageData = [];
+                  this.readImage();
                 }
-              },
-              {
-                key: "getImageData",
-                value: function getImageData() {
-                  var imageData = this.ctx.getImageData(
-                    0,
-                    0,
-                    this.imageDimensions.width,
-                    this.imageDimensions.height
-                  ).data;
-                  this.imageData = Array.from(imageData);
-                }
-              },
-              {
-                key: "getChunkedImageData",
-                value: function getChunkedImageData() {
-                  var perChunk = 4;
-
-                  var chunked = this.imageData.reduce(function (ar, it, i) {
-                    var ix = Math.floor(i / perChunk);
-                    if (!ar[ix]) {
-                      ar[ix] = [];
-                    }
-                    ar[ix].push(it);
-                    return ar;
-                  }, []);
-
-                  var filtered = chunked.filter(function (rgba) {
-                    return (
-                      rgba.slice(0, 2).every(function (val) {
-                        return val < 250;
-                      }) &&
-                      rgba.slice(0, 2).every(function (val) {
-                        return val > 0;
+                
+                _createClass(Grade, [
+                {
+                  key: "readImage",
+                  value: function readImage() {
+                    this.imageDimensions.width = this.image.width * 0.1;
+                    this.imageDimensions.height = this.image.height * 0.1;
+                    this.render();
+                  }
+                },
+                {
+                  key: "getImageData",
+                  value: function getImageData() {
+                    var imageData = this.ctx.getImageData(
+                      0,
+                      0,
+                      this.imageDimensions.width,
+                      this.imageDimensions.height
+                    ).data;
+                    this.imageData = Array.from(imageData);
+                  }
+                },
+                {
+                  key: "getChunkedImageData",
+                  value: function getChunkedImageData() {
+                    var perChunk = 4;
+                    
+                    var chunked = this.imageData.reduce(function(ar, it, i) {
+                      var ix = Math.floor(i / perChunk);
+                      if (!ar[ix]) {
+                        ar[ix] = [];
+                      }
+                      ar[ix].push(it);
+                      return ar;
+                    }, []);
+                    
+                    var filtered = chunked.filter(function(rgba) {
+                      return (
+                        rgba.slice(0, 2).every(function(val) {
+                          return val < 250;
+                        }) &&
+                        rgba.slice(0, 2).every(function(val) {
+                          return val > 0;
+                        })
+                      );
+                    });
+                    
+                    return filtered;
+                  }
+                },
+                {
+                  key: "getRGBAGradientValues",
+                  value: function getRGBAGradientValues(top) {
+                    return top
+                      .map(function(color, index) {
+                        return (
+                          "rgb(" +
+                          color.rgba.slice(0, 3).join(",") +
+                          ") " +
+                          (index === 0 ? "0%" : "100%")
+                        );
                       })
-                    );
-                  });
-
-                  return filtered;
-                }
-              },
-              {
-                key: "getRGBAGradientValues",
-                value: function getRGBAGradientValues(top) {
-                  return top
-                    .map(function (color, index) {
-                      return (
-                        "rgb(" +
-                        color.rgba.slice(0, 3).join(",") +
-                        ") " +
-                        (index === 0 ? "0%" : "100%")
-                      );
-                    })
-                    .join(",");
-                }
-              },
-              {
-                key: "getCSSGradientProperty",
-                value: function getCSSGradientProperty(top) {
-                  const top1 = [top[1]];
-                  var val1 = this.getRGBAGradientValues(top1);
-                  const val2 = val1 + ",rgb(0,0,0) 100%";
-                  return prefixes
-                    .map(function (prefix) {
-                      return (
-                        "background-image: -" +
-                        prefix +
-                        "-linear-gradient(\n 180deg,\n" +
+                      .join(",");
+                  }
+                },
+                {
+                  key: "getCSSGradientProperty",
+                  value: function getCSSGradientProperty(top) {
+                    const top1 = [top[1]];
+                    var val1 = this.getRGBAGradientValues(top1);
+                    const val2 = val1 + ",rgb(0,0,0) 100%";
+                    return prefixes
+                      .map(function(prefix) {
+                        return (
+                          "background-image: -" +
+                          prefix +
+                          "-linear-gradient(\n 180deg,\n" +
+                          val2 +
+                          "\n)"
+                        );
+                      })
+                      .concat([
+                        "background-image: linear-gradient(\n180deg,\n" +
                         val2 +
                         "\n)"
-                      );
-                    })
-                    .concat([
-                      "background-image: linear-gradient(\n180deg,\n" +
-                        val2 +
-                        "\n)"
-                    ])
-                    .join(";");
-                }
-              },
-              {
-                key: "getMiddleRGB",
-                value: function getMiddleRGB(start, end) {
-                  var w = 0.5 * 2 - 1;
-                  var w1 = (w + 1) / 2.0;
-                  var w2 = 1 - w1;
-                  var rgb = [
-                    parseInt(start[0] * w1 + end[0] * w2),
-                    parseInt(start[1] * w1 + end[1] * w2),
-                    parseInt(start[2] * w1 + end[2] * w2)
-                  ];
-                  return rgb;
-                }
-              },
-              {
-                key: "getSortedValues",
-                value: function getSortedValues(uniq) {
-                  var occurs = Object.keys(uniq)
-                    .map(function (key) {
-                      var rgbaKey = key;
-                      var components = key.split("|"),
-                        brightness =
+                      ])
+                      .join(";");
+                  }
+                },
+                {
+                  key: "getMiddleRGB",
+                  value: function getMiddleRGB(start, end) {
+                    var w = 0.5 * 2 - 1;
+                    var w1 = (w + 1) / 2.0;
+                    var w2 = 1 - w1;
+                    var rgb = [
+                      parseInt(start[0] * w1 + end[0] * w2),
+                      parseInt(start[1] * w1 + end[1] * w2),
+                      parseInt(start[2] * w1 + end[2] * w2)
+                    ];
+                    return rgb;
+                  }
+                },
+                {
+                  key: "getSortedValues",
+                  value: function getSortedValues(uniq) {
+                    var occurs = Object.keys(uniq)
+                      .map(function(key) {
+                        var rgbaKey = key;
+                        var components = key.split("|"),
+                          brightness =
                           (components[0] * 299 +
                             components[1] * 587 +
                             components[2] * 114) /
                           1000;
-                      return {
-                        rgba: rgbaKey.split("|"),
-                        occurs: uniq[key],
-                        brightness: brightness
-                      };
-                    })
-                    .sort(function (a, b) {
-                      return a.occurs - b.occurs;
-                    })
-                    .reverse()
-                    .slice(0, 10);
-                  return occurs
-                    .sort(function (a, b) {
-                      return a.brightness - b.brightness;
-                    })
-                    .reverse();
-                }
-              },
-              {
-                key: "getTextProperty",
-                value: function getTextProperty(top) {
-                  var rgb = this.getMiddleRGB(
-                    top[0].rgba.slice(0, 3),
-                    top[1].rgba.slice(0, 3)
-                  );
-                  var o = Math.round(
-                    (parseInt(rgb[0]) * 299 +
-                      parseInt(rgb[1]) * 587 +
-                      parseInt(rgb[2]) * 114) /
+                        return {
+                          rgba: rgbaKey.split("|"),
+                          occurs: uniq[key],
+                          brightness: brightness
+                        };
+                      })
+                      .sort(function(a, b) {
+                        return a.occurs - b.occurs;
+                      })
+                      .reverse()
+                      .slice(0, 10);
+                    return occurs
+                      .sort(function(a, b) {
+                        return a.brightness - b.brightness;
+                      })
+                      .reverse();
+                  }
+                },
+                {
+                  key: "getTextProperty",
+                  value: function getTextProperty(top) {
+                    var rgb = this.getMiddleRGB(
+                      top[0].rgba.slice(0, 3),
+                      top[1].rgba.slice(0, 3)
+                    );
+                    var o = Math.round(
+                      (parseInt(rgb[0]) * 299 +
+                        parseInt(rgb[1]) * 587 +
+                        parseInt(rgb[2]) * 114) /
                       1000
-                  );
-                  if (o > 125) {
-                    return "color: #000";
-                  } else {
-                    return "color: #fff";
+                    );
+                    if (o > 125) {
+                      return "color: #000";
+                    } else {
+                      return "color: #fff";
+                    }
                   }
-                }
-              },
-              {
-                key: "getTopValues",
-                value: function getTopValues(uniq) {
-                  var sorted = this.getSortedValues(uniq);
-                  return [sorted[0], sorted[sorted.length - 1]];
-                }
-              },
-              {
-                key: "getUniqValues",
-                value: function getUniqValues(chunked) {
-                  return chunked.reduce(function (accum, current) {
-                    var key = current.join("|");
-                    if (!accum[key]) {
-                      accum[key] = 1;
+                },
+                {
+                  key: "getTopValues",
+                  value: function getTopValues(uniq) {
+                    var sorted = this.getSortedValues(uniq);
+                    return [sorted[0], sorted[sorted.length - 1]];
+                  }
+                },
+                {
+                  key: "getUniqValues",
+                  value: function getUniqValues(chunked) {
+                    return chunked.reduce(function(accum, current) {
+                      var key = current.join("|");
+                      if (!accum[key]) {
+                        accum[key] = 1;
+                        return accum;
+                      }
+                      accum[key] = ++accum[key];
                       return accum;
-                    }
-                    accum[key] = ++accum[key];
-                    return accum;
-                  }, {});
-                }
-              },
-              {
-                key: "renderGradient",
-                value: function renderGradient() {
-                  var ls = window.localStorage;
-                  var item_name = "grade-" + this.image.getAttribute("src");
-                  var top = null;
-
-                  if (ls && ls.getItem(item_name)) {
-                    top = JSON.parse(ls.getItem(item_name));
-                  } else {
-                    var chunked = this.getChunkedImageData();
-                    top = this.getTopValues(this.getUniqValues(chunked));
-
-                    if (ls) {
-                      ls.setItem(item_name, JSON.stringify(top));
-                    }
+                    }, {});
                   }
-
-                  if (this.callback) {
-                    this.gradientData = top;
-                    return;
+                },
+                {
+                  key: "renderGradient",
+                  value: function renderGradient() {
+                    var ls = window.localStorage;
+                    var item_name = "grade-" + this.image.getAttribute("src");
+                    var top = null;
+                    
+                    if (ls && ls.getItem(item_name)) {
+                      top = JSON.parse(ls.getItem(item_name));
+                    } else {
+                      var chunked = this.getChunkedImageData();
+                      top = this.getTopValues(this.getUniqValues(chunked));
+                      
+                      if (ls) {
+                        ls.setItem(item_name, JSON.stringify(top));
+                      }
+                    }
+                    
+                    if (this.callback) {
+                      this.gradientData = top;
+                      return;
+                    }
+                    
+                    var gradientProperty = this.getCSSGradientProperty(top);
+                    
+                    var textProperty = this.getTextProperty(top);
+                    
+                    var style =
+                      (this.container.getAttribute("style") || "") +
+                      "; " +
+                      gradientProperty +
+                      "; " +
+                      textProperty;
+                    this.container.setAttribute("style", style);
                   }
-
-                  var gradientProperty = this.getCSSGradientProperty(top);
-
-                  var textProperty = this.getTextProperty(top);
-
-                  var style =
-                    (this.container.getAttribute("style") || "") +
-                    "; " +
-                    gradientProperty +
-                    "; " +
-                    textProperty;
-                  this.container.setAttribute("style", style);
+                },
+                {
+                  key: "render",
+                  value: function render() {
+                    this.canvas.width = this.imageDimensions.width;
+                    this.canvas.height = this.imageDimensions.height;
+                    this.ctx.drawImage(
+                      this.image,
+                      0,
+                      0,
+                      this.imageDimensions.width,
+                      this.imageDimensions.height
+                    );
+                    this.getImageData();
+                    this.renderGradient();
+                  }
+                }]);
+                
+                return Grade;
+              })();
+              
+              module.exports = function(containers, img_selector, callback) {
+                var init = function init(container, img_selector, callback) {
+                  var grade = new Grade(container, img_selector, callback),
+                    gradientData = grade.gradientData;
+                  if (!gradientData.length) {
+                    return null;
+                  }
+                  return {
+                    element: container,
+                    gradientData: gradientData
+                  };
+                };
+                var results = (NodeList.prototype.isPrototypeOf(containers) ?
+                  Array.from(containers).map(function(container) {
+                    return init(container, img_selector, callback);
+                  }) : [init(containers, img_selector, callback)]
+                ).filter(Boolean);
+                
+                if (results.length) {
+                  return callback(results);
                 }
-              },
-              {
-                key: "render",
-                value: function render() {
-                  this.canvas.width = this.imageDimensions.width;
-                  this.canvas.height = this.imageDimensions.height;
-                  this.ctx.drawImage(
-                    this.image,
-                    0,
-                    0,
-                    this.imageDimensions.width,
-                    this.imageDimensions.height
-                  );
-                  this.getImageData();
-                  this.renderGradient();
-                }
-              }
-            ]);
-
-            return Grade;
-          })();
-
-          module.exports = function (containers, img_selector, callback) {
-            var init = function init(container, img_selector, callback) {
-              var grade = new Grade(container, img_selector, callback),
-                gradientData = grade.gradientData;
-              if (!gradientData.length) {
-                return null;
-              }
-              return {
-                element: container,
-                gradientData: gradientData
               };
-            };
-            var results = (NodeList.prototype.isPrototypeOf(containers)
-              ? Array.from(containers).map(function (container) {
-                  return init(container, img_selector, callback);
-                })
-              : [init(containers, img_selector, callback)]
-            ).filter(Boolean);
-
-            if (results.length) {
-              return callback(results);
-            }
-          };
-        },
-        {}
-      ]
-    },
-    {},
-    [1]
-  )(1);
-});
-
+            },
+            {}
+          ]
+        }, {},
+        [1]
+      )(1);
+    });
   </script>
-  <script src="../js/album.js"></script>
-<script type="module">
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // Select all album containers
+      const albumContainers = document.querySelectorAll(".album-container");
+      
+      albumContainers.forEach((container) => {
+        container.addEventListener("click", function() {
+          // Find the track list inside the clicked container
+          const trackList = this.querySelector(".track-list");
+          
+          // Toggle the visibility of the track list
+          trackList.classList.toggle("show");
+        });
+      });
+    });
+  </script>
+  <script type="module">
     import {
       createApp,
       reactive
     } from "../js/petite-vue.js";
     const store = reactive({
+      currentAlbumId: null,
       acceptCookieUse() {
         localStorage.setItem("cookieUse", true)
       },
-      navigateToAlbum15() {
-      window.location.href = 'https://genius.com/albums/Frith-hilton/Valence-Eve';
-    }, 
-      navigateToAlbum14() {
-      window.location.href = 'https://genius.com/albums/Frith-hilton/Farther-memes';
-    }, 
-      navigateToAlbum13() {
-      window.location.href = 'https://genius.com/albums/Frith-hilton/The-sessions';
-    }, 
-      navigateToAlbum12() {
-      window.location.href = 'https://genius.com/albums/Frith-hilton/Its-pop';
-    }, 
-      navigateToAlbum11() {
-      window.location.href = 'https://genius.com/albums/Frith-hilton/Troubadour';
-    }, 
-      navigateToAlbum10() {
-      window.location.href = 'https://genius.com/albums/Frith-hilton/Nightswan';
-    }, 
-      navigateToAlbum9() {
-      window.location.href = 'https://genius.com/albums/Frith-hilton/The-lover-tap3';
-    }, 
-      navigateToAlbum8() {
-      window.location.href = 'https://genius.com/albums/Frith-hilton/Lantern';
-    }, 
-      navigateToAlbum7() {
-      window.location.href = 'https://genius.com/albums/Frith-hilton/Theo';
-    }, 
-      navigateToAlbum6() {
-      window.location.href = 'https://genius.com/albums/Frith-hilton/Jacaranda';
-    }, 
-      navigateToAlbum5() {
-      window.location.href = 'https://genius.com/albums/Frith-hilton/Screen-time';
-    }, 
-      navigateToAlbum4() {
-      window.location.href = 'https://genius.com/albums/Frith-hilton/Frith';
-    }, 
-      navigateToAlbum3() {
-      window.location.href = 'https://genius.com/albums/Frith-hilton/December-13';
-    }, 
-      navigateToAlbum2() {
-      window.location.href = 'https://genius.com/albums/Frith-hilton/Colourful-light';
-    }, 
-      navigateToAlbum1() {
-      window.location.href = 'https://genius.com/albums/Frith-hilton/H-i-v';
-    }, 
+      showAlbumTracks(id) {
+        // Close all divs first
+        for (let i = 1; i <= 16; i++) {
+          const div = document.getElementById(i);
+          if (div && i !== id) {
+            div.style.display = "none";
+          }
+        }
+        
+        // Then show and scroll to the new div
+        const newDiv = document.getElementById(id);
+        if (newDiv) {
+          newDiv.style.display = newDiv.style.display === "none" ? "block" : "none";
+          if (newDiv.style.display === "block") {
+            const stickyHeaderHeight = 80;
+            const top = newDiv.getBoundingClientRect().top + window.scrollY - stickyHeaderHeight;
+            window.scrollTo({ top, behavior: 'smooth' });
+          }
+        }
+      },
       loadNewRelease() {
-      window.location.href = 'https://frithhilton.com.ng/pages/latest-release.html';
-    }, 
-   goToPublished() {
-      window.location.href = '../published/books.html';
-    }
-    
-
+        window.location.href = 'https://frithhilton.com.ng/pages/latest-release.html';
+      },
+      goToPublished() {
+        window.location.href = '../published/books.html';
+      }
+      
+      
     })
     createApp({
       store
