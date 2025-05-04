@@ -2,6 +2,14 @@
   "songs": [
     
     {
+      "albumart": "musicpool-db/covers/whereIsTheMoodRobot/1.jpg",
+      "author": "Frith Hilton",
+      "song": "So alive Overture",
+      "json": "../pages/musicpool-db/lyrics/whereIsTheMoodRobot/1.json",
+      "audio": "../pages/musicpool-db/mp3/whereIsTheMoodRobot/1.mp3"
+      }, 
+    
+    {
       "albumart": "musicpool-db/covers/ValenceEve/21.jpg",
       "author": "Frith Hilton",
       "song": "Clubbing sad",
