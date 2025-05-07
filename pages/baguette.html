@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--===== Required meta tags =====-->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="author" content="Infinitysoftway" />
+  <meta name="description" content="statistic charts" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <!--===== Title =====-->
+  <title>Music Pool | Frith Hilton</title>
+  
+  <!--===== Favicon =====-->
+  <link rel="shortcut icon" href="../images/favicon.png" />
+  
+  <!--===== Google fonts =====-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Jost:wght@300;400;500;600;700;800;900&display=swap" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet" />
+  <!-- font-awesome-icons -->
+  <script src="https://kit.fontawesome.com/c7fbb1b458.js" crossorigin="anonymous"></script>
+  
+  <!--===== Global bootstrap required css =====-->
+  <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css" />
+  <!--===== Global styles including: Font Icons, Plugins, etc =====-->
+  <link rel="stylesheet" type="text/css" href="/../css/font-awesome/all.min.css" />
+  <link rel="stylesheet" href="../css/feather/iconfont.css" />
+  <link rel="stylesheet" href="../css/pe-icon-stroke/Pe-icon-7-stroke.css" />
+  <link rel="stylesheet" href="../css/simple-line-icons/simple-line-icons.css" />
+  <link rel="stylesheet" href="../css/themify-icons/themify-icons.css" />
+  <link rel="stylesheet" href="../css/pe-icon-stroke/Pe-icon-7-stroke.css" />
+  <link rel="stylesheet" href="../css/swiper/swiper.min.css" />
+  <link rel="stylesheet" href="../css/magnific-popup/magnific-popup.css" />
+  
+  <!--===== Main theme css =====-->
+  <link rel="stylesheet" href="../css/lyrics.css" />
+  <style>
+    [v-cloak] {
+      display: none;
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"></script>
+  <script src="../../player/music/script.js"></script>
+  
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+</head>
+
+<body id="ctrlArea">
+  <!--========== 
+        Start of loader ==========-->
+  
+  <div class="template-loader">
+    <div class="loaderCenter">
+      <div class="book">
+        <div class="book__pg-shadow"></div>
+        <div class="book__pg"></div>
+        <div class="book__pg book__pg--2"></div>
+        <div class="book__pg book__pg--3"></div>
+        <div class="book__pg book__pg--4"></div>
+        <div class="book__pg book__pg--5"></div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div v-show="store.getView() === 'div1'">
+    
+    
+    
+    <!--========== 
+        End of loader ==========-->
+    
+    <!--========== 
+    Start of  cookie modal notification section ==========-->
+    <div class="modal-subscribe">
+      <!-- Modal -->
+      <div class="modal fade" data-bs-backdrop="static" id="myModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body p-0 bg-secondary rounded">
+              <div class="p-5 text-center">
+                <img class="img-fluid px-5" src="../images/svg/cookie.svg" alt="" />
+                <h3>Cookies</h3>
+                <p class="text-dark"><b>Hilton</b> uses cookies to enhance user experience</p>
+                <a href="cookies.html" class="text-primary-gradient fw-bold">Our policy</a>
+                <div class="d-grid mt-5">
+                  <button type="button" class="btn btn-white rounded" data-bs-dismiss="modal" @click="store.acceptCookieUse()">Accept</button>
+                  <p class="text-dark mt-4">
+                    Coupled with
+                    <svg class="logo" viewBox="0 0 128 128" width="24" height="24" data-v-53ccc107="">
+                      <path fill="#42b883" d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z" data-v-53ccc107=""></path>
+                      <path fill="#35495e" d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z" data-v-53ccc107=""></path>
+                    </svg>
+                    <a href="https://github.com/vuejs/petite-vue" target="_blank" style="color: #42b883;"><b>petite-vue</b></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--========== 
+          End of cookie modal notification section ==========-->
+    <!--==========-->
+    <!--==========-->
+    
+    <!--========== 
+        Start of Header Section ==========-->
+    
+    <header class="header">
+      <!--===== Start of navbar =====-->
+      <nav class="navbar navbar-light navbar-expand-lg navbar-default">
+        
+        <div class="container-fluid">
+          <!--===== Start of logo =====-->
+          <a class="navbar-brand" href="../index.html"><img class="logo" src="../images/logo.png" alt="Frith Hilton Logo" /></a>
+          <!--===== End of logo =====-->
+          
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar top-bar mt-0"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+          
+          <!--===== Start of nav =====-->
+          <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html"><span class="text-line"> Home </span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a @click="store.goToPublished" class="nav-link dropdown-toggle" href="#" id="navbar-pages" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="text-line"> Publications</span>
+                </a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="upcoming.html"><span class="text-line"> Upcoming Poetry</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="musicpool.html"><span class="text-line"> Musicpool </span></a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="pages/bio.html"><span class="text-line"> Bio </span></a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="../cookies.html"><span class="text-line"> Cookies Policy </span></a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-icons list-unstyled mb-0 ms-auto"></div>
+          <!--===== End of nav =====-->
+        </div>
+      </nav>
+      <!--===== End of navbar =====-->
+    </header>
+    
+    <div v-show="store.getInnerView() === 'div3'">
+      <p>div 3</p>
+    </div>
+    
+    
+    <div v-show="store.getInnerView() === 'div4'">
+      
+      <!-- Header -->
+      <header class="dynamic-header" id="dynamic-header">
+        <img src="./musicpool-db/covers/ValenceEve/20.jpg" alt="Track Cover" id="track-cover" />
+        <div class="header-content mt-3">
+          <h1 class="h1">Fisherman</h1>
+          <p class="h4"><span class="text-warning">Valence Eve</span></p>
+        </div>
+        <!-- Search Icon in Header -->
+        <img id="open-search-popup" src="../images/svg/search.svg" alt="Search" class="img-fluid search-icon-btn" />
+      </header>
+      
+      <!-- Search Popup -->
+      <div class="search-popup" id="search-popup">
+        <div class="search-popup-content">
+          <button class="close-btn" id="close-search-popup">&times;</button>
+          <h2 class="h4 text-primary">Search</h2>
+          <form id="search-form" autocomplete="off">
+            <input type="text" class="form-control search-input" placeholder="Search for tracks, albums, or artists..." id="search-input" autofocus />
+          </form>
+          <!-- Search Results Pane -->
+          <div class="search-results" id="search-results">
+            <!-- Results will be dynamically added here -->
+          </div>
+        </div>
+      </div>
+      
+      <!-- Main Content -->
+      <div class="container mt-5">
+        <div class="row">
+          <!-- Left Column: Credits -->
+          <div class="col-md-4">
+            <!-- Credits Section -->
+            <div class="credits bg-white p-4 rounded shadow mb-4">
+              <h3 class="h4 text-primary">Credits</h3>
+              <ul class="list-unstyled">
+                <li><strong>Writer:</strong> John Doe</li>
+                <li><strong>Producer:</strong> Jane Smith</li>
+                <li><strong>Label:</strong> Music Label Inc.</li>
+                <li><strong>Release Date:</strong> January 1, 2025</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- Right Column: Lyrics and Bio -->
+          <div class="col-md-8">
+            <!-- Lyrics Section -->
+            <section class="lyrics-content bg-white p-4 rounded shadow">
+              <h2 class="h2 text-primary mb-3">Lyrics</h2>
+              
+              <!-- Lyrics Container -->
+              <div class="lyrics-container">
+                <div class="lyrics">
+                  <!-- Lyrics will be dynamically rendered here -->
+                </div>
+                <div id="annotations-panel" class="annotations-panel">
+                  <button id="close-panel" class="close-panel-btn" aria-label="Close">&times;</button>
+                  <h3 class="h5 text-primary">Annotation</h3>
+                  <p id="annotation-text" class="text-muted">
+                    Click on a highlighted word or phrase to see its annotation.
+                  </p>
+                </div>
+              </div>
+            </section>
+            <!-- Bio Section -->
+            <section class="bio-section bg-white p-4 rounded shadow">
+              <h3 class="h4 text-primary">About the Song</h3>
+              <p class="text-dark">
+                This song was inspired by the artist's personal experiences and reflects on themes of love, resilience, and hope. It became an instant hit, topping charts worldwide and resonating with fans for its soulful lyrics
+                and melody.
+              </p>
+            </section>
+          </div>
+        </div>
+        
+        <!-- Album Tracks Section -->
+        <section class="album-tracks bg-white p-4 rounded shadow">
+          <h3 class="h4 text-primary">Other Tracks from "Album Name"</h3>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <a href="lyrics-track1.html" class="text-primary">Track 1</a>
+            </li>
+            <li class="list-group-item">
+              <a href="lyrics-track2.html" class="text-primary">Track 2</a>
+            </li>
+            <li class="list-group-item">
+              <a href="lyrics-track3.html" class="text-primary">Track 3</a>
+            </li>
+            <!-- Add more tracks as needed -->
+          </ul>
+        </section>
+        
+        <!-- Explore other albums would be here -->
+  
+      </div>
+      <!-- Albums List Container -->
+      <div class="albums-container">
+        <h1 class="text-center">Albums List</h1>
+        <div class="album-list">
+          <!-- Valence Eve Album  -->
+          <div class="album-card">
+            <div class="album-item" onclick="toggleTrackList(15)">
+              <div class="album-cover">
+                <img src="../images/albums/ValenceEve.jpg" alt="Valence Eve" />
+                <!-- Replace with actual album cover -->
+              </div>
+              <div class="album-info">
+                <p class="album-title">Valence Eve</p>
+                <p class="album-meta">Release Date: December 31, 2024 | Songs: 21</p>
+              </div>
+            </div>
+            <div class="track-list" id="track-list-15">
+              <ul>
+                <li>1. I try</li>
+                <li>2. Kill time</li>
+                <li>3. Alarms</li>
+                <li>4. Smile on me</li>
+                <li>5. Queen's daughter</li>
+                <li>6. The game we play</li>
+                <li>7. Yahoo</li>
+                <li>8. Beautiful Taylor</li>
+                <li>9. Farce emotions</li>
+                <li>10. To you</li>
+                <li>11. Honest</li>
+                <li>12. Recruits</li>
+                <li>13. Butcher feel</li>
+                <li>14. Porn star</li>
+                <li>15. Taking you home</li>
+                <li>16. Kai Trump</li>
+                <li>17. Dime piece</li>
+                <li>18. Fisherman</li>
+                <li>19. Bedtime</li>
+                <li>20. Madness</li>
+                <li>21. Clubing sad</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- Farther Memes Album  -->
+          <div class="album-card">
+            <div class="album-item" onclick="toggleTrackList(14)">
+              <div class="album-cover">
+                <img src="../images/albums/farthermemes.png" alt="Farther Memes" />
+                <!-- Replace with actual album cover -->
+              </div>
+              <div class="album-info">
+                <p class="album-title">Farther Memes</p>
+                <p class="album-meta">Release Date: 2025-02-15 | Songs: 33</p>
+              </div>
+            </div>
+            <div class="track-list" id="track-list-14">
+              <ul>
+                <li>1. Oliver Sacks</li>
+                <li>2. Oliver Sacks II</li>
+                <li>3. Palacio de la Zarzuela</li>
+                <li>4. The preacher</li>
+                <li>5. Rick reflection</li>
+                <li>6. End of summer</li>
+                <li>7. Sex is everything</li>
+                <li>8. Fool for you</li>
+                <li>9. Hathaway</li>
+                <li>10. Crush</li>
+                <li>11. Jealousy</li>
+                <li>12. Obligations</li>
+                <li>13. Rust</li>
+                <li>14. Best cardigan</li>
+                <li>15. Unwilling</li>
+                <li>16. Applish</li>
+                <li>17. Home alone</li>
+                <li>18. Aureole sigh</li>
+                <li>19. First lines</li>
+                <li>20. Spaghetti code</li>
+                <li>21. Fire</li>
+                <li>22. Fish</li>
+                <li>23. Greener</li>
+                <li>24. Lens</li>
+                <li>25. Keyhole</li>
+                <li>26. Bright-eyed</li>
+                <li>27. Cut in fame</li>
+                <li>28. Feel good</li>
+                <li>29. Adios</li>
+                <li>30. Woah</li>
+                <li>31. Locked in</li>
+                <li>32. Heartbeat</li>
+                <li>33. Barefoot</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- the Sessions... Album -->
+          <div class="album-card">
+            <div class="album-item" onclick="toggleTrackList(13)">
+              <div class="album-cover">
+                <img src="../images/albums/theSessions.jpg" alt="the Sessions..." />
+                <!-- Replace with actual album cover -->
+              </div>
+              <div class="album-info">
+                <p class="album-title">the Sessions...</p>
+                <p class="album-meta">Release Date: June 14, 2024 | Songs: 14</p>
+              </div>
+            </div>
+            <div class="track-list" id="track-list-13">
+              <ul>
+                <li>1. Savour</li>
+                <li>2. Dizzy morning</li>
+                <li>3. Dirty laundry</li>
+                <li>4. Canticle</li>
+                <li>5. SZA</li>
+                <li>6. Undecided</li>
+                <li>7. Different</li>
+                <li>8. Session 8</li>
+                <li>9. I'll be there</li>
+                <li>10. Back to the store</li>
+                <li>11. Sorry I'm alive</li>
+                <li>12. Long way home</li>
+                <li>13. Field of faeries</li>
+                <li>14. Magical</li>
+              </ul>
+            </div>
+          </div>
+          
+          
+          <!-- the Sessions... Album -->
+          <div class="album-card">
+            <div class="album-item" onclick="toggleTrackList(12)">
+              <div class="album-cover">
+                <img src="../images/albums/itspop.png" alt="the Sessions..." />
+                <!-- Replace with actual album cover -->
+              </div>
+              <div class="album-info">
+                <p class="album-title">it's pop</p>
+                <p class="album-meta">Release Date: March 8, 2024 | Songs: 22</p>
+              </div>
+            </div>
+            <div class="track-list" id="track-list-12">
+              <ul>
+                <li>1. Low life dirty rat</li>
+                <li>2. A seal</li>
+                <li>3. Summit</li>
+                <li>4. New hemp plant</li>
+                <li>5. Melly</li>
+                <li>6. Stuck in life</li>
+                <li>7. Heart census</li>
+                <li>8. Kevin Hart</li>
+                <li>9. Head</li>
+                <li>10. Imagination</li>
+                <li>11. Lonely note</li>
+                <li>12. Hubble</li>
+                <li>13. Take me out</li>
+                <li>14. Reward Money</li>
+                <li>15. Big fat lie</li>
+                <li>16. The calm</li>
+                <li>17. I don't know</li>
+                <li>18. I get the ghetto</li>
+                <li>19. Sliving</li>
+                <li>20. Bagging this home</li>
+                <li>21. Bag grips</li>
+                <li>22. Outro</li>
+              </ul>
+            </div>
+          </div>
+          
+          
+          
+          <!-- Troubadour... Album -->
+          <div class="album-card">
+            <div class="album-item" onclick="toggleTrackList(11)">
+              <div class="album-cover">
+                <img src="../images/albums/Troubadour.png" alt="Troubadour" />
+                <!-- Replace with actual album cover -->
+              </div>
+              <div class="album-info">
+                <p class="album-title">Troubadour</p>
+                <p class="album-meta">Release Date: January 21, 2024 | Songs: 23</p>
+              </div>
+            </div>
+            <div class="track-list" id="track-list-11">
+              <ul>
+                <li>1. Eviction</li>
+                <li>2. Waste away</li>
+                <li>3. West to west</li>
+                <li>4. I'll never</li>
+                <li>5. Cave</li>
+                <li>6. Just let me go</li>
+                <li>7. Cheetah</li>
+                <li>8. Find me</li>
+                <li>9. Baby girl</li>
+                <li>10. My Hope</li>
+                <li>11. Someone asked</li>
+                <li>12. Let it go</li>
+                <li>13. Testa</li>
+                <li>14. Respiring</li>
+                <li>15. Pretty girl</li>
+                <li>16. Vacation</li>
+                <li>17. Heathrow</li>
+                <li>18. Benny</li>
+                <li>19. Beginning</li>
+                <li>20. Bedroom</li>
+                <li>21. Goodness</li>
+                <li>22. Sure we lit</li>
+                <li>23. Old door</li>
+              </ul>
+            </div>
+          </div>
+          
+          
+          <!-- Nightswan... Album -->
+          <div class="album-card">
+            <div class="album-item" onclick="toggleTrackList(10)">
+              <div class="album-cover">
+                <img src="../images/albums/Nightswan.jpg" alt="Nightswan" />
+                <!-- Replace with actual album cover -->
+              </div>
+              <div class="album-info">
+                <p class="album-title">Nightswan</p>
+                <p class="album-meta">Release Date: August 4, 2023 | Songs: 23</p>
+              </div>
+            </div>
+            <div class="track-list" id="track-list-10">
+              <ul>
+                <li>1. Curandera</li>
+                <li>2. Marilyn</li>
+                <li>3. Being friends</li>
+                <li>4. Darbies</li>
+                <li>5. Amor fati</li>
+                <li>6. Pale</li>
+                <li>7. Nominal now</li>
+                <li>8. Best stan</li>
+                <li>9. Different man</li>
+                <li>10. Fresh</li>
+                <li>11. Bad descriptions</li>
+                <li>12. Backstage Friday</li>
+                <li>13. Amusing</li>
+                <li>14. Party ho</li>
+                <li>15. Love god</li>
+                <li>16. Hungry ladies</li>
+                <li>17. Dreadnought</li>
+                <li>18. Get it out</li>
+                <li>19. Liar</li>
+                <li>20. Skin</li>
+                <li>21. Line</li>
+                <li>22. Boss woman</li>
+                <li>23. Solid ground</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- the Lover tap3... Album -->
+          <div class="album-card">
+            <div class="album-item" onclick="toggleTrackList(9)">
+              <div class="album-cover">
+                <img src="../images/albums/theLovertap3.jpg" alt="theLovertap3" />
+                <!-- Replace with actual album cover -->
+              </div>
+              <div class="album-info">
+                <p class="album-title">the Lover tap3</p>
+                <p class="album-meta">Release Date: June 19, 2023 | Songs: 9</p>
+              </div>
+            </div>
+            <div class="track-list" id="track-list-9">
+              <ul>
+                <li>1. Fair this time</li>
+                <li>2. Envy</li>
+                <li>3. Hump</li>
+                <li>4. Show me a girl</li>
+                <li>5. Disclose</li>
+                <li>6. On one</li>
+                <li>7. Boink</li>
+                <li>8. Seventeen</li>
+                <li>9. All girls aren't the same</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- Lantern... Album -->
+          <div class="album-card">
+            <div class="album-item" onclick="toggleTrackList(8)">
+              <div class="album-cover">
+                <img src="../images/albums/lantern.jpg" alt="lantern" />
+                <!-- Replace with actual album cover -->
+              </div>
+              <div class="album-info">
+                <p class="album-title">Lantern</p>
+                <p class="album-meta">Release Date: February 24, 2023 | Songs: 23</p>
+              </div>
+            </div>
+            <div class="track-list" id="track-list-8">
+              <ul>
+                <li>1. Do I ever do?</li>
+                <li>2. Number busy</li>
+                <li>3. Emma I feel</li>
+                <li>4. Raunch child</li>
+                <li>5. Jekyll</li>
+                <li>6. God of clean</li>
+                <li>7. Hungry man</li>
+                <li>8. Lantern</li>
+                <li>9. 3:30</li>
+                <li>10. Be my lover</li>
+                <li>11. Purple zone</li>
+                <li>12. Shire</li>
+                <li>13. Pussy power</li>
+                <li>14. Scent</li>
+                <li>15. Yeehaw</li>
+                <li>16. Mind talk</li>
+                <li>17. Cautious</li>
+                <li>18. Sarah</li>
+                <li>19. Call for more</li>
+                <li>20. Higher calling</li>
+                <li>21. Say it</li>
+                <li>22. Avalon</li>
+                <li>23. How I lose it</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- Lantern... Album -->
+          <div class="album-card">
+            <div class="album-item" onclick="toggleTrackList(7)">
+              <div class="album-cover">
+                <img src="../images/albums/theo.jpg" alt="Theo" />
+                <!-- Replace with actual album cover -->
+              </div>
+              <div class="album-info">
+                <p class="album-title">Theo</p>
+                <p class="album-meta">Release Date: December 15, 2022 | Songs: 36</p>
+              </div>
+            </div>
+            <div class="track-list" id="track-list-7">
+              <ul>
+                <li>1. Easy son</li>
+                <li>2. Ex, your relay</li>
+                <li>3. Easy, hard</li>
+                <li>4. Apogee</li>
+                <li>5. Caret</li>
+                <li>6. Moment</li>
+                <li>7. Trauma</li>
+                <li>8. Yodel in a vial</li>
+                <li>9. Tate jersey love</li>
+                <li>10. Favourite</li>
+                <li>11. Rose</li>
+                <li>12. Swan</li>
+                <li>13. Demola (Zenosyne)</li>
+                <li>14. Heavy keys</li>
+                <li>15. Crash</li>
+                <li>16. Oh din!</li>
+                <li>17. Soured love</li>
+                <li>18. The one</li>
+                <li>19. Post soul</li>
+                <li>20. Our fall</li>
+                <li>21. Send me to sleep</li>
+                <li>22. Purpose</li>
+                <li>23. Waste the time</li>
+                <li>24. Mound gold</li>
+                <li>25. Jail</li>
+                <li>26. Stuck</li>
+                <li>27. Doobry</li>
+                <li>28. Cull sigh</li>
+                <li>29. I'm on air</li>
+                <li>30. Bread</li>
+                <li>31. I pray</li>
+                <li>32. My fantasy</li>
+                <li>33. A nearer echo</li>
+                <li>34. Happy married life</li>
+                <li>35. Polygamy</li>
+                <li>36. Sofia</li>
+              </ul>
+            </div>
+          </div>
+          
+          
+          <!-- jacaranda... Album -->
+          <div class="album-card">
+            <div class="album-item" onclick="toggleTrackList(6)">
+              <div class="album-cover">
+                <img src="../images/albums/Jacaranda.jpg" alt="Jacaranda" />
+                <!-- Replace with actual album cover -->
+              </div>
+              <div class="album-info">
+                <p class="album-title">Jacaranda</p>
+                <p class="album-meta">Release Date: September 24, 2022 | Songs: 9</p>
+              </div>
+            </div>
+            <div class="track-list" id="track-list-6">
+              <ul>
+                <li>1. Home</li>
+                <li>2. QWERTY</li>
+                <li>3. Blue heeler</li>
+                <li>4. Gargoyle</li>
+                <li>5. Silly hen</li>
+                <li>6. June</li>
+                <li>7. Thoth</li>
+                <li>8. Real sad</li>
+                <li>9. Tangerine clouds</li>
+                <li>10. What if cell like</li>
+                <li>11. Can't hide your theme</li>
+                <li>12. Paying only you</li>
+                <li>13. The pain you need</li>
+                <li>14. Mona Lisa</li>
+                <li>15. Reusable bag</li>
+                <li>16. Street lights</li>
+                <li>17. Beautiful</li>
+                <li>18. Pro hac vice</li>
+                <li>19. Cobber momma</li>
+                <li>20. Get that education</li>
+                <li>21. Telescopic</li>
+                <li>22. Christmas sleepover</li>
+              </ul>
+            </div>
+          </div>
+          
+          
+          <!-- Screen Time... Album -->
+          <div class="album-card">
+            <div class="album-item" onclick="toggleTrackList(5)">
+              <div class="album-cover">
+                <img src="../images/albums/screentime.jpg" alt="Screen Time" />
+                <!-- Replace with actual album cover -->
+              </div>
+              <div class="album-info">
+                <p class="album-title">Screen Time</p>
+                <p class="album-meta">Release Date: July 2, 2022 | Songs: 34</p>
+              </div>
+            </div>
+            <div class="track-list" id="track-list-5">
+              <ul>
+                <li>1. From the start</li>
+                <li>2. Reverse</li>
+                <li>3. Get on with Jack</li>
+                <li>4. Too deep</li>
+                <li>5. Andalucía</li>
+                <li>6. Friends</li>
+                <li>7. Text</li>
+                <li>8. Sunny</li>
+                <li>9. Humming</li>
+                <li>10. Waves</li>
+                <li>11. Addison Rae</li>
+                <li>12. Pauline</li>
+                <li>13. Skyline grey</li>
+                <li>14. Bittersweet</li>
+                <li>15. Over you</li>
+                <li>16. Dreaming</li>
+                <li>17. Relapse holding</li>
+                <li>18. Not lost</li>
+                <li>19. Hideaway</li>
+                <li>20. Superficial</li>
+                <li>21. Warning sign</li>
+                <li>22. Tears to my heart</li>
+                <li>23. I'm sorry</li>
+                <li>24. Yearning</li>
+                <li>25. Silver all gone</li>
+                <li>26. Your eyes</li>
+                <li>27. Hold over me</li>
+                <li>28. A minute</li>
+                <li>29. Mariam</li>
+                <li>30. Mine</li>
+                <li>31. Back home</li>
+                <li>32. Heaven knows</li>
+                <li>33. Assets</li>
+                <li>34. Just us two</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- Frith... Album -->
+          <div class="album-card">
+            <div class="album-item" onclick="toggleTrackList(4)">
+              <div class="album-cover">
+                <img src="../images/albums/frith.jpg" alt="Frith" />
+                <!-- Replace with actual album cover -->
+              </div>
+              <div class="album-info">
+                <p class="album-title">Frith</p>
+                <p class="album-meta">Release Date: May 5, 2022 | Songs: 23</p>
+              </div>
+            </div>
+            <div class="track-list" id="track-list-4">
+              <ul>
+                <li>1. Take no buck</li>
+                <li>2. Triple to the X</li>
+                <li>3. Facts</li>
+                <li>4. Consumed</li>
+                <li>5. Anon</li>
+                <li>6. Curveball</li>
+                <li>7. Sovereign</li>
+                <li>8. Playing</li>
+                <li>9. LILI</li>
+                <li>10. Hope</li>
+                <li>11. Popsicle</li>
+                <li>12. Ape</li>
+                <li>13. Close friends</li>
+                <li>14. Dad (Interlude)</li>
+                <li>15. Paris</li>
+                <li>16. Warn me you’re ready</li>
+                <li>17. Unfurled</li>
+                <li>18. Every door Taylor</li>
+                <li>19. Milk</li>
+                <li>20. Admissible emotions</li>
+                <li>21. Euphoria</li>
+                <li>22. Beat me down</li>
+                <li>23. Ready to begin</li>
+              </ul>
+            </div>
+          </div>
+          
+          
+          <!-- December 13... Album -->
+          <div class="album-card">
+            <div class="album-item" onclick="toggleTrackList(3)">
+              <div class="album-cover">
+                <img src="../images/albums/december13.jpg" alt="theLovertap3" />
+                <!-- Replace with actual album cover -->
+              </div>
+              <div class="album-info">
+                <p class="album-title">December 13</p>
+                <p class="album-meta">Release Date: January 10, 2022 | Songs: 25</p>
+              </div>
+            </div>
+            <div class="track-list" id="track-list-3">
+              <ul>
+                <li>1. Anarchy</li>
+                <li>2. December 13</li>
+                <li>3. Can't have you</li>
+                <li>4. Got a bitch a valve</li>
+                <li>5. Tom</li>
+                <li>6. Still can't swim</li>
+                <li>7. Well with her eff fame</li>
+                <li>8. Lili Fallon</li>
+                <li>9. Missing you</li>
+                <li>10. My girl</li>
+                <li>11. Forest</li>
+                <li>12. Flutter</li>
+                <li>13. No. 13 a bore</li>
+                <li>14. Partner</li>
+                <li>15. Something simple</li>
+                <li>16. Aperient flow</li>
+                <li>17. Six</li>
+                <li>18. Beethovenian</li>
+                <li>19. Outside</li>
+                <li>20. I think I am</li>
+                <li>21. Sound of tears</li>
+                <li>22. What’s next?</li>
+                <li>23. Scribbling with a gun</li>
+                <li>24. I'm okay</li>
+                <li>25. Milou Christmas</li>
+              </ul>
+            </div>
+          </div>
+          
+
+          <!-- Colourful Light... Album -->
+          <div class="album-card">
+            <div class="album-item" onclick="toggleTrackList(2)">
+              <div class="album-cover">
+                <img src="../images/albums/colourfullight.jpg" alt="Colourful Light" />
+                <!-- Replace with actual album cover -->
+              </div>
+              <div class="album-info">
+                <p class="album-title">Colourful Light</p>
+                <p class="album-meta">Release Date: January 18, 2023 | Songs: 30</p>
+              </div>
+            </div>
+            <div class="track-list" id="track-list-2">
+              <ul>
+            <li>1. Conterminous</li>
+            <li>2. Forever</li>
+            <li>3. Not on my mobile</li>
+            <li>4. No prolix</li>
+            <li>5. Clones</li>
+            <li>6. Needle</li>
+            <li>7. Gold pack</li>
+            <li>8. Endorphin</li>
+            <li>9. Never what it means</li>
+            <li>10. How you had me</li>
+            <li>11. I won't say it</li>
+            <li>12. On you</li>
+            <li>13. Little girl</li>
+            <li>14. Ogre</li>
+            <li>15. Living video record</li>
+            <li>16. So long</li>
+            <li>17. No telling</li>
+            <li>18. Pepperoni freestyle</li>
+            <li>19. May 1st</li>
+            <li>20. Plunge (Interlude)</li>
+            <li>21. Next to you</li>
+            <li>22. Above</li>
+            <li>23. Warden</li>
+            <li>24. Automatic</li>
+            <li>25. Colourful light</li>
+            <li>26. Gravity</li>
+            <li>27. Malady</li>
+            <li>28. Favourite girl</li>
+            <li>29. Baby sways</li>
+            <li>30. What she does</li>
+              </ul>
+            </div>
+          </div>
+
+
+          <!-- H.I.V... Album -->
+          <div class="album-card">
+            <div class="album-item" onclick="toggleTrackList(1)">
+              <div class="album-cover">
+                <img src="../images/albums/hiv.jpg" alt="H.I.V" />
+                <!-- Replace with actual album cover -->
+              </div>
+              <div class="album-info">
+                <p class="album-title">H.I.V</p>
+                <p class="album-meta">Release Date: April 17, 2019 | Songs: 13</p>
+              </div>
+            </div>
+            <div class="track-list" id="track-list-1">
+              <ul>
+            <li>1. What is Love</li>
+            <li>2. Real Friends</li>
+            <li>3. Spotlight</li>
+            <li>4. Bleeding Heart</li>
+            <li>5. Rollie Dreams</li>
+            <li>6. Bad Vibez</li>
+            <li>7. My Heart</li>
+            <li>8. Interlude</li>
+            <li>9. What is Real</li>
+            <li>10. Sunday Special</li>
+            <li>11. Hurt You</li>
+            <li>12. Two Bad Bitches</li>
+            <li>13. What's the Price?</li>
+              </ul>
+            </div>
+          </div>
+
+
+
+
+
+
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+      
+    </div>
+    
+    <section class="slice-ptb">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-xl-6">
+            <p @click="store.switchView_ii('div3')">div 3</p>
+            <p @click="store.switchView_ii('div4')">div 4</p>
+            <b class="text-primary lead fw-bold">Meet Frith Hilton</b>
+            <h1 @click="store.switchView('div2')" class="error-title mt-4 mb-5">Bio</h1>
+            <p>
+              <b class="fw-bold">Howard Frith Hilton</b> is friends with the Hiltons. <a href="https://www.instagram.com/NickyHilton">Nicky</a> is his famous Bestie,
+              <a href="https://www.instagram.com/ParisHilton">Paris'</a> younger sister.
+            </p>
+            <p>He is a known author with over fifteen poetry publications. He writes music, and has <a href="musicpool.html">several tapes</a>.</p>
+            <p><a href="https://www.instagram.com/mariam">Mariam Rod</a> is often called his wife after being his <a href="../published/poetry/collection-III.html">famous Valentine</a> in 2023.</p>
+            <p>He currently resides in Nigeria and has a big crush on <a href="https://www.instagram.com/taylorswift">Taylor Swift</a>.</p>
+            <p>He recently got into hot romance with <a href="https://www.instagram.com/madisonbeer">Madison Beer</a>, not long after this, he dedicated a poetry book to <a href="https://www.instagram.com/sza">SZA</a>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!--========== 
+    End of Bio Page ==========-->
+    
+    <!-- partial -->
+    
+    <!--========== 
+  Start of bottom page  ==========-->
+    
+    <section class="py-5 bg-pink-gradient">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center">
+            <h3 class="text-white" id="some-id">
+              I'm here
+              <u class="typer text-warning" data-words="writing,making music," data-delay="100" data-deletedelay="1000" style="color: black;"></u>
+              often.
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!--========== 
+  End of bottom page  ==========-->
+    
+    <!--========== 
+    Map section ==========-->
+    
+    <!--========== 
+  Start of footer section ==========-->
+    
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 position-relative mb-5 mb-sm-0">
+            <div class="position-absolute top-0 start-0 slice-pt ps-5 ps-lg-8"></div>
+          </div>
+          <div class="col-lg-6"></div>
+        </div>
+      </div>
+    </footer>
+    
+    <footer class="footer bg-black slice-pt">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-lg-4 offset-lg-2">
+            <h2 class="text-white display-2 mb-4">
+              <span class="typer text-white" id="some-id" data-words="Catch up!" data-delay="100"> </span>
+            </h2>
+            
+            <div class="social-icons icons-xl mt-5">
+              <a class="icon text-white" href="https://youtube.com/@frithhilton17?si=8pEsa1wf1KxLNvBK" target="_blank">
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a class="icon text-white" href="https://www.tiktok.com/@frithhilton17" target="_blank">
+                <i class="fab fa-tiktok"></i>
+              </a>
+              <a class="icon text-white" href="https://www.twitter.com/frithhilton17" target="_blank">
+                <i class="fab fa-x-twitter"></i>
+              </a>
+              <a class="icon text-white" href="https://www.instagram.com/frithhilton17" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr class="mt-7" />
+        <div class="row text-center">
+          <div class="col-12">
+            <div class="developer-footer mb-2">
+              <a href="http://leondev.com.ng" target="_blank"><img src="../images/Leondev.png" alt="lEoNDɘv" style="width: 80px !important;" height="80px !important;" /></a>
+            </div>
+            <p class="text-white mt-3 mb-4">
+              © <span id="getFullYear"></span>
+              <span class="text-pink-gradient">Howard Frith Hilton</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <!--========== 
+	Start of back to top section ==========-->
+    
+    <div class="go-top">
+      <p class="go-top-text">Scroll to top <i class="fas fa-long-arrow-alt-right ps-2"></i></p>
+    </div>
+    
+    
+  </div>
+  
+  <div v-show="store.getView() === 'div2'">
+    <div class="container">
+      <div class="album-art">
+        <img src="./musicpool-db/covers/ValenceEve/21.jpg" alt="Album Art">
+      </div>
+      <div class="track-info">
+        <h2>Queen's daughter</h2>
+        <p>Frith Hilton</p>
+      </div>
+      <div class="progress-container">
+        <div class="progress-bar">
+          <div class="progress"></div>
+        </div>
+        <div class="time">
+          <span class="current-time">00:00</span>
+          <span class="remaining-time">00:00</span>
+        </div>
+      </div>
+      <div class="controls">
+        <button @click="store.switchView('div1')" class="prev"><i class="fas fa-backward"></i></button>
+        <button class="play-pause"><i class="fas fa-play"></i></button>
+        <button class="next"><i class="fas fa-forward"></i></button>
+      </div>
+      <div class="volume-container">
+        <i class="fas fa-volume-up"></i>
+        <div class="volume-bar">
+          <div class="volume"></div>
+        </div>
+      </div>
+      
+    </div>
+    
+  </div>
+  
+  <audio id="player" :src="store.mp3"></audio>
+  <!--========== 
+	End of back to top section ==========-->
+  
+  <!--========== 
+	Start of Javascript ==========-->
+  
+  <!--===== Global required js =====-->
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap/bootstrap.min.js"></script>
+  
+  <!--===== Global script: js libraries and plugins =====-->
+  <script src="../js/appear/jquery.appear.js"></script>
+  <script src="../js/swiper/swiper.min.js"></script>
+  <script src="../js/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="../js/isotope/isotope.pkgd.min.js"></script>
+  <script src="../js/typer/typer.js"></script>
+  <script src="../js/jarallax/jarallax.min.js"></script>
+  <script src="../js/mCustomScrollbar/jquery.mCustomScrollbar.min.js"></script>
+  <!--===== Main theme script =====-->
+  <script src="../js/functions.js"></script>
+  <script src="../js/poolFunctions.js"></script>
+  <script src="../js/lyrics.js"></script>
+  <script type="module">
+    import { createApp, reactive } from "../js/petite-vue.js";
+    const store = reactive({
+      stylesheet: '../css/style.css',
+      albumsStyleSheet: '../css/musicpool.css',
+      stylesheetId: 'dynamic-stylesheet',
+      view: "div1",
+      innerView: "div4",
+      mp3: "./musicpool-db/mp3/ValenceEve/1.mp3",
+      getView() {
+        return this.view;
+      },
+      switchView(view) {
+        // Fade out
+        document.body.style.opacity = 0;
+        setTimeout(() => {
+          this.view = view;
+          this.loadStylesheet(view === 'div1' ? '../css/style.css' : '../../player/music/style.css');
+          // Fade in
+          document.body.style.opacity = 1;
+        }, 500);
+      },
+      getInnerView() {
+        return this.innerView;
+      },
+      
+      switchView_ii(innerView) {
+        // Fade out
+        document.body.style.opacity = 0;
+        setTimeout(() => {
+          this.innerView = innerView;
+          this.loadStylesheet(innerView === 'div3' ? '../css/musicpool.css' : '');
+          // Fade in
+          document.body.style.opacity = 1;
+        }, 500);
+      },
+      
+      loadStylesheet(href) {
+        // Remove existing dynamic stylesheet
+        const existingLink = document.getElementById(this.stylesheetId);
+        if (existingLink) {
+          existingLink.remove();
+        }
+        
+        // Load new stylesheet
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = href;
+        link.id = this.stylesheetId;
+        document.head.appendChild(link);
+      },
+      
+      acceptCookieUse() {
+        localStorage.setItem("cookieUse", true);
+      },
+    });
+    window.store = store;
+    createApp({
+      store,
+    }).mount("#ctrlArea");
+  </script>
+  <!--========== 
+	End of Javascript ==========-->
+</body>
+
+</html>
