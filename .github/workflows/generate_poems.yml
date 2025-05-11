@@ -55,36 +55,17 @@ jobs:
       - name: Run generation script
         run: node generate_images.js
 
-      # Step 8: Commit and push changes
-      - name: Commit and push changes
+      # Step 8: Commit and force push changes
+      - name: Commit and force push changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          
-          # Stash any unstaged changes
-          if ! git diff --quiet; then
-            echo "Stashing unstaged changes..."
-            git stash --include-untracked
-          fi
-          
-          # Pull remote changes and rebase
-          git pull origin main --rebase
-          
-          # Apply stashed changes (if any)
-          if git stash list | grep -q "stash@{0}"; then
-            echo "Applying stashed changes..."
-            git stash pop
-          fi
-          
-          # Stage changes
           git add .
-          
-          # Commit and push if there are changes
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
             git commit -m 'Generate poem images'
-            git push origin HEAD:main
+            git push --force origin HEAD:main
           fi
