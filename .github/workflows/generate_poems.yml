@@ -31,6 +31,15 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
+      - name: Ensure package-lock.json exists
+        run: |
+          if [ ! -f package-lock.json ]; then
+            echo "package-lock.json not found. Generating it..."
+            npm install
+          else
+            echo "package-lock.json found. Proceeding."
+          fi
+
       - name: Clean and install dependencies
         run: |
           npm install -g npm@latest
