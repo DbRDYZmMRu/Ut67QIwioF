@@ -62,8 +62,26 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git pull origin main --rebase  # Pull remote changes and rebase
+          
+          # Stash any unstaged changes
+          if ! git diff --quiet; then
+            echo "Stashing unstaged changes..."
+            git stash --include-untracked
+          fi
+          
+          # Pull remote changes and rebase
+          git pull origin main --rebase
+          
+          # Apply stashed changes (if any)
+          if git stash list | grep -q "stash@{0}"; then
+            echo "Applying stashed changes..."
+            git stash pop
+          fi
+          
+          # Stage changes
           git add .
+          
+          # Commit and push if there are changes
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
