@@ -1,0 +1,182 @@
+{
+  "lyrics": [
+  {
+    "id": 1,
+    "paragraph": "Wet grass thirsting in patience",
+    "startTime": 3.367538,
+    "endTime": 8.014775,
+    "words": [
+    {
+      "id": 1,
+      "text": "Wet",
+      "startTime": 3.367538,
+      "endTime": 5.756646
+    },
+    {
+      "id": 2,
+      "text": "grass",
+      "startTime": 5.756646,
+      "endTime": 6.159484
+    },
+    {
+      "id": 3,
+      "text": "thirsting",
+      "startTime": 6.159484,
+      "endTime": 6.752175
+    },
+    {
+      "id": 4,
+      "text": "in",
+      "startTime": 6.752175,
+      "endTime": 7.018039
+    },
+    {
+      "id": 5,
+      "text": "patience",
+      "startTime": 7.018039,
+      "endTime": 8.014775
+    }]
+  },
+  {
+    "id": 2,
+    "paragraph": "chatty, yapping how it smells",
+    "startTime": 8.014775,
+    "endTime": 11.996623,
+    "words": [
+    {
+      "id": 6,
+      "text": "chatty,",
+      "startTime": 8.014775,
+      "endTime": 9.346486
+    },
+    {
+      "id": 7,
+      "text": "yapping",
+      "startTime": 9.346486,
+      "endTime": 10.869081
+    },
+    {
+      "id": 8,
+      "text": "how",
+      "startTime": 10.869081,
+      "endTime": 11.004269
+    },
+    {
+      "id": 9,
+      "text": "it",
+      "startTime": 11.004269,
+      "endTime": 11.202286
+    },
+    {
+      "id": 10,
+      "text": "smells",
+      "startTime": 11.202286,
+      "endTime": 11.996623
+    }]
+  },
+  {
+    "id": 3,
+    "paragraph": "whetting, swelling runt stairs",
+    "startTime": 11.996623,
+    "endTime": 15.847347,
+    "words": [
+    {
+      "id": 11,
+      "text": "whetting,",
+      "startTime": 11.996623,
+      "endTime": 13.461841
+    },
+    {
+      "id": 12,
+      "text": "swelling",
+      "startTime": 13.461841,
+      "endTime": 14.656415
+    },
+    {
+      "id": 13,
+      "text": "runt",
+      "startTime": 14.656415,
+      "endTime": 14.918801
+    },
+    {
+      "id": 14,
+      "text": "stairs",
+      "startTime": 14.918801,
+      "endTime": 15.847347
+    }]
+  },
+  {
+    "id": 4,
+    "paragraph": "as if outlining textbook texts ",
+    "startTime": 15.847347,
+    "endTime": 19.569126,
+    "words": [
+    {
+      "id": 15,
+      "text": "as",
+      "startTime": 15.847347,
+      "endTime": 16.781962
+    },
+    {
+      "id": 16,
+      "text": "if",
+      "startTime": 16.781962,
+      "endTime": 17.048048
+    },
+    {
+      "id": 17,
+      "text": "outlining",
+      "startTime": 17.048048,
+      "endTime": 17.911661
+    },
+    {
+      "id": 18,
+      "text": "textbook",
+      "startTime": 17.911661,
+      "endTime": 18.506805
+    },
+    {
+      "id": 19,
+      "text": "texts",
+      "startTime": 18.506805,
+      "endTime": 19.569126
+    }]
+  },
+  {
+    "id": 5,
+    "paragraph": "equivocal just from its stares. ",
+    "startTime": 19.569126,
+    "endTime": 24.226825,
+    "words": [
+    {
+      "id": 20,
+      "text": "equivocal",
+      "startTime": 19.569126,
+      "endTime": 21.16362
+    },
+    {
+      "id": 21,
+      "text": "just",
+      "startTime": 21.16362,
+      "endTime": 21.692419
+    },
+    {
+      "id": 22,
+      "text": "from",
+      "startTime": 21.692419,
+      "endTime": 21.957738
+    },
+    {
+      "id": 23,
+      "text": "its",
+      "startTime": 21.957738,
+      "endTime": 22.226825
+    },
+    {
+      "id": 24,
+      "text": "stares.",
+      "startTime": 22.226825,
+      "endTime": 24.226825
+    }]
+  }]
+}

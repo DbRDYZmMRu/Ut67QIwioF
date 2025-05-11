@@ -1,0 +1,168 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Twilight breathes an early peer",
+      "startTime": 3.869076,
+      "endTime": 7.982662,
+      "words": [
+        {
+          "id": 1,
+          "text": "Twilight",
+          "startTime": 3.869076,
+          "endTime": 6.128035
+        },
+        {
+          "id": 2,
+          "text": "breathes",
+          "startTime": 6.128035,
+          "endTime": 6.721708
+        },
+        {
+          "id": 3,
+          "text": "an",
+          "startTime": 6.721708,
+          "endTime": 6.856179
+        },
+        {
+          "id": 4,
+          "text": "early",
+          "startTime": 6.856179,
+          "endTime": 7.254152
+        },
+        {
+          "id": 5,
+          "text": "peer",
+          "startTime": 7.254152,
+          "endTime": 7.982662
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "you look into the lake barely there",
+      "startTime": 7.982662,
+      "endTime": 11.303294,
+      "words": [
+        {
+          "id": 6,
+          "text": "you",
+          "startTime": 7.982662,
+          "endTime": 8.983116
+        },
+        {
+          "id": 7,
+          "text": "look",
+          "startTime": 8.983116,
+          "endTime": 9.11395
+        },
+        {
+          "id": 8,
+          "text": "into",
+          "startTime": 9.11395,
+          "endTime": 9.379413
+        },
+        {
+          "id": 9,
+          "text": "the",
+          "startTime": 9.379413,
+          "endTime": 9.513351
+        },
+        {
+          "id": 10,
+          "text": "lake",
+          "startTime": 9.513351,
+          "endTime": 9.978091
+        },
+        {
+          "id": 11,
+          "text": "barely",
+          "startTime": 9.978091,
+          "endTime": 10.575939
+        },
+        {
+          "id": 12,
+          "text": "there",
+          "startTime": 10.575939,
+          "endTime": 11.303294
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "what points up a reflection wren",
+      "startTime": 11.303294,
+      "endTime": 14.427022,
+      "words": [
+        {
+          "id": 13,
+          "text": "what",
+          "startTime": 11.303294,
+          "endTime": 12.239685
+        },
+        {
+          "id": 14,
+          "text": "points",
+          "startTime": 12.239685,
+          "endTime": 12.568527
+        },
+        {
+          "id": 15,
+          "text": "up",
+          "startTime": 12.568527,
+          "endTime": 12.833701
+        },
+        {
+          "id": 16,
+          "text": "a",
+          "startTime": 12.833701,
+          "endTime": 13.097539
+        },
+        {
+          "id": 17,
+          "text": "reflection",
+          "startTime": 13.097539,
+          "endTime": 13.628236
+        },
+        {
+          "id": 18,
+          "text": "wren",
+          "startTime": 13.628236,
+          "endTime": 14.427022
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "deferring the wet blanket. ",
+      "startTime": 14.427022,
+      "endTime": 18.090662,
+      "words": [
+        {
+          "id": 19,
+          "text": "deferring",
+          "startTime": 14.427022,
+          "endTime": 15.486129
+        },
+        {
+          "id": 20,
+          "text": "the",
+          "startTime": 15.486129,
+          "endTime": 15.755235
+        },
+        {
+          "id": 21,
+          "text": "wet",
+          "startTime": 15.755235,
+          "endTime": 16.090662
+        },
+        {
+          "id": 22,
+          "text": "blanket.",
+          "startTime": 16.090662,
+          "endTime": 18.090662
+        }
+      ]
+    }
+  ]
+}
