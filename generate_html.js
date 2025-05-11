@@ -4,18 +4,13 @@ const path = require('path');
 // Array of poetry titles
 const poetryTitles = [
 
-"Spurs Sore",
-"Dawn Stunned",
-"A Reverie’s Busy Bee",
-"In the Distance",
-"Dubious Poise",
-"Webbed Feet",
-"New Clothes",
+            "Glade Slow Raillery",
+            "Selah"
   
 ];
 
 // Create necessary directories
-const shareDir = path.join(__dirname, 'share', 'W2W', 'I');
+const shareDir = path.join(__dirname, 'share', 'W2W', 'II');
 fs.mkdirSync(shareDir, { recursive: true });
 
 // Template for the HTML content
@@ -29,7 +24,7 @@ const htmlTemplate = (title, description, keywords, ogImage, ogUrl, twitterImage
   <title>${title}</title>
   <meta name="description" content="${description}">
   <meta name="keywords" content="${keywords}">
-  <meta name="author" content="Frith Hilton">
+  <meta name="author" content="Howard Frith Hilton">
   <meta name="robots" content="index, follow">
   
   <!-- Open Graph Meta Tags -->
@@ -96,16 +91,16 @@ const htmlTemplate = (title, description, keywords, ogImage, ogUrl, twitterImage
 
 // Generate HTML files
 poetryTitles.forEach((title, index) => {
-  const description = `${title} is a poem from West to West Collection I by Howard Frith Hilton`;
-  const keywords = `${title}, West to West Collection I`;
-  const ogImage = `https://frithhilton.com.ng/images/share/W2W/1/image_${index + 1}.png`;
-  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/west-to-west-collection-I.html?query=${index + 1}`;
+  const description = `${title} is a poem from West to West Collection II by Howard Frith Hilton`;
+  const keywords = `${title}, West to West Collection II`;
+  const ogImage = `https://frithhilton.com.ng/images/share/W2W/2/image_${index + 1}.png`;
+  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/west-to-west-collection-II.html?query=${index + 1}`;
   const twitterImage = ogImage;
   const canonicalUrl = ogUrl;
   const redirectUrl = ogUrl;
   
   const htmlContent = htmlTemplate(
-    `${title} - West to West Collection I`,
+    `${title} - West to West Collection II`,
     description,
     keywords,
     ogImage,
