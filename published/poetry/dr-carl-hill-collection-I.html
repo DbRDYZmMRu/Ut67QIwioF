@@ -2,50 +2,50 @@
 <html lang="en">
 
 <head>
-<script>
+  <script>
     function getQueryParam(param) {
-        const urlParams = new URLSearchParams(window.location.search);
-
-        return urlParams.get(param);
+      const urlParams = new URLSearchParams(window.location.search);
+      
+      return urlParams.get(param);
     }
-
+    
     /**
 
  * Run the query parameter extraction on page load and update the page content.
 
  */
-
+    
     function runOnPageLoad() {
-        const queryValue = getQueryParam("query");
-
-        if (queryValue !== null) {
-            localStorage.setItem("viewDrCarlHillI", "poetry");
-
-            localStorage.setItem("DrCarlHillICurrentChapter", queryValue);
-
-            console.log("Query parameter value:", queryValue); // You can replace this line with any other action
-
-            // Update the page content based on the query parameter value
-
+      const queryValue = getQueryParam("query");
+      
+      if (queryValue !== null) {
+        localStorage.setItem("viewDrCarlHillI", "poetry");
+        
+        localStorage.setItem("DrCarlHillICurrentChapter", queryValue);
+        
+        console.log("Query parameter value:", queryValue); // You can replace this line with any other action
+        
+        // Update the page content based on the query parameter value
+        
         localStorage.setItem("coverTabDrCarlHillIIsActive", false);
         localStorage.setItem("authorTabDrCarlHillIIsActive", false);
         localStorage.setItem("dedTabDrCarlHillIIsActive", false);
         localStorage.setItem("chapterTabDrCarlHillIIsActive", true);
-
-            document.addEventListener("DOMContentLoaded", function () {
-                var integrationTab = document.getElementById("pills-integration-tab");
-
-                if (integrationTab) {
-                    integrationTab.click();
-                } else {
-                    console.error("Element with ID 'pills-integration-tab' not found.");
-                }
-            });
-        }
+        
+        document.addEventListener("DOMContentLoaded", function() {
+          var integrationTab = document.getElementById("pills-integration-tab");
+          
+          if (integrationTab) {
+            integrationTab.click();
+          } else {
+            console.error("Element with ID 'pills-integration-tab' not found.");
+          }
+        });
+      }
     }
-
+    
     runOnPageLoad();
-</script>
+  </script>
   
   <!--===== Required meta tags =====-->
   <meta charset="utf-8" />
@@ -53,19 +53,19 @@
   <meta name="author" content="Howard Frith Hilton" />
   <meta name="description" content="Dr. Carl Hill Collection (Book One) " />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+  
   <meta property="og:url" content="" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="Dr. Carl Hill Collection (Book One)" />
   <meta property="og:description" content="Dr. Carl Hill Collection (Book One)" />
   <meta property="og:image" content="" />
-
+  
   <!--===== Title =====-->
   <title>Dr. Carl Hill Collection (Book One) </title>
-
+  
   <!--===== Favicon =====-->
   <link rel="shortcut icon" href="../../images/favicon.png" />
-
+  
   <!--===== Google fonts =====-->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Jost:wght@300;400;500;600;700;800;900&display=swap" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -73,7 +73,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet" />
   <!-- font-awesome-icons -->
   <script src="https://kit.fontawesome.com/c7fbb1b458.js" crossorigin="anonymous"></script>
-
+  
   <!--===== Global bootstrap required css =====-->
   <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css" />
   <!--===== Global styles including: Font Icons, Plugins, etc =====-->
@@ -98,7 +98,7 @@
       background-color: rgba(0, 0, 0, 0.7);
       z-index: 9999;
     }
-
+    
     .image-container {
       position: absolute;
       top: 50%;
@@ -106,7 +106,7 @@
       transform: translate(-50%, -50%);
       text-align: center;
     }
-
+    
     .image-container img {
       width: 85vw;
       /* Increased width */
@@ -118,13 +118,13 @@
       /* Ensure image fits within container */
     }
   </style>
-
+  
 </head>
 
 <body class="stokes-wrapper" id="ctrlArea" v-cloak>
   <!--========== 
 	Start of loader ==========-->
-
+  
   <div class="template-loader">
     <div class="loaderCenter">
       <div class="book">
@@ -137,10 +137,10 @@
       </div>
     </div>
   </div>
-
+  
   <!--========== 
 	End of loader ==========-->
-
+  
   <!--========== 
     Start of  cookie modal notification section ==========-->
   <div class="modal-subscribe">
@@ -177,11 +177,11 @@
   <!--========== 
           End of cookie modal notification section ==========-->
   <!--==========-->
-
-
-
-
-
+  
+  
+  
+  
+  
   <header class="header">
     <!--===== Start of navbar =====-->
     <nav class="navbar navbar-light navbar-expand-lg navbar-default">
@@ -189,13 +189,13 @@
         <!--===== Start of logo =====-->
         <a class="navbar-brand" href="/"><img class="logo" src="/images/logo.png" alt="Frith Hilton Logo" /></a>
         <!--===== End of logo =====-->
-
+        
         <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="icon-bar top-bar mt-0"></span>
           <span class="icon-bar middle-bar"></span>
           <span class="icon-bar bottom-bar"></span>
         </button>
-
+        
         <!--===== Start of nav =====-->
         <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
           <ul class="navbar-nav">
@@ -206,7 +206,7 @@
               <a @click="store.goToPublished" class="nav-link dropdown-toggle" href="#" id="navbar-pages" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="text-line"> Publications</span>
               </a>
-
+              
               <!--<ul class="dropdown-menu" aria-labelledby="navbar-pages">
                 <div class="mb-3 mt-3">
                   <a href="#">
@@ -339,7 +339,7 @@
               
               </ul>-->
             </li>
-
+            
             <li class="nav-item">
               <a class="nav-link" href="../../pages/upcoming.html"><span class="text-line"> Upcoming Poetry</span></a>
             </li>
@@ -347,7 +347,7 @@
               <a class="nav-link" href="../../pages/musicpool.html"><span class="text-line"> Musicpool </span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pages/bio.html"><span class="text-line"> Bio </span></a>
+              <a class="nav-link" href="../../pages/bio.html"><span class="text-line"> Bio </span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../../cookies.html"><span class="text-line"> Cookies Policy </span></a>
@@ -359,31 +359,38 @@
     </nav>
     <!--===== End of navbar =====-->
   </header>
-
+  
   <!--========== 
         End of header ==========-->
-
+  
   <!--========== 
         End of Sidebar ==========-->
   <section class="position-relative slice-ptb">
     <div class="mb-0">
-          <a id="designer" href="https://leondev.com.ng" target="_blank" v-if="store.checkLocation()">
-            <img class="img-fluid" src="../../images/ads/designedBySamsungS8.png" alt="">
-          </a>
+      <a id="designer" href="https://leondev.com.ng" target="_blank" v-if="store.checkLocation()">
+        <img class="img-fluid" src="../../images/ads/designedBySamsungS8.png" alt="">
+      </a>
     </div>
   </section>
+  
+  
   <section class="position-relative slice-ptb">
     <div class="top-separator">
       <img class="img-fluid" src="../../images/separator/brush.svg" alt="" />
     </div>
-    <div class="slice-ptb text-nightswan-gradient mt-n5">
+    <div class="slice-ptb mt-n5">
       <div class="container">
         <div class="row text-center justify-content-center">
           <div class="col-lg-9 col-xl-8">
-            <h1 class="text-white">
+            <h1 class="text-nightswan-gradient mb-5">
               Dr. Carl Hill Collection
               <span class="text-nightswan-gradient"> (Book One) </span>
             </h1>
+            <h5 style="color: #010521">
+              <a class="icon link mt-7 fw-bold" href="https://paystack.com/pay/dchi">
+                <span>Buy epub</span>
+              </a>
+            </h5>
           </div>
         </div>
       </div>
@@ -392,7 +399,7 @@
       <img class="img-fluid" :src="'../../images/separator/brush.svg'" alt="" />
     </div>
   </section>
-
+  
   <section class="position-relative slice-ptb">
     <div class="container">
       <button class="btn btn-naked btn-icon-right" href="#!" v-effect="if
@@ -453,14 +460,14 @@
               <hr class="my-5" />
             </div>
             <div class="tab-pane fade" id="pills-integration" role="tabpanel" aria-labelledby="pills-integration-tab">
-
+              
               <div class="row justify-content-center" id="reading">
                 <div class="col-lg-6">
                   
                   <div>
                     <h3 class="mt-3 mb-5 text-center"><strong>Across the Bridge</strong></h3>
                   </div>
-
+                  
                   <hr class="my-5" />
                   <!--========== 
           Beginning of chapter titles ==========-->
@@ -478,7 +485,7 @@
                         <h5 class="mt-3">{{title}}</h5>
                         <span v-show="store.currentChapter == index" class="title-separator"></span>
                       </div>
-
+                      
                       <!--===== End of Title =====-->
                       <hr class="my-4" />
                     </div>
@@ -496,12 +503,12 @@
                         <span class="hedding-svg">{{store.pageResources().convertIndex(store.currentChapter)}}</span>
                       </h2>
                       <h5>{{store.chapterTitle}}</h5>
-
+                      
                       <div v-html="store.getChapterContent()" class="mt-4 me-4 ms-4"></div>
                     </div>
                     <!--===== End of Title =====-->
                     <hr class="my-5" />
-
+                    
                     <!--===== Go back  =====-->
                     <div class="col-lg-3 col-sm-6">
                       <p @click="store.goBack()" class="btn btn-naked-wrap go-back-btn">
@@ -511,7 +518,7 @@
                     </div>
                     <!--===== End Go back  =====-->
                   </div>
-
+                  
                   <!--========== 
           End of chapter content ==========-->
                 </div>
@@ -523,19 +530,19 @@
               <div id="media-container"></div>
             </a>
           </div>
-
+          
         </div>
       </div>
     </div>
   </section>
-
-
-
-
-
+  
+  
+  
+  
+  
   <!--========== 
   Start of bottom page  ==========-->
-
+  
   <section class="py-5 bg-pink-gradient">
     <div class="container">
       <div class="row justify-content-center">
@@ -549,17 +556,17 @@
       </div>
     </div>
   </section>
-
+  
   <!--========== 
   End of bottom page  ==========-->
-
+  
   <!--========== 
     Map section ==========-->
-
+  
   
   <!--========== 
   Start of footer section ==========-->
-
+  
   <footer class="footer">
     <div class="container">
       <div class="row">
@@ -571,7 +578,7 @@
       </div>
     </div>
   </footer>
-
+  
   <footer class="footer bg-black slice-pt">
     <div class="container">
       <div class="row">
@@ -580,7 +587,7 @@
             <span class="typer text-white" id="some-id" data-words="Catch up!" data-delay="100">
             </span>
           </h2>
-
+          
           <div class="social-icons icons-xl mt-5">
             <a class="icon text-white" href="https://youtube.com/@frithhilton17?si=8pEsa1wf1KxLNvBK" target="_blank">
               <i class="fab fa-youtube"></i>
@@ -611,99 +618,102 @@
       </div>
     </div>
   </footer>
-
+  
   <!--========== 
   End of footer section ==========-->
-
+  
   <!--========== 
         Start of back to top section ==========-->
-
+  
   <div class="go-top">
     <p class="go-top-text">
       Scroll to top <i class="fas fa-long-arrow-alt-right ps-2"></i>
     </p>
   </div>
-
+  
   <!--========== 
-	End of back to top section ==========-->	                      <div class="col-lg-3 col-sm-6">                        <p                          @click="window.location.href='../search.html'"                          class="btn btn-naked-wrap search-btn"                        >                          <i class="fas fa-search"></i>                          <span> search </span>                        </p>                      </div> 
-
+	End of back to top section ==========-->
+  <div class="col-lg-3 col-sm-6">
+    <p @click="window.location.href='../search.html'" class="btn btn-naked-wrap search-btn"> <i class="fas fa-search"></i> <span> search </span> </p>
+  </div>
+  
   <!-- Popup container -->
   <div class="popup-container" id="popup-container">
-
+    
     <!-- Image container -->
     <div id="image-container" class="image-container">
       <img src="../../images/ads/louisvuitton.gif" alt="Louis vuitton" />
     </div>
   </div>
-
+  
   <!-- Popup container -->
   <div class="popup-container" id="popup-container-vii">
-
+    
     <!-- Image container -->
     <div id="image-container-vii" class="image-container">
       <img src="../../images/ads/Orebella.gif" alt="Popup Image vii" />
     </div>
   </div>
-
+  
   <div class="popup-container" id="popup-container-iii">
-
+    
     <!-- Image container -->
     <div id="image-container-iii" class="image-container">
       <img src="../../images/ads/wildflower.gif" alt="Popup Image iii" />
     </div>
   </div>
-
+  
   <div class="popup-container" id="popup-container-iv">
-
+    
     <!-- Image container -->
     <div id="image-container-iv" class="image-container">
       <img src="../../images/ads/cosmic.gif" alt="Popup Image iv" />
     </div>
   </div>
-
+  
   <div class="popup-container" id="popup-container-v">
-
+    
     <!-- Image container -->
     <div id="image-container-v" class="image-container">
       <img src="../../images/ads/khy.gif" alt="Popup Image v" />
     </div>
   </div>
-
+  
   <div class="popup-container" id="popup-container-vi">
-
+    
     <!-- Image container -->
     <div id="image-container-vi" class="image-container">
       <img src="../../images/ads/skims.gif" alt="Popup Image vi" />
     </div>
   </div>
-
+  
   <div class="popup-container" id="popup-container-ii">
-
+    
     <!-- Image container -->
     <div id="image-container-ii" class="image-container">
       <img src="../../images/ads/xokhloe.gif" alt="Popup Image ii" />
     </div>
   </div>
-
-
-
-
-
+  
+  
+  
+  
+  
   <!--========== 
 	Start of Javascript ==========-->
-
+  
   <!--===== Global required js =====-->
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   <script src="../../js/jquery-3.6.0.min.js"></script>
   <script src="../../js/popper.min.js"></script>
   <script src="../../js/bootstrap/bootstrap.min.js"></script>
-
+  
   <!--===== Global script: js libraries and plugins =====-->
   <script src="../../js/appear/jquery.appear.js"></script>
   <script src="../../js/swiper/swiper.min.js"></script>
   <script src="../../js/magnific-popup/jquery.magnific-popup.min.js"></script>
   <script src="../../js/isotope/isotope.pkgd.min.js"></script>
-  <script src="../../js/typer/typer.js"></script>  
+  <script src="../../js/typer/typer.js"></script>
   <script src="../../js/firewall.js"></script>
   <script src="../../js/jarallax/jarallax.min.js"></script>
   <script src="../../js/mCustomScrollbar/jquery.mCustomScrollbar.min.js"></script>
@@ -716,106 +726,106 @@
       function isFirstLoadInHour() {
         const currentTime = new Date().getTime();
         const storedTime = localStorage.getItem('popupLoadTime');
-
+        
         if (!storedTime || (currentTime - storedTime) >= 0) { // 0ms = 0 minutes
           localStorage.setItem('popupLoadTime', currentTime);
           return true;
         }
-
+        
         return false;
       }
-
+      
       // Open popup on first load in the hour with 5-second delay
       if (isFirstLoadInHour()) {
         setTimeout(function() {
           $('#popup-container').fadeIn();
         }, 5000); // 5000ms = 5 seconds
       }
-
+      
       // Close popup on close button click, escape key press, or outside click
       $('#close-btn').on('click', function() {
         $('#popup-container').fadeOut();
       });
-
+      
       $(document).keyup(function(e) {
         if (e.key === 'Escape') {
           $('#popup-container').fadeOut();
         }
       });
-
+      
       // Close popup when clicking outside the image
       $('#popup-container').on('click', function(e) {
         if ($(e.target).is('#popup-container') && !$(e.target).closest('.image-container').length) {
           $(this).fadeOut();
         }
       });
-
+      
       $('#popup-container-ii').on('click', function(e) {
         if ($(e.target).is('#popup-container-ii') && !$(e.target).closest('.image-container').length) {
           $(this).fadeOut();
         }
       });
-
+      
       $('#popup-container-iii').on('click', function(e) {
         if ($(e.target).is('#popup-container-iii') && !$(e.target).closest('.image-container').length) {
           $(this).fadeOut();
         }
       });
-
+      
       $('#popup-container-iv').on('click', function(e) {
         if ($(e.target).is('#popup-container-iv') && !$(e.target).closest('.image-container').length) {
           $(this).fadeOut();
         }
       });
-
+      
       $('#popup-container-v').on('click', function(e) {
         if ($(e.target).is('#popup-container-v') && !$(e.target).closest('.image-container').length) {
           $(this).fadeOut();
         }
       });
-
+      
       $('#popup-container-vi').on('click', function(e) {
         if ($(e.target).is('#popup-container-vi') && !$(e.target).closest('.image-container').length) {
           $(this).fadeOut();
         }
       });
-
+      
       $('#popup-container-vii').on('click', function(e) {
         if ($(e.target).is('#popup-container-vii') && !$(e.target).closest('.image-container').length) {
           $(this).fadeOut();
         }
       });
-
-
-
-
-
-
-
-
-
-
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
       // Make image clickable
       $('#image-container').on('click', function() {
         // Replace with your desired action
         window.open('https://us.louisvuitton.com/eng-us/stories/the-lv-footprint-soccer?utm_source=instagram&utm_medium=social&utm_campaign=PUBL_MENSCAMPAIGNSS25_IG_US_ENG_AW_20250107_20250109_MEN_RTW_MEN_SS25', '_blank');
       });
-
+      
       $('#image-container-vii').on('click', function() {
         // Replace with your desired action
         window.open('https://orebella.com', '_blank');
       });
-
+      
       $('#image-container-iii').on('click', function() {
         // Replace with your desired action
         window.open('https://www.wildflowercases.com/en-ad', '_blank');
       });
-
+      
       $('#image-container-iv').on('click', function() {
         // Replace with your desired action
         window.open('https://www.ulta.com/p/cosmic-kylie-jenner-eau-de-parfum-pimprod2044205', '_blank');
       });
-
+      
       $('#image-container-v').on('click', function() {
         // Replace with your desired action
         window.open('https://www.khy.com/', '_blank');
@@ -824,23 +834,23 @@
         // Replace with your desired action
         window.open('https://www.skims.com/', '_blank');
       });
-
+      
       $('#image-container-ii').on('click', function() {
         // Replace with your desired action
         window.open('https://www.ulta.com/p/xo-khloe-pimprod2049077?sku=2632566&fbclid=PAZXh0bgNhZW0CMTEAAaZVXM4Lkj92LaOM2GEyeMxVRAlahdOYqvDPGzl8R2-Jsf758_E9PY8hyC8_aem__mk4AnSGz28b8amcS9xKDg', '_blank');
       });
-
-
-
-
-
-
-
-
+      
+      
+      
+      
+      
+      
+      
+      
     });
   </script>
-
-
+  
+  
   <script>
     window.fbAsyncInit = function() {
       FB.init({
@@ -852,10 +862,10 @@
     };
   </script>
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
-
+  
   <!--===== Main theme script =====-->
-
-<script type="module">
+  
+  <script type="module">
     import {
       createApp,
       reactive
@@ -904,7 +914,7 @@
           this.decodePoemURL();
           this.getCurrentChapter();
           const state = "poetry";
-
+          
           return state;
         } else {
           localStorage.setItem("viewDrCarlHillI", this.initialPageState.viewDrCarlHillI);
@@ -939,12 +949,12 @@
           $('#popup-container').fadeIn();
           this.chapterClickNo = 0;
         }
-
-
-
-
-
-
+        
+        
+        
+        
+        
+        
       },
       goBack() {
         this.goBackState = true;
@@ -965,33 +975,33 @@
           ],
           chapterTitles: [
             "0",
-"Karma’s Sequel",
-"Insipid Arrivals",
-"New Sayings",
-"Kirk Kirkendall",
-"Meow Khalifa",
-"Two Hands",
-"Cinerary Eyes",
-"Dour Trimmings",
-"Levulose",
-"Hearthstoned Exuberance",
-"At least Folly Knows",
-],
+            "Karma’s Sequel",
+            "Insipid Arrivals",
+            "New Sayings",
+            "Kirk Kirkendall",
+            "Meow Khalifa",
+            "Two Hands",
+            "Cinerary Eyes",
+            "Dour Trimmings",
+            "Levulose",
+            "Hearthstoned Exuberance",
+            "At least Folly Knows",
+          ],
           chapters: [
             `0`,
-
-`<p>Delve into the pallidity of a fresco</p>
+            
+            `<p>Delve into the pallidity of a fresco</p>
 <p>while I'm alive, I appropriate homes</p>
-<p>telling rames wanton tales of my own.</p>`, 
-
-`<p>The dusk will be back</p>
+<p>telling rames wanton tales of my own.</p>`,
+            
+            `<p>The dusk will be back</p>
 <p>and before the callous rust </p>
 <p>too, the hunters' attacks</p>
 <p>like an old chariot lost</p>
 <p>sweeps the forest triggered </p>
-<p>frightened it's bereft of spur. </p>`, 
-
-`<p>Time wants me at its bridge </p>
+<p>frightened it's bereft of spur. </p>`,
+            
+            `<p>Time wants me at its bridge </p>
 <p>long ago, I took to my heels</p>
 <p> </p>
 <p>bread was served no athlete</p>
@@ -999,9 +1009,9 @@
 <p>as patience sits cold at its dish</p>
 <p> </p>
 <p>none in time saw a face of worry </p>
-<p>with that day not by a beginning. </p>`, 
-
-`<p>Once, I wielded an old saw</p>
+<p>with that day not by a beginning. </p>`,
+            
+            `<p>Once, I wielded an old saw</p>
 <p>mountain-tall trees fell headlong</p>
 <p>but by the roots, I suffered a drudge </p>
 <p>for my old saw — I got axes, rejections</p>
@@ -1021,9 +1031,9 @@
 <p>and like a newcomer fresh from audition </p>
 <p>cutting with my old saw by a new brochure </p>
 <p>I discovered all along, I'd been a tired actor </p>
-<p>with no more words or spirit as an old chorus. </p>`, 
-
-`<p>Heartbreak is like a bullet</p>
+<p>with no more words or spirit as an old chorus. </p>`,
+            
+            `<p>Heartbreak is like a bullet</p>
 <p>a daytime ticket</p>
 <p>on a bus to neglect</p>
 <p> </p>
@@ -1044,26 +1054,26 @@
 <p>I'm the best </p>
 <p>what else</p>
 <p>the bus stop is past death</p>
-<p>I cheated for myself. </p>`, 
-
-`<p>I'm a bat with two nights</p>
+<p>I cheated for myself. </p>`,
+            
+            `<p>I'm a bat with two nights</p>
 <p>two fair dice, every flight </p>
 <p>one pip helps me decide</p>
 <p> </p>
 <p>‘tis two moanings till I'm ripe</p>
 <p>two hands, born in daylight</p>
-<p>one after another in recline. </p>`, 
-
-`<p>It's a dark world</p>
+<p>one after another in recline. </p>`,
+            
+            `<p>It's a dark world</p>
 <p>so I got withdrawn</p>
 <p> </p>
 <p>through a brack in its wall</p>
 <p>I was called</p>
 <p>lent to be born</p>
 <p>so I'm here appalled </p>
-<p>what you think is lost. </p>`, 
-
-`<p>I should be in the lamp’s pour</p>
+<p>what you think is lost. </p>`,
+            
+            `<p>I should be in the lamp’s pour</p>
 <p>the seating we so jostled for</p>
 <p>the tryst of our labour </p>
 <p>the parlour of our rancour</p>
@@ -1073,26 +1083,26 @@
 <p>where we shot first at blurs </p>
 <p>but of another bore</p>
 <p>tinctures we got to discuss</p>
-<p>sailing winds stale of rigour. </p>`, 
-
-`<p>How do you do </p>
+<p>sailing winds stale of rigour. </p>`,
+            
+            `<p>How do you do </p>
 <p>your dupe so prude</p>
 <p>felling whelming my mood</p>
 <p> </p>
 <p>so I drew it abstruse </p>
 <p>as the fraught should</p>
-<p>your legs sangria lewd. </p>`, 
-
-`<p>Doors get their drab</p>
+<p>your legs sangria lewd. </p>`,
+            
+            `<p>Doors get their drab</p>
 <p>as old lovers by the draft</p>
 <p>impassioned soldiers</p>
 <p>offhand dadded </p>
 <p> </p>
 <p>my shoulders by their racks</p>
 <p>amazing what never blanks</p>
-<p>notoriety of the ed in regard. </p>`, 
-
-`<p>The knee coal</p>
+<p>notoriety of the ed in regard. </p>`,
+            
+            `<p>The knee coal</p>
 <p>kneading slow</p>
 <p>all that froze</p>
 <p> </p>
@@ -1101,34 +1111,25 @@
 <p>a lonely host</p>
 <p>barely afloat</p>
 <p>as it took to roast. </p>`
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
           ],
           convertIndex(prop) {
             var indexNumber = prop;
@@ -1267,9 +1268,9 @@
       goToPublished() {
         window.location.href = '../books.html';
       }
-
+      
     });
-
+    
     createApp({
       store,
     }).mount("#ctrlArea");

@@ -2,50 +2,50 @@
 <html lang="en">
 
 <head>
-<script>
+  <script>
     function getQueryParam(param) {
-        const urlParams = new URLSearchParams(window.location.search);
-
-        return urlParams.get(param);
+      const urlParams = new URLSearchParams(window.location.search);
+      
+      return urlParams.get(param);
     }
-
+    
     /**
 
  * Run the query parameter extraction on page load and update the page content.
 
  */
-
+    
     function runOnPageLoad() {
-        const queryValue = getQueryParam("query");
-
-        if (queryValue !== null) {
-            localStorage.setItem("viewVIII", "poetry");
-
-            localStorage.setItem("VIIICurrentChapter", queryValue);
-
-            console.log("Query parameter value:", queryValue); // You can replace this line with any other action
-
-            // Update the page content based on the query parameter value
-
-					localStorage.setItem("coverTabVIIIIsActive", false);
-					localStorage.setItem("authorTabVIIIIsActive", false);
-					localStorage.setItem("dedTabVIIIIsActive", false);
-					localStorage.setItem("chapterTabVIIIIsActive", true);
-
-            document.addEventListener("DOMContentLoaded", function () {
-                var integrationTab = document.getElementById("pills-integration-tab");
-
-                if (integrationTab) {
-                    integrationTab.click();
-                } else {
-                    console.error("Element with ID 'pills-integration-tab' not found.");
-                }
-            });
-        }
+      const queryValue = getQueryParam("query");
+      
+      if (queryValue !== null) {
+        localStorage.setItem("viewVIII", "poetry");
+        
+        localStorage.setItem("VIIICurrentChapter", queryValue);
+        
+        console.log("Query parameter value:", queryValue); // You can replace this line with any other action
+        
+        // Update the page content based on the query parameter value
+        
+        localStorage.setItem("coverTabVIIIIsActive", false);
+        localStorage.setItem("authorTabVIIIIsActive", false);
+        localStorage.setItem("dedTabVIIIIsActive", false);
+        localStorage.setItem("chapterTabVIIIIsActive", true);
+        
+        document.addEventListener("DOMContentLoaded", function() {
+          var integrationTab = document.getElementById("pills-integration-tab");
+          
+          if (integrationTab) {
+            integrationTab.click();
+          } else {
+            console.error("Element with ID 'pills-integration-tab' not found.");
+          }
+        });
+      }
     }
-
+    
     runOnPageLoad();
-</script>
+  </script>
   
   <!--===== Required meta tags =====-->
   <meta charset="utf-8" />
@@ -53,30 +53,27 @@
   <meta name="author" content="Howard Frith Hilton" />
   <meta name="description" content="Frith Hilton Collection VIII" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <meta property="og:url"
-    content="" />
+  
+  <meta property="og:url" content="" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="Frith Hilton Collection VIII" />
   <meta property="og:description" content="Frith Hilton Collection VIII" />
-  <meta property="og:image"
-    content="" />
-
+  <meta property="og:image" content="" />
+  
   <!--===== Title =====-->
   <title>Frith Hilton Collection VIII </title>
-
+  
   <!--===== Favicon =====-->
   <link rel="shortcut icon" href="../../images/favicon.png" />
-
+  
   <!--===== Google fonts =====-->
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Jost:wght@300;400;500;600;700;800;900&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Jost:wght@300;400;500;600;700;800;900&display=swap" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet" />
- <!-- font-awesome-icons -->
- <script src="https://kit.fontawesome.com/c7fbb1b458.js" crossorigin="anonymous"></script>  
-
+  <!-- font-awesome-icons -->
+  <script src="https://kit.fontawesome.com/c7fbb1b458.js" crossorigin="anonymous"></script>
+  
   <!--===== Global bootstrap required css =====-->
   <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css" />
   <!--===== Global styles including: Font Icons, Plugins, etc =====-->
@@ -90,13 +87,13 @@
   <link rel="stylesheet" href="../../css/magnific-popup/magnific-popup.css" />
   <!--===== Main theme css =====-->
   <link rel="stylesheet" href="../../css/style.css" />
-
+  
 </head>
 
-  <body class="stokes-wrapper" id="ctrlArea" v-cloak>
-    <!--========== 
+<body class="stokes-wrapper" id="ctrlArea" v-cloak>
+  <!--========== 
 	Start of loader ==========-->
-
+  
   <div class="template-loader">
     <div class="loaderCenter">
       <div class="book">
@@ -109,88 +106,52 @@
       </div>
     </div>
   </div>
-
-    <!--========== 
+  
+  <!--========== 
 	End of loader ==========-->
-
-    <!--========== 
+  
+  <!--========== 
     Start of  cookie modal notification section ==========-->
-    <div class="modal-subscribe">
-      <!-- Modal -->
-      <div
-        class="modal fade"
-        data-bs-backdrop="static"
-        id="myModal"
-        tabindex="-1"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-body p-0 bg-secondary rounded">
-              <div class="p-5 text-center">
-                <img
-                  class="img-fluid px-5"
-                  src="/images/svg/cookie.svg"
-                  alt=""
-                />
-                <h3>Cookies</h3>
-                <p class="text-dark">
-                  <b>Hilton</b> uses cookies to enhance user experience
+  <div class="modal-subscribe">
+    <!-- Modal -->
+    <div class="modal fade" data-bs-backdrop="static" id="myModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body p-0 bg-secondary rounded">
+            <div class="p-5 text-center">
+              <img class="img-fluid px-5" src="/images/svg/cookie.svg" alt="" />
+              <h3>Cookies</h3>
+              <p class="text-dark">
+                <b>Hilton</b> uses cookies to enhance user experience
+              </p>
+              <a href="/cookies.html" class="text-primary-gradient fw-bold">Our policy</a>
+              <div class="d-grid mt-5">
+                <button type="button" class="btn btn-white rounded" data-bs-dismiss="modal" @click="store.acceptCookieUse()">
+                  Accept
+                </button>
+                <p class="text-dark mt-4">
+                  Coupled with
+                  <svg class="logo" viewBox="0 0 128 128" width="24" height="24" data-v-53ccc107="">
+                    <path fill="#42b883" d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z" data-v-53ccc107=""></path>
+                    <path fill="#35495e" d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z" data-v-53ccc107=""></path>
+                  </svg>
+                  <a href="https://github.com/vuejs/petite-vue" target="_blank" style="color: #42b883"><b>petite-vue</b></a>
                 </p>
-                <a href="/cookies.html" class="text-primary-gradient fw-bold"
-                  >Our policy</a
-                >
-                <div class="d-grid mt-5">
-                  <button
-                    type="button"
-                    class="btn btn-white rounded"
-                    data-bs-dismiss="modal"
-                    @click="store.acceptCookieUse()"
-                  >
-                    Accept
-                  </button>
-                  <p class="text-dark mt-4">
-                    Coupled with
-                    <svg
-                      class="logo"
-                      viewBox="0 0 128 128"
-                      width="24"
-                      height="24"
-                      data-v-53ccc107=""
-                    >
-                      <path
-                        fill="#42b883"
-                        d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z"
-                        data-v-53ccc107=""
-                      ></path>
-                      <path
-                        fill="#35495e"
-                        d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z"
-                        data-v-53ccc107=""
-                      ></path>
-                    </svg>
-                    <a
-                      href="https://github.com/vuejs/petite-vue"
-                      target="_blank"
-                      style="color: #42b883"
-                      ><b>petite-vue</b></a
-                    >
-                  </p>
-                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!--========== 
+  </div>
+  <!--========== 
           End of cookie modal notification section ==========-->
-    <!--==========-->
-
-
-
-
-
+  <!--==========-->
+  
+  
+  
+  
+  
   <header class="header">
     <!--===== Start of navbar =====-->
     <nav class="navbar navbar-light navbar-expand-lg navbar-default">
@@ -198,15 +159,13 @@
         <!--===== Start of logo =====-->
         <a class="navbar-brand" href="/"><img class="logo" src="/images/logo.png" alt="Frith Hilton Logo" /></a>
         <!--===== End of logo =====-->
-
-        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-          aria-label="Toggle navigation">
+        
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="icon-bar top-bar mt-0"></span>
           <span class="icon-bar middle-bar"></span>
           <span class="icon-bar bottom-bar"></span>
         </button>
-
+        
         <!--===== Start of nav =====-->
         <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
           <ul class="navbar-nav">
@@ -217,7 +176,7 @@
               <a @click="store.goToPublished" class="nav-link dropdown-toggle" href="#" id="navbar-pages" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="text-line"> Publications</span>
               </a>
-
+              
               <!--<ul class="dropdown-menu" aria-labelledby="navbar-pages">
                 <div class="mb-3 mt-3">
                   <a href="#">
@@ -359,8 +318,8 @@
               <a class="nav-link" href="../../pages/musicpool.html"><span class="text-line"> Musicpool </span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pages/bio.html"><span class="text-line"> Bio </span></a>
-            </li>            
+              <a class="nav-link" href="../../pages/bio.html"><span class="text-line"> Bio </span></a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="../../cookies.html"><span class="text-line"> Cookies Policy </span></a>
             </li>
@@ -371,31 +330,36 @@
     </nav>
     <!--===== End of navbar =====-->
   </header>
-
+  
   <!--========== 
         End of header ==========-->
-
+  
   <!--========== 
         End of Sidebar ==========-->
   <section class="position-relative slice-ptb">
-          <div class="mb-0">
-          <a id="designer" href="https://leondev.com.ng" target="_blank" v-if="store.checkLocation()">
-            <img class="img-fluid" src="../../images/ads/designedBySamsungS8.png" alt="">
-          </a>
-          </div>
+    <div class="mb-0">
+      <a id="designer" href="https://leondev.com.ng" target="_blank" v-if="store.checkLocation()">
+        <img class="img-fluid" src="../../images/ads/designedBySamsungS8.png" alt="">
+      </a>
+    </div>
   </section>
   <section class="position-relative slice-ptb">
     <div class="top-separator">
-      <img class="img-fluid" src="../../images/separator/brush.svg" alt="" />
+      <img class="img-fluid" src="/images/separator/brush.svg" alt="" />
     </div>
-    <div class="slice-ptb text-nightswan-gradient mt-n5">
+    <div class="slice-ptb mt-n5">
       <div class="container">
         <div class="row text-center justify-content-center">
           <div class="col-lg-9 col-xl-8">
-            <h1 class="text-white">
+            <h1 class="text-nightswan-gradient mb-5">
               Frith Hilton Collection
-              <span class="text-nightswan-gradient"> VIII</span>
+              <span class="text-nightswan-gradient"> VIII </span>
             </h1>
+            <h5 style="color: #010521">
+              <a class="icon link mt-7 fw-bold" href="https://paystack.com/pay/fhcviii">
+                <span>Buy epub</span>
+              </a>
+            </h5>
           </div>
         </div>
       </div>
@@ -404,7 +368,7 @@
       <img class="img-fluid" :src="'../../images/separator/brush.svg'" alt="" />
     </div>
   </section>
-
+  
   <section class="position-relative slice-ptb">
     <div class="container">
       <button class="btn btn-naked btn-icon-right" href="#!" v-effect="if
@@ -414,42 +378,32 @@
         <div class="col-12">
           <ul class="nav nav-pills nav-border-wide justify-content-center mb-3" id="pills-tab-07" role="tablist">
             <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="pills-trekking-tab" data-bs-toggle="pill"
-                data-bs-target="#pills-trekking" type="button" role="tab" aria-controls="pills-trekking"
-                aria-selected="true" @click="store.setCoverVIIIAsTab()">
+              <button class="nav-link active" id="pills-trekking-tab" data-bs-toggle="pill" data-bs-target="#pills-trekking" type="button" role="tab" aria-controls="pills-trekking" aria-selected="true" @click="store.setCoverVIIIAsTab()">
                 Cover
               </button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-analysis-tab" data-bs-toggle="pill" data-bs-target="#pills-analysis"
-                type="button" role="tab" aria-controls="pills-analysis" aria-selected="false"
-                @click="store.setAuthorVIIIAsTab()">
+              <button class="nav-link" id="pills-analysis-tab" data-bs-toggle="pill" data-bs-target="#pills-analysis" type="button" role="tab" aria-controls="pills-analysis" aria-selected="false" @click="store.setAuthorVIIIAsTab()">
                 Author's Note
               </button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-investment-management-11-tab" data-bs-toggle="pill"
-                data-bs-target="#pills-investment-management-11" type="button" role="tab"
-                aria-controls="pills-investment-management-11" aria-selected="false" @click="store.setDedVIIIAsTab()">
+              <button class="nav-link" id="pills-investment-management-11-tab" data-bs-toggle="pill" data-bs-target="#pills-investment-management-11" type="button" role="tab" aria-controls="pills-investment-management-11" aria-selected="false" @click="store.setDedVIIIAsTab()">
                 Dedication & Acknowledgements
               </button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-integration-tab" data-bs-toggle="pill"
-                data-bs-target="#pills-integration" type="button" role="tab" aria-controls="pills-integration"
-                aria-selected="false" @click="store.setChaptersVIIIAsTab()">
+              <button class="nav-link" id="pills-integration-tab" data-bs-toggle="pill" data-bs-target="#pills-integration" type="button" role="tab" aria-controls="pills-integration" aria-selected="false" @click="store.setChaptersVIIIAsTab()">
                 Chapters
               </button>
             </li>
           </ul>
           <div class="tab-content mt-5" id="pills-tabContent-07">
-            <div class="tab-pane fade show active" id="pills-trekking" role="tabpanel"
-              aria-labelledby="pills-trekking-tab">
+            <div class="tab-pane fade show active" id="pills-trekking" role="tabpanel" aria-labelledby="pills-trekking-tab">
               <div class="row">
                 <div class="col-lg-6">
-                  <img class="img-fluid" src="/images/collections/VIII/Cover.jpg"
-                    alt="Frith Hilton Collection VIII" />
-                    <hr class="my-5" />
+                  <img class="img-fluid" src="/images/collections/VIII/Cover.jpg" alt="Frith Hilton Collection VIII" />
+                  <hr class="my-5" />
                 </div>
               </div>
             </div>
@@ -475,10 +429,10 @@
               <hr class="my-5" />
             </div>
             <div class="tab-pane fade" id="pills-integration" role="tabpanel" aria-labelledby="pills-integration-tab">
-
+              
               <div class="row justify-content-center" id="reading">
                 <div class="col-lg-6">
-
+                  
                   <hr class="my-5" />
                   <!--========== 
           Beginning of chapter titles ==========-->
@@ -496,7 +450,7 @@
                         <h5 class="mt-3">{{title}}</h5>
                         <span v-show="store.currentChapter == index" class="title-separator"></span>
                       </div>
-
+                      
                       <!--===== End of Title =====-->
                       <hr class="my-4" />
                     </div>
@@ -514,12 +468,12 @@
                         <span class="hedding-svg">{{store.pageResources().convertIndex(store.currentChapter)}}</span>
                       </h2>
                       <h5>{{store.chapterTitle}}</h5>
-
+                      
                       <div v-html="store.getChapterContent()" class="mt-4 me-4 ms-4"></div>
                     </div>
                     <!--===== End of Title =====-->
                     <hr class="my-5" />
-
+                    
                     <!--===== Go back  =====-->
                     <div class="col-lg-3 col-sm-6">
                       <p @click="store.goBack()" class="btn btn-naked-wrap go-back-btn">
@@ -529,51 +483,50 @@
                     </div>
                     <!--===== End Go back  =====-->
                   </div>
-
+                  
                   <!--========== 
           End of chapter content ==========-->
                 </div>
               </div>
             </div>
           </div>
-                              <div class="mt-5 mb-5">
-          <a id="ad2" href="#ad2">
-            <img class="img-fluid" src="../../images/bg/bg5.jpg" alt="">
-          </a>
+          <div class="mt-5 mb-5">
+            <a id="ad2" href="#ad2">
+              <img class="img-fluid" src="../../images/bg/bg5.jpg" alt="">
+            </a>
           </div>
-
+          
         </div>
       </div>
     </div>
   </section>
-
-
-
-
-
-    <!--========== 
+  
+  
+  
+  
+  
+  <!--========== 
   Start of bottom page  ==========-->
-
+  
   <section class="py-5 bg-pink-gradient">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 text-center">
           <h3 class="text-white" id="some-id">
             I'm here
-            <u class="typer text-warning" data-words="writing,making music," data-delay="100" data-deletedelay="1000"
-              style="color: black"></u>
+            <u class="typer text-warning" data-words="writing,making music," data-delay="100" data-deletedelay="1000" style="color: black"></u>
             often.
           </h3>
         </div>
       </div>
     </div>
   </section>
-
+  
   <!--========== 
   End of bottom page  ==========-->
-
   
-
+  
+  
   <footer class="footer">
     <div class="container">
       <div class="row">
@@ -585,7 +538,7 @@
       </div>
     </div>
   </footer>
-
+  
   <footer class="footer bg-black slice-pt">
     <div class="container">
       <div class="row">
@@ -594,14 +547,14 @@
             <span class="typer text-white" id="some-id" data-words="Catch up!" data-delay="100">
             </span>
           </h2>
-
+          
           <div class="social-icons icons-xl mt-5">
             <a class="icon text-white" href="https://youtube.com/@frithhilton17?si=8pEsa1wf1KxLNvBK" target="_blank">
               <i class="fab fa-youtube"></i>
             </a>
             <a class="icon text-white" href="https://www.tiktok.com/@frithhilton17" target="_blank">
               <i class="fab fa-tiktok"></i>
-            </a>            
+            </a>
             <a class="icon text-white" href="https://www.twitter.com/frithhilton17" target="_blank">
               <i class="fab fa-x-twitter"></i>
             </a>
@@ -614,9 +567,9 @@
       <hr class="mt-7" />
       <div class="row text-center">
         <div class="col-12">
-<div class="developer-footer mb-2">
-    <a href="https://leondev.com.ng" target="_blank"><img src="/images/Leondev.png" alt="lEoNDɘv" width="80" height="80"></a>  
-</div>                            
+          <div class="developer-footer mb-2">
+            <a href="https://leondev.com.ng" target="_blank"><img src="/images/Leondev.png" alt="lEoNDɘv" width="80" height="80"></a>
+          </div>
           <p class="text-white mt-3 mb-4">
             © <span id="getFullYear"></span>
             <span class="text-pink-gradient">Howard Frith Hilton</span>
@@ -625,44 +578,46 @@
       </div>
     </div>
   </footer>
-
+  
   <!--========== 
   End of footer section ==========-->
-
+  
   <!--========== 
         Start of back to top section ==========-->
-
+  
   <div class="go-top">
     <p class="go-top-text">
       Scroll to top <i class="fas fa-long-arrow-alt-right ps-2"></i>
     </p>
   </div>
-
+  
   <!--========== 
-	End of back to top section ==========-->	                      <div class="col-lg-3 col-sm-6">                        <p                          @click="window.location.href='../search.html'"                          class="btn btn-naked-wrap search-btn"                        >                          <i class="fas fa-search"></i>                          <span> search </span>                        </p>                      </div> 
+	End of back to top section ==========-->
+  <div class="col-lg-3 col-sm-6">
+    <p @click="window.location.href='../search.html'" class="btn btn-naked-wrap search-btn"> <i class="fas fa-search"></i> <span> search </span> </p>
+  </div>
   <!--========== 
 	Start of Javascript ==========-->
-
+  
   <!--===== Global required js =====-->
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   <script src="../../js/jquery-3.6.0.min.js"></script>
   <script src="../../js/popper.min.js"></script>
   <script src="../../js/bootstrap/bootstrap.min.js"></script>
-
+  
   <!--===== Global script: js libraries and plugins =====-->
   <script src="../../js/appear/jquery.appear.js"></script>
   <script src="../../js/swiper/swiper.min.js"></script>
   <script src="../../js/magnific-popup/jquery.magnific-popup.min.js"></script>
   <script src="../../js/isotope/isotope.pkgd.min.js"></script>
-  <script src="../../js/typer/typer.js"></script>     <script src="../../js/firewall.js"></script>
+  <script src="../../js/typer/typer.js"></script>
+  <script src="../../js/firewall.js"></script>
   <script src="../../js/jarallax/jarallax.min.js"></script>
   <script src="../../js/mCustomScrollbar/jquery.mCustomScrollbar.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/numbered/1.1.0/index.min.js"
-    integrity="sha512-UQKbSOyUPIxk4a5/TIcqKUfl2JX0b1Rgq16BgvZbIWa7g5g3Rl/RXzFJFt2iu9LzDUpqDbcaak2ifjW887SxPw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/numbered/1.1.0/index.min.js" integrity="sha512-UQKbSOyUPIxk4a5/TIcqKUfl2JX0b1Rgq16BgvZbIWa7g5g3Rl/RXzFJFt2iu9LzDUpqDbcaak2ifjW887SxPw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="../../js/collection-VIII.js"></script>
   <script>
-    window.fbAsyncInit = function () {
+    window.fbAsyncInit = function() {
       FB.init({
         appId: "1292503991685432",
         autoLogAppEvents: true,
@@ -672,16 +627,17 @@
     };
   </script>
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
-
+  
   <!--===== Main theme script =====-->
-
+  
   <script type="module">
     import {
       createApp,
       reactive
     } from "../../js/petite-vue.js";
     const store = reactive({
-       IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage.getItem('accessAllowed')); return this.IPAccess; },
+      IPAccess: false,
+      checkLocation() { this.IPAccess = JSON.parse(localStorage.getItem('accessAllowed')); return this.IPAccess; },
       currentURL: "/published/poetry/collection-VIII.html",
       staticPoemURL: "",
       poemURL: "",
@@ -722,7 +678,7 @@
           this.decodePoemURL();
           this.getCurrentChapter();
           const state = "poetry";
-
+          
           return state;
         } else {
           localStorage.setItem("viewVIII", this.initialPageState.viewVIII);
@@ -752,81 +708,81 @@
           ],
           chapterTitles: [
             "0",
-"When the Bad Men Browbeat",
-"You Sexy Thing I Believe in Miracles",
-"Pomona Bears a Lantern",
-"Remorse Restaurant",
-"How I'd Employ a Boring Tongue",
-"Red Thread of Fate",
-"Closed Circuit",
-"Whopper Bopper",
-"Dismissed Laud",
-"The Rod of Asclepius",
-"It's a Military Campaign",
-"Got it Bad or Great?",
-"Bestie",
-"Fine Gyre",
-"Unfamiliar Stories",
-"Kendall's Swatch",
-"Oh Nadir",
-"Mummy's Hutch",
-"Quoit",
-"The Queen",
-"No Handle to this Gavel",
-"The Demure Chalice",
-"Hello Proprietor"
-],
+            "When the Bad Men Browbeat",
+            "You Sexy Thing I Believe in Miracles",
+            "Pomona Bears a Lantern",
+            "Remorse Restaurant",
+            "How I'd Employ a Boring Tongue",
+            "Red Thread of Fate",
+            "Closed Circuit",
+            "Whopper Bopper",
+            "Dismissed Laud",
+            "The Rod of Asclepius",
+            "It's a Military Campaign",
+            "Got it Bad or Great?",
+            "Bestie",
+            "Fine Gyre",
+            "Unfamiliar Stories",
+            "Kendall's Swatch",
+            "Oh Nadir",
+            "Mummy's Hutch",
+            "Quoit",
+            "The Queen",
+            "No Handle to this Gavel",
+            "The Demure Chalice",
+            "Hello Proprietor"
+          ],
           chapters: [
             `0`,
-`<p>Hilton has a pen</p>
+            `<p>Hilton has a pen</p>
 <p>he thinks of the end</p>
 <p>but he hasn’t a thing to tend</p>
 <p>not if he is to someday bend</p>
-<p>saying he loves you inked well.</p>`, 
-`<p>Living in a parachute all the time</p>
+<p>saying he loves you inked well.</p>`,
+            `<p>Living in a parachute all the time</p>
 <p>an angel without wings from the sky</p>
 <p>is how I’ve felt since I got stuck in heights</p>
 <p>up here, the atmosphere is nothing but blithe</p>
-<p>and it’s quite the bite with you, everything I descry.</p>`, 
-`<p> Built on the pastiche of true</p>
+<p>and it’s quite the bite with you, everything I descry.</p>`,
+            `<p> Built on the pastiche of true</p>
 <p>as to … <em>this love ballooned</em></p>
 <p>with the fecundity of whom</p>
 <p>she had all of that wattle</p>
-<p>I, every daub, a move.</p>`, 
-`<p>The returning attendants arrived</p>
+<p>I, every daub, a move.</p>`,
+            `<p>The returning attendants arrived</p>
 <p>left on the table was only a vial</p>
 <p>emptiness had its new profile</p>
 <p>their visage as they espied</p>
 <p>with specious red eyes</p>
 <p>sought only to belie</p>
-<p>so she paid in jibes.</p>`, 
-`<p>Tapping with my fingers</p>
+<p>so she paid in jibes.</p>`,
+            `<p>Tapping with my fingers</p>
 <p>I saw how fast a beat drags</p>
 <p>no longer than common smacks</p>
 <p>if you kiss like Hilton and never bathe</p>
 <p>but today by a drum, I’m giving no hang</p>
 <p>birthday wishes as long as a French impasse.</p>`,
-`<p>Raising a puppy</p>
+            `<p>Raising a puppy</p>
 <p>together haughty</p>
 <p>the reasons motley</p>
 <p>founded, too, furtive</p>
 <p>all the way for deductive</p>
-<p>tale of thread and bobbin.</p>`, 
-`<p>In their goodbye trip</p>
+<p>tale of thread and bobbin.</p>`,
+            `<p>In their goodbye trip</p>
 <p>the good toon tripped</p>
 <p>could you aid his trip</p>
-<p>mindless, he’s tripped.</p>`, 
-`<p>Missing a patch of pessimism</p>
+<p>mindless, he’s tripped.</p>`,
+            `<p>Missing a patch of pessimism</p>
 <p>I brought all of the reasons</p>
 <p>one was my sober avarice</p>
 <p>my old love for hashish</p>
 <p>my well buried habits</p>
 <p>two times a bandit</p>
-<p>our one family.</p>`, 
-`<p>The quotes I love</p>
+<p>our one family.</p>`,
+            `<p>The quotes I love</p>
 <p>losing their puff</p>
-<p>in your hutch.</p>`, 
-`<p>On self-care day</p>
+<p>in your hutch.</p>`,
+            `<p>On self-care day</p>
 <p>the daredevil’s entrails</p>
 <p>were in-line for Gatorade</p>
 <p>kidney paced without a blame</p>
@@ -834,7 +790,7 @@
 <p>everyone could hear the heart’s bass</p>
 <p>the intestines clung to a rod, as if a cane</p>
 <p>no one left, not on the daredevil’s queue lane.</p>`,
-`<p>What if I’m looking in the wrong place</p>
+            `<p>What if I’m looking in the wrong place</p>
 <p>so desirous, tunnelling in your maze</p>
 <p>in hysteria fashioned for cartilage</p>
 <p>a bone of contention at grade</p>
@@ -842,8 +798,8 @@
 <p>at the end of her ambage</p>
 <p>this heart is simply lame</p>
 <p>marauding loom shame</p>
-<p>claiming … I’m insane.</p>`, 
-`<p>The only guest of timing</p>
+<p>claiming … I’m insane.</p>`,
+            `<p>The only guest of timing</p>
 <p>if like me, and carefree</p>
 <p>is hindsight memory</p>
 <p>well sat in chiming</p>
@@ -851,18 +807,18 @@
 <p>you’re peeved</p>
 <p>maybe happy</p>
 <p>it was, still is</p>
-<p>the history</p>`, 
-`<p>Occupied as the mainstream</p>
+<p>the history</p>`,
+            `<p>Occupied as the mainstream</p>
 <p>in this supporting meme</p>
 <p>of a brother, a family</p>
 <p>for a love slovenly</p>
-<p>I ask what gives?</p>`, 
-`<p>“That much,” she said</p>
+<p>I ask what gives?</p>`,
+            `<p>“That much,” she said</p>
 <p>“put in that much bread”</p>
 <p><i>but you know this ain’t Ted</i></p>
 <p><i>right? You know we’re on bed</i></p>
-<p>“I know daddy, I just want the best.”</p>`, 
-`<p>Having thought of his eye</p>
+<p>“I know daddy, I just want the best.”</p>`,
+            `<p>Having thought of his eye</p>
 <p>giving it much thought twice</p>
 <p>he rang the downstairs bell shy</p>
 <p><i>please, I’ll need more alone time</i></p>
@@ -871,24 +827,24 @@
 <p><i>no I’m not, I’m not at the moment ready</i></p>
 <p><i>I’ll need to give in to the long-time critics</i></p>
 <p><i>a couple more days to compass what I see</i></p>
-<p>and so it took him months of reading poetry.</p>`, 
-`<p>Instagram photographs</p>
+<p>and so it took him months of reading poetry.</p>`,
+            `<p>Instagram photographs</p>
 <p>afterlife paragraphs</p>
 <p>irreducible grams</p>
 <p>of sealed charm</p>
-<p>spelling hearts.</p>`, 
-`<p>By an entity playing for keeps</p>
+<p>spelling hearts.</p>`,
+            `<p>By an entity playing for keeps</p>
 <p>mummy has me on her beak</p>
 <p>for a kiss that should leak</p>
 <p>she says it’d be ad-lib</p>
-<p>just kiss me.</p>`, 
-`<p>Stop patronizing the boys</p>
+<p>just kiss me.</p>`,
+            `<p>Stop patronizing the boys</p>
 <p>we know, only you got the bum</p>
 <p>so why flaunt it, asking questions</p>
 <p>impaling a grease lightning diamond</p>
 <p>this boy does it for show, and will spurn</p>
-<p>not if your bahookie is in for rump and stump.</p>`, 
-`<p>At times I catch a glimpse</p>
+<p>not if your bahookie is in for rump and stump.</p>`,
+            `<p>At times I catch a glimpse</p>
 <p>flush</p>
 <p>of what I want and could be</p>
 <p>plush</p>
@@ -899,13 +855,13 @@
 <p>my mind forges into your identity</p>
 <p>adroit</p>
 <p>in variegated songs, and the poetic</p>
-<p>lush.</p>`, 
-`<p>The long pretence in silence</p>
+<p>lush.</p>`,
+            `<p>The long pretence in silence</p>
 <p>missing match of emmets</p>
 <p>ends in us not friends</p>
 <p>as one is helpless</p>
-<p>other in ingress.</p>`, 
-`<p>Don't judge a girl by her clothes</p>
+<p>other in ingress.</p>`,
+            `<p>Don't judge a girl by her clothes</p>
 <p>but tell her, it's on with the prose</p>
 <p>there is a hundred to one billion</p>
 <p>and more of spicy mediating photos</p>
@@ -918,16 +874,16 @@
 <p>to not judge but imagine being close</p>
 <p>so toes, they are approaching lows</p>
 <p>the distance closing in on your cloche</p>
-<p>when prose is toast, the new note.</p>`, 
-`<p>Me and mine</p>
+<p>when prose is toast, the new note.</p>`,
+            `<p>Me and mine</p>
 <p>think you’re a catfish</p>
 <p>you belie</p>
 <p>can we see your armpit</p>
 <p>to rely</p>
 <p>you’ll need to snap it.</p>
 <p>in design</p>
-<p>as models do, too neat.</p>`, 
-`<p>I miss Leonor</p>
+<p>as models do, too neat.</p>`,
+            `<p>I miss Leonor</p>
 <p>that’s the bore</p>
 <p>the one tuition</p>
 <p>my single import</p>
@@ -941,23 +897,22 @@
 <p>that’s all, all</p>
 <p>I’ve been floored</p>
 <p>by a distinction</p>
-<p>oh by gum.</p>`, 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<p>oh by gum.</p>`,
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             
             
             
@@ -1019,7 +974,7 @@
             method: "share",
             href: this.staticPoemURL,
           },
-          function (response) {}
+          function(response) {}
         );
       },
       copyURL() {
@@ -1097,12 +1052,12 @@
           ".html";
         this.staticPoemURL = shareURL;
       },
-   goToPublished() {
-      window.location.href = '../books.html';
-    }
+      goToPublished() {
+        window.location.href = '../books.html';
+      }
       
     });
-
+    
     createApp({
       store,
     }).mount("#ctrlArea");

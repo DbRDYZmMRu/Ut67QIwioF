@@ -2,50 +2,50 @@
 <html lang="en">
 
 <head>
-<script>
+  <script>
     function getQueryParam(param) {
-        const urlParams = new URLSearchParams(window.location.search);
-
-        return urlParams.get(param);
+      const urlParams = new URLSearchParams(window.location.search);
+      
+      return urlParams.get(param);
     }
-
+    
     /**
 
  * Run the query parameter extraction on page load and update the page content.
 
  */
-
+    
     function runOnPageLoad() {
-        const queryValue = getQueryParam("query");
-
-        if (queryValue !== null) {
-            localStorage.setItem("viewXIII", "poetry");
-
-            localStorage.setItem("XIIICurrentChapter", queryValue);
-
-            console.log("Query parameter value:", queryValue); // You can replace this line with any other action
-
-            // Update the page content based on the query parameter value
-
-					localStorage.setItem("coverTabXIIIIsActive", false);
-					localStorage.setItem("authorTabXIIIIsActive", false);
-					localStorage.setItem("dedTabXIIIIsActive", false);
-					localStorage.setItem("chapterTabXIIIIsActive", true);
-
-            document.addEventListener("DOMContentLoaded", function () {
-                var integrationTab = document.getElementById("pills-integration-tab");
-
-                if (integrationTab) {
-                    integrationTab.click();
-                } else {
-                    console.error("Element with ID 'pills-integration-tab' not found.");
-                }
-            });
-        }
+      const queryValue = getQueryParam("query");
+      
+      if (queryValue !== null) {
+        localStorage.setItem("viewXIII", "poetry");
+        
+        localStorage.setItem("XIIICurrentChapter", queryValue);
+        
+        console.log("Query parameter value:", queryValue); // You can replace this line with any other action
+        
+        // Update the page content based on the query parameter value
+        
+        localStorage.setItem("coverTabXIIIIsActive", false);
+        localStorage.setItem("authorTabXIIIIsActive", false);
+        localStorage.setItem("dedTabXIIIIsActive", false);
+        localStorage.setItem("chapterTabXIIIIsActive", true);
+        
+        document.addEventListener("DOMContentLoaded", function() {
+          var integrationTab = document.getElementById("pills-integration-tab");
+          
+          if (integrationTab) {
+            integrationTab.click();
+          } else {
+            console.error("Element with ID 'pills-integration-tab' not found.");
+          }
+        });
+      }
     }
-
+    
     runOnPageLoad();
-</script>
+  </script>
   
   <!--===== Required meta tags =====-->
   <meta charset="utf-8" />
@@ -53,30 +53,27 @@
   <meta name="author" content="Howard Frith Hilton" />
   <meta name="description" content="Frith Hilton Collection XIII" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <meta property="og:url"
-    content="" />
+  
+  <meta property="og:url" content="" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="Frith Hilton Collection XIII" />
   <meta property="og:description" content="Frith Hilton Collection XIII" />
-  <meta property="og:image"
-    content="" />
-
+  <meta property="og:image" content="" />
+  
   <!--===== Title =====-->
   <title>Frith Hilton Collection XIII </title>
-
+  
   <!--===== Favicon =====-->
   <link rel="shortcut icon" href="../../images/favicon.png" />
-
+  
   <!--===== Google fonts =====-->
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Jost:wght@300;400;500;600;700;800;900&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Jost:wght@300;400;500;600;700;800;900&display=swap" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet" />
- <!-- font-awesome-icons -->
- <script src="https://kit.fontawesome.com/c7fbb1b458.js" crossorigin="anonymous"></script>  
-
+  <!-- font-awesome-icons -->
+  <script src="https://kit.fontawesome.com/c7fbb1b458.js" crossorigin="anonymous"></script>
+  
   <!--===== Global bootstrap required css =====-->
   <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css" />
   <!--===== Global styles including: Font Icons, Plugins, etc =====-->
@@ -90,13 +87,13 @@
   <link rel="stylesheet" href="../../css/magnific-popup/magnific-popup.css" />
   <!--===== Main theme css =====-->
   <link rel="stylesheet" href="../../css/style.css" />
-
+  
 </head>
 
-  <body class="stokes-wrapper" id="ctrlArea" v-cloak>
-    <!--========== 
+<body class="stokes-wrapper" id="ctrlArea" v-cloak>
+  <!--========== 
 	Start of loader ==========-->
-
+  
   <div class="template-loader">
     <div class="loaderCenter">
       <div class="book">
@@ -109,88 +106,52 @@
       </div>
     </div>
   </div>
-
-    <!--========== 
+  
+  <!--========== 
 	End of loader ==========-->
-
-    <!--========== 
+  
+  <!--========== 
     Start of  cookie modal notification section ==========-->
-    <div class="modal-subscribe">
-      <!-- Modal -->
-      <div
-        class="modal fade"
-        data-bs-backdrop="static"
-        id="myModal"
-        tabindex="-1"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-body p-0 bg-secondary rounded">
-              <div class="p-5 text-center">
-                <img
-                  class="img-fluid px-5"
-                  src="/images/svg/cookie.svg"
-                  alt=""
-                />
-                <h3>Cookies</h3>
-                <p class="text-dark">
-                  <b>Hilton</b> uses cookies to enhance user experience
+  <div class="modal-subscribe">
+    <!-- Modal -->
+    <div class="modal fade" data-bs-backdrop="static" id="myModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body p-0 bg-secondary rounded">
+            <div class="p-5 text-center">
+              <img class="img-fluid px-5" src="/images/svg/cookie.svg" alt="" />
+              <h3>Cookies</h3>
+              <p class="text-dark">
+                <b>Hilton</b> uses cookies to enhance user experience
+              </p>
+              <a href="/cookies.html" class="text-primary-gradient fw-bold">Our policy</a>
+              <div class="d-grid mt-5">
+                <button type="button" class="btn btn-white rounded" data-bs-dismiss="modal" @click="store.acceptCookieUse()">
+                  Accept
+                </button>
+                <p class="text-dark mt-4">
+                  Coupled with
+                  <svg class="logo" viewBox="0 0 128 128" width="24" height="24" data-v-53ccc107="">
+                    <path fill="#42b883" d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z" data-v-53ccc107=""></path>
+                    <path fill="#35495e" d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z" data-v-53ccc107=""></path>
+                  </svg>
+                  <a href="https://github.com/vuejs/petite-vue" target="_blank" style="color: #42b883"><b>petite-vue</b></a>
                 </p>
-                <a href="/cookies.html" class="text-primary-gradient fw-bold"
-                  >Our policy</a
-                >
-                <div class="d-grid mt-5">
-                  <button
-                    type="button"
-                    class="btn btn-white rounded"
-                    data-bs-dismiss="modal"
-                    @click="store.acceptCookieUse()"
-                  >
-                    Accept
-                  </button>
-                  <p class="text-dark mt-4">
-                    Coupled with
-                    <svg
-                      class="logo"
-                      viewBox="0 0 128 128"
-                      width="24"
-                      height="24"
-                      data-v-53ccc107=""
-                    >
-                      <path
-                        fill="#42b883"
-                        d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z"
-                        data-v-53ccc107=""
-                      ></path>
-                      <path
-                        fill="#35495e"
-                        d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z"
-                        data-v-53ccc107=""
-                      ></path>
-                    </svg>
-                    <a
-                      href="https://github.com/vuejs/petite-vue"
-                      target="_blank"
-                      style="color: #42b883"
-                      ><b>petite-vue</b></a
-                    >
-                  </p>
-                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!--========== 
+  </div>
+  <!--========== 
           End of cookie modal notification section ==========-->
-    <!--==========-->
-
-
-
-
-
+  <!--==========-->
+  
+  
+  
+  
+  
   <header class="header">
     <!--===== Start of navbar =====-->
     <nav class="navbar navbar-light navbar-expand-lg navbar-default">
@@ -198,26 +159,24 @@
         <!--===== Start of logo =====-->
         <a class="navbar-brand" href="/"><img class="logo" src="/images/logo.png" alt="Frith Hilton Logo" /></a>
         <!--===== End of logo =====-->
-
-        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-          aria-label="Toggle navigation">
+        
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="icon-bar top-bar mt-0"></span>
           <span class="icon-bar middle-bar"></span>
           <span class="icon-bar bottom-bar"></span>
         </button>
-
+        
         <!--===== Start of nav =====-->
         <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="/"><span class="text-line"> Home </span></a>
-            </li>                       
+            </li>
             <li class="nav-item dropdown active">
               <a @click="store.goToPublished" class="nav-link dropdown-toggle" href="#" id="navbar-pages" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="text-line"> Publications</span>
               </a>
-
+              
               <!--<ul class="dropdown-menu" aria-labelledby="navbar-pages">
                 <div class="mb-3 mt-3">
                   <a href="#">
@@ -358,8 +317,8 @@
               <a class="nav-link" href="../../pages/musicpool.html"><span class="text-line"> Musicpool </span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pages/bio.html"><span class="text-line"> Bio </span></a>
-            </li>            
+              <a class="nav-link" href="../../pages/bio.html"><span class="text-line"> Bio </span></a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="../../cookies.html"><span class="text-line"> Cookies Policy </span></a>
             </li>
@@ -370,31 +329,36 @@
     </nav>
     <!--===== End of navbar =====-->
   </header>
-
+  
   <!--========== 
         End of header ==========-->
-
+  
   <!--========== 
         End of Sidebar ==========-->
   <section class="position-relative slice-ptb">
-          <div class="mb-0">
-          <a id="designer" href="https://leondev.com.ng" target="_blank" v-if="store.checkLocation()">
-            <img class="img-fluid" src="../../images/ads/designedBySamsungS8.png" alt="">
-          </a>
-          </div>
+    <div class="mb-0">
+      <a id="designer" href="https://leondev.com.ng" target="_blank" v-if="store.checkLocation()">
+        <img class="img-fluid" src="../../images/ads/designedBySamsungS8.png" alt="">
+      </a>
+    </div>
   </section>
   <section class="position-relative slice-ptb">
     <div class="top-separator">
-      <img class="img-fluid" src="../../images/separator/brush.svg" alt="" />
+      <img class="img-fluid" src="/images/separator/brush.svg" alt="" />
     </div>
-    <div class="slice-ptb text-nightswan-gradient mt-n5">
+    <div class="slice-ptb mt-n5">
       <div class="container">
         <div class="row text-center justify-content-center">
           <div class="col-lg-9 col-xl-8">
-            <h1 class="text-white">
+            <h1 class="text-nightswan-gradient mb-5">
               Frith Hilton Collection
-              <span class="text-nightswan-gradient"> XIII</span>
+              <span class="text-nightswan-gradient"> XIII </span>
             </h1>
+            <h5 style="color: #010521">
+              <a class="icon link mt-7 fw-bold" href="https://paystack.com/pay/fhcxiii">
+                <span>Buy epub</span>
+              </a>
+            </h5>
           </div>
         </div>
       </div>
@@ -403,7 +367,7 @@
       <img class="img-fluid" :src="'../../images/separator/brush.svg'" alt="" />
     </div>
   </section>
-
+  
   <section class="position-relative slice-ptb">
     <div class="container">
       <button class="btn btn-naked btn-icon-right" href="#!" v-effect="if
@@ -413,42 +377,32 @@
         <div class="col-12">
           <ul class="nav nav-pills nav-border-wide justify-content-center mb-3" id="pills-tab-07" role="tablist">
             <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="pills-trekking-tab" data-bs-toggle="pill"
-                data-bs-target="#pills-trekking" type="button" role="tab" aria-controls="pills-trekking"
-                aria-selected="true" @click="store.setCoverXIIIAsTab()">
+              <button class="nav-link active" id="pills-trekking-tab" data-bs-toggle="pill" data-bs-target="#pills-trekking" type="button" role="tab" aria-controls="pills-trekking" aria-selected="true" @click="store.setCoverXIIIAsTab()">
                 Cover
               </button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-analysis-tab" data-bs-toggle="pill" data-bs-target="#pills-analysis"
-                type="button" role="tab" aria-controls="pills-analysis" aria-selected="false"
-                @click="store.setAuthorXIIIAsTab()">
+              <button class="nav-link" id="pills-analysis-tab" data-bs-toggle="pill" data-bs-target="#pills-analysis" type="button" role="tab" aria-controls="pills-analysis" aria-selected="false" @click="store.setAuthorXIIIAsTab()">
                 Author's Note
               </button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-investment-management-11-tab" data-bs-toggle="pill"
-                data-bs-target="#pills-investment-management-11" type="button" role="tab"
-                aria-controls="pills-investment-management-11" aria-selected="false" @click="store.setDedXIIIAsTab()">
+              <button class="nav-link" id="pills-investment-management-11-tab" data-bs-toggle="pill" data-bs-target="#pills-investment-management-11" type="button" role="tab" aria-controls="pills-investment-management-11" aria-selected="false" @click="store.setDedXIIIAsTab()">
                 Dedication & Acknowledgements
               </button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-integration-tab" data-bs-toggle="pill"
-                data-bs-target="#pills-integration" type="button" role="tab" aria-controls="pills-integration"
-                aria-selected="false" @click="store.setChaptersXIIIAsTab()">
+              <button class="nav-link" id="pills-integration-tab" data-bs-toggle="pill" data-bs-target="#pills-integration" type="button" role="tab" aria-controls="pills-integration" aria-selected="false" @click="store.setChaptersXIIIAsTab()">
                 Chapters
               </button>
             </li>
           </ul>
           <div class="tab-content mt-5" id="pills-tabContent-07">
-            <div class="tab-pane fade show active" id="pills-trekking" role="tabpanel"
-              aria-labelledby="pills-trekking-tab">
+            <div class="tab-pane fade show active" id="pills-trekking" role="tabpanel" aria-labelledby="pills-trekking-tab">
               <div class="row">
                 <div class="col-lg-6">
-                  <img class="img-fluid" src="/images/collections/xiii/cover.jpg"
-                    alt="Frith Hilton Collection XIII" />
-                    <hr class="my-5" />
+                  <img class="img-fluid" src="/images/collections/xiii/cover.jpg" alt="Frith Hilton Collection XIII" />
+                  <hr class="my-5" />
                 </div>
               </div>
             </div>
@@ -474,10 +428,10 @@
               <hr class="my-5" />
             </div>
             <div class="tab-pane fade" id="pills-integration" role="tabpanel" aria-labelledby="pills-integration-tab">
-
+              
               <div class="row justify-content-center" id="reading">
                 <div class="col-lg-6">
-
+                  
                   <hr class="my-5" />
                   <!--========== 
           Beginning of chapter titles ==========-->
@@ -495,7 +449,7 @@
                         <h5 class="mt-3">{{title}}</h5>
                         <span v-show="store.currentChapter == index" class="title-separator"></span>
                       </div>
-
+                      
                       <!--===== End of Title =====-->
                       <hr class="my-4" />
                     </div>
@@ -513,12 +467,12 @@
                         <span class="hedding-svg">{{store.pageResources().convertIndex(store.currentChapter)}}</span>
                       </h2>
                       <h5>{{store.chapterTitle}}</h5>
-
+                      
                       <div v-html="store.getChapterContent()" class="mt-4 me-4 ms-4"></div>
                     </div>
                     <!--===== End of Title =====-->
                     <hr class="my-5" />
-
+                    
                     <!--===== Go back  =====-->
                     <div class="col-lg-3 col-sm-6">
                       <p @click="store.goBack()" class="btn btn-naked-wrap go-back-btn">
@@ -528,51 +482,50 @@
                     </div>
                     <!--===== End Go back  =====-->
                   </div>
-
+                  
                   <!--========== 
           End of chapter content ==========-->
                 </div>
               </div>
             </div>
           </div>
-                              <div class="mt-5 mb-5">
-          <a id="ad2" href="#ad2">
-            <img class="img-fluid" src="../../images/bg/bg5.jpg" alt="">
-          </a>
+          <div class="mt-5 mb-5">
+            <a id="ad2" href="#ad2">
+              <img class="img-fluid" src="../../images/bg/bg5.jpg" alt="">
+            </a>
           </div>
-
+          
         </div>
       </div>
     </div>
   </section>
-
-
-
-
-
-    <!--========== 
+  
+  
+  
+  
+  
+  <!--========== 
   Start of bottom page  ==========-->
-
+  
   <section class="py-5 bg-pink-gradient">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 text-center">
           <h3 class="text-white" id="some-id">
             I'm here
-            <u class="typer text-warning" data-words="writing,making music," data-delay="100" data-deletedelay="1000"
-              style="color: black"></u>
+            <u class="typer text-warning" data-words="writing,making music," data-delay="100" data-deletedelay="1000" style="color: black"></u>
             often.
           </h3>
         </div>
       </div>
     </div>
   </section>
-
+  
   <!--========== 
   End of bottom page  ==========-->
-
   
-
+  
+  
   <footer class="footer">
     <div class="container">
       <div class="row">
@@ -584,7 +537,7 @@
       </div>
     </div>
   </footer>
-
+  
   <footer class="footer bg-black slice-pt">
     <div class="container">
       <div class="row">
@@ -593,14 +546,14 @@
             <span class="typer text-white" id="some-id" data-words="Catch up!" data-delay="100">
             </span>
           </h2>
-
+          
           <div class="social-icons icons-xl mt-5">
             <a class="icon text-white" href="https://youtube.com/@frithhilton17?si=8pEsa1wf1KxLNvBK" target="_blank">
               <i class="fab fa-youtube"></i>
             </a>
             <a class="icon text-white" href="https://www.tiktok.com/@frithhilton17" target="_blank">
               <i class="fab fa-tiktok"></i>
-            </a>            
+            </a>
             <a class="icon text-white" href="https://www.twitter.com/frithhilton17" target="_blank">
               <i class="fab fa-x-twitter"></i>
             </a>
@@ -613,9 +566,9 @@
       <hr class="mt-7" />
       <div class="row text-center">
         <div class="col-12">
-<div class="developer-footer mb-2">
-    <a href="https://leondev.com.ng" target="_blank"><img src="/images/Leondev.png" alt="lEoNDɘv" width="80" height="80"></a>  
-</div>                            
+          <div class="developer-footer mb-2">
+            <a href="https://leondev.com.ng" target="_blank"><img src="/images/Leondev.png" alt="lEoNDɘv" width="80" height="80"></a>
+          </div>
           <p class="text-white mt-3 mb-4">
             © <span id="getFullYear"></span>
             <span class="text-pink-gradient">Howard Frith Hilton</span>
@@ -624,44 +577,46 @@
       </div>
     </div>
   </footer>
-
+  
   <!--========== 
   End of footer section ==========-->
-
+  
   <!--========== 
         Start of back to top section ==========-->
-
+  
   <div class="go-top">
     <p class="go-top-text">
       Scroll to top <i class="fas fa-long-arrow-alt-right ps-2"></i>
     </p>
   </div>
-
+  
   <!--========== 
-	End of back to top section ==========-->	                      <div class="col-lg-3 col-sm-6">                        <p                          @click="window.location.href='../search.html'"                          class="btn btn-naked-wrap search-btn"                        >                          <i class="fas fa-search"></i>                          <span> search </span>                        </p>                      </div> 
+	End of back to top section ==========-->
+  <div class="col-lg-3 col-sm-6">
+    <p @click="window.location.href='../search.html'" class="btn btn-naked-wrap search-btn"> <i class="fas fa-search"></i> <span> search </span> </p>
+  </div>
   <!--========== 
 	Start of Javascript ==========-->
-
+  
   <!--===== Global required js =====-->
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   <script src="../../js/jquery-3.6.0.min.js"></script>
   <script src="../../js/popper.min.js"></script>
   <script src="../../js/bootstrap/bootstrap.min.js"></script>
-
+  
   <!--===== Global script: js libraries and plugins =====-->
   <script src="../../js/appear/jquery.appear.js"></script>
   <script src="../../js/swiper/swiper.min.js"></script>
   <script src="../../js/magnific-popup/jquery.magnific-popup.min.js"></script>
   <script src="../../js/isotope/isotope.pkgd.min.js"></script>
-  <script src="../../js/typer/typer.js"></script>     <script src="../../js/firewall.js"></script>
+  <script src="../../js/typer/typer.js"></script>
+  <script src="../../js/firewall.js"></script>
   <script src="../../js/jarallax/jarallax.min.js"></script>
   <script src="../../js/mCustomScrollbar/jquery.mCustomScrollbar.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/numbered/1.1.0/index.min.js"
-    integrity="sha512-UQKbSOyUPIxk4a5/TIcqKUfl2JX0b1Rgq16BgvZbIWa7g5g3Rl/RXzFJFt2iu9LzDUpqDbcaak2ifjW887SxPw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/numbered/1.1.0/index.min.js" integrity="sha512-UQKbSOyUPIxk4a5/TIcqKUfl2JX0b1Rgq16BgvZbIWa7g5g3Rl/RXzFJFt2iu9LzDUpqDbcaak2ifjW887SxPw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="../../js/collection-XIII.js"></script>
   <script>
-    window.fbAsyncInit = function () {
+    window.fbAsyncInit = function() {
       FB.init({
         appId: "1292503991685432",
         autoLogAppEvents: true,
@@ -671,16 +626,17 @@
     };
   </script>
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
-
+  
   <!--===== Main theme script =====-->
-
+  
   <script type="module">
     import {
       createApp,
       reactive
     } from "../../js/petite-vue.js";
     const store = reactive({
-       IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage.getItem('accessAllowed')); return this.IPAccess; },
+      IPAccess: false,
+      checkLocation() { this.IPAccess = JSON.parse(localStorage.getItem('accessAllowed')); return this.IPAccess; },
       currentURL: "/published/poetry/collection-XIII.html",
       staticPoemURL: "",
       poemURL: "",
@@ -721,7 +677,7 @@
           this.decodePoemURL();
           this.getCurrentChapter();
           const state = "poetry";
-
+          
           return state;
         } else {
           localStorage.setItem("viewXIII", this.initialPageState.viewXIII);
@@ -754,51 +710,51 @@
           ],
           chapterTitles: [
             "0",
-"Repatriate",
-"A Gaining Day",
-"Lettuce And Potato In An Old Rag",
-"Meaning To Means",
-"Adenosine Diphosphate",
-"Misunderstood",
-"An Aniconist",
-"Swim Theory",
-"Time’s Peccavi",
-"Silent Miracles",
-"It’s The Jungle",
-"But I’m Still Sick",
-"You’re A Jewel",
-"The Truth That Lies",
-"Buffalo",
-"The Croupier’s Mullet",
-"Swallowing Pride",
-"Whiffling Ease",
-"Sell Ebbs",
-"Climate Change",
-"Buddy",
-"What Folly Brought",
-"The Brittle’s Candy Store",
-"Disguised Misanthropy",
-"Knell Culture",
-"Downhill Feelings",
-"All Time Borne",
-"Not Unlike Being Poetic",
-],
+            "Repatriate",
+            "A Gaining Day",
+            "Lettuce And Potato In An Old Rag",
+            "Meaning To Means",
+            "Adenosine Diphosphate",
+            "Misunderstood",
+            "An Aniconist",
+            "Swim Theory",
+            "Time’s Peccavi",
+            "Silent Miracles",
+            "It’s The Jungle",
+            "But I’m Still Sick",
+            "You’re A Jewel",
+            "The Truth That Lies",
+            "Buffalo",
+            "The Croupier’s Mullet",
+            "Swallowing Pride",
+            "Whiffling Ease",
+            "Sell Ebbs",
+            "Climate Change",
+            "Buddy",
+            "What Folly Brought",
+            "The Brittle’s Candy Store",
+            "Disguised Misanthropy",
+            "Knell Culture",
+            "Downhill Feelings",
+            "All Time Borne",
+            "Not Unlike Being Poetic",
+          ],
           chapters: [
             `0`,
-`<p>Tug at my soul's demise</p>
+            `<p>Tug at my soul's demise</p>
 <p>snuff the light of your eyes</p>
 <p>cradle the exploit of the wise</p>
 <p>insist at the opening of her thighs</p>
 <p>without the mind of the ice</p>
-<p>lost ships are holdings of its flight.</p>`, 
-`<p>Addressing my times</p>
+<p>lost ships are holdings of its flight.</p>`,
+            `<p>Addressing my times</p>
 <p>he says: a feat lies</p>
 <p>not in air flights</p>
 <p>but in what I hammer light</p>
 <p>I thought of him, a sprite</p>
 <p>showed him the signs</p>
 <p>he whistled until out of sight.</p>`,
-`<p>What is credible</p>
+            `<p>What is credible</p>
 <p>isn't it to be edible?</p>
 <p>&#8203;</p>
 <p>long starved, I gargled</p>
@@ -809,7 +765,7 @@
 <p>I blurred its wrinkles</p>
 <p>made a day old truth</p>
 <p>of its scratches and cuts.</p>`,
-`<p>It surely depends</p>
+            `<p>It surely depends</p>
 <p>not on what tempts</p>
 <p>into the few cents</p>
 <p>those of interest</p>
@@ -817,7 +773,7 @@
 <p>on what to attend</p>
 <p>to beget the nest</p>
 <p>what remains in health.</p>`,
-`<p>I'd give up to the chants</p>
+            `<p>I'd give up to the chants</p>
 <p>had they burped a pant</p>
 <p>in beclasping puissance</p>
 <p>&#8203;</p>
@@ -831,7 +787,7 @@
 <p>&#8203;</p>
 <p>Fatigued, it's hot rash</p>
 <p>my fracking dingbat.</p>`,
-`<p>Guiding my thoughts</p>
+            `<p>Guiding my thoughts</p>
 <p>you say to me: get up</p>
 <p>&#8203;</p>
 <p>I'm smooched frump</p>
@@ -850,7 +806,7 @@
 <p>when they first robbed</p>
 <p>they weren't this argot</p>
 <p>that gives me no vision.</p>`,
-`<p>My dear princess</p>
+            `<p>My dear princess</p>
 <p>a lapsus calami rend</p>
 <p>is in transit on bailment</p>
 <p>&#8203;</p>
@@ -860,14 +816,14 @@
 <p>without this appropriateness</p>
 <p>the guiding hand with an intent</p>
 <p>their parade isn't the homestead.</p>`,
-`<p>I've been dreaming of a rim</p>
+            `<p>I've been dreaming of a rim</p>
 <p>at times, I gasp at how it seems</p>
 <p>a life, where only I, can truly sing</p>
 <p>I hit it, all knowing from listening</p>
 <p>I see it nonetheless, and to it, grieve</p>
 <p>for a whole world of cretins</p>
 <p>being mine, I know I found victory.</p>`,
-`<p>Let's make out on the night sky</p>
+            `<p>Let's make out on the night sky</p>
 <p>where the fading rays sigh</p>
 <p>at the horizon suture holding time</p>
 <p>for my longings are past cloud nine</p>
@@ -876,14 +832,14 @@
 <p>to see it rise, its slow setting; to see you chide</p>
 <p>but to remain here with me is to ruse the sky</p>
 <p>for a boutade only you and me can find.</p>`,
-`<p>Gingerly, I held on to my heart</p>
+            `<p>Gingerly, I held on to my heart</p>
 <p>leasing it the similitude of the quiet</p>
 <p>ungregarious, I forged what was faint</p>
 <p>my mind was in a jink, at its cline, silent</p>
 <p>no one said, but I was failing the test</p>
 <p>if only the vapour, it would get its grith</p>
 <p>as for me, I'd need a great dush to hit</p>`,
-`<p>In this given situation</p>
+            `<p>In this given situation</p>
 <p>the stairs has me stumped</p>
 <p>by its appetite for the frivolous</p>
 <p>orchestrating case thoughts</p>
@@ -891,7 +847,7 @@
 <p>with a thought bubble assumption</p>
 <p>in a landing's snug, I catch the bogus</p>
 <p>that I'm myself a story that does talk.</p>`,
-`<p>This isn't advantageous</p>
+            `<p>This isn't advantageous</p>
 <p>and neither is the hardwood floor</p>
 <p>you reported to seeing my what?</p>
 <p>you said the creaking legs of a frog</p>
@@ -903,7 +859,7 @@
 <p>I sit by another reminding winding clock</p>
 <p>when you and everyone called me a crock</p>
 <p>I then see why I'm here, in mayhem's shawl.</p>`,
-`<p>Waiting, I must</p>
+            `<p>Waiting, I must</p>
 <p>by a night's light's stump</p>
 <p>to dispossess my lust</p>
 <p>and to rede my hurt</p>
@@ -917,7 +873,7 @@
 <p>open to the same mind I was wrong</p>
 <p>so when another tickles, and you fall</p>
 <p>I'd be as matched close on your tongue.</p>`,
-`<p>Outlets like shadows</p>
+            `<p>Outlets like shadows</p>
 <p>in their disgruntled abodes</p>
 <p>the shapes that fill their space</p>
 <p>unbecoming, sporting their oak</p>
@@ -925,7 +881,7 @@
 <p>their amicable take-home rote</p>
 <p>outlining, dissolving, as do soaps</p>
 <p>saying eve, not morn, the sun to go.</p>`,
-`<p>It's a feline's beeline</p>
+            `<p>It's a feline's beeline</p>
 <p>with your cart racing by</p>
 <p>swoosh, past the aisles</p>
 <p>to checkout what you liked</p>
@@ -935,17 +891,17 @@
 <p>found by the usual lines</p>
 <p>we steer clear of in insight</p>
 <p>chasing a meal in a fight.</p>`,
-`<p>I'm sick of waiting to be dealt</p>
+            `<p>I'm sick of waiting to be dealt</p>
 <p>my cards are packed with health</p>
 <p>my club sits, and my hearts are red</p>
 <p>and you ask what's the thread</p>
 <p>but you obviously meant target.</p>`,
-`<p>A grenade drinks an explosion</p>
+            `<p>A grenade drinks an explosion</p>
 <p>expelled from a flawed realization</p>
 <p>of its own crumbling nature</p>
 <p>it's to say: its smatter is cardboard</p>
 <p>well off in every direction.</p>`,
-`<p>Clasped maps</p>
+            `<p>Clasped maps</p>
 <p>by high grave grass</p>
 <p>of lingering haps</p>
 <p>sensu stricto clad</p>
@@ -958,7 +914,7 @@
 <p>their raised higher backs</p>
 <p>retreat, to never attract</p>
 <p>what earth don't remember.</p>`,
-`<p>The quotient end</p>
+            `<p>The quotient end</p>
 <p>ripped in early trends</p>
 <p>has more than tears</p>
 <p>&#160;</p>
@@ -968,7 +924,7 @@
 <p>tailing her sterling stealth</p>
 <p>for a reminding éclair</p>
 <p>they slurped every repair.</p>`,
-`<p>Isn't it a better day</p>
+            `<p>Isn't it a better day</p>
 <p>the earth is dry like hay</p>
 <p>mugs aren't shot at to pick weight</p>
 <p>maybe, you'll say</p>
@@ -980,13 +936,13 @@
 <p>none answers, for their lines' rein</p>
 <p>it's where in the play I miss my fave</p>
 <p>my buddy sun I never want away.</p>`,
-`<p>So lovely in a hurry</p>
+            `<p>So lovely in a hurry</p>
 <p>as an often told story</p>
 <p>it chased its rickety</p>
 <p>by an unseen speed</p>
 <p>awry did that lorry</p>
 <p>I thought I'd missed.</p>`,
-`<p>My ego by its turn;</p>
+            `<p>My ego by its turn;</p>
 <p>an opinion</p>
 <p>she took for hurt</p>
 <p>&#160;</p>
@@ -999,7 +955,7 @@
 <p>little aware of her court</p>
 <p>now past like floods</p>
 <p>the several escorts.</p>`,
-`<p>Living across the street</p>
+            `<p>Living across the street</p>
 <p>so she pretends she's free</p>
 <p>but in the morning</p>
 <p>you'll hear her weep</p>
@@ -1012,19 +968,19 @@
 <p>no one is taking away our stills</p>
 <p>not all of her memories</p>
 <p>before the lights from the switch.</p>`,
-`<p>The critters are affected</p>
+            `<p>The critters are affected</p>
 <p>the stretch is of the tainted</p>
 <p>with flowers in my pocket.</p>`,
-`<p>Drinks are on the boss</p>
+            `<p>Drinks are on the boss</p>
 <p>when we've had enough</p>
 <p>but to all that puppy love.</p>`,
-`<p>I've had a life like goo</p>
+            `<p>I've had a life like goo</p>
 <p>a match patch chute</p>
 <p>out to strike clues</p>
 <p>&#160;</p>
 <p>misteps at root</p>
 <p>living is a ruse.</p>`,
-`<p>It all holds a feeling</p>
+            `<p>It all holds a feeling</p>
 <p>a good till it's swizz</p>
 <p>&#160;</p>
 <p>and I tell you it's sweet</p>
@@ -1050,7 +1006,7 @@
 <p>and so know what eats</p>
 <p>a new life memory</p>
 <p>for your picture dating.</p>`,
-`<p>A jolly lolly feeling</p>
+            `<p>A jolly lolly feeling</p>
 <p>from a buggy dealing</p>
 <p>&#160;</p>
 <p>best I'm dealing grease</p>
@@ -1060,21 +1016,21 @@
 <p>so here's to birthday gifting</p>
 <p>but don't forget the reporting</p>
 <p>what do we have if not friendship.</p>`,
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             
             
             
@@ -1136,7 +1092,7 @@
             method: "share",
             href: this.staticPoemURL,
           },
-          function (response) {}
+          function(response) {}
         );
       },
       copyURL() {
@@ -1214,12 +1170,12 @@
           ".html";
         this.staticPoemURL = shareURL;
       },
-   goToPublished() {
-      window.location.href = '../books.html';
-    }
+      goToPublished() {
+        window.location.href = '../books.html';
+      }
       
     });
-
+    
     createApp({
       store,
     }).mount("#ctrlArea");
