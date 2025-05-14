@@ -62,7 +62,7 @@ const files = [
   'published/poetry/dr-carl-hill-collection-III.html',
   'published/poetry/dr-carl-hill-collection-IV.html',
   'published/poetry/dr-carl-hill-collection-V.html',
-  'published/poetry/west-to-west-collection-I.html',
+  'published/poetry/west-to-west-collection-I.html',           'published/poetry/west-to-west-collection-II.html',
   'published/search.html'
 ];
 
