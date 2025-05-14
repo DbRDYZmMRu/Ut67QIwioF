@@ -35,8 +35,15 @@ jobs:
       - name: Create zip file
         run: node createZip.js
 
+      - name: Debug Workflow
+        run: |
+          echo "Listing all files in the workspace:"
+          ls -R
+          echo "Checking for output directory and files:"
+          ls output
+
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v3.1.2
         with:
           name: files-zip
           path: output/files.zip
