@@ -1,0 +1,54 @@
+name: Copy mp3 folder from Source Repo
+
+on:
+  workflow_dispatch:  # Trigger the workflow manually
+
+jobs:
+  copy-mp3-folder:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # Required to push changes to the destination repo
+
+    steps:
+      # Step 1: Checkout the destination repository
+      - name: Checkout destination repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0  # Fetch the full history to allow committing changes
+
+      # Step 2: Checkout the source repository
+      - name: Checkout source repository
+        uses: actions/checkout@v2
+        with:
+          repository: DbRDYZmMRu/frithhilton.com.ng
+          path: source-repo  # Checkout source repo into a subdirectory
+
+      # Step 3: Set up Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.17.0'
+
+      # Step 4: Install dependencies (if your script requires any)
+      - name: Install dependencies
+        run: npm install fs-extra path
+
+      # Step 5: Run the JavaScript script to copy the folder
+      - name: Run JavaScript script
+        run: node copyFolder.js
+
+      # Step 6: Commit and push changes to destination repository
+      - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Copied mp3 folder from source repository"
+            git push origin HEAD:main
+          fi
