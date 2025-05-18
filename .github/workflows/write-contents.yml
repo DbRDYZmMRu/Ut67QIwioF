@@ -1,0 +1,37 @@
+name: Write Folder Contents to File
+
+on:
+  push:  # Trigger when changes are pushed to the repository
+    branches:
+      - main
+  workflow_dispatch:  # Allow manual triggering of the workflow
+
+jobs:
+  write-folder-contents:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # Step 2: Set up Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.17.0'
+
+      # Step 3: Install dependencies (if needed)
+      - name: Install Dependencies
+        run: npm install
+
+      # Step 4: Run the script
+      - name: Run Write Contents Script
+        run: node writeContents.js
+
+      # Step 5: Upload the generated file as an artifact
+      - name: Upload contents.txt as an artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: folder-contents
+          path: contents.txt
