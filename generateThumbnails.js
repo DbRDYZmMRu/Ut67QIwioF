@@ -35,7 +35,7 @@ async function processFolder(sourceFolder, targetFolder) {
       } else if (/\.(jpg|jpeg|png|gif)$/i.test(item)) {
         // If the item is an image, generate a thumbnail
         await sharp(sourcePath)
-          .resize(150, 150) // Set thumbnail dimensions (e.g., 150x150 pixels)
+          .resize(500, 500) // Set thumbnail dimensions (e.g., 500x500 pixels)
           .toFile(targetPath);
 
         console.log(`Thumbnail created for ${sourcePath} at ${targetPath}`);
