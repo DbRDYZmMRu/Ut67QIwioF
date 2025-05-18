@@ -1,0 +1,65 @@
+name: Write MP3 Folder Contents to File
+
+on:
+  push:  # Trigger when changes are pushed to the repository
+    branches:
+      - main
+  workflow_dispatch:  # Allow manual triggering of the workflow
+
+jobs:
+  write-mp3-contents:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # Required to push changes to the repository
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # Step 2: Set up Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.17.0'
+
+      # Step 3: Install dependencies
+      - name: Install Dependencies
+        run: npm install fs-extra path
+
+      # Step 4: Verify GitHub User and Token
+      - name: Verify GitHub User and Token
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -z "${GITHUB_TOKEN}" ]; then
+            echo "Error: GITHUB_TOKEN is not set."
+            exit 1
+          fi
+          echo "GITHUB_TOKEN is available."
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      # Step 5: Run the script to write folder contents
+      - name: Run Write Contents Script
+        run: |
+          if [ -d "mp3" ]; then
+            node writeContents.js
+          else
+            echo "Error: 'mp3' folder does not exist."
+            exit 1
+          fi
+
+      # Step 6: Commit and push the changes
+      - name: Commit and Push Changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git add .
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Generated contents.txt for mp3 folder"
+            git push origin main
+          fi
