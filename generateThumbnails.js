@@ -6,6 +6,11 @@ const sharp = require('sharp');
 const coversFolder = path.join(__dirname, 'musicpool', 'covers');
 const thumbnailsFolder = path.join(__dirname, 'musicpool', 'thumbnails');
 
+// Function to sanitize names by removing all whitespace
+function sanitizeName(name) {
+  return name.replace(/\s+/g, ''); // Remove all spaces from the name
+}
+
 // Function to generate thumbnails recursively
 async function processFolder(sourceFolder, targetFolder) {
   try {
@@ -18,8 +23,9 @@ async function processFolder(sourceFolder, targetFolder) {
     const items = fs.readdirSync(sourceFolder);
 
     for (const item of items) {
+      const sanitizedItemName = sanitizeName(item); // Sanitize the item name
       const sourcePath = path.join(sourceFolder, item);
-      const targetPath = path.join(targetFolder, item);
+      const targetPath = path.join(targetFolder, sanitizedItemName);
 
       const stats = fs.statSync(sourcePath);
 
