@@ -37,7 +37,7 @@
   
   <!--===== Main theme css =====-->
   <link rel="stylesheet" href="../css/style.css" />
-  <link rel="stylesheet" href="../css/musicpool.css" />
+  <link rel="stylesheet" href="../css/freshPlayer.css" />
   <style>
     [v-cloak] {
       display: none;
@@ -156,7 +156,7 @@
                 <a class="nav-link" href="upcoming.html"><span class="text-line"> Upcoming Poetry</span></a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="musicpool.html"><span class="text-line"> Fresh Music </span></a>
+                <a class="nav-link" href="freshPlayer.html"><span class="text-line"> Fresh Player </span></a>
               </li>
               
               <li class="nav-item">
@@ -913,7 +913,7 @@
           <button class="close-btn" id="close-search-popup">×</button>
           <h2 class="h4 text-primary">Search</h2>
           <form id="search-form" autocomplete="off">
-            <input type="text" class="form-control search-input" placeholder="Search for tracks, albums, or artists..." id="search-input" autofocus />
+            <input type="text" class="form-control search-input" placeholder="Search for tracks or albums..." id="search-input" autofocus />
           </form>
           <!-- Search Results Pane -->
           <div class="search-results" id="search-results">
@@ -2151,7 +2151,7 @@
       albumCount: 15,
       currentAlbumId: null,
       baseStylesheet: '../css/style.css',
-      albumsStyleSheet: '../css/musicpool.css',
+      albumsStyleSheet: '../css/freshPlayer.css',
       stylesheetId: 'dynamic-stylesheet',
       view: "div1",
       innerView: "div3",
@@ -2243,7 +2243,7 @@
         document.body.style.opacity = 0;
         setTimeout(() => {
           this.innerView = innerView;
-          this.loadStylesheet(innerView === 'div3' ? '../css/musicpool.css' : '');
+          this.loadStylesheet(innerView === 'div3' ? '../css/freshPlayer.css' : '');
           // Fade in
           document.body.style.opacity = 1;
         }, 500);
