@@ -237,17 +237,6 @@
 		/* ------------------------------------------------------------------------
 		 * Video audio
 		 * ------------------------------------------------------------------------ */
-		var _video = $('video');
-		var _audio = $('audio');
-		if (_video.length > 0 || _audio.length > 0) {
-			$('video, audio').mediaelementplayer({
-				// Configuration
-				success: function (media) {
-					var isNative = /html5|native/i.test(media.rendererName);
-					var isYoutube = ~media.rendererName.indexOf('youtube');
-				}
-			});
-		}
 
 		/* ------------------------------------------------------------------------
 		 * Countdown
