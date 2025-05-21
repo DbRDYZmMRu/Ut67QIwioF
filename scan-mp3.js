@@ -38,6 +38,9 @@ function saveCover(coverData, coverPath) {
         saveCover(picture.data, coverPath);
       }
 
+      // Exclude the picture buffer from the JSON result
+      const { picture, ...commonWithoutPicture } = metadata.common;
+
       results.push({
         file: path.relative(mp3Folder, file),
         title: metadata.common.title,
@@ -47,7 +50,7 @@ function saveCover(coverData, coverPath) {
         artist: metadata.common.artist,
         duration: metadata.format.duration,
         cover: coverPath ? path.relative(__dirname, coverPath) : null,
-        ...metadata.common // includes year, genre, etc.
+        ...commonWithoutPicture // now safe: no 'picture' buffer included!
       });
     } catch (err) {
       console.error(`Error reading ${file}:`, err.message);
