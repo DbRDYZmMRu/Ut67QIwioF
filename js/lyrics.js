@@ -4,32 +4,32 @@ const albums = [
     name: 'H.I.V',
     releaseDate: 'April 17, 2019',
     tracks: [
-      'What is Love', 'Real Friends', 'Spotlight', 'Bleeding Heart', 'Rollie Dreams',
-      'Bad Vibez', 'My Heart', 'Interlude', 'What is Real', 'Sunday Special',
-      'Hurt You', 'Two Bad Bitches', "What's the Price?"
+      'What Is Love', 'Real Friends', 'Spotlight', 'Bleeding Heart', 'Rollie Dreams',
+      'Bad Vibez', 'My Heart', 'Interlude', 'What Is Real', 'Sunday Special',
+      'Hurt You', 'Two Bad Bitches', "What's The Price?"
     ]
   },
   {
     name: 'colourful light',
     releaseDate: 'January 18, 2023',
     tracks: [
-      'Conterminous', 'Forever', 'Not on my mobile', 'No prolix', 'Clones', 'Needle',
-      'Gold pack', 'Endorphin', 'Never what it means', 'How you had me', "I won't say it",
-      'On you', 'Little girl', 'Ogre', 'Living video record', 'So long', 'No telling',
-      'Pepperoni freestyle', 'May 1st', 'Plunge (Interlude)', 'Next to you', 'Above',
-      'Warden', 'Automatic', 'Colourful light', 'Gravity', 'Malady', 'Favourite girl',
-      'Baby sways', 'What she does'
+      'Conterminous', 'Forever', 'Not On My Mobile', 'No Prolix', 'Clones', 'Needle',
+      'Gold Pack', 'Endorphin', 'Never What It Means', 'How You Had Me', "I Won't Say It",
+      'On You', 'Little Girl', 'Ogre', 'Living Video Record', 'So Long', 'No Telling',
+      'Pepperoni Freestyle', 'May 1St', 'Plunge (Interlude)', 'Next To You', 'Above',
+      'Warden', 'Automatic', 'Colourful Light', 'Gravity', 'Malady', 'Favourite Girl',
+      'Baby Sways', 'What She Does'
     ]
   },
   {
     name: 'December 13',
     releaseDate: 'January 10, 2022',
     tracks: [
-      'Anarchy', 'December 13', "Can't have you", 'Got a bitch a valve', 'Tom',
-      "Still can't swim", 'Well with her eff fame', 'Lili Fallon', 'Missing you',
-      'My girl', 'Forest', 'Flutter', 'No. 13 a bore', 'Partner', 'Something simple',
-      'Aperient flow', 'Six', 'Beethovenian', 'Outside', 'I think I am',
-      'Sound of tears', 'What’s next?', 'Scribbling with a gun', "I'm Okay",
+      'Anarchy', 'December 13', "Can't Have You", 'Got A Bitch A Valve', 'Tom',
+      "Still Can't Swim", 'Well With Her Eff Fame', 'Lili Fallon', 'Missing You',
+      'My Girl', 'Forest', 'Flutter', 'No. 13 A Bore', 'Partner', 'Something Simple',
+      'Aperient Flow', 'Six', 'Beethovenian', 'Outside', 'I Think I Am',
+      'Sound Of Tears', 'What’s Next?', 'Scribbling With A Gun', "I'm Okay",
       'Milou Christmas'
     ]
   },
@@ -37,120 +37,120 @@ const albums = [
     name: 'Frith',
     releaseDate: 'May 5, 2022',
     tracks: [
-      'Take no buck', 'Triple to the X', 'Facts', 'Consumed', 'Anon', 'Curveball',
-      'Sovereign', 'Playing', 'LILI', 'Hope', 'Popsicle', 'Ape', 'Close friends',
-      'Dad (Interlude)', 'Paris', 'Warn me you’re ready', 'Unfurled',
-      'Every door Taylor', 'Milk', 'Admissible emotions', 'Euphoria', 'Beat me down',
-      'Ready to begin'
+      'Take No Buck', 'Triple To The X', 'Facts', 'Consumed', 'Anon', 'Curveball',
+      'Sovereign', 'Playing', 'Lili', 'Hope', 'Popsicle', 'Ape', 'Close Friends',
+      'Dad (Interlude)', 'Paris', 'Warn Me You’re Ready', 'Unfurled',
+      'Every Door Taylor', 'Milk', 'Admissible Emotions', 'Euphoria', 'Beat Me Down',
+      'Ready To Begin'
     ]
   },
   {
     name: 'screen time',
     releaseDate: 'July 2, 2022',
     tracks: [
-      'From the start', 'Reverse', 'Get on with Jack', 'Too deep', 'Andalucía',
+      'From The Start', 'Reverse', 'Get On With Jack', 'Too Deep', 'Andalucía',
       'Friends', 'Text', 'Sunny', 'Humming', 'Waves', 'Addison Rae', 'Pauline',
-      'Skyline grey', 'Bittersweet', 'Over you', 'Dreaming', 'Relapse holding',
-      'Not lost', 'Hideaway', 'Superficial', 'Warning sign', 'Tears to my heart',
-      "I'm sorry", 'Yearning', 'Silver all gone', 'Your eyes', 'Hold over me',
-      'A minute', 'Mariam', 'Mine', 'Back home', 'Heaven knows', 'Assets',
-      'Just us two'
+      'Skyline Grey', 'Bittersweet', 'Over You', 'Dreaming', 'Relapse Holding',
+      'Not Lost', 'Hideaway', 'Superficial', 'Warning Sign', 'Tears To My Heart',
+      "I'm Sorry", 'Yearning', 'Silver All Gone', 'Your Eyes', 'Hold Over Me',
+      'A Minute', 'Mariam', 'Mine', 'Back Home', 'Heaven Knows', 'Assets',
+      'Just Us Two'
     ]
   },
   {
     name: 'Jacaranda',
     releaseDate: 'September 24, 2022',
     tracks: [
-      'Home', 'QWERTY', 'Blue heeler', 'Gargoyle', 'Silly hen', 'June', 'Thoth',
-      'Real sad', 'Tangerine clouds', 'What if cell like', "Can't hide your theme",
-      'Paying only you', 'The pain you need', 'Mona Lisa', 'Reusable bag',
-      'Street lights', 'Beautiful', 'Pro hac vice', 'Cobber momma',
-      'Get that education', 'Telescopic', 'Christmas sleepover'
+      'Home', 'Qwerty', 'Blue Heeler', 'Gargoyle', 'Silly Hen', 'June', 'Thoth',
+      'Real Sad', 'Tangerine Clouds', 'What If Cell Like', "Can't Hide Your Theme",
+      'Paying Only You', 'The Pain You Need', 'Mona Lisa', 'Reusable Bag',
+      'Street Lights', 'Beautiful', 'Pro Hac Vice', 'Cobber Momma',
+      'Get That Education', 'Telescopic', 'Christmas Sleepover'
     ]
   },
   {
     name: 'Theo',
     releaseDate: 'December 15, 2022',
     tracks: [
-      'Easy son', 'Ex, your relay', 'Easy, hard', 'Apogee', 'Caret', 'Moment',
-      'Trauma', 'Yodel in a vial', 'Tate jersey love', 'Favourite', 'Rose', 'Swan',
-      'Demola (Zenosyne)', 'Heavy keys', 'Crash', 'Oh din!', 'Soured love',
-      'The one', 'Post soul', 'Our fall', 'Send me to sleep', 'Purpose',
-      'Waste the time', 'Mound gold', 'Jail', 'Stuck', 'Doobry', 'Cull sigh',
-      "I'm on air", 'Bread', 'I pray', 'My fantasy', 'A nearer echo',
-      'Happy married life', 'Polygamy', 'Sofia'
+      'Easy Son', 'Ex, Your Relay', 'Easy, Hard', 'Apogee', 'Caret', 'Moment',
+      'Trauma', 'Yodel In A Vial', 'Tate Jersey Love', 'Favourite', 'Rose', 'Swan',
+      'Demola (Zenosyne)', 'Heavy Keys', 'Crash', 'Oh Din!', 'Soured Love',
+      'The One', 'Post Soul', 'Our Fall', 'Send Me To Sleep', 'Purpose',
+      'Waste The Time', 'Mound Gold', 'Jail', 'Stuck', 'Doobry', 'Cull Sigh',
+      "I'm On Air", 'Bread', 'I Pray', 'My Fantasy', 'A Nearer Echo',
+      'Happy Married Life', 'Polygamy', 'Sofia'
     ]
   },
   {
     name: 'lantern',
     releaseDate: 'February 24, 2023',
     tracks: [
-      'Do I ever do?', 'Number busy', 'Emma I feel', 'Raunch child', 'Jekyll',
-      'God of clean', 'Hungry man', 'Lantern', '3:30', 'Be my lover', 'Purple zone',
-      'Shire', 'Pussy power', 'Scent', 'Yeehaw', 'Mind talk', 'Cautious', 'Sarah',
-      'Call for more', 'Higher calling', 'Say it', 'Avalon', 'How I lose it'
+      'Do I Ever Do?', 'Number Busy', 'Emma I Feel', 'Raunch Child', 'Jekyll',
+      'God Of Clean', 'Hungry Man', 'Lantern', '3:30', 'Be My Lover', 'Purple Zone',
+      'Shire', 'Pussy Power', 'Scent', 'Yeehaw', 'Mind Talk', 'Cautious', 'Sarah',
+      'Call For More', 'Higher Calling', 'Say It', 'Avalon', 'How I Lose It'
     ]
   },
   {
     name: 'the Lover tap3',
     releaseDate: 'June 19, 2023',
     tracks: [
-      'Fair this time', 'Envy', 'Hump', 'Show me a girl', 'Disclose', 'On one',
-      'Boink', 'Seventeen', "All girls aren't the same"
+      'Fair This Time', 'Envy', 'Hump', 'Show Me A Girl', 'Disclose', 'On One',
+      'Boink', 'Seventeen', "All Girls Aren't The Same"
     ]
   },
   {
     name: 'Nightswan',
     releaseDate: 'August 4, 2023',
     tracks: [
-      'Curandera', 'Marilyn', 'Being friends', 'Darbies', 'Amor fati', 'Pale',
-      'Nominal now', 'Best stan', 'Different man', 'Fresh', 'Bad descriptions',
-      'Backstage Friday', 'Amusing', 'Party ho', 'Love god', 'Hungry ladies',
-      'Dreadnought', 'Get it out', 'Liar', 'Skin', 'Line', 'Boss woman',
-      'Solid ground'
+      'Curandera', 'Marilyn', 'Being Friends', 'Darbies', 'Amor Fati', 'Pale',
+      'Nominal Now', 'Best Stan', 'Different Man', 'Fresh', 'Bad Descriptions',
+      'Backstage Friday', 'Amusing', 'Party Ho', 'Love God', 'Hungry Ladies',
+      'Dreadnought', 'Get It Out', 'Liar', 'Skin', 'Line', 'Boss Woman',
+      'Solid Ground'
     ]
   },
   {
     name: 'troubadour',
     releaseDate: 'January 21, 2024',
     tracks: [
-      'Eviction', 'Waste away', 'West to west', "I'll never", 'Cave',
-      'Just let me go', 'Cheetah', 'Find me', 'Baby girl', 'My Hope',
-      'Someone asked', 'Let it go', 'Testa', 'Respiring', 'Pretty girl',
+      'Eviction', 'Waste Away', 'West To West', "I'll Never", 'Cave',
+      'Just Let Me Go', 'Cheetah', 'Find Me', 'Baby Girl', 'My Hope',
+      'Someone Asked', 'Let It Go', 'Testa', 'Respiring', 'Pretty Girl',
       'Vacation', 'Heathrow', 'Benny', 'Beginning', 'Bedroom', 'Goodness',
-      'Sure we lit', 'Old door'
+      'Sure We Lit', 'Old Door'
     ]
   },
   {
     name: "it's pop",
     releaseDate: 'March 8, 2024',
     tracks: [
-      'Low life dirty rat', 'A seal', 'Summit', 'New hemp plant', 'Melly',
-      'Stuck in life', 'Heart census', 'Kevin Hart', 'Head', 'Imagination',
-      'Lonely note', 'Hubble', 'Take me out', 'Reward Money', 'Big fat lie',
-      'The calm', "I don't know", 'I get the ghetto', 'Sliving',
-      'Bagging this home', 'Bag grips', 'Outro'
+      'Low Life Dirty Rat', 'A Seal', 'Summit', 'New Hemp Plant', 'Melly',
+      'Stuck In Life', 'Heart Census', 'Kevin Hart', 'Head', 'Imagination',
+      'Lonely Note', 'Hubble', 'Take Me Out', 'Reward Money', 'Big Fat Lie',
+      'The Calm', "I Don't Know", 'I Get The Ghetto', 'Sliving',
+      'Bagging This Home', 'Bag Grips', 'Outro'
     ]
   },
   {
     name: 'the Sessions',
     releaseDate: 'June 14, 2024',
     tracks: [
-      'Savour', 'Dizzy morning', 'Dirty laundry', 'Canticle', 'SZA', 'Undecided',
-      'Different', 'Session 8', "I'll be there", 'Back to the store',
-      "Sorry I'm alive", 'Long way home', 'Field of faeries', 'Magical'
+      'Savour', 'Dizzy Morning', 'Dirty Laundry', 'Canticle', 'Sza', 'Undecided',
+      'Different', 'Session 8', "I'll Be There", 'Back To The Store',
+      "Sorry I'm Alive", 'Long Way Home', 'Field Of Faeries', 'Magical'
     ]
   },
   {
     name: 'Farther Memes',
     releaseDate: 'February 15, 2025',
     tracks: [
-      'Oliver Sacks', 'Oliver Sacks II', 'Palacio de la Zarzuela', 'The preacher',
-      'Rick reflection', 'End of summer', 'Sex is everything', 'Fool for you',
-      'Hathaway', 'Crush', 'Jealousy', 'Obligations', 'Rust', 'Best cardigan',
-      'Unwilling', 'Applish', 'Home alone', 'Aureole sigh', 'First lines',
-      'Spaghetti code', 'Fire', 'Fish', 'Greener', 'Lens', 'Keyhole',
-      'Bright-eyed', 'Cut in fame', 'Feel good', 'Adios', 'Woah', 'Locked in',
+      'Oliver Sacks', 'Oliver Sacks Ii', 'Palacio De La Zarzuela', 'The Preacher',
+      'Rick Reflection', 'End Of Summer', 'Sex Is Everything', 'Fool For You',
+      'Hathaway', 'Crush', 'Jealousy', 'Obligations', 'Rust', 'Best Cardigan',
+      'Unwilling', 'Applish', 'Home Alone', 'Aureole Sigh', 'First Lines',
+      'Spaghetti Code', 'Fire', 'Fish', 'Greener', 'Lens', 'Keyhole',
+      'Bright-Eyed', 'Cut In Fame', 'Feel Good', 'Adios', 'Woah', 'Locked In',
       'Heartbeat', 'Barefoot'
     ]
   },
@@ -158,10 +158,10 @@ const albums = [
     name: 'Valence Eve',
     releaseDate: 'December 31, 2024',
     tracks: [
-      'I try', 'Kill time', 'Alarms', 'Smile on me', "Queen's daughter",
-      'The game we play', 'Yahoo', 'Beautiful Taylor', 'Farce emotions', 'To you',
-      'Honest', 'Recruits', 'Butcher feel', 'Porn star', 'Taking you home',
-      'Kai Trump', 'Dime piece', 'Fisherman', 'Bedtime', 'Madness', 'Clubing sad'
+      'I Try', 'Kill Time', 'Alarms', 'Smile On Me', "Queen's Daughter",
+      'The Game We Play', 'Yahoo', 'Beautiful Taylor', 'Farce Emotions', 'To You',
+      'Honest', 'Recruits', 'Butcher Feel', 'Porn Star', 'Taking You Home',
+      'Kai Trump', 'Dime Piece', 'Fisherman', 'Bedtime', 'Madness', 'Clubing Sad'
     ]
   }
 ];
