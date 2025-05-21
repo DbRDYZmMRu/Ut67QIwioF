@@ -13387,21 +13387,6 @@ section {
     margin-bottom: 40px;
 }
 
-/* Track Listing Styling */
-.list-group-item {
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-}
-
-.list-group-item:hover {
-    background-color: rgba(29, 84, 87, 0.1);
-    color: #1d5457;
-}
-
-.list-group-item.active {
-    background-color: #1d5457;
-    color: white;
-}
 
 /* Swiper Container */
 .swiper-container {
@@ -13449,7 +13434,7 @@ section {
 
 /* Header Styling */
 .dynamic-header {
-    display: flex;
+    display: relative;
     align-items: center;
     justify-content: space-between;
     padding: 40px;
@@ -13459,6 +13444,7 @@ section {
     /* Allow dynamic height */
     position: relative;
     text-align: left;
+    z-index: 1;
     /* Default alignment for desktop */
 }
 
@@ -13487,9 +13473,9 @@ section {
     justify-content: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     cursor: pointer;
-    position: absolute;
-    top: 20px;
-    right: 20px;
+    position: fixed;
+    top: 30px;
+    right: 10px;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -13716,9 +13702,9 @@ section {
 }
 
 .track-list.active {
-    max-height: 300px;
-    /* Adjusted to show the full list properly */
-    opacity: 1;
+  max-height: none;
+  opacity: 1;
+  padding-bottom: 20px;
 }
 
 /* Styling for Lyrics Lines */
@@ -13851,4 +13837,16 @@ section {
 .overlay.active {
     display: block;
     /* Show overlay when active */
+}
+
+
+.track-item.highlighted,
+.album-track.highlighted {
+  border: 2px solid #1d5457; /* Blue border for highlight */
+  background-color: #E8F6E9; /* Light background */
+  box-shadow: 0 0 10px #000;
+  padding: 5px; /* Optional: improve visibility */
+}
+.album-tracks {
+  display: none; /* Hide empty Other Tracks section */
 }
