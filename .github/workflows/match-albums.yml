@@ -1,0 +1,33 @@
+name: Match Album Tracks
+
+on:
+  push:
+    branches:
+      - permissions:
+      contents: write  # Required to commit and push results
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Set up Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.17.0'
+
+      # Step 3: (Optional) Install dependencies
+      # Only if you use extra NPM packages in your script
+      #- name: Install dependencies
+      #  run: npm install
+
+      # Step 4: Run the matching script
+      - name: Run Track Matching Script
+        run: node match-albums.js
+
+      # Step 5: Commit and Push the result
+      - name: Commit and Push Matched else
+            git commit -m "Update album track durations"
+            git push origin main
+          fi
