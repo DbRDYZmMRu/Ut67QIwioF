@@ -7,10 +7,13 @@ registerFont('font/Architects_Daughter.ttf', { family: 'Architects Daughter' });
 
 const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
-const outputDir = path.join(__dirname, 'images', 'share', 'W2W', '2');
+const outputDir = path.join(__dirname, 'images', 'share', 'W2W', '3');
 const titles = [
-            "Glade Slow Raillery",
-            "Selah"
+                        "My Fair Lady",
+            "Following the West", 
+            "Where in the Room?", 
+            "Are You Asleep?"
+"
 ];
 
 const drawText = (ctx, text, x, y, maxWidth) => {
@@ -60,7 +63,7 @@ const generateImages = async () => {
         ctx.fillStyle = 'black';
         ctx.textAlign = 'center';
         ctx.textBaseline = 'top';
-        ctx.fillText('WEST TO WEST COLLECTION II', imageSize / 2, 10); // Corrected position
+        ctx.fillText('WEST TO WEST COLLECTION III', imageSize / 2, 10); // Corrected position
 
         // Save the image
         const buffer = canvas.toBuffer('image/png');
