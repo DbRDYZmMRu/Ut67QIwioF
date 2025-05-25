@@ -1,5 +1,16 @@
 {
+
   "songs": [
+
+
+    {
+      "albumart": "musicpool-db/covers/whereIsTheMoodRobot/2.jpg",
+      "author": "Frith Hilton",
+      "song": "Isn't it yours",
+      "json": "../pages/musicpool-db/lyrics/whereIsTheMoodRobot/2.json",
+      "audio": "../pages/musicpool-db/mp3/whereIsTheMoodRobot/2.mp3"
+      }, 
+
     
     {
       "albumart": "musicpool-db/covers/whereIsTheMoodRobot/1.jpg",
@@ -24,7 +35,6 @@
       "json": "../pages/musicpool-db/lyrics/ValenceEve/20.json",
       "audio": "../pages/musicpool-db/mp3/ValenceEve/20.mp3"
       }, 
-    
     
     {
       "albumart": "musicpool-db/covers/ValenceEve/19.jpg",
