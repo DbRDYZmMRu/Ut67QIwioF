@@ -1,0 +1,192 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "A leg raise to a point of no return ",
+      "startTime": 4.867712,
+      "endTime": 11.774996,
+      "words": [
+        {
+          "id": 1,
+          "text": "A",
+          "startTime": 4.867712,
+          "endTime": 7.392093
+        },
+        {
+          "id": 2,
+          "text": "leg",
+          "startTime": 7.392093,
+          "endTime": 7.657286
+        },
+        {
+          "id": 3,
+          "text": "raise",
+          "startTime": 7.657286,
+          "endTime": 8.387228
+        },
+        {
+          "id": 4,
+          "text": "to",
+          "startTime": 8.387228,
+          "endTime": 9.51684
+        },
+        {
+          "id": 5,
+          "text": "a",
+          "startTime": 9.51684,
+          "endTime": 9.715164
+        },
+        {
+          "id": 6,
+          "text": "point",
+          "startTime": 9.715164,
+          "endTime": 10.313287
+        },
+        {
+          "id": 7,
+          "text": "of",
+          "startTime": 10.313287,
+          "endTime": 10.445954
+        },
+        {
+          "id": 8,
+          "text": "no",
+          "startTime": 10.445954,
+          "endTime": 10.711292
+        },
+        {
+          "id": 9,
+          "text": "return",
+          "startTime": 10.711292,
+          "endTime": 11.774996
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "bitty hubs are excellent pubs",
+      "startTime": 11.774996,
+      "endTime": 16.886679,
+      "words": [
+        {
+          "id": 10,
+          "text": "bitty",
+          "startTime": 11.774996,
+          "endTime": 13.766263
+        },
+        {
+          "id": 11,
+          "text": "hubs",
+          "startTime": 13.766263,
+          "endTime": 14.297536
+        },
+        {
+          "id": 12,
+          "text": "are",
+          "startTime": 14.297536,
+          "endTime": 14.430026
+        },
+        {
+          "id": 13,
+          "text": "excellent",
+          "startTime": 14.430026,
+          "endTime": 15.226675
+        },
+        {
+          "id": 14,
+          "text": "pubs",
+          "startTime": 15.226675,
+          "endTime": 16.886679
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "is where I propose we report",
+      "startTime": 16.886679,
+      "endTime": 21.269226,
+      "words": [
+        {
+          "id": 15,
+          "text": "is",
+          "startTime": 16.886679,
+          "endTime": 17.949398
+        },
+        {
+          "id": 16,
+          "text": "where",
+          "startTime": 17.949398,
+          "endTime": 18.281389
+        },
+        {
+          "id": 17,
+          "text": "I",
+          "startTime": 18.281389,
+          "endTime": 18.413731
+        },
+        {
+          "id": 18,
+          "text": "propose",
+          "startTime": 18.413731,
+          "endTime": 19.344393
+        },
+        {
+          "id": 19,
+          "text": "we",
+          "startTime": 19.344393,
+          "endTime": 20.207686
+        },
+        {
+          "id": 20,
+          "text": "report",
+          "startTime": 20.207686,
+          "endTime": 21.269226
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "but you're busy being a despot.",
+      "startTime": 21.269226,
+      "endTime": 26.124955,
+      "words": [
+        {
+          "id": 21,
+          "text": "but",
+          "startTime": 21.269226,
+          "endTime": 22.598612
+        },
+        {
+          "id": 22,
+          "text": "you're",
+          "startTime": 22.598612,
+          "endTime": 22.797205
+        },
+        {
+          "id": 23,
+          "text": "busy",
+          "startTime": 22.797205,
+          "endTime": 23.528028
+        },
+        {
+          "id": 24,
+          "text": "being",
+          "startTime": 23.528028,
+          "endTime": 23.859534
+        },
+        {
+          "id": 25,
+          "text": "a",
+          "startTime": 23.859534,
+          "endTime": 24.124955
+        },
+        {
+          "id": 26,
+          "text": "despot.",
+          "startTime": 24.124955,
+          "endTime": 26.124955
+        }
+      ]
+    }
+  ]
+}

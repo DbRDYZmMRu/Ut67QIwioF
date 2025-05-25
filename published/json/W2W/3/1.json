@@ -1,0 +1,450 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I felt it — as it swept the earth ",
+      "startTime": 3.694052,
+      "endTime": 8.738944,
+      "words": [
+        {
+          "id": 1,
+          "text": "I",
+          "startTime": 3.694052,
+          "endTime": 5.816916
+        },
+        {
+          "id": 2,
+          "text": "felt",
+          "startTime": 5.816916,
+          "endTime": 6.150184
+        },
+        {
+          "id": 3,
+          "text": "it",
+          "startTime": 6.150184,
+          "endTime": 6.415008
+        },
+        {
+          "id": 4,
+          "text": "—",
+          "startTime": 6.415008,
+          "endTime": 6.745476
+        },
+        {
+          "id": 5,
+          "text": "as",
+          "startTime": 6.745476,
+          "endTime": 7.344763
+        },
+        {
+          "id": 6,
+          "text": "it",
+          "startTime": 7.344763,
+          "endTime": 7.478061
+        },
+        {
+          "id": 7,
+          "text": "swept",
+          "startTime": 7.478061,
+          "endTime": 7.942676
+        },
+        {
+          "id": 8,
+          "text": "the",
+          "startTime": 7.942676,
+          "endTime": 8.075184
+        },
+        {
+          "id": 9,
+          "text": "earth",
+          "startTime": 8.075184,
+          "endTime": 8.738944
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "that strangeness it represents",
+      "startTime": 8.738944,
+      "endTime": 12.126102,
+      "words": [
+        {
+          "id": 10,
+          "text": "that",
+          "startTime": 8.738944,
+          "endTime": 9.935281
+        },
+        {
+          "id": 11,
+          "text": "strangeness",
+          "startTime": 9.935281,
+          "endTime": 10.863847
+        },
+        {
+          "id": 12,
+          "text": "it",
+          "startTime": 10.863847,
+          "endTime": 10.997324
+        },
+        {
+          "id": 13,
+          "text": "represents",
+          "startTime": 10.997324,
+          "endTime": 12.126102
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "the hills’ faces in a boat’s steer",
+      "startTime": 12.126102,
+      "endTime": 16.508809,
+      "words": [
+        {
+          "id": 14,
+          "text": "the",
+          "startTime": 12.126102,
+          "endTime": 13.453825
+        },
+        {
+          "id": 15,
+          "text": "hills’",
+          "startTime": 13.453825,
+          "endTime": 13.719596
+        },
+        {
+          "id": 16,
+          "text": "faces",
+          "startTime": 13.719596,
+          "endTime": 14.581618
+        },
+        {
+          "id": 17,
+          "text": "in",
+          "startTime": 14.581618,
+          "endTime": 15.11352
+        },
+        {
+          "id": 18,
+          "text": "a",
+          "startTime": 15.11352,
+          "endTime": 15.247119
+        },
+        {
+          "id": 19,
+          "text": "boat’s",
+          "startTime": 15.247119,
+          "endTime": 15.579284
+        },
+        {
+          "id": 20,
+          "text": "steer",
+          "startTime": 15.579284,
+          "endTime": 16.508809
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "postmen by a wittier residence",
+      "startTime": 16.508809,
+      "endTime": 20.824825,
+      "words": [
+        {
+          "id": 21,
+          "text": "postmen",
+          "startTime": 16.508809,
+          "endTime": 18.102292
+        },
+        {
+          "id": 22,
+          "text": "by",
+          "startTime": 18.102292,
+          "endTime": 19.098702
+        },
+        {
+          "id": 23,
+          "text": "a",
+          "startTime": 19.098702,
+          "endTime": 19.297941
+        },
+        {
+          "id": 24,
+          "text": "wittier",
+          "startTime": 19.297941,
+          "endTime": 19.76249
+        },
+        {
+          "id": 25,
+          "text": "residence",
+          "startTime": 19.76249,
+          "endTime": 20.824825
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "with her buds a meagre too pelted",
+      "startTime": 20.824825,
+      "endTime": 25.407352,
+      "words": [
+        {
+          "id": 26,
+          "text": "with",
+          "startTime": 20.824825,
+          "endTime": 22.618161
+        },
+        {
+          "id": 27,
+          "text": "her",
+          "startTime": 22.618161,
+          "endTime": 22.818184
+        },
+        {
+          "id": 28,
+          "text": "buds",
+          "startTime": 22.818184,
+          "endTime": 23.480931
+        },
+        {
+          "id": 29,
+          "text": "a",
+          "startTime": 23.480931,
+          "endTime": 23.680051
+        },
+        {
+          "id": 30,
+          "text": "meagre",
+          "startTime": 23.680051,
+          "endTime": 24.079105
+        },
+        {
+          "id": 31,
+          "text": "too",
+          "startTime": 24.079105,
+          "endTime": 24.345031
+        },
+        {
+          "id": 32,
+          "text": "pelted",
+          "startTime": 24.345031,
+          "endTime": 25.407352
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "gossamer — so who saw the fret",
+      "startTime": 25.407352,
+      "endTime": 29.790478,
+      "words": [
+        {
+          "id": 33,
+          "text": "gossamer",
+          "startTime": 25.407352,
+          "endTime": 27.200175
+        },
+        {
+          "id": 34,
+          "text": "—",
+          "startTime": 27.200175,
+          "endTime": 27.465984
+        },
+        {
+          "id": 35,
+          "text": "so",
+          "startTime": 27.465984,
+          "endTime": 28.196255
+        },
+        {
+          "id": 36,
+          "text": "who",
+          "startTime": 28.196255,
+          "endTime": 28.727703
+        },
+        {
+          "id": 37,
+          "text": "saw",
+          "startTime": 28.727703,
+          "endTime": 28.926216
+        },
+        {
+          "id": 38,
+          "text": "the",
+          "startTime": 28.926216,
+          "endTime": 29.05876
+        },
+        {
+          "id": 39,
+          "text": "fret",
+          "startTime": 29.05876,
+          "endTime": 29.790478
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "a dandelion clock telling innocence",
+      "startTime": 29.790478,
+      "endTime": 34.902836,
+      "words": [
+        {
+          "id": 40,
+          "text": "a",
+          "startTime": 29.790478,
+          "endTime": 31.249502
+        },
+        {
+          "id": 41,
+          "text": "dandelion",
+          "startTime": 31.249502,
+          "endTime": 32.179801
+        },
+        {
+          "id": 42,
+          "text": "clock",
+          "startTime": 32.179801,
+          "endTime": 32.844741
+        },
+        {
+          "id": 43,
+          "text": "telling",
+          "startTime": 32.844741,
+          "endTime": 33.375903
+        },
+        {
+          "id": 44,
+          "text": "innocence",
+          "startTime": 33.375903,
+          "endTime": 34.902836
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "wind high, a garden flourished; shared",
+      "startTime": 34.902836,
+      "endTime": 40.680365,
+      "words": [
+        {
+          "id": 45,
+          "text": "wind",
+          "startTime": 34.902836,
+          "endTime": 36.498313
+        },
+        {
+          "id": 46,
+          "text": "high,",
+          "startTime": 36.498313,
+          "endTime": 37.426578
+        },
+        {
+          "id": 47,
+          "text": "a",
+          "startTime": 37.426578,
+          "endTime": 37.957736
+        },
+        {
+          "id": 48,
+          "text": "garden",
+          "startTime": 37.957736,
+          "endTime": 38.354274
+        },
+        {
+          "id": 49,
+          "text": "flourished;",
+          "startTime": 38.354274,
+          "endTime": 39.684913
+        },
+        {
+          "id": 50,
+          "text": "shared",
+          "startTime": 39.684913,
+          "endTime": 40.680365
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "Pygmalion’s ardour for no sunset",
+      "startTime": 40.680365,
+      "endTime": 45.727675,
+      "words": [
+        {
+          "id": 51,
+          "text": "Pygmalion’s",
+          "startTime": 40.680365,
+          "endTime": 42.605498
+        },
+        {
+          "id": 52,
+          "text": "ardour",
+          "startTime": 42.605498,
+          "endTime": 43.402942
+        },
+        {
+          "id": 53,
+          "text": "for",
+          "startTime": 43.402942,
+          "endTime": 44.19865
+        },
+        {
+          "id": 54,
+          "text": "no",
+          "startTime": 44.19865,
+          "endTime": 44.465955
+        },
+        {
+          "id": 55,
+          "text": "sunset",
+          "startTime": 44.465955,
+          "endTime": 45.727675
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "the diaphanous holder of his breath. ",
+      "startTime": 45.727675,
+      "endTime": 51.311122,
+      "words": [
+        {
+          "id": 56,
+          "text": "the",
+          "startTime": 45.727675,
+          "endTime": 46.65781
+        },
+        {
+          "id": 57,
+          "text": "diaphanous",
+          "startTime": 46.65781,
+          "endTime": 47.520646
+        },
+        {
+          "id": 58,
+          "text": "holder",
+          "startTime": 47.520646,
+          "endTime": 48.051536
+        },
+        {
+          "id": 59,
+          "text": "of",
+          "startTime": 48.051536,
+          "endTime": 48.117832
+        },
+        {
+          "id": 60,
+          "text": "his",
+          "startTime": 48.117832,
+          "endTime": 49.311122
+        },
+        {
+          "id": 61,
+          "text": "breath.",
+          "startTime": 49.311122,
+          "endTime": 51.311122
+        }
+      ]
+    }
+  ]
+}

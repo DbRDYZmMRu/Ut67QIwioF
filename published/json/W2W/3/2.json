@@ -1,0 +1,192 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I've travelled where scents spell",
+      "startTime": 4.581887,
+      "endTime": 9.913481,
+      "words": [
+        {
+          "id": 1,
+          "text": "I've",
+          "startTime": 4.581887,
+          "endTime": 6.925972
+        },
+        {
+          "id": 2,
+          "text": "travelled",
+          "startTime": 6.925972,
+          "endTime": 7.72229
+        },
+        {
+          "id": 3,
+          "text": "where",
+          "startTime": 7.72229,
+          "endTime": 7.98832
+        },
+        {
+          "id": 4,
+          "text": "scents",
+          "startTime": 7.98832,
+          "endTime": 8.718431
+        },
+        {
+          "id": 5,
+          "text": "spell",
+          "startTime": 8.718431,
+          "endTime": 9.913481
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "spear like the grind in halt’s rest ",
+      "startTime": 9.913481,
+      "endTime": 15.557692,
+      "words": [
+        {
+          "id": 6,
+          "text": "spear",
+          "startTime": 9.913481,
+          "endTime": 11.97211
+        },
+        {
+          "id": 7,
+          "text": "like",
+          "startTime": 11.97211,
+          "endTime": 12.636913
+        },
+        {
+          "id": 8,
+          "text": "the",
+          "startTime": 12.636913,
+          "endTime": 12.901741
+        },
+        {
+          "id": 9,
+          "text": "grind",
+          "startTime": 12.901741,
+          "endTime": 13.699306
+        },
+        {
+          "id": 10,
+          "text": "in",
+          "startTime": 13.699306,
+          "endTime": 14.163635
+        },
+        {
+          "id": 11,
+          "text": "halt’s",
+          "startTime": 14.163635,
+          "endTime": 14.495774
+        },
+        {
+          "id": 12,
+          "text": "rest",
+          "startTime": 14.495774,
+          "endTime": 15.557692
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "dear bee with an eye for the best",
+      "startTime": 15.557692,
+      "endTime": 20.206474,
+      "words": [
+        {
+          "id": 13,
+          "text": "dear",
+          "startTime": 15.557692,
+          "endTime": 17.284422
+        },
+        {
+          "id": 14,
+          "text": "bee",
+          "startTime": 17.284422,
+          "endTime": 18.148381
+        },
+        {
+          "id": 15,
+          "text": "with",
+          "startTime": 18.148381,
+          "endTime": 18.413272
+        },
+        {
+          "id": 16,
+          "text": "an",
+          "startTime": 18.413272,
+          "endTime": 18.545905
+        },
+        {
+          "id": 17,
+          "text": "eye",
+          "startTime": 18.545905,
+          "endTime": 18.945064
+        },
+        {
+          "id": 18,
+          "text": "for",
+          "startTime": 18.945064,
+          "endTime": 19.143266
+        },
+        {
+          "id": 19,
+          "text": "the",
+          "startTime": 19.143266,
+          "endTime": 19.343856
+        },
+        {
+          "id": 20,
+          "text": "best",
+          "startTime": 19.343856,
+          "endTime": 20.206474
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "won't you take me somewhere else. ",
+      "startTime": 20.206474,
+      "endTime": 24.796241,
+      "words": [
+        {
+          "id": 21,
+          "text": "won't",
+          "startTime": 20.206474,
+          "endTime": 21.667595
+        },
+        {
+          "id": 22,
+          "text": "you",
+          "startTime": 21.667595,
+          "endTime": 21.800779
+        },
+        {
+          "id": 23,
+          "text": "take",
+          "startTime": 21.800779,
+          "endTime": 21.99957
+        },
+        {
+          "id": 24,
+          "text": "me",
+          "startTime": 21.99957,
+          "endTime": 22.265399
+        },
+        {
+          "id": 25,
+          "text": "somewhere",
+          "startTime": 22.265399,
+          "endTime": 22.796241
+        },
+        {
+          "id": 26,
+          "text": "else.",
+          "startTime": 22.796241,
+          "endTime": 24.796241
+        }
+      ]
+    }
+  ]
+}

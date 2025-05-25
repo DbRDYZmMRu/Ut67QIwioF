@@ -1,0 +1,278 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Windows grace the empty ",
+      "startTime": 4.486013,
+      "endTime": 9.33386,
+      "words": [
+        {
+          "id": 1,
+          "text": "Windows",
+          "startTime": 4.486013,
+          "endTime": 7.475194
+        },
+        {
+          "id": 2,
+          "text": "grace",
+          "startTime": 7.475194,
+          "endTime": 8.138652
+        },
+        {
+          "id": 3,
+          "text": "the",
+          "startTime": 8.138652,
+          "endTime": 8.337717
+        },
+        {
+          "id": 4,
+          "text": "empty",
+          "startTime": 8.337717,
+          "endTime": 9.33386
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "seven heavens fermenting",
+      "startTime": 9.33386,
+      "endTime": 13.451253,
+      "words": [
+        {
+          "id": 5,
+          "text": "seven",
+          "startTime": 9.33386,
+          "endTime": 11.060911
+        },
+        {
+          "id": 6,
+          "text": "heavens",
+          "startTime": 11.060911,
+          "endTime": 11.924025
+        },
+        {
+          "id": 7,
+          "text": "fermenting",
+          "startTime": 11.924025,
+          "endTime": 13.451253
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "morning when she slept in ",
+      "startTime": 13.451253,
+      "endTime": 17.103634,
+      "words": [
+        {
+          "id": 8,
+          "text": "morning",
+          "startTime": 13.451253,
+          "endTime": 15.510202
+        },
+        {
+          "id": 9,
+          "text": "when",
+          "startTime": 15.510202,
+          "endTime": 15.775715
+        },
+        {
+          "id": 10,
+          "text": "she",
+          "startTime": 15.775715,
+          "endTime": 15.974513
+        },
+        {
+          "id": 11,
+          "text": "slept",
+          "startTime": 15.974513,
+          "endTime": 16.306493
+        },
+        {
+          "id": 12,
+          "text": "in",
+          "startTime": 16.306493,
+          "endTime": 17.103634
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "benign, it was intoxicating",
+      "startTime": 17.103634,
+      "endTime": 22.216472,
+      "words": [
+        {
+          "id": 13,
+          "text": "benign,",
+          "startTime": 17.103634,
+          "endTime": 19.027677
+        },
+        {
+          "id": 14,
+          "text": "it",
+          "startTime": 19.027677,
+          "endTime": 20.358498
+        },
+        {
+          "id": 15,
+          "text": "was",
+          "startTime": 20.358498,
+          "endTime": 20.556927
+        },
+        {
+          "id": 16,
+          "text": "intoxicating",
+          "startTime": 20.556927,
+          "endTime": 22.216472
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "as she drew; her ajarring ",
+      "startTime": 22.216472,
+      "endTime": 27.462755,
+      "words": [
+        {
+          "id": 17,
+          "text": "as",
+          "startTime": 22.216472,
+          "endTime": 23.611369
+        },
+        {
+          "id": 18,
+          "text": "she",
+          "startTime": 23.611369,
+          "endTime": 23.877116
+        },
+        {
+          "id": 19,
+          "text": "drew;",
+          "startTime": 23.877116,
+          "endTime": 24.87337
+        },
+        {
+          "id": 20,
+          "text": "her",
+          "startTime": 24.87337,
+          "endTime": 26.068009
+        },
+        {
+          "id": 21,
+          "text": "ajarring",
+          "startTime": 26.068009,
+          "endTime": 27.462755
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "deracinating the breeze",
+      "startTime": 27.462755,
+      "endTime": 31.911558,
+      "words": [
+        {
+          "id": 22,
+          "text": "deracinating",
+          "startTime": 27.462755,
+          "endTime": 29.85527
+        },
+        {
+          "id": 23,
+          "text": "the",
+          "startTime": 29.85527,
+          "endTime": 30.252151
+        },
+        {
+          "id": 24,
+          "text": "breeze",
+          "startTime": 30.252151,
+          "endTime": 31.911558
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "with no record — breathing",
+      "startTime": 31.911558,
+      "endTime": 36.892915,
+      "words": [
+        {
+          "id": 25,
+          "text": "with",
+          "startTime": 31.911558,
+          "endTime": 33.107228
+        },
+        {
+          "id": 26,
+          "text": "no",
+          "startTime": 33.107228,
+          "endTime": 33.305311
+        },
+        {
+          "id": 27,
+          "text": "record",
+          "startTime": 33.305311,
+          "endTime": 33.904599
+        },
+        {
+          "id": 28,
+          "text": "—",
+          "startTime": 33.904599,
+          "endTime": 34.367845
+        },
+        {
+          "id": 29,
+          "text": "breathing",
+          "startTime": 34.367845,
+          "endTime": 36.892915
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "in a recondite room of infinity.",
+      "startTime": 36.892915,
+      "endTime": 42.542916,
+      "words": [
+        {
+          "id": 30,
+          "text": "in",
+          "startTime": 36.892915,
+          "endTime": 37.887884
+        },
+        {
+          "id": 31,
+          "text": "a",
+          "startTime": 37.887884,
+          "endTime": 38.021686
+        },
+        {
+          "id": 32,
+          "text": "recondite",
+          "startTime": 38.021686,
+          "endTime": 39.016674
+        },
+        {
+          "id": 33,
+          "text": "room",
+          "startTime": 39.016674,
+          "endTime": 39.348467
+        },
+        {
+          "id": 34,
+          "text": "of",
+          "startTime": 39.348467,
+          "endTime": 40.542916
+        },
+        {
+          "id": 35,
+          "text": "infinity.",
+          "startTime": 40.542916,
+          "endTime": 42.542916
+        }
+      ]
+    }
+  ]
+}
