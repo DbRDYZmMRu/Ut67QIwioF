@@ -22,7 +22,7 @@ const adsBottom = [
 
 
 const adsMiddle = [
-  
+  { img: '../images/ads/KhyXDilaraAd.gif', link: 'https://khy.com/', displayTime: 6500 },
   { img: '../images/ads/kyliecosmeticsHybridI.gif', link: 'http://kyliecosmetics.com/', displayTime: 6500 },
   { img: '../images/ads/kyliecosmeticsHybridII.gif', link: 'http://kyliecosmetics.com/', displayTime: 9000 },
 ];
