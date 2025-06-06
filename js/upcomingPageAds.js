@@ -22,6 +22,8 @@ const adsBottom = [
 
 
 const adsMiddle = [
+  { img: '../images/ads/SkimsAdJune6.gif', link: 'https://skims.com/en-ng/collections/skims-ultimate-edit?utm_source=ig&utm_medium=owned-social&utm_campaign=ultimate-edit&fbclid=PAQ0xDSwKv7GtleHRuA2FlbQIxMQABpzbyA74E5sCYgCUWUyyYVgROlPmgUwOfL2EGEikPL9D0Ztko7x0lYfYaUKtD_aem_iWqvZwXXJEHjrzIrE3qX5Q', displayTime: 6500 },
+  { img: '../images/ads/rrcs4.gif', link: 'https://www.rickrosscarshow.com/', displayTime: 6500 },
   { img: '../images/ads/KhyXDilaraAd.gif', link: 'https://khy.com/', displayTime: 6500 },
   { img: '../images/ads/kyliecosmeticsHybridI.gif', link: 'http://kyliecosmetics.com/', displayTime: 6500 },
   { img: '../images/ads/kyliecosmeticsHybridII.gif', link: 'http://kyliecosmetics.com/', displayTime: 9000 },
