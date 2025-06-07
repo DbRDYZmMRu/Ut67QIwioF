@@ -35,7 +35,6 @@ const files = [
   'published/books.html',
   'published/journal/a-life-worth-living.html',
   'published/poetry/bury-me-in-1965.html',
-  'published/poetry/collection-I.html',
   'published/poetry/collection-II.html',
   'published/poetry/collection-III-ii.html',
   'published/poetry/collection-III.html',
