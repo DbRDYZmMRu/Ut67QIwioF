@@ -14,6 +14,8 @@ output.on('close', () => {
 archive.on('warning', (err) => {
   if (err.code !== 'ENOENT') {
     throw err;
+  } else {
+    console.warn(`Warning: ${err.message}`);
   }
 });
 
@@ -68,7 +70,11 @@ const files = [
 ];
 
 files.forEach(file => {
-  archive.file(file, { name: file });
+  if (fs.existsSync(file)) {
+    archive.file(file, { name: file });
+  } else {
+    console.warn(`File not found: ${file}`);
+  }
 });
 
 archive.finalize();
