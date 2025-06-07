@@ -20,7 +20,10 @@ jobs:
         with:
           node-version: '20.17.0'
 
-      - name: Install archiver Git user
+      - name: Install archiver
+        run: npm install archiver
+
+      - name: Configure Git user
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
