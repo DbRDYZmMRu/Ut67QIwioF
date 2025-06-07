@@ -2397,7 +2397,7 @@
       <
     <
   <
-  -  bio.html
+  -  who-is-frith-hilton.html
   -  latest-release.html
   ###  musicpool-db
   >
@@ -2410,7 +2410,7 @@
     -  sample.mp3
     -  unwilling.json
   <
-  -  musicpool.html
+  -  freshPlayer.html
   -  not-found.html
   -  player.html
   -  upcoming.html

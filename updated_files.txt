@@ -1,8 +1,8 @@
 cookies.html
 index.html
 indexii.html
-pages/bio.html
-pages/musicpool.html
+pages/who-is-frith-hilton.html
+pages/freshPlayer.html
 pages/not-found.html
 pages/player.html
 published/books.html

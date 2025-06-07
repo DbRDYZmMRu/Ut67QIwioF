@@ -652,6 +652,6 @@ $("#progress-bar").on("click touchend", function (event) {
     // Leave pool button
 
     $("#leavePool").on("click", function () {
-        window.location.href = "https://frithhilton.com.ng/pages/musicpool.html";
+        window.location.href = "https://frithhilton.com.ng/pages/freshPlayer.html";
     });
 });
