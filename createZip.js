@@ -26,7 +26,6 @@ archive.pipe(output);
 const files = [
   'cookies.html',
   'index.html',
-  'indexii.html',
   'pages/who-is-frith-hilton.html',
   'pages/freshPlayer.html',
   'pages/not-found.html',
@@ -62,7 +61,9 @@ const files = [
   'published/poetry/dr-carl-hill-collection-III.html',
   'published/poetry/dr-carl-hill-collection-IV.html',
   'published/poetry/dr-carl-hill-collection-V.html',
-  'published/poetry/west-to-west-collection-I.html',           'published/poetry/west-to-west-collection-II.html',
+  'published/poetry/west-to-west-collection-I.html',
+  'published/poetry/west-to-west-collection-II.html',
+  'published/poetry/west-to-west-collection-III.html',
   'published/search.html'
 ];
 
