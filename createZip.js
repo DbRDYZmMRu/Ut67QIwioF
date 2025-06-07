@@ -1,7 +1,7 @@
 const fs = require('fs');
 const archiver = require('archiver');
 
-const output = fs.createWriteStream('output/files.zip');
+const output = fs.createWriteStream('files.zip');
 const archive = archiver('zip', {
   zlib: { level: 9 } // Sets the compression level.
 });
