@@ -1,16 +1,22 @@
 {
-
+  
   "songs": [
-
-
+    
+    {
+      "albumart": "musicpool-db/covers/whereIsTheMoodRobot/3.jpg",
+      "author": "Frith Hilton",
+      "song": "Old Passions",
+      "json": "../pages/musicpool-db/lyrics/whereIsTheMoodRobot/3.json",
+      "audio": "../pages/musicpool-db/mp3/whereIsTheMoodRobot/3.mp3"
+    },
+    
     {
       "albumart": "musicpool-db/covers/whereIsTheMoodRobot/2.jpg",
       "author": "Frith Hilton",
       "song": "Isn't it yours",
       "json": "../pages/musicpool-db/lyrics/whereIsTheMoodRobot/2.json",
       "audio": "../pages/musicpool-db/mp3/whereIsTheMoodRobot/2.mp3"
-      }, 
-
+    },
     
     {
       "albumart": "musicpool-db/covers/whereIsTheMoodRobot/1.jpg",
@@ -18,7 +24,7 @@
       "song": "So alive Overture",
       "json": "../pages/musicpool-db/lyrics/whereIsTheMoodRobot/1.json",
       "audio": "../pages/musicpool-db/mp3/whereIsTheMoodRobot/1.mp3"
-      }, 
+    },
     
     {
       "albumart": "musicpool-db/covers/ValenceEve/21.jpg",
@@ -26,7 +32,7 @@
       "song": "Clubbing sad",
       "json": "../pages/musicpool-db/lyrics/ValenceEve/21.json",
       "audio": "../pages/musicpool-db/mp3/ValenceEve/21.mp3"
-      }, 
+    },
     
     {
       "albumart": "musicpool-db/covers/ValenceEve/20.jpg",
@@ -34,7 +40,7 @@
       "song": "Madness",
       "json": "../pages/musicpool-db/lyrics/ValenceEve/20.json",
       "audio": "../pages/musicpool-db/mp3/ValenceEve/20.mp3"
-      }, 
+    },
     
     {
       "albumart": "musicpool-db/covers/ValenceEve/19.jpg",
@@ -42,7 +48,7 @@
       "song": "Bedtime",
       "json": "../pages/musicpool-db/lyrics/ValenceEve/19.json",
       "audio": "../pages/musicpool-db/mp3/ValenceEve/19.mp3"
-      }, 
+    },
     
     {
       "albumart": "musicpool-db/covers/ValenceEve/18.jpg",
@@ -50,7 +56,7 @@
       "song": "Fisherman",
       "json": "../pages/musicpool-db/lyrics/ValenceEve/18.json",
       "audio": "../pages/musicpool-db/mp3/ValenceEve/18.mp3"
-      }, 
+    },
     
     {
       "albumart": "musicpool-db/covers/ValenceEve/17.jpg",
@@ -58,7 +64,7 @@
       "song": "Dime piece",
       "json": "../pages/musicpool-db/lyrics/ValenceEve/17.json",
       "audio": "../pages/musicpool-db/mp3/ValenceEve/17.mp3"
-      }, 
+    },
     
     {
       "albumart": "musicpool-db/covers/ValenceEve/16.jpg",
@@ -66,7 +72,7 @@
       "song": "Kai Trump",
       "json": "../pages/musicpool-db/lyrics/ValenceEve/16.json",
       "audio": "../pages/musicpool-db/mp3/ValenceEve/16.mp3"
-      }, 
+    },
     
     {
       "albumart": "musicpool-db/covers/ValenceEve/15.jpg",
@@ -74,7 +80,7 @@
       "song": "Take you home",
       "json": "../pages/musicpool-db/lyrics/ValenceEve/15.json",
       "audio": "../pages/musicpool-db/mp3/ValenceEve/15.mp3"
-      }, 
+    },
     
     {
       "albumart": "musicpool-db/covers/ValenceEve/14.jpg",
@@ -82,7 +88,7 @@
       "song": "Porn star",
       "json": "../pages/musicpool-db/lyrics/ValenceEve/14.json",
       "audio": "../pages/musicpool-db/mp3/ValenceEve/14.mp3"
-      }, 
+    },
     
     {
       "albumart": "musicpool-db/covers/ValenceEve/13.jpg",
@@ -90,7 +96,7 @@
       "song": "Butcher feel",
       "json": "../pages/musicpool-db/lyrics/ValenceEve/13.json",
       "audio": "../pages/musicpool-db/mp3/ValenceEve/13.mp3"
-      }, 
+    },
     
     {
       "albumart": "musicpool-db/covers/ValenceEve/12.jpg",
@@ -98,7 +104,7 @@
       "song": "Recruits",
       "json": "../pages/musicpool-db/lyrics/ValenceEve/12.json",
       "audio": "../pages/musicpool-db/mp3/ValenceEve/12.mp3"
-      }, 
+    },
     
     {
       "albumart": "musicpool-db/covers/ValenceEve/11.jpg",
@@ -106,7 +112,7 @@
       "song": "Honest",
       "json": "../pages/musicpool-db/lyrics/ValenceEve/11.json",
       "audio": "../pages/musicpool-db/mp3/ValenceEve/11.mp3"
-      }, 
+    },
     
     {
       "albumart": "musicpool-db/covers/ValenceEve/10.jpg",
@@ -114,7 +120,7 @@
       "song": "To you",
       "json": "../pages/musicpool-db/lyrics/ValenceEve/10.json",
       "audio": "../pages/musicpool-db/mp3/ValenceEve/10.mp3"
-      }, 
+    },
     
     {
       "albumart": "musicpool-db/covers/ValenceEve/9.jpg",
@@ -122,7 +128,7 @@
       "song": "Farce Emotions",
       "json": "../pages/musicpool-db/lyrics/ValenceEve/9.json",
       "audio": "../pages/musicpool-db/mp3/ValenceEve/9.mp3"
-      }, 
+    },
     
     {
       "albumart": "musicpool-db/covers/ValenceEve/8.jpg",
@@ -130,7 +136,7 @@
       "song": "Beautiful Taylor",
       "json": "../pages/musicpool-db/lyrics/ValenceEve/8.json",
       "audio": "../pages/musicpool-db/mp3/ValenceEve/8.mp3"
-      }, 
+    },
     
     {
       "albumart": "musicpool-db/covers/ValenceEve/7.jpg",
@@ -138,23 +144,23 @@
       "song": "Yahoo",
       "json": "../pages/musicpool-db/lyrics/ValenceEve/7.json",
       "audio": "../pages/musicpool-db/mp3/ValenceEve/7.mp3"
-      }, 
-
+    },
+    
     {
       "albumart": "musicpool-db/covers/ValenceEve/6.jpg",
       "author": "Frith Hilton",
       "song": "The game we play",
       "json": "../pages/musicpool-db/lyrics/ValenceEve/6.json",
       "audio": "../pages/musicpool-db/mp3/ValenceEve/6.mp3"
-      }, 
-
+    },
+    
     {
       "albumart": "musicpool-db/covers/ValenceEve/5.jpg",
       "author": "Frith Hilton",
       "song": "Queen's Daughter",
       "json": "../pages/musicpool-db/lyrics/ValenceEve/5.json",
       "audio": "../pages/musicpool-db/mp3/ValenceEve/5.mp3"
-      }, 
+    },
     
     {
       "albumart": "musicpool-db/covers/ValenceEve/4.gif",
@@ -162,7 +168,7 @@
       "song": "Smile on Me",
       "json": "../pages/musicpool-db/lyrics/ValenceEve/4.json",
       "audio": "../pages/musicpool-db/mp3/ValenceEve/4.mp3"
-      }, 
+    },
     
     {
       "albumart": "musicpool-db/covers/ValenceEve/3.jpg",
@@ -170,7 +176,7 @@
       "song": "Alarms",
       "json": "../pages/musicpool-db/lyrics/ValenceEve/3.json",
       "audio": "../pages/musicpool-db/mp3/ValenceEve/3.mp3"
-      }, 
+    },
     
     {
       "albumart": "musicpool-db/covers/ValenceEve/2.jpg",
@@ -178,7 +184,7 @@
       "song": "Kill time",
       "json": "../pages/musicpool-db/lyrics/ValenceEve/2.json",
       "audio": "../pages/musicpool-db/mp3/ValenceEve/2.mp3"
-      },
+    },
     
     {
       "albumart": "musicpool-db/covers/ValenceEve/1.jpg",
@@ -186,6 +192,6 @@
       "song": "I try",
       "json": "../pages/musicpool-db/lyrics/ValenceEve/1.json",
       "audio": "../pages/musicpool-db/mp3/ValenceEve/1.mp3"
-      }      
-    ]
+    }
+  ]
 }
