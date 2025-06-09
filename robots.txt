@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.frithhilton.com.ng/sitemap.xml
