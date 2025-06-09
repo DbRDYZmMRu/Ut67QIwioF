@@ -2,81 +2,462 @@
 <html lang="en">
 
 <head>
-<script>
+  <script>
     function getQueryParam(param) {
-        const urlParams = new URLSearchParams(window.location.search);
-
-        return urlParams.get(param);
+      const urlParams = new URLSearchParams(window.location.search);
+      
+      return urlParams.get(param);
     }
-
+    
     /**
 
  * Run the query parameter extraction on page load and update the page content.
 
  */
-
+    
     function runOnPageLoad() {
-        const queryValue = getQueryParam("query");
-
-        if (queryValue !== null) {
-            localStorage.setItem("viewIV", "poetry");
-
-            localStorage.setItem("IVCurrentChapter", queryValue);
-
-            console.log("Query parameter value:", queryValue); // You can replace this line with any other action
-
-            // Update the page content based on the query parameter value
-
-					localStorage.setItem("coverTabIVIsActive", false);
-					localStorage.setItem("authorTabIVIsActive", false);
-					localStorage.setItem("dedTabIVIsActive", false);
-					localStorage.setItem("chapterTabIVIsActive", true);
-
-            document.addEventListener("DOMContentLoaded", function () {
-                var integrationTab = document.getElementById("pills-integration-tab");
-
-                if (integrationTab) {
-                    integrationTab.click();
-                } else {
-                    console.error("Element with ID 'pills-integration-tab' not found.");
-                }
-            });
-        }
+      const queryValue = getQueryParam("query");
+      
+      if (queryValue !== null) {
+        localStorage.setItem("viewIV", "poetry");
+        
+        localStorage.setItem("IVCurrentChapter", queryValue);
+        
+        console.log("Query parameter value:", queryValue); // You can replace this line with any other action
+        
+        // Update the page content based on the query parameter value
+        
+        localStorage.setItem("coverTabIVIsActive", false);
+        localStorage.setItem("authorTabIVIsActive", false);
+        localStorage.setItem("dedTabIVIsActive", false);
+        localStorage.setItem("chapterTabIVIsActive", true);
+        
+        document.addEventListener("DOMContentLoaded", function() {
+          var integrationTab = document.getElementById("pills-integration-tab");
+          
+          if (integrationTab) {
+            integrationTab.click();
+          } else {
+            console.error("Element with ID 'pills-integration-tab' not found.");
+          }
+        });
+      }
     }
-
+    
     runOnPageLoad();
-</script>
+  </script>
   
   <!--===== Required meta tags =====-->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="author" content="Howard Frith Hilton" />
-  <meta name="description" content="Frith Hilton Collection IV" />
+  <meta name="author" content="Frith Hilton" />
+  <meta name="description" content="Explore Frith Hilton's Collection IV by Frith Hilton, featuring poems like Examples I Could Be, Painstaking Blows. Read, listen, and share poetry online." />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <meta property="og:url"
-    content="" />
+  <meta property="og:url" content="https://www.frithhilton.com.ng/published/poetry/collection-IV.html" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="Frith Hilton Collection IV" />
-  <meta property="og:description" content="Frith Hilton Collection IV" />
-  <meta property="og:image"
-    content="" />
-
-  <!--===== Title =====-->
-  <title>Frith Hilton Collection IV </title>
-
-  <!--===== Favicon =====-->
+  <meta property="og:title" content="Frith Hilton Collection IV by Frith Hilton" />
+  <meta property="og:description" content="Discover Frith Hilton's poems in Frith Hilton Collection IV, a poetry book dedicated to Lily Grace Rothschild." />
+  <meta property="og:image" content="https://www.frithhilton.com.ng/images/collections/iv/cover.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Frith Hilton Collection IV - Frith Hilton Poetry" />
+  <meta name="twitter:description" content="Discover Frith Hilton's poetic masterpieces in Frith Hilton Collection IV. Read and share now!" />
+  <meta name="twitter:image" content="https://www.frithhilton.com.ng/images/collections/iv/cover.jpg" />
+  <link rel="canonical" href="https://www.frithhilton.com.ng/published/poetry/Collection-IV.html" />
+  <title>Frith Hilton Collection IV - Frith Hilton </title>
   <link rel="shortcut icon" href="../../images/favicon.png" />
-
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Book",
+      "name": "Frith Hilton Collection IV",
+      "author": {
+        "@type": "Person",
+        "name": "Frith Hilton",
+        "alternateName": "Howard Frith Hilton",
+        "birthPlace": "Ogun State, Nigeria",
+        "url": "https://www.frithhilton.com.ng/pages/bio.html",
+        "description": "Frith Hilton is a Nigerian author, poet, songwriter, and musician with over 330 songs and 1,000 poems across 25 books. Discover his work at frithhilton.com.ng.",
+        "image": [
+        {
+          "@type": "ImageObject",
+          "url": "https://www.frithhilton.com.ng/images/Frith-Hilton/frith-hilton-author.jpg",
+          "contentUrl": "https://www.frithhilton.com.ng/images/Frith-Hilton/frith-hilton-author.jpg",
+          "caption": "Frith Hilton, author and poet, as an author",
+          "creator": {
+            "@type": "Person",
+            "name": "Frith Hilton"
+          },
+          "width": 1920,
+          "height": 1920,
+          "license": "https://creativecommons.org/licenses/by/4.0/",
+          "creditText": "Frith Hilton",
+          "copyrightNotice": "Copyright © Frith Hilton, licensed under CC BY 4.0",
+          "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
+        }],
+        "jobTitle": "Author, Poet, Songwriter, Musician",
+        "nationality": {
+          "@type": "Country",
+          "name": "Nigeria"
+        },
+        "sameAs": [
+          "https://x.com/frithhilton17",
+          "https://www.youtube.com/@frithhilton17",
+          "https://soundcloud.com/frithhilton17",
+          "https://genius.com/artists/Frith-hilton",
+          "https://instagram.com/frithhilton17"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "hello@frithhilton.com.ng",
+          "contactType": "Professional Contact"
+        },
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Frith Nightswan Enterprises",
+          "url": "https://www.frithnightswanenterprises.com.ng"
+        }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Forest Crib Books Imprint under Frith Nightswan Publishers"
+      },
+      "datePublished": "2025-01-20",
+      "inLanguage": "en",
+      "genre": "Poetry",
+      "keywords": "Frith Hilton Collection IV, Howard Frith Hilton, Frith Hilton, Frith Nightswan Publishers, Forest Crib Books, Poetry for Lily Grace Rothschild",
+      "image": "https://www.frithhilton.com.ng/images/collections/iv/cover.jpg",
+      "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html",
+      "hasPart": [
+      {
+        "@type": "CreativeWork",
+        "name": "Dedication",
+        "text": "<p>Lily Grace Rothschild.</p>\n"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Foreword",
+        "text": "<p>You think of when you will portray the credence of armistice, decorate fallen words, wait for a cast of what ambition look like in reviews, because in the moments, their eyes were weighty set to admit to blind spots.</p>\n<p>        Being younger has no claim, it’s the same with the <em>unwise</em> re-rise of the wheel inventors, and marking out “cut knots, knots to cut.” It is a diaphragm to breathe through, the other ends of sustenance.</p>\n<p>        When pikes aren’t rooted deep, they play a different role, the unserious have their seating and the shape of odds, not only point, they also constitute a legible mention of activity, one that is meaningful anyway.</p>\n<p>        When I care to rise and spot the difference, it ends in seeing why we fought so hard, growing up at ten grudges the teen of fifteen, and twenty has no flair for the white stork. When will the fighting stop? The argument of north and not, when the mark is met? It is how the pain I carry around that never hurts describes it, picking from its own cues.</p>\n<p>        Collection IV poems have no taste other than mine, it is why in some evincible world, I dedicate them to you, <i>Lily Grace Rothschild.</i></p>\n"
+      },
+      {
+        "@type": "chapter",
+        "position": 1,
+        "name": "Saved by Oxford and the King",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_1.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=1",
+        "text": "<p><em>Oxford dictionaries, wherever, ever near</em></p><p>“we thought the while, as we jointly peered”</p><p>chorused the Pears to the Apples in tears</p><p>“but it was a stumble” said the Pears stirred</p><p>“our dyad fall for an entry found nowhere.”</p><p>&nbsp;</p><p>“It drove us batty drenched”</p><p>“we too, also we were hunt scared</p><p>with no whoop-de-doo in the atmosphere</p><p>strewed with no memory of our disconnect”</p><p>“but the young king arrived with a basket”</p><p>“he did,” “and with a book,” expressed the Pears</p><p><em>Pro hac vice!</em></p><p>“the Oxford entry of the day he had to learn.”</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 2,
+        "name": "Rappynarrow",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_2.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=2",
+        "text": "<p>The wind hasn’t a thing to do</p><p>swinging boisterous and playful</p><p>parrying rapid, it pulls and swoops</p><p>and its lack of chores this proves.</p><p>&nbsp;</p><p>Our fine bags hold our books</p><p>they all sing <em>merci beaucoup</em></p><p>and with the round of thank you</p><p>our assignments ask: <em>when to</em></p><p>tomorrow is Saturday, we should.</p><p>&nbsp;</p><p>“What do we do this afternoon?”</p><p>hopscotch from room to room</p><p>let the tiles call out the right foot</p><p>for everyday, we hop and bloop</p><p>on the kitchen path for our foods</p><p>and you broke your plate and stood</p><p>. . . granny’s gift in pieces and frazzled</p><p>frozen like the cat from the cartoon.</p><p>&nbsp;</p><p>You remain after meals, even soup</p><p>when I asked, you said, “I can’t move”</p><p>it’s fine little sis, my digestion is behoof</p><p>I’ll let you ride on my back, I’ll stoop</p><p>this sturdy bend doesn’t need a saddle</p><p>but it could be you eat a lot too soon</p><p>so before we leave, you should choose</p><p>for the ride, you’ll have the side muckle</p><p>if you don’t, it will leave me in a brood</p><p>remember how long you had it good</p><p>before we changed where we would?</p><p>yours was narrower and I’d always lose</p><p>for your end had no side-space or nook</p><p>but we had fun because I wasn’t ignoble</p><p>introducing <em>Rappynarrow</em> from our bubble</p><p>. . . at the new court, your points were fitful</p><p>so talks of the Olympics got you rankled</p><p>so sit, enjoy the ride; a medallist’s prelude.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 3,
+        "name": "Private Number",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_3.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=3",
+        "text": "<p>“Send me airtime or else . . .”</p><p>“. . . or else what?”</p><p>final diminuting pelt</p><p>struck shuttlecock</p><p>hitting our heads</p><p>like <em>poop</em>, in ardour.</p><p>&nbsp;</p><p>My thirty-three ten</p><p>shot up the spectrum</p><p>. . . an overweight racquet</p><p>and her voice was clear</p><p>remaining in our eardrums</p><p>even in the silence</p><p>as a brusque retort</p><p>to us . . . these children</p><p>and how far we were blunt</p><p>behind a phone and fence.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 4,
+        "name": "The Artisan's Atelier",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_4.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=4",
+        "text": "<p>At the artisan’s atelier, life began</p><p>the <em>trough</em> forged the constant:</p><p>alibi hands in deceptive semblance</p><p>gnawing at the invariable guards</p><p>with tenable shanty cries shards</p><p>broken in their rise afloat crass</p><p>sleet drifts harking to the water</p><p>ever tumultuous, somerset bangs</p><p>dry rest; comforting upholsters.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 5,
+        "name": "Spicy, Feeling Through",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_5.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=5",
+        "text": "<p>Noodles is only for the pooh-bahs</p><p>say this, drizzle that, it’s known facts</p><p>they all can be executives and mothers</p><p>but not thriving young sweet toddlers</p><p>fidgeting, slurping, flummoxing criers</p><p>spicy feeling through their hearts.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 6,
+        "name": "How High on the Rungs",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_6.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=6",
+        "text": "<p>A morn with a lot to do</p><p>they steer you forethought afoot</p><p>or ram you straight in ambush</p><p>sometimes it’s the sun with fast shoes</p><p>other times you’re seeming to not choose</p><p>here is one — thought is flanked with clues</p><p>pulling closer the ebullience of the noose.</p><p>&nbsp;</p><p>With the plants watered and spruced</p><p>I sat pondering my rule over the roost</p><p>then I’d need something soon to chew</p><p>risotto, toast, frittata, à la carte mottled</p><p>I poured the oppy fluff slosh sum bottled</p><p>but a hot top-pan hit <em>swack</em> in a whoosh</p><p>a hatching mischief hollowing in the pool</p><p>actual clanks, creaks disrupting the groove</p><p>smacks and whacks, snuffing out my needle</p><p><em>three</em>, <em>two</em>, <em>one</em>, the sprechgesang muddle.</p><p>&nbsp;</p><p>Through the window, I see the ladder in a snug</p><p>with the walls to be coloured to my mind’s hue</p><p>and the palette’s primary being of peach fruit</p><p>the winning sensation of the options accrued</p><p>it was weeks ago, believing I had higher moods</p><p>and this could be tub-thumping in a way crude</p><p>but the painter’s level on the rung is uncouth</p><p>and the sensation he smears suffers droop</p><p>coming in, no thought of good morn a snoot.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 7,
+        "name": "Guardian Angel",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_7.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=7",
+        "text": "<p>His introspection would be flattery</p><p>he muses on trees, birds, and hymns</p><p>may seem to be human, but it’s a spin</p><p>his voice trails, but nowhere is he seen</p><p>and this day, it’s joy bathed kid-beings.</p><p>&nbsp;</p><p>There’s a pack, courage, and an army</p><p>swamp, parallel conduit walls far trailing</p><p>we pick a side, and follow fate’s asperity</p><p>her paths are feet apart and appealing</p><p>the danger to her sides is entrammelling</p><p>so we skip the busy roads for her lonely</p><p>trip, you’re ditch bound, in, swamp seized</p><p>and we all knew the whet, whichever it is?</p><p>&nbsp;</p><p>No one came down, not the adults I mean</p><p>and for anyone now, it’d be incriminating</p><p>by his prayers to end desires for the freak</p><p>they’d be anti-guardian angel with the wig</p><p>to be found is to have been wimpy as a kid</p><p>he said a prayer in his very careful edging</p><p>our directions opposite and never meeting</p><p>he was the only person in all our crossings</p><p>an adult, so he had to be guardian, angelic.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 8,
+        "name": "The Severed Branch",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_8.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=8",
+        "text": "<p>The headquarters got the orders</p><p>from where? no one dared utter</p><p>some wondered, some pondered</p><p>others just laughed in thunder</p><p>but none said to the other</p><p>a word, a note, any banter</p><p>of whose weight had mattered.</p><p>&nbsp;</p><p>And suddenly their arrival</p><p>their number had us yappers</p><p>wincing, cackling even harder</p><p>“no way is this man the jack.”</p><p>he arrived in a suit with badge</p><p>arms not brawny hung a keister</p><p>he said little; few words richer</p><p>before heading for a dispenser</p><p>his cup held not a drip heavier</p><p>nursing it like the perfect mister</p><p>he’d come to cut off the branch</p><p>and from his arms to his fingers</p><p>they grew with the cup wrapped</p><p>dropping it upend on the counter</p><p>he slid it slow into an open thrash</p><p>the air about him was bossy daft</p><p>as he walked toward a chamber</p><p>he hit the door with a little smack</p><p>but the changing room door sat</p><p>we all were seated, as if in a gag</p><p>whispers unsure if we knew better</p><p>we all could get up; take a stand</p><p>but I was alone in the open-plan</p><p>I took my seat at the door bang</p><p>but I could not get my antsy wart</p><p>in there I thought about this man</p><p>his tie was gone in reappearance</p><p>he had done something to his hair</p><p>his left temple was cowlicked apart</p><p>he looked at me uncanny peculiar</p><p>it was a New York minute’s glance</p><p>you know those types; the cue start</p><p>soon we all heard the burr spatter</p><p>and a loud flump in a shush gnast</p><p>the branch had been severed flat</p><p>we all wanted to see him lift that</p><p>I wanted to see the tree in hacks</p><p>pieces of his labour in slue attack.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 9,
+        "name": "Bye Dear Man",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_9.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=9",
+        "text": "<p>“Who are your parents?”</p><p>they ask</p><p>baffled by my tenets</p><p>all cack!</p><p>ideas from the west</p><p>how far</p><p>if you ever care to test</p><p>the bar</p><p>how they are never met</p><p>“Spider man . . .</p><p>I want his Spidey sense”</p><p>come hither</p><p>come see the son he beget</p><p>your prayers</p><p>squirl them with a pen</p><p>he answers . . .</p><p>and for three days I went</p><p>every command</p><p>steadfast, an adherent</p><p>till canned</p><p>and the revival saw an end.</p><p>&nbsp;</p><p>Months after</p><p>in rêve of skyscrapers and webs</p><p>god whispered</p><p>as if, my faith, again to retest</p><p>I’d just barfed</p><p>again to his high benevolence</p><p>“a spider, hi dad</p><p>I want to spin webs, catch girls”</p><p>real fast . . .</p><p>“when you’re sixteen,” he said</p><p>“if it still whops.”</p><p>&nbsp;</p><p>Sixteen came, I had a girlfriend</p><p>and it slapped</p><p>maybe I got milquetoast unfair</p><p>but duh!</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 10,
+        "name": "Wolf Bite",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_10.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=10",
+        "text": "<p><em>Choose what closing the lid does</em></p><p>will you do nothing at all?</p><p>bring it to an end with the fall</p><p>do not play any songs</p><p>though I need you, I’m pretty sure</p><p>draw the curtains to the vicarious</p><p>I can hear you in auscultation</p><p>not with your ocean of visions</p><p>the non-stop pour by your shore</p><p>I can’t keep the screen on</p><p>when it’s something you’ve done</p><p>with the lights it feels like a door</p><p>I can’t go on; I don’t feel tough</p><p>this window in my mind won’t shut</p><p>but is this the darkness you warn?</p><p>howl in my ears, no flint or firedog</p><p>and if sleep comes</p><p>peradventure my bites it will spot.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 11,
+        "name": "The End",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_11.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=11",
+        "text": "<p>Reading as a child made no sense</p><p>I mean, we all just got really tense</p><p>you’re by a little, and have a whacked, backed rest</p><p>it daunted</p><p>what are vowels?</p><p>how is this a sentence?</p><p>I had to seat for short tests</p><p>wait till the first mate in pretence</p><p>being older doesn’t veg the pretext</p><p>it is a lot everyone expects</p><p>and it is easy to fall when you’re the best</p><p>if you love consonants, and forget where you met</p><p>. . . it is the jewels</p><p>they aren’t found everywhere</p><p>so reading was fun by the wicket</p><p>I enjoyed titles I selected</p><p>best list to read before the bucket</p><p>as a writer, I can’t tell when this will end.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 12,
+        "name": "The First Street Light",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_12.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=12",
+        "text": "<p>When the night is warm</p><p>it doesn’t pore break than <em>the hug</em></p><p>and by every rainstorm</p><p>none shuddering that little rainfall</p><p>cold evening showers that damped love;</p><p><em>the hug</em> that had floodlights pour.</p><p>&nbsp;</p><p>Love meant poetry, songs, hugs, and trust</p><p>the maze of quarrels, and who is jealous</p><p>my letters under her pillow in her dorm</p><p>the weekend rituals of not speaking at all</p><p>peaking on Sunday morning’s attraction;</p><p>her best, looking like one of the fine adults</p><p>the mistress’ social engagement invitations</p><p>her heels and jewellery, my preppy uniform</p><p>seeing her beautiful, bonnie, and tall</p><p>it’d be hard to convince any joe I was more</p><p>you’d need to see her walk through the door</p><p>her classroom smile brushing theirs upward.</p><p>&nbsp;</p><p>To be the man, it wasn’t enough</p><p>not next to the devil with her fork</p><p>she wore attitude and I was a snob</p><p>the only dance on our floor</p><p>that evening brought a clot</p><p>fleshed out our bleeding expression</p><p>the path route to comprehension</p><p>and like every phone call</p><p>it wasn’t unusual her action</p><p>she went off, and so did the clock</p><p>the minutes ticked by on our table top</p><p>our yellow circle table resembles a watch</p><p>she had my wrist; the time asked to come</p><p>I read again the last words she’d jot</p><p>the ghosting behind my own words</p><p>in the reading strain, her smile honked</p><p>and I thought up, of more ways flawed</p><p>as she’d claim, ungainly in the mirror</p><p>convincing she wasn’t of that notch</p><p>I couldn’t shake off her smell of musk</p><p>my thinking soon felt like a dirty job</p><p>so I stepped in the rain like she had done</p><p>following cobble stones where they implored</p><p>the darkness soaked in the rain in first blush</p><p>and the growing shiver raid made me pause</p><p>I was sure to hear her if she was in the radius</p><p>the light from her flip phone made my skin burn</p><p>as far from the rear of the car park as they went off</p><p>it’s when I noticed she’d been crying all along</p><p>the closing distance as I gawped</p><p>the vehicles’ windscreen reflections</p><p>they commingled to a nostalgic dock</p><p>one I visit with you tonight with a chuck.</p><p>&nbsp;</p><p>My senses were picking up the obvious</p><p>. . . my first girlfriend was hurt</p><p>she walked past me in splashing clumps</p><p>and it was everything that was wrong</p><p>more clapping leaves from an open book in gust</p><p>like open books, my emotions flipped and turned</p><p>and she soon returned as if customary, as if by custom </p><p>her trickling tears held a resolve</p><p>and in our embrace, it dissolved</p><p>a shoulder to cry on</p><p>in one piece to her dorm in smock.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 13,
+        "name": "Only Hollywood Films",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_13.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=13",
+        "text": "<p>Quad ardour</p><p>the bells ring</p><p>the class can’t go on</p><p>bags zip</p><p>the teacher has her tempo off</p><p>but this isn’t real</p><p>not another minute’s lecture</p><p>she should get going</p><p>she tots up the bore</p><p>the seconds are screeching</p><p>tock, tock</p><p>only Hollywood films</p><p>our faces gesture</p><p>she’s losing the grip</p><p>quit this reality brawl</p><p>you don’t know what it is.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 14,
+        "name": "In Time",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_14.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=14",
+        "text": "<p>The rile in the grime</p><p>I smile when you whine</p><p>the afternoon is a slide</p><p>from the morning’s tide;</p><p>your piece of the day’s pie</p><p>what you fray always is time</p><p>in the fraction we sit to dine</p><p>how about we even the rhyme.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 15,
+        "name": "Weed and Horticulture",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_15.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=15",
+        "text": "<p>A little garden</p><p>sprouting farthings</p><p>an eve fair to partings</p><p>nattering earthlings</p><p>the bed holds for the morning</p><p>lined for doss ease</p><p>awaits its daily swill;</p><p>the gardener’s care cinch</p><p>it earmarks the weeds</p><p>contemplates however itsy-bitsy</p><p>the soil from uprooting</p><p>from the previous weeks;</p><p>returns, it sees clearly</p><p>her careful short wiggling.</p><p>&nbsp;</p><p>The sun is slow trudging</p><p>blooming in its itinerary</p><p>the soil wakes the little weeds</p><p>they awake to serial munching</p><p>as if the night hadn’t ended brill</p><p>for days they nurtured haughtily</p><p>horticulture done airily</p><p>in the soil’s bosom they compete</p><p>guilt, with this round’s withering </p><p>they’ll appear back in a twist</p><p>they are the only good necessary</p><p>if plants and flowers turn over bad leaves</p><p>they are ferociously wild and mean</p><p>and make the most of the timing</p><p>the herbicides come and they sting</p><p>they pit the weeds in fighting</p><p>and cause the soil some hurting</p><p>maybe it’s fine; the soil is smiling</p><p>how they help it in its guard duty.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 16,
+        "name": "Vines",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_16.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=16",
+        "text": "<p>Rhymes like vines</p><p>coo, look, whose?</p><p>hemming, swirling</p><p>thoughts, plots, and such</p><p>with words that come</p><p>where the vowels travels</p><p>tenants with the consonants.</p><p>&nbsp;</p><p>Get pots with soil</p><p>be sure of its humus</p><p>the crux is below its crust</p><p>prepare your seatbelt</p><p>get a pencil</p><p>catch a tune</p><p><em>up, up, up</em></p><p>it shoots from the root</p><p>it booms, zooms</p><p>it’s your rocket</p><p>it’s perfect</p><p>it rattles, don’t unbuckle.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 17,
+        "name": "Examples I Could Be",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_17.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=17",
+        "text": "<p>Me a gauze, I could be insufferable</p><p>me arriving late could be intolerable</p><p>me between choices could be deplorable</p><p>me winning the lotto could be improbable</p><p>me throwing a fit could be unacceptable</p><p>me breaking the law could be unforgivable</p><p>me outside in a curfew could be applicable</p><p>me known as opinionated could be unsociable.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 18,
+        "name": "Hop the Sound Bus",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_18.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=18",
+        "text": "<p>Hop the sound bus</p><p>feel free to discuss</p><p>in here, no rebuff</p><p>words fly like ping-pong</p><p>everyone responds</p><p>go on, be the chatterbox</p><p>remain with cute humour</p><p>leave the forsaken gall</p><p>hop the sound bus.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 19,
+        "name": "Whisk",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_19.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=19",
+        "text": "<p>I am convinced</p><p>by far instilled</p><p>you can win</p><p>when you whisk</p><p>they don’t wink</p><p>eggs don’t speak</p><p>if you’re untidy</p><p>and there are spritz</p><p>there is spluttering</p><p>unlike eyes that see</p><p>they take no pupils</p><p>I see everyone frying</p><p>what are they saying?</p><p>mine says it’s ready.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 20,
+        "name": "Cuss Words",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_20.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=20",
+        "text": "<p>Cuss words are hutched chores</p><p>always, you’ll see me hold my tongue</p><p>they are widely known stunts</p><p>and you’re lucky if you get caught</p><p>everyone thinks they retard expression</p><p>some welcome being very blunt</p><p>I think of it a very dirty ball</p><p>it’s pooh-pooh for thrash, so toss</p><p>it will have you in trouble’s clutch</p><p>and trouble smears you drabby coloured</p><p>I’ll give you two options</p><p>a drop in poop or fudge</p><p>poop, those words that won’t leave you stalled</p><p>when all is said and done</p><p>discretion is the better part of valour.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 21,
+        "name": "Descriptions and Directions",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_21.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=21",
+        "text": "<p>If you mean the picture</p><p>you will need some directions</p><p>along with helpful descriptions</p><p>ever been by yourself outdoor?</p><p>you’ll need a map, it is major</p><p>you can rely on the flock</p><p>as long as you keep with your intentions</p><p>do you need merely to be sure?</p><p>probably you have your instructions</p><p>but the obscurities are an intrusion</p><p>please ask the pressing questions</p><p>it is natural going by the network</p><p>these paths could be dead ends and blocks</p><p>I hope you enjoy the prefecture.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 22,
+        "name": "Dead Letter",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_22.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=22",
+        "text": "<p>A journey starts</p><p>with the pen of a writer</p><p>an awful lot of scrimmage</p><p>a block on what he needs to say</p><p>there are crumpled letters</p><p>unserious doodles on papers</p><p>he has a backache</p><p>so he calls it a day</p><p>he rises and thinks back</p><p>oh, he is awful darn sad</p><p>but his bed is already made</p><p>none the less, he feels the same</p><p>it was all they had</p><p>how cold it’d be their past</p><p>a past of shared space</p><p>another bedroom, another place</p><p>if the words come together</p><p>what would they tell her?</p><p>. . . assuming they got mailed</p><p>but it is now too late</p><p>he also picked his last bags</p><p>he also left no numbers</p><p>tomorrow he will try again</p><p>and he will pay postage.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 23,
+        "name": "Presentations",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_23.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=23",
+        "text": "<p>Allow me to take you along</p><p>oh, I must have a first</p><p>it must be covered now all over in dust</p><p>though I can’t take you where I show off</p><p>it is one of those things I dream of</p><p>a lofty desire, and to say what is more</p><p>my friend, it trades by the aisle of pious</p><p>how do I get you on a board of one?</p><p>have you by me, let you trade some bluff</p><p>it is strictly a matter of profession</p><p>I do my assignment, prepare for the meet up</p><p>I end the thing, having yapped like a parrot</p><p>a sleuth of tricks, to get em on the bandwagon.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 24,
+        "name": "Bagpipes and Fights",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_24.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=24",
+        "text": "<p>Notice!</p><p>attention please</p><p>it has gotten to the police</p><p>walking the beat</p><p>there are fights when you practice</p><p>what’s the forethought to malice?</p><p>are your bags and pipes not at ease?</p><p>try today, have fun with the breeze.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 25,
+        "name": "Plots Have Clops",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_25.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=25",
+        "text": "<p>My life starts</p><p>and no one cares</p><p>even in the stats</p><p>I’m no one’s heir</p><p>what do you think of that?</p><p>a man with no hair</p><p>he is neither Samson nor Delilah</p><p>he is a worm of the earth.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 26,
+        "name": "Spaghetti Soul",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_26.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=26",
+        "text": "<p>My breakfast streaks</p><p>are made of spaghetti</p><p>sometimes with celery</p><p>mum does a swift knitting</p><p>it entails more than is bitten</p><p>seeing us both in the kitchen</p><p>you’ll have a swell by my mitt.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 27,
+        "name": "Blenders and Jams",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_27.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=27",
+        "text": "<p>Hams, if you ask me</p><p>to the point of that guarantee;</p><p>time it dutifully speaks</p><p>“these blades won’t go blunt” it promises</p><p>not on the devices, obviously</p><p>that would pass for a breach</p><p>also if irate . . . I send one a biff</p><p>what I speak of and mean</p><p>is what you get out of the sleeve</p><p>these cartons with nice drawings</p><p>if I could draw one with poetry</p><p>it’d be perfect and I’d sell it</p><p>to the other brands, it’d be a pity</p><p>for it would be totally jam free</p><p>with no sound signals to listen</p><p>throw in onions, mushrooms, and garlic</p><p>you’d endure absolutely nothing</p><p>just my beautiful careful <em>blarney</em>.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 28,
+        "name": "With All Due Respect",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_28.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=28",
+        "text": "<p>No man goes beyond</p><p>that border, the pond</p><p>only buoys.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 29,
+        "name": "A Room Untidy",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_29.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=29",
+        "text": "<p>Have you seen the man-mouse?</p><p>can you tell if he is in his house?</p><p>he’s never in his room, anywhere about</p><p>word is, he’s out always to browse</p><p>it’d be unlike a man-mouse to flout</p><p>these creatures once wound, only espouse</p><p>the need for more, and more; such louts</p><p>now he calls a poet, inquiring in doubt</p><p>“do you anywhere sense in my room roust? “</p><p>“oh I’m a poet sir, I’m of good renown</p><p>my judgements are spoken of in town</p><p>my bifocals have the best clarity around</p><p>you’ve done great and should be proud.”</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 30,
+        "name": "A Cup of Lemonade",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_30.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=30",
+        "text": "<p>I see myself a cup</p><p>a cup limeade stumped</p><p>I’m well in and fraught</p><p>I’m a poor cup, not a jug</p><p>you don’t feel any more</p><p>you take a sip and scrub</p><p>your lips touch me, that’s all</p><p>would you be kind to your tutor?</p><p>sugar, a cube, please drop!</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 31,
+        "name": "The Lights You Don't See",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_31.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=31",
+        "text": "<p>The ones in a closed fridge</p><p>the happiness in misery</p><p>the blight in perspective</p><p>the swivel when you’re still</p><p>the nectar of instinct.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 32,
+        "name": "Briefcase",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_32.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=32",
+        "text": "<p>The criticism at large</p><p>is the highly pitched pah</p><p>cos if we all danced</p><p>your honour, and I’m bad</p><p>my move then must be fad.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 33,
+        "name": "Very Bad Parlance",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_33.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=33",
+        "text": "<p>There is a flock of worm</p><p>hoping for feathers and wings</p><p>if they get legs</p><p>they hope they come with boots</p><p>“this mufti should fit”</p><p>some said looking at a skin’s hide</p><p>“it’s got hoofs”</p><p><em>…</em></p><p>“those are no good”</p><p>“if they don’t come with shoes”</p><p>the queen&nbsp;addressed</p><p>“do you see shoes?”</p><p>“have the snake hide antennae?”</p><p><em>…</em></p><p>“oh we should move on”</p><p><em>…</em></p><p>“it’ll take a while</p><p>the big sea is our only bet.“</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 34,
+        "name": "Do They See Us?",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_34.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=34",
+        "text": "<p>Everywhere we go</p><p>we throw a pose</p><p>it’s always been so</p><p>from days of old</p><p>“we made the internet explode”</p><p>that’s what we sold</p><p>it was the implode</p><p>oh they poked</p><p>“you aren’t the folks”</p><p>“this is screen and smoke</p><p>you didn’t make the radio</p><p>not any good shows</p><p>can you remember a toll?”</p><p>the ballyhoo from foes</p><p>from it a lot follows</p><p>our fans still dig our lows.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 35,
+        "name": "Painstaking Blows",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_35.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=35",
+        "text": "<p>A heartbreak is as simple</p><p>its beauty comes with a dimple</p><p>over the same words, we fumble</p><p>she, who is the trouble</p><p>for her, I am moved quadruple</p><p>and I say it, I will booze</p><p>here is where she pulls</p><p>a roundabout on soldier shoes.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 36,
+        "name": "Criss-Cross",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_36.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=36",
+        "text": "<p>The introduction hasn’t a thing to do with it</p><p>those are just lines that meet</p><p>it’s hard here starting a beef</p><p>I try but I never win</p><p>you should try, though bitty</p><p>I always started from between</p><p>it could be bad advice, you see</p><p>but it’s criss-cross, it’s a thing.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 37,
+        "name": "Even in Your Doubts",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_37.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=37",
+        "text": "<p>What do you prefer?</p><p>is this what you deserve?</p><p>always a little unnerved</p><p>with lengths of will to be discerned.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 38,
+        "name": "Take It or Leave It",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/4/image_38.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=38",
+        "text": "<p>I can’t say a thing</p><p>nothing to pass as effective</p><p>but could it be</p><p>what you see</p><p>how you miss</p><p>presumptions, evasive</p><p>hankering lack of gutsy</p><p>how do I help you read?</p><p>aptitude for the choppy</p><p>milk for babies</p><p>babies digesting veal</p><p>win before the wean</p><p>take it or leave it</p><p>as the birds and the bees.</p>"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Acknowledgements",
+        "text": "<p>Thank you to all the incredible individuals who made this poetry book possible, everyone hasn’t <em>a thing</em> to fit, it’s usually more than the numbers to round up. And the fetching braids in your responses are truly beautiful, and I could go on about, with words praising your thoughtful, considerate enculturation. Your welcoming doorways have made this possible. </p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A big thank you to William, Prince of Wales, Jennifer Lopez, Katy Perry, Lana Del Rey, Stephen King, Sabrina Carpenter, Matt Healy, Ryan Reynolds, Miley Cyrus, Hailey Bieber, Neymar, Harry Styles, Trevor Noah, Lebron James, Idris Elba, Chrishell Stause, Jimmy Fallon, Alissa Violet, James Corden, Soulja Boy, Pink, Marc Jacobs, Lewis Hamilton, Joe Biden, Sofia Wylie, Adam Young, Jesse Elder, Grant Cardone, Brian Rose, Justin Timberlake, Wes Moore, Taylor Swift, Caitlyn Jenner, Carmella Rose, Ellie Goulding, Alan Olav Walker, Oprah Winfrey, and Tom Cruise.</p>\n"
+      }]
+    }
+  </script>
+  
   <!--===== Google fonts =====-->
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Jost:wght@300;400;500;600;700;800;900&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Jost:wght@300;400;500;600;700;800;900&display=swap" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet" />
- <!-- font-awesome-icons -->
- <script src="https://kit.fontawesome.com/c7fbb1b458.js" crossorigin="anonymous"></script>  
-
+  <!-- font-awesome-icons -->
+  <script src="https://kit.fontawesome.com/c7fbb1b458.js" crossorigin="anonymous"></script>
+  
   <!--===== Global bootstrap required css =====-->
   <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css" />
   <!--===== Global styles including: Font Icons, Plugins, etc =====-->
@@ -90,13 +471,13 @@
   <link rel="stylesheet" href="../../css/magnific-popup/magnific-popup.css" />
   <!--===== Main theme css =====-->
   <link rel="stylesheet" href="../../css/style.css" />
-
+  
 </head>
 
-  <body class="stokes-wrapper" id="ctrlArea" v-cloak>
-    <!--========== 
-	Start of loader ==========-->
-
+<body class="stokes-wrapper" id="ctrlArea" v-cloak>
+  <!--========== 
+        Start of loader ==========-->
+  
   <div class="template-loader">
     <div class="loaderCenter">
       <div class="book">
@@ -109,87 +490,51 @@
       </div>
     </div>
   </div>
-
-    <!--========== 
-	End of loader ==========-->
-
-    <!--========== 
+  
+  <!--========== 
+        End of loader ==========-->
+  
+  <!--========== 
     Start of  cookie modal notification section ==========-->
-    <div class="modal-subscribe">
-      <!-- Modal -->
-      <div
-        class="modal fade"
-        data-bs-backdrop="static"
-        id="myModal"
-        tabindex="-1"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-body p-0 bg-secondary rounded">
-              <div class="p-5 text-center">
-                <img
-                  class="img-fluid px-5"
-                  src="/images/svg/cookie.svg"
-                  alt=""
-                />
-                <h3>Cookies</h3>
-                <p class="text-dark">
-                  Managed by <b>F</b>rith<b> N</b>ightswan<b> E</b>nterprises</p> 
-                <a href="/cookies.html" class="text-primary-gradient fw-bold"
-                  >Our policy</a
-                >
-                <div class="d-grid mt-5">
-                  <button
-                    type="button"
-                    class="btn btn-white rounded"
-                    data-bs-dismiss="modal"
-                    @click="store.acceptCookieUse()"
-                  >
-                    Accept
-                  </button>
-                  <p class="text-dark mt-4">
-                    Coupled with
-                    <svg
-                      class="logo"
-                      viewBox="0 0 128 128"
-                      width="24"
-                      height="24"
-                      data-v-53ccc107=""
-                    >
-                      <path
-                        fill="#42b883"
-                        d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z"
-                        data-v-53ccc107=""
-                      ></path>
-                      <path
-                        fill="#35495e"
-                        d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z"
-                        data-v-53ccc107=""
-                      ></path>
-                    </svg>
-                    <a
-                      href="https://github.com/vuejs/petite-vue"
-                      target="_blank"
-                      style="color: #42b883"
-                      ><b>petite-vue</b></a
-                    >
-                  </p>
-                </div>
+  <div class="modal-subscribe">
+    <!-- Modal -->
+    <div class="modal fade" data-bs-backdrop="static" id="myModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body p-0 bg-secondary rounded">
+            <div class="p-5 text-center">
+              <img class="img-fluid px-5" alt="Cookies Policy Image" src="/images/svg/cookie.svg" alt="" />
+              <h3>Cookies</h3>
+              <p class="text-dark">
+                Managed by <b>F</b>rith<b> N</b>ightswan<b> E</b>nterprises</p>
+              <a href="/cookies.html" class="text-primary-gradient fw-bold">Our policy</a>
+              <div class="d-grid mt-5">
+                <button type="button" class="btn btn-white rounded" data-bs-dismiss="modal" @click="store.acceptCookieUse()">
+                  Accept
+                </button>
+                <p class="text-dark mt-4">
+                  Coupled with
+                  <svg class="logo" viewBox="0 0 128 128" width="24" height="24" data-v-53ccc107="">
+                    <path fill="#42b883" d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z" data-v-53ccc107=""></path>
+                    <path fill="#35495e" d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z" data-v-53ccc107=""></path>
+                  </svg>
+                  <a href="https://github.com/vuejs/petite-vue" target="_blank" style="color: #42b883"><b>petite-vue</b></a>
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!--========== 
+  </div>
+  <!--========== 
           End of cookie modal notification section ==========-->
-    <!--==========-->
-
-
-
-
-
+  <!--==========-->
+  
+  
+  
+  
+  
   <header class="header">
     <!--===== Start of navbar =====-->
     <nav class="navbar navbar-light navbar-expand-lg navbar-default">
@@ -197,157 +542,25 @@
         <!--===== Start of logo =====-->
         <a class="navbar-brand" href="/"><img class="logo" src="/images/logo.png" alt="Frith Hilton Logo" /></a>
         <!--===== End of logo =====-->
-
-        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-          aria-label="Toggle navigation">
+        
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="icon-bar top-bar mt-0"></span>
           <span class="icon-bar middle-bar"></span>
           <span class="icon-bar bottom-bar"></span>
         </button>
-
+        
         <!--===== Start of nav =====-->
         <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="/"><span class="text-line"> Home </span></a>
-            </li>                       
+            </li>
             <li class="nav-item dropdown active">
               <a @click="store.goToPublished" class="nav-link dropdown-toggle" href="#" id="navbar-pages" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="text-line"> Publications</span>
               </a>
-
-              <!--<ul class="dropdown-menu" aria-labelledby="navbar-pages">
-                <div class="mb-3 mt-3">
-                  <a href="#">
-                    Frith Hilton Collections
-                  </a>
-                </div>
-
-                <li class="dropdown-submenu">
-                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections I — III </span></a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="../published/poetry/collection-I.html"><span class="text-line">
-                          Collection I
-                        </span></a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="../published/poetry/collection-II.html"><span class="text-line">
-                          Collection II
-                        </span></a>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collection III </span></a>
-                      <ul class="dropdown-menu">
-                        <li>
-                          <a class="dropdown-item" href="../published/poetry/collection-III.html"><span class="text-line">
-                              Valentine Edition
-                            </span></a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="../published/poetry/collection-III-ii.html"><span class="text-line">
-                              Original Edition
-                            </span></a>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-                <li class="dropdown-submenu">
-                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections IV — VI </span></a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="../published/poetry/collection-IV.html"><span class="text-line">
-                          Collection IV
-                        </span></a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="../published/poetry/collection-V.html"><span class="text-line">
-                          Collection V
-                        </span></a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="../published/poetry/collection-VI.html"><span class="text-line">
-                          Collection VI
-                        </span></a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="dropdown-submenu">
-                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections VII — IX </span></a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="published/poetry/collection-VII.html"><span class="text-line">
-                          Collection VII
-                        </span></a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="published/poetry/collection-VIII.html"><span class="text-line">
-                          Collection VIII
-                        </span></a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="published/poetry/collection-IX.html"><span class="text-line">
-                          Collection IX
-                        </span></a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="dropdown-submenu">
-                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections X — XII </span></a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="published/poetry/collection-X.html"><span class="text-line">
-                          Collection X
-                        </span></a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="published/poetry/collection-XI.html"><span class="text-line">
-                          Collection XI
-                        </span></a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="published/poetry/collection-XII.html"><span class="text-line">
-                          Collection XII
-                        </span></a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="dropdown-submenu">
-                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections XIII — XIV </span></a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="published/poetry/collection-XIII.html"><span class="text-line">
-                          Collection XIII
-                        </span></a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="published/poetry/collection-XIV.html"><span class="text-line">
-                          Collection XIV
-                        </span><span class="badge bg-primary" style="font-size: 0.55em">New</span></a>
-                    </li>
-                  </ul>
-                </li>
-                <div class="mb-3 mt-3">
-                  <a href="#">
-                    Non-Fiction
-                  </a>
-                </div>
-
-                <li>
-                  <a class="dropdown-item" href="published/poetry/bury-me-in-1965.html"><span class="text-line">
-                      Bury me in 1965
-                    </span></a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="published/journal/a-life-worth-living.html"><span class="text-line">
-                      A Life Worth Living (Vision @ 2020)
-                    </span></a>
-                </li>
               
-              </ul>-->
+              
             </li>
             
             
@@ -359,7 +572,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../../pages/who-is-frith-hilton.html"><span class="text-line"> Who is Frith Hilton? </span></a>
-            </li>            
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="../../cookies.html"><span class="text-line"> Cookies Policy </span></a>
             </li>
@@ -381,19 +594,19 @@
     </nav>
     <!--===== End of navbar =====-->
   </header>
-
+  
   <!--========== 
         End of header ==========-->
-
+  
   <!--========== 
         End of Sidebar ==========-->
-
-
+  
+  
   <section class="position-relative slice-ptb">
     <div class="top-separator">
       <img class="img-fluid" src="/images/separator/brush.svg" alt="" />
     </div>
-      <div class="slice-ptb mt-n5">
+    <div class="slice-ptb mt-n5">
       <div class="container">
         <div class="row text-center justify-content-center">
           <div class="col-lg-9 col-xl-8">
@@ -409,12 +622,12 @@
           </div>
         </div>
       </div>
-    </div>    
-<div class="bottom-divider mt-n5">
+    </div>
+    <div class="bottom-divider mt-n5">
       <img class="img-fluid" :src="'../../images/separator/brush.svg'" alt="" />
     </div>
   </section>
-
+  
   <section class="position-relative slice-ptb">
     <div class="container">
       <button class="btn btn-naked btn-icon-right" href="#!" v-effect="if
@@ -424,41 +637,31 @@
         <div class="col-12">
           <ul class="nav nav-pills nav-border-wide justify-content-center mb-3" id="pills-tab-07" role="tablist">
             <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="pills-trekking-tab" data-bs-toggle="pill"
-                data-bs-target="#pills-trekking" type="button" role="tab" aria-controls="pills-trekking"
-                aria-selected="true" @click="store.setCoverIVAsTab()">
+              <button class="nav-link active" id="pills-trekking-tab" data-bs-toggle="pill" data-bs-target="#pills-trekking" type="button" role="tab" aria-controls="pills-trekking" aria-selected="true" @click="store.setCoverIVAsTab()">
                 Cover
               </button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-analysis-tab" data-bs-toggle="pill" data-bs-target="#pills-analysis"
-                type="button" role="tab" aria-controls="pills-analysis" aria-selected="false"
-                @click="store.setAuthorIVAsTab()">
+              <button class="nav-link" id="pills-analysis-tab" data-bs-toggle="pill" data-bs-target="#pills-analysis" type="button" role="tab" aria-controls="pills-analysis" aria-selected="false" @click="store.setAuthorIVAsTab()">
                 Author's Note
               </button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-investment-management-11-tab" data-bs-toggle="pill"
-                data-bs-target="#pills-investment-management-11" type="button" role="tab"
-                aria-controls="pills-investment-management-11" aria-selected="false" @click="store.setDedIVAsTab()">
+              <button class="nav-link" id="pills-investment-management-11-tab" data-bs-toggle="pill" data-bs-target="#pills-investment-management-11" type="button" role="tab" aria-controls="pills-investment-management-11" aria-selected="false" @click="store.setDedIVAsTab()">
                 Dedication & Acknowledgements
               </button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-integration-tab" data-bs-toggle="pill"
-                data-bs-target="#pills-integration" type="button" role="tab" aria-controls="pills-integration"
-                aria-selected="false" @click="store.setChaptersIVAsTab()">
+              <button class="nav-link" id="pills-integration-tab" data-bs-toggle="pill" data-bs-target="#pills-integration" type="button" role="tab" aria-controls="pills-integration" aria-selected="false" @click="store.setChaptersIVAsTab()">
                 Chapters
               </button>
             </li>
           </ul>
           <div class="tab-content mt-5" id="pills-tabContent-07">
-            <div class="tab-pane fade show active" id="pills-trekking" role="tabpanel"
-              aria-labelledby="pills-trekking-tab">
+            <div class="tab-pane fade show active" id="pills-trekking" role="tabpanel" aria-labelledby="pills-trekking-tab">
               <div class="row">
                 <div class="col-lg-6">
-                  <img class="img-fluid" src="/images/collections/iv/Cover Image.png"
-                    alt="Frith Hilton Collection IV" />
+                  <img class="img-fluid" src="/images/collections/iv/Cover Image.png" alt="Frith Hilton Collection IV" />
                 </div>
               </div>
             </div>
@@ -482,10 +685,10 @@
               </div>
             </div>
             <div class="tab-pane fade" id="pills-integration" role="tabpanel" aria-labelledby="pills-integration-tab">
-
+              
               <div class="row justify-content-center">
                 <div class="col-lg-6">
-
+                  
                   <hr class="my-5" />
                   <!--========== 
           Beginning of chapter titles ==========-->
@@ -503,7 +706,7 @@
                         <h5 class="mt-3">{{title}}</h5>
                         <span v-show="store.currentChapter == index" class="title-separator"></span>
                       </div>
-
+                      
                       <!--===== End of Title =====-->
                       <hr class="my-4" />
                     </div>
@@ -521,12 +724,12 @@
                         <span class="hedding-svg">{{store.pageResources().convertIndex(store.currentChapter)}}</span>
                       </h2>
                       <h5>{{store.chapterTitle}}</h5>
-
+                      
                       <div v-html="store.getChapterContent()" class="mt-4 me-4 ms-4"></div>
                     </div>
                     <!--===== End of Title =====-->
                     <hr class="my-5" />
-
+                    
                     <!--===== Go back  =====-->
                     <div class="col-lg-3 col-sm-6">
                       <p @click="store.goBack()" class="btn btn-naked-wrap go-back-btn">
@@ -536,7 +739,7 @@
                     </div>
                     <!--===== End Go back  =====-->
                   </div>
-
+                  
                   <!--========== 
           End of chapter content ==========-->
                 </div>
@@ -547,34 +750,33 @@
       </div>
     </div>
   </section>
-
-
-
-
-
-    <!--========== 
+  
+  
+  
+  
+  
+  <!--========== 
   Start of bottom page  ==========-->
-
+  
   <section class="py-5 bg-pink-gradient">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 text-center">
           <h3 class="text-white" id="some-id">
             I'm here
-            <u class="typer text-warning" data-words="writing,making music," data-delay="100" data-deletedelay="1000"
-              style="color: black"></u>
+            <u class="typer text-warning" data-words="writing,making music," data-delay="100" data-deletedelay="1000" style="color: black"></u>
             often.
           </h3>
         </div>
       </div>
     </div>
   </section>
-
+  
   <!--========== 
   End of bottom page  ==========-->
-
   
-
+  
+  
   <footer class="footer">
     <div class="container">
       <div class="row">
@@ -586,7 +788,7 @@
       </div>
     </div>
   </footer>
-
+  
   <footer class="footer bg-black slice-pt">
     <div class="container">
       <div class="row">
@@ -595,14 +797,14 @@
             <span class="typer text-white" id="some-id" data-words="Catch up!" data-delay="100">
             </span>
           </h2>
-
+          
           <div class="social-icons icons-xl mt-5">
             <a class="icon text-white" href="https://youtube.com/@frithhilton17?si=8pEsa1wf1KxLNvBK" target="_blank">
               <i class="fab fa-youtube"></i>
             </a>
             <a class="icon text-white" href="https://www.tiktok.com/@frithhilton17" target="_blank">
               <i class="fab fa-tiktok"></i>
-            </a>            
+            </a>
             <a class="icon text-white" href="https://www.twitter.com/frithhilton17" target="_blank">
               <i class="fab fa-x-twitter"></i>
             </a>
@@ -615,40 +817,1065 @@
       <hr class="mt-7" />
       <div class="row text-center">
         <div class="col-12">
-<div class="developer-footer mb-2">
-    <a href="http://leondev.com.ng" target="_blank"><img src="/images/Leondev.png" alt="lEoNDɘv" width="80" height="80"></a>  
-</div>                            
+          <div class="developer-footer mb-2">
+            <a href="http://leondev.com.ng" target="_blank"><img src="/images/Leondev.png" alt="lEoNDɘv" width="80" height="80"></a>
+          </div>
           <p class="text-white mt-3 mb-4">
             © <span id="getFullYear"></span>
-            <b>|</b> Managed by <span class="text-pink-gradient"> Frith Nightswan Enterprises</span>          </p>
+            <b>|</b> Managed by <span class="text-pink-gradient"> Frith Nightswan Enterprises</span>
+          </p>
         </div>
       </div>
     </div>
   </footer>
-
+  
   <!--========== 
   End of footer section ==========-->
-
+  
   <!--========== 
         Start of back to top section ==========-->
-
+  
   <div class="go-top">
     <p class="go-top-text">
       Scroll to top <i class="fas fa-long-arrow-alt-right ps-2"></i>
     </p>
   </div>
-
+  
   <!--========== 
-	End of back to top section ==========-->	                      <div class="col-lg-3 col-sm-6">                        <p                          @click="window.location.href='../search.html'"                          class="btn btn-naked-wrap search-btn"                        >                          <i class="fas fa-search"></i>                          <span> search </span>                        </p>                      </div> 
+        End of back to top section ==========-->
+  <div class="col-lg-3 col-sm-6">
+    <p @click="window.location.href='../search.html'" class="btn btn-naked-wrap search-btn"> <i class="fas fa-search"></i> <span> search </span> </p>
+  </div>
+  
+  <div class="visually-hidden">
+    <!-- Table of Contents -->
+    <nav aria-label="Table of Contents">
+      <ul>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=1">Saved by Oxford and the King</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=2">Rappynarrow</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=3">Private Number</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=4">The Artisan's Atelier</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=5">Spicy, Feeling Through</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=6">How High on the Rungs</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=7">Guardian Angel</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=8">The Severed Branch</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=9">Bye Dear Man</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=10">Wolf Bite</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=11">The End</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=12">The First Street Light</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=13">Only Hollywood Films</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=14">In Time</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=15">Weed and Horticulture</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=16">Vines</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=17">Examples I Could Be</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=18">Hop the Sound Bus</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=19">Whisk</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=20">Cuss Words</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=21">Descriptions and Directions</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=22">Dead Letter</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=23">Presentations</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=24">Bagpipes and Fights</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=25">Plots Have Clops</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=26">Spaghetti Soul</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=27">Blenders and Jams</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=28">With All Due Respect</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=29">A Room Untidy</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=30">A Cup of Lemonade</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=31">The Lights You Don't See</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=32">Briefcase</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=33">Very Bad Parlance</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=34">Do They See Us?</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=35">Painstaking Blows</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=36">Criss-Cross</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=37">Even in Your Doubts</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-IV.html?query=38">Take It or Leave It</a></li>
+      </ul>
+    </nav>
+    
+    <section class="dedication" aria-label="Dedication">
+      <h2>Dedication</h2>
+      <div>
+        <p>Lily Grace Rothschild.</p>
+      </div>
+    </section>
+    <section class="foreword" aria-label="Foreword">
+      <h2>Foreword</h2>
+      <div>
+        <p>You think of when you will portray the credence of armistice, decorate fallen words, wait for a cast of what ambition look like in reviews, because in the moments, their eyes were weighty set to admit to blind spots.</p>
+        <p> Being younger has no claim, it’s the same with the <em>unwise</em> re-rise of the wheel inventors, and marking out “cut knots, knots to cut.” It is a diaphragm to breathe through, the other ends of sustenance.</p>
+        <p> When pikes aren’t rooted deep, they play a different role, the unserious have their seating and the shape of odds, not only point, they also constitute a legible mention of activity, one that is meaningful anyway.</p>
+        <p> When I care to rise and spot the difference, it ends in seeing why we fought so hard, growing up at ten grudges the teen of fifteen, and twenty has no flair for the white stork. When will the fighting stop? The argument of north and not, when the mark is met? It is how the pain I carry around that never hurts describes it, picking from its own cues.</p>
+        <p> Collection IV poems have no taste other than mine, it is why in some evincible world, I dedicate them to you, <i>Lily Grace Rothschild.</i></p>
+      </div>
+    </section>
+    
+    <!-- Chapters -->
+    
+    <section class="chapter" aria-label="Saved by Oxford and the King">
+      <h2>Saved by Oxford and the King</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_1.png" alt="Illustration for Saved by Oxford and the King">
+      <div>
+        <p><em>Oxford dictionaries, wherever, ever near</em></p>
+        <p>“we thought the while, as we jointly peered”</p>
+        <p>chorused the Pears to the Apples in tears</p>
+        <p>“but it was a stumble” said the Pears stirred</p>
+        <p>“our dyad fall for an entry found nowhere.”</p>
+        <p>&nbsp;</p>
+        <p>“It drove us batty drenched”</p>
+        <p>“we too, also we were hunt scared</p>
+        <p>with no whoop-de-doo in the atmosphere</p>
+        <p>strewed with no memory of our disconnect”</p>
+        <p>“but the young king arrived with a basket”</p>
+        <p>“he did,” “and with a book,” expressed the Pears</p>
+        <p><em>Pro hac vice!</em></p>
+        <p>“the Oxford entry of the day he had to learn.”</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Rappynarrow">
+      <h2>Rappynarrow</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_2.png" alt="Illustration for Rappynarrow">
+      <div>
+        <p>The wind hasn’t a thing to do</p>
+        <p>swinging boisterous and playful</p>
+        <p>parrying rapid, it pulls and swoops</p>
+        <p>and its lack of chores this proves.</p>
+        <p>&nbsp;</p>
+        <p>Our fine bags hold our books</p>
+        <p>they all sing <em>merci beaucoup</em></p>
+        <p>and with the round of thank you</p>
+        <p>our assignments ask: <em>when to</em></p>
+        <p>tomorrow is Saturday, we should.</p>
+        <p>&nbsp;</p>
+        <p>“What do we do this afternoon?”</p>
+        <p>hopscotch from room to room</p>
+        <p>let the tiles call out the right foot</p>
+        <p>for everyday, we hop and bloop</p>
+        <p>on the kitchen path for our foods</p>
+        <p>and you broke your plate and stood</p>
+        <p>. . . granny’s gift in pieces and frazzled</p>
+        <p>frozen like the cat from the cartoon.</p>
+        <p>&nbsp;</p>
+        <p>You remain after meals, even soup</p>
+        <p>when I asked, you said, “I can’t move”</p>
+        <p>it’s fine little sis, my digestion is behoof</p>
+        <p>I’ll let you ride on my back, I’ll stoop</p>
+        <p>this sturdy bend doesn’t need a saddle</p>
+        <p>but it could be you eat a lot too soon</p>
+        <p>so before we leave, you should choose</p>
+        <p>for the ride, you’ll have the side muckle</p>
+        <p>if you don’t, it will leave me in a brood</p>
+        <p>remember how long you had it good</p>
+        <p>before we changed where we would?</p>
+        <p>yours was narrower and I’d always lose</p>
+        <p>for your end had no side-space or nook</p>
+        <p>but we had fun because I wasn’t ignoble</p>
+        <p>introducing <em>Rappynarrow</em> from our bubble</p>
+        <p>. . . at the new court, your points were fitful</p>
+        <p>so talks of the Olympics got you rankled</p>
+        <p>so sit, enjoy the ride; a medallist’s prelude.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Private Number">
+      <h2>Private Number</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_3.png" alt="Illustration for Private Number">
+      <div>
+        <p>“Send me airtime or else . . .”</p>
+        <p>“. . . or else what?”</p>
+        <p>final diminuting pelt</p>
+        <p>struck shuttlecock</p>
+        <p>hitting our heads</p>
+        <p>like <em>poop</em>, in ardour.</p>
+        <p>&nbsp;</p>
+        <p>My thirty-three ten</p>
+        <p>shot up the spectrum</p>
+        <p>. . . an overweight racquet</p>
+        <p>and her voice was clear</p>
+        <p>remaining in our eardrums</p>
+        <p>even in the silence</p>
+        <p>as a brusque retort</p>
+        <p>to us . . . these children</p>
+        <p>and how far we were blunt</p>
+        <p>behind a phone and fence.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="The Artisan's Atelier">
+      <h2>The Artisan's Atelier</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_4.png" alt="Illustration for The Artisan's Atelier">
+      <div>
+        <p>At the artisan’s atelier, life began</p>
+        <p>the <em>trough</em> forged the constant:</p>
+        <p>alibi hands in deceptive semblance</p>
+        <p>gnawing at the invariable guards</p>
+        <p>with tenable shanty cries shards</p>
+        <p>broken in their rise afloat crass</p>
+        <p>sleet drifts harking to the water</p>
+        <p>ever tumultuous, somerset bangs</p>
+        <p>dry rest; comforting upholsters.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Spicy, Feeling Through">
+      <h2>Spicy, Feeling Through</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_5.png" alt="Illustration for Spicy, Feeling Through">
+      <div>
+        <p>Noodles is only for the pooh-bahs</p>
+        <p>say this, drizzle that, it’s known facts</p>
+        <p>they all can be executives and mothers</p>
+        <p>but not thriving young sweet toddlers</p>
+        <p>fidgeting, slurping, flummoxing criers</p>
+        <p>spicy feeling through their hearts.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="How High on the Rungs">
+      <h2>How High on the Rungs</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_6.png" alt="Illustration for How High on the Rungs">
+      <div>
+        <p>A morn with a lot to do</p>
+        <p>they steer you forethought afoot</p>
+        <p>or ram you straight in ambush</p>
+        <p>sometimes it’s the sun with fast shoes</p>
+        <p>other times you’re seeming to not choose</p>
+        <p>here is one — thought is flanked with clues</p>
+        <p>pulling closer the ebullience of the noose.</p>
+        <p>&nbsp;</p>
+        <p>With the plants watered and spruced</p>
+        <p>I sat pondering my rule over the roost</p>
+        <p>then I’d need something soon to chew</p>
+        <p>risotto, toast, frittata, à la carte mottled</p>
+        <p>I poured the oppy fluff slosh sum bottled</p>
+        <p>but a hot top-pan hit <em>swack</em> in a whoosh</p>
+        <p>a hatching mischief hollowing in the pool</p>
+        <p>actual clanks, creaks disrupting the groove</p>
+        <p>smacks and whacks, snuffing out my needle</p>
+        <p><em>three</em>, <em>two</em>, <em>one</em>, the sprechgesang muddle.</p>
+        <p>&nbsp;</p>
+        <p>Through the window, I see the ladder in a snug</p>
+        <p>with the walls to be coloured to my mind’s hue</p>
+        <p>and the palette’s primary being of peach fruit</p>
+        <p>the winning sensation of the options accrued</p>
+        <p>it was weeks ago, believing I had higher moods</p>
+        <p>and this could be tub-thumping in a way crude</p>
+        <p>but the painter’s level on the rung is uncouth</p>
+        <p>and the sensation he smears suffers droop</p>
+        <p>coming in, no thought of good morn a snoot.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Guardian Angel">
+      <h2>Guardian Angel</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_7.png" alt="Illustration for Guardian Angel">
+      <div>
+        <p>His introspection would be flattery</p>
+        <p>he muses on trees, birds, and hymns</p>
+        <p>may seem to be human, but it’s a spin</p>
+        <p>his voice trails, but nowhere is he seen</p>
+        <p>and this day, it’s joy bathed kid-beings.</p>
+        <p>&nbsp;</p>
+        <p>There’s a pack, courage, and an army</p>
+        <p>swamp, parallel conduit walls far trailing</p>
+        <p>we pick a side, and follow fate’s asperity</p>
+        <p>her paths are feet apart and appealing</p>
+        <p>the danger to her sides is entrammelling</p>
+        <p>so we skip the busy roads for her lonely</p>
+        <p>trip, you’re ditch bound, in, swamp seized</p>
+        <p>and we all knew the whet, whichever it is?</p>
+        <p>&nbsp;</p>
+        <p>No one came down, not the adults I mean</p>
+        <p>and for anyone now, it’d be incriminating</p>
+        <p>by his prayers to end desires for the freak</p>
+        <p>they’d be anti-guardian angel with the wig</p>
+        <p>to be found is to have been wimpy as a kid</p>
+        <p>he said a prayer in his very careful edging</p>
+        <p>our directions opposite and never meeting</p>
+        <p>he was the only person in all our crossings</p>
+        <p>an adult, so he had to be guardian, angelic.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="The Severed Branch">
+      <h2>The Severed Branch</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_8.png" alt="Illustration for The Severed Branch">
+      <div>
+        <p>The headquarters got the orders</p>
+        <p>from where? no one dared utter</p>
+        <p>some wondered, some pondered</p>
+        <p>others just laughed in thunder</p>
+        <p>but none said to the other</p>
+        <p>a word, a note, any banter</p>
+        <p>of whose weight had mattered.</p>
+        <p>&nbsp;</p>
+        <p>And suddenly their arrival</p>
+        <p>their number had us yappers</p>
+        <p>wincing, cackling even harder</p>
+        <p>“no way is this man the jack.”</p>
+        <p>he arrived in a suit with badge</p>
+        <p>arms not brawny hung a keister</p>
+        <p>he said little; few words richer</p>
+        <p>before heading for a dispenser</p>
+        <p>his cup held not a drip heavier</p>
+        <p>nursing it like the perfect mister</p>
+        <p>he’d come to cut off the branch</p>
+        <p>and from his arms to his fingers</p>
+        <p>they grew with the cup wrapped</p>
+        <p>dropping it upend on the counter</p>
+        <p>he slid it slow into an open thrash</p>
+        <p>the air about him was bossy daft</p>
+        <p>as he walked toward a chamber</p>
+        <p>he hit the door with a little smack</p>
+        <p>but the changing room door sat</p>
+        <p>we all were seated, as if in a gag</p>
+        <p>whispers unsure if we knew better</p>
+        <p>we all could get up; take a stand</p>
+        <p>but I was alone in the open-plan</p>
+        <p>I took my seat at the door bang</p>
+        <p>but I could not get my antsy wart</p>
+        <p>in there I thought about this man</p>
+        <p>his tie was gone in reappearance</p>
+        <p>he had done something to his hair</p>
+        <p>his left temple was cowlicked apart</p>
+        <p>he looked at me uncanny peculiar</p>
+        <p>it was a New York minute’s glance</p>
+        <p>you know those types; the cue start</p>
+        <p>soon we all heard the burr spatter</p>
+        <p>and a loud flump in a shush gnast</p>
+        <p>the branch had been severed flat</p>
+        <p>we all wanted to see him lift that</p>
+        <p>I wanted to see the tree in hacks</p>
+        <p>pieces of his labour in slue attack.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Bye Dear Man">
+      <h2>Bye Dear Man</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_9.png" alt="Illustration for Bye Dear Man">
+      <div>
+        <p>“Who are your parents?”</p>
+        <p>they ask</p>
+        <p>baffled by my tenets</p>
+        <p>all cack!</p>
+        <p>ideas from the west</p>
+        <p>how far</p>
+        <p>if you ever care to test</p>
+        <p>the bar</p>
+        <p>how they are never met</p>
+        <p>“Spider man . . .</p>
+        <p>I want his Spidey sense”</p>
+        <p>come hither</p>
+        <p>come see the son he beget</p>
+        <p>your prayers</p>
+        <p>squirl them with a pen</p>
+        <p>he answers . . .</p>
+        <p>and for three days I went</p>
+        <p>every command</p>
+        <p>steadfast, an adherent</p>
+        <p>till canned</p>
+        <p>and the revival saw an end.</p>
+        <p>&nbsp;</p>
+        <p>Months after</p>
+        <p>in rêve of skyscrapers and webs</p>
+        <p>god whispered</p>
+        <p>as if, my faith, again to retest</p>
+        <p>I’d just barfed</p>
+        <p>again to his high benevolence</p>
+        <p>“a spider, hi dad</p>
+        <p>I want to spin webs, catch girls”</p>
+        <p>real fast . . .</p>
+        <p>“when you’re sixteen,” he said</p>
+        <p>“if it still whops.”</p>
+        <p>&nbsp;</p>
+        <p>Sixteen came, I had a girlfriend</p>
+        <p>and it slapped</p>
+        <p>maybe I got milquetoast unfair</p>
+        <p>but duh!</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Wolf Bite">
+      <h2>Wolf Bite</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_10.png" alt="Illustration for Wolf Bite">
+      <div>
+        <p><em>Choose what closing the lid does</em></p>
+        <p>will you do nothing at all?</p>
+        <p>bring it to an end with the fall</p>
+        <p>do not play any songs</p>
+        <p>though I need you, I’m pretty sure</p>
+        <p>draw the curtains to the vicarious</p>
+        <p>I can hear you in auscultation</p>
+        <p>not with your ocean of visions</p>
+        <p>the non-stop pour by your shore</p>
+        <p>I can’t keep the screen on</p>
+        <p>when it’s something you’ve done</p>
+        <p>with the lights it feels like a door</p>
+        <p>I can’t go on; I don’t feel tough</p>
+        <p>this window in my mind won’t shut</p>
+        <p>but is this the darkness you warn?</p>
+        <p>howl in my ears, no flint or firedog</p>
+        <p>and if sleep comes</p>
+        <p>peradventure my bites it will spot.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="The End">
+      <h2>The End</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_11.png" alt="Illustration for The End">
+      <div>
+        <p>Reading as a child made no sense</p>
+        <p>I mean, we all just got really tense</p>
+        <p>you’re by a little, and have a whacked, backed rest</p>
+        <p>it daunted</p>
+        <p>what are vowels?</p>
+        <p>how is this a sentence?</p>
+        <p>I had to seat for short tests</p>
+        <p>wait till the first mate in pretence</p>
+        <p>being older doesn’t veg the pretext</p>
+        <p>it is a lot everyone expects</p>
+        <p>and it is easy to fall when you’re the best</p>
+        <p>if you love consonants, and forget where you met</p>
+        <p>. . . it is the jewels</p>
+        <p>they aren’t found everywhere</p>
+        <p>so reading was fun by the wicket</p>
+        <p>I enjoyed titles I selected</p>
+        <p>best list to read before the bucket</p>
+        <p>as a writer, I can’t tell when this will end.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="The First Street Light">
+      <h2>The First Street Light</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_12.png" alt="Illustration for The First Street Light">
+      <div>
+        <p>When the night is warm</p>
+        <p>it doesn’t pore break than <em>the hug</em></p>
+        <p>and by every rainstorm</p>
+        <p>none shuddering that little rainfall</p>
+        <p>cold evening showers that damped love;</p>
+        <p><em>the hug</em> that had floodlights pour.</p>
+        <p>&nbsp;</p>
+        <p>Love meant poetry, songs, hugs, and trust</p>
+        <p>the maze of quarrels, and who is jealous</p>
+        <p>my letters under her pillow in her dorm</p>
+        <p>the weekend rituals of not speaking at all</p>
+        <p>peaking on Sunday morning’s attraction;</p>
+        <p>her best, looking like one of the fine adults</p>
+        <p>the mistress’ social engagement invitations</p>
+        <p>her heels and jewellery, my preppy uniform</p>
+        <p>seeing her beautiful, bonnie, and tall</p>
+        <p>it’d be hard to convince any joe I was more</p>
+        <p>you’d need to see her walk through the door</p>
+        <p>her classroom smile brushing theirs upward.</p>
+        <p>&nbsp;</p>
+        <p>To be the man, it wasn’t enough</p>
+        <p>not next to the devil with her fork</p>
+        <p>she wore attitude and I was a snob</p>
+        <p>the only dance on our floor</p>
+        <p>that evening brought a clot</p>
+        <p>fleshed out our bleeding expression</p>
+        <p>the path route to comprehension</p>
+        <p>and like every phone call</p>
+        <p>it wasn’t unusual her action</p>
+        <p>she went off, and so did the clock</p>
+        <p>the minutes ticked by on our table top</p>
+        <p>our yellow circle table resembles a watch</p>
+        <p>she had my wrist; the time asked to come</p>
+        <p>I read again the last words she’d jot</p>
+        <p>the ghosting behind my own words</p>
+        <p>in the reading strain, her smile honked</p>
+        <p>and I thought up, of more ways flawed</p>
+        <p>as she’d claim, ungainly in the mirror</p>
+        <p>convincing she wasn’t of that notch</p>
+        <p>I couldn’t shake off her smell of musk</p>
+        <p>my thinking soon felt like a dirty job</p>
+        <p>so I stepped in the rain like she had done</p>
+        <p>following cobble stones where they implored</p>
+        <p>the darkness soaked in the rain in first blush</p>
+        <p>and the growing shiver raid made me pause</p>
+        <p>I was sure to hear her if she was in the radius</p>
+        <p>the light from her flip phone made my skin burn</p>
+        <p>as far from the rear of the car park as they went off</p>
+        <p>it’s when I noticed she’d been crying all along</p>
+        <p>the closing distance as I gawped</p>
+        <p>the vehicles’ windscreen reflections</p>
+        <p>they commingled to a nostalgic dock</p>
+        <p>one I visit with you tonight with a chuck.</p>
+        <p>&nbsp;</p>
+        <p>My senses were picking up the obvious</p>
+        <p>. . . my first girlfriend was hurt</p>
+        <p>she walked past me in splashing clumps</p>
+        <p>and it was everything that was wrong</p>
+        <p>more clapping leaves from an open book in gust</p>
+        <p>like open books, my emotions flipped and turned</p>
+        <p>and she soon returned as if customary, as if by custom </p>
+        <p>her trickling tears held a resolve</p>
+        <p>and in our embrace, it dissolved</p>
+        <p>a shoulder to cry on</p>
+        <p>in one piece to her dorm in smock.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Only Hollywood Films">
+      <h2>Only Hollywood Films</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_13.png" alt="Illustration for Only Hollywood Films">
+      <div>
+        <p>Quad ardour</p>
+        <p>the bells ring</p>
+        <p>the class can’t go on</p>
+        <p>bags zip</p>
+        <p>the teacher has her tempo off</p>
+        <p>but this isn’t real</p>
+        <p>not another minute’s lecture</p>
+        <p>she should get going</p>
+        <p>she tots up the bore</p>
+        <p>the seconds are screeching</p>
+        <p>tock, tock</p>
+        <p>only Hollywood films</p>
+        <p>our faces gesture</p>
+        <p>she’s losing the grip</p>
+        <p>quit this reality brawl</p>
+        <p>you don’t know what it is.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="In Time">
+      <h2>In Time</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_14.png" alt="Illustration for In Time">
+      <div>
+        <p>The rile in the grime</p>
+        <p>I smile when you whine</p>
+        <p>the afternoon is a slide</p>
+        <p>from the morning’s tide;</p>
+        <p>your piece of the day’s pie</p>
+        <p>what you fray always is time</p>
+        <p>in the fraction we sit to dine</p>
+        <p>how about we even the rhyme.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Weed and Horticulture">
+      <h2>Weed and Horticulture</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_15.png" alt="Illustration for Weed and Horticulture">
+      <div>
+        <p>A little garden</p>
+        <p>sprouting farthings</p>
+        <p>an eve fair to partings</p>
+        <p>nattering earthlings</p>
+        <p>the bed holds for the morning</p>
+        <p>lined for doss ease</p>
+        <p>awaits its daily swill;</p>
+        <p>the gardener’s care cinch</p>
+        <p>it earmarks the weeds</p>
+        <p>contemplates however itsy-bitsy</p>
+        <p>the soil from uprooting</p>
+        <p>from the previous weeks;</p>
+        <p>returns, it sees clearly</p>
+        <p>her careful short wiggling.</p>
+        <p>&nbsp;</p>
+        <p>The sun is slow trudging</p>
+        <p>blooming in its itinerary</p>
+        <p>the soil wakes the little weeds</p>
+        <p>they awake to serial munching</p>
+        <p>as if the night hadn’t ended brill</p>
+        <p>for days they nurtured haughtily</p>
+        <p>horticulture done airily</p>
+        <p>in the soil’s bosom they compete</p>
+        <p>guilt, with this round’s withering </p>
+        <p>they’ll appear back in a twist</p>
+        <p>they are the only good necessary</p>
+        <p>if plants and flowers turn over bad leaves</p>
+        <p>they are ferociously wild and mean</p>
+        <p>and make the most of the timing</p>
+        <p>the herbicides come and they sting</p>
+        <p>they pit the weeds in fighting</p>
+        <p>and cause the soil some hurting</p>
+        <p>maybe it’s fine; the soil is smiling</p>
+        <p>how they help it in its guard duty.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Vines">
+      <h2>Vines</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_16.png" alt="Illustration for Vines">
+      <div>
+        <p>Rhymes like vines</p>
+        <p>coo, look, whose?</p>
+        <p>hemming, swirling</p>
+        <p>thoughts, plots, and such</p>
+        <p>with words that come</p>
+        <p>where the vowels travels</p>
+        <p>tenants with the consonants.</p>
+        <p>&nbsp;</p>
+        <p>Get pots with soil</p>
+        <p>be sure of its humus</p>
+        <p>the crux is below its crust</p>
+        <p>prepare your seatbelt</p>
+        <p>get a pencil</p>
+        <p>catch a tune</p>
+        <p><em>up, up, up</em></p>
+        <p>it shoots from the root</p>
+        <p>it booms, zooms</p>
+        <p>it’s your rocket</p>
+        <p>it’s perfect</p>
+        <p>it rattles, don’t unbuckle.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Examples I Could Be">
+      <h2>Examples I Could Be</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_17.png" alt="Illustration for Examples I Could Be">
+      <div>
+        <p>Me a gauze, I could be insufferable</p>
+        <p>me arriving late could be intolerable</p>
+        <p>me between choices could be deplorable</p>
+        <p>me winning the lotto could be improbable</p>
+        <p>me throwing a fit could be unacceptable</p>
+        <p>me breaking the law could be unforgivable</p>
+        <p>me outside in a curfew could be applicable</p>
+        <p>me known as opinionated could be unsociable.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Hop the Sound Bus">
+      <h2>Hop the Sound Bus</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_18.png" alt="Illustration for Hop the Sound Bus">
+      <div>
+        <p>Hop the sound bus</p>
+        <p>feel free to discuss</p>
+        <p>in here, no rebuff</p>
+        <p>words fly like ping-pong</p>
+        <p>everyone responds</p>
+        <p>go on, be the chatterbox</p>
+        <p>remain with cute humour</p>
+        <p>leave the forsaken gall</p>
+        <p>hop the sound bus.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Whisk">
+      <h2>Whisk</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_19.png" alt="Illustration for Whisk">
+      <div>
+        <p>I am convinced</p>
+        <p>by far instilled</p>
+        <p>you can win</p>
+        <p>when you whisk</p>
+        <p>they don’t wink</p>
+        <p>eggs don’t speak</p>
+        <p>if you’re untidy</p>
+        <p>and there are spritz</p>
+        <p>there is spluttering</p>
+        <p>unlike eyes that see</p>
+        <p>they take no pupils</p>
+        <p>I see everyone frying</p>
+        <p>what are they saying?</p>
+        <p>mine says it’s ready.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Cuss Words">
+      <h2>Cuss Words</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_20.png" alt="Illustration for Cuss Words">
+      <div>
+        <p>Cuss words are hutched chores</p>
+        <p>always, you’ll see me hold my tongue</p>
+        <p>they are widely known stunts</p>
+        <p>and you’re lucky if you get caught</p>
+        <p>everyone thinks they retard expression</p>
+        <p>some welcome being very blunt</p>
+        <p>I think of it a very dirty ball</p>
+        <p>it’s pooh-pooh for thrash, so toss</p>
+        <p>it will have you in trouble’s clutch</p>
+        <p>and trouble smears you drabby coloured</p>
+        <p>I’ll give you two options</p>
+        <p>a drop in poop or fudge</p>
+        <p>poop, those words that won’t leave you stalled</p>
+        <p>when all is said and done</p>
+        <p>discretion is the better part of valour.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Descriptions and Directions">
+      <h2>Descriptions and Directions</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_21.png" alt="Illustration for Descriptions and Directions">
+      <div>
+        <p>If you mean the picture</p>
+        <p>you will need some directions</p>
+        <p>along with helpful descriptions</p>
+        <p>ever been by yourself outdoor?</p>
+        <p>you’ll need a map, it is major</p>
+        <p>you can rely on the flock</p>
+        <p>as long as you keep with your intentions</p>
+        <p>do you need merely to be sure?</p>
+        <p>probably you have your instructions</p>
+        <p>but the obscurities are an intrusion</p>
+        <p>please ask the pressing questions</p>
+        <p>it is natural going by the network</p>
+        <p>these paths could be dead ends and blocks</p>
+        <p>I hope you enjoy the prefecture.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Dead Letter">
+      <h2>Dead Letter</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_22.png" alt="Illustration for Dead Letter">
+      <div>
+        <p>A journey starts</p>
+        <p>with the pen of a writer</p>
+        <p>an awful lot of scrimmage</p>
+        <p>a block on what he needs to say</p>
+        <p>there are crumpled letters</p>
+        <p>unserious doodles on papers</p>
+        <p>he has a backache</p>
+        <p>so he calls it a day</p>
+        <p>he rises and thinks back</p>
+        <p>oh, he is awful darn sad</p>
+        <p>but his bed is already made</p>
+        <p>none the less, he feels the same</p>
+        <p>it was all they had</p>
+        <p>how cold it’d be their past</p>
+        <p>a past of shared space</p>
+        <p>another bedroom, another place</p>
+        <p>if the words come together</p>
+        <p>what would they tell her?</p>
+        <p>. . . assuming they got mailed</p>
+        <p>but it is now too late</p>
+        <p>he also picked his last bags</p>
+        <p>he also left no numbers</p>
+        <p>tomorrow he will try again</p>
+        <p>and he will pay postage.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Presentations">
+      <h2>Presentations</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_23.png" alt="Illustration for Presentations">
+      <div>
+        <p>Allow me to take you along</p>
+        <p>oh, I must have a first</p>
+        <p>it must be covered now all over in dust</p>
+        <p>though I can’t take you where I show off</p>
+        <p>it is one of those things I dream of</p>
+        <p>a lofty desire, and to say what is more</p>
+        <p>my friend, it trades by the aisle of pious</p>
+        <p>how do I get you on a board of one?</p>
+        <p>have you by me, let you trade some bluff</p>
+        <p>it is strictly a matter of profession</p>
+        <p>I do my assignment, prepare for the meet up</p>
+        <p>I end the thing, having yapped like a parrot</p>
+        <p>a sleuth of tricks, to get em on the bandwagon.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Bagpipes and Fights">
+      <h2>Bagpipes and Fights</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_24.png" alt="Illustration for Bagpipes and Fights">
+      <div>
+        <p>Notice!</p>
+        <p>attention please</p>
+        <p>it has gotten to the police</p>
+        <p>walking the beat</p>
+        <p>there are fights when you practice</p>
+        <p>what’s the forethought to malice?</p>
+        <p>are your bags and pipes not at ease?</p>
+        <p>try today, have fun with the breeze.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Plots Have Clops">
+      <h2>Plots Have Clops</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_25.png" alt="Illustration for Plots Have Clops">
+      <div>
+        <p>My life starts</p>
+        <p>and no one cares</p>
+        <p>even in the stats</p>
+        <p>I’m no one’s heir</p>
+        <p>what do you think of that?</p>
+        <p>a man with no hair</p>
+        <p>he is neither Samson nor Delilah</p>
+        <p>he is a worm of the earth.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Spaghetti Soul">
+      <h2>Spaghetti Soul</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_26.png" alt="Illustration for Spaghetti Soul">
+      <div>
+        <p>My breakfast streaks</p>
+        <p>are made of spaghetti</p>
+        <p>sometimes with celery</p>
+        <p>mum does a swift knitting</p>
+        <p>it entails more than is bitten</p>
+        <p>seeing us both in the kitchen</p>
+        <p>you’ll have a swell by my mitt.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Blenders and Jams">
+      <h2>Blenders and Jams</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_27.png" alt="Illustration for Blenders and Jams">
+      <div>
+        <p>Hams, if you ask me</p>
+        <p>to the point of that guarantee;</p>
+        <p>time it dutifully speaks</p>
+        <p>“these blades won’t go blunt” it promises</p>
+        <p>not on the devices, obviously</p>
+        <p>that would pass for a breach</p>
+        <p>also if irate . . . I send one a biff</p>
+        <p>what I speak of and mean</p>
+        <p>is what you get out of the sleeve</p>
+        <p>these cartons with nice drawings</p>
+        <p>if I could draw one with poetry</p>
+        <p>it’d be perfect and I’d sell it</p>
+        <p>to the other brands, it’d be a pity</p>
+        <p>for it would be totally jam free</p>
+        <p>with no sound signals to listen</p>
+        <p>throw in onions, mushrooms, and garlic</p>
+        <p>you’d endure absolutely nothing</p>
+        <p>just my beautiful careful <em>blarney</em>.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="With All Due Respect">
+      <h2>With All Due Respect</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_28.png" alt="Illustration for With All Due Respect">
+      <div>
+        <p>No man goes beyond</p>
+        <p>that border, the pond</p>
+        <p>only buoys.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="A Room Untidy">
+      <h2>A Room Untidy</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_29.png" alt="Illustration for A Room Untidy">
+      <div>
+        <p>Have you seen the man-mouse?</p>
+        <p>can you tell if he is in his house?</p>
+        <p>he’s never in his room, anywhere about</p>
+        <p>word is, he’s out always to browse</p>
+        <p>it’d be unlike a man-mouse to flout</p>
+        <p>these creatures once wound, only espouse</p>
+        <p>the need for more, and more; such louts</p>
+        <p>now he calls a poet, inquiring in doubt</p>
+        <p>“do you anywhere sense in my room roust? “</p>
+        <p>“oh I’m a poet sir, I’m of good renown</p>
+        <p>my judgements are spoken of in town</p>
+        <p>my bifocals have the best clarity around</p>
+        <p>you’ve done great and should be proud.”</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="A Cup of Lemonade">
+      <h2>A Cup of Lemonade</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_30.png" alt="Illustration for A Cup of Lemonade">
+      <div>
+        <p>I see myself a cup</p>
+        <p>a cup limeade stumped</p>
+        <p>I’m well in and fraught</p>
+        <p>I’m a poor cup, not a jug</p>
+        <p>you don’t feel any more</p>
+        <p>you take a sip and scrub</p>
+        <p>your lips touch me, that’s all</p>
+        <p>would you be kind to your tutor?</p>
+        <p>sugar, a cube, please drop!</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="The Lights You Don't See">
+      <h2>The Lights You Don't See</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_31.png" alt="Illustration for The Lights You Don't See">
+      <div>
+        <p>The ones in a closed fridge</p>
+        <p>the happiness in misery</p>
+        <p>the blight in perspective</p>
+        <p>the swivel when you’re still</p>
+        <p>the nectar of instinct.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Briefcase">
+      <h2>Briefcase</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_32.png" alt="Illustration for Briefcase">
+      <div>
+        <p>The criticism at large</p>
+        <p>is the highly pitched pah</p>
+        <p>cos if we all danced</p>
+        <p>your honour, and I’m bad</p>
+        <p>my move then must be fad.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Very Bad Parlance">
+      <h2>Very Bad Parlance</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_33.png" alt="Illustration for Very Bad Parlance">
+      <div>
+        <p>There is a flock of worm</p>
+        <p>hoping for feathers and wings</p>
+        <p>if they get legs</p>
+        <p>they hope they come with boots</p>
+        <p>“this mufti should fit”</p>
+        <p>some said looking at a skin’s hide</p>
+        <p>“it’s got hoofs”</p>
+        <p><em>…</em></p>
+        <p>“those are no good”</p>
+        <p>“if they don’t come with shoes”</p>
+        <p>the queen&nbsp;addressed</p>
+        <p>“do you see shoes?”</p>
+        <p>“have the snake hide antennae?”</p>
+        <p><em>…</em></p>
+        <p>“oh we should move on”</p>
+        <p><em>…</em></p>
+        <p>“it’ll take a while</p>
+        <p>the big sea is our only bet.“</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Do They See Us?">
+      <h2>Do They See Us?</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_34.png" alt="Illustration for Do They See Us?">
+      <div>
+        <p>Everywhere we go</p>
+        <p>we throw a pose</p>
+        <p>it’s always been so</p>
+        <p>from days of old</p>
+        <p>“we made the internet explode”</p>
+        <p>that’s what we sold</p>
+        <p>it was the implode</p>
+        <p>oh they poked</p>
+        <p>“you aren’t the folks”</p>
+        <p>“this is screen and smoke</p>
+        <p>you didn’t make the radio</p>
+        <p>not any good shows</p>
+        <p>can you remember a toll?”</p>
+        <p>the ballyhoo from foes</p>
+        <p>from it a lot follows</p>
+        <p>our fans still dig our lows.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Painstaking Blows">
+      <h2>Painstaking Blows</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_35.png" alt="Illustration for Painstaking Blows">
+      <div>
+        <p>A heartbreak is as simple</p>
+        <p>its beauty comes with a dimple</p>
+        <p>over the same words, we fumble</p>
+        <p>she, who is the trouble</p>
+        <p>for her, I am moved quadruple</p>
+        <p>and I say it, I will booze</p>
+        <p>here is where she pulls</p>
+        <p>a roundabout on soldier shoes.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Criss-Cross">
+      <h2>Criss-Cross</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_36.png" alt="Illustration for Criss-Cross">
+      <div>
+        <p>The introduction hasn’t a thing to do with it</p>
+        <p>those are just lines that meet</p>
+        <p>it’s hard here starting a beef</p>
+        <p>I try but I never win</p>
+        <p>you should try, though bitty</p>
+        <p>I always started from between</p>
+        <p>it could be bad advice, you see</p>
+        <p>but it’s criss-cross, it’s a thing.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Even in Your Doubts">
+      <h2>Even in Your Doubts</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_37.png" alt="Illustration for Even in Your Doubts">
+      <div>
+        <p>What do you prefer?</p>
+        <p>is this what you deserve?</p>
+        <p>always a little unnerved</p>
+        <p>with lengths of will to be discerned.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Take It or Leave It">
+      <h2>Take It or Leave It</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/4/image_38.png" alt="Illustration for Take It or Leave It">
+      <div>
+        <p>I can’t say a thing</p>
+        <p>nothing to pass as effective</p>
+        <p>but could it be</p>
+        <p>what you see</p>
+        <p>how you miss</p>
+        <p>presumptions, evasive</p>
+        <p>hankering lack of gutsy</p>
+        <p>how do I help you read?</p>
+        <p>aptitude for the choppy</p>
+        <p>milk for babies</p>
+        <p>babies digesting veal</p>
+        <p>win before the wean</p>
+        <p>take it or leave it</p>
+        <p>as the birds and the bees.</p>
+      </div>
+    </section>
+    
+    
+    
+    <section class="acknowledgements" aria-label="Acknowledgements">
+      <h2>Acknowledgements</h2>
+      <div>
+        <p>Thank you to all the incredible individuals who made this poetry book possible, everyone hasn’t <em>a thing</em> to fit, it’s usually more than the numbers to round up. And the fetching braids in your responses are truly beautiful, and I could go on about, with words praising your thoughtful, considerate enculturation. Your welcoming doorways have made this possible. </p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A big thank you to William, Prince of Wales, Jennifer Lopez, Katy Perry, Lana Del Rey, Stephen King, Sabrina Carpenter, Matt Healy, Ryan Reynolds, Miley Cyrus, Hailey Bieber, Neymar, Harry Styles, Trevor Noah, Lebron James, Idris Elba, Chrishell Stause, Jimmy Fallon, Alissa Violet, James Corden, Soulja Boy, Pink, Marc Jacobs, Lewis Hamilton, Joe Biden, Sofia Wylie, Adam Young, Jesse Elder, Grant Cardone, Brian Rose, Justin Timberlake, Wes Moore, Taylor Swift, Caitlyn Jenner, Carmella Rose, Ellie Goulding, Alan Olav Walker, Oprah Winfrey, and Tom Cruise.</p>
+      </div>
+    </section>
+    
+  </div>
+  
+  
   <!--========== 
-	Start of Javascript ==========-->
-
+        Start of Javascript ==========-->
+  
   <!--===== Global required js =====-->
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   <script src="../../js/jquery-3.6.0.min.js"></script>
   <script src="../../js/popper.min.js"></script>
   <script src="../../js/bootstrap/bootstrap.min.js"></script>
-
+  
   <!--===== Global script: js libraries and plugins =====-->
   <script src="../../js/appear/jquery.appear.js"></script>
   <script src="../../js/swiper/swiper.min.js"></script>
@@ -657,12 +1884,10 @@
   <script src="../../js/typer/typer.js"></script>
   <script src="../../js/jarallax/jarallax.min.js"></script>
   <script src="../../js/mCustomScrollbar/jquery.mCustomScrollbar.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/numbered/1.1.0/index.min.js"
-    integrity="sha512-UQKbSOyUPIxk4a5/TIcqKUfl2JX0b1Rgq16BgvZbIWa7g5g3Rl/RXzFJFt2iu9LzDUpqDbcaak2ifjW887SxPw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/numbered/1.1.0/index.min.js" integrity="sha512-UQKbSOyUPIxk4a5/TIcqKUfl2JX0b1Rgq16BgvZbIWa7g5g3Rl/RXzFJFt2iu9LzDUpqDbcaak2ifjW887SxPw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="../../js/collection-IV.js"></script>
   <script>
-    window.fbAsyncInit = function () {
+    window.fbAsyncInit = function() {
       FB.init({
         appId: "1292503991685432",
         autoLogAppEvents: true,
@@ -672,10 +1897,10 @@
     };
   </script>
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
-
+  
   <!--===== Main theme script =====-->
-
-    <script type="module">
+  
+  <script type="module">
     import {
       createApp,
       reactive
@@ -721,7 +1946,7 @@
           this.decodePoemURL();
           this.getCurrentChapter();
           const state = "poetry";
-
+          
           return state;
         } else {
           localStorage.setItem("viewIV", this.initialPageState.viewIV);
@@ -747,7 +1972,7 @@
           dedication: `<p class="text-center">To <strong style="color: #010521"> Lily Grace Rothschild. </strong></p>`,
           acknowledgements: `<p><span class="dropcap text-dark">T</span>hank you to all the incredible individuals who made this poetry book possible, everyone hasn’t <em>a thing</em> to fit, it’s usually more than the numbers to round up. And the fetching braids in your responses are truly beautiful, and I could go on about, with words praising your thoughtful, considerate enculturation. Your welcoming doorways have made this possible. </p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A big thank you to William, Prince of Wales, Jennifer Lopez, Katy Perry, Lana Del Rey, Stephen King, Sabrina Carpenter, Matt Healy, Ryan Reynolds, Miley Cyrus, Hailey Bieber, Neymar, Harry Styles, Trevor Noah, Lebron James, Idris Elba, Chrishell Stause, Jimmy Fallon, Alissa Violet, James Corden, Soulja Boy, Pink, Marc Jacobs, Lewis Hamilton, Joe Biden, Sofia Wylie, Adam Young, Jesse Elder, Grant Cardone, Brian Rose, Justin Timberlake, Wes Moore, Taylor Swift, Caitlyn Jenner, Carmella Rose, Ellie Goulding, Alan Olav Walker, Oprah Winfrey, and Tom Cruise.</p>`,
           authorsNote: [
-            `<span class="dropcap text-dark">Y</span><p>ou think of when you will portray the credence of armistice, decorate fallen words, wait for a cast of what ambition look like in reviews, because in the moments, their eyes were weighty set to admit to blind spots.</p><p>	Being younger has no claim, it’s the same with the <em>unwise</em> re-rise of the wheel inventors, and marking out “cut knots, knots to cut.” It is a diaphragm to breathe through, the other ends of sustenance.</p><p>	When pikes aren’t rooted deep, they play a different role, the unserious have their seating and the shape of odds, not only point, they also constitute a legible mention of activity, one that is meaningful anyway.</p><p>	When I care to rise and spot the difference, it ends in seeing why we fought so hard, growing up at ten grudges the teen of fifteen, and twenty has no flair for the white stork. When will the fighting stop? The argument of north and not, when the mark is met? It is how the pain I carry around that never hurts describes it, picking from its own cues.</p><p>	Collection IV poems have no taste other than mine, it is why in some evincible world, I dedicate them to you, <i>Lily Grace Rothschild.</i></p>`,
+            `<span class="dropcap text-dark">Y</span><p>ou think of when you will portray the credence of armistice, decorate fallen words, wait for a cast of what ambition look like in reviews, because in the moments, their eyes were weighty set to admit to blind spots.</p><p>        Being younger has no claim, it’s the same with the <em>unwise</em> re-rise of the wheel inventors, and marking out “cut knots, knots to cut.” It is a diaphragm to breathe through, the other ends of sustenance.</p><p>        When pikes aren’t rooted deep, they play a different role, the unserious have their seating and the shape of odds, not only point, they also constitute a legible mention of activity, one that is meaningful anyway.</p><p>        When I care to rise and spot the difference, it ends in seeing why we fought so hard, growing up at ten grudges the teen of fifteen, and twenty has no flair for the white stork. When will the fighting stop? The argument of north and not, when the mark is met? It is how the pain I carry around that never hurts describes it, picking from its own cues.</p><p>        Collection IV poems have no taste other than mine, it is why in some evincible world, I dedicate them to you, <i>Lily Grace Rothschild.</i></p>`,
           ],
           chapterTitles: [
             "0",
@@ -887,7 +2112,7 @@
             method: "share",
             href: this.staticPoemURL,
           },
-          function (response) {}
+          function(response) {}
         );
       },
       copyURL() {
@@ -965,17 +2190,17 @@
           ".html";
         this.staticPoemURL = shareURL;
       },
-   goToPublished() {
-      window.location.href = '../books.html';
-    }
+      goToPublished() {
+        window.location.href = '../books.html';
+      }
     });
-
+    
     createApp({
       store,
     }).mount("#ctrlArea");
   </script>
   <!--========== 
-	End of Javascript ==========-->
+        End of Javascript ==========-->
 </body>
 
 </html>
