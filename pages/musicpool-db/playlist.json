@@ -1,6 +1,15 @@
 {
   
   "songs": [
+ 
+ 
+    {
+      "albumart": "musicpool-db/covers/whereIsTheMoodRobot/4.jpg",
+      "author": "Frith Hilton",
+      "song": "Bread",
+      "json": "../pages/musicpool-db/lyrics/whereIsTheMoodRobot/4.json",
+      "audio": "../pages/musicpool-db/mp3/whereIsTheMoodRobot/4.mp3"
+    },
     
     {
       "albumart": "musicpool-db/covers/whereIsTheMoodRobot/3.jpg",
