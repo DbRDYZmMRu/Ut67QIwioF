@@ -1,7 +1,14 @@
 {
   
   "songs": [
- 
+
+    {
+      "albumart": "musicpool-db/covers/whereIsTheMoodRobot/5.jpg",
+      "author": "Frith Hilton",
+      "song": "Faraway",
+      "json": "../pages/musicpool-db/lyrics/whereIsTheMoodRobot/5.json",
+      "audio": "../pages/musicpool-db/mp3/whereIsTheMoodRobot/5.mp3"
+    },
  
     {
       "albumart": "musicpool-db/covers/whereIsTheMoodRobot/4.jpg",
