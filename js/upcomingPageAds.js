@@ -22,8 +22,9 @@ const adsBottom = [
 
 
 const adsMiddle = [
+  { img: '../images/ads/skimsJune10.gif', link: 'https://skims.com/en-ng/collections/coming-soon?utm_source=instagram-story&utm_medium=owned-social&utm_campaign=coming-soon&fbclid=PAZXh0bgNhZW0CMTEAAaei-K58mSObsPCBHWNbCpsqhKEjl9pdszWV0md-E0gMlNp3FEx49r5QiFe99A_aem_IweLTL5knnu1hmZ2eN4RGg', displayTime: 6500 },  
   { img: '../images/ads/SkimsAdJune6.gif', link: 'https://skims.com/en-ng/collections/skims-ultimate-edit?utm_source=ig&utm_medium=owned-social&utm_campaign=ultimate-edit&fbclid=PAQ0xDSwKv7GtleHRuA2FlbQIxMQABpzbyA74E5sCYgCUWUyyYVgROlPmgUwOfL2EGEikPL9D0Ztko7x0lYfYaUKtD_aem_iWqvZwXXJEHjrzIrE3qX5Q', displayTime: 6500 },
-  { img: '../images/ads/rrcs4.gif', link: 'https://www.rickrosscarshow.com/', displayTime: 6500 },
+  { img: '../images/ads/slipperySoapAd1.gif', link: 'https://www.slipperysoap.com/', displayTime: 6500 },
   { img: '../images/ads/KhyXDilaraAd.gif', link: 'https://khy.com/', displayTime: 6500 },
   { img: '../images/ads/kyliecosmeticsHybridI.gif', link: 'http://kyliecosmetics.com/', displayTime: 6500 },
   { img: '../images/ads/kyliecosmeticsHybridII.gif', link: 'http://kyliecosmetics.com/', displayTime: 9000 },
