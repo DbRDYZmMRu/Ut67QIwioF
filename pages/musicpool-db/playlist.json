@@ -2,6 +2,15 @@
   
   "songs": [
 
+
+    {
+      "albumart": "musicpool-db/covers/whereIsTheMoodRobot/6.jpg",
+      "author": "Frith Hilton",
+      "song": "Cheer on me",
+      "json": "../pages/musicpool-db/lyrics/whereIsTheMoodRobot/6.json",
+      "audio": "../pages/musicpool-db/mp3/whereIsTheMoodRobot/6.mp3"
+    },
+    
     {
       "albumart": "musicpool-db/covers/whereIsTheMoodRobot/5.jpg",
       "author": "Frith Hilton",
