@@ -3,10 +3,16 @@
 
 <head>
   <!--===== Required meta tags =====-->
+  <meta name="keywords" content="Frith Hilton, music, albums, Valence Eve, Fresh Player">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Fresh Player | Frith Hilton">
+  <meta property="og:description" content="Stream Frith Hilton's music albums and tracks on Fresh Player.">
+  <meta property="og:image" content="../images/logo.png">
+  <meta property="og:url" content="https://www.frithhilton.com.ng/pages/freshPlayer.html">
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="author" content="Infinitysoftway" />
-  <meta name="description" content="statistic charts" />
+  <meta name="author" content="Frith Hilton" />
+  <meta name="description" content="Stream Frith Hilton's music albums and tracks on Fresh Player." />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   
   <!--===== Title =====-->
@@ -26,9 +32,8 @@
   <!--===== Global bootstrap required css =====-->
   <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css" />
   <!--===== Global styles including: Font Icons, Plugins, etc =====-->
-  <link rel="stylesheet" type="text/css" href="/../css/font-awesome/all.min.css" />
+  <link rel="stylesheet" type="text/css" href="../css/font-awesome/all.min.css" />
   <link rel="stylesheet" href="../css/feather/iconfont.css" />
-  <link rel="stylesheet" href="../css/pe-icon-stroke/Pe-icon-7-stroke.css" />
   <link rel="stylesheet" href="../css/simple-line-icons/simple-line-icons.css" />
   <link rel="stylesheet" href="../css/themify-icons/themify-icons.css" />
   <link rel="stylesheet" href="../css/pe-icon-stroke/Pe-icon-7-stroke.css" />
@@ -38,29 +43,383 @@
   <!--===== Main theme css =====-->
   <link rel="stylesheet" href="../css/style.css" />
   <link rel="stylesheet" href="../css/freshPlayer.css" />
-  <style>
-    [v-cloak] {
-      display: none;
-    }
-    
-    .template-loader {
-      transition: opacity 0.1s;
-    }
-    
-    .fade-out {
-      opacity: 0;
-    }
-  </style>
   <script src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"></script>
-  <script src="../../player/music/script.js"></script>
   
   <!-- Swiper CSS -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <!-- Swiper JS -->
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <<style>
+    .mainContainer {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  height: 450px; /* Increased from 420px to fit larger album and spacing */
+  width: 450px;
+  border-radius: 25px;
+  position: relative;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 20px;
+  margin: 20px auto;
+  overflow: visible;
+}
+
+.mainContainer .album {
+  height: 220px; /* Increased from 200px */
+  width: 220px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 20px;
+  transform: translateX(-50%);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  cursor: grab;
+  user-select: none;
+  z-index: 50;
+}
+
+.mainContainer .album:active {
+  cursor: grabbing;
+}
+
+.mainContainer .album::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px; /* Increased from 18px for larger album */
+  height: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  pointer-events: none;
+}
+
+.mainContainer .album img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.mainContainer .songContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  margin-top: 240px; /* Increased from 220px to adjust songDetails position */
+}
+
+.mainContainer .songDetails {
+  opacity: 0;
+  transform: translateY(20px);
+  text-align: center;
+  margin-top: 50px; /* Increased from 30px for more space below albumArt */
+  z-index: 30;
+}
+
+.mainContainer .songName {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 4px;
+}
+
+.mainContainer .artists {
+  font-size: 14px;
+  color: #718096;
+  font-weight: inherit;
+}
+
+.mainContainer .seekBarContainer {
+  margin: 25px 0;
+  opacity: 0;
+  transform: translateY(20px);
+  width: 100%;
+  z-index: 10;
+}
+
+.mainContainer .seekBar {
+  width: 100%;
+  height: 4px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  position: relative;
+  cursor: pointer;
+}
+
+.mainContainer .seekProgress {
+  height: 100%;
+  background: black;
+  width: 0;
+  border-radius: 2px;
+  position: relative;
+}
+
+.mainContainer .seekHandle {
+  position: absolute;
+  right: -8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  background: white;
+  border: 2px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  transition: transform 0.2s ease;
+}
+
+.mainContainer .seekBarContainer:hover .seekHandle {
+  transform: translateY(-50%) scale(1.1);
+}
+
+.mainContainer .seekHandle:active {
+  transform: translateY(-50%) scale(1.2);
+}
+
+.mainContainer .timeDisplay {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #718096;
+  margin-top: 8px;
+  width: 100%;
+}
+
+.mainContainer .playerControls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.mainContainer .control-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.mainContainer .control-btn:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.mainContainer #playPauseBtn {
+  color: black;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 8px 16px rgba(102, 126, 234, 0.3);
+}
+
+.mainContainer #playPauseBtn:hover {
+  box-shadow: 0 12px 24px rgba(102, 126, 234, 0.4);
+}
+
+.mainContainer #playPauseBtn svg {
+  fill: black;
+  stroke: black;
+}
+
+.mainContainer .spinIndicator {
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  color: #667eea;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 60;
+}
+
+@media (max-width: 480px) {
+  .mainContainer {
+    width: 90%;
+    height: 430px; /* Increased from 400px for mobile */
+    margin: 20px auto;
+  }
+
+  .mainContainer .album {
+    height: 200px; /* Increased from 180px */
+    width: 200px;
+    top: 15px;
+  }
+
+  .mainContainer .songContainer {
+    margin-top: 220px; /* Adjusted for mobile */
+  }
+
+  .mainContainer .songDetails {
+    margin-top: 40px; /* Adjusted from 25px for mobile */
+    z-index: 30;
+  }
+
+  .mainContainer .seekBarContainer {
+    margin: 20px 0;
+  }
+
+  .mainContainer .spinIndicator {
+    top: 10px;
+  }
+}
+
+/* Unchanged overlay styles */
+#track-loading-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  pointer-events: auto;
+}
+
+.track-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  width: 30vmin;
+  height: 30vmin;
+  perspective: 100vmin;
+  animation: spin-all 4s ease-in-out infinite;
+}
+
+.content .cube,
+.content .cube::after,
+.content .cube::before {
+  animation: spin-cube 2s ease-in-out -3s infinite alternate;
+}
+
+.content .cube::after,
+.content .cube::before {
+  position: absolute;
+  content: "";
+  background: #fff;
+  width: calc(100% - 2vmin);
+  height: calc(100% - 2vmin);
+  border-radius: 2vmin;
+  transform: rotateY(-90deg);
+  transform-origin: right bottom;
+  top: 2.5vmin;
+  left: 4vmin;
+  transition: all 1s ease 0s;
+  animation-name: spin-cube-before;
+}
+
+.content .cube {
+  background: #fff;
+  width: 20vmin;
+  height: 20vmin;
+  border-radius: 2vmin;
+  transform: rotate(48deg) rotateX(22.5deg) rotateY(-22.5deg);
+  left: 5vmin;
+  position: absolute;
+  top: 5vmin;
+  transition: all 1s ease 0s;
+  transform-style: preserve-3d;
+}
+
+.content .cube::after {
+  top: 4vmin;
+  left: 2.5vmin;
+  transform: rotateX(90deg);
+  animation-name: spin-cube-after;
+}
+
+@keyframes spin-all {
+  50%, 100% {
+    transform: rotate(720deg);
+  }
+}
+
+@keyframes spin-cube {
+  0%, 50% {
+    border-radius: 100%;
+    transform: rotate(39deg) rotateX(0deg) rotateY(0deg);
+    left: 10vmin;
+    top: 10vmin;
+    width: 10vmin;
+    height: 10vmin;
+  }
+  50%, 100% {
+    border-radius: 2vmin;
+    transform: rotate(48deg) rotateX(22.5deg) rotateY(-22.5deg);
+    left: 5vmin;
+    top: 5vmin;
+    width: 20vmin;
+    height: 20vmin;
+  }
+}
+
+@keyframes spin-cube-before {
+  0%, 50% {
+    border-radius: 100%;
+    transform: rotateY(-180deg) rotateX(0deg);
+    left: 11vmin;
+    top: 9vmin;
+    width: 100%;
+    height: 100%;
+  }
+  50%, 100% {
+    border-radius: 2vmin;
+    transform: rotateY(-90deg);
+    left: 4vmin;
+    top: 2.5vmin;
+    width: calc(100% - 2vmin);
+    height: calc(100% - 2vmin);
+  }
+}
+
+@keyframes spin-cube-after {
+  0%, 50% {
+    border-radius: 100%;
+    transform: rotateY(0deg) rotateX(180deg);
+    left: 5vmin;
+    top: 12vmin;
+    width: 100%;
+    height: 100%;
+  }
+  50%, 100% {
+    border-radius: 2vmin;
+    transform: rotateX(90deg);
+    left: 2.5vmin;
+    top: 4vmin;
+    width: calc(100% - 2vmin);
+    height: calc(100% - 2vmin);
+  }
+}
+  </style>
   
-</head>
+  
+  
+  </head>
 
 <body id="ctrlArea">
   <!--========== 
@@ -82,11 +441,6 @@
   
   <div v-show="store.getView() === 'div1'">
     
-    
-    
-    <!--========== 
-        End of loader ==========-->
-    
     <!--========== 
     Start of  cookie modal notification section ==========-->
     <div class="modal-subscribe">
@@ -96,7 +450,7 @@
           <div class="modal-content">
             <div class="modal-body p-0 bg-secondary rounded">
               <div class="p-5 text-center">
-                <img class="img-fluid px-5" src="../images/svg/cookie.svg" alt="" />
+                <img class="img-fluid px-5" src="../images/svg/cookie.svg" alt="Cookies Policy Image" />
                 <h3>Cookies</h3>
                 <p class="text-dark"><b>Hilton</b> uses cookies to enhance user experience</p>
                 <a href="cookies.html" class="text-primary-gradient fw-bold">Our policy</a>
@@ -146,8 +500,8 @@
               <li class="nav-item">
                 <a class="nav-link" href="../index.html"><span class="text-line"> Home </span></a>
               </li>
-              <li class="nav-item dropdown">
-                <a @click="store.goToPublished" class="nav-link dropdown-toggle" href="#" id="navbar-pages" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <li class="nav-item">
+                <a class="nav-link" href="../published/books.html">
                   <span class="text-line"> Publications</span>
                 </a>
               </li>
@@ -160,7 +514,7 @@
               </li>
               
               <li class="nav-item">
-                <a class="nav-link" href="pages/who-is-frith-hilton.html"><span class="text-line"> Who is Frith Hilton? </span></a>
+                <a class="nav-link" href="who-is-frith-hilton.html"><span class="text-line"> Who is Frith Hilton? </span></a>
               </li>
               
               <li class="nav-item">
@@ -177,21 +531,42 @@
     
     <div class="mb-5">
       <a target="_blank" href="https://www.samsung.com/us/smartphones/galaxy-z-flip6/">
-        <img class="img-fluid" src="../images/ads/designedBySamsungS8.png" alt="">
+        <img class="img-fluid" src="../images/ads/designedBySamsungS8.png" alt="Samsung Galaxy Z Flip6 Advertisement">
       </a>
     </div>
     
-    
-    
     <div v-show="store.getInnerView() === 'div3'">
-      <div class="latestRelease">
-        <div class="svg-wrapper" @click="store.switchView('div2')">
-          <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
-            <rect class="shape" height="60" width="320" />
-            <div class="text">LATEST RELEASE</div>
-          </svg>
+      
+      <!-- Album 16: whereIsTheMoodRobot -->
+      <div class="gradient-item" @click="store.showAlbumTracks(16)">
+        <div class="gradient-wrap">
+          <img src="../images/albums/whereIsTheMoodRobot.png" alt="whereIsTheMoodRobot" crossorigin="anonymous" />
         </div>
       </div>
+      <section class="py-4 bg-black">
+        <div class="container">
+          <div class="row justify-content-center" @click="store.showAlbumTracks(16)">
+            <div class="col-12 text-center">
+              <h3 class="text-white mb-5">whereIsTheMoodRobot</h3>
+              <span role="button" disabled and tabindex="0" @click.stop.prevent="store.buyAlbum(16)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+            </div>
+          </div>
+          <div id="album-16" class="row justify-content-center mt-3" style="display: none;">
+            <div class="col-12 text-center">
+              <ul class="text-white list-unstyled album-track-list">
+                <li class="album-track" data-song="So alive Overture">1. So alive Overture</li>
+                <li class="album-track" data-song="Isn’t it yours">2. Isn’t it yours</li>
+                <li class="album-track" data-song="Old passions">3. Old passions</li>
+                <li class="album-track" data-song="Bread II">4. Bread II</li>
+                <li class="album-track" data-song="Faraway">5. Faraway</li>
+                <li class="album-track" data-song="Cheer on me">6. Cheer on me</li>
+                <li class="album-track" data-song="For it">7. For it</li>
+                <li class="album-track" data-song="Beautiful Taylor">8. Beautiful Taylor</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
       
       
       
@@ -206,7 +581,7 @@
           <div class="row justify-content-center" @click="store.showAlbumTracks(15)">
             <div class="col-12 text-center">
               <h3 class="text-white mb-5">Valence Eve</h3>
-              <span @click.stop.prevent="store.buyAlbum(15)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+              <span role="button" and tabindex="0" @click.stop.prevent="store.buyAlbum(15)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
           <div id="album-15" class="row justify-content-center mt-3" style="display: none;">
@@ -250,7 +625,7 @@
           <div class="row justify-content-center" @click="store.showAlbumTracks(14)">
             <div class="col-12 text-center">
               <h3 class="text-white mb-5">Farther Memes</h3>
-              <span @click.stop.prevent="store.buyAlbum(14)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+              <span role="button" and tabindex="0" @click.stop.prevent="store.buyAlbum(14)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
           <div id="album-14" class="row justify-content-center mt-3" style="display: none;">
@@ -306,7 +681,7 @@
           <div class="row justify-content-center" @click="store.showAlbumTracks(13)">
             <div class="col-12 text-center">
               <h3 class="text-white mb-5">the Sessions...</h3>
-              <span @click.stop.prevent="store.buyAlbum(13)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+              <span role="button" and tabindex="0" @click.stop.prevent="store.buyAlbum(13)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
           <div id="album-13" class="row justify-content-center mt-3" style="display: none;">
@@ -343,7 +718,7 @@
           <div class="row justify-content-center" @click="store.showAlbumTracks(12)">
             <div class="col-12 text-center">
               <h3 class="text-white mb-5">it's pop</h3>
-              <span @click.stop.prevent="store.buyAlbum(12)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+              <span role="button" and tabindex="0" @click.stop.prevent="store.buyAlbum(12)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
           <div id="album-12" class="row justify-content-center mt-3" style="display: none;">
@@ -388,7 +763,7 @@
           <div class="row justify-content-center" @click="store.showAlbumTracks(11)">
             <div class="col-12 text-center">
               <h3 class="text-white mb-5">troubadour</h3>
-              <span @click.stop.prevent="store.buyAlbum(11)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+              <span role="button" and tabindex="0" @click.stop.prevent="store.buyAlbum(11)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
           <div id="album-11" class="row justify-content-center mt-3" style="display: none;">
@@ -434,7 +809,7 @@
           <div class="row justify-content-center" @click="store.showAlbumTracks(10)">
             <div class="col-12 text-center">
               <h3 class="text-white mb-5">Nightswan</h3>
-              <span @click.stop.prevent="store.buyAlbum(10)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+              <span role="button" and tabindex="0" @click.stop.prevent="store.buyAlbum(10)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
           <div id="album-10" class="row justify-content-center mt-3" style="display: none;">
@@ -480,7 +855,7 @@
           <div class="row justify-content-center" @click="store.showAlbumTracks(9)">
             <div class="col-12 text-center">
               <h3 class="text-white mb-5">the Lover tap3</h3>
-              <span @click.stop.prevent="store.buyAlbum(9)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+              <span role="button" and tabindex="0" @click.stop.prevent="store.buyAlbum(9)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
           <div id="album-9" class="row justify-content-center mt-3" style="display: none;">
@@ -512,7 +887,7 @@
           <div class="row justify-content-center" @click="store.showAlbumTracks(8)">
             <div class="col-12 text-center">
               <h3 class="text-white mb-5">lantern</h3>
-              <span @click.stop.prevent="store.buyAlbum(8)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+              <span role="button" and tabindex="0" @click.stop.prevent="store.buyAlbum(8)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
           <div id="album-8" class="row justify-content-center mt-3" style="display: none;">
@@ -558,7 +933,7 @@
           <div class="row justify-content-center" @click="store.showAlbumTracks(7)">
             <div class="col-12 text-center">
               <h3 class="text-white mb-5">Theo</h3>
-              <span @click.stop.prevent="store.buyAlbum(7)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+              <span role="button" and tabindex="0" @click.stop.prevent="store.buyAlbum(7)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
           <div id="album-7" class="row justify-content-center mt-3" style="display: none;">
@@ -617,7 +992,7 @@
           <div class="row justify-content-center" @click="store.showAlbumTracks(6)">
             <div class="col-12 text-center">
               <h3 class="text-white mb-5">Jacaranda</h3>
-              <span @click.stop.prevent="store.buyAlbum(6)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+              <span role="button" and tabindex="0" @click.stop.prevent="store.buyAlbum(6)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
           <div id="album-6" class="row justify-content-center mt-3" style="display: none;">
@@ -662,7 +1037,7 @@
           <div class="row justify-content-center" @click="store.showAlbumTracks(5)">
             <div class="col-12 text-center">
               <h3 class="text-white mb-5">screen time</h3>
-              <span @click.stop.prevent="store.buyAlbum(5)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+              <span role="button" and tabindex="0" @click.stop.prevent="store.buyAlbum(5)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
           <div id="album-5" class="row justify-content-center mt-3" style="display: none;">
@@ -719,7 +1094,7 @@
           <div class="row justify-content-center" @click="store.showAlbumTracks(4)">
             <div class="col-12 text-center">
               <h3 class="text-white mb-5">Frith</h3>
-              <span @click.stop.prevent="store.buyAlbum(4)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+              <span role="button" and tabindex="0" @click.stop.prevent="store.buyAlbum(4)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
           <div id="album-4" class="row justify-content-center mt-3" style="display: none;">
@@ -765,7 +1140,7 @@
           <div class="row justify-content-center" @click="store.showAlbumTracks(3)">
             <div class="col-12 text-center">
               <h3 class="text-white mb-5">December 13</h3>
-              <span @click.stop.prevent="store.buyAlbum(3)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+              <span role="button" and tabindex="0" @click.stop.prevent="store.buyAlbum(3)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
           <div id="album-3" class="row justify-content-center mt-3" style="display: none;">
@@ -813,7 +1188,7 @@
           <div class="row justify-content-center" @click="store.showAlbumTracks(2)">
             <div class="col-12 text-center">
               <h3 class="text-white mb-5">colourful light</h3>
-              <span @click.stop.prevent="store.buyAlbum(2)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+              <span role="button" and tabindex="0" @click.stop.prevent="store.buyAlbum(2)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
           <div id="album-2" class="row justify-content-center mt-3" style="display: none;">
@@ -866,7 +1241,7 @@
           <div class="row justify-content-center" @click="store.showAlbumTracks(1)">
             <div class="col-12 text-center">
               <h3 class="text-white mb-5">H.I.V</h3>
-              <span @click.stop.prevent="store.buyAlbum(1)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+              <span role="button" and tabindex="0" @click.stop.prevent="store.buyAlbum(1)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
           <div id="album-1" class="row justify-content-center mt-3" style="display: none;">
@@ -892,9 +1267,7 @@
       </section>
     </div>
     
-    
-    
-    <div v-show="store.getInnerView() === 'div4'">
+    <div id="div4" v-show="store.getInnerView() === 'div4'">
       
       <!-- Header -->
       <header class="dynamic-header" id="dynamic-header">
@@ -925,6 +1298,56 @@
       <!-- Main Content -->
       <div class="container mt-5">
         <div class="row">
+          <div class="col-md-8">
+            <!-- Audio Player Section -->
+            <div class="mainContainer" id="mainContainer">
+              <div class="album" id="albumArt">
+                <img :src="store.currentTrack.cover || '../images/default.jpg'" alt="Album Cover" id="albumImg" />
+              </div>
+              <div class="spin-indicator" id="spinIndicator">
+              </div>
+              <div class="songContainer">
+                <div class="songDetails" id="songDetails">
+                  <p class="songName" id="songName">{{ store.currentTrack.name || 'No Track Selected' }}</p>
+                  <p class="artists" id="artists">{{ store.currentTrack.artist || 'Frith Hilton' }}</p>
+                </div>
+                <div class="seekBarContainer" id="seekBarContainer">
+                  <div class="seekBar" id="seekBar">
+                    <div class="seekProgress" id="seekProgress">
+                      <div class="seekHandle" id="seekHandle"></div>
+                    </div>
+                  </div>
+                  <div class="timeDisplay">
+                    <span id="currentTime">0:00</span>
+                    <span id="totalTime">0:00</span>
+                  </div>
+                </div>
+                <div class="playerControls" id="playerControls">
+                  <button class="control-btn" id="prevBtn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="black" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="11 19 2 12 11 5 11 19"></polygon>
+                      <polygon points="22 19 13 12 22 5 22 19"></polygon>
+                    </svg>
+                  </button>
+                  <button class="control-btn" id="playPauseBtn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="black" viewBox="0 0 24 24" stroke="black" stroke-width="2">
+                      <polygon points="6 3 20 12 6 21 6 3"></polygon>
+                    </svg>
+                  </button>
+                  <button class="control-btn" id="nextBtn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="black" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="13 19 22 12 13 5 13 19"></polygon>
+                      <polygon points="2 19 11 12 2 5 2 19"></polygon>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Hidden audio element -->
+            <audio id="audioPlayer" preload="auto"></audio>
+            
+          </div>
           <!-- Left Column: Credits -->
           <div class="col-md-4">
             <!-- Credits Section -->
@@ -940,9 +1363,11 @@
           
           <!-- Right Column: Lyrics and Who is Frith Hilton? -->
           <div class="col-md-8">
+            
             <!-- Lyrics Section -->
             <section class="lyrics-content bg-white p-4 rounded shadow">
               <h2 class="h2 text-primary mb-3">Lyrics</h2>
+              
               
               <!-- Lyrics Container -->
               <div class="lyrics-container">
@@ -989,7 +1414,35 @@
       <!-- Albums List Container -->
       <div class="albums-container">
         <h1 class="text-center">Albums List</h1>
+        
         <div class="album-list">
+          
+          <!-- whereIsTheMoodRobot Album -->
+          <div class="album-card">
+            <div class="album-item" onclick="toggleTrackList(16)">
+              <div class="album-cover">
+                <img src="../images/albums/whereIsTheMoodRobot.png" alt="whereIsTheMoodRobot" />
+              </div>
+              <div class="album-info">
+                <p class="album-title">whereIsTheMoodRobot</p>
+                <p class="album-meta">Release Date: Still in Production | Songs: 8</p>
+              </div>
+            </div>
+            <div class="track-list" id="track-list-16">
+              <ul>
+                <li class="track-item" data-song="So alive Overture">1. So alive Overture</li>
+                <li class="track-item" data-song="Isn’t it yours">2. Isn’t it yours</li>
+                <li class="track-item" data-song="Old passions">3. Old passions</li>
+                <li class="track-item" data-song="Bread II">4. Bread II</li>
+                <li class="track-item" data-song="Faraway">5. Faraway</li>
+                <li class="track-item" data-song="Cheer on me">6. Cheer on me</li>
+                <li class="track-item" data-song="For it">7. For it</li>
+                <li class="track-item" data-song="Beautiful Taylor">8. Beautiful Taylor</li>
+              </ul>
+            </div>
+          </div>
+          
+          
           <!-- Valence Eve Album -->
           <div class="album-card">
             <div class="album-item" onclick="toggleTrackList(15)">
@@ -1597,31 +2050,8 @@
           </div>
         </div>
       </div>
+      
     </div>
-    
-    <section class="slice-ptb" v-show="false">
-      <div class="container">
-        <div class="row justify-content-center text-center">
-          <div class="col-xl-6">
-            <p @click="store.switchView_ii('div3')">div 3</p>
-            <p @click="store.switchView_ii('div4')">div 4</p>
-            <b class="text-primary lead fw-bold">Meet Frith Hilton</b>
-            <h1 @click="store.switchView('div2')" class="error-title mt-4 mb-5">Who is Frith Hilton?</h1>
-            <p>
-              <b class="fw-bold">Howard Frith Hilton</b> is friends with the Hiltons. <a href="https://www.instagram.com/NickyHilton">Nicky</a> is his famous Bestie,
-              <a href="https://www.instagram.com/ParisHilton">Paris'</a> younger sister.
-            </p>
-            <p>He is a known author with over fifteen poetry publications. He writes music, and has <a href="freshPlayer.html">several tapes</a>.</p>
-            <p><a href="https://www.instagram.com/mariam">Mariam Rod</a> is often called his wife after being his <a href="../published/poetry/collection-III.html">famous Valentine</a> in 2023.</p>
-            <p>He currently resides in Nigeria and has a big crush on <a href="https://www.instagram.com/taylorswift">Taylor Swift</a>.</p>
-            <p>He recently got into hot romance with <a href="https://www.instagram.com/madisonbeer">Madison Beer</a>, not long after this, he dedicated a poetry book to <a href="https://www.instagram.com/sza">SZA</a>.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    <!--========== 
-    End of Who is Frith Hilton? Page ==========-->
     
     <!-- partial -->
     
@@ -1702,7 +2132,7 @@
     </footer>
     
     <!--========== 
-	Start of back to top section ==========-->
+        Start of back to top section ==========-->
     
     <div class="go-top">
       <p class="go-top-text">Scroll to top <i class="fas fa-long-arrow-alt-right ps-2"></i></p>
@@ -1711,46 +2141,15 @@
     
   </div>
   
-  <div v-show="store.getView() === 'div2'">
-    <div class="container">
-      <div class="album-art">
-        <img src="./musicpool-db/covers/ValenceEve/21.jpg" alt="Album Art">
-      </div>
-      <div class="track-info">
-        <h2>Queen's daughter</h2>
-        <p>Frith Hilton</p>
-      </div>
-      <div class="progress-container">
-        <div class="progress-bar">
-          <div class="progress"></div>
-        </div>
-        <div class="time">
-          <span class="current-time">00:00</span>
-          <span class="remaining-time">00:00</span>
-        </div>
-      </div>
-      <div class="controls">
-        <button @click="store.switchView('div1')" class="prev"><i class="fas fa-backward"></i></button>
-        <button class="play-pause"><i class="fas fa-play"></i></button>
-        <button class="next"><i class="fas fa-forward"></i></button>
-      </div>
-      <div class="volume-container">
-        <i class="fas fa-volume-up"></i>
-        <div class="volume-bar">
-          <div class="volume"></div>
-        </div>
-      </div>
-      
-    </div>
-    
-  </div>
   
-  <audio id="player" :src="store.mp3"></audio>
-  <!--========== 
-	End of back to top section ==========-->
+  
+  
   
   <!--========== 
-	Start of Javascript ==========-->
+        End of back to top section ==========-->
+  
+  <!--========== 
+        Start of Javascript ==========-->
   
   <!--===== Global required js =====-->
   <script src="../js/jquery-3.6.0.min.js"></script>
@@ -1767,7 +2166,8 @@
   <!--===== Main theme script =====-->
   <script src="../js/functions.js"></script>
   <script src="../js/poolFunctions.js"></script>
-  <script src="../js/lyrics.js"></script>
+  <!-- <script type="module" src="../js/lyrics.js"></script>-->
+  <script type="module" src="../js/freshPlayer/main.js"></script>
   <script>
     window.addEventListener("load", function() {
       /*
@@ -2145,139 +2545,8 @@
     });
   </script>
   
-  <script type="module">
-    import { createApp, reactive } from "../js/petite-vue.js";
-    const store = reactive({
-      albumCount: 15,
-      currentAlbumId: null,
-      baseStylesheet: '../css/style.css',
-      albumsStyleSheet: '../css/freshPlayer.css',
-      stylesheetId: 'dynamic-stylesheet',
-      view: "div1",
-      innerView: "div3",
-      mp3: "./musicpool-db/mp3/ValenceEve/1.mp3",
-      acceptCookieUse() {
-        localStorage.setItem("cookieUse", true)
-      },
-      showAlbumTracks(id) {
-        for (let i = 1; i <= this.albumCount; i++) {
-          const div = document.getElementById(`album-${i}`);
-          if (div && i !== id) {
-            div.style.display = "none";
-          }
-        }
-        const newDiv = document.getElementById(`album-${id}`);
-        if (newDiv) {
-          newDiv.style.display = newDiv.style.display === "none" ? "block" : "none";
-          if (newDiv.style.display === "block") {
-            const stickyHeaderHeight = 80;
-            const top = newDiv.getBoundingClientRect().top + window.scrollY - stickyHeaderHeight;
-            window.scrollTo({ top, behavior: "smooth" });
-          }
-        }
-      },
-      buyAlbum(index) {
-        const links = [
-          'https://paystack.com/pay/hivalbum',
-          'https://paystack.com/pay/colourfullight',
-          'https://paystack.com/pay/december13',
-          'https://paystack.com/pay/frith',
-          'https://paystack.com/pay/screentime',
-          'https://paystack.com/pay/jacarandaalbum',
-          'https://paystack.com/pay/theoalbum',
-          'https://paystack.com/pay/lanternalbum',
-          'https://paystack.com/pay/thelovertap3',
-          'https://paystack.com/pay/nightswan',
-          'https://paystack.com/pay/troubadour',
-          'https://paystack.com/pay/itspop',
-          'https://paystack.com/pay/thesessions',
-          'https://paystack.com/pay/farthermemes',
-          'https://paystack.com/pay/valenceeve',
-        ];
-        
-        if (index >= 1 && index <= links.length) {
-          window.open(links[index - 1], '_blank');
-        }
-      },
-      getView() {
-        return this.view;
-      },
-      showLoader() {
-        const loaderHtml = `
-          <div id="loader-container">
-            <div class="template-loader">
-              <div class="loaderCenter">
-                <div class="book">
-                  <div class="book__pg-shadow"></div>
-                  <div class="book__pg"></div>
-                  <div class="book__pg book__pg--2"></div>
-                  <div class="book__pg book__pg--3"></div>
-                  <div class="book__pg book__pg--4"></div>
-                  <div class="book__pg book__pg--5"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        `;
-        
-        document.body.insertAdjacentHTML('beforeend', loaderHtml);
-        
-        setTimeout(() => {
-          const loaderContainer = document.getElementById('loader-container');
-          if (loaderContainer) {
-            loaderContainer.remove();
-          }
-        }, 1000); // remove after 1 second
-      },
-      switchView(view) {
-        this.showLoader();
-        this.view = view;
-        this.loadStylesheet(view === 'div1' ? `${this.albumsStyleSheet}` : '../../player/music/style.css');
-      },
-      getInnerView() {
-        return this.innerView;
-      },
-      
-      switchView_ii(innerView) {
-        // Fade out
-        document.body.style.opacity = 0;
-        setTimeout(() => {
-          this.innerView = innerView;
-          this.loadStylesheet(innerView === 'div3' ? '../css/freshPlayer.css' : '');
-          // Fade in
-          document.body.style.opacity = 1;
-        }, 500);
-      },
-      
-      loadStylesheet(href) {
-        // Remove existing dynamic stylesheet
-        const existingLink = document.getElementById(this.stylesheetId);
-        if (existingLink) {
-          existingLink.remove();
-        }
-        
-        // Load new stylesheet
-        const link = document.createElement('link');
-        link.rel = 'stylesheet';
-        link.href = href;
-        link.id = this.stylesheetId;
-        document.head.appendChild(link);
-      },
-      
-      acceptCookieUse() {
-        localStorage.setItem("cookieUse", true);
-      },
-    });
-    
-    // Expose store globally
-    window.store = store;
-    
-    createApp({
-      store,
-    }).mount("#ctrlArea");
-  </script>
   <!--========== 
-	End of Javascript ==========-->
+        End of Javascript ==========-->
 </body>
 
 </html>
