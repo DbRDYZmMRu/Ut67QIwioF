@@ -129,3 +129,59 @@ ul.list-unstyled li {
   margin-bottom: 15px;
   color: #fff;
 }
+
+[v-cloak] {
+  display: none;
+}
+
+.template-loader {
+  transition: opacity 0.1s;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+.audio-player-container {
+  margin: 20px 0;
+  padding: 10px;
+  background: #f4f4f4;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.player-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+#play-pause-btn {
+  padding: 8px 16px;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#progress-bar {
+  flex-grow: 1;
+  max-width: 300px;
+}
+
+.time-display {
+  font-size: 14px;
+  color: #333;
+}
+
+.lyric-line {
+  transition: background-color 0.3s;
+}
+
+.lyric-line.highlight {
+  background-color: #e0f7fa;
+  font-weight: bold;
+}
