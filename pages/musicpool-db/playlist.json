@@ -2,15 +2,22 @@
   
   "songs": [
 
-        {
+    {
+      "albumart": "musicpool-db/covers/whereIsTheMoodRobot/8.jpg",
+      "author": "Frith Hilton",
+      "song": "Via",
+      "json": "../pages/musicpool-db/lyrics/whereIsTheMoodRobot/8.json",
+      "audio": "../pages/musicpool-db/mp3/whereIsTheMoodRobot/8.mp3"
+    },
+
+    {
       "albumart": "musicpool-db/covers/whereIsTheMoodRobot/7.jpg",
       "author": "Frith Hilton",
       "song": "For it",
       "json": "../pages/musicpool-db/lyrics/whereIsTheMoodRobot/7.json",
       "audio": "../pages/musicpool-db/mp3/whereIsTheMoodRobot/7.mp3"
     },
-
-
+    
     {
       "albumart": "musicpool-db/covers/whereIsTheMoodRobot/6.jpg",
       "author": "Frith Hilton",
@@ -26,7 +33,7 @@
       "json": "../pages/musicpool-db/lyrics/whereIsTheMoodRobot/5.json",
       "audio": "../pages/musicpool-db/mp3/whereIsTheMoodRobot/5.mp3"
     },
- 
+    
     {
       "albumart": "musicpool-db/covers/whereIsTheMoodRobot/4.jpg",
       "author": "Frith Hilton",
