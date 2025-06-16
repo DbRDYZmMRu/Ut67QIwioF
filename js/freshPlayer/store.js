@@ -172,10 +172,10 @@ const albums = [
   },
   {
     name: 'whereIsTheMoodRobot',
-    releaseDate: 'Still in Production',
+    releaseDate: 'in session',
     tracks: [
       'So alive Overture', 'Isn’t it yours', 'Old passions', 'Bread II', 'Faraway',
-      'Cheer on me', 'For it',
+      'Cheer on me', 'For it', 'Via', 
     ]
   },
   
