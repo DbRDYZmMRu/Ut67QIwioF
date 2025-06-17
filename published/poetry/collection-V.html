@@ -5,37 +5,37 @@
   <script>
     function getQueryParam(param) {
       const urlParams = new URLSearchParams(window.location.search);
-      
+
       return urlParams.get(param);
     }
-    
+
     /**
 
  * Run the query parameter extraction on page load and update the page content.
 
  */
-    
+
     function runOnPageLoad() {
       const queryValue = getQueryParam("query");
-      
+
       if (queryValue !== null) {
         localStorage.setItem("viewV", "poetry");
-        
+
         localStorage.setItem("VCurrentChapter", queryValue);
-        
+
         console.log("Query parameter value:", queryValue); // You can replace this line with any other action
-        
+
         // Update the page content based on the query parameter value
-        
+
         localStorage.setItem("lastTabV", this.lastTabV);
         localStorage.setItem("coverTabVIsActive", false);
         localStorage.setItem("authorTabVIsActive", false);
         localStorage.setItem("dedTabVIsActive", false);
         localStorage.setItem("chapterTabVIsActive", true);
-        
+
         document.addEventListener("DOMContentLoaded", function() {
           var integrationTab = document.getElementById("pills-integration-tab");
-          
+
           if (integrationTab) {
             integrationTab.click();
           } else {
@@ -44,10 +44,10 @@
         });
       }
     }
-    
+
     runOnPageLoad();
   </script>
-  
+
   <!--===== Required meta tags =====-->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -256,92 +256,7 @@
       "inLanguage": "en",
       "genre": "Poetry",
       "keywords": "Frith Hilton Collection V, Howard Frith Hilton, Frith Hilton, Frith Nightswan Publishers, Forest Crib Books, Poetry for Mariam Rod",
-      "image": [
-      {
-        "@type": "ImageObject",
-        "url": "https://www.frithhilton.com.ng/images/collections/FHC/V/1.png",
-        "contentUrl": "https://www.frithhilton.com.ng/images/collections/FHC/V/1.png",
-        "caption": "The Lakes from Frith Hilton Collection V dedicated to Mariam Rod",
-        "description": "Artwork for the poem 'The Lakes' from Frith Hilton Collection V, dedicated to Mariam Rod, by Frith Hilton.",
-        "creator": {
-          "@type": "Person",
-          "name": "Frith Hilton"
-        },
-        "width": 1080,
-        "height": 1350,
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "creditText": "Frith Hilton",
-        "copyrightNotice": "Copyright © Frith Hilton, licensed under CC BY 4.0",
-        "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
-      },
-      {
-        "@type": "ImageObject",
-        "url": "https://www.frithhilton.com.ng/images/collections/FHC/V/2.png",
-        "contentUrl": "https://www.frithhilton.com.ng/images/collections/FHC/V/2.png",
-        "caption": "Cantus Firmus from Frith Hilton Collection V dedicated to Mariam Rod",
-        "description": "Artwork for the poem 'Cantus Firmus' from Frith Hilton Collection V, dedicated to Mariam Rod, by Frith Hilton.",
-        "creator": {
-          "@type": "Person",
-          "name": "Frith Hilton"
-        },
-        "width": 1080,
-        "height": 1350,
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "creditText": "Frith Hilton",
-        "copyrightNotice": "Copyright © Frith Hilton, licensed under CC BY 4.0",
-        "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
-      },
-      {
-        "@type": "ImageObject",
-        "url": "https://www.frithhilton.com.ng/images/collections/FHC/V/3.png",
-        "contentUrl": "https://www.frithhilton.com.ng/images/collections/FHC/V/3.png",
-        "caption": "Hip-Hip Whip from Frith Hilton Collection V dedicated to Mariam Rod",
-        "description": "Artwork for the poem 'Hip-Hip Whip' from Frith Hilton Collection V, dedicated to Mariam Rod, by Frith Hilton.",
-        "creator": {
-          "@type": "Person",
-          "name": "Frith Hilton"
-        },
-        "width": 1080,
-        "height": 1350,
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "creditText": "Frith Hilton",
-        "copyrightNotice": "Copyright © Frith Hilton, licensed under CC BY 4.0",
-        "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
-      },
-      {
-        "@type": "ImageObject",
-        "url": "https://www.frithhilton.com.ng/images/collections/FHC/V/4.png",
-        "contentUrl": "https://www.frithhilton.com.ng/images/collections/FHC/V/4.png",
-        "caption": "At Eden from Frith Hilton Collection V dedicated to Mariam Rod",
-        "description": "Artwork for the poem 'At Eden' from Frith Hilton Collection V, dedicated to Mariam Rod, by Frith Hilton.",
-        "creator": {
-          "@type": "Person",
-          "name": "Frith Hilton"
-        },
-        "width": 1080,
-        "height": 1350,
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "creditText": "Frith Hilton",
-        "copyrightNotice": "Copyright © Frith Hilton, licensed under CC BY 4.0",
-        "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
-      },
-      {
-        "@type": "ImageObject",
-        "url": "https://www.frithhilton.com.ng/images/collections/FHC/V/5.png",
-        "contentUrl": "https://www.frithhilton.com.ng/images/collections/FHC/V/5.png",
-        "caption": "A Happy Place from Frith Hilton Collection V dedicated to Mariam Rod",
-        "description": "Artwork for the poem 'A Happy Place' from Frith Hilton Collection V, dedicated to Mariam Rod, by Frith Hilton.",
-        "creator": {
-          "@type": "Person",
-          "name": "Frith Hilton"
-        },
-        "width": 1080,
-        "height": 1350,
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "creditText": "Frith Hilton",
-        "copyrightNotice": "Copyright © Frith Hilton, licensed under CC BY 4.0",
-        "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
-      }], 
+      "image": "https://www.frithhilton.com.ng/images/collections/v/cover.png", 
       "url": "https://www.frithhilton.com.ng/published/poetry/collection-V.html",
       "hasPart": [
       {
@@ -761,7 +676,7 @@
       }]
     }
   </script>
-  
+
   <!--===== Google fonts =====-->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Jost:wght@300;400;500;600;700;800;900&display=swap" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -769,7 +684,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet" />
   <!-- font-awesome-icons -->
   <script src="https://kit.fontawesome.com/c7fbb1b458.js" crossorigin="anonymous"></script>
-  
+
   <!--===== Global bootstrap required css =====-->
   <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css" />
   <!--===== Global styles including: Font Icons, Plugins, etc =====-->
@@ -794,7 +709,7 @@
       background-color: rgba(0, 0, 0, 0.7);
       z-index: 9999;
     }
-    
+
     .image-container {
       position: absolute;
       top: 50%;
@@ -802,7 +717,7 @@
       transform: translate(-50%, -50%);
       text-align: center;
     }
-    
+
     .image-container img {
       width: 85vw;
       /* Increased width */
@@ -813,54 +728,54 @@
       object-fit: contain;
       /* Ensure image fits within container */
     }
-    
+
     .highlighted {
       animation: bubble 0.5s ease-in-out;
       color: #1d5457;
       font-size: 200%;
       font-weight: 900;
     }
-    
+
     @keyframes bubble {
       0% {
         transform: scale(1);
       }
-      
+
       50% {
         transform: scale(1.2);
       }
-      
+
       100% {
         transform: scale(1);
       }
     }
-    
+
     .pauseHighlight {
       color: #1d5457;
       font-size: 150%;
       font-weight: 300;
     }
-    
+
     .disabled {
       pointer-events: none;
       opacity: 0.5;
     }
-    
+
     #poetry-card-outer {
       font-family: "Architects Daughter", cursive;
     }
-    
+
     #poetry-card-outer p {
       font-size: 28px;
       line-height: 30px;
       text-align: center;
     }
-    
+
     #poetry-card-outer h1 {
       font-size: 30px;
       text-align: center;
     }
-    
+
     #poetry-card-outer span {
       line-height: 1.2;
       overflow-wrap: break-word;
@@ -869,7 +784,7 @@
       box-sizing: border-box;
     }
   </style>
-  
+
   <style>
     #text-container {
       width: 100%;
@@ -877,17 +792,17 @@
       padding: 20px;
       margin-bottom: 20px;
     }
-    
+
     #canvas-container {
       margin-top: 20px;
       display: none;
     }
-    
+
     canvas {
       border: 1px solid #ccc;
     }
-    
-    
+
+
     #fab {
       position: absolute;
       z-index: 1000;
@@ -901,7 +816,7 @@
       cursor: pointer;
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     }
-    
+
     #fab-options {
       display: none;
       position: absolute;
@@ -911,7 +826,7 @@
       border-radius: 4px;
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     }
-    
+
     #fab-options button {
       display: block;
       width: 100%;
@@ -921,18 +836,18 @@
       cursor: pointer;
       text-align: left;
     }
-    
+
     #fab-options button:hover {
       background-color: #f0f0f0;
     }
   </style>
-  
+
 </head>
 
 <body class="stokes-wrapper" id="ctrlArea" v-cloak>
   <!--========== 
         Start of loader ==========-->
-  
+
   <div class="template-loader">
     <div class="loaderCenter">
       <div class="book">
@@ -945,11 +860,11 @@
       </div>
     </div>
   </div>
-  
+
   <!--========== 
         End of loader ==========-->
-  
-  
+
+
   <!--=========
     Start of  cookie modal notification section ==========-->
   <div class="modal-subscribe">
@@ -985,7 +900,7 @@
   <!--========== 
           End of cookie modal notification section ==========-->
   <!--==========-->
-  
+
   <header class="header">
     <!--===== Start of navbar =====-->
     <nav class="navbar navbar-light navbar-expand-lg navbar-default">
@@ -993,13 +908,13 @@
         <!--===== Start of logo =====-->
         <a class="navbar-brand" href="/"><img class="logo" src="/images/logo.png" alt="Frith Hilton Logo" /></a>
         <!--===== End of logo =====-->
-        
+
         <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="icon-bar top-bar mt-0"></span>
           <span class="icon-bar middle-bar"></span>
           <span class="icon-bar bottom-bar"></span>
         </button>
-        
+
         <!--===== Start of nav =====-->
         <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
           <ul class="navbar-nav">
@@ -1010,9 +925,9 @@
               <a @click="store.goToPublished" class="nav-link dropdown-toggle" href="#" id="navbar-pages" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="text-line"> Publications</span>
               </a>
-              
+
             </li>
-            
+
             <li class="nav-item">
               <a class="nav-link" href="../../pages/upcoming.html"><span class="text-line"> Upcoming Poetry</span></a>
             </li>
@@ -1032,10 +947,10 @@
     </nav>
     <!--===== End of navbar =====-->
   </header>
-  
+
   <!--========== 
         End of header ==========-->
-  
+
   <!--========== 
         End of Sidebar ==========-->
   <section class="position-relative slice-ptb">
@@ -1050,7 +965,7 @@
           <div class="mb-5">
             <div id="ad-top"></div>
           </div>
-          
+
           <div class="mb-5">
             <a target="_blank" href="https://lornamurray.com.au/">
               <img class="img-fluid justify-content-center" src="../../images/ads/lornamurrayAd1.gif" alt="Lorna Murray" />
@@ -1085,14 +1000,14 @@
       <img class="img-fluid" :src="'../../images/separator/brush.svg'" alt="" />
     </div>
   </section>
-  
+
   <section class="position-relative slice-ptb">
     <div class="container">
       <button class="btn btn-naked btn-icon-right" href="#!" v-effect="if
         (store.currentChapter == 0) $el.focus()"></button>
       <div class="row align-items-center mt-6">
         <h2 class="mb-6 text-center">Contents</h2>
-        
+
         <div class="col-12">
           <ul class="nav nav-pills nav-border-wide justify-content-center mb-3" id="pills-tab-07" role="tablist">
             <li class="nav-item" role="presentation">
@@ -1152,7 +1067,7 @@
                   <div>
                     <h3 class="mt-3 mb-5 text-center"><strong>Summer Street Lights</strong></h3>
                   </div>
-                  
+
                   <hr class="my-5" />
                   <!--========== 
           Beginning of chapter titles ==========-->
@@ -1170,14 +1085,14 @@
                         <h5 class="mt-3">{{title}}</h5>
                         <span v-show="store.currentChapter == index" class="title-separator"></span>
                       </div>
-                      
+
                       <!--===== End of Title =====-->
                       <hr class="my-4" />
                     </div>
                   </div>
                   <!--========== 
           End of chapter titles ==========-->
-                  
+
                   <!--========== 
           Beginning of chapter content ==========-->
                   <div v-if="store.currentChapter !== 0 &&
@@ -1188,7 +1103,7 @@
                       <h2 class="col-4 fw-bold mb-4">
                         <span id="poetryIndex" class="hedding-svg">{{store.pageResources().convertIndex(store.currentChapter)}}</span>
                       </h2>
-                      
+
                       <div id="buttonHold">
                         <div id="audioButtonContainer">
                           <div id="audioButton" :class="['round-button', { 'audioInactive': !store.audioIsPlaying, 'audioActive': store.audioIsPlaying, 'audioPause': store.audioIsPlaying }]" @click="store.playPoetry()">
@@ -1197,15 +1112,15 @@
                           <div class="color-wave"></div>
                         </div>
                       </div>
-                      
+
                       <audio id="audioElement"></audio>
-                      
+
                       <div id="utilityButtons" class="social-icons social-text-small icon-colored mb-7 mt-7">
                         <!-- <a @click="store.shareToFacebook()" :class="{ 'disabled': store.isDisabled }" class="icon facebook" href="#!" id="shareToFacebookBtn">
                           <i class="fab fa-facebook-f"></i>
                           <span>Share</span>
                         </a>-->
-                        
+
                         <a @click="store.shareToX()" :class="{ 'disabled': store.isDisabled }" class="icon twitter" id="shareToXBtn">
                           <i class="fa-brands fa-x"></i>
                           <span>Share</span>
@@ -1223,7 +1138,7 @@
                           <span>Card</span>
                         </a>
                       </div>
-                      
+
                       <div v-if="store.poetryCardDownloadDiv" id="download-cards" class="mb-5" style="font-size: 15px;">
                         <p><span class="fw-bold"> {{store.chapterTitle}}</span> poetry {{ store.downloadLinks.length === 1 ? 'card' : 'cards' }}</p>
                         <a v-for="(link, index) in store.downloadLinks" :key="index" class="icon link" style="padding: 0 10px;" :href="link.href">
@@ -1232,18 +1147,18 @@
                         </a>
                       </div>
                       <h5 id="chapterTitle" class="fw-bold">{{store.chapterTitle}}</h5>
-                      
+
                       <div id="htmlContent" class="mt-4 me-4 ms-4 htmlContent" v-html="store.getChapterContent()">
                       </div>
-                      
+
                       <canvas id="canvas" width="1080" height="1350" style="display: none;"></canvas>
-                      
-                      
-                      
+
+
+
                     </div>
                     <!--===== End of Title =====-->
                     <hr class="my-5" />
-                    
+
                     <!--===== Go back  =====-->
                     <div class="col-lg-3 col-sm-6">
                       <p @click="store.goBack()" class="btn btn-naked-wrap go-back-btn">
@@ -1253,7 +1168,7 @@
                     </div>
                     <!--===== End Go back  =====-->
                   </div>
-                  
+
                   <!--========== 
           End of chapter content ==========-->
                 </div>
@@ -1267,10 +1182,10 @@
       </div>
     </div>
   </section>
-  
+
   <!--========== 
   Start of bottom page  ==========-->
-  
+
   <section class="py-5 bg-pink-gradient">
     <div class="container">
       <div class="row justify-content-center">
@@ -1283,17 +1198,17 @@
       </div>
     </div>
   </section>
-  
+
   <!--========== 
   End of bottom page  ==========-->
-  
+
   <!--========== 
     Map section ==========-->
-  
-  
+
+
   <!--========== 
   Start of footer section ==========-->
-  
+
   <footer class="footer">
     <div class="container">
       <div class="row">
@@ -1305,7 +1220,7 @@
       </div>
     </div>
   </footer>
-  
+
   <footer class="footer bg-black slice-pt">
     <div class="container">
       <div class="row">
@@ -1313,7 +1228,7 @@
           <h2 class="text-white display-2 mb-4">
             <span class="typer text-white" id="some-id" data-words="Catch up!" data-delay="100"> </span>
           </h2>
-          
+
           <div class="social-icons icons-xl mt-5">
             <a class="icon text-white" href="https://youtube.com/@frithhilton17?si=8pEsa1wf1KxLNvBK" target="_blank">
               <i class="fab fa-youtube"></i>
@@ -1341,24 +1256,24 @@
       </div>
     </div>
   </footer>
-  
+
   <!--========== 
   End of footer section ==========-->
-  
+
   <!--========== 
         Start of back to top section ==========-->
-  
+
   <div class="go-top">
     <p class="go-top-text">Scroll to top <i class="fas fa-long-arrow-alt-right ps-2"></i></p>
   </div>
-  
+
   <!--========== 
         End of back to top section ==========-->
   <div class="col-lg-3 col-sm-6">
     <p @click="window.location.href='../search.html'" class="btn btn-naked-wrap search-btn"><i class="fas fa-search"></i> <span> search </span></p>
   </div>
-  
-  
+
+
   <div class="visually-hidden">
     <!-- Table of Contents -->
     <nav aria-label="Table of Contents">
@@ -1415,7 +1330,7 @@
         <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-V.html?query=50">A Map to Nap</a></li>
       </ul>
     </nav>
-    
+
     <section class="dedication" aria-label="Dedication">
       <h2>Dedication</h2>
       <div>
@@ -1431,9 +1346,9 @@
         <p>These fifty poems, I hope, will remain as a happy place to visit again ❤️.</p>
       </div>
     </section>
-    
+
     <!-- Chapters -->
-    
+
     <section class="chapter" aria-label="The Lakes">
       <h2>The Lakes</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_1.png" alt="Illustration for The Lakes">
@@ -1457,8 +1372,8 @@
         <img src="../../images/collections/v/1.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Cantus Firmus">
       <h2>Cantus Firmus</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_2.png" alt="Illustration for Cantus Firmus">
@@ -1480,8 +1395,8 @@
         <img src="../../images/collections/v/2_0.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Hip-Hip Whip">
       <h2>Hip-Hip Whip</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_3.png" alt="Illustration for Hip-Hip Whip">
@@ -1510,8 +1425,8 @@
         <img src="../../images/collections/v/3.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="At Eden">
       <h2>At Eden</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_4.png" alt="Illustration for At Eden">
@@ -1549,8 +1464,8 @@
         <img src="../../images/collections/v/4.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="A Happy Place">
       <h2>A Happy Place</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_5.png" alt="Illustration for A Happy Place">
@@ -1585,8 +1500,8 @@
         <img src="../../images/collections/v/5_1.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Mother's Day">
       <h2>Mother's Day</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_6.png" alt="Illustration for Mother's Day">
@@ -1616,8 +1531,8 @@
         <img src="../../images/collections/v/6_0.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Co-Cain">
       <h2>Co-Cain</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_7.png" alt="Illustration for Co-Cain">
@@ -1637,8 +1552,8 @@
         <img src="../../images/collections/v/7_0.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Busk Her Fees">
       <h2>Busk Her Fees</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_8.png" alt="Illustration for Busk Her Fees">
@@ -1659,8 +1574,8 @@
         <img src="../../images/collections/v/8_0.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Disaster">
       <h2>Disaster</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_9.png" alt="Illustration for Disaster">
@@ -1681,8 +1596,8 @@
         <img src="../../images/collections/v/9_0.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Much This">
       <h2>Much This</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_10.png" alt="Illustration for Much This">
@@ -1701,8 +1616,8 @@
         <img src="../../images/collections/v/10_0.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Menacing Numbers">
       <h2>Menacing Numbers</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_11.png" alt="Illustration for Menacing Numbers">
@@ -1728,8 +1643,8 @@
         <img src="../../images/collections/v/11_0.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Byte">
       <h2>Byte</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_12.png" alt="Illustration for Byte">
@@ -1751,8 +1666,8 @@
         <img src="../../images/collections/v/12.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Feathers">
       <h2>Feathers</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_13.png" alt="Illustration for Feathers">
@@ -1776,8 +1691,8 @@
         <img src="../../images/collections/v/14.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="To Say Goodbyes">
       <h2>To Say Goodbyes</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_14.png" alt="Illustration for To Say Goodbyes">
@@ -1794,8 +1709,8 @@
         <img src="../../images/collections/v/18.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="What is Love?">
       <h2>What is Love?</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_15.png" alt="Illustration for What is Love?">
@@ -1822,8 +1737,8 @@
         <img src="../../images/collections/v/16.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="My Scouring Garb">
       <h2>My Scouring Garb</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_16.png" alt="Illustration for My Scouring Garb">
@@ -1848,8 +1763,8 @@
         <img src="../../images/collections/v/20.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Far Away from Here">
       <h2>Far Away from Here</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_17.png" alt="Illustration for Far Away from Here">
@@ -1873,8 +1788,8 @@
         <img src="../../images/collections/v/22.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Schlep on It">
       <h2>Schlep on It</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_18.png" alt="Illustration for Schlep on It">
@@ -1893,8 +1808,8 @@
         <img src="../../images/collections/v/23.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Headphone Ratatats">
       <h2>Headphone Ratatats</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_19.png" alt="Illustration for Headphone Ratatats">
@@ -1911,8 +1826,8 @@
         <img src="../../images/collections/v/25.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Read it Late">
       <h2>Read it Late</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_20.png" alt="Illustration for Read it Late">
@@ -1938,8 +1853,8 @@
         <img src="../../images/collections/v/27.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Busy Must Bee">
       <h2>Busy Must Bee</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_21.png" alt="Illustration for Busy Must Bee">
@@ -1958,8 +1873,8 @@
         <img src="../../images/collections/v/29.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Father’s Day Reverie">
       <h2>Father’s Day Reverie</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_22.png" alt="Illustration for Father’s Day Reverie">
@@ -2039,8 +1954,8 @@
         <img src="../../images/collections/v/30.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Butterfly">
       <h2>Butterfly</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_23.png" alt="Illustration for Butterfly">
@@ -2057,8 +1972,8 @@
         <img src="../../images/collections/v/31.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Barbie Rebus">
       <h2>Barbie Rebus</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_24.png" alt="Illustration for Barbie Rebus">
@@ -2083,8 +1998,8 @@
         <img src="../../images/collections/v/32.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="It’s no Home">
       <h2>It’s no Home</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_25.png" alt="Illustration for It’s no Home">
@@ -2103,8 +2018,8 @@
         <img src="../../images/collections/v/35.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Spread-eagle">
       <h2>Spread-eagle</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_26.png" alt="Illustration for Spread-eagle">
@@ -2130,8 +2045,8 @@
         <img src="../../images/collections/v/38.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Skin Care">
       <h2>Skin Care</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_27.png" alt="Illustration for Skin Care">
@@ -2146,8 +2061,8 @@
         <img src="../../images/collections/v/39.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Here She Comes Flapping">
       <h2>Here She Comes Flapping</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_28.png" alt="Illustration for Here She Comes Flapping">
@@ -2175,8 +2090,8 @@
         <img src="../../images/collections/v/41.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Detour">
       <h2>Detour</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_29.png" alt="Illustration for Detour">
@@ -2206,8 +2121,8 @@
         <img src="../../images/collections/v/43.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Encephalon">
       <h2>Encephalon</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_30.png" alt="Illustration for Encephalon">
@@ -2226,8 +2141,8 @@
         <img src="../../images/collections/v/45.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="See You Soon">
       <h2>See You Soon</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_31.png" alt="Illustration for See You Soon">
@@ -2258,8 +2173,8 @@
         <img src="../../images/collections/v/47.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Drawstring">
       <h2>Drawstring</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_32.png" alt="Illustration for Drawstring">
@@ -2279,8 +2194,8 @@
         <img src="../../images/collections/v/49.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Bodged Bugging">
       <h2>Bodged Bugging</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_33.png" alt="Illustration for Bodged Bugging">
@@ -2305,8 +2220,8 @@
         <img src="../../images/collections/v/51.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Come Over">
       <h2>Come Over</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_34.png" alt="Illustration for Come Over">
@@ -2322,8 +2237,8 @@
         <img src="../../images/collections/v/52.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Boob Breeze In">
       <h2>Boob Breeze In</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_35.png" alt="Illustration for Boob Breeze In">
@@ -2341,8 +2256,8 @@
         <img src="../../images/collections/v/54.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Flame Blame">
       <h2>Flame Blame</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_36.png" alt="Illustration for Flame Blame">
@@ -2366,8 +2281,8 @@
         <img src="../../images/collections/v/56.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Is It So?">
       <h2>Is It So?</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_37.png" alt="Illustration for Is It So?">
@@ -2386,8 +2301,8 @@
         <img src="../../images/collections/v/58.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Rant Attack">
       <h2>Rant Attack</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_38.png" alt="Illustration for Rant Attack">
@@ -2419,8 +2334,8 @@
         <img src="../../images/collections/v/61.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Sides of Swipe">
       <h2>Sides of Swipe</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_39.png" alt="Illustration for Sides of Swipe">
@@ -2441,8 +2356,8 @@
         <img src="../../images/collections/v/63.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Can this Bard Relate?">
       <h2>Can this Bard Relate?</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_40.png" alt="Illustration for Can this Bard Relate?">
@@ -2462,8 +2377,8 @@
         <img src="../../images/collections/v/65.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Code-Conduct">
       <h2>Code-Conduct</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_41.png" alt="Illustration for Code-Conduct">
@@ -2487,8 +2402,8 @@
         <img src="../../images/collections/v/68.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Blah, Black, Man Peep">
       <h2>Blah, Black, Man Peep</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_42.png" alt="Illustration for Blah, Black, Man Peep">
@@ -2508,8 +2423,8 @@
         <img src="../../images/collections/v/69.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="What’s Love Got to Do with it?">
       <h2>What’s Love Got to Do with it?</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_43.png" alt="Illustration for What’s Love Got to Do with it?">
@@ -2538,8 +2453,8 @@
         <img src="../../images/collections/v/72.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="I’ll Know you for More">
       <h2>I’ll Know you for More</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_44.png" alt="Illustration for I’ll Know you for More">
@@ -2559,8 +2474,8 @@
         <img src="../../images/collections/v/74.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Aliens over Flowers">
       <h2>Aliens over Flowers</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_45.png" alt="Illustration for Aliens over Flowers">
@@ -2579,8 +2494,8 @@
         <img src="../../images/collections/v/76.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Outlive">
       <h2>Outlive</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_46.png" alt="Illustration for Outlive">
@@ -2617,8 +2532,8 @@
         <img src="../../images/collections/v/79.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Hair Cream">
       <h2>Hair Cream</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_47.png" alt="Illustration for Hair Cream">
@@ -2641,8 +2556,8 @@
         <img src="../../images/collections/v/82.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="What makes up for Bosh">
       <h2>What makes up for Bosh</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_48.png" alt="Illustration for What makes up for Bosh">
@@ -2673,8 +2588,8 @@
         <img src="../../images/collections/v/84.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="Beast and Wifey">
       <h2>Beast and Wifey</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_49.png" alt="Illustration for Beast and Wifey">
@@ -2702,8 +2617,8 @@
         <img src="../../images/collections/v/88.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
+
+
     <section class="chapter" aria-label="A Map to Nap">
       <h2>A Map to Nap</h2>
       <img src="https://www.frithhilton.com.ng/images/share/FHC/5/image_50.png" alt="Illustration for A Map to Nap">
@@ -2729,9 +2644,9 @@
         <img src="../../images/collections/v/91.jpg" class="img-fluid">
       </div>
     </section>
-    
-    
-    
+
+
+
     <section class="acknowledgements" aria-label="Acknowledgements">
       <h2>Acknowledgements</h2>
       <div>
@@ -2739,16 +2654,16 @@
       </div>
     </section>
   </div>
-  
-  
-  
+
+
+
   <p id="poetry-card-btn" onclick="generateImage(window.getSelection().toString())" class="btn btn-naked-wrap poetryCard-btn" style="display: none;">
     <i class="fas fa-image"></i>
     <span> Poetry card </span>
   </p>
-  
+
   <canvas id="canvas" width="1080" height="1080" style="display: none;"></canvas>
-  
+
   <!-- Popup container -->
   <div class="popup-container" id="popup-container">
     <!-- Image container -->
@@ -2756,7 +2671,7 @@
       <img src="../../images/ads/VersaceAd1.gif" alt="Versace" />
     </div>
   </div>
-  
+
   <!-- Popup container -->
   <div class="popup-container" id="popup-container-vii">
     <!-- Image container -->
@@ -2764,51 +2679,51 @@
       <img src="../../images/ads/Orebella.gif" alt="Popup Image vii" />
     </div>
   </div>
-  
+
   <div class="popup-container" id="popup-container-iii">
     <!-- Image container -->
     <div id="image-container-iii" class="image-container">
       <img src="../../images/ads/wildflower.gif" alt="Popup Image iii" />
     </div>
   </div>
-  
+
   <div class="popup-container" id="popup-container-iv">
     <!-- Image container -->
     <div id="image-container-iv" class="image-container">
       <img src="../../images/ads/cosmic.gif" alt="Popup Image iv" />
     </div>
   </div>
-  
+
   <div class="popup-container" id="popup-container-v">
     <!-- Image container -->
     <div id="image-container-v" class="image-container">
       <img src="../../images/ads/khy-wardrobe.gif" alt="Popup Image v" />
     </div>
   </div>
-  
+
   <div class="popup-container" id="popup-container-vi">
     <!-- Image container -->
     <div id="image-container-vi" class="image-container">
       <img src="../../images/ads/skims.gif" alt="Popup Image vi" />
     </div>
   </div>
-  
+
   <div class="popup-container" id="popup-container-ii">
     <!-- Image container -->
     <div id="image-container-ii" class="image-container">
       <img src="../../images/ads/xokhloe.gif" alt="Popup Image ii" />
     </div>
   </div>
-  
+
   <!--========== 
         Start of Javascript ==========-->
-  
+
   <!--===== Global required js =====-->
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   <script src="../../js/jquery-3.6.0.min.js"></script>
   <script src="../../js/popper.min.js"></script>
   <script src="../../js/bootstrap/bootstrap.min.js"></script>
-  
+
   <!--===== Global script: js libraries and plugins =====-->
   <script src="../../js/appear/jquery.appear.js"></script>
   <script src="../../js/swiper/swiper.min.js"></script>
@@ -2822,105 +2737,105 @@
   <script src="../../js/collection-V.js"></script>
   <script src="../../js/collectionAds.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-  
+
   <script>
     $(document).ready(function() {
       // Function to check if it's the first load in the hour
       function isFirstLoadInHour() {
         const currentTime = new Date().getTime();
         const storedTime = localStorage.getItem("popupLoadTime");
-        
+
         if (!storedTime || currentTime - storedTime >= 0) {
           // 0ms = 0 minutes
           localStorage.setItem("popupLoadTime", currentTime);
           return true;
         }
-        
+
         return false;
       }
-      
+
       // Open popup on first load in the hour with 5-second delay
       if (isFirstLoadInHour()) {
         setTimeout(function() {
           $("#popup-container").fadeIn();
         }, 5000); // 5000ms = 5 seconds
       }
-      
+
       // Close popup on close button click, escape key press, or outside click
       $("#close-btn").on("click", function() {
         $("#popup-container").fadeOut();
       });
-      
+
       $(document).keyup(function(e) {
         if (e.key === "Escape") {
           $("#popup-container").fadeOut();
         }
       });
-      
+
       // Close popup when clicking outside the image
       $("#popup-container").on("click", function(e) {
         if ($(e.target).is("#popup-container") && !$(e.target).closest(".image-container").length) {
           $(this).fadeOut();
         }
       });
-      
+
       $("#popup-container-ii").on("click", function(e) {
         if ($(e.target).is("#popup-container-ii") && !$(e.target).closest(".image-container").length) {
           $(this).fadeOut();
         }
       });
-      
+
       $("#popup-container-iii").on("click", function(e) {
         if ($(e.target).is("#popup-container-iii") && !$(e.target).closest(".image-container").length) {
           $(this).fadeOut();
         }
       });
-      
+
       $("#popup-container-iv").on("click", function(e) {
         if ($(e.target).is("#popup-container-iv") && !$(e.target).closest(".image-container").length) {
           $(this).fadeOut();
         }
       });
-      
+
       $("#popup-container-v").on("click", function(e) {
         if ($(e.target).is("#popup-container-v") && !$(e.target).closest(".image-container").length) {
           $(this).fadeOut();
         }
       });
-      
+
       $("#popup-container-vi").on("click", function(e) {
         if ($(e.target).is("#popup-container-vi") && !$(e.target).closest(".image-container").length) {
           $(this).fadeOut();
         }
       });
-      
+
       $("#popup-container-vii").on("click", function(e) {
         if ($(e.target).is("#popup-container-vii") && !$(e.target).closest(".image-container").length) {
           $(this).fadeOut();
         }
       });
-      
+
       // Make image clickable
       $("#image-container").on("click", function() {
         // Replace with your desired action
         window.open("https://www.versace.com/sg/en/women/accessories/watches/versace-reveal-watch/PVE0C002-P0025_PNUL.html", "_blank");
       });
-      
+
       $("#image-container-vii").on("click", function() {
         // Replace with your desired action
         window.open("https://orebella.com", "_blank");
       });
-      
+
       $("#image-container-iii").on("click", function() {
         // Replace with your desired action
         window.open("https://www.wildflowercases.com/en-ad", "_blank");
       });
-      
+
       $("#image-container-iv").on("click", function() {
         // Replace with your desired action
         window.open("https://www.ulta.com/p/cosmic-kylie-jenner-eau-de-parfum-pimprod2044205", "_blank");
       });
-      
+
       $("#image-container-v").on("click", function() {
         // Replace with your desired action
         window.open("https://www.khy.com/pages/wardrobe?fbclid=PAY2xjawICrBJleHRuA2FlbQIxMQABpnTcHafMzC6bedRk_jGcKKLw_Qo60ipUANWhcdWC1TORtK4tF7n3YwA15w_aem__Z_2kS8T5xv2979yBkDWaw", "_blank");
@@ -2929,14 +2844,14 @@
         // Replace with your desired action
         window.open("https://www.skims.com/", "_blank");
       });
-      
+
       $("#image-container-ii").on("click", function() {
         // Replace with your desired action
         window.open("https://www.ulta.com/p/xo-khloe-pimprod2049077?sku=2632566&fbclid=PAZXh0bgNhZW0CMTEAAaZVXM4Lkj92LaOM2GEyeMxVRAlahdOYqvDPGzl8R2-Jsf758_E9PY8hyC8_aem__mk4AnSGz28b8amcS9xKDg", "_blank");
       });
     });
   </script>
-  
+
   <script>
     // JavaScript code
     const triggerButton = document.getElementById('sharePoetryCard');
@@ -2944,26 +2859,26 @@
     const downloadLinks = document.getElementById('download-links');
     const poetryIndex = document.getElementById('poetryIndex');
     const chapterTitle = document.getElementById('chapterTitle');
-    
-    
+
+
     triggerButton.addEventListener('click', function() {
       downloadCards.style.display = 'block'; // Display the download cards container
       generateDownloadLinks();
     });
-    
-    
-    
-    
+
+
+
+
     function generateDownloadLinks() {
       const index = parseInt(poetryIndex.innerHTML);
       const title = chapterTitle.innerHTML;
-      
+
       downloadLinks.innerHTML = '';
-      
+
       for (let i = 0;; i++) {
         const imageName = `${index}${i > 0 ? `-${i}` : ''}.png`;
         const imageUrl = `../../images/collections/FHC/V/${imageName}`;
-        
+
         const img = new Image();
         img.src = imageUrl;
         if (img.complete || img.width + img.height > 0) {
@@ -2978,18 +2893,18 @@
         }
       }
     }
-    
+
     triggerButton.addEventListener('click', function() {
       downloadCards.style.display = 'block';
       generateDownloadLinks();
     });
   </script>
-  
-  
+
+
   <script>
     let selectedHtml = '';
-    
-    
+
+
     document.addEventListener('selectionchange', function() {
       const selectedText = window.getSelection().toString();
       const selection = window.getSelection();
@@ -2998,16 +2913,16 @@
         const parser = new DOMParser();
         const doc = parser.parseFromString(selectedHtml, 'text/html');
         let textContent = doc.body.textContent;
-        
+
         // Replace double spaces with line breaks
         while (textContent.includes('  ')) {
           textContent = textContent.replace('  ', '\n');
         }
-        
+
         const htmlContent = document.getElementById('htmlContent');
         const range = selection.getRangeAt(0);
         const rect = range.getBoundingClientRect();
-        
+
         if (selectedText && htmlContent.contains(selection.anchorNode) && htmlContent.contains(selection.focusNode) && rect.top >= 0 && rect.bottom <= window.innerHeight) {
           document.getElementById('poetry-card-btn').style.display = 'block';
         } else {
@@ -3015,7 +2930,7 @@
         }
       }
     });
-    
+
     document.addEventListener('scroll', function() {
       const selection = window.getSelection();
       const selectedText = selection.toString();
@@ -3028,36 +2943,36 @@
         }
       }
     });
-    
-    
+
+
     async function generateImage(text) {
       const canvas = document.getElementById('canvas');
       const ctx = canvas.getContext('2d');
       const bgImagePath = '../../images/generator/poetryBGStock.png';
       const bgImage = await loadImage(bgImagePath);
       ctx.drawImage(bgImage, 0, 0, canvas.width, canvas.height);
-      
+
       const chapterTitle = document.getElementById('chapterTitle').textContent;
       ctx.font = '90px "Architects Daughter"';
       ctx.fillStyle = '#1D5457';
       ctx.textAlign = 'center';
       ctx.textBaseline = 'top';
       ctx.fillText(chapterTitle, canvas.width / 2, 200);
-      
+
       ctx.font = '30px "Architects Daughter"';
       ctx.fillStyle = '#1D5457';
       ctx.textAlign = 'center';
       ctx.textBaseline = 'top';
       ctx.fillText('FRITH HILTON COLLECTION V', canvas.width / 2, 350);
-      
+
       ctx.font = '50px "Architects Daughter"';
       ctx.fillStyle = 'black';
       ctx.textAlign = 'center';
       ctx.textBaseline = 'middle';
-      
+
       // Split the text into lines
       const lines = text.split('\n');
-      
+
       // Draw each line of text
       let yOffset = 500;
       for (const line of lines) {
@@ -3067,12 +2982,12 @@
         ctx.fillText(line, canvas.width / 2, yOffset);
         yOffset += 50; // Increment the y-coordinate for each line
       }
-      
+
       const link = document.createElement('a');
       link.href = canvas.toDataURL();
       link.download = 'poetry-card.png';
       link.click();
-      
+
       setTimeout(() => {
         window.getSelection().removeAllRanges();
         document.getElementById('poetry-card-btn').style.display = 'none';
@@ -3087,12 +3002,12 @@
       });
     }
   </script>
-  
-  
-  
-  
+
+
+
+
   <!--===== Main theme script =====-->
-  
+
   <script type="module">
     import { createApp, reactive } from "../../js/petite-vue.js";
     const store = reactive({
@@ -3127,10 +3042,10 @@
       downloadCards: true,
       poetryCardDownloadDiv: false,
       downloadLinks: [],
-      
-      
-      
-      
+
+
+
+
       getCurrentChapter() {
         if (localStorage.getItem("VCurrentChapter")) {
           this.currentChapter = localStorage.getItem("VCurrentChapter");
@@ -3147,7 +3062,7 @@
         this.chapterTitle = chapterTitle;
         const chapterContent = this.pageResources().chapters;
         this.audioElement.src = this.pageResources().poetryAudio[this.currentChapter];
-        
+
         fetch(this.pageResources().poetryJson.at(this.currentChapter))
           .then((response) => response.json())
           .then((data) => {
@@ -3158,7 +3073,7 @@
       getChapterWords() {
         const chapters = this.pageResources().chapters;
         const chapterContent = chapters.at(this.currentChapter);
-        
+
         const parser = new DOMParser();
         const doc = parser.parseFromString(chapterContent, "text/html");
         const paragraphs = doc.body.getElementsByTagName("p");
@@ -3167,12 +3082,12 @@
           .join(" ");
         const words = textContent.split(/\s+|(?<=[.!?])\s* /);
         const filteredWords = words.filter((word) => word.trim() !== "" && word !== "\n");
-        
+
         const wordData = filteredWords.map((word, index) => ({
           id: index + 1,
           text: word,
         }));
-        
+
         wordData.forEach((word) => {
           const matchingWord = this.lyrics.flatMap((lyric) => lyric.words).find((w) => w.id === word.id && w.text === word.text);
           if (matchingWord) {
@@ -3180,9 +3095,9 @@
             word.endTime = matchingWord.endTime;
           }
         });
-        
+
         this.playbackData = wordData;
-        
+
         this.loadPoetryWithAttributes();
       },
       loadPoetryWithAttributes() {
@@ -3313,7 +3228,7 @@
           }
           this.audioElement.play();
           this.removeHighlighting();
-          
+
           if (!this.analyser) {
             this.initAnalyser();
           } else {
@@ -3345,7 +3260,7 @@
           audioSwitcher.classList.add("fa-play");
           this.removeHighlighting();
         });
-        
+
         this.audioElement.addEventListener("timeupdate", () => {
           const audioTime = this.audioElement.currentTime;
           this.highlightWords(audioTime);
@@ -3361,16 +3276,16 @@
         if (this.source) {
           this.source.disconnect();
         }
-        
+
         this.audioContext = new AudioContext();
         this.analyser = this.audioContext.createAnalyser();
         this.source = this.audioContext.createMediaElementSource(this.audioElement);
-        
+
         if (!this.source.isConnected) {
           this.source.connect(this.analyser);
           this.analyser.connect(this.audioContext.destination);
         }
-        
+
         this.frequencyData = new Uint8Array(this.analyser.frequencyBinCount);
       },
       updateVisualizer() {
@@ -3424,7 +3339,7 @@
       },
       resetHighlighting() {
         const highlightedElements = document.querySelectorAll(".highlighted");
-        
+
         highlightedElements.forEach((element) => {
           element.classList.add("pauseHighlight");
           element.classList.remove("highlighted");
@@ -3444,7 +3359,7 @@
           this.poetryURL();
           this.getCurrentChapter();
           const state = "poetry";
-          
+
           return state;
         } else {
           localStorage.setItem("viewV", this.initialPageState.viewV);
@@ -3555,7 +3470,7 @@
             `../audio/FHC/V/49.mp3`,
             `../audio/FHC/V/50.mp3`
           ],
-          
+
           poetryJson: [
             `0`,
             `../json/FHC/V/1.json`,
@@ -3609,7 +3524,7 @@
             `../json/FHC/V/49.json`,
             `../json/FHC/V/50.json`
           ],
-          
+
           chapterTitles: [
             "0",
             "The Lakes",
@@ -4646,7 +4561,7 @@
         window.open(`https://twitter.com/intent/tweet?url=${this.currentURL}&text=${encodedMessage}`, "_blank");
       },
       sharePoetryCard() {},
-      
+
       poetryURL() {
         const pageURL = "https://frithhilton.com.ng/share/FHC/V/";
         this.currentURL = pageURL + `${this.currentChapter}.html`;
@@ -4711,7 +4626,7 @@
           this.loadImage(poetryIndex, chapterTitle, downloadLinksContainer, 1); // Start with index 1
         }
       },
-      
+
       loadImage(poetryIndex, chapterTitle, downloadLinksContainer, index) {
         let imageName;
         let imageUrl;
@@ -4751,13 +4666,13 @@
         link.download = 'Frith Hilton Collection V by Howard Frith Hilton.epub'; // Set the file name for the download
         link.click();
       }
-      
-      
-      
+
+
+
     });
-    
+
     window.store = store;
-    
+
     createApp({
       store,
     }).mount("#ctrlArea");
@@ -4765,7 +4680,7 @@
   <script>
     // Get the div element
   </script>
-  
+
   <script>
     window.addEventListener('load', function() {
       console.log(window.store.bookName);
