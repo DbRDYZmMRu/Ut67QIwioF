@@ -175,14 +175,14 @@ const albums = [
     releaseDate: 'in session',
     tracks: [
       'So alive Overture', 'Isn’t it yours', 'Old passions', 'Bread II', 'Faraway',
-      'Cheer on me', 'For it', 'Via', 
+      'Cheer on me', 'For it', 'Via', 'Dakota',
     ]
   },
   
 ];
 
 export const store = reactive({
-  albumCount: 15,
+  albumCount: 16,
   currentAlbumId: null,
   baseStylesheet: '../css/style.css',
   albumsStyleSheet: '../css/freshPlayer.css',
