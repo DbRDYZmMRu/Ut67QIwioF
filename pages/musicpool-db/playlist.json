@@ -1,7 +1,15 @@
 {
   
   "songs": [
-
+    
+    {
+      "albumart": "musicpool-db/covers/whereIsTheMoodRobot/9.jpg",
+      "author": "Frith Hilton",
+      "song": "Dakota",
+      "json": "../pages/musicpool-db/lyrics/whereIsTheMoodRobot/9.json",
+      "audio": "../pages/musicpool-db/mp3/whereIsTheMoodRobot/9.mp3"
+    },
+    
     {
       "albumart": "musicpool-db/covers/whereIsTheMoodRobot/8.jpg",
       "author": "Frith Hilton",
@@ -9,7 +17,7 @@
       "json": "../pages/musicpool-db/lyrics/whereIsTheMoodRobot/8.json",
       "audio": "../pages/musicpool-db/mp3/whereIsTheMoodRobot/8.mp3"
     },
-
+    
     {
       "albumart": "musicpool-db/covers/whereIsTheMoodRobot/7.jpg",
       "author": "Frith Hilton",
