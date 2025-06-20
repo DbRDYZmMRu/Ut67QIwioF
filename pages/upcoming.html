@@ -1,6 +1,6 @@
  <!DOCTYPE html>
  <html lang="en">
- 
+
  <head>
    <!--===== Required meta tags =====-->
    <meta charset="utf-8" />
@@ -8,13 +8,13 @@
    <meta name="author" content="Infinitysoftway" />
    <meta name="description" content="statistic charts" />
    <meta name="viewport" content="width=device-width, initial-scale=1" />
-   
+
    <!--===== Title =====-->
    <title>Upcoming Poetry</title>
-   
+
    <!--===== Favicon =====-->
    <link rel="shortcut icon" href="../images/favicon.png" />
-   
+
    <!--===== Google fonts =====-->
    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Jost:wght@300;400;500;600;700;800;900&display=swap" />
    <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,7 +22,7 @@
    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet" />
    <!-- font-awesome-icons -->
    <script src="https://kit.fontawesome.com/c7fbb1b458.js" crossorigin="anonymous"></script>
-   
+
    <!--===== Global bootstrap required css =====-->
    <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css" />
    <!--===== Global styles including: Font Icons, Plugins, etc =====-->
@@ -52,7 +52,7 @@
        background-color: rgba(0, 0, 0, 0.7);
        z-index: 9999;
      }
-     
+
      .image-container {
        position: absolute;
        top: 50%;
@@ -60,7 +60,7 @@
        transform: translate(-50%, -50%);
        text-align: center;
      }
-     
+
      .image-container img {
        width: 85vw;
        /* Increased width */
@@ -71,17 +71,17 @@
        object-fit: contain;
        /* Ensure image fits within container */
      }
-     
+
      .spaceOutText {
        letter-spacing: 4px;
      }
    </style>
  </head>
- 
+
  <body class="stokes-wrapper" id="ctrlArea" v-cloak>
    <!--========== 
         Start of loader ==========-->
-   
+
    <div class="template-loader">
      <div class="loaderCenter">
        <div class="book">
@@ -94,10 +94,10 @@
        </div>
      </div>
    </div>
-   
+
    <!--========== 
         End of loader ==========-->
-   
+
    <!--========== 
     Start of  cookie modal notification section ==========-->
    <div class="modal-subscribe">
@@ -132,10 +132,10 @@
           End of cookie modal notification section ==========-->
    <!--==========-->
    <!--==========-->
-   
+
    <!--========== 
         Start of Header Section ==========-->
-   
+
    <header class="header">
      <!--===== Start of navbar =====-->
      <nav class="navbar navbar-light navbar-expand-lg navbar-default">
@@ -143,13 +143,13 @@
          <!--===== Start of logo =====-->
          <a class="navbar-brand" href="../index.html"><img class="logo" src="../images/logo.png" alt="Frith Hilton Logo" /></a>
          <!--===== End of logo =====-->
-         
+
          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
            <span class="icon-bar top-bar mt-0"></span>
            <span class="icon-bar middle-bar"></span>
            <span class="icon-bar bottom-bar"></span>
          </button>
-         
+
          <!--===== Start of nav =====-->
           <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
             <ul class="navbar-nav">
@@ -161,18 +161,18 @@
                   <span class="text-line"> Publications</span>
                 </a>
               </li>
-              
+
               <li class="nav-item active">
                 <a class="nav-link" href="upcoming.html"><span class="text-line"> Upcoming Poetry</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="freshPlayer.html"><span class="text-line"> Fresh Player </span></a>
               </li>
-              
+
               <li class="nav-item">
                 <a class="nav-link" href="who-is-frith-hilton.html"><span class="text-line"> Who is Frith Hilton? </span></a>
               </li>
-              
+
               <li class="nav-item">
                 <a class="nav-link" href="../cookies.html"><span class="text-line"> Cookies Policy </span></a>
               </li>
@@ -184,16 +184,16 @@
       </nav>
      <!--===== End of navbar =====-->
    </header>
-   
+
    <!--========== 
         End of header ==========-->
-   
+
    <!--========== 
         End of Sidebar ==========-->
-   
+
    <!--========== 
   Start of Timeline section ==========-->
-   
+
    <section class="slice-ptb">
      <div class="container">
        <div class="row justify-content-center">
@@ -206,14 +206,14 @@
            <div class="mb-5">
              <div id="ad-top"></div>
            </div>
-           
+
            <div class="mb-5">
              <a target="_blank" href="#">
                <img class="img-fluid justify-content-center" src="../images/ads/Nike4Minute.gif" alt="4 Minute" />
              </a>
            </div>
-           
-           
+
+
            <!--===== Start of  Upcoming timeline =====-->
            <div class="mt-5 mb-5" id="reading">
              <h3 class="mt-3 mb-4 text-center text-nightswan-gradient fw-bold spaceOutText">West to West</h3>
@@ -244,9 +244,9 @@
                <div v-html="store.getCurrentPoem().content" class="mt-4 me-4 ms-4 mb-5"></div>
                <span class="bg-warning-soft-01 px-4 py-2 text-dark rounded">{{store.getCurrentPoem().date}}</span>
              </div>
-             
+
              <hr class="my-5" />
-             
+
              <div class="col-lg-3 col-sm-6">
                <p @click="store.goBack()" class="btn btn-naked-wrap go-back-btn">
                  <i class="feather icon-arrow-left"></i>
@@ -254,30 +254,30 @@
                </p>
              </div>
            </div>
-           
+
            <div class="mb-5">
              <div id="ad-middle"></div>
            </div>
-           
+
            <div class="mb-5">
              <div id="ad-bottom"></div>
            </div>
-           
-           
-           
+
+
+
            <!--========== 
 End of poetry content ==========-->
          </div>
        </div>
      </div>
    </section>
-   
+
    <!--========== 
     End of Timeline section ==========-->
-   
+
    <!--========== 
   Start of bottom page  ==========-->
-   
+
    <section class="py-5 bg-pink-gradient">
      <div class="container">
        <div class="row justify-content-center">
@@ -291,14 +291,14 @@ End of poetry content ==========-->
        </div>
      </div>
    </section>
-   
+
    <!--========== 
   End of bottom page  ==========-->
-   
-   
+
+
    <!--========== 
   Start of footer section ==========-->
-   
+
    <footer class="footer">
      <div class="container">
        <div class="row">
@@ -310,7 +310,7 @@ End of poetry content ==========-->
        </div>
      </div>
    </footer>
-   
+
    <footer class="footer bg-black slice-pt">
      <div class="container">
        <div class="row">
@@ -318,7 +318,7 @@ End of poetry content ==========-->
            <h2 class="text-white display-2 mb-4">
              <span class="typer text-white" id="some-id" data-words="Catch up!" data-delay="100"> </span>
            </h2>
-           
+
            <div class="social-icons icons-xl mt-5">
              <a class="icon text-white" href="https://youtube.com/@frithhilton17?si=8pEsa1wf1KxLNvBK" target="_blank">
                <i class="fab fa-youtube"></i>
@@ -349,24 +349,24 @@ End of poetry content ==========-->
        </div>
      </div>
    </footer>
-   
+
    <!--========== 
   End of footer section ==========-->
-   
+
    <!--========== 
         Start of back to top section ==========-->
-   
+
    <div class="go-top">
      <p class="go-top-text">Scroll to top <i class="fas fa-long-arrow-alt-right ps-2"></i></p>
    </div>
-   
+
    <!--========== 
         End of back to top section ==========-->
    <div class="col-lg-3 col-sm-6">
      <p @click="window.location.href='../published/search.html'" class="btn btn-naked-wrap search-btn"> <i class="fas fa-search"></i> <span> search </span> </p>
    </div>
-   
-   
+
+
    <!-- Popup container -->
    <div class="popup-container" id="popup-container">
      <!-- Image container -->
@@ -374,7 +374,7 @@ End of poetry content ==========-->
        <img src="../../images/ads/RenneJune14.gif" alt="EstellaCo" />
      </div>
    </div>
-   
+
    <!-- Popup container -->
    <div class="popup-container" id="popup-container-vii">
      <!-- Image container -->
@@ -382,50 +382,50 @@ End of poetry content ==========-->
        <img src="../../images/ads/VersaceAd1.gif" alt="Versace" />
      </div>
    </div>
-   
+
    <div class="popup-container" id="popup-container-iii">
      <!-- Image container -->
      <div id="image-container-iii" class="image-container">
        <img src="../../images/ads/slipperySoapAd1.gif" alt="Slippery Soap" />
      </div>
    </div>
-   
+
    <div class="popup-container" id="popup-container-iv">
      <!-- Image container -->
      <div id="image-container-iv" class="image-container">
        <img src="../../images/ads/cosmic.gif" alt="Popup Image iv" />
      </div>
    </div>
-   
+
    <div class="popup-container" id="popup-container-v">
      <!-- Image container -->
      <div id="image-container-v" class="image-container">
        <img src="../../images/ads/KHYAdMay30.gif" alt="Popup Image v" />
      </div>
    </div>
-   
+
    <div class="popup-container" id="popup-container-vi">
      <!-- Image container -->
      <div id="image-container-vi" class="image-container">
        <img src="../../images/ads/skims.gif" alt="Popup Image vi" />
      </div>
    </div>
-   
+
    <div class="popup-container" id="popup-container-ii">
      <!-- Image container -->
      <div id="image-container-ii" class="image-container">
        <img src="../../images/ads/xokhloe.gif" alt="Popup Image ii" />
      </div>
    </div>
-   
+
    <!--========== 
         Start of Javascript ==========-->
-   
+
    <!--===== Global required js =====-->
    <script src="../js/jquery-3.6.0.min.js"></script>
    <script src="../js/popper.min.js"></script>
    <script src="../js/bootstrap/bootstrap.min.js"></script>
-   
+
    <!--===== Global script: js libraries and plugins =====-->
    <script src="../js/appear/jquery.appear.js"></script>
    <script src="../js/swiper/swiper.min.js"></script>
@@ -445,98 +445,98 @@ End of poetry content ==========-->
        function isFirstLoadInHour() {
          const currentTime = new Date().getTime();
          const storedTime = localStorage.getItem("popupLoadTime");
-         
+
          if (!storedTime || currentTime - storedTime >= 0) {
            // 0ms = 0 minutes
            localStorage.setItem("popupLoadTime", currentTime);
            return true;
          }
-         
+
          return false;
        }
-       
+
        // Open popup on first load in the hour with 5-second delay
        if (isFirstLoadInHour()) {
          setTimeout(function() {
            $("#popup-container").fadeIn();
          }, 5000); // 5000ms = 5 seconds
        }
-       
+
        // Close popup on close button click, escape key press, or outside click
        $("#close-btn").on("click", function() {
          $("#popup-container").fadeOut();
        });
-       
+
        $(document).keyup(function(e) {
          if (e.key === "Escape") {
            $("#popup-container").fadeOut();
          }
        });
-       
+
        // Close popup when clicking outside the image
        $("#popup-container").on("click", function(e) {
          if ($(e.target).is("#popup-container") && !$(e.target).closest(".image-container").length) {
            $(this).fadeOut();
          }
        });
-       
+
        $("#popup-container-ii").on("click", function(e) {
          if ($(e.target).is("#popup-container-ii") && !$(e.target).closest(".image-container").length) {
            $(this).fadeOut();
          }
        });
-       
+
        $("#popup-container-iii").on("click", function(e) {
          if ($(e.target).is("#popup-container-iii") && !$(e.target).closest(".image-container").length) {
            $(this).fadeOut();
          }
        });
-       
+
        $("#popup-container-iv").on("click", function(e) {
          if ($(e.target).is("#popup-container-iv") && !$(e.target).closest(".image-container").length) {
            $(this).fadeOut();
          }
        });
-       
+
        $("#popup-container-v").on("click", function(e) {
          if ($(e.target).is("#popup-container-v") && !$(e.target).closest(".image-container").length) {
            $(this).fadeOut();
          }
        });
-       
+
        $("#popup-container-vi").on("click", function(e) {
          if ($(e.target).is("#popup-container-vi") && !$(e.target).closest(".image-container").length) {
            $(this).fadeOut();
          }
        });
-       
+
        $("#popup-container-vii").on("click", function(e) {
          if ($(e.target).is("#popup-container-vii") && !$(e.target).closest(".image-container").length) {
            $(this).fadeOut();
          }
        });
-       
+
        // Make image clickable
        $("#image-container").on("click", function() {
          // Replace with your desired action
          window.open("https://www.estellaco.co/", "_blank");
        });
-       
+
        $("#image-container-vii").on("click", function() {
          // Replace with your desired action
          window.open("https://www.versace.com/sg/en/women/accessories/watches/versace-reveal-watch/PVE0C002-P0025_PNUL.html", "_blank");
        });
-       
+
        $("#image-container-iii").on("click", function() {
          // Replace with your desired action
          window.open("https://www.slipperysoap.com/", "_blank");
        });
-       
+
        $("#image-container-iv").on("click", function() {
          // Replace with your desired action
          window.open("https://www.ulta.com/p/cosmic-kylie-jenner-eau-de-parfum-pimprod2044205", "_blank");
        });
-       
+
        $("#image-container-v").on("click", function() {
          // Replace with your desired action
          window.open("https://www.khy.com/collections/dilara?fbclid=PAZXh0bgNhZW0CMTEAAacXBqnJGMqzoo-YOYVo5CAWv1HgZESXLP8msTx3ZZBbopvd01gmGOwBipn93g_aem_O4JPzTAESiUmHyWhxFIIfg", "_blank");
@@ -545,14 +545,14 @@ End of poetry content ==========-->
          // Replace with your desired action
          window.open("https://www.skims.com/", "_blank");
        });
-       
+
        $("#image-container-ii").on("click", function() {
          // Replace with your desired action
          window.open("https://www.ulta.com/p/xo-khloe-pimprod2049077?sku=2632566&fbclid=PAZXh0bgNhZW0CMTEAAaZVXM4Lkj92LaOM2GEyeMxVRAlahdOYqvDPGzl8R2-Jsf758_E9PY8hyC8_aem__mk4AnSGz28b8amcS9xKDg", "_blank");
        });
      });
    </script>
-   
+
    <script>
      window.fbAsyncInit = function() {
        FB.init({
@@ -578,7 +578,7 @@ End of poetry content ==========-->
        goBackState: false,
        currentPoemId: 0,
        chapterClickNo: 0,
-       
+
        getCurrentPoemView() {
          if (localStorage.getItem("currentPoemId")) {
            this.currentPoemId = localStorage.getItem("currentPoemId");
@@ -712,17 +712,17 @@ End of poetry content ==========-->
                poetryAudio: "./upcoming/audio/1.mp3",
                poetryJson: "./upcoming/json/1.json",
              }, 
-             
-             
-             
-             
-             
-             
-             
-             
-             
+
+
+
+
+
+
+
+
+
            ],
-           
+
            convertIndex(prop) {
              var indexNumber = prop;
              console.log(indexNumber);
@@ -817,5 +817,5 @@ End of poetry content ==========-->
    <!--========== 
         End of Javascript ==========-->
  </body>
- 
+
  </html>
