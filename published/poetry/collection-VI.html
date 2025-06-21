@@ -2,81 +2,519 @@
 <html lang="en">
 
 <head>
-<script>
+  <script>
     function getQueryParam(param) {
-        const urlParams = new URLSearchParams(window.location.search);
-
-        return urlParams.get(param);
+      const urlParams = new URLSearchParams(window.location.search);
+      
+      return urlParams.get(param);
     }
-
+    
     /**
 
  * Run the query parameter extraction on page load and update the page content.
 
  */
-
+    
     function runOnPageLoad() {
-        const queryValue = getQueryParam("query");
-
-        if (queryValue !== null) {
-            localStorage.setItem("viewVI", "poetry");
-
-            localStorage.setItem("VICurrentChapter", queryValue);
-
-            console.log("Query parameter value:", queryValue); // You can replace this line with any other action
-
-            // Update the page content based on the query parameter value
-
-					localStorage.setItem("coverTabVIIsActive", false);
-					localStorage.setItem("authorTabVIIsActive", false);
-					localStorage.setItem("dedTabVIIsActive", false);
-					localStorage.setItem("chapterTabVIIsActive", true);
-
-            document.addEventListener("DOMContentLoaded", function () {
-                var integrationTab = document.getElementById("pills-integration-tab");
-
-                if (integrationTab) {
-                    integrationTab.click();
-                } else {
-                    console.error("Element with ID 'pills-integration-tab' not found.");
-                }
-            });
-        }
+      const queryValue = getQueryParam("query");
+      
+      if (queryValue !== null) {
+        localStorage.setItem("viewVI", "poetry");
+        
+        localStorage.setItem("VICurrentChapter", queryValue);
+        
+        console.log("Query parameter value:", queryValue); // You can replace this line with any other action
+        
+        // Update the page content based on the query parameter value
+        
+        localStorage.setItem("coverTabVIIsActive", false);
+        localStorage.setItem("authorTabVIIsActive", false);
+        localStorage.setItem("dedTabVIIsActive", false);
+        localStorage.setItem("chapterTabVIIsActive", true);
+        
+        document.addEventListener("DOMContentLoaded", function() {
+          var integrationTab = document.getElementById("pills-integration-tab");
+          
+          if (integrationTab) {
+            integrationTab.click();
+          } else {
+            console.error("Element with ID 'pills-integration-tab' not found.");
+          }
+        });
+      }
     }
-
+    
     runOnPageLoad();
-</script>
+  </script>
   
   <!--===== Required meta tags =====-->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="author" content="Howard Frith Hilton" />
-  <meta name="description" content="Frith Hilton Collection VI" />
+  <meta name="author" content="Frith Hilton" />
+  <meta name="description" content="Frith Hilton's Collection VI by Frith Hilton, featuring poems like Shooting Star Daddy, We have a Boy, and I met you, with dedication to Leonor, Princess of Asturias." />
+  <meta name="keywords" content="Frith Hilton Collection VI, Howard Frith Hilton, Frith Hilton, Frith Nightswan Publishers, Forest Crib Books, Poetry dedicated to Leonor, Princess of Asturias, Frith Hilton books, Howard Frith Hilton Books">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <meta property="og:url"
-    content="" />
+  <meta property="og:url" content="https://www.frithhilton.com.ng/published/poetry/collection-VI.html" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="Frith Hilton Collection VI" />
-  <meta property="og:description" content="Frith Hilton Collection VI" />
-  <meta property="og:image"
-    content="" />
-
-  <!--===== Title =====-->
-  <title>Frith Hilton Collection VI </title>
-
-  <!--===== Favicon =====-->
+  <meta property="og:title" content="Frith Hilton Collection VI by Frith Hilton" />
+  <meta property="og:description" content="Frith Hilton's Collection VI by Frith Hilton, featuring poems like Shooting Star Daddy, We have a Boy, and I met you, with dedication to Leonor, Princess of Asturias." />
+  <meta property="og:image" content="https://www.frithhilton.com.ng/images/collections/vi/cover.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Frith Hilton Collection VI by Frith Hilton" />
+  <meta name="twitter:description" content="Frith Hilton's Collection VI by Frith Hilton, featuring poems like Shooting Star Daddy, We have a Boy, and I met you, with dedication to Leonor, Princess of Asturias." />
+  <meta name="twitter:image" content="https://www.frithhilton.com.ng/images/collections/vi/cover.jpg" />
+  <link rel="canonical" href="https://www.frithhilton.com.ng/published/poetry/Collection-VI.html" />
+  <title>Frith Hilton Collection VI - Frith Hilton </title>
   <link rel="shortcut icon" href="../../images/favicon.png" />
-
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Book",
+      "name": "Frith Hilton Collection VI",
+      "author": {
+        "@type": "Person",
+        "name": "Frith Hilton",
+        "alternateName": "Howard Frith Hilton",
+        "birthPlace": "Ogun State, Nigeria",
+        "url": "https://www.frithhilton.com.ng/pages/who-is-frith-hilton.html",
+        "description": "Howard Frith Hilton is a Nigerian poet, and songwriter with over 360 songs and 700 poems across 25 books. His songs and books can be found on his website.",
+        "image": [
+        {
+          "@type": "ImageObject",
+          "url": "https://www.frithhilton.com.ng/images/Frith-Hilton/frith-hilton-author.jpg",
+          "contentUrl": "https://www.frithhilton.com.ng/images/Frith-Hilton/frith-hilton-author.jpg",
+          "caption": "Frith Hilton, author and poet, as an author",
+          "creator": {
+            "@type": "Person",
+            "name": "Frith Hilton"
+          },
+          "width": 1920,
+          "height": 1920,
+          "license": "https://creativecommons.org/licenses/by/4.0/",
+          "creditText": "Frith Hilton",
+          "copyrightNotice": "Copyright © Frith Hilton, licensed under CC BY 4.0",
+          "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
+        }],
+        "jobTitle": "Author, Poet, Songwriter, Musician",
+        "nationality": {
+          "@type": "Country",
+          "name": "Nigeria"
+        },
+        "sameAs": [
+          "https://x.com/frithhilton17",
+          "https://www.youtube.com/@frithhilton17",
+          "https://soundcloud.com/frithhilton17",
+          "https://genius.com/artists/Frith-hilton",
+          "https://instagram.com/frithhilton17"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "hello@frithhilton.com.ng",
+          "contactType": "Professional Contact"
+        },
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Frith Nightswan Enterprises",
+          "url": "https://www.frithnightswanenterprises.com.ng"
+        }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Forest Crib Books Imprint under Frith Nightswan Publishers"
+      },
+      "datePublished": "2023-08-10",
+      "inLanguage": "en",
+      "genre": "Poetry",
+      "keywords": "Frith Hilton Collection VI, Howard Frith Hilton, Frith Hilton, Frith Nightswan Publishers, Forest Crib Books, Poetry dedicated to Princess Leonor of Spain, Frith Hilton books, Howard Frith Hilton Books",
+      "image": "https://www.frithhilton.com.ng/images/collections/vi/cover.jpg",
+      "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html",
+      "hasPart": [
+      {
+        "@type": "CreativeWork",
+        "name": "Dedication",
+        "text": "<p>Leonor, Princess of Asturias</p>\n"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Foreword",
+        "text": "<p>There is a giant cloud somewhere that contains all the poems I will ever write, here are another forty-five of them. Nothing here is furtive, but to rhyme to forty didn’t seem cool. At forty-five, it felt like a well put together piece; a mission accomplished. I present these poems to you, thanks to all my enablers especially my dad, <i>Richard Hilton, Kendall Jenner, Mariam Rod, Taylor Swift, Charli XCX, Kelsy Karter,</i> and <i>Carmella Rose</i>. If you believe it is a crowded house, don’t dream it is over.</p>\n<p>I will be giving up coffee, alcohol, and being a trick. When Collection VII arrives, I will be a whole lot cleaner, as there isn’t a thing tenderer than meeting a princess. </p>\n"
+      },
+      {
+        "@type": "chapter",
+        "position": 1,
+        "name": "All Factory",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_1.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=1",
+        "text": "<p>Fern-like friends</p>\n<p>air-fret trends</p>\n<p>smelling blends</p>\n<p>shed skin left.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 2,
+        "name": "Model Versions",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_2.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=2",
+        "text": "<p>Picking up my pen</p>\n<p>is nothing to help</p>\n<p> </p>\n<p>flacks of paleness</p>\n<p> </p>\n<p>as if suddenly deaf</p>\n<p>I saw a girl’s dress</p>\n<p>it seemed to suggest</p>\n<p> </p>\n<p>I could be the best</p>\n<p>but without mirth.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 3,
+        "name": "Can I?",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_3.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=3",
+        "text": "<p>Do I? I seek</p>\n<p> </p>\n<p>. . . gainly get angry</p>\n<p> </p>\n<p>do I like the ante</p>\n<p>room of culturati </p>\n<p> </p>\n<p>sigh bereft guesses</p>\n<p> </p>\n<p>rhyme by rhyme by habit</p>\n<p>accomplishing five after forty.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 4,
+        "name": "Bad Listener",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_4.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=4",
+        "text": "<p>My draperies have no place to stay</p>\n<p>then it’s awful meandering that I wait</p>\n<p>the chockfull line sneezes in grace</p>\n<p>flaunting the wealth of the air again</p>\n<p>groping my thoughts in wanderer’s pace.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 5,
+        "name": "To Compromise",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_5.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=5",
+        "text": "<p>Can’t tell the difference</p>\n<p>attest to the weekend</p>\n<p>affairs of the day’s spread</p>\n<p>breadth in measurement</p>\n<p>what’s meant, felt as length</p>\n<p>inspected, nothing to reject.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 6,
+        "name": "Baggy heart",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_6.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=6",
+        "text": "<p>Blotter mutter</p>\n<p>like a heavy daughter</p>\n<p>suture, lot tad.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 7,
+        "name": "A High Old Time",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_7.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=7",
+        "text": "<p>I don’t know how I feel</p>\n<p>despondence at the heel</p>\n<p>in remission to believing</p>\n<p>allaying who you’d see.</p>\n<p> </p>\n<p>But I do not agree</p>\n<p>not just yet, this flint.</p>\n<p> </p>\n<p>Have I never seen</p>\n<p>never even responsibilities</p>\n<p>it’s how it is</p>\n<p>quim</p>\n<p>I’ll own this healing</p>\n<p>so let’s go be.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 8,
+        "name": "Thunder Son",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_8.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=8",
+        "text": "<p>As a kid I felt the vibration</p>\n<p>I still do, as its choler is still on</p>\n<p>grumbling, it bangs its tabletop</p>\n<p>I’m not sure if he’s got a mum</p>\n<p>cos he cries, as if cursing god.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 9,
+        "name": "Shooting Star Daddy",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_9.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=9",
+        "text": "<p>Electricity and habits</p>\n<p>romance and magic</p>\n<p>say a riddle, quick!</p>\n<p>why do the electrons flee?</p>\n<p>because “they” have the switch</p>\n<p>so you don’t pay the fees?</p>\n<p>no, it is their plaything</p>\n<p>at times it itches</p>\n<p>so they go clicking</p>\n<p>letting me in on secrets</p>\n<p>like my favourite films</p>\n<p>and overrated soap scenes</p>\n<p>but as a teen</p>\n<p>something in me grew</p>\n<p>my imagination rebelled the streets</p>\n<p>out, it could be dark, but not in me</p>\n<p>because I had music and weed</p>\n<p>shooting star, Owl City</p>\n<p>now it’s ever shiny</p>\n<p>I’m like a daddy</p>\n<p>keeping the electrons living.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 10,
+        "name": "Junkie Mood",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_10.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=10",
+        "text": "<p>My droop</p>\n<p>was she poops</p>\n<p>my heathen stoop</p>\n<p>by my high loupe.</p>\n<p> </p>\n<p>Forgive me who</p>\n<p>I’m new to Hollywood.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 11,
+        "name": "The Rush at the Theatre",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_11.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=11",
+        "text": "<p>The queue is long</p>\n<p>we all know the actor</p>\n<p>years of boredom</p>\n<p>his scripts slumped</p>\n<p>then this rebuff;</p>\n<p>he is reborn.</p>\n<p> </p>\n<p>From the trailer’s effort</p>\n<p>he’s going down a bomb</p>\n<p>I’m at the best stop</p>\n<p>here is the town’s crowd</p>\n<p>flowing and far-flung</p>\n<p>a convincing fandom</p>\n<p>or friends in crawl.</p>\n<p> </p>\n<p>September, August</p>\n<p>July is the month</p>\n<p>then I come</p>\n<p>October, a baby is born</p>\n<p>last day of the clop</p>\n<p>five months along</p>\n<p>mirror numbers, additions</p>\n<p>you’ll see the connection</p>\n<p>he’s mum’s screen idol</p>\n<p>she’s a queen in his world</p>\n<p>I’m a princess and I belong</p>\n<p>I just got my first job</p>\n<p>so this ticket I bought.</p>\n<p> </p>\n<p>A light touch brings focus</p>\n<p>showing my thought’s usurp</p>\n<p>dad sold me these words</p>\n<p>interests come with kingdoms</p>\n<p>So I’m glad I own this manor.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 12,
+        "name": "He’s Glad",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_12.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=12",
+        "text": "<p> Somewhere in the world </p>\n<p> there is a man, once a boy </p>\n<p> of age becoming like adults </p>\n<p> a time comes </p>\n<p> they say once </p>\n<p> the ink rouses the author </p>\n<p> the fruit burst </p>\n<p> maybe a melon </p>\n<p> he meets a girl of honour </p>\n<p> theirs is instant love </p>\n<p> can’t tell, maybe not </p>\n<p> but there is a yacht, a port </p>\n<p> and he should moor </p>\n<p> he could want something more </p>\n<p> but he pulls a dot </p>\n<p> he’s tied the knot </p>\n<p> if you see his desktop </p>\n<p> he’s got just one icon </p>\n<p> he said bye to the toms. </p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 13,
+        "name": "I Think She Knows",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_13.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=13",
+        "text": "<p>These digits</p>\n<p>could beat</p>\n<p>kick</p>\n<p>they’re moonwalking</p>\n<p>and they grip</p>\n<p>keep</p>\n<p>holding</p>\n<p>even in greed</p>\n<p>they’re the deal</p>\n<p>now it’s pointing</p>\n<p>her, she</p>\n<p><i>Taylor Swift</i></p>\n<p>heeding</p>\n<p>to any</p>\n<p>whom see</p>\n<p>paper rings</p>\n<p>fingers hooking</p>\n<p>at least</p>\n<p>it seems</p>\n<p>maybe</p>\n<p>a team</p>\n<p>they feel</p>\n<p>I agree</p>\n<p>I’m owning</p>\n<p>even in poetry</p>\n<p>in bevy</p>\n<p>first dedicatee</p>\n<p>I do, doing</p>\n<p>right, me</p>\n<p>to love as sweet.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 14,
+        "name": "Prime Mover",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_14.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=14",
+        "text": "<p>At times I have no buts</p>\n<p>but hurts</p>\n<p>giving tongue</p>\n<p>door up to hurts</p>\n<p>read my mind’s blurb</p>\n<p>the words to trust</p>\n<p>oddity fraught</p>\n<p><em>never to be touched</em></p>\n<p>caw to core</p>\n<p>broken, distraught</p>\n<p>reminder brought</p>\n<p>fragments in catapult</p>\n<p>burning and worn</p>\n<p>to warn</p>\n<p>it should have been us</p>\n<p>track on stats course</p>\n<p>but he’s god</p>\n<p>oh what a ploy.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 15,
+        "name": "Made of Squiffy Cotton",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_15.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=15",
+        "text": "<p>A hood over a noggin</p>\n<p>with grudge for a dozen</p>\n<p>the portent oldies</p>\n<p>and their cousins</p>\n<p>isn’t free</p>\n<p>not this evening</p>\n<p>he’s gotten busy</p>\n<p>well, apparently</p>\n<p>from insisting</p>\n<p>he has agreed</p>\n<p>like the thieves</p>\n<p>to remain in drip.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 16,
+        "name": "I Hope You Do",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_16.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=16",
+        "text": "<p>Truth be told after</p>\n<p>there is none other</p>\n<p>often ever</p>\n<p>any one heart</p>\n<p>at grasp</p>\n<p>diddling distance</p>\n<p>it’s <em>Leonor</em>.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 17,
+        "name": "Wrote This Last",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_17.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=17",
+        "text": "<p>Why make a turn?</p>\n<p>In the pendulum</p>\n<p>it’s as strummed:</p>\n<p>I love your tongue</p>\n<p>as the shock</p>\n<p>such of a gun</p>\n<p>I want your song</p>\n<p>with the bird on rock</p>\n<p>every front</p>\n<p>to have let it swung</p>\n<p>dear give me hugs</p>\n<p>I'm romantic short</p>\n<p>this day's purport</p>\n<p>“keep it curt</p>\n<p>the poems' defrost”</p>\n<p>‘tis times to your halt</p>\n<p>cos I write for thong</p>\n<p>your butt I draw</p>\n<p>you saw?</p>\n<p>I’ve done for months</p>\n<p>I hope you 're in club</p>\n<p>words as your thought</p>\n<p>I'm never to buck</p>\n<p>how could I, collocutor?</p>\n<p>your handsome slipup</p>\n<p>dreaming me no snot</p>\n<p>shy we could have a son</p>\n<p>oh the club's crop</p>\n<p>please give this once</p>\n<p>I want to say a lot</p>\n<p>I think they'd adopt</p>\n<p>it's the weak seconds</p>\n<p>when you show boredom</p>\n<p>on my screen with colour</p>\n<p>though I’m busy like smock</p>\n<p>your hue is the trouble</p>\n<p>showing I’m having no fun</p>\n<p>fray my eyes to freedom</p>\n<p>naught tops your buttocks</p>\n<p>boy I’ll be your fighter pilot.</p>\n<p> </p>\n<p>Wuss shot</p>\n<p>here a new to report</p>\n<p>this got too long.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 18,
+        "name": "Ears and Else What",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_18.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=18",
+        "text": "<p>A sudden burst</p>\n<p>hatching punk</p>\n<p>hit the doors;</p>\n<p>ears and else what</p>\n<p><em>it’s the conversation</em></p>\n<p>ousting focus</p>\n<p>a far reaching jut</p>\n<p>sound of a coconut</p>\n<p>as a fresh one falls</p>\n<p>the sound dropped</p>\n<p>it wasn’t; as isn’t just</p>\n<p>who heard? I, a pop</p>\n<p>from sprinter’s block</p>\n<p>I set off</p>\n<p>can I tell for sure</p>\n<p>well I found no lunch</p>\n<p>gawd it’d be ludicrous!</p>\n<p>something as amorphous</p>\n<p>“it too picks vibrations”</p>\n<p>it is what I caught</p>\n<p>years ago as a boy</p>\n<p>what else does?</p>\n<p>The skin? Some hunch?</p>\n<p>What did catch the call?</p>\n<p>... unresolved</p>\n<p>as the article; undissolved</p>\n<p>I too have been misinformed</p>\n<p>jokes and blush</p>\n<p>if you tell no one</p>\n<p>So I am dumb.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 19,
+        "name": "Bill and Coo",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_19.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=19",
+        "text": "<p>So I read the text</p>\n<p>days after <em>the bed</em></p>\n<p>it’d engulfed there</p>\n<p>I was lusciously dealt</p>\n<p>covered in balmy pelt</p>\n<p>both voices blended</p>\n<p>dunking in like bread</p>\n<p>fine wine in pipette</p>\n<p>sucking in netiquette</p>\n<p>poetess and hostess.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 20,
+        "name": "Bad Litter",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_20.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=20",
+        "text": "<p>Opposing mirrors</p>\n<p>with no pictures</p>\n<p>angle on torture</p>\n<p>a lost reflection</p>\n<p>rock, paper, scissors?</p>\n<p>Lexicon.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 21,
+        "name": "No Return",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_21.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=21",
+        "text": "<p>An echo, old spoof</p>\n<p>seeking its natal station</p>\n<p>an inadmissible proof</p>\n<p>a plaintiff again in court</p>\n<p>a fairy’s tooth</p>\n<p>in choccy crust</p>\n<p>an artful bamboozle</p>\n<p>boarded, in the carry-on.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 22,
+        "name": "Games",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_22.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=22",
+        "text": "<p>I hit pause</p>\n<p>pore</p>\n<p>over the icon</p>\n<p>glance at my cup</p>\n<p>the steam in disport</p>\n<p>a honey, coffee mixture</p>\n<p>“shared emotions . . . ”</p>\n<p>“I belong”</p>\n<p>in parting thought</p>\n<p>shearing perception</p>\n<p>of</p>\n<p>my bought</p>\n<p>animation;</p>\n<p>its cessation</p>\n<p>It’s been lemon</p>\n<p>to opening shop;</p>\n<p>a Mars pit stop</p>\n<p>but</p>\n<p>this simulation</p>\n<p>the primary bigot</p>\n<p>a gulf by drugs</p>\n<p>in exile, footloose;</p>\n<p>hoot at decorum</p>\n<p>needs a reward</p>\n<p>a level up</p>\n<p>too long</p>\n<p>a bishop.</p>\n<p> </p>\n<p>A gulp</p>\n<p>small</p>\n<p>then action.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 23,
+        "name": "Alas",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_23.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=23",
+        "text": "<p>I found a tuck shop</p>\n<p>a strange stumble</p>\n<p>it shoved no point</p>\n<p>just a bubble gum.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 24,
+        "name": "Funnel",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_24.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=24",
+        "text": "<p>Mixed and mature</p>\n<p>ilk and hiccups</p>\n<p>blicks and ballot.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 25,
+        "name": "High Gunsels",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_25.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=25",
+        "text": "<p>What I found is a line</p>\n<p>joining me to you in rim</p>\n<p>a culpable life twine</p>\n<p>as the length of the wind.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 26,
+        "name": "We Have a Boy",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_26.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=26",
+        "text": "<p>I woke up to grapples</p>\n<p>as my baby eyes were born</p>\n<p>everyone had a question</p>\n<p>what will it put on?</p>\n<p>making me cry like everyone.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 27,
+        "name": "A New Picket’s Cost",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_27.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=27",
+        "text": "<p>I might as well</p>\n<p>give a return fair</p>\n<p>telling who fell</p>\n<p>but it depends</p>\n<p>on two pickets.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 28,
+        "name": "Bam, Bam Cheddar",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_28.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=28",
+        "text": "<p>I’m the kinda guy</p>\n<p>to tell you bye</p>\n<p>a crow’s feet mile</p>\n<p>away in hip style.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 29,
+        "name": "Enemy",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_29.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=29",
+        "text": "<p>It’s your birthday up</p>\n<p>so no holding grumps</p>\n<p>ahem, some detritus</p>\n<p>it is better I’m blunt</p>\n<p>words from a podunk</p>\n<p>from seeing you crush</p>\n<p>as you do, but wrong</p>\n<p>it sure wasn’t London</p>\n<p>poor, you were nervous?</p>\n<p>starting in an eruption</p>\n<p>with the air pompous</p>\n<p>the rave had the clock</p>\n<p>so the afternoon dust</p>\n<p>all was in splendour</p>\n<p>and then you turned</p>\n<p>we all saw your buns</p>\n<p>I was seeing a record</p>\n<p>so you know, I paused</p>\n<p>a new fan to glorious</p>\n<p>ouch, the temptatious</p>\n<p>from memory, audacious</p>\n<p>it’s why you scorched</p>\n<p>right? To tell off</p>\n<p>wearing panties high cut</p>\n<p>or it was the occasion</p>\n<p>you being sanctimonious</p>\n<p>not big there on inclusion.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 30,
+        "name": "A Twinge Pitch",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_30.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=30",
+        "text": "<p>If I was doing fathering</p>\n<p>I’d have some centipedes</p>\n<p>for no other reason</p>\n<p>doing some contemplating</p>\n<p>on how it’s managing</p>\n<p>its awful leg trips.</p>\n<p> </p>\n<p>Once while dining</p>\n<p>it’s when I got the news</p>\n<p><em>it’s awful hard to think</em></p>\n<p>their legs weren’t moving</p>\n<p>but they were standing</p>\n<p>oh, I hope it’s never new</p>\n<p>this thinking</p>\n<p>changing from A to B.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 31,
+        "name": "Darling’s Blue Jeans",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_31.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=31",
+        "text": "<p>I won’t be a loser</p>\n<p>when I hit it tamped</p>\n<p>help you give back</p>\n<p>baby, I’m from Africa</p>\n<p>you should consider.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 32,
+        "name": "No Ricochet Recollection",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_32.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=32",
+        "text": "<p>I’m Hilton, but wean</p>\n<p>black with a tint flint</p>\n<p>I’m the gas stove hissing</p>\n<p>all three verses</p>\n<p>pockets of hounds dissing</p>\n<p>I’m that vividly weeping</p>\n<p>even after your kissing</p>\n<p>nothing here is stringent with</p>\n<p>I’ve those laughs then clip it</p>\n<p>exit</p>\n<p>so don’t cry, I still believe</p>\n<p>someone is out there at peace</p>\n<p>calm by his naivety</p>\n<p>down with the ignorance affixed</p>\n<p>with the tea spoon in, let’s speak</p>\n<p>I have habits.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 33,
+        "name": "Every Pound",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_33.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=33",
+        "text": "<p>I’m convinced you’re bad</p>\n<p>exotic like dished sharks</p>\n<p>never let me see tabs</p>\n<p>smell your panties for that</p>\n<p>sperm whale before the bar.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 34,
+        "name": "Till I bathe In It",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_34.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=34",
+        "text": "<p>Say you, say me</p>\n<p>ever true, ever we</p>\n<p>you had a man</p>\n<p>like a week</p>\n<p>was it the plan</p>\n<p>his member to see?</p>\n<p>I’m sending photos</p>\n<p>I’m playing rondos</p>\n<p>your rump in black</p>\n<p>ever leather strapped.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 35,
+        "name": "Selling a Day",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_35.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=35",
+        "text": "<p>I follow the stars</p>\n<p>their gas for map</p>\n<p>I keep staffs</p>\n<p>not for my back</p>\n<p>but what you are</p>\n<p>is a fight to start.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 36,
+        "name": "Caret in Ink",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_36.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=36",
+        "text": "<p>I’m carried away</p>\n<p>I have to stay</p>\n<p>remain in this place</p>\n<p>with a romantic pace</p>\n<p>nude with grapes</p>\n<p>a shallow man slaked.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 37,
+        "name": "My Gawd, I’m Watched",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_37.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=37",
+        "text": "<p>There was a meeting today</p>\n<p>it’d nothing to do with tapes</p>\n<p>or writing poetry or fame</p>\n<p>but you showed up au fait</p>\n<p>debonair air, but for your aid</p>\n<p>daddy action remote and A.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 38,
+        "name": "To Reach You",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_38.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=38",
+        "text": "<p>Every time, it tickles</p>\n<p>for its state, fickle</p>\n<p>it’s as a nickel</p>\n<p>owning it prickles</p>\n<p>if just an ickle</p>\n<p>I’m down in knuckle.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 39,
+        "name": "Cinderella’s Closet",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_39.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=39",
+        "text": "<p>Songs of the dead</p>\n<p>remind me of the end</p>\n<p>sotto voce to pretend</p>\n<p>there’s nothing withheld.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 40,
+        "name": "Suerte",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_40.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=40",
+        "text": "<p>A reckless steer</p>\n<p>to a flight of stairs</p>\n<p>down a well stirred</p>\n<p>in harmonic tears.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 41,
+        "name": "Terra Incognita",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_41.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=41",
+        "text": "<p>With the mind of another</p>\n<p>tending auspice closer</p>\n<p>I made it to murder.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 42,
+        "name": "The Fustian",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_42.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=42",
+        "text": "<p>Green badges</p>\n<p>spring latching</p>\n<p>fin earnings</p>\n<p>grit hemming.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 43,
+        "name": "Lithium",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_43.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=43",
+        "text": "<p>The starry sky</p>\n<p>isn't leaving</p>\n<p>not tonight</p>\n<p>any evening</p>\n<p>here I’ll bide</p>\n<p>in the galaxy</p>\n<p>ears for eyes</p>\n<p>star listening</p>\n<p>celestial pride</p>\n<p>high heavenly.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 44,
+        "name": "I Met You",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_44.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=44",
+        "text": "<p>Thereafter</p>\n<p>bathing with others</p>\n<p>the soap and lather</p>\n<p>has been the sole drama.</p>"
+      },
+      {
+        "@type": "chapter",
+        "position": 45,
+        "name": "It’s the First Time",
+        "image": "https://www.frithhilton.com.ng/images/share/FHC/6/image_45.png",
+        "url": "https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=45",
+        "text": "<p>The dang aptitude</p>\n<p>her ovum magnitude</p>\n<p>it’s from this storm</p>\n<p>while she is young</p>\n<p>she’s having us crawl</p>\n<p>dupatta her smock</p>\n<p>leaving me extraneous</p>\n<p>if I could only clutch</p>\n<p>at that femme symbol</p>\n<p>I’d give her fruits</p>\n<p>if only she’d choose.</p>"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Acknowledgements",
+        "text": "<p>This collection has arrived through the laborious efforts of some of the best people I know exist, wonderful people in the helm of their affairs daily. The hard grease of King Felipe VI of Spain, Queen Letizia of Spain, Infanta Sofía of Spain, Michelle Obama, Elon Musk, Wes Moore, Stephen King, Lady Gaga, Joe Biden, Kamala Harris, Bola Tinubu, and Mark Zuckerberg. Fine people who inspire.</p>\n"
+      }]
+    }
+  </script>
+  
   <!--===== Google fonts =====-->
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Jost:wght@300;400;500;600;700;800;900&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Jost:wght@300;400;500;600;700;800;900&display=swap" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet" />
- <!-- font-awesome-icons -->
- <script src="https://kit.fontawesome.com/c7fbb1b458.js" crossorigin="anonymous"></script>  
-
+  <!-- font-awesome-icons -->
+  <script src="https://kit.fontawesome.com/c7fbb1b458.js" crossorigin="anonymous"></script>
+  
   <!--===== Global bootstrap required css =====-->
   <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css" />
   <!--===== Global styles including: Font Icons, Plugins, etc =====-->
@@ -90,13 +528,13 @@
   <link rel="stylesheet" href="../../css/magnific-popup/magnific-popup.css" />
   <!--===== Main theme css =====-->
   <link rel="stylesheet" href="../../css/style.css" />
-
+  
 </head>
 
-  <body class="stokes-wrapper" id="ctrlArea" v-cloak>
-    <!--========== 
-	Start of loader ==========-->
-
+<body class="stokes-wrapper" id="ctrlArea" v-cloak>
+  <!--========== 
+        Start of loader ==========-->
+  
   <div class="template-loader">
     <div class="loaderCenter">
       <div class="book">
@@ -109,88 +547,52 @@
       </div>
     </div>
   </div>
-
-    <!--========== 
-	End of loader ==========-->
-
-    <!--========== 
+  
+  <!--========== 
+        End of loader ==========-->
+  
+  <!--========== 
     Start of  cookie modal notification section ==========-->
-    <div class="modal-subscribe">
-      <!-- Modal -->
-      <div
-        class="modal fade"
-        data-bs-backdrop="static"
-        id="myModal"
-        tabindex="-1"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-body p-0 bg-secondary rounded">
-              <div class="p-5 text-center">
-                <img
-                  class="img-fluid px-5"
-                  src="/images/svg/cookie.svg"
-                  alt=""
-                />
-                <h3>Cookies</h3>
-                <p class="text-dark">
-                  <b>Hilton</b> uses cookies to enhance user experience
+  <div class="modal-subscribe">
+    <!-- Modal -->
+    <div class="modal fade" data-bs-backdrop="static" id="myModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body p-0 bg-secondary rounded">
+            <div class="p-5 text-center">
+              <img class="img-fluid px-5" src="/images/svg/cookie.svg" alt="" />
+              <h3>Cookies</h3>
+              <p class="text-dark">
+                <b>Hilton</b> uses cookies to enhance user experience
+              </p>
+              <a href="/cookies.html" class="text-primary-gradient fw-bold">Our policy</a>
+              <div class="d-grid mt-5">
+                <button type="button" class="btn btn-white rounded" data-bs-dismiss="modal" @click="store.acceptCookieUse()">
+                  Accept
+                </button>
+                <p class="text-dark mt-4">
+                  Coupled with
+                  <svg class="logo" viewBox="0 0 128 128" width="24" height="24" data-v-53ccc107="">
+                    <path fill="#42b883" d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z" data-v-53ccc107=""></path>
+                    <path fill="#35495e" d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z" data-v-53ccc107=""></path>
+                  </svg>
+                  <a href="https://github.com/vuejs/petite-vue" target="_blank" style="color: #42b883"><b>petite-vue</b></a>
                 </p>
-                <a href="/cookies.html" class="text-primary-gradient fw-bold"
-                  >Our policy</a
-                >
-                <div class="d-grid mt-5">
-                  <button
-                    type="button"
-                    class="btn btn-white rounded"
-                    data-bs-dismiss="modal"
-                    @click="store.acceptCookieUse()"
-                  >
-                    Accept
-                  </button>
-                  <p class="text-dark mt-4">
-                    Coupled with
-                    <svg
-                      class="logo"
-                      viewBox="0 0 128 128"
-                      width="24"
-                      height="24"
-                      data-v-53ccc107=""
-                    >
-                      <path
-                        fill="#42b883"
-                        d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z"
-                        data-v-53ccc107=""
-                      ></path>
-                      <path
-                        fill="#35495e"
-                        d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z"
-                        data-v-53ccc107=""
-                      ></path>
-                    </svg>
-                    <a
-                      href="https://github.com/vuejs/petite-vue"
-                      target="_blank"
-                      style="color: #42b883"
-                      ><b>petite-vue</b></a
-                    >
-                  </p>
-                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!--========== 
+  </div>
+  <!--========== 
           End of cookie modal notification section ==========-->
-    <!--==========-->
-
-
-
-
-
+  <!--==========-->
+  
+  
+  
+  
+  
   <header class="header">
     <!--===== Start of navbar =====-->
     <nav class="navbar navbar-light navbar-expand-lg navbar-default">
@@ -198,160 +600,24 @@
         <!--===== Start of logo =====-->
         <a class="navbar-brand" href="/"><img class="logo" src="/images/logo.png" alt="Frith Hilton Logo" /></a>
         <!--===== End of logo =====-->
-
-        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-          aria-label="Toggle navigation">
+        
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="icon-bar top-bar mt-0"></span>
           <span class="icon-bar middle-bar"></span>
           <span class="icon-bar bottom-bar"></span>
         </button>
-
+        
         <!--===== Start of nav =====-->
         <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="/"><span class="text-line"> Home </span></a>
-            </li>                       
+            </li>
             <li class="nav-item dropdown active">
               <a @click="store.goToPublished" class="nav-link dropdown-toggle" href="#" id="navbar-pages" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="text-line"> Publications</span>
               </a>
-
-              <!--<ul class="dropdown-menu" aria-labelledby="navbar-pages">
-                <div class="mb-3 mt-3">
-                  <a href="#">
-                    Frith Hilton Collections
-                  </a>
-                </div>
-
-                <li class="dropdown-submenu">
-                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections I — III </span></a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="../published/poetry/collection-I.html"><span class="text-line">
-                          Collection I
-                        </span></a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="../published/poetry/collection-II.html"><span class="text-line">
-                          Collection II
-                        </span></a>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collection III </span></a>
-                      <ul class="dropdown-menu">
-                        <li>
-                          <a class="dropdown-item" href="../published/poetry/collection-III.html"><span class="text-line">
-                              Valentine Edition
-                            </span></a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="../published/poetry/collection-III-ii.html"><span class="text-line">
-                              Original Edition
-                            </span></a>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-                <li class="dropdown-submenu">
-                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections IV — VI </span></a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="../published/poetry/collection-IV.html"><span class="text-line">
-                          Collection IV
-                        </span></a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="../published/poetry/collection-V.html"><span class="text-line">
-                          Collection V
-                        </span></a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="../published/poetry/collection-VI.html"><span class="text-line">
-                          Collection VI
-                        </span></a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="dropdown-submenu">
-                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections VII — IX </span></a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="published/poetry/collection-VII.html"><span class="text-line">
-                          Collection VII
-                        </span></a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="published/poetry/collection-VIII.html"><span class="text-line">
-                          Collection VIII
-                        </span></a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="published/poetry/collection-IX.html"><span class="text-line">
-                          Collection IX
-                        </span></a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="dropdown-submenu">
-                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections X — XII </span></a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="published/poetry/collection-X.html"><span class="text-line">
-                          Collection X
-                        </span></a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="published/poetry/collection-XI.html"><span class="text-line">
-                          Collection XI
-                        </span></a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="published/poetry/collection-XII.html"><span class="text-line">
-                          Collection XII
-                        </span></a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="dropdown-submenu">
-                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections XIII — XIV </span></a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="published/poetry/collection-XIII.html"><span class="text-line">
-                          Collection XIII
-                        </span></a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="published/poetry/collection-XIV.html"><span class="text-line">
-                          Collection XIV
-                        </span><span class="badge bg-primary" style="font-size: 0.55em">New</span></a>
-                    </li>
-                  </ul>
-                </li>
-                <div class="mb-3 mt-3">
-                  <a href="#">
-                    Non-Fiction
-                  </a>
-                </div>
-
-                <li>
-                  <a class="dropdown-item" href="published/poetry/bury-me-in-1965.html"><span class="text-line">
-                      Bury me in 1965
-                    </span></a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="published/journal/a-life-worth-living.html"><span class="text-line">
-                      A Life Worth Living (Vision @ 2020)
-                    </span></a>
-                </li>
-              
-              </ul>-->
             </li>
-            
-            
             <li class="nav-item">
               <a class="nav-link" href="../../pages/upcoming.html"><span class="text-line"> Upcoming Poetry</span></a>
             </li>
@@ -360,7 +626,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../../pages/who-is-frith-hilton.html"><span class="text-line"> Who is Frith Hilton? </span></a>
-            </li>            
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="../../cookies.html"><span class="text-line"> Cookies Policy </span></a>
             </li>
@@ -371,24 +637,24 @@
     </nav>
     <!--===== End of navbar =====-->
   </header>
-
+  
   <!--========== 
         End of header ==========-->
-
+  
   <!--========== 
         End of Sidebar ==========-->
   <section class="position-relative slice-ptb">
-          <div class="mb-0">
-          <a id="designer" href="https://leondev.com.ng" target="_blank" v-if="store.checkLocation()">
-            <img class="img-fluid" src="../../images/ads/designedBySamsungS8.png" alt="">
-          </a>
-          </div>
+    <div class="mb-0">
+      <a id="designer" href="https://leondev.com.ng" target="_blank" v-if="store.checkLocation()">
+        <img class="img-fluid" src="../../images/ads/designedBySamsungS8.png" alt="">
+      </a>
+    </div>
   </section>
   <section class="position-relative slice-ptb">
     <div class="top-separator">
       <img class="img-fluid" src="../../images/separator/brush.svg" alt="" />
     </div>
-      <div class="slice-ptb mt-n5">
+    <div class="slice-ptb mt-n5">
       <div class="container">
         <div class="row text-center justify-content-center">
           <div class="col-lg-9 col-xl-8">
@@ -404,12 +670,12 @@
           </div>
         </div>
       </div>
-    </div>    
+    </div>
     <div class="bottom-divider mt-n5">
       <img class="img-fluid" :src="'../../images/separator/brush.svg'" alt="" />
     </div>
   </section>
-
+  
   <section class="position-relative slice-ptb">
     <div class="container">
       <button class="btn btn-naked btn-icon-right" href="#!" v-effect="if
@@ -419,42 +685,32 @@
         <div class="col-12">
           <ul class="nav nav-pills nav-border-wide justify-content-center mb-3" id="pills-tab-07" role="tablist">
             <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="pills-trekking-tab" data-bs-toggle="pill"
-                data-bs-target="#pills-trekking" type="button" role="tab" aria-controls="pills-trekking"
-                aria-selected="true" @click="store.setCoverVIAsTab()">
+              <button class="nav-link active" id="pills-trekking-tab" data-bs-toggle="pill" data-bs-target="#pills-trekking" type="button" role="tab" aria-controls="pills-trekking" aria-selected="true" @click="store.setCoverVIAsTab()">
                 Cover
               </button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-analysis-tab" data-bs-toggle="pill" data-bs-target="#pills-analysis"
-                type="button" role="tab" aria-controls="pills-analysis" aria-selected="false"
-                @click="store.setAuthorVIAsTab()">
+              <button class="nav-link" id="pills-analysis-tab" data-bs-toggle="pill" data-bs-target="#pills-analysis" type="button" role="tab" aria-controls="pills-analysis" aria-selected="false" @click="store.setAuthorVIAsTab()">
                 Author's Note
               </button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-investment-management-11-tab" data-bs-toggle="pill"
-                data-bs-target="#pills-investment-management-11" type="button" role="tab"
-                aria-controls="pills-investment-management-11" aria-selected="false" @click="store.setDedVIAsTab()">
+              <button class="nav-link" id="pills-investment-management-11-tab" data-bs-toggle="pill" data-bs-target="#pills-investment-management-11" type="button" role="tab" aria-controls="pills-investment-management-11" aria-selected="false" @click="store.setDedVIAsTab()">
                 Dedication & Acknowledgements
               </button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-integration-tab" data-bs-toggle="pill"
-                data-bs-target="#pills-integration" type="button" role="tab" aria-controls="pills-integration"
-                aria-selected="false" @click="store.setChaptersVIAsTab()">
+              <button class="nav-link" id="pills-integration-tab" data-bs-toggle="pill" data-bs-target="#pills-integration" type="button" role="tab" aria-controls="pills-integration" aria-selected="false" @click="store.setChaptersVIAsTab()">
                 Chapters
               </button>
             </li>
           </ul>
           <div class="tab-content mt-5" id="pills-tabContent-07">
-            <div class="tab-pane fade show active" id="pills-trekking" role="tabpanel"
-              aria-labelledby="pills-trekking-tab">
+            <div class="tab-pane fade show active" id="pills-trekking" role="tabpanel" aria-labelledby="pills-trekking-tab">
               <div class="row">
                 <div class="col-lg-6">
-                  <img class="img-fluid" src="/images/collections/vi/cover.jpg"
-                    alt="Frith Hilton Collection VI" />
-                    <hr class="my-5" />
+                  <img class="img-fluid" src="/images/collections/vi/cover.jpg" alt="Frith Hilton Collection VI" />
+                  <hr class="my-5" />
                 </div>
               </div>
             </div>
@@ -480,10 +736,10 @@
               <hr class="my-5" />
             </div>
             <div class="tab-pane fade" id="pills-integration" role="tabpanel" aria-labelledby="pills-integration-tab">
-
+              
               <div class="row justify-content-center">
                 <div class="col-lg-6">
-
+                  
                   <hr class="my-5" />
                   <!--========== 
           Beginning of chapter titles ==========-->
@@ -501,7 +757,7 @@
                         <h5 class="mt-3">{{title}}</h5>
                         <span v-show="store.currentChapter == index" class="title-separator"></span>
                       </div>
-
+                      
                       <!--===== End of Title =====-->
                       <hr class="my-4" />
                     </div>
@@ -519,12 +775,12 @@
                         <span class="hedding-svg">{{store.pageResources().convertIndex(store.currentChapter)}}</span>
                       </h2>
                       <h5>{{store.chapterTitle}}</h5>
-
+                      
                       <div v-html="store.getChapterContent()" class="mt-4 me-4 ms-4"></div>
                     </div>
                     <!--===== End of Title =====-->
                     <hr class="my-5" />
-
+                    
                     <!--===== Go back  =====-->
                     <div class="col-lg-3 col-sm-6">
                       <p @click="store.goBack()" class="btn btn-naked-wrap go-back-btn">
@@ -534,51 +790,50 @@
                     </div>
                     <!--===== End Go back  =====-->
                   </div>
-
+                  
                   <!--========== 
           End of chapter content ==========-->
                 </div>
               </div>
             </div>
           </div>
-                              <div class="mt-5 mb-5">
-          <a id="ad2" href="#ad2">
-            <img class="img-fluid" src="../../images/bg/bg5.jpg" alt="">
-          </a>
+          <div class="mt-5 mb-5">
+            <a id="ad2" href="#ad2">
+              <img class="img-fluid" src="../../images/bg/bg5.jpg" alt="">
+            </a>
           </div>
-
+          
         </div>
       </div>
     </div>
   </section>
-
-
-
-
-
-    <!--========== 
+  
+  
+  
+  
+  
+  <!--========== 
   Start of bottom page  ==========-->
-
+  
   <section class="py-5 bg-pink-gradient">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 text-center">
           <h3 class="text-white" id="some-id">
             I'm here
-            <u class="typer text-warning" data-words="writing,making music," data-delay="100" data-deletedelay="1000"
-              style="color: black"></u>
+            <u class="typer text-warning" data-words="writing,making music," data-delay="100" data-deletedelay="1000" style="color: black"></u>
             often.
           </h3>
         </div>
       </div>
     </div>
   </section>
-
+  
   <!--========== 
   End of bottom page  ==========-->
-
   
-
+  
+  
   <footer class="footer">
     <div class="container">
       <div class="row">
@@ -590,7 +845,7 @@
       </div>
     </div>
   </footer>
-
+  
   <footer class="footer bg-black slice-pt">
     <div class="container">
       <div class="row">
@@ -599,14 +854,14 @@
             <span class="typer text-white" id="some-id" data-words="Catch up!" data-delay="100">
             </span>
           </h2>
-
+          
           <div class="social-icons icons-xl mt-5">
             <a class="icon text-white" href="https://youtube.com/@frithhilton17?si=8pEsa1wf1KxLNvBK" target="_blank">
               <i class="fab fa-youtube"></i>
             </a>
             <a class="icon text-white" href="https://www.tiktok.com/@frithhilton17" target="_blank">
               <i class="fab fa-tiktok"></i>
-            </a>            
+            </a>
             <a class="icon text-white" href="https://www.twitter.com/frithhilton17" target="_blank">
               <i class="fab fa-x-twitter"></i>
             </a>
@@ -619,9 +874,9 @@
       <hr class="mt-7" />
       <div class="row text-center">
         <div class="col-12">
-<div class="developer-footer mb-2">
-    <a href="https://leondev.com.ng" target="_blank"><img src="/images/Leondev.png" alt="lEoNDɘv" width="80" height="80"></a>  
-</div>                            
+          <div class="developer-footer mb-2">
+            <a href="https://leondev.com.ng" target="_blank"><img src="/images/Leondev.png" alt="lEoNDɘv" width="80" height="80"></a>
+          </div>
           <p class="text-white mt-3 mb-4">
             © <span id="getFullYear"></span>
             <span class="text-pink-gradient">Howard Frith Hilton</span>
@@ -630,44 +885,990 @@
       </div>
     </div>
   </footer>
-
+  
   <!--========== 
   End of footer section ==========-->
-
+  
   <!--========== 
         Start of back to top section ==========-->
-
+  
   <div class="go-top">
     <p class="go-top-text">
       Scroll to top <i class="fas fa-long-arrow-alt-right ps-2"></i>
     </p>
   </div>
-
+  
   <!--========== 
-	End of back to top section ==========-->	                      <div class="col-lg-3 col-sm-6">                        <p                          @click="window.location.href='../search.html'"                          class="btn btn-naked-wrap search-btn"                        >                          <i class="fas fa-search"></i>                          <span> search </span>                        </p>                      </div> 
+        End of back to top section ==========-->
+  <div class="col-lg-3 col-sm-6">
+    <p @click="window.location.href='../search.html'" class="btn btn-naked-wrap search-btn"> <i class="fas fa-search"></i> <span> search </span> </p>
+  </div>
+  
+  
+  <div class="visually-hidden">
+    <!-- Table of Contents -->
+    <nav aria-label="Table of Contents">
+      <ul>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=1">All Factory</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=2">Model Versions</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=3">Can I?</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=4">Bad Listener</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=5">To Compromise</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=6">Baggy heart</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=7">A High Old Time</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=8">Thunder Son</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=9">Shooting Star Daddy</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=10">Junkie Mood</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=11">The Rush at the Theatre</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=12">He’s Glad</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=13">I Think She Knows</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=14">Prime Mover</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=15">Made of Squiffy Cotton</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=16">I Hope You Do</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=17">Wrote This Last</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=18">Ears and Else What</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=19">Bill and Coo</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=20">Bad Litter</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=21">No Return</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=22">Games</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=23">Alas</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=24">Funnel</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=25">High Gunsels</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=26">We Have a Boy</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=27">A New Picket’s Cost</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=28">Bam, Bam Cheddar</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=29">Enemy</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=30">A Twinge Pitch</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=31">Darling’s Blue Jeans</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=32">No Ricochet Recollection</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=33">Every Pound</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=34">Till I bathe In It</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=35">Selling a Day</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=36">Caret in Ink</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=37">My Gawd, I’m Watched</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=38">To Reach You</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=39">Cinderella’s Closet</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=40">Suerte</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=41">Terra Incognita</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=42">The Fustian</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=43">Lithium</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=44">I Met You</a></li>
+        <li><a href="https://www.frithhilton.com.ng/published/poetry/collection-VI.html?query=45">It’s the First Time</a></li>
+      </ul>
+    </nav>
+    
+    <section class="dedication" aria-label="Dedication">
+      <h2>Dedication</h2>
+      <div>
+        <p>Leonor, Princess of Asturias</p>
+      </div>
+    </section>
+    <section class="foreword" aria-label="Foreword">
+      <h2>Foreword</h2>
+      <div>
+        <p>There is a giant cloud somewhere that contains all the poems I will ever write, here are another forty-five of them. Nothing here is furtive, but to rhyme to forty didn’t seem cool. At forty-five, it felt like a well put together piece; a mission accomplished. I present these poems to you, thanks to all my enablers especially my dad, <i>Richard Hilton, Kendall Jenner, Mariam Rod, Taylor Swift, Charli XCX, Kelsy Karter,</i> and <i>Carmella Rose</i>. If you believe it is a crowded house, don’t dream it is over.</p>
+        <p>I will be giving up coffee, alcohol, and being a trick. When Collection VII arrives, I will be a whole lot cleaner, as there isn’t a thing tenderer than meeting a princess. </p>
+      </div>
+    </section>
+    
+    <!-- Chapters -->
+    
+    <section class="chapter" aria-label="All Factory">
+      <h2>All Factory</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_1.png" alt="Illustration for All Factory">
+      <div>
+        <p>Fern-like friends</p>
+        <p>air-fret trends</p>
+        <p>smelling blends</p>
+        <p>shed skin left.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Model Versions">
+      <h2>Model Versions</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_2.png" alt="Illustration for Model Versions">
+      <div>
+        <p>Picking up my pen</p>
+        <p>is nothing to help</p>
+        <p> </p>
+        <p>flacks of paleness</p>
+        <p> </p>
+        <p>as if suddenly deaf</p>
+        <p>I saw a girl’s dress</p>
+        <p>it seemed to suggest</p>
+        <p> </p>
+        <p>I could be the best</p>
+        <p>but without mirth.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Can I?">
+      <h2>Can I?</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_3.png" alt="Illustration for Can I?">
+      <div>
+        <p>Do I? I seek</p>
+        <p> </p>
+        <p>. . . gainly get angry</p>
+        <p> </p>
+        <p>do I like the ante</p>
+        <p>room of culturati </p>
+        <p> </p>
+        <p>sigh bereft guesses</p>
+        <p> </p>
+        <p>rhyme by rhyme by habit</p>
+        <p>accomplishing five after forty.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Bad Listener">
+      <h2>Bad Listener</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_4.png" alt="Illustration for Bad Listener">
+      <div>
+        <p>My draperies have no place to stay</p>
+        <p>then it’s awful meandering that I wait</p>
+        <p>the chockfull line sneezes in grace</p>
+        <p>flaunting the wealth of the air again</p>
+        <p>groping my thoughts in wanderer’s pace.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="To Compromise">
+      <h2>To Compromise</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_5.png" alt="Illustration for To Compromise">
+      <div>
+        <p>Can’t tell the difference</p>
+        <p>attest to the weekend</p>
+        <p>affairs of the day’s spread</p>
+        <p>breadth in measurement</p>
+        <p>what’s meant, felt as length</p>
+        <p>inspected, nothing to reject.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Baggy heart">
+      <h2>Baggy heart</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_6.png" alt="Illustration for Baggy heart">
+      <div>
+        <p>Blotter mutter</p>
+        <p>like a heavy daughter</p>
+        <p>suture, lot tad.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="A High Old Time">
+      <h2>A High Old Time</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_7.png" alt="Illustration for A High Old Time">
+      <div>
+        <p>I don’t know how I feel</p>
+        <p>despondence at the heel</p>
+        <p>in remission to believing</p>
+        <p>allaying who you’d see.</p>
+        <p> </p>
+        <p>But I do not agree</p>
+        <p>not just yet, this flint.</p>
+        <p> </p>
+        <p>Have I never seen</p>
+        <p>never even responsibilities</p>
+        <p>it’s how it is</p>
+        <p>quim</p>
+        <p>I’ll own this healing</p>
+        <p>so let’s go be.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Thunder Son">
+      <h2>Thunder Son</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_8.png" alt="Illustration for Thunder Son">
+      <div>
+        <p>As a kid I felt the vibration</p>
+        <p>I still do, as its choler is still on</p>
+        <p>grumbling, it bangs its tabletop</p>
+        <p>I’m not sure if he’s got a mum</p>
+        <p>cos he cries, as if cursing god.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Shooting Star Daddy">
+      <h2>Shooting Star Daddy</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_9.png" alt="Illustration for Shooting Star Daddy">
+      <div>
+        <p>Electricity and habits</p>
+        <p>romance and magic</p>
+        <p>say a riddle, quick!</p>
+        <p>why do the electrons flee?</p>
+        <p>because “they” have the switch</p>
+        <p>so you don’t pay the fees?</p>
+        <p>no, it is their plaything</p>
+        <p>at times it itches</p>
+        <p>so they go clicking</p>
+        <p>letting me in on secrets</p>
+        <p>like my favourite films</p>
+        <p>and overrated soap scenes</p>
+        <p>but as a teen</p>
+        <p>something in me grew</p>
+        <p>my imagination rebelled the streets</p>
+        <p>out, it could be dark, but not in me</p>
+        <p>because I had music and weed</p>
+        <p>shooting star, Owl City</p>
+        <p>now it’s ever shiny</p>
+        <p>I’m like a daddy</p>
+        <p>keeping the electrons living.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Junkie Mood">
+      <h2>Junkie Mood</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_10.png" alt="Illustration for Junkie Mood">
+      <div>
+        <p>My droop</p>
+        <p>was she poops</p>
+        <p>my heathen stoop</p>
+        <p>by my high loupe.</p>
+        <p> </p>
+        <p>Forgive me who</p>
+        <p>I’m new to Hollywood.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="The Rush at the Theatre">
+      <h2>The Rush at the Theatre</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_11.png" alt="Illustration for The Rush at the Theatre">
+      <div>
+        <p>The queue is long</p>
+        <p>we all know the actor</p>
+        <p>years of boredom</p>
+        <p>his scripts slumped</p>
+        <p>then this rebuff;</p>
+        <p>he is reborn.</p>
+        <p> </p>
+        <p>From the trailer’s effort</p>
+        <p>he’s going down a bomb</p>
+        <p>I’m at the best stop</p>
+        <p>here is the town’s crowd</p>
+        <p>flowing and far-flung</p>
+        <p>a convincing fandom</p>
+        <p>or friends in crawl.</p>
+        <p> </p>
+        <p>September, August</p>
+        <p>July is the month</p>
+        <p>then I come</p>
+        <p>October, a baby is born</p>
+        <p>last day of the clop</p>
+        <p>five months along</p>
+        <p>mirror numbers, additions</p>
+        <p>you’ll see the connection</p>
+        <p>he’s mum’s screen idol</p>
+        <p>she’s a queen in his world</p>
+        <p>I’m a princess and I belong</p>
+        <p>I just got my first job</p>
+        <p>so this ticket I bought.</p>
+        <p> </p>
+        <p>A light touch brings focus</p>
+        <p>showing my thought’s usurp</p>
+        <p>dad sold me these words</p>
+        <p>interests come with kingdoms</p>
+        <p>So I’m glad I own this manor.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="He’s Glad">
+      <h2>He’s Glad</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_12.png" alt="Illustration for He’s Glad">
+      <div>
+        <p> Somewhere in the world </p>
+        <p> there is a man, once a boy </p>
+        <p> of age becoming like adults </p>
+        <p> a time comes </p>
+        <p> they say once </p>
+        <p> the ink rouses the author </p>
+        <p> the fruit burst </p>
+        <p> maybe a melon </p>
+        <p> he meets a girl of honour </p>
+        <p> theirs is instant love </p>
+        <p> can’t tell, maybe not </p>
+        <p> but there is a yacht, a port </p>
+        <p> and he should moor </p>
+        <p> he could want something more </p>
+        <p> but he pulls a dot </p>
+        <p> he’s tied the knot </p>
+        <p> if you see his desktop </p>
+        <p> he’s got just one icon </p>
+        <p> he said bye to the toms. </p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="I Think She Knows">
+      <h2>I Think She Knows</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_13.png" alt="Illustration for I Think She Knows">
+      <div>
+        <p>These digits</p>
+        <p>could beat</p>
+        <p>kick</p>
+        <p>they’re moonwalking</p>
+        <p>and they grip</p>
+        <p>keep</p>
+        <p>holding</p>
+        <p>even in greed</p>
+        <p>they’re the deal</p>
+        <p>now it’s pointing</p>
+        <p>her, she</p>
+        <p><i>Taylor Swift</i></p>
+        <p>heeding</p>
+        <p>to any</p>
+        <p>whom see</p>
+        <p>paper rings</p>
+        <p>fingers hooking</p>
+        <p>at least</p>
+        <p>it seems</p>
+        <p>maybe</p>
+        <p>a team</p>
+        <p>they feel</p>
+        <p>I agree</p>
+        <p>I’m owning</p>
+        <p>even in poetry</p>
+        <p>in bevy</p>
+        <p>first dedicatee</p>
+        <p>I do, doing</p>
+        <p>right, me</p>
+        <p>to love as sweet.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Prime Mover">
+      <h2>Prime Mover</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_14.png" alt="Illustration for Prime Mover">
+      <div>
+        <p>At times I have no buts</p>
+        <p>but hurts</p>
+        <p>giving tongue</p>
+        <p>door up to hurts</p>
+        <p>read my mind’s blurb</p>
+        <p>the words to trust</p>
+        <p>oddity fraught</p>
+        <p><em>never to be touched</em></p>
+        <p>caw to core</p>
+        <p>broken, distraught</p>
+        <p>reminder brought</p>
+        <p>fragments in catapult</p>
+        <p>burning and worn</p>
+        <p>to warn</p>
+        <p>it should have been us</p>
+        <p>track on stats course</p>
+        <p>but he’s god</p>
+        <p>oh what a ploy.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Made of Squiffy Cotton">
+      <h2>Made of Squiffy Cotton</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_15.png" alt="Illustration for Made of Squiffy Cotton">
+      <div>
+        <p>A hood over a noggin</p>
+        <p>with grudge for a dozen</p>
+        <p>the portent oldies</p>
+        <p>and their cousins</p>
+        <p>isn’t free</p>
+        <p>not this evening</p>
+        <p>he’s gotten busy</p>
+        <p>well, apparently</p>
+        <p>from insisting</p>
+        <p>he has agreed</p>
+        <p>like the thieves</p>
+        <p>to remain in drip.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="I Hope You Do">
+      <h2>I Hope You Do</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_16.png" alt="Illustration for I Hope You Do">
+      <div>
+        <p>Truth be told after</p>
+        <p>there is none other</p>
+        <p>often ever</p>
+        <p>any one heart</p>
+        <p>at grasp</p>
+        <p>diddling distance</p>
+        <p>it’s <em>Leonor</em>.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Wrote This Last">
+      <h2>Wrote This Last</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_17.png" alt="Illustration for Wrote This Last">
+      <div>
+        <p>Why make a turn?</p>
+        <p>In the pendulum</p>
+        <p>it’s as strummed:</p>
+        <p>I love your tongue</p>
+        <p>as the shock</p>
+        <p>such of a gun</p>
+        <p>I want your song</p>
+        <p>with the bird on rock</p>
+        <p>every front</p>
+        <p>to have let it swung</p>
+        <p>dear give me hugs</p>
+        <p>I'm romantic short</p>
+        <p>this day's purport</p>
+        <p>“keep it curt</p>
+        <p>the poems' defrost”</p>
+        <p>‘tis times to your halt</p>
+        <p>cos I write for thong</p>
+        <p>your butt I draw</p>
+        <p>you saw?</p>
+        <p>I’ve done for months</p>
+        <p>I hope you 're in club</p>
+        <p>words as your thought</p>
+        <p>I'm never to buck</p>
+        <p>how could I, collocutor?</p>
+        <p>your handsome slipup</p>
+        <p>dreaming me no snot</p>
+        <p>shy we could have a son</p>
+        <p>oh the club's crop</p>
+        <p>please give this once</p>
+        <p>I want to say a lot</p>
+        <p>I think they'd adopt</p>
+        <p>it's the weak seconds</p>
+        <p>when you show boredom</p>
+        <p>on my screen with colour</p>
+        <p>though I’m busy like smock</p>
+        <p>your hue is the trouble</p>
+        <p>showing I’m having no fun</p>
+        <p>fray my eyes to freedom</p>
+        <p>naught tops your buttocks</p>
+        <p>boy I’ll be your fighter pilot.</p>
+        <p> </p>
+        <p>Wuss shot</p>
+        <p>here a new to report</p>
+        <p>this got too long.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Ears and Else What">
+      <h2>Ears and Else What</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_18.png" alt="Illustration for Ears and Else What">
+      <div>
+        <p>A sudden burst</p>
+        <p>hatching punk</p>
+        <p>hit the doors;</p>
+        <p>ears and else what</p>
+        <p><em>it’s the conversation</em></p>
+        <p>ousting focus</p>
+        <p>a far reaching jut</p>
+        <p>sound of a coconut</p>
+        <p>as a fresh one falls</p>
+        <p>the sound dropped</p>
+        <p>it wasn’t; as isn’t just</p>
+        <p>who heard? I, a pop</p>
+        <p>from sprinter’s block</p>
+        <p>I set off</p>
+        <p>can I tell for sure</p>
+        <p>well I found no lunch</p>
+        <p>gawd it’d be ludicrous!</p>
+        <p>something as amorphous</p>
+        <p>“it too picks vibrations”</p>
+        <p>it is what I caught</p>
+        <p>years ago as a boy</p>
+        <p>what else does?</p>
+        <p>The skin? Some hunch?</p>
+        <p>What did catch the call?</p>
+        <p>... unresolved</p>
+        <p>as the article; undissolved</p>
+        <p>I too have been misinformed</p>
+        <p>jokes and blush</p>
+        <p>if you tell no one</p>
+        <p>So I am dumb.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Bill and Coo">
+      <h2>Bill and Coo</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_19.png" alt="Illustration for Bill and Coo">
+      <div>
+        <p>So I read the text</p>
+        <p>days after <em>the bed</em></p>
+        <p>it’d engulfed there</p>
+        <p>I was lusciously dealt</p>
+        <p>covered in balmy pelt</p>
+        <p>both voices blended</p>
+        <p>dunking in like bread</p>
+        <p>fine wine in pipette</p>
+        <p>sucking in netiquette</p>
+        <p>poetess and hostess.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Bad Litter">
+      <h2>Bad Litter</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_20.png" alt="Illustration for Bad Litter">
+      <div>
+        <p>Opposing mirrors</p>
+        <p>with no pictures</p>
+        <p>angle on torture</p>
+        <p>a lost reflection</p>
+        <p>rock, paper, scissors?</p>
+        <p>Lexicon.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="No Return">
+      <h2>No Return</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_21.png" alt="Illustration for No Return">
+      <div>
+        <p>An echo, old spoof</p>
+        <p>seeking its natal station</p>
+        <p>an inadmissible proof</p>
+        <p>a plaintiff again in court</p>
+        <p>a fairy’s tooth</p>
+        <p>in choccy crust</p>
+        <p>an artful bamboozle</p>
+        <p>boarded, in the carry-on.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Games">
+      <h2>Games</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_22.png" alt="Illustration for Games">
+      <div>
+        <p>I hit pause</p>
+        <p>pore</p>
+        <p>over the icon</p>
+        <p>glance at my cup</p>
+        <p>the steam in disport</p>
+        <p>a honey, coffee mixture</p>
+        <p>“shared emotions . . . ”</p>
+        <p>“I belong”</p>
+        <p>in parting thought</p>
+        <p>shearing perception</p>
+        <p>of</p>
+        <p>my bought</p>
+        <p>animation;</p>
+        <p>its cessation</p>
+        <p>It’s been lemon</p>
+        <p>to opening shop;</p>
+        <p>a Mars pit stop</p>
+        <p>but</p>
+        <p>this simulation</p>
+        <p>the primary bigot</p>
+        <p>a gulf by drugs</p>
+        <p>in exile, footloose;</p>
+        <p>hoot at decorum</p>
+        <p>needs a reward</p>
+        <p>a level up</p>
+        <p>too long</p>
+        <p>a bishop.</p>
+        <p> </p>
+        <p>A gulp</p>
+        <p>small</p>
+        <p>then action.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Alas">
+      <h2>Alas</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_23.png" alt="Illustration for Alas">
+      <div>
+        <p>I found a tuck shop</p>
+        <p>a strange stumble</p>
+        <p>it shoved no point</p>
+        <p>just a bubble gum.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Funnel">
+      <h2>Funnel</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_24.png" alt="Illustration for Funnel">
+      <div>
+        <p>Mixed and mature</p>
+        <p>ilk and hiccups</p>
+        <p>blicks and ballot.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="High Gunsels">
+      <h2>High Gunsels</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_25.png" alt="Illustration for High Gunsels">
+      <div>
+        <p>What I found is a line</p>
+        <p>joining me to you in rim</p>
+        <p>a culpable life twine</p>
+        <p>as the length of the wind.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="We Have a Boy">
+      <h2>We Have a Boy</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_26.png" alt="Illustration for We Have a Boy">
+      <div>
+        <p>I woke up to grapples</p>
+        <p>as my baby eyes were born</p>
+        <p>everyone had a question</p>
+        <p>what will it put on?</p>
+        <p>making me cry like everyone.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="A New Picket’s Cost">
+      <h2>A New Picket’s Cost</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_27.png" alt="Illustration for A New Picket’s Cost">
+      <div>
+        <p>I might as well</p>
+        <p>give a return fair</p>
+        <p>telling who fell</p>
+        <p>but it depends</p>
+        <p>on two pickets.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Bam, Bam Cheddar">
+      <h2>Bam, Bam Cheddar</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_28.png" alt="Illustration for Bam, Bam Cheddar">
+      <div>
+        <p>I’m the kinda guy</p>
+        <p>to tell you bye</p>
+        <p>a crow’s feet mile</p>
+        <p>away in hip style.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Enemy">
+      <h2>Enemy</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_29.png" alt="Illustration for Enemy">
+      <div>
+        <p>It’s your birthday up</p>
+        <p>so no holding grumps</p>
+        <p>ahem, some detritus</p>
+        <p>it is better I’m blunt</p>
+        <p>words from a podunk</p>
+        <p>from seeing you crush</p>
+        <p>as you do, but wrong</p>
+        <p>it sure wasn’t London</p>
+        <p>poor, you were nervous?</p>
+        <p>starting in an eruption</p>
+        <p>with the air pompous</p>
+        <p>the rave had the clock</p>
+        <p>so the afternoon dust</p>
+        <p>all was in splendour</p>
+        <p>and then you turned</p>
+        <p>we all saw your buns</p>
+        <p>I was seeing a record</p>
+        <p>so you know, I paused</p>
+        <p>a new fan to glorious</p>
+        <p>ouch, the temptatious</p>
+        <p>from memory, audacious</p>
+        <p>it’s why you scorched</p>
+        <p>right? To tell off</p>
+        <p>wearing panties high cut</p>
+        <p>or it was the occasion</p>
+        <p>you being sanctimonious</p>
+        <p>not big there on inclusion.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="A Twinge Pitch">
+      <h2>A Twinge Pitch</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_30.png" alt="Illustration for A Twinge Pitch">
+      <div>
+        <p>If I was doing fathering</p>
+        <p>I’d have some centipedes</p>
+        <p>for no other reason</p>
+        <p>doing some contemplating</p>
+        <p>on how it’s managing</p>
+        <p>its awful leg trips.</p>
+        <p> </p>
+        <p>Once while dining</p>
+        <p>it’s when I got the news</p>
+        <p><em>it’s awful hard to think</em></p>
+        <p>their legs weren’t moving</p>
+        <p>but they were standing</p>
+        <p>oh, I hope it’s never new</p>
+        <p>this thinking</p>
+        <p>changing from A to B.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Darling’s Blue Jeans">
+      <h2>Darling’s Blue Jeans</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_31.png" alt="Illustration for Darling’s Blue Jeans">
+      <div>
+        <p>I won’t be a loser</p>
+        <p>when I hit it tamped</p>
+        <p>help you give back</p>
+        <p>baby, I’m from Africa</p>
+        <p>you should consider.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="No Ricochet Recollection">
+      <h2>No Ricochet Recollection</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_32.png" alt="Illustration for No Ricochet Recollection">
+      <div>
+        <p>I’m Hilton, but wean</p>
+        <p>black with a tint flint</p>
+        <p>I’m the gas stove hissing</p>
+        <p>all three verses</p>
+        <p>pockets of hounds dissing</p>
+        <p>I’m that vividly weeping</p>
+        <p>even after your kissing</p>
+        <p>nothing here is stringent with</p>
+        <p>I’ve those laughs then clip it</p>
+        <p>exit</p>
+        <p>so don’t cry, I still believe</p>
+        <p>someone is out there at peace</p>
+        <p>calm by his naivety</p>
+        <p>down with the ignorance affixed</p>
+        <p>with the tea spoon in, let’s speak</p>
+        <p>I have habits.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Every Pound">
+      <h2>Every Pound</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_33.png" alt="Illustration for Every Pound">
+      <div>
+        <p>I’m convinced you’re bad</p>
+        <p>exotic like dished sharks</p>
+        <p>never let me see tabs</p>
+        <p>smell your panties for that</p>
+        <p>sperm whale before the bar.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Till I bathe In It">
+      <h2>Till I bathe In It</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_34.png" alt="Illustration for Till I bathe In It">
+      <div>
+        <p>Say you, say me</p>
+        <p>ever true, ever we</p>
+        <p>you had a man</p>
+        <p>like a week</p>
+        <p>was it the plan</p>
+        <p>his member to see?</p>
+        <p>I’m sending photos</p>
+        <p>I’m playing rondos</p>
+        <p>your rump in black</p>
+        <p>ever leather strapped.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Selling a Day">
+      <h2>Selling a Day</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_35.png" alt="Illustration for Selling a Day">
+      <div>
+        <p>I follow the stars</p>
+        <p>their gas for map</p>
+        <p>I keep staffs</p>
+        <p>not for my back</p>
+        <p>but what you are</p>
+        <p>is a fight to start.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Caret in Ink">
+      <h2>Caret in Ink</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_36.png" alt="Illustration for Caret in Ink">
+      <div>
+        <p>I’m carried away</p>
+        <p>I have to stay</p>
+        <p>remain in this place</p>
+        <p>with a romantic pace</p>
+        <p>nude with grapes</p>
+        <p>a shallow man slaked.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="My Gawd, I’m Watched">
+      <h2>My Gawd, I’m Watched</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_37.png" alt="Illustration for My Gawd, I’m Watched">
+      <div>
+        <p>There was a meeting today</p>
+        <p>it’d nothing to do with tapes</p>
+        <p>or writing poetry or fame</p>
+        <p>but you showed up au fait</p>
+        <p>debonair air, but for your aid</p>
+        <p>daddy action remote and A.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="To Reach You">
+      <h2>To Reach You</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_38.png" alt="Illustration for To Reach You">
+      <div>
+        <p>Every time, it tickles</p>
+        <p>for its state, fickle</p>
+        <p>it’s as a nickel</p>
+        <p>owning it prickles</p>
+        <p>if just an ickle</p>
+        <p>I’m down in knuckle.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Cinderella’s Closet">
+      <h2>Cinderella’s Closet</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_39.png" alt="Illustration for Cinderella’s Closet">
+      <div>
+        <p>Songs of the dead</p>
+        <p>remind me of the end</p>
+        <p>sotto voce to pretend</p>
+        <p>there’s nothing withheld.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Suerte">
+      <h2>Suerte</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_40.png" alt="Illustration for Suerte">
+      <div>
+        <p>A reckless steer</p>
+        <p>to a flight of stairs</p>
+        <p>down a well stirred</p>
+        <p>in harmonic tears.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Terra Incognita">
+      <h2>Terra Incognita</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_41.png" alt="Illustration for Terra Incognita">
+      <div>
+        <p>With the mind of another</p>
+        <p>tending auspice closer</p>
+        <p>I made it to murder.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="The Fustian">
+      <h2>The Fustian</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_42.png" alt="Illustration for The Fustian">
+      <div>
+        <p>Green badges</p>
+        <p>spring latching</p>
+        <p>fin earnings</p>
+        <p>grit hemming.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="Lithium">
+      <h2>Lithium</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_43.png" alt="Illustration for Lithium">
+      <div>
+        <p>The starry sky</p>
+        <p>isn't leaving</p>
+        <p>not tonight</p>
+        <p>any evening</p>
+        <p>here I’ll bide</p>
+        <p>in the galaxy</p>
+        <p>ears for eyes</p>
+        <p>star listening</p>
+        <p>celestial pride</p>
+        <p>high heavenly.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="I Met You">
+      <h2>I Met You</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_44.png" alt="Illustration for I Met You">
+      <div>
+        <p>Thereafter</p>
+        <p>bathing with others</p>
+        <p>the soap and lather</p>
+        <p>has been the sole drama.</p>
+      </div>
+    </section>
+    
+    
+    <section class="chapter" aria-label="It’s the First Time">
+      <h2>It’s the First Time</h2>
+      <img src="https://www.frithhilton.com.ng/images/share/FHC/6/image_45.png" alt="Illustration for It’s the First Time">
+      <div>
+        <p>The dang aptitude</p>
+        <p>her ovum magnitude</p>
+        <p>it’s from this storm</p>
+        <p>while she is young</p>
+        <p>she’s having us crawl</p>
+        <p>dupatta her smock</p>
+        <p>leaving me extraneous</p>
+        <p>if I could only clutch</p>
+        <p>at that femme symbol</p>
+        <p>I’d give her fruits</p>
+        <p>if only she’d choose.</p>
+      </div>
+    </section>
+    
+    
+    
+    <section class="acknowledgements" aria-label="Acknowledgements">
+      <h2>Acknowledgements</h2>
+      <div>
+        <p>This collection has arrived through the laborious efforts of some of the best people I know exist, wonderful people in the helm of their affairs daily. The hard grease of King Felipe VI of Spain, Queen Letizia of Spain, Infanta Sofía of Spain, Michelle Obama, Elon Musk, Wes Moore, Stephen King, Lady Gaga, Joe Biden, Kamala Harris, Bola Tinubu, and Mark Zuckerberg. Fine people who inspire.</p>
+      </div>
+    </section>
+  </div>
+  
+  
+  
   <!--========== 
-	Start of Javascript ==========-->
-
+        Start of Javascript ==========-->
+  
   <!--===== Global required js =====-->
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   <script src="../../js/jquery-3.6.0.min.js"></script>
   <script src="../../js/popper.min.js"></script>
   <script src="../../js/bootstrap/bootstrap.min.js"></script>
-
+  
   <!--===== Global script: js libraries and plugins =====-->
   <script src="../../js/appear/jquery.appear.js"></script>
   <script src="../../js/swiper/swiper.min.js"></script>
   <script src="../../js/magnific-popup/jquery.magnific-popup.min.js"></script>
   <script src="../../js/isotope/isotope.pkgd.min.js"></script>
-  <script src="../../js/typer/typer.js"></script>     <script src="../../js/firewall.js"></script>
+  <script src="../../js/typer/typer.js"></script>
+  <script src="../../js/firewall.js"></script>
   <script src="../../js/jarallax/jarallax.min.js"></script>
   <script src="../../js/mCustomScrollbar/jquery.mCustomScrollbar.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/numbered/1.1.0/index.min.js"
-    integrity="sha512-UQKbSOyUPIxk4a5/TIcqKUfl2JX0b1Rgq16BgvZbIWa7g5g3Rl/RXzFJFt2iu9LzDUpqDbcaak2ifjW887SxPw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/numbered/1.1.0/index.min.js" integrity="sha512-UQKbSOyUPIxk4a5/TIcqKUfl2JX0b1Rgq16BgvZbIWa7g5g3Rl/RXzFJFt2iu9LzDUpqDbcaak2ifjW887SxPw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="../../js/collection-VI.js"></script>
   <script>
-    window.fbAsyncInit = function () {
+    window.fbAsyncInit = function() {
       FB.init({
         appId: "1292503991685432",
         autoLogAppEvents: true,
@@ -677,7 +1878,7 @@
     };
   </script>
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
-
+  
   <!--===== Main theme script =====-->
   <script type="module">
     import {
@@ -685,7 +1886,8 @@
       reactive
     } from "../../js/petite-vue.js";
     const store = reactive({
-IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage.getItem('accessAllowed')); return this.IPAccess; },
+      IPAccess: false,
+      checkLocation() { this.IPAccess = JSON.parse(localStorage.getItem('accessAllowed')); return this.IPAccess; },
       currentURL: "/published/poetry/collection-VI.html",
       staticPoemURL: "",
       poemURL: "",
@@ -726,7 +1928,7 @@ IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage
           this.decodePoemURL();
           this.getCurrentChapter();
           const state = "poetry";
-
+          
           return state;
         } else {
           localStorage.setItem("viewVI", this.initialPageState.viewVI);
@@ -750,58 +1952,58 @@ IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage
       pageResources() {
         return {
           dedication: `<p class="text-center">To <strong style="color: #010521"> Leonor, Princess of Asturias. </strong></p>`,
-          acknowledgements: `<p>         This collection has arrived through the laborious efforts of some of the best people I know exist, wonderful people in the helm of their affairs daily. The hard grease of King Felipe VI of Spain, Queen Letizia of Spain, Infanta Sofía of Spain, Michelle Obama, Elon Musk, Wes Moore, Stephen King, Lady Gaga, Joe Biden, Kamala Harris, Bola Tinubu, and Mark Zuckerberg. Fine people who inspire.</p>`,
+          acknowledgements: `<p>         This collection has arrived through the laborious efforts of some of the best people I know exist, wonderful people in the helm of their affairs daily. The hard grease of King Felipe VI of Spain, Queen Letizia of Spain, Infanta Sofía of Spain, Michelle Obama, Elon Musk, Wes Moore, Stephen King, Lady Gaga, Joe Biden, Kamala Harris, Bola Tinubu, and Mark Zuckerberg. Fine people who inspire.</p>`,
           authorsNote: [
             `<span class="dropcap text-dark">T</span><p>here is a giant cloud somewhere that contains all the poems I will ever write, here are another forty-five of them. Nothing here is furtive, but to rhyme to forty didn’t seem cool. At forty-five, it felt like a well put together piece; a mission accomplished. I present these poems to you, thanks to all my enablers especially my dad, <i>Richard Hilton</i>, <i>Kendall Jenner</i>, <i>Mariam Rod</i>, <i>Taylor Swift</i>, <i>Charli XCX</i>, <i>Kelsy Karter</i>, and <i>Carmella Rose</i>. If you believe it is a crowded house, don’t dream it is over.</p>
-            <p>         I will be giving up coffee, alcohol, and being a trick. When Collection VII arrives, I will be a whole lot cleaner, as there isn’t a thing tenderer than meeting a princess.</p>`,
+            <p>         I will be giving up coffee, alcohol, and being a trick. When Collection VII arrives, I will be a whole lot cleaner, as there isn’t a thing tenderer than meeting a princess.</p>`,
           ],
           chapterTitles: [
             "0",
-"All Factory",
-"Model Versions",
-"Can I?",
-"Bad Listener",
-"To Compromise",
-"Baggy heart",
-"A High Old Time",
-"Thunder Son",
-"Shooting Star Daddy",
-"Junkie Mood",
-"The Rush at the Theatre",
-"He’s Glad",
-"I Think She Knows",
-"Prime Mover",
-"Made of Squiffy Cotton",
-"I Hope You Do",
-"Wrote This Last",
-"Ears and Else What",
-"Bill and Coo",
-"Bad Litter",
-"No Return",
-"Games",
-"Alas",
-"Funnel",
-"High Gunsels",
-"We Have a Boy",
-"A New Picket’s Cost",
-"Bam, Bam Cheddar",
-"Enemy",
-"A Twinge Pitch",
-"Darling’s Blue Jeans",
-"No Ricochet Recollection",
-"Every Pound",
-"Till I bathe In It",
-"Selling a Day",
-"Caret in Ink",
-"My Gawd, I’m Watched",
-"To Reach You",
-"Cinderella’s Closet",
-"Suerte",
-"Terra Incognita",
-"The Fustian",
-"Lithium",
-"I Met You",
-"It’s the First Time",
+            "All Factory",
+            "Model Versions",
+            "Can I?",
+            "Bad Listener",
+            "To Compromise",
+            "Baggy heart",
+            "A High Old Time",
+            "Thunder Son",
+            "Shooting Star Daddy",
+            "Junkie Mood",
+            "The Rush at the Theatre",
+            "He’s Glad",
+            "I Think She Knows",
+            "Prime Mover",
+            "Made of Squiffy Cotton",
+            "I Hope You Do",
+            "Wrote This Last",
+            "Ears and Else What",
+            "Bill and Coo",
+            "Bad Litter",
+            "No Return",
+            "Games",
+            "Alas",
+            "Funnel",
+            "High Gunsels",
+            "We Have a Boy",
+            "A New Picket’s Cost",
+            "Bam, Bam Cheddar",
+            "Enemy",
+            "A Twinge Pitch",
+            "Darling’s Blue Jeans",
+            "No Ricochet Recollection",
+            "Every Pound",
+            "Till I bathe In It",
+            "Selling a Day",
+            "Caret in Ink",
+            "My Gawd, I’m Watched",
+            "To Reach You",
+            "Cinderella’s Closet",
+            "Suerte",
+            "Terra Incognita",
+            "The Fustian",
+            "Lithium",
+            "I Met You",
+            "It’s the First Time",
           ],
           chapters: [
             `0`,
@@ -809,62 +2011,62 @@ IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage
 <p>air-fret trends</p>
 <p>smelling blends</p>
 <p>shed skin left.</p>`,
-`<p>Picking up my pen</p>
+            `<p>Picking up my pen</p>
 <p>is nothing to help</p>
-<p> </p>
+<p> </p>
 <p>flacks of paleness</p>
-<p> </p>
+<p> </p>
 <p>as if suddenly deaf</p>
 <p>I saw a girl’s dress</p>
 <p>it seemed to suggest</p>
-<p> </p>
+<p> </p>
 <p>I could be the best</p>
 <p>but without mirth.</p>`,
-`<p>Do I? I seek</p>
-<p> </p>
+            `<p>Do I? I seek</p>
+<p> </p>
 <p>. . . gainly get angry</p>
-<p> </p>
+<p> </p>
 <p>do I like the ante</p>
-<p>room of culturati </p>
-<p> </p>
+<p>room of culturati </p>
+<p> </p>
 <p>sigh bereft guesses</p>
-<p> </p>
+<p> </p>
 <p>rhyme by rhyme by habit</p>
-<p>accomplishing five after forty.</p>`, 
-`<p>My draperies have no place to stay</p>
+<p>accomplishing five after forty.</p>`,
+            `<p>My draperies have no place to stay</p>
 <p>then it’s awful meandering that I wait</p>
 <p>the chockfull line sneezes in grace</p>
 <p>flaunting the wealth of the air again</p>
-<p>groping my thoughts in wanderer’s pace.</p>`, 
-`<p>Can’t tell the difference</p>
+<p>groping my thoughts in wanderer’s pace.</p>`,
+            `<p>Can’t tell the difference</p>
 <p>attest to the weekend</p>
 <p>affairs of the day’s spread</p>
 <p>breadth in measurement</p>
 <p>what’s meant, felt as length</p>
-<p>inspected, nothing to reject.</p>`, 
-`<p>Blotter mutter</p>
+<p>inspected, nothing to reject.</p>`,
+            `<p>Blotter mutter</p>
 <p>like a heavy daughter</p>
-<p>suture, lot tad.</p>`, 
-`<p>I don’t know how I feel</p>
+<p>suture, lot tad.</p>`,
+            `<p>I don’t know how I feel</p>
 <p>despondence at the heel</p>
 <p>in remission to believing</p>
 <p>allaying who you’d see.</p>
-<p> </p>
+<p> </p>
 <p>But I do not agree</p>
 <p>not just yet, this flint.</p>
-<p> </p>
+<p> </p>
 <p>Have I never seen</p>
 <p>never even responsibilities</p>
 <p>it’s how it is</p>
 <p>quim</p>
 <p>I’ll own this healing</p>
-<p>so let’s go be.</p>`, 
-`<p>As a kid I felt the vibration</p>
+<p>so let’s go be.</p>`,
+            `<p>As a kid I felt the vibration</p>
 <p>I still do, as its choler is still on</p>
 <p>grumbling, it bangs its tabletop</p>
 <p>I’m not sure if he’s got a mum</p>
-<p>cos he cries, as if cursing god.</p>`, 
-`<p>Electricity and habits</p>
+<p>cos he cries, as if cursing god.</p>`,
+            `<p>Electricity and habits</p>
 <p>romance and magic</p>
 <p>say a riddle, quick!</p>
 <p>why do the electrons flee?</p>
@@ -884,21 +2086,21 @@ IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage
 <p>shooting star, Owl City</p>
 <p>now it’s ever shiny</p>
 <p>I’m like a daddy</p>
-<p>keeping the electrons living.</p>`, 
-`<p>My droop</p>
+<p>keeping the electrons living.</p>`,
+            `<p>My droop</p>
 <p>was she poops</p>
 <p>my heathen stoop</p>
 <p>by my high loupe.</p>
-<p> </p>
+<p> </p>
 <p>Forgive me who</p>
-<p>I’m new to Hollywood.</p>`, 
-`<p>The queue is long</p>
+<p>I’m new to Hollywood.</p>`,
+            `<p>The queue is long</p>
 <p>we all know the actor</p>
 <p>years of boredom</p>
 <p>his scripts slumped</p>
 <p>then this rebuff;</p>
 <p>he is reborn.</p>
-<p> </p>
+<p> </p>
 <p>From the trailer’s effort</p>
 <p>he’s going down a bomb</p>
 <p>I’m at the best stop</p>
@@ -906,7 +2108,7 @@ IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage
 <p>flowing and far-flung</p>
 <p>a convincing fandom</p>
 <p>or friends in crawl.</p>
-<p> </p>
+<p> </p>
 <p>September, August</p>
 <p>July is the month</p>
 <p>then I come</p>
@@ -920,13 +2122,13 @@ IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage
 <p>I’m a princess and I belong</p>
 <p>I just got my first job</p>
 <p>so this ticket I bought.</p>
-<p> </p>
+<p> </p>
 <p>A light touch brings focus</p>
 <p>showing my thought’s usurp</p>
 <p>dad sold me these words</p>
 <p>interests come with kingdoms</p>
-<p>So I’m glad I own this manor.</p>`, 
-`<p> Somewhere in the world </p>
+<p>So I’m glad I own this manor.</p>`,
+            `<p> Somewhere in the world </p>
 <p> there is a man, once a boy </p>
 <p> of age becoming like adults </p>
 <p> a time comes </p>
@@ -944,8 +2146,8 @@ IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage
 <p> he’s tied the knot </p>
 <p> if you see his desktop </p>
 <p> he’s got just one icon </p>
-<p> he said bye to the toms. </p>`, 
-`<p>These digits</p>
+<p> he said bye to the toms. </p>`,
+            `<p>These digits</p>
 <p>could beat</p>
 <p>kick</p>
 <p>they’re moonwalking</p>
@@ -974,8 +2176,8 @@ IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage
 <p>first dedicatee</p>
 <p>I do, doing</p>
 <p>right, me</p>
-<p>to love as sweet.</p>`, 
-`<p>At times I have no buts</p>
+<p>to love as sweet.</p>`,
+            `<p>At times I have no buts</p>
 <p>but hurts</p>
 <p>giving tongue</p>
 <p>door up to hurts</p>
@@ -992,8 +2194,8 @@ IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage
 <p>it should have been us</p>
 <p>track on stats course</p>
 <p>but he’s god</p>
-<p>oh what a ploy.</p>`, 
-`<p>A hood over a noggin</p>
+<p>oh what a ploy.</p>`,
+            `<p>A hood over a noggin</p>
 <p>with grudge for a dozen</p>
 <p>the portent oldies</p>
 <p>and their cousins</p>
@@ -1004,15 +2206,15 @@ IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage
 <p>from insisting</p>
 <p>he has agreed</p>
 <p>like the thieves</p>
-<p>to remain in drip.</p>`, 
-`<p>Truth be told after</p>
+<p>to remain in drip.</p>`,
+            `<p>Truth be told after</p>
 <p>there is none other</p>
 <p>often ever</p>
 <p>any one heart</p>
 <p>at grasp</p>
 <p>diddling distance</p>
-<p>it’s <em>Leonor</em>.</p>`, 
-`<p>Why make a turn?</p>
+<p>it’s <em>Leonor</em>.</p>`,
+            `<p>Why make a turn?</p>
 <p>In the pendulum</p>
 <p>it’s as strummed:</p>
 <p>I love your tongue</p>
@@ -1052,11 +2254,11 @@ IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage
 <p>fray my eyes to freedom</p>
 <p>naught tops your buttocks</p>
 <p>boy I’ll be your fighter pilot.</p>
-<p> </p>
+<p> </p>
 <p>Wuss shot</p>
 <p>here a new to report</p>
-<p>this got too long.</p>`, 
-`<p>A sudden burst</p>
+<p>this got too long.</p>`,
+            `<p>A sudden burst</p>
 <p>hatching punk</p>
 <p>hit the doors;</p>
 <p>ears and else what</p>
@@ -1085,8 +2287,8 @@ IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage
 <p>I too have been misinformed</p>
 <p>jokes and blush</p>
 <p>if you tell no one</p>
-<p>So I am dumb.</p>`, 
-`<p>So I read the text</p>
+<p>So I am dumb.</p>`,
+            `<p>So I read the text</p>
 <p>days after <em>the bed</em></p>
 <p>it’d engulfed there</p>
 <p>I was lusciously dealt</p>
@@ -1095,22 +2297,22 @@ IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage
 <p>dunking in like bread</p>
 <p>fine wine in pipette</p>
 <p>sucking in netiquette</p>
-<p>poetess and hostess.</p>`, 
-`<p>Opposing mirrors</p>
+<p>poetess and hostess.</p>`,
+            `<p>Opposing mirrors</p>
 <p>with no pictures</p>
 <p>angle on torture</p>
 <p>a lost reflection</p>
 <p>rock, paper, scissors?</p>
-<p>Lexicon.</p>`, 
-`<p>An echo, old spoof</p>
+<p>Lexicon.</p>`,
+            `<p>An echo, old spoof</p>
 <p>seeking its natal station</p>
 <p>an inadmissible proof</p>
 <p>a plaintiff again in court</p>
 <p>a fairy’s tooth</p>
 <p>in choccy crust</p>
 <p>an artful bamboozle</p>
-<p>boarded, in the carry-on.</p>`, 
-`<p>I hit pause</p>
+<p>boarded, in the carry-on.</p>`,
+            `<p>I hit pause</p>
 <p>pore</p>
 <p>over the icon</p>
 <p>glance at my cup</p>
@@ -1137,36 +2339,36 @@ IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage
 <p>a level up</p>
 <p>too long</p>
 <p>a bishop.</p>
-<p> </p>
+<p> </p>
 <p>A gulp</p>
 <p>small</p>
-<p>then action.</p>`, 
-`<p>I found a tuck shop</p>
+<p>then action.</p>`,
+            `<p>I found a tuck shop</p>
 <p>a strange stumble</p>
 <p>it shoved no point</p>
-<p>just a bubble gum.</p>`, 
-`<p>Mixed and mature</p>
+<p>just a bubble gum.</p>`,
+            `<p>Mixed and mature</p>
 <p>ilk and hiccups</p>
-<p>blicks and ballot.</p>`, 
-`<p>What I found is a line</p>
+<p>blicks and ballot.</p>`,
+            `<p>What I found is a line</p>
 <p>joining me to you in rim</p>
 <p>a culpable life twine</p>
-<p>as the length of the wind.</p>`, 
-`<p>I woke up to grapples</p>
+<p>as the length of the wind.</p>`,
+            `<p>I woke up to grapples</p>
 <p>as my baby eyes were born</p>
 <p>everyone had a question</p>
 <p>what will it put on?</p>
-<p>making me cry like everyone.</p>`, 
-`<p>I might as well</p>
+<p>making me cry like everyone.</p>`,
+            `<p>I might as well</p>
 <p>give a return fair</p>
 <p>telling who fell</p>
 <p>but it depends</p>
-<p>on two pickets.</p>`, 
-`<p>I’m the kinda guy</p>
+<p>on two pickets.</p>`,
+            `<p>I’m the kinda guy</p>
 <p>to tell you bye</p>
 <p>a crow’s feet mile</p>
-<p>away in hip style.</p>`, 
-`<p>It’s your birthday up</p>
+<p>away in hip style.</p>`,
+            `<p>It’s your birthday up</p>
 <p>so no holding grumps</p>
 <p>ahem, some detritus</p>
 <p>it is better I’m blunt</p>
@@ -1192,14 +2394,14 @@ IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage
 <p>wearing panties high cut</p>
 <p>or it was the occasion</p>
 <p>you being sanctimonious</p>
-<p>not big there on inclusion.</p>`, 
-`<p>If I was doing fathering</p>
+<p>not big there on inclusion.</p>`,
+            `<p>If I was doing fathering</p>
 <p>I’d have some centipedes</p>
 <p>for no other reason</p>
 <p>doing some contemplating</p>
 <p>on how it’s managing</p>
 <p>its awful leg trips.</p>
-<p> </p>
+<p> </p>
 <p>Once while dining</p>
 <p>it’s when I got the news</p>
 <p><em>it’s awful hard to think</em></p>
@@ -1207,13 +2409,13 @@ IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage
 <p>but they were standing</p>
 <p>oh, I hope it’s never new</p>
 <p>this thinking</p>
-<p>changing from A to B.</p>`, 
-`<p>I won’t be a loser</p>
+<p>changing from A to B.</p>`,
+            `<p>I won’t be a loser</p>
 <p>when I hit it tamped</p>
 <p>help you give back</p>
 <p>baby, I’m from Africa</p>
-<p>you should consider.</p>`, 
-`<p>I’m Hilton, but wean</p>
+<p>you should consider.</p>`,
+            `<p>I’m Hilton, but wean</p>
 <p>black with a tint flint</p>
 <p>I’m the gas stove hissing</p>
 <p>all three verses</p>
@@ -1228,13 +2430,13 @@ IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage
 <p>calm by his naivety</p>
 <p>down with the ignorance affixed</p>
 <p>with the tea spoon in, let’s speak</p>
-<p>I have habits.</p>`, 
-`<p>I’m convinced you’re bad</p>
+<p>I have habits.</p>`,
+            `<p>I’m convinced you’re bad</p>
 <p>exotic like dished sharks</p>
 <p>never let me see tabs</p>
 <p>smell your panties for that</p>
-<p>sperm whale before the bar.</p>`, 
-`<p>Say you, say me</p>
+<p>sperm whale before the bar.</p>`,
+            `<p>Say you, say me</p>
 <p>ever true, ever we</p>
 <p>you had a man</p>
 <p>like a week</p>
@@ -1243,47 +2445,47 @@ IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage
 <p>I’m sending photos</p>
 <p>I’m playing rondos</p>
 <p>your rump in black</p>
-<p>ever leather strapped.</p>`, 
-`<p>I follow the stars</p>
+<p>ever leather strapped.</p>`,
+            `<p>I follow the stars</p>
 <p>their gas for map</p>
 <p>I keep staffs</p>
 <p>not for my back</p>
 <p>but what you are</p>
-<p>is a fight to start.</p>`, 
-`<p>I’m carried away</p>
+<p>is a fight to start.</p>`,
+            `<p>I’m carried away</p>
 <p>I have to stay</p>
 <p>remain in this place</p>
 <p>with a romantic pace</p>
 <p>nude with grapes</p>
-<p>a shallow man slaked.</p>`, 
-`<p>There was a meeting today</p>
+<p>a shallow man slaked.</p>`,
+            `<p>There was a meeting today</p>
 <p>it’d nothing to do with tapes</p>
 <p>or writing poetry or fame</p>
 <p>but you showed up au fait</p>
 <p>debonair air, but for your aid</p>
-<p>daddy action remote and A.</p>`, 
-`<p>Every time, it tickles</p>
+<p>daddy action remote and A.</p>`,
+            `<p>Every time, it tickles</p>
 <p>for its state, fickle</p>
 <p>it’s as a nickel</p>
 <p>owning it prickles</p>
 <p>if just an ickle</p>
-<p>I’m down in knuckle.</p>`, 
-`<p>Songs of the dead</p>
+<p>I’m down in knuckle.</p>`,
+            `<p>Songs of the dead</p>
 <p>remind me of the end</p>
 <p>sotto voce to pretend</p>
-<p>there’s nothing withheld.</p>`, 
-`<p>A reckless steer</p>
+<p>there’s nothing withheld.</p>`,
+            `<p>A reckless steer</p>
 <p>to a flight of stairs</p>
 <p>down a well stirred</p>
-<p>in harmonic tears.</p>`, 
-`<p>With the mind of another</p>
+<p>in harmonic tears.</p>`,
+            `<p>With the mind of another</p>
 <p>tending auspice closer</p>
-<p>I made it to murder.</p>`, 
-`<p>Green badges</p>
+<p>I made it to murder.</p>`,
+            `<p>Green badges</p>
 <p>spring latching</p>
 <p>fin earnings</p>
-<p>grit hemming.</p>`, 
-`<p>The starry sky</p>
+<p>grit hemming.</p>`,
+            `<p>The starry sky</p>
 <p>isn't leaving</p>
 <p>not tonight</p>
 <p>any evening</p>
@@ -1292,12 +2494,12 @@ IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage
 <p>ears for eyes</p>
 <p>star listening</p>
 <p>celestial pride</p>
-<p>high heavenly.</p>`, 
-`<p>Thereafter</p>
+<p>high heavenly.</p>`,
+            `<p>Thereafter</p>
 <p>bathing with others</p>
 <p>the soap and lather</p>
-<p>has been the sole drama.</p>`, 
-`<p>The dang aptitude</p>
+<p>has been the sole drama.</p>`,
+            `<p>The dang aptitude</p>
 <p>her ovum magnitude</p>
 <p>it’s from this storm</p>
 <p>while she is young</p>
@@ -1307,16 +2509,16 @@ IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage
 <p>if I could only clutch</p>
 <p>at that femme symbol</p>
 <p>I’d give her fruits</p>
-<p>if only she’d choose.</p>`, 
-
-
-
-
-
-
-
-
-
+<p>if only she’d choose.</p>`,
+            
+            
+            
+            
+            
+            
+            
+            
+            
             
             
             
@@ -1378,7 +2580,7 @@ IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage
             method: "share",
             href: this.staticPoemURL,
           },
-          function (response) {}
+          function(response) {}
         );
       },
       copyURL() {
@@ -1456,18 +2658,18 @@ IPAccess: false,       checkLocation() { this.IPAccess = JSON.parse(localStorage
           ".html";
         this.staticPoemURL = shareURL;
       },
-   goToPublished() {
-      window.location.href = '../books.html';
-    }
+      goToPublished() {
+        window.location.href = '../books.html';
+      }
       
     });
-
+    
     createApp({
       store,
     }).mount("#ctrlArea");
   </script>
   <!--========== 
-	End of Javascript ==========-->
+        End of Javascript ==========-->
 </body>
 
 </html>
