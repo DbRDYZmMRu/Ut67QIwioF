@@ -28,6 +28,7 @@ const adsMiddle = [
   { img: '../images/ads/KhyXDilaraAd.gif', link: 'https://khy.com/', displayTime: 6500 },
   { img: '../images/ads/kyliecosmeticsHybridI.gif', link: 'http://kyliecosmetics.com/', displayTime: 6500 },
   { img: '../images/ads/kyliecosmeticsHybridII.gif', link: 'http://kyliecosmetics.com/', displayTime: 9000 },
+  { img: '../images/ads/RenneJune11.gif', link: 'https://www.estellaco.co/?fbclid=PAZXh0bgNhZW0CMTEAAaeovaITzRO_X6U138m8o8I9gp6T3SufTa0Yd1i0FtWkjLR3uJTBEvvBrrMNiw_aem_GVqF1qFhX7LRFZAgi0D6yA', displayTime: 10000 }
 ];
 
 
