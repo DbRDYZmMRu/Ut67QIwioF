@@ -1,0 +1,130 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "The selling line this month:",
+      "startTime": 5.691936,
+      "endTime": 9.079657,
+      "words": [
+        {
+          "id": 1,
+          "text": "The",
+          "startTime": 5.691936,
+          "endTime": 7.351177
+        },
+        {
+          "id": 2,
+          "text": "selling",
+          "startTime": 7.351177,
+          "endTime": 7.68505
+        },
+        {
+          "id": 3,
+          "text": "line",
+          "startTime": 7.68505,
+          "endTime": 8.015469
+        },
+        {
+          "id": 4,
+          "text": "this",
+          "startTime": 8.015469,
+          "endTime": 8.414672
+        },
+        {
+          "id": 5,
+          "text": "month:",
+          "startTime": 8.414672,
+          "endTime": 9.079657
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "give your heartbeat a munch",
+      "startTime": 9.079657,
+      "endTime": 12.466456,
+      "words": [
+        {
+          "id": 6,
+          "text": "give",
+          "startTime": 9.079657,
+          "endTime": 10.540679
+        },
+        {
+          "id": 7,
+          "text": "your",
+          "startTime": 10.540679,
+          "endTime": 10.737423
+        },
+        {
+          "id": 8,
+          "text": "heartbeat",
+          "startTime": 10.737423,
+          "endTime": 11.403154
+        },
+        {
+          "id": 9,
+          "text": "a",
+          "startTime": 11.403154,
+          "endTime": 11.535085
+        },
+        {
+          "id": 10,
+          "text": "munch",
+          "startTime": 11.535085,
+          "endTime": 12.466456
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "it's simple, get out of your rut.",
+      "startTime": 12.466456,
+      "endTime": 18.783206,
+      "words": [
+        {
+          "id": 11,
+          "text": "it's",
+          "startTime": 12.466456,
+          "endTime": 13.926888
+        },
+        {
+          "id": 12,
+          "text": "simple,",
+          "startTime": 13.926888,
+          "endTime": 14.790424
+        },
+        {
+          "id": 13,
+          "text": "get",
+          "startTime": 14.790424,
+          "endTime": 16.251392
+        },
+        {
+          "id": 14,
+          "text": "out",
+          "startTime": 16.251392,
+          "endTime": 16.383073
+        },
+        {
+          "id": 15,
+          "text": "of",
+          "startTime": 16.383073,
+          "endTime": 16.581922
+        },
+        {
+          "id": 16,
+          "text": "your",
+          "startTime": 16.581922,
+          "endTime": 16.783206
+        },
+        {
+          "id": 17,
+          "text": "rut.",
+          "startTime": 16.783206,
+          "endTime": 18.783206
+        }
+      ]
+    }
+  ]
+}

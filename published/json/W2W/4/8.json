@@ -1,0 +1,68 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "With much thoughts sardined",
+      "startTime": 6.38877,
+      "endTime": 10.975581,
+      "words": [
+        {
+          "id": 1,
+          "text": "With",
+          "startTime": 6.38877,
+          "endTime": 8.650179
+        },
+        {
+          "id": 2,
+          "text": "much",
+          "startTime": 8.650179,
+          "endTime": 8.981548
+        },
+        {
+          "id": 3,
+          "text": "thoughts",
+          "startTime": 8.981548,
+          "endTime": 9.513982
+        },
+        {
+          "id": 4,
+          "text": "sardined",
+          "startTime": 9.513982,
+          "endTime": 10.975581
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "resting spoofed ringing dins. ",
+      "startTime": 10.975581,
+      "endTime": 16.825158000000002,
+      "words": [
+        {
+          "id": 5,
+          "text": "resting",
+          "startTime": 10.975581,
+          "endTime": 13.166781
+        },
+        {
+          "id": 6,
+          "text": "spoofed",
+          "startTime": 13.166781,
+          "endTime": 13.830298
+        },
+        {
+          "id": 7,
+          "text": "ringing",
+          "startTime": 13.830298,
+          "endTime": 14.825158
+        },
+        {
+          "id": 8,
+          "text": "dins.",
+          "startTime": 14.825158,
+          "endTime": 16.825158000000002
+        }
+      ]
+    }
+  ]
+}

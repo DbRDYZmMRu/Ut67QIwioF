@@ -1,0 +1,210 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Drinks at my table on a night select",
+      "startTime": 4.950603,
+      "endTime": 9.864306,
+      "words": [
+        {
+          "id": 1,
+          "text": "Drinks",
+          "startTime": 4.950603,
+          "endTime": 6.810698
+        },
+        {
+          "id": 2,
+          "text": "at",
+          "startTime": 6.810698,
+          "endTime": 7.008727
+        },
+        {
+          "id": 3,
+          "text": "my",
+          "startTime": 7.008727,
+          "endTime": 7.209913
+        },
+        {
+          "id": 4,
+          "text": "table",
+          "startTime": 7.209913,
+          "endTime": 7.87319
+        },
+        {
+          "id": 5,
+          "text": "on",
+          "startTime": 7.87319,
+          "endTime": 8.53696
+        },
+        {
+          "id": 6,
+          "text": "a",
+          "startTime": 8.53696,
+          "endTime": 8.603195
+        },
+        {
+          "id": 7,
+          "text": "night",
+          "startTime": 8.603195,
+          "endTime": 9.003055
+        },
+        {
+          "id": 8,
+          "text": "select",
+          "startTime": 9.003055,
+          "endTime": 9.864306
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "the burden shows like a ball belted",
+      "startTime": 9.864306,
+      "endTime": 15.243481,
+      "words": [
+        {
+          "id": 9,
+          "text": "the",
+          "startTime": 9.864306,
+          "endTime": 11.525714
+        },
+        {
+          "id": 10,
+          "text": "burden",
+          "startTime": 11.525714,
+          "endTime": 11.923972
+        },
+        {
+          "id": 11,
+          "text": "shows",
+          "startTime": 11.923972,
+          "endTime": 12.654926
+        },
+        {
+          "id": 12,
+          "text": "like",
+          "startTime": 12.654926,
+          "endTime": 13.717391
+        },
+        {
+          "id": 13,
+          "text": "a",
+          "startTime": 13.717391,
+          "endTime": 13.849373
+        },
+        {
+          "id": 14,
+          "text": "ball",
+          "startTime": 13.849373,
+          "endTime": 14.247538
+        },
+        {
+          "id": 15,
+          "text": "belted",
+          "startTime": 14.247538,
+          "endTime": 15.243481
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "every burr faraway withered learned ",
+      "startTime": 15.243481,
+      "endTime": 21.153221,
+      "words": [
+        {
+          "id": 16,
+          "text": "every",
+          "startTime": 15.243481,
+          "endTime": 17.30125
+        },
+        {
+          "id": 17,
+          "text": "burr",
+          "startTime": 17.30125,
+          "endTime": 17.834387
+        },
+        {
+          "id": 18,
+          "text": "faraway",
+          "startTime": 17.834387,
+          "endTime": 18.764103
+        },
+        {
+          "id": 19,
+          "text": "withered",
+          "startTime": 18.764103,
+          "endTime": 20.225377
+        },
+        {
+          "id": 20,
+          "text": "learned",
+          "startTime": 20.225377,
+          "endTime": 21.153221
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "just as I'm about to, as a table friend.",
+      "startTime": 21.153221,
+      "endTime": 27.735429,
+      "words": [
+        {
+          "id": 21,
+          "text": "just",
+          "startTime": 21.153221,
+          "endTime": 22.616291
+        },
+        {
+          "id": 22,
+          "text": "as",
+          "startTime": 22.616291,
+          "endTime": 23.080629
+        },
+        {
+          "id": 23,
+          "text": "I'm",
+          "startTime": 23.080629,
+          "endTime": 23.278727
+        },
+        {
+          "id": 24,
+          "text": "about",
+          "startTime": 23.278727,
+          "endTime": 23.610955
+        },
+        {
+          "id": 25,
+          "text": "to,",
+          "startTime": 23.610955,
+          "endTime": 24.342106
+        },
+        {
+          "id": 26,
+          "text": "as",
+          "startTime": 24.342106,
+          "endTime": 25.203922
+        },
+        {
+          "id": 27,
+          "text": "a",
+          "startTime": 25.203922,
+          "endTime": 25.336544
+        },
+        {
+          "id": 28,
+          "text": "table",
+          "startTime": 25.336544,
+          "endTime": 25.735429
+        },
+        {
+          "id": 29,
+          "text": "friend.",
+          "startTime": 25.735429,
+          "endTime": 27.735429
+        }
+      ]
+    }
+  ]
+}

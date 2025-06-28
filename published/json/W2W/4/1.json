@@ -1,0 +1,142 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Trusting my arm still wrestles",
+      "startTime": 5.679343,
+      "endTime": 9.199622,
+      "words": [
+        {
+          "id": 1,
+          "text": "Trusting",
+          "startTime": 5.679343,
+          "endTime": 7.471631
+        },
+        {
+          "id": 2,
+          "text": "my",
+          "startTime": 7.471631,
+          "endTime": 7.671765
+        },
+        {
+          "id": 3,
+          "text": "arm",
+          "startTime": 7.671765,
+          "endTime": 8.071511
+        },
+        {
+          "id": 4,
+          "text": "still",
+          "startTime": 8.071511,
+          "endTime": 8.336191
+        },
+        {
+          "id": 5,
+          "text": "wrestles",
+          "startTime": 8.336191,
+          "endTime": 9.199622
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "when I disappoint, I turn up foible",
+      "startTime": 9.199622,
+      "endTime": 13.714224,
+      "words": [
+        {
+          "id": 6,
+          "text": "when",
+          "startTime": 9.199622,
+          "endTime": 10.462177
+        },
+        {
+          "id": 7,
+          "text": "I",
+          "startTime": 10.462177,
+          "endTime": 10.593345
+        },
+        {
+          "id": 8,
+          "text": "disappoint,",
+          "startTime": 10.593345,
+          "endTime": 11.457257
+        },
+        {
+          "id": 9,
+          "text": "I",
+          "startTime": 11.457257,
+          "endTime": 12.453393
+        },
+        {
+          "id": 10,
+          "text": "turn",
+          "startTime": 12.453393,
+          "endTime": 12.65318
+        },
+        {
+          "id": 11,
+          "text": "up",
+          "startTime": 12.65318,
+          "endTime": 12.852396
+        },
+        {
+          "id": 12,
+          "text": "foible",
+          "startTime": 12.852396,
+          "endTime": 13.714224
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "how you upend a breaking bop bubble. ",
+      "startTime": 13.714224,
+      "endTime": 18.703441,
+      "words": [
+        {
+          "id": 13,
+          "text": "how",
+          "startTime": 13.714224,
+          "endTime": 14.975783
+        },
+        {
+          "id": 14,
+          "text": "you",
+          "startTime": 14.975783,
+          "endTime": 15.24234
+        },
+        {
+          "id": 15,
+          "text": "upend",
+          "startTime": 15.24234,
+          "endTime": 15.574663
+        },
+        {
+          "id": 16,
+          "text": "a",
+          "startTime": 15.574663,
+          "endTime": 15.774301
+        },
+        {
+          "id": 17,
+          "text": "breaking",
+          "startTime": 15.774301,
+          "endTime": 16.304497
+        },
+        {
+          "id": 18,
+          "text": "bop",
+          "startTime": 16.304497,
+          "endTime": 16.703441
+        },
+        {
+          "id": 19,
+          "text": "bubble.",
+          "startTime": 16.703441,
+          "endTime": 18.703441
+        }
+      ]
+    }
+  ]
+}

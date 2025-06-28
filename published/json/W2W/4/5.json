@@ -1,0 +1,378 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Letting go wanders my bedroom",
+      "startTime": 6.141615,
+      "endTime": 11.785755,
+      "words": [
+        {
+          "id": 1,
+          "text": "Letting",
+          "startTime": 6.141615,
+          "endTime": 8.267526
+        },
+        {
+          "id": 2,
+          "text": "go",
+          "startTime": 8.267526,
+          "endTime": 8.597764
+        },
+        {
+          "id": 3,
+          "text": "wanders",
+          "startTime": 8.597764,
+          "endTime": 9.595705
+        },
+        {
+          "id": 4,
+          "text": "my",
+          "startTime": 9.595705,
+          "endTime": 10.591467
+        },
+        {
+          "id": 5,
+          "text": "bedroom",
+          "startTime": 10.591467,
+          "endTime": 11.785755
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "glibbing the old doormat to resume",
+      "startTime": 11.785755,
+      "endTime": 17.56509,
+      "words": [
+        {
+          "id": 6,
+          "text": "glibbing",
+          "startTime": 11.785755,
+          "endTime": 14.110355
+        },
+        {
+          "id": 7,
+          "text": "the",
+          "startTime": 14.110355,
+          "endTime": 14.310233
+        },
+        {
+          "id": 8,
+          "text": "old",
+          "startTime": 14.310233,
+          "endTime": 15.372084
+        },
+        {
+          "id": 9,
+          "text": "doormat",
+          "startTime": 15.372084,
+          "endTime": 16.103182
+        },
+        {
+          "id": 10,
+          "text": "to",
+          "startTime": 16.103182,
+          "endTime": 16.303263
+        },
+        {
+          "id": 11,
+          "text": "resume",
+          "startTime": 16.303263,
+          "endTime": 17.56509
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "draping my windows in a baroque mood",
+      "startTime": 17.56509,
+      "endTime": 23.141859,
+      "words": [
+        {
+          "id": 12,
+          "text": "draping",
+          "startTime": 17.56509,
+          "endTime": 19.423652
+        },
+        {
+          "id": 13,
+          "text": "my",
+          "startTime": 19.423652,
+          "endTime": 19.688568
+        },
+        {
+          "id": 14,
+          "text": "windows",
+          "startTime": 19.688568,
+          "endTime": 20.751735
+        },
+        {
+          "id": 15,
+          "text": "in",
+          "startTime": 20.751735,
+          "endTime": 21.48344
+        },
+        {
+          "id": 16,
+          "text": "a",
+          "startTime": 21.48344,
+          "endTime": 21.748324
+        },
+        {
+          "id": 17,
+          "text": "baroque",
+          "startTime": 21.748324,
+          "endTime": 22.211417
+        },
+        {
+          "id": 18,
+          "text": "mood",
+          "startTime": 22.211417,
+          "endTime": 23.141859
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "it's my bible who strays me above ignoble",
+      "startTime": 23.141859,
+      "endTime": 29.318802,
+      "words": [
+        {
+          "id": 19,
+          "text": "it's",
+          "startTime": 23.141859,
+          "endTime": 25.199496
+        },
+        {
+          "id": 20,
+          "text": "my",
+          "startTime": 25.199496,
+          "endTime": 25.398834
+        },
+        {
+          "id": 21,
+          "text": "bible",
+          "startTime": 25.398834,
+          "endTime": 26.130285
+        },
+        {
+          "id": 22,
+          "text": "who",
+          "startTime": 26.130285,
+          "endTime": 26.728839
+        },
+        {
+          "id": 23,
+          "text": "strays",
+          "startTime": 26.728839,
+          "endTime": 27.324899
+        },
+        {
+          "id": 24,
+          "text": "me",
+          "startTime": 27.324899,
+          "endTime": 27.788995
+        },
+        {
+          "id": 25,
+          "text": "above",
+          "startTime": 27.788995,
+          "endTime": 28.058071
+        },
+        {
+          "id": 26,
+          "text": "ignoble",
+          "startTime": 28.058071,
+          "endTime": 29.318802
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "its new feathers torch my bones to crumble",
+      "startTime": 29.318802,
+      "endTime": 35.759084,
+      "words": [
+        {
+          "id": 27,
+          "text": "its",
+          "startTime": 29.318802,
+          "endTime": 31.04533
+        },
+        {
+          "id": 28,
+          "text": "new",
+          "startTime": 31.04533,
+          "endTime": 31.375782
+        },
+        {
+          "id": 29,
+          "text": "feathers",
+          "startTime": 31.375782,
+          "endTime": 32.106735
+        },
+        {
+          "id": 30,
+          "text": "torch",
+          "startTime": 32.106735,
+          "endTime": 32.50637
+        },
+        {
+          "id": 31,
+          "text": "my",
+          "startTime": 32.50637,
+          "endTime": 32.904702
+        },
+        {
+          "id": 32,
+          "text": "bones",
+          "startTime": 32.904702,
+          "endTime": 33.700109
+        },
+        {
+          "id": 33,
+          "text": "to",
+          "startTime": 33.700109,
+          "endTime": 34.298911
+        },
+        {
+          "id": 34,
+          "text": "crumble",
+          "startTime": 34.298911,
+          "endTime": 35.759084
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "familiar words stay watch of my inner battles ",
+      "startTime": 35.759084,
+      "endTime": 42.5993,
+      "words": [
+        {
+          "id": 35,
+          "text": "familiar",
+          "startTime": 35.759084,
+          "endTime": 37.883712
+        },
+        {
+          "id": 36,
+          "text": "words",
+          "startTime": 37.883712,
+          "endTime": 38.813711
+        },
+        {
+          "id": 37,
+          "text": "stay",
+          "startTime": 38.813711,
+          "endTime": 39.544577
+        },
+        {
+          "id": 38,
+          "text": "watch",
+          "startTime": 39.544577,
+          "endTime": 40.541135
+        },
+        {
+          "id": 39,
+          "text": "of",
+          "startTime": 40.541135,
+          "endTime": 40.671627
+        },
+        {
+          "id": 40,
+          "text": "my",
+          "startTime": 40.671627,
+          "endTime": 40.872343
+        },
+        {
+          "id": 41,
+          "text": "inner",
+          "startTime": 40.872343,
+          "endTime": 41.270115
+        },
+        {
+          "id": 42,
+          "text": "battles",
+          "startTime": 41.270115,
+          "endTime": 42.5993
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "for in every room I enter is its box to dismantle.",
+      "startTime": 42.5993,
+      "endTime": 51.040616,
+      "words": [
+        {
+          "id": 43,
+          "text": "for",
+          "startTime": 42.5993,
+          "endTime": 44.390959
+        },
+        {
+          "id": 44,
+          "text": "in",
+          "startTime": 44.390959,
+          "endTime": 44.524414
+        },
+        {
+          "id": 45,
+          "text": "every",
+          "startTime": 44.524414,
+          "endTime": 45.056587
+        },
+        {
+          "id": 46,
+          "text": "room",
+          "startTime": 45.056587,
+          "endTime": 45.45504
+        },
+        {
+          "id": 47,
+          "text": "I",
+          "startTime": 45.45504,
+          "endTime": 45.586025
+        },
+        {
+          "id": 48,
+          "text": "enter",
+          "startTime": 45.586025,
+          "endTime": 46.915941
+        },
+        {
+          "id": 49,
+          "text": "is",
+          "startTime": 46.915941,
+          "endTime": 47.379838
+        },
+        {
+          "id": 50,
+          "text": "its",
+          "startTime": 47.379838,
+          "endTime": 47.646062
+        },
+        {
+          "id": 51,
+          "text": "box",
+          "startTime": 47.646062,
+          "endTime": 48.17748
+        },
+        {
+          "id": 52,
+          "text": "to",
+          "startTime": 48.17748,
+          "endTime": 49.040616
+        },
+        {
+          "id": 53,
+          "text": "dismantle.",
+          "startTime": 49.040616,
+          "endTime": 51.040616
+        }
+      ]
+    }
+  ]
+}

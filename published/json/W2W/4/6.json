@@ -1,0 +1,226 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Inflation becomes how you speak",
+      "startTime": 5.473796,
+      "endTime": 9.52399,
+      "words": [
+        {
+          "id": 1,
+          "text": "Inflation",
+          "startTime": 5.473796,
+          "endTime": 7.733074
+        },
+        {
+          "id": 2,
+          "text": "becomes",
+          "startTime": 7.733074,
+          "endTime": 8.265021
+        },
+        {
+          "id": 3,
+          "text": "how",
+          "startTime": 8.265021,
+          "endTime": 8.596542
+        },
+        {
+          "id": 4,
+          "text": "you",
+          "startTime": 8.596542,
+          "endTime": 8.859961
+        },
+        {
+          "id": 5,
+          "text": "speak",
+          "startTime": 8.859961,
+          "endTime": 9.52399
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "words grabbing thoughts I seek",
+      "startTime": 9.52399,
+      "endTime": 13.442973,
+      "words": [
+        {
+          "id": 6,
+          "text": "words",
+          "startTime": 9.52399,
+          "endTime": 11.250887
+        },
+        {
+          "id": 7,
+          "text": "grabbing",
+          "startTime": 11.250887,
+          "endTime": 11.783278
+        },
+        {
+          "id": 8,
+          "text": "thoughts",
+          "startTime": 11.783278,
+          "endTime": 12.248089
+        },
+        {
+          "id": 9,
+          "text": "I",
+          "startTime": 12.248089,
+          "endTime": 12.579601
+        },
+        {
+          "id": 10,
+          "text": "seek",
+          "startTime": 12.579601,
+          "endTime": 13.442973
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "while you proffer up nothing",
+      "startTime": 13.442973,
+      "endTime": 17.161025,
+      "words": [
+        {
+          "id": 11,
+          "text": "while",
+          "startTime": 13.442973,
+          "endTime": 14.837478
+        },
+        {
+          "id": 12,
+          "text": "you",
+          "startTime": 14.837478,
+          "endTime": 15.101786
+        },
+        {
+          "id": 13,
+          "text": "proffer",
+          "startTime": 15.101786,
+          "endTime": 15.566253
+        },
+        {
+          "id": 14,
+          "text": "up",
+          "startTime": 15.566253,
+          "endTime": 15.834028
+        },
+        {
+          "id": 15,
+          "text": "nothing",
+          "startTime": 15.834028,
+          "endTime": 17.161025
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "and ever I ask what's new",
+      "startTime": 17.161025,
+      "endTime": 20.283206,
+      "words": [
+        {
+          "id": 16,
+          "text": "and",
+          "startTime": 17.161025,
+          "endTime": 18.291505
+        },
+        {
+          "id": 17,
+          "text": "ever",
+          "startTime": 18.291505,
+          "endTime": 18.62257
+        },
+        {
+          "id": 18,
+          "text": "I",
+          "startTime": 18.62257,
+          "endTime": 18.887676
+        },
+        {
+          "id": 19,
+          "text": "ask",
+          "startTime": 18.887676,
+          "endTime": 19.086175
+        },
+        {
+          "id": 20,
+          "text": "what's",
+          "startTime": 19.086175,
+          "endTime": 19.352404
+        },
+        {
+          "id": 21,
+          "text": "new",
+          "startTime": 19.352404,
+          "endTime": 20.283206
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "maybe it's gun jumping ",
+      "startTime": 20.283206,
+      "endTime": 23.868412,
+      "words": [
+        {
+          "id": 22,
+          "text": "maybe",
+          "startTime": 20.283206,
+          "endTime": 22.009283
+        },
+        {
+          "id": 23,
+          "text": "it's",
+          "startTime": 22.009283,
+          "endTime": 22.340773
+        },
+        {
+          "id": 24,
+          "text": "gun",
+          "startTime": 22.340773,
+          "endTime": 22.740211
+        },
+        {
+          "id": 25,
+          "text": "jumping",
+          "startTime": 22.740211,
+          "endTime": 23.868412
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "writing you now bleak. ",
+      "startTime": 23.868412,
+      "endTime": 28.525008,
+      "words": [
+        {
+          "id": 26,
+          "text": "writing",
+          "startTime": 23.868412,
+          "endTime": 25.859545
+        },
+        {
+          "id": 27,
+          "text": "you",
+          "startTime": 25.859545,
+          "endTime": 26.125436
+        },
+        {
+          "id": 28,
+          "text": "now",
+          "startTime": 26.125436,
+          "endTime": 26.525008
+        },
+        {
+          "id": 29,
+          "text": "bleak.",
+          "startTime": 26.525008,
+          "endTime": 28.525008
+        }
+      ]
+    }
+  ]
+}

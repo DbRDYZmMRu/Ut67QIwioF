@@ -1,0 +1,298 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I'm dead in the water",
+      "startTime": 5.84439,
+      "endTime": 9.430965,
+      "words": [
+        {
+          "id": 1,
+          "text": "I'm",
+          "startTime": 5.84439,
+          "endTime": 7.969219
+        },
+        {
+          "id": 2,
+          "text": "dead",
+          "startTime": 7.969219,
+          "endTime": 8.233993
+        },
+        {
+          "id": 3,
+          "text": "in",
+          "startTime": 8.233993,
+          "endTime": 8.435612
+        },
+        {
+          "id": 4,
+          "text": "the",
+          "startTime": 8.435612,
+          "endTime": 8.567491
+        },
+        {
+          "id": 5,
+          "text": "water",
+          "startTime": 8.567491,
+          "endTime": 9.430965
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "afloat as any bad umbrella ",
+      "startTime": 9.430965,
+      "endTime": 13.34869,
+      "words": [
+        {
+          "id": 6,
+          "text": "afloat",
+          "startTime": 9.430965,
+          "endTime": 10.825166
+        },
+        {
+          "id": 7,
+          "text": "as",
+          "startTime": 10.825166,
+          "endTime": 11.953831
+        },
+        {
+          "id": 8,
+          "text": "any",
+          "startTime": 11.953831,
+          "endTime": 12.153148
+        },
+        {
+          "id": 9,
+          "text": "bad",
+          "startTime": 12.153148,
+          "endTime": 12.41746
+        },
+        {
+          "id": 10,
+          "text": "umbrella",
+          "startTime": 12.41746,
+          "endTime": 13.34869
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "if the dawn is to pull me under",
+      "startTime": 13.34869,
+      "endTime": 17.332992,
+      "words": [
+        {
+          "id": 11,
+          "text": "if",
+          "startTime": 13.34869,
+          "endTime": 15.008541
+        },
+        {
+          "id": 12,
+          "text": "the",
+          "startTime": 15.008541,
+          "endTime": 15.208021
+        },
+        {
+          "id": 13,
+          "text": "dawn",
+          "startTime": 15.208021,
+          "endTime": 15.607026
+        },
+        {
+          "id": 14,
+          "text": "is",
+          "startTime": 15.607026,
+          "endTime": 15.739483
+        },
+        {
+          "id": 15,
+          "text": "to",
+          "startTime": 15.739483,
+          "endTime": 15.9393
+        },
+        {
+          "id": 16,
+          "text": "pull",
+          "startTime": 15.9393,
+          "endTime": 16.27124
+        },
+        {
+          "id": 17,
+          "text": "me",
+          "startTime": 16.27124,
+          "endTime": 16.47064
+        },
+        {
+          "id": 18,
+          "text": "under",
+          "startTime": 16.47064,
+          "endTime": 17.332992
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "it'll need this day’s sun way fuller",
+      "startTime": 17.332992,
+      "endTime": 22.312684,
+      "words": [
+        {
+          "id": 19,
+          "text": "it'll",
+          "startTime": 17.332992,
+          "endTime": 19.525265
+        },
+        {
+          "id": 20,
+          "text": "need",
+          "startTime": 19.525265,
+          "endTime": 19.921946
+        },
+        {
+          "id": 21,
+          "text": "this",
+          "startTime": 19.921946,
+          "endTime": 20.254969
+        },
+        {
+          "id": 22,
+          "text": "day’s",
+          "startTime": 20.254969,
+          "endTime": 20.719662
+        },
+        {
+          "id": 23,
+          "text": "sun",
+          "startTime": 20.719662,
+          "endTime": 21.118133
+        },
+        {
+          "id": 24,
+          "text": "way",
+          "startTime": 21.118133,
+          "endTime": 21.382764
+        },
+        {
+          "id": 25,
+          "text": "fuller",
+          "startTime": 21.382764,
+          "endTime": 22.312684
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "for it’s only in it's caring so sombre",
+      "startTime": 22.312684,
+      "endTime": 28.026464,
+      "words": [
+        {
+          "id": 26,
+          "text": "for",
+          "startTime": 22.312684,
+          "endTime": 23.907464
+        },
+        {
+          "id": 27,
+          "text": "it’s",
+          "startTime": 23.907464,
+          "endTime": 24.107638
+        },
+        {
+          "id": 28,
+          "text": "only",
+          "startTime": 24.107638,
+          "endTime": 24.904083
+        },
+        {
+          "id": 29,
+          "text": "in",
+          "startTime": 24.904083,
+          "endTime": 25.83423
+        },
+        {
+          "id": 30,
+          "text": "it's",
+          "startTime": 25.83423,
+          "endTime": 26.165019
+        },
+        {
+          "id": 31,
+          "text": "caring",
+          "startTime": 26.165019,
+          "endTime": 26.628176
+        },
+        {
+          "id": 32,
+          "text": "so",
+          "startTime": 26.628176,
+          "endTime": 26.892971
+        },
+        {
+          "id": 33,
+          "text": "sombre",
+          "startTime": 26.892971,
+          "endTime": 28.026464
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "a bad mind gets the moon as brighter. ",
+      "startTime": 28.026464,
+      "endTime": 34.141508,
+      "words": [
+        {
+          "id": 34,
+          "text": "a",
+          "startTime": 28.026464,
+          "endTime": 29.352446
+        },
+        {
+          "id": 35,
+          "text": "bad",
+          "startTime": 29.352446,
+          "endTime": 29.751711
+        },
+        {
+          "id": 36,
+          "text": "mind",
+          "startTime": 29.751711,
+          "endTime": 30.215566
+        },
+        {
+          "id": 37,
+          "text": "gets",
+          "startTime": 30.215566,
+          "endTime": 31.080396
+        },
+        {
+          "id": 38,
+          "text": "the",
+          "startTime": 31.080396,
+          "endTime": 31.278695
+        },
+        {
+          "id": 39,
+          "text": "moon",
+          "startTime": 31.278695,
+          "endTime": 31.943674
+        },
+        {
+          "id": 40,
+          "text": "as",
+          "startTime": 31.943674,
+          "endTime": 32.141508
+        },
+        {
+          "id": 41,
+          "text": "brighter.",
+          "startTime": 32.141508,
+          "endTime": 34.141508
+        }
+      ]
+    }
+  ]
+}

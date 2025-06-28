@@ -1,0 +1,390 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Staying out this late in the maze",
+      "startTime": 7.219917,
+      "endTime": 11.204603,
+      "words": [
+        {
+          "id": 1,
+          "text": "Staying",
+          "startTime": 7.219917,
+          "endTime": 8.813697
+        },
+        {
+          "id": 2,
+          "text": "out",
+          "startTime": 8.813697,
+          "endTime": 9.078393
+        },
+        {
+          "id": 3,
+          "text": "this",
+          "startTime": 9.078393,
+          "endTime": 9.343909
+        },
+        {
+          "id": 4,
+          "text": "late",
+          "startTime": 9.343909,
+          "endTime": 10.008915
+        },
+        {
+          "id": 5,
+          "text": "in",
+          "startTime": 10.008915,
+          "endTime": 10.276552
+        },
+        {
+          "id": 6,
+          "text": "the",
+          "startTime": 10.276552,
+          "endTime": 10.473329
+        },
+        {
+          "id": 7,
+          "text": "maze",
+          "startTime": 10.473329,
+          "endTime": 11.204603
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "with my precocity parapet face",
+      "startTime": 11.204603,
+      "endTime": 15.653844,
+      "words": [
+        {
+          "id": 8,
+          "text": "with",
+          "startTime": 11.204603,
+          "endTime": 13.064155
+        },
+        {
+          "id": 9,
+          "text": "my",
+          "startTime": 13.064155,
+          "endTime": 13.3296
+        },
+        {
+          "id": 10,
+          "text": "precocity",
+          "startTime": 13.3296,
+          "endTime": 14.059858
+        },
+        {
+          "id": 11,
+          "text": "parapet",
+          "startTime": 14.059858,
+          "endTime": 14.790208
+        },
+        {
+          "id": 12,
+          "text": "face",
+          "startTime": 14.790208,
+          "endTime": 15.653844
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "everyone recognises my delay",
+      "startTime": 15.653844,
+      "endTime": 20.099836,
+      "words": [
+        {
+          "id": 13,
+          "text": "everyone",
+          "startTime": 15.653844,
+          "endTime": 17.978068
+        },
+        {
+          "id": 14,
+          "text": "recognises",
+          "startTime": 17.978068,
+          "endTime": 18.843915
+        },
+        {
+          "id": 15,
+          "text": "my",
+          "startTime": 18.843915,
+          "endTime": 19.107202
+        },
+        {
+          "id": 16,
+          "text": "delay",
+          "startTime": 19.107202,
+          "endTime": 20.099836
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "or at least, the day to break",
+      "startTime": 20.099836,
+      "endTime": 24.220762,
+      "words": [
+        {
+          "id": 17,
+          "text": "or",
+          "startTime": 20.099836,
+          "endTime": 21.231069
+        },
+        {
+          "id": 18,
+          "text": "at",
+          "startTime": 21.231069,
+          "endTime": 21.431064
+        },
+        {
+          "id": 19,
+          "text": "least,",
+          "startTime": 21.431064,
+          "endTime": 22.027339
+        },
+        {
+          "id": 20,
+          "text": "the",
+          "startTime": 22.027339,
+          "endTime": 22.889944
+        },
+        {
+          "id": 21,
+          "text": "day",
+          "startTime": 22.889944,
+          "endTime": 23.157065
+        },
+        {
+          "id": 22,
+          "text": "to",
+          "startTime": 23.157065,
+          "endTime": 23.288584
+        },
+        {
+          "id": 23,
+          "text": "break",
+          "startTime": 23.288584,
+          "endTime": 24.220762
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "in their heads, but a frame",
+      "startTime": 24.220762,
+      "endTime": 29.201189,
+      "words": [
+        {
+          "id": 24,
+          "text": "in",
+          "startTime": 24.220762,
+          "endTime": 26.078534
+        },
+        {
+          "id": 25,
+          "text": "their",
+          "startTime": 26.078534,
+          "endTime": 26.213222
+        },
+        {
+          "id": 26,
+          "text": "heads,",
+          "startTime": 26.213222,
+          "endTime": 26.943299
+        },
+        {
+          "id": 27,
+          "text": "but",
+          "startTime": 26.943299,
+          "endTime": 27.938503
+        },
+        {
+          "id": 28,
+          "text": "a",
+          "startTime": 27.938503,
+          "endTime": 28.138159
+        },
+        {
+          "id": 29,
+          "text": "frame",
+          "startTime": 28.138159,
+          "endTime": 29.201189
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "two new dozen hours again",
+      "startTime": 29.201189,
+      "endTime": 33.915195,
+      "words": [
+        {
+          "id": 30,
+          "text": "two",
+          "startTime": 29.201189,
+          "endTime": 31.391329
+        },
+        {
+          "id": 31,
+          "text": "new",
+          "startTime": 31.391329,
+          "endTime": 31.656475
+        },
+        {
+          "id": 32,
+          "text": "dozen",
+          "startTime": 31.656475,
+          "endTime": 32.190584
+        },
+        {
+          "id": 33,
+          "text": "hours",
+          "startTime": 32.190584,
+          "endTime": 32.853575
+        },
+        {
+          "id": 34,
+          "text": "again",
+          "startTime": 32.853575,
+          "endTime": 33.915195
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "they'll miss my surrogate",
+      "startTime": 33.915195,
+      "endTime": 36.572538,
+      "words": [
+        {
+          "id": 35,
+          "text": "they'll",
+          "startTime": 33.915195,
+          "endTime": 34.646489
+        },
+        {
+          "id": 36,
+          "text": "miss",
+          "startTime": 34.646489,
+          "endTime": 34.91191
+        },
+        {
+          "id": 37,
+          "text": "my",
+          "startTime": 34.91191,
+          "endTime": 35.243139
+        },
+        {
+          "id": 38,
+          "text": "surrogate",
+          "startTime": 35.243139,
+          "endTime": 36.572538
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "but think later the same",
+      "startTime": 36.572538,
+      "endTime": 40.291061,
+      "words": [
+        {
+          "id": 39,
+          "text": "but",
+          "startTime": 36.572538,
+          "endTime": 38.297821
+        },
+        {
+          "id": 40,
+          "text": "think",
+          "startTime": 38.297821,
+          "endTime": 38.629277
+        },
+        {
+          "id": 41,
+          "text": "later",
+          "startTime": 38.629277,
+          "endTime": 38.962294
+        },
+        {
+          "id": 42,
+          "text": "the",
+          "startTime": 38.962294,
+          "endTime": 39.160895
+        },
+        {
+          "id": 43,
+          "text": "same",
+          "startTime": 39.160895,
+          "endTime": 40.291061
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "of darkness; wee shame",
+      "startTime": 40.291061,
+      "endTime": 44.805091,
+      "words": [
+        {
+          "id": 44,
+          "text": "of",
+          "startTime": 40.291061,
+          "endTime": 41.35359
+        },
+        {
+          "id": 45,
+          "text": "darkness;",
+          "startTime": 41.35359,
+          "endTime": 42.217305
+        },
+        {
+          "id": 46,
+          "text": "wee",
+          "startTime": 42.217305,
+          "endTime": 43.676566
+        },
+        {
+          "id": 47,
+          "text": "shame",
+          "startTime": 43.676566,
+          "endTime": 44.805091
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "I'm a cathedral place.",
+      "startTime": 44.805091,
+      "endTime": 50.126451,
+      "words": [
+        {
+          "id": 48,
+          "text": "I'm",
+          "startTime": 44.805091,
+          "endTime": 47.3297
+        },
+        {
+          "id": 49,
+          "text": "a",
+          "startTime": 47.3297,
+          "endTime": 47.594292
+        },
+        {
+          "id": 50,
+          "text": "cathedral",
+          "startTime": 47.594292,
+          "endTime": 48.126451
+        },
+        {
+          "id": 51,
+          "text": "place.",
+          "startTime": 48.126451,
+          "endTime": 50.126451
+        }
+      ]
+    }
+  ]
+}
