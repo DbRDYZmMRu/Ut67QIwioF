@@ -7,16 +7,12 @@ registerFont('font/Architects_Daughter.ttf', { family: 'Architects Daughter' });
 
 const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
-const outputDir = path.join(__dirname, 'images', 'share', 'W2W', '4');
+const outputDir = path.join(__dirname, 'images', 'share', 'W2W', '3');
 const titles = [
-  "Dancing to Siren Sounds",
-  "Old-time Maimed",
-  "Doc’s Ruling",
-  "Shunning Shore",
-  "Dear God",
-  "I Know Love",
-  "So Close to What",
-  "Call my Bluff",
+  "My Fair Lady",
+  "Following the West",
+  "Where in the Room?",
+  "Are You Asleep?",
 ];
 
 const drawText = (ctx, text, x, y, maxWidth) => {
@@ -66,7 +62,7 @@ const generateImages = async () => {
     ctx.fillStyle = 'black';
     ctx.textAlign = 'center';
     ctx.textBaseline = 'top';
-    ctx.fillText('WEST TO WEST COLLECTION IV', imageSize / 2, 10); // Corrected position
+    ctx.fillText('WEST TO WEST COLLECTION III', imageSize / 2, 10); // Corrected position
     
     // Save the image
     const buffer = canvas.toBuffer('image/png');
