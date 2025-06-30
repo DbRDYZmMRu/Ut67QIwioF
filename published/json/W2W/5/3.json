@@ -1,0 +1,154 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "My head is up to the stars ",
+      "startTime": 6.309069,
+      "endTime": 9.763438,
+      "words": [
+        {
+          "id": 1,
+          "text": "My",
+          "startTime": 6.309069,
+          "endTime": 7.50475
+        },
+        {
+          "id": 2,
+          "text": "head",
+          "startTime": 7.50475,
+          "endTime": 7.9034
+        },
+        {
+          "id": 3,
+          "text": "is",
+          "startTime": 7.9034,
+          "endTime": 8.03608
+        },
+        {
+          "id": 4,
+          "text": "up",
+          "startTime": 8.03608,
+          "endTime": 8.434006
+        },
+        {
+          "id": 5,
+          "text": "to",
+          "startTime": 8.434006,
+          "endTime": 8.568539
+        },
+        {
+          "id": 6,
+          "text": "the",
+          "startTime": 8.568539,
+          "endTime": 8.833819
+        },
+        {
+          "id": 7,
+          "text": "stars",
+          "startTime": 8.833819,
+          "endTime": 9.763438
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "their eyes send me in a dither",
+      "startTime": 9.763438,
+      "endTime": 14.278501,
+      "words": [
+        {
+          "id": 8,
+          "text": "their",
+          "startTime": 9.763438,
+          "endTime": 11.222553
+        },
+        {
+          "id": 9,
+          "text": "eyes",
+          "startTime": 11.222553,
+          "endTime": 11.887346
+        },
+        {
+          "id": 10,
+          "text": "send",
+          "startTime": 11.887346,
+          "endTime": 12.685403
+        },
+        {
+          "id": 11,
+          "text": "me",
+          "startTime": 12.685403,
+          "endTime": 12.949598
+        },
+        {
+          "id": 12,
+          "text": "in",
+          "startTime": 12.949598,
+          "endTime": 13.082638
+        },
+        {
+          "id": 13,
+          "text": "a",
+          "startTime": 13.082638,
+          "endTime": 13.283237
+        },
+        {
+          "id": 14,
+          "text": "dither",
+          "startTime": 13.283237,
+          "endTime": 14.278501
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "the twinkling of my own ever after. ",
+      "startTime": 14.278501,
+      "endTime": 19.93136,
+      "words": [
+        {
+          "id": 15,
+          "text": "the",
+          "startTime": 14.278501,
+          "endTime": 15.273959
+        },
+        {
+          "id": 16,
+          "text": "twinkling",
+          "startTime": 15.273959,
+          "endTime": 16.071023
+        },
+        {
+          "id": 17,
+          "text": "of",
+          "startTime": 16.071023,
+          "endTime": 16.869456
+        },
+        {
+          "id": 18,
+          "text": "my",
+          "startTime": 16.869456,
+          "endTime": 17.134409
+        },
+        {
+          "id": 19,
+          "text": "own",
+          "startTime": 17.134409,
+          "endTime": 17.599325
+        },
+        {
+          "id": 20,
+          "text": "ever",
+          "startTime": 17.599325,
+          "endTime": 17.93136
+        },
+        {
+          "id": 21,
+          "text": "after.",
+          "startTime": 17.93136,
+          "endTime": 19.93136
+        }
+      ]
+    }
+  ]
+}

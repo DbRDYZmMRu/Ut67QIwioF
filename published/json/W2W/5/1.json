@@ -1,0 +1,220 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "All stairs bore me",
+      "startTime": 5.642918,
+      "endTime": 8.963894,
+      "words": [
+        {
+          "id": 1,
+          "text": "All",
+          "startTime": 5.642918,
+          "endTime": 7.104349
+        },
+        {
+          "id": 2,
+          "text": "stairs",
+          "startTime": 7.104349,
+          "endTime": 7.835593
+        },
+        {
+          "id": 3,
+          "text": "bore",
+          "startTime": 7.835593,
+          "endTime": 8.430962
+        },
+        {
+          "id": 4,
+          "text": "me",
+          "startTime": 8.430962,
+          "endTime": 8.963894
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "like insects not stinging",
+      "startTime": 8.963894,
+      "endTime": 12.149665,
+      "words": [
+        {
+          "id": 5,
+          "text": "like",
+          "startTime": 8.963894,
+          "endTime": 9.827571
+        },
+        {
+          "id": 6,
+          "text": "insects",
+          "startTime": 9.827571,
+          "endTime": 10.889503
+        },
+        {
+          "id": 7,
+          "text": "not",
+          "startTime": 10.889503,
+          "endTime": 11.354891
+        },
+        {
+          "id": 8,
+          "text": "stinging",
+          "startTime": 11.354891,
+          "endTime": 12.149665
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "beauty incense captivating ",
+      "startTime": 12.149665,
+      "endTime": 16.001979,
+      "words": [
+        {
+          "id": 9,
+          "text": "beauty",
+          "startTime": 12.149665,
+          "endTime": 13.610787
+        },
+        {
+          "id": 10,
+          "text": "incense",
+          "startTime": 13.610787,
+          "endTime": 14.408871
+        },
+        {
+          "id": 11,
+          "text": "captivating",
+          "startTime": 14.408871,
+          "endTime": 16.001979
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "inducing some of its siblings",
+      "startTime": 16.001979,
+      "endTime": 19.720676,
+      "words": [
+        {
+          "id": 12,
+          "text": "inducing",
+          "startTime": 16.001979,
+          "endTime": 17.792361
+        },
+        {
+          "id": 13,
+          "text": "some",
+          "startTime": 17.792361,
+          "endTime": 18.328503
+        },
+        {
+          "id": 14,
+          "text": "of",
+          "startTime": 18.328503,
+          "endTime": 18.524918
+        },
+        {
+          "id": 15,
+          "text": "its",
+          "startTime": 18.524918,
+          "endTime": 18.791835
+        },
+        {
+          "id": 16,
+          "text": "siblings",
+          "startTime": 18.791835,
+          "endTime": 19.720676
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "tofu mirth, the giddying yeast",
+      "startTime": 19.720676,
+      "endTime": 24.569813,
+      "words": [
+        {
+          "id": 17,
+          "text": "tofu",
+          "startTime": 19.720676,
+          "endTime": 21.713267
+        },
+        {
+          "id": 18,
+          "text": "mirth,",
+          "startTime": 21.713267,
+          "endTime": 22.509913
+        },
+        {
+          "id": 19,
+          "text": "the",
+          "startTime": 22.509913,
+          "endTime": 23.240743
+        },
+        {
+          "id": 20,
+          "text": "giddying",
+          "startTime": 23.240743,
+          "endTime": 23.707422
+        },
+        {
+          "id": 21,
+          "text": "yeast",
+          "startTime": 23.707422,
+          "endTime": 24.569813
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "I know, we're going, but a brim?",
+      "startTime": 24.569813,
+      "endTime": 31.216873,
+      "words": [
+        {
+          "id": 22,
+          "text": "I",
+          "startTime": 24.569813,
+          "endTime": 26.162171
+        },
+        {
+          "id": 23,
+          "text": "know,",
+          "startTime": 26.162171,
+          "endTime": 26.758983
+        },
+        {
+          "id": 24,
+          "text": "we're",
+          "startTime": 26.758983,
+          "endTime": 27.488877
+        },
+        {
+          "id": 25,
+          "text": "going,",
+          "startTime": 27.488877,
+          "endTime": 28.220991
+        },
+        {
+          "id": 26,
+          "text": "but",
+          "startTime": 28.220991,
+          "endTime": 29.018547
+        },
+        {
+          "id": 27,
+          "text": "a",
+          "startTime": 29.018547,
+          "endTime": 29.216873
+        },
+        {
+          "id": 28,
+          "text": "brim?",
+          "startTime": 29.216873,
+          "endTime": 31.216873
+        }
+      ]
+    }
+  ]
+}

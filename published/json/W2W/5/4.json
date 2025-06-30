@@ -1,0 +1,130 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Double sheets of the cheese ",
+      "startTime": 6.933579,
+      "endTime": 9.456402,
+      "words": [
+        {
+          "id": 1,
+          "text": "Double",
+          "startTime": 6.933579,
+          "endTime": 7.662868
+        },
+        {
+          "id": 2,
+          "text": "sheets",
+          "startTime": 7.662868,
+          "endTime": 7.929884
+        },
+        {
+          "id": 3,
+          "text": "of",
+          "startTime": 7.929884,
+          "endTime": 8.260735
+        },
+        {
+          "id": 4,
+          "text": "the",
+          "startTime": 8.260735,
+          "endTime": 8.462673
+        },
+        {
+          "id": 5,
+          "text": "cheese",
+          "startTime": 8.462673,
+          "endTime": 9.456402
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "a slice of onion on margarine ",
+      "startTime": 9.456402,
+      "endTime": 14.833089,
+      "words": [
+        {
+          "id": 6,
+          "text": "a",
+          "startTime": 9.456402,
+          "endTime": 10.916342
+        },
+        {
+          "id": 7,
+          "text": "slice",
+          "startTime": 10.916342,
+          "endTime": 11.315984
+        },
+        {
+          "id": 8,
+          "text": "of",
+          "startTime": 11.315984,
+          "endTime": 12.311425
+        },
+        {
+          "id": 9,
+          "text": "onion",
+          "startTime": 12.311425,
+          "endTime": 13.174313
+        },
+        {
+          "id": 10,
+          "text": "on",
+          "startTime": 13.174313,
+          "endTime": 13.573273
+        },
+        {
+          "id": 11,
+          "text": "margarine",
+          "startTime": 13.573273,
+          "endTime": 14.833089
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "she was all I had imagined. ",
+      "startTime": 14.833089,
+      "endTime": 19.556724,
+      "words": [
+        {
+          "id": 12,
+          "text": "she",
+          "startTime": 14.833089,
+          "endTime": 16.428857
+        },
+        {
+          "id": 13,
+          "text": "was",
+          "startTime": 16.428857,
+          "endTime": 16.693302
+        },
+        {
+          "id": 14,
+          "text": "all",
+          "startTime": 16.693302,
+          "endTime": 16.893322
+        },
+        {
+          "id": 15,
+          "text": "I",
+          "startTime": 16.893322,
+          "endTime": 17.357399
+        },
+        {
+          "id": 16,
+          "text": "had",
+          "startTime": 17.357399,
+          "endTime": 17.556724
+        },
+        {
+          "id": 17,
+          "text": "imagined.",
+          "startTime": 17.556724,
+          "endTime": 19.556724
+        }
+      ]
+    }
+  ]
+}

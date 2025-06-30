@@ -1,0 +1,210 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I swear, they have seats named",
+      "startTime": 7.408812,
+      "endTime": 11.060935,
+      "words": [
+        {
+          "id": 1,
+          "text": "I",
+          "startTime": 7.408812,
+          "endTime": 9.200291
+        },
+        {
+          "id": 2,
+          "text": "swear,",
+          "startTime": 9.200291,
+          "endTime": 9.598388
+        },
+        {
+          "id": 3,
+          "text": "they",
+          "startTime": 9.598388,
+          "endTime": 9.798648
+        },
+        {
+          "id": 4,
+          "text": "have",
+          "startTime": 9.798648,
+          "endTime": 9.997923
+        },
+        {
+          "id": 5,
+          "text": "seats",
+          "startTime": 9.997923,
+          "endTime": 10.264206
+        },
+        {
+          "id": 6,
+          "text": "named",
+          "startTime": 10.264206,
+          "endTime": 11.060935
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "same ones missing in soccer games",
+      "startTime": 11.060935,
+      "endTime": 16.040132,
+      "words": [
+        {
+          "id": 7,
+          "text": "same",
+          "startTime": 11.060935,
+          "endTime": 12.785985
+        },
+        {
+          "id": 8,
+          "text": "ones",
+          "startTime": 12.785985,
+          "endTime": 13.118869
+        },
+        {
+          "id": 9,
+          "text": "missing",
+          "startTime": 13.118869,
+          "endTime": 14.381484
+        },
+        {
+          "id": 10,
+          "text": "in",
+          "startTime": 14.381484,
+          "endTime": 14.579736
+        },
+        {
+          "id": 11,
+          "text": "soccer",
+          "startTime": 14.579736,
+          "endTime": 14.977788
+        },
+        {
+          "id": 12,
+          "text": "games",
+          "startTime": 14.977788,
+          "endTime": 16.040132
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "I'm here for you all of the 365 days",
+      "startTime": 16.040132,
+      "endTime": 21.419173,
+      "words": [
+        {
+          "id": 13,
+          "text": "I'm",
+          "startTime": 16.040132,
+          "endTime": 17.700428
+        },
+        {
+          "id": 14,
+          "text": "here",
+          "startTime": 17.700428,
+          "endTime": 17.899247
+        },
+        {
+          "id": 15,
+          "text": "for",
+          "startTime": 17.899247,
+          "endTime": 18.097794
+        },
+        {
+          "id": 16,
+          "text": "you",
+          "startTime": 18.097794,
+          "endTime": 18.366098
+        },
+        {
+          "id": 17,
+          "text": "all",
+          "startTime": 18.366098,
+          "endTime": 18.629855
+        },
+        {
+          "id": 18,
+          "text": "of",
+          "startTime": 18.629855,
+          "endTime": 18.828678
+        },
+        {
+          "id": 19,
+          "text": "the",
+          "startTime": 18.828678,
+          "endTime": 19.029445
+        },
+        {
+          "id": 20,
+          "text": "365",
+          "startTime": 19.029445,
+          "endTime": 20.092776
+        },
+        {
+          "id": 21,
+          "text": "days",
+          "startTime": 20.092776,
+          "endTime": 21.419173
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "pop music playing the best of the greats.",
+      "startTime": 21.419173,
+      "endTime": 27.602795,
+      "words": [
+        {
+          "id": 22,
+          "text": "pop",
+          "startTime": 21.419173,
+          "endTime": 22.483457
+        },
+        {
+          "id": 23,
+          "text": "music",
+          "startTime": 22.483457,
+          "endTime": 22.948434
+        },
+        {
+          "id": 24,
+          "text": "playing",
+          "startTime": 22.948434,
+          "endTime": 23.411542
+        },
+        {
+          "id": 25,
+          "text": "the",
+          "startTime": 23.411542,
+          "endTime": 24.472776
+        },
+        {
+          "id": 26,
+          "text": "best",
+          "startTime": 24.472776,
+          "endTime": 24.806783
+        },
+        {
+          "id": 27,
+          "text": "of",
+          "startTime": 24.806783,
+          "endTime": 25.337392
+        },
+        {
+          "id": 28,
+          "text": "the",
+          "startTime": 25.337392,
+          "endTime": 25.602795
+        },
+        {
+          "id": 29,
+          "text": "greats.",
+          "startTime": 25.602795,
+          "endTime": 27.602795
+        }
+      ]
+    }
+  ]
+}
