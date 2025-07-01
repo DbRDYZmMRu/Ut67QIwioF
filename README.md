@@ -1,4 +1,4 @@
-# Howard Frith Hilton Library and Music Pool
+# A code that does things
 
 # Directory Tree
 ###  .git
