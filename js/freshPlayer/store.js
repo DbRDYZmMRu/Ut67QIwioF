@@ -75,7 +75,7 @@ const albums = [
     ]
   },
   {
-    name: 'Theo',
+    name: 'Hilton',
     releaseDate: 'December 15, 2022',
     tracks: [
       'Easy son', 'Ex, your relay', 'Easy, hard', 'Apogee', 'Caret', 'Moment',
@@ -175,7 +175,7 @@ const albums = [
     releaseDate: 'in session',
     tracks: [
       'So alive Overture', 'Isn’t it yours', 'Old passions', 'Bread II', 'Faraway',
-      'Cheer on me', 'For it', 'Via', 'Dakota', 'The Man', 
+      'Cheer on me', 'For it', 'Via', 'Dakota', 'The Man', 'Headphones', 
     ]
   },
   
