@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upload File to GitHub Repo</title>
+</head>
+<body>
+  <h2>Upload File to GitHub Repository</h2>
+  <input type="file" id="fileInput"><br>
+  <input type="text" id="githubToken" placeholder="GitHub Personal Access Token"><br>
+  <input type="text" id="repoOwner" placeholder="Repo Owner"><br>
+  <input type="text" id="repoName" placeholder="Repository Name"><br>
+  <input type="text" id="branch" placeholder="Branch (e.g. main)"><br>
+  <button onclick="uploadFile()">Upload</button>
+  <pre id="result"></pre>
+  <script>
+    async function uploadFile() {
+      const fileInput = document.getElementById('fileInput');
+      const token = document.getElementById('githubToken').value;
+      const owner = document.getElementById('repoOwner').value;
+      const repo = document.getElementById('repoName').value;
+      const branch = document.getElementById('branch').value;
+      const result = document.getElementById('result');
+      if (!fileInput.files.length) {
+        result.textContent = 'Choose a file!';
+        return;
+      }
+      const file = fileInput.files[0];
+      if (file.size > 100 * 1024 * 1024) {
+        result.textContent = 'File too large! Max is 100MB for GitHub API.';
+        return;
+      }
+      const arrayBuffer = await file.arrayBuffer();
+      const base64Content = btoa(String.fromCharCode(...new Uint8Array(arrayBuffer)));
+      const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${file.name}`;
+      const body = {
+        message: `Add ${file.name}`,
+        content: base64Content,
+        branch: branch
+      };
+      fetch(apiUrl, {
+        method: 'PUT',
+        headers: {
+          'Authorization': `token ${token}`,
+          'Accept': 'application/vnd.github+json'
+        },
+        body: JSON.stringify(body)
+      })
+      .then(response => response.json())
+      .then(data => {
+        result.textContent = JSON.stringify(data, null, 2);
+      })
+      .catch(e => {
+        result.textContent = e.toString();
+      });
+    }
+  </script>
+</body>
+</html>
