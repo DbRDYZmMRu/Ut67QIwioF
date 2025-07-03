@@ -6,7 +6,9 @@ const adsTop = [
   { img: '../images/ads/kimsSecret.gif', link: 'https://shop.kims-secret.com, ', displayTime: 10000 },
   { img: '../images/ads/Rhode1.gif', link: 'https://www.rhodeskin.com', displayTime: 12000 },
   { img: '../images/ads/cocacola.gif', link: '#', displayTime: 30000 },
-  { img: '../images/ads/Personalday.gif', link: 'https://www.personalday.com/', displayTime: 10000 }
+  { img: '../images/ads/Personalday.gif', link: 'https://www.personalday.com/', displayTime: 10000 }, 
+  { img: '../images/ads/RenneJuly2.gif', link: 'https://www.estellaco.co/products/dulce-vita-corset-micro-short-set', displayTime: 10000 }
+  
 ];
 
 const adsBottom = [
