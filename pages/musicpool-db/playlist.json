@@ -3,6 +3,14 @@
   "songs": [
     
     {
+      "albumart": "musicpool-db/featured/cover/1.jpg",
+      "author": "Frith Hilton",
+      "song": "Reverse",
+      "json": "musicpool-db/featured/json/1.json",
+      "audio": "musicpool-db/featured/mp3/1.mp3"
+    },
+    
+    {
       "albumart": "musicpool-db/covers/whereIsTheMoodRobot/9.jpg",
       "author": "Frith Hilton",
       "song": "Dakota",
