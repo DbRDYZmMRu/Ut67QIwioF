@@ -7,244 +7,305 @@
   "duration": 225,
   "id": "364",
   "lyrics": [
-  {
-    "line": "[Intro] ",
-    "annotations": {}
-  },
-  {
-    "line": "Oh oh oh ",
-    "annotations": {}
-  },
-  {
-    "line": "",
-    "annotations": {}
-  },
-  {
-    "line": "[Verse 1] ",
-    "annotations": {}
-  },
-  {
-    "line": "I seem not to be having fun as I used to",
-    "annotations": {}
-  },
-  {
-    "line": "Though I pretend to",
-    "annotations": {}
-  },
-  {
-    "line": "When you come around ",
-    "annotations": {}
-  },
-  {
-    "line": "Would you let it fail",
-    "annotations": {}
-  },
-  {
-    "line": "Let there face off ",
-    "annotations": {}
-  },
-  {
-    "line": "",
-    "annotations": {}
-  },
-  {
-    "line": "[Chorus] ",
-    "annotations": {}
-  },
-  {
-    "line": "Cos I want you",
-    "annotations": {}
-  },
-  {
-    "line": "The same as I did at 22",
-    "annotations": {}
-  },
-  {
-    "line": "Nothing has changed ",
-    "annotations": {}
-  },
-  {
-    "line": "Nothing has changed ",
-    "annotations": {}
-  },
-  {
-    "line": "Cos I want you",
-    "annotations": {}
-  },
-  {
-    "line": "As I did at age 22",
-    "annotations": {}
-  },
-  {
-    "line": "Nothing has changed ",
-    "annotations": {}
-  },
-  {
-    "line": "",
-    "annotations": {}
-  },
-  {
-    "line": "[Bridge] ",
-    "annotations": {}
-  },
-  {
-    "line": "Was always, still the best for you, the same ",
-    "annotations": {}
-  },
-  {
-    "line": "Did you see? When you come off! ",
-    "annotations": {}
-  },
-  {
-    "line": "With a rider face, I'm on your fame",
-    "annotations": {}
-  },
-  {
-    "line": "Humming out to the worst",
-    "annotations": {}
-  },
-  {
-    "line": "Still never seen here ",
-    "annotations": {}
-  },
-  {
-    "line": "",
-    "annotations": {}
-  },
-  {
-    "line": "[Chorus] ",
-    "annotations": {}
-  },
-  {
-    "line": "Cos I want you",
-    "annotations": {}
-  },
-  {
-    "line": "The same as I did at 22",
-    "annotations": {}
-  },
-  {
-    "line": "Nothing has changed ",
-    "annotations": {}
-  },
-  {
-    "line": "Nothing has changed ",
-    "annotations": {}
-  },
-  {
-    "line": "Cos I want you",
-    "annotations": {}
-  },
-  {
-    "line": "As I did at age 22",
-    "annotations": {}
-  },
-  {
-    "line": "Nothing has changed ",
-    "annotations": {}
-  },
-  {
-    "line": "",
-    "annotations": {}
-  },
-  {
-    "line": "[Bridge] ",
-    "annotations": {}
-  },
-  {
-    "line": "Was always, still the best for you, the same ",
-    "annotations": {}
-  },
-  {
-    "line": "Did you see? When you come off! ",
-    "annotations": {}
-  },
-  {
-    "line": "With a rider face, I'm on your fame",
-    "annotations": {}
-  },
-  {
-    "line": "Humming out to the worst",
-    "annotations": {}
-  },
-  {
-    "line": "Still never seen here ",
-    "annotations": {}
-  },
-  {
-    "line": "",
-    "annotations": {}
-  },
-  {
-    "line": "[Chorus] ",
-    "annotations": {}
-  },
-  {
-    "line": "Cos I want you",
-    "annotations": {}
-  },
-  {
-    "line": "The same as I did at 22",
-    "annotations": {}
-  },
-  {
-    "line": "Nothing has changed ",
-    "annotations": {}
-  },
-  {
-    "line": "Nothing has changed ",
-    "annotations": {}
-  },
-  {
-    "line": "Cos I want you",
-    "annotations": {}
-  },
-  {
-    "line": "As I did at age 22",
-    "annotations": {}
-  },
-  {
-    "line": "Nothing has changed ",
-    "annotations": {}
-  },
-  {
-    "line": "",
-    "annotations": {}
-  },
-  {
-    "line": "[Bridge] ",
-    "annotations": {}
-  },
-  {
-    "line": "Was always, still the best for you, the same ",
-    "annotations": {}
-  },
-  {
-    "line": "Did you see? When you come off! ",
-    "annotations": {}
-  },
-  {
-    "line": "With a rider face, I'm on your fame",
-    "annotations": {}
-  },
-  {
-    "line": "Humming out to the worst",
-    "annotations": {}
-  },
-  {
-    "line": "Still never seen here ",
-    "annotations": {}
-  },
-  {
-    "line": "",
-    "annotations": {}
-  },
-  {
-    "line": "[Outro] ",
-    "annotations": {}
-  },
-  {
-    "line": "Fresh Boy Chilling ",
-    "annotations": {}
-  }]
+    {
+      "line": "[Intro] ",
+      "annotations": {},
+      "timestamp": "0.00"
+    },
+    {
+      "line": "Oh oh oh ",
+      "annotations": {},
+      "timestamp": "2.45"
+    },
+    {
+      "line": "",
+      "annotations": {},
+      "timestamp": "0"
+    },
+    {
+      "line": "[Verse 1] ",
+      "annotations": {},
+      "timestamp": "8.61"
+    },
+    {
+      "line": "I seem not to be having fun as I used to",
+      "annotations": {},
+      "timestamp": "11.60"
+    },
+    {
+      "line": "Though I pretend to",
+      "annotations": {},
+      "timestamp": "18.92"
+    },
+    {
+      "line": "When you come around ",
+      "annotations": {},
+      "timestamp": "26.72"
+    },
+    {
+      "line": "Would you let it fail",
+      "annotations": {},
+      "timestamp": "30.92"
+    },
+    {
+      "line": "Let there face off ",
+      "annotations": {},
+      "timestamp": "35.05"
+    },
+    {
+      "line": "",
+      "annotations": {},
+      "timestamp": "0"
+    },
+    {
+      "line": "[Chorus] ",
+      "annotations": {},
+      "timestamp": "39.59"
+    },
+    {
+      "line": "Cos I want you",
+      "annotations": {},
+      "timestamp": "40.32"
+    },
+    {
+      "line": "The same as I did at 22",
+      "annotations": {},
+      "timestamp": "43.34"
+    },
+    {
+      "line": "Nothing has changed ",
+      "annotations": {},
+      "timestamp": "47.45"
+    },
+    {
+      "line": "Nothing has changed ",
+      "annotations": {},
+      "timestamp": "50.23"
+    },
+    {
+      "line": "Cos I want you",
+      "annotations": {},
+      "timestamp": "53.35"
+    },
+    {
+      "line": "As I did at age 22",
+      "annotations": {},
+      "timestamp": "54.88"
+    },
+    {
+      "line": "Nothing has changed ",
+      "annotations": {},
+      "timestamp": "57.83"
+    },
+    {
+      "line": "",
+      "annotations": {},
+      "timestamp": "0"
+    },
+    {
+      "line": "[Bridge] ",
+      "annotations": {},
+      "timestamp": "61.87"
+    },
+    {
+      "line": "Was always, still the best for you, the same ",
+      "annotations": {},
+      "timestamp": "63.86"
+    },
+    {
+      "line": "Did you see? When you come off! ",
+      "annotations": {},
+      "timestamp": "67.98"
+    },
+    {
+      "line": "With a rider face, I'm on your fame",
+      "annotations": {},
+      "timestamp": "71.33"
+    },
+    {
+      "line": "Humming out to the worst",
+      "annotations": {},
+      "timestamp": "79.39"
+    },
+    {
+      "line": "Still never seen here ",
+      "annotations": {},
+      "timestamp": "88.33"
+    },
+    {
+      "line": "",
+      "annotations": {},
+      "timestamp": "0"
+    },
+    {
+      "line": "[Chorus] ",
+      "annotations": {},
+      "timestamp": "91.97"
+    },
+    {
+      "line": "Cos I want you",
+      "annotations": {},
+      "timestamp": "93.03"
+    },
+    {
+      "line": "The same as I did at 22",
+      "annotations": {},
+      "timestamp": "95.17"
+    },
+    {
+      "line": "Nothing has changed ",
+      "annotations": {},
+      "timestamp": "99.04"
+    },
+    {
+      "line": "Nothing has changed ",
+      "annotations": {},
+      "timestamp": "102.20"
+    },
+    {
+      "line": "Cos I want you",
+      "annotations": {},
+      "timestamp": "105.38"
+    },
+    {
+      "line": "As I did at age 22",
+      "annotations": {},
+      "timestamp": "106.71"
+    },
+    {
+      "line": "Nothing has changed ",
+      "annotations": {},
+      "timestamp": "109.71"
+    },
+    {
+      "line": "",
+      "annotations": {},
+      "timestamp": "0"
+    },
+    {
+      "line": "[Bridge] ",
+      "annotations": {},
+      "timestamp": "113.74"
+    },
+    {
+      "line": "Was always, still the best for you, the same ",
+      "annotations": {},
+      "timestamp": "116.63"
+    },
+    {
+      "line": "Did you see? When you come off! ",
+      "annotations": {},
+      "timestamp": "119.87"
+    },
+    {
+      "line": "With a rider face, I'm on your fame",
+      "annotations": {},
+      "timestamp": "123.37"
+    },
+    {
+      "line": "Humming out to the worst",
+      "annotations": {},
+      "timestamp": "131.21"
+    },
+    {
+      "line": "Still never seen here ",
+      "annotations": {},
+      "timestamp": "140.03"
+    },
+    {
+      "line": "",
+      "annotations": {},
+      "timestamp": "0"
+    },
+    {
+      "line": "[Chorus] ",
+      "annotations": {},
+      "timestamp": "143.82"
+    },
+    {
+      "line": "Cos I want you",
+      "annotations": {},
+      "timestamp": "145.44"
+    },
+    {
+      "line": "The same as I did at 22",
+      "annotations": {},
+      "timestamp": "148.40"
+    },
+    {
+      "line": "Nothing has changed ",
+      "annotations": {},
+      "timestamp": "152.68"
+    },
+    {
+      "line": "Nothing has changed ",
+      "annotations": {},
+      "timestamp": "155.54"
+    },
+    {
+      "line": "Cos I want you",
+      "annotations": {},
+      "timestamp": "158.43"
+    },
+    {
+      "line": "As I did at age 22",
+      "annotations": {},
+      "timestamp": "160.07"
+    },
+    {
+      "line": "Nothing has changed ",
+      "annotations": {},
+      "timestamp": "162.92"
+    },
+    {
+      "line": "",
+      "annotations": {},
+      "timestamp": "0"
+    },
+    {
+      "line": "[Bridge] ",
+      "annotations": {},
+      "timestamp": "167.15"
+    },
+    {
+      "line": "Was always, still the best for you, the same ",
+      "annotations": {},
+      "timestamp": "168.89"
+    },
+    {
+      "line": "Did you see? When you come off! ",
+      "annotations": {},
+      "timestamp": "173.20"
+    },
+    {
+      "line": "With a rider face, I'm on your fame",
+      "annotations": {},
+      "timestamp": "176.55"
+    },
+    {
+      "line": "Humming out to the worst",
+      "annotations": {},
+      "timestamp": "184.64"
+    },
+    {
+      "line": "Still never seen here ",
+      "annotations": {},
+      "timestamp": "193.51"
+    },
+    {
+      "line": "",
+      "annotations": {},
+      "timestamp": "0"
+    },
+    {
+      "line": "[Outro] ",
+      "annotations": {},
+      "timestamp": "198.03"
+    },
+    {
+      "line": "Fresh Boy Chilling ",
+      "annotations": {},
+      "timestamp": "203.09"
+    }
+  ]
 }
