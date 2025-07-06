@@ -34,7 +34,7 @@ function compressFolder(folderPath, outputFilePath) {
 
 // Main script logic
 (async () => {
-  const folderPath = './js/freshPlayer '; // Set the folder name here
+  const folderPath = './js/freshPlayer'; // Set the folder name here
   const outputFilePath = 'freshPlayer.zip'; // Set the output ZIP file name here
   
   try {
