@@ -99,7 +99,7 @@ export function playTrack(mp3_url) {
         store.nextTrack();
       });
       playerState.audio.addEventListener('timeupdate', () => {
-        if (!playerState.isDragging && !playerState.isManualSpinning) {
+        if (!playerState.isDragging) {
           playerState.currentTime = playerState.audio.currentTime;
           updateProgress();
           updateTimeDisplay();
@@ -112,7 +112,6 @@ export function playTrack(mp3_url) {
       });
     }
 
-    // Avoid resetting src if the track is the same
     if (playerState.currentTrackUrl === mp3_url && !playerState.audio.ended) {
       if (playerState.audio.paused) {
         console.log('Resuming track');
@@ -129,20 +128,31 @@ export function playTrack(mp3_url) {
             hideLoadingOverlay();
           });
       } else {
-        console.log('Track already playing, updating UI');
-        updatePlayerUI(true);
-        hideLoadingOverlay();
+        console.log('Restarting track');
+        playerState.audio.currentTime = 0;
+        playerState.audio.play()
+          .then(() => {
+            console.log('Playback restarted successfully');
+            updatePlayerUI(true);
+            hideLoadingOverlay();
+          })
+          .catch(err => {
+            console.error('Playback error in restart:', err.message);
+            alert('Failed to play track.');
+            updatePlayerUI(false);
+            hideLoadingOverlay();
+          });
       }
       return;
     }
 
-    // New track: pause current, set new src, and play
     if (!playerState.audio.paused) {
       console.log('Pausing current track');
       playerState.audio.pause();
       updatePlayerUI(false);
     }
     playerState.audio.currentTime = 0;
+    playerState.audio.src = '';
     playerState.audio.src = mp3_url;
     playerState.currentTrackUrl = mp3_url;
     console.log('Loading new track:', mp3_url);
