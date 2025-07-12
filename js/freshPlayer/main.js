@@ -1,9 +1,9 @@
 // main.js
 import { store, mountApp } from './store.js';
-import { initializeAnimations, initializeDraggable, initializeSeekBar, updateProgress } from './animations.js'; // Removed updateTimeDisplay
-import { initializePlayer, updateTimeDisplay } from './player.js'; // Added updateTimeDisplay
+import { initializeAnimations, initializeDraggable, initializeSeekBar, updateProgress } from './animations.js';
+import { initializePlayer, updateTimeDisplay } from './player.js';
 import { initializeSearch } from './search.js';
-import { initAlbumTrackLists, normalizeName } from './utils.js';
+import { initAlbumTrackLists } from './utils.js';
 
 let playTimeout = null;
 
@@ -15,46 +15,33 @@ export function handleTrackClick(trackElement, albumId, isPetiteVue) {
       console.error('Error in handleTrackClick: Track element not found', { trackClass });
       return;
     }
-    if (albumId < 1 || albumId > store.albums.length) {
-      console.error('Error in handleTrackClick: Invalid albumId', { albumId });
+    const trackId = track.dataset.trackId;
+    if (!trackId) {
+      console.error('Error in handleTrackClick: Missing trackId', { albumId });
       return;
     }
-    const album = store.albums[albumId - 1].name;
-    const song = track.dataset.song;
-    if (!song) {
-      console.error('Error in handleTrackClick: Missing song data', { albumId });
-      return;
-    }
-    console.log('handleTrackClick:', { album, song });
-    
-    // Clear any pending play requests
+    console.log('handleTrackClick:', { trackId });
     if (playTimeout) {
       clearTimeout(playTimeout);
     }
-    
-    // Debounce play request
-    playTimeout = setTimeout(() => {
-      store.playTrack(album, song);
-      if (isPetiteVue) {
-        store.switchView_ii('div4');
-      }
-      // Highlight track in div4
-      const normalizedSong = normalizeName(song);
-      const trackList = document.getElementById(`track-list-${albumId}`);
-      if (trackList) {
-        const tracks = trackList.querySelectorAll('.track-item');
-        tracks.forEach(t => {
-          if (normalizeName(t.dataset.song) === normalizedSong) {
-            console.log('Highlighting track:', t.dataset.song);
-            t.classList.add('highlighted');
-          } else {
-            t.classList.remove('highlighted');
-          }
-        });
-      }
-    }, 100); // 100ms debounce
+    store.playTrack(trackId);
+    if (isPetiteVue) {
+      store.switchView_ii('div4');
+    }
+    const trackList = document.getElementById(`track-list-${albumId}-div4`);
+    if (trackList) {
+      const tracks = trackList.querySelectorAll('.track-item');
+      tracks.forEach(t => {
+        if (t.dataset.trackId === trackId) {
+          console.log('Highlighting track:', t.dataset.song);
+          t.classList.add('highlighted');
+        } else {
+          t.classList.remove('highlighted');
+        }
+      });
+    }
   } catch (err) {
-    console.error('Error in handleTrackClick:', err.message, { albumId, song, isPetiteVue });
+    console.error('Error in handleTrackClick:', err.message, { albumId, isPetiteVue });
   }
 }
 
@@ -70,10 +57,9 @@ document.addEventListener('DOMContentLoaded', () => {
     initAlbumTrackLists();
     
     const urlParams = new URLSearchParams(window.location.search);
-    const albumName = urlParams.get('album');
-    const songTitle = urlParams.get('song');
-    if (albumName && songTitle) {
-      store.playTrack(albumName, songTitle);
+    const trackId = urlParams.get('track');
+    if (trackId) {
+      store.playTrack(trackId);
     }
     
     if (typeof Swiper !== 'undefined') {
