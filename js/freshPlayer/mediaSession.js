@@ -3,10 +3,8 @@ import { playerState } from './state.js';
 import { togglePlayPause, getAudio } from './player.js';
 import { store } from './store.js';
 
-// Initialize Media Session and Notifications
 export function initializeMediaSession() {
   try {
-    // Initialize Media Session action handlers
     if ('mediaSession' in navigator) {
       navigator.mediaSession.setActionHandler('play', () => {
         console.log('Media Session: Play action triggered');
@@ -55,7 +53,6 @@ export function initializeMediaSession() {
       console.warn('Media Session API not supported');
     }
     
-    // Request Notification permission
     if ('Notification' in window) {
       Notification.requestPermission().then(permission => {
         console.log('Notification permission:', permission);
@@ -70,14 +67,13 @@ export function initializeMediaSession() {
   }
 }
 
-// Update Media Session metadata and send notification
 export function updateMediaMetadata() {
   try {
     if ('mediaSession' in navigator && store.currentTrack && store.currentAlbum) {
       const metadata = new MediaMetadata({
         title: store.currentTrack.name,
         artist: store.currentTrack.artist || 'Frith Hilton',
-        album: store.currentAlbum.name,
+        album: store.currentAlbum.title,
         artwork: [
           { src: store.currentTrack.cover || '../images/default.jpg', sizes: '96x96', type: 'image/jpeg' },
           { src: store.currentTrack.cover || '../images/default.jpg', sizes: '128x128', type: 'image/jpeg' },
@@ -91,18 +87,17 @@ export function updateMediaMetadata() {
       console.log('Media Session metadata updated:', {
         title: store.currentTrack.name,
         artist: store.currentTrack.artist,
-        album: store.currentAlbum.name,
+        album: store.currentAlbum.title,
         artwork: store.currentTrack.cover
       });
       
-      // Send notification for song change
       if ('Notification' in window && Notification.permission === 'granted') {
         const notification = new Notification(store.currentTrack.name, {
-          body: `Artist: ${store.currentTrack.artist || 'Frith Hilton'}\nAlbum: ${store.currentAlbum.name}`,
+          body: `Artist: ${store.currentTrack.artist || 'Frith Hilton'}\nAlbum: ${store.currentAlbum.title}`,
           icon: store.currentTrack.cover || '../images/default.jpg',
           badge: store.currentTrack.cover || '../images/default.jpg',
-          tag: 'song-change', // Prevents duplicate notifications
-          renotify: true // Updates existing notification
+          tag: 'song-change',
+          renotify: true
         });
         notification.onclick = () => {
           window.focus();
@@ -110,13 +105,14 @@ export function updateMediaMetadata() {
         };
         console.log('Notification sent for song change:', store.currentTrack.name);
       }
+    } else {
+      console.warn('Skipping media metadata update: Missing track or album');
     }
   } catch (err) {
     console.error('Error in updateMediaMetadata:', err.message);
   }
 }
 
-// Update Media Session playback state and position
 export function updateMediaPlaybackState(isPlaying) {
   try {
     if ('mediaSession' in navigator) {
