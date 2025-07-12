@@ -593,11 +593,10 @@
     </div>
     
     <div v-show="store.getInnerView() === 'div3'">
-      
       <!-- Album 16: whereIsTheMoodRobot -->
       <div class="gradient-item" @click="store.showAlbumTracks(16)">
         <div class="gradient-wrap">
-          <img src="../images/albums/whereIsTheMoodRobot.png" alt="whereIsTheMoodRobot" crossorigin="anonymous" />
+          <img :src="store.getAlbumCover(16)" alt="whereIsTheMoodRobot" crossorigin="anonymous" />
         </div>
       </div>
       <section class="py-4 bg-black">
@@ -605,37 +604,21 @@
           <div class="row justify-content-center" @click="store.showAlbumTracks(16)">
             <div class="col-12 text-center">
               <h3 class="text-white mb-5">whereIsTheMoodRobot</h3>
-              <!--<span role="button" disabled and tabindex="0" @click.stop.prevent="store.buyAlbum(16)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>-->
+              <!-- <span role="button" disabled and tabindex="0" @click.stop.prevent="store.buyAlbum(16)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span> -->
             </div>
           </div>
-          <div id="album-16" class="row justify-content-center mt-3" style="display: none;">
+          <div :id="'album-' + 16" class="row justify-content-center mt-3" style="display: none;">
             <div class="col-12 text-center">
-              <ul class="text-white list-unstyled album-track-list">
-                <li class="album-track" data-song="So alive Overture">1. So alive Overture</li>
-                <li class="album-track" data-song="Isn’t it yours">2. Isn’t it yours</li>
-                <li class="album-track" data-song="Old passions">3. Old passions</li>
-                <li class="album-track" data-song="Bread II">4. Bread II</li>
-                <li class="album-track" data-song="Faraway">5. Faraway</li>
-                <li class="album-track" data-song="Cheer on me">6. Cheer on me</li>
-                <li class="album-track" data-song="For it">7. For it</li>
-                <li class="album-track" data-song="Via">8. Via</li>
-                <li class="album-track" data-song="Dakota">9. Dakota</li>
-                <li class="album-track" data-song="The Man">10. The Man</li>
-                <li class="album-track" data-song="Headphones">11. Headphones</li>
-                <li class="album-track" data-song="Age 22">12. Age 22</li>
-                <li class="album-track" data-song="Buddy">13. Buddy</li>
-              </ul>
+              <ul class="text-white list-unstyled album-track-list" :id="'track-list-' + 16"></ul>
             </div>
           </div>
         </div>
       </section>
       
-      
-      
       <!-- Album 15: Valence Eve -->
       <div class="gradient-item" @click="store.showAlbumTracks(15)">
         <div class="gradient-wrap">
-          <img src="../images/albums/ValenceEve.jpg" alt="Valence Eve" crossorigin="anonymous" />
+          <img :src="store.getAlbumCover(15)" alt="Valence Eve" crossorigin="anonymous" />
         </div>
       </div>
       <section class="py-4 bg-black">
@@ -643,34 +626,12 @@
           <div class="row justify-content-center" @click="store.showAlbumTracks(15)">
             <div class="col-12 text-center">
               <h3 class="text-white mb-5">Valence Eve</h3>
-              <span role="button" and tabindex="0" @click.stop.prevent="store.buyAlbum(15)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+              <span role="button" tabindex="0" @click.stop.prevent="store.buyAlbum(15)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
-          <div id="album-15" class="row justify-content-center mt-3" style="display: none;">
+          <div :id="'album-' + 15" class="row justify-content-center mt-3" style="display: none;">
             <div class="col-12 text-center">
-              <ul class="text-white list-unstyled album-track-list">
-                <li class="album-track" data-song="I try">1. I try</li>
-                <li class="album-track" data-song="Kill time">2. Kill time</li>
-                <li class="album-track" data-song="Alarms">3. Alarms</li>
-                <li class="album-track" data-song="Smile on me">4. Smile on me</li>
-                <li class="album-track" data-song="Queen's daughter">5. Queen's daughter</li>
-                <li class="album-track" data-song="The game we play">6. The game we play</li>
-                <li class="album-track" data-song="Yahoo">7. Yahoo</li>
-                <li class="album-track" data-song="Beautiful Taylor">8. Beautiful Taylor</li>
-                <li class="album-track" data-song="Farce emotions">9. Farce emotions</li>
-                <li class="album-track" data-song="To you">10. To you</li>
-                <li class="album-track" data-song="Honest">11. Honest</li>
-                <li class="album-track" data-song="Recruits">12. Recruits</li>
-                <li class="album-track" data-song="Butcher feel">13. Butcher feel</li>
-                <li class="album-track" data-song="Porn star">14. Porn star</li>
-                <li class="album-track" data-song="Taking you home">15. Taking you home</li>
-                <li class="album-track" data-song="Kai Trump">16. Kai Trump</li>
-                <li class="album-track" data-song="Dime piece">17. Dime piece</li>
-                <li class="album-track" data-song="Fisherman">18. Fisherman</li>
-                <li class="album-track" data-song="Bedtime">19. Bedtime</li>
-                <li class="album-track" data-song="Madness">20. Madness</li>
-                <li class="album-track" data-song="Clubing sad">21. Clubing sad</li>
-              </ul>
+              <ul class="text-white list-unstyled album-track-list" :id="'track-list-' + 15"></ul>
             </div>
           </div>
         </div>
@@ -679,7 +640,7 @@
       <!-- Album 14: Farther Memes -->
       <div class="gradient-item" @click="store.showAlbumTracks(14)">
         <div class="gradient-wrap">
-          <img src="../images/albums/farthermemes.png" alt="Farther Memes" crossorigin="anonymous" />
+          <img :src="store.getAlbumCover(14)" alt="Farther Memes" crossorigin="anonymous" />
         </div>
       </div>
       <section class="py-4 bg-black">
@@ -687,46 +648,12 @@
           <div class="row justify-content-center" @click="store.showAlbumTracks(14)">
             <div class="col-12 text-center">
               <h3 class="text-white mb-5">Farther Memes</h3>
-              <span role="button" and tabindex="0" @click.stop.prevent="store.buyAlbum(14)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+              <span role="button" tabindex="0" @click.stop.prevent="store.buyAlbum(14)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
-          <div id="album-14" class="row justify-content-center mt-3" style="display: none;">
+          <div :id="'album-' + 14" class="row justify-content-center mt-3" style="display: none;">
             <div class="col-12 text-center">
-              <ul class="text-white list-unstyled album-track-list">
-                <li class="album-track" data-song="Oliver Sacks">1. Oliver Sacks</li>
-                <li class="album-track" data-song="Oliver Sacks II">2. Oliver Sacks II</li>
-                <li class="album-track" data-song="Palacio de la Zarzuela">3. Palacio de la Zarzuela</li>
-                <li class="album-track" data-song="The preacher">4. The preacher</li>
-                <li class="album-track" data-song="Rick reflection">5. Rick reflection</li>
-                <li class="album-track" data-song="End of summer">6. End of summer</li>
-                <li class="album-track" data-song="Sex is everything">7. Sex is everything</li>
-                <li class="album-track" data-song="Fool for you">8. Fool for you</li>
-                <li class="album-track" data-song="Hathaway">9. Hathaway</li>
-                <li class="album-track" data-song="Crush">10. Crush</li>
-                <li class="album-track" data-song="Jealousy">11. Jealousy</li>
-                <li class="album-track" data-song="Obligations">12. Obligations</li>
-                <li class="album-track" data-song="Rust">13. Rust</li>
-                <li class="album-track" data-song="Best cardigan">14. Best cardigan</li>
-                <li class="album-track" data-song="Unwilling">15. Unwilling</li>
-                <li class="album-track" data-song="Applish">16. Applish</li>
-                <li class="album-track" data-song="Home alone">17. Home alone</li>
-                <li class="album-track" data-song="Aureole sigh">18. Aureole sigh</li>
-                <li class="album-track" data-song="First lines">19. First lines</li>
-                <li class="album-track" data-song="Spaghetti code">20. Spaghetti code</li>
-                <li class="album-track" data-song="Fire">21. Fire</li>
-                <li class="album-track" data-song="Fish">22. Fish</li>
-                <li class="album-track" data-song="Greener">23. Greener</li>
-                <li class="album-track" data-song="Lens">24. Lens</li>
-                <li class="album-track" data-song="Keyhole">25. Keyhole</li>
-                <li class="album-track" data-song="Bright-eyed">26. Bright-eyed</li>
-                <li class="album-track" data-song="Cut in fame">27. Cut in fame</li>
-                <li class="album-track" data-song="Feel good">28. Feel good</li>
-                <li class="album-track" data-song="Adios">29. Adios</li>
-                <li class="album-track" data-song="Woah">30. Woah</li>
-                <li class="album-track" data-song="Locked in">31. Locked in</li>
-                <li class="album-track" data-song="Heartbeat">32. Heartbeat</li>
-                <li class="album-track" data-song="Barefoot">33. Barefoot</li>
-              </ul>
+              <ul class="text-white list-unstyled album-track-list" :id="'track-list-' + 14"></ul>
             </div>
           </div>
         </div>
@@ -735,7 +662,7 @@
       <!-- Album 13: the Sessions... -->
       <div class="gradient-item" @click="store.showAlbumTracks(13)">
         <div class="gradient-wrap">
-          <img src="../images/albums/theSessions.jpg" alt="the Sessions..." crossorigin="anonymous" />
+          <img :src="store.getAlbumCover(13)" alt="the Sessions..." crossorigin="anonymous" />
         </div>
       </div>
       <section class="py-4 bg-black">
@@ -743,27 +670,12 @@
           <div class="row justify-content-center" @click="store.showAlbumTracks(13)">
             <div class="col-12 text-center">
               <h3 class="text-white mb-5">the Sessions...</h3>
-              <span role="button" and tabindex="0" @click.stop.prevent="store.buyAlbum(13)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+              <span role="button" tabindex="0" @click.stop.prevent="store.buyAlbum(13)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
-          <div id="album-13" class="row justify-content-center mt-3" style="display: none;">
+          <div :id="'album-' + 13" class="row justify-content-center mt-3" style="display: none;">
             <div class="col-12 text-center">
-              <ul class="text-white list-unstyled album-track-list">
-                <li class="album-track" data-song="Savour">1. Savour</li>
-                <li class="album-track" data-song="Dizzy morning">2. Dizzy morning</li>
-                <li class="album-track" data-song="Dirty laundry">3. Dirty laundry</li>
-                <li class="album-track" data-song="Canticle">4. Canticle</li>
-                <li class="album-track" data-song="SZA">5. SZA</li>
-                <li class="album-track" data-song="Undecided">6. Undecided</li>
-                <li class="album-track" data-song="Different">7. Different</li>
-                <li class="album-track" data-song="Session 8">8. Session 8</li>
-                <li class="album-track" data-song="I'll be there">9. I'll be there</li>
-                <li class="album-track" data-song="Back to the store">10. Back to the store</li>
-                <li class="album-track" data-song="Sorry I'm alive">11. Sorry I'm alive</li>
-                <li class="album-track" data-song="Long way home">12. Long way home</li>
-                <li class="album-track" data-song="Field of faeries">13. Field of faeries</li>
-                <li class="album-track" data-song="Magical">14. Magical</li>
-              </ul>
+              <ul class="text-white list-unstyled album-track-list" :id="'track-list-' + 13"></ul>
             </div>
           </div>
         </div>
@@ -772,7 +684,7 @@
       <!-- Album 12: it's pop -->
       <div class="gradient-item" @click="store.showAlbumTracks(12)">
         <div class="gradient-wrap">
-          <img src="../images/albums/itspop.png" alt="it's pop" crossorigin="anonymous" />
+          <img :src="store.getAlbumCover(12)" alt="it's pop" crossorigin="anonymous" />
         </div>
       </div>
       <section class="py-4 bg-black">
@@ -780,81 +692,34 @@
           <div class="row justify-content-center" @click="store.showAlbumTracks(12)">
             <div class="col-12 text-center">
               <h3 class="text-white mb-5">it's pop</h3>
-              <span role="button" and tabindex="0" @click.stop.prevent="store.buyAlbum(12)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+              <span role="button" tabindex="0" @click.stop.prevent="store.buyAlbum(12)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
-          <div id="album-12" class="row justify-content-center mt-3" style="display: none;">
+          <div :id="'album-' + 12" class="row justify-content-center mt-3" style="display: none;">
             <div class="col-12 text-center">
-              <ul class="text-white list-unstyled album-track-list">
-                <li class="album-track" data-song="Low life dirty rat">1. Low life dirty rat</li>
-                <li class="album-track" data-song="A seal">2. A seal</li>
-                <li class="album-track" data-song="Summit">3. Summit</li>
-                <li class="album-track" data-song="New hemp plant">4. New hemp plant</li>
-                <li class="album-track" data-song="Melly">5. Melly</li>
-                <li class="album-track" data-song="Stuck in life">6. Stuck in life</li>
-                <li class="album-track" data-song="Heart census">7. Heart census</li>
-                <li class="album-track" data-song="Kevin Hart">8. Kevin Hart</li>
-                <li class="album-track" data-song="Head">9. Head</li>
-                <li class="album-track" data-song="Imagination">10. Imagination</li>
-                <li class="album-track" data-song="Lonely note">11. Lonely note</li>
-                <li class="album-track" data-song="Hubble">12. Hubble</li>
-                <li class="album-track" data-song="Take me out">13. Take me out</li>
-                <li class="album-track" data-song="Reward Money">14. Reward Money</li>
-                <li class="album-track" data-song="Big fat lie">15. Big fat lie</li>
-                <li class="album-track" data-song="The calm">16. The calm</li>
-                <li class="album-track" data-song="I don't know">17. I don't know</li>
-                <li class="album-track" data-song="I get the ghetto">18. I get the ghetto</li>
-                <li class="album-track" data-song="Sliving">19. Sliving</li>
-                <li class="album-track" data-song="Bagging this home">20. Bagging this home</li>
-                <li class="album-track" data-song="Bag grips">21. Bag grips</li>
-                <li class="album-track" data-song="Outro">22. Outro</li>
-              </ul>
+              <ul class="text-white list-unstyled album-track-list" :id="'track-list-' + 12"></ul>
             </div>
           </div>
         </div>
       </section>
       
-      <!-- Album 11: troubadour -->
+      <!-- Album 11: Troubadour -->
       <div class="gradient-item" @click="store.showAlbumTracks(11)">
         <div class="gradient-wrap">
-          <img src="../images/albums/Troubadour.png" alt="troubadour" crossorigin="anonymous" />
+          <img :src="store.getAlbumCover(11)" alt="Troubadour" crossorigin="anonymous" />
         </div>
       </div>
       <section class="py-4 bg-black">
         <div class="container">
           <div class="row justify-content-center" @click="store.showAlbumTracks(11)">
             <div class="col-12 text-center">
-              <h3 class="text-white mb-5">troubadour</h3>
-              <span role="button" and tabindex="0" @click.stop.prevent="store.buyAlbum(11)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+              <h3 class="text-white mb-5">Troubadour</h3>
+              <span role="button" tabindex="0" @click.stop.prevent="store.buyAlbum(11)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
-          <div id="album-11" class="row justify-content-center mt-3" style="display: none;">
+          <div :id="'album-' + 11" class="row justify-content-center mt-3" style="display: none;">
             <div class="col-12 text-center">
-              <ul class="text-white list-unstyled album-track-list">
-                <li class="album-track" data-song="Eviction">1. Eviction</li>
-                <li class="album-track" data-song="Waste away">2. Waste away</li>
-                <li class="album-track" data-song="West to west">3. West to west</li>
-                <li class="album-track" data-song="I'll never">4. I'll never</li>
-                <li class="album-track" data-song="Cave">5. Cave</li>
-                <li class="album-track" data-song="Just let me go">6. Just let me go</li>
-                <li class="album-track" data-song="Cheetah">7. Cheetah</li>
-                <li class="album-track" data-song="Find me">8. Find me</li>
-                <li class="album-track" data-song="Baby girl">9. Baby girl</li>
-                <li class="album-track" data-song="My Hope">10. My Hope</li>
-                <li class="album-track" data-song="Someone asked">11. Someone asked</li>
-                <li class="album-track" data-song="Let it go">12. Let it go</li>
-                <li class="album-track" data-song="Testa">13. Testa</li>
-                <li class="album-track" data-song="Respiring">14. Respiring</li>
-                <li class="album-track" data-song="Pretty girl">15. Pretty girl</li>
-                <li class="album-track" data-song="Vacation">16. Vacation</li>
-                <li class="album-track" data-song="Heathrow">17. Heathrow</li>
-                <li class="album-track" data-song="Benny">18. Benny</li>
-                <li class="album-track" data-song="Beginning">19. Beginning</li>
-                <li class="album-track" data-song="Bedroom">20. Bedroom</li>
-                <li class="album-track" data-song="Goodness">21. Goodness</li>
-                <li class="album-track" data-song="Sure we lit">22. Sure we lit</li>
-                <li class="album-track" data-song="Old door">23. Old door</li>
-              </ul>
+              <ul class="text-white list-unstyled album-track-list" :id="'track-list-' + 11"></ul>
             </div>
           </div>
         </div>
@@ -863,7 +728,7 @@
       <!-- Album 10: Nightswan -->
       <div class="gradient-item" @click="store.showAlbumTracks(10)">
         <div class="gradient-wrap">
-          <img src="../images/albums/Nightswan.jpg" alt="Nightswan" crossorigin="anonymous" />
+          <img :src="store.getAlbumCover(10)" alt="Nightswan" crossorigin="anonymous" />
         </div>
       </div>
       <section class="py-4 bg-black">
@@ -871,36 +736,12 @@
           <div class="row justify-content-center" @click="store.showAlbumTracks(10)">
             <div class="col-12 text-center">
               <h3 class="text-white mb-5">Nightswan</h3>
-              <span role="button" and tabindex="0" @click.stop.prevent="store.buyAlbum(10)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+              <span role="button" tabindex="0" @click.stop.prevent="store.buyAlbum(10)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
-          <div id="album-10" class="row justify-content-center mt-3" style="display: none;">
+          <div :id="'album-' + 10" class="row justify-content-center mt-3" style="display: none;">
             <div class="col-12 text-center">
-              <ul class="text-white list-unstyled album-track-list">
-                <li class="album-track" data-song="Curandera">1. Curandera</li>
-                <li class="album-track" data-song="Marilyn">2. Marilyn</li>
-                <li class="album-track" data-song="Being friends">3. Being friends</li>
-                <li class="album-track" data-song="Darbies">4. Darbies</li>
-                <li class="album-track" data-song="Amor fati">5. Amor fati</li>
-                <li class="album-track" data-song="Pale">6. Pale</li>
-                <li class="album-track" data-song="Nominal now">7. Nominal now</li>
-                <li class="album-track" data-song="Best stan">8. Best stan</li>
-                <li class="album-track" data-song="Different man">9. Different man</li>
-                <li class="album-track" data-song="Fresh">10. Fresh</li>
-                <li class="album-track" data-song="Bad descriptions">11. Bad descriptions</li>
-                <li class="album-track" data-song="Backstage Friday">12. Backstage Friday</li>
-                <li class="album-track" data-song="Amusing">13. Amusing</li>
-                <li class="album-track" data-song="Party ho">14. Party ho</li>
-                <li class="album-track" data-song="Love god">15. Love god</li>
-                <li class="album-track" data-song="Hungry ladies">16. Hungry ladies</li>
-                <li class="album-track" data-song="Dreadnought">17. Dreadnought</li>
-                <li class="album-track" data-song="Get it out">18. Get it out</li>
-                <li class="album-track" data-song="Liar">19. Liar</li>
-                <li class="album-track" data-song="Skin">20. Skin</li>
-                <li class="album-track" data-song="Line">21. Line</li>
-                <li class="album-track" data-song="Boss woman">22. Boss woman</li>
-                <li class="album-track" data-song="Solid ground">23. Solid ground</li>
-              </ul>
+              <ul class="text-white list-unstyled album-track-list" :id="'track-list-' + 10"></ul>
             </div>
           </div>
         </div>
@@ -909,7 +750,7 @@
       <!-- Album 9: the Lover tap3 -->
       <div class="gradient-item" @click="store.showAlbumTracks(9)">
         <div class="gradient-wrap">
-          <img src="../images/albums/theLovertap3.jpg" alt="the Lover tap3" crossorigin="anonymous" />
+          <img :src="store.getAlbumCover(9)" alt="the Lover tap3" crossorigin="anonymous" />
         </div>
       </div>
       <section class="py-4 bg-black">
@@ -917,22 +758,12 @@
           <div class="row justify-content-center" @click="store.showAlbumTracks(9)">
             <div class="col-12 text-center">
               <h3 class="text-white mb-5">the Lover tap3</h3>
-              <span role="button" and tabindex="0" @click.stop.prevent="store.buyAlbum(9)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+              <span role="button" tabindex="0" @click.stop.prevent="store.buyAlbum(9)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
-          <div id="album-9" class="row justify-content-center mt-3" style="display: none;">
+          <div :id="'album-' + 9" class="row justify-content-center mt-3" style="display: none;">
             <div class="col-12 text-center">
-              <ul class="text-white list-unstyled album-track-list">
-                <li class="album-track" data-song="Fair this time">1. Fair this time</li>
-                <li class="album-track" data-song="Envy">2. Envy</li>
-                <li class="album-track" data-song="Hump">3. Hump</li>
-                <li class="album-track" data-song="Show me a girl">4. Show me a girl</li>
-                <li class="album-track" data-song="Disclose">5. Disclose</li>
-                <li class="album-track" data-song="On one">6. On one</li>
-                <li class="album-track" data-song="Boink">7. Boink</li>
-                <li class="album-track" data-song="Seventeen">8. Seventeen</li>
-                <li class="album-track" data-song="All girls aren't the same">9. All girls aren't the same</li>
-              </ul>
+              <ul class="text-white list-unstyled album-track-list" :id="'track-list-' + 9"></ul>
             </div>
           </div>
         </div>
@@ -941,7 +772,7 @@
       <!-- Album 8: lantern -->
       <div class="gradient-item" @click="store.showAlbumTracks(8)">
         <div class="gradient-wrap">
-          <img src="../images/albums/lantern.jpg" alt="lantern" crossorigin="anonymous" />
+          <img :src="store.getAlbumCover(8)" alt="lantern" crossorigin="anonymous" />
         </div>
       </div>
       <section class="py-4 bg-black">
@@ -949,45 +780,21 @@
           <div class="row justify-content-center" @click="store.showAlbumTracks(8)">
             <div class="col-12 text-center">
               <h3 class="text-white mb-5">lantern</h3>
-              <span role="button" and tabindex="0" @click.stop.prevent="store.buyAlbum(8)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+              <span role="button" tabindex="0" @click.stop.prevent="store.buyAlbum(8)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
-          <div id="album-8" class="row justify-content-center mt-3" style="display: none;">
+          <div :id="'album-' + 8" class="row justify-content-center mt-3" style="display: none;">
             <div class="col-12 text-center">
-              <ul class="text-white list-unstyled album-track-list">
-                <li class="album-track" data-song="Do I ever do?">1. Do I ever do?</li>
-                <li class="album-track" data-song="Number busy">2. Number busy</li>
-                <li class="album-track" data-song="Emma I feel">3. Emma I feel</li>
-                <li class="album-track" data-song="Raunch child">4. Raunch child</li>
-                <li class="album-track" data-song="Jekyll">5. Jekyll</li>
-                <li class="album-track" data-song="God of clean">6. God of clean</li>
-                <li class="album-track" data-song="Hungry man">7. Hungry man</li>
-                <li class="album-track" data-song="Lantern">8. Lantern</li>
-                <li class="album-track" data-song="3:30">9. 3:30</li>
-                <li class="album-track" data-song="Be my lover">10. Be my lover</li>
-                <li class="album-track" data-song="Purple zone">11. Purple zone</li>
-                <li class="album-track" data-song="Shire">12. Shire</li>
-                <li class="album-track" data-song="Pussy power">13. Pussy power</li>
-                <li class="album-track" data-song="Scent">14. Scent</li>
-                <li class="album-track" data-song="Yeehaw">15. Yeehaw</li>
-                <li class="album-track" data-song="Mind talk">16. Mind talk</li>
-                <li class="album-track" data-song="Cautious">17. Cautious</li>
-                <li class="album-track" data-song="Sarah">18. Sarah</li>
-                <li class="album-track" data-song="Call for more">19. Call for more</li>
-                <li class="album-track" data-song="Higher calling">20. Higher calling</li>
-                <li class="album-track" data-song="Say it">21. Say it</li>
-                <li class="album-track" data-song="Avalon">22. Avalon</li>
-                <li class="album-track" data-song="How I lose it">23. How I lose it</li>
-              </ul>
+              <ul class="text-white list-unstyled album-track-list" :id="'track-list-' + 8"></ul>
             </div>
           </div>
         </div>
       </section>
       
-      <!-- Album 7: Theo -->
+      <!-- Album 7: Hilton -->
       <div class="gradient-item" @click="store.showAlbumTracks(7)">
         <div class="gradient-wrap">
-          <img src="../images/albums/theo.jpg" alt="Hilton" crossorigin="anonymous" />
+          <img :src="store.getAlbumCover(7)" alt="Hilton" crossorigin="anonymous" />
         </div>
       </div>
       <section class="py-4 bg-black">
@@ -995,49 +802,12 @@
           <div class="row justify-content-center" @click="store.showAlbumTracks(7)">
             <div class="col-12 text-center">
               <h3 class="text-white mb-5">Hilton</h3>
-              <span role="button" and tabindex="0" @click.stop.prevent="store.buyAlbum(7)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+              <span role="button" tabindex="0" @click.stop.prevent="store.buyAlbum(7)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
-          <div id="album-7" class="row justify-content-center mt-3" style="display: none;">
+          <div :id="'album-' + 7" class="row justify-content-center mt-3" style="display: none;">
             <div class="col-12 text-center">
-              <ul class="text-white list-unstyled album-track-list">
-                <li class="album-track" data-song="Easy son">1. Easy son</li>
-                <li class="album-track" data-song="Ex, your relay">2. Ex, your relay</li>
-                <li class="album-track" data-song="Easy, hard">3. Easy, hard</li>
-                <li class="album-track" data-song="Apogee">4. Apogee</li>
-                <li class="album-track" data-song="Caret">5. Caret</li>
-                <li class="album-track" data-song="Moment">6. Moment</li>
-                <li class="album-track" data-song="Trauma">7. Trauma</li>
-                <li class="album-track" data-song="Yodel in a vial">8. Yodel in a vial</li>
-                <li class="album-track" data-song="Tate jersey love">9. Tate jersey love</li>
-                <li class="album-track" data-song="Favourite">10. Favourite</li>
-                <li class="album-track" data-song="Rose">11. Rose</li>
-                <li class="album-track" data-song="Swan">12. Swan</li>
-                <li class="album-track" data-song="Demola (Zenosyne)">13. Demola (Zenosyne)</li>
-                <li class="album-track" data-song="Heavy keys">14. Heavy keys</li>
-                <li class="album-track" data-song="Crash">15. Crash</li>
-                <li class="album-track" data-song="Oh din!">16. Oh din!</li>
-                <li class="album-track" data-song="Soured love">17. Soured love</li>
-                <li class="album-track" data-song="The one">18. The one</li>
-                <li class="album-track" data-song="Post soul">19. Post soul</li>
-                <li class="album-track" data-song="Our fall">20. Our fall</li>
-                <li class="album-track" data-song="Send me to sleep">21. Send me to sleep</li>
-                <li class="album-track" data-song="Purpose">22. Purpose</li>
-                <li class="album-track" data-song="Waste the time">23. Waste the time</li>
-                <li class="album-track" data-song="Mound gold">24. Mound gold</li>
-                <li class="album-track" data-song="Jail">25. Jail</li>
-                <li class="album-track" data-song="Stuck">26. Stuck</li>
-                <li class="album-track" data-song="Doobry">27. Doobry</li>
-                <li class="album-track" data-song="Cull sigh">28. Cull sigh</li>
-                <li class="album-track" data-song="I'm on air">29. I'm on air</li>
-                <li class="album-track" data-song="Bread">30. Bread</li>
-                <li class="album-track" data-song="I pray">31. I pray</li>
-                <li class="album-track" data-song="My fantasy">32. My fantasy</li>
-                <li class="album-track" data-song="A nearer echo">33. A nearer echo</li>
-                <li class="album-track" data-song="Happy married life">34. Happy married life</li>
-                <li class="album-track" data-song="Polygamy">35. Polygamy</li>
-                <li class="album-track" data-song="Sofia">36. Sofia</li>
-              </ul>
+              <ul class="text-white list-unstyled album-track-list" :id="'track-list-' + 7"></ul>
             </div>
           </div>
         </div>
@@ -1046,7 +816,7 @@
       <!-- Album 6: Jacaranda -->
       <div class="gradient-item" @click="store.showAlbumTracks(6)">
         <div class="gradient-wrap">
-          <img src="../images/albums/jacaranda.jpg" alt="Jacaranda" crossorigin="anonymous" />
+          <img :src="store.getAlbumCover(6)" alt="Jacaranda" crossorigin="anonymous" />
         </div>
       </div>
       <section class="py-4 bg-black">
@@ -1054,35 +824,12 @@
           <div class="row justify-content-center" @click="store.showAlbumTracks(6)">
             <div class="col-12 text-center">
               <h3 class="text-white mb-5">Jacaranda</h3>
-              <span role="button" and tabindex="0" @click.stop.prevent="store.buyAlbum(6)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+              <span role="button" tabindex="0" @click.stop.prevent="store.buyAlbum(6)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
-          <div id="album-6" class="row justify-content-center mt-3" style="display: none;">
+          <div :id="'album-' + 6" class="row justify-content-center mt-3" style="display: none;">
             <div class="col-12 text-center">
-              <ul class="text-white list-unstyled album-track-list">
-                <li class="album-track" data-song="Home">1. Home</li>
-                <li class="album-track" data-song="QWERTY">2. QWERTY</li>
-                <li class="album-track" data-song="Blue heeler">3. Blue heeler</li>
-                <li class="album-track" data-song="Gargoyle">4. Gargoyle</li>
-                <li class="album-track" data-song="Silly hen">5. Silly hen</li>
-                <li class="album-track" data-song="June">6. June</li>
-                <li class="album-track" data-song="Thoth">7. Thoth</li>
-                <li class="album-track" data-song="Real sad">8. Real sad</li>
-                <li class="album-track" data-song="Tangerine clouds">9. Tangerine clouds</li>
-                <li class="album-track" data-song="What if cell like">10. What if cell like</li>
-                <li class="album-track" data-song="Can't hide your theme">11. Can't hide your theme</li>
-                <li class="album-track" data-song="Paying only you">12. Paying only you</li>
-                <li class="album-track" data-song="The pain you need">13. The pain you need</li>
-                <li class="album-track" data-song="Mona Lisa">14. Mona Lisa</li>
-                <li class="album-track" data-song="Reusable bag">15. Reusable bag</li>
-                <li class="album-track" data-song="Street lights">16. Street lights</li>
-                <li class="album-track" data-song="Beautiful">17. Beautiful</li>
-                <li class="album-track" data-song="Pro hac vice">18. Pro hac vice</li>
-                <li class="album-track" data-song="Cobber momma">19. Cobber momma</li>
-                <li class="album-track" data-song="Get that education">20. Get that education</li>
-                <li class="album-track" data-song="Telescopic">21. Telescopic</li>
-                <li class="album-track" data-song="Christmas sleepover">22. Christmas sleepover</li>
-              </ul>
+              <ul class="text-white list-unstyled album-track-list" :id="'track-list-' + 6"></ul>
             </div>
           </div>
         </div>
@@ -1091,7 +838,7 @@
       <!-- Album 5: screen time -->
       <div class="gradient-item" @click="store.showAlbumTracks(5)">
         <div class="gradient-wrap">
-          <img src="../images/albums/screentime.jpg" alt="screen time" crossorigin="anonymous" />
+          <img :src="store.getAlbumCover(5)" alt="screen time" crossorigin="anonymous" />
         </div>
       </div>
       <section class="py-4 bg-black">
@@ -1099,47 +846,12 @@
           <div class="row justify-content-center" @click="store.showAlbumTracks(5)">
             <div class="col-12 text-center">
               <h3 class="text-white mb-5">screen time</h3>
-              <span role="button" and tabindex="0" @click.stop.prevent="store.buyAlbum(5)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+              <span role="button" tabindex="0" @click.stop.prevent="store.buyAlbum(5)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
-          <div id="album-5" class="row justify-content-center mt-3" style="display: none;">
+          <div :id="'album-' + 5" class="row justify-content-center mt-3" style="display: none;">
             <div class="col-12 text-center">
-              <ul class="text-white list-unstyled album-track-list">
-                <li class="album-track" data-song="From the start">1. From the start</li>
-                <li class="album-track" data-song="Reverse">2. Reverse</li>
-                <li class="album-track" data-song="Get on with Jack">3. Get on with Jack</li>
-                <li class="album-track" data-song="Too deep">4. Too deep</li>
-                <li class="album-track" data-song="Andalucía">5. Andalucía</li>
-                <li class="album-track" data-song="Friends">6. Friends</li>
-                <li class="album-track" data-song="Text">7. Text</li>
-                <li class="album-track" data-song="Sunny">8. Sunny</li>
-                <li class="album-track" data-song="Humming">9. Humming</li>
-                <li class="album-track" data-song="Waves">10. Waves</li>
-                <li class="album-track" data-song="Addison Rae">11. Addison Rae</li>
-                <li class="album-track" data-song="Pauline">12. Pauline</li>
-                <li class="album-track" data-song="Skyline grey">13. Skyline grey</li>
-                <li class="album-track" data-song="Bittersweet">14. Bittersweet</li>
-                <li class="album-track" data-song="Over you">15. Over you</li>
-                <li class="album-track" data-song="Dreaming">16. Dreaming</li>
-                <li class="album-track" data-song="Relapse holding">17. Relapse holding</li>
-                <li class="album-track" data-song="Not lost">18. Not lost</li>
-                <li class="album-track" data-song="Hideaway">19. Hideaway</li>
-                <li class="album-track" data-song="Superficial">20. Superficial</li>
-                <li class="album-track" data-song="Warning sign">21. Warning sign</li>
-                <li class="album-track" data-song="Tears to my heart">22. Tears to my heart</li>
-                <li class="album-track" data-song="I'm sorry">23. I'm sorry</li>
-                <li class="album-track" data-song="Yearning">24. Yearning</li>
-                <li class="album-track" data-song="Silver all gone">25. Silver all gone</li>
-                <li class="album-track" data-song="Your eyes">26. Your eyes</li>
-                <li class="album-track" data-song="Hold over me">27. Hold over me</li>
-                <li class="album-track" data-song="A minute">28. A minute</li>
-                <li class="album-track" data-song="Mariam">29. Mariam</li>
-                <li class="album-track" data-song="Mine">30. Mine</li>
-                <li class="album-track" data-song="Back home">31. Back home</li>
-                <li class="album-track" data-song="Heaven knows">32. Heaven knows</li>
-                <li class="album-track" data-song="Assets">33. Assets</li>
-                <li class="album-track" data-song="Just us two">34. Just us two</li>
-              </ul>
+              <ul class="text-white list-unstyled album-track-list" :id="'track-list-' + 5"></ul>
             </div>
           </div>
         </div>
@@ -1148,7 +860,7 @@
       <!-- Album 4: Frith -->
       <div class="gradient-item" @click="store.showAlbumTracks(4)">
         <div class="gradient-wrap">
-          <img src="../images/albums/frith.jpg" alt="Frith" crossorigin="anonymous" />
+          <img :src="store.getAlbumCover(4)" alt="Frith" crossorigin="anonymous" />
         </div>
       </div>
       <section class="py-4 bg-black">
@@ -1156,36 +868,12 @@
           <div class="row justify-content-center" @click="store.showAlbumTracks(4)">
             <div class="col-12 text-center">
               <h3 class="text-white mb-5">Frith</h3>
-              <span role="button" and tabindex="0" @click.stop.prevent="store.buyAlbum(4)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+              <span role="button" tabindex="0" @click.stop.prevent="store.buyAlbum(4)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
-          <div id="album-4" class="row justify-content-center mt-3" style="display: none;">
+          <div :id="'album-' + 4" class="row justify-content-center mt-3" style="display: none;">
             <div class="col-12 text-center">
-              <ul class="text-white list-unstyled album-track-list">
-                <li class="album-track" data-song="Take no buck">1. Take no buck</li>
-                <li class="album-track" data-song="Triple to the X">2. Triple to the X</li>
-                <li class="album-track" data-song="Facts">3. Facts</li>
-                <li class="album-track" data-song="Consumed">4. Consumed</li>
-                <li class="album-track" data-song="Anon">5. Anon</li>
-                <li class="album-track" data-song="Curveball">6. Curveball</li>
-                <li class="album-track" data-song="Sovereign">7. Sovereign</li>
-                <li class="album-track" data-song="Playing">8. Playing</li>
-                <li class="album-track" data-song="LILI">9. LILI</li>
-                <li class="album-track" data-song="Hope">10. Hope</li>
-                <li class="album-track" data-song="Popsicle">11. Popsicle</li>
-                <li class="album-track" data-song="Ape">12. Ape</li>
-                <li class="album-track" data-song="Close friends">13. Close friends</li>
-                <li class="album-track" data-song="Dad (Interlude)">14. Dad (Interlude)</li>
-                <li class="album-track" data-song="Paris">15. Paris</li>
-                <li class="album-track" data-song="Warn me you’re ready">16. Warn me you’re ready</li>
-                <li class="album-track" data-song="Unfurled">17. Unfurled</li>
-                <li class="album-track" data-song="Every door Taylor">18. Every door Taylor</li>
-                <li class="album-track" data-song="Milk">19. Milk</li>
-                <li class="album-track" data-song="Admissible emotions">20. Admissible emotions</li>
-                <li class="album-track" data-song="Euphoria">21. Euphoria</li>
-                <li class="album-track" data-song="Beat me down">22. Beat me down</li>
-                <li class="album-track" data-song="Ready to begin">23. Ready to begin</li>
-              </ul>
+              <ul class="text-white list-unstyled album-track-list" :id="'track-list-' + 4"></ul>
             </div>
           </div>
         </div>
@@ -1194,7 +882,7 @@
       <!-- Album 3: December 13 -->
       <div class="gradient-item" @click="store.showAlbumTracks(3)">
         <div class="gradient-wrap">
-          <img src="../images/albums/december13.jpg" alt="December 13" crossorigin="anonymous" />
+          <img :src="store.getAlbumCover(3)" alt="December 13" crossorigin="anonymous" />
         </div>
       </div>
       <section class="py-4 bg-black">
@@ -1202,91 +890,34 @@
           <div class="row justify-content-center" @click="store.showAlbumTracks(3)">
             <div class="col-12 text-center">
               <h3 class="text-white mb-5">December 13</h3>
-              <span role="button" and tabindex="0" @click.stop.prevent="store.buyAlbum(3)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+              <span role="button" tabindex="0" @click.stop.prevent="store.buyAlbum(3)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
-          <div id="album-3" class="row justify-content-center mt-3" style="display: none;">
+          <div :id="'album-' + 3" class="row justify-content-center mt-3" style="display: none;">
             <div class="col-12 text-center">
-              <ul class="text-white list-unstyled album-track-list">
-                <li class="album-track" data-song="Anarchy">1. Anarchy</li>
-                <li class="album-track" data-song="December 13">2. December 13</li>
-                <li class="album-track" data-song="Can't have you">3. Can't have you</li>
-                <li class="album-track" data-song="Got a bitch a valve">4. Got a bitch a valve</li>
-                <li class="album-track" data-song="Tom">5. Tom</li>
-                <li class="album-track" data-song="Still can't swim">6. Still can't swim</li>
-                <li class="album-track" data-song="Well with her eff fame">7. Well with her eff fame</li>
-                <li class="album-track" data-song="Lili Fallon">8. Lili Fallon</li>
-                <li class="album-track" data-song="Missing you">9. Missing you</li>
-                <li class="album-track" data-song="My girl">10. My girl</li>
-                <li class="album-track" data-song="Forest">11. Forest</li>
-                <li class="album-track" data-song="Flutter">12. Flutter</li>
-                <li class="album-track" data-song="No. 13 a bore">13. No. 13 a bore</li>
-                <li class="album-track" data-song="Partner">14. Partner</li>
-                <li class="album-track" data-song="Something simple">15. Something simple</li>
-                <li class="album-track" data-song="Aperient flow">16. Aperient flow</li>
-                <li class="album-track" data-song="Six">17. Six</li>
-                <li class="album-track" data-song="Beethovenian">18. Beethovenian</li>
-                <li class="album-track" data-song="Outside">19. Outside</li>
-                <li class="album-track" data-song="I think I am">20. I think I am</li>
-                <li class="album-track" data-song="Sound of tears">21. Sound of tears</li>
-                <li class="album-track" data-song="What’s next?">22. What’s next?</li>
-                <li class="album-track" data-song="Scribbling with a gun">23. Scribbling with a gun</li>
-                <li class="album-track" data-song="I'm Okay">24. I'm Okay</li>
-                <li class="album-track" data-song="Milou Christmas">25. Milou Christmas</li>
-              </ul>
+              <ul class="text-white list-unstyled album-track-list" :id="'track-list-' + 3"></ul>
             </div>
           </div>
         </div>
       </section>
       
-      <!-- Album 2: colourful light -->
+      <!-- Album 2: Colourful Light -->
       <div class="gradient-item" @click="store.showAlbumTracks(2)">
         <div class="gradient-wrap">
-          <img src="../images/albums/colourfullight.jpg" alt="colourful light" crossorigin="anonymous" />
+          <img :src="store.getAlbumCover(2)" alt="Colourful Light" crossorigin="anonymous" />
         </div>
       </div>
       <section class="py-4 bg-black">
         <div class="container">
           <div class="row justify-content-center" @click="store.showAlbumTracks(2)">
             <div class="col-12 text-center">
-              <h3 class="text-white mb-5">colourful light</h3>
-              <span role="button" and tabindex="0" @click.stop.prevent="store.buyAlbum(2)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+              <h3 class="text-white mb-5">Colourful Light</h3>
+              <span role="button" tabindex="0" @click.stop.prevent="store.buyAlbum(2)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
-          <div id="album-2" class="row justify-content-center mt-3" style="display: none;">
+          <div :id="'album-' + 2" class="row justify-content-center mt-3" style="display: none;">
             <div class="col-12 text-center">
-              <ul class="text-white list-unstyled album-track-list">
-                <li class="album-track" data-song="Conterminous">1. Conterminous</li>
-                <li class="album-track" data-song="Forever">2. Forever</li>
-                <li class="album-track" data-song="Not on my mobile">3. Not on my mobile</li>
-                <li class="album-track" data-song="No prolix">4. No prolix</li>
-                <li class="album-track" data-song="Clones">5. Clones</li>
-                <li class="album-track" data-song="Needle">6. Needle</li>
-                <li class="album-track" data-song="Gold pack">7. Gold pack</li>
-                <li class="album-track" data-song="Endorphin">8. Endorphin</li>
-                <li class="album-track" data-song="Never what it means">9. Never what it means</li>
-                <li class="album-track" data-song="How you had me">10. How you had me</li>
-                <li class="album-track" data-song="I won't say it">11. I won't say it</li>
-                <li class="album-track" data-song="On you">12. On you</li>
-                <li class="album-track" data-song="Little girl">13. Little girl</li>
-                <li class="album-track" data-song="Ogre">14. Ogre</li>
-                <li class="album-track" data-song="Living video record">15. Living video record</li>
-                <li class="album-track" data-song="So long">16. So long</li>
-                <li class="album-track" data-song="No telling">17. No telling</li>
-                <li class="album-track" data-song="Pepperoni freestyle">18. Pepperoni freestyle</li>
-                <li class="album-track" data-song="May 1st">19. May 1st</li>
-                <li class="album-track" data-song="Plunge (Interlude)">20. Plunge (Interlude)</li>
-                <li class="album-track" data-song="Next to you">21. Next to you</li>
-                <li class="album-track" data-song="Above">22. Above</li>
-                <li class="album-track" data-song="Warden">23. Warden</li>
-                <li class="album-track" data-song="Automatic">24. Automatic</li>
-                <li class="album-track" data-song="Colourful light">25. Colourful light</li>
-                <li class="album-track" data-song="Gravity">26. Gravity</li>
-                <li class="album-track" data-song="Malady">27. Malady</li>
-                <li class="album-track" data-song="Favourite girl">28. Favourite girl</li>
-                <li class="album-track" data-song="Baby sways">29. Baby sways</li>
-                <li class="album-track" data-song="What she does">30. What she does</li>
-              </ul>
+              <ul class="text-white list-unstyled album-track-list" :id="'track-list-' + 2"></ul>
             </div>
           </div>
         </div>
@@ -1295,7 +926,7 @@
       <!-- Album 1: H.I.V -->
       <div class="gradient-item" @click="store.showAlbumTracks(1)">
         <div class="gradient-wrap">
-          <img src="../images/albums/hiv.jpg" alt="H.I.V" crossorigin="anonymous" />
+          <img :src="store.getAlbumCover(1)" alt="H.I.V" crossorigin="anonymous" />
         </div>
       </div>
       <section class="py-4 bg-black">
@@ -1303,26 +934,12 @@
           <div class="row justify-content-center" @click="store.showAlbumTracks(1)">
             <div class="col-12 text-center">
               <h3 class="text-white mb-5">H.I.V</h3>
-              <span role="button" and tabindex="0" @click.stop.prevent="store.buyAlbum(1)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
+              <span role="button" tabindex="0" @click.stop.prevent="store.buyAlbum(1)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
-          <div id="album-1" class="row justify-content-center mt-3" style="display: none;">
+          <div :id="'album-' + 1" class="row justify-content-center mt-3" style="display: none;">
             <div class="col-12 text-center">
-              <ul class="text-white list-unstyled album-track-list">
-                <li class="album-track" data-song="What is Love">1. What is Love</li>
-                <li class="album-track" data-song="Real Friends">2. Real Friends</li>
-                <li class="album-track" data-song="Spotlight">3. Spotlight</li>
-                <li class="album-track" data-song="Bleeding Heart">4. Bleeding Heart</li>
-                <li class="album-track" data-song="Rollie Dreams">5. Rollie Dreams</li>
-                <li class="album-track" data-song="Bad Vibez">6. Bad Vibez</li>
-                <li class="album-track" data-song="My Heart">7. My Heart</li>
-                <li class="album-track" data-song="Interlude">8. Interlude</li>
-                <li class="album-track" data-song="What is Real">9. What is Real</li>
-                <li class="album-track" data-song="Sunday Special">10. Sunday Special</li>
-                <li class="album-track" data-song="Hurt You">11. Hurt You</li>
-                <li class="album-track" data-song="Two Bad Bitches">12. Two Bad Bitches</li>
-                <li class="album-track" data-song="What's the Price?">13. What's the Price?</li>
-              </ul>
+              <ul class="text-white list-unstyled album-track-list" :id="'track-list-' + 1"></ul>
             </div>
           </div>
         </div>
@@ -1390,21 +1007,21 @@
                   </div>
                 </div>
                 <div class="playerControls" id="playerControls">
-                  <button class="control-btn" id="prevBtn">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="black" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                      <polygon points="11 19 2 12 11 5 11 19"></polygon>
-                      <polygon points="22 19 13 12 22 5 22 19"></polygon>
+                  <button class="control-btn" id="prevBtn" @click="store.prevTrack">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="19 20 9 12 19 4 19 20" fill="black"></polygon>
+                      <line x1="5" y1="19" x2="5" y2="5" stroke="black"></line>
                     </svg>
                   </button>
-                  <button class="control-btn" id="playPauseBtn">
+                  <button class="control-btn" id="playPauseBtn" @click="togglePlayPause">
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="black" viewBox="0 0 24 24" stroke="black" stroke-width="2">
                       <polygon points="6 3 20 12 6 21 6 3"></polygon>
                     </svg>
                   </button>
-                  <button class="control-btn" id="nextBtn">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="black" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                      <polygon points="13 19 22 12 13 5 13 19"></polygon>
-                      <polygon points="2 19 11 12 2 5 2 19"></polygon>
+                  <button class="control-btn" id="nextBtn" @click="store.nextTrack">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="5 4 15 12 5 20 5 4" fill="black"></polygon>
+                      <line x1="19" y1="5" x2="19" y2="19" stroke="black"></line>
                     </svg>
                   </button>
                 </div>
@@ -1500,645 +1117,8 @@
             </div>
             <div class="albums-container">
               <h1 class="text-center">Albums List</h1>
-              
-              <div class="album-list">
-                
-                <!-- whereIsTheMoodRobot Album -->
-                <div class="album-card">
-                  <div class="album-item" onclick="toggleTrackList(16)">
-                    <div class="album-cover">
-                      <img src="../images/albums/whereIsTheMoodRobot.png" alt="whereIsTheMoodRobot" />
-                    </div>
-                    <div class="album-info">
-                      <p class="album-title">whereIsTheMoodRobot</p>
-                      <p class="album-meta">Release Date: in session | Songs: 8</p>
-                    </div>
-                  </div>
-                  <div class="track-list" id="track-list-16">
-                    <ul>
-                      <li class="track-item" data-song="So alive Overture">1. So alive Overture</li>
-                      <li class="track-item" data-song="Isn’t it yours">2. Isn’t it yours</li>
-                      <li class="track-item" data-song="Old passions">3. Old passions</li>
-                      <li class="track-item" data-song="Bread II">4. Bread II</li>
-                      <li class="track-item" data-song="Faraway">5. Faraway</li>
-                      <li class="track-item" data-song="Cheer on me">6. Cheer on me</li>
-                      <li class="track-item" data-song="For it">7. For it</li>
-                      <li class="track-item" data-song="Via">8. Via</li>
-                      <li class="track-item" data-song="Dakota">9. Dakota</li>
-                      <li class="track-item" data-song="The Man">10. The Man</li>
-                      <li class="track-item" data-song="Headphones">11. Headphones</li>
-                      <li class="track-item" data-song="Age 22">12. Age 22</li>
-                      <li class="track-item" data-song="Buddy">13. Buddy</li>
-                    </ul>
-                  </div>
-                </div>
-                
-                
-                <!-- Valence Eve Album -->
-                <div class="album-card">
-                  <div class="album-item" onclick="toggleTrackList(15)">
-                    <div class="album-cover">
-                      <img src="../images/albums/ValenceEve.jpg" alt="Valence Eve" />
-                    </div>
-                    <div class="album-info">
-                      <p class="album-title">Valence Eve</p>
-                      <p class="album-meta">Release Date: December 31, 2024 | Songs: 21</p>
-                    </div>
-                  </div>
-                  <div class="track-list" id="track-list-15">
-                    <ul>
-                      <li class="track-item" data-song="I try">1. I try</li>
-                      <li class="track-item" data-song="Kill time">2. Kill time</li>
-                      <li class="track-item" data-song="Alarms">3. Alarms</li>
-                      <li class="track-item" data-song="Smile on me">4. Smile on me</li>
-                      <li class="track-item" data-song="Queen's daughter">5. Queen's daughter</li>
-                      <li class="track-item" data-song="The game we play">6. The game we play</li>
-                      <li class="track-item" data-song="Yahoo">7. Yahoo</li>
-                      <li class="track-item" data-song="Beautiful Taylor">8. Beautiful Taylor</li>
-                      <li class="track-item" data-song="Farce emotions">9. Farce emotions</li>
-                      <li class="track-item" data-song="To you">10. To you</li>
-                      <li class="track-item" data-song="Honest">11. Honest</li>
-                      <li class="track-item" data-song="Recruits">12. Recruits</li>
-                      <li class="track-item" data-song="Butcher feel">13. Butcher feel</li>
-                      <li class="track-item" data-song="Porn star">14. Porn star</li>
-                      <li class="track-item" data-song="Taking you home">15. Taking you home</li>
-                      <li class="track-item" data-song="Kai Trump">16. Kai Trump</li>
-                      <li class="track-item" data-song="Dime piece">17. Dime piece</li>
-                      <li class="track-item" data-song="Fisherman">18. Fisherman</li>
-                      <li class="track-item" data-song="Bedtime">19. Bedtime</li>
-                      <li class="track-item" data-song="Madness">20. Madness</li>
-                      <li class="track-item" data-song="Clubing sad">21. Clubing sad</li>
-                    </ul>
-                  </div>
-                </div>
-                
-                <!-- Farther Memes Album -->
-                <div class="album-card">
-                  <div class="album-item" onclick="toggleTrackList(14)">
-                    <div class="album-cover">
-                      <img src="../images/albums/farthermemes.png" alt="Farther Memes" />
-                    </div>
-                    <div class="album-info">
-                      <p class="album-title">Farther Memes</p>
-                      <p class="album-meta">Release Date: 2025-02-15 | Songs: 33</p>
-                    </div>
-                  </div>
-                  <div class="track-list" id="track-list-14">
-                    <ul>
-                      <li class="track-item" data-song="Oliver Sacks">1. Oliver Sacks</li>
-                      <li class="track-item" data-song="Oliver Sacks II">2. Oliver Sacks II</li>
-                      <li class="track-item" data-song="Palacio de la Zarzuela">3. Palacio de la Zarzuela</li>
-                      <li class="track-item" data-song="The preacher">4. The preacher</li>
-                      <li class="track-item" data-song="Rick reflection">5. Rick reflection</li>
-                      <li class="track-item" data-song="End of summer">6. End of summer</li>
-                      <li class="track-item" data-song="Sex is everything">7. Sex is everything</li>
-                      <li class="track-item" data-song="Fool for you">8. Fool for you</li>
-                      <li class="track-item" data-song="Hathaway">9. Hathaway</li>
-                      <li class="track-item" data-song="Crush">10. Crush</li>
-                      <li class="track-item" data-song="Jealousy">11. Jealousy</li>
-                      <li class="track-item" data-song="Obligations">12. Obligations</li>
-                      <li class="track-item" data-song="Rust">13. Rust</li>
-                      <li class="track-item" data-song="Best cardigan">14. Best cardigan</li>
-                      <li class="track-item" data-song="Unwilling">15. Unwilling</li>
-                      <li class="track-item" data-song="Applish">16. Applish</li>
-                      <li class="track-item" data-song="Home alone">17. Home alone</li>
-                      <li class="track-item" data-song="Aureole sigh">18. Aureole sigh</li>
-                      <li class="track-item" data-song="First lines">19. First lines</li>
-                      <li class="track-item" data-song="Spaghetti code">20. Spaghetti code</li>
-                      <li class="track-item" data-song="Fire">21. Fire</li>
-                      <li class="track-item" data-song="Fish">22. Fish</li>
-                      <li class="track-item" data-song="Greener">23. Greener</li>
-                      <li class="track-item" data-song="Lens">24. Lens</li>
-                      <li class="track-item" data-song="Keyhole">25. Keyhole</li>
-                      <li class="track-item" data-song="Bright-eyed">26. Bright-eyed</li>
-                      <li class="track-item" data-song="Cut in fame">27. Cut in fame</li>
-                      <li class="track-item" data-song="Feel good">28. Feel good</li>
-                      <li class="track-item" data-song="Adios">29. Adios</li>
-                      <li class="track-item" data-song="Woah">30. Woah</li>
-                      <li class="track-item" data-song="Locked in">31. Locked in</li>
-                      <li class="track-item" data-song="Heartbeat">32. Heartbeat</li>
-                      <li class="track-item" data-song="Barefoot">33. Barefoot</li>
-                    </ul>
-                  </div>
-                </div>
-                
-                <!-- the Sessions... Album -->
-                <div class="album-card">
-                  <div class="album-item" onclick="toggleTrackList(13)">
-                    <div class="album-cover">
-                      <img src="../images/albums/theSessions.jpg" alt="the Sessions..." />
-                    </div>
-                    <div class="album-info">
-                      <p class="album-title">the Sessions...</p>
-                      <p class="album-meta">Release Date: June 14, 2024 | Songs: 14</p>
-                    </div>
-                  </div>
-                  <div class="track-list" id="track-list-13">
-                    <ul>
-                      <li class="track-item" data-song="Savour">1. Savour</li>
-                      <li class="track-item" data-song="Dizzy morning">2. Dizzy morning</li>
-                      <li class="track-item" data-song="Dirty laundry">3. Dirty laundry</li>
-                      <li class="track-item" data-song="Canticle">4. Canticle</li>
-                      <li class="track-item" data-song="SZA">5. SZA</li>
-                      <li class="track-item" data-song="Undecided">6. Undecided</li>
-                      <li class="track-item" data-song="Different">7. Different</li>
-                      <li class="track-item" data-song="Session 8">8. Session 8</li>
-                      <li class="track-item" data-song="I'll be there">9. I'll be there</li>
-                      <li class="track-item" data-song="Back to the store">10. Back to the store</li>
-                      <li class="track-item" data-song="Sorry I'm alive">11. Sorry I'm alive</li>
-                      <li class="track-item" data-song="Long way home">12. Long way home</li>
-                      <li class="track-item" data-song="Field of faeries">13. Field of faeries</li>
-                      <li class="track-item" data-song="Magical">14. Magical</li>
-                    </ul>
-                  </div>
-                </div>
-                
-                <!-- it's pop Album -->
-                <div class="album-card">
-                  <div class="album-item" onclick="toggleTrackList(12)">
-                    <div class="album-cover">
-                      <img src="../images/albums/itspop.png" alt="it's pop" />
-                    </div>
-                    <div class="album-info">
-                      <p class="album-title">it's pop</p>
-                      <p class="album-meta">Release Date: March 8, 2024 | Songs: 22</p>
-                    </div>
-                  </div>
-                  <div class="track-list" id="track-list-12">
-                    <ul>
-                      <li class="track-item" data-song="Low life dirty rat">1. Low life dirty rat</li>
-                      <li class="track-item" data-song="A seal">2. A seal</li>
-                      <li class="track-item" data-song="Summit">3. Summit</li>
-                      <li class="track-item" data-song="New hemp plant">4. New hemp plant</li>
-                      <li class="track-item" data-song="Melly">5. Melly</li>
-                      <li class="track-item" data-song="Stuck in life">6. Stuck in life</li>
-                      <li class="track-item" data-song="Heart census">7. Heart census</li>
-                      <li class="track-item" data-song="Kevin Hart">8. Kevin Hart</li>
-                      <li class="track-item" data-song="Head">9. Head</li>
-                      <li class="track-item" data-song="Imagination">10. Imagination</li>
-                      <li class="track-item" data-song="Lonely note">11. Lonely note</li>
-                      <li class="track-item" data-song="Hubble">12. Hubble</li>
-                      <li class="track-item" data-song="Take me out">13. Take me out</li>
-                      <li class="track-item" data-song="Reward Money">14. Reward Money</li>
-                      <li class="track-item" data-song="Big fat lie">15. Big fat lie</li>
-                      <li class="track-item" data-song="The calm">16. The calm</li>
-                      <li class="track-item" data-song="I don't know">17. I don't know</li>
-                      <li class="track-item" data-song="I get the ghetto">18. I get the ghetto</li>
-                      <li class="track-item" data-song="Sliving">19. Sliving</li>
-                      <li class="track-item" data-song="Bagging this home">20. Bagging this home</li>
-                      <li class="track-item" data-song="Bag grips">21. Bag grips</li>
-                      <li class="track-item" data-song="Outro">22. Outro</li>
-                    </ul>
-                  </div>
-                </div>
-                
-                <!-- Troubadour Album -->
-                <div class="album-card">
-                  <div class="album-item" onclick="toggleTrackList(11)">
-                    <div class="album-cover">
-                      <img src="../images/albums/Troubadour.png" alt="Troubadour" />
-                    </div>
-                    <div class="album-info">
-                      <p class="album-title">Troubadour</p>
-                      <p class="album-meta">Release Date: January 21, 2024 | Songs: 23</p>
-                    </div>
-                  </div>
-                  <div class="track-list" id="track-list-11">
-                    <ul>
-                      <li class="track-item" data-song="Eviction">1. Eviction</li>
-                      <li class="track-item" data-song="Waste away">2. Waste away</li>
-                      <li class="track-item" data-song="West to west">3. West to west</li>
-                      <li class="track-item" data-song="I'll never">4. I'll never</li>
-                      <li class="track-item" data-song="Cave">5. Cave</li>
-                      <li class="track-item" data-song="Just let me go">6. Just let me go</li>
-                      <li class="track-item" data-song="Cheetah">7. Cheetah</li>
-                      <li class="track-item" data-song="Find me">8. Find me</li>
-                      <li class="track-item" data-song="Baby girl">9. Baby girl</li>
-                      <li class="track-item" data-song="My Hope">10. My Hope</li>
-                      <li class="track-item" data-song="Someone asked">11. Someone asked</li>
-                      <li class="track-item" data-song="Let it go">12. Let it go</li>
-                      <li class="track-item" data-song="Testa">13. Testa</li>
-                      <li class="track-item" data-song="Respiring">14. Respiring</li>
-                      <li class="track-item" data-song="Pretty girl">15. Pretty girl</li>
-                      <li class="track-item" data-song="Vacation">16. Vacation</li>
-                      <li class="track-item" data-song="Heathrow">17. Heathrow</li>
-                      <li class="track-item" data-song="Benny">18. Benny</li>
-                      <li class="track-item" data-song="Beginning">19. Beginning</li>
-                      <li class="track-item" data-song="Bedroom">20. Bedroom</li>
-                      <li class="track-item" data-song="Goodness">21. Goodness</li>
-                      <li class="track-item" data-song="Sure we lit">22. Sure we lit</li>
-                      <li class="track-item" data-song="Old door">23. Old door</li>
-                    </ul>
-                  </div>
-                </div>
-                
-                <!-- Nightswan Album -->
-                <div class="album-card">
-                  <div class="album-item" onclick="toggleTrackList(10)">
-                    <div class="album-cover">
-                      <img src="../images/albums/Nightswan.jpg" alt="Nightswan" />
-                    </div>
-                    <div class="album-info">
-                      <p class="album-title">Nightswan</p>
-                      <p class="album-meta">Release Date: August 4, 2023 | Songs: 23</p>
-                    </div>
-                  </div>
-                  <div class="track-list" id="track-list-10">
-                    <ul>
-                      <li class="track-item" data-song="Curandera">1. Curandera</li>
-                      <li class="track-item" data-song="Marilyn">2. Marilyn</li>
-                      <li class="track-item" data-song="Being friends">3. Being friends</li>
-                      <li class="track-item" data-song="Darbies">4. Darbies</li>
-                      <li class="track-item" data-song="Amor fati">5. Amor fati</li>
-                      <li class="track-item" data-song="Pale">6. Pale</li>
-                      <li class="track-item" data-song="Nominal now">7. Nominal now</li>
-                      <li class="track-item" data-song="Best stan">8. Best stan</li>
-                      <li class="track-item" data-song="Different man">9. Different man</li>
-                      <li class="track-item" data-song="Fresh">10. Fresh</li>
-                      <li class="track-item" data-song="Bad descriptions">11. Bad descriptions</li>
-                      <li class="track-item" data-song="Backstage Friday">12. Backstage Friday</li>
-                      <li class="track-item" data-song="Amusing">13. Amusing</li>
-                      <li class="track-item" data-song="Party ho">14. Party ho</li>
-                      <li class="track-item" data-song="Love god">15. Love god</li>
-                      <li class="track-item" data-song="Hungry ladies">16. Hungry ladies</li>
-                      <li class="track-item" data-song="Dreadnought">17. Dreadnought</li>
-                      <li class="track-item" data-song="Get it out">18. Get it out</li>
-                      <li class="track-item" data-song="Liar">19. Liar</li>
-                      <li class="track-item" data-song="Skin">20. Skin</li>
-                      <li class="track-item" data-song="Line">21. Line</li>
-                      <li class="track-item" data-song="Boss woman">22. Boss woman</li>
-                      <li class="track-item" data-song="Solid ground">23. Solid ground</li>
-                    </ul>
-                  </div>
-                </div>
-                
-                <!-- the Lover tap3 Album -->
-                <div class="album-card">
-                  <div class="album-item" onclick="toggleTrackList(9)">
-                    <div class="album-cover">
-                      <img src="../images/albums/theLovertap3.jpg" alt="the Lover tap3" />
-                    </div>
-                    <div class="album-info">
-                      <p class="album-title">the Lover tap3</p>
-                      <p class="album-meta">Release Date: June 19, 2023 | Songs: 9</p>
-                    </div>
-                  </div>
-                  <div class="track-list" id="track-list-9">
-                    <ul>
-                      <li class="track-item" data-song="Fair this time">1. Fair this time</li>
-                      <li class="track-item" data-song="Envy">2. Envy</li>
-                      <li class="track-item" data-song="Hump">3. Hump</li>
-                      <li class="track-item" data-song="Show me a girl">4. Show me a girl</li>
-                      <li class="track-item" data-song="Disclose">5. Disclose</li>
-                      <li class="track-item" data-song="On one">6. On one</li>
-                      <li class="track-item" data-song="Boink">7. Boink</li>
-                      <li class="track-item" data-song="Seventeen">8. Seventeen</li>
-                      <li class="track-item" data-song="All girls aren't the same">9. All girls aren't the same</li>
-                    </ul>
-                  </div>
-                </div>
-                
-                <!-- Lantern Album -->
-                <div class="album-card">
-                  <div class="album-item" onclick="toggleTrackList(8)">
-                    <div class="album-cover">
-                      <img src="../images/albums/lantern.jpg" alt="lantern" />
-                    </div>
-                    <div class="album-info">
-                      <p class="album-title">lantern</p>
-                      <p class="album-meta">Release Date: February 24, 2023 | Songs: 23</p>
-                    </div>
-                  </div>
-                  <div class="track-list" id="track-list-8">
-                    <ul>
-                      <li class="track-item" data-song="Do I ever do?">1. Do I ever do?</li>
-                      <li class="track-item" data-song="Number busy">2. Number busy</li>
-                      <li class="track-item" data-song="Emma I feel">3. Emma I feel</li>
-                      <li class="track-item" data-song="Raunch child">4. Raunch child</li>
-                      <li class="track-item" data-song="Jekyll">5. Jekyll</li>
-                      <li class="track-item" data-song="God of clean">6. God of clean</li>
-                      <li class="track-item" data-song="Hungry man">7. Hungry man</li>
-                      <li class="track-item" data-song="Lantern">8. Lantern</li>
-                      <li class="track-item" data-song="3:30">9. 3:30</li>
-                      <li class="track-item" data-song="Be my lover">10. Be my lover</li>
-                      <li class="track-item" data-song="Purple zone">11. Purple zone</li>
-                      <li class="track-item" data-song="Shire">12. Shire</li>
-                      <li class="track-item" data-song="Pussy power">13. Pussy power</li>
-                      <li class="track-item" data-song="Scent">14. Scent</li>
-                      <li class="track-item" data-song="Yeehaw">15. Yeehaw</li>
-                      <li class="track-item" data-song="Mind talk">16. Mind talk</li>
-                      <li class="track-item" data-song="Cautious">17. Cautious</li>
-                      <li class="track-item" data-song="Sarah">18. Sarah</li>
-                      <li class="track-item" data-song="Call for more">19. Call for more</li>
-                      <li class="track-item" data-song="Higher calling">20. Higher calling</li>
-                      <li class="track-item" data-song="Say it">21. Say it</li>
-                      <li class="track-item" data-song="Avalon">22. Avalon</li>
-                      <li class="track-item" data-song="How I lose it">23. How I lose it</li>
-                    </ul>
-                  </div>
-                </div>
-                
-                <!-- Theo Album -->
-                <div class="album-card">
-                  <div class="album-item" onclick="toggleTrackList(7)">
-                    <div class="album-cover">
-                      <img src="../images/albums/theo.jpg" alt="Hilton" />
-                    </div>
-                    <div class="album-info">
-                      <p class="album-title">Hilton</p>
-                      <p class="album-meta">Release Date: December 15, 2022 | Songs: 36</p>
-                    </div>
-                  </div>
-                  <div class="track-list" id="track-list-7">
-                    <ul>
-                      <li class="track-item" data-song="Easy son">1. Easy son</li>
-                      <li class="track-item" data-song="Ex, your relay">2. Ex, your relay</li>
-                      <li class="track-item" data-song="Easy, hard">3. Easy, hard</li>
-                      <li class="track-item" data-song="Apogee">4. Apogee</li>
-                      <li class="track-item" data-song="Caret">5. Caret</li>
-                      <li class="track-item" data-song="Moment">6. Moment</li>
-                      <li class="track-item" data-song="Trauma">7. Trauma</li>
-                      <li class="track-item" data-song="Yodel in a vial">8. Yodel in a vial</li>
-                      <li class="track-item" data-song="Tate jersey love">9. Tate jersey love</li>
-                      <li class="track-item" data-song="Favourite">10. Favourite</li>
-                      <li class="track-item" data-song="Rose">11. Rose</li>
-                      <li class="track-item" data-song="Swan">12. Swan</li>
-                      <li class="track-item" data-song="Demola (Zenosyne)">13. Demola (Zenosyne)</li>
-                      <li class="track-item" data-song="Heavy keys">14. Heavy keys</li>
-                      <li class="track-item" data-song="Crash">15. Crash</li>
-                      <li class="track-item" data-song="Oh din!">16. Oh din!</li>
-                      <li class="track-item" data-song="Soured love">17. Soured love</li>
-                      <li class="track-item" data-song="The one">18. The one</li>
-                      <li class="track-item" data-song="Post soul">19. Post soul</li>
-                      <li class="track-item" data-song="Our fall">20. Our fall</li>
-                      <li class="track-item" data-song="Send me to sleep">21. Send me to sleep</li>
-                      <li class="track-item" data-song="Purpose">22. Purpose</li>
-                      <li class="track-item" data-song="Waste the time">23. Waste the time</li>
-                      <li class="track-item" data-song="Mound gold">24. Mound gold</li>
-                      <li class="track-item" data-song="Jail">25. Jail</li>
-                      <li class="track-item" data-song="Stuck">26. Stuck</li>
-                      <li class="track-item" data-song="Doobry">27. Doobry</li>
-                      <li class="track-item" data-song="Cull sigh">28. Cull sigh</li>
-                      <li class="track-item" data-song="I'm on air">29. I'm on air</li>
-                      <li class="track-item" data-song="Bread">30. Bread</li>
-                      <li class="track-item" data-song="I pray">31. I pray</li>
-                      <li class="track-item" data-song="My fantasy">32. My fantasy</li>
-                      <li class="track-item" data-song="A nearer echo">33. A nearer echo</li>
-                      <li class="track-item" data-song="Happy married life">34. Happy married life</li>
-                      <li class="track-item" data-song="Polygamy">35. Polygamy</li>
-                      <li class="track-item" data-song="Sofia">36. Sofia</li>
-                    </ul>
-                  </div>
-                </div>
-                
-                <!-- Jacaranda Album -->
-                <div class="album-card">
-                  <div class="album-item" onclick="toggleTrackList(6)">
-                    <div class="album-cover">
-                      <img src="../images/albums/Jacaranda.jpg" alt="Jacaranda" />
-                    </div>
-                    <div class="album-info">
-                      <p class="album-title">Jacaranda</p>
-                      <p class="album-meta">Release Date: September 24, 2022 | Songs: 22</p>
-                    </div>
-                  </div>
-                  <div class="track-list" id="track-list-6">
-                    <ul>
-                      <li class="track-item" data-song="Home">1. Home</li>
-                      <li class="track-item" data-song="QWERTY">2. QWERTY</li>
-                      <li class="track-item" data-song="Blue heeler">3. Blue heeler</li>
-                      <li class="track-item" data-song="Gargoyle">4. Gargoyle</li>
-                      <li class="track-item" data-song="Silly hen">5. Silly hen</li>
-                      <li class="track-item" data-song="June">6. June</li>
-                      <li class="track-item" data-song="Thoth">7. Thoth</li>
-                      <li class="track-item" data-song="Real sad">8. Real sad</li>
-                      <li class="track-item" data-song="Tangerine clouds">9. Tangerine clouds</li>
-                      <li class="track-item" data-song="What if cell like">10. What if cell like</li>
-                      <li class="track-item" data-song="Can't hide your theme">11. Can't hide your theme</li>
-                      <li class="track-item" data-song="Paying only you">12. Paying only you</li>
-                      <li class="track-item" data-song="The pain you need">13. The pain you need</li>
-                      <li class="track-item" data-song="Mona Lisa">14. Mona Lisa</li>
-                      <li class="track-item" data-song="Reusable bag">15. Reusable bag</li>
-                      <li class="track-item" data-song="Street lights">16. Street lights</li>
-                      <li class="track-item" data-song="Beautiful">17. Beautiful</li>
-                      <li class="track-item" data-song="Pro hac vice">18. Pro hac vice</li>
-                      <li class="track-item" data-song="Cobber momma">19. Cobber momma</li>
-                      <li class="track-item" data-song="Get that education">20. Get that education</li>
-                      <li class="track-item" data-song="Telescopic">21. Telescopic</li>
-                      <li class="track-item" data-song="Christmas sleepover">22. Christmas sleepover</li>
-                    </ul>
-                  </div>
-                </div>
-                
-                <!-- Screen Time Album -->
-                <div class="album-card">
-                  <div class="album-item" onclick="toggleTrackList(5)">
-                    <div class="album-cover">
-                      <img src="../images/albums/screentime.jpg" alt="Screen Time" />
-                    </div>
-                    <div class="album-info">
-                      <p class="album-title">Screen Time</p>
-                      <p class="album-meta">Release Date: July 2, 2022 | Songs: 34</p>
-                    </div>
-                  </div>
-                  <div class="track-list" id="track-list-5">
-                    <ul>
-                      <li class="track-item" data-song="From the start">1. From the start</li>
-                      <li class="track-item" data-song="Reverse">2. Reverse</li>
-                      <li class="track-item" data-song="Get on with Jack">3. Get on with Jack</li>
-                      <li class="track-item" data-song="Too deep">4. Too deep</li>
-                      <li class="track-item" data-song="Andalucía">5. Andalucía</li>
-                      <li class="track-item" data-song="Friends">6. Friends</li>
-                      <li class="track-item" data-song="Text">7. Text</li>
-                      <li class="track-item" data-song="Sunny">8. Sunny</li>
-                      <li class="track-item" data-song="Humming">9. Humming</li>
-                      <li class="track-item" data-song="Waves">10. Waves</li>
-                      <li class="track-item" data-song="Addison Rae">11. Addison Rae</li>
-                      <li class="track-item" data-song="Pauline">12. Pauline</li>
-                      <li class="track-item" data-song="Skyline grey">13. Skyline grey</li>
-                      <li class="track-item" data-song="Bittersweet">14. Bittersweet</li>
-                      <li class="track-item" data-song="Over you">15. Over you</li>
-                      <li class="track-item" data-song="Dreaming">16. Dreaming</li>
-                      <li class="track-item" data-song="Relapse holding">17. Relapse holding</li>
-                      <li class="track-item" data-song="Not lost">18. Not lost</li>
-                      <li class="track-item" data-song="Hideaway">19. Hideaway</li>
-                      <li class="track-item" data-song="Superficial">20. Superficial</li>
-                      <li class="track-item" data-song="Warning sign">21. Warning sign</li>
-                      <li class="track-item" data-song="Tears to my heart">22. Tears to my heart</li>
-                      <li class="track-item" data-song="I'm sorry">23. I'm sorry</li>
-                      <li class="track-item" data-song="Yearning">24. Yearning</li>
-                      <li class="track-item" data-song="Silver all gone">25. Silver all gone</li>
-                      <li class="track-item" data-song="Your eyes">26. Your eyes</li>
-                      <li class="track-item" data-song="Hold over me">27. Hold over me</li>
-                      <li class="track-item" data-song="A minute">28. A minute</li>
-                      <li class="track-item" data-song="Mariam">29. Mariam</li>
-                      <li class="track-item" data-song="Mine">30. Mine</li>
-                      <li class="track-item" data-song="Back home">31. Back home</li>
-                      <li class="track-item" data-song="Heaven knows">32. Heaven knows</li>
-                      <li class="track-item" data-song="Assets">33. Assets</li>
-                      <li class="track-item" data-song="Just us two">34. Just us two</li>
-                    </ul>
-                  </div>
-                </div>
-                
-                <!-- Frith Album -->
-                <div class="album-card">
-                  <div class="album-item" onclick="toggleTrackList(4)">
-                    <div class="album-cover">
-                      <img src="../images/albums/frith.jpg" alt="Frith" />
-                    </div>
-                    <div class="album-info">
-                      <p class="album-title">Frith</p>
-                      <p class="album-meta">Release Date: May 5, 2022 | Songs: 23</p>
-                    </div>
-                  </div>
-                  <div class="track-list" id="track-list-4">
-                    <ul>
-                      <li class="track-item" data-song="Take no buck">1. Take no buck</li>
-                      <li class="track-item" data-song="Triple to the X">2. Triple to the X</li>
-                      <li class="track-item" data-song="Facts">3. Facts</li>
-                      <li class="track-item" data-song="Consumed">4. Consumed</li>
-                      <li class="track-item" data-song="Anon">5. Anon</li>
-                      <li class="track-item" data-song="Curveball">6. Curveball</li>
-                      <li class="track-item" data-song="Sovereign">7. Sovereign</li>
-                      <li class="track-item" data-song="Playing">8. Playing</li>
-                      <li class="track-item" data-song="LILI">9. LILI</li>
-                      <li class="track-item" data-song="Hope">10. Hope</li>
-                      <li class="track-item" data-song="Popsicle">11. Popsicle</li>
-                      <li class="track-item" data-song="Ape">12. Ape</li>
-                      <li class="track-item" data-song="Close friends">13. Close friends</li>
-                      <li class="track-item" data-song="Dad (Interlude)">14. Dad (Interlude)</li>
-                      <li class="track-item" data-song="Paris">15. Paris</li>
-                      <li class="track-item" data-song="Warn me you’re ready">16. Warn me you’re ready</li>
-                      <li class="track-item" data-song="Unfurled">17. Unfurled</li>
-                      <li class="track-item" data-song="Every door Taylor">18. Every door Taylor</li>
-                      <li class="track-item" data-song="Milk">19. Milk</li>
-                      <li class="track-item" data-song="Admissible emotions">20. Admissible emotions</li>
-                      <li class="track-item" data-song="Euphoria">21. Euphoria</li>
-                      <li class="track-item" data-song="Beat me down">22. Beat me down</li>
-                      <li class="track-item" data-song="Ready to begin">23. Ready to begin</li>
-                    </ul>
-                  </div>
-                </div>
-                
-                <!-- December 13 Album -->
-                <div class="album-card">
-                  <div class="album-item" onclick="toggleTrackList(3)">
-                    <div class="album-cover">
-                      <img src="../images/albums/december13.jpg" alt="December 13" />
-                    </div>
-                    <div class="album-info">
-                      <p class="album-title">December 13</p>
-                      <p class="album-meta">Release Date: January 10, 2022 | Songs: 25</p>
-                    </div>
-                  </div>
-                  <div class="track-list" id="track-list-3">
-                    <ul>
-                      <li class="track-item" data-song="Anarchy">1. Anarchy</li>
-                      <li class="track-item" data-song="December 13">2. December 13</li>
-                      <li class="track-item" data-song="Can't have you">3. Can't have you</li>
-                      <li class="track-item" data-song="Got a bitch a valve">4. Got a bitch a valve</li>
-                      <li class="track-item" data-song="Tom">5. Tom</li>
-                      <li class="track-item" data-song="Still can't swim">6. Still can't swim</li>
-                      <li class="track-item" data-song="Well with her eff fame">7. Well with her eff fame</li>
-                      <li class="track-item" data-song="Lili Fallon">8. Lili Fallon</li>
-                      <li class="track-item" data-song="Missing you">9. Missing you</li>
-                      <li class="track-item" data-song="My girl">10. My girl</li>
-                      <li class="track-item" data-song="Forest">11. Forest</li>
-                      <li class="track-item" data-song="Flutter">12. Flutter</li>
-                      <li class="track-item" data-song="No. 13 a bore">13. No. 13 a bore</li>
-                      <li class="track-item" data-song="Partner">14. Partner</li>
-                      <li class="track-item" data-song="Something simple">15. Something simple</li>
-                      <li class="track-item" data-song="Aperient flow">16. Aperient flow</li>
-                      <li class="track-item" data-song="Six">17. Six</li>
-                      <li class="track-item" data-song="Beethovenian">18. Beethovenian</li>
-                      <li class="track-item" data-song="Outside">19. Outside</li>
-                      <li class="track-item" data-song="I think I am">20. I think I am</li>
-                      <li class="track-item" data-song="Sound of tears">21. Sound of tears</li>
-                      <li class="track-item" data-song="What’s next?">22. What’s next?</li>
-                      <li class="track-item" data-song="Scribbling with a gun">23. Scribbling with a gun</li>
-                      <li class="track-item" data-song="I'm Okay">24. I'm Okay</li>
-                      <li class="track-item" data-song="Milou Christmas">25. Milou Christmas</li>
-                    </ul>
-                  </div>
-                </div>
-                
-                <!-- Colourful Light Album -->
-                <div class="album-card">
-                  <div class="album-item" onclick="toggleTrackList(2)">
-                    <div class="album-cover">
-                      <img src="../images/albums/colourfullight.jpg" alt="Colourful Light" />
-                    </div>
-                    <div class="album-info">
-                      <p class="album-title">Colourful Light</p>
-                      <p class="album-meta">Release Date: January 18, 2023 | Songs: 30</p>
-                    </div>
-                  </div>
-                  <div class="track-list" id="track-list-2">
-                    <ul>
-                      <li class="track-item" data-song="Conterminous">1. Conterminous</li>
-                      <li class="track-item" data-song="Forever">2. Forever</li>
-                      <li class="track-item" data-song="Not on my mobile">3. Not on my mobile</li>
-                      <li class="track-item" data-song="No prolix">4. No prolix</li>
-                      <li class="track-item" data-song="Clones">5. Clones</li>
-                      <li class="track-item" data-song="Needle">6. Needle</li>
-                      <li class="track-item" data-song="Gold pack">7. Gold pack</li>
-                      <li class="track-item" data-song="Endorphin">8. Endorphin</li>
-                      <li class="track-item" data-song="Never what it means">9. Never what it means</li>
-                      <li class="track-item" data-song="How you had me">10. How you had me</li>
-                      <li class="track-item" data-song="I won't say it">11. I won't say it</li>
-                      <li class="track-item" data-song="On you">12. On you</li>
-                      <li class="track-item" data-song="Little girl">13. Little girl</li>
-                      <li class="track-item" data-song="Ogre">14. Ogre</li>
-                      <li class="track-item" data-song="Living video record">15. Living video record</li>
-                      <li class="track-item" data-song="So long">16. So long</li>
-                      <li class="track-item" data-song="No telling">17. No telling</li>
-                      <li class="track-item" data-song="Pepperoni freestyle">18. Pepperoni freestyle</li>
-                      <li class="track-item" data-song="May 1st">19. May 1st</li>
-                      <li class="track-item" data-song="Plunge (Interlude)">20. Plunge (Interlude)</li>
-                      <li class="track-item" data-song="Next to you">21. Next to you</li>
-                      <li class="track-item" data-song="Above">22. Above</li>
-                      <li class="track-item" data-song="Warden">23. Warden</li>
-                      <li class="track-item" data-song="Automatic">24. Automatic</li>
-                      <li class="track-item" data-song="Colourful light">25. Colourful light</li>
-                      <li class="track-item" data-song="Gravity">26. Gravity</li>
-                      <li class="track-item" data-song="Malady">27. Malady</li>
-                      <li class="track-item" data-song="Favourite girl">28. Favourite girl</li>
-                      <li class="track-item" data-song="Baby sways">29. Baby sways</li>
-                      <li class="track-item" data-song="What she does">30. What she does</li>
-                    </ul>
-                  </div>
-                </div>
-                
-                <!-- H.I.V Album -->
-                <div class="album-card">
-                  <div class="album-item" onclick="toggleTrackList(1)">
-                    <div class="album-cover">
-                      <img src="../images/albums/hiv.jpg" alt="H.I.V" />
-                    </div>
-                    <div class="album-info">
-                      <p class="album-title">H.I.V</p>
-                      <p class="album-meta">Release Date: April 17, 2019 | Songs: 13</p>
-                    </div>
-                  </div>
-                  <div class="track-list" id="track-list-1">
-                    <ul>
-                      <li class="track-item" data-song="What is Love">1. What is Love</li>
-                      <li class="track-item" data-song="Real Friends">2. Real Friends</li>
-                      <li class="track-item" data-song="Spotlight">3. Spotlight</li>
-                      <li class="track-item" data-song="Bleeding Heart">4. Bleeding Heart</li>
-                      <li class="track-item" data-song="Rollie Dreams">5. Rollie Dreams</li>
-                      <li class="track-item" data-song="Bad Vibez">6. Bad Vibez</li>
-                      <li class="track-item" data-song="My Heart">7. My Heart</li>
-                      <li class="track-item" data-song="Interlude">8. Interlude</li>
-                      <li class="track-item" data-song="What is Real">9. What is Real</li>
-                      <li class="track-item" data-song="Sunday Special">10. Sunday Special</li>
-                      <li class="track-item" data-song="Hurt You">11. Hurt You</li>
-                      <li class="track-item" data-song="Two Bad Bitches">12. Two Bad Bitches</li>
-                      <li class="track-item" data-song="What's the Price?">13. What's the Price?</li>
-                    </ul>
-                  </div>
-                </div>
+              <div class="album-list" id="album-list">
+                <!-- Albums will be dynamically populated here -->
               </div>
             </div>
           </div>
@@ -2281,11 +1261,11 @@
     });
   </script>
   <script src="../js/upcomingPageAds.js"></script>
-  <script src="../js/poolFunctions.js"></script>
   <!-- <script type="module" src="../js/lyrics.js"></script>-->
   
   
   <script type="module" src="../js/freshPlayer/main.js"></script>
+  <script src="../js/freshPlayer/albums.js"></script>
   <script>
     window.addEventListener("load", function() {
       /*
