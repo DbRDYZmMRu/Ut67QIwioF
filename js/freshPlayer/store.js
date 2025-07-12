@@ -18,8 +18,7 @@ export const store = reactive({
   currentAlbum: null,
   currentTrackIndex: -1,
   lyricsData: null,
-  trackDataCache: new Map(), // Cache for track data
-
+  
   async loadAlbums() {
     try {
       const response = await fetch('../data/albums.json');
@@ -33,7 +32,7 @@ export const store = reactive({
       console.error('Error in loadAlbums:', error.message);
     }
   },
-
+  
   async showAlbumTracks(id) {
     try {
       if (!this.albums.length) {
@@ -69,7 +68,7 @@ export const store = reactive({
       console.error('Error in showAlbumTracks:', err.message, { id });
     }
   },
-
+  
   buyAlbum(id) {
     try {
       if (id === 16) {
@@ -86,7 +85,7 @@ export const store = reactive({
       console.error('Error in buyAlbum:', err.message, { id });
     }
   },
-
+  
   getAlbumCover(id) {
     try {
       const album = this.albums.find(album => album.id === Number(id));
@@ -96,7 +95,7 @@ export const store = reactive({
       return '../images/default.jpg';
     }
   },
-
+  
   async playTrack(trackId) {
     try {
       console.log('playTrack called with:', { trackId });
@@ -122,46 +121,25 @@ export const store = reactive({
         return;
       }
       console.log('Found track:', { trackId, trackTitle: track.title, albumTitle: album.title });
-
-      // Check cache first
-      let data = this.trackDataCache.get(trackId);
+      const data = await fetchTrackData(trackId);
       if (!data) {
-        console.log('Fetching track data for trackId:', trackId);
-        data = await fetchTrackData(trackId);
-        if (!data || typeof data !== 'object' || !data.json || !data.audio) {
-          console.error('Error in playTrack: Invalid track data', { trackId, data });
-          // Fallback to default track
-          data = {
-            json: { song_title: track.title, writer: 'Frith Hilton', duration: 0, lyrics: [] },
-            audio: this.mp3,
-            cover: album.cover || '../images/default.jpg'
-          };
-        }
-        this.trackDataCache.set(trackId, data);
-        // Clear cache if too large
-        if (this.trackDataCache.size > 100) {
-          this.trackDataCache.clear();
-          console.log('Cleared trackDataCache to prevent memory issues');
-        }
-      } else {
-        console.log('Using cached track data for trackId:', trackId);
+        console.error('Error in playTrack: No track data', { trackId });
+        playTrack(this.mp3); // Fallback
+        renderLyrics([]);
+        return;
       }
-
       this.currentAlbum = album;
       this.currentAlbumId = album.id;
       this.currentTrackIndex = album.songs.findIndex(s => s.id === Number(trackId));
       this.currentTrack = {
-        name: data.json.song_title || track.title,
+        name: data.json.song_title,
         artist: data.json.writer || 'Frith Hilton',
         cover: data.cover || album.cover || '../images/default.jpg',
-        mp3_url: data.audio || this.mp3
+        mp3_url: data.audio
       };
-      // Only set totalTime if not already set to avoid overwriting during seeking
-      if (!playerState.totalTime || playerState.currentTrackUrl !== data.audio) {
-        playerState.totalTime = data.json.duration || 0;
-      }
+      playerState.totalTime = data.json.duration || 0;
       this.lyricsData = data.json.lyrics || [];
-      playTrack(data.audio || this.mp3);
+      playTrack(data.audio);
       renderLyrics(data.json.lyrics || []);
       updatePageContent(trackId, data);
       highlightAndOpenAlbum(trackId);
@@ -178,7 +156,7 @@ export const store = reactive({
       }
     }
   },
-
+  
   nextTrack() {
     try {
       if (!this.currentAlbum || this.currentTrackIndex === -1) {
@@ -192,7 +170,7 @@ export const store = reactive({
       console.error('Error in nextTrack:', err.message);
     }
   },
-
+  
   prevTrack() {
     try {
       if (!this.currentAlbum || this.currentTrackIndex === -1) {
@@ -207,7 +185,7 @@ export const store = reactive({
       console.error('Error in prevTrack:', err.message);
     }
   },
-
+  
   acceptCookieUse() {
     try {
       localStorage.setItem('cookieUse', true);
@@ -215,7 +193,7 @@ export const store = reactive({
       console.error('Error in acceptCookieUse:', err.message);
     }
   },
-
+  
   showLoader() {
     try {
       const loaderHtml = `
@@ -243,7 +221,7 @@ export const store = reactive({
       console.error('Error in showLoader:', err.message);
     }
   },
-
+  
   switchView(view) {
     try {
       this.showLoader();
@@ -253,7 +231,7 @@ export const store = reactive({
       console.error('Error in switchView:', err.message, { view });
     }
   },
-
+  
   switchView_ii(innerView) {
     try {
       document.body.style.opacity = 0;
@@ -266,7 +244,7 @@ export const store = reactive({
       console.error('Error in switchView_ii:', err.message, { innerView });
     }
   },
-
+  
   loadStylesheet(href) {
     try {
       const existingLink = document.getElementById(this.stylesheetId);
@@ -282,7 +260,7 @@ export const store = reactive({
       console.error('Error in loadStylesheet:', err.message, { href });
     }
   },
-
+  
   getView() {
     try {
       return this.view;
@@ -291,7 +269,7 @@ export const store = reactive({
       return 'div1';
     }
   },
-
+  
   getInnerView() {
     try {
       return this.innerView || 'div3';
