@@ -19,7 +19,6 @@ const spinIndicator = document.getElementById('spinIndicator');
 let rotation = 0;
 let spinTween = null;
 let lastSpinAngle = 0;
-let spinVelocity = 0;
 
 export function initializeAnimations() {
   try {
@@ -84,8 +83,10 @@ function spin() {
 export function initializeDraggable() {
   try {
     if (albumArt && spinIndicator) {
+      albumArt.addEventListener('click', e => e.preventDefault());
       Draggable.create(albumArt, {
         type: 'rotation',
+        inertia: true, // Add inertia for smoother scrubbing
         onDragStart: function() {
           try {
             playerState.isManualSpinning = true;
@@ -98,15 +99,21 @@ export function initializeDraggable() {
               y: -5,
               ease: 'power2.out'
             });
+            if (playerState.isPlaying && audioPlayer && audioPlayer.readyState >= 2) {
+              audioPlayer.pause();
+            }
           } catch (err) {
             console.error('Error in initializeDraggable onDragStart:', err.message);
           }
         },
         onDrag: function() {
           try {
+            if (!audioPlayer || audioPlayer.readyState < 2) {
+              console.log('Audio not ready for scrubbing, readyState:', audioPlayer ? audioPlayer.readyState : 'undefined');
+              return;
+            }
             const angleDiff = this.rotation - lastSpinAngle;
-            spinVelocity = angleDiff;
-            const seekChange = (angleDiff / 360) * 10;
+            const seekChange = (angleDiff / 360) * playerState.totalTime; // Precise mapping
             playerState.currentTime = Math.max(0, Math.min(playerState.totalTime, playerState.currentTime + seekChange));
             audioPlayer.currentTime = playerState.currentTime;
             updateProgress();
@@ -126,6 +133,11 @@ export function initializeDraggable() {
               y: 0,
               ease: 'power2.out'
             });
+            if (playerState.isPlaying && audioPlayer && audioPlayer.readyState >= 2) {
+              audioPlayer.play().catch(err => {
+                console.error('Error resuming playback after scrub:', err.message);
+              });
+            }
             if (playerState.isPlaying) {
               setTimeout(() => {
                 if (!playerState.isDragging) startSpinning();
@@ -147,14 +159,15 @@ export function initializeDraggable() {
 export function updateProgress() {
   try {
     const progressPercent = playerState.totalTime ? (playerState.currentTime / playerState.totalTime) * 100 : 0;
-    if (seekProgress) {
+    if (seekProgress && seekBar) {
       gsap.to(seekProgress, {
         duration: 0.3,
         width: progressPercent + '%',
         ease: 'power2.out'
       });
+      // seekHandle position handled by CSS (right: -8px)
     } else {
-      console.error('Error in updateProgress: Missing seekProgress');
+      console.error('Error in updateProgress: Missing seekProgress or seekBar');
     }
   } catch (err) {
     console.error('Error in updateProgress:', err.message);
@@ -163,63 +176,90 @@ export function updateProgress() {
 
 export function initializeSeekBar() {
   try {
-    if (seekBar && seekHandle) {
+    if (seekBar && seekHandle && seekProgress) {
       let isDraggingSeek = false;
+      
+      // Click handler for seekbar
       seekBar.addEventListener('click', e => {
         try {
           if (isDraggingSeek) return;
+          if (!audioPlayer || audioPlayer.readyState < 2) {
+            console.log('Audio not ready for seeking, readyState:', audioPlayer ? audioPlayer.readyState : 'undefined');
+            return;
+          }
           const rect = seekBar.getBoundingClientRect();
           const clickPosition = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
           playerState.currentTime = clickPosition * playerState.totalTime;
           audioPlayer.currentTime = playerState.currentTime;
           updateProgress();
           updateTimeDisplay();
-          gsap.to(seekHandle, {
-            duration: 0.3,
-            scale: 1.2,
-            yoyo: true,
-            repeat: 1,
-            ease: 'power2.out'
-          });
+          if (playerState.isPlaying && audioPlayer.paused && audioPlayer.readyState >= 2) {
+            audioPlayer.play().catch(err => {
+              console.error('Error resuming playback after seek:', err.message);
+            });
+          }
         } catch (err) {
           console.error('Error in initializeSeekBar click:', err.message);
         }
       });
-      seekBar.addEventListener('mousedown', e => {
-        try {
-          isDraggingSeek = true;
-          const rect = seekBar.getBoundingClientRect();
-          
-          function onMouseMove(event) {
-            try {
-              const progress = Math.max(0, Math.min(1, (event.clientX - rect.left) / rect.width));
-              playerState.currentTime = progress * playerState.totalTime;
-              audioPlayer.currentTime = playerState.currentTime;
-              updateProgress();
-              updateTimeDisplay();
-            } catch (err) {
-              console.error('Error in initializeSeekBar onMouseMove:', err.message);
+      
+      // Drag handler for seekHandle
+      Draggable.create(seekHandle, {
+        bounds: seekBar,
+        type: 'x',
+        edgeResistance: 0.95, // Prevent dragging beyond bounds
+        onPress: function() {
+          // Ensure seekHandle is interactive
+          seekHandle.style.pointerEvents = 'auto';
+          seekHandle.style.zIndex = '100';
+        },
+        onDragStart: function() {
+          try {
+            isDraggingSeek = true;
+            if (playerState.isPlaying && audioPlayer && audioPlayer.readyState >= 2) {
+              audioPlayer.pause();
             }
+            seekHandle.classList.add('active');
+          } catch (err) {
+            console.error('Error in seekHandle onDragStart:', err.message);
           }
-          
-          function onMouseUp() {
-            try {
-              isDraggingSeek = false;
-              document.removeEventListener('mousemove', onMouseMove);
-              document.removeEventListener('mouseup', onMouseUp);
-            } catch (err) {
-              console.error('Error in initializeSeekBar onMouseUp:', err.message);
+        },
+        onDrag: function() {
+          try {
+            if (!audioPlayer || audioPlayer.readyState < 2) {
+              console.log('Audio not ready for dragging, readyState:', audioPlayer ? audioPlayer.readyState : 'undefined');
+              return;
             }
+            const rect = seekBar.getBoundingClientRect();
+            const handleWidth = seekHandle.offsetWidth;
+            const maxHandlePosition = rect.width - handleWidth;
+            const progress = Math.max(0, Math.min(1, this.x / maxHandlePosition));
+            playerState.currentTime = progress * playerState.totalTime;
+            audioPlayer.currentTime = playerState.currentTime;
+            gsap.set(seekProgress, { width: (progress * 100) + '%' }); // Instant update
+            updateTimeDisplay();
+          } catch (err) {
+            console.error('Error in seekHandle onDrag:', err.message);
           }
-          document.addEventListener('mousemove', onMouseMove);
-          document.addEventListener('mouseup', onMouseUp);
-          onMouseMove(e);
-        } catch (err) {
-          console.error('Error in initializeSeekBar mousedown:', err.message);
+        },
+        onDragEnd: function() {
+          try {
+            isDraggingSeek = false;
+            seekHandle.classList.remove('active');
+            seekHandle.style.zIndex = ''; // Reset zIndex
+            updateProgress();
+            if (playerState.isPlaying && audioPlayer && audioPlayer.readyState >= 2) {
+              audioPlayer.play().catch(err => {
+                console.error('Error resuming playback after seekHandle drag:', err.message);
+              });
+            }
+          } catch (err) {
+            console.error('Error in seekHandle onDragEnd:', err.message);
+          }
         }
       });
     } else {
-      console.error('Error in initializeSeekBar: Missing seekBar or seekHandle');
+      console.error('Error in initializeSeekBar: Missing seekBar, seekHandle, or seekProgress');
     }
   } catch (err) {
     console.error('Error in initializeSeekBar:', err.message);
