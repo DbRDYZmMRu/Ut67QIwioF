@@ -1,6 +1,5 @@
 // search.js
 import { store } from './store.js';
-import { toggleTrackList } from './utils.js';
 
 export function initializeSearch() {
   try {
@@ -73,20 +72,21 @@ export function initializeSearch() {
           if (query.trim() === '') return;
           const results = [];
           store.albums.forEach(album => {
-            if (album.name.toLowerCase().includes(query)) {
+            if (album.title.toLowerCase().includes(query)) {
               results.push({
                 type: 'Album',
-                name: album.name,
-                album: album.name
+                name: album.title,
+                albumId: album.id
               });
             }
-            album.tracks.forEach(track => {
-              if (track.toLowerCase().includes(query)) {
+            album.songs.forEach(song => {
+              if (song.title.toLowerCase().includes(query)) {
                 results.push({
                   type: 'Track',
-                  name: track,
-                  album: album.name,
-                  song: track
+                  name: song.title,
+                  album: album.title,
+                  albumId: album.id,
+                  trackId: song.id
                 });
               }
             });
@@ -99,12 +99,16 @@ export function initializeSearch() {
               resultItem.addEventListener('click', () => {
                 try {
                   if (item.type === 'Track') {
-                    store.playTrack(item.album, item.song);
+                    store.playTrack(item.trackId);
                     searchPopup.style.display = 'none';
                     searchResults.innerHTML = '';
+                    store.switchView_ii('div4');
+                    window.toggleTrackList(item.albumId, item.name.toLowerCase().replace(/['’]/g, ''));
                   } else {
-                    const albumIndex = store.albums.findIndex(a => a.name === item.name);
-                    if (albumIndex !== -1) toggleTrackList(albumIndex + 1);
+                    store.switchView_ii('div4');
+                    window.toggleTrackList(item.albumId);
+                    searchPopup.style.display = 'none';
+                    searchResults.innerHTML = '';
                   }
                 } catch (err) {
                   console.error('Error in searchResult click:', err.message, { item });
