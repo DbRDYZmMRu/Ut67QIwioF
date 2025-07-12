@@ -1130,6 +1130,8 @@
 		 * loader
 		 * ------------------------------------------------------------------------ */
 var _lorder = $('.template-loader');
+// Remove the overlay when you're ready
+document.querySelector('body > div:first-child').style.display = 'none';
 
 if (_lorder.length > 0) {
   setTimeout(function() {
@@ -1297,6 +1299,46 @@ if (_lorder.length > 0) {
 				$('#myInput').trigger('focus')
 			});
 		}
+
+
+
+
+
+var _timeModal = $('#timeModal');
+var timeSpent = localStorage.getItem("timeSpent");
+
+if (!timeSpent) {
+  timeSpent = new Date().getTime();
+  localStorage.setItem("timeSpent", timeSpent);
+} else {
+  timeSpent = parseInt(timeSpent);
+  var currentTime = new Date().getTime();
+  var timeDiff = currentTime - timeSpent;
+  
+  if (timeDiff >= 0) { // 300000ms = 5 minutes
+    _timeModal.modal('show');
+    localStorage.removeItem("timeSpent");
+  }
+}
+
+_timeModal.on('shown.bs.modal', function() {
+  // Add focus to a specific input field if needed
+});
+
+_timeModal.on('hidden.bs.modal', function() {
+  localStorage.setItem("timeSpent", new Date().getTime());
+});
+
+
+
+
+
+
+
+
+
+
+
 
 		/* ------------------------------------------------------------------------
 		 * Get Full year
