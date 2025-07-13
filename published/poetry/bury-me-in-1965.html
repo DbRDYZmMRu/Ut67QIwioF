@@ -144,252 +144,79 @@
     <!--========== 
 	End of loader ==========-->
 
-    <!--========== 
+  
+  
+  <!--=========
     Start of  cookie modal notification section ==========-->
-    <div class="modal-subscribe">
-      <!-- Modal -->
-      <div
-        class="modal fade"
-        data-bs-backdrop="static"
-        id="myModal"
-        tabindex="-1"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-body p-0 bg-secondary rounded">
-              <div class="p-5 text-center">
-                <img
-                  class="img-fluid px-5"
-                  src="../../images/svg/cookie.svg"
-                  alt=""
-                />
-                <h3>Cookies</h3>
-                <p class="text-dark">
-                  Managed by <b>F</b>rith<b> N</b>ightswan<b> E</b>nterprises</p> 
-                <a href="/cookies.html" class="text-primary-gradient fw-bold"
-                  >Our policy</a
-                >
-                <div class="d-grid mt-5">
-                  <button
-                    type="button"
-                    class="btn btn-white rounded"
-                    data-bs-dismiss="modal"
-                    @click="store.acceptCookieUse()"
-                  >
-                    Accept
-                  </button>
-                  <p class="text-dark mt-4">
-                    Coupled with
-                    <svg
-                      class="logo"
-                      viewBox="0 0 128 128"
-                      width="24"
-                      height="24"
-                      data-v-53ccc107=""
-                    >
-                      <path
-                        fill="#42b883"
-                        d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z"
-                        data-v-53ccc107=""
-                      ></path>
-                      <path
-                        fill="#35495e"
-                        d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z"
-                        data-v-53ccc107=""
-                      ></path>
-                    </svg>
-                    <a
-                      href="https://github.com/vuejs/petite-vue"
-                      target="_blank"
-                      style="color: #42b883"
-                      ><b>petite-vue</b></a
-                    >
-                  </p>
-                </div>
+  <div class="modal-subscribe">
+    <!-- Modal -->
+    <div class="modal fade" data-bs-backdrop="static" id="myModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body p-0 bg-secondary rounded">
+            <div class="p-5 text-center">
+              <img class="img-fluid px-5" src="/images/svg/cookie.svg" alt="Cookies Policy Image" />
+              <h3>Cookies</h3>
+              <p class="text-dark">Managed by <b>F</b>rith<b> N</b>ightswan<b> E</b>nterprises</p>
+              <a href="/cookies.html" class="text-primary-gradient fw-bold">Our policy</a>
+              <div class="d-grid mt-5">
+                <button type="button" class="btn btn-white rounded" data-bs-dismiss="modal" @click="store.acceptCookieUse()">
+                  Accept
+                </button>
+                <p class="text-dark mt-4">
+                  Coupled with
+                  <svg class="logo" viewBox="0 0 128 128" width="24" height="24" data-v-53ccc107="">
+                    <path fill="#42b883" d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z" data-v-53ccc107=""></path>
+                    <path fill="#35495e" d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z" data-v-53ccc107=""></path>
+                  </svg>
+                  <a href="https://github.com/vuejs/petite-vue" target="_blank" style="color: #42b883;"><b>petite-vue</b></a>
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!--========== 
+  </div>
+  <!--========== 
           End of cookie modal notification section ==========-->
-    <!--==========-->
-
-
-
-
-
+  <!--==========-->
+  
   <header class="header">
     <!--===== Start of navbar =====-->
     <nav class="navbar navbar-light navbar-expand-lg navbar-default">
       <div class="container-fluid">
         <!--===== Start of logo =====-->
-        <a class="navbar-brand" href="/"><img class="logo" src="../../images/logo.png" alt="Frith Hilton Logo" /></a>
+        <a class="navbar-brand" href="/"><img class="logo" src="/images/logo.png" alt="Frith Hilton Logo" /></a>
         <!--===== End of logo =====-->
-
-        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-          aria-label="Toggle navigation">
+        
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="icon-bar top-bar mt-0"></span>
           <span class="icon-bar middle-bar"></span>
           <span class="icon-bar bottom-bar"></span>
         </button>
-
+        
         <!--===== Start of nav =====-->
         <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="/"><span class="text-line"> Home </span></a>
-            </li>                       
+            </li>
             <li class="nav-item dropdown active">
               <a @click="store.goToPublished" class="nav-link dropdown-toggle" href="#" id="navbar-pages" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="text-line"> Publications</span>
               </a>
-
-              <!--<ul class="dropdown-menu" aria-labelledby="navbar-pages">
-                <div class="mb-3 mt-3">
-                  <a href="#">
-                    Frith Hilton Collections
-                  </a>
-                </div>
-
-                <li class="dropdown-submenu">
-                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections I — III </span></a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="../published/poetry/collection-I.html"><span class="text-line">
-                          Collection I
-                        </span></a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="../published/poetry/collection-II.html"><span class="text-line">
-                          Collection II
-                        </span></a>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collection III </span></a>
-                      <ul class="dropdown-menu">
-                        <li>
-                          <a class="dropdown-item" href="../published/poetry/collection-III.html"><span class="text-line">
-                              Valentine Edition
-                            </span></a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="../published/poetry/collection-III-ii.html"><span class="text-line">
-                              Original Edition
-                            </span></a>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-                <li class="dropdown-submenu">
-                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections IV — VI </span></a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="../published/poetry/collection-IV.html"><span class="text-line">
-                          Collection IV
-                        </span></a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="../published/poetry/collection-V.html"><span class="text-line">
-                          Collection V
-                        </span></a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="../published/poetry/collection-VI.html"><span class="text-line">
-                          Collection VI
-                        </span></a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="dropdown-submenu">
-                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections VII — IX </span></a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="published/poetry/collection-VII.html"><span class="text-line">
-                          Collection VII
-                        </span></a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="published/poetry/collection-VIII.html"><span class="text-line">
-                          Collection VIII
-                        </span></a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="published/poetry/collection-IX.html"><span class="text-line">
-                          Collection IX
-                        </span></a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="dropdown-submenu">
-                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections X — XII </span></a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="published/poetry/collection-X.html"><span class="text-line">
-                          Collection X
-                        </span></a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="published/poetry/collection-XI.html"><span class="text-line">
-                          Collection XI
-                        </span></a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="published/poetry/collection-XII.html"><span class="text-line">
-                          Collection XII
-                        </span></a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="dropdown-submenu">
-                  <a class="dropdown-item dropdown-toggle" href="#"><span class="text-line"> Collections XIII — XIV </span></a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="published/poetry/collection-XIII.html"><span class="text-line">
-                          Collection XIII
-                        </span></a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="published/poetry/collection-XIV.html"><span class="text-line">
-                          Collection XIV
-                        </span><span class="badge bg-primary" style="font-size: 0.55em">New</span></a>
-                    </li>
-                  </ul>
-                </li>
-                <div class="mb-3 mt-3">
-                  <a href="#">
-                    Non-Fiction
-                  </a>
-                </div>
-
-                <li>
-                  <a class="dropdown-item" href="published/poetry/bury-me-in-1965.html"><span class="text-line">
-                      Bury me in 1965
-                    </span></a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="published/journal/a-life-worth-living.html"><span class="text-line">
-                      A Life Worth Living (Vision @ 2020)
-                    </span></a>
-                </li>
-              
-              </ul>-->
             </li>
             
             <li class="nav-item">
               <a class="nav-link" href="../../pages/upcoming.html"><span class="text-line"> Upcoming Poetry</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../../pages/musicpool.html"><span class="text-line"> Musicpool </span></a>
+              <a class="nav-link" href="../../pages/freshPlayer.html"><span class="text-line"> Fresh Player </span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../../pages/bio.html"><span class="text-line"> Bio </span></a>
-            </li>            
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="../../cookies.html"><span class="text-line"> Cookies Policy </span></a>
             </li>
@@ -400,10 +227,9 @@
     </nav>
     <!--===== End of navbar =====-->
   </header>
-
+  
   <!--========== 
         End of header ==========-->
-
   <!--========== 
         End of Sidebar ==========-->
   <section class="position-relative slice-ptb">
