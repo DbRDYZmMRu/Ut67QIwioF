@@ -1,7 +1,7 @@
 // store.js
 import { createApp, reactive } from './petite-vue.js';
-import { fetchTrackData, renderLyrics, updatePageContent, highlightAndOpenAlbum } from './lyrics.js';
-import { playTrack } from './player.js';
+import { fetchTrackData, renderLyrics, updatePageContent, highlightAndOpenAlbum } from './lyricsManager.js';
+import { playTrack } from './audioPlayback.js';
 import { playerState } from './state.js';
 
 export const store = reactive({
@@ -12,7 +12,7 @@ export const store = reactive({
   stylesheetId: 'dynamic-stylesheet',
   view: 'div1',
   innerView: 'div3',
-  mp3: './musicpool-db/mp3/ValenceEve/1.mp3', // Fallback
+  mp3: './musicpool-db/mp3/ValenceEve/1.mp3',
   albums: [],
   currentTrack: null,
   currentAlbum: null,
@@ -124,7 +124,7 @@ export const store = reactive({
       const data = await fetchTrackData(trackId);
       if (!data) {
         console.error('Error in playTrack: No track data', { trackId });
-        playTrack(this.mp3); // Fallback
+        playTrack(this.mp3);
         renderLyrics([]);
         return;
       }
