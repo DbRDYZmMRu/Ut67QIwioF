@@ -48,25 +48,27 @@ export function renderLyrics(lyricsData) {
       document.body.appendChild(overlay);
     }
     
-    function openPanel(annotation) {
+    // Function to set dynamic height
+    function setLyricsContainerHeight() {
       try {
-        annotationText.innerHTML = annotation || 'No annotation available.';
-        annotationPanel.classList.add('active');
-        overlay.classList.add('active');
+        const lyricsContainerParent = document.querySelector('.lyrics-container');
+        if (!lyricsContainerParent) {
+          console.error('Missing .lyrics-container');
+          return;
+        }
+        // Calculate total height of lyrics content
+        const totalHeight = lyricsContainer.scrollHeight;
+        // Set max-height to half the content height, with constraints
+        const minHeight = 400; // Minimum height to prevent tiny containers
+        const maxCap = window.innerWidth <= 480 ? 1000 : 2000; // Respect original max-height for mobile/desktop
+        const calculatedHeight = Math.max(minHeight, Math.min(totalHeight / 2, maxCap));
+        lyricsContainerParent.style.maxHeight = `${calculatedHeight}px`;
       } catch (err) {
-        console.error('Error in openPanel:', err.message);
+        console.error('Error in setLyricsContainerHeight:', err.message);
       }
     }
     
-    function closePanel() {
-      try {
-        annotationPanel.classList.remove('active');
-        overlay.classList.remove('active');
-      } catch (err) {
-        console.error('Error in closePanel:', err.message);
-      }
-    }
-    
+    // Clear existing content
     lyricsContainer.innerHTML = '';
     lyricsData.forEach((entry, index) => {
       const lineElement = document.createElement('div');
@@ -95,12 +97,22 @@ export function renderLyrics(lyricsData) {
       lyricsContainer.appendChild(lineElement);
     });
     
+    // Set initial height
+    setLyricsContainerHeight();
+    
+    // Update height on window resize
+    window.removeEventListener('resize', setLyricsContainerHeight); // Prevent duplicate listeners
+    window.addEventListener('resize', setLyricsContainerHeight);
+    
+    // Handle annotations
     const annotatedWords = document.querySelectorAll('.annotated-word');
     annotatedWords.forEach(word => {
       word.addEventListener('click', () => {
         try {
           const annotation = word.dataset.annotation;
-          openPanel(annotation);
+          annotationText.innerHTML = annotation || 'No annotation available.';
+          annotationPanel.classList.add('active');
+          overlay.classList.add('active');
         } catch (err) {
           console.error('Error in annotated word click:', err.message);
         }
@@ -111,6 +123,15 @@ export function renderLyrics(lyricsData) {
     closePanelBtn?.addEventListener('click', closePanel);
     overlay.removeEventListener('click', closePanel);
     overlay.addEventListener('click', closePanel);
+    
+    function closePanel() {
+      try {
+        annotationPanel.classList.remove('active');
+        overlay.classList.remove('active');
+      } catch (err) {
+        console.error('Error in closePanel:', err.message);
+      }
+    }
   } catch (err) {
     console.error('Error in renderLyrics:', err.message);
   }
@@ -206,6 +227,23 @@ export function highlightCurrentLyric(lyrics, currentTime) {
     lyricLines.forEach((line, index) => {
       if (index === currentIndex) {
         line.classList.add('highlight');
+        if (store.lyricsFocusEnabled) {
+          // Calculate the scroll position to center the highlighted line
+          const containerHeight = lyricsContainer.clientHeight;
+          const lineHeight = line.offsetHeight;
+          const lineTop = line.offsetTop;
+          const scrollTop = lineTop - (containerHeight / 2) + (lineHeight / 2);
+          
+          // Ensure the scroll position stays within bounds
+          const maxScroll = lyricsContainer.scrollHeight - containerHeight;
+          const finalScrollTop = Math.max(0, Math.min(scrollTop, maxScroll));
+          
+          // Smoothly scroll to the calculated position
+          lyricsContainer.scrollTo({
+            top: finalScrollTop,
+            behavior: 'smooth'
+          });
+        }
       } else {
         line.classList.remove('highlight');
       }
