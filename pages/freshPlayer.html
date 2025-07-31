@@ -51,6 +51,7 @@
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   
+  
   <style>
     .popup-container {
       display: none;
@@ -60,6 +61,7 @@
       width: 100%;
       height: 100%;
       background-color: rgba(0, 0, 0, 0.7);
+      /* Unchanged, already black-based */
       z-index: 9999;
     }
     
@@ -73,13 +75,11 @@
     
     .image-container img {
       width: 85vw;
-      /* Increased width */
       height: auto;
-      /* Maintain aspect ratio */
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      /* Unchanged, already black-based */
       object-fit: contain;
-      /* Ensure image fits within container */
     }
     
     .spaceOutText {
@@ -88,13 +88,14 @@
     
     .mainContainer {
       background: rgba(255, 255, 255, 0.95);
+      /* White with slight transparency */
       backdrop-filter: blur(20px);
       height: 450px;
-      /* Increased from 420px to fit larger album and spacing */
       width: 450px;
       border-radius: 25px;
       position: relative;
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+      /* Slightly darker shadow */
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -106,14 +107,14 @@
     
     .mainContainer .album {
       height: 220px;
-      /* Increased from 200px */
       width: 220px;
       border-radius: 50%;
       position: absolute;
       left: 50%;
       top: 20px;
       transform: translateX(-50%);
-      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+      /* Darker grayscale shadow */
       overflow: hidden;
       cursor: grab;
       user-select: none;
@@ -130,12 +131,13 @@
       top: 50%;
       left: 50%;
       width: 20px;
-      /* Increased from 18px for larger album */
       height: 20px;
       background: rgba(255, 255, 255, 0.9);
+      /* Unchanged, already white */
       border-radius: 50%;
       transform: translate(-50%, -50%);
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+      /* Darker grayscale shadow */
       z-index: 2;
       pointer-events: none;
     }
@@ -154,7 +156,6 @@
       width: 100%;
       padding: 0;
       margin-top: 240px;
-      /* Increased from 220px to adjust songDetails position */
     }
     
     .mainContainer .songDetails {
@@ -162,20 +163,21 @@
       transform: translateY(20px);
       text-align: center;
       margin-top: 50px;
-      /* Increased from 30px for more space below albumArt */
       z-index: 30;
     }
     
     .mainContainer .songName {
       font-size: 18px;
       font-weight: 600;
-      color: #2d3748;
+      color: #000000;
+      /* Changed from #2d3748 to pure black */
       margin-bottom: 4px;
     }
     
     .mainContainer .artists {
       font-size: 14px;
-      color: #718096;
+      color: #666666;
+      /* Changed from #718096 to medium gray */
       font-weight: inherit;
     }
     
@@ -190,7 +192,8 @@
     .mainContainer .seekBar {
       width: 100%;
       height: 4px;
-      background: rgba(0, 0, 0, 0.1);
+      background: rgba(0, 0, 0, 0.2);
+      /* Slightly darker gray */
       border-radius: 2px;
       position: relative;
       cursor: pointer;
@@ -198,7 +201,8 @@
     
     .mainContainer .seekProgress {
       height: 100%;
-      background: black;
+      background: #000000;
+      /* Changed to pure black */
       width: 0;
       border-radius: 2px;
       position: relative;
@@ -211,11 +215,14 @@
       transform: translateY(-50%);
       width: 16px;
       height: 16px;
-      background: white;
-      border: 2px solid black;
+      background: #ffffff;
+      /* Unchanged, already white */
+      border: 2px solid #000000;
+      /* Unchanged, already black */
       border-radius: 50%;
       cursor: pointer;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      /* Darker grayscale shadow */
       opacity: 1;
       transition: transform 0.2s ease;
     }
@@ -232,7 +239,8 @@
       display: flex;
       justify-content: space-between;
       font-size: 12px;
-      color: #718096;
+      color: #666666;
+      /* Changed from #718096 to medium gray */
       margin-top: 8px;
       width: 100%;
     }
@@ -259,23 +267,29 @@
     }
     
     .mainContainer .control-btn:hover {
-      background: rgba(0, 0, 0, 0.05);
+      background: rgba(0, 0, 0, 0.1);
+      /* Lighter gray hover effect */
     }
     
     .mainContainer #playPauseBtn {
-      color: black;
+      color: #000000;
+      /* Changed to pure black */
       width: 50px;
       height: 50px;
-      box-shadow: 0 8px 16px rgba(102, 126, 234, 0.3);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      /* Changed to grayscale shadow */
     }
     
     .mainContainer #playPauseBtn:hover {
-      box-shadow: 0 12px 24px rgba(102, 126, 234, 0.4);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+      /* Darker grayscale shadow */
     }
     
     .mainContainer #playPauseBtn svg {
-      fill: black;
-      stroke: black;
+      fill: #000000;
+      /* Changed to pure black */
+      stroke: #000000;
+      /* Changed to pure black */
     }
     
     .mainContainer .spinIndicator {
@@ -284,7 +298,8 @@
       left: 50%;
       transform: translateX(-50%);
       font-size: 12px;
-      color: #667eea;
+      color: #333333;
+      /* Changed from #667eea to dark gray */
       opacity: 0;
       pointer-events: none;
       z-index: 60;
@@ -294,25 +309,21 @@
       .mainContainer {
         width: 90%;
         height: 430px;
-        /* Increased from 400px for mobile */
         margin: 20px auto;
       }
       
       .mainContainer .album {
         height: 200px;
-        /* Increased from 180px */
         width: 200px;
         top: 15px;
       }
       
       .mainContainer .songContainer {
         margin-top: 220px;
-        /* Adjusted for mobile */
       }
       
       .mainContainer .songDetails {
         margin-top: 40px;
-        /* Adjusted from 25px for mobile */
         z-index: 30;
       }
       
@@ -325,7 +336,6 @@
       }
     }
     
-    /* Unchanged overlay styles */
     #track-loading-overlay {
       position: absolute;
       top: 0;
@@ -333,6 +343,7 @@
       width: 100%;
       height: 100%;
       background: rgba(0, 0, 0, 0.5);
+      /* Unchanged, already black-based */
       display: flex;
       justify-content: center;
       align-items: center;
@@ -365,7 +376,8 @@
     .content .cube::before {
       position: absolute;
       content: "";
-      background: #fff;
+      background: #ffffff;
+      /* Changed to pure white */
       width: calc(100% - 2vmin);
       height: calc(100% - 2vmin);
       border-radius: 2vmin;
@@ -378,7 +390,8 @@
     }
     
     .content .cube {
-      background: #fff;
+      background: #ffffff;
+      /* Changed to pure white */
       width: 20vmin;
       height: 20vmin;
       border-radius: 2vmin;
@@ -398,7 +411,7 @@
     }
     
     @keyframes spin-all {
-      
+
       50%,
       100% {
         transform: rotate(720deg);
@@ -406,7 +419,7 @@
     }
     
     @keyframes spin-cube {
-      
+
       0%,
       50% {
         border-radius: 100%;
@@ -429,7 +442,7 @@
     }
     
     @keyframes spin-cube-before {
-      
+
       0%,
       50% {
         border-radius: 100%;
@@ -452,7 +465,7 @@
     }
     
     @keyframes spin-cube-after {
-      
+
       0%,
       50% {
         border-radius: 100%;
@@ -474,7 +487,6 @@
       }
     }
     
-    /* New styles for lyrics focus toggle feature */
     .lyrics-header {
       display: flex;
       justify-content: space-between;
@@ -486,33 +498,26 @@
       overflow-y: auto;
       padding: 10px;
       border-radius: 5px;
-      background: #fff;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      background: #ffffff;
+      /* Changed to pure white */
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+      /* Darker grayscale shadow */
       width: 100%;
       max-height: 400px;
-      /* Default, overridden by JS */
     }
     
-    /* Ensure parent respects document flow */
     .lyrics-content {
       position: relative;
     }
     
-    /* Floating toggle switch */
-    /* Ensure toggle returns to flex layout when not floating */
     .form-check.form-switch {
       position: static !important;
-      /* Reset any Bootstrap positioning */
       margin: 0;
-      /* Reset Bootstrap margins */
       padding: 0;
-      /* Reset Bootstrap padding */
       display: flex;
       align-items: center;
-      /* Align with .lyrics-header */
     }
     
-    /* Floating toggle switch */
     .form-check.form-switch.floating-toggle {
       position: fixed !important;
       top: 20px;
@@ -520,10 +525,7 @@
       z-index: 1000;
       transition: all 0.3s ease;
       margin: 0;
-      /* Ensure no residual margins */
       padding: 0;
-      /* Ensure no residual padding */
-      
     }
     
     @media (max-width: 480px) {
@@ -536,80 +538,73 @@
     .lyric-line {
       padding: 5px 0;
       font-size: 16px;
-      color: #2d3748;
-      /* Matches .songName color */
+      color: #000000;
+      /* Changed from #2d3748 to pure black */
       transition: background-color 0.3s ease, font-weight 0.3s ease;
     }
     
     .lyric-line.highlight {
-      background-color: rgba(102, 126, 234, 0.2);
-      /* Matches control-btn shadow color for consistency */
+      background-color: rgba(0, 0, 0, 0.1);
+      /* Changed to light gray */
       font-weight: 600;
-      /* Matches .songName font-weight */
       border-radius: 3px;
       padding: 5px 8px;
     }
     
-    /* Style the toggle switch to match Bootstrap and player aesthetic */
     .form-check-input {
       cursor: pointer;
       width: 40px;
       height: 20px;
-      background-color: #718096;
-      /* Matches .artists and .timeDisplay color */
+      background-color: #666666;
+      /* Changed from #718096 to medium gray */
       border: none;
     }
     
     .form-check-input:checked {
-      background-color: #667eea;
-      /* Matches .spinIndicator color */
+      background-color: #333333;
+      /* Changed from #667eea to dark gray */
     }
     
     .form-check-label {
       margin-left: 10px;
       font-size: 16px;
-      color: #2d3748;
-      /* Matches .songName color */
+      color: #000000;
+      /* Changed from #2d3748 to pure black */
       font-weight: 500;
     }
     
-    /* Ensure smooth scrolling for lyrics container */
     .lyrics-container::-webkit-scrollbar {
       width: 8px;
     }
     
     .lyrics-container::-webkit-scrollbar-track {
       background: rgba(0, 0, 0, 0.1);
-      /* Matches .seekBar background */
+      /* Unchanged, already grayscale */
       border-radius: 4px;
     }
     
     .lyrics-container::-webkit-scrollbar-thumb {
-      background: #667eea;
-      /* Matches .spinIndicator and toggle checked state */
+      background: #333333;
+      /* Changed from #667eea to dark gray */
       border-radius: 4px;
     }
     
     .lyrics-container::-webkit-scrollbar-thumb:hover {
-      background: #5a67d8;
-      /* Slightly darker shade for hover */
+      background: #1a1a1a;
+      /* Slightly darker gray for hover */
     }
     
-    /* Responsive adjustments */
     @media (max-width: 480px) {
       .lyrics-container {
         max-height: 300px;
-        /* Reduced height for mobile */
       }
       
       .lyric-line {
         font-size: 14px;
-        /* Slightly smaller for mobile */
       }
       
       .form-check-label {
         font-size: 14px;
-        /* Matches .lyric-line for mobile */
       }
     }
   </style>
@@ -1199,7 +1194,34 @@
                 <h2 class="h2 text-primary">Lyrics</h2>
                 <div class="form-check form-switch">
                   <input class="form-check-input" type="checkbox" id="lyricsFocusToggle" v-model="store.lyricsFocusEnabled">
-                  <label class="form-check-label text-dark" for="lyricsFocusToggle">Auto-scroll Lyrics</label>
+                  <label class="form-check-label text-dark" for="lyricsFocusToggle">
+                    <?xml version="1.0" ?>
+                    
+                    <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                    
+                    <svg width="30px" height="30px" viewBox="0 0 32 32" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    
+                      <g id="Icon">
+                        
+                        <path d="M18.003,23.922l-0.001,0c-1.105,0 -2.002,0.897 -2.002,2.002c-0,1.105 0.897,2.002 2.002,2.002c1.104,-0 2.001,-0.897 2.001,-2.002l0,-7.122c0,-0 6.001,-0.75 6.001,-0.75l0.003,3.867c-1.105,-0 -2.002,0.897 -2.002,2.002c0,1.104 0.897,2.001 2.002,2.001c1.105,0 2.002,-0.897 2.002,-2.001l-0.006,-7.003c0,-0.286 -0.123,-0.559 -0.338,-0.749c-0.215,-0.19 -0.501,-0.278 -0.786,-0.242l-8,1c-0.5,0.062 -0.876,0.488 -0.876,0.992l0,6.003Z" />
+                        
+                        <path d="M18.003,23.922l-0.001,0c-1.105,0 -2.002,0.897 -2.002,2.002c-0,1.105 0.897,2.002 2.002,2.002c1.104,-0 2.001,-0.897 2.001,-2.002l0,-7.122c0,-0 6.001,-0.75 6.001,-0.75l0.003,3.867c-1.105,-0 -2.002,0.897 -2.002,2.002c0,1.104 0.897,2.001 2.002,2.001c1.105,0 2.002,-0.897 2.002,-2.001l-0.006,-7.003c0,-0.286 -0.123,-0.559 -0.338,-0.749c-0.215,-0.19 -0.501,-0.278 -0.786,-0.242l-8,1c-0.5,0.062 -0.876,0.488 -0.876,0.992l0,6.003Z" />
+                        
+                        <path d="M27,12.994l0.009,-6.035c-0,-0.53 -0.211,-1.039 -0.586,-1.414c-0.375,-0.375 -0.884,-0.586 -1.414,-0.586c-4.185,0 -13.824,0 -18.009,0c-0.53,0 -1.039,0.211 -1.414,0.586c-0.375,0.375 -0.586,0.884 -0.586,1.414c0,4.184 0,13.817 0,18c-0,0.531 0.211,1.04 0.586,1.415c0.375,0.375 0.884,0.585 1.414,0.585l6,0.039" style="fill:none;stroke:#000000;stroke-width:2px;" />
+                        
+                        <path d="M9.004,10l13.983,0c0.552,0 1,-0.448 1,-1c0,-0.552 -0.448,-1 -1,-1l-13.983,0c-0.552,0 -1,0.448 -1,1c0,0.552 0.448,1 1,1Z" />
+                        
+                        <path d="M9.004,13.994l13.983,0c0.552,0 1,-0.448 1,-1c0,-0.552 -0.448,-1 -1,-1l-13.983,0c-0.552,0 -1,0.448 -1,1c0,0.552 0.448,1 1,1Z" />
+                        
+                        <path d="M9.004,18l5.981,0c0.552,-0 1,-0.448 1,-1c-0,-0.552 -0.448,-1 -1,-1l-5.981,0c-0.552,-0 -1,0.448 -1,1c0,0.552 0.448,1 1,1Z" />
+                        
+                        <path d="M9.004,22.006l5.981,-0c0.552,-0 1,-0.448 1,-1c-0,-0.552 -0.448,-1 -1,-1l-5.981,-0c-0.552,-0 -1,0.448 -1,1c0,0.552 0.448,1 1,1Z" />
+                        
+                      </g>
+                      
+                    </svg>
+                    
+                  </label>
                 </div>
               </div>
               <!-- Lyrics Container -->
