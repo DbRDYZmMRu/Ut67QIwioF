@@ -398,7 +398,7 @@
     }
     
     @keyframes spin-all {
-
+      
       50%,
       100% {
         transform: rotate(720deg);
@@ -406,7 +406,7 @@
     }
     
     @keyframes spin-cube {
-
+      
       0%,
       50% {
         border-radius: 100%;
@@ -429,7 +429,7 @@
     }
     
     @keyframes spin-cube-before {
-
+      
       0%,
       50% {
         border-radius: 100%;
@@ -452,7 +452,7 @@
     }
     
     @keyframes spin-cube-after {
-
+      
       0%,
       50% {
         border-radius: 100%;
@@ -487,9 +487,50 @@
       padding: 10px;
       border-radius: 5px;
       background: #fff;
-      /* Matches .mainContainer background */
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-      /* Subtle shadow for depth */
+      width: 100%;
+      max-height: 400px;
+      /* Default, overridden by JS */
+    }
+    
+    /* Ensure parent respects document flow */
+    .lyrics-content {
+      position: relative;
+    }
+    
+    /* Floating toggle switch */
+    /* Ensure toggle returns to flex layout when not floating */
+    .form-check.form-switch {
+      position: static !important;
+      /* Reset any Bootstrap positioning */
+      margin: 0;
+      /* Reset Bootstrap margins */
+      padding: 0;
+      /* Reset Bootstrap padding */
+      display: flex;
+      align-items: center;
+      /* Align with .lyrics-header */
+    }
+    
+    /* Floating toggle switch */
+    .form-check.form-switch.floating-toggle {
+      position: fixed !important;
+      top: 20px;
+      right: 20px;
+      z-index: 1000;
+      transition: all 0.3s ease;
+      margin: 0;
+      /* Ensure no residual margins */
+      padding: 0;
+      /* Ensure no residual padding */
+      
+    }
+    
+    @media (max-width: 480px) {
+      .form-check.form-switch.floating-toggle {
+        top: 10px;
+        right: 10px;
+      }
     }
     
     .lyric-line {
