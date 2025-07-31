@@ -18,7 +18,7 @@ export const store = reactive({
   currentAlbum: null,
   currentTrackIndex: -1,
   lyricsData: null,
-  lyricsFocusEnabled: false,
+  lyricsFocusEnabled: true,
   
   async loadAlbums() {
     try {

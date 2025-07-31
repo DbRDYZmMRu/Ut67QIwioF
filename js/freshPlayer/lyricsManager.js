@@ -56,17 +56,42 @@ export function renderLyrics(lyricsData) {
           console.error('Missing .lyrics-container');
           return;
         }
-        // Calculate total height of lyrics content
         const totalHeight = lyricsContainer.scrollHeight;
-        // Set max-height to half the content height, with constraints
-        const minHeight = 400; // Minimum height to prevent tiny containers
-        const maxCap = window.innerWidth <= 480 ? 1000 : 2000; // Respect original max-height for mobile/desktop
-        const calculatedHeight = Math.max(minHeight, Math.min(totalHeight / 2, maxCap));
+        const minHeight = 800; // New minimum height
+        const maxHeight = 1500; // New maximum height
+        const calculatedHeight = Math.max(minHeight, Math.min(totalHeight / 2, maxHeight));
         lyricsContainerParent.style.maxHeight = `${calculatedHeight}px`;
       } catch (err) {
         console.error('Error in setLyricsContainerHeight:', err.message);
       }
     }
+    
+    // Function to center lyrics container in viewport by scrolling the page
+    function centerLyricsContainer() {
+      try {
+        const lyricsContainerParent = document.querySelector('.lyrics-container');
+        if (!lyricsContainerParent) {
+          console.error('Missing .lyrics-container');
+          return;
+        }
+        if (store.lyricsFocusEnabled) {
+          const viewportHeight = window.innerHeight;
+          const containerRect = lyricsContainerParent.getBoundingClientRect();
+          const containerHeight = containerRect.height;
+          const containerTop = containerRect.top + window.scrollY; // Absolute position
+          const scrollTarget = containerTop - (viewportHeight - containerHeight) / 2;
+          window.scrollTo({
+            top: Math.max(0, scrollTarget), // Prevent negative scroll
+            behavior: 'smooth'
+          });
+        }
+      } catch (err) {
+        console.error('Error in centerLyricsContainer:', err.message);
+      }
+    }
+    
+    // Expose centerLyricsContainer
+    renderLyrics.centerLyricsContainer = centerLyricsContainer;
     
     // Clear existing content
     lyricsContainer.innerHTML = '';
@@ -97,12 +122,15 @@ export function renderLyrics(lyricsData) {
       lyricsContainer.appendChild(lineElement);
     });
     
-    // Set initial height
+    // Set initial height and center container
     setLyricsContainerHeight();
+    centerLyricsContainer();
     
-    // Update height on window resize
-    window.removeEventListener('resize', setLyricsContainerHeight); // Prevent duplicate listeners
+    // Update height and centering on window resize
+    window.removeEventListener('resize', setLyricsContainerHeight);
     window.addEventListener('resize', setLyricsContainerHeight);
+    window.removeEventListener('resize', centerLyricsContainer);
+    window.addEventListener('resize', centerLyricsContainer);
     
     // Handle annotations
     const annotatedWords = document.querySelectorAll('.annotated-word');
