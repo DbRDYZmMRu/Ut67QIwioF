@@ -3,14 +3,21 @@ const path = require('path');
 
 // Array of poetry titles
 const poetryTitles = [
-  "Shallots Picking",
-  "Idols",
-  "Same Old Rafters",
-  "Brunch",
+              "Timberlines",
+            "XCX",
+            "Into the Deep",
+            "Ruse De Guerre Wafer",
+            "Iscariot Kiss",
+            "Dear in Flight",
+            "Cock and Bull Story",
+            "Ahead Oasis Signs",
+            "She Had The Gargle",
+            "His Early Hobnobbing",
+            "Her Childlike Baits",
 ];
 
 // Create necessary directories
-const shareDir = path.join(__dirname, 'share', 'W2W', 'V');
+const shareDir = path.join(__dirname, 'share', 'W2W', 'VI');
 fs.mkdirSync(shareDir, { recursive: true });
 
 // Template for the HTML content
@@ -91,16 +98,16 @@ const htmlTemplate = (title, description, keywords, ogImage, ogUrl, twitterImage
 
 // Generate HTML files
 poetryTitles.forEach((title, index) => {
-  const description = `${title} is a poem from West to West Collection V by Howard Frith Hilton`;
-  const keywords = `${title}, West to West Collection V`;
-  const ogImage = `https://frithhilton.com.ng/images/share/W2W/5/image_${index + 1}.png`;
-  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/west-to-west-collection-V.html?query=${index + 1}`;
+  const description = `${title} is a poem from West to West Collection VI by Howard Frith Hilton`;
+  const keywords = `${title}, West to West Collection VI`;
+  const ogImage = `https://frithhilton.com.ng/images/share/W2W/6/image_${index + 1}.png`;
+  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/west-to-west-collection-VI.html?query=${index + 1}`;
   const twitterImage = ogImage;
   const canonicalUrl = ogUrl;
   const redirectUrl = ogUrl;
   
   const htmlContent = htmlTemplate(
-    `${title} - West to West Collection V`,
+    `${title} - West to West Collection VI`,
     description,
     keywords,
     ogImage,
