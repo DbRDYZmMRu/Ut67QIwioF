@@ -7,12 +7,20 @@ registerFont('font/Architects_Daughter.ttf', { family: 'Architects Daughter' });
 
 const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
-const outputDir = path.join(__dirname, 'images', 'share', 'W2W', '5');
+const outputDir = path.join(__dirname, 'images', 'share', 'W2W', '6');
 const titles = [
-  "Shallots Picking",
-  "Idols",
-  "Same Old Rafters",
-  "Brunch",
+              "Timberlines",
+            "XCX",
+            "Into the Deep",
+            "Ruse De Guerre Wafer",
+            "Iscariot Kiss",
+            "Dear in Flight",
+            "Cock and Bull Story",
+            "Ahead Oasis Signs",
+            "She Had The Gargle",
+            "His Early Hobnobbing",
+            "Her Childlike Baits",
+
 ];
 
 const drawText = (ctx, text, x, y, maxWidth) => {
@@ -62,7 +70,7 @@ const generateImages = async () => {
     ctx.fillStyle = 'black';
     ctx.textAlign = 'center';
     ctx.textBaseline = 'top';
-    ctx.fillText('WEST TO WEST COLLECTION V', imageSize / 2, 10); // Corrected position
+    ctx.fillText('WEST TO WEST COLLECTION VI', imageSize / 2, 10); // Corrected position
     
     // Save the image
     const buffer = canvas.toBuffer('image/png');
