@@ -2,383 +2,549 @@
   "lyrics": [
     {
       "id": 1,
-      "paragraph": "I'm running without knowledge",
-      "startTime": 5.184665,
-      "endTime": 10.234376,
+      "paragraph": "Poetry is a boy's plaything",
+      "startTime": 6.359334,
+      "endTime": 13.666769,
       "words": [
         {
           "id": 1,
-          "text": "I'm",
-          "startTime": 5.184665,
-          "endTime": 8.239664
+          "text": "Poetry",
+          "startTime": 6.359334,
+          "endTime": 10.478816
         },
         {
           "id": 2,
-          "text": "running",
-          "startTime": 8.239664,
-          "endTime": 8.643266
+          "text": "is",
+          "startTime": 10.478816,
+          "endTime": 10.741448
         },
         {
           "id": 3,
-          "text": "without",
-          "startTime": 8.643266,
-          "endTime": 9.170045
+          "text": "a",
+          "startTime": 10.741448,
+          "endTime": 11.009536
         },
         {
           "id": 4,
-          "text": "knowledge",
-          "startTime": 9.170045,
-          "endTime": 10.234376
+          "text": "boy's",
+          "startTime": 11.009536,
+          "endTime": 11.40565
+        },
+        {
+          "id": 5,
+          "text": "plaything",
+          "startTime": 11.40565,
+          "endTime": 13.666769
         }
       ]
     },
     {
       "id": 2,
-      "paragraph": "but the fettered camouflage gel",
-      "startTime": 10.234376,
-      "endTime": 14.613609,
+      "paragraph": "a Cadillac he owns, wins in",
+      "startTime": 13.666769,
+      "endTime": 17.384154,
       "words": [
         {
-          "id": 5,
-          "text": "but",
-          "startTime": 10.234376,
-          "endTime": 11.82435
-        },
-        {
           "id": 6,
-          "text": "the",
-          "startTime": 11.82435,
-          "endTime": 11.962253
+          "text": "a",
+          "startTime": 13.666769,
+          "endTime": 13.928798
         },
         {
           "id": 7,
-          "text": "fettered",
-          "startTime": 11.962253,
-          "endTime": 12.491155
+          "text": "Cadillac",
+          "startTime": 13.928798,
+          "endTime": 14.326264
         },
         {
           "id": 8,
-          "text": "camouflage",
-          "startTime": 12.491155,
-          "endTime": 13.156335
+          "text": "he",
+          "startTime": 14.326264,
+          "endTime": 14.462049
         },
         {
           "id": 9,
-          "text": "gel",
-          "startTime": 13.156335,
-          "endTime": 14.613609
+          "text": "owns,",
+          "startTime": 14.462049,
+          "endTime": 16.052003
+        },
+        {
+          "id": 10,
+          "text": "wins",
+          "startTime": 16.052003,
+          "endTime": 16.320147
+        },
+        {
+          "id": 11,
+          "text": "in",
+          "startTime": 16.320147,
+          "endTime": 17.384154
         }
       ]
     },
     {
       "id": 3,
-      "paragraph": "he fears all my waist down intents",
-      "startTime": 14.613609,
-      "endTime": 19.927227,
+      "paragraph": "then he finds a girl’s qwerty ",
+      "startTime": 17.384154,
+      "endTime": 21.899092,
       "words": [
         {
-          "id": 10,
-          "text": "he",
-          "startTime": 14.613609,
-          "endTime": 16.474826
-        },
-        {
-          "id": 11,
-          "text": "fears",
-          "startTime": 16.474826,
-          "endTime": 16.737873
-        },
-        {
           "id": 12,
-          "text": "all",
-          "startTime": 16.737873,
-          "endTime": 17.006704
+          "text": "then",
+          "startTime": 17.384154,
+          "endTime": 18.710501
         },
         {
           "id": 13,
-          "text": "my",
-          "startTime": 17.006704,
-          "endTime": 17.272443
+          "text": "he",
+          "startTime": 18.710501,
+          "endTime": 18.844674
         },
         {
           "id": 14,
-          "text": "waist",
-          "startTime": 17.272443,
-          "endTime": 17.801622
+          "text": "finds",
+          "startTime": 18.844674,
+          "endTime": 19.376943
         },
         {
           "id": 15,
-          "text": "down",
-          "startTime": 17.801622,
-          "endTime": 18.070854
+          "text": "a",
+          "startTime": 19.376943,
+          "endTime": 19.63805
         },
         {
           "id": 16,
-          "text": "intents",
-          "startTime": 18.070854,
-          "endTime": 19.927227
+          "text": "girl’s",
+          "startTime": 19.63805,
+          "endTime": 19.907187
+        },
+        {
+          "id": 17,
+          "text": "qwerty",
+          "startTime": 19.907187,
+          "endTime": 21.899092
         }
       ]
     },
     {
       "id": 4,
-      "paragraph": "how far legs rhyme with a sentence",
-      "startTime": 19.927227,
-      "endTime": 25.241345,
+      "paragraph": "so it becomes his ripped music ",
+      "startTime": 21.899092,
+      "endTime": 25.222991,
       "words": [
         {
-          "id": 17,
-          "text": "how",
-          "startTime": 19.927227,
-          "endTime": 20.323907
-        },
-        {
           "id": 18,
-          "text": "far",
-          "startTime": 20.323907,
-          "endTime": 20.723832
+          "text": "so",
+          "startTime": 21.899092,
+          "endTime": 22.295997
         },
         {
           "id": 19,
-          "text": "legs",
-          "startTime": 20.723832,
-          "endTime": 21.656424
+          "text": "it",
+          "startTime": 22.295997,
+          "endTime": 22.429969
         },
         {
           "id": 20,
-          "text": "rhyme",
-          "startTime": 21.656424,
-          "endTime": 22.185105
+          "text": "becomes",
+          "startTime": 22.429969,
+          "endTime": 23.100065
         },
         {
           "id": 21,
-          "text": "with",
-          "startTime": 22.185105,
-          "endTime": 22.851028
+          "text": "his",
+          "startTime": 23.100065,
+          "endTime": 23.23158
         },
         {
           "id": 22,
-          "text": "a",
-          "startTime": 22.851028,
-          "endTime": 23.113552
+          "text": "ripped",
+          "startTime": 23.23158,
+          "endTime": 23.632472
         },
         {
           "id": 23,
-          "text": "sentence",
-          "startTime": 23.113552,
-          "endTime": 25.241345
+          "text": "music",
+          "startTime": 23.632472,
+          "endTime": 25.222991
         }
       ]
     },
     {
       "id": 5,
-      "paragraph": "so far below, buckling, ready to rent",
-      "startTime": 25.241345,
-      "endTime": 30.155791,
+      "paragraph": "the rhythm of her breathing",
+      "startTime": 25.222991,
+      "endTime": 28.545918,
       "words": [
         {
           "id": 24,
-          "text": "so",
-          "startTime": 25.241345,
-          "endTime": 25.505368
+          "text": "the",
+          "startTime": 25.222991,
+          "endTime": 26.158453
         },
         {
           "id": 25,
-          "text": "far",
-          "startTime": 25.505368,
-          "endTime": 25.771347
+          "text": "rhythm",
+          "startTime": 26.158453,
+          "endTime": 26.685508
         },
         {
           "id": 26,
-          "text": "below,",
-          "startTime": 25.771347,
-          "endTime": 26.965744
+          "text": "of",
+          "startTime": 26.685508,
+          "endTime": 26.820564
         },
         {
           "id": 27,
-          "text": "buckling,",
-          "startTime": 26.965744,
-          "endTime": 28.295094
+          "text": "her",
+          "startTime": 26.820564,
+          "endTime": 27.218756
         },
         {
           "id": 28,
-          "text": "ready",
-          "startTime": 28.295094,
-          "endTime": 28.827492
-        },
-        {
-          "id": 29,
-          "text": "to",
-          "startTime": 28.827492,
-          "endTime": 29.089629
-        },
-        {
-          "id": 30,
-          "text": "rent",
-          "startTime": 29.089629,
-          "endTime": 30.155791
+          "text": "breathing",
+          "startTime": 27.218756,
+          "endTime": 28.545918
         }
       ]
     },
     {
       "id": 6,
-      "paragraph": "I remember, the rituals of emptiness",
-      "startTime": 30.155791,
-      "endTime": 36.265115,
+      "paragraph": "which puts a well after his ink",
+      "startTime": 28.545918,
+      "endTime": 32.533099,
       "words": [
         {
+          "id": 29,
+          "text": "which",
+          "startTime": 28.545918,
+          "endTime": 28.811817
+        },
+        {
+          "id": 30,
+          "text": "puts",
+          "startTime": 28.811817,
+          "endTime": 29.208262
+        },
+        {
           "id": 31,
-          "text": "I",
-          "startTime": 30.155791,
-          "endTime": 31.218611
+          "text": "a",
+          "startTime": 29.208262,
+          "endTime": 29.34239
         },
         {
           "id": 32,
-          "text": "remember,",
-          "startTime": 31.218611,
-          "endTime": 32.408525
+          "text": "well",
+          "startTime": 29.34239,
+          "endTime": 30.279362
         },
         {
           "id": 33,
-          "text": "the",
-          "startTime": 32.408525,
-          "endTime": 33.209342
+          "text": "after",
+          "startTime": 30.279362,
+          "endTime": 30.540066
         },
         {
           "id": 34,
-          "text": "rituals",
-          "startTime": 33.209342,
-          "endTime": 34.003893
+          "text": "his",
+          "startTime": 30.540066,
+          "endTime": 30.803036
         },
         {
           "id": 35,
-          "text": "of",
-          "startTime": 34.003893,
-          "endTime": 34.271778
-        },
-        {
-          "id": 36,
-          "text": "emptiness",
-          "startTime": 34.271778,
-          "endTime": 36.265115
+          "text": "ink",
+          "startTime": 30.803036,
+          "endTime": 32.533099
         }
       ]
     },
     {
       "id": 7,
-      "paragraph": "catch the untold libraries I too visited",
-      "startTime": 36.265115,
-      "endTime": 41.442555,
+      "paragraph": "and in there, he finds swellings",
+      "startTime": 32.533099,
+      "endTime": 37.051657,
       "words": [
         {
+          "id": 36,
+          "text": "and",
+          "startTime": 32.533099,
+          "endTime": 33.060961
+        },
+        {
           "id": 37,
-          "text": "catch",
-          "startTime": 36.265115,
-          "endTime": 37.059192
+          "text": "in",
+          "startTime": 33.060961,
+          "endTime": 33.195262
         },
         {
           "id": 38,
-          "text": "the",
-          "startTime": 37.059192,
-          "endTime": 37.324004
+          "text": "there,",
+          "startTime": 33.195262,
+          "endTime": 34.789363
         },
         {
           "id": 39,
-          "text": "untold",
-          "startTime": 37.324004,
-          "endTime": 37.990317
+          "text": "he",
+          "startTime": 34.789363,
+          "endTime": 35.192052
         },
         {
           "id": 40,
-          "text": "libraries",
-          "startTime": 37.990317,
-          "endTime": 38.787811
+          "text": "finds",
+          "startTime": 35.192052,
+          "endTime": 35.320641
         },
         {
           "id": 41,
-          "text": "I",
-          "startTime": 38.787811,
-          "endTime": 39.449827
-        },
-        {
-          "id": 42,
-          "text": "too",
-          "startTime": 39.449827,
-          "endTime": 39.850033
-        },
-        {
-          "id": 43,
-          "text": "visited",
-          "startTime": 39.850033,
-          "endTime": 41.442555
+          "text": "swellings",
+          "startTime": 35.320641,
+          "endTime": 37.051657
         }
       ]
     },
     {
       "id": 8,
-      "paragraph": "so if he’s a fever to his room, it's dead. ",
-      "startTime": 41.442555,
-      "endTime": 49.021842,
+      "paragraph": "bubbles of a deeper mind living",
+      "startTime": 37.051657,
+      "endTime": 40.10679,
       "words": [
         {
+          "id": 42,
+          "text": "bubbles",
+          "startTime": 37.051657,
+          "endTime": 37.851775
+        },
+        {
+          "id": 43,
+          "text": "of",
+          "startTime": 37.851775,
+          "endTime": 38.117834
+        },
+        {
           "id": 44,
-          "text": "so",
-          "startTime": 41.442555,
-          "endTime": 42.374386
+          "text": "a",
+          "startTime": 38.117834,
+          "endTime": 38.38203
         },
         {
           "id": 45,
-          "text": "if",
-          "startTime": 42.374386,
-          "endTime": 43.56978
+          "text": "deeper",
+          "startTime": 38.38203,
+          "endTime": 38.649237
         },
         {
           "id": 46,
-          "text": "he’s",
-          "startTime": 43.56978,
-          "endTime": 43.835499
+          "text": "mind",
+          "startTime": 38.649237,
+          "endTime": 39.044114
         },
         {
           "id": 47,
-          "text": "a",
-          "startTime": 43.835499,
-          "endTime": 44.098747
-        },
+          "text": "living",
+          "startTime": 39.044114,
+          "endTime": 40.10679
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "so she's his muse, his trophy",
+      "startTime": 40.10679,
+      "endTime": 44.891232,
+      "words": [
         {
           "id": 48,
-          "text": "fever",
-          "startTime": 44.098747,
-          "endTime": 44.365324
+          "text": "so",
+          "startTime": 40.10679,
+          "endTime": 41.303562
         },
         {
           "id": 49,
-          "text": "to",
-          "startTime": 44.365324,
-          "endTime": 44.633019
+          "text": "she's",
+          "startTime": 41.303562,
+          "endTime": 41.56809
         },
         {
           "id": 50,
           "text": "his",
-          "startTime": 44.633019,
-          "endTime": 44.897217
+          "startTime": 41.56809,
+          "endTime": 41.837259
         },
         {
           "id": 51,
-          "text": "room,",
-          "startTime": 44.897217,
-          "endTime": 45.695698
+          "text": "muse,",
+          "startTime": 41.837259,
+          "endTime": 43.029037
         },
         {
           "id": 52,
-          "text": "it's",
-          "startTime": 45.695698,
-          "endTime": 47.021842
+          "text": "his",
+          "startTime": 43.029037,
+          "endTime": 43.429866
         },
         {
           "id": 53,
-          "text": "dead.",
-          "startTime": 47.021842,
-          "endTime": 49.021842
+          "text": "trophy",
+          "startTime": 43.429866,
+          "endTime": 44.891232
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "his lightweight dibsed salinity",
+      "startTime": 44.891232,
+      "endTime": 48.608404,
+      "words": [
+        {
+          "id": 54,
+          "text": "his",
+          "startTime": 44.891232,
+          "endTime": 45.553781
+        },
+        {
+          "id": 55,
+          "text": "lightweight",
+          "startTime": 45.553781,
+          "endTime": 46.350788
+        },
+        {
+          "id": 56,
+          "text": "dibsed",
+          "startTime": 46.350788,
+          "endTime": 47.411302
+        },
+        {
+          "id": 57,
+          "text": "salinity",
+          "startTime": 47.411302,
+          "endTime": 48.608404
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "the savoury dish he's relishing",
+      "startTime": 48.608404,
+      "endTime": 52.993729,
+      "words": [
+        {
+          "id": 58,
+          "text": "the",
+          "startTime": 48.608404,
+          "endTime": 49.537047
+        },
+        {
+          "id": 59,
+          "text": "savoury",
+          "startTime": 49.537047,
+          "endTime": 50.070644
+        },
+        {
+          "id": 60,
+          "text": "dish",
+          "startTime": 50.070644,
+          "endTime": 50.467496
+        },
+        {
+          "id": 61,
+          "text": "he's",
+          "startTime": 50.467496,
+          "endTime": 51.534607
+        },
+        {
+          "id": 62,
+          "text": "relishing",
+          "startTime": 51.534607,
+          "endTime": 52.993729
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "in the words her mood is gilding",
+      "startTime": 52.993729,
+      "endTime": 58.436993,
+      "words": [
+        {
+          "id": 63,
+          "text": "in",
+          "startTime": 52.993729,
+          "endTime": 54.05294
+        },
+        {
+          "id": 64,
+          "text": "the",
+          "startTime": 54.05294,
+          "endTime": 54.317956
+        },
+        {
+          "id": 65,
+          "text": "words",
+          "startTime": 54.317956,
+          "endTime": 54.719114
+        },
+        {
+          "id": 66,
+          "text": "her",
+          "startTime": 54.719114,
+          "endTime": 54.850546
+        },
+        {
+          "id": 67,
+          "text": "mood",
+          "startTime": 54.850546,
+          "endTime": 55.648174
+        },
+        {
+          "id": 68,
+          "text": "is",
+          "startTime": 55.648174,
+          "endTime": 56.184644
+        },
+        {
+          "id": 69,
+          "text": "gilding",
+          "startTime": 56.184644,
+          "endTime": 58.436993
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "paragraph": "setting his hindsight to infinity. ",
+      "startTime": 58.436993,
+      "endTime": 62.427929,
+      "words": [
+        {
+          "id": 70,
+          "text": "setting",
+          "startTime": 58.436993,
+          "endTime": 58.703192
+        },
+        {
+          "id": 71,
+          "text": "his",
+          "startTime": 58.703192,
+          "endTime": 58.834849
+        },
+        {
+          "id": 72,
+          "text": "hindsight",
+          "startTime": 58.834849,
+          "endTime": 60.164816
+        },
+        {
+          "id": 73,
+          "text": "to",
+          "startTime": 60.164816,
+          "endTime": 60.427929
+        },
+        {
+          "id": 74,
+          "text": "infinity.",
+          "startTime": 60.427929,
+          "endTime": 62.427929
         }
       ]
     }
