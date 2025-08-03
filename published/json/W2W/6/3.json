@@ -1,0 +1,156 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Water mines for pearls ",
+      "startTime": 4.181874,
+      "endTime": 9.630757,
+      "words": [
+        {
+          "id": 1,
+          "text": "Water",
+          "startTime": 4.181874,
+          "endTime": 7.367913
+        },
+        {
+          "id": 2,
+          "text": "mines",
+          "startTime": 7.367913,
+          "endTime": 8.299462
+        },
+        {
+          "id": 3,
+          "text": "for",
+          "startTime": 8.299462,
+          "endTime": 8.564527
+        },
+        {
+          "id": 4,
+          "text": "pearls",
+          "startTime": 8.564527,
+          "endTime": 9.630757
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "a state of mind repressed ",
+      "startTime": 9.630757,
+      "endTime": 13.3444,
+      "words": [
+        {
+          "id": 5,
+          "text": "a",
+          "startTime": 9.630757,
+          "endTime": 10.957361
+        },
+        {
+          "id": 6,
+          "text": "state",
+          "startTime": 10.957361,
+          "endTime": 11.220449
+        },
+        {
+          "id": 7,
+          "text": "of",
+          "startTime": 11.220449,
+          "endTime": 11.352009
+        },
+        {
+          "id": 8,
+          "text": "mind",
+          "startTime": 11.352009,
+          "endTime": 12.017365
+        },
+        {
+          "id": 9,
+          "text": "repressed",
+          "startTime": 12.017365,
+          "endTime": 13.3444
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "gold waits as the shore earns  ",
+      "startTime": 13.3444,
+      "endTime": 18.658392,
+      "words": [
+        {
+          "id": 10,
+          "text": "gold",
+          "startTime": 13.3444,
+          "endTime": 15.203829
+        },
+        {
+          "id": 11,
+          "text": "waits",
+          "startTime": 15.203829,
+          "endTime": 16.002045
+        },
+        {
+          "id": 12,
+          "text": "as",
+          "startTime": 16.002045,
+          "endTime": 16.402642
+        },
+        {
+          "id": 13,
+          "text": "the",
+          "startTime": 16.402642,
+          "endTime": 16.666483
+        },
+        {
+          "id": 14,
+          "text": "shore",
+          "startTime": 16.666483,
+          "endTime": 17.066122
+        },
+        {
+          "id": 15,
+          "text": "earns",
+          "startTime": 17.066122,
+          "endTime": 18.658392
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "more time carefree, she fears.",
+      "startTime": 18.658392,
+      "endTime": 23.978706,
+      "words": [
+        {
+          "id": 16,
+          "text": "more",
+          "startTime": 18.658392,
+          "endTime": 19.986838
+        },
+        {
+          "id": 17,
+          "text": "time",
+          "startTime": 19.986838,
+          "endTime": 20.251353
+        },
+        {
+          "id": 18,
+          "text": "carefree,",
+          "startTime": 20.251353,
+          "endTime": 21.315201
+        },
+        {
+          "id": 19,
+          "text": "she",
+          "startTime": 21.315201,
+          "endTime": 21.978706
+        },
+        {
+          "id": 20,
+          "text": "fears.",
+          "startTime": 21.978706,
+          "endTime": 23.978706
+        }
+      ]
+    }
+  ]
+}

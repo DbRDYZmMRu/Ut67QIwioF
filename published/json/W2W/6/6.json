@@ -1,0 +1,434 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "It's what she wrote",
+      "startTime": 4.213192,
+      "endTime": 7.267447,
+      "words": [
+        {
+          "id": 1,
+          "text": "It's",
+          "startTime": 4.213192,
+          "endTime": 5.407137
+        },
+        {
+          "id": 2,
+          "text": "what",
+          "startTime": 5.407137,
+          "endTime": 5.670417
+        },
+        {
+          "id": 3,
+          "text": "she",
+          "startTime": 5.670417,
+          "endTime": 5.802378
+        },
+        {
+          "id": 4,
+          "text": "wrote",
+          "startTime": 5.802378,
+          "endTime": 7.267447
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "I doubted her notes",
+      "startTime": 7.267447,
+      "endTime": 8.992292,
+      "words": [
+        {
+          "id": 5,
+          "text": "I",
+          "startTime": 7.267447,
+          "endTime": 7.533835
+        },
+        {
+          "id": 6,
+          "text": "doubted",
+          "startTime": 7.533835,
+          "endTime": 8.063578
+        },
+        {
+          "id": 7,
+          "text": "her",
+          "startTime": 8.063578,
+          "endTime": 8.192521
+        },
+        {
+          "id": 8,
+          "text": "notes",
+          "startTime": 8.192521,
+          "endTime": 8.992292
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "her clouds, ill sewn",
+      "startTime": 8.992292,
+      "endTime": 12.583219,
+      "words": [
+        {
+          "id": 9,
+          "text": "her",
+          "startTime": 8.992292,
+          "endTime": 10.056907
+        },
+        {
+          "id": 10,
+          "text": "clouds,",
+          "startTime": 10.056907,
+          "endTime": 10.983762
+        },
+        {
+          "id": 11,
+          "text": "ill",
+          "startTime": 10.983762,
+          "endTime": 11.526942
+        },
+        {
+          "id": 12,
+          "text": "sewn",
+          "startTime": 11.526942,
+          "endTime": 12.583219
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "I counted missing toes",
+      "startTime": 12.583219,
+      "endTime": 15.773763,
+      "words": [
+        {
+          "id": 13,
+          "text": "I",
+          "startTime": 12.583219,
+          "endTime": 14.046958
+        },
+        {
+          "id": 14,
+          "text": "counted",
+          "startTime": 14.046958,
+          "endTime": 14.30976
+        },
+        {
+          "id": 15,
+          "text": "missing",
+          "startTime": 14.30976,
+          "endTime": 14.713274
+        },
+        {
+          "id": 16,
+          "text": "toes",
+          "startTime": 14.713274,
+          "endTime": 15.773763
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "with a dirty screen role",
+      "startTime": 15.773763,
+      "endTime": 18.295103,
+      "words": [
+        {
+          "id": 17,
+          "text": "with",
+          "startTime": 15.773763,
+          "endTime": 16.569376
+        },
+        {
+          "id": 18,
+          "text": "a",
+          "startTime": 16.569376,
+          "endTime": 16.702174
+        },
+        {
+          "id": 19,
+          "text": "dirty",
+          "startTime": 16.702174,
+          "endTime": 17.235713
+        },
+        {
+          "id": 20,
+          "text": "screen",
+          "startTime": 17.235713,
+          "endTime": 17.633322
+        },
+        {
+          "id": 21,
+          "text": "role",
+          "startTime": 17.633322,
+          "endTime": 18.295103
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "mine wary in its shadow",
+      "startTime": 18.295103,
+      "endTime": 22.28058,
+      "words": [
+        {
+          "id": 22,
+          "text": "mine",
+          "startTime": 18.295103,
+          "endTime": 19.489956
+        },
+        {
+          "id": 23,
+          "text": "wary",
+          "startTime": 19.489956,
+          "endTime": 20.551255
+        },
+        {
+          "id": 24,
+          "text": "in",
+          "startTime": 20.551255,
+          "endTime": 20.689137
+        },
+        {
+          "id": 25,
+          "text": "its",
+          "startTime": 20.689137,
+          "endTime": 20.954357
+        },
+        {
+          "id": 26,
+          "text": "shadow",
+          "startTime": 20.954357,
+          "endTime": 22.28058
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "and she flew with a window",
+      "startTime": 22.28058,
+      "endTime": 26.546078,
+      "words": [
+        {
+          "id": 27,
+          "text": "and",
+          "startTime": 22.28058,
+          "endTime": 23.225464
+        },
+        {
+          "id": 28,
+          "text": "she",
+          "startTime": 23.225464,
+          "endTime": 23.359857
+        },
+        {
+          "id": 29,
+          "text": "flew",
+          "startTime": 23.359857,
+          "endTime": 24.1568
+        },
+        {
+          "id": 30,
+          "text": "with",
+          "startTime": 24.1568,
+          "endTime": 24.820337
+        },
+        {
+          "id": 31,
+          "text": "a",
+          "startTime": 24.820337,
+          "endTime": 24.95313
+        },
+        {
+          "id": 32,
+          "text": "window",
+          "startTime": 24.95313,
+          "endTime": 26.546078
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "placed a view with antelopes",
+      "startTime": 26.546078,
+      "endTime": 29.59966,
+      "words": [
+        {
+          "id": 33,
+          "text": "placed",
+          "startTime": 26.546078,
+          "endTime": 26.812888
+        },
+        {
+          "id": 34,
+          "text": "a",
+          "startTime": 26.812888,
+          "endTime": 27.078238
+        },
+        {
+          "id": 35,
+          "text": "view",
+          "startTime": 27.078238,
+          "endTime": 27.60662
+        },
+        {
+          "id": 36,
+          "text": "with",
+          "startTime": 27.60662,
+          "endTime": 28.403225
+        },
+        {
+          "id": 37,
+          "text": "antelopes",
+          "startTime": 28.403225,
+          "endTime": 29.59966
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "she forgets, not me, I knew so",
+      "startTime": 29.59966,
+      "endTime": 35.052801,
+      "words": [
+        {
+          "id": 38,
+          "text": "she",
+          "startTime": 29.59966,
+          "endTime": 30.662876
+        },
+        {
+          "id": 39,
+          "text": "forgets,",
+          "startTime": 30.662876,
+          "endTime": 31.468117
+        },
+        {
+          "id": 40,
+          "text": "not",
+          "startTime": 31.468117,
+          "endTime": 32.266195
+        },
+        {
+          "id": 41,
+          "text": "me,",
+          "startTime": 32.266195,
+          "endTime": 32.794086
+        },
+        {
+          "id": 42,
+          "text": "I",
+          "startTime": 32.794086,
+          "endTime": 33.721903
+        },
+        {
+          "id": 43,
+          "text": "knew",
+          "startTime": 33.721903,
+          "endTime": 33.990806
+        },
+        {
+          "id": 44,
+          "text": "so",
+          "startTime": 33.990806,
+          "endTime": 35.052801
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "not what are notes encroached",
+      "startTime": 35.052801,
+      "endTime": 39.304042,
+      "words": [
+        {
+          "id": 45,
+          "text": "not",
+          "startTime": 35.052801,
+          "endTime": 36.643942
+        },
+        {
+          "id": 46,
+          "text": "what",
+          "startTime": 36.643942,
+          "endTime": 36.914551
+        },
+        {
+          "id": 47,
+          "text": "are",
+          "startTime": 36.914551,
+          "endTime": 37.180701
+        },
+        {
+          "id": 48,
+          "text": "notes",
+          "startTime": 37.180701,
+          "endTime": 37.976803
+        },
+        {
+          "id": 49,
+          "text": "encroached",
+          "startTime": 37.976803,
+          "endTime": 39.304042
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "if a canopy first, its limbs go slow. ",
+      "startTime": 39.304042,
+      "endTime": 45.421235,
+      "words": [
+        {
+          "id": 50,
+          "text": "if",
+          "startTime": 39.304042,
+          "endTime": 40.504377
+        },
+        {
+          "id": 51,
+          "text": "a",
+          "startTime": 40.504377,
+          "endTime": 40.633362
+        },
+        {
+          "id": 52,
+          "text": "canopy",
+          "startTime": 40.633362,
+          "endTime": 41.165513
+        },
+        {
+          "id": 53,
+          "text": "first,",
+          "startTime": 41.165513,
+          "endTime": 41.961576
+        },
+        {
+          "id": 54,
+          "text": "its",
+          "startTime": 41.961576,
+          "endTime": 42.622894
+        },
+        {
+          "id": 55,
+          "text": "limbs",
+          "startTime": 42.622894,
+          "endTime": 43.154527
+        },
+        {
+          "id": 56,
+          "text": "go",
+          "startTime": 43.154527,
+          "endTime": 43.421235
+        },
+        {
+          "id": 57,
+          "text": "slow.",
+          "startTime": 43.421235,
+          "endTime": 45.421235
+        }
+      ]
+    }
+  ]
+}

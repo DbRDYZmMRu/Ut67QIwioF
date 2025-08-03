@@ -1,0 +1,790 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "There is a lot that shouldn't be in her face",
+      "startTime": 4.748748,
+      "endTime": 11.785221,
+      "words": [
+        {
+          "id": 1,
+          "text": "There",
+          "startTime": 4.748748,
+          "endTime": 8.598084
+        },
+        {
+          "id": 2,
+          "text": "is",
+          "startTime": 8.598084,
+          "endTime": 8.734001
+        },
+        {
+          "id": 3,
+          "text": "a",
+          "startTime": 8.734001,
+          "endTime": 9.004335
+        },
+        {
+          "id": 4,
+          "text": "lot",
+          "startTime": 9.004335,
+          "endTime": 9.664753
+        },
+        {
+          "id": 5,
+          "text": "that",
+          "startTime": 9.664753,
+          "endTime": 9.929197
+        },
+        {
+          "id": 6,
+          "text": "shouldn't",
+          "startTime": 9.929197,
+          "endTime": 10.06044
+        },
+        {
+          "id": 7,
+          "text": "be",
+          "startTime": 10.06044,
+          "endTime": 10.326674
+        },
+        {
+          "id": 8,
+          "text": "in",
+          "startTime": 10.326674,
+          "endTime": 10.594448
+        },
+        {
+          "id": 9,
+          "text": "her",
+          "startTime": 10.594448,
+          "endTime": 10.8581
+        },
+        {
+          "id": 10,
+          "text": "face",
+          "startTime": 10.8581,
+          "endTime": 11.785221
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "carefreeness she'd rather opt to debase",
+      "startTime": 11.785221,
+      "endTime": 16.834605,
+      "words": [
+        {
+          "id": 11,
+          "text": "carefreeness",
+          "startTime": 11.785221,
+          "endTime": 13.64845
+        },
+        {
+          "id": 12,
+          "text": "she'd",
+          "startTime": 13.64845,
+          "endTime": 14.307032
+        },
+        {
+          "id": 13,
+          "text": "rather",
+          "startTime": 14.307032,
+          "endTime": 14.71262
+        },
+        {
+          "id": 14,
+          "text": "opt",
+          "startTime": 14.71262,
+          "endTime": 14.974892
+        },
+        {
+          "id": 15,
+          "text": "to",
+          "startTime": 14.974892,
+          "endTime": 15.37512
+        },
+        {
+          "id": 16,
+          "text": "debase",
+          "startTime": 15.37512,
+          "endTime": 16.834605
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "I'm like what she often fights to distaste ",
+      "startTime": 16.834605,
+      "endTime": 22.011785,
+      "words": [
+        {
+          "id": 17,
+          "text": "I'm",
+          "startTime": 16.834605,
+          "endTime": 18.296888
+        },
+        {
+          "id": 18,
+          "text": "like",
+          "startTime": 18.296888,
+          "endTime": 18.427033
+        },
+        {
+          "id": 19,
+          "text": "what",
+          "startTime": 18.427033,
+          "endTime": 18.691772
+        },
+        {
+          "id": 20,
+          "text": "she",
+          "startTime": 18.691772,
+          "endTime": 18.958118
+        },
+        {
+          "id": 21,
+          "text": "often",
+          "startTime": 18.958118,
+          "endTime": 19.359004
+        },
+        {
+          "id": 22,
+          "text": "fights",
+          "startTime": 19.359004,
+          "endTime": 20.156578
+        },
+        {
+          "id": 23,
+          "text": "to",
+          "startTime": 20.156578,
+          "endTime": 20.817561
+        },
+        {
+          "id": 24,
+          "text": "distaste",
+          "startTime": 20.817561,
+          "endTime": 22.011785
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "she impels, implodes, eating decades",
+      "startTime": 22.011785,
+      "endTime": 28.120729,
+      "words": [
+        {
+          "id": 25,
+          "text": "she",
+          "startTime": 22.011785,
+          "endTime": 22.943132
+        },
+        {
+          "id": 26,
+          "text": "impels,",
+          "startTime": 22.943132,
+          "endTime": 24.006327
+        },
+        {
+          "id": 27,
+          "text": "implodes,",
+          "startTime": 24.006327,
+          "endTime": 25.734327
+        },
+        {
+          "id": 28,
+          "text": "eating",
+          "startTime": 25.734327,
+          "endTime": 26.39979
+        },
+        {
+          "id": 29,
+          "text": "decades",
+          "startTime": 26.39979,
+          "endTime": 28.120729
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "it's a must quitting one musty, yet ale",
+      "startTime": 28.120729,
+      "endTime": 33.700329,
+      "words": [
+        {
+          "id": 30,
+          "text": "it's",
+          "startTime": 28.120729,
+          "endTime": 29.320919
+        },
+        {
+          "id": 31,
+          "text": "a",
+          "startTime": 29.320919,
+          "endTime": 29.450987
+        },
+        {
+          "id": 32,
+          "text": "must",
+          "startTime": 29.450987,
+          "endTime": 29.983695
+        },
+        {
+          "id": 33,
+          "text": "quitting",
+          "startTime": 29.983695,
+          "endTime": 30.517505
+        },
+        {
+          "id": 34,
+          "text": "one",
+          "startTime": 30.517505,
+          "endTime": 30.911813
+        },
+        {
+          "id": 35,
+          "text": "musty,",
+          "startTime": 30.911813,
+          "endTime": 31.976744
+        },
+        {
+          "id": 36,
+          "text": "yet",
+          "startTime": 31.976744,
+          "endTime": 32.509018
+        },
+        {
+          "id": 37,
+          "text": "ale",
+          "startTime": 32.509018,
+          "endTime": 33.700329
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "so she turns off lights to her ol’ age",
+      "startTime": 33.700329,
+      "endTime": 38.879994,
+      "words": [
+        {
+          "id": 38,
+          "text": "so",
+          "startTime": 33.700329,
+          "endTime": 34.630709
+        },
+        {
+          "id": 39,
+          "text": "she",
+          "startTime": 34.630709,
+          "endTime": 34.764175
+        },
+        {
+          "id": 40,
+          "text": "turns",
+          "startTime": 34.764175,
+          "endTime": 35.029228
+        },
+        {
+          "id": 41,
+          "text": "off",
+          "startTime": 35.029228,
+          "endTime": 35.427755
+        },
+        {
+          "id": 42,
+          "text": "lights",
+          "startTime": 35.427755,
+          "endTime": 36.09236
+        },
+        {
+          "id": 43,
+          "text": "to",
+          "startTime": 36.09236,
+          "endTime": 36.625283
+        },
+        {
+          "id": 44,
+          "text": "her",
+          "startTime": 36.625283,
+          "endTime": 36.890194
+        },
+        {
+          "id": 45,
+          "text": "ol’",
+          "startTime": 36.890194,
+          "endTime": 37.28737
+        },
+        {
+          "id": 46,
+          "text": "age",
+          "startTime": 37.28737,
+          "endTime": 38.879994
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "employs a glover by a new name",
+      "startTime": 38.879994,
+      "endTime": 42.733588,
+      "words": [
+        {
+          "id": 47,
+          "text": "employs",
+          "startTime": 38.879994,
+          "endTime": 40.07662
+        },
+        {
+          "id": 48,
+          "text": "a",
+          "startTime": 40.07662,
+          "endTime": 40.208931
+        },
+        {
+          "id": 49,
+          "text": "glover",
+          "startTime": 40.208931,
+          "endTime": 40.609313
+        },
+        {
+          "id": 50,
+          "text": "by",
+          "startTime": 40.609313,
+          "endTime": 41.271318
+        },
+        {
+          "id": 51,
+          "text": "a",
+          "startTime": 41.271318,
+          "endTime": 41.536984
+        },
+        {
+          "id": 52,
+          "text": "new",
+          "startTime": 41.536984,
+          "endTime": 41.672473
+        },
+        {
+          "id": 53,
+          "text": "name",
+          "startTime": 41.672473,
+          "endTime": 42.733588
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "I know her well, girl in a rib cage",
+      "startTime": 42.733588,
+      "endTime": 47.779298,
+      "words": [
+        {
+          "id": 54,
+          "text": "I",
+          "startTime": 42.733588,
+          "endTime": 44.061694
+        },
+        {
+          "id": 55,
+          "text": "know",
+          "startTime": 44.061694,
+          "endTime": 44.191909
+        },
+        {
+          "id": 56,
+          "text": "her",
+          "startTime": 44.191909,
+          "endTime": 44.461458
+        },
+        {
+          "id": 57,
+          "text": "well,",
+          "startTime": 44.461458,
+          "endTime": 45.254841
+        },
+        {
+          "id": 58,
+          "text": "girl",
+          "startTime": 45.254841,
+          "endTime": 45.918299
+        },
+        {
+          "id": 59,
+          "text": "in",
+          "startTime": 45.918299,
+          "endTime": 46.316467
+        },
+        {
+          "id": 60,
+          "text": "a",
+          "startTime": 46.316467,
+          "endTime": 46.583385
+        },
+        {
+          "id": 61,
+          "text": "rib",
+          "startTime": 46.583385,
+          "endTime": 46.714999
+        },
+        {
+          "id": 62,
+          "text": "cage",
+          "startTime": 46.714999,
+          "endTime": 47.779298
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "today, she's tired, often afraid",
+      "startTime": 47.779298,
+      "endTime": 52.827845,
+      "words": [
+        {
+          "id": 63,
+          "text": "today,",
+          "startTime": 47.779298,
+          "endTime": 49.240849
+        },
+        {
+          "id": 64,
+          "text": "she's",
+          "startTime": 49.240849,
+          "endTime": 50.167315
+        },
+        {
+          "id": 65,
+          "text": "tired,",
+          "startTime": 50.167315,
+          "endTime": 51.10034
+        },
+        {
+          "id": 66,
+          "text": "often",
+          "startTime": 51.10034,
+          "endTime": 51.631205
+        },
+        {
+          "id": 67,
+          "text": "afraid",
+          "startTime": 51.631205,
+          "endTime": 52.827845
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "she slips into that new gaze ",
+      "startTime": 52.827845,
+      "endTime": 56.809811,
+      "words": [
+        {
+          "id": 68,
+          "text": "she",
+          "startTime": 52.827845,
+          "endTime": 54.420843
+        },
+        {
+          "id": 69,
+          "text": "slips",
+          "startTime": 54.420843,
+          "endTime": 54.6855
+        },
+        {
+          "id": 70,
+          "text": "into",
+          "startTime": 54.6855,
+          "endTime": 54.953042
+        },
+        {
+          "id": 71,
+          "text": "that",
+          "startTime": 54.953042,
+          "endTime": 55.083436
+        },
+        {
+          "id": 72,
+          "text": "new",
+          "startTime": 55.083436,
+          "endTime": 55.480953
+        },
+        {
+          "id": 73,
+          "text": "gaze",
+          "startTime": 55.480953,
+          "endTime": 56.809811
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "but ever asking for its rage",
+      "startTime": 56.809811,
+      "endTime": 59.999713,
+      "words": [
+        {
+          "id": 74,
+          "text": "but",
+          "startTime": 56.809811,
+          "endTime": 57.474535
+        },
+        {
+          "id": 75,
+          "text": "ever",
+          "startTime": 57.474535,
+          "endTime": 57.742598
+        },
+        {
+          "id": 76,
+          "text": "asking",
+          "startTime": 57.742598,
+          "endTime": 58.405598
+        },
+        {
+          "id": 77,
+          "text": "for",
+          "startTime": 58.405598,
+          "endTime": 58.674107
+        },
+        {
+          "id": 78,
+          "text": "its",
+          "startTime": 58.674107,
+          "endTime": 58.806229
+        },
+        {
+          "id": 79,
+          "text": "rage",
+          "startTime": 58.806229,
+          "endTime": 59.999713
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "her innocence, her maze",
+      "startTime": 59.999713,
+      "endTime": 65.708873,
+      "words": [
+        {
+          "id": 80,
+          "text": "her",
+          "startTime": 59.999713,
+          "endTime": 61.859739
+        },
+        {
+          "id": 81,
+          "text": "innocence,",
+          "startTime": 61.859739,
+          "endTime": 63.716297
+        },
+        {
+          "id": 82,
+          "text": "her",
+          "startTime": 63.716297,
+          "endTime": 63.850065
+        },
+        {
+          "id": 83,
+          "text": "maze",
+          "startTime": 63.850065,
+          "endTime": 65.708873
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "paragraph": "what's left in that shade",
+      "startTime": 65.708873,
+      "endTime": 69.563932,
+      "words": [
+        {
+          "id": 84,
+          "text": "what's",
+          "startTime": 65.708873,
+          "endTime": 65.976059
+        },
+        {
+          "id": 85,
+          "text": "left",
+          "startTime": 65.976059,
+          "endTime": 66.506582
+        },
+        {
+          "id": 86,
+          "text": "in",
+          "startTime": 66.506582,
+          "endTime": 67.035456
+        },
+        {
+          "id": 87,
+          "text": "that",
+          "startTime": 67.035456,
+          "endTime": 67.305562
+        },
+        {
+          "id": 88,
+          "text": "shade",
+          "startTime": 67.305562,
+          "endTime": 69.563932
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "paragraph": "numbers on old cakes",
+      "startTime": 69.563932,
+      "endTime": 72.482816,
+      "words": [
+        {
+          "id": 89,
+          "text": "numbers",
+          "startTime": 69.563932,
+          "endTime": 70.093714
+        },
+        {
+          "id": 90,
+          "text": "on",
+          "startTime": 70.093714,
+          "endTime": 70.489384
+        },
+        {
+          "id": 91,
+          "text": "old",
+          "startTime": 70.489384,
+          "endTime": 70.889051
+        },
+        {
+          "id": 92,
+          "text": "cakes",
+          "startTime": 70.889051,
+          "endTime": 72.482816
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "paragraph": "hitchhiked her grace",
+      "startTime": 72.482816,
+      "endTime": 75.14822,
+      "words": [
+        {
+          "id": 93,
+          "text": "hitchhiked",
+          "startTime": 72.482816,
+          "endTime": 72.750725
+        },
+        {
+          "id": 94,
+          "text": "her",
+          "startTime": 72.750725,
+          "endTime": 73.544517
+        },
+        {
+          "id": 95,
+          "text": "grace",
+          "startTime": 73.544517,
+          "endTime": 75.14822
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "paragraph": "to loving dearly fate",
+      "startTime": 75.14822,
+      "endTime": 78.067146,
+      "words": [
+        {
+          "id": 96,
+          "text": "to",
+          "startTime": 75.14822,
+          "endTime": 75.943209
+        },
+        {
+          "id": 97,
+          "text": "loving",
+          "startTime": 75.943209,
+          "endTime": 76.339696
+        },
+        {
+          "id": 98,
+          "text": "dearly",
+          "startTime": 76.339696,
+          "endTime": 76.873464
+        },
+        {
+          "id": 99,
+          "text": "fate",
+          "startTime": 76.873464,
+          "endTime": 78.067146
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "paragraph": "even if she's a date",
+      "startTime": 78.067146,
+      "endTime": 81.388289,
+      "words": [
+        {
+          "id": 100,
+          "text": "even",
+          "startTime": 78.067146,
+          "endTime": 79.529982
+        },
+        {
+          "id": 101,
+          "text": "if",
+          "startTime": 79.529982,
+          "endTime": 79.79395
+        },
+        {
+          "id": 102,
+          "text": "she's",
+          "startTime": 79.79395,
+          "endTime": 80.060153
+        },
+        {
+          "id": 103,
+          "text": "a",
+          "startTime": 80.060153,
+          "endTime": 80.195383
+        },
+        {
+          "id": 104,
+          "text": "date",
+          "startTime": 80.195383,
+          "endTime": 81.388289
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "paragraph": "of learnt language. ",
+      "startTime": 81.388289,
+      "endTime": 84.325692,
+      "words": [
+        {
+          "id": 105,
+          "text": "of",
+          "startTime": 81.388289,
+          "endTime": 81.657066
+        },
+        {
+          "id": 106,
+          "text": "learnt",
+          "startTime": 81.657066,
+          "endTime": 82.325692
+        },
+        {
+          "id": 107,
+          "text": "language.",
+          "startTime": 82.325692,
+          "endTime": 84.325692
+        }
+      ]
+    }
+  ]
+}

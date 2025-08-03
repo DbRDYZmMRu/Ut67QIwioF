@@ -1,0 +1,156 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "With bells we hung like blurts",
+      "startTime": 6.416612,
+      "endTime": 11.86288,
+      "words": [
+        {
+          "id": 1,
+          "text": "With",
+          "startTime": 6.416612,
+          "endTime": 9.206287
+        },
+        {
+          "id": 2,
+          "text": "bells",
+          "startTime": 9.206287,
+          "endTime": 9.871036
+        },
+        {
+          "id": 3,
+          "text": "we",
+          "startTime": 9.871036,
+          "endTime": 10.136693
+        },
+        {
+          "id": 4,
+          "text": "hung",
+          "startTime": 10.136693,
+          "endTime": 10.66836
+        },
+        {
+          "id": 5,
+          "text": "like",
+          "startTime": 10.66836,
+          "endTime": 10.80082
+        },
+        {
+          "id": 6,
+          "text": "blurts",
+          "startTime": 10.80082,
+          "endTime": 11.86288
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "none scared of rising dust",
+      "startTime": 11.86288,
+      "endTime": 16.778078,
+      "words": [
+        {
+          "id": 7,
+          "text": "none",
+          "startTime": 11.86288,
+          "endTime": 13.324557
+        },
+        {
+          "id": 8,
+          "text": "scared",
+          "startTime": 13.324557,
+          "endTime": 13.856253
+        },
+        {
+          "id": 9,
+          "text": "of",
+          "startTime": 13.856253,
+          "endTime": 14.65102
+        },
+        {
+          "id": 10,
+          "text": "rising",
+          "startTime": 14.65102,
+          "endTime": 15.313643
+        },
+        {
+          "id": 11,
+          "text": "dust",
+          "startTime": 15.313643,
+          "endTime": 16.778078
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "up there on your wrung ",
+      "startTime": 16.778078,
+      "endTime": 20.361034,
+      "words": [
+        {
+          "id": 12,
+          "text": "up",
+          "startTime": 16.778078,
+          "endTime": 17.974174
+        },
+        {
+          "id": 13,
+          "text": "there",
+          "startTime": 17.974174,
+          "endTime": 18.501382
+        },
+        {
+          "id": 14,
+          "text": "on",
+          "startTime": 18.501382,
+          "endTime": 19.032967
+        },
+        {
+          "id": 15,
+          "text": "your",
+          "startTime": 19.032967,
+          "endTime": 19.301293
+        },
+        {
+          "id": 16,
+          "text": "wrung",
+          "startTime": 19.301293,
+          "endTime": 20.361034
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "the shelly was born. ",
+      "startTime": 20.361034,
+      "endTime": 24.488978,
+      "words": [
+        {
+          "id": 17,
+          "text": "the",
+          "startTime": 20.361034,
+          "endTime": 21.557315
+        },
+        {
+          "id": 18,
+          "text": "shelly",
+          "startTime": 21.557315,
+          "endTime": 22.088831
+        },
+        {
+          "id": 19,
+          "text": "was",
+          "startTime": 22.088831,
+          "endTime": 22.488978
+        },
+        {
+          "id": 20,
+          "text": "born.",
+          "startTime": 22.488978,
+          "endTime": 24.488978
+        }
+      ]
+    }
+  ]
+}

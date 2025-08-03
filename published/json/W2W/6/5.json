@@ -1,0 +1,150 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Finish lines weep in drees she sees",
+      "startTime": 4.504704,
+      "endTime": 12.739233,
+      "words": [
+        {
+          "id": 1,
+          "text": "Finish",
+          "startTime": 4.504704,
+          "endTime": 8.357747
+        },
+        {
+          "id": 2,
+          "text": "lines",
+          "startTime": 8.357747,
+          "endTime": 9.151639
+        },
+        {
+          "id": 3,
+          "text": "weep",
+          "startTime": 9.151639,
+          "endTime": 9.684381
+        },
+        {
+          "id": 4,
+          "text": "in",
+          "startTime": 9.684381,
+          "endTime": 10.081877
+        },
+        {
+          "id": 5,
+          "text": "drees",
+          "startTime": 10.081877,
+          "endTime": 11.146182
+        },
+        {
+          "id": 6,
+          "text": "she",
+          "startTime": 11.146182,
+          "endTime": 11.410954
+        },
+        {
+          "id": 7,
+          "text": "sees",
+          "startTime": 11.410954,
+          "endTime": 12.739233
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "salient hisses, insisting previews",
+      "startTime": 12.739233,
+      "endTime": 19.20789,
+      "words": [
+        {
+          "id": 8,
+          "text": "salient",
+          "startTime": 12.739233,
+          "endTime": 14.560088
+        },
+        {
+          "id": 9,
+          "text": "hisses,",
+          "startTime": 14.560088,
+          "endTime": 15.487483
+        },
+        {
+          "id": 10,
+          "text": "insisting",
+          "startTime": 15.487483,
+          "endTime": 17.881647
+        },
+        {
+          "id": 11,
+          "text": "previews",
+          "startTime": 17.881647,
+          "endTime": 19.20789
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "days sitting alongside weeks",
+      "startTime": 19.20789,
+      "endTime": 24.653168,
+      "words": [
+        {
+          "id": 12,
+          "text": "days",
+          "startTime": 19.20789,
+          "endTime": 21.864162
+        },
+        {
+          "id": 13,
+          "text": "sitting",
+          "startTime": 21.864162,
+          "endTime": 22.526744
+        },
+        {
+          "id": 14,
+          "text": "alongside",
+          "startTime": 22.526744,
+          "endTime": 23.190829
+        },
+        {
+          "id": 15,
+          "text": "weeks",
+          "startTime": 23.190829,
+          "endTime": 24.653168
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "my fair distance visiting. ",
+      "startTime": 24.653168,
+      "endTime": 29.708547,
+      "words": [
+        {
+          "id": 16,
+          "text": "my",
+          "startTime": 24.653168,
+          "endTime": 26.24872
+        },
+        {
+          "id": 17,
+          "text": "fair",
+          "startTime": 26.24872,
+          "endTime": 26.648198
+        },
+        {
+          "id": 18,
+          "text": "distance",
+          "startTime": 26.648198,
+          "endTime": 27.708547
+        },
+        {
+          "id": 19,
+          "text": "visiting.",
+          "startTime": 27.708547,
+          "endTime": 29.708547
+        }
+      ]
+    }
+  ]
+}

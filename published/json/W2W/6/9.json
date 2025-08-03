@@ -1,0 +1,312 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Staring at her mind",
+      "startTime": 5.347006,
+      "endTime": 9.860557,
+      "words": [
+        {
+          "id": 1,
+          "text": "Staring",
+          "startTime": 5.347006,
+          "endTime": 8.402217
+        },
+        {
+          "id": 2,
+          "text": "at",
+          "startTime": 8.402217,
+          "endTime": 8.53189
+        },
+        {
+          "id": 3,
+          "text": "her",
+          "startTime": 8.53189,
+          "endTime": 9.19533
+        },
+        {
+          "id": 4,
+          "text": "mind",
+          "startTime": 9.19533,
+          "endTime": 9.860557
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "using a cup of white wine",
+      "startTime": 9.860557,
+      "endTime": 12.782738,
+      "words": [
+        {
+          "id": 5,
+          "text": "using",
+          "startTime": 9.860557,
+          "endTime": 10.260264
+        },
+        {
+          "id": 6,
+          "text": "a",
+          "startTime": 10.260264,
+          "endTime": 10.524754
+        },
+        {
+          "id": 7,
+          "text": "cup",
+          "startTime": 10.524754,
+          "endTime": 10.922549
+        },
+        {
+          "id": 8,
+          "text": "of",
+          "startTime": 10.922549,
+          "endTime": 11.323579
+        },
+        {
+          "id": 9,
+          "text": "white",
+          "startTime": 11.323579,
+          "endTime": 11.724532
+        },
+        {
+          "id": 10,
+          "text": "wine",
+          "startTime": 11.724532,
+          "endTime": 12.782738
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "she poured intoxicating lies",
+      "startTime": 12.782738,
+      "endTime": 16.769129,
+      "words": [
+        {
+          "id": 11,
+          "text": "she",
+          "startTime": 12.782738,
+          "endTime": 13.977272
+        },
+        {
+          "id": 12,
+          "text": "poured",
+          "startTime": 13.977272,
+          "endTime": 14.241026
+        },
+        {
+          "id": 13,
+          "text": "intoxicating",
+          "startTime": 14.241026,
+          "endTime": 15.442127
+        },
+        {
+          "id": 14,
+          "text": "lies",
+          "startTime": 15.442127,
+          "endTime": 16.769129
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "that tasted like summer crime",
+      "startTime": 16.769129,
+      "endTime": 19.823445,
+      "words": [
+        {
+          "id": 15,
+          "text": "that",
+          "startTime": 16.769129,
+          "endTime": 17.164926
+        },
+        {
+          "id": 16,
+          "text": "tasted",
+          "startTime": 17.164926,
+          "endTime": 17.829616
+        },
+        {
+          "id": 17,
+          "text": "like",
+          "startTime": 17.829616,
+          "endTime": 18.095916
+        },
+        {
+          "id": 18,
+          "text": "summer",
+          "startTime": 18.095916,
+          "endTime": 18.492787
+        },
+        {
+          "id": 19,
+          "text": "crime",
+          "startTime": 18.492787,
+          "endTime": 19.823445
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "she cleaned the scene with a sigh",
+      "startTime": 19.823445,
+      "endTime": 24.60228,
+      "words": [
+        {
+          "id": 20,
+          "text": "she",
+          "startTime": 19.823445,
+          "endTime": 20.883829
+        },
+        {
+          "id": 21,
+          "text": "cleaned",
+          "startTime": 20.883829,
+          "endTime": 21.148124
+        },
+        {
+          "id": 22,
+          "text": "the",
+          "startTime": 21.148124,
+          "endTime": 21.547594
+        },
+        {
+          "id": 23,
+          "text": "scene",
+          "startTime": 21.547594,
+          "endTime": 22.477733
+        },
+        {
+          "id": 24,
+          "text": "with",
+          "startTime": 22.477733,
+          "endTime": 22.742539
+        },
+        {
+          "id": 25,
+          "text": "a",
+          "startTime": 22.742539,
+          "endTime": 23.009899
+        },
+        {
+          "id": 26,
+          "text": "sigh",
+          "startTime": 23.009899,
+          "endTime": 24.60228
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "in bikini she ran miles in but denied",
+      "startTime": 24.60228,
+      "endTime": 29.516427,
+      "words": [
+        {
+          "id": 27,
+          "text": "in",
+          "startTime": 24.60228,
+          "endTime": 24.865528
+        },
+        {
+          "id": 28,
+          "text": "bikini",
+          "startTime": 24.865528,
+          "endTime": 25.928684
+        },
+        {
+          "id": 29,
+          "text": "she",
+          "startTime": 25.928684,
+          "endTime": 26.196119
+        },
+        {
+          "id": 30,
+          "text": "ran",
+          "startTime": 26.196119,
+          "endTime": 26.461784
+        },
+        {
+          "id": 31,
+          "text": "miles",
+          "startTime": 26.461784,
+          "endTime": 26.994923
+        },
+        {
+          "id": 32,
+          "text": "in",
+          "startTime": 26.994923,
+          "endTime": 27.792795
+        },
+        {
+          "id": 33,
+          "text": "but",
+          "startTime": 27.792795,
+          "endTime": 28.056518
+        },
+        {
+          "id": 34,
+          "text": "denied",
+          "startTime": 28.056518,
+          "endTime": 29.516427
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "New York knew L.A but not its times.",
+      "startTime": 29.516427,
+      "endTime": 35.236682,
+      "words": [
+        {
+          "id": 35,
+          "text": "New",
+          "startTime": 29.516427,
+          "endTime": 30.312548
+        },
+        {
+          "id": 36,
+          "text": "York",
+          "startTime": 30.312548,
+          "endTime": 30.577973
+        },
+        {
+          "id": 37,
+          "text": "knew",
+          "startTime": 30.577973,
+          "endTime": 30.845539
+        },
+        {
+          "id": 38,
+          "text": "L.A",
+          "startTime": 30.845539,
+          "endTime": 31.907439
+        },
+        {
+          "id": 39,
+          "text": "but",
+          "startTime": 31.907439,
+          "endTime": 32.702409
+        },
+        {
+          "id": 40,
+          "text": "not",
+          "startTime": 32.702409,
+          "endTime": 33.104807
+        },
+        {
+          "id": 41,
+          "text": "its",
+          "startTime": 33.104807,
+          "endTime": 33.236682
+        },
+        {
+          "id": 42,
+          "text": "times.",
+          "startTime": 33.236682,
+          "endTime": 35.236682
+        }
+      ]
+    }
+  ]
+}

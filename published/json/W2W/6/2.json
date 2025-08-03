@@ -1,0 +1,170 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Ask me a question ",
+      "startTime": 4.143068,
+      "endTime": 8.124351,
+      "words": [
+        {
+          "id": 1,
+          "text": "Ask",
+          "startTime": 4.143068,
+          "endTime": 6.929821
+        },
+        {
+          "id": 2,
+          "text": "me",
+          "startTime": 6.929821,
+          "endTime": 7.200415
+        },
+        {
+          "id": 3,
+          "text": "a",
+          "startTime": 7.200415,
+          "endTime": 7.331514
+        },
+        {
+          "id": 4,
+          "text": "question",
+          "startTime": 7.331514,
+          "endTime": 8.124351
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "I'll quit my sermons ",
+      "startTime": 8.124351,
+      "endTime": 11.181508,
+      "words": [
+        {
+          "id": 5,
+          "text": "I'll",
+          "startTime": 8.124351,
+          "endTime": 9.59087
+        },
+        {
+          "id": 6,
+          "text": "quit",
+          "startTime": 9.59087,
+          "endTime": 9.854661
+        },
+        {
+          "id": 7,
+          "text": "my",
+          "startTime": 9.854661,
+          "endTime": 10.122479
+        },
+        {
+          "id": 8,
+          "text": "sermons",
+          "startTime": 10.122479,
+          "endTime": 11.181508
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "and however abrupt",
+      "startTime": 11.181508,
+      "endTime": 13.971756,
+      "words": [
+        {
+          "id": 9,
+          "text": "and",
+          "startTime": 11.181508,
+          "endTime": 12.510104
+        },
+        {
+          "id": 10,
+          "text": "however",
+          "startTime": 12.510104,
+          "endTime": 12.776349
+        },
+        {
+          "id": 11,
+          "text": "abrupt",
+          "startTime": 12.776349,
+          "endTime": 13.971756
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "it's to the degree sort",
+      "startTime": 13.971756,
+      "endTime": 17.153462,
+      "words": [
+        {
+          "id": 12,
+          "text": "it's",
+          "startTime": 13.971756,
+          "endTime": 15.168034
+        },
+        {
+          "id": 13,
+          "text": "to",
+          "startTime": 15.168034,
+          "endTime": 15.299096
+        },
+        {
+          "id": 14,
+          "text": "the",
+          "startTime": 15.299096,
+          "endTime": 15.564985
+        },
+        {
+          "id": 15,
+          "text": "degree",
+          "startTime": 15.564985,
+          "endTime": 15.959921
+        },
+        {
+          "id": 16,
+          "text": "sort",
+          "startTime": 15.959921,
+          "endTime": 17.153462
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "new shoes for my horse. ",
+      "startTime": 17.153462,
+      "endTime": 21.947836,
+      "words": [
+        {
+          "id": 17,
+          "text": "new",
+          "startTime": 17.153462,
+          "endTime": 18.355207
+        },
+        {
+          "id": 18,
+          "text": "shoes",
+          "startTime": 18.355207,
+          "endTime": 18.751339
+        },
+        {
+          "id": 19,
+          "text": "for",
+          "startTime": 18.751339,
+          "endTime": 19.808215
+        },
+        {
+          "id": 20,
+          "text": "my",
+          "startTime": 19.808215,
+          "endTime": 19.947836
+        },
+        {
+          "id": 21,
+          "text": "horse.",
+          "startTime": 19.947836,
+          "endTime": 21.947836
+        }
+      ]
+    }
+  ]
+}

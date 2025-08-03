@@ -1,0 +1,272 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I clamber the hills of Lombardy ",
+      "startTime": 5.715821,
+      "endTime": 10.764997,
+      "words": [
+        {
+          "id": 1,
+          "text": "I",
+          "startTime": 5.715821,
+          "endTime": 7.578353
+        },
+        {
+          "id": 2,
+          "text": "clamber",
+          "startTime": 7.578353,
+          "endTime": 7.972372
+        },
+        {
+          "id": 3,
+          "text": "the",
+          "startTime": 7.972372,
+          "endTime": 8.109978
+        },
+        {
+          "id": 4,
+          "text": "hills",
+          "startTime": 8.109978,
+          "endTime": 8.373179
+        },
+        {
+          "id": 5,
+          "text": "of",
+          "startTime": 8.373179,
+          "endTime": 9.569135
+        },
+        {
+          "id": 6,
+          "text": "Lombardy",
+          "startTime": 9.569135,
+          "endTime": 10.764997
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "stained as the windows of Our Lady",
+      "startTime": 10.764997,
+      "endTime": 15.281426,
+      "words": [
+        {
+          "id": 7,
+          "text": "stained",
+          "startTime": 10.764997,
+          "endTime": 12.222712
+        },
+        {
+          "id": 8,
+          "text": "as",
+          "startTime": 12.222712,
+          "endTime": 12.491147
+        },
+        {
+          "id": 9,
+          "text": "the",
+          "startTime": 12.491147,
+          "endTime": 13.021299
+        },
+        {
+          "id": 10,
+          "text": "windows",
+          "startTime": 13.021299,
+          "endTime": 13.688879
+        },
+        {
+          "id": 11,
+          "text": "of",
+          "startTime": 13.688879,
+          "endTime": 14.219216
+        },
+        {
+          "id": 12,
+          "text": "Our",
+          "startTime": 14.219216,
+          "endTime": 14.482877
+        },
+        {
+          "id": 13,
+          "text": "Lady",
+          "startTime": 14.482877,
+          "endTime": 15.281426
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "so reproached under your timbre’s wings",
+      "startTime": 15.281426,
+      "endTime": 20.462013,
+      "words": [
+        {
+          "id": 14,
+          "text": "so",
+          "startTime": 15.281426,
+          "endTime": 16.609337
+        },
+        {
+          "id": 15,
+          "text": "reproached",
+          "startTime": 16.609337,
+          "endTime": 17.406362
+        },
+        {
+          "id": 16,
+          "text": "under",
+          "startTime": 17.406362,
+          "endTime": 18.332961
+        },
+        {
+          "id": 17,
+          "text": "your",
+          "startTime": 18.332961,
+          "endTime": 18.601142
+        },
+        {
+          "id": 18,
+          "text": "timbre’s",
+          "startTime": 18.601142,
+          "endTime": 19.131934
+        },
+        {
+          "id": 19,
+          "text": "wings",
+          "startTime": 19.131934,
+          "endTime": 20.462013
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "I see myself — finally in Notre-Dame de Paris",
+      "startTime": 20.462013,
+      "endTime": 27.361831,
+      "words": [
+        {
+          "id": 20,
+          "text": "I",
+          "startTime": 20.462013,
+          "endTime": 21.784893
+        },
+        {
+          "id": 21,
+          "text": "see",
+          "startTime": 21.784893,
+          "endTime": 22.054851
+        },
+        {
+          "id": 22,
+          "text": "myself",
+          "startTime": 22.054851,
+          "endTime": 22.452995
+        },
+        {
+          "id": 23,
+          "text": "—",
+          "startTime": 22.452995,
+          "endTime": 23.117022
+        },
+        {
+          "id": 24,
+          "text": "finally",
+          "startTime": 23.117022,
+          "endTime": 24.978222
+        },
+        {
+          "id": 25,
+          "text": "in",
+          "startTime": 24.978222,
+          "endTime": 25.372789
+        },
+        {
+          "id": 26,
+          "text": "Notre-Dame",
+          "startTime": 25.372789,
+          "endTime": 26.167456
+        },
+        {
+          "id": 27,
+          "text": "de",
+          "startTime": 26.167456,
+          "endTime": 26.436812
+        },
+        {
+          "id": 28,
+          "text": "Paris",
+          "startTime": 26.436812,
+          "endTime": 27.361831
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "where no trees grow that hold you aren't my priest. ",
+      "startTime": 27.361831,
+      "endTime": 34.025203,
+      "words": [
+        {
+          "id": 29,
+          "text": "where",
+          "startTime": 27.361831,
+          "endTime": 28.429792
+        },
+        {
+          "id": 30,
+          "text": "no",
+          "startTime": 28.429792,
+          "endTime": 28.556697
+        },
+        {
+          "id": 31,
+          "text": "trees",
+          "startTime": 28.556697,
+          "endTime": 28.962158
+        },
+        {
+          "id": 32,
+          "text": "grow",
+          "startTime": 28.962158,
+          "endTime": 29.889654
+        },
+        {
+          "id": 33,
+          "text": "that",
+          "startTime": 29.889654,
+          "endTime": 30.293875
+        },
+        {
+          "id": 34,
+          "text": "hold",
+          "startTime": 30.293875,
+          "endTime": 31.225562
+        },
+        {
+          "id": 35,
+          "text": "you",
+          "startTime": 31.225562,
+          "endTime": 31.360343
+        },
+        {
+          "id": 36,
+          "text": "aren't",
+          "startTime": 31.360343,
+          "endTime": 31.621832
+        },
+        {
+          "id": 37,
+          "text": "my",
+          "startTime": 31.621832,
+          "endTime": 32.025203
+        },
+        {
+          "id": 38,
+          "text": "priest.",
+          "startTime": 32.025203,
+          "endTime": 34.025203
+        }
+      ]
+    }
+  ]
+}

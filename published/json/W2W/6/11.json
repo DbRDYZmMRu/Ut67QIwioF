@@ -1,0 +1,386 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I'm running without knowledge",
+      "startTime": 5.184665,
+      "endTime": 10.234376,
+      "words": [
+        {
+          "id": 1,
+          "text": "I'm",
+          "startTime": 5.184665,
+          "endTime": 8.239664
+        },
+        {
+          "id": 2,
+          "text": "running",
+          "startTime": 8.239664,
+          "endTime": 8.643266
+        },
+        {
+          "id": 3,
+          "text": "without",
+          "startTime": 8.643266,
+          "endTime": 9.170045
+        },
+        {
+          "id": 4,
+          "text": "knowledge",
+          "startTime": 9.170045,
+          "endTime": 10.234376
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "but the fettered camouflage gel",
+      "startTime": 10.234376,
+      "endTime": 14.613609,
+      "words": [
+        {
+          "id": 5,
+          "text": "but",
+          "startTime": 10.234376,
+          "endTime": 11.82435
+        },
+        {
+          "id": 6,
+          "text": "the",
+          "startTime": 11.82435,
+          "endTime": 11.962253
+        },
+        {
+          "id": 7,
+          "text": "fettered",
+          "startTime": 11.962253,
+          "endTime": 12.491155
+        },
+        {
+          "id": 8,
+          "text": "camouflage",
+          "startTime": 12.491155,
+          "endTime": 13.156335
+        },
+        {
+          "id": 9,
+          "text": "gel",
+          "startTime": 13.156335,
+          "endTime": 14.613609
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "he fears all my waist down intents",
+      "startTime": 14.613609,
+      "endTime": 19.927227,
+      "words": [
+        {
+          "id": 10,
+          "text": "he",
+          "startTime": 14.613609,
+          "endTime": 16.474826
+        },
+        {
+          "id": 11,
+          "text": "fears",
+          "startTime": 16.474826,
+          "endTime": 16.737873
+        },
+        {
+          "id": 12,
+          "text": "all",
+          "startTime": 16.737873,
+          "endTime": 17.006704
+        },
+        {
+          "id": 13,
+          "text": "my",
+          "startTime": 17.006704,
+          "endTime": 17.272443
+        },
+        {
+          "id": 14,
+          "text": "waist",
+          "startTime": 17.272443,
+          "endTime": 17.801622
+        },
+        {
+          "id": 15,
+          "text": "down",
+          "startTime": 17.801622,
+          "endTime": 18.070854
+        },
+        {
+          "id": 16,
+          "text": "intents",
+          "startTime": 18.070854,
+          "endTime": 19.927227
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "how far legs rhyme with a sentence",
+      "startTime": 19.927227,
+      "endTime": 25.241345,
+      "words": [
+        {
+          "id": 17,
+          "text": "how",
+          "startTime": 19.927227,
+          "endTime": 20.323907
+        },
+        {
+          "id": 18,
+          "text": "far",
+          "startTime": 20.323907,
+          "endTime": 20.723832
+        },
+        {
+          "id": 19,
+          "text": "legs",
+          "startTime": 20.723832,
+          "endTime": 21.656424
+        },
+        {
+          "id": 20,
+          "text": "rhyme",
+          "startTime": 21.656424,
+          "endTime": 22.185105
+        },
+        {
+          "id": 21,
+          "text": "with",
+          "startTime": 22.185105,
+          "endTime": 22.851028
+        },
+        {
+          "id": 22,
+          "text": "a",
+          "startTime": 22.851028,
+          "endTime": 23.113552
+        },
+        {
+          "id": 23,
+          "text": "sentence",
+          "startTime": 23.113552,
+          "endTime": 25.241345
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "so far below, buckling, ready to rent",
+      "startTime": 25.241345,
+      "endTime": 30.155791,
+      "words": [
+        {
+          "id": 24,
+          "text": "so",
+          "startTime": 25.241345,
+          "endTime": 25.505368
+        },
+        {
+          "id": 25,
+          "text": "far",
+          "startTime": 25.505368,
+          "endTime": 25.771347
+        },
+        {
+          "id": 26,
+          "text": "below,",
+          "startTime": 25.771347,
+          "endTime": 26.965744
+        },
+        {
+          "id": 27,
+          "text": "buckling,",
+          "startTime": 26.965744,
+          "endTime": 28.295094
+        },
+        {
+          "id": 28,
+          "text": "ready",
+          "startTime": 28.295094,
+          "endTime": 28.827492
+        },
+        {
+          "id": 29,
+          "text": "to",
+          "startTime": 28.827492,
+          "endTime": 29.089629
+        },
+        {
+          "id": 30,
+          "text": "rent",
+          "startTime": 29.089629,
+          "endTime": 30.155791
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "I remember, the rituals of emptiness",
+      "startTime": 30.155791,
+      "endTime": 36.265115,
+      "words": [
+        {
+          "id": 31,
+          "text": "I",
+          "startTime": 30.155791,
+          "endTime": 31.218611
+        },
+        {
+          "id": 32,
+          "text": "remember,",
+          "startTime": 31.218611,
+          "endTime": 32.408525
+        },
+        {
+          "id": 33,
+          "text": "the",
+          "startTime": 32.408525,
+          "endTime": 33.209342
+        },
+        {
+          "id": 34,
+          "text": "rituals",
+          "startTime": 33.209342,
+          "endTime": 34.003893
+        },
+        {
+          "id": 35,
+          "text": "of",
+          "startTime": 34.003893,
+          "endTime": 34.271778
+        },
+        {
+          "id": 36,
+          "text": "emptiness",
+          "startTime": 34.271778,
+          "endTime": 36.265115
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "catch the untold libraries I too visited",
+      "startTime": 36.265115,
+      "endTime": 41.442555,
+      "words": [
+        {
+          "id": 37,
+          "text": "catch",
+          "startTime": 36.265115,
+          "endTime": 37.059192
+        },
+        {
+          "id": 38,
+          "text": "the",
+          "startTime": 37.059192,
+          "endTime": 37.324004
+        },
+        {
+          "id": 39,
+          "text": "untold",
+          "startTime": 37.324004,
+          "endTime": 37.990317
+        },
+        {
+          "id": 40,
+          "text": "libraries",
+          "startTime": 37.990317,
+          "endTime": 38.787811
+        },
+        {
+          "id": 41,
+          "text": "I",
+          "startTime": 38.787811,
+          "endTime": 39.449827
+        },
+        {
+          "id": 42,
+          "text": "too",
+          "startTime": 39.449827,
+          "endTime": 39.850033
+        },
+        {
+          "id": 43,
+          "text": "visited",
+          "startTime": 39.850033,
+          "endTime": 41.442555
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "so if he’s a fever to his room, it's dead. ",
+      "startTime": 41.442555,
+      "endTime": 49.021842,
+      "words": [
+        {
+          "id": 44,
+          "text": "so",
+          "startTime": 41.442555,
+          "endTime": 42.374386
+        },
+        {
+          "id": 45,
+          "text": "if",
+          "startTime": 42.374386,
+          "endTime": 43.56978
+        },
+        {
+          "id": 46,
+          "text": "he’s",
+          "startTime": 43.56978,
+          "endTime": 43.835499
+        },
+        {
+          "id": 47,
+          "text": "a",
+          "startTime": 43.835499,
+          "endTime": 44.098747
+        },
+        {
+          "id": 48,
+          "text": "fever",
+          "startTime": 44.098747,
+          "endTime": 44.365324
+        },
+        {
+          "id": 49,
+          "text": "to",
+          "startTime": 44.365324,
+          "endTime": 44.633019
+        },
+        {
+          "id": 50,
+          "text": "his",
+          "startTime": 44.633019,
+          "endTime": 44.897217
+        },
+        {
+          "id": 51,
+          "text": "room,",
+          "startTime": 44.897217,
+          "endTime": 45.695698
+        },
+        {
+          "id": 52,
+          "text": "it's",
+          "startTime": 45.695698,
+          "endTime": 47.021842
+        },
+        {
+          "id": 53,
+          "text": "dead.",
+          "startTime": 47.021842,
+          "endTime": 49.021842
+        }
+      ]
+    }
+  ]
+}

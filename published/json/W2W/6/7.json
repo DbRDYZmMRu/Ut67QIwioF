@@ -1,0 +1,444 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Next to you, I'm a flower",
+      "startTime": 4.705629,
+      "endTime": 9.225305,
+      "words": [
+        {
+          "id": 1,
+          "text": "Next",
+          "startTime": 4.705629,
+          "endTime": 6.569524
+        },
+        {
+          "id": 2,
+          "text": "to",
+          "startTime": 6.569524,
+          "endTime": 6.829729
+        },
+        {
+          "id": 3,
+          "text": "you,",
+          "startTime": 6.829729,
+          "endTime": 7.495731
+        },
+        {
+          "id": 4,
+          "text": "I'm",
+          "startTime": 7.495731,
+          "endTime": 8.161198
+        },
+        {
+          "id": 5,
+          "text": "a",
+          "startTime": 8.161198,
+          "endTime": 8.292504
+        },
+        {
+          "id": 6,
+          "text": "flower",
+          "startTime": 8.292504,
+          "endTime": 9.225305
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "a hibiscus with shallow thoughts",
+      "startTime": 9.225305,
+      "endTime": 13.07636,
+      "words": [
+        {
+          "id": 7,
+          "text": "a",
+          "startTime": 9.225305,
+          "endTime": 10.418585
+        },
+        {
+          "id": 8,
+          "text": "hibiscus",
+          "startTime": 10.418585,
+          "endTime": 11.218064
+        },
+        {
+          "id": 9,
+          "text": "with",
+          "startTime": 11.218064,
+          "endTime": 11.480741
+        },
+        {
+          "id": 10,
+          "text": "shallow",
+          "startTime": 11.480741,
+          "endTime": 11.882134
+        },
+        {
+          "id": 11,
+          "text": "thoughts",
+          "startTime": 11.882134,
+          "endTime": 13.07636
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "when you rain, I'm under",
+      "startTime": 13.07636,
+      "endTime": 17.325677,
+      "words": [
+        {
+          "id": 12,
+          "text": "when",
+          "startTime": 13.07636,
+          "endTime": 14.005544
+        },
+        {
+          "id": 13,
+          "text": "you",
+          "startTime": 14.005544,
+          "endTime": 14.272471
+        },
+        {
+          "id": 14,
+          "text": "rain,",
+          "startTime": 14.272471,
+          "endTime": 15.065427
+        },
+        {
+          "id": 15,
+          "text": "I'm",
+          "startTime": 15.065427,
+          "endTime": 15.733067
+        },
+        {
+          "id": 16,
+          "text": "under",
+          "startTime": 15.733067,
+          "endTime": 17.325677
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "alive by-with only your words",
+      "startTime": 17.325677,
+      "endTime": 21.577572,
+      "words": [
+        {
+          "id": 17,
+          "text": "alive",
+          "startTime": 17.325677,
+          "endTime": 18.12945
+        },
+        {
+          "id": 18,
+          "text": "by-with",
+          "startTime": 18.12945,
+          "endTime": 19.184197
+        },
+        {
+          "id": 19,
+          "text": "only",
+          "startTime": 19.184197,
+          "endTime": 20.115424
+        },
+        {
+          "id": 20,
+          "text": "your",
+          "startTime": 20.115424,
+          "endTime": 20.247582
+        },
+        {
+          "id": 21,
+          "text": "words",
+          "startTime": 20.247582,
+          "endTime": 21.577572
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "you bring a pale, so much it shuts",
+      "startTime": 21.577572,
+      "endTime": 26.88728,
+      "words": [
+        {
+          "id": 22,
+          "text": "you",
+          "startTime": 21.577572,
+          "endTime": 22.902812
+        },
+        {
+          "id": 23,
+          "text": "bring",
+          "startTime": 22.902812,
+          "endTime": 23.168582
+        },
+        {
+          "id": 24,
+          "text": "a",
+          "startTime": 23.168582,
+          "endTime": 23.301504
+        },
+        {
+          "id": 25,
+          "text": "pale,",
+          "startTime": 23.301504,
+          "endTime": 24.234063
+        },
+        {
+          "id": 26,
+          "text": "so",
+          "startTime": 24.234063,
+          "endTime": 25.163296
+        },
+        {
+          "id": 27,
+          "text": "much",
+          "startTime": 25.163296,
+          "endTime": 25.426367
+        },
+        {
+          "id": 28,
+          "text": "it",
+          "startTime": 25.426367,
+          "endTime": 25.695704
+        },
+        {
+          "id": 29,
+          "text": "shuts",
+          "startTime": 25.695704,
+          "endTime": 26.88728
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "this day feels like an adder",
+      "startTime": 26.88728,
+      "endTime": 30.575906,
+      "words": [
+        {
+          "id": 30,
+          "text": "this",
+          "startTime": 26.88728,
+          "endTime": 28.084917
+        },
+        {
+          "id": 31,
+          "text": "day",
+          "startTime": 28.084917,
+          "endTime": 28.479822
+        },
+        {
+          "id": 32,
+          "text": "feels",
+          "startTime": 28.479822,
+          "endTime": 28.748831
+        },
+        {
+          "id": 33,
+          "text": "like",
+          "startTime": 28.748831,
+          "endTime": 29.013602
+        },
+        {
+          "id": 34,
+          "text": "an",
+          "startTime": 29.013602,
+          "endTime": 29.27958
+        },
+        {
+          "id": 35,
+          "text": "adder",
+          "startTime": 29.27958,
+          "endTime": 30.575906
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "I play only how your heart pours ",
+      "startTime": 30.575906,
+      "endTime": 34.024952,
+      "words": [
+        {
+          "id": 36,
+          "text": "I",
+          "startTime": 30.575906,
+          "endTime": 31.237741
+        },
+        {
+          "id": 37,
+          "text": "play",
+          "startTime": 31.237741,
+          "endTime": 31.63627
+        },
+        {
+          "id": 38,
+          "text": "only",
+          "startTime": 31.63627,
+          "endTime": 32.031767
+        },
+        {
+          "id": 39,
+          "text": "how",
+          "startTime": 32.031767,
+          "endTime": 32.300139
+        },
+        {
+          "id": 40,
+          "text": "your",
+          "startTime": 32.300139,
+          "endTime": 32.435701
+        },
+        {
+          "id": 41,
+          "text": "heart",
+          "startTime": 32.435701,
+          "endTime": 32.835484
+        },
+        {
+          "id": 42,
+          "text": "pours",
+          "startTime": 32.835484,
+          "endTime": 34.024952
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "poor, except not with your calendar",
+      "startTime": 34.024952,
+      "endTime": 38.553955,
+      "words": [
+        {
+          "id": 43,
+          "text": "poor,",
+          "startTime": 34.024952,
+          "endTime": 35.491267
+        },
+        {
+          "id": 44,
+          "text": "except",
+          "startTime": 35.491267,
+          "endTime": 36.414903
+        },
+        {
+          "id": 45,
+          "text": "not",
+          "startTime": 36.414903,
+          "endTime": 36.817198
+        },
+        {
+          "id": 46,
+          "text": "with",
+          "startTime": 36.817198,
+          "endTime": 37.081675
+        },
+        {
+          "id": 47,
+          "text": "your",
+          "startTime": 37.081675,
+          "endTime": 37.347703
+        },
+        {
+          "id": 48,
+          "text": "calendar",
+          "startTime": 37.347703,
+          "endTime": 38.553955
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "but you don't know what I saw",
+      "startTime": 38.553955,
+      "endTime": 41.07809,
+      "words": [
+        {
+          "id": 49,
+          "text": "but",
+          "startTime": 38.553955,
+          "endTime": 39.352102
+        },
+        {
+          "id": 50,
+          "text": "you",
+          "startTime": 39.352102,
+          "endTime": 39.615244
+        },
+        {
+          "id": 51,
+          "text": "don't",
+          "startTime": 39.615244,
+          "endTime": 39.747175
+        },
+        {
+          "id": 52,
+          "text": "know",
+          "startTime": 39.747175,
+          "endTime": 40.013915
+        },
+        {
+          "id": 53,
+          "text": "what",
+          "startTime": 40.013915,
+          "endTime": 40.146284
+        },
+        {
+          "id": 54,
+          "text": "I",
+          "startTime": 40.146284,
+          "endTime": 40.409188
+        },
+        {
+          "id": 55,
+          "text": "saw",
+          "startTime": 40.409188,
+          "endTime": 41.07809
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "adding inches to memory inert. ",
+      "startTime": 41.07809,
+      "endTime": 46.39662,
+      "words": [
+        {
+          "id": 56,
+          "text": "adding",
+          "startTime": 41.07809,
+          "endTime": 42.006525
+        },
+        {
+          "id": 57,
+          "text": "inches",
+          "startTime": 42.006525,
+          "endTime": 43.066768
+        },
+        {
+          "id": 58,
+          "text": "to",
+          "startTime": 43.066768,
+          "endTime": 43.593537
+        },
+        {
+          "id": 59,
+          "text": "memory",
+          "startTime": 43.593537,
+          "endTime": 44.39662
+        },
+        {
+          "id": 60,
+          "text": "inert.",
+          "startTime": 44.39662,
+          "endTime": 46.39662
+        }
+      ]
+    }
+  ]
+}
