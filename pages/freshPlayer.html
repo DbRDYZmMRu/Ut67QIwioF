@@ -28,6 +28,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet" />
   <!-- font-awesome-icons -->
   <script src="https://kit.fontawesome.com/c7fbb1b458.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/dompurify@3.1.6/dist/purify.min.js"></script>
+
   
   <!--===== Global bootstrap required css =====-->
   <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css" />
@@ -411,7 +413,7 @@
     }
     
     @keyframes spin-all {
-
+      
       50%,
       100% {
         transform: rotate(720deg);
@@ -419,7 +421,7 @@
     }
     
     @keyframes spin-cube {
-
+      
       0%,
       50% {
         border-radius: 100%;
@@ -442,7 +444,7 @@
     }
     
     @keyframes spin-cube-before {
-
+      
       0%,
       50% {
         border-radius: 100%;
@@ -465,7 +467,7 @@
     }
     
     @keyframes spin-cube-after {
-
+      
       0%,
       50% {
         border-radius: 100%;
@@ -520,7 +522,7 @@
     
     .form-check.form-switch.floating-toggle {
       position: fixed !important;
-      top: 60px;
+      top: 30px;
       right: 20px;
       z-index: 1000;
       transition: all 0.3s ease;
@@ -530,7 +532,7 @@
     
     @media (max-width: 480px) {
       .form-check.form-switch.floating-toggle {
-        top: 45px;
+        top: 22px;
         right: 10px;
       }
     }
