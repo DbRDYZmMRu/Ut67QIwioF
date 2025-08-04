@@ -1,6 +1,83 @@
-// lyricsManager.js
 import { store } from './store.js';
 import { rgbToHex } from './utils.js';
+
+// Allowed tags and attributes (aligned with editor)
+const allowedTags = [
+  'a', 'img', 'iframe', 'p', 'strong', 'em', 'br', 'div', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6',
+  'ol', 'ul', 'li', 'hr', 's', 'sub', 'sup', 'pre', 'code', 'blockquote', 'q'
+];
+const allowedAttributes = {
+  a: ['href', 'target', 'rel'],
+  img: ['src', 'alt', 'width', 'height'],
+  iframe: ['src', 'width', 'height', 'frameborder', 'allow', 'allowfullscreen'],
+  p: [], strong: [], em: [], br: [], div: [], h1: [], h2: [], h3: [], h4: [], h5: [], h6: [],
+  ol: [], ul: [], li: [], hr: [], s: [], sub: [], sup: [], pre: [], code: [],
+  blockquote: ['cite'], q: ['cite']
+};
+
+// Simple HTML sanitizer with DOMPurify fallback
+function sanitizeHTML(html) {
+  // Try DOMPurify first
+  if (typeof DOMPurify !== 'undefined') {
+    return DOMPurify.sanitize(html, {
+      ALLOWED_TAGS: allowedTags,
+      ALLOWED_ATTR: Object.values(allowedAttributes).flat()
+    });
+  }
+
+  // Fallback to original sanitizer
+  const allowedTagsLocal = ['a', 'img', 'iframe', 'p', 'strong', 'em', 'br', 'div'];
+  const allowedAttributesLocal = {
+    a: ['href', 'target', 'rel'],
+    img: ['src', 'alt', 'width', 'height'],
+    iframe: ['src', 'width', 'height', 'frameborder', 'allow', 'allowfullscreen']
+  };
+
+  const parser = new DOMParser();
+  const dom = parser.parseFromString(`<!DOCTYPE html><body>${html}`, 'text/html');
+  const cleanElement = document.createElement('div');
+
+  function cleanNode(node, parent) {
+    if (node.nodeType === Node.TEXT_NODE) {
+      parent.appendChild(document.createTextNode(node.textContent));
+      return;
+    }
+    if (node.nodeType !== Node.ELEMENT_NODE) return;
+
+    const tag = node.tagName.toLowerCase();
+    if (!allowedTagsLocal.includes(tag)) {
+      Array.from(node.childNodes).forEach(child => cleanNode(child, parent));
+      return;
+    }
+
+    const cleanNodeElement = document.createElement(tag);
+    Array.from(node.attributes).forEach(attr => {
+      const attrName = attr.name.toLowerCase();
+      if (allowedAttributesLocal[tag]?.includes(attrName)) {
+        if (['href', 'src'].includes(attrName)) {
+          const value = attr.value;
+          if (!value.match(/^(https?:\/\/|\/)/)) return;
+        }
+        cleanNodeElement.setAttribute(attr.name, attr.value);
+      }
+    });
+
+    if (tag === 'a') {
+      cleanNodeElement.setAttribute('target', '_blank');
+      cleanNodeElement.setAttribute('rel', 'noopener noreferrer');
+    }
+    if (tag === 'iframe') {
+      cleanNodeElement.setAttribute('frameborder', '0');
+      cleanNodeElement.setAttribute('allow', 'autoplay; encrypted-media');
+    }
+
+    Array.from(node.childNodes).forEach(child => cleanNode(child, cleanNodeElement));
+    parent.appendChild(cleanNodeElement);
+  }
+
+  Array.from(dom.body.childNodes).forEach(child => cleanNode(child, cleanElement));
+  return cleanElement.innerHTML;
+}
 
 export async function fetchTrackData(trackId) {
   try {
@@ -47,7 +124,7 @@ export function renderLyrics(lyricsData) {
       overlay.className = 'overlay';
       document.body.appendChild(overlay);
     }
-    
+
     // Function to set dynamic height
     function setLyricsContainerHeight() {
       try {
@@ -57,16 +134,16 @@ export function renderLyrics(lyricsData) {
           return;
         }
         const totalHeight = lyricsContainer.scrollHeight;
-        const minHeight = 800; // New minimum height
-        const maxHeight = 1500; // New maximum height
+        const minHeight = 800;
+        const maxHeight = 1500;
         const calculatedHeight = Math.max(minHeight, Math.min(totalHeight / 2, maxHeight));
         lyricsContainerParent.style.maxHeight = `${calculatedHeight}px`;
       } catch (err) {
         console.error('Error in setLyricsContainerHeight:', err.message);
       }
     }
-    
-    // Function to center lyrics container in viewport by scrolling the page
+
+    // Function to center lyrics container
     function centerLyricsContainer() {
       try {
         const lyricsContainerParent = document.querySelector('.lyrics-container');
@@ -78,10 +155,10 @@ export function renderLyrics(lyricsData) {
           const viewportHeight = window.innerHeight;
           const containerRect = lyricsContainerParent.getBoundingClientRect();
           const containerHeight = containerRect.height;
-          const containerTop = containerRect.top + window.scrollY; // Absolute position
+          const containerTop = containerRect.top + window.scrollY;
           const scrollTarget = containerTop - (viewportHeight - containerHeight) / 2;
           window.scrollTo({
-            top: Math.max(0, scrollTarget), // Prevent negative scroll
+            top: Math.max(0, scrollTarget),
             behavior: 'smooth'
           });
         }
@@ -89,10 +166,9 @@ export function renderLyrics(lyricsData) {
         console.error('Error in centerLyricsContainer:', err.message);
       }
     }
-    
-    // Expose centerLyricsContainer
+
     renderLyrics.centerLyricsContainer = centerLyricsContainer;
-    
+
     // Clear existing content
     lyricsContainer.innerHTML = '';
     lyricsData.forEach((entry, index) => {
@@ -108,37 +184,50 @@ export function renderLyrics(lyricsData) {
           '<span class="bold-content">[$1]</span>'
         );
         if (entry.annotations) {
-          for (const [word, annotation] of Object.entries(entry.annotations)) {
-            const escapedWord = word.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&');
-            const annotatedWord = `<span class="annotated-word" data-annotation="${annotation}">${word}</span>`;
-            processedLine = processedLine.replace(
-              new RegExp(`\\b${escapedWord}(?=\\s|$|[.,!?])`, 'g'),
-              annotatedWord
-            );
+          // Split line into words, preserving spaces
+          const words = entry.line.split(/(\s+)/);
+          let wordIndex = -1;
+          const annotatedWords = new Map();
+          // Map annotations to their word indices
+          for (const [key, annotation] of Object.entries(entry.annotations)) {
+            const [word, timestamp, index] = key.split('_');
+            if (timestamp === entry.timestamp) {
+              annotatedWords.set(parseInt(index), { word, annotation });
+            }
           }
+          // Process each word
+          const processedWords = words.map((word, i) => {
+            if (/\s+/.test(word)) return word; // Preserve spaces
+            wordIndex++;
+            const annotationData = annotatedWords.get(wordIndex);
+            if (annotationData && word.toLowerCase() === annotationData.word.toLowerCase()) {
+              const encodedAnnotation = encodeURIComponent(annotationData.annotation);
+              return `<span class="annotated-word" data-annotation="${encodedAnnotation}" data-annotation-key="${annotationData.word}_${entry.timestamp}_${wordIndex}">${word}</span>`;
+            }
+            return word;
+          });
+          processedLine = processedWords.join('');
         }
         lineElement.innerHTML = processedLine;
       }
       lyricsContainer.appendChild(lineElement);
     });
-    
-    // Set initial height and center container
+
     setLyricsContainerHeight();
     centerLyricsContainer();
-    
-    // Update height and centering on window resize
+
     window.removeEventListener('resize', setLyricsContainerHeight);
     window.addEventListener('resize', setLyricsContainerHeight);
     window.removeEventListener('resize', centerLyricsContainer);
     window.addEventListener('resize', centerLyricsContainer);
-    
+
     // Handle annotations
     const annotatedWords = document.querySelectorAll('.annotated-word');
     annotatedWords.forEach(word => {
       word.addEventListener('click', () => {
         try {
-          const annotation = word.dataset.annotation;
-          annotationText.innerHTML = annotation || 'No annotation available.';
+          const annotation = decodeURIComponent(word.dataset.annotation);
+          annotationText.innerHTML = sanitizeHTML(annotation) || 'No annotation available.';
           annotationPanel.classList.add('active');
           overlay.classList.add('active');
         } catch (err) {
@@ -146,16 +235,17 @@ export function renderLyrics(lyricsData) {
         }
       });
     });
-    
+
     closePanelBtn?.removeEventListener('click', closePanel);
     closePanelBtn?.addEventListener('click', closePanel);
     overlay.removeEventListener('click', closePanel);
     overlay.addEventListener('click', closePanel);
-    
+
     function closePanel() {
       try {
         annotationPanel.classList.remove('active');
         overlay.classList.remove('active');
+        annotationText.innerHTML = '';
       } catch (err) {
         console.error('Error in closePanel:', err.message);
       }
@@ -238,7 +328,7 @@ export function highlightCurrentLyric(lyrics, currentTime) {
     const lyricLines = lyricsContainer.querySelectorAll('.lyric-line');
     let currentIndex = -1;
     let lastNonEmptyIndex = -1;
-    
+
     for (let i = 0; i < lyrics.length; i++) {
       const timestamp = parseFloat(lyrics[i].timestamp);
       const isEmpty = lyrics[i].line.trim() === '';
@@ -251,22 +341,17 @@ export function highlightCurrentLyric(lyrics, currentTime) {
         break;
       }
     }
-    
+
     lyricLines.forEach((line, index) => {
       if (index === currentIndex) {
         line.classList.add('highlight');
         if (store.lyricsFocusEnabled) {
-          // Calculate the scroll position to center the highlighted line
           const containerHeight = lyricsContainer.clientHeight;
           const lineHeight = line.offsetHeight;
           const lineTop = line.offsetTop;
           const scrollTop = lineTop - (containerHeight / 2) + (lineHeight / 2);
-          
-          // Ensure the scroll position stays within bounds
           const maxScroll = lyricsContainer.scrollHeight - containerHeight;
           const finalScrollTop = Math.max(0, Math.min(scrollTop, maxScroll));
-          
-          // Smoothly scroll to the calculated position
           lyricsContainer.scrollTo({
             top: finalScrollTop,
             behavior: 'smooth'
