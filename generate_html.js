@@ -3,21 +3,21 @@ const path = require('path');
 
 // Array of poetry titles
 const poetryTitles = [
-              "Timberlines",
-            "XCX",
-            "Into the Deep",
-            "Ruse De Guerre Wafer",
-            "Iscariot Kiss",
-            "Dear in Flight",
-            "Cock and Bull Story",
-            "Ahead Oasis Signs",
-            "She Had The Gargle",
-            "His Early Hobnobbing",
-            "Her Childlike Baits",
+                 "Hard to Launch",
+            "A Sport",
+            "Upstage",
+            "Where it Starts",
+            "Without Dust",
+            "On my Dorm’s Mannequin ",
+            "Just as Dry Leaves",
+            "So I Told",
+            "The Labubu the Other Day ",
+            "How Your Mom Never Met Me",
+
 ];
 
 // Create necessary directories
-const shareDir = path.join(__dirname, 'share', 'W2W', 'VI');
+const shareDir = path.join(__dirname, 'share', 'W2W', 'VII');
 fs.mkdirSync(shareDir, { recursive: true });
 
 // Template for the HTML content
@@ -98,16 +98,16 @@ const htmlTemplate = (title, description, keywords, ogImage, ogUrl, twitterImage
 
 // Generate HTML files
 poetryTitles.forEach((title, index) => {
-  const description = `${title} is a poem from West to West Collection VI by Howard Frith Hilton`;
-  const keywords = `${title}, West to West Collection VI`;
-  const ogImage = `https://frithhilton.com.ng/images/share/W2W/6/image_${index + 1}.png`;
-  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/west-to-west-collection-VI.html?query=${index + 1}`;
+  const description = `${title} is a poem from West to West Collection VII by Howard Frith Hilton`;
+  const keywords = `${title}, West to West Collection VII`;
+  const ogImage = `https://frithhilton.com.ng/images/share/W2W/7/image_${index + 1}.png`;
+  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/west-to-west-collection-VII.html?query=${index + 1}`;
   const twitterImage = ogImage;
   const canonicalUrl = ogUrl;
   const redirectUrl = ogUrl;
   
   const htmlContent = htmlTemplate(
-    `${title} - West to West Collection VI`,
+    `${title} - West to West Collection VII`,
     description,
     keywords,
     ogImage,
