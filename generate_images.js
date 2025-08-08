@@ -7,19 +7,19 @@ registerFont('font/Architects_Daughter.ttf', { family: 'Architects Daughter' });
 
 const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
-const outputDir = path.join(__dirname, 'images', 'share', 'W2W', '6');
+const outputDir = path.join(__dirname, 'images', 'share', 'W2W', '7');
 const titles = [
-              "Timberlines",
-            "XCX",
-            "Into the Deep",
-            "Ruse De Guerre Wafer",
-            "Iscariot Kiss",
-            "Dear in Flight",
-            "Cock and Bull Story",
-            "Ahead Oasis Signs",
-            "She Had The Gargle",
-            "His Early Hobnobbing",
-            "Her Childlike Baits",
+            "Hard to Launch",
+            "A Sport",
+            "Upstage",
+            "Where it Starts",
+            "Without Dust",
+            "On my Dorm’s Mannequin ",
+            "Just as Dry Leaves",
+            "So I Told",
+            "The Labubu the Other Day ",
+            "How Your Mom Never Met Me",
+
 
 ];
 
@@ -70,7 +70,7 @@ const generateImages = async () => {
     ctx.fillStyle = 'black';
     ctx.textAlign = 'center';
     ctx.textBaseline = 'top';
-    ctx.fillText('WEST TO WEST COLLECTION VI', imageSize / 2, 10); // Corrected position
+    ctx.fillText('WEST TO WEST COLLECTION VII', imageSize / 2, 10); // Corrected position
     
     // Save the image
     const buffer = canvas.toBuffer('image/png');
