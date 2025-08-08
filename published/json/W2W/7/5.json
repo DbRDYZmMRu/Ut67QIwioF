@@ -1,0 +1,208 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "And so without a word ",
+      "startTime": 4.148626,
+      "endTime": 7.610249,
+      "words": [
+        {
+          "id": 1,
+          "text": "And",
+          "startTime": 4.148626,
+          "endTime": 5.60784
+        },
+        {
+          "id": 2,
+          "text": "so",
+          "startTime": 5.60784,
+          "endTime": 6.006028
+        },
+        {
+          "id": 3,
+          "text": "without",
+          "startTime": 6.006028,
+          "endTime": 6.403348
+        },
+        {
+          "id": 4,
+          "text": "a",
+          "startTime": 6.403348,
+          "endTime": 6.672445
+        },
+        {
+          "id": 5,
+          "text": "word",
+          "startTime": 6.672445,
+          "endTime": 7.610249
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "those said in a synagogue ",
+      "startTime": 7.610249,
+      "endTime": 11.195588,
+      "words": [
+        {
+          "id": 6,
+          "text": "those",
+          "startTime": 7.610249,
+          "endTime": 8.807258
+        },
+        {
+          "id": 7,
+          "text": "said",
+          "startTime": 8.807258,
+          "endTime": 9.33062
+        },
+        {
+          "id": 8,
+          "text": "in",
+          "startTime": 9.33062,
+          "endTime": 9.867203
+        },
+        {
+          "id": 9,
+          "text": "a",
+          "startTime": 9.867203,
+          "endTime": 10.135535
+        },
+        {
+          "id": 10,
+          "text": "synagogue",
+          "startTime": 10.135535,
+          "endTime": 11.195588
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "we washed up her shore ",
+      "startTime": 11.195588,
+      "endTime": 14.383045,
+      "words": [
+        {
+          "id": 11,
+          "text": "we",
+          "startTime": 11.195588,
+          "endTime": 12.390605
+        },
+        {
+          "id": 12,
+          "text": "washed",
+          "startTime": 12.390605,
+          "endTime": 12.654915
+        },
+        {
+          "id": 13,
+          "text": "up",
+          "startTime": 12.654915,
+          "endTime": 12.922847
+        },
+        {
+          "id": 14,
+          "text": "her",
+          "startTime": 12.922847,
+          "endTime": 13.188699
+        },
+        {
+          "id": 15,
+          "text": "shore",
+          "startTime": 13.188699,
+          "endTime": 14.383045
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "with the moon's support",
+      "startTime": 14.383045,
+      "endTime": 17.516218,
+      "words": [
+        {
+          "id": 16,
+          "text": "with",
+          "startTime": 14.383045,
+          "endTime": 15.313097
+        },
+        {
+          "id": 17,
+          "text": "the",
+          "startTime": 15.313097,
+          "endTime": 15.569889
+        },
+        {
+          "id": 18,
+          "text": "moon's",
+          "startTime": 15.569889,
+          "endTime": 16.056721
+        },
+        {
+          "id": 19,
+          "text": "support",
+          "startTime": 16.056721,
+          "endTime": 17.516218
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "its cemetery’s eavesdrop",
+      "startTime": 17.516218,
+      "endTime": 22.439553,
+      "words": [
+        {
+          "id": 20,
+          "text": "its",
+          "startTime": 17.516218,
+          "endTime": 20.041743
+        },
+        {
+          "id": 21,
+          "text": "cemetery’s",
+          "startTime": 20.041743,
+          "endTime": 20.708177
+        },
+        {
+          "id": 22,
+          "text": "eavesdrop",
+          "startTime": 20.708177,
+          "endTime": 22.439553
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "picked up some dinosaurs. ",
+      "startTime": 22.439553,
+      "endTime": 25.900896,
+      "words": [
+        {
+          "id": 23,
+          "text": "picked",
+          "startTime": 22.439553,
+          "endTime": 23.371015
+        },
+        {
+          "id": 24,
+          "text": "up",
+          "startTime": 23.371015,
+          "endTime": 23.634417
+        },
+        {
+          "id": 25,
+          "text": "some",
+          "startTime": 23.634417,
+          "endTime": 23.900896
+        },
+        {
+          "id": 26,
+          "text": "dinosaurs.",
+          "startTime": 23.900896,
+          "endTime": 25.900896
+        }
+      ]
+    }
+  ]
+}

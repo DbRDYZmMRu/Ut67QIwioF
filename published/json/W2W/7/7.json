@@ -1,0 +1,266 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Sitting up",
+      "startTime": 4.668491,
+      "endTime": 7.464724,
+      "words": [
+        {
+          "id": 1,
+          "text": "Sitting",
+          "startTime": 4.668491,
+          "endTime": 6.668317
+        },
+        {
+          "id": 2,
+          "text": "up",
+          "startTime": 6.668317,
+          "endTime": 7.464724
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "loosened odds",
+      "startTime": 7.464724,
+      "endTime": 8.795435,
+      "words": [
+        {
+          "id": 3,
+          "text": "loosened",
+          "startTime": 7.464724,
+          "endTime": 7.863076
+        },
+        {
+          "id": 4,
+          "text": "odds",
+          "startTime": 7.863076,
+          "endTime": 8.795435
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "so she's floored",
+      "startTime": 8.795435,
+      "endTime": 11.32535,
+      "words": [
+        {
+          "id": 5,
+          "text": "so",
+          "startTime": 8.795435,
+          "endTime": 10.129501
+        },
+        {
+          "id": 6,
+          "text": "she's",
+          "startTime": 10.129501,
+          "endTime": 10.52626
+        },
+        {
+          "id": 7,
+          "text": "floored",
+          "startTime": 10.52626,
+          "endTime": 11.32535
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "knowing she results ",
+      "startTime": 11.32535,
+      "endTime": 13.877039,
+      "words": [
+        {
+          "id": 8,
+          "text": "knowing",
+          "startTime": 11.32535,
+          "endTime": 12.410728
+        },
+        {
+          "id": 9,
+          "text": "she",
+          "startTime": 12.410728,
+          "endTime": 12.677253
+        },
+        {
+          "id": 10,
+          "text": "results",
+          "startTime": 12.677253,
+          "endTime": 13.877039
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "to one never to pluck",
+      "startTime": 13.877039,
+      "endTime": 16.930352,
+      "words": [
+        {
+          "id": 11,
+          "text": "to",
+          "startTime": 13.877039,
+          "endTime": 14.543585
+        },
+        {
+          "id": 12,
+          "text": "one",
+          "startTime": 14.543585,
+          "endTime": 14.943642
+        },
+        {
+          "id": 13,
+          "text": "never",
+          "startTime": 14.943642,
+          "endTime": 15.738401
+        },
+        {
+          "id": 14,
+          "text": "to",
+          "startTime": 15.738401,
+          "endTime": 16.003281
+        },
+        {
+          "id": 15,
+          "text": "pluck",
+          "startTime": 16.003281,
+          "endTime": 16.930352
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "these hearts that drop",
+      "startTime": 16.930352,
+      "endTime": 19.72239,
+      "words": [
+        {
+          "id": 16,
+          "text": "these",
+          "startTime": 16.930352,
+          "endTime": 17.596559
+        },
+        {
+          "id": 17,
+          "text": "hearts",
+          "startTime": 17.596559,
+          "endTime": 18.26041
+        },
+        {
+          "id": 18,
+          "text": "that",
+          "startTime": 18.26041,
+          "endTime": 18.78966
+        },
+        {
+          "id": 19,
+          "text": "drop",
+          "startTime": 18.78966,
+          "endTime": 19.72239
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "so while I'll buy her a cup ",
+      "startTime": 19.72239,
+      "endTime": 22.907935,
+      "words": [
+        {
+          "id": 20,
+          "text": "so",
+          "startTime": 19.72239,
+          "endTime": 21.052651
+        },
+        {
+          "id": 21,
+          "text": "while",
+          "startTime": 21.052651,
+          "endTime": 21.184459
+        },
+        {
+          "id": 22,
+          "text": "I'll",
+          "startTime": 21.184459,
+          "endTime": 21.58312
+        },
+        {
+          "id": 23,
+          "text": "buy",
+          "startTime": 21.58312,
+          "endTime": 21.848733
+        },
+        {
+          "id": 24,
+          "text": "her",
+          "startTime": 21.848733,
+          "endTime": 22.113358
+        },
+        {
+          "id": 25,
+          "text": "a",
+          "startTime": 22.113358,
+          "endTime": 22.245377
+        },
+        {
+          "id": 26,
+          "text": "cup",
+          "startTime": 22.245377,
+          "endTime": 22.907935
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "I hope she isn't as far gone. ",
+      "startTime": 22.907935,
+      "endTime": 28.230815,
+      "words": [
+        {
+          "id": 27,
+          "text": "I",
+          "startTime": 22.907935,
+          "endTime": 24.242832
+        },
+        {
+          "id": 28,
+          "text": "hope",
+          "startTime": 24.242832,
+          "endTime": 24.635959
+        },
+        {
+          "id": 29,
+          "text": "she",
+          "startTime": 24.635959,
+          "endTime": 25.300914
+        },
+        {
+          "id": 30,
+          "text": "isn't",
+          "startTime": 25.300914,
+          "endTime": 25.697587
+        },
+        {
+          "id": 31,
+          "text": "as",
+          "startTime": 25.697587,
+          "endTime": 25.966471
+        },
+        {
+          "id": 32,
+          "text": "far",
+          "startTime": 25.966471,
+          "endTime": 26.230815
+        },
+        {
+          "id": 33,
+          "text": "gone.",
+          "startTime": 26.230815,
+          "endTime": 28.230815
+        }
+      ]
+    }
+  ]
+}

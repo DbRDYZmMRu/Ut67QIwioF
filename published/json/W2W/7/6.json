@@ -1,0 +1,230 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Life is not much lately",
+      "startTime": 4.290804,
+      "endTime": 8.542594,
+      "words": [
+        {
+          "id": 1,
+          "text": "Life",
+          "startTime": 4.290804,
+          "endTime": 6.815589
+        },
+        {
+          "id": 2,
+          "text": "is",
+          "startTime": 6.815589,
+          "endTime": 6.948433
+        },
+        {
+          "id": 3,
+          "text": "not",
+          "startTime": 6.948433,
+          "endTime": 7.213126
+        },
+        {
+          "id": 4,
+          "text": "much",
+          "startTime": 7.213126,
+          "endTime": 7.480994
+        },
+        {
+          "id": 5,
+          "text": "lately",
+          "startTime": 7.480994,
+          "endTime": 8.542594
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "since you brought up reasons",
+      "startTime": 8.542594,
+      "endTime": 10.932867,
+      "words": [
+        {
+          "id": 6,
+          "text": "since",
+          "startTime": 8.542594,
+          "endTime": 9.074829
+        },
+        {
+          "id": 7,
+          "text": "you",
+          "startTime": 9.074829,
+          "endTime": 9.339503
+        },
+        {
+          "id": 8,
+          "text": "brought",
+          "startTime": 9.339503,
+          "endTime": 9.601906
+        },
+        {
+          "id": 9,
+          "text": "up",
+          "startTime": 9.601906,
+          "endTime": 9.735574
+        },
+        {
+          "id": 10,
+          "text": "reasons",
+          "startTime": 9.735574,
+          "endTime": 10.932867
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "why, all we had, left you frothing",
+      "startTime": 10.932867,
+      "endTime": 15.04854,
+      "words": [
+        {
+          "id": 11,
+          "text": "why,",
+          "startTime": 10.932867,
+          "endTime": 11.598352
+        },
+        {
+          "id": 12,
+          "text": "all",
+          "startTime": 11.598352,
+          "endTime": 11.727538
+        },
+        {
+          "id": 13,
+          "text": "we",
+          "startTime": 11.727538,
+          "endTime": 11.993605
+        },
+        {
+          "id": 14,
+          "text": "had,",
+          "startTime": 11.993605,
+          "endTime": 12.926301
+        },
+        {
+          "id": 15,
+          "text": "left",
+          "startTime": 12.926301,
+          "endTime": 13.45217
+        },
+        {
+          "id": 16,
+          "text": "you",
+          "startTime": 13.45217,
+          "endTime": 13.721847
+        },
+        {
+          "id": 17,
+          "text": "frothing",
+          "startTime": 13.721847,
+          "endTime": 15.04854
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "so easy; your breath crossed breeze",
+      "startTime": 15.04854,
+      "endTime": 20.095059,
+      "words": [
+        {
+          "id": 18,
+          "text": "so",
+          "startTime": 15.04854,
+          "endTime": 16.247307
+        },
+        {
+          "id": 19,
+          "text": "easy;",
+          "startTime": 16.247307,
+          "endTime": 17.171964
+        },
+        {
+          "id": 20,
+          "text": "your",
+          "startTime": 17.171964,
+          "endTime": 18.101962
+        },
+        {
+          "id": 21,
+          "text": "breath",
+          "startTime": 18.101962,
+          "endTime": 18.502635
+        },
+        {
+          "id": 22,
+          "text": "crossed",
+          "startTime": 18.502635,
+          "endTime": 19.034627
+        },
+        {
+          "id": 23,
+          "text": "breeze",
+          "startTime": 19.034627,
+          "endTime": 20.095059
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "attuning now, it’s me who goes to sleep. ",
+      "startTime": 20.095059,
+      "endTime": 27.143586,
+      "words": [
+        {
+          "id": 24,
+          "text": "attuning",
+          "startTime": 20.095059,
+          "endTime": 21.558034
+        },
+        {
+          "id": 25,
+          "text": "now,",
+          "startTime": 21.558034,
+          "endTime": 22.221251
+        },
+        {
+          "id": 26,
+          "text": "it’s",
+          "startTime": 22.221251,
+          "endTime": 23.681969
+        },
+        {
+          "id": 27,
+          "text": "me",
+          "startTime": 23.681969,
+          "endTime": 24.213145
+        },
+        {
+          "id": 28,
+          "text": "who",
+          "startTime": 24.213145,
+          "endTime": 24.746663
+        },
+        {
+          "id": 29,
+          "text": "goes",
+          "startTime": 24.746663,
+          "endTime": 24.877815
+        },
+        {
+          "id": 30,
+          "text": "to",
+          "startTime": 24.877815,
+          "endTime": 25.143586
+        },
+        {
+          "id": 31,
+          "text": "sleep.",
+          "startTime": 25.143586,
+          "endTime": 27.143586
+        }
+      ]
+    }
+  ]
+}

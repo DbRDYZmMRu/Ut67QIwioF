@@ -1,0 +1,112 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "A story, a shade fermented ",
+      "startTime": 6.251899,
+      "endTime": 10.767791,
+      "words": [
+        {
+          "id": 1,
+          "text": "A",
+          "startTime": 6.251899,
+          "endTime": 7.711589
+        },
+        {
+          "id": 2,
+          "text": "story,",
+          "startTime": 7.711589,
+          "endTime": 8.379047
+        },
+        {
+          "id": 3,
+          "text": "a",
+          "startTime": 8.379047,
+          "endTime": 9.042263
+        },
+        {
+          "id": 4,
+          "text": "shade",
+          "startTime": 9.042263,
+          "endTime": 9.43928
+        },
+        {
+          "id": 5,
+          "text": "fermented",
+          "startTime": 9.43928,
+          "endTime": 10.767791
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "a break, a waterfall suspended",
+      "startTime": 10.767791,
+      "endTime": 15.28855,
+      "words": [
+        {
+          "id": 6,
+          "text": "a",
+          "startTime": 10.767791,
+          "endTime": 11.83026
+        },
+        {
+          "id": 7,
+          "text": "break,",
+          "startTime": 11.83026,
+          "endTime": 12.494151
+        },
+        {
+          "id": 8,
+          "text": "a",
+          "startTime": 12.494151,
+          "endTime": 13.298692
+        },
+        {
+          "id": 9,
+          "text": "waterfall",
+          "startTime": 13.298692,
+          "endTime": 14.095234
+        },
+        {
+          "id": 10,
+          "text": "suspended",
+          "startTime": 14.095234,
+          "endTime": 15.28855
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "her championing bravery dependent. ",
+      "startTime": 15.28855,
+      "endTime": 19.947221,
+      "words": [
+        {
+          "id": 11,
+          "text": "her",
+          "startTime": 15.28855,
+          "endTime": 16.220967
+        },
+        {
+          "id": 12,
+          "text": "championing",
+          "startTime": 16.220967,
+          "endTime": 16.88695
+        },
+        {
+          "id": 13,
+          "text": "bravery",
+          "startTime": 16.88695,
+          "endTime": 17.947221
+        },
+        {
+          "id": 14,
+          "text": "dependent.",
+          "startTime": 17.947221,
+          "endTime": 19.947221
+        }
+      ]
+    }
+  ]
+}

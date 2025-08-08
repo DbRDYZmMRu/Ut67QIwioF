@@ -1,0 +1,136 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "The left wing of the theatre ",
+      "startTime": 5.347229,
+      "endTime": 9.050208,
+      "words": [
+        {
+          "id": 1,
+          "text": "The",
+          "startTime": 5.347229,
+          "endTime": 7.057205
+        },
+        {
+          "id": 2,
+          "text": "left",
+          "startTime": 7.057205,
+          "endTime": 7.45838
+        },
+        {
+          "id": 3,
+          "text": "wing",
+          "startTime": 7.45838,
+          "endTime": 7.589708
+        },
+        {
+          "id": 4,
+          "text": "of",
+          "startTime": 7.589708,
+          "endTime": 7.855159
+        },
+        {
+          "id": 5,
+          "text": "the",
+          "startTime": 7.855159,
+          "endTime": 8.123885
+        },
+        {
+          "id": 6,
+          "text": "theatre",
+          "startTime": 8.123885,
+          "endTime": 9.050208
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "the right swing caprice starter",
+      "startTime": 9.050208,
+      "endTime": 12.237477,
+      "words": [
+        {
+          "id": 7,
+          "text": "the",
+          "startTime": 9.050208,
+          "endTime": 9.714952
+        },
+        {
+          "id": 8,
+          "text": "right",
+          "startTime": 9.714952,
+          "endTime": 9.978128
+        },
+        {
+          "id": 9,
+          "text": "swing",
+          "startTime": 9.978128,
+          "endTime": 10.644576
+        },
+        {
+          "id": 10,
+          "text": "caprice",
+          "startTime": 10.644576,
+          "endTime": 11.176486
+        },
+        {
+          "id": 11,
+          "text": "starter",
+          "startTime": 11.176486,
+          "endTime": 12.237477
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "her hair in a bundle chez sabbath. ",
+      "startTime": 12.237477,
+      "endTime": 17.69379,
+      "words": [
+        {
+          "id": 12,
+          "text": "her",
+          "startTime": 12.237477,
+          "endTime": 13.170275
+        },
+        {
+          "id": 13,
+          "text": "hair",
+          "startTime": 13.170275,
+          "endTime": 13.566413
+        },
+        {
+          "id": 14,
+          "text": "in",
+          "startTime": 13.566413,
+          "endTime": 14.362628
+        },
+        {
+          "id": 15,
+          "text": "a",
+          "startTime": 14.362628,
+          "endTime": 14.630766
+        },
+        {
+          "id": 16,
+          "text": "bundle",
+          "startTime": 14.630766,
+          "endTime": 15.16002
+        },
+        {
+          "id": 17,
+          "text": "chez",
+          "startTime": 15.16002,
+          "endTime": 15.69379
+        },
+        {
+          "id": 18,
+          "text": "sabbath.",
+          "startTime": 15.69379,
+          "endTime": 17.69379
+        }
+      ]
+    }
+  ]
+}

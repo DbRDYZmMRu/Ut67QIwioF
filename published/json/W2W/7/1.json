@@ -1,0 +1,204 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "With tides just like the other guy",
+      "startTime": 4.580893,
+      "endTime": 9.097772,
+      "words": [
+        {
+          "id": 1,
+          "text": "With",
+          "startTime": 4.580893,
+          "endTime": 5.912622
+        },
+        {
+          "id": 2,
+          "text": "tides",
+          "startTime": 5.912622,
+          "endTime": 6.576834
+        },
+        {
+          "id": 3,
+          "text": "just",
+          "startTime": 6.576834,
+          "endTime": 7.371534
+        },
+        {
+          "id": 4,
+          "text": "like",
+          "startTime": 7.371534,
+          "endTime": 7.638484
+        },
+        {
+          "id": 5,
+          "text": "the",
+          "startTime": 7.638484,
+          "endTime": 7.770645
+        },
+        {
+          "id": 6,
+          "text": "other",
+          "startTime": 7.770645,
+          "endTime": 8.301874
+        },
+        {
+          "id": 7,
+          "text": "guy",
+          "startTime": 8.301874,
+          "endTime": 9.097772
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "her sigh out of view just because ",
+      "startTime": 9.097772,
+      "endTime": 13.878386,
+      "words": [
+        {
+          "id": 8,
+          "text": "her",
+          "startTime": 9.097772,
+          "endTime": 10.160266
+        },
+        {
+          "id": 9,
+          "text": "sigh",
+          "startTime": 10.160266,
+          "endTime": 10.957865
+        },
+        {
+          "id": 10,
+          "text": "out",
+          "startTime": 10.957865,
+          "endTime": 11.75283
+        },
+        {
+          "id": 11,
+          "text": "of",
+          "startTime": 11.75283,
+          "endTime": 12.019885
+        },
+        {
+          "id": 12,
+          "text": "view",
+          "startTime": 12.019885,
+          "endTime": 12.817142
+        },
+        {
+          "id": 13,
+          "text": "just",
+          "startTime": 12.817142,
+          "endTime": 12.950243
+        },
+        {
+          "id": 14,
+          "text": "because",
+          "startTime": 12.950243,
+          "endTime": 13.878386
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "and the sun set to their groggy eyes",
+      "startTime": 13.878386,
+      "endTime": 18.923746,
+      "words": [
+        {
+          "id": 15,
+          "text": "and",
+          "startTime": 13.878386,
+          "endTime": 15.203673
+        },
+        {
+          "id": 16,
+          "text": "the",
+          "startTime": 15.203673,
+          "endTime": 15.473335
+        },
+        {
+          "id": 17,
+          "text": "sun",
+          "startTime": 15.473335,
+          "endTime": 16.135712
+        },
+        {
+          "id": 18,
+          "text": "set",
+          "startTime": 16.135712,
+          "endTime": 16.934505
+        },
+        {
+          "id": 19,
+          "text": "to",
+          "startTime": 16.934505,
+          "endTime": 17.202164
+        },
+        {
+          "id": 20,
+          "text": "their",
+          "startTime": 17.202164,
+          "endTime": 17.33029
+        },
+        {
+          "id": 21,
+          "text": "groggy",
+          "startTime": 17.33029,
+          "endTime": 17.994136
+        },
+        {
+          "id": 22,
+          "text": "eyes",
+          "startTime": 17.994136,
+          "endTime": 18.923746
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "she kissed him, no knowledge spoils. ",
+      "startTime": 18.923746,
+      "endTime": 24.376796,
+      "words": [
+        {
+          "id": 23,
+          "text": "she",
+          "startTime": 18.923746,
+          "endTime": 19.854861
+        },
+        {
+          "id": 24,
+          "text": "kissed",
+          "startTime": 19.854861,
+          "endTime": 20.117859
+        },
+        {
+          "id": 25,
+          "text": "him,",
+          "startTime": 20.117859,
+          "endTime": 20.784966
+        },
+        {
+          "id": 26,
+          "text": "no",
+          "startTime": 20.784966,
+          "endTime": 21.976224
+        },
+        {
+          "id": 27,
+          "text": "knowledge",
+          "startTime": 21.976224,
+          "endTime": 22.376796
+        },
+        {
+          "id": 28,
+          "text": "spoils.",
+          "startTime": 22.376796,
+          "endTime": 24.376796
+        }
+      ]
+    }
+  ]
+}

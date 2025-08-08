@@ -1,0 +1,378 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "She who is a salmon in the heat",
+      "startTime": 5.658028,
+      "endTime": 10.577151,
+      "words": [
+        {
+          "id": 1,
+          "text": "She",
+          "startTime": 5.658028,
+          "endTime": 7.920349
+        },
+        {
+          "id": 2,
+          "text": "who",
+          "startTime": 7.920349,
+          "endTime": 8.186272
+        },
+        {
+          "id": 3,
+          "text": "is",
+          "startTime": 8.186272,
+          "endTime": 8.450066
+        },
+        {
+          "id": 4,
+          "text": "a",
+          "startTime": 8.450066,
+          "endTime": 8.582913
+        },
+        {
+          "id": 5,
+          "text": "salmon",
+          "startTime": 8.582913,
+          "endTime": 9.248455
+        },
+        {
+          "id": 6,
+          "text": "in",
+          "startTime": 9.248455,
+          "endTime": 9.514793
+        },
+        {
+          "id": 7,
+          "text": "the",
+          "startTime": 9.514793,
+          "endTime": 9.778453
+        },
+        {
+          "id": 8,
+          "text": "heat",
+          "startTime": 9.778453,
+          "endTime": 10.577151
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "her ruddyish whim sags baggy",
+      "startTime": 10.577151,
+      "endTime": 15.357108,
+      "words": [
+        {
+          "id": 9,
+          "text": "her",
+          "startTime": 10.577151,
+          "endTime": 12.03622
+        },
+        {
+          "id": 10,
+          "text": "ruddyish",
+          "startTime": 12.03622,
+          "endTime": 12.568777
+        },
+        {
+          "id": 11,
+          "text": "whim",
+          "startTime": 12.568777,
+          "endTime": 13.499261
+        },
+        {
+          "id": 12,
+          "text": "sags",
+          "startTime": 13.499261,
+          "endTime": 14.160893
+        },
+        {
+          "id": 13,
+          "text": "baggy",
+          "startTime": 14.160893,
+          "endTime": 15.357108
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "her flesh wants it garnished",
+      "startTime": 15.357108,
+      "endTime": 18.941468,
+      "words": [
+        {
+          "id": 14,
+          "text": "her",
+          "startTime": 15.357108,
+          "endTime": 16.950774
+        },
+        {
+          "id": 15,
+          "text": "flesh",
+          "startTime": 16.950774,
+          "endTime": 17.216732
+        },
+        {
+          "id": 16,
+          "text": "wants",
+          "startTime": 17.216732,
+          "endTime": 17.61508
+        },
+        {
+          "id": 17,
+          "text": "it",
+          "startTime": 17.61508,
+          "endTime": 17.881325
+        },
+        {
+          "id": 18,
+          "text": "garnished",
+          "startTime": 17.881325,
+          "endTime": 18.941468
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "so she pays token for wish",
+      "startTime": 18.941468,
+      "endTime": 22.927151,
+      "words": [
+        {
+          "id": 19,
+          "text": "so",
+          "startTime": 18.941468,
+          "endTime": 20.004437
+        },
+        {
+          "id": 20,
+          "text": "she",
+          "startTime": 20.004437,
+          "endTime": 20.272899
+        },
+        {
+          "id": 21,
+          "text": "pays",
+          "startTime": 20.272899,
+          "endTime": 20.671479
+        },
+        {
+          "id": 22,
+          "text": "token",
+          "startTime": 20.671479,
+          "endTime": 21.733473
+        },
+        {
+          "id": 23,
+          "text": "for",
+          "startTime": 21.733473,
+          "endTime": 21.865123
+        },
+        {
+          "id": 24,
+          "text": "wish",
+          "startTime": 21.865123,
+          "endTime": 22.927151
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "her dish arrived with ease",
+      "startTime": 22.927151,
+      "endTime": 26.911554,
+      "words": [
+        {
+          "id": 25,
+          "text": "her",
+          "startTime": 22.927151,
+          "endTime": 24.387379
+        },
+        {
+          "id": 26,
+          "text": "dish",
+          "startTime": 24.387379,
+          "endTime": 24.656458
+        },
+        {
+          "id": 27,
+          "text": "arrived",
+          "startTime": 24.656458,
+          "endTime": 25.314908
+        },
+        {
+          "id": 28,
+          "text": "with",
+          "startTime": 25.314908,
+          "endTime": 25.850975
+        },
+        {
+          "id": 29,
+          "text": "ease",
+          "startTime": 25.850975,
+          "endTime": 26.911554
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "a minute late pet peeve",
+      "startTime": 26.911554,
+      "endTime": 30.499297,
+      "words": [
+        {
+          "id": 30,
+          "text": "a",
+          "startTime": 26.911554,
+          "endTime": 28.242168
+        },
+        {
+          "id": 31,
+          "text": "minute",
+          "startTime": 28.242168,
+          "endTime": 28.638343
+        },
+        {
+          "id": 32,
+          "text": "late",
+          "startTime": 28.638343,
+          "endTime": 29.036901
+        },
+        {
+          "id": 33,
+          "text": "pet",
+          "startTime": 29.036901,
+          "endTime": 29.299751
+        },
+        {
+          "id": 34,
+          "text": "peeve",
+          "startTime": 29.299751,
+          "endTime": 30.499297
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "her batesian mimicry",
+      "startTime": 30.499297,
+      "endTime": 33.950892,
+      "words": [
+        {
+          "id": 35,
+          "text": "her",
+          "startTime": 30.499297,
+          "endTime": 31.695938
+        },
+        {
+          "id": 36,
+          "text": "batesian",
+          "startTime": 31.695938,
+          "endTime": 32.357661
+        },
+        {
+          "id": 37,
+          "text": "mimicry",
+          "startTime": 32.357661,
+          "endTime": 33.950892
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "it's often she leaves",
+      "startTime": 33.950892,
+      "endTime": 37.673291,
+      "words": [
+        {
+          "id": 38,
+          "text": "it's",
+          "startTime": 33.950892,
+          "endTime": 36.340341
+        },
+        {
+          "id": 39,
+          "text": "often",
+          "startTime": 36.340341,
+          "endTime": 36.607148
+        },
+        {
+          "id": 40,
+          "text": "she",
+          "startTime": 36.607148,
+          "endTime": 36.741714
+        },
+        {
+          "id": 41,
+          "text": "leaves",
+          "startTime": 36.741714,
+          "endTime": 37.673291
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "for the vanquished ",
+      "startTime": 37.673291,
+      "endTime": 39.530304,
+      "words": [
+        {
+          "id": 42,
+          "text": "for",
+          "startTime": 37.673291,
+          "endTime": 38.196117
+        },
+        {
+          "id": 43,
+          "text": "the",
+          "startTime": 38.196117,
+          "endTime": 38.464832
+        },
+        {
+          "id": 44,
+          "text": "vanquished",
+          "startTime": 38.464832,
+          "endTime": 39.530304
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "for I'm all day me. ",
+      "startTime": 39.530304,
+      "endTime": 43.522862,
+      "words": [
+        {
+          "id": 45,
+          "text": "for",
+          "startTime": 39.530304,
+          "endTime": 40.722422
+        },
+        {
+          "id": 46,
+          "text": "I'm",
+          "startTime": 40.722422,
+          "endTime": 40.857669
+        },
+        {
+          "id": 47,
+          "text": "all",
+          "startTime": 40.857669,
+          "endTime": 41.120897
+        },
+        {
+          "id": 48,
+          "text": "day",
+          "startTime": 41.120897,
+          "endTime": 41.522862
+        },
+        {
+          "id": 49,
+          "text": "me.",
+          "startTime": 41.522862,
+          "endTime": 43.522862
+        }
+      ]
+    }
+  ]
+}

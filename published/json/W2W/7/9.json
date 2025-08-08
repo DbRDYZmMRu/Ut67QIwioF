@@ -1,0 +1,446 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "It's a last call",
+      "startTime": 5.55158,
+      "endTime": 9.433249,
+      "words": [
+        {
+          "id": 1,
+          "text": "It's",
+          "startTime": 5.55158,
+          "endTime": 7.973385
+        },
+        {
+          "id": 2,
+          "text": "a",
+          "startTime": 7.973385,
+          "endTime": 8.235136
+        },
+        {
+          "id": 3,
+          "text": "last",
+          "startTime": 8.235136,
+          "endTime": 8.502397
+        },
+        {
+          "id": 4,
+          "text": "call",
+          "startTime": 8.502397,
+          "endTime": 9.433249
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "on a train’s thrall",
+      "startTime": 9.433249,
+      "endTime": 12.363356,
+      "words": [
+        {
+          "id": 5,
+          "text": "on",
+          "startTime": 9.433249,
+          "endTime": 10.494879
+        },
+        {
+          "id": 6,
+          "text": "a",
+          "startTime": 10.494879,
+          "endTime": 10.769482
+        },
+        {
+          "id": 7,
+          "text": "train’s",
+          "startTime": 10.769482,
+          "endTime": 11.166618
+        },
+        {
+          "id": 8,
+          "text": "thrall",
+          "startTime": 11.166618,
+          "endTime": 12.363356
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "she brought the mall",
+      "startTime": 12.363356,
+      "endTime": 15.549815,
+      "words": [
+        {
+          "id": 9,
+          "text": "she",
+          "startTime": 12.363356,
+          "endTime": 14.08925
+        },
+        {
+          "id": 10,
+          "text": "brought",
+          "startTime": 14.08925,
+          "endTime": 14.488101
+        },
+        {
+          "id": 11,
+          "text": "the",
+          "startTime": 14.488101,
+          "endTime": 14.621935
+        },
+        {
+          "id": 12,
+          "text": "mall",
+          "startTime": 14.621935,
+          "endTime": 15.549815
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "cart with the conductor",
+      "startTime": 15.549815,
+      "endTime": 18.605303,
+      "words": [
+        {
+          "id": 13,
+          "text": "cart",
+          "startTime": 15.549815,
+          "endTime": 16.746192
+        },
+        {
+          "id": 14,
+          "text": "with",
+          "startTime": 16.746192,
+          "endTime": 17.275258
+        },
+        {
+          "id": 15,
+          "text": "the",
+          "startTime": 17.275258,
+          "endTime": 17.410772
+        },
+        {
+          "id": 16,
+          "text": "conductor",
+          "startTime": 17.410772,
+          "endTime": 18.605303
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "he stared in, desiring pork",
+      "startTime": 18.605303,
+      "endTime": 23.520896,
+      "words": [
+        {
+          "id": 17,
+          "text": "he",
+          "startTime": 18.605303,
+          "endTime": 20.198192
+        },
+        {
+          "id": 18,
+          "text": "stared",
+          "startTime": 20.198192,
+          "endTime": 20.463956
+        },
+        {
+          "id": 19,
+          "text": "in,",
+          "startTime": 20.463956,
+          "endTime": 21.396657
+        },
+        {
+          "id": 20,
+          "text": "desiring",
+          "startTime": 21.396657,
+          "endTime": 22.456662
+        },
+        {
+          "id": 21,
+          "text": "pork",
+          "startTime": 22.456662,
+          "endTime": 23.520896
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "met her brows within a smug",
+      "startTime": 23.520896,
+      "endTime": 28.432375,
+      "words": [
+        {
+          "id": 22,
+          "text": "met",
+          "startTime": 23.520896,
+          "endTime": 25.375402
+        },
+        {
+          "id": 23,
+          "text": "her",
+          "startTime": 25.375402,
+          "endTime": 25.512115
+        },
+        {
+          "id": 24,
+          "text": "brows",
+          "startTime": 25.512115,
+          "endTime": 26.308139
+        },
+        {
+          "id": 25,
+          "text": "within",
+          "startTime": 26.308139,
+          "endTime": 26.973477
+        },
+        {
+          "id": 26,
+          "text": "a",
+          "startTime": 26.973477,
+          "endTime": 27.238548
+        },
+        {
+          "id": 27,
+          "text": "smug",
+          "startTime": 27.238548,
+          "endTime": 28.432375
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "asked if she'd cash to withdraw",
+      "startTime": 28.432375,
+      "endTime": 33.347671,
+      "words": [
+        {
+          "id": 28,
+          "text": "asked",
+          "startTime": 28.432375,
+          "endTime": 29.893779
+        },
+        {
+          "id": 29,
+          "text": "if",
+          "startTime": 29.893779,
+          "endTime": 30.823344
+        },
+        {
+          "id": 30,
+          "text": "she'd",
+          "startTime": 30.823344,
+          "endTime": 31.223855
+        },
+        {
+          "id": 31,
+          "text": "cash",
+          "startTime": 31.223855,
+          "endTime": 31.885011
+        },
+        {
+          "id": 32,
+          "text": "to",
+          "startTime": 31.885011,
+          "endTime": 32.416193
+        },
+        {
+          "id": 33,
+          "text": "withdraw",
+          "startTime": 32.416193,
+          "endTime": 33.347671
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "embarrassed, she quiped no, lost",
+      "startTime": 33.347671,
+      "endTime": 39.060194,
+      "words": [
+        {
+          "id": 34,
+          "text": "embarrassed,",
+          "startTime": 33.347671,
+          "endTime": 35.8754
+        },
+        {
+          "id": 35,
+          "text": "she",
+          "startTime": 35.8754,
+          "endTime": 36.80082
+        },
+        {
+          "id": 36,
+          "text": "quiped",
+          "startTime": 36.80082,
+          "endTime": 37.065815
+        },
+        {
+          "id": 37,
+          "text": "no,",
+          "startTime": 37.065815,
+          "endTime": 37.995293
+        },
+        {
+          "id": 38,
+          "text": "lost",
+          "startTime": 37.995293,
+          "endTime": 39.060194
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "he pointed to where she'd to return",
+      "startTime": 39.060194,
+      "endTime": 43.44114,
+      "words": [
+        {
+          "id": 39,
+          "text": "he",
+          "startTime": 39.060194,
+          "endTime": 40.784226
+        },
+        {
+          "id": 40,
+          "text": "pointed",
+          "startTime": 40.784226,
+          "endTime": 41.184361
+        },
+        {
+          "id": 41,
+          "text": "to",
+          "startTime": 41.184361,
+          "endTime": 41.447455
+        },
+        {
+          "id": 42,
+          "text": "where",
+          "startTime": 41.447455,
+          "endTime": 41.715149
+        },
+        {
+          "id": 43,
+          "text": "she'd",
+          "startTime": 41.715149,
+          "endTime": 41.982135
+        },
+        {
+          "id": 44,
+          "text": "to",
+          "startTime": 41.982135,
+          "endTime": 42.247368
+        },
+        {
+          "id": 45,
+          "text": "return",
+          "startTime": 42.247368,
+          "endTime": 43.44114
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "he'd waited on ATM duties for months",
+      "startTime": 43.44114,
+      "endTime": 49.020093,
+      "words": [
+        {
+          "id": 46,
+          "text": "he'd",
+          "startTime": 43.44114,
+          "endTime": 45.033291
+        },
+        {
+          "id": 47,
+          "text": "waited",
+          "startTime": 45.033291,
+          "endTime": 45.699892
+        },
+        {
+          "id": 48,
+          "text": "on",
+          "startTime": 45.699892,
+          "endTime": 46.229196
+        },
+        {
+          "id": 49,
+          "text": "ATM",
+          "startTime": 46.229196,
+          "endTime": 46.763276
+        },
+        {
+          "id": 50,
+          "text": "duties",
+          "startTime": 46.763276,
+          "endTime": 47.556128
+        },
+        {
+          "id": 51,
+          "text": "for",
+          "startTime": 47.556128,
+          "endTime": 47.957719
+        },
+        {
+          "id": 52,
+          "text": "months",
+          "startTime": 47.957719,
+          "endTime": 49.020093
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "’twas odd she’d declined a plush nudge.",
+      "startTime": 49.020093,
+      "endTime": 54.869929,
+      "words": [
+        {
+          "id": 53,
+          "text": "’twas",
+          "startTime": 49.020093,
+          "endTime": 50.611002
+        },
+        {
+          "id": 54,
+          "text": "odd",
+          "startTime": 50.611002,
+          "endTime": 51.277679
+        },
+        {
+          "id": 55,
+          "text": "she’d",
+          "startTime": 51.277679,
+          "endTime": 51.675105
+        },
+        {
+          "id": 56,
+          "text": "declined",
+          "startTime": 51.675105,
+          "endTime": 52.340222
+        },
+        {
+          "id": 57,
+          "text": "a",
+          "startTime": 52.340222,
+          "endTime": 52.603975
+        },
+        {
+          "id": 58,
+          "text": "plush",
+          "startTime": 52.603975,
+          "endTime": 52.869929
+        },
+        {
+          "id": 59,
+          "text": "nudge.",
+          "startTime": 52.869929,
+          "endTime": 54.869929
+        }
+      ]
+    }
+  ]
+}

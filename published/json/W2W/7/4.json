@@ -1,0 +1,220 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "The bite left my mush",
+      "startTime": 4.550821,
+      "endTime": 8.967873,
+      "words": [
+        {
+          "id": 1,
+          "text": "The",
+          "startTime": 4.550821,
+          "endTime": 7.104513
+        },
+        {
+          "id": 2,
+          "text": "bite",
+          "startTime": 7.104513,
+          "endTime": 7.503382
+        },
+        {
+          "id": 3,
+          "text": "left",
+          "startTime": 7.503382,
+          "endTime": 7.901277
+        },
+        {
+          "id": 4,
+          "text": "my",
+          "startTime": 7.901277,
+          "endTime": 8.037186
+        },
+        {
+          "id": 5,
+          "text": "mush",
+          "startTime": 8.037186,
+          "endTime": 8.967873
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "as if a dearly lone chum",
+      "startTime": 8.967873,
+      "endTime": 12.81721,
+      "words": [
+        {
+          "id": 6,
+          "text": "as",
+          "startTime": 8.967873,
+          "endTime": 10.558802
+        },
+        {
+          "id": 7,
+          "text": "if",
+          "startTime": 10.558802,
+          "endTime": 10.689926
+        },
+        {
+          "id": 8,
+          "text": "a",
+          "startTime": 10.689926,
+          "endTime": 10.958567
+        },
+        {
+          "id": 9,
+          "text": "dearly",
+          "startTime": 10.958567,
+          "endTime": 11.222764
+        },
+        {
+          "id": 10,
+          "text": "lone",
+          "startTime": 11.222764,
+          "endTime": 11.754721
+        },
+        {
+          "id": 11,
+          "text": "chum",
+          "startTime": 11.754721,
+          "endTime": 12.81721
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "and cotton candy slurps",
+      "startTime": 12.81721,
+      "endTime": 16.800826,
+      "words": [
+        {
+          "id": 12,
+          "text": "and",
+          "startTime": 12.81721,
+          "endTime": 14.279153
+        },
+        {
+          "id": 13,
+          "text": "cotton",
+          "startTime": 14.279153,
+          "endTime": 14.675831
+        },
+        {
+          "id": 14,
+          "text": "candy",
+          "startTime": 14.675831,
+          "endTime": 15.208161
+        },
+        {
+          "id": 15,
+          "text": "slurps",
+          "startTime": 15.208161,
+          "endTime": 16.800826
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "took over my rare bum",
+      "startTime": 16.800826,
+      "endTime": 20.122939,
+      "words": [
+        {
+          "id": 16,
+          "text": "took",
+          "startTime": 16.800826,
+          "endTime": 17.463074
+        },
+        {
+          "id": 17,
+          "text": "over",
+          "startTime": 17.463074,
+          "endTime": 18.393848
+        },
+        {
+          "id": 18,
+          "text": "my",
+          "startTime": 18.393848,
+          "endTime": 18.660687
+        },
+        {
+          "id": 19,
+          "text": "rare",
+          "startTime": 18.660687,
+          "endTime": 19.058424
+        },
+        {
+          "id": 20,
+          "text": "bum",
+          "startTime": 19.058424,
+          "endTime": 20.122939
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "so it was seeming short",
+      "startTime": 20.122939,
+      "endTime": 22.643603,
+      "words": [
+        {
+          "id": 21,
+          "text": "so",
+          "startTime": 20.122939,
+          "endTime": 21.048932
+        },
+        {
+          "id": 22,
+          "text": "it",
+          "startTime": 21.048932,
+          "endTime": 21.316865
+        },
+        {
+          "id": 23,
+          "text": "was",
+          "startTime": 21.316865,
+          "endTime": 21.449382
+        },
+        {
+          "id": 24,
+          "text": "seeming",
+          "startTime": 21.449382,
+          "endTime": 21.849416
+        },
+        {
+          "id": 25,
+          "text": "short",
+          "startTime": 21.849416,
+          "endTime": 22.643603
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "remaining; her sensation. ",
+      "startTime": 22.643603,
+      "endTime": 28.365798,
+      "words": [
+        {
+          "id": 26,
+          "text": "remaining;",
+          "startTime": 22.643603,
+          "endTime": 25.429541
+        },
+        {
+          "id": 27,
+          "text": "her",
+          "startTime": 25.429541,
+          "endTime": 26.365798
+        },
+        {
+          "id": 28,
+          "text": "sensation.",
+          "startTime": 26.365798,
+          "endTime": 28.365798
+        }
+      ]
+    }
+  ]
+}

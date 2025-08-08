@@ -1,0 +1,170 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "When she showed up ",
+      "startTime": 3.340339,
+      "endTime": 6.401789,
+      "words": [
+        {
+          "id": 1,
+          "text": "When",
+          "startTime": 3.340339,
+          "endTime": 5.202282
+        },
+        {
+          "id": 2,
+          "text": "she",
+          "startTime": 5.202282,
+          "endTime": 5.336722
+        },
+        {
+          "id": 3,
+          "text": "showed",
+          "startTime": 5.336722,
+          "endTime": 5.602133
+        },
+        {
+          "id": 4,
+          "text": "up",
+          "startTime": 5.602133,
+          "endTime": 6.401789
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "my hands melted in purport ",
+      "startTime": 6.401789,
+      "endTime": 9.985522,
+      "words": [
+        {
+          "id": 5,
+          "text": "my",
+          "startTime": 6.401789,
+          "endTime": 7.328925
+        },
+        {
+          "id": 6,
+          "text": "hands",
+          "startTime": 7.328925,
+          "endTime": 7.727874
+        },
+        {
+          "id": 7,
+          "text": "melted",
+          "startTime": 7.727874,
+          "endTime": 8.526082
+        },
+        {
+          "id": 8,
+          "text": "in",
+          "startTime": 8.526082,
+          "endTime": 9.055878
+        },
+        {
+          "id": 9,
+          "text": "purport",
+          "startTime": 9.055878,
+          "endTime": 9.985522
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "for all the big screens’ divorce",
+      "startTime": 9.985522,
+      "endTime": 13.838466,
+      "words": [
+        {
+          "id": 10,
+          "text": "for",
+          "startTime": 9.985522,
+          "endTime": 11.579188
+        },
+        {
+          "id": 11,
+          "text": "all",
+          "startTime": 11.579188,
+          "endTime": 11.844807
+        },
+        {
+          "id": 12,
+          "text": "the",
+          "startTime": 11.844807,
+          "endTime": 11.976473
+        },
+        {
+          "id": 13,
+          "text": "big",
+          "startTime": 11.976473,
+          "endTime": 12.377028
+        },
+        {
+          "id": 14,
+          "text": "screens’",
+          "startTime": 12.377028,
+          "endTime": 12.907627
+        },
+        {
+          "id": 15,
+          "text": "divorce",
+          "startTime": 12.907627,
+          "endTime": 13.838466
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "she loved to talk",
+      "startTime": 13.838466,
+      "endTime": 16.489787,
+      "words": [
+        {
+          "id": 16,
+          "text": "she",
+          "startTime": 13.838466,
+          "endTime": 15.165137
+        },
+        {
+          "id": 17,
+          "text": "loved",
+          "startTime": 15.165137,
+          "endTime": 15.428675
+        },
+        {
+          "id": 18,
+          "text": "to",
+          "startTime": 15.428675,
+          "endTime": 15.697971
+        },
+        {
+          "id": 19,
+          "text": "talk",
+          "startTime": 15.697971,
+          "endTime": 16.489787
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "marrow support. ",
+      "startTime": 16.489787,
+      "endTime": 19.55757,
+      "words": [
+        {
+          "id": 20,
+          "text": "marrow",
+          "startTime": 16.489787,
+          "endTime": 17.55757
+        },
+        {
+          "id": 21,
+          "text": "support.",
+          "startTime": 17.55757,
+          "endTime": 19.55757
+        }
+      ]
+    }
+  ]
+}
