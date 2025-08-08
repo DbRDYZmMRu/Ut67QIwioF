@@ -1,4 +1,4 @@
-name: Generate Poems
+name: Search Index
 
 on:
   push:
