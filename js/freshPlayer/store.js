@@ -3,6 +3,7 @@ import { createApp, reactive } from './petite-vue.js';
 import { fetchTrackData, renderLyrics, updatePageContent, highlightAndOpenAlbum } from './lyricsManager.js';
 import { playTrack } from './audioPlayback.js';
 import { playerState } from './state.js';
+import { updateNowPlaying } from './playlistManager.js';
 
 export const store = reactive({
   albumCount: 16,
@@ -19,10 +20,13 @@ export const store = reactive({
   currentTrackIndex: -1,
   lyricsData: null,
   lyricsFocusEnabled: false,
+  playlists: { nowPlaying: [], favourites: [], musePlaylists: {} },
+  currentPlaylist: null, // Track the active playlist (e.g., 'nowPlaying', 'favourites', 'muse-taylorSwift')
+  queue: [], // Array of track IDs for playback queue
   
   async loadAlbums() {
     try {
-      const response = await fetch('../data/albums.json');
+      const response = await fetch('https://raw.githubusercontent.com/freshBoyChilling/discography/refs/heads/main/data/albums.json');
       if (!response.ok) {
         throw new Error(`Failed to fetch albums.json: ${response.status}`);
       }
@@ -31,6 +35,62 @@ export const store = reactive({
       console.log('Albums loaded:', this.albums);
     } catch (error) {
       console.error('Error in loadAlbums:', error.message);
+    }
+  },
+  
+  // Initialize the playback queue based on playlist or album context
+  setQueue(trackId, playlistId = null) {
+    try {
+      if (playlistId) {
+        // Playing from a playlist
+        const playlist = playlistId === 'nowPlaying' ? this.playlists.nowPlaying :
+          playlistId === 'favourites' ? this.playlists.favourites :
+          this.playlists.musePlaylists[playlistId.replace('muse-', '')];
+        if (!playlist || !playlist.tracks) {
+          console.error('Error in setQueue: Playlist not found', { playlistId });
+          return;
+        }
+        const trackIndex = playlist.tracks.findIndex(t => t.id === Number(trackId));
+        if (trackIndex === -1) {
+          console.error('Error in setQueue: Track not found in playlist', { trackId, playlistId });
+          return;
+        }
+        // Set queue starting from the selected track, looping to the start
+        this.queue = [
+          ...playlist.tracks.slice(trackIndex).map(t => t.id),
+          ...playlist.tracks.slice(0, trackIndex).map(t => t.id)
+        ];
+        this.currentPlaylist = playlistId;
+        this.currentTrackIndex = 0; // Start at the selected track
+        // Update Now Playing to match the playlist
+        if (playlistId !== 'nowPlaying') {
+          this.playlists.nowPlaying = playlist.tracks;
+          localStorage.setItem('nowPlaying', JSON.stringify(this.playlists.nowPlaying));
+        }
+      } else {
+        // Playing from an album
+        const album = this.albums.find(a => a.songs.some(s => s.id === Number(trackId)));
+        if (!album) {
+          console.error('Error in setQueue: Album not found for track', { trackId });
+          return;
+        }
+        const trackIndex = album.songs.findIndex(s => s.id === Number(trackId));
+        if (trackIndex === -1) {
+          console.error('Error in setQueue: Track not found in album', { trackId });
+          return;
+        }
+        // Set queue starting from the selected track, looping to the start
+        this.queue = [
+          ...album.songs.slice(trackIndex).map(s => s.id),
+          ...album.songs.slice(0, trackIndex).map(s => s.id)
+        ];
+        this.currentPlaylist = null; // No playlist context
+        this.currentTrackIndex = 0;
+        updateNowPlaying(album.id);
+      }
+      console.log('Queue set:', { queue: this.queue, currentPlaylist: this.currentPlaylist });
+    } catch (err) {
+      console.error('Error in setQueue:', err.message, { trackId, playlistId });
     }
   },
   
@@ -97,9 +157,9 @@ export const store = reactive({
     }
   },
   
-  async playTrack(trackId) {
+  async playTrack(trackId, playlistId = null) {
     try {
-      console.log('playTrack called with:', { trackId });
+      console.log('playTrack called with:', { trackId, playlistId });
       if (!trackId) {
         console.error('Error in playTrack: Missing trackId');
         return;
@@ -131,7 +191,6 @@ export const store = reactive({
       }
       this.currentAlbum = album;
       this.currentAlbumId = album.id;
-      this.currentTrackIndex = album.songs.findIndex(s => s.id === Number(trackId));
       this.currentTrack = {
         name: data.json.song_title,
         artist: data.json.writer || 'Frith Hilton',
@@ -140,6 +199,8 @@ export const store = reactive({
       };
       playerState.totalTime = data.json.duration || 0;
       this.lyricsData = data.json.lyrics || [];
+      // Set the queue based on context
+      this.setQueue(trackId, playlistId);
       playTrack(data.audio);
       renderLyrics(data.json.lyrics || []);
       updatePageContent(trackId, data);
@@ -149,7 +210,7 @@ export const store = reactive({
       window.scrollTo({ top: 0, behavior: 'smooth' });
       this.switchView_ii('div4');
     } catch (err) {
-      console.error('Error in playTrack:', err.message, { trackId });
+      console.error('Error in playTrack:', err.message, { trackId, playlistId });
       const statusDiv = document.getElementById('status');
       if (statusDiv) {
         statusDiv.textContent = `Error: ${err.message}`;
@@ -160,12 +221,13 @@ export const store = reactive({
   
   nextTrack() {
     try {
-      if (!this.currentAlbum || this.currentTrackIndex === -1) {
-        console.error('Error in nextTrack: No current album or track');
+      if (!this.queue.length || this.currentTrackIndex === -1) {
+        console.error('Error in nextTrack: No queue or invalid track index');
         return;
       }
-      this.currentTrackIndex = (this.currentTrackIndex + 1) % this.currentAlbum.songs.length;
-      this.playTrack(this.currentAlbum.songs[this.currentTrackIndex].id);
+      this.currentTrackIndex = (this.currentTrackIndex + 1) % this.queue.length;
+      const nextTrackId = this.queue[this.currentTrackIndex];
+      this.playTrack(nextTrackId, this.currentPlaylist);
       this.switchView_ii('div4');
     } catch (err) {
       console.error('Error in nextTrack:', err.message);
@@ -174,13 +236,13 @@ export const store = reactive({
   
   prevTrack() {
     try {
-      if (!this.currentAlbum || this.currentTrackIndex === -1) {
-        console.error('Error in prevTrack: No current album or track');
+      if (!this.queue.length || this.currentTrackIndex === -1) {
+        console.error('Error in prevTrack: No queue or invalid track index');
         return;
       }
-      this.currentTrackIndex =
-        (this.currentTrackIndex - 1 + this.currentAlbum.songs.length) % this.currentAlbum.songs.length;
-      this.playTrack(this.currentAlbum.songs[this.currentTrackIndex].id);
+      this.currentTrackIndex = (this.currentTrackIndex - 1 + this.queue.length) % this.queue.length;
+      const prevTrackId = this.queue[this.currentTrackIndex];
+      this.playTrack(prevTrackId, this.currentPlaylist);
       this.switchView_ii('div4');
     } catch (err) {
       console.error('Error in prevTrack:', err.message);

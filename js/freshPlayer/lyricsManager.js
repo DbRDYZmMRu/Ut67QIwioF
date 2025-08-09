@@ -1,5 +1,6 @@
 import { store } from './store.js';
-import { rgbToHex } from './utils.js';
+import { camelCaseToTitleCase, rgbToHex } from './utils.js';
+import { renderPlaylists } from './playlistManager.js';
 
 // Allowed tags and attributes (aligned with editor)
 const allowedTags = [
@@ -10,9 +11,28 @@ const allowedAttributes = {
   a: ['href', 'target', 'rel'],
   img: ['src', 'alt', 'width', 'height'],
   iframe: ['src', 'width', 'height', 'frameborder', 'allow', 'allowfullscreen'],
-  p: [], strong: [], em: [], br: [], div: [], h1: [], h2: [], h3: [], h4: [], h5: [], h6: [],
-  ol: [], ul: [], li: [], hr: [], s: [], sub: [], sup: [], pre: [], code: [],
-  blockquote: ['cite'], q: ['cite']
+  p: [],
+  strong: [],
+  em: [],
+  br: [],
+  div: [],
+  h1: [],
+  h2: [],
+  h3: [],
+  h4: [],
+  h5: [],
+  h6: [],
+  ol: [],
+  ul: [],
+  li: [],
+  hr: [],
+  s: [],
+  sub: [],
+  sup: [],
+  pre: [],
+  code: [],
+  blockquote: ['cite'],
+  q: ['cite']
 };
 
 // Simple HTML sanitizer with DOMPurify fallback
@@ -24,7 +44,7 @@ function sanitizeHTML(html) {
       ALLOWED_ATTR: Object.values(allowedAttributes).flat()
     });
   }
-
+  
   // Fallback to original sanitizer
   const allowedTagsLocal = ['a', 'img', 'iframe', 'p', 'strong', 'em', 'br', 'div'];
   const allowedAttributesLocal = {
@@ -32,24 +52,24 @@ function sanitizeHTML(html) {
     img: ['src', 'alt', 'width', 'height'],
     iframe: ['src', 'width', 'height', 'frameborder', 'allow', 'allowfullscreen']
   };
-
+  
   const parser = new DOMParser();
   const dom = parser.parseFromString(`<!DOCTYPE html><body>${html}`, 'text/html');
   const cleanElement = document.createElement('div');
-
+  
   function cleanNode(node, parent) {
     if (node.nodeType === Node.TEXT_NODE) {
       parent.appendChild(document.createTextNode(node.textContent));
       return;
     }
     if (node.nodeType !== Node.ELEMENT_NODE) return;
-
+    
     const tag = node.tagName.toLowerCase();
     if (!allowedTagsLocal.includes(tag)) {
       Array.from(node.childNodes).forEach(child => cleanNode(child, parent));
       return;
     }
-
+    
     const cleanNodeElement = document.createElement(tag);
     Array.from(node.attributes).forEach(attr => {
       const attrName = attr.name.toLowerCase();
@@ -61,7 +81,7 @@ function sanitizeHTML(html) {
         cleanNodeElement.setAttribute(attr.name, attr.value);
       }
     });
-
+    
     if (tag === 'a') {
       cleanNodeElement.setAttribute('target', '_blank');
       cleanNodeElement.setAttribute('rel', 'noopener noreferrer');
@@ -70,11 +90,11 @@ function sanitizeHTML(html) {
       cleanNodeElement.setAttribute('frameborder', '0');
       cleanNodeElement.setAttribute('allow', 'autoplay; encrypted-media');
     }
-
+    
     Array.from(node.childNodes).forEach(child => cleanNode(child, cleanNodeElement));
     parent.appendChild(cleanNodeElement);
   }
-
+  
   Array.from(dom.body.childNodes).forEach(child => cleanNode(child, cleanElement));
   return cleanElement.innerHTML;
 }
@@ -124,7 +144,7 @@ export function renderLyrics(lyricsData) {
       overlay.className = 'overlay';
       document.body.appendChild(overlay);
     }
-
+    
     // Function to set dynamic height
     function setLyricsContainerHeight() {
       try {
@@ -142,7 +162,7 @@ export function renderLyrics(lyricsData) {
         console.error('Error in setLyricsContainerHeight:', err.message);
       }
     }
-
+    
     // Function to center lyrics container
     function centerLyricsContainer() {
       try {
@@ -166,9 +186,9 @@ export function renderLyrics(lyricsData) {
         console.error('Error in centerLyricsContainer:', err.message);
       }
     }
-
+    
     renderLyrics.centerLyricsContainer = centerLyricsContainer;
-
+    
     // Clear existing content
     lyricsContainer.innerHTML = '';
     lyricsData.forEach((entry, index) => {
@@ -212,15 +232,15 @@ export function renderLyrics(lyricsData) {
       }
       lyricsContainer.appendChild(lineElement);
     });
-
+    
     setLyricsContainerHeight();
     centerLyricsContainer();
-
+    
     window.removeEventListener('resize', setLyricsContainerHeight);
     window.addEventListener('resize', setLyricsContainerHeight);
     window.removeEventListener('resize', centerLyricsContainer);
     window.addEventListener('resize', centerLyricsContainer);
-
+    
     // Handle annotations
     const annotatedWords = document.querySelectorAll('.annotated-word');
     annotatedWords.forEach(word => {
@@ -235,12 +255,12 @@ export function renderLyrics(lyricsData) {
         }
       });
     });
-
+    
     closePanelBtn?.removeEventListener('click', closePanel);
     closePanelBtn?.addEventListener('click', closePanel);
     overlay.removeEventListener('click', closePanel);
     overlay.addEventListener('click', closePanel);
-
+    
     function closePanel() {
       try {
         annotationPanel.classList.remove('active');
@@ -271,12 +291,18 @@ export function updatePageContent(trackId, data) {
     const albumNameEl = document.getElementById('album-name');
     const trackCoverEl = document.getElementById('track-cover');
     const header = document.getElementById('dynamic-header');
-    if (trackTitleEl) trackTitleEl.textContent = data.json.song_title;
-    if (albumNameEl) albumNameEl.textContent = album.title;
+    const creditMuseEl = document.getElementById('credit-muse');
+    const songBioEl = document.getElementById('song-bio');
+    const creditWriterEl = document.getElementById('credit-writer');
+    const creditLabelEl = document.getElementById('credit-label');
+    const creditReleaseDateEl = document.getElementById('credit-release-date');
+    
+    if (trackTitleEl) trackTitleEl.textContent = song.title || data.json.song_title || 'Unknown Title';
+    if (albumNameEl) albumNameEl.textContent = album.title || 'Unknown Album';
     if (trackCoverEl) {
-      const coverSrc = data.cover || '../images/default.jpg';
+      const coverSrc = data.cover || song.cover || album.cover || '../images/default.jpg';
       trackCoverEl.src = coverSrc;
-      trackCoverEl.alt = `${data.json.song_title} Cover`;
+      trackCoverEl.alt = `${song.title || data.json.song_title} Cover`;
       if (header) {
         header.style.background = 'linear-gradient(135deg, #444444, #666666)';
       }
@@ -303,16 +329,14 @@ export function updatePageContent(trackId, data) {
         }
       }
     }
-    const creditWriterEl = document.getElementById('credit-writer');
-    const creditLabelEl = document.getElementById('credit-label');
-    const creditReleaseDateEl = document.getElementById('credit-release-date');
+    if (creditMuseEl) creditMuseEl.textContent = song.muse ? camelCaseToTitleCase(song.muse) : 'Unknown Muse';
+    if (songBioEl) songBioEl.textContent = song.about || 'Song information will be displayed here when available.';
     if (creditWriterEl) creditWriterEl.textContent = data.json.writer || 'Frith Hilton';
     if (creditLabelEl) creditLabelEl.textContent = 'Fresh Boy Chilling';
-    if (creditReleaseDateEl) creditReleaseDateEl.textContent = data.json.release_date || album.releaseDate;
-    const songBioEl = document.getElementById('song-bio');
-    if (songBioEl) {
-      songBioEl.textContent = data.json.bio || 'Song information will be displayed here when available.';
-    }
+    if (creditReleaseDateEl) creditReleaseDateEl.textContent = data.json.release_date || album.releaseDate || 'Unknown Date';
+    const activeBadge = document.querySelector('.badge.active');
+    const activePlaylistId = activeBadge ? activeBadge.dataset.playlistId : null;
+    renderPlaylists(activePlaylistId);
   } catch (err) {
     console.error('Error in updatePageContent:', err.message, { trackId });
   }
@@ -328,7 +352,7 @@ export function highlightCurrentLyric(lyrics, currentTime) {
     const lyricLines = lyricsContainer.querySelectorAll('.lyric-line');
     let currentIndex = -1;
     let lastNonEmptyIndex = -1;
-
+    
     for (let i = 0; i < lyrics.length; i++) {
       const timestamp = parseFloat(lyrics[i].timestamp);
       const isEmpty = lyrics[i].line.trim() === '';
@@ -341,7 +365,7 @@ export function highlightCurrentLyric(lyrics, currentTime) {
         break;
       }
     }
-
+    
     lyricLines.forEach((line, index) => {
       if (index === currentIndex) {
         line.classList.add('highlight');

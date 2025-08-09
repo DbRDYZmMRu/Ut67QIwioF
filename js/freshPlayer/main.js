@@ -7,6 +7,7 @@ import { initializeTrackList } from './trackListManager.js';
 import { initializeAudioPlayback } from './audioPlayback.js';
 import { initializeMediaSession } from './mediaSessionManager.js';
 import { renderLyrics } from './lyricsManager.js';
+import { initializePlaylists } from './playlistManager.js';
 
 // Debounce function to limit event frequency
 function debounce(func, wait) {
@@ -71,6 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initializeSearch();
     initializeTrackList();
     initializeMediaSession();
+    initializePlaylists();
     
     // Handle URL track parameter
     const urlParams = new URLSearchParams(window.location.search);

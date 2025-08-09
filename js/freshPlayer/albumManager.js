@@ -2,7 +2,7 @@
 import { store } from './store.js';
 
 export function loadAlbums() {
-  $.getJSON('../data/albums.json', function(albums) {
+  $.getJSON('https://raw.githubusercontent.com/freshBoyChilling/discography/refs/heads/main/data/albums.json', function(albums) {
     albums.forEach(album => {
       const trackList = $(`#track-list-${album.id}`);
       album.songs.forEach(song => {
