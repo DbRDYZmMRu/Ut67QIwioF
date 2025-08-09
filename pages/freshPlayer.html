@@ -29,7 +29,7 @@
   <!-- font-awesome-icons -->
   <script src="https://kit.fontawesome.com/c7fbb1b458.js" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/dompurify@3.1.6/dist/purify.min.js"></script>
-
+  
   
   <!--===== Global bootstrap required css =====-->
   <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css" />
@@ -609,6 +609,66 @@
         font-size: 14px;
       }
     }
+    
+    
+    .playlists-container {
+      margin-bottom: 2rem;
+    }
+    
+    .playlists-container h1 {
+      font-size: 2rem;
+      color: #000000;
+      margin-bottom: 1.5rem;
+    }
+    
+    .badges-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .badge {
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+      cursor: pointer;
+      background-color: #6c757d;
+      /* Bootstrap secondary */
+      color: #fff;
+      border-radius: 1rem;
+      transition: background-color 0.2s;
+    }
+    
+    .badge:hover {
+      background-color: #5a6268;
+    }
+    
+    .badge.active {
+      background-color: var(--primary-color);
+      /* Matches .text-primary */
+    }
+    
+    .favourite-btn {
+      font-size: 1.2rem;
+      line-height: 1;
+      padding: 0.25rem 0.5rem;
+      border-radius: 50%;
+    }
+    
+    .favourite-btn:hover {
+      background: rgba(0, 0, 0, 0.1);
+    }
+    
+    .track-item {
+      display: flex;
+      align-items: center;
+      padding: 0.5rem 0;
+    }
+    
+    .track-item.highlighted {
+      background-color: rgba(0, 0, 0, 0.1);
+      font-weight: 600;
+    }
   </style>
   
 </head>
@@ -1176,8 +1236,10 @@
             
             <!-- Credits Section -->
             <div class="credits bg-white p-4 rounded shadow mb-4">
-              <h2 class="h2 text-primary">Credits</h2>
+              <h2 class="h2 text-primary">Song Notes</h2>
               <ul class="list-unstyled" id="credits-list" style="font-size: 19px;">
+                <li class="text-primary"><strong>Muse:</strong> <span id="credit-muse" class="text-dark">Muse</span></li>
+                <li class="text-primary"><strong>About:</strong> <span id="song-bio" class="text-dark">About the song</span></li>
                 <li class="text-primary"><strong>Writer:</strong> <span id="credit-writer" class="text-dark">Frith Hilton</span></li>
                 <li class="text-primary"><strong>Label:</strong> <span id="credit-label" class="text-dark">Fresh Boy Chilling</span></li>
                 <li class="text-primary"><strong>Release Date:</strong> <span id="credit-release-date" class="text-dark">January 1, 2025</span></li>
@@ -1246,13 +1308,14 @@
               </a>
             </div>
             
-            <!-- Who is Frith Hilton? Section -->
-            <section class="bio-section bg-white p-4 rounded shadow">
-              <h3 class="h4 text-primary">About the Song</h3>
-              <p class="text-dark" id="song-bio">
-                Song information will be displayed here when available.
-              </p>
-            </section>
+            <!-- Playlists Section -->
+            <div class="col-md-8">
+              <div class="playlists-container">
+                <h1 class="text-center">Playlists</h1>
+                <div class="badges-container" id="playlist-badges"></div>
+                <div class="playlist-card-container" id="playlist-card"></div>
+              </div>
+            </div>
           </div>
         </div>
         
