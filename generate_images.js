@@ -9,11 +9,8 @@ const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
 const outputDir = path.join(__dirname, 'images', 'share', 'W2W', '8');
 const titles = [
-                        "Heart Stone",
-            "Sublime",
-
-
-
+  "Heart Stone",
+  "Sublime",
 ];
 
 const drawText = (ctx, text, x, y, maxWidth) => {
