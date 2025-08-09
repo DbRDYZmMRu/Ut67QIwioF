@@ -75,11 +75,12 @@ export function stopProgressTimer() {
 
 export function initializeSeekBar() {
   try {
-    if (seekBar && seekHandle) {
-      let isDraggingSeek = false;
+    if (seekBar && seekHandle && seekProgress) {
+      // Click handler for seekBar (existing functionality)
       seekBar.addEventListener('click', e => {
         try {
-          if (isDraggingSeek) return;
+          // Prevent click handling if dragging is in progress
+          if (playerState.isDragging) return;
           const rect = seekBar.getBoundingClientRect();
           const clickPosition = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
           playerState.currentTime = clickPosition * playerState.totalTime;
@@ -94,44 +95,83 @@ export function initializeSeekBar() {
             ease: 'power2.out'
           });
         } catch (err) {
-          console.error('Error in initializeSeekBar click:', err.message);
+          console.error('Error in seekBar click:', err.message);
         }
       });
-      seekBar.addEventListener('mousedown', e => {
+      
+      // Drag functionality for seekHandle
+      let isDraggingSeek = false;
+      
+      const startDrag = (e) => {
         try {
+          e.preventDefault();
           isDraggingSeek = true;
-          const rect = seekBar.getBoundingClientRect();
-          
-          function onMouseMove(event) {
-            try {
-              const progress = Math.max(0, Math.min(1, (event.clientX - rect.left) / rect.width));
-              playerState.currentTime = progress * playerState.totalTime;
-              audioPlayer.currentTime = playerState.currentTime;
-              updateProgress();
-              updateTimeDisplay();
-            } catch (err) {
-              console.error('Error in initializeSeekBar onMouseMove:', err.message);
-            }
-          }
-          
-          function onMouseUp() {
-            try {
-              isDraggingSeek = false;
-              document.removeEventListener('mousemove', onMouseMove);
-              document.removeEventListener('mouseup', onMouseUp);
-            } catch (err) {
-              console.error('Error in initializeSeekBar onMouseUp:', err.message);
-            }
-          }
-          document.addEventListener('mousemove', onMouseMove);
-          document.addEventListener('mouseup', onMouseUp);
-          onMouseMove(e);
+          playerState.isDragging = true;
+          // Animate handle on drag start
+          gsap.to(seekHandle, {
+            duration: 0.2,
+            scale: 1.2,
+            ease: 'power2.out'
+          });
+          // Handle both mouse and touch events
+          const clientX = e.type.startsWith('touch') ? e.touches[0].clientX : e.clientX;
+          updateSeekPosition(clientX);
         } catch (err) {
-          console.error('Error in initializeSeekBar mousedown:', err.message);
+          console.error('Error in startDrag:', err.message);
+        }
+      };
+      
+      const updateSeekPosition = (clientX) => {
+        try {
+          if (!isDraggingSeek) return;
+          const rect = seekBar.getBoundingClientRect();
+          const progress = Math.max(0, Math.min(1, (clientX - rect.left) / rect.width));
+          playerState.currentTime = progress * playerState.totalTime;
+          audioPlayer.currentTime = playerState.currentTime;
+          updateProgress();
+          updateTimeDisplay();
+          highlightCurrentLyric(store.lyricsData, playerState.currentTime);
+        } catch (err) {
+          console.error('Error in updateSeekPosition:', err.message);
+        }
+      };
+      
+      const stopDrag = () => {
+        try {
+          if (isDraggingSeek) {
+            isDraggingSeek = false;
+            playerState.isDragging = false;
+            // Reset handle scale on drag end
+            gsap.to(seekHandle, {
+              duration: 0.2,
+              scale: 1,
+              ease: 'power2.out'
+            });
+          }
+        } catch (err) {
+          console.error('Error in stopDrag:', err.message);
+        }
+      };
+      
+      // Mouse event listeners for seekHandle
+      seekHandle.addEventListener('mousedown', startDrag);
+      document.addEventListener('mousemove', (e) => {
+        if (isDraggingSeek) {
+          updateSeekPosition(e.clientX);
         }
       });
+      document.addEventListener('mouseup', stopDrag);
+      
+      // Touch event listeners for seekHandle
+      seekHandle.addEventListener('touchstart', startDrag, { passive: false });
+      document.addEventListener('touchmove', (e) => {
+        if (isDraggingSeek) {
+          updateSeekPosition(e.touches[0].clientX);
+        }
+      }, { passive: false });
+      document.addEventListener('touchend', stopDrag);
     } else {
-      console.error('Error in initializeSeekBar: Missing seekBar or seekHandle');
+      console.error('Error in initializeSeekBar: Missing seekBar, seekHandle, or seekProgress');
     }
   } catch (err) {
     console.error('Error in initializeSeekBar:', err.message);
