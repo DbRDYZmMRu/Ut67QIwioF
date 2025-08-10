@@ -1,0 +1,238 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Drapes to her undertones",
+      "startTime": 5.72548,
+      "endTime": 9.975761,
+      "words": [
+        {
+          "id": 1,
+          "text": "Drapes",
+          "startTime": 5.72548,
+          "endTime": 7.455554
+        },
+        {
+          "id": 2,
+          "text": "to",
+          "startTime": 7.455554,
+          "endTime": 8.117496
+        },
+        {
+          "id": 3,
+          "text": "her",
+          "startTime": 8.117496,
+          "endTime": 8.383636
+        },
+        {
+          "id": 4,
+          "text": "undertones",
+          "startTime": 8.383636,
+          "endTime": 9.975761
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "a hollow opaquing she snows",
+      "startTime": 9.975761,
+      "endTime": 14.626308,
+      "words": [
+        {
+          "id": 5,
+          "text": "a",
+          "startTime": 9.975761,
+          "endTime": 11.437412
+        },
+        {
+          "id": 6,
+          "text": "hollow",
+          "startTime": 11.437412,
+          "endTime": 11.965587
+        },
+        {
+          "id": 7,
+          "text": "opaquing",
+          "startTime": 11.965587,
+          "endTime": 12.766668
+        },
+        {
+          "id": 8,
+          "text": "she",
+          "startTime": 12.766668,
+          "endTime": 13.29923
+        },
+        {
+          "id": 9,
+          "text": "snows",
+          "startTime": 13.29923,
+          "endTime": 14.626308
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "jabot over crevice she froze",
+      "startTime": 14.626308,
+      "endTime": 19.548389,
+      "words": [
+        {
+          "id": 10,
+          "text": "jabot",
+          "startTime": 14.626308,
+          "endTime": 16.227068
+        },
+        {
+          "id": 11,
+          "text": "over",
+          "startTime": 16.227068,
+          "endTime": 17.287228
+        },
+        {
+          "id": 12,
+          "text": "crevice",
+          "startTime": 17.287228,
+          "endTime": 17.818466
+        },
+        {
+          "id": 13,
+          "text": "she",
+          "startTime": 17.818466,
+          "endTime": 18.350311
+        },
+        {
+          "id": 14,
+          "text": "froze",
+          "startTime": 18.350311,
+          "endTime": 19.548389
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "wild oats where a bruised sows",
+      "startTime": 19.548389,
+      "endTime": 25.390973,
+      "words": [
+        {
+          "id": 15,
+          "text": "wild",
+          "startTime": 19.548389,
+          "endTime": 21.009705
+        },
+        {
+          "id": 16,
+          "text": "oats",
+          "startTime": 21.009705,
+          "endTime": 22.206733
+        },
+        {
+          "id": 17,
+          "text": "where",
+          "startTime": 22.206733,
+          "endTime": 22.999951
+        },
+        {
+          "id": 18,
+          "text": "a",
+          "startTime": 22.999951,
+          "endTime": 23.131224
+        },
+        {
+          "id": 19,
+          "text": "bruised",
+          "startTime": 23.131224,
+          "endTime": 23.798045
+        },
+        {
+          "id": 20,
+          "text": "sows",
+          "startTime": 23.798045,
+          "endTime": 25.390973
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "letting supposed shoes rout slow",
+      "startTime": 25.390973,
+      "endTime": 31.097744,
+      "words": [
+        {
+          "id": 21,
+          "text": "letting",
+          "startTime": 25.390973,
+          "endTime": 26.979538
+        },
+        {
+          "id": 22,
+          "text": "supposed",
+          "startTime": 26.979538,
+          "endTime": 27.913017
+        },
+        {
+          "id": 23,
+          "text": "shoes",
+          "startTime": 27.913017,
+          "endTime": 28.580086
+        },
+        {
+          "id": 24,
+          "text": "rout",
+          "startTime": 28.580086,
+          "endTime": 29.907106
+        },
+        {
+          "id": 25,
+          "text": "slow",
+          "startTime": 29.907106,
+          "endTime": 31.097744
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "of minions hiding a mastodon show.",
+      "startTime": 31.097744,
+      "endTime": 38.414119,
+      "words": [
+        {
+          "id": 26,
+          "text": "of",
+          "startTime": 31.097744,
+          "endTime": 32.430352
+        },
+        {
+          "id": 27,
+          "text": "minions",
+          "startTime": 32.430352,
+          "endTime": 33.492177
+        },
+        {
+          "id": 28,
+          "text": "hiding",
+          "startTime": 33.492177,
+          "endTime": 34.555275
+        },
+        {
+          "id": 29,
+          "text": "a",
+          "startTime": 34.555275,
+          "endTime": 35.347453
+        },
+        {
+          "id": 30,
+          "text": "mastodon",
+          "startTime": 35.347453,
+          "endTime": 36.414119
+        },
+        {
+          "id": 31,
+          "text": "show.",
+          "startTime": 36.414119,
+          "endTime": 38.414119
+        }
+      ]
+    }
+  ]
+}

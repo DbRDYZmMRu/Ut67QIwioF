@@ -1,0 +1,246 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Dark miles will cover the sky",
+      "startTime": 5.314372,
+      "endTime": 9.040565,
+      "words": [
+        {
+          "id": 1,
+          "text": "Dark",
+          "startTime": 5.314372,
+          "endTime": 6.246604
+        },
+        {
+          "id": 2,
+          "text": "miles",
+          "startTime": 6.246604,
+          "endTime": 6.912145
+        },
+        {
+          "id": 3,
+          "text": "will",
+          "startTime": 6.912145,
+          "endTime": 7.575304
+        },
+        {
+          "id": 4,
+          "text": "cover",
+          "startTime": 7.575304,
+          "endTime": 7.837282
+        },
+        {
+          "id": 5,
+          "text": "the",
+          "startTime": 7.837282,
+          "endTime": 8.103223
+        },
+        {
+          "id": 6,
+          "text": "sky",
+          "startTime": 8.103223,
+          "endTime": 9.040565
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "for figments her face clived",
+      "startTime": 9.040565,
+      "endTime": 12.628616,
+      "words": [
+        {
+          "id": 7,
+          "text": "for",
+          "startTime": 9.040565,
+          "endTime": 9.838911
+        },
+        {
+          "id": 8,
+          "text": "figments",
+          "startTime": 9.838911,
+          "endTime": 10.767329
+        },
+        {
+          "id": 9,
+          "text": "her",
+          "startTime": 10.767329,
+          "endTime": 11.299539
+        },
+        {
+          "id": 10,
+          "text": "face",
+          "startTime": 11.299539,
+          "endTime": 11.70057
+        },
+        {
+          "id": 11,
+          "text": "clived",
+          "startTime": 11.70057,
+          "endTime": 12.628616
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "clouds of coming Fahrenheit",
+      "startTime": 12.628616,
+      "endTime": 16.305714,
+      "words": [
+        {
+          "id": 12,
+          "text": "clouds",
+          "startTime": 12.628616,
+          "endTime": 13.697673
+        },
+        {
+          "id": 13,
+          "text": "of",
+          "startTime": 13.697673,
+          "endTime": 14.17795
+        },
+        {
+          "id": 14,
+          "text": "coming",
+          "startTime": 14.17795,
+          "endTime": 14.974164
+        },
+        {
+          "id": 15,
+          "text": "Fahrenheit",
+          "startTime": 14.974164,
+          "endTime": 16.305714
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "downy tantamount appetite ",
+      "startTime": 16.305714,
+      "endTime": 19.754771,
+      "words": [
+        {
+          "id": 16,
+          "text": "downy",
+          "startTime": 16.305714,
+          "endTime": 17.634719
+        },
+        {
+          "id": 17,
+          "text": "tantamount",
+          "startTime": 17.634719,
+          "endTime": 18.430904
+        },
+        {
+          "id": 18,
+          "text": "appetite",
+          "startTime": 18.430904,
+          "endTime": 19.754771
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "the hourglass’ resuming try",
+      "startTime": 19.754771,
+      "endTime": 23.213237,
+      "words": [
+        {
+          "id": 19,
+          "text": "the",
+          "startTime": 19.754771,
+          "endTime": 20.94722
+        },
+        {
+          "id": 20,
+          "text": "hourglass’",
+          "startTime": 20.94722,
+          "endTime": 21.617166
+        },
+        {
+          "id": 21,
+          "text": "resuming",
+          "startTime": 21.617166,
+          "endTime": 22.016256
+        },
+        {
+          "id": 22,
+          "text": "try",
+          "startTime": 22.016256,
+          "endTime": 23.213237
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "flesh on a mango’s pit dried",
+      "startTime": 23.213237,
+      "endTime": 27.462978,
+      "words": [
+        {
+          "id": 23,
+          "text": "flesh",
+          "startTime": 23.213237,
+          "endTime": 24.27385
+        },
+        {
+          "id": 24,
+          "text": "on",
+          "startTime": 24.27385,
+          "endTime": 25.202579
+        },
+        {
+          "id": 25,
+          "text": "a",
+          "startTime": 25.202579,
+          "endTime": 25.471296
+        },
+        {
+          "id": 26,
+          "text": "mango’s",
+          "startTime": 25.471296,
+          "endTime": 26.003521
+        },
+        {
+          "id": 27,
+          "text": "pit",
+          "startTime": 26.003521,
+          "endTime": 26.264835
+        },
+        {
+          "id": 28,
+          "text": "dried",
+          "startTime": 26.264835,
+          "endTime": 27.462978
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "wonders filling summertide. ",
+      "startTime": 27.462978,
+      "endTime": 31.983244,
+      "words": [
+        {
+          "id": 29,
+          "text": "wonders",
+          "startTime": 27.462978,
+          "endTime": 29.189855
+        },
+        {
+          "id": 30,
+          "text": "filling",
+          "startTime": 29.189855,
+          "endTime": 29.983244
+        },
+        {
+          "id": 31,
+          "text": "summertide.",
+          "startTime": 29.983244,
+          "endTime": 31.983244
+        }
+      ]
+    }
+  ]
+}
