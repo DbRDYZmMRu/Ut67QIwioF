@@ -203,30 +203,35 @@ export function renderLyrics(lyricsData) {
           /\[([^\]]+)\]/g,
           '<span class="bold-content">[$1]</span>'
         );
-        if (entry.annotations) {
-          // Split line into words, preserving spaces
-          const words = entry.line.split(/(\s+)/);
-          let wordIndex = -1;
-          const annotatedWords = new Map();
-          // Map annotations to their word indices
-          for (const [key, annotation] of Object.entries(entry.annotations)) {
-            const [word, timestamp, index] = key.split('_');
-            if (timestamp === entry.timestamp) {
-              annotatedWords.set(parseInt(index), { word, annotation });
+        if (entry.annotations && Object.keys(entry.annotations).length > 0) {
+          // Check if annotations are keyed by the full line
+          if (entry.annotations[entry.line]) {
+            // Full-line annotation: wrap the entire line
+            const encodedAnnotation = encodeURIComponent(entry.annotations[entry.line]);
+            processedLine = `<span class="annotated-word" data-annotation="${encodedAnnotation}" data-annotation-key="${entry.line}_${entry.timestamp}">${processedLine}</span>`;
+          } else {
+            // Word-based annotations (existing logic)
+            const words = entry.line.split(/(\s+)/);
+            let wordIndex = -1;
+            const annotatedWords = new Map();
+            for (const [key, annotation] of Object.entries(entry.annotations)) {
+              const [word, timestamp, index] = key.split('_');
+              if (timestamp === entry.timestamp) {
+                annotatedWords.set(parseInt(index), { word, annotation });
+              }
             }
+            const processedWords = words.map((word, i) => {
+              if (/\s+/.test(word)) return word;
+              wordIndex++;
+              const annotationData = annotatedWords.get(wordIndex);
+              if (annotationData && word.toLowerCase() === annotationData.word.toLowerCase()) {
+                const encodedAnnotation = encodeURIComponent(annotationData.annotation);
+                return `<span class="annotated-word" data-annotation="${encodedAnnotation}" data-annotation-key="${annotationData.word}_${entry.timestamp}_${wordIndex}">${word}</span>`;
+              }
+              return word;
+            });
+            processedLine = processedWords.join('');
           }
-          // Process each word
-          const processedWords = words.map((word, i) => {
-            if (/\s+/.test(word)) return word; // Preserve spaces
-            wordIndex++;
-            const annotationData = annotatedWords.get(wordIndex);
-            if (annotationData && word.toLowerCase() === annotationData.word.toLowerCase()) {
-              const encodedAnnotation = encodeURIComponent(annotationData.annotation);
-              return `<span class="annotated-word" data-annotation="${encodedAnnotation}" data-annotation-key="${annotationData.word}_${entry.timestamp}_${wordIndex}">${word}</span>`;
-            }
-            return word;
-          });
-          processedLine = processedWords.join('');
         }
         lineElement.innerHTML = processedLine;
       }
