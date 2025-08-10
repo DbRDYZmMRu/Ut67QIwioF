@@ -1168,7 +1168,7 @@
       ctx.fillStyle = '#1D5457';
       ctx.textAlign = 'center';
       ctx.textBaseline = 'top';
-      ctx.fillText('WEST TO WEST COLLECTION VII', canvas.width / 2, 350);
+      ctx.fillText('WEST TO WEST COLLECTION VIII', canvas.width / 2, 350);
       
       ctx.font = '50px "Architects Daughter"';
       ctx.fillStyle = 'black';
@@ -1625,9 +1625,12 @@
         return {
           dedication: `<p class="text-center">To <strong style="color: #010521"> Kylie Jenner </strong></p>`,
           acknowledgements: `    
-          <p>         First, I want to extend a heartfelt thank you to my parents, Kathy and Richard Hilton, for my greased windows; they are the reason I've come so far. I also want to express deep gratitude to Madonna for granting me permission to write these poems after I sought her approval. Thank you for giving me the nudge to chase my self-esteem. A special thank you to my readers for following my upcoming poetry series whenever I post updates on the website.</p>
-          <p>         A huge thank you to Lourdes Leon, Kai Trump, Kris Jenner, and Dagny for your contributions as I wrote—you inspired me in one way or another.</p>
-              <p>         I appreciate every one of you who reads my books and helps get them into the hands of happy readers who enjoy my poetry. Every single person on my team is a winner, and this book is a testament to that.</p>`,
+          <p>         It's day 222 of the year 2025, a Sunday I'm grateful for, and the birthday of Kylie Jenner. With life being a great artwork drawing toward its perfection, I'm thrilled to dedicate this poetry book to you. I hope I do not disrupt the harmony that paves your beautiful life path, while earnestly expressing my love through imaginations I hope you'll embrace. Happy birthday, Kylie Jenner.</p>
+          <p>         I want to thank my parents, Kathy and Richard Hilton, and my siblings, Nicky, Paris, Conrad, and Baron. Your families are my lifeline, and your support has made me feel accepted everywhere. Thank you.</p>
+              <p>         Thank you to the Jenners and Kardashians: Kris Jenner, Caitlyn Jenner, Kendall, Kim, Kourtney, Khloé, and Rob Kardashian. Nothing beats day-one support. You've taught me the rewards of hard work, and I feel so blessed by God. </p>
+              <p>         Thank you to my readers, my one-time muses, and my partners on joyrides: Taylor Swift, Victoria Justice, BLACKPINK members Lisa, Jennie, and Rosé, Maya Musk, Tai Lopez, Ashley Nicole Moss, DJ Khaled, Their Royal Majesties King Felipe and Queen Letizia, Princess Leonor, Infanta Sofia, Prince William, Madonna, Kanye West, Quavo, Nicki Minaj, Cardi B, and Stephen King.</p>
+                <p>         I have had nothing but appreciation since the start of this journey. Thank you, Drake, for helping me chill better. I love everyone who reads my poetry. Dua Lipa, thank you so much.</p>
+              `,              
           authorsNote: [
             ` <img class="img-fluid" src="../../images/collections/W2W/8/kylieJenner.jpg" alt="Kylie Jenner">
             <p class="text-center mt-1"> <span class="fw-bold">Kylie Jenner</span> </p>`,
@@ -1792,7 +1795,7 @@
       generateStaticPoemURL() {
         var domainName = window.location.origin;
         const convertPoemID = this.pageResources().convertIndex(this.currentChapter);
-        var shareURL = domainName + "/pages/Hilton/collections/vii/" + convertPoemID + ".html";
+        var shareURL = domainName + "/pages/Hilton/collections/viii/" + convertPoemID + ".html";
         this.staticPoemURL = shareURL;
       },
       goToPublished() {
@@ -1818,10 +1821,10 @@
         let imageUrl;
         if (index === 1) {
           imageName = `${poetryIndex}.png`;
-          imageUrl = `../../images/collections/W2W/7/${imageName}`;
+          imageUrl = `../../images/collections/W2W/8/${imageName}`;
         } else {
           imageName = `${poetryIndex}-${index}.png`;
-          imageUrl = `../../images/collections/W2W/7/${imageName}`;
+          imageUrl = `../../images/collections/W2W/8/${imageName}`;
         }
         const img = new Image();
         img.src = imageUrl;
@@ -1846,10 +1849,10 @@
         utilityButtons.classList.replace('mb-3', 'mb-7');
       },
       downloadEpub() {
-        const path = "published/files/W2W/7/West to West Collection VI by Howard Frith Hilton.epub";
+        const path = "published/files/W2W/8/West to West Collection VIII by Howard Frith Hilton.epub";
         const link = document.createElement('a');
         link.href = path;
-        link.download = 'West to West Collection VII by Howard Frith Hilton.epub'; // Set the file name for the download
+        link.download = 'West to West Collection VIII by Howard Frith Hilton.epub'; // Set the file name for the download
         link.click();
       }
       
