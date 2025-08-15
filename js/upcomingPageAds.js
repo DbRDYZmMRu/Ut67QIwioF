@@ -1,5 +1,5 @@
 const adsTop = [
-  { img: '../images/ads/NikeJuly5.gif', link: '#', displayTime: 70000 },
+  { img: '../images/ads/NikeAugust14.gif', link: '#', displayTime: 70000 },
   { img: '../images/ads/drinksprinter.gif', link: '#', displayTime: 9000 }, { img: '../images/ads/kyliecosmeticsHybridIII.gif', link: 'http://kyliecosmetics.com/', displayTime: 6000 },
   { img: '../images/ads/Crocs.gif', link: 'https://www.crocs.com/stories/come-as-you-are.html', displayTime: 5000 },
   { img: '../images/ads/Celsius.gif', link: '#', displayTime: 10000 },
@@ -8,7 +8,7 @@ const adsTop = [
   { img: '../images/ads/Rhode1.gif', link: 'https://www.rhodeskin.com', displayTime: 12000 },
   { img: '../images/ads/CocacolaJuly5.gif', link: '#', displayTime: 30000 },
   { img: '../images/ads/Personalday.gif', link: 'https://www.personalday.com/', displayTime: 10000 },
-  { img: '../images/ads/RenneJuly2.gif', link: 'https://www.estellaco.co/products/dulce-vita-corset-micro-short-set', displayTime: 10000 }
+  { img: '../images/ads/LV-Aug-14.gif', link: 'https://us.louisvuitton.com/eng-us/new/for-men/new-formal/_/N-t4r4eke?utm_source=instagram&utm_medium=social&utm_campaign=PUBL_eu.louisvuitton.com%2Feng-e1%2Fnew%2Ffor-men%2Fnew-formal%2F_%2FN-t4r4eke_IG_US_ENG_AW_20220114_20220117_UNI_WATCH%20', displayTime: 10000 }
   
 ];
 
@@ -29,7 +29,7 @@ const adsMiddle = [
   { img: '../images/ads/GartoradeJuly5.gif', link: '#', displayTime: 9000 },
   { img: '../images/ads/skimsJune10.gif', link: 'https://skims.com/en-ng/collections/coming-soon?utm_source=instagram-story&utm_medium=owned-social&utm_campaign=coming-soon&fbclid=PAZXh0bgNhZW0CMTEAAaei-K58mSObsPCBHWNbCpsqhKEjl9pdszWV0md-E0gMlNp3FEx49r5QiFe99A_aem_IweLTL5knnu1hmZ2eN4RGg', displayTime: 6500 },
   { img: '../images/ads/RhodeJuly5.gif', link: 'https://www.rhodeskin.com', displayTime: 9000 },
-  { img: '../images/ads/LVJuly5.gif', link: 'https://us.louisvuitton.com/eng-us/new/for-men/fall-winter-2025-show/_/N-t12jpbgi?utm_source=instagram&utm_medium=social&utm_campaign=PUBL_MENSCAMPAIGNFW25_IG_WW_ENG_AW_20250703_20250713_MEN_RTW_MEN_FW25', displayTime: 9000 },
+  { img: '../images/ads/LV-Aug-3.jpg', link: 'https://eu.louisvuitton.com/eng-e1/stories/fall-winter-25-collection?utm_source=instagram&utm_medium=social&utm_campaign=PUBL_WOMENFW25CAMPAIGN_IG_WW_ENG20250725_WOM_MULTI', displayTime: 9000 },
   { img: '../images/ads/SkimsAdJune6.gif', link: 'https://skims.com/en-ng/collections/skims-ultimate-edit?utm_source=ig&utm_medium=owned-social&utm_campaign=ultimate-edit&fbclid=PAQ0xDSwKv7GtleHRuA2FlbQIxMQABpzbyA74E5sCYgCUWUyyYVgROlPmgUwOfL2EGEikPL9D0Ztko7x0lYfYaUKtD_aem_iWqvZwXXJEHjrzIrE3qX5Q', displayTime: 6500 },
   { img: '../images/ads/slipperySoapAd1.gif', link: 'https://www.slipperysoap.com/', displayTime: 6500 },
   { img: '../images/ads/KhyXDilaraAd.gif', link: 'https://khy.com/', displayTime: 6500 },
