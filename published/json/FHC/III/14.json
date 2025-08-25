@@ -1,0 +1,226 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Bottles and empty foibles",
+      "startTime": 5.63586,
+      "endTime": 7.895133,
+      "words": [
+        {
+          "id": 1,
+          "text": "Bottles",
+          "startTime": 5.63586,
+          "endTime": 6.169644
+        },
+        {
+          "id": 2,
+          "text": "and",
+          "startTime": 6.169644,
+          "endTime": 6.298821
+        },
+        {
+          "id": 3,
+          "text": "empty",
+          "startTime": 6.298821,
+          "endTime": 6.699249
+        },
+        {
+          "id": 4,
+          "text": "foibles",
+          "startTime": 6.699249,
+          "endTime": 7.895133
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "...",
+      "startTime": 7.895133,
+      "endTime": 8.293506,
+      "words": [
+        {
+          "id": 5,
+          "text": "...",
+          "startTime": 7.895133,
+          "endTime": 8.293506
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "On this escritoire table",
+      "startTime": 8.293506,
+      "endTime": 11.081948,
+      "words": [
+        {
+          "id": 6,
+          "text": "On",
+          "startTime": 8.293506,
+          "endTime": 9.089798
+        },
+        {
+          "id": 7,
+          "text": "this",
+          "startTime": 9.089798,
+          "endTime": 9.358946
+        },
+        {
+          "id": 8,
+          "text": "escritoire",
+          "startTime": 9.358946,
+          "endTime": 10.15089
+        },
+        {
+          "id": 9,
+          "text": "table",
+          "startTime": 10.15089,
+          "endTime": 11.081948
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "I suckle and correct mess",
+      "startTime": 11.081948,
+      "endTime": 14.271935,
+      "words": [
+        {
+          "id": 10,
+          "text": "I",
+          "startTime": 11.081948,
+          "endTime": 11.878611
+        },
+        {
+          "id": 11,
+          "text": "suckle",
+          "startTime": 11.878611,
+          "endTime": 12.676258
+        },
+        {
+          "id": 12,
+          "text": "and",
+          "startTime": 12.676258,
+          "endTime": 13.074492
+        },
+        {
+          "id": 13,
+          "text": "correct",
+          "startTime": 13.074492,
+          "endTime": 13.472667
+        },
+        {
+          "id": 14,
+          "text": "mess",
+          "startTime": 13.472667,
+          "endTime": 14.271935
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "...",
+      "startTime": 14.271935,
+      "endTime": 14.664357,
+      "words": [
+        {
+          "id": 15,
+          "text": "...",
+          "startTime": 14.271935,
+          "endTime": 14.664357
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "librating fable",
+      "startTime": 14.664357,
+      "endTime": 17.057757,
+      "words": [
+        {
+          "id": 16,
+          "text": "librating",
+          "startTime": 14.664357,
+          "endTime": 15.999046
+        },
+        {
+          "id": 17,
+          "text": "fable",
+          "startTime": 15.999046,
+          "endTime": 17.057757
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "Catfish, joystick, and flesh",
+      "startTime": 17.057757,
+      "endTime": 21.309503,
+      "words": [
+        {
+          "id": 18,
+          "text": "Catfish,",
+          "startTime": 17.057757,
+          "endTime": 18.652083
+        },
+        {
+          "id": 19,
+          "text": "joystick,",
+          "startTime": 18.652083,
+          "endTime": 19.97772
+        },
+        {
+          "id": 20,
+          "text": "and",
+          "startTime": 19.97772,
+          "endTime": 20.379488
+        },
+        {
+          "id": 21,
+          "text": "flesh",
+          "startTime": 20.379488,
+          "endTime": 21.309503
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "...",
+      "startTime": 21.309503,
+      "endTime": 21.57473,
+      "words": [
+        {
+          "id": 22,
+          "text": "...",
+          "startTime": 21.309503,
+          "endTime": 21.57473
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "Eventual may nest.",
+      "startTime": 21.57473,
+      "endTime": 25.698832,
+      "words": [
+        {
+          "id": 23,
+          "text": "Eventual",
+          "startTime": 21.57473,
+          "endTime": 23.164301
+        },
+        {
+          "id": 24,
+          "text": "may",
+          "startTime": 23.164301,
+          "endTime": 23.698832
+        },
+        {
+          "id": 25,
+          "text": "nest.",
+          "startTime": 23.698832,
+          "endTime": 25.698832
+        }
+      ]
+    }
+  ]
+}

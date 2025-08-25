@@ -1,0 +1,142 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Mercury... temerity",
+      "startTime": 4.694487,
+      "endTime": 7.483306,
+      "words": [
+        {
+          "id": 1,
+          "text": "Mercury...",
+          "startTime": 4.694487,
+          "endTime": 6.291121
+        },
+        {
+          "id": 2,
+          "text": "temerity",
+          "startTime": 6.291121,
+          "endTime": 7.483306
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "Brought a turn...",
+      "startTime": 7.483306,
+      "endTime": 9.607941,
+      "words": [
+        {
+          "id": 3,
+          "text": "Brought",
+          "startTime": 7.483306,
+          "endTime": 8.277587
+        },
+        {
+          "id": 4,
+          "text": "a",
+          "startTime": 8.277587,
+          "endTime": 8.410452
+        },
+        {
+          "id": 5,
+          "text": "turn...",
+          "startTime": 8.410452,
+          "endTime": 9.607941
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "Flummoxing tow on.",
+      "startTime": 9.607941,
+      "endTime": 11.998766,
+      "words": [
+        {
+          "id": 6,
+          "text": "Flummoxing",
+          "startTime": 9.607941,
+          "endTime": 10.537925
+        },
+        {
+          "id": 7,
+          "text": "tow",
+          "startTime": 10.537925,
+          "endTime": 10.806327
+        },
+        {
+          "id": 8,
+          "text": "on.",
+          "startTime": 10.806327,
+          "endTime": 11.998766
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "A shudder, shiver.",
+      "startTime": 11.998766,
+      "endTime": 14.78753,
+      "words": [
+        {
+          "id": 9,
+          "text": "A",
+          "startTime": 11.998766,
+          "endTime": 12.66258
+        },
+        {
+          "id": 10,
+          "text": "shudder,",
+          "startTime": 12.66258,
+          "endTime": 13.592308
+        },
+        {
+          "id": 11,
+          "text": "shiver.",
+          "startTime": 13.592308,
+          "endTime": 14.78753
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "Earth heard",
+      "startTime": 14.78753,
+      "endTime": 16.914332,
+      "words": [
+        {
+          "id": 12,
+          "text": "Earth",
+          "startTime": 14.78753,
+          "endTime": 15.584601
+        },
+        {
+          "id": 13,
+          "text": "heard",
+          "startTime": 15.584601,
+          "endTime": 16.914332
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "Cawed: God!",
+      "startTime": 16.914332,
+      "endTime": 19.843416,
+      "words": [
+        {
+          "id": 14,
+          "text": "Cawed:",
+          "startTime": 16.914332,
+          "endTime": 17.843416
+        },
+        {
+          "id": 15,
+          "text": "God!",
+          "startTime": 17.843416,
+          "endTime": 19.843416
+        }
+      ]
+    }
+  ]
+}

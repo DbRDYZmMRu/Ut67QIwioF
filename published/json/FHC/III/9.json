@@ -1,0 +1,172 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "A drag is a bag ferrying",
+      "startTime": 4.865984,
+      "endTime": 7.786845,
+      "words": [
+        {
+          "id": 1,
+          "text": "A",
+          "startTime": 4.865984,
+          "endTime": 5.531134
+        },
+        {
+          "id": 2,
+          "text": "drag",
+          "startTime": 5.531134,
+          "endTime": 5.796125
+        },
+        {
+          "id": 3,
+          "text": "is",
+          "startTime": 5.796125,
+          "endTime": 5.927838
+        },
+        {
+          "id": 4,
+          "text": "a",
+          "startTime": 5.927838,
+          "endTime": 6.192645
+        },
+        {
+          "id": 5,
+          "text": "bag",
+          "startTime": 6.192645,
+          "endTime": 6.590097
+        },
+        {
+          "id": 6,
+          "text": "ferrying",
+          "startTime": 6.590097,
+          "endTime": 7.786845
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "Gliding feet in wake of bass.",
+      "startTime": 7.786845,
+      "endTime": 12.436516,
+      "words": [
+        {
+          "id": 7,
+          "text": "Gliding",
+          "startTime": 7.786845,
+          "endTime": 8.71407
+        },
+        {
+          "id": 8,
+          "text": "feet",
+          "startTime": 8.71407,
+          "endTime": 9.512205
+        },
+        {
+          "id": 9,
+          "text": "in",
+          "startTime": 9.512205,
+          "endTime": 10.176434
+        },
+        {
+          "id": 10,
+          "text": "wake",
+          "startTime": 10.176434,
+          "endTime": 10.712886
+        },
+        {
+          "id": 11,
+          "text": "of",
+          "startTime": 10.712886,
+          "endTime": 10.974026
+        },
+        {
+          "id": 12,
+          "text": "bass.",
+          "startTime": 10.974026,
+          "endTime": 12.436516
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "Bent kneecaps",
+      "startTime": 12.436516,
+      "endTime": 14.159721,
+      "words": [
+        {
+          "id": 13,
+          "text": "Bent",
+          "startTime": 12.436516,
+          "endTime": 12.966574
+        },
+        {
+          "id": 14,
+          "text": "kneecaps",
+          "startTime": 12.966574,
+          "endTime": 14.159721
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "What's the day?",
+      "startTime": 14.159721,
+      "endTime": 16.284495,
+      "words": [
+        {
+          "id": 15,
+          "text": "What's",
+          "startTime": 14.159721,
+          "endTime": 14.691581
+        },
+        {
+          "id": 16,
+          "text": "the",
+          "startTime": 14.691581,
+          "endTime": 14.956558
+        },
+        {
+          "id": 17,
+          "text": "day?",
+          "startTime": 14.956558,
+          "endTime": 16.284495
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "Natch",
+      "startTime": 16.284495,
+      "endTime": 17.614906,
+      "words": [
+        {
+          "id": 18,
+          "text": "Natch",
+          "startTime": 16.284495,
+          "endTime": 17.614906
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "No rotund.",
+      "startTime": 17.614906,
+      "endTime": 20.010964,
+      "words": [
+        {
+          "id": 19,
+          "text": "No",
+          "startTime": 17.614906,
+          "endTime": 18.010964
+        },
+        {
+          "id": 20,
+          "text": "rotund.",
+          "startTime": 18.010964,
+          "endTime": 20.010964
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "The dough with a smile",
+      "startTime": 3.448639,
+      "endTime": 5.975693,
+      "words": [
+        {
+          "id": 1,
+          "text": "The",
+          "startTime": 3.448639,
+          "endTime": 4.511264
+        },
+        {
+          "id": 2,
+          "text": "dough",
+          "startTime": 4.511264,
+          "endTime": 4.644198
+        },
+        {
+          "id": 3,
+          "text": "with",
+          "startTime": 4.644198,
+          "endTime": 4.908496
+        },
+        {
+          "id": 4,
+          "text": "a",
+          "startTime": 4.908496,
+          "endTime": 5.175473
+        },
+        {
+          "id": 5,
+          "text": "smile",
+          "startTime": 5.175473,
+          "endTime": 5.975693
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "Brought with it, the clime",
+      "startTime": 5.975693,
+      "endTime": 8.897976,
+      "words": [
+        {
+          "id": 6,
+          "text": "Brought",
+          "startTime": 5.975693,
+          "endTime": 6.768757
+        },
+        {
+          "id": 7,
+          "text": "with",
+          "startTime": 6.768757,
+          "endTime": 6.902923
+        },
+        {
+          "id": 8,
+          "text": "it,",
+          "startTime": 6.902923,
+          "endTime": 7.433166
+        },
+        {
+          "id": 9,
+          "text": "the",
+          "startTime": 7.433166,
+          "endTime": 8.095909
+        },
+        {
+          "id": 10,
+          "text": "clime",
+          "startTime": 8.095909,
+          "endTime": 8.897976
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "Of a varying bring kind.",
+      "startTime": 8.897976,
+      "endTime": 12.612777,
+      "words": [
+        {
+          "id": 11,
+          "text": "Of",
+          "startTime": 8.897976,
+          "endTime": 10.350149
+        },
+        {
+          "id": 12,
+          "text": "a",
+          "startTime": 10.350149,
+          "endTime": 10.620147
+        },
+        {
+          "id": 13,
+          "text": "varying",
+          "startTime": 10.620147,
+          "endTime": 11.017014
+        },
+        {
+          "id": 14,
+          "text": "bring",
+          "startTime": 11.017014,
+          "endTime": 11.417899
+        },
+        {
+          "id": 15,
+          "text": "kind.",
+          "startTime": 11.417899,
+          "endTime": 12.612777
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "I had enough off the mind",
+      "startTime": 12.612777,
+      "endTime": 15.93209,
+      "words": [
+        {
+          "id": 16,
+          "text": "I",
+          "startTime": 12.612777,
+          "endTime": 13.677808
+        },
+        {
+          "id": 17,
+          "text": "had",
+          "startTime": 13.677808,
+          "endTime": 13.939986
+        },
+        {
+          "id": 18,
+          "text": "enough",
+          "startTime": 13.939986,
+          "endTime": 14.341145
+        },
+        {
+          "id": 19,
+          "text": "off",
+          "startTime": 14.341145,
+          "endTime": 14.608291
+        },
+        {
+          "id": 20,
+          "text": "the",
+          "startTime": 14.608291,
+          "endTime": 14.737231
+        },
+        {
+          "id": 21,
+          "text": "mind",
+          "startTime": 14.737231,
+          "endTime": 15.93209
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "On the bench wink-eyed.",
+      "startTime": 15.93209,
+      "endTime": 19.784839,
+      "words": [
+        {
+          "id": 22,
+          "text": "On",
+          "startTime": 15.93209,
+          "endTime": 16.861003
+        },
+        {
+          "id": 23,
+          "text": "the",
+          "startTime": 16.861003,
+          "endTime": 17.127319
+        },
+        {
+          "id": 24,
+          "text": "bench",
+          "startTime": 17.127319,
+          "endTime": 17.925147
+        },
+        {
+          "id": 25,
+          "text": "wink-eyed.",
+          "startTime": 17.925147,
+          "endTime": 19.784839
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "Affairs meddle, too, was inclined",
+      "startTime": 19.784839,
+      "endTime": 25.230339,
+      "words": [
+        {
+          "id": 26,
+          "text": "Affairs",
+          "startTime": 19.784839,
+          "endTime": 21.242173
+        },
+        {
+          "id": 27,
+          "text": "meddle,",
+          "startTime": 21.242173,
+          "endTime": 22.042662
+        },
+        {
+          "id": 28,
+          "text": "too,",
+          "startTime": 22.042662,
+          "endTime": 23.104228
+        },
+        {
+          "id": 29,
+          "text": "was",
+          "startTime": 23.104228,
+          "endTime": 23.767812
+        },
+        {
+          "id": 30,
+          "text": "inclined",
+          "startTime": 23.767812,
+          "endTime": 25.230339
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "Got her out the heat, in time.",
+      "startTime": 25.230339,
+      "endTime": 30.682916,
+      "words": [
+        {
+          "id": 31,
+          "text": "Got",
+          "startTime": 25.230339,
+          "endTime": 25.892688
+        },
+        {
+          "id": 32,
+          "text": "her",
+          "startTime": 25.892688,
+          "endTime": 26.29239
+        },
+        {
+          "id": 33,
+          "text": "out",
+          "startTime": 26.29239,
+          "endTime": 26.692216
+        },
+        {
+          "id": 34,
+          "text": "the",
+          "startTime": 26.692216,
+          "endTime": 26.953845
+        },
+        {
+          "id": 35,
+          "text": "heat,",
+          "startTime": 26.953845,
+          "endTime": 28.020338
+        },
+        {
+          "id": 36,
+          "text": "in",
+          "startTime": 28.020338,
+          "endTime": 28.682916
+        },
+        {
+          "id": 37,
+          "text": "time.",
+          "startTime": 28.682916,
+          "endTime": 30.682916
+        }
+      ]
+    }
+  ]
+}

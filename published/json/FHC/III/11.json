@@ -1,0 +1,294 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "With a gust at dusk",
+      "startTime": 4.560506,
+      "endTime": 7.748213,
+      "words": [
+        {
+          "id": 1,
+          "text": "With",
+          "startTime": 4.560506,
+          "endTime": 5.353908
+        },
+        {
+          "id": 2,
+          "text": "a",
+          "startTime": 5.353908,
+          "endTime": 5.620369
+        },
+        {
+          "id": 3,
+          "text": "gust",
+          "startTime": 5.620369,
+          "endTime": 5.890562
+        },
+        {
+          "id": 4,
+          "text": "at",
+          "startTime": 5.890562,
+          "endTime": 6.554468
+        },
+        {
+          "id": 5,
+          "text": "dusk",
+          "startTime": 6.554468,
+          "endTime": 7.748213
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "I will come.",
+      "startTime": 7.748213,
+      "endTime": 9.470499,
+      "words": [
+        {
+          "id": 6,
+          "text": "I",
+          "startTime": 7.748213,
+          "endTime": 8.145249
+        },
+        {
+          "id": 7,
+          "text": "will",
+          "startTime": 8.145249,
+          "endTime": 8.41219
+        },
+        {
+          "id": 8,
+          "text": "come.",
+          "startTime": 8.41219,
+          "endTime": 9.470499
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "By the clock frock",
+      "startTime": 9.470499,
+      "endTime": 11.997406,
+      "words": [
+        {
+          "id": 9,
+          "text": "By",
+          "startTime": 9.470499,
+          "endTime": 10.5342
+        },
+        {
+          "id": 10,
+          "text": "the",
+          "startTime": 10.5342,
+          "endTime": 10.668937
+        },
+        {
+          "id": 11,
+          "text": "clock",
+          "startTime": 10.668937,
+          "endTime": 11.066162
+        },
+        {
+          "id": 12,
+          "text": "frock",
+          "startTime": 11.066162,
+          "endTime": 11.997406
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "There, I will buck",
+      "startTime": 11.997406,
+      "endTime": 15.049454,
+      "words": [
+        {
+          "id": 13,
+          "text": "There,",
+          "startTime": 11.997406,
+          "endTime": 12.792902
+        },
+        {
+          "id": 14,
+          "text": "I",
+          "startTime": 12.792902,
+          "endTime": 13.594489
+        },
+        {
+          "id": 15,
+          "text": "will",
+          "startTime": 13.594489,
+          "endTime": 13.85673
+        },
+        {
+          "id": 16,
+          "text": "buck",
+          "startTime": 13.85673,
+          "endTime": 15.049454
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "The involution",
+      "startTime": 15.049454,
+      "endTime": 17.04497,
+      "words": [
+        {
+          "id": 17,
+          "text": "The",
+          "startTime": 15.049454,
+          "endTime": 15.583277
+        },
+        {
+          "id": 18,
+          "text": "involution",
+          "startTime": 15.583277,
+          "endTime": 17.04497
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "Coming in by the pugs",
+      "startTime": 17.04497,
+      "endTime": 21.027813,
+      "words": [
+        {
+          "id": 19,
+          "text": "Coming",
+          "startTime": 17.04497,
+          "endTime": 17.840864
+        },
+        {
+          "id": 20,
+          "text": "in",
+          "startTime": 17.840864,
+          "endTime": 18.370648
+        },
+        {
+          "id": 21,
+          "text": "by",
+          "startTime": 18.370648,
+          "endTime": 19.56362
+        },
+        {
+          "id": 22,
+          "text": "the",
+          "startTime": 19.56362,
+          "endTime": 19.830022
+        },
+        {
+          "id": 23,
+          "text": "pugs",
+          "startTime": 19.830022,
+          "endTime": 21.027813
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "The chinwag right up.",
+      "startTime": 21.027813,
+      "endTime": 23.81437,
+      "words": [
+        {
+          "id": 24,
+          "text": "The",
+          "startTime": 21.027813,
+          "endTime": 21.558674
+        },
+        {
+          "id": 25,
+          "text": "chinwag",
+          "startTime": 21.558674,
+          "endTime": 22.620084
+        },
+        {
+          "id": 26,
+          "text": "right",
+          "startTime": 22.620084,
+          "endTime": 22.888599
+        },
+        {
+          "id": 27,
+          "text": "up.",
+          "startTime": 22.888599,
+          "endTime": 23.81437
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "So please abseil now",
+      "startTime": 23.81437,
+      "endTime": 27.005554,
+      "words": [
+        {
+          "id": 28,
+          "text": "So",
+          "startTime": 23.81437,
+          "endTime": 25.142507
+        },
+        {
+          "id": 29,
+          "text": "please",
+          "startTime": 25.142507,
+          "endTime": 25.675821
+        },
+        {
+          "id": 30,
+          "text": "abseil",
+          "startTime": 25.675821,
+          "endTime": 26.207281
+        },
+        {
+          "id": 31,
+          "text": "now",
+          "startTime": 26.207281,
+          "endTime": 27.005554
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "Down",
+      "startTime": 27.005554,
+      "endTime": 28.868718,
+      "words": [
+        {
+          "id": 32,
+          "text": "Down",
+          "startTime": 27.005554,
+          "endTime": 28.868718
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "The auberge urn.",
+      "startTime": 28.868718,
+      "endTime": 32.187335000000004,
+      "words": [
+        {
+          "id": 33,
+          "text": "The",
+          "startTime": 28.868718,
+          "endTime": 29.392527
+        },
+        {
+          "id": 34,
+          "text": "auberge",
+          "startTime": 29.392527,
+          "endTime": 30.187335
+        },
+        {
+          "id": 35,
+          "text": "urn.",
+          "startTime": 30.187335,
+          "endTime": 32.187335000000004
+        }
+      ]
+    }
+  ]
+}

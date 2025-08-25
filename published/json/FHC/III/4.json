@@ -1,0 +1,654 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I’ve got just one",
+      "startTime": 4.882138,
+      "endTime": 6.614827,
+      "words": [
+        {
+          "id": 1,
+          "text": "I’ve",
+          "startTime": 4.882138,
+          "endTime": 5.147399
+        },
+        {
+          "id": 2,
+          "text": "got",
+          "startTime": 5.147399,
+          "endTime": 5.416217
+        },
+        {
+          "id": 3,
+          "text": "just",
+          "startTime": 5.416217,
+          "endTime": 5.548297
+        },
+        {
+          "id": 4,
+          "text": "one",
+          "startTime": 5.548297,
+          "endTime": 6.614827
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "The only bromidic pole",
+      "startTime": 6.614827,
+      "endTime": 9.003401,
+      "words": [
+        {
+          "id": 5,
+          "text": "The",
+          "startTime": 6.614827,
+          "endTime": 7.141159
+        },
+        {
+          "id": 6,
+          "text": "only",
+          "startTime": 7.141159,
+          "endTime": 7.5383
+        },
+        {
+          "id": 7,
+          "text": "bromidic",
+          "startTime": 7.5383,
+          "endTime": 8.073492
+        },
+        {
+          "id": 8,
+          "text": "pole",
+          "startTime": 8.073492,
+          "endTime": 9.003401
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "I’m back to her, that old",
+      "startTime": 9.003401,
+      "endTime": 12.98438,
+      "words": [
+        {
+          "id": 9,
+          "text": "I’m",
+          "startTime": 9.003401,
+          "endTime": 10.199682
+        },
+        {
+          "id": 10,
+          "text": "back",
+          "startTime": 10.199682,
+          "endTime": 10.33168
+        },
+        {
+          "id": 11,
+          "text": "to",
+          "startTime": 10.33168,
+          "endTime": 10.598381
+        },
+        {
+          "id": 12,
+          "text": "her,",
+          "startTime": 10.598381,
+          "endTime": 11.261236
+        },
+        {
+          "id": 13,
+          "text": "that",
+          "startTime": 11.261236,
+          "endTime": 12.058081
+        },
+        {
+          "id": 14,
+          "text": "old",
+          "startTime": 12.058081,
+          "endTime": 12.98438
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "Spray it now... at home",
+      "startTime": 12.98438,
+      "endTime": 16.17255,
+      "words": [
+        {
+          "id": 15,
+          "text": "Spray",
+          "startTime": 12.98438,
+          "endTime": 13.917358
+        },
+        {
+          "id": 16,
+          "text": "it",
+          "startTime": 13.917358,
+          "endTime": 14.050115
+        },
+        {
+          "id": 17,
+          "text": "now...",
+          "startTime": 14.050115,
+          "endTime": 15.11314
+        },
+        {
+          "id": 18,
+          "text": "at",
+          "startTime": 15.11314,
+          "endTime": 15.24502
+        },
+        {
+          "id": 19,
+          "text": "home",
+          "startTime": 15.24502,
+          "endTime": 16.17255
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "Singeing pleasantness gold.",
+      "startTime": 16.17255,
+      "endTime": 19.227404,
+      "words": [
+        {
+          "id": 20,
+          "text": "Singeing",
+          "startTime": 16.17255,
+          "endTime": 17.373032
+        },
+        {
+          "id": 21,
+          "text": "pleasantness",
+          "startTime": 17.373032,
+          "endTime": 18.298472
+        },
+        {
+          "id": 22,
+          "text": "gold.",
+          "startTime": 18.298472,
+          "endTime": 19.227404
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "Susurrus, I tippytoe",
+      "startTime": 19.227404,
+      "endTime": 23.080603,
+      "words": [
+        {
+          "id": 23,
+          "text": "Susurrus,",
+          "startTime": 19.227404,
+          "endTime": 20.95676
+        },
+        {
+          "id": 24,
+          "text": "I",
+          "startTime": 20.95676,
+          "endTime": 21.75414
+        },
+        {
+          "id": 25,
+          "text": "tippytoe",
+          "startTime": 21.75414,
+          "endTime": 23.080603
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "By her waters, I row.",
+      "startTime": 23.080603,
+      "endTime": 26.132811,
+      "words": [
+        {
+          "id": 26,
+          "text": "By",
+          "startTime": 23.080603,
+          "endTime": 23.613067
+        },
+        {
+          "id": 27,
+          "text": "her",
+          "startTime": 23.613067,
+          "endTime": 23.881167
+        },
+        {
+          "id": 28,
+          "text": "waters,",
+          "startTime": 23.881167,
+          "endTime": 24.408796
+        },
+        {
+          "id": 29,
+          "text": "I",
+          "startTime": 24.408796,
+          "endTime": 25.205165
+        },
+        {
+          "id": 30,
+          "text": "row.",
+          "startTime": 25.205165,
+          "endTime": 26.132811
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "It’s fine on the radio",
+      "startTime": 26.132811,
+      "endTime": 28.79172,
+      "words": [
+        {
+          "id": 31,
+          "text": "It’s",
+          "startTime": 26.132811,
+          "endTime": 27.065793
+        },
+        {
+          "id": 32,
+          "text": "fine",
+          "startTime": 27.065793,
+          "endTime": 27.462313
+        },
+        {
+          "id": 33,
+          "text": "on",
+          "startTime": 27.462313,
+          "endTime": 27.727438
+        },
+        {
+          "id": 34,
+          "text": "the",
+          "startTime": 27.727438,
+          "endTime": 27.864001
+        },
+        {
+          "id": 35,
+          "text": "radio",
+          "startTime": 27.864001,
+          "endTime": 28.79172
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "She speaking in my dome",
+      "startTime": 28.79172,
+      "endTime": 31.317373,
+      "words": [
+        {
+          "id": 36,
+          "text": "She",
+          "startTime": 28.79172,
+          "endTime": 29.454714
+        },
+        {
+          "id": 37,
+          "text": "speaking",
+          "startTime": 29.454714,
+          "endTime": 29.986859
+        },
+        {
+          "id": 38,
+          "text": "in",
+          "startTime": 29.986859,
+          "endTime": 30.117807
+        },
+        {
+          "id": 39,
+          "text": "my",
+          "startTime": 30.117807,
+          "endTime": 30.384121
+        },
+        {
+          "id": 40,
+          "text": "dome",
+          "startTime": 30.384121,
+          "endTime": 31.317373
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "Quiet, salient, drippy-drone.",
+      "startTime": 31.317373,
+      "endTime": 35.830048,
+      "words": [
+        {
+          "id": 41,
+          "text": "Quiet,",
+          "startTime": 31.317373,
+          "endTime": 32.24403
+        },
+        {
+          "id": 42,
+          "text": "salient,",
+          "startTime": 32.24403,
+          "endTime": 33.706725
+        },
+        {
+          "id": 43,
+          "text": "drippy-drone.",
+          "startTime": 33.706725,
+          "endTime": 35.830048
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "Detesting, protesting, coming so",
+      "startTime": 35.830048,
+      "endTime": 40.878021,
+      "words": [
+        {
+          "id": 44,
+          "text": "Detesting,",
+          "startTime": 35.830048,
+          "endTime": 37.424238
+        },
+        {
+          "id": 45,
+          "text": "protesting,",
+          "startTime": 37.424238,
+          "endTime": 39.148132
+        },
+        {
+          "id": 46,
+          "text": "coming",
+          "startTime": 39.148132,
+          "endTime": 40.081517
+        },
+        {
+          "id": 47,
+          "text": "so",
+          "startTime": 40.081517,
+          "endTime": 40.878021
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "Rapine with her thoughts fold.",
+      "startTime": 40.878021,
+      "endTime": 44.063551,
+      "words": [
+        {
+          "id": 48,
+          "text": "Rapine",
+          "startTime": 40.878021,
+          "endTime": 41.939255
+        },
+        {
+          "id": 49,
+          "text": "with",
+          "startTime": 41.939255,
+          "endTime": 42.602507
+        },
+        {
+          "id": 50,
+          "text": "her",
+          "startTime": 42.602507,
+          "endTime": 42.869997
+        },
+        {
+          "id": 51,
+          "text": "thoughts",
+          "startTime": 42.869997,
+          "endTime": 43.135255
+        },
+        {
+          "id": 52,
+          "text": "fold.",
+          "startTime": 43.135255,
+          "endTime": 44.063551
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "paragraph": "Striking, inflating, her gaudy role",
+      "startTime": 44.063551,
+      "endTime": 49.508818,
+      "words": [
+        {
+          "id": 53,
+          "text": "Striking,",
+          "startTime": 44.063551,
+          "endTime": 45.790381
+        },
+        {
+          "id": 54,
+          "text": "inflating,",
+          "startTime": 45.790381,
+          "endTime": 47.781897
+        },
+        {
+          "id": 55,
+          "text": "her",
+          "startTime": 47.781897,
+          "endTime": 48.050732
+        },
+        {
+          "id": 56,
+          "text": "gaudy",
+          "startTime": 48.050732,
+          "endTime": 48.448661
+        },
+        {
+          "id": 57,
+          "text": "role",
+          "startTime": 48.448661,
+          "endTime": 49.508818
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "paragraph": "I write; I might, tripe tow",
+      "startTime": 49.508818,
+      "endTime": 54.158905,
+      "words": [
+        {
+          "id": 58,
+          "text": "I",
+          "startTime": 49.508818,
+          "endTime": 50.306284
+        },
+        {
+          "id": 59,
+          "text": "write;",
+          "startTime": 50.306284,
+          "endTime": 50.969461
+        },
+        {
+          "id": 60,
+          "text": "I",
+          "startTime": 50.969461,
+          "endTime": 51.634441
+        },
+        {
+          "id": 61,
+          "text": "might,",
+          "startTime": 51.634441,
+          "endTime": 52.296958
+        },
+        {
+          "id": 62,
+          "text": "tripe",
+          "startTime": 52.296958,
+          "endTime": 53.096603
+        },
+        {
+          "id": 63,
+          "text": "tow",
+          "startTime": 53.096603,
+          "endTime": 54.158905
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "paragraph": "Fecundating letters’ scold",
+      "startTime": 54.158905,
+      "endTime": 57.080635,
+      "words": [
+        {
+          "id": 64,
+          "text": "Fecundating",
+          "startTime": 54.158905,
+          "endTime": 55.620878
+        },
+        {
+          "id": 65,
+          "text": "letters’",
+          "startTime": 55.620878,
+          "endTime": 56.286375
+        },
+        {
+          "id": 66,
+          "text": "scold",
+          "startTime": 56.286375,
+          "endTime": 57.080635
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "paragraph": "Too, watercoloured bold.",
+      "startTime": 57.080635,
+      "endTime": 61.332252,
+      "words": [
+        {
+          "id": 67,
+          "text": "Too,",
+          "startTime": 57.080635,
+          "endTime": 58.543135
+        },
+        {
+          "id": 68,
+          "text": "watercoloured",
+          "startTime": 58.543135,
+          "endTime": 60.266515
+        },
+        {
+          "id": 69,
+          "text": "bold.",
+          "startTime": 60.266515,
+          "endTime": 61.332252
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "paragraph": "...reception throes",
+      "startTime": 61.332252,
+      "endTime": 65.050186,
+      "words": [
+        {
+          "id": 70,
+          "text": "...reception",
+          "startTime": 61.332252,
+          "endTime": 63.583813
+        },
+        {
+          "id": 71,
+          "text": "throes",
+          "startTime": 63.583813,
+          "endTime": 65.050186
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "paragraph": "Flaying the other woke",
+      "startTime": 65.050186,
+      "endTime": 67.175558,
+      "words": [
+        {
+          "id": 72,
+          "text": "Flaying",
+          "startTime": 65.050186,
+          "endTime": 65.580772
+        },
+        {
+          "id": 73,
+          "text": "the",
+          "startTime": 65.580772,
+          "endTime": 65.845978
+        },
+        {
+          "id": 74,
+          "text": "other",
+          "startTime": 65.845978,
+          "endTime": 66.241521
+        },
+        {
+          "id": 75,
+          "text": "woke",
+          "startTime": 66.241521,
+          "endTime": 67.175558
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "paragraph": "What can a face do to you ode?",
+      "startTime": 67.175558,
+      "endTime": 71.96258,
+      "words": [
+        {
+          "id": 76,
+          "text": "What",
+          "startTime": 67.175558,
+          "endTime": 68.104406
+        },
+        {
+          "id": 77,
+          "text": "can",
+          "startTime": 68.104406,
+          "endTime": 68.237618
+        },
+        {
+          "id": 78,
+          "text": "a",
+          "startTime": 68.237618,
+          "endTime": 68.501904
+        },
+        {
+          "id": 79,
+          "text": "face",
+          "startTime": 68.501904,
+          "endTime": 68.90394
+        },
+        {
+          "id": 80,
+          "text": "do",
+          "startTime": 68.90394,
+          "endTime": 69.563338
+        },
+        {
+          "id": 81,
+          "text": "to",
+          "startTime": 69.563338,
+          "endTime": 69.695764
+        },
+        {
+          "id": 82,
+          "text": "you",
+          "startTime": 69.695764,
+          "endTime": 69.96258
+        },
+        {
+          "id": 83,
+          "text": "ode?",
+          "startTime": 69.96258,
+          "endTime": 71.96258
+        }
+      ]
+    }
+  ]
+}

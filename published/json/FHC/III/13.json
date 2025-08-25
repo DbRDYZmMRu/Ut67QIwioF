@@ -1,0 +1,264 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Zero peal",
+      "startTime": 7.639571,
+      "endTime": 9.234122,
+      "words": [
+        {
+          "id": 1,
+          "text": "Zero",
+          "startTime": 7.639571,
+          "endTime": 8.435467
+        },
+        {
+          "id": 2,
+          "text": "peal",
+          "startTime": 8.435467,
+          "endTime": 9.234122
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "One in",
+      "startTime": 9.234122,
+      "endTime": 11.093914,
+      "words": [
+        {
+          "id": 3,
+          "text": "One",
+          "startTime": 9.234122,
+          "endTime": 10.298598
+        },
+        {
+          "id": 4,
+          "text": "in",
+          "startTime": 10.298598,
+          "endTime": 11.093914
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "Threesome brings",
+      "startTime": 11.093914,
+      "endTime": 13.485333,
+      "words": [
+        {
+          "id": 5,
+          "text": "Threesome",
+          "startTime": 11.093914,
+          "endTime": 12.153622
+        },
+        {
+          "id": 6,
+          "text": "brings",
+          "startTime": 12.153622,
+          "endTime": 13.485333
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "Ninety wins",
+      "startTime": 13.485333,
+      "endTime": 15.475646,
+      "words": [
+        {
+          "id": 7,
+          "text": "Ninety",
+          "startTime": 13.485333,
+          "endTime": 14.281844
+        },
+        {
+          "id": 8,
+          "text": "wins",
+          "startTime": 14.281844,
+          "endTime": 15.475646
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "Quadri-scarf pins",
+      "startTime": 15.475646,
+      "endTime": 17.731507,
+      "words": [
+        {
+          "id": 9,
+          "text": "Quadri-scarf",
+          "startTime": 15.475646,
+          "endTime": 16.673191
+        },
+        {
+          "id": 10,
+          "text": "pins",
+          "startTime": 16.673191,
+          "endTime": 17.731507
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "Aquifer degree",
+      "startTime": 17.731507,
+      "endTime": 19.989648,
+      "words": [
+        {
+          "id": 11,
+          "text": "Aquifer",
+          "startTime": 17.731507,
+          "endTime": 18.797596
+        },
+        {
+          "id": 12,
+          "text": "degree",
+          "startTime": 18.797596,
+          "endTime": 19.989648
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "Sum, three-sixty",
+      "startTime": 19.989648,
+      "endTime": 22.913749,
+      "words": [
+        {
+          "id": 13,
+          "text": "Sum,",
+          "startTime": 19.989648,
+          "endTime": 20.921835
+        },
+        {
+          "id": 14,
+          "text": "three-sixty",
+          "startTime": 20.921835,
+          "endTime": 22.913749
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "Square madid",
+      "startTime": 22.913749,
+      "endTime": 24.904058,
+      "words": [
+        {
+          "id": 15,
+          "text": "Square",
+          "startTime": 22.913749,
+          "endTime": 23.971852
+        },
+        {
+          "id": 16,
+          "text": "madid",
+          "startTime": 23.971852,
+          "endTime": 24.904058
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "Through see",
+      "startTime": 24.904058,
+      "endTime": 26.897289,
+      "words": [
+        {
+          "id": 17,
+          "text": "Through",
+          "startTime": 24.904058,
+          "endTime": 25.833256
+        },
+        {
+          "id": 18,
+          "text": "see",
+          "startTime": 25.833256,
+          "endTime": 26.897289
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "Glad-hand till",
+      "startTime": 26.897289,
+      "endTime": 29.021475,
+      "words": [
+        {
+          "id": 19,
+          "text": "Glad-hand",
+          "startTime": 26.897289,
+          "endTime": 28.22438
+        },
+        {
+          "id": 20,
+          "text": "till",
+          "startTime": 28.22438,
+          "endTime": 29.021475
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "Mirror exergy",
+      "startTime": 29.021475,
+      "endTime": 31.679349,
+      "words": [
+        {
+          "id": 21,
+          "text": "Mirror",
+          "startTime": 29.021475,
+          "endTime": 30.349326
+        },
+        {
+          "id": 22,
+          "text": "exergy",
+          "startTime": 30.349326,
+          "endTime": 31.679349
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "Thirteen alterity",
+      "startTime": 31.679349,
+      "endTime": 34.602391,
+      "words": [
+        {
+          "id": 23,
+          "text": "Thirteen",
+          "startTime": 31.679349,
+          "endTime": 33.007405
+        },
+        {
+          "id": 24,
+          "text": "alterity",
+          "startTime": 33.007405,
+          "endTime": 34.602391
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "paragraph": "Swish twenty-six.",
+      "startTime": 34.602391,
+      "endTime": 38.192706,
+      "words": [
+        {
+          "id": 25,
+          "text": "Swish",
+          "startTime": 34.602391,
+          "endTime": 36.192706
+        },
+        {
+          "id": 26,
+          "text": "twenty-six.",
+          "startTime": 36.192706,
+          "endTime": 38.192706
+        }
+      ]
+    }
+  ]
+}

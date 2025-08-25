@@ -1,0 +1,488 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "The nut thought not",
+      "startTime": 6.198324,
+      "endTime": 8.259473,
+      "words": [
+        {
+          "id": 1,
+          "text": "The",
+          "startTime": 6.198324,
+          "endTime": 6.93044
+        },
+        {
+          "id": 2,
+          "text": "nut",
+          "startTime": 6.93044,
+          "endTime": 7.194619
+        },
+        {
+          "id": 3,
+          "text": "thought",
+          "startTime": 7.194619,
+          "endTime": 7.463659
+        },
+        {
+          "id": 4,
+          "text": "not",
+          "startTime": 7.463659,
+          "endTime": 8.259473
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "An unwanted nut?",
+      "startTime": 8.259473,
+      "endTime": 10.782706,
+      "words": [
+        {
+          "id": 5,
+          "text": "An",
+          "startTime": 8.259473,
+          "endTime": 9.19068
+        },
+        {
+          "id": 6,
+          "text": "unwanted",
+          "startTime": 9.19068,
+          "endTime": 9.852649
+        },
+        {
+          "id": 7,
+          "text": "nut?",
+          "startTime": 9.852649,
+          "endTime": 10.782706
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "Lone, no-show crud?",
+      "startTime": 10.782706,
+      "endTime": 13.306619,
+      "words": [
+        {
+          "id": 8,
+          "text": "Lone,",
+          "startTime": 10.782706,
+          "endTime": 11.711323
+        },
+        {
+          "id": 9,
+          "text": "no-show",
+          "startTime": 11.711323,
+          "endTime": 12.242347
+        },
+        {
+          "id": 10,
+          "text": "crud?",
+          "startTime": 12.242347,
+          "endTime": 13.306619
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "No-show for the cull!",
+      "startTime": 13.306619,
+      "endTime": 16.62567,
+      "words": [
+        {
+          "id": 11,
+          "text": "No-show",
+          "startTime": 13.306619,
+          "endTime": 14.635855
+        },
+        {
+          "id": 12,
+          "text": "for",
+          "startTime": 14.635855,
+          "endTime": 15.032082
+        },
+        {
+          "id": 13,
+          "text": "the",
+          "startTime": 15.032082,
+          "endTime": 15.165096
+        },
+        {
+          "id": 14,
+          "text": "cull!",
+          "startTime": 15.165096,
+          "endTime": 16.62567
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "There are spiders, pods",
+      "startTime": 16.62567,
+      "endTime": 19.417152,
+      "words": [
+        {
+          "id": 15,
+          "text": "There",
+          "startTime": 16.62567,
+          "endTime": 17.021344
+        },
+        {
+          "id": 16,
+          "text": "are",
+          "startTime": 17.021344,
+          "endTime": 17.292808
+        },
+        {
+          "id": 17,
+          "text": "spiders,",
+          "startTime": 17.292808,
+          "endTime": 18.354056
+        },
+        {
+          "id": 18,
+          "text": "pods",
+          "startTime": 18.354056,
+          "endTime": 19.417152
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "Berries, badgers, worms",
+      "startTime": 19.417152,
+      "endTime": 23.264458,
+      "words": [
+        {
+          "id": 19,
+          "text": "Berries,",
+          "startTime": 19.417152,
+          "endTime": 20.607908
+        },
+        {
+          "id": 20,
+          "text": "badgers,",
+          "startTime": 20.607908,
+          "endTime": 21.805416
+        },
+        {
+          "id": 21,
+          "text": "worms",
+          "startTime": 21.805416,
+          "endTime": 23.264458
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "But not an unwanted nut.",
+      "startTime": 23.264458,
+      "endTime": 25.922511,
+      "words": [
+        {
+          "id": 22,
+          "text": "But",
+          "startTime": 23.264458,
+          "endTime": 24.062772
+        },
+        {
+          "id": 23,
+          "text": "not",
+          "startTime": 24.062772,
+          "endTime": 24.195694
+        },
+        {
+          "id": 24,
+          "text": "an",
+          "startTime": 24.195694,
+          "endTime": 24.460508
+        },
+        {
+          "id": 25,
+          "text": "unwanted",
+          "startTime": 24.460508,
+          "endTime": 24.993152
+        },
+        {
+          "id": 26,
+          "text": "nut.",
+          "startTime": 24.993152,
+          "endTime": 25.922511
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "The author monkey hurt",
+      "startTime": 25.922511,
+      "endTime": 28.710833,
+      "words": [
+        {
+          "id": 27,
+          "text": "The",
+          "startTime": 25.922511,
+          "endTime": 26.719251
+        },
+        {
+          "id": 28,
+          "text": "author",
+          "startTime": 26.719251,
+          "endTime": 27.114818
+        },
+        {
+          "id": 29,
+          "text": "monkey",
+          "startTime": 27.114818,
+          "endTime": 27.649056
+        },
+        {
+          "id": 30,
+          "text": "hurt",
+          "startTime": 27.649056,
+          "endTime": 28.710833
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "Taste your compunction.",
+      "startTime": 28.710833,
+      "endTime": 31.236442,
+      "words": [
+        {
+          "id": 31,
+          "text": "Taste",
+          "startTime": 28.710833,
+          "endTime": 29.372826
+        },
+        {
+          "id": 32,
+          "text": "your",
+          "startTime": 29.372826,
+          "endTime": 29.644085
+        },
+        {
+          "id": 33,
+          "text": "compunction.",
+          "startTime": 29.644085,
+          "endTime": 31.236442
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "I’ll be a spider, if a kludge",
+      "startTime": 31.236442,
+      "endTime": 35.218883,
+      "words": [
+        {
+          "id": 34,
+          "text": "I’ll",
+          "startTime": 31.236442,
+          "endTime": 32.431036
+        },
+        {
+          "id": 35,
+          "text": "be",
+          "startTime": 32.431036,
+          "endTime": 32.561919
+        },
+        {
+          "id": 36,
+          "text": "a",
+          "startTime": 32.561919,
+          "endTime": 32.826829
+        },
+        {
+          "id": 37,
+          "text": "spider,",
+          "startTime": 32.826829,
+          "endTime": 33.493737
+        },
+        {
+          "id": 38,
+          "text": "if",
+          "startTime": 33.493737,
+          "endTime": 33.760503
+        },
+        {
+          "id": 39,
+          "text": "a",
+          "startTime": 33.760503,
+          "endTime": 34.025273
+        },
+        {
+          "id": 40,
+          "text": "kludge",
+          "startTime": 34.025273,
+          "endTime": 35.218883
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "Leg count with our line up.",
+      "startTime": 35.218883,
+      "endTime": 38.547419,
+      "words": [
+        {
+          "id": 41,
+          "text": "Leg",
+          "startTime": 35.218883,
+          "endTime": 35.879082
+        },
+        {
+          "id": 42,
+          "text": "count",
+          "startTime": 35.879082,
+          "endTime": 36.550165
+        },
+        {
+          "id": 43,
+          "text": "with",
+          "startTime": 36.550165,
+          "endTime": 36.811929
+        },
+        {
+          "id": 44,
+          "text": "our",
+          "startTime": 36.811929,
+          "endTime": 37.078499
+        },
+        {
+          "id": 45,
+          "text": "line",
+          "startTime": 37.078499,
+          "endTime": 37.344588
+        },
+        {
+          "id": 46,
+          "text": "up.",
+          "startTime": 37.344588,
+          "endTime": 38.547419
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "By a brazen spider’s spunk",
+      "startTime": 38.547419,
+      "endTime": 41.734824,
+      "words": [
+        {
+          "id": 47,
+          "text": "By",
+          "startTime": 38.547419,
+          "endTime": 39.344664
+        },
+        {
+          "id": 48,
+          "text": "a",
+          "startTime": 39.344664,
+          "endTime": 39.610047
+        },
+        {
+          "id": 49,
+          "text": "brazen",
+          "startTime": 39.610047,
+          "endTime": 39.87558
+        },
+        {
+          "id": 50,
+          "text": "spider’s",
+          "startTime": 39.87558,
+          "endTime": 40.53804
+        },
+        {
+          "id": 51,
+          "text": "spunk",
+          "startTime": 40.53804,
+          "endTime": 41.734824
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "paragraph": "The nut got a burg",
+      "startTime": 41.734824,
+      "endTime": 43.990667,
+      "words": [
+        {
+          "id": 52,
+          "text": "The",
+          "startTime": 41.734824,
+          "endTime": 42.131071
+        },
+        {
+          "id": 53,
+          "text": "nut",
+          "startTime": 42.131071,
+          "endTime": 42.396031
+        },
+        {
+          "id": 54,
+          "text": "got",
+          "startTime": 42.396031,
+          "endTime": 42.66266
+        },
+        {
+          "id": 55,
+          "text": "a",
+          "startTime": 42.66266,
+          "endTime": 42.929536
+        },
+        {
+          "id": 56,
+          "text": "burg",
+          "startTime": 42.929536,
+          "endTime": 43.990667
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "paragraph": "It is one of web bores.",
+      "startTime": 43.990667,
+      "endTime": 47.719835,
+      "words": [
+        {
+          "id": 57,
+          "text": "It",
+          "startTime": 43.990667,
+          "endTime": 44.787114
+        },
+        {
+          "id": 58,
+          "text": "is",
+          "startTime": 44.787114,
+          "endTime": 45.054633
+        },
+        {
+          "id": 59,
+          "text": "one",
+          "startTime": 45.054633,
+          "endTime": 45.321558
+        },
+        {
+          "id": 60,
+          "text": "of",
+          "startTime": 45.321558,
+          "endTime": 45.450977
+        },
+        {
+          "id": 61,
+          "text": "web",
+          "startTime": 45.450977,
+          "endTime": 45.719835
+        },
+        {
+          "id": 62,
+          "text": "bores.",
+          "startTime": 45.719835,
+          "endTime": 47.719835
+        }
+      ]
+    }
+  ]
+}

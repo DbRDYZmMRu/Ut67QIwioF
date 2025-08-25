@@ -1,0 +1,896 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "No working pen in sight",
+      "startTime": 3.265574,
+      "endTime": 5.921986,
+      "words": [
+        {
+          "id": 1,
+          "text": "No",
+          "startTime": 3.265574,
+          "endTime": 4.195616
+        },
+        {
+          "id": 2,
+          "text": "working",
+          "startTime": 4.195616,
+          "endTime": 4.591358
+        },
+        {
+          "id": 3,
+          "text": "pen",
+          "startTime": 4.591358,
+          "endTime": 4.859696
+        },
+        {
+          "id": 4,
+          "text": "in",
+          "startTime": 4.859696,
+          "endTime": 4.989696
+        },
+        {
+          "id": 5,
+          "text": "sight",
+          "startTime": 4.989696,
+          "endTime": 5.921986
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "My passport is drenched.",
+      "startTime": 5.921986,
+      "endTime": 8.314219,
+      "words": [
+        {
+          "id": 6,
+          "text": "My",
+          "startTime": 5.921986,
+          "endTime": 6.850743
+        },
+        {
+          "id": 7,
+          "text": "passport",
+          "startTime": 6.850743,
+          "endTime": 7.383845
+        },
+        {
+          "id": 8,
+          "text": "is",
+          "startTime": 7.383845,
+          "endTime": 7.645184
+        },
+        {
+          "id": 9,
+          "text": "drenched.",
+          "startTime": 7.645184,
+          "endTime": 8.314219
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "Now I see the latter exactly",
+      "startTime": 8.314219,
+      "endTime": 12.032313,
+      "words": [
+        {
+          "id": 10,
+          "text": "Now",
+          "startTime": 8.314219,
+          "endTime": 9.776396
+        },
+        {
+          "id": 11,
+          "text": "I",
+          "startTime": 9.776396,
+          "endTime": 10.036441
+        },
+        {
+          "id": 12,
+          "text": "see",
+          "startTime": 10.036441,
+          "endTime": 10.17221
+        },
+        {
+          "id": 13,
+          "text": "the",
+          "startTime": 10.17221,
+          "endTime": 10.437014
+        },
+        {
+          "id": 14,
+          "text": "latter",
+          "startTime": 10.437014,
+          "endTime": 10.837595
+        },
+        {
+          "id": 15,
+          "text": "exactly",
+          "startTime": 10.837595,
+          "endTime": 12.032313
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "The night’s dream",
+      "startTime": 12.032313,
+      "endTime": 13.491667,
+      "words": [
+        {
+          "id": 16,
+          "text": "The",
+          "startTime": 12.032313,
+          "endTime": 12.429159
+        },
+        {
+          "id": 17,
+          "text": "night’s",
+          "startTime": 12.429159,
+          "endTime": 12.826758
+        },
+        {
+          "id": 18,
+          "text": "dream",
+          "startTime": 12.826758,
+          "endTime": 13.491667
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "Fop’s trouble.",
+      "startTime": 13.491667,
+      "endTime": 15.881394,
+      "words": [
+        {
+          "id": 19,
+          "text": "Fop’s",
+          "startTime": 13.491667,
+          "endTime": 14.685982
+        },
+        {
+          "id": 20,
+          "text": "trouble.",
+          "startTime": 14.685982,
+          "endTime": 15.881394
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "Some madness in the air",
+      "startTime": 15.881394,
+      "endTime": 19.067434,
+      "words": [
+        {
+          "id": 21,
+          "text": "Some",
+          "startTime": 15.881394,
+          "endTime": 17.343244
+        },
+        {
+          "id": 22,
+          "text": "madness",
+          "startTime": 17.343244,
+          "endTime": 17.874334
+        },
+        {
+          "id": 23,
+          "text": "in",
+          "startTime": 17.874334,
+          "endTime": 18.140605
+        },
+        {
+          "id": 24,
+          "text": "the",
+          "startTime": 18.140605,
+          "endTime": 18.276741
+        },
+        {
+          "id": 25,
+          "text": "air",
+          "startTime": 18.276741,
+          "endTime": 19.067434
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "The equivocal eating by insanity.",
+      "startTime": 19.067434,
+      "endTime": 23.052882,
+      "words": [
+        {
+          "id": 26,
+          "text": "The",
+          "startTime": 19.067434,
+          "endTime": 20.000509
+        },
+        {
+          "id": 27,
+          "text": "equivocal",
+          "startTime": 20.000509,
+          "endTime": 20.795619
+        },
+        {
+          "id": 28,
+          "text": "eating",
+          "startTime": 20.795619,
+          "endTime": 21.198381
+        },
+        {
+          "id": 29,
+          "text": "by",
+          "startTime": 21.198381,
+          "endTime": 21.594145
+        },
+        {
+          "id": 30,
+          "text": "insanity.",
+          "startTime": 21.594145,
+          "endTime": 23.052882
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "I’ve found a third pen in my drawer",
+      "startTime": 23.052882,
+      "endTime": 26.511583,
+      "words": [
+        {
+          "id": 31,
+          "text": "I’ve",
+          "startTime": 23.052882,
+          "endTime": 24.250304
+        },
+        {
+          "id": 32,
+          "text": "found",
+          "startTime": 24.250304,
+          "endTime": 24.515509
+        },
+        {
+          "id": 33,
+          "text": "a",
+          "startTime": 24.515509,
+          "endTime": 24.779957
+        },
+        {
+          "id": 34,
+          "text": "third",
+          "startTime": 24.779957,
+          "endTime": 25.04755
+        },
+        {
+          "id": 35,
+          "text": "pen",
+          "startTime": 25.04755,
+          "endTime": 25.311702
+        },
+        {
+          "id": 36,
+          "text": "in",
+          "startTime": 25.311702,
+          "endTime": 25.445217
+        },
+        {
+          "id": 37,
+          "text": "my",
+          "startTime": 25.445217,
+          "endTime": 25.578804
+        },
+        {
+          "id": 38,
+          "text": "drawer",
+          "startTime": 25.578804,
+          "endTime": 26.511583
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "The many limes on my dresser",
+      "startTime": 26.511583,
+      "endTime": 30.224051,
+      "words": [
+        {
+          "id": 39,
+          "text": "The",
+          "startTime": 26.511583,
+          "endTime": 27.568108
+        },
+        {
+          "id": 40,
+          "text": "many",
+          "startTime": 27.568108,
+          "endTime": 27.703022
+        },
+        {
+          "id": 41,
+          "text": "limes",
+          "startTime": 27.703022,
+          "endTime": 28.232838
+        },
+        {
+          "id": 42,
+          "text": "on",
+          "startTime": 28.232838,
+          "endTime": 29.030952
+        },
+        {
+          "id": 43,
+          "text": "my",
+          "startTime": 29.030952,
+          "endTime": 29.162709
+        },
+        {
+          "id": 44,
+          "text": "dresser",
+          "startTime": 29.162709,
+          "endTime": 30.224051
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "The odour of undrawn juice",
+      "startTime": 30.224051,
+      "endTime": 33.814718,
+      "words": [
+        {
+          "id": 45,
+          "text": "The",
+          "startTime": 30.224051,
+          "endTime": 31.022301
+        },
+        {
+          "id": 46,
+          "text": "odour",
+          "startTime": 31.022301,
+          "endTime": 31.422211
+        },
+        {
+          "id": 47,
+          "text": "of",
+          "startTime": 31.422211,
+          "endTime": 32.348551
+        },
+        {
+          "id": 48,
+          "text": "undrawn",
+          "startTime": 32.348551,
+          "endTime": 32.74914
+        },
+        {
+          "id": 49,
+          "text": "juice",
+          "startTime": 32.74914,
+          "endTime": 33.814718
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "The changing rind colour of the older.",
+      "startTime": 33.814718,
+      "endTime": 37.661235,
+      "words": [
+        {
+          "id": 50,
+          "text": "The",
+          "startTime": 33.814718,
+          "endTime": 34.612756
+        },
+        {
+          "id": 51,
+          "text": "changing",
+          "startTime": 34.612756,
+          "endTime": 34.876026
+        },
+        {
+          "id": 52,
+          "text": "rind",
+          "startTime": 34.876026,
+          "endTime": 35.139255
+        },
+        {
+          "id": 53,
+          "text": "colour",
+          "startTime": 35.139255,
+          "endTime": 35.538411
+        },
+        {
+          "id": 54,
+          "text": "of",
+          "startTime": 35.538411,
+          "endTime": 36.467867
+        },
+        {
+          "id": 55,
+          "text": "the",
+          "startTime": 36.467867,
+          "endTime": 36.601503
+        },
+        {
+          "id": 56,
+          "text": "older.",
+          "startTime": 36.601503,
+          "endTime": 37.661235
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "On my rounds, I pick two more",
+      "startTime": 37.661235,
+      "endTime": 42.442127,
+      "words": [
+        {
+          "id": 57,
+          "text": "On",
+          "startTime": 37.661235,
+          "endTime": 39.126273
+        },
+        {
+          "id": 58,
+          "text": "my",
+          "startTime": 39.126273,
+          "endTime": 39.387386
+        },
+        {
+          "id": 59,
+          "text": "rounds,",
+          "startTime": 39.387386,
+          "endTime": 40.053504
+        },
+        {
+          "id": 60,
+          "text": "I",
+          "startTime": 40.053504,
+          "endTime": 40.850961
+        },
+        {
+          "id": 61,
+          "text": "pick",
+          "startTime": 40.850961,
+          "endTime": 41.114328
+        },
+        {
+          "id": 62,
+          "text": "two",
+          "startTime": 41.114328,
+          "endTime": 41.383089
+        },
+        {
+          "id": 63,
+          "text": "more",
+          "startTime": 41.383089,
+          "endTime": 42.442127
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "paragraph": "Open the gate to the potholes.",
+      "startTime": 42.442127,
+      "endTime": 45.898758,
+      "words": [
+        {
+          "id": 64,
+          "text": "Open",
+          "startTime": 42.442127,
+          "endTime": 43.507987
+        },
+        {
+          "id": 65,
+          "text": "the",
+          "startTime": 43.507987,
+          "endTime": 43.639175
+        },
+        {
+          "id": 66,
+          "text": "gate",
+          "startTime": 43.639175,
+          "endTime": 44.303643
+        },
+        {
+          "id": 67,
+          "text": "to",
+          "startTime": 44.303643,
+          "endTime": 44.704838
+        },
+        {
+          "id": 68,
+          "text": "the",
+          "startTime": 44.704838,
+          "endTime": 44.967966
+        },
+        {
+          "id": 69,
+          "text": "potholes.",
+          "startTime": 44.967966,
+          "endTime": 45.898758
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "paragraph": "One in front of your house",
+      "startTime": 45.898758,
+      "endTime": 49.216908,
+      "words": [
+        {
+          "id": 70,
+          "text": "One",
+          "startTime": 45.898758,
+          "endTime": 47.490618
+        },
+        {
+          "id": 71,
+          "text": "in",
+          "startTime": 47.490618,
+          "endTime": 47.623259
+        },
+        {
+          "id": 72,
+          "text": "front",
+          "startTime": 47.623259,
+          "endTime": 47.889938
+        },
+        {
+          "id": 73,
+          "text": "of",
+          "startTime": 47.889938,
+          "endTime": 48.156828
+        },
+        {
+          "id": 74,
+          "text": "your",
+          "startTime": 48.156828,
+          "endTime": 48.288765
+        },
+        {
+          "id": 75,
+          "text": "house",
+          "startTime": 48.288765,
+          "endTime": 49.216908
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "paragraph": "They say",
+      "startTime": 49.216908,
+      "endTime": 49.882224,
+      "words": [
+        {
+          "id": 76,
+          "text": "They",
+          "startTime": 49.216908,
+          "endTime": 49.617122
+        },
+        {
+          "id": 77,
+          "text": "say",
+          "startTime": 49.617122,
+          "endTime": 49.882224
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "paragraph": "You’ve gone mad.",
+      "startTime": 49.882224,
+      "endTime": 52.212421,
+      "words": [
+        {
+          "id": 78,
+          "text": "You’ve",
+          "startTime": 49.882224,
+          "endTime": 50.811044
+        },
+        {
+          "id": 79,
+          "text": "gone",
+          "startTime": 50.811044,
+          "endTime": 51.079318
+        },
+        {
+          "id": 80,
+          "text": "mad.",
+          "startTime": 51.079318,
+          "endTime": 52.212421
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "paragraph": "If one canine decays, I’d feel pain",
+      "startTime": 52.212421,
+      "endTime": 57.257067,
+      "words": [
+        {
+          "id": 81,
+          "text": "If",
+          "startTime": 52.212421,
+          "endTime": 53.404846
+        },
+        {
+          "id": 82,
+          "text": "one",
+          "startTime": 53.404846,
+          "endTime": 53.540939
+        },
+        {
+          "id": 83,
+          "text": "canine",
+          "startTime": 53.540939,
+          "endTime": 53.937533
+        },
+        {
+          "id": 84,
+          "text": "decays,",
+          "startTime": 53.937533,
+          "endTime": 55.130211
+        },
+        {
+          "id": 85,
+          "text": "I’d",
+          "startTime": 55.130211,
+          "endTime": 55.928944
+        },
+        {
+          "id": 86,
+          "text": "feel",
+          "startTime": 55.928944,
+          "endTime": 56.195307
+        },
+        {
+          "id": 87,
+          "text": "pain",
+          "startTime": 56.195307,
+          "endTime": 57.257067
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "paragraph": "The mirror would offer anodyne.",
+      "startTime": 57.257067,
+      "endTime": 60.975283,
+      "words": [
+        {
+          "id": 88,
+          "text": "The",
+          "startTime": 57.257067,
+          "endTime": 58.055028
+        },
+        {
+          "id": 89,
+          "text": "mirror",
+          "startTime": 58.055028,
+          "endTime": 58.587033
+        },
+        {
+          "id": 90,
+          "text": "would",
+          "startTime": 58.587033,
+          "endTime": 58.848791
+        },
+        {
+          "id": 91,
+          "text": "offer",
+          "startTime": 58.848791,
+          "endTime": 59.646114
+        },
+        {
+          "id": 92,
+          "text": "anodyne.",
+          "startTime": 59.646114,
+          "endTime": 60.975283
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "paragraph": "Of all I need laundered",
+      "startTime": 60.975283,
+      "endTime": 63.898069,
+      "words": [
+        {
+          "id": 93,
+          "text": "Of",
+          "startTime": 60.975283,
+          "endTime": 62.304626
+        },
+        {
+          "id": 94,
+          "text": "all",
+          "startTime": 62.304626,
+          "endTime": 62.570174
+        },
+        {
+          "id": 95,
+          "text": "I",
+          "startTime": 62.570174,
+          "endTime": 62.836423
+        },
+        {
+          "id": 96,
+          "text": "need",
+          "startTime": 62.836423,
+          "endTime": 63.099838
+        },
+        {
+          "id": 97,
+          "text": "laundered",
+          "startTime": 63.099838,
+          "endTime": 63.898069
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "paragraph": "My bedsheet is the gaudy",
+      "startTime": 63.898069,
+      "endTime": 67.621516,
+      "words": [
+        {
+          "id": 98,
+          "text": "My",
+          "startTime": 63.898069,
+          "endTime": 64.836083
+        },
+        {
+          "id": 99,
+          "text": "bedsheet",
+          "startTime": 64.836083,
+          "endTime": 65.630624
+        },
+        {
+          "id": 100,
+          "text": "is",
+          "startTime": 65.630624,
+          "endTime": 66.031489
+        },
+        {
+          "id": 101,
+          "text": "the",
+          "startTime": 66.031489,
+          "endTime": 66.296559
+        },
+        {
+          "id": 102,
+          "text": "gaudy",
+          "startTime": 66.296559,
+          "endTime": 67.621516
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "paragraph": "They aren’t dirty or muddy",
+      "startTime": 67.621516,
+      "endTime": 70.80628,
+      "words": [
+        {
+          "id": 103,
+          "text": "They",
+          "startTime": 67.621516,
+          "endTime": 68.684179
+        },
+        {
+          "id": 104,
+          "text": "aren’t",
+          "startTime": 68.684179,
+          "endTime": 68.951576
+        },
+        {
+          "id": 105,
+          "text": "dirty",
+          "startTime": 68.951576,
+          "endTime": 69.616722
+        },
+        {
+          "id": 106,
+          "text": "or",
+          "startTime": 69.616722,
+          "endTime": 69.747678
+        },
+        {
+          "id": 107,
+          "text": "muddy",
+          "startTime": 69.747678,
+          "endTime": 70.80628
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "paragraph": "But once I saw one’s own",
+      "startTime": 70.80628,
+      "endTime": 73.733543,
+      "words": [
+        {
+          "id": 108,
+          "text": "But",
+          "startTime": 70.80628,
+          "endTime": 71.338744
+        },
+        {
+          "id": 109,
+          "text": "once",
+          "startTime": 71.338744,
+          "endTime": 72.140183
+        },
+        {
+          "id": 110,
+          "text": "I",
+          "startTime": 72.140183,
+          "endTime": 72.407684
+        },
+        {
+          "id": 111,
+          "text": "saw",
+          "startTime": 72.407684,
+          "endTime": 72.671771
+        },
+        {
+          "id": 112,
+          "text": "one’s",
+          "startTime": 72.671771,
+          "endTime": 73.07068
+        },
+        {
+          "id": 113,
+          "text": "own",
+          "startTime": 73.07068,
+          "endTime": 73.733543
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "paragraph": "And caught who I am.",
+      "startTime": 73.733543,
+      "endTime": 77.194157,
+      "words": [
+        {
+          "id": 114,
+          "text": "And",
+          "startTime": 73.733543,
+          "endTime": 74.397764
+        },
+        {
+          "id": 115,
+          "text": "caught",
+          "startTime": 74.397764,
+          "endTime": 74.663042
+        },
+        {
+          "id": 116,
+          "text": "who",
+          "startTime": 74.663042,
+          "endTime": 75.061903
+        },
+        {
+          "id": 117,
+          "text": "I",
+          "startTime": 75.061903,
+          "endTime": 75.194157
+        },
+        {
+          "id": 118,
+          "text": "am.",
+          "startTime": 75.194157,
+          "endTime": 77.194157
+        }
+      ]
+    }
+  ]
+}

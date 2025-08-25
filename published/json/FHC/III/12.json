@@ -1,0 +1,202 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Where I held the umbrella",
+      "startTime": 5.638548,
+      "endTime": 8.028068,
+      "words": [
+        {
+          "id": 1,
+          "text": "Where",
+          "startTime": 5.638548,
+          "endTime": 6.301988
+        },
+        {
+          "id": 2,
+          "text": "I",
+          "startTime": 6.301988,
+          "endTime": 6.566259
+        },
+        {
+          "id": 3,
+          "text": "held",
+          "startTime": 6.566259,
+          "endTime": 6.701105
+        },
+        {
+          "id": 4,
+          "text": "the",
+          "startTime": 6.701105,
+          "endTime": 7.098874
+        },
+        {
+          "id": 5,
+          "text": "umbrella",
+          "startTime": 7.098874,
+          "endTime": 8.028068
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "At just high up pica, pica",
+      "startTime": 8.028068,
+      "endTime": 11.749086,
+      "words": [
+        {
+          "id": 6,
+          "text": "At",
+          "startTime": 8.028068,
+          "endTime": 8.958228
+        },
+        {
+          "id": 7,
+          "text": "just",
+          "startTime": 8.958228,
+          "endTime": 9.355163
+        },
+        {
+          "id": 8,
+          "text": "high",
+          "startTime": 9.355163,
+          "endTime": 9.491232
+        },
+        {
+          "id": 9,
+          "text": "up",
+          "startTime": 9.491232,
+          "endTime": 10.284048
+        },
+        {
+          "id": 10,
+          "text": "pica,",
+          "startTime": 10.284048,
+          "endTime": 10.684582
+        },
+        {
+          "id": 11,
+          "text": "pica",
+          "startTime": 10.684582,
+          "endTime": 11.749086
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "From the curve handle arc",
+      "startTime": 11.749086,
+      "endTime": 15.068868,
+      "words": [
+        {
+          "id": 12,
+          "text": "From",
+          "startTime": 11.749086,
+          "endTime": 13.076094
+        },
+        {
+          "id": 13,
+          "text": "the",
+          "startTime": 13.076094,
+          "endTime": 13.338877
+        },
+        {
+          "id": 14,
+          "text": "curve",
+          "startTime": 13.338877,
+          "endTime": 13.6086
+        },
+        {
+          "id": 15,
+          "text": "handle",
+          "startTime": 13.6086,
+          "endTime": 14.004819
+        },
+        {
+          "id": 16,
+          "text": "arc",
+          "startTime": 14.004819,
+          "endTime": 15.068868
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "There we went begorrah!",
+      "startTime": 15.068868,
+      "endTime": 17.721346,
+      "words": [
+        {
+          "id": 17,
+          "text": "There",
+          "startTime": 15.068868,
+          "endTime": 15.728741
+        },
+        {
+          "id": 18,
+          "text": "we",
+          "startTime": 15.728741,
+          "endTime": 15.86551
+        },
+        {
+          "id": 19,
+          "text": "went",
+          "startTime": 15.86551,
+          "endTime": 16.397574
+        },
+        {
+          "id": 20,
+          "text": "begorrah!",
+          "startTime": 16.397574,
+          "endTime": 17.721346
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "Taking our fall together",
+      "startTime": 17.721346,
+      "endTime": 20.779775,
+      "words": [
+        {
+          "id": 21,
+          "text": "Taking",
+          "startTime": 17.721346,
+          "endTime": 18.650706
+        },
+        {
+          "id": 22,
+          "text": "our",
+          "startTime": 18.650706,
+          "endTime": 18.919067
+        },
+        {
+          "id": 23,
+          "text": "fall",
+          "startTime": 18.919067,
+          "endTime": 19.580881
+        },
+        {
+          "id": 24,
+          "text": "together",
+          "startTime": 19.580881,
+          "endTime": 20.779775
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "Gee!",
+      "startTime": 20.779775,
+      "endTime": 22.779775,
+      "words": [
+        {
+          "id": 25,
+          "text": "Gee!",
+          "startTime": 20.779775,
+          "endTime": 22.779775
+        }
+      ]
+    }
+  ]
+}

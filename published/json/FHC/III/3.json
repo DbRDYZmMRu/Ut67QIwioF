@@ -1,0 +1,250 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Lang syne",
+      "startTime": 4.431104,
+      "endTime": 6.819527,
+      "words": [
+        {
+          "id": 1,
+          "text": "Lang",
+          "startTime": 4.431104,
+          "endTime": 5.752594
+        },
+        {
+          "id": 2,
+          "text": "syne",
+          "startTime": 5.752594,
+          "endTime": 6.819527
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "Footloose...",
+      "startTime": 6.819527,
+      "endTime": 8.546297,
+      "words": [
+        {
+          "id": 3,
+          "text": "Footloose...",
+          "startTime": 6.819527,
+          "endTime": 8.546297
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "Carte blanche the giddy goat",
+      "startTime": 8.546297,
+      "endTime": 11.999185,
+      "words": [
+        {
+          "id": 4,
+          "text": "Carte",
+          "startTime": 8.546297,
+          "endTime": 9.871044
+        },
+        {
+          "id": 5,
+          "text": "blanche",
+          "startTime": 9.871044,
+          "endTime": 10.401011
+        },
+        {
+          "id": 6,
+          "text": "the",
+          "startTime": 10.401011,
+          "endTime": 10.800912
+        },
+        {
+          "id": 7,
+          "text": "giddy",
+          "startTime": 10.800912,
+          "endTime": 10.933718
+        },
+        {
+          "id": 8,
+          "text": "goat",
+          "startTime": 10.933718,
+          "endTime": 11.999185
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "Floundering in ganache slobby",
+      "startTime": 11.999185,
+      "endTime": 15.849039,
+      "words": [
+        {
+          "id": 9,
+          "text": "Floundering",
+          "startTime": 11.999185,
+          "endTime": 13.590235
+        },
+        {
+          "id": 10,
+          "text": "in",
+          "startTime": 13.590235,
+          "endTime": 14.121245
+        },
+        {
+          "id": 11,
+          "text": "ganache",
+          "startTime": 14.121245,
+          "endTime": 14.653516
+        },
+        {
+          "id": 12,
+          "text": "slobby",
+          "startTime": 14.653516,
+          "endTime": 15.849039
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "Finking out",
+      "startTime": 15.849039,
+      "endTime": 18.107209,
+      "words": [
+        {
+          "id": 13,
+          "text": "Finking",
+          "startTime": 15.849039,
+          "endTime": 17.175373
+        },
+        {
+          "id": 14,
+          "text": "out",
+          "startTime": 17.175373,
+          "endTime": 18.107209
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "The gyve of attraction",
+      "startTime": 18.107209,
+      "endTime": 21.162357,
+      "words": [
+        {
+          "id": 15,
+          "text": "The",
+          "startTime": 18.107209,
+          "endTime": 18.903947
+        },
+        {
+          "id": 16,
+          "text": "gyve",
+          "startTime": 18.903947,
+          "endTime": 19.568188
+        },
+        {
+          "id": 17,
+          "text": "of",
+          "startTime": 19.568188,
+          "endTime": 19.965334
+        },
+        {
+          "id": 18,
+          "text": "attraction",
+          "startTime": 19.965334,
+          "endTime": 21.162357
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "On fame grove...",
+      "startTime": 21.162357,
+      "endTime": 23.953283,
+      "words": [
+        {
+          "id": 19,
+          "text": "On",
+          "startTime": 21.162357,
+          "endTime": 22.488815
+        },
+        {
+          "id": 20,
+          "text": "fame",
+          "startTime": 22.488815,
+          "endTime": 22.88977
+        },
+        {
+          "id": 21,
+          "text": "grove...",
+          "startTime": 22.88977,
+          "endTime": 23.953283
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "Up my heart piedmont",
+      "startTime": 23.953283,
+      "endTime": 26.607355,
+      "words": [
+        {
+          "id": 22,
+          "text": "Up",
+          "startTime": 23.953283,
+          "endTime": 25.011269
+        },
+        {
+          "id": 23,
+          "text": "my",
+          "startTime": 25.011269,
+          "endTime": 25.280224
+        },
+        {
+          "id": 24,
+          "text": "heart",
+          "startTime": 25.280224,
+          "endTime": 25.676218
+        },
+        {
+          "id": 25,
+          "text": "piedmont",
+          "startTime": 25.676218,
+          "endTime": 26.607355
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "Was a crying prithee.",
+      "startTime": 26.607355,
+      "endTime": 29.936364,
+      "words": [
+        {
+          "id": 26,
+          "text": "Was",
+          "startTime": 26.607355,
+          "endTime": 27.274766
+        },
+        {
+          "id": 27,
+          "text": "a",
+          "startTime": 27.274766,
+          "endTime": 27.536276
+        },
+        {
+          "id": 28,
+          "text": "crying",
+          "startTime": 27.536276,
+          "endTime": 27.936364
+        },
+        {
+          "id": 29,
+          "text": "prithee.",
+          "startTime": 27.936364,
+          "endTime": 29.936364
+        }
+      ]
+    }
+  ]
+}

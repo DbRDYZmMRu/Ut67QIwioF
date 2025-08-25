@@ -1,0 +1,120 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Exploring beyond mine;",
+      "startTime": 4.733895,
+      "endTime": 7.785459,
+      "words": [
+        {
+          "id": 1,
+          "text": "Exploring",
+          "startTime": 4.733895,
+          "endTime": 6.056155
+        },
+        {
+          "id": 2,
+          "text": "beyond",
+          "startTime": 6.056155,
+          "endTime": 6.458339
+        },
+        {
+          "id": 3,
+          "text": "mine;",
+          "startTime": 6.458339,
+          "endTime": 7.785459
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "Imagination’s own haecceity.",
+      "startTime": 7.785459,
+      "endTime": 10.972705,
+      "words": [
+        {
+          "id": 4,
+          "text": "Imagination’s",
+          "startTime": 7.785459,
+          "endTime": 9.248087
+        },
+        {
+          "id": 5,
+          "text": "own",
+          "startTime": 9.248087,
+          "endTime": 9.643915
+        },
+        {
+          "id": 6,
+          "text": "haecceity.",
+          "startTime": 9.643915,
+          "endTime": 10.972705
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "I’m umbra of the ebbing tide",
+      "startTime": 10.972705,
+      "endTime": 14.824856,
+      "words": [
+        {
+          "id": 7,
+          "text": "I’m",
+          "startTime": 10.972705,
+          "endTime": 12.034171
+        },
+        {
+          "id": 8,
+          "text": "umbra",
+          "startTime": 12.034171,
+          "endTime": 12.564297
+        },
+        {
+          "id": 9,
+          "text": "of",
+          "startTime": 12.564297,
+          "endTime": 13.366669
+        },
+        {
+          "id": 10,
+          "text": "the",
+          "startTime": 13.366669,
+          "endTime": 13.494335
+        },
+        {
+          "id": 11,
+          "text": "ebbing",
+          "startTime": 13.494335,
+          "endTime": 13.89432
+        },
+        {
+          "id": 12,
+          "text": "tide",
+          "startTime": 13.89432,
+          "endTime": 14.824856
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "Nature’s baldachin.",
+      "startTime": 14.824856,
+      "endTime": 18.018959,
+      "words": [
+        {
+          "id": 13,
+          "text": "Nature’s",
+          "startTime": 14.824856,
+          "endTime": 16.018959
+        },
+        {
+          "id": 14,
+          "text": "baldachin.",
+          "startTime": 16.018959,
+          "endTime": 18.018959
+        }
+      ]
+    }
+  ]
+}

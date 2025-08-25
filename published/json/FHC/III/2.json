@@ -1,0 +1,82 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "‘Tween the main",
+      "startTime": 3.319289,
+      "endTime": 5.975244,
+      "words": [
+        {
+          "id": 1,
+          "text": "‘Tween",
+          "startTime": 3.319289,
+          "endTime": 4.383493
+        },
+        {
+          "id": 2,
+          "text": "the",
+          "startTime": 4.383493,
+          "endTime": 4.911167
+        },
+        {
+          "id": 3,
+          "text": "main",
+          "startTime": 4.911167,
+          "endTime": 5.975244
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "Lies the hanker",
+      "startTime": 5.975244,
+      "endTime": 8.096424,
+      "words": [
+        {
+          "id": 4,
+          "text": "Lies",
+          "startTime": 5.975244,
+          "endTime": 6.506617
+        },
+        {
+          "id": 5,
+          "text": "the",
+          "startTime": 6.506617,
+          "endTime": 7.037721
+        },
+        {
+          "id": 6,
+          "text": "hanker",
+          "startTime": 7.037721,
+          "endTime": 8.096424
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "Aim she says.",
+      "startTime": 8.096424,
+      "endTime": 11.427041,
+      "words": [
+        {
+          "id": 7,
+          "text": "Aim",
+          "startTime": 8.096424,
+          "endTime": 8.89702
+        },
+        {
+          "id": 8,
+          "text": "she",
+          "startTime": 8.89702,
+          "endTime": 9.427041
+        },
+        {
+          "id": 9,
+          "text": "says.",
+          "startTime": 9.427041,
+          "endTime": 11.427041
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Who never honked neigh",
+      "startTime": 3.697892,
+      "endTime": 8.349075,
+      "words": [
+        {
+          "id": 1,
+          "text": "Who",
+          "startTime": 3.697892,
+          "endTime": 6.220828
+        },
+        {
+          "id": 2,
+          "text": "never",
+          "startTime": 6.220828,
+          "endTime": 6.484422
+        },
+        {
+          "id": 3,
+          "text": "honked",
+          "startTime": 6.484422,
+          "endTime": 6.884572
+        },
+        {
+          "id": 4,
+          "text": "neigh",
+          "startTime": 6.884572,
+          "endTime": 8.349075
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "Herald short, long hail",
+      "startTime": 8.349075,
+      "endTime": 11.400706,
+      "words": [
+        {
+          "id": 5,
+          "text": "Herald",
+          "startTime": 8.349075,
+          "endTime": 8.611649
+        },
+        {
+          "id": 6,
+          "text": "short,",
+          "startTime": 8.611649,
+          "endTime": 9.543018
+        },
+        {
+          "id": 7,
+          "text": "long",
+          "startTime": 9.543018,
+          "endTime": 10.206912
+        },
+        {
+          "id": 8,
+          "text": "hail",
+          "startTime": 10.206912,
+          "endTime": 11.400706
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "Hello, hi, oh time away",
+      "startTime": 11.400706,
+      "endTime": 16.048548,
+      "words": [
+        {
+          "id": 9,
+          "text": "Hello,",
+          "startTime": 11.400706,
+          "endTime": 12.461393
+        },
+        {
+          "id": 10,
+          "text": "hi,",
+          "startTime": 12.461393,
+          "endTime": 13.792732
+        },
+        {
+          "id": 11,
+          "text": "oh",
+          "startTime": 13.792732,
+          "endTime": 14.590787
+        },
+        {
+          "id": 12,
+          "text": "time",
+          "startTime": 14.590787,
+          "endTime": 14.984973
+        },
+        {
+          "id": 13,
+          "text": "away",
+          "startTime": 14.984973,
+          "endTime": 16.048548
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "Brittle, nettle dissuade",
+      "startTime": 16.048548,
+      "endTime": 19.765601,
+      "words": [
+        {
+          "id": 14,
+          "text": "Brittle,",
+          "startTime": 16.048548,
+          "endTime": 17.507766
+        },
+        {
+          "id": 15,
+          "text": "nettle",
+          "startTime": 17.507766,
+          "endTime": 18.040685
+        },
+        {
+          "id": 16,
+          "text": "dissuade",
+          "startTime": 18.040685,
+          "endTime": 19.765601
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "Big who every chicane",
+      "startTime": 19.765601,
+      "endTime": 23.487012,
+      "words": [
+        {
+          "id": 17,
+          "text": "Big",
+          "startTime": 19.765601,
+          "endTime": 20.963006
+        },
+        {
+          "id": 18,
+          "text": "who",
+          "startTime": 20.963006,
+          "endTime": 21.758841
+        },
+        {
+          "id": 19,
+          "text": "every",
+          "startTime": 21.758841,
+          "endTime": 22.155686
+        },
+        {
+          "id": 20,
+          "text": "chicane",
+          "startTime": 22.155686,
+          "endTime": 23.487012
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "My Beetle Bug parfait.",
+      "startTime": 23.487012,
+      "endTime": 27.346454,
+      "words": [
+        {
+          "id": 21,
+          "text": "My",
+          "startTime": 23.487012,
+          "endTime": 24.682405
+        },
+        {
+          "id": 22,
+          "text": "Beetle",
+          "startTime": 24.682405,
+          "endTime": 24.947737
+        },
+        {
+          "id": 23,
+          "text": "Bug",
+          "startTime": 24.947737,
+          "endTime": 25.346454
+        },
+        {
+          "id": 24,
+          "text": "parfait.",
+          "startTime": 25.346454,
+          "endTime": 27.346454
+        }
+      ]
+    }
+  ]
+}
