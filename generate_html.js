@@ -127,7 +127,7 @@ const htmlTemplate = (title, description, keywords, ogImage, ogUrl, twitterImage
 // Generate HTML files
 poetryTitles.forEach((title, index) => {
   const description = `${title} is a poem from Frith Hilton Collection III by Howard Frith Hilton`;
-  const keywords = `${title}, Frith Hilton Collection VIII`;
+  const keywords = `${title}, Frith Hilton Collection III`;
   const ogImage = `https://frithhilton.com.ng/images/share/FHC/3/image_${index + 1}.png`;
   const ogUrl = `https://www.frithhilton.com.ng/published/poetry/frith-hilton-collection-III.html?query=${index + 1}`;
   const twitterImage = ogImage;
@@ -135,7 +135,7 @@ poetryTitles.forEach((title, index) => {
   const redirectUrl = ogUrl;
   
   const htmlContent = htmlTemplate(
-    `${title} - Frith Hilton Collection VIII`,
+    `${title} - Frith Hilton Collection III`,
     description,
     keywords,
     ogImage,
