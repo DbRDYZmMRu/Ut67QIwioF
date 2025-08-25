@@ -1,0 +1,418 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Last night I had a night vision",
+      "startTime": 3.347147,
+      "endTime": 6.267103,
+      "words": [
+        {
+          "id": 1,
+          "text": "Last",
+          "startTime": 3.347147,
+          "endTime": 4.011409
+        },
+        {
+          "id": 2,
+          "text": "night",
+          "startTime": 4.011409,
+          "endTime": 4.275953
+        },
+        {
+          "id": 3,
+          "text": "I",
+          "startTime": 4.275953,
+          "endTime": 4.808572
+        },
+        {
+          "id": 4,
+          "text": "had",
+          "startTime": 4.808572,
+          "endTime": 5.072661
+        },
+        {
+          "id": 5,
+          "text": "a",
+          "startTime": 5.072661,
+          "endTime": 5.206885
+        },
+        {
+          "id": 6,
+          "text": "night",
+          "startTime": 5.206885,
+          "endTime": 5.473012
+        },
+        {
+          "id": 7,
+          "text": "vision",
+          "startTime": 5.473012,
+          "endTime": 6.267103
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "An impressive farrago sundown",
+      "startTime": 6.267103,
+      "endTime": 9.324893,
+      "words": [
+        {
+          "id": 8,
+          "text": "An",
+          "startTime": 6.267103,
+          "endTime": 7.200088
+        },
+        {
+          "id": 9,
+          "text": "impressive",
+          "startTime": 7.200088,
+          "endTime": 7.726491
+        },
+        {
+          "id": 10,
+          "text": "farrago",
+          "startTime": 7.726491,
+          "endTime": 8.257956
+        },
+        {
+          "id": 11,
+          "text": "sundown",
+          "startTime": 8.257956,
+          "endTime": 9.324893
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "Birds flocked in detail copious",
+      "startTime": 9.324893,
+      "endTime": 13.574983,
+      "words": [
+        {
+          "id": 12,
+          "text": "Birds",
+          "startTime": 9.324893,
+          "endTime": 10.65398
+        },
+        {
+          "id": 13,
+          "text": "flocked",
+          "startTime": 10.65398,
+          "endTime": 11.31831
+        },
+        {
+          "id": 14,
+          "text": "in",
+          "startTime": 11.31831,
+          "endTime": 11.981783
+        },
+        {
+          "id": 15,
+          "text": "detail",
+          "startTime": 11.981783,
+          "endTime": 12.378481
+        },
+        {
+          "id": 16,
+          "text": "copious",
+          "startTime": 12.378481,
+          "endTime": 13.574983
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "An anile doggerel on shoe",
+      "startTime": 13.574983,
+      "endTime": 17.160478,
+      "words": [
+        {
+          "id": 17,
+          "text": "An",
+          "startTime": 13.574983,
+          "endTime": 14.503571
+        },
+        {
+          "id": 18,
+          "text": "anile",
+          "startTime": 14.503571,
+          "endTime": 14.90295
+        },
+        {
+          "id": 19,
+          "text": "doggerel",
+          "startTime": 14.90295,
+          "endTime": 15.963323
+        },
+        {
+          "id": 20,
+          "text": "on",
+          "startTime": 15.963323,
+          "endTime": 16.098421
+        },
+        {
+          "id": 21,
+          "text": "shoe",
+          "startTime": 16.098421,
+          "endTime": 17.160478
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "Wasted high on bourbon",
+      "startTime": 17.160478,
+      "endTime": 20.212639,
+      "words": [
+        {
+          "id": 22,
+          "text": "Wasted",
+          "startTime": 17.160478,
+          "endTime": 17.955459
+        },
+        {
+          "id": 23,
+          "text": "high",
+          "startTime": 17.955459,
+          "endTime": 18.490542
+        },
+        {
+          "id": 24,
+          "text": "on",
+          "startTime": 18.490542,
+          "endTime": 19.151291
+        },
+        {
+          "id": 25,
+          "text": "bourbon",
+          "startTime": 19.151291,
+          "endTime": 20.212639
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "Ambulating to Thursday",
+      "startTime": 20.212639,
+      "endTime": 22.739681,
+      "words": [
+        {
+          "id": 26,
+          "text": "Ambulating",
+          "startTime": 20.212639,
+          "endTime": 21.676892
+        },
+        {
+          "id": 27,
+          "text": "to",
+          "startTime": 21.676892,
+          "endTime": 21.809115
+        },
+        {
+          "id": 28,
+          "text": "Thursday",
+          "startTime": 21.809115,
+          "endTime": 22.739681
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "And it had on a bonnet",
+      "startTime": 22.739681,
+      "endTime": 25.527305,
+      "words": [
+        {
+          "id": 29,
+          "text": "And",
+          "startTime": 22.739681,
+          "endTime": 24.065695
+        },
+        {
+          "id": 30,
+          "text": "it",
+          "startTime": 24.065695,
+          "endTime": 24.19928
+        },
+        {
+          "id": 31,
+          "text": "had",
+          "startTime": 24.19928,
+          "endTime": 24.462212
+        },
+        {
+          "id": 32,
+          "text": "on",
+          "startTime": 24.462212,
+          "endTime": 24.72828
+        },
+        {
+          "id": 33,
+          "text": "a",
+          "startTime": 24.72828,
+          "endTime": 24.863794
+        },
+        {
+          "id": 34,
+          "text": "bonnet",
+          "startTime": 24.863794,
+          "endTime": 25.527305
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "It matched my sleeve.",
+      "startTime": 25.527305,
+      "endTime": 28.182302,
+      "words": [
+        {
+          "id": 35,
+          "text": "It",
+          "startTime": 25.527305,
+          "endTime": 26.723076
+        },
+        {
+          "id": 36,
+          "text": "matched",
+          "startTime": 26.723076,
+          "endTime": 26.987213
+        },
+        {
+          "id": 37,
+          "text": "my",
+          "startTime": 26.987213,
+          "endTime": 27.253468
+        },
+        {
+          "id": 38,
+          "text": "sleeve.",
+          "startTime": 27.253468,
+          "endTime": 28.182302
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "On my table were left",
+      "startTime": 28.182302,
+      "endTime": 31.368764,
+      "words": [
+        {
+          "id": 39,
+          "text": "On",
+          "startTime": 28.182302,
+          "endTime": 29.511474
+        },
+        {
+          "id": 40,
+          "text": "my",
+          "startTime": 29.511474,
+          "endTime": 29.771769
+        },
+        {
+          "id": 41,
+          "text": "table",
+          "startTime": 29.771769,
+          "endTime": 30.172892
+        },
+        {
+          "id": 42,
+          "text": "were",
+          "startTime": 30.172892,
+          "endTime": 30.442213
+        },
+        {
+          "id": 43,
+          "text": "left",
+          "startTime": 30.442213,
+          "endTime": 31.368764
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "Two seats",
+      "startTime": 31.368764,
+      "endTime": 32.565823,
+      "words": [
+        {
+          "id": 44,
+          "text": "Two",
+          "startTime": 31.368764,
+          "endTime": 31.77138
+        },
+        {
+          "id": 45,
+          "text": "seats",
+          "startTime": 31.77138,
+          "endTime": 32.565823
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "I expected just you",
+      "startTime": 32.565823,
+      "endTime": 35.754444,
+      "words": [
+        {
+          "id": 46,
+          "text": "I",
+          "startTime": 32.565823,
+          "endTime": 33.763519
+        },
+        {
+          "id": 47,
+          "text": "expected",
+          "startTime": 33.763519,
+          "endTime": 34.290669
+        },
+        {
+          "id": 48,
+          "text": "just",
+          "startTime": 34.290669,
+          "endTime": 34.556881
+        },
+        {
+          "id": 49,
+          "text": "you",
+          "startTime": 34.556881,
+          "endTime": 35.754444
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "Sparkling water and ashtray.",
+      "startTime": 35.754444,
+      "endTime": 39.877495,
+      "words": [
+        {
+          "id": 50,
+          "text": "Sparkling",
+          "startTime": 35.754444,
+          "endTime": 36.547618
+        },
+        {
+          "id": 51,
+          "text": "water",
+          "startTime": 36.547618,
+          "endTime": 37.078014
+        },
+        {
+          "id": 52,
+          "text": "and",
+          "startTime": 37.078014,
+          "endTime": 37.877495
+        },
+        {
+          "id": 53,
+          "text": "ashtray.",
+          "startTime": 37.877495,
+          "endTime": 39.877495
+        }
+      ]
+    }
+  ]
+}

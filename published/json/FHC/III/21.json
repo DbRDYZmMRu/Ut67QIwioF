@@ -1,0 +1,924 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I had a place to go.",
+      "startTime": 4.450122,
+      "endTime": 6.441394,
+      "words": [
+        {
+          "id": 1,
+          "text": "I",
+          "startTime": 4.450122,
+          "endTime": 4.982761
+        },
+        {
+          "id": 2,
+          "text": "had",
+          "startTime": 4.982761,
+          "endTime": 5.114131
+        },
+        {
+          "id": 3,
+          "text": "a",
+          "startTime": 5.114131,
+          "endTime": 5.381884
+        },
+        {
+          "id": 4,
+          "text": "place",
+          "startTime": 5.381884,
+          "endTime": 5.645297
+        },
+        {
+          "id": 5,
+          "text": "to",
+          "startTime": 5.645297,
+          "endTime": 5.7799
+        },
+        {
+          "id": 6,
+          "text": "go.",
+          "startTime": 5.7799,
+          "endTime": 6.441394
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "With an interview to close",
+      "startTime": 6.441394,
+      "endTime": 9.362672,
+      "words": [
+        {
+          "id": 7,
+          "text": "With",
+          "startTime": 6.441394,
+          "endTime": 7.507421
+        },
+        {
+          "id": 8,
+          "text": "an",
+          "startTime": 7.507421,
+          "endTime": 7.772283
+        },
+        {
+          "id": 9,
+          "text": "interview",
+          "startTime": 7.772283,
+          "endTime": 8.302746
+        },
+        {
+          "id": 10,
+          "text": "to",
+          "startTime": 8.302746,
+          "endTime": 8.570864
+        },
+        {
+          "id": 11,
+          "text": "close",
+          "startTime": 8.570864,
+          "endTime": 9.362672
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "A fine finagle to reproach",
+      "startTime": 9.362672,
+      "endTime": 12.552562,
+      "words": [
+        {
+          "id": 12,
+          "text": "A",
+          "startTime": 9.362672,
+          "endTime": 10.291192
+        },
+        {
+          "id": 13,
+          "text": "fine",
+          "startTime": 10.291192,
+          "endTime": 10.557954
+        },
+        {
+          "id": 14,
+          "text": "finagle",
+          "startTime": 10.557954,
+          "endTime": 11.358508
+        },
+        {
+          "id": 15,
+          "text": "to",
+          "startTime": 11.358508,
+          "endTime": 11.488701
+        },
+        {
+          "id": 16,
+          "text": "reproach",
+          "startTime": 11.488701,
+          "endTime": 12.552562
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "Shooting scuttle to dole.",
+      "startTime": 12.552562,
+      "endTime": 15.213411,
+      "words": [
+        {
+          "id": 17,
+          "text": "Shooting",
+          "startTime": 12.552562,
+          "endTime": 13.611606
+        },
+        {
+          "id": 18,
+          "text": "scuttle",
+          "startTime": 13.611606,
+          "endTime": 14.292654
+        },
+        {
+          "id": 19,
+          "text": "to",
+          "startTime": 14.292654,
+          "endTime": 14.55216
+        },
+        {
+          "id": 20,
+          "text": "dole.",
+          "startTime": 14.55216,
+          "endTime": 15.213411
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "I had bought three glues to hold",
+      "startTime": 15.213411,
+      "endTime": 18.935153,
+      "words": [
+        {
+          "id": 21,
+          "text": "I",
+          "startTime": 15.213411,
+          "endTime": 16.542343
+        },
+        {
+          "id": 22,
+          "text": "had",
+          "startTime": 16.542343,
+          "endTime": 16.67848
+        },
+        {
+          "id": 23,
+          "text": "bought",
+          "startTime": 16.67848,
+          "endTime": 16.941788
+        },
+        {
+          "id": 24,
+          "text": "three",
+          "startTime": 16.941788,
+          "endTime": 17.210625
+        },
+        {
+          "id": 25,
+          "text": "glues",
+          "startTime": 17.210625,
+          "endTime": 17.872559
+        },
+        {
+          "id": 26,
+          "text": "to",
+          "startTime": 17.872559,
+          "endTime": 18.137042
+        },
+        {
+          "id": 27,
+          "text": "hold",
+          "startTime": 18.137042,
+          "endTime": 18.935153
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "Lest my old Nike turn to brogues.",
+      "startTime": 18.935153,
+      "endTime": 22.52107,
+      "words": [
+        {
+          "id": 28,
+          "text": "Lest",
+          "startTime": 18.935153,
+          "endTime": 19.732196
+        },
+        {
+          "id": 29,
+          "text": "my",
+          "startTime": 19.732196,
+          "endTime": 20.263064
+        },
+        {
+          "id": 30,
+          "text": "old",
+          "startTime": 20.263064,
+          "endTime": 20.529408
+        },
+        {
+          "id": 31,
+          "text": "Nike",
+          "startTime": 20.529408,
+          "endTime": 20.928696
+        },
+        {
+          "id": 32,
+          "text": "turn",
+          "startTime": 20.928696,
+          "endTime": 21.326808
+        },
+        {
+          "id": 33,
+          "text": "to",
+          "startTime": 21.326808,
+          "endTime": 21.590854
+        },
+        {
+          "id": 34,
+          "text": "brogues.",
+          "startTime": 21.590854,
+          "endTime": 22.52107
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "This, this, this. I held out to scold.",
+      "startTime": 22.52107,
+      "endTime": 27.170378,
+      "words": [
+        {
+          "id": 35,
+          "text": "This,",
+          "startTime": 22.52107,
+          "endTime": 23.450681
+        },
+        {
+          "id": 36,
+          "text": "this,",
+          "startTime": 23.450681,
+          "endTime": 24.112702
+        },
+        {
+          "id": 37,
+          "text": "this.",
+          "startTime": 24.112702,
+          "endTime": 24.912362
+        },
+        {
+          "id": 38,
+          "text": "I",
+          "startTime": 24.912362,
+          "endTime": 25.442425
+        },
+        {
+          "id": 39,
+          "text": "held",
+          "startTime": 25.442425,
+          "endTime": 25.709886
+        },
+        {
+          "id": 40,
+          "text": "out",
+          "startTime": 25.709886,
+          "endTime": 26.239616
+        },
+        {
+          "id": 41,
+          "text": "to",
+          "startTime": 26.239616,
+          "endTime": 26.374319
+        },
+        {
+          "id": 42,
+          "text": "scold.",
+          "startTime": 26.374319,
+          "endTime": 27.170378
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "I’ve an interview, I’ve got to show",
+      "startTime": 27.170378,
+      "endTime": 31.164754,
+      "words": [
+        {
+          "id": 43,
+          "text": "I’ve",
+          "startTime": 27.170378,
+          "endTime": 28.37054
+        },
+        {
+          "id": 44,
+          "text": "an",
+          "startTime": 28.37054,
+          "endTime": 28.62925
+        },
+        {
+          "id": 45,
+          "text": "interview,",
+          "startTime": 28.62925,
+          "endTime": 29.430636
+        },
+        {
+          "id": 46,
+          "text": "I’ve",
+          "startTime": 29.430636,
+          "endTime": 30.099925
+        },
+        {
+          "id": 47,
+          "text": "got",
+          "startTime": 30.099925,
+          "endTime": 30.365732
+        },
+        {
+          "id": 48,
+          "text": "to",
+          "startTime": 30.365732,
+          "endTime": 30.628981
+        },
+        {
+          "id": 49,
+          "text": "show",
+          "startTime": 30.628981,
+          "endTime": 31.164754
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "Her face glowing close to albino.",
+      "startTime": 31.164754,
+      "endTime": 35.146865,
+      "words": [
+        {
+          "id": 50,
+          "text": "Her",
+          "startTime": 31.164754,
+          "endTime": 32.224963
+        },
+        {
+          "id": 51,
+          "text": "face",
+          "startTime": 32.224963,
+          "endTime": 32.756887
+        },
+        {
+          "id": 52,
+          "text": "glowing",
+          "startTime": 32.756887,
+          "endTime": 33.156446
+        },
+        {
+          "id": 53,
+          "text": "close",
+          "startTime": 33.156446,
+          "endTime": 33.683803
+        },
+        {
+          "id": 54,
+          "text": "to",
+          "startTime": 33.683803,
+          "endTime": 33.948648
+        },
+        {
+          "id": 55,
+          "text": "albino.",
+          "startTime": 33.948648,
+          "endTime": 35.146865
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "It’s the cheaper. It’s good to know",
+      "startTime": 35.146865,
+      "endTime": 38.744168,
+      "words": [
+        {
+          "id": 56,
+          "text": "It’s",
+          "startTime": 35.146865,
+          "endTime": 36.085003
+        },
+        {
+          "id": 57,
+          "text": "the",
+          "startTime": 36.085003,
+          "endTime": 36.349625
+        },
+        {
+          "id": 58,
+          "text": "cheaper.",
+          "startTime": 36.349625,
+          "endTime": 37.14658
+        },
+        {
+          "id": 59,
+          "text": "It’s",
+          "startTime": 37.14658,
+          "endTime": 37.546478
+        },
+        {
+          "id": 60,
+          "text": "good",
+          "startTime": 37.546478,
+          "endTime": 37.811645
+        },
+        {
+          "id": 61,
+          "text": "to",
+          "startTime": 37.811645,
+          "endTime": 38.074636
+        },
+        {
+          "id": 62,
+          "text": "know",
+          "startTime": 38.074636,
+          "endTime": 38.744168
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "Still feeling simian, she says: to told.",
+      "startTime": 38.744168,
+      "endTime": 44.191122,
+      "words": [
+        {
+          "id": 63,
+          "text": "Still",
+          "startTime": 38.744168,
+          "endTime": 39.804351
+        },
+        {
+          "id": 64,
+          "text": "feeling",
+          "startTime": 39.804351,
+          "endTime": 40.201987
+        },
+        {
+          "id": 65,
+          "text": "simian,",
+          "startTime": 40.201987,
+          "endTime": 41.129502
+        },
+        {
+          "id": 66,
+          "text": "she",
+          "startTime": 41.129502,
+          "endTime": 41.533094
+        },
+        {
+          "id": 67,
+          "text": "says:",
+          "startTime": 41.533094,
+          "endTime": 41.941423
+        },
+        {
+          "id": 68,
+          "text": "to",
+          "startTime": 41.941423,
+          "endTime": 43.26469
+        },
+        {
+          "id": 69,
+          "text": "told.",
+          "startTime": 43.26469,
+          "endTime": 44.191122
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "Were these tubes empty to joke?",
+      "startTime": 44.191122,
+      "endTime": 48.045679,
+      "words": [
+        {
+          "id": 70,
+          "text": "Were",
+          "startTime": 44.191122,
+          "endTime": 45.653022
+        },
+        {
+          "id": 71,
+          "text": "these",
+          "startTime": 45.653022,
+          "endTime": 45.91879
+        },
+        {
+          "id": 72,
+          "text": "tubes",
+          "startTime": 45.91879,
+          "endTime": 46.319242
+        },
+        {
+          "id": 73,
+          "text": "empty",
+          "startTime": 46.319242,
+          "endTime": 46.980756
+        },
+        {
+          "id": 74,
+          "text": "to",
+          "startTime": 46.980756,
+          "endTime": 47.246492
+        },
+        {
+          "id": 75,
+          "text": "joke?",
+          "startTime": 47.246492,
+          "endTime": 48.045679
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "paragraph": "Can I get a replacement, one to cope?",
+      "startTime": 48.045679,
+      "endTime": 52.028434,
+      "words": [
+        {
+          "id": 76,
+          "text": "Can",
+          "startTime": 48.045679,
+          "endTime": 48.841266
+        },
+        {
+          "id": 77,
+          "text": "I",
+          "startTime": 48.841266,
+          "endTime": 49.107118
+        },
+        {
+          "id": 78,
+          "text": "get",
+          "startTime": 49.107118,
+          "endTime": 49.373615
+        },
+        {
+          "id": 79,
+          "text": "a",
+          "startTime": 49.373615,
+          "endTime": 49.506136
+        },
+        {
+          "id": 80,
+          "text": "replacement,",
+          "startTime": 49.506136,
+          "endTime": 50.700839
+        },
+        {
+          "id": 81,
+          "text": "one",
+          "startTime": 50.700839,
+          "endTime": 50.965995
+        },
+        {
+          "id": 82,
+          "text": "to",
+          "startTime": 50.965995,
+          "endTime": 51.235151
+        },
+        {
+          "id": 83,
+          "text": "cope?",
+          "startTime": 51.235151,
+          "endTime": 52.028434
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "paragraph": "The better brand, I’ve no cent to follow.",
+      "startTime": 52.028434,
+      "endTime": 56.680035,
+      "words": [
+        {
+          "id": 84,
+          "text": "The",
+          "startTime": 52.028434,
+          "endTime": 52.959799
+        },
+        {
+          "id": 85,
+          "text": "better",
+          "startTime": 52.959799,
+          "endTime": 53.355402
+        },
+        {
+          "id": 86,
+          "text": "brand,",
+          "startTime": 53.355402,
+          "endTime": 53.888536
+        },
+        {
+          "id": 87,
+          "text": "I’ve",
+          "startTime": 53.888536,
+          "endTime": 54.952146
+        },
+        {
+          "id": 88,
+          "text": "no",
+          "startTime": 54.952146,
+          "endTime": 55.218108
+        },
+        {
+          "id": 89,
+          "text": "cent",
+          "startTime": 55.218108,
+          "endTime": 55.484394
+        },
+        {
+          "id": 90,
+          "text": "to",
+          "startTime": 55.484394,
+          "endTime": 55.744646
+        },
+        {
+          "id": 91,
+          "text": "follow.",
+          "startTime": 55.744646,
+          "endTime": 56.680035
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "paragraph": "The fluff still, I won’t have to borrow",
+      "startTime": 56.680035,
+      "endTime": 61.221889,
+      "words": [
+        {
+          "id": 92,
+          "text": "The",
+          "startTime": 56.680035,
+          "endTime": 57.621424
+        },
+        {
+          "id": 93,
+          "text": "fluff",
+          "startTime": 57.621424,
+          "endTime": 58.023221
+        },
+        {
+          "id": 94,
+          "text": "still,",
+          "startTime": 58.023221,
+          "endTime": 58.688281
+        },
+        {
+          "id": 95,
+          "text": "I",
+          "startTime": 58.688281,
+          "endTime": 59.761345
+        },
+        {
+          "id": 96,
+          "text": "won’t",
+          "startTime": 59.761345,
+          "endTime": 59.894863
+        },
+        {
+          "id": 97,
+          "text": "have",
+          "startTime": 59.894863,
+          "endTime": 60.158949
+        },
+        {
+          "id": 98,
+          "text": "to",
+          "startTime": 60.158949,
+          "endTime": 60.293792
+        },
+        {
+          "id": 99,
+          "text": "borrow",
+          "startTime": 60.293792,
+          "endTime": 61.221889
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "paragraph": "Just help. I can’t wait to tomorrow.",
+      "startTime": 61.221889,
+      "endTime": 64.012695,
+      "words": [
+        {
+          "id": 100,
+          "text": "Just",
+          "startTime": 61.221889,
+          "endTime": 61.358664
+        },
+        {
+          "id": 101,
+          "text": "help.",
+          "startTime": 61.358664,
+          "endTime": 62.022393
+        },
+        {
+          "id": 102,
+          "text": "I",
+          "startTime": 62.022393,
+          "endTime": 62.286891
+        },
+        {
+          "id": 103,
+          "text": "can’t",
+          "startTime": 62.286891,
+          "endTime": 62.550463
+        },
+        {
+          "id": 104,
+          "text": "wait",
+          "startTime": 62.550463,
+          "endTime": 62.819183
+        },
+        {
+          "id": 105,
+          "text": "to",
+          "startTime": 62.819183,
+          "endTime": 62.948334
+        },
+        {
+          "id": 106,
+          "text": "tomorrow.",
+          "startTime": 62.948334,
+          "endTime": 64.012695
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "paragraph": "It was bought so, crossed out to sold",
+      "startTime": 64.012695,
+      "endTime": 69.722845,
+      "words": [
+        {
+          "id": 107,
+          "text": "It",
+          "startTime": 64.012695,
+          "endTime": 66.273289
+        },
+        {
+          "id": 108,
+          "text": "was",
+          "startTime": 66.273289,
+          "endTime": 66.402848
+        },
+        {
+          "id": 109,
+          "text": "bought",
+          "startTime": 66.402848,
+          "endTime": 66.668141
+        },
+        {
+          "id": 110,
+          "text": "so,",
+          "startTime": 66.668141,
+          "endTime": 67.600314
+        },
+        {
+          "id": 111,
+          "text": "crossed",
+          "startTime": 67.600314,
+          "endTime": 68.130851
+        },
+        {
+          "id": 112,
+          "text": "out",
+          "startTime": 68.130851,
+          "endTime": 68.524258
+        },
+        {
+          "id": 113,
+          "text": "to",
+          "startTime": 68.524258,
+          "endTime": 68.665135
+        },
+        {
+          "id": 114,
+          "text": "sold",
+          "startTime": 68.665135,
+          "endTime": 69.722845
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "paragraph": "I leave. Leaving the superglue to hole.",
+      "startTime": 69.722845,
+      "endTime": 74.773351,
+      "words": [
+        {
+          "id": 115,
+          "text": "I",
+          "startTime": 69.722845,
+          "endTime": 70.653236
+        },
+        {
+          "id": 116,
+          "text": "leave.",
+          "startTime": 70.653236,
+          "endTime": 71.451009
+        },
+        {
+          "id": 117,
+          "text": "Leaving",
+          "startTime": 71.451009,
+          "endTime": 72.506046
+        },
+        {
+          "id": 118,
+          "text": "the",
+          "startTime": 72.506046,
+          "endTime": 72.912545
+        },
+        {
+          "id": 119,
+          "text": "superglue",
+          "startTime": 72.912545,
+          "endTime": 73.578711
+        },
+        {
+          "id": 120,
+          "text": "to",
+          "startTime": 73.578711,
+          "endTime": 73.838603
+        },
+        {
+          "id": 121,
+          "text": "hole.",
+          "startTime": 73.838603,
+          "endTime": 74.773351
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "paragraph": "For the interview, my crocs to go.",
+      "startTime": 74.773351,
+      "endTime": 80.756679,
+      "words": [
+        {
+          "id": 122,
+          "text": "For",
+          "startTime": 74.773351,
+          "endTime": 75.559682
+        },
+        {
+          "id": 123,
+          "text": "the",
+          "startTime": 75.559682,
+          "endTime": 75.834548
+        },
+        {
+          "id": 124,
+          "text": "interview,",
+          "startTime": 75.834548,
+          "endTime": 76.759087
+        },
+        {
+          "id": 125,
+          "text": "my",
+          "startTime": 76.759087,
+          "endTime": 77.42911
+        },
+        {
+          "id": 126,
+          "text": "crocs",
+          "startTime": 77.42911,
+          "endTime": 77.826382
+        },
+        {
+          "id": 127,
+          "text": "to",
+          "startTime": 77.826382,
+          "endTime": 78.756679
+        },
+        {
+          "id": 128,
+          "text": "go.",
+          "startTime": 78.756679,
+          "endTime": 80.756679
+        }
+      ]
+    }
+  ]
+}

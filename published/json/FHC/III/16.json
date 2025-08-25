@@ -1,0 +1,196 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "The mannequin raptors",
+      "startTime": 4.647724,
+      "endTime": 7.036592,
+      "words": [
+        {
+          "id": 1,
+          "text": "The",
+          "startTime": 4.647724,
+          "endTime": 5.581998
+        },
+        {
+          "id": 2,
+          "text": "mannequin",
+          "startTime": 5.581998,
+          "endTime": 6.110294
+        },
+        {
+          "id": 3,
+          "text": "raptors",
+          "startTime": 6.110294,
+          "endTime": 7.036592
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "The half-shelved occult.",
+      "startTime": 7.036592,
+      "endTime": 9.829823,
+      "words": [
+        {
+          "id": 4,
+          "text": "The",
+          "startTime": 7.036592,
+          "endTime": 7.835912
+        },
+        {
+          "id": 5,
+          "text": "half-shelved",
+          "startTime": 7.835912,
+          "endTime": 8.63084
+        },
+        {
+          "id": 6,
+          "text": "occult.",
+          "startTime": 8.63084,
+          "endTime": 9.829823
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "Twine fine line punctures",
+      "startTime": 9.829823,
+      "endTime": 12.353099,
+      "words": [
+        {
+          "id": 7,
+          "text": "Twine",
+          "startTime": 9.829823,
+          "endTime": 10.490509
+        },
+        {
+          "id": 8,
+          "text": "fine",
+          "startTime": 10.490509,
+          "endTime": 10.889751
+        },
+        {
+          "id": 9,
+          "text": "line",
+          "startTime": 10.889751,
+          "endTime": 11.286992
+        },
+        {
+          "id": 10,
+          "text": "punctures",
+          "startTime": 11.286992,
+          "endTime": 12.353099
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "Running professional awl.",
+      "startTime": 12.353099,
+      "endTime": 15.004628,
+      "words": [
+        {
+          "id": 11,
+          "text": "Running",
+          "startTime": 12.353099,
+          "endTime": 13.279442
+        },
+        {
+          "id": 12,
+          "text": "professional",
+          "startTime": 13.279442,
+          "endTime": 14.072914
+        },
+        {
+          "id": 13,
+          "text": "awl.",
+          "startTime": 14.072914,
+          "endTime": 15.004628
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "Her: hold on with your claws",
+      "startTime": 15.004628,
+      "endTime": 18.457615,
+      "words": [
+        {
+          "id": 14,
+          "text": "Her:",
+          "startTime": 15.004628,
+          "endTime": 15.93946
+        },
+        {
+          "id": 15,
+          "text": "hold",
+          "startTime": 15.93946,
+          "endTime": 16.734935
+        },
+        {
+          "id": 16,
+          "text": "on",
+          "startTime": 16.734935,
+          "endTime": 17.001047
+        },
+        {
+          "id": 17,
+          "text": "with",
+          "startTime": 17.001047,
+          "endTime": 17.26402
+        },
+        {
+          "id": 18,
+          "text": "your",
+          "startTime": 17.26402,
+          "endTime": 17.52983
+        },
+        {
+          "id": 19,
+          "text": "claws",
+          "startTime": 17.52983,
+          "endTime": 18.457615
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "Leak here... my love strums.",
+      "startTime": 18.457615,
+      "endTime": 22.850332,
+      "words": [
+        {
+          "id": 20,
+          "text": "Leak",
+          "startTime": 18.457615,
+          "endTime": 18.992049
+        },
+        {
+          "id": 21,
+          "text": "here...",
+          "startTime": 18.992049,
+          "endTime": 19.655292
+        },
+        {
+          "id": 22,
+          "text": "my",
+          "startTime": 19.655292,
+          "endTime": 20.587376
+        },
+        {
+          "id": 23,
+          "text": "love",
+          "startTime": 20.587376,
+          "endTime": 20.850332
+        },
+        {
+          "id": 24,
+          "text": "strums.",
+          "startTime": 20.850332,
+          "endTime": 22.850332
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1102 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "The sun heels sail",
+      "startTime": 5.115893,
+      "endTime": 7.238994,
+      "words": [
+        {
+          "id": 1,
+          "text": "The",
+          "startTime": 5.115893,
+          "endTime": 5.781487
+        },
+        {
+          "id": 2,
+          "text": "sun",
+          "startTime": 5.781487,
+          "endTime": 6.046312
+        },
+        {
+          "id": 3,
+          "text": "heels",
+          "startTime": 6.046312,
+          "endTime": 6.44521
+        },
+        {
+          "id": 4,
+          "text": "sail",
+          "startTime": 6.44521,
+          "endTime": 7.238994
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "It’s been a long day.",
+      "startTime": 7.238994,
+      "endTime": 9.897312,
+      "words": [
+        {
+          "id": 5,
+          "text": "It’s",
+          "startTime": 7.238994,
+          "endTime": 8.301399
+        },
+        {
+          "id": 6,
+          "text": "been",
+          "startTime": 8.301399,
+          "endTime": 8.56706
+        },
+        {
+          "id": 7,
+          "text": "a",
+          "startTime": 8.56706,
+          "endTime": 8.832019
+        },
+        {
+          "id": 8,
+          "text": "long",
+          "startTime": 8.832019,
+          "endTime": 9.10108
+        },
+        {
+          "id": 9,
+          "text": "day.",
+          "startTime": 9.10108,
+          "endTime": 9.897312
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "The tyres in a wait",
+      "startTime": 9.897312,
+      "endTime": 12.553556,
+      "words": [
+        {
+          "id": 10,
+          "text": "The",
+          "startTime": 9.897312,
+          "endTime": 10.956876
+        },
+        {
+          "id": 11,
+          "text": "tyres",
+          "startTime": 10.956876,
+          "endTime": 11.490067
+        },
+        {
+          "id": 12,
+          "text": "in",
+          "startTime": 11.490067,
+          "endTime": 11.621433
+        },
+        {
+          "id": 13,
+          "text": "a",
+          "startTime": 11.621433,
+          "endTime": 11.88604
+        },
+        {
+          "id": 14,
+          "text": "wait",
+          "startTime": 11.88604,
+          "endTime": 12.553556
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "Vapour colours striate",
+      "startTime": 12.553556,
+      "endTime": 15.736912,
+      "words": [
+        {
+          "id": 15,
+          "text": "Vapour",
+          "startTime": 12.553556,
+          "endTime": 13.480973
+        },
+        {
+          "id": 16,
+          "text": "colours",
+          "startTime": 13.480973,
+          "endTime": 14.017705
+        },
+        {
+          "id": 17,
+          "text": "striate",
+          "startTime": 14.017705,
+          "endTime": 15.736912
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "Windows, soaked fate.",
+      "startTime": 15.736912,
+      "endTime": 19.325337,
+      "words": [
+        {
+          "id": 18,
+          "text": "Windows,",
+          "startTime": 15.736912,
+          "endTime": 17.466579
+        },
+        {
+          "id": 19,
+          "text": "soaked",
+          "startTime": 17.466579,
+          "endTime": 18.528738
+        },
+        {
+          "id": 20,
+          "text": "fate.",
+          "startTime": 18.528738,
+          "endTime": 19.325337
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "Hymn and him shake",
+      "startTime": 19.325337,
+      "endTime": 23.043803,
+      "words": [
+        {
+          "id": 21,
+          "text": "Hymn",
+          "startTime": 19.325337,
+          "endTime": 20.521423
+        },
+        {
+          "id": 22,
+          "text": "and",
+          "startTime": 20.521423,
+          "endTime": 21.185923
+        },
+        {
+          "id": 23,
+          "text": "him",
+          "startTime": 21.185923,
+          "endTime": 21.980835
+        },
+        {
+          "id": 24,
+          "text": "shake",
+          "startTime": 21.980835,
+          "endTime": 23.043803
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "Round the dim braille.",
+      "startTime": 23.043803,
+      "endTime": 25.96767,
+      "words": [
+        {
+          "id": 25,
+          "text": "Round",
+          "startTime": 23.043803,
+          "endTime": 23.973591
+        },
+        {
+          "id": 26,
+          "text": "the",
+          "startTime": 23.973591,
+          "endTime": 24.503309
+        },
+        {
+          "id": 27,
+          "text": "dim",
+          "startTime": 24.503309,
+          "endTime": 24.771638
+        },
+        {
+          "id": 28,
+          "text": "braille.",
+          "startTime": 24.771638,
+          "endTime": 25.96767
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "With the sun, I’m awake",
+      "startTime": 25.96767,
+      "endTime": 29.155299,
+      "words": [
+        {
+          "id": 29,
+          "text": "With",
+          "startTime": 25.96767,
+          "endTime": 26.763363
+        },
+        {
+          "id": 30,
+          "text": "the",
+          "startTime": 26.763363,
+          "endTime": 27.030229
+        },
+        {
+          "id": 31,
+          "text": "sun,",
+          "startTime": 27.030229,
+          "endTime": 27.562588
+        },
+        {
+          "id": 32,
+          "text": "I’m",
+          "startTime": 27.562588,
+          "endTime": 28.355547
+        },
+        {
+          "id": 33,
+          "text": "awake",
+          "startTime": 28.355547,
+          "endTime": 29.155299
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "Aware; the bridge shale",
+      "startTime": 29.155299,
+      "endTime": 32.872767,
+      "words": [
+        {
+          "id": 34,
+          "text": "Aware;",
+          "startTime": 29.155299,
+          "endTime": 30.349049
+        },
+        {
+          "id": 35,
+          "text": "the",
+          "startTime": 30.349049,
+          "endTime": 31.282484
+        },
+        {
+          "id": 36,
+          "text": "bridge",
+          "startTime": 31.282484,
+          "endTime": 31.809733
+        },
+        {
+          "id": 37,
+          "text": "shale",
+          "startTime": 31.809733,
+          "endTime": 32.872767
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "Ashen, with Mariam away.",
+      "startTime": 32.872767,
+      "endTime": 36.19494,
+      "words": [
+        {
+          "id": 38,
+          "text": "Ashen,",
+          "startTime": 32.872767,
+          "endTime": 34.333446
+        },
+        {
+          "id": 39,
+          "text": "with",
+          "startTime": 34.333446,
+          "endTime": 34.864236
+        },
+        {
+          "id": 40,
+          "text": "Mariam",
+          "startTime": 34.864236,
+          "endTime": 35.266649
+        },
+        {
+          "id": 41,
+          "text": "away.",
+          "startTime": 35.266649,
+          "endTime": 36.19494
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "Meeting an early daze",
+      "startTime": 36.19494,
+      "endTime": 39.383705,
+      "words": [
+        {
+          "id": 42,
+          "text": "Meeting",
+          "startTime": 36.19494,
+          "endTime": 37.786803
+        },
+        {
+          "id": 43,
+          "text": "an",
+          "startTime": 37.786803,
+          "endTime": 38.057378
+        },
+        {
+          "id": 44,
+          "text": "early",
+          "startTime": 38.057378,
+          "endTime": 38.450563
+        },
+        {
+          "id": 45,
+          "text": "daze",
+          "startTime": 38.450563,
+          "endTime": 39.383705
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "On a job picking shame",
+      "startTime": 39.383705,
+      "endTime": 41.770834,
+      "words": [
+        {
+          "id": 46,
+          "text": "On",
+          "startTime": 39.383705,
+          "endTime": 39.910998
+        },
+        {
+          "id": 47,
+          "text": "a",
+          "startTime": 39.910998,
+          "endTime": 40.177949
+        },
+        {
+          "id": 48,
+          "text": "job",
+          "startTime": 40.177949,
+          "endTime": 40.442988
+        },
+        {
+          "id": 49,
+          "text": "picking",
+          "startTime": 40.442988,
+          "endTime": 40.840928
+        },
+        {
+          "id": 50,
+          "text": "shame",
+          "startTime": 40.840928,
+          "endTime": 41.770834
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "paragraph": "Of gizmos bought maimed",
+      "startTime": 41.770834,
+      "endTime": 45.224933,
+      "words": [
+        {
+          "id": 51,
+          "text": "Of",
+          "startTime": 41.770834,
+          "endTime": 42.567131
+        },
+        {
+          "id": 52,
+          "text": "gizmos",
+          "startTime": 42.567131,
+          "endTime": 43.632469
+        },
+        {
+          "id": 53,
+          "text": "bought",
+          "startTime": 43.632469,
+          "endTime": 44.293276
+        },
+        {
+          "id": 54,
+          "text": "maimed",
+          "startTime": 44.293276,
+          "endTime": 45.224933
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "paragraph": "And requests for activate.",
+      "startTime": 45.224933,
+      "endTime": 48.542972,
+      "words": [
+        {
+          "id": 55,
+          "text": "And",
+          "startTime": 45.224933,
+          "endTime": 45.754141
+        },
+        {
+          "id": 56,
+          "text": "requests",
+          "startTime": 45.754141,
+          "endTime": 46.551117
+        },
+        {
+          "id": 57,
+          "text": "for",
+          "startTime": 46.551117,
+          "endTime": 47.350094
+        },
+        {
+          "id": 58,
+          "text": "activate.",
+          "startTime": 47.350094,
+          "endTime": 48.542972
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "paragraph": "As a junk monitor’s face",
+      "startTime": 48.542972,
+      "endTime": 52.132783,
+      "words": [
+        {
+          "id": 59,
+          "text": "As",
+          "startTime": 48.542972,
+          "endTime": 50.140984
+        },
+        {
+          "id": 60,
+          "text": "a",
+          "startTime": 50.140984,
+          "endTime": 50.405368
+        },
+        {
+          "id": 61,
+          "text": "junk",
+          "startTime": 50.405368,
+          "endTime": 50.669818
+        },
+        {
+          "id": 62,
+          "text": "monitor’s",
+          "startTime": 50.669818,
+          "endTime": 51.33224
+        },
+        {
+          "id": 63,
+          "text": "face",
+          "startTime": 51.33224,
+          "endTime": 52.132783
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "paragraph": "Pixels less to procrastinate.",
+      "startTime": 52.132783,
+      "endTime": 56.384505,
+      "words": [
+        {
+          "id": 64,
+          "text": "Pixels",
+          "startTime": 52.132783,
+          "endTime": 53.328329
+        },
+        {
+          "id": 65,
+          "text": "less",
+          "startTime": 53.328329,
+          "endTime": 54.254885
+        },
+        {
+          "id": 66,
+          "text": "to",
+          "startTime": 54.254885,
+          "endTime": 55.18644
+        },
+        {
+          "id": 67,
+          "text": "procrastinate.",
+          "startTime": 55.18644,
+          "endTime": 56.384505
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "paragraph": "Now I’d call for, to replace",
+      "startTime": 56.384505,
+      "endTime": 59.832626,
+      "words": [
+        {
+          "id": 68,
+          "text": "Now",
+          "startTime": 56.384505,
+          "endTime": 57.441381
+        },
+        {
+          "id": 69,
+          "text": "I’d",
+          "startTime": 57.441381,
+          "endTime": 57.577833
+        },
+        {
+          "id": 70,
+          "text": "call",
+          "startTime": 57.577833,
+          "endTime": 57.844474
+        },
+        {
+          "id": 71,
+          "text": "for,",
+          "startTime": 57.844474,
+          "endTime": 58.638725
+        },
+        {
+          "id": 72,
+          "text": "to",
+          "startTime": 58.638725,
+          "endTime": 58.770352
+        },
+        {
+          "id": 73,
+          "text": "replace",
+          "startTime": 58.770352,
+          "endTime": 59.832626
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "paragraph": "Zzzs, pinching my truth pace.",
+      "startTime": 59.832626,
+      "endTime": 63.950416,
+      "words": [
+        {
+          "id": 74,
+          "text": "Zzzs,",
+          "startTime": 59.832626,
+          "endTime": 61.692374
+        },
+        {
+          "id": 75,
+          "text": "pinching",
+          "startTime": 61.692374,
+          "endTime": 62.223633
+        },
+        {
+          "id": 76,
+          "text": "my",
+          "startTime": 62.223633,
+          "endTime": 62.623323
+        },
+        {
+          "id": 77,
+          "text": "truth",
+          "startTime": 62.623323,
+          "endTime": 62.884902
+        },
+        {
+          "id": 78,
+          "text": "pace.",
+          "startTime": 62.884902,
+          "endTime": 63.950416
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "paragraph": "In wait, a scrub, his place",
+      "startTime": 63.950416,
+      "endTime": 68.734284,
+      "words": [
+        {
+          "id": 79,
+          "text": "In",
+          "startTime": 63.950416,
+          "endTime": 64.874018
+        },
+        {
+          "id": 80,
+          "text": "wait,",
+          "startTime": 64.874018,
+          "endTime": 65.936999
+        },
+        {
+          "id": 81,
+          "text": "a",
+          "startTime": 65.936999,
+          "endTime": 66.211087
+        },
+        {
+          "id": 82,
+          "text": "scrub,",
+          "startTime": 66.211087,
+          "endTime": 67.13666
+        },
+        {
+          "id": 83,
+          "text": "his",
+          "startTime": 67.13666,
+          "endTime": 67.404435
+        },
+        {
+          "id": 84,
+          "text": "place",
+          "startTime": 67.404435,
+          "endTime": 68.734284
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "paragraph": "He owns an old mitigate",
+      "startTime": 68.734284,
+      "endTime": 71.52379,
+      "words": [
+        {
+          "id": 85,
+          "text": "He",
+          "startTime": 68.734284,
+          "endTime": 69.263057
+        },
+        {
+          "id": 86,
+          "text": "owns",
+          "startTime": 69.263057,
+          "endTime": 69.530608
+        },
+        {
+          "id": 87,
+          "text": "an",
+          "startTime": 69.530608,
+          "endTime": 69.926276
+        },
+        {
+          "id": 88,
+          "text": "old",
+          "startTime": 69.926276,
+          "endTime": 70.325773
+        },
+        {
+          "id": 89,
+          "text": "mitigate",
+          "startTime": 70.325773,
+          "endTime": 71.52379
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "paragraph": "Not this; sell a life shape",
+      "startTime": 71.52379,
+      "endTime": 75.502211,
+      "words": [
+        {
+          "id": 90,
+          "text": "Not",
+          "startTime": 71.52379,
+          "endTime": 72.051081
+        },
+        {
+          "id": 91,
+          "text": "this;",
+          "startTime": 72.051081,
+          "endTime": 73.379743
+        },
+        {
+          "id": 92,
+          "text": "sell",
+          "startTime": 73.379743,
+          "endTime": 73.645918
+        },
+        {
+          "id": 93,
+          "text": "a",
+          "startTime": 73.645918,
+          "endTime": 73.913189
+        },
+        {
+          "id": 94,
+          "text": "life",
+          "startTime": 73.913189,
+          "endTime": 74.174886
+        },
+        {
+          "id": 95,
+          "text": "shape",
+          "startTime": 74.174886,
+          "endTime": 75.502211
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "paragraph": "A bridge to some change?",
+      "startTime": 75.502211,
+      "endTime": 78.957464,
+      "words": [
+        {
+          "id": 96,
+          "text": "A",
+          "startTime": 75.502211,
+          "endTime": 76.036192
+        },
+        {
+          "id": 97,
+          "text": "bridge",
+          "startTime": 76.036192,
+          "endTime": 76.968688
+        },
+        {
+          "id": 98,
+          "text": "to",
+          "startTime": 76.968688,
+          "endTime": 77.231318
+        },
+        {
+          "id": 99,
+          "text": "some",
+          "startTime": 77.231318,
+          "endTime": 77.495907
+        },
+        {
+          "id": 100,
+          "text": "change?",
+          "startTime": 77.495907,
+          "endTime": 78.957464
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "paragraph": "Income is! In a car so lame.",
+      "startTime": 78.957464,
+      "endTime": 84.135181,
+      "words": [
+        {
+          "id": 101,
+          "text": "Income",
+          "startTime": 78.957464,
+          "endTime": 80.151815
+        },
+        {
+          "id": 102,
+          "text": "is!",
+          "startTime": 80.151815,
+          "endTime": 81.350054
+        },
+        {
+          "id": 103,
+          "text": "In",
+          "startTime": 81.350054,
+          "endTime": 81.745913
+        },
+        {
+          "id": 104,
+          "text": "a",
+          "startTime": 81.745913,
+          "endTime": 82.014055
+        },
+        {
+          "id": 105,
+          "text": "car",
+          "startTime": 82.014055,
+          "endTime": 82.281489
+        },
+        {
+          "id": 106,
+          "text": "so",
+          "startTime": 82.281489,
+          "endTime": 82.546444
+        },
+        {
+          "id": 107,
+          "text": "lame.",
+          "startTime": 82.546444,
+          "endTime": 84.135181
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "paragraph": "The sunset casts a shade",
+      "startTime": 84.135181,
+      "endTime": 87.189249,
+      "words": [
+        {
+          "id": 108,
+          "text": "The",
+          "startTime": 84.135181,
+          "endTime": 84.801598
+        },
+        {
+          "id": 109,
+          "text": "sunset",
+          "startTime": 84.801598,
+          "endTime": 85.33566
+        },
+        {
+          "id": 110,
+          "text": "casts",
+          "startTime": 85.33566,
+          "endTime": 85.600207
+        },
+        {
+          "id": 111,
+          "text": "a",
+          "startTime": 85.600207,
+          "endTime": 85.865794
+        },
+        {
+          "id": 112,
+          "text": "shade",
+          "startTime": 85.865794,
+          "endTime": 87.189249
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "paragraph": "Now I’d text her. Hi! Hey!",
+      "startTime": 87.189249,
+      "endTime": 91.581881,
+      "words": [
+        {
+          "id": 113,
+          "text": "Now",
+          "startTime": 87.189249,
+          "endTime": 87.59017
+        },
+        {
+          "id": 114,
+          "text": "I’d",
+          "startTime": 87.59017,
+          "endTime": 87.857215
+        },
+        {
+          "id": 115,
+          "text": "text",
+          "startTime": 87.857215,
+          "endTime": 88.256222
+        },
+        {
+          "id": 116,
+          "text": "her.",
+          "startTime": 88.256222,
+          "endTime": 89.187593
+        },
+        {
+          "id": 117,
+          "text": "Hi!",
+          "startTime": 89.187593,
+          "endTime": 90.123499
+        },
+        {
+          "id": 118,
+          "text": "Hey!",
+          "startTime": 90.123499,
+          "endTime": 91.581881
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "paragraph": "So, I scribble a poetry take.",
+      "startTime": 91.581881,
+      "endTime": 94.364014,
+      "words": [
+        {
+          "id": 119,
+          "text": "So,",
+          "startTime": 91.581881,
+          "endTime": 92.114887
+        },
+        {
+          "id": 120,
+          "text": "I",
+          "startTime": 92.114887,
+          "endTime": 92.380251
+        },
+        {
+          "id": 121,
+          "text": "scribble",
+          "startTime": 92.380251,
+          "endTime": 92.643717
+        },
+        {
+          "id": 122,
+          "text": "a",
+          "startTime": 92.643717,
+          "endTime": 92.908389
+        },
+        {
+          "id": 123,
+          "text": "poetry",
+          "startTime": 92.908389,
+          "endTime": 93.308131
+        },
+        {
+          "id": 124,
+          "text": "take.",
+          "startTime": 93.308131,
+          "endTime": 94.364014
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "paragraph": "Hymn and him",
+      "startTime": 94.364014,
+      "endTime": 96.499259,
+      "words": [
+        {
+          "id": 125,
+          "text": "Hymn",
+          "startTime": 94.364014,
+          "endTime": 95.036251
+        },
+        {
+          "id": 126,
+          "text": "and",
+          "startTime": 95.036251,
+          "endTime": 95.570909
+        },
+        {
+          "id": 127,
+          "text": "him",
+          "startTime": 95.570909,
+          "endTime": 96.499259
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "paragraph": "In the surround dim.",
+      "startTime": 96.499259,
+      "endTime": 98.890598,
+      "words": [
+        {
+          "id": 128,
+          "text": "In",
+          "startTime": 96.499259,
+          "endTime": 97.159866
+        },
+        {
+          "id": 129,
+          "text": "the",
+          "startTime": 97.159866,
+          "endTime": 97.292514
+        },
+        {
+          "id": 130,
+          "text": "surround",
+          "startTime": 97.292514,
+          "endTime": 97.825787
+        },
+        {
+          "id": 131,
+          "text": "dim.",
+          "startTime": 97.825787,
+          "endTime": 98.890598
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "paragraph": "He returns quick in a quake",
+      "startTime": 98.890598,
+      "endTime": 101.943562,
+      "words": [
+        {
+          "id": 132,
+          "text": "He",
+          "startTime": 98.890598,
+          "endTime": 99.949885
+        },
+        {
+          "id": 133,
+          "text": "returns",
+          "startTime": 99.949885,
+          "endTime": 100.215849
+        },
+        {
+          "id": 134,
+          "text": "quick",
+          "startTime": 100.215849,
+          "endTime": 100.8816
+        },
+        {
+          "id": 135,
+          "text": "in",
+          "startTime": 100.8816,
+          "endTime": 101.014156
+        },
+        {
+          "id": 136,
+          "text": "a",
+          "startTime": 101.014156,
+          "endTime": 101.277675
+        },
+        {
+          "id": 137,
+          "text": "quake",
+          "startTime": 101.277675,
+          "endTime": 101.943562
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "paragraph": "The sunset now in a cake.",
+      "startTime": 101.943562,
+      "endTime": 107.130787,
+      "words": [
+        {
+          "id": 138,
+          "text": "The",
+          "startTime": 101.943562,
+          "endTime": 102.60404
+        },
+        {
+          "id": 139,
+          "text": "sunset",
+          "startTime": 102.60404,
+          "endTime": 103.536329
+        },
+        {
+          "id": 140,
+          "text": "now",
+          "startTime": 103.536329,
+          "endTime": 104.202093
+        },
+        {
+          "id": 141,
+          "text": "in",
+          "startTime": 104.202093,
+          "endTime": 104.86623
+        },
+        {
+          "id": 142,
+          "text": "a",
+          "startTime": 104.86623,
+          "endTime": 105.130787
+        },
+        {
+          "id": 143,
+          "text": "cake.",
+          "startTime": 105.130787,
+          "endTime": 107.130787
+        }
+      ]
+    }
+  ]
+}

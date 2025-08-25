@@ -1,0 +1,1378 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I never was the strumpet",
+      "startTime": 5.709968,
+      "endTime": 7.837289,
+      "words": [
+        {
+          "id": 1,
+          "text": "I",
+          "startTime": 5.709968,
+          "endTime": 6.375702
+        },
+        {
+          "id": 2,
+          "text": "never",
+          "startTime": 6.375702,
+          "endTime": 6.641109
+        },
+        {
+          "id": 3,
+          "text": "was",
+          "startTime": 6.641109,
+          "endTime": 6.905399
+        },
+        {
+          "id": 4,
+          "text": "the",
+          "startTime": 6.905399,
+          "endTime": 7.039332
+        },
+        {
+          "id": 5,
+          "text": "strumpet",
+          "startTime": 7.039332,
+          "endTime": 7.837289
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "I had just one customer",
+      "startTime": 7.837289,
+      "endTime": 10.759139,
+      "words": [
+        {
+          "id": 6,
+          "text": "I",
+          "startTime": 7.837289,
+          "endTime": 9.034019
+        },
+        {
+          "id": 7,
+          "text": "had",
+          "startTime": 9.034019,
+          "endTime": 9.164291
+        },
+        {
+          "id": 8,
+          "text": "just",
+          "startTime": 9.164291,
+          "endTime": 9.429223
+        },
+        {
+          "id": 9,
+          "text": "one",
+          "startTime": 9.429223,
+          "endTime": 9.565625
+        },
+        {
+          "id": 10,
+          "text": "customer",
+          "startTime": 9.565625,
+          "endTime": 10.759139
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "His dialect would impose",
+      "startTime": 10.759139,
+      "endTime": 13.414329,
+      "words": [
+        {
+          "id": 11,
+          "text": "His",
+          "startTime": 10.759139,
+          "endTime": 11.293511
+        },
+        {
+          "id": 12,
+          "text": "dialect",
+          "startTime": 11.293511,
+          "endTime": 11.821509
+        },
+        {
+          "id": 13,
+          "text": "would",
+          "startTime": 11.821509,
+          "endTime": 12.485765
+        },
+        {
+          "id": 14,
+          "text": "impose",
+          "startTime": 12.485765,
+          "endTime": 13.414329
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "Flipping over the object.",
+      "startTime": 13.414329,
+      "endTime": 15.406223,
+      "words": [
+        {
+          "id": 15,
+          "text": "Flipping",
+          "startTime": 13.414329,
+          "endTime": 13.944638
+        },
+        {
+          "id": 16,
+          "text": "over",
+          "startTime": 13.944638,
+          "endTime": 14.208346
+        },
+        {
+          "id": 17,
+          "text": "the",
+          "startTime": 14.208346,
+          "endTime": 14.61191
+        },
+        {
+          "id": 18,
+          "text": "object.",
+          "startTime": 14.61191,
+          "endTime": 15.406223
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "I am customer, he’s rider",
+      "startTime": 15.406223,
+      "endTime": 19.121821,
+      "words": [
+        {
+          "id": 19,
+          "text": "I",
+          "startTime": 15.406223,
+          "endTime": 16.467973
+        },
+        {
+          "id": 20,
+          "text": "am",
+          "startTime": 16.467973,
+          "endTime": 16.600893
+        },
+        {
+          "id": 21,
+          "text": "customer,",
+          "startTime": 16.600893,
+          "endTime": 17.265702
+        },
+        {
+          "id": 22,
+          "text": "he’s",
+          "startTime": 17.265702,
+          "endTime": 17.928858
+        },
+        {
+          "id": 23,
+          "text": "rider",
+          "startTime": 17.928858,
+          "endTime": 19.121821
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "He’s by the gate, I’m colt",
+      "startTime": 19.121821,
+      "endTime": 22.310379,
+      "words": [
+        {
+          "id": 24,
+          "text": "He’s",
+          "startTime": 19.121821,
+          "endTime": 19.793251
+        },
+        {
+          "id": 25,
+          "text": "by",
+          "startTime": 19.793251,
+          "endTime": 20.054447
+        },
+        {
+          "id": 26,
+          "text": "the",
+          "startTime": 20.054447,
+          "endTime": 20.31767
+        },
+        {
+          "id": 27,
+          "text": "gate,",
+          "startTime": 20.31767,
+          "endTime": 21.115338
+        },
+        {
+          "id": 28,
+          "text": "I’m",
+          "startTime": 21.115338,
+          "endTime": 21.519376
+        },
+        {
+          "id": 29,
+          "text": "colt",
+          "startTime": 21.519376,
+          "endTime": 22.310379
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "A better liar now, thence.",
+      "startTime": 22.310379,
+      "endTime": 25.501959,
+      "words": [
+        {
+          "id": 30,
+          "text": "A",
+          "startTime": 22.310379,
+          "endTime": 23.109399
+        },
+        {
+          "id": 31,
+          "text": "better",
+          "startTime": 23.109399,
+          "endTime": 23.37638
+        },
+        {
+          "id": 32,
+          "text": "liar",
+          "startTime": 23.37638,
+          "endTime": 23.641249
+        },
+        {
+          "id": 33,
+          "text": "now,",
+          "startTime": 23.641249,
+          "endTime": 24.439659
+        },
+        {
+          "id": 34,
+          "text": "thence.",
+          "startTime": 24.439659,
+          "endTime": 25.501959
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "Junior high with my li’l sister",
+      "startTime": 25.501959,
+      "endTime": 29.085197,
+      "words": [
+        {
+          "id": 35,
+          "text": "Junior",
+          "startTime": 25.501959,
+          "endTime": 26.428168
+        },
+        {
+          "id": 36,
+          "text": "high",
+          "startTime": 26.428168,
+          "endTime": 26.96349
+        },
+        {
+          "id": 37,
+          "text": "with",
+          "startTime": 26.96349,
+          "endTime": 27.494263
+        },
+        {
+          "id": 38,
+          "text": "my",
+          "startTime": 27.494263,
+          "endTime": 27.756979
+        },
+        {
+          "id": 39,
+          "text": "li’l",
+          "startTime": 27.756979,
+          "endTime": 28.024228
+        },
+        {
+          "id": 40,
+          "text": "sister",
+          "startTime": 28.024228,
+          "endTime": 29.085197
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "We’d our grapple with soles",
+      "startTime": 29.085197,
+      "endTime": 32.278406,
+      "words": [
+        {
+          "id": 41,
+          "text": "We’d",
+          "startTime": 29.085197,
+          "endTime": 30.415949
+        },
+        {
+          "id": 42,
+          "text": "our",
+          "startTime": 30.415949,
+          "endTime": 30.682382
+        },
+        {
+          "id": 43,
+          "text": "grapple",
+          "startTime": 30.682382,
+          "endTime": 31.080219
+        },
+        {
+          "id": 44,
+          "text": "with",
+          "startTime": 31.080219,
+          "endTime": 31.344831
+        },
+        {
+          "id": 45,
+          "text": "soles",
+          "startTime": 31.344831,
+          "endTime": 32.278406
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "Rickety, letting everyday path.",
+      "startTime": 32.278406,
+      "endTime": 35.992166,
+      "words": [
+        {
+          "id": 46,
+          "text": "Rickety,",
+          "startTime": 32.278406,
+          "endTime": 33.20365
+        },
+        {
+          "id": 47,
+          "text": "letting",
+          "startTime": 33.20365,
+          "endTime": 34.531336
+        },
+        {
+          "id": 48,
+          "text": "everyday",
+          "startTime": 34.531336,
+          "endTime": 34.929969
+        },
+        {
+          "id": 49,
+          "text": "path.",
+          "startTime": 34.929969,
+          "endTime": 35.992166
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "On the first day he soaked",
+      "startTime": 35.992166,
+      "endTime": 38.783669,
+      "words": [
+        {
+          "id": 50,
+          "text": "On",
+          "startTime": 35.992166,
+          "endTime": 37.054493
+        },
+        {
+          "id": 51,
+          "text": "the",
+          "startTime": 37.054493,
+          "endTime": 37.187842
+        },
+        {
+          "id": 52,
+          "text": "first",
+          "startTime": 37.187842,
+          "endTime": 37.453798
+        },
+        {
+          "id": 53,
+          "text": "day",
+          "startTime": 37.453798,
+          "endTime": 37.85039
+        },
+        {
+          "id": 54,
+          "text": "he",
+          "startTime": 37.85039,
+          "endTime": 38.1176
+        },
+        {
+          "id": 55,
+          "text": "soaked",
+          "startTime": 38.1176,
+          "endTime": 38.783669
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "He knocked me out dead.",
+      "startTime": 38.783669,
+      "endTime": 40.775484,
+      "words": [
+        {
+          "id": 56,
+          "text": "He",
+          "startTime": 38.783669,
+          "endTime": 39.311504
+        },
+        {
+          "id": 57,
+          "text": "knocked",
+          "startTime": 39.311504,
+          "endTime": 39.443269
+        },
+        {
+          "id": 58,
+          "text": "me",
+          "startTime": 39.443269,
+          "endTime": 39.714776
+        },
+        {
+          "id": 59,
+          "text": "out",
+          "startTime": 39.714776,
+          "endTime": 39.843272
+        },
+        {
+          "id": 60,
+          "text": "dead.",
+          "startTime": 39.843272,
+          "endTime": 40.775484
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "paragraph": "He must be an accountant!",
+      "startTime": 40.775484,
+      "endTime": 43.30244,
+      "words": [
+        {
+          "id": 61,
+          "text": "He",
+          "startTime": 40.775484,
+          "endTime": 41.704903
+        },
+        {
+          "id": 62,
+          "text": "must",
+          "startTime": 41.704903,
+          "endTime": 41.835613
+        },
+        {
+          "id": 63,
+          "text": "be",
+          "startTime": 41.835613,
+          "endTime": 42.102265
+        },
+        {
+          "id": 64,
+          "text": "an",
+          "startTime": 42.102265,
+          "endTime": 42.23368
+        },
+        {
+          "id": 65,
+          "text": "accountant!",
+          "startTime": 42.23368,
+          "endTime": 43.30244
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "paragraph": "A moving class on the road?",
+      "startTime": 43.30244,
+      "endTime": 46.089425,
+      "words": [
+        {
+          "id": 66,
+          "text": "A",
+          "startTime": 43.30244,
+          "endTime": 44.228081
+        },
+        {
+          "id": 67,
+          "text": "moving",
+          "startTime": 44.228081,
+          "endTime": 44.494209
+        },
+        {
+          "id": 68,
+          "text": "class",
+          "startTime": 44.494209,
+          "endTime": 44.762568
+        },
+        {
+          "id": 69,
+          "text": "on",
+          "startTime": 44.762568,
+          "endTime": 45.026483
+        },
+        {
+          "id": 70,
+          "text": "the",
+          "startTime": 45.026483,
+          "endTime": 45.289946
+        },
+        {
+          "id": 71,
+          "text": "road?",
+          "startTime": 45.289946,
+          "endTime": 46.089425
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "paragraph": "He did say he is. Was, meant?",
+      "startTime": 46.089425,
+      "endTime": 50.203748,
+      "words": [
+        {
+          "id": 72,
+          "text": "He",
+          "startTime": 46.089425,
+          "endTime": 46.751065
+        },
+        {
+          "id": 73,
+          "text": "did",
+          "startTime": 46.751065,
+          "endTime": 46.883057
+        },
+        {
+          "id": 74,
+          "text": "say",
+          "startTime": 46.883057,
+          "endTime": 47.147228
+        },
+        {
+          "id": 75,
+          "text": "he",
+          "startTime": 47.147228,
+          "endTime": 47.413399
+        },
+        {
+          "id": 76,
+          "text": "is.",
+          "startTime": 47.413399,
+          "endTime": 48.209357
+        },
+        {
+          "id": 77,
+          "text": "Was,",
+          "startTime": 48.209357,
+          "endTime": 48.874969
+        },
+        {
+          "id": 78,
+          "text": "meant?",
+          "startTime": 48.874969,
+          "endTime": 50.203748
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "paragraph": "Before the banks’ recap smoke",
+      "startTime": 50.203748,
+      "endTime": 53.266359,
+      "words": [
+        {
+          "id": 79,
+          "text": "Before",
+          "startTime": 50.203748,
+          "endTime": 51.267055
+        },
+        {
+          "id": 80,
+          "text": "the",
+          "startTime": 51.267055,
+          "endTime": 51.399659
+        },
+        {
+          "id": 81,
+          "text": "banks’",
+          "startTime": 51.399659,
+          "endTime": 51.799603
+        },
+        {
+          "id": 82,
+          "text": "recap",
+          "startTime": 51.799603,
+          "endTime": 52.338378
+        },
+        {
+          "id": 83,
+          "text": "smoke",
+          "startTime": 52.338378,
+          "endTime": 53.266359
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "paragraph": "Twenty-five billion, news heard",
+      "startTime": 53.266359,
+      "endTime": 56.585432,
+      "words": [
+        {
+          "id": 84,
+          "text": "Twenty-five",
+          "startTime": 53.266359,
+          "endTime": 54.330565
+        },
+        {
+          "id": 85,
+          "text": "billion,",
+          "startTime": 54.330565,
+          "endTime": 54.99026
+        },
+        {
+          "id": 86,
+          "text": "news",
+          "startTime": 54.99026,
+          "endTime": 55.524799
+        },
+        {
+          "id": 87,
+          "text": "heard",
+          "startTime": 55.524799,
+          "endTime": 56.585432
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "paragraph": "The giants handed the mufflers",
+      "startTime": 56.585432,
+      "endTime": 59.776426,
+      "words": [
+        {
+          "id": 88,
+          "text": "The",
+          "startTime": 56.585432,
+          "endTime": 57.251072
+        },
+        {
+          "id": 89,
+          "text": "giants",
+          "startTime": 57.251072,
+          "endTime": 57.653281
+        },
+        {
+          "id": 90,
+          "text": "handed",
+          "startTime": 57.653281,
+          "endTime": 58.449056
+        },
+        {
+          "id": 91,
+          "text": "the",
+          "startTime": 58.449056,
+          "endTime": 58.714314
+        },
+        {
+          "id": 92,
+          "text": "mufflers",
+          "startTime": 58.714314,
+          "endTime": 59.776426
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "paragraph": "He lost his job, soon he choked.",
+      "startTime": 59.776426,
+      "endTime": 63.492771,
+      "words": [
+        {
+          "id": 93,
+          "text": "He",
+          "startTime": 59.776426,
+          "endTime": 60.172569
+        },
+        {
+          "id": 94,
+          "text": "lost",
+          "startTime": 60.172569,
+          "endTime": 60.435931
+        },
+        {
+          "id": 95,
+          "text": "his",
+          "startTime": 60.435931,
+          "endTime": 60.704105
+        },
+        {
+          "id": 96,
+          "text": "job,",
+          "startTime": 60.704105,
+          "endTime": 61.368893
+        },
+        {
+          "id": 97,
+          "text": "soon",
+          "startTime": 61.368893,
+          "endTime": 61.897356
+        },
+        {
+          "id": 98,
+          "text": "he",
+          "startTime": 61.897356,
+          "endTime": 62.561902
+        },
+        {
+          "id": 99,
+          "text": "choked.",
+          "startTime": 62.561902,
+          "endTime": 63.492771
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "paragraph": "One fought; munched the debt!",
+      "startTime": 63.492771,
+      "endTime": 68.143146,
+      "words": [
+        {
+          "id": 100,
+          "text": "One",
+          "startTime": 63.492771,
+          "endTime": 65.087654
+        },
+        {
+          "id": 101,
+          "text": "fought;",
+          "startTime": 65.087654,
+          "endTime": 65.750579
+        },
+        {
+          "id": 102,
+          "text": "munched",
+          "startTime": 65.750579,
+          "endTime": 66.548991
+        },
+        {
+          "id": 103,
+          "text": "the",
+          "startTime": 66.548991,
+          "endTime": 66.944058
+        },
+        {
+          "id": 104,
+          "text": "debt!",
+          "startTime": 66.944058,
+          "endTime": 68.143146
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "paragraph": "On the chalk, board as a teacher",
+      "startTime": 68.143146,
+      "endTime": 71.85894,
+      "words": [
+        {
+          "id": 105,
+          "text": "On",
+          "startTime": 68.143146,
+          "endTime": 68.670429
+        },
+        {
+          "id": 106,
+          "text": "the",
+          "startTime": 68.670429,
+          "endTime": 68.806301
+        },
+        {
+          "id": 107,
+          "text": "chalk,",
+          "startTime": 68.806301,
+          "endTime": 69.601309
+        },
+        {
+          "id": 108,
+          "text": "board",
+          "startTime": 69.601309,
+          "endTime": 70.265123
+        },
+        {
+          "id": 109,
+          "text": "as",
+          "startTime": 70.265123,
+          "endTime": 70.528734
+        },
+        {
+          "id": 110,
+          "text": "a",
+          "startTime": 70.528734,
+          "endTime": 70.663984
+        },
+        {
+          "id": 111,
+          "text": "teacher",
+          "startTime": 70.663984,
+          "endTime": 71.85894
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "paragraph": "Business studies Monsieur mo",
+      "startTime": 71.85894,
+      "endTime": 75.048614,
+      "words": [
+        {
+          "id": 112,
+          "text": "Business",
+          "startTime": 71.85894,
+          "endTime": 72.397159
+        },
+        {
+          "id": 113,
+          "text": "studies",
+          "startTime": 72.397159,
+          "endTime": 72.789288
+        },
+        {
+          "id": 114,
+          "text": "Monsieur",
+          "startTime": 72.789288,
+          "endTime": 73.985172
+        },
+        {
+          "id": 115,
+          "text": "mo",
+          "startTime": 73.985172,
+          "endTime": 75.048614
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "paragraph": "In the interim, till he’s at his best",
+      "startTime": 75.048614,
+      "endTime": 79.968918,
+      "words": [
+        {
+          "id": 116,
+          "text": "In",
+          "startTime": 75.048614,
+          "endTime": 75.711164
+        },
+        {
+          "id": 117,
+          "text": "the",
+          "startTime": 75.711164,
+          "endTime": 75.976995
+        },
+        {
+          "id": 118,
+          "text": "interim,",
+          "startTime": 75.976995,
+          "endTime": 76.9079
+        },
+        {
+          "id": 119,
+          "text": "till",
+          "startTime": 76.9079,
+          "endTime": 77.568005
+        },
+        {
+          "id": 120,
+          "text": "he’s",
+          "startTime": 77.568005,
+          "endTime": 78.501716
+        },
+        {
+          "id": 121,
+          "text": "at",
+          "startTime": 78.501716,
+          "endTime": 78.76776
+        },
+        {
+          "id": 122,
+          "text": "his",
+          "startTime": 78.76776,
+          "endTime": 78.896817
+        },
+        {
+          "id": 123,
+          "text": "best",
+          "startTime": 78.896817,
+          "endTime": 79.968918
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "paragraph": "Didn’t, so he fitted headteacher.",
+      "startTime": 79.968918,
+      "endTime": 84.083109,
+      "words": [
+        {
+          "id": 124,
+          "text": "Didn’t,",
+          "startTime": 79.968918,
+          "endTime": 81.034804
+        },
+        {
+          "id": 125,
+          "text": "so",
+          "startTime": 81.034804,
+          "endTime": 81.698208
+        },
+        {
+          "id": 126,
+          "text": "he",
+          "startTime": 81.698208,
+          "endTime": 81.962294
+        },
+        {
+          "id": 127,
+          "text": "fitted",
+          "startTime": 81.962294,
+          "endTime": 82.360102
+        },
+        {
+          "id": 128,
+          "text": "headteacher.",
+          "startTime": 82.360102,
+          "endTime": 84.083109
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "paragraph": "After school, he would address",
+      "startTime": 84.083109,
+      "endTime": 87.941304,
+      "words": [
+        {
+          "id": 129,
+          "text": "After",
+          "startTime": 84.083109,
+          "endTime": 85.28444
+        },
+        {
+          "id": 130,
+          "text": "school,",
+          "startTime": 85.28444,
+          "endTime": 86.212883
+        },
+        {
+          "id": 131,
+          "text": "he",
+          "startTime": 86.212883,
+          "endTime": 86.610734
+        },
+        {
+          "id": 132,
+          "text": "would",
+          "startTime": 86.610734,
+          "endTime": 86.743698
+        },
+        {
+          "id": 133,
+          "text": "address",
+          "startTime": 86.743698,
+          "endTime": 87.941304
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "paragraph": "Pick our periods, make a mark",
+      "startTime": 87.941304,
+      "endTime": 91.125644,
+      "words": [
+        {
+          "id": 134,
+          "text": "Pick",
+          "startTime": 87.941304,
+          "endTime": 88.468732
+        },
+        {
+          "id": 135,
+          "text": "our",
+          "startTime": 88.468732,
+          "endTime": 88.602205
+        },
+        {
+          "id": 136,
+          "text": "periods,",
+          "startTime": 88.602205,
+          "endTime": 89.795568
+        },
+        {
+          "id": 137,
+          "text": "make",
+          "startTime": 89.795568,
+          "endTime": 89.927418
+        },
+        {
+          "id": 138,
+          "text": "a",
+          "startTime": 89.927418,
+          "endTime": 90.064688
+        },
+        {
+          "id": 139,
+          "text": "mark",
+          "startTime": 90.064688,
+          "endTime": 91.125644
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "paragraph": "It wasn’t a bore, neither a bloat",
+      "startTime": 91.125644,
+      "endTime": 95.249725,
+      "words": [
+        {
+          "id": 140,
+          "text": "It",
+          "startTime": 91.125644,
+          "endTime": 91.921534
+        },
+        {
+          "id": 141,
+          "text": "wasn’t",
+          "startTime": 91.921534,
+          "endTime": 92.187143
+        },
+        {
+          "id": 142,
+          "text": "a",
+          "startTime": 92.187143,
+          "endTime": 92.317939
+        },
+        {
+          "id": 143,
+          "text": "bore,",
+          "startTime": 92.317939,
+          "endTime": 93.252319
+        },
+        {
+          "id": 144,
+          "text": "neither",
+          "startTime": 93.252319,
+          "endTime": 94.046774
+        },
+        {
+          "id": 145,
+          "text": "a",
+          "startTime": 94.046774,
+          "endTime": 94.179482
+        },
+        {
+          "id": 146,
+          "text": "bloat",
+          "startTime": 94.179482,
+          "endTime": 95.249725
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "paragraph": "It was fantastic, no air of dread.",
+      "startTime": 95.249725,
+      "endTime": 99.7656,
+      "words": [
+        {
+          "id": 147,
+          "text": "It",
+          "startTime": 95.249725,
+          "endTime": 96.180078
+        },
+        {
+          "id": 148,
+          "text": "was",
+          "startTime": 96.180078,
+          "endTime": 96.44412
+        },
+        {
+          "id": 149,
+          "text": "fantastic,",
+          "startTime": 96.44412,
+          "endTime": 97.507606
+        },
+        {
+          "id": 150,
+          "text": "no",
+          "startTime": 97.507606,
+          "endTime": 98.305196
+        },
+        {
+          "id": 151,
+          "text": "air",
+          "startTime": 98.305196,
+          "endTime": 98.57164
+        },
+        {
+          "id": 152,
+          "text": "of",
+          "startTime": 98.57164,
+          "endTime": 98.834576
+        },
+        {
+          "id": 153,
+          "text": "dread.",
+          "startTime": 98.834576,
+          "endTime": 99.7656
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "paragraph": "And days he didn’t show hand",
+      "startTime": 99.7656,
+      "endTime": 102.961858,
+      "words": [
+        {
+          "id": 154,
+          "text": "And",
+          "startTime": 99.7656,
+          "endTime": 100.836775
+        },
+        {
+          "id": 155,
+          "text": "days",
+          "startTime": 100.836775,
+          "endTime": 101.102017
+        },
+        {
+          "id": 156,
+          "text": "he",
+          "startTime": 101.102017,
+          "endTime": 101.364717
+        },
+        {
+          "id": 157,
+          "text": "didn’t",
+          "startTime": 101.364717,
+          "endTime": 101.630356
+        },
+        {
+          "id": 158,
+          "text": "show",
+          "startTime": 101.630356,
+          "endTime": 102.160565
+        },
+        {
+          "id": 159,
+          "text": "hand",
+          "startTime": 102.160565,
+          "endTime": 102.961858
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "paragraph": "Since I thought of him as a mole",
+      "startTime": 102.961858,
+      "endTime": 106.156239,
+      "words": [
+        {
+          "id": 160,
+          "text": "Since",
+          "startTime": 102.961858,
+          "endTime": 103.626353
+        },
+        {
+          "id": 161,
+          "text": "I",
+          "startTime": 103.626353,
+          "endTime": 103.896058
+        },
+        {
+          "id": 162,
+          "text": "thought",
+          "startTime": 103.896058,
+          "endTime": 104.155553
+        },
+        {
+          "id": 163,
+          "text": "of",
+          "startTime": 104.155553,
+          "endTime": 104.422123
+        },
+        {
+          "id": 164,
+          "text": "him",
+          "startTime": 104.422123,
+          "endTime": 104.687023
+        },
+        {
+          "id": 165,
+          "text": "as",
+          "startTime": 104.687023,
+          "endTime": 104.952286
+        },
+        {
+          "id": 166,
+          "text": "a",
+          "startTime": 104.952286,
+          "endTime": 105.219296
+        },
+        {
+          "id": 167,
+          "text": "mole",
+          "startTime": 105.219296,
+          "endTime": 106.156239
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "paragraph": "The headteacher his embarkment",
+      "startTime": 106.156239,
+      "endTime": 109.874261,
+      "words": [
+        {
+          "id": 168,
+          "text": "The",
+          "startTime": 106.156239,
+          "endTime": 106.821188
+        },
+        {
+          "id": 169,
+          "text": "headteacher",
+          "startTime": 106.821188,
+          "endTime": 107.485984
+        },
+        {
+          "id": 170,
+          "text": "his",
+          "startTime": 107.485984,
+          "endTime": 108.408607
+        },
+        {
+          "id": 171,
+          "text": "embarkment",
+          "startTime": 108.408607,
+          "endTime": 109.874261
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "paragraph": "He wasn’t there, or by the matter",
+      "startTime": 109.874261,
+      "endTime": 113.869483,
+      "words": [
+        {
+          "id": 172,
+          "text": "He",
+          "startTime": 109.874261,
+          "endTime": 110.539719
+        },
+        {
+          "id": 173,
+          "text": "wasn’t",
+          "startTime": 110.539719,
+          "endTime": 110.802972
+        },
+        {
+          "id": 174,
+          "text": "there,",
+          "startTime": 110.802972,
+          "endTime": 111.736386
+        },
+        {
+          "id": 175,
+          "text": "or",
+          "startTime": 111.736386,
+          "endTime": 112.396213
+        },
+        {
+          "id": 176,
+          "text": "by",
+          "startTime": 112.396213,
+          "endTime": 112.531332
+        },
+        {
+          "id": 177,
+          "text": "the",
+          "startTime": 112.531332,
+          "endTime": 112.798395
+        },
+        {
+          "id": 178,
+          "text": "matter",
+          "startTime": 112.798395,
+          "endTime": 113.869483
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "paragraph": "He figured the table! He was sold.",
+      "startTime": 113.869483,
+      "endTime": 119.186841,
+      "words": [
+        {
+          "id": 179,
+          "text": "He",
+          "startTime": 113.869483,
+          "endTime": 114.529351
+        },
+        {
+          "id": 180,
+          "text": "figured",
+          "startTime": 114.529351,
+          "endTime": 115.061632
+        },
+        {
+          "id": 181,
+          "text": "the",
+          "startTime": 115.061632,
+          "endTime": 115.328724
+        },
+        {
+          "id": 182,
+          "text": "table!",
+          "startTime": 115.328724,
+          "endTime": 116.125566
+        },
+        {
+          "id": 183,
+          "text": "He",
+          "startTime": 116.125566,
+          "endTime": 116.921676
+        },
+        {
+          "id": 184,
+          "text": "was",
+          "startTime": 116.921676,
+          "endTime": 117.186841
+        },
+        {
+          "id": 185,
+          "text": "sold.",
+          "startTime": 117.186841,
+          "endTime": 119.186841
+        }
+      ]
+    }
+  ]
+}

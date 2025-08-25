@@ -1,0 +1,562 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "There is a mental crawl",
+      "startTime": 4.822202,
+      "endTime": 6.552133,
+      "words": [
+        {
+          "id": 1,
+          "text": "There",
+          "startTime": 4.822202,
+          "endTime": 5.22119
+        },
+        {
+          "id": 2,
+          "text": "is",
+          "startTime": 5.22119,
+          "endTime": 5.355169
+        },
+        {
+          "id": 3,
+          "text": "a",
+          "startTime": 5.355169,
+          "endTime": 5.62105
+        },
+        {
+          "id": 4,
+          "text": "mental",
+          "startTime": 5.62105,
+          "endTime": 5.881669
+        },
+        {
+          "id": 5,
+          "text": "crawl",
+          "startTime": 5.881669,
+          "endTime": 6.552133
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "Happening when it’s morn.",
+      "startTime": 6.552133,
+      "endTime": 9.073888,
+      "words": [
+        {
+          "id": 6,
+          "text": "Happening",
+          "startTime": 6.552133,
+          "endTime": 7.744997
+        },
+        {
+          "id": 7,
+          "text": "when",
+          "startTime": 7.744997,
+          "endTime": 8.01025
+        },
+        {
+          "id": 8,
+          "text": "it’s",
+          "startTime": 8.01025,
+          "endTime": 8.273972
+        },
+        {
+          "id": 9,
+          "text": "morn.",
+          "startTime": 8.273972,
+          "endTime": 9.073888
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "I wake crying in a drawl",
+      "startTime": 9.073888,
+      "endTime": 11.995283,
+      "words": [
+        {
+          "id": 10,
+          "text": "I",
+          "startTime": 9.073888,
+          "endTime": 10.0022
+        },
+        {
+          "id": 11,
+          "text": "wake",
+          "startTime": 10.0022,
+          "endTime": 10.266542
+        },
+        {
+          "id": 12,
+          "text": "crying",
+          "startTime": 10.266542,
+          "endTime": 10.665457
+        },
+        {
+          "id": 13,
+          "text": "in",
+          "startTime": 10.665457,
+          "endTime": 10.933512
+        },
+        {
+          "id": 14,
+          "text": "a",
+          "startTime": 10.933512,
+          "endTime": 11.062729
+        },
+        {
+          "id": 15,
+          "text": "drawl",
+          "startTime": 11.062729,
+          "endTime": 11.995283
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "As I do the Anon also hulls",
+      "startTime": 11.995283,
+      "endTime": 15.316359,
+      "words": [
+        {
+          "id": 16,
+          "text": "As",
+          "startTime": 11.995283,
+          "endTime": 12.525159
+        },
+        {
+          "id": 17,
+          "text": "I",
+          "startTime": 12.525159,
+          "endTime": 12.660703
+        },
+        {
+          "id": 18,
+          "text": "do",
+          "startTime": 12.660703,
+          "endTime": 13.193817
+        },
+        {
+          "id": 19,
+          "text": "the",
+          "startTime": 13.193817,
+          "endTime": 13.589352
+        },
+        {
+          "id": 20,
+          "text": "Anon",
+          "startTime": 13.589352,
+          "endTime": 13.989311
+        },
+        {
+          "id": 21,
+          "text": "also",
+          "startTime": 13.989311,
+          "endTime": 14.383539
+        },
+        {
+          "id": 22,
+          "text": "hulls",
+          "startTime": 14.383539,
+          "endTime": 15.316359
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "Rapids of bogs for my thoughts",
+      "startTime": 15.316359,
+      "endTime": 18.635313,
+      "words": [
+        {
+          "id": 23,
+          "text": "Rapids",
+          "startTime": 15.316359,
+          "endTime": 16.24743
+        },
+        {
+          "id": 24,
+          "text": "of",
+          "startTime": 16.24743,
+          "endTime": 16.643042
+        },
+        {
+          "id": 25,
+          "text": "bogs",
+          "startTime": 16.643042,
+          "endTime": 17.574983
+        },
+        {
+          "id": 26,
+          "text": "for",
+          "startTime": 17.574983,
+          "endTime": 17.710167
+        },
+        {
+          "id": 27,
+          "text": "my",
+          "startTime": 17.710167,
+          "endTime": 17.972439
+        },
+        {
+          "id": 28,
+          "text": "thoughts",
+          "startTime": 17.972439,
+          "endTime": 18.635313
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "So I get swallowed right in bud.",
+      "startTime": 18.635313,
+      "endTime": 22.098132,
+      "words": [
+        {
+          "id": 29,
+          "text": "So",
+          "startTime": 18.635313,
+          "endTime": 19.565613
+        },
+        {
+          "id": 30,
+          "text": "I",
+          "startTime": 19.565613,
+          "endTime": 19.699964
+        },
+        {
+          "id": 31,
+          "text": "get",
+          "startTime": 19.699964,
+          "endTime": 19.963534
+        },
+        {
+          "id": 32,
+          "text": "swallowed",
+          "startTime": 19.963534,
+          "endTime": 20.506326
+        },
+        {
+          "id": 33,
+          "text": "right",
+          "startTime": 20.506326,
+          "endTime": 21.167551
+        },
+        {
+          "id": 34,
+          "text": "in",
+          "startTime": 21.167551,
+          "endTime": 21.298167
+        },
+        {
+          "id": 35,
+          "text": "bud.",
+          "startTime": 21.298167,
+          "endTime": 22.098132
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "But today, there is a different bird",
+      "startTime": 22.098132,
+      "endTime": 25.818665,
+      "words": [
+        {
+          "id": 36,
+          "text": "But",
+          "startTime": 22.098132,
+          "endTime": 23.026447
+        },
+        {
+          "id": 37,
+          "text": "today,",
+          "startTime": 23.026447,
+          "endTime": 23.689415
+        },
+        {
+          "id": 38,
+          "text": "there",
+          "startTime": 23.689415,
+          "endTime": 24.225307
+        },
+        {
+          "id": 39,
+          "text": "is",
+          "startTime": 24.225307,
+          "endTime": 24.352462
+        },
+        {
+          "id": 40,
+          "text": "a",
+          "startTime": 24.352462,
+          "endTime": 24.619544
+        },
+        {
+          "id": 41,
+          "text": "different",
+          "startTime": 24.619544,
+          "endTime": 25.017715
+        },
+        {
+          "id": 42,
+          "text": "bird",
+          "startTime": 25.017715,
+          "endTime": 25.818665
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "If it isn’t, the harmony of the song",
+      "startTime": 25.818665,
+      "endTime": 29.93203,
+      "words": [
+        {
+          "id": 43,
+          "text": "If",
+          "startTime": 25.818665,
+          "endTime": 26.610277
+        },
+        {
+          "id": 44,
+          "text": "it",
+          "startTime": 26.610277,
+          "endTime": 26.742649
+        },
+        {
+          "id": 45,
+          "text": "isn’t,",
+          "startTime": 26.742649,
+          "endTime": 27.674536
+        },
+        {
+          "id": 46,
+          "text": "the",
+          "startTime": 27.674536,
+          "endTime": 28.072924
+        },
+        {
+          "id": 47,
+          "text": "harmony",
+          "startTime": 28.072924,
+          "endTime": 28.736197
+        },
+        {
+          "id": 48,
+          "text": "of",
+          "startTime": 28.736197,
+          "endTime": 28.869422
+        },
+        {
+          "id": 49,
+          "text": "the",
+          "startTime": 28.869422,
+          "endTime": 29.133834
+        },
+        {
+          "id": 50,
+          "text": "song",
+          "startTime": 29.133834,
+          "endTime": 29.93203
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "Its deflection, hunch, and pompom.",
+      "startTime": 29.93203,
+      "endTime": 33.782254,
+      "words": [
+        {
+          "id": 51,
+          "text": "Its",
+          "startTime": 29.93203,
+          "endTime": 30.595467
+        },
+        {
+          "id": 52,
+          "text": "deflection,",
+          "startTime": 30.595467,
+          "endTime": 31.384874
+        },
+        {
+          "id": 53,
+          "text": "hunch,",
+          "startTime": 31.384874,
+          "endTime": 32.189233
+        },
+        {
+          "id": 54,
+          "text": "and",
+          "startTime": 32.189233,
+          "endTime": 32.985163
+        },
+        {
+          "id": 55,
+          "text": "pompom.",
+          "startTime": 32.985163,
+          "endTime": 33.782254
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "A new poem in my scaling thoughts",
+      "startTime": 33.782254,
+      "endTime": 37.769193,
+      "words": [
+        {
+          "id": 56,
+          "text": "A",
+          "startTime": 33.782254,
+          "endTime": 34.845458
+        },
+        {
+          "id": 57,
+          "text": "new",
+          "startTime": 34.845458,
+          "endTime": 35.111925
+        },
+        {
+          "id": 58,
+          "text": "poem",
+          "startTime": 35.111925,
+          "endTime": 35.637758
+        },
+        {
+          "id": 59,
+          "text": "in",
+          "startTime": 35.637758,
+          "endTime": 36.175698
+        },
+        {
+          "id": 60,
+          "text": "my",
+          "startTime": 36.175698,
+          "endTime": 36.572019
+        },
+        {
+          "id": 61,
+          "text": "scaling",
+          "startTime": 36.572019,
+          "endTime": 36.971562
+        },
+        {
+          "id": 62,
+          "text": "thoughts",
+          "startTime": 36.971562,
+          "endTime": 37.769193
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "In florescence I had gotten a call",
+      "startTime": 37.769193,
+      "endTime": 41.619487,
+      "words": [
+        {
+          "id": 63,
+          "text": "In",
+          "startTime": 37.769193,
+          "endTime": 38.564724
+        },
+        {
+          "id": 64,
+          "text": "florescence",
+          "startTime": 38.564724,
+          "endTime": 39.625677
+        },
+        {
+          "id": 65,
+          "text": "I",
+          "startTime": 39.625677,
+          "endTime": 40.024371
+        },
+        {
+          "id": 66,
+          "text": "had",
+          "startTime": 40.024371,
+          "endTime": 40.29289
+        },
+        {
+          "id": 67,
+          "text": "gotten",
+          "startTime": 40.29289,
+          "endTime": 40.556911
+        },
+        {
+          "id": 68,
+          "text": "a",
+          "startTime": 40.556911,
+          "endTime": 40.8239
+        },
+        {
+          "id": 69,
+          "text": "call",
+          "startTime": 40.8239,
+          "endTime": 41.619487
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "A soft string pull, all in nature’s plot.",
+      "startTime": 41.619487,
+      "endTime": 48.00326,
+      "words": [
+        {
+          "id": 70,
+          "text": "A",
+          "startTime": 41.619487,
+          "endTime": 42.283036
+        },
+        {
+          "id": 71,
+          "text": "soft",
+          "startTime": 42.283036,
+          "endTime": 42.683828
+        },
+        {
+          "id": 72,
+          "text": "string",
+          "startTime": 42.683828,
+          "endTime": 43.080627
+        },
+        {
+          "id": 73,
+          "text": "pull,",
+          "startTime": 43.080627,
+          "endTime": 44.140838
+        },
+        {
+          "id": 74,
+          "text": "all",
+          "startTime": 44.140838,
+          "endTime": 44.540472
+        },
+        {
+          "id": 75,
+          "text": "in",
+          "startTime": 44.540472,
+          "endTime": 45.469693
+        },
+        {
+          "id": 76,
+          "text": "nature’s",
+          "startTime": 45.469693,
+          "endTime": 46.00326
+        },
+        {
+          "id": 77,
+          "text": "plot.",
+          "startTime": 46.00326,
+          "endTime": 48.00326
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,966 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I used to live in wait",
+      "startTime": 4.51973,
+      "endTime": 6.911834,
+      "words": [
+        {
+          "id": 1,
+          "text": "I",
+          "startTime": 4.51973,
+          "endTime": 5.438969
+        },
+        {
+          "id": 2,
+          "text": "used",
+          "startTime": 5.438969,
+          "endTime": 5.574898
+        },
+        {
+          "id": 3,
+          "text": "to",
+          "startTime": 5.574898,
+          "endTime": 5.836661
+        },
+        {
+          "id": 4,
+          "text": "live",
+          "startTime": 5.836661,
+          "endTime": 6.105447
+        },
+        {
+          "id": 5,
+          "text": "in",
+          "startTime": 6.105447,
+          "endTime": 6.240196
+        },
+        {
+          "id": 6,
+          "text": "wait",
+          "startTime": 6.240196,
+          "endTime": 6.911834
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "Till everyone left, I’d stay",
+      "startTime": 6.911834,
+      "endTime": 10.356959,
+      "words": [
+        {
+          "id": 7,
+          "text": "Till",
+          "startTime": 6.911834,
+          "endTime": 8.375108
+        },
+        {
+          "id": 8,
+          "text": "everyone",
+          "startTime": 8.375108,
+          "endTime": 8.769619
+        },
+        {
+          "id": 9,
+          "text": "left,",
+          "startTime": 8.769619,
+          "endTime": 9.437033
+        },
+        {
+          "id": 10,
+          "text": "I’d",
+          "startTime": 9.437033,
+          "endTime": 9.701193
+        },
+        {
+          "id": 11,
+          "text": "stay",
+          "startTime": 9.701193,
+          "endTime": 10.356959
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "By my computer, pass the delay",
+      "startTime": 10.356959,
+      "endTime": 13.949701,
+      "words": [
+        {
+          "id": 12,
+          "text": "By",
+          "startTime": 10.356959,
+          "endTime": 11.286166
+        },
+        {
+          "id": 13,
+          "text": "my",
+          "startTime": 11.286166,
+          "endTime": 11.549598
+        },
+        {
+          "id": 14,
+          "text": "computer,",
+          "startTime": 11.549598,
+          "endTime": 12.346733
+        },
+        {
+          "id": 15,
+          "text": "pass",
+          "startTime": 12.346733,
+          "endTime": 13.020442
+        },
+        {
+          "id": 16,
+          "text": "the",
+          "startTime": 13.020442,
+          "endTime": 13.151932
+        },
+        {
+          "id": 17,
+          "text": "delay",
+          "startTime": 13.151932,
+          "endTime": 13.949701
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "I’d play games to remonstrate",
+      "startTime": 13.949701,
+      "endTime": 17.526339,
+      "words": [
+        {
+          "id": 18,
+          "text": "I’d",
+          "startTime": 13.949701,
+          "endTime": 14.880932
+        },
+        {
+          "id": 19,
+          "text": "play",
+          "startTime": 14.880932,
+          "endTime": 15.146775
+        },
+        {
+          "id": 20,
+          "text": "games",
+          "startTime": 15.146775,
+          "endTime": 16.076741
+        },
+        {
+          "id": 21,
+          "text": "to",
+          "startTime": 16.076741,
+          "endTime": 16.328841
+        },
+        {
+          "id": 22,
+          "text": "remonstrate",
+          "startTime": 16.328841,
+          "endTime": 17.526339
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "Too long hours, even holidays.",
+      "startTime": 17.526339,
+      "endTime": 21.388941,
+      "words": [
+        {
+          "id": 23,
+          "text": "Too",
+          "startTime": 17.526339,
+          "endTime": 18.455643
+        },
+        {
+          "id": 24,
+          "text": "long",
+          "startTime": 18.455643,
+          "endTime": 18.587672
+        },
+        {
+          "id": 25,
+          "text": "hours,",
+          "startTime": 18.587672,
+          "endTime": 19.794877
+        },
+        {
+          "id": 26,
+          "text": "even",
+          "startTime": 19.794877,
+          "endTime": 20.195846
+        },
+        {
+          "id": 27,
+          "text": "holidays.",
+          "startTime": 20.195846,
+          "endTime": 21.388941
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "I’d wait, till all was quiet-ached",
+      "startTime": 21.388941,
+      "endTime": 25.50396,
+      "words": [
+        {
+          "id": 28,
+          "text": "I’d",
+          "startTime": 21.388941,
+          "endTime": 22.052702
+        },
+        {
+          "id": 29,
+          "text": "wait,",
+          "startTime": 22.052702,
+          "endTime": 23.104452
+        },
+        {
+          "id": 30,
+          "text": "till",
+          "startTime": 23.104452,
+          "endTime": 23.370257
+        },
+        {
+          "id": 31,
+          "text": "all",
+          "startTime": 23.370257,
+          "endTime": 23.634596
+        },
+        {
+          "id": 32,
+          "text": "was",
+          "startTime": 23.634596,
+          "endTime": 23.912313
+        },
+        {
+          "id": 33,
+          "text": "quiet-ached",
+          "startTime": 23.912313,
+          "endTime": 25.50396
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "The wind calling, in the only break.",
+      "startTime": 25.50396,
+      "endTime": 28.815873,
+      "words": [
+        {
+          "id": 34,
+          "text": "The",
+          "startTime": 25.50396,
+          "endTime": 25.76907
+        },
+        {
+          "id": 35,
+          "text": "wind",
+          "startTime": 25.76907,
+          "endTime": 26.171828
+        },
+        {
+          "id": 36,
+          "text": "calling,",
+          "startTime": 26.171828,
+          "endTime": 26.965637
+        },
+        {
+          "id": 37,
+          "text": "in",
+          "startTime": 26.965637,
+          "endTime": 27.366479
+        },
+        {
+          "id": 38,
+          "text": "the",
+          "startTime": 27.366479,
+          "endTime": 27.630992
+        },
+        {
+          "id": 39,
+          "text": "only",
+          "startTime": 27.630992,
+          "endTime": 27.897463
+        },
+        {
+          "id": 40,
+          "text": "break.",
+          "startTime": 27.897463,
+          "endTime": 28.815873
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "In my noggin, it drops in shedding weight",
+      "startTime": 28.815873,
+      "endTime": 33.870247,
+      "words": [
+        {
+          "id": 41,
+          "text": "In",
+          "startTime": 28.815873,
+          "endTime": 30.021027
+        },
+        {
+          "id": 42,
+          "text": "my",
+          "startTime": 30.021027,
+          "endTime": 30.286127
+        },
+        {
+          "id": 43,
+          "text": "noggin,",
+          "startTime": 30.286127,
+          "endTime": 30.952498
+        },
+        {
+          "id": 44,
+          "text": "it",
+          "startTime": 30.952498,
+          "endTime": 31.617136
+        },
+        {
+          "id": 45,
+          "text": "drops",
+          "startTime": 31.617136,
+          "endTime": 32.412424
+        },
+        {
+          "id": 46,
+          "text": "in",
+          "startTime": 32.412424,
+          "endTime": 32.677757
+        },
+        {
+          "id": 47,
+          "text": "shedding",
+          "startTime": 32.677757,
+          "endTime": 32.947208
+        },
+        {
+          "id": 48,
+          "text": "weight",
+          "startTime": 32.947208,
+          "endTime": 33.870247
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "Robe from the shoulders of a magistrate",
+      "startTime": 33.870247,
+      "endTime": 38.788883,
+      "words": [
+        {
+          "id": 49,
+          "text": "Robe",
+          "startTime": 33.870247,
+          "endTime": 35.192152
+        },
+        {
+          "id": 50,
+          "text": "from",
+          "startTime": 35.192152,
+          "endTime": 35.988187
+        },
+        {
+          "id": 51,
+          "text": "the",
+          "startTime": 35.988187,
+          "endTime": 36.127136
+        },
+        {
+          "id": 52,
+          "text": "shoulders",
+          "startTime": 36.127136,
+          "endTime": 36.795221
+        },
+        {
+          "id": 53,
+          "text": "of",
+          "startTime": 36.795221,
+          "endTime": 37.325065
+        },
+        {
+          "id": 54,
+          "text": "a",
+          "startTime": 37.325065,
+          "endTime": 37.58943
+        },
+        {
+          "id": 55,
+          "text": "magistrate",
+          "startTime": 37.58943,
+          "endTime": 38.788883
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "Magma flow acquiescing my nude taste.",
+      "startTime": 38.788883,
+      "endTime": 43.300202,
+      "words": [
+        {
+          "id": 56,
+          "text": "Magma",
+          "startTime": 38.788883,
+          "endTime": 39.581681
+        },
+        {
+          "id": 57,
+          "text": "flow",
+          "startTime": 39.581681,
+          "endTime": 40.502452
+        },
+        {
+          "id": 58,
+          "text": "acquiescing",
+          "startTime": 40.502452,
+          "endTime": 41.566439
+        },
+        {
+          "id": 59,
+          "text": "my",
+          "startTime": 41.566439,
+          "endTime": 41.963605
+        },
+        {
+          "id": 60,
+          "text": "nude",
+          "startTime": 41.963605,
+          "endTime": 42.237611
+        },
+        {
+          "id": 61,
+          "text": "taste.",
+          "startTime": 42.237611,
+          "endTime": 43.300202
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "But I flung my clothes and took the day",
+      "startTime": 43.300202,
+      "endTime": 47.02253,
+      "words": [
+        {
+          "id": 62,
+          "text": "But",
+          "startTime": 43.300202,
+          "endTime": 44.497334
+        },
+        {
+          "id": 63,
+          "text": "I",
+          "startTime": 44.497334,
+          "endTime": 44.630865
+        },
+        {
+          "id": 64,
+          "text": "flung",
+          "startTime": 44.630865,
+          "endTime": 45.028135
+        },
+        {
+          "id": 65,
+          "text": "my",
+          "startTime": 45.028135,
+          "endTime": 45.16148
+        },
+        {
+          "id": 66,
+          "text": "clothes",
+          "startTime": 45.16148,
+          "endTime": 45.681503
+        },
+        {
+          "id": 67,
+          "text": "and",
+          "startTime": 45.681503,
+          "endTime": 45.948572
+        },
+        {
+          "id": 68,
+          "text": "took",
+          "startTime": 45.948572,
+          "endTime": 46.080359
+        },
+        {
+          "id": 69,
+          "text": "the",
+          "startTime": 46.080359,
+          "endTime": 46.350178
+        },
+        {
+          "id": 70,
+          "text": "day",
+          "startTime": 46.350178,
+          "endTime": 47.02253
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "Unclad thoughts, from reproach, shame.",
+      "startTime": 47.02253,
+      "endTime": 51.923787,
+      "words": [
+        {
+          "id": 71,
+          "text": "Unclad",
+          "startTime": 47.02253,
+          "endTime": 47.94808
+        },
+        {
+          "id": 72,
+          "text": "thoughts,",
+          "startTime": 47.94808,
+          "endTime": 48.614036
+        },
+        {
+          "id": 73,
+          "text": "from",
+          "startTime": 48.614036,
+          "endTime": 50.075423
+        },
+        {
+          "id": 74,
+          "text": "reproach,",
+          "startTime": 50.075423,
+          "endTime": 51.272084
+        },
+        {
+          "id": 75,
+          "text": "shame.",
+          "startTime": 51.272084,
+          "endTime": 51.923787
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "paragraph": "Then I’d sing where the hollow crowns sane",
+      "startTime": 51.923787,
+      "endTime": 56.981386,
+      "words": [
+        {
+          "id": 76,
+          "text": "Then",
+          "startTime": 51.923787,
+          "endTime": 53.131551
+        },
+        {
+          "id": 77,
+          "text": "I’d",
+          "startTime": 53.131551,
+          "endTime": 53.261919
+        },
+        {
+          "id": 78,
+          "text": "sing",
+          "startTime": 53.261919,
+          "endTime": 54.059518
+        },
+        {
+          "id": 79,
+          "text": "where",
+          "startTime": 54.059518,
+          "endTime": 54.851022
+        },
+        {
+          "id": 80,
+          "text": "the",
+          "startTime": 54.851022,
+          "endTime": 54.99095
+        },
+        {
+          "id": 81,
+          "text": "hollow",
+          "startTime": 54.99095,
+          "endTime": 55.388423
+        },
+        {
+          "id": 82,
+          "text": "crowns",
+          "startTime": 55.388423,
+          "endTime": 55.787874
+        },
+        {
+          "id": 83,
+          "text": "sane",
+          "startTime": 55.787874,
+          "endTime": 56.981386
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "paragraph": "Parroting echoes, hear myself all so very gay",
+      "startTime": 56.981386,
+      "endTime": 63.611271,
+      "words": [
+        {
+          "id": 84,
+          "text": "Parroting",
+          "startTime": 56.981386,
+          "endTime": 58.567601
+        },
+        {
+          "id": 85,
+          "text": "echoes,",
+          "startTime": 58.567601,
+          "endTime": 59.903151
+        },
+        {
+          "id": 86,
+          "text": "hear",
+          "startTime": 59.903151,
+          "endTime": 60.433389
+        },
+        {
+          "id": 87,
+          "text": "myself",
+          "startTime": 60.433389,
+          "endTime": 61.231082
+        },
+        {
+          "id": 88,
+          "text": "all",
+          "startTime": 61.231082,
+          "endTime": 61.761011
+        },
+        {
+          "id": 89,
+          "text": "so",
+          "startTime": 61.761011,
+          "endTime": 62.160158
+        },
+        {
+          "id": 90,
+          "text": "very",
+          "startTime": 62.160158,
+          "endTime": 62.425884
+        },
+        {
+          "id": 91,
+          "text": "gay",
+          "startTime": 62.425884,
+          "endTime": 63.611271
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "paragraph": "Hit notes and fuss on the pitch being a may.",
+      "startTime": 63.611271,
+      "endTime": 69.188257,
+      "words": [
+        {
+          "id": 92,
+          "text": "Hit",
+          "startTime": 63.611271,
+          "endTime": 64.676218
+        },
+        {
+          "id": 93,
+          "text": "notes",
+          "startTime": 64.676218,
+          "endTime": 65.74925
+        },
+        {
+          "id": 94,
+          "text": "and",
+          "startTime": 65.74925,
+          "endTime": 66.145053
+        },
+        {
+          "id": 95,
+          "text": "fuss",
+          "startTime": 66.145053,
+          "endTime": 66.412201
+        },
+        {
+          "id": 96,
+          "text": "on",
+          "startTime": 66.412201,
+          "endTime": 66.677821
+        },
+        {
+          "id": 97,
+          "text": "the",
+          "startTime": 66.677821,
+          "endTime": 66.943849
+        },
+        {
+          "id": 98,
+          "text": "pitch",
+          "startTime": 66.943849,
+          "endTime": 67.340719
+        },
+        {
+          "id": 99,
+          "text": "being",
+          "startTime": 67.340719,
+          "endTime": 68.00414
+        },
+        {
+          "id": 100,
+          "text": "a",
+          "startTime": 68.00414,
+          "endTime": 68.272966
+        },
+        {
+          "id": 101,
+          "text": "may.",
+          "startTime": 68.272966,
+          "endTime": 69.188257
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "paragraph": "I’d leave my room, for the new house so plain",
+      "startTime": 69.188257,
+      "endTime": 73.583245,
+      "words": [
+        {
+          "id": 102,
+          "text": "I’d",
+          "startTime": 69.188257,
+          "endTime": 69.71979
+        },
+        {
+          "id": 103,
+          "text": "leave",
+          "startTime": 69.71979,
+          "endTime": 69.987026
+        },
+        {
+          "id": 104,
+          "text": "my",
+          "startTime": 69.987026,
+          "endTime": 70.253694
+        },
+        {
+          "id": 105,
+          "text": "room,",
+          "startTime": 70.253694,
+          "endTime": 70.918724
+        },
+        {
+          "id": 106,
+          "text": "for",
+          "startTime": 70.918724,
+          "endTime": 71.181716
+        },
+        {
+          "id": 107,
+          "text": "the",
+          "startTime": 71.181716,
+          "endTime": 71.449976
+        },
+        {
+          "id": 108,
+          "text": "new",
+          "startTime": 71.449976,
+          "endTime": 71.589239
+        },
+        {
+          "id": 109,
+          "text": "house",
+          "startTime": 71.589239,
+          "endTime": 72.383481
+        },
+        {
+          "id": 110,
+          "text": "so",
+          "startTime": 72.383481,
+          "endTime": 72.653588
+        },
+        {
+          "id": 111,
+          "text": "plain",
+          "startTime": 72.653588,
+          "endTime": 73.583245
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "paragraph": "Enjoy my time alone before the bathing stage",
+      "startTime": 73.583245,
+      "endTime": 78.232384,
+      "words": [
+        {
+          "id": 112,
+          "text": "Enjoy",
+          "startTime": 73.583245,
+          "endTime": 74.376802
+        },
+        {
+          "id": 113,
+          "text": "my",
+          "startTime": 74.376802,
+          "endTime": 74.645459
+        },
+        {
+          "id": 114,
+          "text": "time",
+          "startTime": 74.645459,
+          "endTime": 75.042262
+        },
+        {
+          "id": 115,
+          "text": "alone",
+          "startTime": 75.042262,
+          "endTime": 75.827671
+        },
+        {
+          "id": 116,
+          "text": "before",
+          "startTime": 75.827671,
+          "endTime": 76.506891
+        },
+        {
+          "id": 117,
+          "text": "the",
+          "startTime": 76.506891,
+          "endTime": 76.903092
+        },
+        {
+          "id": 118,
+          "text": "bathing",
+          "startTime": 76.903092,
+          "endTime": 77.300111
+        },
+        {
+          "id": 119,
+          "text": "stage",
+          "startTime": 77.300111,
+          "endTime": 78.232384
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "paragraph": "Where the colours even now never came",
+      "startTime": 78.232384,
+      "endTime": 82.479818,
+      "words": [
+        {
+          "id": 120,
+          "text": "Where",
+          "startTime": 78.232384,
+          "endTime": 79.029252
+        },
+        {
+          "id": 121,
+          "text": "the",
+          "startTime": 79.029252,
+          "endTime": 79.16222
+        },
+        {
+          "id": 122,
+          "text": "colours",
+          "startTime": 79.16222,
+          "endTime": 79.823236
+        },
+        {
+          "id": 123,
+          "text": "even",
+          "startTime": 79.823236,
+          "endTime": 80.093718
+        },
+        {
+          "id": 124,
+          "text": "now",
+          "startTime": 80.093718,
+          "endTime": 80.621977
+        },
+        {
+          "id": 125,
+          "text": "never",
+          "startTime": 80.621977,
+          "endTime": 81.406726
+        },
+        {
+          "id": 126,
+          "text": "came",
+          "startTime": 81.406726,
+          "endTime": 82.479818
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "paragraph": "Naked like I was, only it covered my blame.",
+      "startTime": 82.479818,
+      "endTime": 88.597623,
+      "words": [
+        {
+          "id": 127,
+          "text": "Naked",
+          "startTime": 82.479818,
+          "endTime": 83.547097
+        },
+        {
+          "id": 128,
+          "text": "like",
+          "startTime": 83.547097,
+          "endTime": 83.810179
+        },
+        {
+          "id": 129,
+          "text": "I",
+          "startTime": 83.810179,
+          "endTime": 83.94261
+        },
+        {
+          "id": 130,
+          "text": "was,",
+          "startTime": 83.94261,
+          "endTime": 84.605528
+        },
+        {
+          "id": 131,
+          "text": "only",
+          "startTime": 84.605528,
+          "endTime": 85.538508
+        },
+        {
+          "id": 132,
+          "text": "it",
+          "startTime": 85.538508,
+          "endTime": 85.667413
+        },
+        {
+          "id": 133,
+          "text": "covered",
+          "startTime": 85.667413,
+          "endTime": 86.056611
+        },
+        {
+          "id": 134,
+          "text": "my",
+          "startTime": 86.056611,
+          "endTime": 86.597623
+        },
+        {
+          "id": 135,
+          "text": "blame.",
+          "startTime": 86.597623,
+          "endTime": 88.597623
+        }
+      ]
+    }
+  ]
+}

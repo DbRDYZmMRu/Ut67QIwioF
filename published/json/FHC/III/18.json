@@ -1,0 +1,162 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Scores, halls",
+      "startTime": 5.185571,
+      "endTime": 7.31972,
+      "words": [
+        {
+          "id": 1,
+          "text": "Scores,",
+          "startTime": 5.185571,
+          "endTime": 6.249928
+        },
+        {
+          "id": 2,
+          "text": "halls",
+          "startTime": 6.249928,
+          "endTime": 7.31972
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "Mores, flaws",
+      "startTime": 7.31972,
+      "endTime": 9.711617,
+      "words": [
+        {
+          "id": 3,
+          "text": "Mores,",
+          "startTime": 7.31972,
+          "endTime": 8.649881
+        },
+        {
+          "id": 4,
+          "text": "flaws",
+          "startTime": 8.649881,
+          "endTime": 9.711617
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "Postcards, borders",
+      "startTime": 9.711617,
+      "endTime": 12.233604,
+      "words": [
+        {
+          "id": 5,
+          "text": "Postcards,",
+          "startTime": 9.711617,
+          "endTime": 11.042324
+        },
+        {
+          "id": 6,
+          "text": "borders",
+          "startTime": 11.042324,
+          "endTime": 12.233604
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "Answers, jankers",
+      "startTime": 12.233604,
+      "endTime": 14.893645,
+      "words": [
+        {
+          "id": 7,
+          "text": "Answers,",
+          "startTime": 12.233604,
+          "endTime": 13.696992
+        },
+        {
+          "id": 8,
+          "text": "jankers",
+          "startTime": 13.696992,
+          "endTime": 14.893645
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "Urgers, wagers",
+      "startTime": 14.893645,
+      "endTime": 17.813335,
+      "words": [
+        {
+          "id": 9,
+          "text": "Urgers,",
+          "startTime": 14.893645,
+          "endTime": 16.484959
+        },
+        {
+          "id": 10,
+          "text": "wagers",
+          "startTime": 16.484959,
+          "endTime": 17.813335
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "Boards, gloss",
+      "startTime": 17.813335,
+      "endTime": 20.336956,
+      "words": [
+        {
+          "id": 11,
+          "text": "Boards,",
+          "startTime": 17.813335,
+          "endTime": 19.139921
+        },
+        {
+          "id": 12,
+          "text": "gloss",
+          "startTime": 19.139921,
+          "endTime": 20.336956
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "Mariachi for your party doll.",
+      "startTime": 20.336956,
+      "endTime": 24.726855,
+      "words": [
+        {
+          "id": 13,
+          "text": "Mariachi",
+          "startTime": 20.336956,
+          "endTime": 21.531541
+        },
+        {
+          "id": 14,
+          "text": "for",
+          "startTime": 21.531541,
+          "endTime": 21.929588
+        },
+        {
+          "id": 15,
+          "text": "your",
+          "startTime": 21.929588,
+          "endTime": 22.197895
+        },
+        {
+          "id": 16,
+          "text": "party",
+          "startTime": 22.197895,
+          "endTime": 22.726855
+        },
+        {
+          "id": 17,
+          "text": "doll.",
+          "startTime": 22.726855,
+          "endTime": 24.726855
+        }
+      ]
+    }
+  ]
+}

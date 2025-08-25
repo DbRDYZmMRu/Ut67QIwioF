@@ -1,0 +1,162 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Have a guard by the gate",
+      "startTime": 4.694587,
+      "endTime": 8.014353,
+      "words": [
+        {
+          "id": 1,
+          "text": "Have",
+          "startTime": 4.694587,
+          "endTime": 6.156538
+        },
+        {
+          "id": 2,
+          "text": "a",
+          "startTime": 6.156538,
+          "endTime": 6.287592
+        },
+        {
+          "id": 3,
+          "text": "guard",
+          "startTime": 6.287592,
+          "endTime": 6.82085
+        },
+        {
+          "id": 4,
+          "text": "by",
+          "startTime": 6.82085,
+          "endTime": 7.083485
+        },
+        {
+          "id": 5,
+          "text": "the",
+          "startTime": 7.083485,
+          "endTime": 7.216141
+        },
+        {
+          "id": 6,
+          "text": "gate",
+          "startTime": 7.216141,
+          "endTime": 8.014353
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "With a clamp to be straight",
+      "startTime": 8.014353,
+      "endTime": 11.333984,
+      "words": [
+        {
+          "id": 7,
+          "text": "With",
+          "startTime": 8.014353,
+          "endTime": 8.943221
+        },
+        {
+          "id": 8,
+          "text": "a",
+          "startTime": 8.943221,
+          "endTime": 9.075193
+        },
+        {
+          "id": 9,
+          "text": "clamp",
+          "startTime": 9.075193,
+          "endTime": 9.740403
+        },
+        {
+          "id": 10,
+          "text": "to",
+          "startTime": 9.740403,
+          "endTime": 10.273384
+        },
+        {
+          "id": 11,
+          "text": "be",
+          "startTime": 10.273384,
+          "endTime": 10.536953
+        },
+        {
+          "id": 12,
+          "text": "straight",
+          "startTime": 10.536953,
+          "endTime": 11.333984
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "Dummies head for a strait",
+      "startTime": 11.333984,
+      "endTime": 14.393826,
+      "words": [
+        {
+          "id": 13,
+          "text": "Dummies",
+          "startTime": 11.333984,
+          "endTime": 12.398429
+        },
+        {
+          "id": 14,
+          "text": "head",
+          "startTime": 12.398429,
+          "endTime": 13.193386
+        },
+        {
+          "id": 15,
+          "text": "for",
+          "startTime": 13.193386,
+          "endTime": 13.462119
+        },
+        {
+          "id": 16,
+          "text": "a",
+          "startTime": 13.462119,
+          "endTime": 13.593618
+        },
+        {
+          "id": 17,
+          "text": "strait",
+          "startTime": 13.593618,
+          "endTime": 14.393826
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "Rapport off these pages.",
+      "startTime": 14.393826,
+      "endTime": 18.248813,
+      "words": [
+        {
+          "id": 18,
+          "text": "Rapport",
+          "startTime": 14.393826,
+          "endTime": 15.851964
+        },
+        {
+          "id": 19,
+          "text": "off",
+          "startTime": 15.851964,
+          "endTime": 15.98132
+        },
+        {
+          "id": 20,
+          "text": "these",
+          "startTime": 15.98132,
+          "endTime": 16.248813
+        },
+        {
+          "id": 21,
+          "text": "pages.",
+          "startTime": 16.248813,
+          "endTime": 18.248813
+        }
+      ]
+    }
+  ]
+}

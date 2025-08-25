@@ -1,0 +1,756 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Fingers drumming knee",
+      "startTime": 4.462092,
+      "endTime": 6.455272,
+      "words": [
+        {
+          "id": 1,
+          "text": "Fingers",
+          "startTime": 4.462092,
+          "endTime": 5.128584
+        },
+        {
+          "id": 2,
+          "text": "drumming",
+          "startTime": 5.128584,
+          "endTime": 5.661419
+        },
+        {
+          "id": 3,
+          "text": "knee",
+          "startTime": 5.661419,
+          "endTime": 6.455272
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "Now way too much beat",
+      "startTime": 6.455272,
+      "endTime": 8.981876,
+      "words": [
+        {
+          "id": 4,
+          "text": "Now",
+          "startTime": 6.455272,
+          "endTime": 7.651684
+        },
+        {
+          "id": 5,
+          "text": "way",
+          "startTime": 7.651684,
+          "endTime": 7.783137
+        },
+        {
+          "id": 6,
+          "text": "too",
+          "startTime": 7.783137,
+          "endTime": 8.050131
+        },
+        {
+          "id": 7,
+          "text": "much",
+          "startTime": 8.050131,
+          "endTime": 8.313446
+        },
+        {
+          "id": 8,
+          "text": "beat",
+          "startTime": 8.313446,
+          "endTime": 8.981876
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "As with the needing glean",
+      "startTime": 8.981876,
+      "endTime": 11.899422,
+      "words": [
+        {
+          "id": 9,
+          "text": "As",
+          "startTime": 8.981876,
+          "endTime": 9.909936
+        },
+        {
+          "id": 10,
+          "text": "with",
+          "startTime": 9.909936,
+          "endTime": 10.174911
+        },
+        {
+          "id": 11,
+          "text": "the",
+          "startTime": 10.174911,
+          "endTime": 10.307551
+        },
+        {
+          "id": 12,
+          "text": "needing",
+          "startTime": 10.307551,
+          "endTime": 10.837957
+        },
+        {
+          "id": 13,
+          "text": "glean",
+          "startTime": 10.837957,
+          "endTime": 11.899422
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "He has left me now in glee.",
+      "startTime": 11.899422,
+      "endTime": 15.089293,
+      "words": [
+        {
+          "id": 14,
+          "text": "He",
+          "startTime": 11.899422,
+          "endTime": 12.962336
+        },
+        {
+          "id": 15,
+          "text": "has",
+          "startTime": 12.962336,
+          "endTime": 13.097138
+        },
+        {
+          "id": 16,
+          "text": "left",
+          "startTime": 13.097138,
+          "endTime": 13.361495
+        },
+        {
+          "id": 17,
+          "text": "me",
+          "startTime": 13.361495,
+          "endTime": 13.626904
+        },
+        {
+          "id": 18,
+          "text": "now",
+          "startTime": 13.626904,
+          "endTime": 14.02662
+        },
+        {
+          "id": 19,
+          "text": "in",
+          "startTime": 14.02662,
+          "endTime": 14.159438
+        },
+        {
+          "id": 20,
+          "text": "glee.",
+          "startTime": 14.159438,
+          "endTime": 15.089293
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "So long with my grief",
+      "startTime": 15.089293,
+      "endTime": 18.40967,
+      "words": [
+        {
+          "id": 21,
+          "text": "So",
+          "startTime": 15.089293,
+          "endTime": 16.283199
+        },
+        {
+          "id": 22,
+          "text": "long",
+          "startTime": 16.283199,
+          "endTime": 16.946229
+        },
+        {
+          "id": 23,
+          "text": "with",
+          "startTime": 16.946229,
+          "endTime": 17.34812
+        },
+        {
+          "id": 24,
+          "text": "my",
+          "startTime": 17.34812,
+          "endTime": 17.616081
+        },
+        {
+          "id": 25,
+          "text": "grief",
+          "startTime": 17.616081,
+          "endTime": 18.40967
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "He won’t pick me",
+      "startTime": 18.40967,
+      "endTime": 20.402078,
+      "words": [
+        {
+          "id": 26,
+          "text": "He",
+          "startTime": 18.40967,
+          "endTime": 19.073379
+        },
+        {
+          "id": 27,
+          "text": "won’t",
+          "startTime": 19.073379,
+          "endTime": 19.205679
+        },
+        {
+          "id": 28,
+          "text": "pick",
+          "startTime": 19.205679,
+          "endTime": 19.46945
+        },
+        {
+          "id": 29,
+          "text": "me",
+          "startTime": 19.46945,
+          "endTime": 20.402078
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "Read up my mischief",
+      "startTime": 20.402078,
+      "endTime": 23.056506,
+      "words": [
+        {
+          "id": 30,
+          "text": "Read",
+          "startTime": 20.402078,
+          "endTime": 21.198334
+        },
+        {
+          "id": 31,
+          "text": "up",
+          "startTime": 21.198334,
+          "endTime": 21.463125
+        },
+        {
+          "id": 32,
+          "text": "my",
+          "startTime": 21.463125,
+          "endTime": 21.993948
+        },
+        {
+          "id": 33,
+          "text": "mischief",
+          "startTime": 21.993948,
+          "endTime": 23.056506
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "He is finished.",
+      "startTime": 23.056506,
+      "endTime": 24.78364,
+      "words": [
+        {
+          "id": 34,
+          "text": "He",
+          "startTime": 23.056506,
+          "endTime": 23.854664
+        },
+        {
+          "id": 35,
+          "text": "is",
+          "startTime": 23.854664,
+          "endTime": 23.986894
+        },
+        {
+          "id": 36,
+          "text": "finished.",
+          "startTime": 23.986894,
+          "endTime": 24.78364
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "Attitude lazy, even for a lift",
+      "startTime": 24.78364,
+      "endTime": 29.565774,
+      "words": [
+        {
+          "id": 37,
+          "text": "Attitude",
+          "startTime": 24.78364,
+          "endTime": 26.775529
+        },
+        {
+          "id": 38,
+          "text": "lazy,",
+          "startTime": 26.775529,
+          "endTime": 27.574699
+        },
+        {
+          "id": 39,
+          "text": "even",
+          "startTime": 27.574699,
+          "endTime": 28.368663
+        },
+        {
+          "id": 40,
+          "text": "for",
+          "startTime": 28.368663,
+          "endTime": 28.636787
+        },
+        {
+          "id": 41,
+          "text": "a",
+          "startTime": 28.636787,
+          "endTime": 28.768162
+        },
+        {
+          "id": 42,
+          "text": "lift",
+          "startTime": 28.768162,
+          "endTime": 29.565774
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "It is the poetry, this poetry",
+      "startTime": 29.565774,
+      "endTime": 34.212694,
+      "words": [
+        {
+          "id": 43,
+          "text": "It",
+          "startTime": 29.565774,
+          "endTime": 30.627828
+        },
+        {
+          "id": 44,
+          "text": "is",
+          "startTime": 30.627828,
+          "endTime": 30.894037
+        },
+        {
+          "id": 45,
+          "text": "the",
+          "startTime": 30.894037,
+          "endTime": 31.026884
+        },
+        {
+          "id": 46,
+          "text": "poetry,",
+          "startTime": 31.026884,
+          "endTime": 31.688257
+        },
+        {
+          "id": 47,
+          "text": "this",
+          "startTime": 31.688257,
+          "endTime": 32.886927
+        },
+        {
+          "id": 48,
+          "text": "poetry",
+          "startTime": 32.886927,
+          "endTime": 34.212694
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "I will need it, the dictionary",
+      "startTime": 34.212694,
+      "endTime": 37.799961,
+      "words": [
+        {
+          "id": 49,
+          "text": "I",
+          "startTime": 34.212694,
+          "endTime": 35.144978
+        },
+        {
+          "id": 50,
+          "text": "will",
+          "startTime": 35.144978,
+          "endTime": 35.276828
+        },
+        {
+          "id": 51,
+          "text": "need",
+          "startTime": 35.276828,
+          "endTime": 35.538429
+        },
+        {
+          "id": 52,
+          "text": "it,",
+          "startTime": 35.538429,
+          "endTime": 36.074496
+        },
+        {
+          "id": 53,
+          "text": "the",
+          "startTime": 36.074496,
+          "endTime": 36.472401
+        },
+        {
+          "id": 54,
+          "text": "dictionary",
+          "startTime": 36.472401,
+          "endTime": 37.799961
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "These fruits, this lethargy",
+      "startTime": 37.799961,
+      "endTime": 41.785502,
+      "words": [
+        {
+          "id": 55,
+          "text": "These",
+          "startTime": 37.799961,
+          "endTime": 38.729895
+        },
+        {
+          "id": 56,
+          "text": "fruits,",
+          "startTime": 38.729895,
+          "endTime": 39.791732
+        },
+        {
+          "id": 57,
+          "text": "this",
+          "startTime": 39.791732,
+          "endTime": 40.454191
+        },
+        {
+          "id": 58,
+          "text": "lethargy",
+          "startTime": 40.454191,
+          "endTime": 41.785502
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "paragraph": "I feel so sleepy, I mean this.",
+      "startTime": 41.785502,
+      "endTime": 46.165042,
+      "words": [
+        {
+          "id": 59,
+          "text": "I",
+          "startTime": 41.785502,
+          "endTime": 42.844925
+        },
+        {
+          "id": 60,
+          "text": "feel",
+          "startTime": 42.844925,
+          "endTime": 42.978038
+        },
+        {
+          "id": 61,
+          "text": "so",
+          "startTime": 42.978038,
+          "endTime": 43.37553
+        },
+        {
+          "id": 62,
+          "text": "sleepy,",
+          "startTime": 43.37553,
+          "endTime": 44.440206
+        },
+        {
+          "id": 63,
+          "text": "I",
+          "startTime": 44.440206,
+          "endTime": 45.23612
+        },
+        {
+          "id": 64,
+          "text": "mean",
+          "startTime": 45.23612,
+          "endTime": 45.367839
+        },
+        {
+          "id": 65,
+          "text": "this.",
+          "startTime": 45.367839,
+          "endTime": 46.165042
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "paragraph": "Not sleepy, eyes needing a zip",
+      "startTime": 46.165042,
+      "endTime": 50.546369,
+      "words": [
+        {
+          "id": 66,
+          "text": "Not",
+          "startTime": 46.165042,
+          "endTime": 47.230565
+        },
+        {
+          "id": 67,
+          "text": "sleepy,",
+          "startTime": 47.230565,
+          "endTime": 48.289272
+        },
+        {
+          "id": 68,
+          "text": "eyes",
+          "startTime": 48.289272,
+          "endTime": 48.821921
+        },
+        {
+          "id": 69,
+          "text": "needing",
+          "startTime": 48.821921,
+          "endTime": 49.222946
+        },
+        {
+          "id": 70,
+          "text": "a",
+          "startTime": 49.222946,
+          "endTime": 49.487577
+        },
+        {
+          "id": 71,
+          "text": "zip",
+          "startTime": 49.487577,
+          "endTime": 50.546369
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "paragraph": "My index, thumb, playing three.",
+      "startTime": 50.546369,
+      "endTime": 54.930931,
+      "words": [
+        {
+          "id": 72,
+          "text": "My",
+          "startTime": 50.546369,
+          "endTime": 51.476688
+        },
+        {
+          "id": 73,
+          "text": "index,",
+          "startTime": 51.476688,
+          "endTime": 52.540312
+        },
+        {
+          "id": 74,
+          "text": "thumb,",
+          "startTime": 52.540312,
+          "endTime": 52.94128
+        },
+        {
+          "id": 75,
+          "text": "playing",
+          "startTime": 52.94128,
+          "endTime": 54.266055
+        },
+        {
+          "id": 76,
+          "text": "three.",
+          "startTime": 54.266055,
+          "endTime": 54.930931
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "paragraph": "Now my brain doesn’t count in",
+      "startTime": 54.930931,
+      "endTime": 57.853222,
+      "words": [
+        {
+          "id": 77,
+          "text": "Now",
+          "startTime": 54.930931,
+          "endTime": 56.260548
+        },
+        {
+          "id": 78,
+          "text": "my",
+          "startTime": 56.260548,
+          "endTime": 56.393379
+        },
+        {
+          "id": 79,
+          "text": "brain",
+          "startTime": 56.393379,
+          "endTime": 56.658259
+        },
+        {
+          "id": 80,
+          "text": "doesn’t",
+          "startTime": 56.658259,
+          "endTime": 57.058782
+        },
+        {
+          "id": 81,
+          "text": "count",
+          "startTime": 57.058782,
+          "endTime": 57.590371
+        },
+        {
+          "id": 82,
+          "text": "in",
+          "startTime": 57.590371,
+          "endTime": 57.853222
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "paragraph": "For it has brought all these wit",
+      "startTime": 57.853222,
+      "endTime": 60.641317,
+      "words": [
+        {
+          "id": 83,
+          "text": "For",
+          "startTime": 57.853222,
+          "endTime": 59.048679
+        },
+        {
+          "id": 84,
+          "text": "it",
+          "startTime": 59.048679,
+          "endTime": 59.182558
+        },
+        {
+          "id": 85,
+          "text": "has",
+          "startTime": 59.182558,
+          "endTime": 59.447654
+        },
+        {
+          "id": 86,
+          "text": "brought",
+          "startTime": 59.447654,
+          "endTime": 59.712896
+        },
+        {
+          "id": 87,
+          "text": "all",
+          "startTime": 59.712896,
+          "endTime": 59.845175
+        },
+        {
+          "id": 88,
+          "text": "these",
+          "startTime": 59.845175,
+          "endTime": 60.112899
+        },
+        {
+          "id": 89,
+          "text": "wit",
+          "startTime": 60.112899,
+          "endTime": 60.641317
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "paragraph": "This heavy, round-round pleat",
+      "startTime": 60.641317,
+      "endTime": 64.362599,
+      "words": [
+        {
+          "id": 90,
+          "text": "This",
+          "startTime": 60.641317,
+          "endTime": 61.705082
+        },
+        {
+          "id": 91,
+          "text": "heavy,",
+          "startTime": 61.705082,
+          "endTime": 62.502656
+        },
+        {
+          "id": 92,
+          "text": "round-round",
+          "startTime": 62.502656,
+          "endTime": 63.297858
+        },
+        {
+          "id": 93,
+          "text": "pleat",
+          "startTime": 63.297858,
+          "endTime": 64.362599
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "paragraph": "When I could just, wait a minute!",
+      "startTime": 64.362599,
+      "endTime": 69.5493,
+      "words": [
+        {
+          "id": 94,
+          "text": "When",
+          "startTime": 64.362599,
+          "endTime": 65.159092
+        },
+        {
+          "id": 95,
+          "text": "I",
+          "startTime": 65.159092,
+          "endTime": 65.290272
+        },
+        {
+          "id": 96,
+          "text": "could",
+          "startTime": 65.290272,
+          "endTime": 65.555752
+        },
+        {
+          "id": 97,
+          "text": "just,",
+          "startTime": 65.555752,
+          "endTime": 66.085865
+        },
+        {
+          "id": 98,
+          "text": "wait",
+          "startTime": 66.085865,
+          "endTime": 67.418148
+        },
+        {
+          "id": 99,
+          "text": "a",
+          "startTime": 67.418148,
+          "endTime": 67.5493
+        },
+        {
+          "id": 100,
+          "text": "minute!",
+          "startTime": 67.5493,
+          "endTime": 69.5493
+        }
+      ]
+    }
+  ]
+}

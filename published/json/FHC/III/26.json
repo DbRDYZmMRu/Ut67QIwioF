@@ -1,0 +1,600 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "The disparity deserves clapping",
+      "startTime": 6.069505,
+      "endTime": 9.656782,
+      "words": [
+        {
+          "id": 1,
+          "text": "The",
+          "startTime": 6.069505,
+          "endTime": 7.398471
+        },
+        {
+          "id": 2,
+          "text": "disparity",
+          "startTime": 7.398471,
+          "endTime": 8.061002
+        },
+        {
+          "id": 3,
+          "text": "deserves",
+          "startTime": 8.061002,
+          "endTime": 8.595359
+        },
+        {
+          "id": 4,
+          "text": "clapping",
+          "startTime": 8.595359,
+          "endTime": 9.656782
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "A round of applause glistening",
+      "startTime": 9.656782,
+      "endTime": 12.31292,
+      "words": [
+        {
+          "id": 5,
+          "text": "A",
+          "startTime": 9.656782,
+          "endTime": 10.32412
+        },
+        {
+          "id": 6,
+          "text": "round",
+          "startTime": 10.32412,
+          "endTime": 10.587278
+        },
+        {
+          "id": 7,
+          "text": "of",
+          "startTime": 10.587278,
+          "endTime": 10.986187
+        },
+        {
+          "id": 8,
+          "text": "applause",
+          "startTime": 10.986187,
+          "endTime": 11.383648
+        },
+        {
+          "id": 9,
+          "text": "glistening",
+          "startTime": 11.383648,
+          "endTime": 12.31292
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "Thundering to make eyes gleam.",
+      "startTime": 12.31292,
+      "endTime": 16.034036,
+      "words": [
+        {
+          "id": 10,
+          "text": "Thundering",
+          "startTime": 12.31292,
+          "endTime": 13.376895
+        },
+        {
+          "id": 11,
+          "text": "to",
+          "startTime": 13.376895,
+          "endTime": 14.173353
+        },
+        {
+          "id": 12,
+          "text": "make",
+          "startTime": 14.173353,
+          "endTime": 14.439563
+        },
+        {
+          "id": 13,
+          "text": "eyes",
+          "startTime": 14.439563,
+          "endTime": 14.836485
+        },
+        {
+          "id": 14,
+          "text": "gleam.",
+          "startTime": 14.836485,
+          "endTime": 16.034036
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "Nimble up the coop in a waking shin",
+      "startTime": 16.034036,
+      "endTime": 20.283976,
+      "words": [
+        {
+          "id": 15,
+          "text": "Nimble",
+          "startTime": 16.034036,
+          "endTime": 17.227138
+        },
+        {
+          "id": 16,
+          "text": "up",
+          "startTime": 17.227138,
+          "endTime": 17.496106
+        },
+        {
+          "id": 17,
+          "text": "the",
+          "startTime": 17.496106,
+          "endTime": 17.624139
+        },
+        {
+          "id": 18,
+          "text": "coop",
+          "startTime": 17.624139,
+          "endTime": 18.288392
+        },
+        {
+          "id": 19,
+          "text": "in",
+          "startTime": 18.288392,
+          "endTime": 18.554224
+        },
+        {
+          "id": 20,
+          "text": "a",
+          "startTime": 18.554224,
+          "endTime": 18.82414
+        },
+        {
+          "id": 21,
+          "text": "waking",
+          "startTime": 18.82414,
+          "endTime": 19.220154
+        },
+        {
+          "id": 22,
+          "text": "shin",
+          "startTime": 19.220154,
+          "endTime": 20.283976
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "Cops stormed the darkroom ring...",
+      "startTime": 20.283976,
+      "endTime": 23.203751,
+      "words": [
+        {
+          "id": 23,
+          "text": "Cops",
+          "startTime": 20.283976,
+          "endTime": 20.943712
+        },
+        {
+          "id": 24,
+          "text": "stormed",
+          "startTime": 20.943712,
+          "endTime": 21.343998
+        },
+        {
+          "id": 25,
+          "text": "the",
+          "startTime": 21.343998,
+          "endTime": 21.747089
+        },
+        {
+          "id": 26,
+          "text": "darkroom",
+          "startTime": 21.747089,
+          "endTime": 22.273715
+        },
+        {
+          "id": 27,
+          "text": "ring...",
+          "startTime": 22.273715,
+          "endTime": 23.203751
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "Before I knew, I was out the shindig.",
+      "startTime": 23.203751,
+      "endTime": 27.586515,
+      "words": [
+        {
+          "id": 28,
+          "text": "Before",
+          "startTime": 23.203751,
+          "endTime": 24.1353
+        },
+        {
+          "id": 29,
+          "text": "I",
+          "startTime": 24.1353,
+          "endTime": 24.266449
+        },
+        {
+          "id": 30,
+          "text": "knew,",
+          "startTime": 24.266449,
+          "endTime": 25.066975
+        },
+        {
+          "id": 31,
+          "text": "I",
+          "startTime": 25.066975,
+          "endTime": 25.592238
+        },
+        {
+          "id": 32,
+          "text": "was",
+          "startTime": 25.592238,
+          "endTime": 25.728702
+        },
+        {
+          "id": 33,
+          "text": "out",
+          "startTime": 25.728702,
+          "endTime": 26.125502
+        },
+        {
+          "id": 34,
+          "text": "the",
+          "startTime": 26.125502,
+          "endTime": 26.391825
+        },
+        {
+          "id": 35,
+          "text": "shindig.",
+          "startTime": 26.391825,
+          "endTime": 27.586515
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "Can’t ever tell, if it’s a whank, the queen",
+      "startTime": 27.586515,
+      "endTime": 33.030812,
+      "words": [
+        {
+          "id": 36,
+          "text": "Can’t",
+          "startTime": 27.586515,
+          "endTime": 28.383752
+        },
+        {
+          "id": 37,
+          "text": "ever",
+          "startTime": 28.383752,
+          "endTime": 28.652284
+        },
+        {
+          "id": 38,
+          "text": "tell,",
+          "startTime": 28.652284,
+          "endTime": 29.581136
+        },
+        {
+          "id": 39,
+          "text": "if",
+          "startTime": 29.581136,
+          "endTime": 30.242794
+        },
+        {
+          "id": 40,
+          "text": "it’s",
+          "startTime": 30.242794,
+          "endTime": 30.37834
+        },
+        {
+          "id": 41,
+          "text": "a",
+          "startTime": 30.37834,
+          "endTime": 30.639513
+        },
+        {
+          "id": 42,
+          "text": "whank,",
+          "startTime": 30.639513,
+          "endTime": 31.572265
+        },
+        {
+          "id": 43,
+          "text": "the",
+          "startTime": 31.572265,
+          "endTime": 31.969497
+        },
+        {
+          "id": 44,
+          "text": "queen",
+          "startTime": 31.969497,
+          "endTime": 33.030812
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "An unnoticed sudden screechy scream",
+      "startTime": 33.030812,
+      "endTime": 36.883604,
+      "words": [
+        {
+          "id": 45,
+          "text": "An",
+          "startTime": 33.030812,
+          "endTime": 33.693895
+        },
+        {
+          "id": 46,
+          "text": "unnoticed",
+          "startTime": 33.693895,
+          "endTime": 34.359644
+        },
+        {
+          "id": 47,
+          "text": "sudden",
+          "startTime": 34.359644,
+          "endTime": 34.890901
+        },
+        {
+          "id": 48,
+          "text": "screechy",
+          "startTime": 34.890901,
+          "endTime": 35.557507
+        },
+        {
+          "id": 49,
+          "text": "scream",
+          "startTime": 35.557507,
+          "endTime": 36.883604
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "Being awake makes all the questioning.",
+      "startTime": 36.883604,
+      "endTime": 40.204426,
+      "words": [
+        {
+          "id": 50,
+          "text": "Being",
+          "startTime": 36.883604,
+          "endTime": 37.548181
+        },
+        {
+          "id": 51,
+          "text": "awake",
+          "startTime": 37.548181,
+          "endTime": 37.946836
+        },
+        {
+          "id": 52,
+          "text": "makes",
+          "startTime": 37.946836,
+          "endTime": 38.212938
+        },
+        {
+          "id": 53,
+          "text": "all",
+          "startTime": 38.212938,
+          "endTime": 38.345561
+        },
+        {
+          "id": 54,
+          "text": "the",
+          "startTime": 38.345561,
+          "endTime": 38.611506
+        },
+        {
+          "id": 55,
+          "text": "questioning.",
+          "startTime": 38.611506,
+          "endTime": 40.204426
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "Checked, my bladder sac holds no urine",
+      "startTime": 40.204426,
+      "endTime": 44.719234,
+      "words": [
+        {
+          "id": 56,
+          "text": "Checked,",
+          "startTime": 40.204426,
+          "endTime": 41.93186
+        },
+        {
+          "id": 57,
+          "text": "my",
+          "startTime": 41.93186,
+          "endTime": 42.19721
+        },
+        {
+          "id": 58,
+          "text": "bladder",
+          "startTime": 42.19721,
+          "endTime": 42.72801
+        },
+        {
+          "id": 59,
+          "text": "sac",
+          "startTime": 42.72801,
+          "endTime": 42.993592
+        },
+        {
+          "id": 60,
+          "text": "holds",
+          "startTime": 42.993592,
+          "endTime": 43.524736
+        },
+        {
+          "id": 61,
+          "text": "no",
+          "startTime": 43.524736,
+          "endTime": 43.655671
+        },
+        {
+          "id": 62,
+          "text": "urine",
+          "startTime": 43.655671,
+          "endTime": 44.719234
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "There is movement, some stepping.",
+      "startTime": 44.719234,
+      "endTime": 48.966188,
+      "words": [
+        {
+          "id": 63,
+          "text": "There",
+          "startTime": 44.719234,
+          "endTime": 45.785559
+        },
+        {
+          "id": 64,
+          "text": "is",
+          "startTime": 45.785559,
+          "endTime": 46.046273
+        },
+        {
+          "id": 65,
+          "text": "movement,",
+          "startTime": 46.046273,
+          "endTime": 47.241773
+        },
+        {
+          "id": 66,
+          "text": "some",
+          "startTime": 47.241773,
+          "endTime": 47.508131
+        },
+        {
+          "id": 67,
+          "text": "stepping.",
+          "startTime": 47.508131,
+          "endTime": 48.966188
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "You witness the door in its banging",
+      "startTime": 48.966188,
+      "endTime": 52.02543,
+      "words": [
+        {
+          "id": 68,
+          "text": "You",
+          "startTime": 48.966188,
+          "endTime": 49.766895
+        },
+        {
+          "id": 69,
+          "text": "witness",
+          "startTime": 49.766895,
+          "endTime": 50.031345
+        },
+        {
+          "id": 70,
+          "text": "the",
+          "startTime": 50.031345,
+          "endTime": 50.298919
+        },
+        {
+          "id": 71,
+          "text": "door",
+          "startTime": 50.298919,
+          "endTime": 50.695628
+        },
+        {
+          "id": 72,
+          "text": "in",
+          "startTime": 50.695628,
+          "endTime": 50.829695
+        },
+        {
+          "id": 73,
+          "text": "its",
+          "startTime": 50.829695,
+          "endTime": 51.093479
+        },
+        {
+          "id": 74,
+          "text": "banging",
+          "startTime": 51.093479,
+          "endTime": 52.02543
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "paragraph": "If it snores that loud... if ever asleep?",
+      "startTime": 52.02543,
+      "endTime": 57.744187,
+      "words": [
+        {
+          "id": 75,
+          "text": "If",
+          "startTime": 52.02543,
+          "endTime": 52.555752
+        },
+        {
+          "id": 76,
+          "text": "it",
+          "startTime": 52.555752,
+          "endTime": 52.818401
+        },
+        {
+          "id": 77,
+          "text": "snores",
+          "startTime": 52.818401,
+          "endTime": 53.219559
+        },
+        {
+          "id": 78,
+          "text": "that",
+          "startTime": 53.219559,
+          "endTime": 53.485134
+        },
+        {
+          "id": 79,
+          "text": "loud...",
+          "startTime": 53.485134,
+          "endTime": 54.149222
+        },
+        {
+          "id": 80,
+          "text": "if",
+          "startTime": 54.149222,
+          "endTime": 55.213255
+        },
+        {
+          "id": 81,
+          "text": "ever",
+          "startTime": 55.213255,
+          "endTime": 55.744187
+        },
+        {
+          "id": 82,
+          "text": "asleep?",
+          "startTime": 55.744187,
+          "endTime": 57.744187
+        }
+      ]
+    }
+  ]
+}

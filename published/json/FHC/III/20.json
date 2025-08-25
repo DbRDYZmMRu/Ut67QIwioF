@@ -1,0 +1,238 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Trouble has a head that heeds",
+      "startTime": 5.054451,
+      "endTime": 8.375795,
+      "words": [
+        {
+          "id": 1,
+          "text": "Trouble",
+          "startTime": 5.054451,
+          "endTime": 6.252468
+        },
+        {
+          "id": 2,
+          "text": "has",
+          "startTime": 6.252468,
+          "endTime": 6.516648
+        },
+        {
+          "id": 3,
+          "text": "a",
+          "startTime": 6.516648,
+          "endTime": 6.783624
+        },
+        {
+          "id": 4,
+          "text": "head",
+          "startTime": 6.783624,
+          "endTime": 7.314773
+        },
+        {
+          "id": 5,
+          "text": "that",
+          "startTime": 7.314773,
+          "endTime": 7.578343
+        },
+        {
+          "id": 6,
+          "text": "heeds",
+          "startTime": 7.578343,
+          "endTime": 8.375795
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "It’s the question it seeks",
+      "startTime": 8.375795,
+      "endTime": 11.166007,
+      "words": [
+        {
+          "id": 7,
+          "text": "It’s",
+          "startTime": 8.375795,
+          "endTime": 9.439025
+        },
+        {
+          "id": 8,
+          "text": "the",
+          "startTime": 9.439025,
+          "endTime": 9.575121
+        },
+        {
+          "id": 9,
+          "text": "question",
+          "startTime": 9.575121,
+          "endTime": 10.103114
+        },
+        {
+          "id": 10,
+          "text": "it",
+          "startTime": 10.103114,
+          "endTime": 10.367004
+        },
+        {
+          "id": 11,
+          "text": "seeks",
+          "startTime": 10.367004,
+          "endTime": 11.166007
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "Often of a reluctant appraising",
+      "startTime": 11.166007,
+      "endTime": 14.883852,
+      "words": [
+        {
+          "id": 12,
+          "text": "Often",
+          "startTime": 11.166007,
+          "endTime": 12.093775
+        },
+        {
+          "id": 13,
+          "text": "of",
+          "startTime": 12.093775,
+          "endTime": 12.891927
+        },
+        {
+          "id": 14,
+          "text": "a",
+          "startTime": 12.891927,
+          "endTime": 13.156907
+        },
+        {
+          "id": 15,
+          "text": "reluctant",
+          "startTime": 13.156907,
+          "endTime": 13.687773
+        },
+        {
+          "id": 16,
+          "text": "appraising",
+          "startTime": 13.687773,
+          "endTime": 14.883852
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "From scheming imprints of cost.",
+      "startTime": 14.883852,
+      "endTime": 18.997317,
+      "words": [
+        {
+          "id": 17,
+          "text": "From",
+          "startTime": 14.883852,
+          "endTime": 15.811644
+        },
+        {
+          "id": 18,
+          "text": "scheming",
+          "startTime": 15.811644,
+          "endTime": 16.346089
+        },
+        {
+          "id": 19,
+          "text": "imprints",
+          "startTime": 16.346089,
+          "endTime": 17.006434
+        },
+        {
+          "id": 20,
+          "text": "of",
+          "startTime": 17.006434,
+          "endTime": 17.936789
+        },
+        {
+          "id": 21,
+          "text": "cost.",
+          "startTime": 17.936789,
+          "endTime": 18.997317
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "Take up all, if you must",
+      "startTime": 18.997317,
+      "endTime": 22.454596,
+      "words": [
+        {
+          "id": 22,
+          "text": "Take",
+          "startTime": 18.997317,
+          "endTime": 20.196616
+        },
+        {
+          "id": 23,
+          "text": "up",
+          "startTime": 20.196616,
+          "endTime": 20.329609
+        },
+        {
+          "id": 24,
+          "text": "all,",
+          "startTime": 20.329609,
+          "endTime": 20.858758
+        },
+        {
+          "id": 25,
+          "text": "if",
+          "startTime": 20.858758,
+          "endTime": 21.523765
+        },
+        {
+          "id": 26,
+          "text": "you",
+          "startTime": 21.523765,
+          "endTime": 21.658545
+        },
+        {
+          "id": 27,
+          "text": "must",
+          "startTime": 21.658545,
+          "endTime": 22.454596
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "Leave the awakening introduction.",
+      "startTime": 22.454596,
+      "endTime": 26.17935,
+      "words": [
+        {
+          "id": 28,
+          "text": "Leave",
+          "startTime": 22.454596,
+          "endTime": 23.25181
+        },
+        {
+          "id": 29,
+          "text": "the",
+          "startTime": 23.25181,
+          "endTime": 23.517444
+        },
+        {
+          "id": 30,
+          "text": "awakening",
+          "startTime": 23.517444,
+          "endTime": 24.17935
+        },
+        {
+          "id": 31,
+          "text": "introduction.",
+          "startTime": 24.17935,
+          "endTime": 26.17935
+        }
+      ]
+    }
+  ]
+}
