@@ -1,0 +1,380 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Bye-bye to the world of bong",
+      "startTime": 5.32581,
+      "endTime": 8.381717,
+      "words": [
+        {
+          "id": 1,
+          "text": "Bye-bye",
+          "startTime": 5.32581,
+          "endTime": 6.518961
+        },
+        {
+          "id": 2,
+          "text": "to",
+          "startTime": 6.518961,
+          "endTime": 6.783933
+        },
+        {
+          "id": 3,
+          "text": "the",
+          "startTime": 6.783933,
+          "endTime": 6.918042
+        },
+        {
+          "id": 4,
+          "text": "world",
+          "startTime": 6.918042,
+          "endTime": 7.320055
+        },
+        {
+          "id": 5,
+          "text": "of",
+          "startTime": 7.320055,
+          "endTime": 7.583339
+        },
+        {
+          "id": 6,
+          "text": "bong",
+          "startTime": 7.583339,
+          "endTime": 8.381717
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "Cannot tell why I love Taylor",
+      "startTime": 8.381717,
+      "endTime": 11.568122,
+      "words": [
+        {
+          "id": 7,
+          "text": "Cannot",
+          "startTime": 8.381717,
+          "endTime": 9.574974
+        },
+        {
+          "id": 8,
+          "text": "tell",
+          "startTime": 9.574974,
+          "endTime": 9.840283
+        },
+        {
+          "id": 9,
+          "text": "why",
+          "startTime": 9.840283,
+          "endTime": 10.241296
+        },
+        {
+          "id": 10,
+          "text": "I",
+          "startTime": 10.241296,
+          "endTime": 10.506993
+        },
+        {
+          "id": 11,
+          "text": "love",
+          "startTime": 10.506993,
+          "endTime": 10.771484
+        },
+        {
+          "id": 12,
+          "text": "Taylor",
+          "startTime": 10.771484,
+          "endTime": 11.568122
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "Maybe it is her white shadow",
+      "startTime": 11.568122,
+      "endTime": 15.419414,
+      "words": [
+        {
+          "id": 13,
+          "text": "Maybe",
+          "startTime": 11.568122,
+          "endTime": 13.292365
+        },
+        {
+          "id": 14,
+          "text": "it",
+          "startTime": 13.292365,
+          "endTime": 13.428526
+        },
+        {
+          "id": 15,
+          "text": "is",
+          "startTime": 13.428526,
+          "endTime": 13.692883
+        },
+        {
+          "id": 16,
+          "text": "her",
+          "startTime": 13.692883,
+          "endTime": 13.958582
+        },
+        {
+          "id": 17,
+          "text": "white",
+          "startTime": 13.958582,
+          "endTime": 14.224098
+        },
+        {
+          "id": 18,
+          "text": "shadow",
+          "startTime": 14.224098,
+          "endTime": 15.419414
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "The one in the dark of the prod.",
+      "startTime": 15.419414,
+      "endTime": 19.006216,
+      "words": [
+        {
+          "id": 19,
+          "text": "The",
+          "startTime": 15.419414,
+          "endTime": 16.084152
+        },
+        {
+          "id": 20,
+          "text": "one",
+          "startTime": 16.084152,
+          "endTime": 16.348009
+        },
+        {
+          "id": 21,
+          "text": "in",
+          "startTime": 16.348009,
+          "endTime": 17.145023
+        },
+        {
+          "id": 22,
+          "text": "the",
+          "startTime": 17.145023,
+          "endTime": 17.279897
+        },
+        {
+          "id": 23,
+          "text": "dark",
+          "startTime": 17.279897,
+          "endTime": 17.680372
+        },
+        {
+          "id": 24,
+          "text": "of",
+          "startTime": 17.680372,
+          "endTime": 17.944237
+        },
+        {
+          "id": 25,
+          "text": "the",
+          "startTime": 17.944237,
+          "endTime": 18.075132
+        },
+        {
+          "id": 26,
+          "text": "prod.",
+          "startTime": 18.075132,
+          "endTime": 19.006216
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "With keg, bets, my days a chump",
+      "startTime": 19.006216,
+      "endTime": 24.982689,
+      "words": [
+        {
+          "id": 27,
+          "text": "With",
+          "startTime": 19.006216,
+          "endTime": 20.465614
+        },
+        {
+          "id": 28,
+          "text": "keg,",
+          "startTime": 20.465614,
+          "endTime": 21.131779
+        },
+        {
+          "id": 29,
+          "text": "bets,",
+          "startTime": 21.131779,
+          "endTime": 22.327
+        },
+        {
+          "id": 30,
+          "text": "my",
+          "startTime": 22.327,
+          "endTime": 23.254952
+        },
+        {
+          "id": 31,
+          "text": "days",
+          "startTime": 23.254952,
+          "endTime": 23.653135
+        },
+        {
+          "id": 32,
+          "text": "a",
+          "startTime": 23.653135,
+          "endTime": 23.919268
+        },
+        {
+          "id": 33,
+          "text": "chump",
+          "startTime": 23.919268,
+          "endTime": 24.982689
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "Inez, Carolina, the big warm rug",
+      "startTime": 24.982689,
+      "endTime": 30.298386,
+      "words": [
+        {
+          "id": 34,
+          "text": "Inez,",
+          "startTime": 24.982689,
+          "endTime": 26.179608
+        },
+        {
+          "id": 35,
+          "text": "Carolina,",
+          "startTime": 26.179608,
+          "endTime": 28.036654
+        },
+        {
+          "id": 36,
+          "text": "the",
+          "startTime": 28.036654,
+          "endTime": 28.434744
+        },
+        {
+          "id": 37,
+          "text": "big",
+          "startTime": 28.434744,
+          "endTime": 28.700635
+        },
+        {
+          "id": 38,
+          "text": "warm",
+          "startTime": 28.700635,
+          "endTime": 29.100562
+        },
+        {
+          "id": 39,
+          "text": "rug",
+          "startTime": 29.100562,
+          "endTime": 30.298386
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "For I don’t need a wakeup call",
+      "startTime": 30.298386,
+      "endTime": 33.615904,
+      "words": [
+        {
+          "id": 40,
+          "text": "For",
+          "startTime": 30.298386,
+          "endTime": 31.488839
+        },
+        {
+          "id": 41,
+          "text": "I",
+          "startTime": 31.488839,
+          "endTime": 31.755136
+        },
+        {
+          "id": 42,
+          "text": "don’t",
+          "startTime": 31.755136,
+          "endTime": 32.021885
+        },
+        {
+          "id": 43,
+          "text": "need",
+          "startTime": 32.021885,
+          "endTime": 32.152565
+        },
+        {
+          "id": 44,
+          "text": "a",
+          "startTime": 32.152565,
+          "endTime": 32.287745
+        },
+        {
+          "id": 45,
+          "text": "wakeup",
+          "startTime": 32.287745,
+          "endTime": 32.687921
+        },
+        {
+          "id": 46,
+          "text": "call",
+          "startTime": 32.687921,
+          "endTime": 33.615904
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "Fast asleep in her dream broth.",
+      "startTime": 33.615904,
+      "endTime": 38.403735,
+      "words": [
+        {
+          "id": 47,
+          "text": "Fast",
+          "startTime": 33.615904,
+          "endTime": 34.546258
+        },
+        {
+          "id": 48,
+          "text": "asleep",
+          "startTime": 34.546258,
+          "endTime": 35.338385
+        },
+        {
+          "id": 49,
+          "text": "in",
+          "startTime": 35.338385,
+          "endTime": 35.874143
+        },
+        {
+          "id": 50,
+          "text": "her",
+          "startTime": 35.874143,
+          "endTime": 36.139733
+        },
+        {
+          "id": 51,
+          "text": "dream",
+          "startTime": 36.139733,
+          "endTime": 36.403735
+        },
+        {
+          "id": 52,
+          "text": "broth.",
+          "startTime": 36.403735,
+          "endTime": 38.403735
+        }
+      ]
+    }
+  ]
+}

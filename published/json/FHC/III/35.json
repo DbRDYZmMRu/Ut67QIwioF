@@ -1,0 +1,472 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "For weeks I’ve watched",
+      "startTime": 5.068593,
+      "endTime": 7.589007,
+      "words": [
+        {
+          "id": 1,
+          "text": "For",
+          "startTime": 5.068593,
+          "endTime": 5.994875
+        },
+        {
+          "id": 2,
+          "text": "weeks",
+          "startTime": 5.994875,
+          "endTime": 6.527776
+        },
+        {
+          "id": 3,
+          "text": "I’ve",
+          "startTime": 6.527776,
+          "endTime": 6.792299
+        },
+        {
+          "id": 4,
+          "text": "watched",
+          "startTime": 6.792299,
+          "endTime": 7.589007
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "My lips caught",
+      "startTime": 7.589007,
+      "endTime": 9.713396,
+      "words": [
+        {
+          "id": 5,
+          "text": "My",
+          "startTime": 7.589007,
+          "endTime": 8.251627
+        },
+        {
+          "id": 6,
+          "text": "lips",
+          "startTime": 8.251627,
+          "endTime": 8.651685
+        },
+        {
+          "id": 7,
+          "text": "caught",
+          "startTime": 8.651685,
+          "endTime": 9.713396
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "Careful I blot thought",
+      "startTime": 9.713396,
+      "endTime": 11.973249,
+      "words": [
+        {
+          "id": 8,
+          "text": "Careful",
+          "startTime": 9.713396,
+          "endTime": 10.377685
+        },
+        {
+          "id": 9,
+          "text": "I",
+          "startTime": 10.377685,
+          "endTime": 10.642201
+        },
+        {
+          "id": 10,
+          "text": "blot",
+          "startTime": 10.642201,
+          "endTime": 10.910024
+        },
+        {
+          "id": 11,
+          "text": "thought",
+          "startTime": 10.910024,
+          "endTime": 11.973249
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "Of you not wrought.",
+      "startTime": 11.973249,
+      "endTime": 14.760024,
+      "words": [
+        {
+          "id": 12,
+          "text": "Of",
+          "startTime": 11.973249,
+          "endTime": 12.369173
+        },
+        {
+          "id": 13,
+          "text": "you",
+          "startTime": 12.369173,
+          "endTime": 12.769147
+        },
+        {
+          "id": 14,
+          "text": "not",
+          "startTime": 12.769147,
+          "endTime": 13.432554
+        },
+        {
+          "id": 15,
+          "text": "wrought.",
+          "startTime": 13.432554,
+          "endTime": 14.760024
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "Tramp stopped short",
+      "startTime": 14.760024,
+      "endTime": 16.885534,
+      "words": [
+        {
+          "id": 16,
+          "text": "Tramp",
+          "startTime": 14.760024,
+          "endTime": 15.559489
+        },
+        {
+          "id": 17,
+          "text": "stopped",
+          "startTime": 15.559489,
+          "endTime": 15.956289
+        },
+        {
+          "id": 18,
+          "text": "short",
+          "startTime": 15.956289,
+          "endTime": 16.885534
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "Your silent beaut cot.",
+      "startTime": 16.885534,
+      "endTime": 19.675352,
+      "words": [
+        {
+          "id": 19,
+          "text": "Your",
+          "startTime": 16.885534,
+          "endTime": 17.550694
+        },
+        {
+          "id": 20,
+          "text": "silent",
+          "startTime": 17.550694,
+          "endTime": 17.952258
+        },
+        {
+          "id": 21,
+          "text": "beaut",
+          "startTime": 17.952258,
+          "endTime": 18.347348
+        },
+        {
+          "id": 22,
+          "text": "cot.",
+          "startTime": 18.347348,
+          "endTime": 19.675352
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "Vehement ridiculous",
+      "startTime": 19.675352,
+      "endTime": 22.598245,
+      "words": [
+        {
+          "id": 23,
+          "text": "Vehement",
+          "startTime": 19.675352,
+          "endTime": 21.003668
+        },
+        {
+          "id": 24,
+          "text": "ridiculous",
+          "startTime": 21.003668,
+          "endTime": 22.598245
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "Of a pensive torch",
+      "startTime": 22.598245,
+      "endTime": 24.984164,
+      "words": [
+        {
+          "id": 25,
+          "text": "Of",
+          "startTime": 22.598245,
+          "endTime": 23.130913
+        },
+        {
+          "id": 26,
+          "text": "a",
+          "startTime": 23.130913,
+          "endTime": 23.395354
+        },
+        {
+          "id": 27,
+          "text": "pensive",
+          "startTime": 23.395354,
+          "endTime": 23.792845
+        },
+        {
+          "id": 28,
+          "text": "torch",
+          "startTime": 23.792845,
+          "endTime": 24.984164
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "Beaming in foist flush.",
+      "startTime": 24.984164,
+      "endTime": 28.838432,
+      "words": [
+        {
+          "id": 29,
+          "text": "Beaming",
+          "startTime": 24.984164,
+          "endTime": 26.314007
+        },
+        {
+          "id": 30,
+          "text": "in",
+          "startTime": 26.314007,
+          "endTime": 27.114293
+        },
+        {
+          "id": 31,
+          "text": "foist",
+          "startTime": 27.114293,
+          "endTime": 27.508852
+        },
+        {
+          "id": 32,
+          "text": "flush.",
+          "startTime": 27.508852,
+          "endTime": 28.838432
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "Sidling ghosting shawl",
+      "startTime": 28.838432,
+      "endTime": 32.293343,
+      "words": [
+        {
+          "id": 33,
+          "text": "Sidling",
+          "startTime": 28.838432,
+          "endTime": 30.166718
+        },
+        {
+          "id": 34,
+          "text": "ghosting",
+          "startTime": 30.166718,
+          "endTime": 30.832851
+        },
+        {
+          "id": 35,
+          "text": "shawl",
+          "startTime": 30.832851,
+          "endTime": 32.293343
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "My caught oppy love",
+      "startTime": 32.293343,
+      "endTime": 34.682956,
+      "words": [
+        {
+          "id": 36,
+          "text": "My",
+          "startTime": 32.293343,
+          "endTime": 32.958875
+        },
+        {
+          "id": 37,
+          "text": "caught",
+          "startTime": 32.958875,
+          "endTime": 33.22216
+        },
+        {
+          "id": 38,
+          "text": "oppy",
+          "startTime": 33.22216,
+          "endTime": 33.619792
+        },
+        {
+          "id": 39,
+          "text": "love",
+          "startTime": 33.619792,
+          "endTime": 34.682956
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "In crease that isn’t much",
+      "startTime": 34.682956,
+      "endTime": 38.135877,
+      "words": [
+        {
+          "id": 40,
+          "text": "In",
+          "startTime": 34.682956,
+          "endTime": 35.480195
+        },
+        {
+          "id": 41,
+          "text": "crease",
+          "startTime": 35.480195,
+          "endTime": 36.014409
+        },
+        {
+          "id": 42,
+          "text": "that",
+          "startTime": 36.014409,
+          "endTime": 36.541202
+        },
+        {
+          "id": 43,
+          "text": "isn’t",
+          "startTime": 36.541202,
+          "endTime": 36.808167
+        },
+        {
+          "id": 44,
+          "text": "much",
+          "startTime": 36.808167,
+          "endTime": 38.135877
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "paragraph": "The knee punch not worth",
+      "startTime": 38.135877,
+      "endTime": 41.193302,
+      "words": [
+        {
+          "id": 45,
+          "text": "The",
+          "startTime": 38.135877,
+          "endTime": 38.66753
+        },
+        {
+          "id": 46,
+          "text": "knee",
+          "startTime": 38.66753,
+          "endTime": 38.801482
+        },
+        {
+          "id": 47,
+          "text": "punch",
+          "startTime": 38.801482,
+          "endTime": 39.463072
+        },
+        {
+          "id": 48,
+          "text": "not",
+          "startTime": 39.463072,
+          "endTime": 39.864038
+        },
+        {
+          "id": 49,
+          "text": "worth",
+          "startTime": 39.864038,
+          "endTime": 41.193302
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "paragraph": "See your legs, not touch",
+      "startTime": 41.193302,
+      "endTime": 44.113148,
+      "words": [
+        {
+          "id": 50,
+          "text": "See",
+          "startTime": 41.193302,
+          "endTime": 41.456954
+        },
+        {
+          "id": 51,
+          "text": "your",
+          "startTime": 41.456954,
+          "endTime": 41.722094
+        },
+        {
+          "id": 52,
+          "text": "legs,",
+          "startTime": 41.722094,
+          "endTime": 42.519123
+        },
+        {
+          "id": 53,
+          "text": "not",
+          "startTime": 42.519123,
+          "endTime": 43.183798
+        },
+        {
+          "id": 54,
+          "text": "touch",
+          "startTime": 43.183798,
+          "endTime": 44.113148
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "paragraph": "Between all near hurt.",
+      "startTime": 44.113148,
+      "endTime": 48.238957,
+      "words": [
+        {
+          "id": 55,
+          "text": "Between",
+          "startTime": 44.113148,
+          "endTime": 45.307894
+        },
+        {
+          "id": 56,
+          "text": "all",
+          "startTime": 45.307894,
+          "endTime": 45.973386
+        },
+        {
+          "id": 57,
+          "text": "near",
+          "startTime": 45.973386,
+          "endTime": 46.238957
+        },
+        {
+          "id": 58,
+          "text": "hurt.",
+          "startTime": 46.238957,
+          "endTime": 48.238957
+        }
+      ]
+    }
+  ]
+}

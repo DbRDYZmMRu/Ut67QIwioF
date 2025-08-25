@@ -1,0 +1,182 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Mistakes appliqué",
+      "startTime": 5.040531,
+      "endTime": 7.029004,
+      "words": [
+        {
+          "id": 1,
+          "text": "Mistakes",
+          "startTime": 5.040531,
+          "endTime": 5.969848
+        },
+        {
+          "id": 2,
+          "text": "appliqué",
+          "startTime": 5.969848,
+          "endTime": 7.029004
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "Add a very big slake",
+      "startTime": 7.029004,
+      "endTime": 9.68589,
+      "words": [
+        {
+          "id": 3,
+          "text": "Add",
+          "startTime": 7.029004,
+          "endTime": 8.227255
+        },
+        {
+          "id": 4,
+          "text": "a",
+          "startTime": 8.227255,
+          "endTime": 8.359587
+        },
+        {
+          "id": 5,
+          "text": "very",
+          "startTime": 8.359587,
+          "endTime": 8.627112
+        },
+        {
+          "id": 6,
+          "text": "big",
+          "startTime": 8.627112,
+          "endTime": 8.890492
+        },
+        {
+          "id": 7,
+          "text": "slake",
+          "startTime": 8.890492,
+          "endTime": 9.68589
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "Dodge the mindful rod",
+      "startTime": 9.68589,
+      "endTime": 13.008553,
+      "words": [
+        {
+          "id": 8,
+          "text": "Dodge",
+          "startTime": 9.68589,
+          "endTime": 11.016058
+        },
+        {
+          "id": 9,
+          "text": "the",
+          "startTime": 11.016058,
+          "endTime": 11.28136
+        },
+        {
+          "id": 10,
+          "text": "mindful",
+          "startTime": 11.28136,
+          "endTime": 11.549396
+        },
+        {
+          "id": 11,
+          "text": "rod",
+          "startTime": 11.549396,
+          "endTime": 13.008553
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "At the brittle lip sync",
+      "startTime": 13.008553,
+      "endTime": 15.664469,
+      "words": [
+        {
+          "id": 12,
+          "text": "At",
+          "startTime": 13.008553,
+          "endTime": 13.670165
+        },
+        {
+          "id": 13,
+          "text": "the",
+          "startTime": 13.670165,
+          "endTime": 13.937811
+        },
+        {
+          "id": 14,
+          "text": "brittle",
+          "startTime": 13.937811,
+          "endTime": 14.202432
+        },
+        {
+          "id": 15,
+          "text": "lip",
+          "startTime": 14.202432,
+          "endTime": 14.470564
+        },
+        {
+          "id": 16,
+          "text": "sync",
+          "startTime": 14.470564,
+          "endTime": 15.664469
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "With an itch, a stitch of salt.",
+      "startTime": 15.664469,
+      "endTime": 21.118093,
+      "words": [
+        {
+          "id": 17,
+          "text": "With",
+          "startTime": 15.664469,
+          "endTime": 16.193566
+        },
+        {
+          "id": 18,
+          "text": "an",
+          "startTime": 16.193566,
+          "endTime": 16.327211
+        },
+        {
+          "id": 19,
+          "text": "itch,",
+          "startTime": 16.327211,
+          "endTime": 16.993738
+        },
+        {
+          "id": 20,
+          "text": "a",
+          "startTime": 16.993738,
+          "endTime": 17.78683
+        },
+        {
+          "id": 21,
+          "text": "stitch",
+          "startTime": 17.78683,
+          "endTime": 18.186871
+        },
+        {
+          "id": 22,
+          "text": "of",
+          "startTime": 18.186871,
+          "endTime": 19.118093
+        },
+        {
+          "id": 23,
+          "text": "salt.",
+          "startTime": 19.118093,
+          "endTime": 21.118093
+        }
+      ]
+    }
+  ]
+}

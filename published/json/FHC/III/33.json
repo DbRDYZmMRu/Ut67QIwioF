@@ -1,0 +1,190 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "In the lake for the trip",
+      "startTime": 4.934494,
+      "endTime": 7.587469,
+      "words": [
+        {
+          "id": 1,
+          "text": "In",
+          "startTime": 4.934494,
+          "endTime": 5.727617
+        },
+        {
+          "id": 2,
+          "text": "the",
+          "startTime": 5.727617,
+          "endTime": 5.864372
+        },
+        {
+          "id": 3,
+          "text": "lake",
+          "startTime": 5.864372,
+          "endTime": 6.528575
+        },
+        {
+          "id": 4,
+          "text": "for",
+          "startTime": 6.528575,
+          "endTime": 6.790742
+        },
+        {
+          "id": 5,
+          "text": "the",
+          "startTime": 6.790742,
+          "endTime": 6.925611
+        },
+        {
+          "id": 6,
+          "text": "trip",
+          "startTime": 6.925611,
+          "endTime": 7.587469
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "It took",
+      "startTime": 7.587469,
+      "endTime": 9.314956,
+      "words": [
+        {
+          "id": 7,
+          "text": "It",
+          "startTime": 7.587469,
+          "endTime": 8.387698
+        },
+        {
+          "id": 8,
+          "text": "took",
+          "startTime": 8.387698,
+          "endTime": 9.314956
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "On the lane for the whistle",
+      "startTime": 9.314956,
+      "endTime": 12.503416,
+      "words": [
+        {
+          "id": 9,
+          "text": "On",
+          "startTime": 9.314956,
+          "endTime": 10.11625
+        },
+        {
+          "id": 10,
+          "text": "the",
+          "startTime": 10.11625,
+          "endTime": 10.377856
+        },
+        {
+          "id": 11,
+          "text": "lane",
+          "startTime": 10.377856,
+          "endTime": 11.306926
+        },
+        {
+          "id": 12,
+          "text": "for",
+          "startTime": 11.306926,
+          "endTime": 11.442155
+        },
+        {
+          "id": 13,
+          "text": "the",
+          "startTime": 11.442155,
+          "endTime": 11.573166
+        },
+        {
+          "id": 14,
+          "text": "whistle",
+          "startTime": 11.573166,
+          "endTime": 12.503416
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "He shook",
+      "startTime": 12.503416,
+      "endTime": 14.360176,
+      "words": [
+        {
+          "id": 15,
+          "text": "He",
+          "startTime": 12.503416,
+          "endTime": 13.167162
+        },
+        {
+          "id": 16,
+          "text": "shook",
+          "startTime": 13.167162,
+          "endTime": 14.360176
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "Several waves across the broad",
+      "startTime": 14.360176,
+      "endTime": 17.816414,
+      "words": [
+        {
+          "id": 17,
+          "text": "Several",
+          "startTime": 14.360176,
+          "endTime": 15.160843
+        },
+        {
+          "id": 18,
+          "text": "waves",
+          "startTime": 15.160843,
+          "endTime": 16.220178
+        },
+        {
+          "id": 19,
+          "text": "across",
+          "startTime": 16.220178,
+          "endTime": 16.751261
+        },
+        {
+          "id": 20,
+          "text": "the",
+          "startTime": 16.751261,
+          "endTime": 17.018832
+        },
+        {
+          "id": 21,
+          "text": "broad",
+          "startTime": 17.018832,
+          "endTime": 17.816414
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "We looked.",
+      "startTime": 17.816414,
+      "endTime": 20.612268,
+      "words": [
+        {
+          "id": 22,
+          "text": "We",
+          "startTime": 17.816414,
+          "endTime": 18.612268
+        },
+        {
+          "id": 23,
+          "text": "looked.",
+          "startTime": 18.612268,
+          "endTime": 20.612268
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,376 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Do we love someone",
+      "startTime": 5.516573,
+      "endTime": 7.392163,
+      "words": [
+        {
+          "id": 1,
+          "text": "Do",
+          "startTime": 5.516573,
+          "endTime": 5.932638
+        },
+        {
+          "id": 2,
+          "text": "we",
+          "startTime": 5.932638,
+          "endTime": 6.19294
+        },
+        {
+          "id": 3,
+          "text": "love",
+          "startTime": 6.19294,
+          "endTime": 6.458793
+        },
+        {
+          "id": 4,
+          "text": "someone",
+          "startTime": 6.458793,
+          "endTime": 7.392163
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "We don’t ever check up on?",
+      "startTime": 7.392163,
+      "endTime": 9.514429,
+      "words": [
+        {
+          "id": 5,
+          "text": "We",
+          "startTime": 7.392163,
+          "endTime": 7.921036
+        },
+        {
+          "id": 6,
+          "text": "don’t",
+          "startTime": 7.921036,
+          "endTime": 8.054724
+        },
+        {
+          "id": 7,
+          "text": "ever",
+          "startTime": 8.054724,
+          "endTime": 8.319204
+        },
+        {
+          "id": 8,
+          "text": "check",
+          "startTime": 8.319204,
+          "endTime": 8.585023
+        },
+        {
+          "id": 9,
+          "text": "up",
+          "startTime": 8.585023,
+          "endTime": 8.718693
+        },
+        {
+          "id": 10,
+          "text": "on?",
+          "startTime": 8.718693,
+          "endTime": 9.514429
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "Ever, for it, not rattle.",
+      "startTime": 9.514429,
+      "endTime": 13.899854,
+      "words": [
+        {
+          "id": 11,
+          "text": "Ever,",
+          "startTime": 9.514429,
+          "endTime": 10.711756
+        },
+        {
+          "id": 12,
+          "text": "for",
+          "startTime": 10.711756,
+          "endTime": 11.509693
+        },
+        {
+          "id": 13,
+          "text": "it,",
+          "startTime": 11.509693,
+          "endTime": 12.17178
+        },
+        {
+          "id": 14,
+          "text": "not",
+          "startTime": 12.17178,
+          "endTime": 12.969189
+        },
+        {
+          "id": 15,
+          "text": "rattle.",
+          "startTime": 12.969189,
+          "endTime": 13.899854
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "When it’s their presence",
+      "startTime": 13.899854,
+      "endTime": 16.687077,
+      "words": [
+        {
+          "id": 16,
+          "text": "When",
+          "startTime": 13.899854,
+          "endTime": 15.228473
+        },
+        {
+          "id": 17,
+          "text": "it’s",
+          "startTime": 15.228473,
+          "endTime": 15.492442
+        },
+        {
+          "id": 18,
+          "text": "their",
+          "startTime": 15.492442,
+          "endTime": 15.75757
+        },
+        {
+          "id": 19,
+          "text": "presence",
+          "startTime": 15.75757,
+          "endTime": 16.687077
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "Here again",
+      "startTime": 16.687077,
+      "endTime": 18.677379,
+      "words": [
+        {
+          "id": 20,
+          "text": "Here",
+          "startTime": 16.687077,
+          "endTime": 17.484292
+        },
+        {
+          "id": 21,
+          "text": "again",
+          "startTime": 17.484292,
+          "endTime": 18.677379
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "The awareness of feelings.",
+      "startTime": 18.677379,
+      "endTime": 21.734962,
+      "words": [
+        {
+          "id": 22,
+          "text": "The",
+          "startTime": 18.677379,
+          "endTime": 19.21244
+        },
+        {
+          "id": 23,
+          "text": "awareness",
+          "startTime": 19.21244,
+          "endTime": 19.741211
+        },
+        {
+          "id": 24,
+          "text": "of",
+          "startTime": 19.741211,
+          "endTime": 20.541174
+        },
+        {
+          "id": 25,
+          "text": "feelings.",
+          "startTime": 20.541174,
+          "endTime": 21.734962
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "Does the gust swell...",
+      "startTime": 21.734962,
+      "endTime": 24.790335,
+      "words": [
+        {
+          "id": 26,
+          "text": "Does",
+          "startTime": 21.734962,
+          "endTime": 23.194552
+        },
+        {
+          "id": 27,
+          "text": "the",
+          "startTime": 23.194552,
+          "endTime": 23.462025
+        },
+        {
+          "id": 28,
+          "text": "gust",
+          "startTime": 23.462025,
+          "endTime": 23.724109
+        },
+        {
+          "id": 29,
+          "text": "swell...",
+          "startTime": 23.724109,
+          "endTime": 24.790335
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "The right flight of the butterfly.",
+      "startTime": 24.790335,
+      "endTime": 29.701063,
+      "words": [
+        {
+          "id": 30,
+          "text": "The",
+          "startTime": 24.790335,
+          "endTime": 26.251003
+        },
+        {
+          "id": 31,
+          "text": "right",
+          "startTime": 26.251003,
+          "endTime": 26.51721
+        },
+        {
+          "id": 32,
+          "text": "flight",
+          "startTime": 26.51721,
+          "endTime": 27.045192
+        },
+        {
+          "id": 33,
+          "text": "of",
+          "startTime": 27.045192,
+          "endTime": 28.242759
+        },
+        {
+          "id": 34,
+          "text": "the",
+          "startTime": 28.242759,
+          "endTime": 28.506692
+        },
+        {
+          "id": 35,
+          "text": "butterfly.",
+          "startTime": 28.506692,
+          "endTime": 29.701063
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "Their voice unheard",
+      "startTime": 29.701063,
+      "endTime": 33.157638,
+      "words": [
+        {
+          "id": 36,
+          "text": "Their",
+          "startTime": 29.701063,
+          "endTime": 31.030439
+        },
+        {
+          "id": 37,
+          "text": "voice",
+          "startTime": 31.030439,
+          "endTime": 31.827135
+        },
+        {
+          "id": 38,
+          "text": "unheard",
+          "startTime": 31.827135,
+          "endTime": 33.157638
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "Footsteps cuddle",
+      "startTime": 33.157638,
+      "endTime": 35.681595,
+      "words": [
+        {
+          "id": 39,
+          "text": "Footsteps",
+          "startTime": 33.157638,
+          "endTime": 34.617086
+        },
+        {
+          "id": 40,
+          "text": "cuddle",
+          "startTime": 34.617086,
+          "endTime": 35.681595
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "Whisper the muscle suite",
+      "startTime": 35.681595,
+      "endTime": 39.927959,
+      "words": [
+        {
+          "id": 41,
+          "text": "Whisper",
+          "startTime": 35.681595,
+          "endTime": 37.139086
+        },
+        {
+          "id": 42,
+          "text": "the",
+          "startTime": 37.139086,
+          "endTime": 38.071388
+        },
+        {
+          "id": 43,
+          "text": "muscle",
+          "startTime": 38.071388,
+          "endTime": 38.865701
+        },
+        {
+          "id": 44,
+          "text": "suite",
+          "startTime": 38.865701,
+          "endTime": 39.927959
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "Our love.",
+      "startTime": 39.927959,
+      "endTime": 43.653563,
+      "words": [
+        {
+          "id": 45,
+          "text": "Our",
+          "startTime": 39.927959,
+          "endTime": 41.653563
+        },
+        {
+          "id": 46,
+          "text": "love.",
+          "startTime": 41.653563,
+          "endTime": 43.653563
+        }
+      ]
+    }
+  ]
+}

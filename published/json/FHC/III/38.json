@@ -1,0 +1,236 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I always make up time",
+      "startTime": 4.740447,
+      "endTime": 7.264536,
+      "words": [
+        {
+          "id": 1,
+          "text": "I",
+          "startTime": 4.740447,
+          "endTime": 5.80274
+        },
+        {
+          "id": 2,
+          "text": "always",
+          "startTime": 5.80274,
+          "endTime": 6.068372
+        },
+        {
+          "id": 3,
+          "text": "make",
+          "startTime": 6.068372,
+          "endTime": 6.335856
+        },
+        {
+          "id": 4,
+          "text": "up",
+          "startTime": 6.335856,
+          "endTime": 6.465727
+        },
+        {
+          "id": 5,
+          "text": "time",
+          "startTime": 6.465727,
+          "endTime": 7.264536
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "Staying away from chime",
+      "startTime": 7.264536,
+      "endTime": 10.05316,
+      "words": [
+        {
+          "id": 6,
+          "text": "Staying",
+          "startTime": 7.264536,
+          "endTime": 8.05922
+        },
+        {
+          "id": 7,
+          "text": "away",
+          "startTime": 8.05922,
+          "endTime": 8.989097
+        },
+        {
+          "id": 8,
+          "text": "from",
+          "startTime": 8.989097,
+          "endTime": 9.254347
+        },
+        {
+          "id": 9,
+          "text": "chime",
+          "startTime": 9.254347,
+          "endTime": 10.05316
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "Crime",
+      "startTime": 10.05316,
+      "endTime": 11.249624,
+      "words": [
+        {
+          "id": 10,
+          "text": "Crime",
+          "startTime": 10.05316,
+          "endTime": 11.249624
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "Penning rhymes",
+      "startTime": 11.249624,
+      "endTime": 14.169432,
+      "words": [
+        {
+          "id": 11,
+          "text": "Penning",
+          "startTime": 11.249624,
+          "endTime": 12.443966
+        },
+        {
+          "id": 12,
+          "text": "rhymes",
+          "startTime": 12.443966,
+          "endTime": 14.169432
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "Telling incredulous sour lies.",
+      "startTime": 14.169432,
+      "endTime": 16.294617,
+      "words": [
+        {
+          "id": 13,
+          "text": "Telling",
+          "startTime": 14.169432,
+          "endTime": 14.305082
+        },
+        {
+          "id": 14,
+          "text": "incredulous",
+          "startTime": 14.305082,
+          "endTime": 14.968064
+        },
+        {
+          "id": 15,
+          "text": "sour",
+          "startTime": 14.968064,
+          "endTime": 15.364485
+        },
+        {
+          "id": 16,
+          "text": "lies.",
+          "startTime": 15.364485,
+          "endTime": 16.294617
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "Oh, for a silly needless time",
+      "startTime": 16.294617,
+      "endTime": 20.037415,
+      "words": [
+        {
+          "id": 17,
+          "text": "Oh,",
+          "startTime": 16.294617,
+          "endTime": 17.885601
+        },
+        {
+          "id": 18,
+          "text": "for",
+          "startTime": 17.885601,
+          "endTime": 18.021641
+        },
+        {
+          "id": 19,
+          "text": "a",
+          "startTime": 18.021641,
+          "endTime": 18.289223
+        },
+        {
+          "id": 20,
+          "text": "silly",
+          "startTime": 18.289223,
+          "endTime": 18.952997
+        },
+        {
+          "id": 21,
+          "text": "needless",
+          "startTime": 18.952997,
+          "endTime": 19.217424
+        },
+        {
+          "id": 22,
+          "text": "time",
+          "startTime": 19.217424,
+          "endTime": 20.037415
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "Come with me",
+      "startTime": 20.037415,
+      "endTime": 21.365985,
+      "words": [
+        {
+          "id": 23,
+          "text": "Come",
+          "startTime": 20.037415,
+          "endTime": 20.435021
+        },
+        {
+          "id": 24,
+          "text": "with",
+          "startTime": 20.435021,
+          "endTime": 20.701995
+        },
+        {
+          "id": 25,
+          "text": "me",
+          "startTime": 20.701995,
+          "endTime": 21.365985
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "Tend my style.",
+      "startTime": 21.365985,
+      "endTime": 24.292175,
+      "words": [
+        {
+          "id": 26,
+          "text": "Tend",
+          "startTime": 21.365985,
+          "endTime": 22.027367
+        },
+        {
+          "id": 27,
+          "text": "my",
+          "startTime": 22.027367,
+          "endTime": 22.292175
+        },
+        {
+          "id": 28,
+          "text": "style.",
+          "startTime": 22.292175,
+          "endTime": 24.292175
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "When it’s morning",
+      "startTime": 5.022329,
+      "endTime": 7.280931,
+      "words": [
+        {
+          "id": 1,
+          "text": "When",
+          "startTime": 5.022329,
+          "endTime": 6.085886
+        },
+        {
+          "id": 2,
+          "text": "it’s",
+          "startTime": 6.085886,
+          "endTime": 6.484677
+        },
+        {
+          "id": 3,
+          "text": "morning",
+          "startTime": 6.484677,
+          "endTime": 7.280931
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "Impregnated with the thing",
+      "startTime": 7.280931,
+      "endTime": 9.9363,
+      "words": [
+        {
+          "id": 4,
+          "text": "Impregnated",
+          "startTime": 7.280931,
+          "endTime": 8.60937
+        },
+        {
+          "id": 5,
+          "text": "with",
+          "startTime": 8.60937,
+          "endTime": 8.873431
+        },
+        {
+          "id": 6,
+          "text": "the",
+          "startTime": 8.873431,
+          "endTime": 9.141
+        },
+        {
+          "id": 7,
+          "text": "thing",
+          "startTime": 9.141,
+          "endTime": 9.9363
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "Of uncertainty and choice",
+      "startTime": 9.9363,
+      "endTime": 13.390431,
+      "words": [
+        {
+          "id": 8,
+          "text": "Of",
+          "startTime": 9.9363,
+          "endTime": 10.733572
+        },
+        {
+          "id": 9,
+          "text": "uncertainty",
+          "startTime": 10.733572,
+          "endTime": 11.795499
+        },
+        {
+          "id": 10,
+          "text": "and",
+          "startTime": 11.795499,
+          "endTime": 12.327192
+        },
+        {
+          "id": 11,
+          "text": "choice",
+          "startTime": 12.327192,
+          "endTime": 13.390431
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "How well I’ve done by my chores",
+      "startTime": 13.390431,
+      "endTime": 17.381448,
+      "words": [
+        {
+          "id": 12,
+          "text": "How",
+          "startTime": 13.390431,
+          "endTime": 14.319291
+        },
+        {
+          "id": 13,
+          "text": "well",
+          "startTime": 14.319291,
+          "endTime": 14.719824
+        },
+        {
+          "id": 14,
+          "text": "I’ve",
+          "startTime": 14.719824,
+          "endTime": 15.379301
+        },
+        {
+          "id": 15,
+          "text": "done",
+          "startTime": 15.379301,
+          "endTime": 15.780513
+        },
+        {
+          "id": 16,
+          "text": "by",
+          "startTime": 15.780513,
+          "endTime": 16.054785
+        },
+        {
+          "id": 17,
+          "text": "my",
+          "startTime": 16.054785,
+          "endTime": 16.187511
+        },
+        {
+          "id": 18,
+          "text": "chores",
+          "startTime": 16.187511,
+          "endTime": 17.381448
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "I lay on my grunt",
+      "startTime": 17.381448,
+      "endTime": 19.637553,
+      "words": [
+        {
+          "id": 19,
+          "text": "I",
+          "startTime": 17.381448,
+          "endTime": 18.17669
+        },
+        {
+          "id": 20,
+          "text": "lay",
+          "startTime": 18.17669,
+          "endTime": 18.443584
+        },
+        {
+          "id": 21,
+          "text": "on",
+          "startTime": 18.443584,
+          "endTime": 18.575927
+        },
+        {
+          "id": 22,
+          "text": "my",
+          "startTime": 18.575927,
+          "endTime": 18.84201
+        },
+        {
+          "id": 23,
+          "text": "grunt",
+          "startTime": 18.84201,
+          "endTime": 19.637553
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "Swelling in the sun",
+      "startTime": 19.637553,
+      "endTime": 22.294733,
+      "words": [
+        {
+          "id": 24,
+          "text": "Swelling",
+          "startTime": 19.637553,
+          "endTime": 20.570065
+        },
+        {
+          "id": 25,
+          "text": "in",
+          "startTime": 20.570065,
+          "endTime": 21.233077
+        },
+        {
+          "id": 26,
+          "text": "the",
+          "startTime": 21.233077,
+          "endTime": 21.366151
+        },
+        {
+          "id": 27,
+          "text": "sun",
+          "startTime": 21.366151,
+          "endTime": 22.294733
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "Given for the acrid.",
+      "startTime": 22.294733,
+      "endTime": 26.295632,
+      "words": [
+        {
+          "id": 28,
+          "text": "Given",
+          "startTime": 22.294733,
+          "endTime": 23.354325
+        },
+        {
+          "id": 29,
+          "text": "for",
+          "startTime": 23.354325,
+          "endTime": 24.026138
+        },
+        {
+          "id": 30,
+          "text": "the",
+          "startTime": 24.026138,
+          "endTime": 24.295632
+        },
+        {
+          "id": 31,
+          "text": "acrid.",
+          "startTime": 24.295632,
+          "endTime": 26.295632
+        }
+      ]
+    }
+  ]
+}
