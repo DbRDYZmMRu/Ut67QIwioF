@@ -1,0 +1,544 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Some moments should last forever",
+      "startTime": 6.695294,
+      "endTime": 10.150852,
+      "words": [
+        {
+          "id": 1,
+          "text": "Some",
+          "startTime": 6.695294,
+          "endTime": 7.626957
+        },
+        {
+          "id": 2,
+          "text": "moments",
+          "startTime": 7.626957,
+          "endTime": 8.290602
+        },
+        {
+          "id": 3,
+          "text": "should",
+          "startTime": 8.290602,
+          "endTime": 8.954997
+        },
+        {
+          "id": 4,
+          "text": "last",
+          "startTime": 8.954997,
+          "endTime": 9.352075
+        },
+        {
+          "id": 5,
+          "text": "forever",
+          "startTime": 9.352075,
+          "endTime": 10.150852
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "be the stripes of the ember’s mural",
+      "startTime": 10.150852,
+      "endTime": 14.671616,
+      "words": [
+        {
+          "id": 6,
+          "text": "be",
+          "startTime": 10.150852,
+          "endTime": 11.344618
+        },
+        {
+          "id": 7,
+          "text": "the",
+          "startTime": 11.344618,
+          "endTime": 11.610666
+        },
+        {
+          "id": 8,
+          "text": "stripes",
+          "startTime": 11.610666,
+          "endTime": 12.149389
+        },
+        {
+          "id": 9,
+          "text": "of",
+          "startTime": 12.149389,
+          "endTime": 12.943869
+        },
+        {
+          "id": 10,
+          "text": "the",
+          "startTime": 12.943869,
+          "endTime": 13.212286
+        },
+        {
+          "id": 11,
+          "text": "ember’s",
+          "startTime": 13.212286,
+          "endTime": 13.610481
+        },
+        {
+          "id": 12,
+          "text": "mural",
+          "startTime": 13.610481,
+          "endTime": 14.671616
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "pinky as days we ought to remember",
+      "startTime": 14.671616,
+      "endTime": 19.189825,
+      "words": [
+        {
+          "id": 13,
+          "text": "pinky",
+          "startTime": 14.671616,
+          "endTime": 16.135759
+        },
+        {
+          "id": 14,
+          "text": "as",
+          "startTime": 16.135759,
+          "endTime": 16.398584
+        },
+        {
+          "id": 15,
+          "text": "days",
+          "startTime": 16.398584,
+          "endTime": 17.064507
+        },
+        {
+          "id": 16,
+          "text": "we",
+          "startTime": 17.064507,
+          "endTime": 17.596577
+        },
+        {
+          "id": 17,
+          "text": "ought",
+          "startTime": 17.596577,
+          "endTime": 17.729719
+        },
+        {
+          "id": 18,
+          "text": "to",
+          "startTime": 17.729719,
+          "endTime": 17.994432
+        },
+        {
+          "id": 19,
+          "text": "remember",
+          "startTime": 17.994432,
+          "endTime": 19.189825
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "a flight over a beach that panders",
+      "startTime": 19.189825,
+      "endTime": 23.308648,
+      "words": [
+        {
+          "id": 20,
+          "text": "a",
+          "startTime": 19.189825,
+          "endTime": 20.249536
+        },
+        {
+          "id": 21,
+          "text": "flight",
+          "startTime": 20.249536,
+          "endTime": 20.780404
+        },
+        {
+          "id": 22,
+          "text": "over",
+          "startTime": 20.780404,
+          "endTime": 21.049766
+        },
+        {
+          "id": 23,
+          "text": "a",
+          "startTime": 21.049766,
+          "endTime": 21.180794
+        },
+        {
+          "id": 24,
+          "text": "beach",
+          "startTime": 21.180794,
+          "endTime": 21.979239
+        },
+        {
+          "id": 25,
+          "text": "that",
+          "startTime": 21.979239,
+          "endTime": 22.243547
+        },
+        {
+          "id": 26,
+          "text": "panders",
+          "startTime": 22.243547,
+          "endTime": 23.308648
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "the messiness plausible but human",
+      "startTime": 23.308648,
+      "endTime": 27.686386,
+      "words": [
+        {
+          "id": 27,
+          "text": "the",
+          "startTime": 23.308648,
+          "endTime": 24.50038
+        },
+        {
+          "id": 28,
+          "text": "messiness",
+          "startTime": 24.50038,
+          "endTime": 25.031813
+        },
+        {
+          "id": 29,
+          "text": "plausible",
+          "startTime": 25.031813,
+          "endTime": 25.962756
+        },
+        {
+          "id": 30,
+          "text": "but",
+          "startTime": 25.962756,
+          "endTime": 26.624102
+        },
+        {
+          "id": 31,
+          "text": "human",
+          "startTime": 26.624102,
+          "endTime": 27.686386
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "prises my mind to seeing rad black",
+      "startTime": 27.686386,
+      "endTime": 32.069744,
+      "words": [
+        {
+          "id": 32,
+          "text": "prises",
+          "startTime": 27.686386,
+          "endTime": 28.752801
+        },
+        {
+          "id": 33,
+          "text": "my",
+          "startTime": 28.752801,
+          "endTime": 29.01446
+        },
+        {
+          "id": 34,
+          "text": "mind",
+          "startTime": 29.01446,
+          "endTime": 29.943956
+        },
+        {
+          "id": 35,
+          "text": "to",
+          "startTime": 29.943956,
+          "endTime": 30.47827
+        },
+        {
+          "id": 36,
+          "text": "seeing",
+          "startTime": 30.47827,
+          "endTime": 30.741528
+        },
+        {
+          "id": 37,
+          "text": "rad",
+          "startTime": 30.741528,
+          "endTime": 31.139826
+        },
+        {
+          "id": 38,
+          "text": "black",
+          "startTime": 31.139826,
+          "endTime": 32.069744
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "so floating crocodiles tarrying land",
+      "startTime": 32.069744,
+      "endTime": 36.590152,
+      "words": [
+        {
+          "id": 39,
+          "text": "so",
+          "startTime": 32.069744,
+          "endTime": 33.134585
+        },
+        {
+          "id": 40,
+          "text": "floating",
+          "startTime": 33.134585,
+          "endTime": 33.531911
+        },
+        {
+          "id": 41,
+          "text": "crocodiles",
+          "startTime": 33.531911,
+          "endTime": 34.725863
+        },
+        {
+          "id": 42,
+          "text": "tarrying",
+          "startTime": 34.725863,
+          "endTime": 35.524863
+        },
+        {
+          "id": 43,
+          "text": "land",
+          "startTime": 35.524863,
+          "endTime": 36.590152
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "question, avow of lost questionnaires",
+      "startTime": 36.590152,
+      "endTime": 41.631227,
+      "words": [
+        {
+          "id": 44,
+          "text": "question,",
+          "startTime": 36.590152,
+          "endTime": 37.913547
+        },
+        {
+          "id": 45,
+          "text": "avow",
+          "startTime": 37.913547,
+          "endTime": 38.84323
+        },
+        {
+          "id": 46,
+          "text": "of",
+          "startTime": 38.84323,
+          "endTime": 39.636854
+        },
+        {
+          "id": 47,
+          "text": "lost",
+          "startTime": 39.636854,
+          "endTime": 40.038569
+        },
+        {
+          "id": 48,
+          "text": "questionnaires",
+          "startTime": 40.038569,
+          "endTime": 41.631227
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "so under hangar, tou​pee’s wish linger",
+      "startTime": 41.631227,
+      "endTime": 47.207298,
+      "words": [
+        {
+          "id": 49,
+          "text": "so",
+          "startTime": 41.631227,
+          "endTime": 43.095201
+        },
+        {
+          "id": 50,
+          "text": "under",
+          "startTime": 43.095201,
+          "endTime": 43.360449
+        },
+        {
+          "id": 51,
+          "text": "hangar,",
+          "startTime": 43.360449,
+          "endTime": 44.287042
+        },
+        {
+          "id": 52,
+          "text": "tou​pee’s",
+          "startTime": 44.287042,
+          "endTime": 45.487174
+        },
+        {
+          "id": 53,
+          "text": "wish",
+          "startTime": 45.487174,
+          "endTime": 45.882504
+        },
+        {
+          "id": 54,
+          "text": "linger",
+          "startTime": 45.882504,
+          "endTime": 47.207298
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "spreads till it’s a brandish or neither",
+      "startTime": 47.207298,
+      "endTime": 52.788192,
+      "words": [
+        {
+          "id": 55,
+          "text": "spreads",
+          "startTime": 47.207298,
+          "endTime": 48.532859
+        },
+        {
+          "id": 56,
+          "text": "till",
+          "startTime": 48.532859,
+          "endTime": 49.599586
+        },
+        {
+          "id": 57,
+          "text": "it’s",
+          "startTime": 49.599586,
+          "endTime": 49.737028
+        },
+        {
+          "id": 58,
+          "text": "a",
+          "startTime": 49.737028,
+          "endTime": 49.867068
+        },
+        {
+          "id": 59,
+          "text": "brandish",
+          "startTime": 49.867068,
+          "endTime": 50.66585
+        },
+        {
+          "id": 60,
+          "text": "or",
+          "startTime": 50.66585,
+          "endTime": 51.46089
+        },
+        {
+          "id": 61,
+          "text": "neither",
+          "startTime": 51.46089,
+          "endTime": 52.788192
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "hitherto a thought pilot’s slow splash",
+      "startTime": 52.788192,
+      "endTime": 58.123598,
+      "words": [
+        {
+          "id": 62,
+          "text": "hitherto",
+          "startTime": 52.788192,
+          "endTime": 54.253015
+        },
+        {
+          "id": 63,
+          "text": "a",
+          "startTime": 54.253015,
+          "endTime": 55.470293
+        },
+        {
+          "id": 64,
+          "text": "thought",
+          "startTime": 55.470293,
+          "endTime": 55.734977
+        },
+        {
+          "id": 65,
+          "text": "pilot’s",
+          "startTime": 55.734977,
+          "endTime": 56.264078
+        },
+        {
+          "id": 66,
+          "text": "slow",
+          "startTime": 56.264078,
+          "endTime": 56.663029
+        },
+        {
+          "id": 67,
+          "text": "splash",
+          "startTime": 56.663029,
+          "endTime": 58.123598
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "the napalm resides; too heavy a user.",
+      "startTime": 58.123598,
+      "endTime": 65.438041,
+      "words": [
+        {
+          "id": 68,
+          "text": "the",
+          "startTime": 58.123598,
+          "endTime": 59.450884
+        },
+        {
+          "id": 69,
+          "text": "napalm",
+          "startTime": 59.450884,
+          "endTime": 60.116385
+        },
+        {
+          "id": 70,
+          "text": "resides;",
+          "startTime": 60.116385,
+          "endTime": 61.31305
+        },
+        {
+          "id": 71,
+          "text": "too",
+          "startTime": 61.31305,
+          "endTime": 61.977805
+        },
+        {
+          "id": 72,
+          "text": "heavy",
+          "startTime": 61.977805,
+          "endTime": 62.508228
+        },
+        {
+          "id": 73,
+          "text": "a",
+          "startTime": 62.508228,
+          "endTime": 63.438041
+        },
+        {
+          "id": 74,
+          "text": "user.",
+          "startTime": 63.438041,
+          "endTime": 65.438041
+        }
+      ]
+    }
+  ]
+}

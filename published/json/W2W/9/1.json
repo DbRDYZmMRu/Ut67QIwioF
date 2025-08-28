@@ -1,0 +1,150 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Some silence distend",
+      "startTime": 5.192626,
+      "endTime": 8.378455,
+      "words": [
+        {
+          "id": 1,
+          "text": "Some",
+          "startTime": 5.192626,
+          "endTime": 6.518841
+        },
+        {
+          "id": 2,
+          "text": "silence",
+          "startTime": 6.518841,
+          "endTime": 7.185913
+        },
+        {
+          "id": 3,
+          "text": "distend",
+          "startTime": 7.185913,
+          "endTime": 8.378455
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "to inch next her whence",
+      "startTime": 8.378455,
+      "endTime": 11.434719,
+      "words": [
+        {
+          "id": 4,
+          "text": "to",
+          "startTime": 8.378455,
+          "endTime": 9.443175
+        },
+        {
+          "id": 5,
+          "text": "inch",
+          "startTime": 9.443175,
+          "endTime": 9.70815
+        },
+        {
+          "id": 6,
+          "text": "next",
+          "startTime": 9.70815,
+          "endTime": 10.106238
+        },
+        {
+          "id": 7,
+          "text": "her",
+          "startTime": 10.106238,
+          "endTime": 10.373292
+        },
+        {
+          "id": 8,
+          "text": "whence",
+          "startTime": 10.373292,
+          "endTime": 11.434719
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "levity rented her seal trend",
+      "startTime": 11.434719,
+      "endTime": 15.284729,
+      "words": [
+        {
+          "id": 9,
+          "text": "levity",
+          "startTime": 11.434719,
+          "endTime": 13.02132
+        },
+        {
+          "id": 10,
+          "text": "rented",
+          "startTime": 13.02132,
+          "endTime": 13.690765
+        },
+        {
+          "id": 11,
+          "text": "her",
+          "startTime": 13.690765,
+          "endTime": 13.825702
+        },
+        {
+          "id": 12,
+          "text": "seal",
+          "startTime": 13.825702,
+          "endTime": 14.224009
+        },
+        {
+          "id": 13,
+          "text": "trend",
+          "startTime": 14.224009,
+          "endTime": 15.284729
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "fifteen minutes to help it mend.",
+      "startTime": 15.284729,
+      "endTime": 20.471132,
+      "words": [
+        {
+          "id": 14,
+          "text": "fifteen",
+          "startTime": 15.284729,
+          "endTime": 16.609866
+        },
+        {
+          "id": 15,
+          "text": "minutes",
+          "startTime": 16.609866,
+          "endTime": 17.27903
+        },
+        {
+          "id": 16,
+          "text": "to",
+          "startTime": 17.27903,
+          "endTime": 18.075466
+        },
+        {
+          "id": 17,
+          "text": "help",
+          "startTime": 18.075466,
+          "endTime": 18.206619
+        },
+        {
+          "id": 18,
+          "text": "it",
+          "startTime": 18.206619,
+          "endTime": 18.471132
+        },
+        {
+          "id": 19,
+          "text": "mend.",
+          "startTime": 18.471132,
+          "endTime": 20.471132
+        }
+      ]
+    }
+  ]
+}

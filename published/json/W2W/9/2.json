@@ -1,0 +1,268 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Few blocks from your apartment",
+      "startTime": 4.801027,
+      "endTime": 8.38694,
+      "words": [
+        {
+          "id": 1,
+          "text": "Few",
+          "startTime": 4.801027,
+          "endTime": 5.599602
+        },
+        {
+          "id": 2,
+          "text": "blocks",
+          "startTime": 5.599602,
+          "endTime": 6.530511
+        },
+        {
+          "id": 3,
+          "text": "from",
+          "startTime": 6.530511,
+          "endTime": 6.926408
+        },
+        {
+          "id": 4,
+          "text": "your",
+          "startTime": 6.926408,
+          "endTime": 7.192821
+        },
+        {
+          "id": 5,
+          "text": "apartment",
+          "startTime": 7.192821,
+          "endTime": 8.38694
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "a studio where love fell under adz",
+      "startTime": 8.38694,
+      "endTime": 12.903493,
+      "words": [
+        {
+          "id": 6,
+          "text": "a",
+          "startTime": 8.38694,
+          "endTime": 9.184699
+        },
+        {
+          "id": 7,
+          "text": "studio",
+          "startTime": 9.184699,
+          "endTime": 9.717212
+        },
+        {
+          "id": 8,
+          "text": "where",
+          "startTime": 9.717212,
+          "endTime": 10.514607
+        },
+        {
+          "id": 9,
+          "text": "love",
+          "startTime": 10.514607,
+          "endTime": 11.044946
+        },
+        {
+          "id": 10,
+          "text": "fell",
+          "startTime": 11.044946,
+          "endTime": 11.706307
+        },
+        {
+          "id": 11,
+          "text": "under",
+          "startTime": 11.706307,
+          "endTime": 11.974892
+        },
+        {
+          "id": 12,
+          "text": "adz",
+          "startTime": 11.974892,
+          "endTime": 12.903493
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "silently with a faith with talent",
+      "startTime": 12.903493,
+      "endTime": 17.551346,
+      "words": [
+        {
+          "id": 13,
+          "text": "silently",
+          "startTime": 12.903493,
+          "endTime": 14.363948
+        },
+        {
+          "id": 14,
+          "text": "with",
+          "startTime": 14.363948,
+          "endTime": 15.294294
+        },
+        {
+          "id": 15,
+          "text": "a",
+          "startTime": 15.294294,
+          "endTime": 15.559703
+        },
+        {
+          "id": 16,
+          "text": "faith",
+          "startTime": 15.559703,
+          "endTime": 16.094067
+        },
+        {
+          "id": 17,
+          "text": "with",
+          "startTime": 16.094067,
+          "endTime": 16.623854
+        },
+        {
+          "id": 18,
+          "text": "talent",
+          "startTime": 16.623854,
+          "endTime": 17.551346
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "lies roiled unpolished summers",
+      "startTime": 17.551346,
+      "endTime": 21.002255,
+      "words": [
+        {
+          "id": 19,
+          "text": "lies",
+          "startTime": 17.551346,
+          "endTime": 18.879904
+        },
+        {
+          "id": 20,
+          "text": "roiled",
+          "startTime": 18.879904,
+          "endTime": 19.412842
+        },
+        {
+          "id": 21,
+          "text": "unpolished",
+          "startTime": 19.412842,
+          "endTime": 20.076516
+        },
+        {
+          "id": 22,
+          "text": "summers",
+          "startTime": 20.076516,
+          "endTime": 21.002255
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "weak paints to fit a heavenly head",
+      "startTime": 21.002255,
+      "endTime": 26.186767,
+      "words": [
+        {
+          "id": 23,
+          "text": "weak",
+          "startTime": 21.002255,
+          "endTime": 22.202312
+        },
+        {
+          "id": 24,
+          "text": "paints",
+          "startTime": 22.202312,
+          "endTime": 23.264914
+        },
+        {
+          "id": 25,
+          "text": "to",
+          "startTime": 23.264914,
+          "endTime": 23.792635
+        },
+        {
+          "id": 26,
+          "text": "fit",
+          "startTime": 23.792635,
+          "endTime": 24.060223
+        },
+        {
+          "id": 27,
+          "text": "a",
+          "startTime": 24.060223,
+          "endTime": 24.724821
+        },
+        {
+          "id": 28,
+          "text": "heavenly",
+          "startTime": 24.724821,
+          "endTime": 25.253206
+        },
+        {
+          "id": 29,
+          "text": "head",
+          "startTime": 25.253206,
+          "endTime": 26.186767
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "so flats, stilettos, tape a safe prance.",
+      "startTime": 26.186767,
+      "endTime": 33.099878000000004,
+      "words": [
+        {
+          "id": 30,
+          "text": "so",
+          "startTime": 26.186767,
+          "endTime": 26.979068
+        },
+        {
+          "id": 31,
+          "text": "flats,",
+          "startTime": 26.979068,
+          "endTime": 27.782422
+        },
+        {
+          "id": 32,
+          "text": "stilettos,",
+          "startTime": 27.782422,
+          "endTime": 29.371849
+        },
+        {
+          "id": 33,
+          "text": "tape",
+          "startTime": 29.371849,
+          "endTime": 30.302507
+        },
+        {
+          "id": 34,
+          "text": "a",
+          "startTime": 30.302507,
+          "endTime": 30.833892
+        },
+        {
+          "id": 35,
+          "text": "safe",
+          "startTime": 30.833892,
+          "endTime": 31.099878
+        },
+        {
+          "id": 36,
+          "text": "prance.",
+          "startTime": 31.099878,
+          "endTime": 33.099878000000004
+        }
+      ]
+    }
+  ]
+}
