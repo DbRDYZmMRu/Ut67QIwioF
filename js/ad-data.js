@@ -12,6 +12,16 @@ window.adData = [
 },
 {
   type: 'video',
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/aug/ad_5.mp4',
+  duration: 18,
+  cta: {
+    message: `#cokepartner No matter the decade, some things never go out of style. <br> <span style="color: red;">Iconic</span> in any era.`,
+    link: '#',
+    buttonText: 'Learn More'
+  }
+},
+{
+  type: 'video',
   url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/aug/ad_2.mp4',
   duration: 54,
   cta: {
