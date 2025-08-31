@@ -49,7 +49,8 @@ window.adData = [
   url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/aug/ad_7.mp4',
   duration: 13,
   cta: {
-    message: `Rouge radiance. Invoking the fierce spirit of Louis Vuitton, @patmcgrathreal crafts a graphic statement on model Awar, blending the heritage-inspired shades 896 Monogram Rouge and 854 Rouge Louis of the LV Rouge lipstick with grounding earth tones and glistening gold accents from the LV Ombres palette in 951 Force of Nature — an audacious declaration forged in the primal energy of nature.`,
+    message: `Rouge radiance.Invoking the fierce spirit of Louis Vuitton. < br > <br>
+    Dame Pat McGrath, crafts a graphic statement on model Awar, blending the heritage-inspired shades 896 Monogram Rouge and 854 Rouge Louis of the LV Rouge lipstick with grounding earth tones and glistening gold accents from the LV Ombres palette in 951 Force of Nature — an audacious declaration forged in the primal energy of nature.`,
     link: 'https://us.louisvuitton.com/eng-us/stories//la-beaute-louis-vuitton?utm_source=instagram&utm_medium=social&utm_campaign=PUBL_BEAUTY_IG_US_ENGAW_20250819_20250930_WOM_BTY',
     buttonText: 'Get the Look'
   },
@@ -59,7 +60,8 @@ window.adData = [
   url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/aug/ad_10.gif',
   duration: 8,
   cta: {
-    message: `Rouge radiance. Invoking the fierce spirit of Louis Vuitton, @patmcgrathreal crafts a graphic statement on model Awar, blending the heritage-inspired shades 896 Monogram Rouge and 854 Rouge Louis of the LV Rouge lipstick with grounding earth tones and glistening gold accents from the LV Ombres palette in 951 Force of Nature — an audacious declaration forged in the primal energy of nature.`,
+    message: `Rouge radiance. Invoking the fierce spirit of Louis Vuitton. <br><br>
+    Dame Pat McGrath, crafts a graphic statement on model Awar, blending the heritage-inspired shades 896 Monogram Rouge and 854 Rouge Louis of the LV Rouge lipstick with grounding earth tones and glistening gold accents from the LV Ombres palette in 951 Force of Nature — an audacious declaration forged in the primal energy of nature.`,
     link: 'https://us.louisvuitton.com/eng-us/stories//la-beaute-louis-vuitton?utm_source=instagram&utm_medium=social&utm_campaign=PUBL_BEAUTY_IG_US_ENGAW_20250819_20250930_WOM_BTY',
     buttonText: 'Get the Look'
   },
