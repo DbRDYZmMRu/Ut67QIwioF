@@ -1,10 +1,3 @@
-// fullscreen-ad.js
-// Updated to:
-// 1. Support inline CSS and HTML (<p>, <br>) in cta.message using innerHTML.
-// 2. Customize "Go" button with cta.buttonText and hide if cta.link is '#'.
-// 3. Preserve video skip button (replay or after ad.duration), CTA on video end/skip, image restart, video rewind, media loading, etc.
-// 4. Use adState as single source of truth.
-
 (function() {
   // Generate a random prefix for classes and IDs to avoid conflicts
   const prefix = 'fsad_' + Math.random().toString(36).substring(2, 10);
@@ -22,7 +15,7 @@
     currentCallback: null,
     isReplay: false,
     videoEnded: false,
-    skipButton: null
+    skipButton: null // Only for media skip button, not CTA
   };
 
   // Create and inject styles with prefixed classes
@@ -34,7 +27,7 @@
       left: 0;
       width: 100vw;
       height: 100vh;
-      z-index: 999999;
+      z-index: 1001;
       background-color: #000;
       display: none;
       overflow: hidden;
@@ -46,7 +39,7 @@
       width: 100%;
       height: 2px;
       background-color: rgba(255, 255, 255, 0.3);
-      z-index: 10;
+      z-index: 1000;
     }
     .${prefix}-progress-bar {
       height: 100%;
@@ -60,6 +53,7 @@
       align-items: center;
       justify-content: center;
       position: relative;
+      z-index: 1;
     }
     .${prefix}-image,
     .${prefix}-video {
@@ -81,9 +75,9 @@
       background-color: rgba(0, 0, 0, 0.8);
       color: #fff;
       text-align: center;
-      z-index: 10;
+      z-index: 1001;
     }
-    .${prefix}-cta p,
+    .${prefix}-cta div,
     .${prefix}-sound-prompt p {
       font-size: 1.5em;
       margin-bottom: 20px;
@@ -99,7 +93,8 @@
       border-radius: 5px;
       cursor: pointer;
       margin: 10px;
-      z-index: 15;
+      z-index: 1002;
+      pointer-events: auto;
     }
     .${prefix}-skip {
       position: absolute;
@@ -117,9 +112,17 @@
   // Create container and sub-elements
   const container = document.createElement('div');
   container.className = `${prefix}-container`;
+  container.setAttribute('role', 'dialog');
+  container.setAttribute('aria-modal', 'true');
+  container.setAttribute('aria-label', 'Advertisement overlay');
 
   const progress = document.createElement('div');
   progress.className = `${prefix}-progress`;
+  progress.setAttribute('role', 'progressbar');
+  progress.setAttribute('aria-valuemin', '0');
+  progress.setAttribute('aria-valuemax', '100');
+  progress.setAttribute('aria-valuenow', '0');
+  progress.setAttribute('aria-label', 'Ad progress');
 
   const progressBar = document.createElement('div');
   progressBar.className = `${prefix}-progress-bar`;
@@ -136,26 +139,58 @@
   const ads = window.adData || [];
   if (ads.length === 0) return; // No ads, do nothing
 
-  // Function to start progress animation (central timer)
+  // Function to sanitize HTML to prevent XSS
+  function sanitizeHTML(html) {
+    const allowedTags = ['br', 'span', 'b', 'i', 'u'];
+    const tempDiv = document.createElement('div');
+    tempDiv.innerHTML = html;
+    const walker = document.createTreeWalker(tempDiv, NodeFilter.SHOW_ELEMENT);
+    let node;
+    while ((node = walker.nextNode())) {
+      if (!allowedTags.includes(node.tagName.toLowerCase())) {
+        node.parentNode.removeChild(node);
+      } else {
+        if (node.tagName.toLowerCase() === 'span') {
+          const style = node.getAttribute('style');
+          node.removeAttribute('*');
+          if (style) node.setAttribute('style', style);
+        } else {
+          node.removeAttribute('*');
+        }
+      }
+    }
+    return tempDiv.innerHTML;
+  }
+
+  // Function to start progress animation
   function startProgress(duration, callback, media) {
     let startTime = null;
-    progressBar.style.width = `${(adState.elapsedBeforePause / duration) * 100}%`;
     progressBar.style.transition = 'none';
+    progressBar.style.width = `${(adState.elapsedBeforePause / duration) * 100}%`;
+    progress.setAttribute('aria-valuenow', Math.round((adState.elapsedBeforePause / duration) * 100));
 
     function updateProgress(timestamp) {
       if (adState.isPaused) return;
 
       if (!startTime) startTime = timestamp - adState.elapsedBeforePause * 1000;
       const elapsed = (timestamp - startTime) / 1000;
-      const progress = Math.min(elapsed / duration, 1);
-      progressBar.style.width = `${progress * 100}%`;
+      const progressValue = Math.min(elapsed / duration, 1);
+      progressBar.style.width = `${progressValue * 100}%`;
+      progress.setAttribute('aria-valuenow', Math.round(progressValue * 100));
 
-      if (media && media.tagName === 'VIDEO' && progress >= 1 && !adState.skipButton && !adState.videoEnded) {
-        adState.skipButton = createSkipButton(() => showCTA(adState.currentIndex, media));
+      if (progressValue >= 1 && !adState.skipButton) {
+        adState.skipButton = createMediaSkipButton(() => {
+          if (media && media.tagName === 'VIDEO' && !adState.videoEnded) {
+            media.pause();
+          }
+          callback();
+        });
         content.appendChild(adState.skipButton);
+        adState.skipButton.focus();
+        console.log('Media skip button created for ad', adState.currentIndex, 'after duration', duration);
       }
 
-      if (progress < 1 || (media && media.tagName === 'VIDEO' && !adState.videoEnded)) {
+      if (progressValue < 1 || (media && media.tagName === 'VIDEO' && !adState.videoEnded)) {
         adState.animationFrameId = requestAnimationFrame(updateProgress);
       } else if (media && media.tagName === 'IMG') {
         adState.elapsedBeforePause = 0;
@@ -188,13 +223,17 @@
 
     if (adState.currentMedia.tagName === 'IMG') {
       adState.elapsedBeforePause = 0;
+      progressBar.style.transition = 'none';
       progressBar.style.width = '0%';
+      progress.setAttribute('aria-valuenow', '0');
       startProgress(adState.currentDuration, adState.currentCallback, adState.currentMedia);
     } else if (adState.currentMedia.tagName === 'VIDEO') {
       const rewindSeconds = 2;
       adState.currentMedia.currentTime = Math.max(adState.currentMedia.currentTime - rewindSeconds, 0);
       adState.elapsedBeforePause = Math.max(adState.elapsedBeforePause - rewindSeconds, 0);
+      progressBar.style.transition = 'none';
       progressBar.style.width = `${(adState.elapsedBeforePause / adState.currentDuration) * 100}%`;
+      progress.setAttribute('aria-valuenow', Math.round((adState.elapsedBeforePause / adState.currentDuration) * 100));
 
       adState.currentMedia.play().catch(() => {
         adState.currentMedia.muted = true;
@@ -207,25 +246,46 @@
     }
   }
 
-  // Handle focus/blur events
-  window.onblur = () => {
-    pauseAd();
-  };
+  // Handle visibility change
+  function handleVisibilityChange() {
+    if (document.hidden) {
+      pauseAd();
+    } else {
+      resumeAd();
+    }
+  }
 
-  window.onfocus = () => {
-    resumeAd();
-  };
+  window.addEventListener('blur', pauseAd);
+  window.addEventListener('focus', resumeAd);
+  document.addEventListener('visibilitychange', handleVisibilityChange);
 
-  // Function to create skip button
-  function createSkipButton(onClick) {
+  // Function to create media skip button
+  function createMediaSkipButton(onClick) {
     const skipBtn = document.createElement('button');
-    skipBtn.className = `${prefix}-skip`;
+    skipBtn.className = `${prefix}-skip media-skip`; // Added class for distinction
     skipBtn.textContent = 'Skip';
-    skipBtn.onclick = () => {
+    skipBtn.setAttribute('aria-label', 'Skip ad');
+    skipBtn.style.pointerEvents = 'auto';
+    skipBtn.addEventListener('click', () => {
+      console.log('Media skip button clicked for ad', adState.currentIndex);
       skipBtn.remove();
       adState.skipButton = null;
       onClick();
-    };
+    }, { once: true });
+    return skipBtn;
+  }
+
+  // Function to create CTA skip button
+  function createCTASkipButton(onClick) {
+    const skipBtn = document.createElement('button');
+    skipBtn.className = `${prefix}-skip cta-skip`; // Added class for distinction
+    skipBtn.textContent = 'Skip';
+    skipBtn.setAttribute('aria-label', 'Skip to next ad');
+    skipBtn.style.pointerEvents = 'auto';
+    skipBtn.addEventListener('click', () => {
+      console.log('CTA skip button clicked for ad', adState.currentIndex, 'advancing to', adState.currentIndex + 1);
+      onClick();
+    }, { once: true });
     return skipBtn;
   }
 
@@ -234,7 +294,7 @@
     return video.muted || video.volume === 0;
   }
 
-  // Function to show sound prompt (for videos)
+  // Function to show sound prompt
   function showSoundPrompt(callback, media) {
     const promptDiv = document.createElement('div');
     promptDiv.className = `${prefix}-sound-prompt`;
@@ -244,80 +304,150 @@
 
     const activateBtn = document.createElement('button');
     activateBtn.textContent = 'Activate Sound';
-    activateBtn.onclick = () => {
+    activateBtn.setAttribute('aria-label', 'Activate sound for video');
+    activateBtn.style.pointerEvents = 'auto';
+    activateBtn.addEventListener('click', () => {
+      console.log('Sound activated for ad', adState.currentIndex);
       promptDiv.remove();
       adState.soundActivated = true;
       callback(true, media);
-    };
+    }, { once: true });
 
     promptDiv.appendChild(msg);
     promptDiv.appendChild(activateBtn);
     content.appendChild(promptDiv);
     promptDiv.style.display = 'flex';
+    activateBtn.focus();
   }
 
-  // Function to start media playback and progress after load
-  function startMediaAfterLoad(media, duration, callback) {
-    if (media.tagName === 'IMG') {
-      media.onload = () => {
-        startProgress(duration, callback, media);
-      };
-      if (media.complete) {
-        startProgress(duration, callback, media);
-      }
-    } else if (media.tagName === 'VIDEO') {
-      if (media.readyState >= 4) {
-        media.play();
-        startProgress(duration, callback, media);
-      } else {
-        media.addEventListener('canplaythrough', () => {
-          media.play();
-          startProgress(duration, callback, media);
-        }, {once: true});
+  // Function to preload next media
+  function preloadNextAd(index) {
+    if (index + 1 < ads.length) {
+      const nextAd = ads[index + 1];
+      if (nextAd.type === 'image') {
+        const img = new Image();
+        img.src = nextAd.url;
+      } else if (nextAd.type === 'video') {
+        const video = document.createElement('video');
+        video.src = nextAd.url;
+        video.preload = 'auto';
       }
     }
   }
 
+  // Function to start media playback
+  function startMediaAfterLoad(media, duration, callback) {
+    let loaded = false;
+    const handleLoad = () => {
+      if (loaded) return;
+      loaded = true;
+      console.log(`${media.tagName} loaded for ad`, adState.currentIndex);
+      if (media.tagName === 'VIDEO') {
+        media.play().catch(() => {
+          media.muted = true;
+          media.play();
+        });
+      }
+      startProgress(duration, callback, media);
+    };
+
+    if (media.tagName === 'IMG') {
+      media.onload = handleLoad;
+      media.onerror = () => showCTA(adState.currentIndex, media);
+      if (media.complete) handleLoad();
+    } else if (media.tagName === 'VIDEO') {
+      media.addEventListener('canplaythrough', handleLoad, { once: true });
+      media.addEventListener('error', () => showCTA(adState.currentIndex, media), { once: true });
+      media.load();
+    }
+
+    // Timeout to prevent stalls
+    setTimeout(() => {
+      if (!loaded) {
+        console.warn('Media load timeout for ad', adState.currentIndex);
+        showCTA(adState.currentIndex, media);
+      }
+    }, 10000); // 10s timeout
+  }
+
+  // Function to clear ad state for transition
+  function clearAdState() {
+    if (adState.animationFrameId) {
+      cancelAnimationFrame(adState.animationFrameId);
+      adState.animationFrameId = null;
+    }
+    adState.elapsedBeforePause = 0;
+    adState.isPaused = false;
+    adState.videoEnded = false;
+    adState.skipButton = null;
+    adState.currentMedia = null;
+    progressBar.style.transition = 'none';
+    progressBar.style.width = '0%';
+    progress.setAttribute('aria-valuenow', '0');
+  }
+
   // Function to show CTA
   function showCTA(index, media) {
-    if (media && media.tagName === 'VIDEO') media.pause();
-    content.innerHTML = '';
-    adState.currentMedia = null;
-    adState.skipButton = null;
+    clearAdState(); // Clear state including animation and progress
+
+    if (media && media.tagName === 'VIDEO') {
+      media.pause();
+      media.removeEventListener('ended', media.onended);
+      media.onended = null;
+    }
+
+    // Remove media and any skip button
+    if (media) media.remove();
+    if (adState.skipButton) adState.skipButton.remove();
 
     const ad = ads[index];
     const ctaDiv = document.createElement('div');
     ctaDiv.className = `${prefix}-cta`;
 
-    const msg = document.createElement('div'); // Use div for flexible HTML
-    msg.innerHTML = ad.cta.message; // Support inline CSS and <p>, <br>
+    const msg = document.createElement('div');
+    msg.innerHTML = sanitizeHTML(ad.cta.message);
 
     const actionBtn = document.createElement('button');
-    actionBtn.className = `${prefix}-cta-button`;
-    actionBtn.textContent = ad.cta.buttonText || 'Go'; // Default to 'Go' if not specified
-    actionBtn.onclick = () => {
-      window.open(ad.cta.link, '_blank');
-    };
+    actionBtn.textContent = ad.cta.buttonText || 'Go';
+    actionBtn.setAttribute('aria-label', ad.cta.buttonText || 'Go to ad link');
+    actionBtn.style.pointerEvents = 'auto';
+    actionBtn.addEventListener('click', () => {
+      console.log('Action button clicked for ad', index, 'link:', ad.cta.link);
+      if (ad.cta.link !== '#') {
+        window.open(ad.cta.link, '_blank');
+      }
+    }, { once: true });
 
     const replayBtn = document.createElement('button');
     replayBtn.className = `${prefix}-replay`;
     replayBtn.textContent = 'See Again';
-    replayBtn.onclick = () => {
-      content.innerHTML = '';
+    replayBtn.setAttribute('aria-label', 'Replay ad');
+    replayBtn.style.pointerEvents = 'auto';
+    replayBtn.addEventListener('click', () => {
+      console.log('Replay button clicked for ad', index);
+      ctaDiv.remove();
+      clearAdState(); // Ensure clean state for replay
       playAd(index, true);
-    };
+    }, { once: true });
 
-    const skipBtn = createSkipButton(() => playAd(index + 1));
-    adState.skipButton = skipBtn;
+    const ctaSkipBtn = createCTASkipButton(() => {
+      ctaDiv.remove();
+      clearAdState(); // Ensure clean state for next ad
+      playAd(index + 1);
+    });
 
     ctaDiv.appendChild(msg);
     if (ad.cta.link !== '#') {
-      ctaDiv.appendChild(actionBtn); // Only show button if link is not '#'
+      ctaDiv.appendChild(actionBtn);
     }
     ctaDiv.appendChild(replayBtn);
-    ctaDiv.appendChild(skipBtn);
+    ctaDiv.appendChild(ctaSkipBtn);
     content.appendChild(ctaDiv);
     ctaDiv.style.display = 'flex';
+    replayBtn.focus();
+    console.log('Showing CTA for ad', index);
+
+    preloadNextAd(index);
   }
 
   // Function to play ad item
@@ -327,15 +457,15 @@
       return;
     }
 
+    clearAdState(); // Clear any lingering state before starting new ad
+    content.innerHTML = ''; // Clear content for new ad
+
     const ad = ads[index];
-    content.innerHTML = '';
-    progressBar.style.width = '0';
-    adState.elapsedBeforePause = 0;
-    adState.isPaused = false;
     adState.currentIndex = index;
     adState.isReplay = isReplay;
-    adState.videoEnded = false;
-    adState.skipButton = null;
+    adState.currentDuration = ad.duration;
+    adState.currentCallback = () => showCTA(index, adState.currentMedia);
+    console.log('Playing ad', index, 'replay:', isReplay);
 
     let media;
 
@@ -343,14 +473,9 @@
       media = document.createElement('img');
       media.src = ad.url;
       media.className = `${prefix}-image`;
+      media.alt = 'Advertisement image';
       content.appendChild(media);
       adState.currentMedia = media;
-      adState.currentDuration = ad.duration;
-      adState.currentCallback = () => showCTA(index, media);
-      if (isReplay) {
-        adState.skipButton = createSkipButton(() => showCTA(index, media));
-        content.appendChild(adState.skipButton);
-      }
       startMediaAfterLoad(media, ad.duration, adState.currentCallback);
     } else if (ad.type === 'video') {
       media = document.createElement('video');
@@ -358,12 +483,10 @@
       media.className = `${prefix}-video`;
       media.autoplay = false;
       media.muted = !adState.soundActivated;
+      media.playsInline = true;
 
       content.appendChild(media);
       adState.currentMedia = media;
-      adState.currentDuration = ad.duration;
-      adState.currentCallback = () => showCTA(index, media);
-
       media.onended = () => {
         adState.videoEnded = true;
         showCTA(index, media);
@@ -377,24 +500,23 @@
         }, media);
       } else {
         media.muted = false;
-        if (isReplay) {
-          adState.skipButton = createSkipButton(() => showCTA(index, media));
-          content.appendChild(adState.skipButton);
-        }
         startMediaAfterLoad(media, ad.duration, adState.currentCallback);
       }
     }
+
+    preloadNextAd(index);
   }
 
   // Function to close the ad
   function closeAd() {
+    clearAdState(); // Final cleanup
     container.style.display = 'none';
-    adState.currentMedia = null;
-    adState.skipButton = null;
-    if (adState.animationFrameId) {
-      cancelAnimationFrame(adState.animationFrameId);
-      adState.animationFrameId = null;
-    }
+    window.removeEventListener('blur', pauseAd);
+    window.removeEventListener('focus', resumeAd);
+    document.removeEventListener('visibilitychange', handleVisibilityChange);
+    container.remove();
+    style.remove();
+    console.log('Ad closed and cleaned up');
   }
 
   // Start the ad
