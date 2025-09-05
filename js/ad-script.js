@@ -62,7 +62,8 @@
       object-fit: contain;
     }
     .${prefix}-cta,
-    .${prefix}-sound-prompt {
+    .${prefix}-sound-prompt,
+    .${prefix}-error-prompt {
       display: none;
       flex-direction: column;
       align-items: center;
@@ -78,12 +79,14 @@
       z-index: 1001;
     }
     .${prefix}-cta div,
-    .${prefix}-sound-prompt p {
+    .${prefix}-sound-prompt p,
+    .${prefix}-error-prompt p {
       font-size: 1.5em;
       margin-bottom: 20px;
     }
     .${prefix}-cta button,
     .${prefix}-sound-prompt button,
+    .${prefix}-error-prompt button,
     .${prefix}-skip,
     .${prefix}-replay {
       padding: 10px 20px;
@@ -262,7 +265,7 @@
   // Function to create media skip button
   function createMediaSkipButton(onClick) {
     const skipBtn = document.createElement('button');
-    skipBtn.className = `${prefix}-skip media-skip`; // Added class for distinction
+    skipBtn.className = `${prefix}-skip media-skip`;
     skipBtn.textContent = 'Skip';
     skipBtn.setAttribute('aria-label', 'Skip ad');
     skipBtn.style.pointerEvents = 'auto';
@@ -278,7 +281,7 @@
   // Function to create CTA skip button
   function createCTASkipButton(onClick) {
     const skipBtn = document.createElement('button');
-    skipBtn.className = `${prefix}-skip cta-skip`; // Added class for distinction
+    skipBtn.className = `${prefix}-skip cta-skip`;
     skipBtn.textContent = 'Skip';
     skipBtn.setAttribute('aria-label', 'Skip to next ad');
     skipBtn.style.pointerEvents = 'auto';
@@ -320,6 +323,34 @@
     activateBtn.focus();
   }
 
+  // Function to show error prompt for media load failure
+  function showErrorPrompt(index) {
+    clearAdState(); // Clear state to prevent conflicts
+    content.innerHTML = ''; // Clear any existing content
+
+    const promptDiv = document.createElement('div');
+    promptDiv.className = `${prefix}-error-prompt`;
+
+    const msg = document.createElement('p');
+    msg.textContent = 'Failed to load ad. Please check your network connection and try again.';
+
+    const retryBtn = document.createElement('button');
+    retryBtn.textContent = 'Retry';
+    retryBtn.setAttribute('aria-label', 'Retry loading ad');
+    retryBtn.style.pointerEvents = 'auto';
+    retryBtn.addEventListener('click', () => {
+      console.log('Retry button clicked for ad', index);
+      promptDiv.remove();
+      playAd(index, adState.isReplay); // Retry the same ad
+    }, { once: true });
+
+    promptDiv.appendChild(msg);
+    promptDiv.appendChild(retryBtn);
+    content.appendChild(promptDiv);
+    promptDiv.style.display = 'flex';
+    retryBtn.focus();
+  }
+
   // Function to preload next media
   function preloadNextAd(index) {
     if (index + 1 < ads.length) {
@@ -336,7 +367,7 @@
   }
 
   // Function to start media playback
-  function startMediaAfterLoad(media, duration, callback) {
+  function startMediaAfterLoad(media, duration, callback, index) {
     let loaded = false;
     const handleLoad = () => {
       if (loaded) return;
@@ -353,19 +384,19 @@
 
     if (media.tagName === 'IMG') {
       media.onload = handleLoad;
-      media.onerror = () => showCTA(adState.currentIndex, media);
+      media.onerror = () => showErrorPrompt(index);
       if (media.complete) handleLoad();
     } else if (media.tagName === 'VIDEO') {
       media.addEventListener('canplaythrough', handleLoad, { once: true });
-      media.addEventListener('error', () => showCTA(adState.currentIndex, media), { once: true });
+      media.addEventListener('error', () => showErrorPrompt(index), { once: true });
       media.load();
     }
 
-    // Timeout to prevent stalls
+    // Timeout to trigger error prompt
     setTimeout(() => {
       if (!loaded) {
         console.warn('Media load timeout for ad', adState.currentIndex);
-        showCTA(adState.currentIndex, media);
+        showErrorPrompt(index);
       }
     }, 10000); // 10s timeout
   }
@@ -476,7 +507,7 @@
       media.alt = 'Advertisement image';
       content.appendChild(media);
       adState.currentMedia = media;
-      startMediaAfterLoad(media, ad.duration, adState.currentCallback);
+      startMediaAfterLoad(media, ad.duration, adState.currentCallback, index);
     } else if (ad.type === 'video') {
       media = document.createElement('video');
       media.src = ad.url;
@@ -496,11 +527,11 @@
         showSoundPrompt((soundActivatedResult, promptMedia) => {
           promptMedia.muted = !soundActivatedResult;
           promptMedia.currentTime = 0;
-          startMediaAfterLoad(promptMedia, ad.duration, adState.currentCallback);
+          startMediaAfterLoad(promptMedia, ad.duration, adState.currentCallback, index);
         }, media);
       } else {
         media.muted = false;
-        startMediaAfterLoad(media, ad.duration, adState.currentCallback);
+        startMediaAfterLoad(media, ad.duration, adState.currentCallback, index);
       }
     }
 
