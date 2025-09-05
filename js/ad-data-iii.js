@@ -2,12 +2,24 @@
 window.adData = [
 {
   type: 'video',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/aug/ad_1.mp4',
-  duration: 42,
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_12.mp4',
+  duration: 3,
   cta: {
-    message: `Add Log Off, Luxplore, and OOOasis to your vocabulary - AutoCamp is redefining the way you vacay.<br><br>We’re the nature escape you need, with the boutique experience you want - explore AutoCamp’s iconic outdoor locations all season long.`,
+    message: `Add Luxplore to your vocabulary - AutoCamp is redefining the way you vacay.<br><br>We’re the nature escape you need, with the boutique experience you want - explore AutoCamp’s iconic outdoor locations all season long.`,
     link: 'https://autocamp.com/',
     buttonText: 'Explore Now'
+  }
+},
+{
+  type: 'video',
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_13.mp4',
+  duration: 29,
+  cta: {
+    message: `He is the Forever King.<br><br>
+
+The LeBron XXIII arrives soon. Prepare to behold the greatness.`,
+    link: '#',
+    buttonText: 'Learn More'
   }
 },
 {
@@ -22,8 +34,8 @@ window.adData = [
 },
 {
   type: 'video',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/aug/ad_8.mp4',
-  duration: 31,
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/aug/ad_2.mp4',
+  duration: 54,
   cta: {
     message: `A little sparkle goes a long way ✨ <br> Don’ t forget — 10% of every Coco Ring purchase supports @animalhaven and the incredible work they do to rescue and rehome animals in need🐾🤍<br><br>
   
@@ -36,10 +48,10 @@ window.adData = [
 },
 {
   type: 'video',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/aug/ad_9.mp4',
-  duration: 27,
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_15.mp4',
+  duration: 58,
   cta: {
-    message: `Welcome to the All Conditions Racing Department. <br><br>OUTRUN EVERYTHING.`,
+    message: `Why risk it? Because you can. #JustDoIt...`,
     link: '#',
     buttonText: 'Learn More'
   }
@@ -54,7 +66,7 @@ window.adData = [
     link: 'https://us.louisvuitton.com/eng-us/stories//la-beaute-louis-vuitton?utm_source=instagram&utm_medium=social&utm_campaign=PUBL_BEAUTY_IG_US_ENGAW_20250819_20250930_WOM_BTY',
     buttonText: 'Get the Look'
   },
-}, 
+},
 {
   type: 'image',
   url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/aug/ad_10.gif',
@@ -65,7 +77,7 @@ window.adData = [
     link: 'https://us.louisvuitton.com/eng-us/stories//la-beaute-louis-vuitton?utm_source=instagram&utm_medium=social&utm_campaign=PUBL_BEAUTY_IG_US_ENGAW_20250819_20250930_WOM_BTY',
     buttonText: 'Get the Look'
   },
-}, 
+},
 {
   type: 'image',
   url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/aug/ad_11.gif',
@@ -77,6 +89,14 @@ Kim Kardashian wears the Milky Sheer String Bikini, size S, and Cotton Jersey Lo
     link: 'https://skims.com/en-ng?utm_source=instagram&utm_medium=owned-social&utm_campaign=launch&fbclid=PAZXh0bgNhZW0CMTEAAackHH0Tj9aRQ-v15Dnhuev4Kir7wbuZS5tG1m7fYGNYEIlOBpXIbv6q594_Ow_aem_jw57_LmBZV5TqozuWkDaSg',
     buttonText: 'Shop SKIMS'
   },
-}  
-
-];
+},
+{
+  type: 'video',
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_14.mp4',
+  duration: 4,
+  cta: {
+    message: `Add Log Off to your vocabulary - AutoCamp is redefining the way you vacay.<br><br>We’re the nature escape you need, with the boutique experience you want - explore AutoCamp’s iconic outdoor locations all season long.`,
+    link: 'https://autocamp.com/',
+    buttonText: 'Explore Now'
+  }
+}, ];
