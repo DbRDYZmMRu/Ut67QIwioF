@@ -1,0 +1,212 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Servitude fiercesome like celibacy",
+      "startTime": 3.7364,
+      "endTime": 8.117625,
+      "words": [
+        {
+          "id": 1,
+          "text": "Servitude",
+          "startTime": 3.7364,
+          "endTime": 5.727173
+        },
+        {
+          "id": 2,
+          "text": "fiercesome",
+          "startTime": 5.727173,
+          "endTime": 6.523305
+        },
+        {
+          "id": 3,
+          "text": "like",
+          "startTime": 6.523305,
+          "endTime": 6.789592
+        },
+        {
+          "id": 4,
+          "text": "celibacy",
+          "startTime": 6.789592,
+          "endTime": 8.117625
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "stringently across beads of efficacy",
+      "startTime": 8.117625,
+      "endTime": 12.899939,
+      "words": [
+        {
+          "id": 5,
+          "text": "stringently",
+          "startTime": 8.117625,
+          "endTime": 9.710677
+        },
+        {
+          "id": 6,
+          "text": "across",
+          "startTime": 9.710677,
+          "endTime": 10.509373
+        },
+        {
+          "id": 7,
+          "text": "beads",
+          "startTime": 10.509373,
+          "endTime": 11.173239
+        },
+        {
+          "id": 8,
+          "text": "of",
+          "startTime": 11.173239,
+          "endTime": 11.707281
+        },
+        {
+          "id": 9,
+          "text": "efficacy",
+          "startTime": 11.707281,
+          "endTime": 12.899939
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "weeping hurt, picking odd delicacies",
+      "startTime": 12.899939,
+      "endTime": 17.81368,
+      "words": [
+        {
+          "id": 10,
+          "text": "weeping",
+          "startTime": 12.899939,
+          "endTime": 14.230893
+        },
+        {
+          "id": 11,
+          "text": "hurt,",
+          "startTime": 14.230893,
+          "endTime": 15.159006
+        },
+        {
+          "id": 12,
+          "text": "picking",
+          "startTime": 15.159006,
+          "endTime": 15.821278
+        },
+        {
+          "id": 13,
+          "text": "odd",
+          "startTime": 15.821278,
+          "endTime": 16.218624
+        },
+        {
+          "id": 14,
+          "text": "delicacies",
+          "startTime": 16.218624,
+          "endTime": 17.81368
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "Bridget — still a man's house’s lunacy",
+      "startTime": 17.81368,
+      "endTime": 22.721507,
+      "words": [
+        {
+          "id": 15,
+          "text": "Bridget",
+          "startTime": 17.81368,
+          "endTime": 19.141996
+        },
+        {
+          "id": 16,
+          "text": "—",
+          "startTime": 19.141996,
+          "endTime": 19.542563
+        },
+        {
+          "id": 17,
+          "text": "still",
+          "startTime": 19.542563,
+          "endTime": 20.204359
+        },
+        {
+          "id": 18,
+          "text": "a",
+          "startTime": 20.204359,
+          "endTime": 20.471658
+        },
+        {
+          "id": 19,
+          "text": "man's",
+          "startTime": 20.471658,
+          "endTime": 20.736849
+        },
+        {
+          "id": 20,
+          "text": "house’s",
+          "startTime": 20.736849,
+          "endTime": 21.39805
+        },
+        {
+          "id": 21,
+          "text": "lunacy",
+          "startTime": 21.39805,
+          "endTime": 22.721507
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "her funeral so long, drudgery off mercy.",
+      "startTime": 22.721507,
+      "endTime": 29.111605,
+      "words": [
+        {
+          "id": 22,
+          "text": "her",
+          "startTime": 22.721507,
+          "endTime": 23.787099
+        },
+        {
+          "id": 23,
+          "text": "funeral",
+          "startTime": 23.787099,
+          "endTime": 24.32265
+        },
+        {
+          "id": 24,
+          "text": "so",
+          "startTime": 24.32265,
+          "endTime": 24.588178
+        },
+        {
+          "id": 25,
+          "text": "long,",
+          "startTime": 24.588178,
+          "endTime": 25.38495
+        },
+        {
+          "id": 26,
+          "text": "drudgery",
+          "startTime": 25.38495,
+          "endTime": 26.578792
+        },
+        {
+          "id": 27,
+          "text": "off",
+          "startTime": 26.578792,
+          "endTime": 27.111605
+        },
+        {
+          "id": 28,
+          "text": "mercy.",
+          "startTime": 27.111605,
+          "endTime": 29.111605
+        }
+      ]
+    }
+  ]
+}

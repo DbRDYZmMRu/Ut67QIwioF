@@ -1,0 +1,256 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Gobs filled the field",
+      "startTime": 3.090421,
+      "endTime": 6.277509,
+      "words": [
+        {
+          "id": 1,
+          "text": "Gobs",
+          "startTime": 3.090421,
+          "endTime": 4.81594
+        },
+        {
+          "id": 2,
+          "text": "filled",
+          "startTime": 4.81594,
+          "endTime": 5.213025
+        },
+        {
+          "id": 3,
+          "text": "the",
+          "startTime": 5.213025,
+          "endTime": 5.478144
+        },
+        {
+          "id": 4,
+          "text": "field",
+          "startTime": 5.478144,
+          "endTime": 6.277509
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "that I could hardly feel",
+      "startTime": 6.277509,
+      "endTime": 8.665982,
+      "words": [
+        {
+          "id": 5,
+          "text": "that",
+          "startTime": 6.277509,
+          "endTime": 6.939017
+        },
+        {
+          "id": 6,
+          "text": "I",
+          "startTime": 6.939017,
+          "endTime": 7.205952
+        },
+        {
+          "id": 7,
+          "text": "could",
+          "startTime": 7.205952,
+          "endTime": 7.33917
+        },
+        {
+          "id": 8,
+          "text": "hardly",
+          "startTime": 7.33917,
+          "endTime": 7.606296
+        },
+        {
+          "id": 9,
+          "text": "feel",
+          "startTime": 7.606296,
+          "endTime": 8.665982
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "the plants rose like yeast",
+      "startTime": 8.665982,
+      "endTime": 12.516885,
+      "words": [
+        {
+          "id": 10,
+          "text": "the",
+          "startTime": 8.665982,
+          "endTime": 9.463255
+        },
+        {
+          "id": 11,
+          "text": "plants",
+          "startTime": 9.463255,
+          "endTime": 9.998105
+        },
+        {
+          "id": 12,
+          "text": "rose",
+          "startTime": 9.998105,
+          "endTime": 11.192593
+        },
+        {
+          "id": 13,
+          "text": "like",
+          "startTime": 11.192593,
+          "endTime": 11.454626
+        },
+        {
+          "id": 14,
+          "text": "yeast",
+          "startTime": 11.454626,
+          "endTime": 12.516885
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "withered replaced, in season",
+      "startTime": 12.516885,
+      "endTime": 16.901486,
+      "words": [
+        {
+          "id": 15,
+          "text": "withered",
+          "startTime": 12.516885,
+          "endTime": 14.11231
+        },
+        {
+          "id": 16,
+          "text": "replaced,",
+          "startTime": 14.11231,
+          "endTime": 15.175474
+        },
+        {
+          "id": 17,
+          "text": "in",
+          "startTime": 15.175474,
+          "endTime": 15.571365
+        },
+        {
+          "id": 18,
+          "text": "season",
+          "startTime": 15.571365,
+          "endTime": 16.901486
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "she flew in with the sunlight east",
+      "startTime": 16.901486,
+      "endTime": 20.351985,
+      "words": [
+        {
+          "id": 19,
+          "text": "she",
+          "startTime": 16.901486,
+          "endTime": 17.566135
+        },
+        {
+          "id": 20,
+          "text": "flew",
+          "startTime": 17.566135,
+          "endTime": 17.963937
+        },
+        {
+          "id": 21,
+          "text": "in",
+          "startTime": 17.963937,
+          "endTime": 18.229844
+        },
+        {
+          "id": 22,
+          "text": "with",
+          "startTime": 18.229844,
+          "endTime": 18.89421
+        },
+        {
+          "id": 23,
+          "text": "the",
+          "startTime": 18.89421,
+          "endTime": 19.158464
+        },
+        {
+          "id": 24,
+          "text": "sunlight",
+          "startTime": 19.158464,
+          "endTime": 19.555649
+        },
+        {
+          "id": 25,
+          "text": "east",
+          "startTime": 19.555649,
+          "endTime": 20.351985
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "the prime of my life with lips of dew.",
+      "startTime": 20.351985,
+      "endTime": 26.073459,
+      "words": [
+        {
+          "id": 26,
+          "text": "the",
+          "startTime": 20.351985,
+          "endTime": 21.416948
+        },
+        {
+          "id": 27,
+          "text": "prime",
+          "startTime": 21.416948,
+          "endTime": 21.681981
+        },
+        {
+          "id": 28,
+          "text": "of",
+          "startTime": 21.681981,
+          "endTime": 21.944582
+        },
+        {
+          "id": 29,
+          "text": "my",
+          "startTime": 21.944582,
+          "endTime": 22.080592
+        },
+        {
+          "id": 30,
+          "text": "life",
+          "startTime": 22.080592,
+          "endTime": 22.612453
+        },
+        {
+          "id": 31,
+          "text": "with",
+          "startTime": 22.612453,
+          "endTime": 23.276119
+        },
+        {
+          "id": 32,
+          "text": "lips",
+          "startTime": 23.276119,
+          "endTime": 23.675167
+        },
+        {
+          "id": 33,
+          "text": "of",
+          "startTime": 23.675167,
+          "endTime": 24.073459
+        },
+        {
+          "id": 34,
+          "text": "dew.",
+          "startTime": 24.073459,
+          "endTime": 26.073459
+        }
+      ]
+    }
+  ]
+}

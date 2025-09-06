@@ -1,0 +1,226 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "She worshipped false gods",
+      "startTime": 4.966955,
+      "endTime": 7.888097,
+      "words": [
+        {
+          "id": 1,
+          "text": "She",
+          "startTime": 4.966955,
+          "endTime": 6.296574
+        },
+        {
+          "id": 2,
+          "text": "worshipped",
+          "startTime": 6.296574,
+          "endTime": 6.561123
+        },
+        {
+          "id": 3,
+          "text": "false",
+          "startTime": 6.561123,
+          "endTime": 7.091381
+        },
+        {
+          "id": 4,
+          "text": "gods",
+          "startTime": 7.091381,
+          "endTime": 7.888097
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "wishing impossible miracles",
+      "startTime": 7.888097,
+      "endTime": 10.551827,
+      "words": [
+        {
+          "id": 5,
+          "text": "wishing",
+          "startTime": 7.888097,
+          "endTime": 8.68556
+        },
+        {
+          "id": 6,
+          "text": "impossible",
+          "startTime": 8.68556,
+          "endTime": 9.216311
+        },
+        {
+          "id": 7,
+          "text": "miracles",
+          "startTime": 9.216311,
+          "endTime": 10.551827
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "a border heart, her string clung",
+      "startTime": 10.551827,
+      "endTime": 15.326832,
+      "words": [
+        {
+          "id": 8,
+          "text": "a",
+          "startTime": 10.551827,
+          "endTime": 11.874749
+        },
+        {
+          "id": 9,
+          "text": "border",
+          "startTime": 11.874749,
+          "endTime": 12.137703
+        },
+        {
+          "id": 10,
+          "text": "heart,",
+          "startTime": 12.137703,
+          "endTime": 13.203077
+        },
+        {
+          "id": 11,
+          "text": "her",
+          "startTime": 13.203077,
+          "endTime": 13.733058
+        },
+        {
+          "id": 12,
+          "text": "string",
+          "startTime": 13.733058,
+          "endTime": 14.263177
+        },
+        {
+          "id": 13,
+          "text": "clung",
+          "startTime": 14.263177,
+          "endTime": 15.326832
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "his whispers, fret patted, burgled",
+      "startTime": 15.326832,
+      "endTime": 20.905964,
+      "words": [
+        {
+          "id": 14,
+          "text": "his",
+          "startTime": 15.326832,
+          "endTime": 16.393219
+        },
+        {
+          "id": 15,
+          "text": "whispers,",
+          "startTime": 16.393219,
+          "endTime": 17.447693
+        },
+        {
+          "id": 16,
+          "text": "fret",
+          "startTime": 17.447693,
+          "endTime": 18.248523
+        },
+        {
+          "id": 17,
+          "text": "patted,",
+          "startTime": 18.248523,
+          "endTime": 19.577826
+        },
+        {
+          "id": 18,
+          "text": "burgled",
+          "startTime": 19.577826,
+          "endTime": 20.905964
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "sextant amiss, echoes to seafloors",
+      "startTime": 20.905964,
+      "endTime": 26.748407,
+      "words": [
+        {
+          "id": 19,
+          "text": "sextant",
+          "startTime": 20.905964,
+          "endTime": 22.232541
+        },
+        {
+          "id": 20,
+          "text": "amiss,",
+          "startTime": 22.232541,
+          "endTime": 23.295205
+        },
+        {
+          "id": 21,
+          "text": "echoes",
+          "startTime": 23.295205,
+          "endTime": 24.35554
+        },
+        {
+          "id": 22,
+          "text": "to",
+          "startTime": 24.35554,
+          "endTime": 25.153794
+        },
+        {
+          "id": 23,
+          "text": "seafloors",
+          "startTime": 25.153794,
+          "endTime": 26.748407
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "she was his tune, cuddling chronicle.",
+      "startTime": 26.748407,
+      "endTime": 31.671929,
+      "words": [
+        {
+          "id": 24,
+          "text": "she",
+          "startTime": 26.748407,
+          "endTime": 27.552036
+        },
+        {
+          "id": 25,
+          "text": "was",
+          "startTime": 27.552036,
+          "endTime": 27.810967
+        },
+        {
+          "id": 26,
+          "text": "his",
+          "startTime": 27.810967,
+          "endTime": 28.34171
+        },
+        {
+          "id": 27,
+          "text": "tune,",
+          "startTime": 28.34171,
+          "endTime": 28.873308
+        },
+        {
+          "id": 28,
+          "text": "cuddling",
+          "startTime": 28.873308,
+          "endTime": 29.671929
+        },
+        {
+          "id": 29,
+          "text": "chronicle.",
+          "startTime": 29.671929,
+          "endTime": 31.671929
+        }
+      ]
+    }
+  ]
+}

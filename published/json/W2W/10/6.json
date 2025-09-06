@@ -1,0 +1,198 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Dire, the rise of the tide I recount",
+      "startTime": 2.658713,
+      "endTime": 6.645154,
+      "words": [
+        {
+          "id": 1,
+          "text": "Dire,",
+          "startTime": 2.658713,
+          "endTime": 4.122079
+        },
+        {
+          "id": 2,
+          "text": "the",
+          "startTime": 4.122079,
+          "endTime": 4.650245
+        },
+        {
+          "id": 3,
+          "text": "rise",
+          "startTime": 4.650245,
+          "endTime": 4.918498
+        },
+        {
+          "id": 4,
+          "text": "of",
+          "startTime": 4.918498,
+          "endTime": 5.183954
+        },
+        {
+          "id": 5,
+          "text": "the",
+          "startTime": 5.183954,
+          "endTime": 5.315399
+        },
+        {
+          "id": 6,
+          "text": "tide",
+          "startTime": 5.315399,
+          "endTime": 5.713332
+        },
+        {
+          "id": 7,
+          "text": "I",
+          "startTime": 5.713332,
+          "endTime": 5.846771
+        },
+        {
+          "id": 8,
+          "text": "recount",
+          "startTime": 5.846771,
+          "endTime": 6.645154
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "desire, the bites of a mind's hound",
+      "startTime": 6.645154,
+      "endTime": 11.161948,
+      "words": [
+        {
+          "id": 9,
+          "text": "desire,",
+          "startTime": 6.645154,
+          "endTime": 8.238931
+        },
+        {
+          "id": 10,
+          "text": "the",
+          "startTime": 8.238931,
+          "endTime": 8.902208
+        },
+        {
+          "id": 11,
+          "text": "bites",
+          "startTime": 8.902208,
+          "endTime": 9.300844
+        },
+        {
+          "id": 12,
+          "text": "of",
+          "startTime": 9.300844,
+          "endTime": 9.699224
+        },
+        {
+          "id": 13,
+          "text": "a",
+          "startTime": 9.699224,
+          "endTime": 9.831037
+        },
+        {
+          "id": 14,
+          "text": "mind's",
+          "startTime": 9.831037,
+          "endTime": 10.364465
+        },
+        {
+          "id": 15,
+          "text": "hound",
+          "startTime": 10.364465,
+          "endTime": 11.161948
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "scintilla, the smell troubling pronouns",
+      "startTime": 11.161948,
+      "endTime": 16.207415,
+      "words": [
+        {
+          "id": 16,
+          "text": "scintilla,",
+          "startTime": 11.161948,
+          "endTime": 12.881543
+        },
+        {
+          "id": 17,
+          "text": "the",
+          "startTime": 12.881543,
+          "endTime": 13.419237
+        },
+        {
+          "id": 18,
+          "text": "smell",
+          "startTime": 13.419237,
+          "endTime": 14.082376
+        },
+        {
+          "id": 19,
+          "text": "troubling",
+          "startTime": 14.082376,
+          "endTime": 14.612555
+        },
+        {
+          "id": 20,
+          "text": "pronouns",
+          "startTime": 14.612555,
+          "endTime": 16.207415
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "zee, the visit receipt where you astound.",
+      "startTime": 16.207415,
+      "endTime": 21.790687,
+      "words": [
+        {
+          "id": 21,
+          "text": "zee,",
+          "startTime": 16.207415,
+          "endTime": 17.401882
+        },
+        {
+          "id": 22,
+          "text": "the",
+          "startTime": 17.401882,
+          "endTime": 17.929878
+        },
+        {
+          "id": 23,
+          "text": "visit",
+          "startTime": 17.929878,
+          "endTime": 18.330468
+        },
+        {
+          "id": 24,
+          "text": "receipt",
+          "startTime": 18.330468,
+          "endTime": 18.995704
+        },
+        {
+          "id": 25,
+          "text": "where",
+          "startTime": 18.995704,
+          "endTime": 19.528196
+        },
+        {
+          "id": 26,
+          "text": "you",
+          "startTime": 19.528196,
+          "endTime": 19.790687
+        },
+        {
+          "id": 27,
+          "text": "astound.",
+          "startTime": 19.790687,
+          "endTime": 21.790687
+        }
+      ]
+    }
+  ]
+}

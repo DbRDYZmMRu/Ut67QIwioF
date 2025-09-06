@@ -1,0 +1,362 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "That path leads to a parley",
+      "startTime": 3.745114,
+      "endTime": 7.066686,
+      "words": [
+        {
+          "id": 1,
+          "text": "That",
+          "startTime": 3.745114,
+          "endTime": 5.140298
+        },
+        {
+          "id": 2,
+          "text": "path",
+          "startTime": 5.140298,
+          "endTime": 5.73936
+        },
+        {
+          "id": 3,
+          "text": "leads",
+          "startTime": 5.73936,
+          "endTime": 6.07164
+        },
+        {
+          "id": 4,
+          "text": "to",
+          "startTime": 6.07164,
+          "endTime": 6.270011
+        },
+        {
+          "id": 5,
+          "text": "a",
+          "startTime": 6.270011,
+          "endTime": 6.403236
+        },
+        {
+          "id": 6,
+          "text": "parley",
+          "startTime": 6.403236,
+          "endTime": 7.066686
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "but the blunt was smitten",
+      "startTime": 7.066686,
+      "endTime": 10.054434,
+      "words": [
+        {
+          "id": 7,
+          "text": "but",
+          "startTime": 7.066686,
+          "endTime": 8.128893
+        },
+        {
+          "id": 8,
+          "text": "the",
+          "startTime": 8.128893,
+          "endTime": 8.262608
+        },
+        {
+          "id": 9,
+          "text": "blunt",
+          "startTime": 8.262608,
+          "endTime": 8.859476
+        },
+        {
+          "id": 10,
+          "text": "was",
+          "startTime": 8.859476,
+          "endTime": 9.191475
+        },
+        {
+          "id": 11,
+          "text": "smitten",
+          "startTime": 9.191475,
+          "endTime": 10.054434
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "about path of lavish quill",
+      "startTime": 10.054434,
+      "endTime": 13.508507,
+      "words": [
+        {
+          "id": 12,
+          "text": "about",
+          "startTime": 10.054434,
+          "endTime": 11.182825
+        },
+        {
+          "id": 13,
+          "text": "path",
+          "startTime": 11.182825,
+          "endTime": 11.648815
+        },
+        {
+          "id": 14,
+          "text": "of",
+          "startTime": 11.648815,
+          "endTime": 12.246338
+        },
+        {
+          "id": 15,
+          "text": "lavish",
+          "startTime": 12.246338,
+          "endTime": 12.710657
+        },
+        {
+          "id": 16,
+          "text": "quill",
+          "startTime": 12.710657,
+          "endTime": 13.508507
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "a blonde smitten kitten",
+      "startTime": 13.508507,
+      "endTime": 16.495876,
+      "words": [
+        {
+          "id": 17,
+          "text": "a",
+          "startTime": 13.508507,
+          "endTime": 14.370753
+        },
+        {
+          "id": 18,
+          "text": "blonde",
+          "startTime": 14.370753,
+          "endTime": 14.836513
+        },
+        {
+          "id": 19,
+          "text": "smitten",
+          "startTime": 14.836513,
+          "endTime": 15.433708
+        },
+        {
+          "id": 20,
+          "text": "kitten",
+          "startTime": 15.433708,
+          "endTime": 16.495876
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "foxtrot — said her lips",
+      "startTime": 16.495876,
+      "endTime": 19.81545,
+      "words": [
+        {
+          "id": 21,
+          "text": "foxtrot",
+          "startTime": 16.495876,
+          "endTime": 18.089827
+        },
+        {
+          "id": 22,
+          "text": "—",
+          "startTime": 18.089827,
+          "endTime": 18.355522
+        },
+        {
+          "id": 23,
+          "text": "said",
+          "startTime": 18.355522,
+          "endTime": 18.953709
+        },
+        {
+          "id": 24,
+          "text": "her",
+          "startTime": 18.953709,
+          "endTime": 19.086002
+        },
+        {
+          "id": 25,
+          "text": "lips",
+          "startTime": 19.086002,
+          "endTime": 19.81545
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "her lady ribs as reeds",
+      "startTime": 19.81545,
+      "endTime": 23.402263,
+      "words": [
+        {
+          "id": 26,
+          "text": "her",
+          "startTime": 19.81545,
+          "endTime": 20.811771
+        },
+        {
+          "id": 27,
+          "text": "lady",
+          "startTime": 20.811771,
+          "endTime": 21.278058
+        },
+        {
+          "id": 28,
+          "text": "ribs",
+          "startTime": 21.278058,
+          "endTime": 21.940423
+        },
+        {
+          "id": 29,
+          "text": "as",
+          "startTime": 21.940423,
+          "endTime": 22.471057
+        },
+        {
+          "id": 30,
+          "text": "reeds",
+          "startTime": 22.471057,
+          "endTime": 23.402263
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "eliding his unhappy",
+      "startTime": 23.402263,
+      "endTime": 27.18645,
+      "words": [
+        {
+          "id": 31,
+          "text": "eliding",
+          "startTime": 23.402263,
+          "endTime": 25.129732
+        },
+        {
+          "id": 32,
+          "text": "his",
+          "startTime": 25.129732,
+          "endTime": 26.125781
+        },
+        {
+          "id": 33,
+          "text": "unhappy",
+          "startTime": 26.125781,
+          "endTime": 27.18645
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "erasing the sappy",
+      "startTime": 27.18645,
+      "endTime": 30.507352,
+      "words": [
+        {
+          "id": 34,
+          "text": "erasing",
+          "startTime": 27.18645,
+          "endTime": 29.111554
+        },
+        {
+          "id": 35,
+          "text": "the",
+          "startTime": 29.111554,
+          "endTime": 29.579005
+        },
+        {
+          "id": 36,
+          "text": "sappy",
+          "startTime": 29.579005,
+          "endTime": 30.507352
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "she'd climb hills",
+      "startTime": 30.507352,
+      "endTime": 32.498787,
+      "words": [
+        {
+          "id": 37,
+          "text": "she'd",
+          "startTime": 30.507352,
+          "endTime": 31.30566
+        },
+        {
+          "id": 38,
+          "text": "climb",
+          "startTime": 31.30566,
+          "endTime": 31.769328
+        },
+        {
+          "id": 39,
+          "text": "hills",
+          "startTime": 31.769328,
+          "endTime": 32.498787
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "to see wherein",
+      "startTime": 32.498787,
+      "endTime": 34.492256,
+      "words": [
+        {
+          "id": 40,
+          "text": "to",
+          "startTime": 32.498787,
+          "endTime": 33.229056
+        },
+        {
+          "id": 41,
+          "text": "see",
+          "startTime": 33.229056,
+          "endTime": 33.562035
+        },
+        {
+          "id": 42,
+          "text": "wherein",
+          "startTime": 33.562035,
+          "endTime": 34.492256
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "he buds, feels.",
+      "startTime": 34.492256,
+      "endTime": 38.086147,
+      "words": [
+        {
+          "id": 43,
+          "text": "he",
+          "startTime": 34.492256,
+          "endTime": 35.223443
+        },
+        {
+          "id": 44,
+          "text": "buds,",
+          "startTime": 35.223443,
+          "endTime": 36.086147
+        },
+        {
+          "id": 45,
+          "text": "feels.",
+          "startTime": 36.086147,
+          "endTime": 38.086147
+        }
+      ]
+    }
+  ]
+}

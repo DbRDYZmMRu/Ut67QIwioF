@@ -1,0 +1,404 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "When it's the cost for a leg",
+      "startTime": 4.328505,
+      "endTime": 7.388,
+      "words": [
+        {
+          "id": 1,
+          "text": "When",
+          "startTime": 4.328505,
+          "endTime": 5.529844
+        },
+        {
+          "id": 2,
+          "text": "it's",
+          "startTime": 5.529844,
+          "endTime": 5.790933
+        },
+        {
+          "id": 3,
+          "text": "the",
+          "startTime": 5.790933,
+          "endTime": 5.926437
+        },
+        {
+          "id": 4,
+          "text": "cost",
+          "startTime": 5.926437,
+          "endTime": 6.325027
+        },
+        {
+          "id": 5,
+          "text": "for",
+          "startTime": 6.325027,
+          "endTime": 6.590948
+        },
+        {
+          "id": 6,
+          "text": "a",
+          "startTime": 6.590948,
+          "endTime": 6.721777
+        },
+        {
+          "id": 7,
+          "text": "leg",
+          "startTime": 6.721777,
+          "endTime": 7.388
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "I'll take an arm for its strength",
+      "startTime": 7.388,
+      "endTime": 10.305218,
+      "words": [
+        {
+          "id": 8,
+          "text": "I'll",
+          "startTime": 7.388,
+          "endTime": 7.915798
+        },
+        {
+          "id": 9,
+          "text": "take",
+          "startTime": 7.915798,
+          "endTime": 8.051898
+        },
+        {
+          "id": 10,
+          "text": "an",
+          "startTime": 8.051898,
+          "endTime": 8.316237
+        },
+        {
+          "id": 11,
+          "text": "arm",
+          "startTime": 8.316237,
+          "endTime": 8.845306
+        },
+        {
+          "id": 12,
+          "text": "for",
+          "startTime": 8.845306,
+          "endTime": 9.11527
+        },
+        {
+          "id": 13,
+          "text": "its",
+          "startTime": 9.11527,
+          "endTime": 9.379079
+        },
+        {
+          "id": 14,
+          "text": "strength",
+          "startTime": 9.379079,
+          "endTime": 10.305218
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "fight it out where my pen-is felt",
+      "startTime": 10.305218,
+      "endTime": 14.161696,
+      "words": [
+        {
+          "id": 15,
+          "text": "fight",
+          "startTime": 10.305218,
+          "endTime": 11.103369
+        },
+        {
+          "id": 16,
+          "text": "it",
+          "startTime": 11.103369,
+          "endTime": 11.23718
+        },
+        {
+          "id": 17,
+          "text": "out",
+          "startTime": 11.23718,
+          "endTime": 11.634638
+        },
+        {
+          "id": 18,
+          "text": "where",
+          "startTime": 11.634638,
+          "endTime": 12.169909
+        },
+        {
+          "id": 19,
+          "text": "my",
+          "startTime": 12.169909,
+          "endTime": 12.300796
+        },
+        {
+          "id": 20,
+          "text": "pen-is",
+          "startTime": 12.300796,
+          "endTime": 13.096737
+        },
+        {
+          "id": 21,
+          "text": "felt",
+          "startTime": 13.096737,
+          "endTime": 14.161696
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "so please relieve all my sayings",
+      "startTime": 14.161696,
+      "endTime": 16.683607,
+      "words": [
+        {
+          "id": 22,
+          "text": "so",
+          "startTime": 14.161696,
+          "endTime": 14.955032
+        },
+        {
+          "id": 23,
+          "text": "please",
+          "startTime": 14.955032,
+          "endTime": 15.487258
+        },
+        {
+          "id": 24,
+          "text": "relieve",
+          "startTime": 15.487258,
+          "endTime": 15.487258
+        },
+        {
+          "id": 25,
+          "text": "all",
+          "startTime": 15.487258,
+          "endTime": 16.01783
+        },
+        {
+          "id": 26,
+          "text": "my",
+          "startTime": 16.01783,
+          "endTime": 16.283696
+        },
+        {
+          "id": 27,
+          "text": "sayings",
+          "startTime": 16.283696,
+          "endTime": 16.683607
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "like arm wrestlers use their stairs",
+      "startTime": 16.683607,
+      "endTime": 19.866561,
+      "words": [
+        {
+          "id": 28,
+          "text": "like",
+          "startTime": 16.683607,
+          "endTime": 17.614397
+        },
+        {
+          "id": 29,
+          "text": "arm",
+          "startTime": 17.614397,
+          "endTime": 18.010406
+        },
+        {
+          "id": 30,
+          "text": "wrestlers",
+          "startTime": 18.010406,
+          "endTime": 18.542309
+        },
+        {
+          "id": 31,
+          "text": "use",
+          "startTime": 18.542309,
+          "endTime": 18.807471
+        },
+        {
+          "id": 32,
+          "text": "their",
+          "startTime": 18.807471,
+          "endTime": 18.940906
+        },
+        {
+          "id": 33,
+          "text": "stairs",
+          "startTime": 18.940906,
+          "endTime": 19.866561
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "his mind's thrust coming from apex",
+      "startTime": 19.866561,
+      "endTime": 23.588726,
+      "words": [
+        {
+          "id": 34,
+          "text": "his",
+          "startTime": 19.866561,
+          "endTime": 20.535709
+        },
+        {
+          "id": 35,
+          "text": "mind's",
+          "startTime": 20.535709,
+          "endTime": 20.93353
+        },
+        {
+          "id": 36,
+          "text": "thrust",
+          "startTime": 20.93353,
+          "endTime": 21.594699
+        },
+        {
+          "id": 37,
+          "text": "coming",
+          "startTime": 21.594699,
+          "endTime": 22.394917
+        },
+        {
+          "id": 38,
+          "text": "from",
+          "startTime": 22.394917,
+          "endTime": 22.659943
+        },
+        {
+          "id": 39,
+          "text": "apex",
+          "startTime": 22.659943,
+          "endTime": 23.588726
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "as they're better round holes — a peg",
+      "startTime": 23.588726,
+      "endTime": 27.704599,
+      "words": [
+        {
+          "id": 40,
+          "text": "as",
+          "startTime": 23.588726,
+          "endTime": 24.252515
+        },
+        {
+          "id": 41,
+          "text": "they're",
+          "startTime": 24.252515,
+          "endTime": 24.515211
+        },
+        {
+          "id": 42,
+          "text": "better",
+          "startTime": 24.515211,
+          "endTime": 24.785294
+        },
+        {
+          "id": 43,
+          "text": "round",
+          "startTime": 24.785294,
+          "endTime": 25.181733
+        },
+        {
+          "id": 44,
+          "text": "holes",
+          "startTime": 25.181733,
+          "endTime": 25.710683
+        },
+        {
+          "id": 45,
+          "text": "—",
+          "startTime": 25.710683,
+          "endTime": 25.979583
+        },
+        {
+          "id": 46,
+          "text": "a",
+          "startTime": 25.979583,
+          "endTime": 26.641144
+        },
+        {
+          "id": 47,
+          "text": "peg",
+          "startTime": 26.641144,
+          "endTime": 27.704599
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "it's a pleasure, you don't fit them in bins.",
+      "startTime": 27.704599,
+      "endTime": 32.627235999999996,
+      "words": [
+        {
+          "id": 48,
+          "text": "it's",
+          "startTime": 27.704599,
+          "endTime": 28.369026
+        },
+        {
+          "id": 49,
+          "text": "a",
+          "startTime": 28.369026,
+          "endTime": 28.503217
+        },
+        {
+          "id": 50,
+          "text": "pleasure,",
+          "startTime": 28.503217,
+          "endTime": 29.433306
+        },
+        {
+          "id": 51,
+          "text": "you",
+          "startTime": 29.433306,
+          "endTime": 29.830727
+        },
+        {
+          "id": 52,
+          "text": "don't",
+          "startTime": 29.830727,
+          "endTime": 30.096098
+        },
+        {
+          "id": 53,
+          "text": "fit",
+          "startTime": 30.096098,
+          "endTime": 30.226686
+        },
+        {
+          "id": 54,
+          "text": "them",
+          "startTime": 30.226686,
+          "endTime": 30.494274
+        },
+        {
+          "id": 55,
+          "text": "in",
+          "startTime": 30.494274,
+          "endTime": 30.627236
+        },
+        {
+          "id": 56,
+          "text": "bins.",
+          "startTime": 30.627236,
+          "endTime": 32.627235999999996
+        }
+      ]
+    }
+  ]
+}

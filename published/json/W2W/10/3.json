@@ -1,0 +1,188 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Sincerity is a rapport that burst",
+      "startTime": 3.88819,
+      "endTime": 7.750503,
+      "words": [
+        {
+          "id": 1,
+          "text": "Sincerity",
+          "startTime": 3.88819,
+          "endTime": 5.625415
+        },
+        {
+          "id": 2,
+          "text": "is",
+          "startTime": 5.625415,
+          "endTime": 6.023288
+        },
+        {
+          "id": 3,
+          "text": "a",
+          "startTime": 6.023288,
+          "endTime": 6.154841
+        },
+        {
+          "id": 4,
+          "text": "rapport",
+          "startTime": 6.154841,
+          "endTime": 6.819052
+        },
+        {
+          "id": 5,
+          "text": "that",
+          "startTime": 6.819052,
+          "endTime": 7.085146
+        },
+        {
+          "id": 6,
+          "text": "burst",
+          "startTime": 7.085146,
+          "endTime": 7.750503
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "the steams rallied off blurred",
+      "startTime": 7.750503,
+      "endTime": 10.671119,
+      "words": [
+        {
+          "id": 7,
+          "text": "the",
+          "startTime": 7.750503,
+          "endTime": 8.681074
+        },
+        {
+          "id": 8,
+          "text": "steams",
+          "startTime": 8.681074,
+          "endTime": 9.344891
+        },
+        {
+          "id": 9,
+          "text": "rallied",
+          "startTime": 9.344891,
+          "endTime": 9.742956
+        },
+        {
+          "id": 10,
+          "text": "off",
+          "startTime": 9.742956,
+          "endTime": 10.007235
+        },
+        {
+          "id": 11,
+          "text": "blurred",
+          "startTime": 10.007235,
+          "endTime": 10.671119
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "with my tongue scorched",
+      "startTime": 10.671119,
+      "endTime": 13.455531,
+      "words": [
+        {
+          "id": 12,
+          "text": "with",
+          "startTime": 10.671119,
+          "endTime": 11.600434
+        },
+        {
+          "id": 13,
+          "text": "my",
+          "startTime": 11.600434,
+          "endTime": 11.734475
+        },
+        {
+          "id": 14,
+          "text": "tongue",
+          "startTime": 11.734475,
+          "endTime": 12.528934
+        },
+        {
+          "id": 15,
+          "text": "scorched",
+          "startTime": 12.528934,
+          "endTime": 13.455531
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "for I'd spoken of love",
+      "startTime": 13.455531,
+      "endTime": 15.451666,
+      "words": [
+        {
+          "id": 16,
+          "text": "for",
+          "startTime": 13.455531,
+          "endTime": 14.122965
+        },
+        {
+          "id": 17,
+          "text": "I'd",
+          "startTime": 14.122965,
+          "endTime": 14.257801
+        },
+        {
+          "id": 18,
+          "text": "spoken",
+          "startTime": 14.257801,
+          "endTime": 14.657339
+        },
+        {
+          "id": 19,
+          "text": "of",
+          "startTime": 14.657339,
+          "endTime": 14.785407
+        },
+        {
+          "id": 20,
+          "text": "love",
+          "startTime": 14.785407,
+          "endTime": 15.451666
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "as we sock hopped.",
+      "startTime": 15.451666,
+      "endTime": 18.514375,
+      "words": [
+        {
+          "id": 21,
+          "text": "as",
+          "startTime": 15.451666,
+          "endTime": 15.979755
+        },
+        {
+          "id": 22,
+          "text": "we",
+          "startTime": 15.979755,
+          "endTime": 16.117641
+        },
+        {
+          "id": 23,
+          "text": "sock",
+          "startTime": 16.117641,
+          "endTime": 16.514375
+        },
+        {
+          "id": 24,
+          "text": "hopped.",
+          "startTime": 16.514375,
+          "endTime": 18.514375
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Photographs as affected caves",
+      "startTime": 5.638662,
+      "endTime": 9.358316,
+      "words": [
+        {
+          "id": 1,
+          "text": "Photographs",
+          "startTime": 5.638662,
+          "endTime": 7.232376
+        },
+        {
+          "id": 2,
+          "text": "as",
+          "startTime": 7.232376,
+          "endTime": 7.765198
+        },
+        {
+          "id": 3,
+          "text": "affected",
+          "startTime": 7.765198,
+          "endTime": 8.429289
+        },
+        {
+          "id": 4,
+          "text": "caves",
+          "startTime": 8.429289,
+          "endTime": 9.358316
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "eyes mentioning hue and praise",
+      "startTime": 9.358316,
+      "endTime": 12.943222,
+      "words": [
+        {
+          "id": 5,
+          "text": "eyes",
+          "startTime": 9.358316,
+          "endTime": 10.420459
+        },
+        {
+          "id": 6,
+          "text": "mentioning",
+          "startTime": 10.420459,
+          "endTime": 11.079431
+        },
+        {
+          "id": 7,
+          "text": "hue",
+          "startTime": 11.079431,
+          "endTime": 11.483919
+        },
+        {
+          "id": 8,
+          "text": "and",
+          "startTime": 11.483919,
+          "endTime": 12.147265
+        },
+        {
+          "id": 9,
+          "text": "praise",
+          "startTime": 12.147265,
+          "endTime": 12.943222
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "what would, sheen known to haze",
+      "startTime": 12.943222,
+      "endTime": 17.456593,
+      "words": [
+        {
+          "id": 10,
+          "text": "what",
+          "startTime": 12.943222,
+          "endTime": 14.005764
+        },
+        {
+          "id": 11,
+          "text": "would,",
+          "startTime": 14.005764,
+          "endTime": 14.671555
+        },
+        {
+          "id": 12,
+          "text": "sheen",
+          "startTime": 14.671555,
+          "endTime": 15.465863
+        },
+        {
+          "id": 13,
+          "text": "known",
+          "startTime": 15.465863,
+          "endTime": 15.734517
+        },
+        {
+          "id": 14,
+          "text": "to",
+          "startTime": 15.734517,
+          "endTime": 16.530875
+        },
+        {
+          "id": 15,
+          "text": "haze",
+          "startTime": 16.530875,
+          "endTime": 17.456593
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "pupils wittering the burning butane",
+      "startTime": 17.456593,
+      "endTime": 22.076276,
+      "words": [
+        {
+          "id": 16,
+          "text": "pupils",
+          "startTime": 17.456593,
+          "endTime": 18.919423
+        },
+        {
+          "id": 17,
+          "text": "wittering",
+          "startTime": 18.919423,
+          "endTime": 20.245734
+        },
+        {
+          "id": 18,
+          "text": "the",
+          "startTime": 20.245734,
+          "endTime": 20.755386
+        },
+        {
+          "id": 19,
+          "text": "burning",
+          "startTime": 20.755386,
+          "endTime": 20.876855
+        },
+        {
+          "id": 20,
+          "text": "butane",
+          "startTime": 20.876855,
+          "endTime": 22.076276
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "all the time missing why I first came.",
+      "startTime": 22.076276,
+      "endTime": 27.529494,
+      "words": [
+        {
+          "id": 21,
+          "text": "all",
+          "startTime": 22.076276,
+          "endTime": 23.004174
+        },
+        {
+          "id": 22,
+          "text": "the",
+          "startTime": 23.004174,
+          "endTime": 23.268163
+        },
+        {
+          "id": 23,
+          "text": "time",
+          "startTime": 23.268163,
+          "endTime": 23.802413
+        },
+        {
+          "id": 24,
+          "text": "missing",
+          "startTime": 23.802413,
+          "endTime": 24.199557
+        },
+        {
+          "id": 25,
+          "text": "why",
+          "startTime": 24.199557,
+          "endTime": 25.131536
+        },
+        {
+          "id": 26,
+          "text": "I",
+          "startTime": 25.131536,
+          "endTime": 25.262008
+        },
+        {
+          "id": 27,
+          "text": "first",
+          "startTime": 25.262008,
+          "endTime": 25.529494
+        },
+        {
+          "id": 28,
+          "text": "came.",
+          "startTime": 25.529494,
+          "endTime": 27.529494
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "In my feelings",
+      "startTime": 4.121331,
+      "endTime": 6.242067,
+      "words": [
+        {
+          "id": 1,
+          "text": "In",
+          "startTime": 4.121331,
+          "endTime": 5.179023
+        },
+        {
+          "id": 2,
+          "text": "my",
+          "startTime": 5.179023,
+          "endTime": 5.448092
+        },
+        {
+          "id": 3,
+          "text": "feelings",
+          "startTime": 5.448092,
+          "endTime": 6.242067
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "I'm a sex-kitten weaning",
+      "startTime": 6.242067,
+      "endTime": 9.167825,
+      "words": [
+        {
+          "id": 4,
+          "text": "I'm",
+          "startTime": 6.242067,
+          "endTime": 7.173928
+        },
+        {
+          "id": 5,
+          "text": "a",
+          "startTime": 7.173928,
+          "endTime": 7.303409
+        },
+        {
+          "id": 6,
+          "text": "sex-kitten",
+          "startTime": 7.303409,
+          "endTime": 8.105908
+        },
+        {
+          "id": 7,
+          "text": "weaning",
+          "startTime": 8.105908,
+          "endTime": 9.167825
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "a grown man’s hairpin",
+      "startTime": 9.167825,
+      "endTime": 11.687732,
+      "words": [
+        {
+          "id": 8,
+          "text": "a",
+          "startTime": 9.167825,
+          "endTime": 10.097145
+        },
+        {
+          "id": 9,
+          "text": "grown",
+          "startTime": 10.097145,
+          "endTime": 10.359207
+        },
+        {
+          "id": 10,
+          "text": "man’s",
+          "startTime": 10.359207,
+          "endTime": 10.759113
+        },
+        {
+          "id": 11,
+          "text": "hairpin",
+          "startTime": 10.759113,
+          "endTime": 11.687732
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "an emotional bearing",
+      "startTime": 11.687732,
+      "endTime": 14.344338,
+      "words": [
+        {
+          "id": 12,
+          "text": "an",
+          "startTime": 11.687732,
+          "endTime": 12.749994
+        },
+        {
+          "id": 13,
+          "text": "emotional",
+          "startTime": 12.749994,
+          "endTime": 13.282295
+        },
+        {
+          "id": 14,
+          "text": "bearing",
+          "startTime": 13.282295,
+          "endTime": 14.344338
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "with a face to carry.",
+      "startTime": 14.344338,
+      "endTime": 18.337633,
+      "words": [
+        {
+          "id": 15,
+          "text": "with",
+          "startTime": 14.344338,
+          "endTime": 15.143838
+        },
+        {
+          "id": 16,
+          "text": "a",
+          "startTime": 15.143838,
+          "endTime": 15.274785
+        },
+        {
+          "id": 17,
+          "text": "face",
+          "startTime": 15.274785,
+          "endTime": 15.805205
+        },
+        {
+          "id": 18,
+          "text": "to",
+          "startTime": 15.805205,
+          "endTime": 16.337633
+        },
+        {
+          "id": 19,
+          "text": "carry.",
+          "startTime": 16.337633,
+          "endTime": 18.337633
+        }
+      ]
+    }
+  ]
+}

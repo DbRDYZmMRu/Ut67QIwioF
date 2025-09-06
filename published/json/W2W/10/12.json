@@ -1,0 +1,328 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "You shape me as you want",
+      "startTime": 2.868568,
+      "endTime": 4.863712,
+      "words": [
+        {
+          "id": 1,
+          "text": "You",
+          "startTime": 2.868568,
+          "endTime": 3.26929
+        },
+        {
+          "id": 2,
+          "text": "shape",
+          "startTime": 3.26929,
+          "endTime": 3.533701
+        },
+        {
+          "id": 3,
+          "text": "me",
+          "startTime": 3.533701,
+          "endTime": 3.79794
+        },
+        {
+          "id": 4,
+          "text": "as",
+          "startTime": 3.79794,
+          "endTime": 3.930049
+        },
+        {
+          "id": 5,
+          "text": "you",
+          "startTime": 3.930049,
+          "endTime": 4.062878
+        },
+        {
+          "id": 6,
+          "text": "want",
+          "startTime": 4.062878,
+          "endTime": 4.863712
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "as if my true feelings worn",
+      "startTime": 4.863712,
+      "endTime": 7.916173,
+      "words": [
+        {
+          "id": 7,
+          "text": "as",
+          "startTime": 4.863712,
+          "endTime": 5.657591
+        },
+        {
+          "id": 8,
+          "text": "if",
+          "startTime": 5.657591,
+          "endTime": 5.922604
+        },
+        {
+          "id": 9,
+          "text": "my",
+          "startTime": 5.922604,
+          "endTime": 6.189532
+        },
+        {
+          "id": 10,
+          "text": "true",
+          "startTime": 6.189532,
+          "endTime": 6.451907
+        },
+        {
+          "id": 11,
+          "text": "feelings",
+          "startTime": 6.451907,
+          "endTime": 6.988213
+        },
+        {
+          "id": 12,
+          "text": "worn",
+          "startTime": 6.988213,
+          "endTime": 7.916173
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "you bring back their rote",
+      "startTime": 7.916173,
+      "endTime": 10.703855,
+      "words": [
+        {
+          "id": 13,
+          "text": "you",
+          "startTime": 7.916173,
+          "endTime": 9.24271
+        },
+        {
+          "id": 14,
+          "text": "bring",
+          "startTime": 9.24271,
+          "endTime": 9.37754
+        },
+        {
+          "id": 15,
+          "text": "back",
+          "startTime": 9.37754,
+          "endTime": 9.640961
+        },
+        {
+          "id": 16,
+          "text": "their",
+          "startTime": 9.640961,
+          "endTime": 9.904271
+        },
+        {
+          "id": 17,
+          "text": "rote",
+          "startTime": 9.904271,
+          "endTime": 10.703855
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "reminding me of the ol’",
+      "startTime": 10.703855,
+      "endTime": 13.895239,
+      "words": [
+        {
+          "id": 18,
+          "text": "reminding",
+          "startTime": 10.703855,
+          "endTime": 11.767065
+        },
+        {
+          "id": 19,
+          "text": "me",
+          "startTime": 11.767065,
+          "endTime": 12.166956
+        },
+        {
+          "id": 20,
+          "text": "of",
+          "startTime": 12.166956,
+          "endTime": 12.831963
+        },
+        {
+          "id": 21,
+          "text": "the",
+          "startTime": 12.831963,
+          "endTime": 12.961806
+        },
+        {
+          "id": 22,
+          "text": "ol’",
+          "startTime": 12.961806,
+          "endTime": 13.895239
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "but asking, if my love",
+      "startTime": 13.895239,
+      "endTime": 17.477322,
+      "words": [
+        {
+          "id": 23,
+          "text": "but",
+          "startTime": 13.895239,
+          "endTime": 14.953365
+        },
+        {
+          "id": 24,
+          "text": "asking,",
+          "startTime": 14.953365,
+          "endTime": 15.619933
+        },
+        {
+          "id": 25,
+          "text": "if",
+          "startTime": 15.619933,
+          "endTime": 16.41504
+        },
+        {
+          "id": 26,
+          "text": "my",
+          "startTime": 16.41504,
+          "endTime": 16.680732
+        },
+        {
+          "id": 27,
+          "text": "love",
+          "startTime": 16.680732,
+          "endTime": 17.477322
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "waking to the grutch",
+      "startTime": 17.477322,
+      "endTime": 19.736576,
+      "words": [
+        {
+          "id": 28,
+          "text": "waking",
+          "startTime": 17.477322,
+          "endTime": 18.277965
+        },
+        {
+          "id": 29,
+          "text": "to",
+          "startTime": 18.277965,
+          "endTime": 18.672023
+        },
+        {
+          "id": 30,
+          "text": "the",
+          "startTime": 18.672023,
+          "endTime": 18.94144
+        },
+        {
+          "id": 31,
+          "text": "grutch",
+          "startTime": 18.94144,
+          "endTime": 19.736576
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "the missing ol’ hold",
+      "startTime": 19.736576,
+      "endTime": 22.522842,
+      "words": [
+        {
+          "id": 32,
+          "text": "the",
+          "startTime": 19.736576,
+          "endTime": 20.797117
+        },
+        {
+          "id": 33,
+          "text": "missing",
+          "startTime": 20.797117,
+          "endTime": 21.197042
+        },
+        {
+          "id": 34,
+          "text": "ol’",
+          "startTime": 21.197042,
+          "endTime": 21.462322
+        },
+        {
+          "id": 35,
+          "text": "hold",
+          "startTime": 21.462322,
+          "endTime": 22.522842
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "of my soul’s prose",
+      "startTime": 22.522842,
+      "endTime": 25.577793,
+      "words": [
+        {
+          "id": 36,
+          "text": "of",
+          "startTime": 22.522842,
+          "endTime": 23.451578
+        },
+        {
+          "id": 37,
+          "text": "my",
+          "startTime": 23.451578,
+          "endTime": 23.720305
+        },
+        {
+          "id": 38,
+          "text": "soul’s",
+          "startTime": 23.720305,
+          "endTime": 24.389706
+        },
+        {
+          "id": 39,
+          "text": "prose",
+          "startTime": 24.389706,
+          "endTime": 25.577793
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "that one tomato.",
+      "startTime": 25.577793,
+      "endTime": 28.775021,
+      "words": [
+        {
+          "id": 40,
+          "text": "that",
+          "startTime": 25.577793,
+          "endTime": 26.243402
+        },
+        {
+          "id": 41,
+          "text": "one",
+          "startTime": 26.243402,
+          "endTime": 26.775021
+        },
+        {
+          "id": 42,
+          "text": "tomato.",
+          "startTime": 26.775021,
+          "endTime": 28.775021
+        }
+      ]
+    }
+  ]
+}

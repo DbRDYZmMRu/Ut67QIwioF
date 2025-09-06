@@ -1,0 +1,352 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Your lips are the stars",
+      "startTime": 4.058767,
+      "endTime": 7.503931,
+      "words": [
+        {
+          "id": 1,
+          "text": "Your",
+          "startTime": 4.058767,
+          "endTime": 5.379383
+        },
+        {
+          "id": 2,
+          "text": "lips",
+          "startTime": 5.379383,
+          "endTime": 5.787419
+        },
+        {
+          "id": 3,
+          "text": "are",
+          "startTime": 5.787419,
+          "endTime": 5.9111
+        },
+        {
+          "id": 4,
+          "text": "the",
+          "startTime": 5.9111,
+          "endTime": 6.175489
+        },
+        {
+          "id": 5,
+          "text": "stars",
+          "startTime": 6.175489,
+          "endTime": 7.503931
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "slipping me into hi-hats",
+      "startTime": 7.503931,
+      "endTime": 10.696202,
+      "words": [
+        {
+          "id": 6,
+          "text": "slipping",
+          "startTime": 7.503931,
+          "endTime": 7.903285
+        },
+        {
+          "id": 7,
+          "text": "me",
+          "startTime": 7.903285,
+          "endTime": 8.306289
+        },
+        {
+          "id": 8,
+          "text": "into",
+          "startTime": 8.306289,
+          "endTime": 9.102722
+        },
+        {
+          "id": 9,
+          "text": "hi-hats",
+          "startTime": 9.102722,
+          "endTime": 10.696202
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "breath pulling moi apart",
+      "startTime": 10.696202,
+      "endTime": 13.886787,
+      "words": [
+        {
+          "id": 10,
+          "text": "breath",
+          "startTime": 10.696202,
+          "endTime": 11.890325
+        },
+        {
+          "id": 11,
+          "text": "pulling",
+          "startTime": 11.890325,
+          "endTime": 12.420888
+        },
+        {
+          "id": 12,
+          "text": "moi",
+          "startTime": 12.420888,
+          "endTime": 12.818092
+        },
+        {
+          "id": 13,
+          "text": "apart",
+          "startTime": 12.818092,
+          "endTime": 13.886787
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "loftily to set foot on Mars",
+      "startTime": 13.886787,
+      "endTime": 17.998195,
+      "words": [
+        {
+          "id": 14,
+          "text": "loftily",
+          "startTime": 13.886787,
+          "endTime": 14.945262
+        },
+        {
+          "id": 15,
+          "text": "to",
+          "startTime": 14.945262,
+          "endTime": 15.878204
+        },
+        {
+          "id": 16,
+          "text": "set",
+          "startTime": 15.878204,
+          "endTime": 16.005498
+        },
+        {
+          "id": 17,
+          "text": "foot",
+          "startTime": 16.005498,
+          "endTime": 16.274252
+        },
+        {
+          "id": 18,
+          "text": "on",
+          "startTime": 16.274252,
+          "endTime": 16.672165
+        },
+        {
+          "id": 19,
+          "text": "Mars",
+          "startTime": 16.672165,
+          "endTime": 17.998195
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "drawing off into dry crash",
+      "startTime": 17.998195,
+      "endTime": 22.244942,
+      "words": [
+        {
+          "id": 20,
+          "text": "drawing",
+          "startTime": 17.998195,
+          "endTime": 19.195709
+        },
+        {
+          "id": 21,
+          "text": "off",
+          "startTime": 19.195709,
+          "endTime": 19.723665
+        },
+        {
+          "id": 22,
+          "text": "into",
+          "startTime": 19.723665,
+          "endTime": 20.789934
+        },
+        {
+          "id": 23,
+          "text": "dry",
+          "startTime": 20.789934,
+          "endTime": 21.182856
+        },
+        {
+          "id": 24,
+          "text": "crash",
+          "startTime": 21.182856,
+          "endTime": 22.244942
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "a sweetened pageant plan",
+      "startTime": 22.244942,
+      "endTime": 25.303071,
+      "words": [
+        {
+          "id": 25,
+          "text": "a",
+          "startTime": 22.244942,
+          "endTime": 22.77938
+        },
+        {
+          "id": 26,
+          "text": "sweetened",
+          "startTime": 22.77938,
+          "endTime": 23.311401
+        },
+        {
+          "id": 27,
+          "text": "pageant",
+          "startTime": 23.311401,
+          "endTime": 23.842549
+        },
+        {
+          "id": 28,
+          "text": "plan",
+          "startTime": 23.842549,
+          "endTime": 25.303071
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "I show off my door’s keypad",
+      "startTime": 25.303071,
+      "endTime": 28.224367,
+      "words": [
+        {
+          "id": 29,
+          "text": "I",
+          "startTime": 25.303071,
+          "endTime": 25.834919
+        },
+        {
+          "id": 30,
+          "text": "show",
+          "startTime": 25.834919,
+          "endTime": 26.099932
+        },
+        {
+          "id": 31,
+          "text": "off",
+          "startTime": 26.099932,
+          "endTime": 26.497454
+        },
+        {
+          "id": 32,
+          "text": "my",
+          "startTime": 26.497454,
+          "endTime": 26.764846
+        },
+        {
+          "id": 33,
+          "text": "door’s",
+          "startTime": 26.764846,
+          "endTime": 27.029419
+        },
+        {
+          "id": 34,
+          "text": "keypad",
+          "startTime": 27.029419,
+          "endTime": 28.224367
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "for as your tegument lips rang",
+      "startTime": 28.224367,
+      "endTime": 31.681371,
+      "words": [
+        {
+          "id": 35,
+          "text": "for",
+          "startTime": 28.224367,
+          "endTime": 29.152699
+        },
+        {
+          "id": 36,
+          "text": "as",
+          "startTime": 29.152699,
+          "endTime": 29.289774
+        },
+        {
+          "id": 37,
+          "text": "your",
+          "startTime": 29.289774,
+          "endTime": 29.418416
+        },
+        {
+          "id": 38,
+          "text": "tegument",
+          "startTime": 29.418416,
+          "endTime": 30.085527
+        },
+        {
+          "id": 39,
+          "text": "lips",
+          "startTime": 30.085527,
+          "endTime": 30.61268
+        },
+        {
+          "id": 40,
+          "text": "rang",
+          "startTime": 30.61268,
+          "endTime": 31.681371
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "I knew my cymbals, you'd bang.",
+      "startTime": 31.681371,
+      "endTime": 36.736032,
+      "words": [
+        {
+          "id": 41,
+          "text": "I",
+          "startTime": 31.681371,
+          "endTime": 32.341422
+        },
+        {
+          "id": 42,
+          "text": "knew",
+          "startTime": 32.341422,
+          "endTime": 32.609585
+        },
+        {
+          "id": 43,
+          "text": "my",
+          "startTime": 32.609585,
+          "endTime": 32.874772
+        },
+        {
+          "id": 44,
+          "text": "cymbals,",
+          "startTime": 32.874772,
+          "endTime": 34.200952
+        },
+        {
+          "id": 45,
+          "text": "you'd",
+          "startTime": 34.200952,
+          "endTime": 34.736032
+        },
+        {
+          "id": 46,
+          "text": "bang.",
+          "startTime": 34.736032,
+          "endTime": 36.736032
+        }
+      ]
+    }
+  ]
+}

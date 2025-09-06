@@ -1,0 +1,144 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "She's his son's repertoire",
+      "startTime": 3.353304,
+      "endTime": 5.608495,
+      "words": [
+        {
+          "id": 1,
+          "text": "She's",
+          "startTime": 3.353304,
+          "endTime": 3.619021
+        },
+        {
+          "id": 2,
+          "text": "his",
+          "startTime": 3.619021,
+          "endTime": 3.749597
+        },
+        {
+          "id": 3,
+          "text": "son's",
+          "startTime": 3.749597,
+          "endTime": 4.281339
+        },
+        {
+          "id": 4,
+          "text": "repertoire",
+          "startTime": 4.281339,
+          "endTime": 5.608495
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "his dolly blue’s au revoir",
+      "startTime": 5.608495,
+      "endTime": 9.728616,
+      "words": [
+        {
+          "id": 5,
+          "text": "his",
+          "startTime": 5.608495,
+          "endTime": 6.941667
+        },
+        {
+          "id": 6,
+          "text": "dolly",
+          "startTime": 6.941667,
+          "endTime": 7.337842
+        },
+        {
+          "id": 7,
+          "text": "blue’s",
+          "startTime": 7.337842,
+          "endTime": 8.133601
+        },
+        {
+          "id": 8,
+          "text": "au",
+          "startTime": 8.133601,
+          "endTime": 8.538464
+        },
+        {
+          "id": 9,
+          "text": "revoir",
+          "startTime": 8.538464,
+          "endTime": 9.728616
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "a well polished doodah",
+      "startTime": 9.728616,
+      "endTime": 13.049412,
+      "words": [
+        {
+          "id": 10,
+          "text": "a",
+          "startTime": 9.728616,
+          "endTime": 10.527685
+        },
+        {
+          "id": 11,
+          "text": "well",
+          "startTime": 10.527685,
+          "endTime": 10.789651
+        },
+        {
+          "id": 12,
+          "text": "polished",
+          "startTime": 10.789651,
+          "endTime": 11.321401
+        },
+        {
+          "id": 13,
+          "text": "doodah",
+          "startTime": 11.321401,
+          "endTime": 13.049412
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "all of a boy's oeuvre.",
+      "startTime": 13.049412,
+      "endTime": 16.507752,
+      "words": [
+        {
+          "id": 14,
+          "text": "all",
+          "startTime": 13.049412,
+          "endTime": 13.578964
+        },
+        {
+          "id": 15,
+          "text": "of",
+          "startTime": 13.578964,
+          "endTime": 13.714404
+        },
+        {
+          "id": 16,
+          "text": "a",
+          "startTime": 13.714404,
+          "endTime": 13.84412
+        },
+        {
+          "id": 17,
+          "text": "boy's",
+          "startTime": 13.84412,
+          "endTime": 14.507752
+        },
+        {
+          "id": 18,
+          "text": "oeuvre.",
+          "startTime": 14.507752,
+          "endTime": 16.507752
+        }
+      ]
+    }
+  ]
+}
