@@ -3,15 +3,26 @@ const path = require('path');
 
 // Array of poetry titles
 const poetryTitles = [
-            "With Flutter Spent",
-            "In a sandpit",
-            "A Catnip Arises",
+                                      "Chivalry",
+                          "Helping Magic Live",
+                          "Jitterbug",
+                          "A Thousand Miles",
+                          "Omertà",
+                          "Outzany",
+                          "Miss Possessive",
+                          "Whomperjawed Ticker",
+                          "Busted - Year 3000",
+                          "Heritage",
+                          "Her Duty",
+                          "Ouch!",
+                          "Hilton Trip-Lets",
+
 
 
 ];
 
 // Create necessary directories
-const shareDir = path.join(__dirname, 'share', 'W2W', 'IX');
+const shareDir = path.join(__dirname, 'share', 'W2W', 'X');
 fs.mkdirSync(shareDir, { recursive: true });
 
 // Template for the HTML content
@@ -92,16 +103,16 @@ const htmlTemplate = (title, description, keywords, ogImage, ogUrl, twitterImage
 
 // Generate HTML files
 poetryTitles.forEach((title, index) => {
-  const description = `${title} is a poem from West to West Collection IX by Howard Frith Hilton`;
-  const keywords = `${title}, West to West Collection IX`;
-  const ogImage = `https://frithhilton.com.ng/images/share/W2W/9/image_${index + 1}.png`;
-  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/west-to-west-collection-IX.html?query=${index + 1}`;
+  const description = `${title} is a poem from West to West Collection X by Howard Frith Hilton`;
+  const keywords = `${title}, West to West Collection X`;
+  const ogImage = `https://frithhilton.com.ng/images/share/W2W/10/image_${index + 1}.png`;
+  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/west-to-west-collection-X.html?query=${index + 1}`;
   const twitterImage = ogImage;
   const canonicalUrl = ogUrl;
   const redirectUrl = ogUrl;
   
   const htmlContent = htmlTemplate(
-    `${title} - West to West Collection IX`,
+    `${title} - West to West Collection X`,
     description,
     keywords,
     ogImage,
