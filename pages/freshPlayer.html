@@ -787,6 +787,28 @@
     </div>
     
     <div v-show="store.getInnerView() === 'div3'">
+      <!-- Album 17: sev.en.ton -->
+      <div class="gradient-item" @click="store.showAlbumTracks(17)">
+        <div class="gradient-wrap">
+          <img :src="store.getAlbumCover(17)" alt="sev.en.ton" crossorigin="anonymous" />
+        </div>
+      </div>
+      <section class="py-4 bg-black">
+        <div class="container">
+          <div class="row justify-content-center" @click="store.showAlbumTracks(17)">
+            <div class="col-12 text-center">
+              <h3 class="text-white mb-5">sev.en.ton</h3>
+              <!-- <span role="button" disabled and tabindex="0" @click.stop.prevent="store.buyAlbum(17)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span> -->
+            </div>
+          </div>
+          <div :id="'album-' + 17" class="row justify-content-center mt-3" style="display: none;">
+            <div class="col-12 text-center">
+              <ul class="text-white list-unstyled album-track-list" :id="'track-list-' + 17"></ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      
       <!-- Album 16: whereIsTheMoodRobot -->
       <div class="gradient-item" @click="store.showAlbumTracks(16)">
         <div class="gradient-wrap">
@@ -798,7 +820,7 @@
           <div class="row justify-content-center" @click="store.showAlbumTracks(16)">
             <div class="col-12 text-center">
               <h3 class="text-white mb-5">whereIsTheMoodRobot</h3>
-              <!-- <span role="button" disabled and tabindex="0" @click.stop.prevent="store.buyAlbum(16)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span> -->
+              <span role="button" disabled and tabindex="0" @click.stop.prevent="store.buyAlbum(16)" class="bg-light px-4 py-2 text-dark rounded">Buy Album</span>
             </div>
           </div>
           <div :id="'album-' + 16" class="row justify-content-center mt-3" style="display: none;">
