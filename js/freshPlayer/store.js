@@ -6,7 +6,7 @@ import { playerState } from './state.js';
 import { updateNowPlaying } from './playlistManager.js';
 
 export const store = reactive({
-  albumCount: 16,
+  albumCount: 17,
   currentAlbumId: null,
   baseStylesheet: '../css/style.css',
   albumsStyleSheet: '../css/freshPlayer.css',
