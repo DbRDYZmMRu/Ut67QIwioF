@@ -132,7 +132,7 @@ export const store = reactive({
   
   buyAlbum(id) {
     try {
-      if (id === 16) {
+      if (id === 17) {
         alert("Album 'whereIsTheMoodRobot' is in session and not available for purchase.");
         return;
       }
