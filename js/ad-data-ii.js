@@ -2,22 +2,22 @@
 window.adData = [
 {
   type: 'video',
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/aug/ad_1.mp4',
+  duration: 42,
+  cta: {
+    message: `Add Log Off, Luxplore, and OOOasis to your vocabulary - AutoCamp is redefining the way you vacay.<br><br>We’re the nature escape you need, with the boutique experience you want - explore AutoCamp’s iconic outdoor locations all season long.`,
+    link: 'https://autocamp.com/',
+    buttonText: 'Explore Now'
+  }
+}, 
+{
+  type: 'video',
   url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/aug/ad_6.mp4',
   duration: 15,
   cta: {
     message: `The closest thing I‘ ve seen to a representation of a painting on a digital medium.“<br><br>From painting to film, Basim Magdy’ s art journey has always involved pushing boundaries. Hear his story - and explore the new possibilities of art today✨.`,
     link: '#',
     buttonText: 'Explore Now'
-  }
-},
-{
-  type: 'video',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_21.mp4',
-  duration: 11,
-  cta: {
-    message: `our spooookiest drop of the season 👻🕸️ coming soon…...`,
-    link: 'https://www.wildflowercases.com/en-ad',
-    buttonText: 'Get Yours'
   }
 },
 {
