@@ -2,12 +2,12 @@
 window.adData = [
 {
   type: 'video',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_21.mp4',
-  duration: 11,
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/aug/ad_1.mp4',
+  duration: 42,
   cta: {
-    message: `our spooookiest drop of the season 👻🕸️ coming soon…...`,
-    link: 'https://www.wildflowercases.com/en-ad',
-    buttonText: 'Get Yours'
+    message: `Add Log Off, Luxplore, and OOOasis to your vocabulary - AutoCamp is redefining the way you vacay.<br><br>We’re the nature escape you need, with the boutique experience you want - explore AutoCamp’s iconic outdoor locations all season long.`,
+    link: 'https://autocamp.com/',
+    buttonText: 'Explore Now'
   }
 },
 {
