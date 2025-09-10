@@ -3,19 +3,29 @@ window.adData = [
 {
   type: 'video',
   url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/aug/ad_1.mp4',
-  duration: 42,
+  duration: 15,
   cta: {
     message: `Add Log Off, Luxplore, and OOOasis to your vocabulary - AutoCamp is redefining the way you vacay.<br><br>We’re the nature escape you need, with the boutique experience you want - explore AutoCamp’s iconic outdoor locations all season long.`,
     link: 'https://autocamp.com/',
     buttonText: 'Explore Now'
   }
-}, 
+},
+{
+  type: 'video',
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_26.mp4',
+  duration: 30,
+  cta: {
+    message: `Built by science. Certified by sweat.<br><br>Gatorade`,
+    link: '#',
+    buttonText: 'Learn More'
+  }
+},
 {
   type: 'video',
   url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/aug/ad_6.mp4',
   duration: 15,
   cta: {
-    message: `The closest thing I‘ ve seen to a representation of a painting on a digital medium.“<br><br>From painting to film, Basim Magdy’ s art journey has always involved pushing boundaries. Hear his story - and explore the new possibilities of art today✨.`,
+    message: `The closest thing I‘ ve seen to a representation of a painting on a digital medium.“<br><br>From painting to film, Basim Magdy’ s art journey has always involved pushing boundaries. Hear his story - and explore the new possibilities of art today ✨.`,
     link: '#',
     buttonText: 'Explore Now'
   }
@@ -34,10 +44,12 @@ The LeBron XXIII arrives soon. Prepare to behold the greatness.`,
 },
 {
   type: 'video',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/aug/ad_5.mp4',
-  duration: 6,
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_29.mp4',
+  duration: 46,
   cta: {
-    message: `#cokepartner No matter the decade, some things never go out of style. <br> <span style="color: red;">Iconic</span> in any era.`,
+    message: `Days like this write themselves into our memory, forever.
+<br><br>
+Coke Films: The Last Sips of Summer<br><br>Chapter I by <b>Katherine Goguen</b>`,
     link: '#',
     buttonText: 'Learn More'
   }
@@ -54,22 +66,24 @@ The LeBron XXIII arrives soon. Prepare to behold the greatness.`,
 },
 {
   type: 'video',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_22.mp4',
-  duration: 15, 
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_27.mp4',
+  duration: 11,
   cta: {
-    message: `In this episode of Louis Vuitton [Extended], Loïc Prigent shares an inspiring exchange with Tahar Rahim — internationally acclaimed, César Award winning actor and Friend of the House. Together, they explore his instinctive approach to selecting roles, his pursuit of perfection, and his extraordinary ability to transform for each character.`,
-    link: 'https://smartlinks.audiomeans.fr/l/louis-vuitton-extended-87c07a4e/tahar-rahim-on-cinema-pushing-boundaries-and-his-ability-to-transform-d5182bbf',
-    buttonText: 'Listen to the Podcast'
+    message: `L’Âme du Voyage. <br><br>Embark on a reflective journey to the ancient Xuankong Hanging Temple with iconic Louis Vuitton trunks and travel companions to carry adventurers beyond the horizon.`,
+    link: '#',
+    buttonText: 'Explore'
   },
 },
 {
   type: 'image',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_16.gif',
-  duration: 5,
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_30.gif',
+  duration: 10,
   cta: {
-    message: `Tailored pants for elevated day-to-night wear. Discover our new, mid-weight knit bottoms with compressive stretch`,
-    link: 'https://skims.com/en-ng/collections/the-essential-collection',
-    buttonText: 'Shop SKIMS ESSENTIAL COLLECTION'
+    message: `Coming Thursday: Soft Smoothing Seamless. Back by popular demand—our buttery-smooth staples, reinvented with new built-in bust support and a chic fall color palette. 
+<br><br>
+Soft Smoothing Seamless arrives September 11 at 9AM PT. SKIMS Rewards Members shop first – sign up in our app for 24-hour early access.`,
+    link: 'https://www.frithhilton.com.ng/pages/tools/skimsRedirect.html',
+    buttonText: 'Sign up'
   },
 },
 {
@@ -84,12 +98,10 @@ The LeBron XXIII arrives soon. Prepare to behold the greatness.`,
 },
 {
   type: 'video',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_24.mp4',
-  duration: 24,
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_28.mp4',
+  duration: 15,
   cta: {
-    message: `Opposites attack.<br><br>
-
-The next era of tennis belongs to those on the offense.`,
+    message: `Two thoughts, you’re out. #JustDoIt`,
     link: '#',
     buttonText: 'Learn More'
   }
