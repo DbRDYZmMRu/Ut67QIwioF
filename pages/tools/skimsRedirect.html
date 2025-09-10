@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKIMS App Redirect</title>
+    <script>
+        // Function to detect device and redirect
+        function redirectToAppStore() {
+            const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+            // Check for iOS devices
+            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                window.location.href = "https://apps.apple.com/us/app/skims/id6449501345";
+            }
+            // Check for Android devices
+            else if (/android/i.test(userAgent)) {
+                window.location.href = "https://play.google.com/store/apps/details?id=com.skims.shop&pcampaignid=web_share";
+            }
+            // Fallback for other devices (e.g., desktop)
+            else {
+                window.location.href = "https://www.skims.com/";
+            }
+        }
+    </script>
+</head>
+<body onload="redirectToAppStore()">
+    <p>Redirecting to the SKIMS app...</p>
+    <p>If you are not redirected, <a href="https://www.skims.com/">click here to visit the SKIMS website</a>.</p>
+</body>
+</html>
