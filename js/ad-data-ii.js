@@ -44,12 +44,12 @@ The LeBron XXIII arrives soon. Prepare to behold the greatness.`,
 },
 {
   type: 'video',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_29.mp4',
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_31.mp4',
   duration: 46,
   cta: {
-    message: `Days like this write themselves into our memory, forever.
+    message: `The making of campfire stories in real time.
 <br><br>
-Coke Films: The Last Sips of Summer<br><br>Chapter I by <b>Katherine Goguen</b>`,
+Coke Films: The Last Sips of Summer<br><br>Chapter II by <b>Orland Jensen</b>`,
     link: '#',
     buttonText: 'Learn More'
   }
