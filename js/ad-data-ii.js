@@ -32,12 +32,12 @@ window.adData = [
 },
 {
   type: 'video',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_13.mp4',
-  duration: 15,
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_29.mp4',
+  duration: 46,
   cta: {
-    message: `He is the Forever King.<br><br>
-
-The LeBron XXIII arrives soon. Prepare to behold the greatness.`,
+    message: `Days like this write themselves into our memory, forever.
+<br><br>
+Coke Films: The Last Sips of Summer<br><br>Chapter I by <b>Katherine Goguen</b>`,
     link: '#',
     buttonText: 'Learn More'
   }
@@ -45,7 +45,7 @@ The LeBron XXIII arrives soon. Prepare to behold the greatness.`,
 {
   type: 'video',
   url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_31.mp4',
-  duration: 46,
+  duration: 58,
   cta: {
     message: `The making of campfire stories in real time.
 <br><br>
@@ -54,6 +54,19 @@ Coke Films: The Last Sips of Summer<br><br>Chapter II by <b>Orland Jensen</b>`,
     buttonText: 'Learn More'
   }
 },
+{
+  type: 'video',
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_32.mp4',
+  duration: 68,
+  cta: {
+    message: `See you, summer. We’ll replay these days until we meet again.
+<br><br>
+Coke Films: The Last Sips of Summer<br><br>Chapter III by <b>Q Guajardo </b>`,
+    link: '#',
+    buttonText: 'Learn More'
+  }
+},
+
 {
   type: 'video',
   url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/aug/ad_2.mp4',
@@ -79,11 +92,9 @@ Coke Films: The Last Sips of Summer<br><br>Chapter II by <b>Orland Jensen</b>`,
   url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_30.gif',
   duration: 10,
   cta: {
-    message: `Coming Thursday: Soft Smoothing Seamless. Back by popular demand—our buttery-smooth staples, reinvented with new built-in bust support and a chic fall color palette. 
-<br><br>
-Soft Smoothing Seamless arrives September 11 at 9AM PT. SKIMS Rewards Members shop first – sign up in our app for 24-hour early access.`,
-    link: 'https://www.frithhilton.com.ng/pages/tools/skimsRedirect.html',
-    buttonText: 'Sign up'
+    message: `Soft Smoothing Seamless. Back by popular demand—our buttery-smooth staples, reinvented with new built-in bust support and a chic fall color palette.`,
+    link: 'https://skims.com',
+    buttonText: 'Shop SKIMS'
   },
 },
 {
