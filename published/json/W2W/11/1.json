@@ -1,0 +1,348 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I recharge the cells",
+      "startTime": 5.617598,
+      "endTime": 8.540405,
+      "words": [
+        {
+          "id": 1,
+          "text": "I",
+          "startTime": 5.617598,
+          "endTime": 7.076792
+        },
+        {
+          "id": 2,
+          "text": "recharge",
+          "startTime": 7.076792,
+          "endTime": 7.477689
+        },
+        {
+          "id": 3,
+          "text": "the",
+          "startTime": 7.477689,
+          "endTime": 7.742672
+        },
+        {
+          "id": 4,
+          "text": "cells",
+          "startTime": 7.742672,
+          "endTime": 8.540405
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "every now and then",
+      "startTime": 8.540405,
+      "endTime": 10.26629,
+      "words": [
+        {
+          "id": 5,
+          "text": "every",
+          "startTime": 8.540405,
+          "endTime": 9.204882
+        },
+        {
+          "id": 6,
+          "text": "now",
+          "startTime": 9.204882,
+          "endTime": 9.465663
+        },
+        {
+          "id": 7,
+          "text": "and",
+          "startTime": 9.465663,
+          "endTime": 9.732793
+        },
+        {
+          "id": 8,
+          "text": "then",
+          "startTime": 9.732793,
+          "endTime": 10.26629
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "this daylight present",
+      "startTime": 10.26629,
+      "endTime": 13.053638,
+      "words": [
+        {
+          "id": 9,
+          "text": "this",
+          "startTime": 10.26629,
+          "endTime": 11.594783
+        },
+        {
+          "id": 10,
+          "text": "daylight",
+          "startTime": 11.594783,
+          "endTime": 12.120595
+        },
+        {
+          "id": 11,
+          "text": "present",
+          "startTime": 12.120595,
+          "endTime": 13.053638
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "floor left wet in steps",
+      "startTime": 13.053638,
+      "endTime": 17.438016,
+      "words": [
+        {
+          "id": 12,
+          "text": "floor",
+          "startTime": 13.053638,
+          "endTime": 14.779773
+        },
+        {
+          "id": 13,
+          "text": "left",
+          "startTime": 14.779773,
+          "endTime": 15.182922
+        },
+        {
+          "id": 14,
+          "text": "wet",
+          "startTime": 15.182922,
+          "endTime": 15.708001
+        },
+        {
+          "id": 15,
+          "text": "in",
+          "startTime": 15.708001,
+          "endTime": 16.373024
+        },
+        {
+          "id": 16,
+          "text": "steps",
+          "startTime": 16.373024,
+          "endTime": 17.438016
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "in this air you depend",
+      "startTime": 17.438016,
+      "endTime": 21.029347,
+      "words": [
+        {
+          "id": 17,
+          "text": "in",
+          "startTime": 17.438016,
+          "endTime": 18.23368
+        },
+        {
+          "id": 18,
+          "text": "this",
+          "startTime": 18.23368,
+          "endTime": 18.500408
+        },
+        {
+          "id": 19,
+          "text": "air",
+          "startTime": 18.500408,
+          "endTime": 18.89686
+        },
+        {
+          "id": 20,
+          "text": "you",
+          "startTime": 18.89686,
+          "endTime": 19.834596
+        },
+        {
+          "id": 21,
+          "text": "depend",
+          "startTime": 19.834596,
+          "endTime": 21.029347
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "I from choice, reticent",
+      "startTime": 21.029347,
+      "endTime": 25.014651,
+      "words": [
+        {
+          "id": 22,
+          "text": "I",
+          "startTime": 21.029347,
+          "endTime": 22.35634
+        },
+        {
+          "id": 23,
+          "text": "from",
+          "startTime": 22.35634,
+          "endTime": 22.622772
+        },
+        {
+          "id": 24,
+          "text": "choice,",
+          "startTime": 22.622772,
+          "endTime": 23.685433
+        },
+        {
+          "id": 25,
+          "text": "reticent",
+          "startTime": 23.685433,
+          "endTime": 25.014651
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "a disguise to represent",
+      "startTime": 25.014651,
+      "endTime": 28.867212,
+      "words": [
+        {
+          "id": 26,
+          "text": "a",
+          "startTime": 25.014651,
+          "endTime": 26.339527
+        },
+        {
+          "id": 27,
+          "text": "disguise",
+          "startTime": 26.339527,
+          "endTime": 27.275181
+        },
+        {
+          "id": 28,
+          "text": "to",
+          "startTime": 27.275181,
+          "endTime": 27.671841
+        },
+        {
+          "id": 29,
+          "text": "represent",
+          "startTime": 27.671841,
+          "endTime": 28.867212
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "say what fails if cement",
+      "startTime": 28.867212,
+      "endTime": 33.422263,
+      "words": [
+        {
+          "id": 30,
+          "text": "say",
+          "startTime": 28.867212,
+          "endTime": 30.324886
+        },
+        {
+          "id": 31,
+          "text": "what",
+          "startTime": 30.324886,
+          "endTime": 30.592548
+        },
+        {
+          "id": 32,
+          "text": "fails",
+          "startTime": 30.592548,
+          "endTime": 31.695935
+        },
+        {
+          "id": 33,
+          "text": "if",
+          "startTime": 31.695935,
+          "endTime": 32.225922
+        },
+        {
+          "id": 34,
+          "text": "cement",
+          "startTime": 32.225922,
+          "endTime": 33.422263
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "what hits it unharvested",
+      "startTime": 33.422263,
+      "endTime": 37.27364,
+      "words": [
+        {
+          "id": 35,
+          "text": "what",
+          "startTime": 33.422263,
+          "endTime": 34.614907
+        },
+        {
+          "id": 36,
+          "text": "hits",
+          "startTime": 34.614907,
+          "endTime": 34.882765
+        },
+        {
+          "id": 37,
+          "text": "it",
+          "startTime": 34.882765,
+          "endTime": 35.680197
+        },
+        {
+          "id": 38,
+          "text": "unharvested",
+          "startTime": 35.680197,
+          "endTime": 37.27364
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "the heat you fear in debt.",
+      "startTime": 37.27364,
+      "endTime": 43.12414,
+      "words": [
+        {
+          "id": 39,
+          "text": "the",
+          "startTime": 37.27364,
+          "endTime": 38.731322
+        },
+        {
+          "id": 40,
+          "text": "heat",
+          "startTime": 38.731322,
+          "endTime": 39.260522
+        },
+        {
+          "id": 41,
+          "text": "you",
+          "startTime": 39.260522,
+          "endTime": 40.059746
+        },
+        {
+          "id": 42,
+          "text": "fear",
+          "startTime": 40.059746,
+          "endTime": 40.726891
+        },
+        {
+          "id": 43,
+          "text": "in",
+          "startTime": 40.726891,
+          "endTime": 41.12414
+        },
+        {
+          "id": 44,
+          "text": "debt.",
+          "startTime": 41.12414,
+          "endTime": 43.12414
+        }
+      ]
+    }
+  ]
+}

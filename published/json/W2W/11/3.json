@@ -1,0 +1,192 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "So I waited on you at the block",
+      "startTime": 4.329566,
+      "endTime": 8.180711,
+      "words": [
+        {
+          "id": 1,
+          "text": "So",
+          "startTime": 4.329566,
+          "endTime": 5.923843
+        },
+        {
+          "id": 2,
+          "text": "I",
+          "startTime": 5.923843,
+          "endTime": 6.055204
+        },
+        {
+          "id": 3,
+          "text": "waited",
+          "startTime": 6.055204,
+          "endTime": 6.45632
+        },
+        {
+          "id": 4,
+          "text": "on",
+          "startTime": 6.45632,
+          "endTime": 6.719558
+        },
+        {
+          "id": 5,
+          "text": "you",
+          "startTime": 6.719558,
+          "endTime": 7.116361
+        },
+        {
+          "id": 6,
+          "text": "at",
+          "startTime": 7.116361,
+          "endTime": 7.248686
+        },
+        {
+          "id": 7,
+          "text": "the",
+          "startTime": 7.248686,
+          "endTime": 7.385698
+        },
+        {
+          "id": 8,
+          "text": "block",
+          "startTime": 7.385698,
+          "endTime": 8.180711
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "those newly built hood mirrors",
+      "startTime": 8.180711,
+      "endTime": 11.767347,
+      "words": [
+        {
+          "id": 9,
+          "text": "those",
+          "startTime": 8.180711,
+          "endTime": 9.375119
+        },
+        {
+          "id": 10,
+          "text": "newly",
+          "startTime": 9.375119,
+          "endTime": 9.909628
+        },
+        {
+          "id": 11,
+          "text": "built",
+          "startTime": 9.909628,
+          "endTime": 10.306844
+        },
+        {
+          "id": 12,
+          "text": "hood",
+          "startTime": 10.306844,
+          "endTime": 10.703204
+        },
+        {
+          "id": 13,
+          "text": "mirrors",
+          "startTime": 10.703204,
+          "endTime": 11.767347
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "what waited by me was unsure",
+      "startTime": 11.767347,
+      "endTime": 16.281407,
+      "words": [
+        {
+          "id": 14,
+          "text": "what",
+          "startTime": 11.767347,
+          "endTime": 13.757742
+        },
+        {
+          "id": 15,
+          "text": "waited",
+          "startTime": 13.757742,
+          "endTime": 14.025349
+        },
+        {
+          "id": 16,
+          "text": "by",
+          "startTime": 14.025349,
+          "endTime": 14.157546
+        },
+        {
+          "id": 17,
+          "text": "me",
+          "startTime": 14.157546,
+          "endTime": 14.686755
+        },
+        {
+          "id": 18,
+          "text": "was",
+          "startTime": 14.686755,
+          "endTime": 15.086783
+        },
+        {
+          "id": 19,
+          "text": "unsure",
+          "startTime": 15.086783,
+          "endTime": 16.281407
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "while I felt you'd left me more.",
+      "startTime": 16.281407,
+      "endTime": 21.601836,
+      "words": [
+        {
+          "id": 20,
+          "text": "while",
+          "startTime": 16.281407,
+          "endTime": 17.470951
+        },
+        {
+          "id": 21,
+          "text": "I",
+          "startTime": 17.470951,
+          "endTime": 17.743068
+        },
+        {
+          "id": 22,
+          "text": "felt",
+          "startTime": 17.743068,
+          "endTime": 18.409033
+        },
+        {
+          "id": 23,
+          "text": "you'd",
+          "startTime": 18.409033,
+          "endTime": 18.934604
+        },
+        {
+          "id": 24,
+          "text": "left",
+          "startTime": 18.934604,
+          "endTime": 19.201337
+        },
+        {
+          "id": 25,
+          "text": "me",
+          "startTime": 19.201337,
+          "endTime": 19.601836
+        },
+        {
+          "id": 26,
+          "text": "more.",
+          "startTime": 19.601836,
+          "endTime": 21.601836
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Swimming butterfly to heaven",
+      "startTime": 4.634999,
+      "endTime": 8.354937,
+      "words": [
+        {
+          "id": 1,
+          "text": "Swimming",
+          "startTime": 4.634999,
+          "endTime": 6.234364
+        },
+        {
+          "id": 2,
+          "text": "butterfly",
+          "startTime": 6.234364,
+          "endTime": 7.291747
+        },
+        {
+          "id": 3,
+          "text": "to",
+          "startTime": 7.291747,
+          "endTime": 7.557672
+        },
+        {
+          "id": 4,
+          "text": "heaven",
+          "startTime": 7.557672,
+          "endTime": 8.354937
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "with fingertips to her temple",
+      "startTime": 8.354937,
+      "endTime": 12.07195,
+      "words": [
+        {
+          "id": 5,
+          "text": "with",
+          "startTime": 8.354937,
+          "endTime": 9.549102
+        },
+        {
+          "id": 6,
+          "text": "fingertips",
+          "startTime": 9.549102,
+          "endTime": 10.478494
+        },
+        {
+          "id": 7,
+          "text": "to",
+          "startTime": 10.478494,
+          "endTime": 10.744024
+        },
+        {
+          "id": 8,
+          "text": "her",
+          "startTime": 10.744024,
+          "endTime": 11.010312
+        },
+        {
+          "id": 9,
+          "text": "temple",
+          "startTime": 11.010312,
+          "endTime": 12.07195
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "relaxing a heavier example",
+      "startTime": 12.07195,
+      "endTime": 15.92448,
+      "words": [
+        {
+          "id": 10,
+          "text": "relaxing",
+          "startTime": 12.07195,
+          "endTime": 13.66793
+        },
+        {
+          "id": 11,
+          "text": "a",
+          "startTime": 13.66793,
+          "endTime": 14.329672
+        },
+        {
+          "id": 12,
+          "text": "heavier",
+          "startTime": 14.329672,
+          "endTime": 14.729984
+        },
+        {
+          "id": 13,
+          "text": "example",
+          "startTime": 14.729984,
+          "endTime": 15.92448
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "“you'll arrive, no purple”",
+      "startTime": 15.92448,
+      "endTime": 19.632651,
+      "words": [
+        {
+          "id": 14,
+          "text": "“you'll",
+          "startTime": 15.92448,
+          "endTime": 17.250845
+        },
+        {
+          "id": 15,
+          "text": "arrive,",
+          "startTime": 17.250845,
+          "endTime": 18.048701
+        },
+        {
+          "id": 16,
+          "text": "no",
+          "startTime": 18.048701,
+          "endTime": 18.846583
+        },
+        {
+          "id": 17,
+          "text": "purple”",
+          "startTime": 18.846583,
+          "endTime": 19.632651
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "she quietly mumbles.",
+      "startTime": 19.632651,
+      "endTime": 23.23635,
+      "words": [
+        {
+          "id": 18,
+          "text": "she",
+          "startTime": 19.632651,
+          "endTime": 20.701152
+        },
+        {
+          "id": 19,
+          "text": "quietly",
+          "startTime": 20.701152,
+          "endTime": 21.23635
+        },
+        {
+          "id": 20,
+          "text": "mumbles.",
+          "startTime": 21.23635,
+          "endTime": 23.23635
+        }
+      ]
+    }
+  ]
+}
