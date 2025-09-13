@@ -7,21 +7,11 @@ registerFont('font/Architects_Daughter.ttf', { family: 'Architects Daughter' });
 
 const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
-const outputDir = path.join(__dirname, 'images', 'share', 'W2W', '10');
+const outputDir = path.join(__dirname, 'images', 'share', 'W2W', '11');
 const titles = [
-                                        "Chivalry",
-                          "Helping Magic Live",
-                          "Jitterbug",
-                          "A Thousand Miles",
-                          "Omertà",
-                          "Outzany",
-                          "Miss Possessive",
-                          "Whomperjawed Ticker",
-                          "Busted - Year 3000",
-                          "Heritage",
-                          "Her Duty",
-                          "Ouch!",
-                          "Hilton Trip-Lets",
+                                               "You're an Angel when Down",
+            "Her California Close",
+            "New York Bus stop",
 
 
 ];
@@ -73,7 +63,7 @@ const generateImages = async () => {
     ctx.fillStyle = 'black';
     ctx.textAlign = 'center';
     ctx.textBaseline = 'top';
-    ctx.fillText('WEST TO WEST COLLECTION X', imageSize / 2, 10); // Corrected position
+    ctx.fillText('WEST TO WEST COLLECTION XI', imageSize / 2, 10); // Corrected position
     
     // Save the image
     const buffer = canvas.toBuffer('image/png');
