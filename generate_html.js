@@ -3,26 +3,16 @@ const path = require('path');
 
 // Array of poetry titles
 const poetryTitles = [
-                                      "Chivalry",
-                          "Helping Magic Live",
-                          "Jitterbug",
-                          "A Thousand Miles",
-                          "Omertà",
-                          "Outzany",
-                          "Miss Possessive",
-                          "Whomperjawed Ticker",
-                          "Busted - Year 3000",
-                          "Heritage",
-                          "Her Duty",
-                          "Ouch!",
-                          "Hilton Trip-Lets",
+                                                "You're an Angel when Down",
+            "Her California Close",
+            "New York Bus stop",
 
 
 
 ];
 
 // Create necessary directories
-const shareDir = path.join(__dirname, 'share', 'W2W', 'X');
+const shareDir = path.join(__dirname, 'share', 'W2W', 'XI');
 fs.mkdirSync(shareDir, { recursive: true });
 
 // Template for the HTML content
@@ -103,16 +93,16 @@ const htmlTemplate = (title, description, keywords, ogImage, ogUrl, twitterImage
 
 // Generate HTML files
 poetryTitles.forEach((title, index) => {
-  const description = `${title} is a poem from West to West Collection X by Howard Frith Hilton`;
-  const keywords = `${title}, West to West Collection X`;
-  const ogImage = `https://frithhilton.com.ng/images/share/W2W/10/image_${index + 1}.png`;
-  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/west-to-west-collection-X.html?query=${index + 1}`;
+  const description = `${title} is a poem from West to West Collection XI by Howard Frith Hilton`;
+  const keywords = `${title}, West to West Collection XI`;
+  const ogImage = `https://frithhilton.com.ng/images/share/W2W/11/image_${index + 1}.png`;
+  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/west-to-west-collection-XI.html?query=${index + 1}`;
   const twitterImage = ogImage;
   const canonicalUrl = ogUrl;
   const redirectUrl = ogUrl;
   
   const htmlContent = htmlTemplate(
-    `${title} - West to West Collection X`,
+    `${title} - West to West Collection XI`,
     description,
     keywords,
     ogImage,
