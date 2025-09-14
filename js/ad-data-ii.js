@@ -79,12 +79,12 @@ Coke Films: The Last Sips of Summer<br><br>Chapter III by <b>Q Guajardo </b>`,
 },
 {
   type: 'video',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_27.mp4',
-  duration: 11,
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_33.mp4',
+  duration: 22,
   cta: {
-    message: `L’Âme du Voyage. <br><br>Embark on a reflective journey to the ancient Xuankong Hanging Temple with iconic Louis Vuitton trunks and travel companions to carry adventurers beyond the horizon.`,
-    link: '#',
-    buttonText: 'Explore'
+    message: `World Expo 2025 Osaka Kansai. <br><br>Returning to the World Exposition to celebrate France Day, Louis Vuitton presents a space centered around Rodin’s sculpture, The Cathedral, and designed by architect Shohei Shigematsu (OMA). <br>Here, the House revisits its history in an ode to craftsmanship, savoir-faire, and the enduring dialogue between France and Japan. <br><br>Visit the installation until October 13.`,
+    link: 'https://eu.louisvuitton.com/eng-e1/magazine/articles/osaka-2025?utm_source=instagram&utm_medium=social&utm_campaign=WORLDEXPO2025_IG_WW_ENG_AW_14042024_08042026_CORP_EVENT',
+    buttonText: 'Discover more'
   },
 },
 {
