@@ -1,4 +1,4 @@
-// ad-data.js
+// ad-data-ii.js
 window.adData = [
 {
   type: 'video',
@@ -106,6 +106,16 @@ Coke Films: The Last Sips of Summer<br><br>Chapter III by <b>Q Guajardo </b>`,
     link: 'https://skims.com/en-ng/collections/fall-shop?utm_source=instagram-story&utm_medium=ownedsocial&utm_campaign=fallshop&fbclid=PAZXh0bgNhZW0CMTEAAaf0KQwM97wbX-CgFAx9gasPd7eTbgoC8QQNQLhsp5ggqqpj8vwSyz6qH7GqlQ_aem_VIiPYw5RooMe0RQ6t-FiGg',
     buttonText: 'Shop SKIMS FALL WARDROBE'
   },
+},
+{
+  type: 'video',
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_34.mp4',
+  duration: 23,
+  cta: {
+    message: `Introducing Khy x HYDRA, dropping 9/18 on khy.com`,
+    link: '#',
+    buttonText: 'Learn More'
+  }
 },
 {
   type: 'video',
