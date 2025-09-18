@@ -72,6 +72,7 @@ function getAlbumForId(id) {
   const jsonUrl = `${baseUrl}/json/${album}/${trackId}.json`;
   const audioUrl = `${baseUrl}/audio/${album}/${trackId}.mp3`;
   const coverUrl = `${baseUrl}/cover/${album}/${trackId}.jpg`;
+  const pageUrl = `https://www.frithhilton.com.ng/pages/freshPlayer.html?track=${trackId}`;
 
   try {
     const response = await fetch(jsonUrl);
@@ -81,17 +82,17 @@ function getAlbumForId(id) {
     }
     const song = await response.json();
 
-    // Wait for document.body or document.head to be available (short poll for early injection)
+    // Wait for document.head or document.body to be available (short poll for early injection)
     let attempts = 0;
     const maxAttempts = 50; // Timeout after ~5s (100ms interval)
     const interval = setInterval(() => {
       attempts++;
-      if (document.body || document.head) {
+      if (document.head || document.body) {
         clearInterval(interval);
-        injectContent(song, albumData, coverUrl, audioUrl);
+        injectContent(song, albumData, coverUrl, audioUrl, pageUrl);
       } else if (attempts >= maxAttempts) {
         clearInterval(interval);
-        console.log('Timeout waiting for document.body or document.head');
+        console.log('Timeout waiting for document.head or document.body');
       }
     }, 100);
   } catch (error) {
@@ -100,7 +101,52 @@ function getAlbumForId(id) {
 })();
 
 // Injection function
-function injectContent(song, albumData, coverUrl, audioUrl) {
+function injectContent(song, albumData, coverUrl, audioUrl, pageUrl) {
+  // Inject meta tags
+  const metaTags = [
+    { name: 'charset', value: 'utf-8' },
+    { name: 'http-equiv', value: 'X-UA-Compatible', content: 'IE=edge' },
+    { name: 'author', content: 'Frith Hilton' },
+    { name: 'description', content: `Listen to ${song.song_title} by Frith Hilton from ${albumData.name}, released ${song.release_date}.` },
+    { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+    { name: 'og:url', content: pageUrl },
+    { name: 'og:type', content: 'music.song' },
+    { name: 'og:title', content: `${song.song_title} by Frith Hilton - ${albumData.name}` },
+    { name: 'og:description', content: `Listen to ${song.song_title} by Frith Hilton from ${albumData.name}, released ${song.release_date}.` },
+    { name: 'og:image', content: coverUrl },
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: `${song.song_title} by Frith Hilton - ${albumData.name}` },
+    { name: 'twitter:description', content: `Listen to ${song.song_title} by Frith Hilton from ${albumData.name}, released ${song.release_date}.` },
+    { name: 'twitter:image', content: coverUrl }
+  ];
+
+  metaTags.forEach(tag => {
+    if (tag.name === 'charset') {
+      const meta = document.createElement('meta');
+      meta.setAttribute('charset', tag.value);
+      document.head.appendChild(meta);
+    } else if (tag.name === 'http-equiv') {
+      const meta = document.createElement('meta');
+      meta.setAttribute('http-equiv', tag.value);
+      meta.setAttribute('content', tag.content);
+      document.head.appendChild(meta);
+    } else {
+      const meta = document.createElement('meta');
+      meta.setAttribute(tag.name.startsWith('og:') || tag.name.startsWith('twitter:') ? 'property' : 'name', tag.name);
+      meta.setAttribute('content', tag.content);
+      document.head.appendChild(meta);
+    }
+  });
+
+  // Inject canonical link
+  const canonicalLink = document.createElement('link');
+  canonicalLink.rel = 'canonical';
+  canonicalLink.href = pageUrl;
+  document.head.appendChild(canonicalLink);
+
+  // Inject title
+  document.title = `${song.song_title} by Frith Hilton - ${albumData.name}`;
+
   // Create container for injected content (hidden for humans via CSS)
   const container = document.createElement('div');
   container.id = 'seo-content';
@@ -154,7 +200,7 @@ function injectContent(song, albumData, coverUrl, audioUrl) {
     "duration": `PT${Math.floor(song.duration / 60)}M${song.duration % 60}S`,
     "datePublished": song.release_date,
     "image": coverUrl,
-    "url": window.location.href,
+    "url": pageUrl,
     "inAlbum": {
       "@type": "MusicAlbum",
       "name": albumData.name,
@@ -293,9 +339,8 @@ function injectContent(song, albumData, coverUrl, audioUrl) {
   }, null, 2);
   document.head.appendChild(schemaScript);
 
-  // Inject title update (for better SEO)
-  document.title = `${song.song_title} by Frith Hilton`;
-
   // Append container to body
-  document.body.appendChild(container);
+  if (document.body) {
+    document.body.appendChild(container);
+  }
 }
