@@ -108,8 +108,8 @@ Coke Films: The Last Sips of Summer<br><br>Chapter III by <b>Q Guajardo </b>`,
   },
 },
 {
-  type: 'video',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_35.mp4',
+  type: 'image',
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_35.gif',
   duration: 8,
   cta: {
     message: `Kylie Cosmetics dessert in a mist.  <br>coming 9.23!  <br>🍫 sweet éclair 🌸 vanilla`,
