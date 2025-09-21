@@ -109,10 +109,10 @@ Coke Films: The Last Sips of Summer<br><br>Chapter III by <b>Q Guajardo </b>`,
 },
 {
   type: 'video',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_34.mp4',
-  duration: 23,
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_35.mp4',
+  duration: 8,
   cta: {
-    message: `Introducing Khy x HYDRA, dropping 9/18 on khy.com`,
+    message: `Kylie Cosmetics dessert in a mist.  <br>coming 9.23!  <br>🍫 sweet éclair 🌸 vanilla`,
     link: '#',
     buttonText: 'Learn More'
   }
