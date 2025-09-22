@@ -2,18 +2,18 @@
 window.adData = [
 {
   type: 'video',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/aug/ad_1.mp4',
-  duration: 15,
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_46.mp4',
+  duration: 32,
   cta: {
-    message: `Add Log Off, Luxplore, and OOOasis to your vocabulary - AutoCamp is redefining the way you vacay.<br><br>We’re the nature escape you need, with the boutique experience you want - explore AutoCamp’s iconic outdoor locations all season long.`,
+    message: `Wake up slow, wander far, unwind under the Sequoia sky.⁠<br><br>Your adventure starts at the click of the button.`,
     link: 'https://autocamp.com/',
-    buttonText: 'Explore Now'
+    buttonText: 'Adventure!'
   }
 },
 {
   type: 'video',
   url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_26.mp4',
-  duration: 30,
+  duration: 15,
   cta: {
     message: `Built by science. Certified by sweat.<br><br>Gatorade`,
     link: '#',
@@ -22,10 +22,13 @@ window.adData = [
 },
 {
   type: 'video',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/aug/ad_6.mp4',
-  duration: 15,
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_43.mp4',
+  duration: 88,
   cta: {
-    message: `The closest thing I‘ ve seen to a representation of a painting on a digital medium.“<br><br>From painting to film, Basim Magdy’ s art journey has always involved pushing boundaries. Hear his story - and explore the new possibilities of art today ✨.`,
+    message: `“Innovation is an act of love.”<br>
+Samsung CDO Mauro Porcini reminded us: True innovation starts with empathy.<br>
+“Spend as much time with people as with technology.”<br><br>
+Let’s build with care, lead with purpose, and design for humanity.`,
     link: '#',
     buttonText: 'Explore Now'
   }
@@ -33,7 +36,7 @@ window.adData = [
 {
   type: 'video',
   url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_29.mp4',
-  duration: 46,
+  duration: 30,
   cta: {
     message: `Days like this write themselves into our memory, forever.
 <br><br>
@@ -45,7 +48,7 @@ Coke Films: The Last Sips of Summer<br><br>Chapter I by <b>Katherine Goguen</b>`
 {
   type: 'video',
   url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_31.mp4',
-  duration: 58,
+  duration: 30,
   cta: {
     message: `The making of campfire stories in real time.
 <br><br>
@@ -57,7 +60,7 @@ Coke Films: The Last Sips of Summer<br><br>Chapter II by <b>Orland Jensen</b>`,
 {
   type: 'video',
   url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_32.mp4',
-  duration: 68,
+  duration: 40,
   cta: {
     message: `See you, summer. We’ll replay these days until we meet again.
 <br><br>
@@ -69,42 +72,42 @@ Coke Films: The Last Sips of Summer<br><br>Chapter III by <b>Q Guajardo </b>`,
 
 {
   type: 'video',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/aug/ad_2.mp4',
-  duration: 30,
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_45.mp4',
+  duration: 14,
   cta: {
-    message: `This one is close to my heart: our Coco Ring now gives back. 💍 Through our partnership with @TheoGraceOfficial and @AnimalHaven, 10% of proceeds will support their incredible work rescuing and rehoming animals in need. 🐾 A 💍 that not just looks good but does good too. 🩵`,
+    message: `The Delina heart bracelet, keep them close always. 👧🏼✨`,
     link: 'https://www.theograce.com/',
     buttonText: 'Get Yours!'
   }
 },
 {
   type: 'video',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_33.mp4',
-  duration: 22,
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_44.mp4',
+  duration: 25,
   cta: {
-    message: `World Expo 2025 Osaka Kansai. <br><br>Returning to the World Exposition to celebrate France Day, Louis Vuitton presents a space centered around Rodin’s sculpture, The Cathedral, and designed by architect Shohei Shigematsu (OMA). <br>Here, the House revisits its history in an ode to craftsmanship, savoir-faire, and the enduring dialogue between France and Japan. <br><br>Visit the installation until October 13.`,
+    message: `Between shadow and light. Ombre Nomade moves with the depth of desert horizons, at once sensual and untouchable. Swirls of oud wood linger, leaving a signature trail of rare strength.`,
     link: 'https://eu.louisvuitton.com/eng-e1/magazine/articles/osaka-2025?utm_source=instagram&utm_medium=social&utm_campaign=WORLDEXPO2025_IG_WW_ENG_AW_14042024_08042026_CORP_EVENT',
     buttonText: 'Discover more'
   },
 },
 {
   type: 'image',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_30.gif',
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_40.gif',
   duration: 10,
   cta: {
-    message: `Soft Smoothing Seamless. Back by popular demand—our buttery-smooth staples, reinvented with new built-in bust support and a chic fall color palette.`,
+    message: `SKIMS Ultimate: the most natural shape, lift and fullness you’ve ever experienced from a push-up solution.`,
     link: 'https://skims.com',
     buttonText: 'Shop SKIMS'
   },
 },
 {
   type: 'image',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_19.gif',
-  duration: 5,
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_39.gif',
+  duration: 10,
   cta: {
-    message: `Elevated layers, iconic pieces—everything you need for fall is here`,
-    link: 'https://skims.com/en-ng/collections/fall-shop?utm_source=instagram-story&utm_medium=ownedsocial&utm_campaign=fallshop&fbclid=PAZXh0bgNhZW0CMTEAAaf0KQwM97wbX-CgFAx9gasPd7eTbgoC8QQNQLhsp5ggqqpj8vwSyz6qH7GqlQ_aem_VIiPYw5RooMe0RQ6t-FiGg',
-    buttonText: 'Shop SKIMS FALL WARDROBE'
+    message: `Luxury Knits. Meet fall in a brand new sweater collection of the softest premium cashmere and coziest layers in timeless silhouettes designed to be worn forever.`,
+    link: 'https://skims.com',
+    buttonText: 'Shop SKIMS'
   },
 },
 {
@@ -119,17 +122,39 @@ Coke Films: The Last Sips of Summer<br><br>Chapter III by <b>Q Guajardo </b>`,
 },
 {
   type: 'video',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_28.mp4',
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_36.mp4',
   duration: 15,
   cta: {
-    message: `Two thoughts, you’re out. #JustDoIt`,
+    message: `Don’t just return the shot, dominate the point. <br><br> #JustDoIt`,
     link: '#',
     buttonText: 'Learn More'
   }
 },
 {
   type: 'video',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_25.mp4',
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_37.mp4',
+  duration: 60,
+  cta: {
+    message: `A’ja Wilson just made history by becoming the league’s first-ever four-time MVP.
+<br>
+And you said this wasn’t her year.`,
+    link: '#',
+    buttonText: 'Learn More'
+  }
+},
+{
+  type: 'video',
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_38.mp4',
+  duration: 15,
+  cta: {
+    message: `If they underestimate, overdeliver. <br><b>#JustDoIt</b>`,
+    link: '#',
+    buttonText: 'Learn More'
+  }
+},
+{
+  type: 'video',
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_42.mp4',
   duration: 16,
   cta: {
     message: `Turn it up. Light it up. Unleash the beat anywhere with the Sound Tower. Portable, splashproof, and up to 18 hours of playtime. 🪩`,
