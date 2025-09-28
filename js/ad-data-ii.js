@@ -115,19 +115,19 @@ Coke Films: The Last Sips of Summer<br><br>Chapter III by <b>Q Guajardo </b>`,
   url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_35.gif',
   duration: 8,
   cta: {
-    message: `Kylie Cosmetics dessert in a mist.  <br>coming 9.23!  <br>🍫 sweet éclair 🌸 vanilla`,
-    link: '#',
-    buttonText: 'Learn More'
+    message: `Kylie Cosmetics dessert in a mist.  <br>🍫 sweet éclair 🌸 vanilla`,
+    link: 'https://kyliecosmetics.com/',
+    buttonText: 'Shop'
   }
 },
 {
   type: 'video',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_36.mp4',
-  duration: 15,
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_47.mp4',
+  duration: 46,
   cta: {
-    message: `Don’t just return the shot, dominate the point. <br><br> #JustDoIt`,
-    link: '#',
-    buttonText: 'Learn More'
+    message: `Designed to sculpt. Engineered to perform.<br><br>A new brand for those who refuse to compromise.`,
+    link: 'https://skims.com/en-ng/collections/nikeskims',
+    buttonText: 'Shop'
   }
 },
 {
