@@ -82,11 +82,11 @@ Coke Films: The Last Sips of Summer<br><br>Chapter III by <b>Q Guajardo </b>`,
 },
 {
   type: 'video',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_44.mp4',
-  duration: 25,
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_48.mp4',
+  duration: 18,
   cta: {
-    message: `Between shadow and light. Ombre Nomade moves with the depth of desert horizons, at once sensual and untouchable. Swirls of oud wood linger, leaving a signature trail of rare strength.`,
-    link: 'https://eu.louisvuitton.com/eng-e1/magazine/articles/osaka-2025?utm_source=instagram&utm_medium=social&utm_campaign=WORLDEXPO2025_IG_WW_ENG_AW_14042024_08042026_CORP_EVENT',
+    message: `Louis Vuitton presents a voyage through redefined realms for the Spring-Summer 2026 Show by Nicolas Ghesquière at the Musée du Louvre. Watch live on September 30th at 12pm CEST on Instagram or at louisvuitton.com`,
+    link: '#',
     buttonText: 'Discover more'
   },
 },
