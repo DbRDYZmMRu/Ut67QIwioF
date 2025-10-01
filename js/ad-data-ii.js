@@ -115,9 +115,19 @@ Coke Films: The Last Sips of Summer<br><br>Chapter III by <b>Q Guajardo </b>`,
   url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_35.gif',
   duration: 8,
   cta: {
-    message: `Kylie Cosmetics dessert in a mist.  <br>🍫 sweet éclair 🌸 vanilla`,
+    message: `Kylie Cosmetics dessert in a mist.  <br>🍫 sweet éclair 🌸 vanilla`,
     link: 'https://kyliecosmetics.com/',
     buttonText: 'Shop'
+  }
+},
+{
+  type: 'video',
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_1.mp4',
+  duration: 32,
+  cta: {
+    message: `Emotional Support Lip Balm <br><br> Meet the most hydrating lip balm you've ever had.<br>Finally, lip barrier care that hydrates & conditions with real skincare ingredients in a non-sticky, buttery smooth balm—all in an acne-safe formula so it won’t break you out.`,
+    link: 'https://www.personalday.com/collections/shop-all/products/emotional-support-lip-balm?fbclid=PAZXh0bgNhZW0CMTEAAadS-1QYIqX0_ITJw0M2d0o9gf6UJ3o78Ixs4Iem_2CGQ6znICCECrWuvAEdfw_aem_v-ufJ-YRIJ61cw6Ahlhzqw',
+    buttonText: 'Shop Personal Day '
   }
 },
 {
