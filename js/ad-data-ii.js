@@ -134,7 +134,7 @@ window.adData = [
   },
   {
     type: 'image',
-    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_12.gif',
+    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_12.jpg',
     duration: 8,
     cta: {
       message: `Kylie wearing the Short Trench Coat in black.`,
