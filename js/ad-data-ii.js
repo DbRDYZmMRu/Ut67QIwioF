@@ -167,7 +167,7 @@ window.adData = [
     url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_10.mp4',
     duration: 33,
     cta: {
-      message: `The 40 k Club.Only One Player. <br>The LeBron XXIII‘ Uncharted’ is more than a milestone.It’ s about pushing the boundaries of greatness.<br>Arrived in SNKRS in select locations 10.3.`,
+      message: `The 40 k Club. <br> Only One Player. <br><br>The LeBron XXIII‘ Uncharted’ is more than a milestone.It’ s about pushing the boundaries of greatness.<br>Arrived in SNKRS in select locations 10.3.`,
       link: '#',
       buttonText: 'Learn More'
     }
