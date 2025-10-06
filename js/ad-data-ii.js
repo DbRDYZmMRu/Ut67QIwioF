@@ -2,10 +2,10 @@
 window.adData = [
 {
   type: 'video',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_46.mp4',
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_6.mp4',
   duration: 32,
   cta: {
-    message: `Wake up slow, wander far, unwind under the Sequoia sky.⁠<br><br>Your adventure starts at the click of the button.`,
+    message: `Just the two of us, wandering where the leaves lead.⁠<br><br>Your adventure starts at the click of the button.`,
     link: 'https://autocamp.com/',
     buttonText: 'Adventure!'
   }
@@ -22,13 +22,10 @@ window.adData = [
 },
 {
   type: 'video',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_43.mp4',
-  duration: 88,
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_7.mp4',
+  duration: 92,
   cta: {
-    message: `“Innovation is an act of love.”<br>
-Samsung CDO Mauro Porcini reminded us: True innovation starts with empathy.<br>
-“Spend as much time with people as with technology.”<br><br>
-Let’s build with care, lead with purpose, and design for humanity.`,
+    message: `A screen that moves with you, so life never pauses.<br> With an integrated kick-stand and a built-in battery, set it down anywhere. While Samsung Art Store and Vision AI curates your world:<br>art that transforms your space, entertainment that matches your mood—all without you having to ask. <br> From corner to corner, it goes where you go. Every control feels effortless.<br><br> Move it, Kick it, Feel it, Play it. `,
     link: '#',
     buttonText: 'Explore Now'
   }
@@ -36,11 +33,9 @@ Let’s build with care, lead with purpose, and design for humanity.`,
 {
   type: 'video',
   url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_29.mp4',
-  duration: 30,
+  duration: 15,
   cta: {
-    message: `Days like this write themselves into our memory, forever.
-<br><br>
-Coke Films: The Last Sips of Summer<br><br>Chapter I by <b>Katherine Goguen</b>`,
+    message: `Days like this write themselves into our memory, forever.<br><br> Coke Films: The Last Sips of Summer<br><br>Chapter I by <b>Katherine Goguen</b>`,
     link: '#',
     buttonText: 'Learn More'
   }
@@ -48,11 +43,10 @@ Coke Films: The Last Sips of Summer<br><br>Chapter I by <b>Katherine Goguen</b>`
 {
   type: 'video',
   url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_31.mp4',
-  duration: 30,
+  duration: 15,
   cta: {
     message: `The making of campfire stories in real time.
-<br><br>
-Coke Films: The Last Sips of Summer<br><br>Chapter II by <b>Orland Jensen</b>`,
+<br><br> Coke Films: The Last Sips of Summer<br><br>Chapter II by <b>Orland Jensen</b>`,
     link: '#',
     buttonText: 'Learn More'
   }
@@ -60,14 +54,32 @@ Coke Films: The Last Sips of Summer<br><br>Chapter II by <b>Orland Jensen</b>`,
 {
   type: 'video',
   url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_32.mp4',
-  duration: 40,
+  duration: 20,
   cta: {
-    message: `See you, summer. We’ll replay these days until we meet again.
-<br><br>
-Coke Films: The Last Sips of Summer<br><br>Chapter III by <b>Q Guajardo </b>`,
+    message: `See you, summer. We’ll replay these days until we meet again. <br><br> .Coke Films: The Last Sips of Summer<br><br>Chapter III by <b>Q Guajardo </b>`,
     link: '#',
     buttonText: 'Learn More'
   }
+},
+{
+  type: 'video',
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_2.mp4',
+  duration: 4,
+  cta: {
+    message: `Chuck Staples has a nice ring to it. Stay tuned. <br><br> <b>Converse</b>`,
+    link: '#',
+    buttonText: 'Learn More'
+  }
+},
+{
+  type: 'image',
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_3.gif',
+  duration: 6,
+  cta: {
+    message: `Showgirling`,
+    link: '#',
+    buttonText: 'Learn More'
+  },
 },
 
 {
@@ -82,12 +94,12 @@ Coke Films: The Last Sips of Summer<br><br>Chapter III by <b>Q Guajardo </b>`,
 },
 {
   type: 'video',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_48.mp4',
-  duration: 18,
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_9.mp4',
+  duration: 45,
   cta: {
-    message: `Louis Vuitton presents a voyage through redefined realms for the Spring-Summer 2026 Show by Nicolas Ghesquière at the Musée du Louvre. Watch live on September 30th at 12pm CEST on Instagram or at louisvuitton.com`,
+    message: `Home is where I want to be — Nicolas Ghesquière <br><br>Louis Vuitton Runway Reflections<br>Stay tuned for Chapter 3 of Runway Reflections — presented by Tuba. <br>Exclusively on YouTube, October 29th.`,
     link: '#',
-    buttonText: 'Discover more'
+    buttonText: 'Learn More'
   },
 },
 {
@@ -142,32 +154,30 @@ Coke Films: The Last Sips of Summer<br><br>Chapter III by <b>Q Guajardo </b>`,
 },
 {
   type: 'video',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_37.mp4',
-  duration: 60,
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_10.mp4',
+  duration: 33,
   cta: {
-    message: `A’ja Wilson just made history by becoming the league’s first-ever four-time MVP.
-<br>
-And you said this wasn’t her year.`,
+    message: `The 40 k Club.Only One Player. <br>The LeBron XXIII‘ Uncharted’ is more than a milestone.It’ s about pushing the boundaries of greatness.<br>Arrived in SNKRS in select locations 10.3.`,
     link: '#',
     buttonText: 'Learn More'
   }
 },
 {
   type: 'video',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_38.mp4',
-  duration: 15,
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_4.mp4',
+  duration: 25,
   cta: {
-    message: `If they underestimate, overdeliver. <br><b>#JustDoIt</b>`,
+    message: `This is more than a prototype. <br>This is an all-new sensation in running.<br>Be the first to experience zero gravity running with the limited edition Nike Vomero Premium “Proto” dropped October 2nd.`,
     link: '#',
     buttonText: 'Learn More'
   }
 },
 {
   type: 'video',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_42.mp4',
-  duration: 16,
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_8.mp4',
+  duration: 39,
   cta: {
-    message: `Turn it up. Light it up. Unleash the beat anywhere with the Sound Tower. Portable, splashproof, and up to 18 hours of playtime. 🪩`,
+    message: `Ever wondered who was behind the hotdog with no sausage ? 🌭<br>Every fake gets found out eventually.<br>Not all QLED are equal.Choose the real QLED.`,
     link: '#',
     buttonText: 'Learn More'
   }
