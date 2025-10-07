@@ -1,0 +1,496 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "But, I think you love me",
+      "startTime": 2.817522,
+      "endTime": 5.338951,
+      "words": [
+        {
+          "id": 1,
+          "text": "But,",
+          "startTime": 2.817522,
+          "endTime": 3.878859
+        },
+        {
+          "id": 2,
+          "text": "I",
+          "startTime": 3.878859,
+          "endTime": 4.012258
+        },
+        {
+          "id": 3,
+          "text": "think",
+          "startTime": 4.012258,
+          "endTime": 4.275779
+        },
+        {
+          "id": 4,
+          "text": "you",
+          "startTime": 4.275779,
+          "endTime": 4.544266
+        },
+        {
+          "id": 5,
+          "text": "love",
+          "startTime": 4.544266,
+          "endTime": 4.809757
+        },
+        {
+          "id": 6,
+          "text": "me",
+          "startTime": 4.809757,
+          "endTime": 5.338951
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "oven I'm in, a sweet berry",
+      "startTime": 5.338951,
+      "endTime": 9.192319,
+      "words": [
+        {
+          "id": 7,
+          "text": "oven",
+          "startTime": 5.338951,
+          "endTime": 6.666384
+        },
+        {
+          "id": 8,
+          "text": "I'm",
+          "startTime": 6.666384,
+          "endTime": 6.800031
+        },
+        {
+          "id": 9,
+          "text": "in,",
+          "startTime": 6.800031,
+          "endTime": 7.333638
+        },
+        {
+          "id": 10,
+          "text": "a",
+          "startTime": 7.333638,
+          "endTime": 7.996668
+        },
+        {
+          "id": 11,
+          "text": "sweet",
+          "startTime": 7.996668,
+          "endTime": 8.392248
+        },
+        {
+          "id": 12,
+          "text": "berry",
+          "startTime": 8.392248,
+          "endTime": 9.192319
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "a spread-eagle breadstick",
+      "startTime": 9.192319,
+      "endTime": 12.380062,
+      "words": [
+        {
+          "id": 13,
+          "text": "a",
+          "startTime": 9.192319,
+          "endTime": 10.253986
+        },
+        {
+          "id": 14,
+          "text": "spread-eagle",
+          "startTime": 10.253986,
+          "endTime": 11.182121
+        },
+        {
+          "id": 15,
+          "text": "breadstick",
+          "startTime": 11.182121,
+          "endTime": 12.380062
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "but you soon cut in, slicing",
+      "startTime": 12.380062,
+      "endTime": 16.099594,
+      "words": [
+        {
+          "id": 16,
+          "text": "but",
+          "startTime": 12.380062,
+          "endTime": 13.308488
+        },
+        {
+          "id": 17,
+          "text": "you",
+          "startTime": 13.308488,
+          "endTime": 13.575363
+        },
+        {
+          "id": 18,
+          "text": "soon",
+          "startTime": 13.575363,
+          "endTime": 13.706817
+        },
+        {
+          "id": 19,
+          "text": "cut",
+          "startTime": 13.706817,
+          "endTime": 14.106276
+        },
+        {
+          "id": 20,
+          "text": "in,",
+          "startTime": 14.106276,
+          "endTime": 14.635864
+        },
+        {
+          "id": 21,
+          "text": "slicing",
+          "startTime": 14.635864,
+          "endTime": 16.099594
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "when you mean: I'm ready",
+      "startTime": 16.099594,
+      "endTime": 19.28157,
+      "words": [
+        {
+          "id": 22,
+          "text": "when",
+          "startTime": 16.099594,
+          "endTime": 17.161309
+        },
+        {
+          "id": 23,
+          "text": "you",
+          "startTime": 17.161309,
+          "endTime": 17.292418
+        },
+        {
+          "id": 24,
+          "text": "mean:",
+          "startTime": 17.292418,
+          "endTime": 17.827139
+        },
+        {
+          "id": 25,
+          "text": "I'm",
+          "startTime": 17.827139,
+          "endTime": 18.489503
+        },
+        {
+          "id": 26,
+          "text": "ready",
+          "startTime": 18.489503,
+          "endTime": 19.28157
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "so, it's a centre of memory",
+      "startTime": 19.28157,
+      "endTime": 22.472082,
+      "words": [
+        {
+          "id": 27,
+          "text": "so,",
+          "startTime": 19.28157,
+          "endTime": 20.481476
+        },
+        {
+          "id": 28,
+          "text": "it's",
+          "startTime": 20.481476,
+          "endTime": 20.745855
+        },
+        {
+          "id": 29,
+          "text": "a",
+          "startTime": 20.745855,
+          "endTime": 20.877735
+        },
+        {
+          "id": 30,
+          "text": "centre",
+          "startTime": 20.877735,
+          "endTime": 21.413126
+        },
+        {
+          "id": 31,
+          "text": "of",
+          "startTime": 21.413126,
+          "endTime": 21.676855
+        },
+        {
+          "id": 32,
+          "text": "memory",
+          "startTime": 21.676855,
+          "endTime": 22.472082
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "lent in this sense of beauty",
+      "startTime": 22.472082,
+      "endTime": 26.321805,
+      "words": [
+        {
+          "id": 33,
+          "text": "lent",
+          "startTime": 22.472082,
+          "endTime": 23.535617
+        },
+        {
+          "id": 34,
+          "text": "in",
+          "startTime": 23.535617,
+          "endTime": 24.19976
+        },
+        {
+          "id": 35,
+          "text": "this",
+          "startTime": 24.19976,
+          "endTime": 24.464975
+        },
+        {
+          "id": 36,
+          "text": "sense",
+          "startTime": 24.464975,
+          "endTime": 24.996937
+        },
+        {
+          "id": 37,
+          "text": "of",
+          "startTime": 24.996937,
+          "endTime": 25.26089
+        },
+        {
+          "id": 38,
+          "text": "beauty",
+          "startTime": 25.26089,
+          "endTime": 26.321805
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "I'm whetting that beginning",
+      "startTime": 26.321805,
+      "endTime": 29.378577,
+      "words": [
+        {
+          "id": 39,
+          "text": "I'm",
+          "startTime": 26.321805,
+          "endTime": 27.651162
+        },
+        {
+          "id": 40,
+          "text": "whetting",
+          "startTime": 27.651162,
+          "endTime": 28.179166
+        },
+        {
+          "id": 41,
+          "text": "that",
+          "startTime": 28.179166,
+          "endTime": 28.450216
+        },
+        {
+          "id": 42,
+          "text": "beginning",
+          "startTime": 28.450216,
+          "endTime": 29.378577
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "where I come undone in few",
+      "startTime": 29.378577,
+      "endTime": 32.698194,
+      "words": [
+        {
+          "id": 43,
+          "text": "where",
+          "startTime": 29.378577,
+          "endTime": 30.572207
+        },
+        {
+          "id": 44,
+          "text": "I",
+          "startTime": 30.572207,
+          "endTime": 30.839639
+        },
+        {
+          "id": 45,
+          "text": "come",
+          "startTime": 30.839639,
+          "endTime": 31.104661
+        },
+        {
+          "id": 46,
+          "text": "undone",
+          "startTime": 31.104661,
+          "endTime": 31.769853
+        },
+        {
+          "id": 47,
+          "text": "in",
+          "startTime": 31.769853,
+          "endTime": 31.903387
+        },
+        {
+          "id": 48,
+          "text": "few",
+          "startTime": 31.903387,
+          "endTime": 32.698194
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "when you see my beaut pieces",
+      "startTime": 32.698194,
+      "endTime": 36.011538,
+      "words": [
+        {
+          "id": 49,
+          "text": "when",
+          "startTime": 32.698194,
+          "endTime": 33.761596
+        },
+        {
+          "id": 50,
+          "text": "you",
+          "startTime": 33.761596,
+          "endTime": 34.025985
+        },
+        {
+          "id": 51,
+          "text": "see",
+          "startTime": 34.025985,
+          "endTime": 34.29191
+        },
+        {
+          "id": 52,
+          "text": "my",
+          "startTime": 34.29191,
+          "endTime": 34.692015
+        },
+        {
+          "id": 53,
+          "text": "beaut",
+          "startTime": 34.692015,
+          "endTime": 35.087298
+        },
+        {
+          "id": 54,
+          "text": "pieces",
+          "startTime": 35.087298,
+          "endTime": 36.011538
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "to take them with you, running",
+      "startTime": 36.011538,
+      "endTime": 40.001218,
+      "words": [
+        {
+          "id": 55,
+          "text": "to",
+          "startTime": 36.011538,
+          "endTime": 37.214089
+        },
+        {
+          "id": 56,
+          "text": "take",
+          "startTime": 37.214089,
+          "endTime": 37.349551
+        },
+        {
+          "id": 57,
+          "text": "them",
+          "startTime": 37.349551,
+          "endTime": 37.613269
+        },
+        {
+          "id": 58,
+          "text": "with",
+          "startTime": 37.613269,
+          "endTime": 37.876569
+        },
+        {
+          "id": 59,
+          "text": "you,",
+          "startTime": 37.876569,
+          "endTime": 38.544152
+        },
+        {
+          "id": 60,
+          "text": "running",
+          "startTime": 38.544152,
+          "endTime": 40.001218
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "as you ever do, my tumbleweed. ",
+      "startTime": 40.001218,
+      "endTime": 45.058972,
+      "words": [
+        {
+          "id": 61,
+          "text": "as",
+          "startTime": 40.001218,
+          "endTime": 40.931693
+        },
+        {
+          "id": 62,
+          "text": "you",
+          "startTime": 40.931693,
+          "endTime": 41.197986
+        },
+        {
+          "id": 63,
+          "text": "ever",
+          "startTime": 41.197986,
+          "endTime": 41.462625
+        },
+        {
+          "id": 64,
+          "text": "do,",
+          "startTime": 41.462625,
+          "endTime": 42.126858
+        },
+        {
+          "id": 65,
+          "text": "my",
+          "startTime": 42.126858,
+          "endTime": 43.058972
+        },
+        {
+          "id": 66,
+          "text": "tumbleweed.",
+          "startTime": 43.058972,
+          "endTime": 45.058972
+        }
+      ]
+    }
+  ]
+}

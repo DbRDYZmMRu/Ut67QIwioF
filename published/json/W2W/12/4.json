@@ -1,0 +1,464 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Oh spaces between whims repel",
+      "startTime": 2.440549,
+      "endTime": 6.826281,
+      "words": [
+        {
+          "id": 1,
+          "text": "Oh",
+          "startTime": 2.440549,
+          "endTime": 3.902494
+        },
+        {
+          "id": 2,
+          "text": "spaces",
+          "startTime": 3.902494,
+          "endTime": 4.832189
+        },
+        {
+          "id": 3,
+          "text": "between",
+          "startTime": 4.832189,
+          "endTime": 5.23159
+        },
+        {
+          "id": 4,
+          "text": "whims",
+          "startTime": 5.23159,
+          "endTime": 5.760233
+        },
+        {
+          "id": 5,
+          "text": "repel",
+          "startTime": 5.760233,
+          "endTime": 6.826281
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "so staying put presents the best",
+      "startTime": 6.826281,
+      "endTime": 11.072287,
+      "words": [
+        {
+          "id": 6,
+          "text": "so",
+          "startTime": 6.826281,
+          "endTime": 8.150814
+        },
+        {
+          "id": 7,
+          "text": "staying",
+          "startTime": 8.150814,
+          "endTime": 8.548875
+        },
+        {
+          "id": 8,
+          "text": "put",
+          "startTime": 8.548875,
+          "endTime": 8.947014
+        },
+        {
+          "id": 9,
+          "text": "presents",
+          "startTime": 8.947014,
+          "endTime": 10.009932
+        },
+        {
+          "id": 10,
+          "text": "the",
+          "startTime": 10.009932,
+          "endTime": 10.145117
+        },
+        {
+          "id": 11,
+          "text": "best",
+          "startTime": 10.145117,
+          "endTime": 11.072287
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "as if the worst pretends to end",
+      "startTime": 11.072287,
+      "endTime": 15.323544,
+      "words": [
+        {
+          "id": 12,
+          "text": "as",
+          "startTime": 11.072287,
+          "endTime": 12.002302
+        },
+        {
+          "id": 13,
+          "text": "if",
+          "startTime": 12.002302,
+          "endTime": 12.267458
+        },
+        {
+          "id": 14,
+          "text": "the",
+          "startTime": 12.267458,
+          "endTime": 12.53452
+        },
+        {
+          "id": 15,
+          "text": "worst",
+          "startTime": 12.53452,
+          "endTime": 13.067335
+        },
+        {
+          "id": 16,
+          "text": "pretends",
+          "startTime": 13.067335,
+          "endTime": 14.132496
+        },
+        {
+          "id": 17,
+          "text": "to",
+          "startTime": 14.132496,
+          "endTime": 14.391513
+        },
+        {
+          "id": 18,
+          "text": "end",
+          "startTime": 14.391513,
+          "endTime": 15.323544
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "with nowhere now the sentence",
+      "startTime": 15.323544,
+      "endTime": 18.778719,
+      "words": [
+        {
+          "id": 19,
+          "text": "with",
+          "startTime": 15.323544,
+          "endTime": 16.65457
+        },
+        {
+          "id": 20,
+          "text": "nowhere",
+          "startTime": 16.65457,
+          "endTime": 17.182568
+        },
+        {
+          "id": 21,
+          "text": "now",
+          "startTime": 17.182568,
+          "endTime": 17.447352
+        },
+        {
+          "id": 22,
+          "text": "the",
+          "startTime": 17.447352,
+          "endTime": 17.714657
+        },
+        {
+          "id": 23,
+          "text": "sentence",
+          "startTime": 17.714657,
+          "endTime": 18.778719
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "doubts withhold their neglect",
+      "startTime": 18.778719,
+      "endTime": 22.365094,
+      "words": [
+        {
+          "id": 24,
+          "text": "doubts",
+          "startTime": 18.778719,
+          "endTime": 19.972407
+        },
+        {
+          "id": 25,
+          "text": "withhold",
+          "startTime": 19.972407,
+          "endTime": 21.167564
+        },
+        {
+          "id": 26,
+          "text": "their",
+          "startTime": 21.167564,
+          "endTime": 21.432415
+        },
+        {
+          "id": 27,
+          "text": "neglect",
+          "startTime": 21.432415,
+          "endTime": 22.365094
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "and those in dashes I visited",
+      "startTime": 22.365094,
+      "endTime": 26.082091,
+      "words": [
+        {
+          "id": 28,
+          "text": "and",
+          "startTime": 22.365094,
+          "endTime": 23.426772
+        },
+        {
+          "id": 29,
+          "text": "those",
+          "startTime": 23.426772,
+          "endTime": 23.957962
+        },
+        {
+          "id": 30,
+          "text": "in",
+          "startTime": 23.957962,
+          "endTime": 24.222974
+        },
+        {
+          "id": 31,
+          "text": "dashes",
+          "startTime": 24.222974,
+          "endTime": 24.892804
+        },
+        {
+          "id": 32,
+          "text": "I",
+          "startTime": 24.892804,
+          "endTime": 25.017798
+        },
+        {
+          "id": 33,
+          "text": "visited",
+          "startTime": 25.017798,
+          "endTime": 26.082091
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "awake the story of her rent",
+      "startTime": 26.082091,
+      "endTime": 29.670102,
+      "words": [
+        {
+          "id": 34,
+          "text": "awake",
+          "startTime": 26.082091,
+          "endTime": 27.006673
+        },
+        {
+          "id": 35,
+          "text": "the",
+          "startTime": 27.006673,
+          "endTime": 27.276355
+        },
+        {
+          "id": 36,
+          "text": "story",
+          "startTime": 27.276355,
+          "endTime": 27.93897
+        },
+        {
+          "id": 37,
+          "text": "of",
+          "startTime": 27.93897,
+          "endTime": 28.46425
+        },
+        {
+          "id": 38,
+          "text": "her",
+          "startTime": 28.46425,
+          "endTime": 28.735806
+        },
+        {
+          "id": 39,
+          "text": "rent",
+          "startTime": 28.735806,
+          "endTime": 29.670102
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "for she paid what never left",
+      "startTime": 29.670102,
+      "endTime": 33.262191,
+      "words": [
+        {
+          "id": 40,
+          "text": "for",
+          "startTime": 29.670102,
+          "endTime": 30.738584
+        },
+        {
+          "id": 41,
+          "text": "she",
+          "startTime": 30.738584,
+          "endTime": 31.001188
+        },
+        {
+          "id": 42,
+          "text": "paid",
+          "startTime": 31.001188,
+          "endTime": 31.528215
+        },
+        {
+          "id": 43,
+          "text": "what",
+          "startTime": 31.528215,
+          "endTime": 31.930392
+        },
+        {
+          "id": 44,
+          "text": "never",
+          "startTime": 31.930392,
+          "endTime": 32.330584
+        },
+        {
+          "id": 45,
+          "text": "left",
+          "startTime": 32.330584,
+          "endTime": 33.262191
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "and made the streets to beg",
+      "startTime": 33.262191,
+      "endTime": 36.978686,
+      "words": [
+        {
+          "id": 46,
+          "text": "and",
+          "startTime": 33.262191,
+          "endTime": 33.923652
+        },
+        {
+          "id": 47,
+          "text": "made",
+          "startTime": 33.923652,
+          "endTime": 34.322197
+        },
+        {
+          "id": 48,
+          "text": "the",
+          "startTime": 34.322197,
+          "endTime": 34.720178
+        },
+        {
+          "id": 49,
+          "text": "streets",
+          "startTime": 34.720178,
+          "endTime": 35.388446
+        },
+        {
+          "id": 50,
+          "text": "to",
+          "startTime": 35.388446,
+          "endTime": 35.916098
+        },
+        {
+          "id": 51,
+          "text": "beg",
+          "startTime": 35.916098,
+          "endTime": 36.978686
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "made no home, her doorsteps",
+      "startTime": 36.978686,
+      "endTime": 40.962554,
+      "words": [
+        {
+          "id": 52,
+          "text": "made",
+          "startTime": 36.978686,
+          "endTime": 38.032675
+        },
+        {
+          "id": 53,
+          "text": "no",
+          "startTime": 38.032675,
+          "endTime": 38.308889
+        },
+        {
+          "id": 54,
+          "text": "home,",
+          "startTime": 38.308889,
+          "endTime": 38.96711
+        },
+        {
+          "id": 55,
+          "text": "her",
+          "startTime": 38.96711,
+          "endTime": 39.769473
+        },
+        {
+          "id": 56,
+          "text": "doorsteps",
+          "startTime": 39.769473,
+          "endTime": 40.962554
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "with her help, my nights slept. ",
+      "startTime": 40.962554,
+      "endTime": 46.15332,
+      "words": [
+        {
+          "id": 57,
+          "text": "with",
+          "startTime": 40.962554,
+          "endTime": 42.027709
+        },
+        {
+          "id": 58,
+          "text": "her",
+          "startTime": 42.027709,
+          "endTime": 42.291663
+        },
+        {
+          "id": 59,
+          "text": "help,",
+          "startTime": 42.291663,
+          "endTime": 43.088087
+        },
+        {
+          "id": 60,
+          "text": "my",
+          "startTime": 43.088087,
+          "endTime": 43.620226
+        },
+        {
+          "id": 61,
+          "text": "nights",
+          "startTime": 43.620226,
+          "endTime": 44.15332
+        },
+        {
+          "id": 62,
+          "text": "slept.",
+          "startTime": 44.15332,
+          "endTime": 46.15332
+        }
+      ]
+    }
+  ]
+}

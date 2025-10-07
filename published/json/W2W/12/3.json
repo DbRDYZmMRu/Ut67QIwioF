@@ -1,0 +1,294 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "With that boy-critter gone ",
+      "startTime": 2.901182,
+      "endTime": 6.088244,
+      "words": [
+        {
+          "id": 1,
+          "text": "With",
+          "startTime": 2.901182,
+          "endTime": 4.228576
+        },
+        {
+          "id": 2,
+          "text": "that",
+          "startTime": 4.228576,
+          "endTime": 4.493163
+        },
+        {
+          "id": 3,
+          "text": "boy-critter",
+          "startTime": 4.493163,
+          "endTime": 5.158914
+        },
+        {
+          "id": 4,
+          "text": "gone",
+          "startTime": 5.158914,
+          "endTime": 6.088244
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "the walls took a front-mull",
+      "startTime": 6.088244,
+      "endTime": 9.409688,
+      "words": [
+        {
+          "id": 5,
+          "text": "the",
+          "startTime": 6.088244,
+          "endTime": 6.885679
+        },
+        {
+          "id": 6,
+          "text": "walls",
+          "startTime": 6.885679,
+          "endTime": 7.281571
+        },
+        {
+          "id": 7,
+          "text": "took",
+          "startTime": 7.281571,
+          "endTime": 7.813755
+        },
+        {
+          "id": 8,
+          "text": "a",
+          "startTime": 7.813755,
+          "endTime": 7.948649
+        },
+        {
+          "id": 9,
+          "text": "front-mull",
+          "startTime": 7.948649,
+          "endTime": 9.409688
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "their colours hung blurred ",
+      "startTime": 9.409688,
+      "endTime": 13.529044,
+      "words": [
+        {
+          "id": 10,
+          "text": "their",
+          "startTime": 9.409688,
+          "endTime": 10.473386
+        },
+        {
+          "id": 11,
+          "text": "colours",
+          "startTime": 10.473386,
+          "endTime": 11.136553
+        },
+        {
+          "id": 12,
+          "text": "hung",
+          "startTime": 11.136553,
+          "endTime": 12.064575
+        },
+        {
+          "id": 13,
+          "text": "blurred",
+          "startTime": 12.064575,
+          "endTime": 13.529044
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "white saw, loved its default ",
+      "startTime": 13.529044,
+      "endTime": 17.376435,
+      "words": [
+        {
+          "id": 14,
+          "text": "white",
+          "startTime": 13.529044,
+          "endTime": 14.45615
+        },
+        {
+          "id": 15,
+          "text": "saw,",
+          "startTime": 14.45615,
+          "endTime": 15.519346
+        },
+        {
+          "id": 16,
+          "text": "loved",
+          "startTime": 15.519346,
+          "endTime": 16.050803
+        },
+        {
+          "id": 17,
+          "text": "its",
+          "startTime": 16.050803,
+          "endTime": 16.312737
+        },
+        {
+          "id": 18,
+          "text": "default",
+          "startTime": 16.312737,
+          "endTime": 17.376435
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "but black took of its blurts",
+      "startTime": 17.376435,
+      "endTime": 21.361023,
+      "words": [
+        {
+          "id": 19,
+          "text": "but",
+          "startTime": 17.376435,
+          "endTime": 18.703855
+        },
+        {
+          "id": 20,
+          "text": "black",
+          "startTime": 18.703855,
+          "endTime": 19.103731
+        },
+        {
+          "id": 21,
+          "text": "took",
+          "startTime": 19.103731,
+          "endTime": 19.766484
+        },
+        {
+          "id": 22,
+          "text": "of",
+          "startTime": 19.766484,
+          "endTime": 20.164116
+        },
+        {
+          "id": 23,
+          "text": "its",
+          "startTime": 20.164116,
+          "endTime": 20.430774
+        },
+        {
+          "id": 24,
+          "text": "blurts",
+          "startTime": 20.430774,
+          "endTime": 21.361023
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "so, it was sod a dog it shod",
+      "startTime": 21.361023,
+      "endTime": 25.475852,
+      "words": [
+        {
+          "id": 25,
+          "text": "so,",
+          "startTime": 21.361023,
+          "endTime": 22.953211
+        },
+        {
+          "id": 26,
+          "text": "it",
+          "startTime": 22.953211,
+          "endTime": 23.08965
+        },
+        {
+          "id": 27,
+          "text": "was",
+          "startTime": 23.08965,
+          "endTime": 23.355322
+        },
+        {
+          "id": 28,
+          "text": "sod",
+          "startTime": 23.355322,
+          "endTime": 23.752511
+        },
+        {
+          "id": 29,
+          "text": "a",
+          "startTime": 23.752511,
+          "endTime": 24.017573
+        },
+        {
+          "id": 30,
+          "text": "dog",
+          "startTime": 24.017573,
+          "endTime": 24.415876
+        },
+        {
+          "id": 31,
+          "text": "it",
+          "startTime": 24.415876,
+          "endTime": 24.681317
+        },
+        {
+          "id": 32,
+          "text": "shod",
+          "startTime": 24.681317,
+          "endTime": 25.475852
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "and this, she wore to his loss.",
+      "startTime": 25.475852,
+      "endTime": 31.196397,
+      "words": [
+        {
+          "id": 33,
+          "text": "and",
+          "startTime": 25.475852,
+          "endTime": 26.53958
+        },
+        {
+          "id": 34,
+          "text": "this,",
+          "startTime": 26.53958,
+          "endTime": 27.209232
+        },
+        {
+          "id": 35,
+          "text": "she",
+          "startTime": 27.209232,
+          "endTime": 27.999445
+        },
+        {
+          "id": 36,
+          "text": "wore",
+          "startTime": 27.999445,
+          "endTime": 28.533124
+        },
+        {
+          "id": 37,
+          "text": "to",
+          "startTime": 28.533124,
+          "endTime": 28.929975
+        },
+        {
+          "id": 38,
+          "text": "his",
+          "startTime": 28.929975,
+          "endTime": 29.196397
+        },
+        {
+          "id": 39,
+          "text": "loss.",
+          "startTime": 29.196397,
+          "endTime": 31.196397
+        }
+      ]
+    }
+  ]
+}

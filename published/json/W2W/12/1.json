@@ -1,0 +1,230 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Sweet potatoes eating olés",
+      "startTime": 4.857418,
+      "endTime": 8.439236,
+      "words": [
+        {
+          "id": 1,
+          "text": "Sweet",
+          "startTime": 4.857418,
+          "endTime": 6.180575
+        },
+        {
+          "id": 2,
+          "text": "potatoes",
+          "startTime": 6.180575,
+          "endTime": 6.977726
+        },
+        {
+          "id": 3,
+          "text": "eating",
+          "startTime": 6.977726,
+          "endTime": 7.377399
+        },
+        {
+          "id": 4,
+          "text": "olés",
+          "startTime": 7.377399,
+          "endTime": 8.439236
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "she's a better-looking Monday ",
+      "startTime": 8.439236,
+      "endTime": 11.36372,
+      "words": [
+        {
+          "id": 5,
+          "text": "she's",
+          "startTime": 8.439236,
+          "endTime": 9.36958
+        },
+        {
+          "id": 6,
+          "text": "a",
+          "startTime": 9.36958,
+          "endTime": 9.636455
+        },
+        {
+          "id": 7,
+          "text": "better-looking",
+          "startTime": 9.636455,
+          "endTime": 10.299061
+        },
+        {
+          "id": 8,
+          "text": "Monday",
+          "startTime": 10.299061,
+          "endTime": 11.36372
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "oh, tell me, if we ever met, the same",
+      "startTime": 11.36372,
+      "endTime": 15.614077,
+      "words": [
+        {
+          "id": 9,
+          "text": "oh,",
+          "startTime": 11.36372,
+          "endTime": 12.29348
+        },
+        {
+          "id": 10,
+          "text": "tell",
+          "startTime": 12.29348,
+          "endTime": 12.556418
+        },
+        {
+          "id": 11,
+          "text": "me,",
+          "startTime": 12.556418,
+          "endTime": 12.95656
+        },
+        {
+          "id": 12,
+          "text": "if",
+          "startTime": 12.95656,
+          "endTime": 13.886842
+        },
+        {
+          "id": 13,
+          "text": "we",
+          "startTime": 13.886842,
+          "endTime": 14.151429
+        },
+        {
+          "id": 14,
+          "text": "ever",
+          "startTime": 14.151429,
+          "endTime": 14.419667
+        },
+        {
+          "id": 15,
+          "text": "met,",
+          "startTime": 14.419667,
+          "endTime": 14.812868
+        },
+        {
+          "id": 16,
+          "text": "the",
+          "startTime": 14.812868,
+          "endTime": 14.948746
+        },
+        {
+          "id": 17,
+          "text": "same",
+          "startTime": 14.948746,
+          "endTime": 15.614077
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "you, whose a ghost’s path’s sawed name",
+      "startTime": 15.614077,
+      "endTime": 19.861853,
+      "words": [
+        {
+          "id": 18,
+          "text": "you,",
+          "startTime": 15.614077,
+          "endTime": 16.805812
+        },
+        {
+          "id": 19,
+          "text": "whose",
+          "startTime": 16.805812,
+          "endTime": 17.336934
+        },
+        {
+          "id": 20,
+          "text": "a",
+          "startTime": 17.336934,
+          "endTime": 17.470882
+        },
+        {
+          "id": 21,
+          "text": "ghost’s",
+          "startTime": 17.470882,
+          "endTime": 18.004176
+        },
+        {
+          "id": 22,
+          "text": "path’s",
+          "startTime": 18.004176,
+          "endTime": 18.666661
+        },
+        {
+          "id": 23,
+          "text": "sawed",
+          "startTime": 18.666661,
+          "endTime": 19.062361
+        },
+        {
+          "id": 24,
+          "text": "name",
+          "startTime": 19.062361,
+          "endTime": 19.861853
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "their only ole bent, still hidden carapace. ",
+      "startTime": 19.861853,
+      "endTime": 26.38437,
+      "words": [
+        {
+          "id": 25,
+          "text": "their",
+          "startTime": 19.861853,
+          "endTime": 21.056661
+        },
+        {
+          "id": 26,
+          "text": "only",
+          "startTime": 21.056661,
+          "endTime": 21.589374
+        },
+        {
+          "id": 27,
+          "text": "ole",
+          "startTime": 21.589374,
+          "endTime": 22.251498
+        },
+        {
+          "id": 28,
+          "text": "bent,",
+          "startTime": 22.251498,
+          "endTime": 22.918673
+        },
+        {
+          "id": 29,
+          "text": "still",
+          "startTime": 22.918673,
+          "endTime": 23.85492
+        },
+        {
+          "id": 30,
+          "text": "hidden",
+          "startTime": 23.85492,
+          "endTime": 24.38437
+        },
+        {
+          "id": 31,
+          "text": "carapace.",
+          "startTime": 24.38437,
+          "endTime": 26.38437
+        }
+      ]
+    }
+  ]
+}
