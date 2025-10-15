@@ -28,7 +28,7 @@ archive.pipe(output);
 const files = [
   'cookies.html',
   'index.html',
-  'pages/who-is-frith-hilton.html',
+  'pages/meet-Frith-Hilton-the-poet.html',
   'pages/freshPlayer.html',
   'pages/not-found.html',
   'pages/player.html',

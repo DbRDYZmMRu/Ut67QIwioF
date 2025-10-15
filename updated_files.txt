@@ -1,7 +1,7 @@
 cookies.html
 index.html
 indexii.html
-pages/who-is-frith-hilton.html
+pages/meet-Frith-Hilton-the-poet.html
 pages/freshPlayer.html
 pages/not-found.html
 pages/player.html
