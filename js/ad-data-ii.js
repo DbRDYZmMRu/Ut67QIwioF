@@ -12,20 +12,23 @@ window.adData = [
   },
   {
     type: 'video',
-    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_26.mp4',
-    duration: 15,
+    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_16.mp4',
+    duration: 48,
     cta: {
-      message: `Built by science. Certified by sweat.<br><br>Gatorade`,
+      message: `The fans have spoken 💙<br><br>Gatorade`,
       link: '#',
       buttonText: 'Learn More'
     }
   },
   {
     type: 'video',
-    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_7.mp4',
-    duration: 92,
+    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_17.mp4',
+    duration: 30,
     cta: {
-      message: `A screen that moves with you, so life never pauses.<br> With an integrated kick-stand and a built-in battery, set it down anywhere. While Samsung Art Store and Vision AI curates your world:<br>art that transforms your space, entertainment that matches your mood—all without you having to ask. <br> From corner to corner, it goes where you go. Every control feels effortless.<br><br> Move it, Kick it, Feel it, Play it. `,
+      message: `Samsung Art TV joins Art Basel with the Samsung Art Store and its Paris Collection.<br>Watch creativity flourish as art goes beyond the screen and lights up the city.<br><br>Catch it live at Art Basel Paris 2025!<br>📅 Oct 22th to 26th, 2025<br>
+✔ VIP Opening: Oct 22 ~ Oct 23<br>
+✔ Public Opening: Oct 24 ~ Oct 26<br>
+📍 Grand Palais, Paris`,
       link: '#',
       buttonText: 'Explore Now'
     }
@@ -33,7 +36,7 @@ window.adData = [
   {
     type: 'video',
     url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_29.mp4',
-    duration: 15,
+    duration: 40,
     cta: {
       message: `Days like this write themselves into our memory, forever.<br><br> Coke Films: The Last Sips of Summer<br><br>Chapter I by <b>Katherine Goguen</b>`,
       link: '#',
@@ -43,7 +46,7 @@ window.adData = [
   {
     type: 'video',
     url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_31.mp4',
-    duration: 15,
+    duration: 40,
     cta: {
       message: `The making of campfire stories in real time.
 <br><br> Coke Films: The Last Sips of Summer<br><br>Chapter II by <b>Orland Jensen</b>`,
@@ -54,7 +57,7 @@ window.adData = [
   {
     type: 'video',
     url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_32.mp4',
-    duration: 20,
+    duration: 50,
     cta: {
       message: `See you, summer. We’ll replay these days until we meet again. <br><br> .Coke Films: The Last Sips of Summer<br><br>Chapter III by <b>Q Guajardo </b>`,
       link: '#',
@@ -76,7 +79,7 @@ window.adData = [
     url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_3.gif',
     duration: 6,
     cta: {
-      message: `Showgirling`,
+      message: `All we need 📷`,
       link: '#',
       buttonText: 'Learn More'
     },
@@ -94,52 +97,53 @@ window.adData = [
   },
   {
     type: 'video',
-    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_9.mp4',
+    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_15.mp4',
     duration: 45,
     cta: {
-      message: `Home is where I want to be — Nicolas Ghesquière <br><br>Louis Vuitton Runway Reflections<br>Stay tuned for Chapter 3 of Runway Reflections — presented by Tuba. <br>Exclusively on YouTube, October 29th.`,
-      link: '#',
-      buttonText: 'Learn More'
+      message: `<b>Louis Vuitton Monterey</b>.<br>We simply enhanced and modernized a watch that was already a visionary creation. <b>-</b> Matthieu Hegi, La Fabrique du Temps Louis Vuitton’s Artistic Director.<br><br>The watch preserves its founding codes with a minimalist vision, featuring a rounded pebble case, with the crown positioned at 12 o’clock, and a strikingly graphic Grand Feu enamel dial.<br><br>Elevated with the savoir-faire of La Fabrique du Temps Louis Vuitton, it emerges as an icon for today.`,
+      link: 'https://eu.louisvuitton.com/eng-e1/stories/louis-vuitton-monterey',
+      buttonText: 'Shop'
     },
   },
   {
-    type: 'image',
-    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_40.gif',
-    duration: 10,
+    type: 'video',
+    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_14.mp4',
+    duration: 28,
     cta: {
-      message: `SKIMS Ultimate: the most natural shape, lift and fullness you’ve ever experienced from a push-up solution.`,
+      message: `Coming October 16: <br>The Ultimate Body. Bigger butt, rounder hips, smaller waist, instant boob job—get ready to have it all with our most iconic solutions yet.`,
+      link: 'https://skims.com',
+      buttonText: 'Shop SKIMS'
+    },
+  },
+  {
+    type: 'video',
+    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_13.mp4',
+    duration: 88,
+    cta: {
+      message: `Just Dropped: <br>The Ultimate Bush. With our daring new Faux Hair Panty, your carpet can be whatever color you want it to be.`,
       link: 'https://skims.com',
       buttonText: 'Shop SKIMS'
     },
   },
   {
     type: 'image',
-    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_11.gif',
-    duration: 10,
+    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_23.gif',
+    duration: 20,
     cta: {
-      message: `SKIMS Fleece: redefining cold weather classics.<br><br>Melanie wears the Teddy Boxy Zip Up Jacket, size S, in Umber, and Essential High-Waisted Leggings, size S, in Obsidian.`,
-      link: 'https://skims.com',
-      buttonText: 'Shop SKIMS'
-    },
-  },
-  {
-    type: 'image',
-    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_35.gif',
-    duration: 8,
-    cta: {
-      message: `Kylie Cosmetics dessert in a mist.  <br>🍫 sweet éclair 🌸 vanilla`,
+      message: `king kylie is back and so are matte lip kits 👄<br> four limited-edition matte lip kits featuring ‘dead of knight’ and ‘true brown k’ + plus two new shades ‘a decade’ and ‘kylie jenner lips’ made for this era 🖤<br> coming 10.18 to kyliecosmetics.com, 10.21 <br>to ulta.com and <br>11.02 to @ultabeauty stores! ⁠
+ `,
       link: 'https://kyliecosmetics.com/',
       buttonText: 'Shop'
     }
   },
   {
-    type: 'image',
-    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_12.jpg',
+    type: 'video',
+    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_21.mp4',
     duration: 8,
     cta: {
-      message: `Kylie wearing the Short Trench Coat in black.`,
-      link: 'https://khy.com/',
-      buttonText: 'Shop'
+      message: `No luck needed.`,
+      link: '#',
+      buttonText: 'Learn More'
     }
   },
   {
@@ -164,30 +168,32 @@ window.adData = [
   },
   {
     type: 'video',
-    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_10.mp4',
-    duration: 33,
+    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_20.mp4',
+    duration: 30,
     cta: {
-      message: `The 40 k Club. <br> Only One Player. <br><br>The LeBron XXIII‘ Uncharted’ is more than a milestone.It’ s about pushing the boundaries of greatness.<br>Arrived in SNKRS in select locations 10.3.`,
+      message: `The Las Vegas Aces bring the WNBA Championship back home.`,
       link: '#',
       buttonText: 'Learn More'
     }
   },
   {
     type: 'video',
-    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_4.mp4',
-    duration: 25,
+    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_19.mp4',
+    duration: 15,
     cta: {
-      message: `This is more than a prototype. <br>This is an all-new sensation in running.<br>Be the first to experience zero gravity running with the limited edition Nike Vomero Premium “Proto” dropped October 2nd.`,
+      message: `Don’t tell Saquon Barkley to stay grounded. He knows the sky is the limit.`,
       link: '#',
       buttonText: 'Learn More'
     }
   },
   {
     type: 'video',
-    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_8.mp4',
-    duration: 39,
+    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_18.mp4',
+    duration: 20,
     cta: {
-      message: `Ever wondered who was behind the hotdog with no sausage ? 🌭<br>Every fake gets found out eventually.<br>Not all QLED are equal.Choose the real QLED.`,
+      message: `Visual Meditation offers a meditation experience that anyone can easily approach.<br>
+Have you ever found it difficult to meditate with your eyes closed ? <br>Now, with your eyes open,
+  Visual Meditation guides you through calming visuals and gentle breathing, helping you pause and discover moments of peace and clarity.`,
       link: '#',
       buttonText: 'Learn More'
     }
