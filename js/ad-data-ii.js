@@ -87,12 +87,12 @@ window.adData = [
   
   {
     type: 'video',
-    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_45.mp4',
-    duration: 14,
+    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_24.mp4',
+    duration: 20,
     cta: {
-      message: `The Delina heart bracelet, keep them close always. 👧🏼✨`,
+      message: `Something sparkly and full of charm is coming. <br><br>Take a Bow, October 23rd 🎀 🩵 @TheoGraceOfficial✨`,
       link: 'https://www.theograce.com/',
-      buttonText: 'Get Yours!'
+      buttonText: 'Shop TheoGrace!'
     }
   },
   {
