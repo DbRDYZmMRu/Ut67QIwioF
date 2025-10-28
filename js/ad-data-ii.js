@@ -168,6 +168,16 @@ window.adData = [
   },
   {
     type: 'video',
+    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_26.mp4',
+    duration: 26,
+    cta: {
+      message: `Khy Canvas Collection. <br><br>A capsule with timeless canvas, leather, and hand-sanded details on every piece. <br><br>Launching 10/30 exclusively at khy.com`,
+      link: 'https://www.khy.com/pages/about-us?view=comingsoon&fbclid=PAZXh0bgNhZW0CMTEAAadyUcCDarSQnbscxG6JUheTsjzZYs20JmcpTvBAAkgRxOMVDvWpavs9FS9kgg_aem_bpueFcNkYWmMMIBIBK2lgw',
+      buttonText: 'Sign up'
+    }
+  },
+  {
+    type: 'video',
     url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_20.mp4',
     duration: 30,
     cta: {
@@ -195,7 +205,7 @@ window.adData = [
       link: 'https://empli.fi/nike/',
       buttonText: 'Learn More'
     }
-  },  
+  },
   {
     type: 'video',
     url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_18.mp4',
