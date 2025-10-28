@@ -90,7 +90,7 @@ window.adData = [
     url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_24.mp4',
     duration: 20,
     cta: {
-      message: `Something sparkly and full of charm is coming. <br><br>Take a Bow, October 23rd 🎀 🩵 @TheoGraceOfficial✨`,
+      message: `Something sparkly and full of charm is coming. <br><br>Take a Bow, October 23rd 🎀 🩵 @TheoGraceOfficial✨`,
       link: 'https://www.theograce.com/',
       buttonText: 'Shop TheoGrace!'
     }
@@ -186,6 +186,16 @@ window.adData = [
       buttonText: 'Learn More'
     }
   },
+  {
+    type: 'video',
+    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_25.mp4',
+    duration: 14,
+    cta: {
+      message: `There is no finish line when it comes to innovating to serve athletes.<br><br>Introducing four game - changing Nike innovations designed to transform what’ s possible.<br><br>Nike Mind<br>Nike Air Milano<br>Nike Aero - FIT<br>Nike Amplify<br>`,
+      link: 'https://empli.fi/nike/',
+      buttonText: 'Learn More'
+    }
+  },  
   {
     type: 'video',
     url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_18.mp4',
