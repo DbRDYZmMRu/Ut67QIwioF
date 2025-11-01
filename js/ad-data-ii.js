@@ -12,6 +12,16 @@ window.adData = [
   },
   {
     type: 'video',
+    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/nov/ad_1.mp4',
+    duration: 21,
+    cta: {
+      message: `MONSE evening wear, where deconstruction meets elegance.`,
+      link: 'https://monse.com/?fbclid=PAZXh0bgNhZW0CMTEAAafX2pm3FBcgDWNqZ0oXoEbOqQ6rbphbFmpxZ5ZZC_ZFfIe5K6mqT9Z3hrXs0g_aem_60X27azZqG6DEoNJEMYEIg',
+      buttonText: 'Shop MONSE!'
+    }
+  },
+  {
+    type: 'video',
     url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_16.mp4',
     duration: 48,
     cta: {
