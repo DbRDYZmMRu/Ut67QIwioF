@@ -32,19 +32,6 @@ window.adData = [
   },
   {
     type: 'video',
-    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_17.mp4',
-    duration: 30,
-    cta: {
-      message: `Samsung Art TV joins Art Basel with the Samsung Art Store and its Paris Collection.<br>Watch creativity flourish as art goes beyond the screen and lights up the city.<br><br>Catch it live at Art Basel Paris 2025!<br>📅 Oct 22th to 26th, 2025<br>
-✔ VIP Opening: Oct 22 ~ Oct 23<br>
-✔ Public Opening: Oct 24 ~ Oct 26<br>
-📍 Grand Palais, Paris`,
-      link: '#',
-      buttonText: 'Explore Now'
-    }
-  },
-  {
-    type: 'video',
     url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_29.mp4',
     duration: 40,
     cta: {
@@ -76,12 +63,12 @@ window.adData = [
   },
   {
     type: 'video',
-    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_2.mp4',
-    duration: 4,
+    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/nov/ad_3.mp4',
+    duration: 31,
     cta: {
-      message: `Chuck Staples has a nice ring to it. Stay tuned. <br><br> <b>Converse</b>`,
-      link: '#',
-      buttonText: 'Learn More'
+      message: `Five creators brought their inspirations to life on Chucks. Use their designs to customize your own on Converse.com`,
+      link: 'https://www.converse.com/c/custom',
+      buttonText: 'Design Your Own Custom Shoes'
     }
   },
   {
@@ -107,12 +94,12 @@ window.adData = [
   },
   {
     type: 'video',
-    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_15.mp4',
-    duration: 45,
+    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/nov/ad_2.mp4',
+    duration: 15,
     cta: {
-      message: `<b>Louis Vuitton Monterey</b>.<br>We simply enhanced and modernized a watch that was already a visionary creation. <b>-</b> Matthieu Hegi, La Fabrique du Temps Louis Vuitton’s Artistic Director.<br><br>The watch preserves its founding codes with a minimalist vision, featuring a rounded pebble case, with the crown positioned at 12 o’clock, and a strikingly graphic Grand Feu enamel dial.<br><br>Elevated with the savoir-faire of La Fabrique du Temps Louis Vuitton, it emerges as an icon for today.`,
-      link: 'https://eu.louisvuitton.com/eng-e1/stories/louis-vuitton-monterey',
-      buttonText: 'Shop'
+      message: `Spring-Summer 2026 Pre-Collection. <br>An effortless elegance emerges with Friend of the House Jude Bellingham, embodying relaxed silhouettes that exemplify the modern Men's vision from Pharrell — underscoring the country pursuits through a tailored jacket and technical tweed-woven puffer.`,
+      link: 'https://us.louisvuitton.com/eng-us/new/for-men/spring-summer-2026-pre-collection/_/N-t1o8k6nm?utm_source=instagram&utm_medium=social&utm_campaign=PUBL_MENS_PRECO_SS26_IG_WW_ENG_AW_20251024_20251102_MEN_RTW_MEN_PRECOLL_SS26',
+      buttonText: 'Shop the Pre-Collection'
     },
   },
   {
@@ -134,17 +121,6 @@ window.adData = [
       link: 'https://skims.com',
       buttonText: 'Shop SKIMS'
     },
-  },
-  {
-    type: 'image',
-    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_23.gif',
-    duration: 20,
-    cta: {
-      message: `king kylie is back and so are matte lip kits 👄<br> four limited-edition matte lip kits featuring ‘dead of knight’ and ‘true brown k’ + plus two new shades ‘a decade’ and ‘kylie jenner lips’ made for this era 🖤<br> coming 10.18 to kyliecosmetics.com, 10.21 <br>to ulta.com and <br>11.02 to @ultabeauty stores! ⁠
- `,
-      link: 'https://kyliecosmetics.com/',
-      buttonText: 'Shop'
-    }
   },
   {
     type: 'video',
@@ -174,26 +150,6 @@ window.adData = [
       message: `Designed to sculpt. Engineered to perform.<br><br>A new brand for those who refuse to compromise.`,
       link: 'https://skims.com/en-ng/collections/nikeskims',
       buttonText: 'Shop'
-    }
-  },
-  {
-    type: 'video',
-    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_26.mp4',
-    duration: 26,
-    cta: {
-      message: `Khy Canvas Collection. <br><br>A capsule with timeless canvas, leather, and hand-sanded details on every piece. <br><br>Launching 10/30 exclusively at khy.com`,
-      link: 'https://www.khy.com/pages/about-us?view=comingsoon&fbclid=PAZXh0bgNhZW0CMTEAAadyUcCDarSQnbscxG6JUheTsjzZYs20JmcpTvBAAkgRxOMVDvWpavs9FS9kgg_aem_bpueFcNkYWmMMIBIBK2lgw',
-      buttonText: 'Sign up'
-    }
-  },
-  {
-    type: 'video',
-    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_20.mp4',
-    duration: 30,
-    cta: {
-      message: `The Las Vegas Aces bring the WNBA Championship back home.`,
-      link: '#',
-      buttonText: 'Learn More'
     }
   },
   {
