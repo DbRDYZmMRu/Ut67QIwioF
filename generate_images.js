@@ -7,12 +7,14 @@ registerFont('font/Architects_Daughter.ttf', { family: 'Architects Daughter' });
 
 const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
-const outputDir = path.join(__dirname, 'images', 'share', 'W2W', '12');
+const outputDir = path.join(__dirname, 'images', 'share', 'W2W', '13');
 const titles = [
-            "Moose and Muse Signposts",
-            "To Remember",
-            "Last Rites",
-            "Warm Hold",
+            "When I Fell",
+            "I Saw a Cowboy",
+            "With Gusto Low, So",
+            "I Let Him Lie With Me",
+            "A Man So Uneasy"
+
 
 
 ];
@@ -64,7 +66,7 @@ const generateImages = async () => {
     ctx.fillStyle = 'black';
     ctx.textAlign = 'center';
     ctx.textBaseline = 'top';
-    ctx.fillText('WEST TO WEST COLLECTION XII', imageSize / 2, 10); // Corrected position
+    ctx.fillText('WEST TO WEST COLLECTION XIII', imageSize / 2, 10); // Corrected position
     
     // Save the image
     const buffer = canvas.toBuffer('image/png');
