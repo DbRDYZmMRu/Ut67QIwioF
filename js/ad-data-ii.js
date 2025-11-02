@@ -173,6 +173,16 @@ window.adData = [
   },
   {
     type: 'video',
+    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/nov/ad_7.mp4',
+    duration: 30,
+    cta: {
+      message: `You can’t write this stuff. But LA just did again.`,
+      link: '#',
+      buttonText: 'Learn More'
+    }
+  },
+  {
+    type: 'video',
     url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_25.mp4',
     duration: 14,
     cta: {
