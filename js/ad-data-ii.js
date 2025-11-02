@@ -32,6 +32,17 @@ window.adData = [
   },
   {
     type: 'video',
+    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/nov/ad_10.mp4',
+    duration: 60,
+    cta: {
+      message: `Every fake performance has an ending.<br>
+Not all QLED are equal.<br><br> Choose the real QLED.`,
+      link: '#',
+      buttonText: 'Learn More'
+    }
+  },
+  {
+    type: 'video',
     url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/sep/ad_29.mp4',
     duration: 40,
     cta: {
@@ -193,12 +204,10 @@ window.adData = [
   },
   {
     type: 'video',
-    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_18.mp4',
-    duration: 20,
+    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/nov/ad_9.mp4',
+    duration: 54,
     cta: {
-      message: `Visual Meditation offers a meditation experience that anyone can easily approach.<br>
-Have you ever found it difficult to meditate with your eyes closed ? <br>Now, with your eyes open,
-  Visual Meditation guides you through calming visuals and gentle breathing, helping you pause and discover moments of peace and clarity.`,
+      message: `Like a boss, doing less means more at your home with Samsung AI Home.`,
       link: '#',
       buttonText: 'Learn More'
     }
