@@ -22,10 +22,10 @@ window.adData = [
   },
   {
     type: 'video',
-    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_16.mp4',
-    duration: 48,
+    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/nov/ad_5.mp4',
+    duration: 15,
     cta: {
-      message: `The fans have spoken 💙<br><br>Gatorade`,
+      message: `Code red. Something’s coming.`,
       link: '#',
       buttonText: 'Learn More'
     }
