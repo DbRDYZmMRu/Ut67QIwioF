@@ -81,7 +81,6 @@ window.adData = [
       buttonText: 'Learn More'
     },
   },
-  
   {
     type: 'video',
     url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/nov/ad_4.mp4',
@@ -90,6 +89,16 @@ window.adData = [
       message: `Our Halloween Sale is here. Enjoy 25% OFF all jewelry and add a little magic to your look. 🪄 🎃 👻`,
       link: 'https://www.theograce.com/',
       buttonText: 'Shop TheoGrace!'
+    }
+  },
+  {
+    type: 'video',
+    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/nov/ad_6.mp4',
+    duration: 30,
+    cta: {
+      message: `Runway Reflections Chapter 3 — An ode to the home as a sanctuary of living.<br>Uncover backstage revelations at Nicolas Ghesquiere’s latest presentation unveiling with Tuba Avalon. <br><br>Watch the full film exclusively on YouTube.`,
+      link: 'https://youtu.be/ZRpHECexsiY?si=uqWT-rVmWFZcxdsY',
+      buttonText: 'Watch Documentary'
     }
   },
   {
