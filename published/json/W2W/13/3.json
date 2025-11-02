@@ -1,0 +1,250 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "So, I hope you chose",
+      "startTime": 5.122676,
+      "endTime": 9.241413,
+      "words": [
+        {
+          "id": 1,
+          "text": "So,",
+          "startTime": 5.122676,
+          "endTime": 6.851136
+        },
+        {
+          "id": 2,
+          "text": "I",
+          "startTime": 6.851136,
+          "endTime": 7.915784
+        },
+        {
+          "id": 3,
+          "text": "hope",
+          "startTime": 7.915784,
+          "endTime": 8.17645
+        },
+        {
+          "id": 4,
+          "text": "you",
+          "startTime": 8.17645,
+          "endTime": 8.309881
+        },
+        {
+          "id": 5,
+          "text": "chose",
+          "startTime": 8.309881,
+          "endTime": 9.241413
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "chose a time she froze",
+      "startTime": 9.241413,
+      "endTime": 12.694761,
+      "words": [
+        {
+          "id": 6,
+          "text": "chose",
+          "startTime": 9.241413,
+          "endTime": 10.305245
+        },
+        {
+          "id": 7,
+          "text": "a",
+          "startTime": 10.305245,
+          "endTime": 10.434877
+        },
+        {
+          "id": 8,
+          "text": "time",
+          "startTime": 10.434877,
+          "endTime": 11.231651
+        },
+        {
+          "id": 9,
+          "text": "she",
+          "startTime": 11.231651,
+          "endTime": 11.630346
+        },
+        {
+          "id": 10,
+          "text": "froze",
+          "startTime": 11.630346,
+          "endTime": 12.694761
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "froze a grit in your nose",
+      "startTime": 12.694761,
+      "endTime": 16.014025,
+      "words": [
+        {
+          "id": 11,
+          "text": "froze",
+          "startTime": 12.694761,
+          "endTime": 13.489066
+        },
+        {
+          "id": 12,
+          "text": "a",
+          "startTime": 13.489066,
+          "endTime": 13.756704
+        },
+        {
+          "id": 13,
+          "text": "grit",
+          "startTime": 13.756704,
+          "endTime": 14.422418
+        },
+        {
+          "id": 14,
+          "text": "in",
+          "startTime": 14.422418,
+          "endTime": 14.952008
+        },
+        {
+          "id": 15,
+          "text": "your",
+          "startTime": 14.952008,
+          "endTime": 15.083431
+        },
+        {
+          "id": 16,
+          "text": "nose",
+          "startTime": 15.083431,
+          "endTime": 16.014025
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "nose seeing: owing no home",
+      "startTime": 16.014025,
+      "endTime": 20.926137,
+      "words": [
+        {
+          "id": 17,
+          "text": "nose",
+          "startTime": 16.014025,
+          "endTime": 17.342137
+        },
+        {
+          "id": 18,
+          "text": "seeing:",
+          "startTime": 17.342137,
+          "endTime": 18.538873
+        },
+        {
+          "id": 19,
+          "text": "owing",
+          "startTime": 18.538873,
+          "endTime": 19.597833
+        },
+        {
+          "id": 20,
+          "text": "no",
+          "startTime": 19.597833,
+          "endTime": 19.864315
+        },
+        {
+          "id": 21,
+          "text": "home",
+          "startTime": 19.864315,
+          "endTime": 20.926137
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "home to her fashion disclose",
+      "startTime": 20.926137,
+      "endTime": 24.780119,
+      "words": [
+        {
+          "id": 22,
+          "text": "home",
+          "startTime": 20.926137,
+          "endTime": 21.856696
+        },
+        {
+          "id": 23,
+          "text": "to",
+          "startTime": 21.856696,
+          "endTime": 22.922058
+        },
+        {
+          "id": 24,
+          "text": "her",
+          "startTime": 22.922058,
+          "endTime": 23.054398
+        },
+        {
+          "id": 25,
+          "text": "fashion",
+          "startTime": 23.054398,
+          "endTime": 23.582914
+        },
+        {
+          "id": 26,
+          "text": "disclose",
+          "startTime": 23.582914,
+          "endTime": 24.780119
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "she fell off a horse, not piano.",
+      "startTime": 24.780119,
+      "endTime": 30.100708,
+      "words": [
+        {
+          "id": 27,
+          "text": "she",
+          "startTime": 24.780119,
+          "endTime": 25.708514
+        },
+        {
+          "id": 28,
+          "text": "fell",
+          "startTime": 25.708514,
+          "endTime": 25.97417
+        },
+        {
+          "id": 29,
+          "text": "off",
+          "startTime": 25.97417,
+          "endTime": 26.240986
+        },
+        {
+          "id": 30,
+          "text": "a",
+          "startTime": 26.240986,
+          "endTime": 26.375491
+        },
+        {
+          "id": 31,
+          "text": "horse,",
+          "startTime": 26.375491,
+          "endTime": 27.169835
+        },
+        {
+          "id": 32,
+          "text": "not",
+          "startTime": 27.169835,
+          "endTime": 28.100708
+        },
+        {
+          "id": 33,
+          "text": "piano.",
+          "startTime": 28.100708,
+          "endTime": 30.100708
+        }
+      ]
+    }
+  ]
+}

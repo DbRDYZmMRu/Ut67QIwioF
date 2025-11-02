@@ -1,0 +1,430 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I'm imperfect by her mire",
+      "startTime": 4.665866,
+      "endTime": 8.12097,
+      "words": [
+        {
+          "id": 1,
+          "text": "I'm",
+          "startTime": 4.665866,
+          "endTime": 5.73348
+        },
+        {
+          "id": 2,
+          "text": "imperfect",
+          "startTime": 5.73348,
+          "endTime": 6.660471
+        },
+        {
+          "id": 3,
+          "text": "by",
+          "startTime": 6.660471,
+          "endTime": 7.191575
+        },
+        {
+          "id": 4,
+          "text": "her",
+          "startTime": 7.191575,
+          "endTime": 7.325588
+        },
+        {
+          "id": 5,
+          "text": "mire",
+          "startTime": 7.325588,
+          "endTime": 8.12097
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "my dear, my hope supplier",
+      "startTime": 8.12097,
+      "endTime": 12.506819,
+      "words": [
+        {
+          "id": 6,
+          "text": "my",
+          "startTime": 8.12097,
+          "endTime": 9.181581
+        },
+        {
+          "id": 7,
+          "text": "dear,",
+          "startTime": 9.181581,
+          "endTime": 9.851208
+        },
+        {
+          "id": 8,
+          "text": "my",
+          "startTime": 9.851208,
+          "endTime": 10.913119
+        },
+        {
+          "id": 9,
+          "text": "hope",
+          "startTime": 10.913119,
+          "endTime": 11.044214
+        },
+        {
+          "id": 10,
+          "text": "supplier",
+          "startTime": 11.044214,
+          "endTime": 12.506819
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "that old friend I require",
+      "startTime": 12.506819,
+      "endTime": 16.090767,
+      "words": [
+        {
+          "id": 11,
+          "text": "that",
+          "startTime": 12.506819,
+          "endTime": 13.302642
+        },
+        {
+          "id": 12,
+          "text": "old",
+          "startTime": 13.302642,
+          "endTime": 13.567798
+        },
+        {
+          "id": 13,
+          "text": "friend",
+          "startTime": 13.567798,
+          "endTime": 14.363
+        },
+        {
+          "id": 14,
+          "text": "I",
+          "startTime": 14.363,
+          "endTime": 14.897181
+        },
+        {
+          "id": 15,
+          "text": "require",
+          "startTime": 14.897181,
+          "endTime": 16.090767
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "speaking often but a liar",
+      "startTime": 16.090767,
+      "endTime": 20.341553,
+      "words": [
+        {
+          "id": 16,
+          "text": "speaking",
+          "startTime": 16.090767,
+          "endTime": 17.285064
+        },
+        {
+          "id": 17,
+          "text": "often",
+          "startTime": 17.285064,
+          "endTime": 18.214195
+        },
+        {
+          "id": 18,
+          "text": "but",
+          "startTime": 18.214195,
+          "endTime": 18.880148
+        },
+        {
+          "id": 19,
+          "text": "a",
+          "startTime": 18.880148,
+          "endTime": 19.143684
+        },
+        {
+          "id": 20,
+          "text": "liar",
+          "startTime": 19.143684,
+          "endTime": 20.341553
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "ever still, ether tender",
+      "startTime": 20.341553,
+      "endTime": 24.19568,
+      "words": [
+        {
+          "id": 21,
+          "text": "ever",
+          "startTime": 20.341553,
+          "endTime": 21.139004
+        },
+        {
+          "id": 22,
+          "text": "still,",
+          "startTime": 21.139004,
+          "endTime": 22.19815
+        },
+        {
+          "id": 23,
+          "text": "ether",
+          "startTime": 22.19815,
+          "endTime": 22.99748
+        },
+        {
+          "id": 24,
+          "text": "tender",
+          "startTime": 22.99748,
+          "endTime": 24.19568
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "to make me a resenter",
+      "startTime": 24.19568,
+      "endTime": 27.247815,
+      "words": [
+        {
+          "id": 25,
+          "text": "to",
+          "startTime": 24.19568,
+          "endTime": 25.124579
+        },
+        {
+          "id": 26,
+          "text": "make",
+          "startTime": 25.124579,
+          "endTime": 25.389045
+        },
+        {
+          "id": 27,
+          "text": "me",
+          "startTime": 25.389045,
+          "endTime": 25.654105
+        },
+        {
+          "id": 28,
+          "text": "a",
+          "startTime": 25.654105,
+          "endTime": 25.78598
+        },
+        {
+          "id": 29,
+          "text": "resenter",
+          "startTime": 25.78598,
+          "endTime": 27.247815
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "the wife of the sniper",
+      "startTime": 27.247815,
+      "endTime": 30.832618,
+      "words": [
+        {
+          "id": 30,
+          "text": "the",
+          "startTime": 27.247815,
+          "endTime": 28.707999
+        },
+        {
+          "id": 31,
+          "text": "wife",
+          "startTime": 28.707999,
+          "endTime": 28.971745
+        },
+        {
+          "id": 32,
+          "text": "of",
+          "startTime": 28.971745,
+          "endTime": 29.240157
+        },
+        {
+          "id": 33,
+          "text": "the",
+          "startTime": 29.240157,
+          "endTime": 29.506129
+        },
+        {
+          "id": 34,
+          "text": "sniper",
+          "startTime": 29.506129,
+          "endTime": 30.832618
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "is he home for dinner",
+      "startTime": 30.832618,
+      "endTime": 34.014379,
+      "words": [
+        {
+          "id": 35,
+          "text": "is",
+          "startTime": 30.832618,
+          "endTime": 31.631006
+        },
+        {
+          "id": 36,
+          "text": "he",
+          "startTime": 31.631006,
+          "endTime": 31.895064
+        },
+        {
+          "id": 37,
+          "text": "home",
+          "startTime": 31.895064,
+          "endTime": 32.691599
+        },
+        {
+          "id": 38,
+          "text": "for",
+          "startTime": 32.691599,
+          "endTime": 32.959231
+        },
+        {
+          "id": 39,
+          "text": "dinner",
+          "startTime": 32.959231,
+          "endTime": 34.014379
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "blaring his ol’ seltzer",
+      "startTime": 34.014379,
+      "endTime": 36.9423,
+      "words": [
+        {
+          "id": 40,
+          "text": "blaring",
+          "startTime": 34.014379,
+          "endTime": 34.686092
+        },
+        {
+          "id": 41,
+          "text": "his",
+          "startTime": 34.686092,
+          "endTime": 34.948751
+        },
+        {
+          "id": 42,
+          "text": "ol’",
+          "startTime": 34.948751,
+          "endTime": 35.744565
+        },
+        {
+          "id": 43,
+          "text": "seltzer",
+          "startTime": 35.744565,
+          "endTime": 36.9423
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "or am I the listener",
+      "startTime": 36.9423,
+      "endTime": 39.865867,
+      "words": [
+        {
+          "id": 44,
+          "text": "or",
+          "startTime": 36.9423,
+          "endTime": 38.005482
+        },
+        {
+          "id": 45,
+          "text": "am",
+          "startTime": 38.005482,
+          "endTime": 38.270453
+        },
+        {
+          "id": 46,
+          "text": "I",
+          "startTime": 38.270453,
+          "endTime": 38.53682
+        },
+        {
+          "id": 47,
+          "text": "the",
+          "startTime": 38.53682,
+          "endTime": 38.80072
+        },
+        {
+          "id": 48,
+          "text": "listener",
+          "startTime": 38.80072,
+          "endTime": 39.865867
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "the one, the better",
+      "startTime": 39.865867,
+      "endTime": 42.919558,
+      "words": [
+        {
+          "id": 49,
+          "text": "the",
+          "startTime": 39.865867,
+          "endTime": 40.26244
+        },
+        {
+          "id": 50,
+          "text": "one,",
+          "startTime": 40.26244,
+          "endTime": 41.058595
+        },
+        {
+          "id": 51,
+          "text": "the",
+          "startTime": 41.058595,
+          "endTime": 41.723813
+        },
+        {
+          "id": 52,
+          "text": "better",
+          "startTime": 41.723813,
+          "endTime": 42.919558
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "a favourite reader.",
+      "startTime": 42.919558,
+      "endTime": 46.111653,
+      "words": [
+        {
+          "id": 53,
+          "text": "a",
+          "startTime": 42.919558,
+          "endTime": 43.714117
+        },
+        {
+          "id": 54,
+          "text": "favourite",
+          "startTime": 43.714117,
+          "endTime": 44.111653
+        },
+        {
+          "id": 55,
+          "text": "reader.",
+          "startTime": 44.111653,
+          "endTime": 46.111653
+        }
+      ]
+    }
+  ]
+}

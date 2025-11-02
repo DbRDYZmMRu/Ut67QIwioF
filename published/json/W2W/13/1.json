@@ -1,0 +1,374 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "All the time by me",
+      "startTime": 3.231465,
+      "endTime": 5.631689,
+      "words": [
+        {
+          "id": 1,
+          "text": "All",
+          "startTime": 3.231465,
+          "endTime": 4.034427
+        },
+        {
+          "id": 2,
+          "text": "the",
+          "startTime": 4.034427,
+          "endTime": 4.302518
+        },
+        {
+          "id": 3,
+          "text": "time",
+          "startTime": 4.302518,
+          "endTime": 4.699992
+        },
+        {
+          "id": 4,
+          "text": "by",
+          "startTime": 4.699992,
+          "endTime": 4.965671
+        },
+        {
+          "id": 5,
+          "text": "me",
+          "startTime": 4.965671,
+          "endTime": 5.631689
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "in a hidden dream",
+      "startTime": 5.631689,
+      "endTime": 8.019408,
+      "words": [
+        {
+          "id": 6,
+          "text": "in",
+          "startTime": 5.631689,
+          "endTime": 6.56105
+        },
+        {
+          "id": 7,
+          "text": "a",
+          "startTime": 6.56105,
+          "endTime": 6.692402
+        },
+        {
+          "id": 8,
+          "text": "hidden",
+          "startTime": 6.692402,
+          "endTime": 7.092256
+        },
+        {
+          "id": 9,
+          "text": "dream",
+          "startTime": 7.092256,
+          "endTime": 8.019408
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "vision pair viewing",
+      "startTime": 8.019408,
+      "endTime": 10.676607,
+      "words": [
+        {
+          "id": 10,
+          "text": "vision",
+          "startTime": 8.019408,
+          "endTime": 9.480554
+        },
+        {
+          "id": 11,
+          "text": "pair",
+          "startTime": 9.480554,
+          "endTime": 9.745322
+        },
+        {
+          "id": 12,
+          "text": "viewing",
+          "startTime": 9.745322,
+          "endTime": 10.676607
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "but so false with",
+      "startTime": 10.676607,
+      "endTime": 13.728873,
+      "words": [
+        {
+          "id": 13,
+          "text": "but",
+          "startTime": 10.676607,
+          "endTime": 12.404352
+        },
+        {
+          "id": 14,
+          "text": "so",
+          "startTime": 12.404352,
+          "endTime": 12.534488
+        },
+        {
+          "id": 15,
+          "text": "false",
+          "startTime": 12.534488,
+          "endTime": 12.80015
+        },
+        {
+          "id": 16,
+          "text": "with",
+          "startTime": 12.80015,
+          "endTime": 13.728873
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "when you find me",
+      "startTime": 13.728873,
+      "endTime": 15.458979,
+      "words": [
+        {
+          "id": 17,
+          "text": "when",
+          "startTime": 13.728873,
+          "endTime": 14.261887
+        },
+        {
+          "id": 18,
+          "text": "you",
+          "startTime": 14.261887,
+          "endTime": 14.527746
+        },
+        {
+          "id": 19,
+          "text": "find",
+          "startTime": 14.527746,
+          "endTime": 14.795776
+        },
+        {
+          "id": 20,
+          "text": "me",
+          "startTime": 14.795776,
+          "endTime": 15.458979
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "with this script",
+      "startTime": 15.458979,
+      "endTime": 17.71813,
+      "words": [
+        {
+          "id": 21,
+          "text": "with",
+          "startTime": 15.458979,
+          "endTime": 16.387952
+        },
+        {
+          "id": 22,
+          "text": "this",
+          "startTime": 16.387952,
+          "endTime": 16.654988
+        },
+        {
+          "id": 23,
+          "text": "script",
+          "startTime": 16.654988,
+          "endTime": 17.71813
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "its directing",
+      "startTime": 17.71813,
+      "endTime": 19.841422,
+      "words": [
+        {
+          "id": 24,
+          "text": "its",
+          "startTime": 17.71813,
+          "endTime": 18.646216
+        },
+        {
+          "id": 25,
+          "text": "directing",
+          "startTime": 18.646216,
+          "endTime": 19.841422
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "table water swimming",
+      "startTime": 19.841422,
+      "endTime": 23.426476,
+      "words": [
+        {
+          "id": 26,
+          "text": "table",
+          "startTime": 19.841422,
+          "endTime": 21.963747
+        },
+        {
+          "id": 27,
+          "text": "water",
+          "startTime": 21.963747,
+          "endTime": 22.362752
+        },
+        {
+          "id": 28,
+          "text": "swimming",
+          "startTime": 22.362752,
+          "endTime": 23.426476
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "where tears fallen",
+      "startTime": 23.426476,
+      "endTime": 25.816066,
+      "words": [
+        {
+          "id": 29,
+          "text": "where",
+          "startTime": 23.426476,
+          "endTime": 24.35582
+        },
+        {
+          "id": 30,
+          "text": "tears",
+          "startTime": 24.35582,
+          "endTime": 24.884496
+        },
+        {
+          "id": 31,
+          "text": "fallen",
+          "startTime": 24.884496,
+          "endTime": 25.816066
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "share in esteem",
+      "startTime": 25.816066,
+      "endTime": 27.941787,
+      "words": [
+        {
+          "id": 32,
+          "text": "share",
+          "startTime": 25.816066,
+          "endTime": 26.615197
+        },
+        {
+          "id": 33,
+          "text": "in",
+          "startTime": 26.615197,
+          "endTime": 26.880145
+        },
+        {
+          "id": 34,
+          "text": "esteem",
+          "startTime": 26.880145,
+          "endTime": 27.941787
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "their earnings",
+      "startTime": 27.941787,
+      "endTime": 29.935216,
+      "words": [
+        {
+          "id": 35,
+          "text": "their",
+          "startTime": 27.941787,
+          "endTime": 28.872062
+        },
+        {
+          "id": 36,
+          "text": "earnings",
+          "startTime": 28.872062,
+          "endTime": 29.935216
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "tier letting",
+      "startTime": 29.935216,
+      "endTime": 31.928205,
+      "words": [
+        {
+          "id": 37,
+          "text": "tier",
+          "startTime": 29.935216,
+          "endTime": 31.128339
+        },
+        {
+          "id": 38,
+          "text": "letting",
+          "startTime": 31.128339,
+          "endTime": 31.928205
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "paragraph": "so you see",
+      "startTime": 31.928205,
+      "endTime": 34.051315,
+      "words": [
+        {
+          "id": 39,
+          "text": "so",
+          "startTime": 31.928205,
+          "endTime": 33.119507
+        },
+        {
+          "id": 40,
+          "text": "you",
+          "startTime": 33.119507,
+          "endTime": 33.386234
+        },
+        {
+          "id": 41,
+          "text": "see",
+          "startTime": 33.386234,
+          "endTime": 34.051315
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "paragraph": "see me.",
+      "startTime": 34.051315,
+      "endTime": 37.513659,
+      "words": [
+        {
+          "id": 42,
+          "text": "see",
+          "startTime": 34.051315,
+          "endTime": 35.513659
+        },
+        {
+          "id": 43,
+          "text": "me.",
+          "startTime": 35.513659,
+          "endTime": 37.513659
+        }
+      ]
+    }
+  ]
+}

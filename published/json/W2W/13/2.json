@@ -1,0 +1,542 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "If my eyes are windows",
+      "startTime": 4.252528,
+      "endTime": 8.500616,
+      "words": [
+        {
+          "id": 1,
+          "text": "If",
+          "startTime": 4.252528,
+          "endTime": 5.975592
+        },
+        {
+          "id": 2,
+          "text": "my",
+          "startTime": 5.975592,
+          "endTime": 6.112173
+        },
+        {
+          "id": 3,
+          "text": "eyes",
+          "startTime": 6.112173,
+          "endTime": 7.041849
+        },
+        {
+          "id": 4,
+          "text": "are",
+          "startTime": 7.041849,
+          "endTime": 7.305453
+        },
+        {
+          "id": 5,
+          "text": "windows",
+          "startTime": 7.305453,
+          "endTime": 8.500616
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "knowing what I condone",
+      "startTime": 8.500616,
+      "endTime": 11.029272,
+      "words": [
+        {
+          "id": 6,
+          "text": "knowing",
+          "startTime": 8.500616,
+          "endTime": 9.564405
+        },
+        {
+          "id": 7,
+          "text": "what",
+          "startTime": 9.564405,
+          "endTime": 9.828604
+        },
+        {
+          "id": 8,
+          "text": "I",
+          "startTime": 9.828604,
+          "endTime": 10.093943
+        },
+        {
+          "id": 9,
+          "text": "condone",
+          "startTime": 10.093943,
+          "endTime": 11.029272
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "they're also weep silos",
+      "startTime": 11.029272,
+      "endTime": 13.682669,
+      "words": [
+        {
+          "id": 10,
+          "text": "they're",
+          "startTime": 11.029272,
+          "endTime": 12.085817
+        },
+        {
+          "id": 11,
+          "text": "also",
+          "startTime": 12.085817,
+          "endTime": 12.356017
+        },
+        {
+          "id": 12,
+          "text": "weep",
+          "startTime": 12.356017,
+          "endTime": 12.61872
+        },
+        {
+          "id": 13,
+          "text": "silos",
+          "startTime": 12.61872,
+          "endTime": 13.682669
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "yet, past soot lore lows",
+      "startTime": 13.682669,
+      "endTime": 17.932162,
+      "words": [
+        {
+          "id": 14,
+          "text": "yet,",
+          "startTime": 13.682669,
+          "endTime": 15.140687
+        },
+        {
+          "id": 15,
+          "text": "past",
+          "startTime": 15.140687,
+          "endTime": 16.336619
+        },
+        {
+          "id": 16,
+          "text": "soot",
+          "startTime": 16.336619,
+          "endTime": 16.601702
+        },
+        {
+          "id": 17,
+          "text": "lore",
+          "startTime": 16.601702,
+          "endTime": 17.00119
+        },
+        {
+          "id": 18,
+          "text": "lows",
+          "startTime": 17.00119,
+          "endTime": 17.932162
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "still in burning shadows",
+      "startTime": 17.932162,
+      "endTime": 22.046889,
+      "words": [
+        {
+          "id": 19,
+          "text": "still",
+          "startTime": 17.932162,
+          "endTime": 19.656138
+        },
+        {
+          "id": 20,
+          "text": "in",
+          "startTime": 19.656138,
+          "endTime": 20.057661
+        },
+        {
+          "id": 21,
+          "text": "burning",
+          "startTime": 20.057661,
+          "endTime": 20.588818
+        },
+        {
+          "id": 22,
+          "text": "shadows",
+          "startTime": 20.588818,
+          "endTime": 22.046889
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "when in bounty cameo",
+      "startTime": 22.046889,
+      "endTime": 25.369589,
+      "words": [
+        {
+          "id": 23,
+          "text": "when",
+          "startTime": 22.046889,
+          "endTime": 23.643393
+        },
+        {
+          "id": 24,
+          "text": "in",
+          "startTime": 23.643393,
+          "endTime": 23.910715
+        },
+        {
+          "id": 25,
+          "text": "bounty",
+          "startTime": 23.910715,
+          "endTime": 24.309183
+        },
+        {
+          "id": 26,
+          "text": "cameo",
+          "startTime": 24.309183,
+          "endTime": 25.369589
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "none following grows",
+      "startTime": 25.369589,
+      "endTime": 28.156419,
+      "words": [
+        {
+          "id": 27,
+          "text": "none",
+          "startTime": 25.369589,
+          "endTime": 26.564693
+        },
+        {
+          "id": 28,
+          "text": "following",
+          "startTime": 26.564693,
+          "endTime": 27.230528
+        },
+        {
+          "id": 29,
+          "text": "grows",
+          "startTime": 27.230528,
+          "endTime": 28.156419
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "as much reflection",
+      "startTime": 28.156419,
+      "endTime": 30.684078,
+      "words": [
+        {
+          "id": 30,
+          "text": "as",
+          "startTime": 28.156419,
+          "endTime": 28.956101
+        },
+        {
+          "id": 31,
+          "text": "much",
+          "startTime": 28.956101,
+          "endTime": 29.219716
+        },
+        {
+          "id": 32,
+          "text": "reflection",
+          "startTime": 29.219716,
+          "endTime": 30.684078
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "none so shallow",
+      "startTime": 30.684078,
+      "endTime": 33.204669,
+      "words": [
+        {
+          "id": 33,
+          "text": "none",
+          "startTime": 30.684078,
+          "endTime": 31.744214
+        },
+        {
+          "id": 34,
+          "text": "so",
+          "startTime": 31.744214,
+          "endTime": 32.144158
+        },
+        {
+          "id": 35,
+          "text": "shallow",
+          "startTime": 32.144158,
+          "endTime": 33.204669
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "belonging to no lasso",
+      "startTime": 33.204669,
+      "endTime": 36.658373,
+      "words": [
+        {
+          "id": 36,
+          "text": "belonging",
+          "startTime": 33.204669,
+          "endTime": 34.663822
+        },
+        {
+          "id": 37,
+          "text": "to",
+          "startTime": 34.663822,
+          "endTime": 35.32812
+        },
+        {
+          "id": 38,
+          "text": "no",
+          "startTime": 35.32812,
+          "endTime": 35.594127
+        },
+        {
+          "id": 39,
+          "text": "lasso",
+          "startTime": 35.594127,
+          "endTime": 36.658373
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "you raze the row",
+      "startTime": 36.658373,
+      "endTime": 40.112399,
+      "words": [
+        {
+          "id": 40,
+          "text": "you",
+          "startTime": 36.658373,
+          "endTime": 38.516965
+        },
+        {
+          "id": 41,
+          "text": "raze",
+          "startTime": 38.516965,
+          "endTime": 38.914964
+        },
+        {
+          "id": 42,
+          "text": "the",
+          "startTime": 38.914964,
+          "endTime": 39.183082
+        },
+        {
+          "id": 43,
+          "text": "row",
+          "startTime": 39.183082,
+          "endTime": 40.112399
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "you bring the stove",
+      "startTime": 40.112399,
+      "endTime": 43.163264,
+      "words": [
+        {
+          "id": 44,
+          "text": "you",
+          "startTime": 40.112399,
+          "endTime": 40.910092
+        },
+        {
+          "id": 45,
+          "text": "bring",
+          "startTime": 40.910092,
+          "endTime": 41.438088
+        },
+        {
+          "id": 46,
+          "text": "the",
+          "startTime": 41.438088,
+          "endTime": 42.236211
+        },
+        {
+          "id": 47,
+          "text": "stove",
+          "startTime": 42.236211,
+          "endTime": 43.163264
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "paragraph": "warming up my rope",
+      "startTime": 43.163264,
+      "endTime": 45.55636,
+      "words": [
+        {
+          "id": 48,
+          "text": "warming",
+          "startTime": 43.163264,
+          "endTime": 44.361606
+        },
+        {
+          "id": 49,
+          "text": "up",
+          "startTime": 44.361606,
+          "endTime": 44.626602
+        },
+        {
+          "id": 50,
+          "text": "my",
+          "startTime": 44.626602,
+          "endTime": 44.759686
+        },
+        {
+          "id": 51,
+          "text": "rope",
+          "startTime": 44.759686,
+          "endTime": 45.55636
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "paragraph": "but it doesn't, slow",
+      "startTime": 45.55636,
+      "endTime": 48.878581,
+      "words": [
+        {
+          "id": 52,
+          "text": "but",
+          "startTime": 45.55636,
+          "endTime": 46.751163
+        },
+        {
+          "id": 53,
+          "text": "it",
+          "startTime": 46.751163,
+          "endTime": 46.883578
+        },
+        {
+          "id": 54,
+          "text": "doesn't,",
+          "startTime": 46.883578,
+          "endTime": 47.418607
+        },
+        {
+          "id": 55,
+          "text": "slow",
+          "startTime": 47.418607,
+          "endTime": 48.878581
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "paragraph": "for what you suppose",
+      "startTime": 48.878581,
+      "endTime": 51.135028,
+      "words": [
+        {
+          "id": 56,
+          "text": "for",
+          "startTime": 48.878581,
+          "endTime": 49.808655
+        },
+        {
+          "id": 57,
+          "text": "what",
+          "startTime": 49.808655,
+          "endTime": 49.940374
+        },
+        {
+          "id": 58,
+          "text": "you",
+          "startTime": 49.940374,
+          "endTime": 50.206425
+        },
+        {
+          "id": 59,
+          "text": "suppose",
+          "startTime": 50.206425,
+          "endTime": 51.135028
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "paragraph": "is a cold heart stiletto",
+      "startTime": 51.135028,
+      "endTime": 53.923617,
+      "words": [
+        {
+          "id": 60,
+          "text": "is",
+          "startTime": 51.135028,
+          "endTime": 51.796064
+        },
+        {
+          "id": 61,
+          "text": "a",
+          "startTime": 51.796064,
+          "endTime": 51.931446
+        },
+        {
+          "id": 62,
+          "text": "cold",
+          "startTime": 51.931446,
+          "endTime": 52.32775
+        },
+        {
+          "id": 63,
+          "text": "heart",
+          "startTime": 52.32775,
+          "endTime": 52.729826
+        },
+        {
+          "id": 64,
+          "text": "stiletto",
+          "startTime": 52.729826,
+          "endTime": 53.923617
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "paragraph": "her catwalk intro.",
+      "startTime": 53.923617,
+      "endTime": 57.914905,
+      "words": [
+        {
+          "id": 65,
+          "text": "her",
+          "startTime": 53.923617,
+          "endTime": 55.384443
+        },
+        {
+          "id": 66,
+          "text": "catwalk",
+          "startTime": 55.384443,
+          "endTime": 55.914905
+        },
+        {
+          "id": 67,
+          "text": "intro.",
+          "startTime": 55.914905,
+          "endTime": 57.914905
+        }
+      ]
+    }
+  ]
+}

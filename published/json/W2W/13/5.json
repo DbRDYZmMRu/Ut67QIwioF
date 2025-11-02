@@ -1,0 +1,374 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Maybe he'll rest",
+      "startTime": 4.77893,
+      "endTime": 7.298509,
+      "words": [
+        {
+          "id": 1,
+          "text": "Maybe",
+          "startTime": 4.77893,
+          "endTime": 6.106335
+        },
+        {
+          "id": 2,
+          "text": "he'll",
+          "startTime": 6.106335,
+          "endTime": 6.374101
+        },
+        {
+          "id": 3,
+          "text": "rest",
+          "startTime": 6.374101,
+          "endTime": 7.298509
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "free of my illness",
+      "startTime": 7.298509,
+      "endTime": 9.828982,
+      "words": [
+        {
+          "id": 4,
+          "text": "free",
+          "startTime": 7.298509,
+          "endTime": 7.965432
+        },
+        {
+          "id": 5,
+          "text": "of",
+          "startTime": 7.965432,
+          "endTime": 8.499198
+        },
+        {
+          "id": 6,
+          "text": "my",
+          "startTime": 8.499198,
+          "endTime": 8.76172
+        },
+        {
+          "id": 7,
+          "text": "illness",
+          "startTime": 8.76172,
+          "endTime": 9.828982
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "his mind did digest",
+      "startTime": 9.828982,
+      "endTime": 13.148043,
+      "words": [
+        {
+          "id": 8,
+          "text": "his",
+          "startTime": 9.828982,
+          "endTime": 11.018406
+        },
+        {
+          "id": 9,
+          "text": "mind",
+          "startTime": 11.018406,
+          "endTime": 11.550475
+        },
+        {
+          "id": 10,
+          "text": "did",
+          "startTime": 11.550475,
+          "endTime": 11.949639
+        },
+        {
+          "id": 11,
+          "text": "digest",
+          "startTime": 11.949639,
+          "endTime": 13.148043
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "encumbering thirst",
+      "startTime": 13.148043,
+      "endTime": 15.535303,
+      "words": [
+        {
+          "id": 12,
+          "text": "encumbering",
+          "startTime": 13.148043,
+          "endTime": 14.474197
+        },
+        {
+          "id": 13,
+          "text": "thirst",
+          "startTime": 14.474197,
+          "endTime": 15.535303
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "threads his etiquette",
+      "startTime": 15.535303,
+      "endTime": 17.926641,
+      "words": [
+        {
+          "id": 14,
+          "text": "threads",
+          "startTime": 15.535303,
+          "endTime": 16.067805
+        },
+        {
+          "id": 15,
+          "text": "his",
+          "startTime": 16.067805,
+          "endTime": 16.599567
+        },
+        {
+          "id": 16,
+          "text": "etiquette",
+          "startTime": 16.599567,
+          "endTime": 17.926641
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "but who has he to tell",
+      "startTime": 17.926641,
+      "endTime": 21.248381,
+      "words": [
+        {
+          "id": 17,
+          "text": "but",
+          "startTime": 17.926641,
+          "endTime": 18.98956
+        },
+        {
+          "id": 18,
+          "text": "who",
+          "startTime": 18.98956,
+          "endTime": 19.256648
+        },
+        {
+          "id": 19,
+          "text": "has",
+          "startTime": 19.256648,
+          "endTime": 19.387993
+        },
+        {
+          "id": 20,
+          "text": "he",
+          "startTime": 19.387993,
+          "endTime": 19.918249
+        },
+        {
+          "id": 21,
+          "text": "to",
+          "startTime": 19.918249,
+          "endTime": 20.05188
+        },
+        {
+          "id": 22,
+          "text": "tell",
+          "startTime": 20.05188,
+          "endTime": 21.248381
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "miscreant lust decibels",
+      "startTime": 21.248381,
+      "endTime": 23.5031,
+      "words": [
+        {
+          "id": 23,
+          "text": "miscreant",
+          "startTime": 21.248381,
+          "endTime": 21.90998
+        },
+        {
+          "id": 24,
+          "text": "lust",
+          "startTime": 21.90998,
+          "endTime": 22.180894
+        },
+        {
+          "id": 25,
+          "text": "decibels",
+          "startTime": 22.180894,
+          "endTime": 23.5031
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "and what's he to present",
+      "startTime": 23.5031,
+      "endTime": 26.557458,
+      "words": [
+        {
+          "id": 26,
+          "text": "and",
+          "startTime": 23.5031,
+          "endTime": 24.701248
+        },
+        {
+          "id": 27,
+          "text": "what's",
+          "startTime": 24.701248,
+          "endTime": 24.966883
+        },
+        {
+          "id": 28,
+          "text": "he",
+          "startTime": 24.966883,
+          "endTime": 25.098188
+        },
+        {
+          "id": 29,
+          "text": "to",
+          "startTime": 25.098188,
+          "endTime": 25.501359
+        },
+        {
+          "id": 30,
+          "text": "present",
+          "startTime": 25.501359,
+          "endTime": 26.557458
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "or has he a lone fondness",
+      "startTime": 26.557458,
+      "endTime": 30.146488,
+      "words": [
+        {
+          "id": 31,
+          "text": "or",
+          "startTime": 26.557458,
+          "endTime": 27.488487
+        },
+        {
+          "id": 32,
+          "text": "has",
+          "startTime": 27.488487,
+          "endTime": 27.754181
+        },
+        {
+          "id": 33,
+          "text": "he",
+          "startTime": 27.754181,
+          "endTime": 28.152527
+        },
+        {
+          "id": 34,
+          "text": "a",
+          "startTime": 28.152527,
+          "endTime": 28.554459
+        },
+        {
+          "id": 35,
+          "text": "lone",
+          "startTime": 28.554459,
+          "endTime": 28.948699
+        },
+        {
+          "id": 36,
+          "text": "fondness",
+          "startTime": 28.948699,
+          "endTime": 30.146488
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "so by public hassock spent",
+      "startTime": 30.146488,
+      "endTime": 33.600432,
+      "words": [
+        {
+          "id": 37,
+          "text": "so",
+          "startTime": 30.146488,
+          "endTime": 31.340678
+        },
+        {
+          "id": 38,
+          "text": "by",
+          "startTime": 31.340678,
+          "endTime": 31.607615
+        },
+        {
+          "id": 39,
+          "text": "public",
+          "startTime": 31.607615,
+          "endTime": 32.006611
+        },
+        {
+          "id": 40,
+          "text": "hassock",
+          "startTime": 32.006611,
+          "endTime": 32.800147
+        },
+        {
+          "id": 41,
+          "text": "spent",
+          "startTime": 32.800147,
+          "endTime": 33.600432
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "he says, I wrote in silence.",
+      "startTime": 33.600432,
+      "endTime": 38.920469,
+      "words": [
+        {
+          "id": 42,
+          "text": "he",
+          "startTime": 33.600432,
+          "endTime": 34.128992
+        },
+        {
+          "id": 43,
+          "text": "says,",
+          "startTime": 34.128992,
+          "endTime": 34.794874
+        },
+        {
+          "id": 44,
+          "text": "I",
+          "startTime": 34.794874,
+          "endTime": 35.854721
+        },
+        {
+          "id": 45,
+          "text": "wrote",
+          "startTime": 35.854721,
+          "endTime": 36.387403
+        },
+        {
+          "id": 46,
+          "text": "in",
+          "startTime": 36.387403,
+          "endTime": 36.920469
+        },
+        {
+          "id": 47,
+          "text": "silence.",
+          "startTime": 36.920469,
+          "endTime": 38.920469
+        }
+      ]
+    }
+  ]
+}
