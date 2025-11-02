@@ -84,10 +84,10 @@ window.adData = [
   
   {
     type: 'video',
-    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_24.mp4',
-    duration: 20,
+    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/nov/ad_4.mp4',
+    duration: 15,
     cta: {
-      message: `Something sparkly and full of charm is coming. <br><br>Take a Bow, October 23rd 🎀 🩵 @TheoGraceOfficial✨`,
+      message: `Our Halloween Sale is here. Enjoy 25% OFF all jewelry and add a little magic to your look. 🪄 🎃 👻`,
       link: 'https://www.theograce.com/',
       buttonText: 'Shop TheoGrace!'
     }
