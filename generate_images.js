@@ -7,13 +7,11 @@ registerFont('font/Architects_Daughter.ttf', { family: 'Architects Daughter' });
 
 const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
-const outputDir = path.join(__dirname, 'images', 'share', 'W2W', '13');
+const outputDir = path.join(__dirname, 'images', 'share', 'W2W', '14');
 const titles = [
-            "When I Fell",
-            "I Saw a Cowboy",
-            "With Gusto Low, So",
-            "I Let Him Lie With Me",
-            "A Man So Uneasy"
+     "New Down Thoughts Waiting",
+"Down Becoming Stubble",
+"Longest Playing Moonlight Beaut"
 
 
 
@@ -66,7 +64,7 @@ const generateImages = async () => {
     ctx.fillStyle = 'black';
     ctx.textAlign = 'center';
     ctx.textBaseline = 'top';
-    ctx.fillText('WEST TO WEST COLLECTION XIII', imageSize / 2, 10); // Corrected position
+    ctx.fillText('WEST TO WEST COLLECTION XIV', imageSize / 2, 10); // Corrected position
     
     // Save the image
     const buffer = canvas.toBuffer('image/png');
