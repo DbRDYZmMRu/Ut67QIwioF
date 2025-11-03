@@ -1,0 +1,204 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "If love flows like oceans slow",
+      "startTime": 5.950002,
+      "endTime": 10.066334,
+      "words": [
+        {
+          "id": 1,
+          "text": "If",
+          "startTime": 5.950002,
+          "endTime": 6.216649
+        },
+        {
+          "id": 2,
+          "text": "love",
+          "startTime": 6.216649,
+          "endTime": 6.878988
+        },
+        {
+          "id": 3,
+          "text": "flows",
+          "startTime": 6.878988,
+          "endTime": 7.808172
+        },
+        {
+          "id": 4,
+          "text": "like",
+          "startTime": 7.808172,
+          "endTime": 8.209199
+        },
+        {
+          "id": 5,
+          "text": "oceans",
+          "startTime": 8.209199,
+          "endTime": 9.004834
+        },
+        {
+          "id": 6,
+          "text": "slow",
+          "startTime": 9.004834,
+          "endTime": 10.066334
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "the moon would be my mood bow",
+      "startTime": 10.066334,
+      "endTime": 14.448791,
+      "words": [
+        {
+          "id": 7,
+          "text": "the",
+          "startTime": 10.066334,
+          "endTime": 10.86743
+        },
+        {
+          "id": 8,
+          "text": "moon",
+          "startTime": 10.86743,
+          "endTime": 11.263189
+        },
+        {
+          "id": 9,
+          "text": "would",
+          "startTime": 11.263189,
+          "endTime": 12.192744
+        },
+        {
+          "id": 10,
+          "text": "be",
+          "startTime": 12.192744,
+          "endTime": 12.723378
+        },
+        {
+          "id": 11,
+          "text": "my",
+          "startTime": 12.723378,
+          "endTime": 13.119366
+        },
+        {
+          "id": 12,
+          "text": "mood",
+          "startTime": 13.119366,
+          "endTime": 13.521855
+        },
+        {
+          "id": 13,
+          "text": "bow",
+          "startTime": 13.521855,
+          "endTime": 14.448791
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "crescent, playing dimensions in soul",
+      "startTime": 14.448791,
+      "endTime": 18.699783,
+      "words": [
+        {
+          "id": 14,
+          "text": "crescent,",
+          "startTime": 14.448791,
+          "endTime": 15.910474
+        },
+        {
+          "id": 15,
+          "text": "playing",
+          "startTime": 15.910474,
+          "endTime": 16.706893
+        },
+        {
+          "id": 16,
+          "text": "dimensions",
+          "startTime": 16.706893,
+          "endTime": 17.639138
+        },
+        {
+          "id": 17,
+          "text": "in",
+          "startTime": 17.639138,
+          "endTime": 17.771804
+        },
+        {
+          "id": 18,
+          "text": "soul",
+          "startTime": 17.771804,
+          "endTime": 18.699783
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "so I met her in the gentle glide of hope.",
+      "startTime": 18.699783,
+      "endTime": 25.613142,
+      "words": [
+        {
+          "id": 19,
+          "text": "so",
+          "startTime": 18.699783,
+          "endTime": 19.89527
+        },
+        {
+          "id": 20,
+          "text": "I",
+          "startTime": 19.89527,
+          "endTime": 20.162228
+        },
+        {
+          "id": 21,
+          "text": "met",
+          "startTime": 20.162228,
+          "endTime": 20.293657
+        },
+        {
+          "id": 22,
+          "text": "her",
+          "startTime": 20.293657,
+          "endTime": 20.824701
+        },
+        {
+          "id": 23,
+          "text": "in",
+          "startTime": 20.824701,
+          "endTime": 21.620641
+        },
+        {
+          "id": 24,
+          "text": "the",
+          "startTime": 21.620641,
+          "endTime": 21.887508
+        },
+        {
+          "id": 25,
+          "text": "gentle",
+          "startTime": 21.887508,
+          "endTime": 22.283494
+        },
+        {
+          "id": 26,
+          "text": "glide",
+          "startTime": 22.283494,
+          "endTime": 22.81755
+        },
+        {
+          "id": 27,
+          "text": "of",
+          "startTime": 22.81755,
+          "endTime": 23.613142
+        },
+        {
+          "id": 28,
+          "text": "hope.",
+          "startTime": 23.613142,
+          "endTime": 25.613142
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,400 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Our guest in today's plot",
+      "startTime": 4.962709,
+      "endTime": 10.540202,
+      "words": [
+        {
+          "id": 1,
+          "text": "Our",
+          "startTime": 4.962709,
+          "endTime": 8.016932
+        },
+        {
+          "id": 2,
+          "text": "guest",
+          "startTime": 8.016932,
+          "endTime": 8.679657
+        },
+        {
+          "id": 3,
+          "text": "in",
+          "startTime": 8.679657,
+          "endTime": 9.212309
+        },
+        {
+          "id": 4,
+          "text": "today's",
+          "startTime": 9.212309,
+          "endTime": 9.610349
+        },
+        {
+          "id": 5,
+          "text": "plot",
+          "startTime": 9.610349,
+          "endTime": 10.540202
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "wakes from a depth thought",
+      "startTime": 10.540202,
+      "endTime": 13.064181,
+      "words": [
+        {
+          "id": 6,
+          "text": "wakes",
+          "startTime": 10.540202,
+          "endTime": 11.469951
+        },
+        {
+          "id": 7,
+          "text": "from",
+          "startTime": 11.469951,
+          "endTime": 11.600775
+        },
+        {
+          "id": 8,
+          "text": "a",
+          "startTime": 11.600775,
+          "endTime": 11.868525
+        },
+        {
+          "id": 9,
+          "text": "depth",
+          "startTime": 11.868525,
+          "endTime": 12.267081
+        },
+        {
+          "id": 10,
+          "text": "thought",
+          "startTime": 12.267081,
+          "endTime": 13.064181
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "as a swash entering any shore",
+      "startTime": 13.064181,
+      "endTime": 17.179889,
+      "words": [
+        {
+          "id": 11,
+          "text": "as",
+          "startTime": 13.064181,
+          "endTime": 14.258649
+        },
+        {
+          "id": 12,
+          "text": "a",
+          "startTime": 14.258649,
+          "endTime": 14.391887
+        },
+        {
+          "id": 13,
+          "text": "swash",
+          "startTime": 14.391887,
+          "endTime": 15.054155
+        },
+        {
+          "id": 14,
+          "text": "entering",
+          "startTime": 15.054155,
+          "endTime": 16.115243
+        },
+        {
+          "id": 15,
+          "text": "any",
+          "startTime": 16.115243,
+          "endTime": 16.381385
+        },
+        {
+          "id": 16,
+          "text": "shore",
+          "startTime": 16.381385,
+          "endTime": 17.179889
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "her kisses seat as a belt locks",
+      "startTime": 17.179889,
+      "endTime": 22.532716,
+      "words": [
+        {
+          "id": 17,
+          "text": "her",
+          "startTime": 17.179889,
+          "endTime": 18.773432
+        },
+        {
+          "id": 18,
+          "text": "kisses",
+          "startTime": 18.773432,
+          "endTime": 19.569307
+        },
+        {
+          "id": 19,
+          "text": "seat",
+          "startTime": 19.569307,
+          "endTime": 20.365631
+        },
+        {
+          "id": 20,
+          "text": "as",
+          "startTime": 20.365631,
+          "endTime": 21.165084
+        },
+        {
+          "id": 21,
+          "text": "a",
+          "startTime": 21.165084,
+          "endTime": 21.295683
+        },
+        {
+          "id": 22,
+          "text": "belt",
+          "startTime": 21.295683,
+          "endTime": 21.696031
+        },
+        {
+          "id": 23,
+          "text": "locks",
+          "startTime": 21.696031,
+          "endTime": 22.532716
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "click! In awe range, he's a frog",
+      "startTime": 22.532716,
+      "endTime": 28.905966,
+      "words": [
+        {
+          "id": 24,
+          "text": "click!",
+          "startTime": 22.532716,
+          "endTime": 24.126268
+        },
+        {
+          "id": 25,
+          "text": "In",
+          "startTime": 24.126268,
+          "endTime": 25.717855
+        },
+        {
+          "id": 26,
+          "text": "awe",
+          "startTime": 25.717855,
+          "endTime": 25.850661
+        },
+        {
+          "id": 27,
+          "text": "range,",
+          "startTime": 25.850661,
+          "endTime": 26.649346
+        },
+        {
+          "id": 28,
+          "text": "he's",
+          "startTime": 26.649346,
+          "endTime": 27.843056
+        },
+        {
+          "id": 29,
+          "text": "a",
+          "startTime": 27.843056,
+          "endTime": 28.111369
+        },
+        {
+          "id": 30,
+          "text": "frog",
+          "startTime": 28.111369,
+          "endTime": 28.905966
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "picking adore, weaving imagination",
+      "startTime": 28.905966,
+      "endTime": 35.016233,
+      "words": [
+        {
+          "id": 31,
+          "text": "picking",
+          "startTime": 28.905966,
+          "endTime": 31.163136
+        },
+        {
+          "id": 32,
+          "text": "adore,",
+          "startTime": 31.163136,
+          "endTime": 32.225555
+        },
+        {
+          "id": 33,
+          "text": "weaving",
+          "startTime": 32.225555,
+          "endTime": 33.420356
+        },
+        {
+          "id": 34,
+          "text": "imagination",
+          "startTime": 33.420356,
+          "endTime": 35.016233
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "bending knob to her drumming door",
+      "startTime": 35.016233,
+      "endTime": 39.534169,
+      "words": [
+        {
+          "id": 35,
+          "text": "bending",
+          "startTime": 35.016233,
+          "endTime": 36.87474
+        },
+        {
+          "id": 36,
+          "text": "knob",
+          "startTime": 36.87474,
+          "endTime": 37.538977
+        },
+        {
+          "id": 37,
+          "text": "to",
+          "startTime": 37.538977,
+          "endTime": 38.070639
+        },
+        {
+          "id": 38,
+          "text": "her",
+          "startTime": 38.070639,
+          "endTime": 38.335975
+        },
+        {
+          "id": 39,
+          "text": "drumming",
+          "startTime": 38.335975,
+          "endTime": 38.733669
+        },
+        {
+          "id": 40,
+          "text": "door",
+          "startTime": 38.733669,
+          "endTime": 39.534169
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "ribbits up her hall, feeling her walls",
+      "startTime": 39.534169,
+      "endTime": 46.704426,
+      "words": [
+        {
+          "id": 41,
+          "text": "ribbits",
+          "startTime": 39.534169,
+          "endTime": 41.522624
+        },
+        {
+          "id": 42,
+          "text": "up",
+          "startTime": 41.522624,
+          "endTime": 42.186849
+        },
+        {
+          "id": 43,
+          "text": "her",
+          "startTime": 42.186849,
+          "endTime": 42.45336
+        },
+        {
+          "id": 44,
+          "text": "hall,",
+          "startTime": 42.45336,
+          "endTime": 43.252875
+        },
+        {
+          "id": 45,
+          "text": "feeling",
+          "startTime": 43.252875,
+          "endTime": 44.974806
+        },
+        {
+          "id": 46,
+          "text": "her",
+          "startTime": 44.974806,
+          "endTime": 45.376026
+        },
+        {
+          "id": 47,
+          "text": "walls",
+          "startTime": 45.376026,
+          "endTime": 46.704426
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "princess meets frog, for he had come.",
+      "startTime": 46.704426,
+      "endTime": 52.953247,
+      "words": [
+        {
+          "id": 48,
+          "text": "princess",
+          "startTime": 46.704426,
+          "endTime": 48.030905
+        },
+        {
+          "id": 49,
+          "text": "meets",
+          "startTime": 48.030905,
+          "endTime": 48.693733
+        },
+        {
+          "id": 50,
+          "text": "frog,",
+          "startTime": 48.693733,
+          "endTime": 49.624486
+        },
+        {
+          "id": 51,
+          "text": "for",
+          "startTime": 49.624486,
+          "endTime": 50.557586
+        },
+        {
+          "id": 52,
+          "text": "he",
+          "startTime": 50.557586,
+          "endTime": 50.686625
+        },
+        {
+          "id": 53,
+          "text": "had",
+          "startTime": 50.686625,
+          "endTime": 50.953247
+        },
+        {
+          "id": 54,
+          "text": "come.",
+          "startTime": 50.953247,
+          "endTime": 52.953247
+        }
+      ]
+    }
+  ]
+}

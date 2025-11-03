@@ -1,0 +1,144 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Time is like a bird",
+      "startTime": 5.22431,
+      "endTime": 8.014065,
+      "words": [
+        {
+          "id": 1,
+          "text": "Time",
+          "startTime": 5.22431,
+          "endTime": 6.81996
+        },
+        {
+          "id": 2,
+          "text": "is",
+          "startTime": 6.81996,
+          "endTime": 6.951143
+        },
+        {
+          "id": 3,
+          "text": "like",
+          "startTime": 6.951143,
+          "endTime": 7.213558
+        },
+        {
+          "id": 4,
+          "text": "a",
+          "startTime": 7.213558,
+          "endTime": 7.349525
+        },
+        {
+          "id": 5,
+          "text": "bird",
+          "startTime": 7.349525,
+          "endTime": 8.014065
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "it's a migrating herd",
+      "startTime": 8.014065,
+      "endTime": 10.93503,
+      "words": [
+        {
+          "id": 6,
+          "text": "it's",
+          "startTime": 8.014065,
+          "endTime": 9.07616
+        },
+        {
+          "id": 7,
+          "text": "a",
+          "startTime": 9.07616,
+          "endTime": 9.206255
+        },
+        {
+          "id": 8,
+          "text": "migrating",
+          "startTime": 9.206255,
+          "endTime": 10.004759
+        },
+        {
+          "id": 9,
+          "text": "herd",
+          "startTime": 10.004759,
+          "endTime": 10.93503
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "yesterday, we'd bread",
+      "startTime": 10.93503,
+      "endTime": 14.521698,
+      "words": [
+        {
+          "id": 10,
+          "text": "yesterday,",
+          "startTime": 10.93503,
+          "endTime": 12.795343
+        },
+        {
+          "id": 11,
+          "text": "we'd",
+          "startTime": 12.795343,
+          "endTime": 13.854844
+        },
+        {
+          "id": 12,
+          "text": "bread",
+          "startTime": 13.854844,
+          "endTime": 14.521698
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "today, we kept all we ate.",
+      "startTime": 14.521698,
+      "endTime": 19.708011,
+      "words": [
+        {
+          "id": 13,
+          "text": "today,",
+          "startTime": 14.521698,
+          "endTime": 16.112447
+        },
+        {
+          "id": 14,
+          "text": "we",
+          "startTime": 16.112447,
+          "endTime": 17.04547
+        },
+        {
+          "id": 15,
+          "text": "kept",
+          "startTime": 17.04547,
+          "endTime": 17.176749
+        },
+        {
+          "id": 16,
+          "text": "all",
+          "startTime": 17.176749,
+          "endTime": 17.442976
+        },
+        {
+          "id": 17,
+          "text": "we",
+          "startTime": 17.442976,
+          "endTime": 17.708011
+        },
+        {
+          "id": 18,
+          "text": "ate.",
+          "startTime": 17.708011,
+          "endTime": 19.708011
+        }
+      ]
+    }
+  ]
+}
