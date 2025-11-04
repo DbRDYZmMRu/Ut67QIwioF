@@ -94,11 +94,11 @@ Not all QLED are equal.<br><br> Choose the real QLED.`,
 },
 {
   type: 'video',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/nov/ad_4.mp4',
-  duration: 15,
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/nov/ad_11.mp4',
+  duration: 12,
   cta: {
-    message: `Our Halloween Sale is here. Enjoy 25% OFF all jewelry and add a little magic to your look. 🪄 🎃 👻`,
-    link: 'https://www.theograce.com/',
+    message: `When your @TheoGraceOfficial holiday campaign goes city-wide. 🩵✨`,
+    link: 'https://www.theograce.com/articles/take-a-bow-collection?source=MainBanner&fbclid=PAZXh0bgNhZW0CMTEAAadsFbvwdrPJ4xiJeNZbi1uJzAofAcSHlcoEcocd42O9zLvzuFS_QW1y3eYJSw_aem_3EC8YsHq387b2u7kPn1uPw',
     buttonText: 'Shop TheoGrace!'
   }
 },
