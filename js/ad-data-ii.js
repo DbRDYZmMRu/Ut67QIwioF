@@ -12,6 +12,16 @@ window.adData = [
 },
 {
   type: 'video',
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/nov/ad_11.mp4',
+  duration: 30,
+  cta: {
+    message: `This is no ordinary fight. Gatorade is no ordinary thirst quencher. <br><br> @StrangerThingsTV @netflix`,
+    link: '#',
+    buttonText: 'Learn More'
+  }
+},
+{
+  type: 'video',
   url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/nov/ad_1.mp4',
   duration: 21,
   cta: {
@@ -141,6 +151,16 @@ Not all QLED are equal.<br><br> Choose the real QLED.`,
     link: 'https://skims.com',
     buttonText: 'Shop SKIMS'
   },
+},
+{
+  type: 'video',
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/nov/ad_12.mp4',
+  duration: 5,
+  cta: {
+    message: `All eyes on you.<br>Tess Rose Baldwin wears the Embroidered Lingerie Front Close Unlined Bra, size 32D, and the Embroidered Lingerie Crotchless String Bikini, size XS, in Pearl.`,
+    link: 'https://skims.com/en-ng/products/embroidered-lingerie-front-close-unlined-bra-pearl',
+    buttonText: 'Shop Skims'
+  }
 },
 {
   type: 'video',
