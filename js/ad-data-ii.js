@@ -114,6 +114,17 @@ Not all QLED are equal.<br><br> Choose the real QLED.`,
 },
 {
   type: 'video',
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/nov/ad_14.mp4',
+  duration: 30,
+  cta: {
+    message: `POV: your moms your bestie. ✨ Celebrate your loved ones with the most perfect personable gifts 🎁✨`,
+    link: 'https://www.theograce.com/',
+    buttonText: 'Shop TheoGrace!'
+  }
+},
+
+{
+  type: 'video',
   url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/nov/ad_6.mp4',
   duration: 30,
   cta: {
