@@ -4,7 +4,7 @@ const path = require('path');
 // Array of poetry titles
 const poetryTitles = [
 "She Fears a a Sin",
-"Thirteen the Least",
+"Ten the Least",
 "Left Unplugged"
                                                        
 
