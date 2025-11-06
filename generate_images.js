@@ -10,7 +10,7 @@ const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/ref
 const outputDir = path.join(__dirname, 'images', 'share', 'W2W', '15');
 const titles = [
      "She Fears a a Sin",
-"Thirteen the Least",
+"Ten the Least",
 "Left Unplugged"
 
 
