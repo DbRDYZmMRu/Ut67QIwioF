@@ -1,0 +1,280 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Share me with your musings",
+      "startTime": 4.627235,
+      "endTime": 7.416742,
+      "words": [
+        {
+          "id": 1,
+          "text": "Share",
+          "startTime": 4.627235,
+          "endTime": 5.157305
+        },
+        {
+          "id": 2,
+          "text": "me",
+          "startTime": 5.157305,
+          "endTime": 5.556663
+        },
+        {
+          "id": 3,
+          "text": "with",
+          "startTime": 5.556663,
+          "endTime": 6.08739
+        },
+        {
+          "id": 4,
+          "text": "your",
+          "startTime": 6.08739,
+          "endTime": 6.353945
+        },
+        {
+          "id": 5,
+          "text": "musings",
+          "startTime": 6.353945,
+          "endTime": 7.416742
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "like the breeze sneeze",
+      "startTime": 7.416742,
+      "endTime": 9.938812,
+      "words": [
+        {
+          "id": 6,
+          "text": "like",
+          "startTime": 7.416742,
+          "endTime": 8.215605
+        },
+        {
+          "id": 7,
+          "text": "the",
+          "startTime": 8.215605,
+          "endTime": 8.476584
+        },
+        {
+          "id": 8,
+          "text": "breeze",
+          "startTime": 8.476584,
+          "endTime": 9.009192
+        },
+        {
+          "id": 9,
+          "text": "sneeze",
+          "startTime": 9.009192,
+          "endTime": 9.938812
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "save me in public sheets",
+      "startTime": 9.938812,
+      "endTime": 13.789653,
+      "words": [
+        {
+          "id": 10,
+          "text": "save",
+          "startTime": 9.938812,
+          "endTime": 11.001813
+        },
+        {
+          "id": 11,
+          "text": "me",
+          "startTime": 11.001813,
+          "endTime": 11.667108
+        },
+        {
+          "id": 12,
+          "text": "in",
+          "startTime": 11.667108,
+          "endTime": 12.326911
+        },
+        {
+          "id": 13,
+          "text": "public",
+          "startTime": 12.326911,
+          "endTime": 12.728317
+        },
+        {
+          "id": 14,
+          "text": "sheets",
+          "startTime": 12.728317,
+          "endTime": 13.789653
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "can you relaxing?",
+      "startTime": 13.789653,
+      "endTime": 16.845039,
+      "words": [
+        {
+          "id": 15,
+          "text": "can",
+          "startTime": 13.789653,
+          "endTime": 15.38526
+        },
+        {
+          "id": 16,
+          "text": "you",
+          "startTime": 15.38526,
+          "endTime": 15.780478
+        },
+        {
+          "id": 17,
+          "text": "relaxing?",
+          "startTime": 15.780478,
+          "endTime": 16.845039
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "I'm a grit pleating",
+      "startTime": 16.845039,
+      "endTime": 19.103459,
+      "words": [
+        {
+          "id": 18,
+          "text": "I'm",
+          "startTime": 16.845039,
+          "endTime": 17.508833
+        },
+        {
+          "id": 19,
+          "text": "a",
+          "startTime": 17.508833,
+          "endTime": 17.775296
+        },
+        {
+          "id": 20,
+          "text": "grit",
+          "startTime": 17.775296,
+          "endTime": 18.039857
+        },
+        {
+          "id": 21,
+          "text": "pleating",
+          "startTime": 18.039857,
+          "endTime": 19.103459
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "waiting you'll sleep",
+      "startTime": 19.103459,
+      "endTime": 21.491983,
+      "words": [
+        {
+          "id": 22,
+          "text": "waiting",
+          "startTime": 19.103459,
+          "endTime": 20.170214
+        },
+        {
+          "id": 23,
+          "text": "you'll",
+          "startTime": 20.170214,
+          "endTime": 20.430105
+        },
+        {
+          "id": 24,
+          "text": "sleep",
+          "startTime": 20.430105,
+          "endTime": 21.491983
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "the rest aren't waiting",
+      "startTime": 21.491983,
+      "endTime": 24.149832,
+      "words": [
+        {
+          "id": 25,
+          "text": "the",
+          "startTime": 21.491983,
+          "endTime": 22.688017
+        },
+        {
+          "id": 26,
+          "text": "rest",
+          "startTime": 22.688017,
+          "endTime": 23.087862
+        },
+        {
+          "id": 27,
+          "text": "aren't",
+          "startTime": 23.087862,
+          "endTime": 23.3521
+        },
+        {
+          "id": 28,
+          "text": "waiting",
+          "startTime": 23.3521,
+          "endTime": 24.149832
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "pressing in naming",
+      "startTime": 24.149832,
+      "endTime": 26.805193,
+      "words": [
+        {
+          "id": 29,
+          "text": "pressing",
+          "startTime": 24.149832,
+          "endTime": 25.876398
+        },
+        {
+          "id": 30,
+          "text": "in",
+          "startTime": 25.876398,
+          "endTime": 26.008996
+        },
+        {
+          "id": 31,
+          "text": "naming",
+          "startTime": 26.008996,
+          "endTime": 26.805193
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "they all vanished.",
+      "startTime": 26.805193,
+      "endTime": 30.265569,
+      "words": [
+        {
+          "id": 32,
+          "text": "they",
+          "startTime": 26.805193,
+          "endTime": 28.000017
+        },
+        {
+          "id": 33,
+          "text": "all",
+          "startTime": 28.000017,
+          "endTime": 28.265569
+        },
+        {
+          "id": 34,
+          "text": "vanished.",
+          "startTime": 28.265569,
+          "endTime": 30.265569
+        }
+      ]
+    }
+  ]
+}

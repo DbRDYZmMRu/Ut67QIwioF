@@ -1,0 +1,586 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "She's sultry like the beat",
+      "startTime": 4.337009,
+      "endTime": 6.862547,
+      "words": [
+        {
+          "id": 1,
+          "text": "She's",
+          "startTime": 4.337009,
+          "endTime": 5.00083
+        },
+        {
+          "id": 2,
+          "text": "sultry",
+          "startTime": 5.00083,
+          "endTime": 5.667108
+        },
+        {
+          "id": 3,
+          "text": "like",
+          "startTime": 5.667108,
+          "endTime": 5.79906
+        },
+        {
+          "id": 4,
+          "text": "the",
+          "startTime": 5.79906,
+          "endTime": 6.06416
+        },
+        {
+          "id": 5,
+          "text": "beat",
+          "startTime": 6.06416,
+          "endTime": 6.862547
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "the afternoon hour's heat",
+      "startTime": 6.862547,
+      "endTime": 9.784307,
+      "words": [
+        {
+          "id": 6,
+          "text": "the",
+          "startTime": 6.862547,
+          "endTime": 7.921548
+        },
+        {
+          "id": 7,
+          "text": "afternoon",
+          "startTime": 7.921548,
+          "endTime": 8.454165
+        },
+        {
+          "id": 8,
+          "text": "hour's",
+          "startTime": 8.454165,
+          "endTime": 8.987009
+        },
+        {
+          "id": 9,
+          "text": "heat",
+          "startTime": 8.987009,
+          "endTime": 9.784307
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "gift a pounding heart leaves",
+      "startTime": 9.784307,
+      "endTime": 13.505475,
+      "words": [
+        {
+          "id": 10,
+          "text": "gift",
+          "startTime": 9.784307,
+          "endTime": 11.379088
+        },
+        {
+          "id": 11,
+          "text": "a",
+          "startTime": 11.379088,
+          "endTime": 12.176133
+        },
+        {
+          "id": 12,
+          "text": "pounding",
+          "startTime": 12.176133,
+          "endTime": 12.572841
+        },
+        {
+          "id": 13,
+          "text": "heart",
+          "startTime": 12.572841,
+          "endTime": 12.838221
+        },
+        {
+          "id": 14,
+          "text": "leaves",
+          "startTime": 12.838221,
+          "endTime": 13.505475
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "I'll turn her on like a switch",
+      "startTime": 13.505475,
+      "endTime": 17.488268,
+      "words": [
+        {
+          "id": 15,
+          "text": "I'll",
+          "startTime": 13.505475,
+          "endTime": 15.229654
+        },
+        {
+          "id": 16,
+          "text": "turn",
+          "startTime": 15.229654,
+          "endTime": 15.359116
+        },
+        {
+          "id": 17,
+          "text": "her",
+          "startTime": 15.359116,
+          "endTime": 15.759879
+        },
+        {
+          "id": 18,
+          "text": "on",
+          "startTime": 15.759879,
+          "endTime": 16.16169
+        },
+        {
+          "id": 19,
+          "text": "like",
+          "startTime": 16.16169,
+          "endTime": 16.557953
+        },
+        {
+          "id": 20,
+          "text": "a",
+          "startTime": 16.557953,
+          "endTime": 16.825651
+        },
+        {
+          "id": 21,
+          "text": "switch",
+          "startTime": 16.825651,
+          "endTime": 17.488268
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "carefree, creating her wishes",
+      "startTime": 17.488268,
+      "endTime": 21.469155,
+      "words": [
+        {
+          "id": 22,
+          "text": "carefree,",
+          "startTime": 17.488268,
+          "endTime": 19.084159
+        },
+        {
+          "id": 23,
+          "text": "creating",
+          "startTime": 19.084159,
+          "endTime": 20.545856
+        },
+        {
+          "id": 24,
+          "text": "her",
+          "startTime": 20.545856,
+          "endTime": 20.674439
+        },
+        {
+          "id": 25,
+          "text": "wishes",
+          "startTime": 20.674439,
+          "endTime": 21.469155
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "she fits my vices, shoes tennis",
+      "startTime": 21.469155,
+      "endTime": 26.918115,
+      "words": [
+        {
+          "id": 26,
+          "text": "she",
+          "startTime": 21.469155,
+          "endTime": 23.068407
+        },
+        {
+          "id": 27,
+          "text": "fits",
+          "startTime": 23.068407,
+          "endTime": 23.196665
+        },
+        {
+          "id": 28,
+          "text": "my",
+          "startTime": 23.196665,
+          "endTime": 23.595727
+        },
+        {
+          "id": 29,
+          "text": "vices,",
+          "startTime": 23.595727,
+          "endTime": 24.527867
+        },
+        {
+          "id": 30,
+          "text": "shoes",
+          "startTime": 24.527867,
+          "endTime": 25.988656
+        },
+        {
+          "id": 31,
+          "text": "tennis",
+          "startTime": 25.988656,
+          "endTime": 26.918115
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "so we run, dear lover, fugitives",
+      "startTime": 26.918115,
+      "endTime": 32.363148,
+      "words": [
+        {
+          "id": 32,
+          "text": "so",
+          "startTime": 26.918115,
+          "endTime": 28.113495
+        },
+        {
+          "id": 33,
+          "text": "we",
+          "startTime": 28.113495,
+          "endTime": 28.244688
+        },
+        {
+          "id": 34,
+          "text": "run,",
+          "startTime": 28.244688,
+          "endTime": 28.77659
+        },
+        {
+          "id": 35,
+          "text": "dear",
+          "startTime": 28.77659,
+          "endTime": 29.839206
+        },
+        {
+          "id": 36,
+          "text": "lover,",
+          "startTime": 29.839206,
+          "endTime": 30.504437
+        },
+        {
+          "id": 37,
+          "text": "fugitives",
+          "startTime": 30.504437,
+          "endTime": 32.363148
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "please meet me in avarice",
+      "startTime": 32.363148,
+      "endTime": 35.416178,
+      "words": [
+        {
+          "id": 38,
+          "text": "please",
+          "startTime": 32.363148,
+          "endTime": 33.958994
+        },
+        {
+          "id": 39,
+          "text": "meet",
+          "startTime": 33.958994,
+          "endTime": 34.219935
+        },
+        {
+          "id": 40,
+          "text": "me",
+          "startTime": 34.219935,
+          "endTime": 34.485567
+        },
+        {
+          "id": 41,
+          "text": "in",
+          "startTime": 34.485567,
+          "endTime": 34.7533
+        },
+        {
+          "id": 42,
+          "text": "avarice",
+          "startTime": 34.7533,
+          "endTime": 35.416178
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "bringing my fogoteen chalice",
+      "startTime": 35.416178,
+      "endTime": 39.533453,
+      "words": [
+        {
+          "id": 43,
+          "text": "bringing",
+          "startTime": 35.416178,
+          "endTime": 37.011069
+        },
+        {
+          "id": 44,
+          "text": "my",
+          "startTime": 37.011069,
+          "endTime": 37.276496
+        },
+        {
+          "id": 45,
+          "text": "fogoteen",
+          "startTime": 37.276496,
+          "endTime": 38.074766
+        },
+        {
+          "id": 46,
+          "text": "chalice",
+          "startTime": 38.074766,
+          "endTime": 39.533453
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "early drinks slipped unapologetic",
+      "startTime": 39.533453,
+      "endTime": 44.049093,
+      "words": [
+        {
+          "id": 47,
+          "text": "early",
+          "startTime": 39.533453,
+          "endTime": 40.595568
+        },
+        {
+          "id": 48,
+          "text": "drinks",
+          "startTime": 40.595568,
+          "endTime": 41.25854
+        },
+        {
+          "id": 49,
+          "text": "slipped",
+          "startTime": 41.25854,
+          "endTime": 42.055779
+        },
+        {
+          "id": 50,
+          "text": "unapologetic",
+          "startTime": 42.055779,
+          "endTime": 44.049093
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "reading my lips’ need, you hid it",
+      "startTime": 44.049093,
+      "endTime": 48.565175,
+      "words": [
+        {
+          "id": 51,
+          "text": "reading",
+          "startTime": 44.049093,
+          "endTime": 45.51243
+        },
+        {
+          "id": 52,
+          "text": "my",
+          "startTime": 45.51243,
+          "endTime": 45.776546
+        },
+        {
+          "id": 53,
+          "text": "lips’",
+          "startTime": 45.776546,
+          "endTime": 46.306685
+        },
+        {
+          "id": 54,
+          "text": "need,",
+          "startTime": 46.306685,
+          "endTime": 46.839047
+        },
+        {
+          "id": 55,
+          "text": "you",
+          "startTime": 46.839047,
+          "endTime": 47.636025
+        },
+        {
+          "id": 56,
+          "text": "hid",
+          "startTime": 47.636025,
+          "endTime": 47.900634
+        },
+        {
+          "id": 57,
+          "text": "it",
+          "startTime": 47.900634,
+          "endTime": 48.565175
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "I leave daily seeming married",
+      "startTime": 48.565175,
+      "endTime": 52.949859,
+      "words": [
+        {
+          "id": 58,
+          "text": "I",
+          "startTime": 48.565175,
+          "endTime": 50.292529
+        },
+        {
+          "id": 59,
+          "text": "leave",
+          "startTime": 50.292529,
+          "endTime": 50.556327
+        },
+        {
+          "id": 60,
+          "text": "daily",
+          "startTime": 50.556327,
+          "endTime": 51.22317
+        },
+        {
+          "id": 61,
+          "text": "seeming",
+          "startTime": 51.22317,
+          "endTime": 51.881656
+        },
+        {
+          "id": 62,
+          "text": "married",
+          "startTime": 51.881656,
+          "endTime": 52.949859
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "paragraph": "but between my pairing wrists",
+      "startTime": 52.949859,
+      "endTime": 55.604297,
+      "words": [
+        {
+          "id": 63,
+          "text": "but",
+          "startTime": 52.949859,
+          "endTime": 53.745161
+        },
+        {
+          "id": 64,
+          "text": "between",
+          "startTime": 53.745161,
+          "endTime": 54.011199
+        },
+        {
+          "id": 65,
+          "text": "my",
+          "startTime": 54.011199,
+          "endTime": 54.27783
+        },
+        {
+          "id": 66,
+          "text": "pairing",
+          "startTime": 54.27783,
+          "endTime": 54.673841
+        },
+        {
+          "id": 67,
+          "text": "wrists",
+          "startTime": 54.673841,
+          "endTime": 55.604297
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "paragraph": "I miss the token, the deli’s battery",
+      "startTime": 55.604297,
+      "endTime": 60.917483,
+      "words": [
+        {
+          "id": 68,
+          "text": "I",
+          "startTime": 55.604297,
+          "endTime": 56.400847
+        },
+        {
+          "id": 69,
+          "text": "miss",
+          "startTime": 56.400847,
+          "endTime": 56.665768
+        },
+        {
+          "id": 70,
+          "text": "the",
+          "startTime": 56.665768,
+          "endTime": 56.79724
+        },
+        {
+          "id": 71,
+          "text": "token,",
+          "startTime": 56.79724,
+          "endTime": 57.994527
+        },
+        {
+          "id": 72,
+          "text": "the",
+          "startTime": 57.994527,
+          "endTime": 58.925763
+        },
+        {
+          "id": 73,
+          "text": "deli’s",
+          "startTime": 58.925763,
+          "endTime": 59.457891
+        },
+        {
+          "id": 74,
+          "text": "battery",
+          "startTime": 59.457891,
+          "endTime": 60.917483
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "paragraph": "keeping friendship clockings.",
+      "startTime": 60.917483,
+      "endTime": 65.31495000000001,
+      "words": [
+        {
+          "id": 75,
+          "text": "keeping",
+          "startTime": 60.917483,
+          "endTime": 62.511145
+        },
+        {
+          "id": 76,
+          "text": "friendship",
+          "startTime": 62.511145,
+          "endTime": 63.31495
+        },
+        {
+          "id": 77,
+          "text": "clockings.",
+          "startTime": 63.31495,
+          "endTime": 65.31495000000001
+        }
+      ]
+    }
+  ]
+}

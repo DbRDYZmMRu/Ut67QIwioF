@@ -1,0 +1,120 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I'm selling a lamp holder",
+      "startTime": 3.633767,
+      "endTime": 6.555233,
+      "words": [
+        {
+          "id": 1,
+          "text": "I'm",
+          "startTime": 3.633767,
+          "endTime": 4.963739
+        },
+        {
+          "id": 2,
+          "text": "selling",
+          "startTime": 4.963739,
+          "endTime": 5.360248
+        },
+        {
+          "id": 3,
+          "text": "a",
+          "startTime": 5.360248,
+          "endTime": 5.492418
+        },
+        {
+          "id": 4,
+          "text": "lamp",
+          "startTime": 5.492418,
+          "endTime": 5.759843
+        },
+        {
+          "id": 5,
+          "text": "holder",
+          "startTime": 5.759843,
+          "endTime": 6.555233
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "a 180 degree keeper",
+      "startTime": 6.555233,
+      "endTime": 9.745023,
+      "words": [
+        {
+          "id": 6,
+          "text": "a",
+          "startTime": 6.555233,
+          "endTime": 7.752743
+        },
+        {
+          "id": 7,
+          "text": "180",
+          "startTime": 7.752743,
+          "endTime": 8.417411
+        },
+        {
+          "id": 8,
+          "text": "degree",
+          "startTime": 8.417411,
+          "endTime": 8.816524
+        },
+        {
+          "id": 9,
+          "text": "keeper",
+          "startTime": 8.816524,
+          "endTime": 9.745023
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "she's unacoustic",
+      "startTime": 9.745023,
+      "endTime": 12.268906,
+      "words": [
+        {
+          "id": 10,
+          "text": "she's",
+          "startTime": 9.745023,
+          "endTime": 11.204561
+        },
+        {
+          "id": 11,
+          "text": "unacoustic",
+          "startTime": 11.204561,
+          "endTime": 12.268906
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "a rare eccentric.",
+      "startTime": 12.268906,
+      "endTime": 15.595755,
+      "words": [
+        {
+          "id": 12,
+          "text": "a",
+          "startTime": 12.268906,
+          "endTime": 13.200394
+        },
+        {
+          "id": 13,
+          "text": "rare",
+          "startTime": 13.200394,
+          "endTime": 13.595755
+        },
+        {
+          "id": 14,
+          "text": "eccentric.",
+          "startTime": 13.595755,
+          "endTime": 15.595755
+        }
+      ]
+    }
+  ]
+}
