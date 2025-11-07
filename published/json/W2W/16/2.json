@@ -1,0 +1,202 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I tell her she's my muse",
+      "startTime": 2.719073,
+      "endTime": 4.97687,
+      "words": [
+        {
+          "id": 1,
+          "text": "I",
+          "startTime": 2.719073,
+          "endTime": 3.382435
+        },
+        {
+          "id": 2,
+          "text": "tell",
+          "startTime": 3.382435,
+          "endTime": 3.645217
+        },
+        {
+          "id": 3,
+          "text": "her",
+          "startTime": 3.645217,
+          "endTime": 3.91356
+        },
+        {
+          "id": 4,
+          "text": "she's",
+          "startTime": 3.91356,
+          "endTime": 4.044685
+        },
+        {
+          "id": 5,
+          "text": "my",
+          "startTime": 4.044685,
+          "endTime": 4.31151
+        },
+        {
+          "id": 6,
+          "text": "muse",
+          "startTime": 4.31151,
+          "endTime": 4.97687
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "I'm that wuss susurrus",
+      "startTime": 4.97687,
+      "endTime": 7.632613,
+      "words": [
+        {
+          "id": 7,
+          "text": "I'm",
+          "startTime": 4.97687,
+          "endTime": 6.171514
+        },
+        {
+          "id": 8,
+          "text": "that",
+          "startTime": 6.171514,
+          "endTime": 6.302372
+        },
+        {
+          "id": 9,
+          "text": "wuss",
+          "startTime": 6.302372,
+          "endTime": 6.699669
+        },
+        {
+          "id": 10,
+          "text": "susurrus",
+          "startTime": 6.699669,
+          "endTime": 7.632613
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "she's jello, she's juice",
+      "startTime": 7.632613,
+      "endTime": 11.484381,
+      "words": [
+        {
+          "id": 11,
+          "text": "she's",
+          "startTime": 7.632613,
+          "endTime": 8.826837
+        },
+        {
+          "id": 12,
+          "text": "jello,",
+          "startTime": 8.826837,
+          "endTime": 9.489995
+        },
+        {
+          "id": 13,
+          "text": "she's",
+          "startTime": 9.489995,
+          "endTime": 10.420313
+        },
+        {
+          "id": 14,
+          "text": "juice",
+          "startTime": 10.420313,
+          "endTime": 11.484381
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "lair mood sesh hiatus",
+      "startTime": 11.484381,
+      "endTime": 14.406034,
+      "words": [
+        {
+          "id": 15,
+          "text": "lair",
+          "startTime": 11.484381,
+          "endTime": 12.413735
+        },
+        {
+          "id": 16,
+          "text": "mood",
+          "startTime": 12.413735,
+          "endTime": 12.94435
+        },
+        {
+          "id": 17,
+          "text": "sesh",
+          "startTime": 12.94435,
+          "endTime": 13.34185
+        },
+        {
+          "id": 18,
+          "text": "hiatus",
+          "startTime": 13.34185,
+          "endTime": 14.406034
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "to fall’s rustling loose",
+      "startTime": 14.406034,
+      "endTime": 17.458924,
+      "words": [
+        {
+          "id": 19,
+          "text": "to",
+          "startTime": 14.406034,
+          "endTime": 15.469033
+        },
+        {
+          "id": 20,
+          "text": "fall’s",
+          "startTime": 15.469033,
+          "endTime": 15.998151
+        },
+        {
+          "id": 21,
+          "text": "rustling",
+          "startTime": 15.998151,
+          "endTime": 16.529417
+        },
+        {
+          "id": 22,
+          "text": "loose",
+          "startTime": 16.529417,
+          "endTime": 17.458924
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "rising roots surplus.",
+      "startTime": 17.458924,
+      "endTime": 21.450895,
+      "words": [
+        {
+          "id": 23,
+          "text": "rising",
+          "startTime": 17.458924,
+          "endTime": 18.919956
+        },
+        {
+          "id": 24,
+          "text": "roots",
+          "startTime": 18.919956,
+          "endTime": 19.450895
+        },
+        {
+          "id": 25,
+          "text": "surplus.",
+          "startTime": 19.450895,
+          "endTime": 21.450895
+        }
+      ]
+    }
+  ]
+}

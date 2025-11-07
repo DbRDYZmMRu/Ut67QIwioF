@@ -1,0 +1,188 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "She brings the basket",
+      "startTime": 3.286421,
+      "endTime": 6.074824,
+      "words": [
+        {
+          "id": 1,
+          "text": "She",
+          "startTime": 3.286421,
+          "endTime": 4.744641
+        },
+        {
+          "id": 2,
+          "text": "brings",
+          "startTime": 4.744641,
+          "endTime": 5.011566
+        },
+        {
+          "id": 3,
+          "text": "the",
+          "startTime": 5.011566,
+          "endTime": 5.277501
+        },
+        {
+          "id": 4,
+          "text": "basket",
+          "startTime": 5.277501,
+          "endTime": 6.074824
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "the market called it debt",
+      "startTime": 6.074824,
+      "endTime": 8.995136,
+      "words": [
+        {
+          "id": 5,
+          "text": "the",
+          "startTime": 6.074824,
+          "endTime": 7.269324
+        },
+        {
+          "id": 6,
+          "text": "market",
+          "startTime": 7.269324,
+          "endTime": 7.667953
+        },
+        {
+          "id": 7,
+          "text": "called",
+          "startTime": 7.667953,
+          "endTime": 7.934218
+        },
+        {
+          "id": 8,
+          "text": "it",
+          "startTime": 7.934218,
+          "endTime": 8.199306
+        },
+        {
+          "id": 9,
+          "text": "debt",
+          "startTime": 8.199306,
+          "endTime": 8.995136
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "fed with a birth she rejects",
+      "startTime": 8.995136,
+      "endTime": 12.655173,
+      "words": [
+        {
+          "id": 10,
+          "text": "fed",
+          "startTime": 8.995136,
+          "endTime": 10.259748
+        },
+        {
+          "id": 11,
+          "text": "with",
+          "startTime": 10.259748,
+          "endTime": 10.524584
+        },
+        {
+          "id": 12,
+          "text": "a",
+          "startTime": 10.524584,
+          "endTime": 10.659814
+        },
+        {
+          "id": 13,
+          "text": "birth",
+          "startTime": 10.659814,
+          "endTime": 11.190451
+        },
+        {
+          "id": 14,
+          "text": "she",
+          "startTime": 11.190451,
+          "endTime": 11.589024
+        },
+        {
+          "id": 15,
+          "text": "rejects",
+          "startTime": 11.589024,
+          "endTime": 12.655173
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "right row veggies stay fresh",
+      "startTime": 12.655173,
+      "endTime": 17.036107,
+      "words": [
+        {
+          "id": 16,
+          "text": "right",
+          "startTime": 12.655173,
+          "endTime": 13.583937
+        },
+        {
+          "id": 17,
+          "text": "row",
+          "startTime": 13.583937,
+          "endTime": 14.513821
+        },
+        {
+          "id": 18,
+          "text": "veggies",
+          "startTime": 14.513821,
+          "endTime": 15.307813
+        },
+        {
+          "id": 19,
+          "text": "stay",
+          "startTime": 15.307813,
+          "endTime": 15.841119
+        },
+        {
+          "id": 20,
+          "text": "fresh",
+          "startTime": 15.841119,
+          "endTime": 17.036107
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "spinach, even carrot shelved.",
+      "startTime": 17.036107,
+      "endTime": 22.089285,
+      "words": [
+        {
+          "id": 21,
+          "text": "spinach,",
+          "startTime": 17.036107,
+          "endTime": 18.495113
+        },
+        {
+          "id": 22,
+          "text": "even",
+          "startTime": 18.495113,
+          "endTime": 19.559741
+        },
+        {
+          "id": 23,
+          "text": "carrot",
+          "startTime": 19.559741,
+          "endTime": 20.089285
+        },
+        {
+          "id": 24,
+          "text": "shelved.",
+          "startTime": 20.089285,
+          "endTime": 22.089285
+        }
+      ]
+    }
+  ]
+}

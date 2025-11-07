@@ -1,0 +1,216 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "My dearly a caterpillar",
+      "startTime": 2.652264,
+      "endTime": 5.576033,
+      "words": [
+        {
+          "id": 1,
+          "text": "My",
+          "startTime": 2.652264,
+          "endTime": 3.849133
+        },
+        {
+          "id": 2,
+          "text": "dearly",
+          "startTime": 3.849133,
+          "endTime": 4.377998
+        },
+        {
+          "id": 3,
+          "text": "a",
+          "startTime": 4.377998,
+          "endTime": 4.647534
+        },
+        {
+          "id": 4,
+          "text": "caterpillar",
+          "startTime": 4.647534,
+          "endTime": 5.576033
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "with the sheath fads",
+      "startTime": 5.576033,
+      "endTime": 8.097892,
+      "words": [
+        {
+          "id": 5,
+          "text": "with",
+          "startTime": 5.576033,
+          "endTime": 6.77184
+        },
+        {
+          "id": 6,
+          "text": "the",
+          "startTime": 6.77184,
+          "endTime": 6.901705
+        },
+        {
+          "id": 7,
+          "text": "sheath",
+          "startTime": 6.901705,
+          "endTime": 7.301845
+        },
+        {
+          "id": 8,
+          "text": "fads",
+          "startTime": 7.301845,
+          "endTime": 8.097892
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "deft early lambaste",
+      "startTime": 8.097892,
+      "endTime": 10.620621,
+      "words": [
+        {
+          "id": 9,
+          "text": "deft",
+          "startTime": 8.097892,
+          "endTime": 9.293769
+        },
+        {
+          "id": 10,
+          "text": "early",
+          "startTime": 9.293769,
+          "endTime": 9.693699
+        },
+        {
+          "id": 11,
+          "text": "lambaste",
+          "startTime": 9.693699,
+          "endTime": 10.620621
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "for long, tit for tat",
+      "startTime": 10.620621,
+      "endTime": 14.209863,
+      "words": [
+        {
+          "id": 12,
+          "text": "for",
+          "startTime": 10.620621,
+          "endTime": 11.820556
+        },
+        {
+          "id": 13,
+          "text": "long,",
+          "startTime": 11.820556,
+          "endTime": 12.348854
+        },
+        {
+          "id": 14,
+          "text": "tit",
+          "startTime": 12.348854,
+          "endTime": 13.143515
+        },
+        {
+          "id": 15,
+          "text": "for",
+          "startTime": 13.143515,
+          "endTime": 13.542883
+        },
+        {
+          "id": 16,
+          "text": "tat",
+          "startTime": 13.542883,
+          "endTime": 14.209863
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "as done your path",
+      "startTime": 14.209863,
+      "endTime": 16.865355,
+      "words": [
+        {
+          "id": 17,
+          "text": "as",
+          "startTime": 14.209863,
+          "endTime": 15.268711
+        },
+        {
+          "id": 18,
+          "text": "done",
+          "startTime": 15.268711,
+          "endTime": 15.669644
+        },
+        {
+          "id": 19,
+          "text": "your",
+          "startTime": 15.669644,
+          "endTime": 16.196758
+        },
+        {
+          "id": 20,
+          "text": "path",
+          "startTime": 16.196758,
+          "endTime": 16.865355
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "anew and buoyant",
+      "startTime": 16.865355,
+      "endTime": 19.918798,
+      "words": [
+        {
+          "id": 21,
+          "text": "anew",
+          "startTime": 16.865355,
+          "endTime": 18.457387
+        },
+        {
+          "id": 22,
+          "text": "and",
+          "startTime": 18.457387,
+          "endTime": 19.253388
+        },
+        {
+          "id": 23,
+          "text": "buoyant",
+          "startTime": 19.253388,
+          "endTime": 19.918798
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "its wind itinerant.",
+      "startTime": 19.918798,
+      "endTime": 23.777475,
+      "words": [
+        {
+          "id": 24,
+          "text": "its",
+          "startTime": 19.918798,
+          "endTime": 21.110638
+        },
+        {
+          "id": 25,
+          "text": "wind",
+          "startTime": 21.110638,
+          "endTime": 21.777475
+        },
+        {
+          "id": 26,
+          "text": "itinerant.",
+          "startTime": 21.777475,
+          "endTime": 23.777475
+        }
+      ]
+    }
+  ]
+}

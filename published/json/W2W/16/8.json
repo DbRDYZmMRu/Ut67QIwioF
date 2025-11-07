@@ -1,0 +1,138 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "In a memory shower",
+      "startTime": 3.7933,
+      "endTime": 6.447779,
+      "words": [
+        {
+          "id": 1,
+          "text": "In",
+          "startTime": 3.7933,
+          "endTime": 4.857155
+        },
+        {
+          "id": 2,
+          "text": "a",
+          "startTime": 4.857155,
+          "endTime": 4.988383
+        },
+        {
+          "id": 3,
+          "text": "memory",
+          "startTime": 4.988383,
+          "endTime": 5.517422
+        },
+        {
+          "id": 4,
+          "text": "shower",
+          "startTime": 5.517422,
+          "endTime": 6.447779
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "rusting unending bower",
+      "startTime": 6.447779,
+      "endTime": 9.510381,
+      "words": [
+        {
+          "id": 5,
+          "text": "rusting",
+          "startTime": 6.447779,
+          "endTime": 7.389111
+        },
+        {
+          "id": 6,
+          "text": "unending",
+          "startTime": 7.389111,
+          "endTime": 8.318324
+        },
+        {
+          "id": 7,
+          "text": "bower",
+          "startTime": 8.318324,
+          "endTime": 9.510381
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "our faces’ turns, our hours",
+      "startTime": 9.510381,
+      "endTime": 14.292995,
+      "words": [
+        {
+          "id": 8,
+          "text": "our",
+          "startTime": 9.510381,
+          "endTime": 10.706124
+        },
+        {
+          "id": 9,
+          "text": "faces’",
+          "startTime": 10.706124,
+          "endTime": 11.238894
+        },
+        {
+          "id": 10,
+          "text": "turns,",
+          "startTime": 11.238894,
+          "endTime": 12.434176
+        },
+        {
+          "id": 11,
+          "text": "our",
+          "startTime": 12.434176,
+          "endTime": 13.229162
+        },
+        {
+          "id": 12,
+          "text": "hours",
+          "startTime": 13.229162,
+          "endTime": 14.292995
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "wheeling to exist raining louts.",
+      "startTime": 14.292995,
+      "endTime": 20.412289,
+      "words": [
+        {
+          "id": 13,
+          "text": "wheeling",
+          "startTime": 14.292995,
+          "endTime": 15.885726
+        },
+        {
+          "id": 14,
+          "text": "to",
+          "startTime": 15.885726,
+          "endTime": 16.019175
+        },
+        {
+          "id": 15,
+          "text": "exist",
+          "startTime": 16.019175,
+          "endTime": 17.212477
+        },
+        {
+          "id": 16,
+          "text": "raining",
+          "startTime": 17.212477,
+          "endTime": 18.412289
+        },
+        {
+          "id": 17,
+          "text": "louts.",
+          "startTime": 18.412289,
+          "endTime": 20.412289
+        }
+      ]
+    }
+  ]
+}

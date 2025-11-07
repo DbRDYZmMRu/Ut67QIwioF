@@ -1,0 +1,162 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I'll unravel from her mind",
+      "startTime": 3.589078,
+      "endTime": 7.308351,
+      "words": [
+        {
+          "id": 1,
+          "text": "I'll",
+          "startTime": 3.589078,
+          "endTime": 4.917494
+        },
+        {
+          "id": 2,
+          "text": "unravel",
+          "startTime": 4.917494,
+          "endTime": 5.71755
+        },
+        {
+          "id": 3,
+          "text": "from",
+          "startTime": 5.71755,
+          "endTime": 6.244972
+        },
+        {
+          "id": 4,
+          "text": "her",
+          "startTime": 6.244972,
+          "endTime": 6.508363
+        },
+        {
+          "id": 5,
+          "text": "mind",
+          "startTime": 6.508363,
+          "endTime": 7.308351
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "when words meet their cliff",
+      "startTime": 7.308351,
+      "endTime": 11.025893,
+      "words": [
+        {
+          "id": 6,
+          "text": "when",
+          "startTime": 7.308351,
+          "endTime": 7.970707
+        },
+        {
+          "id": 7,
+          "text": "words",
+          "startTime": 7.970707,
+          "endTime": 8.770385
+        },
+        {
+          "id": 8,
+          "text": "meet",
+          "startTime": 8.770385,
+          "endTime": 9.564539
+        },
+        {
+          "id": 9,
+          "text": "their",
+          "startTime": 9.564539,
+          "endTime": 9.963205
+        },
+        {
+          "id": 10,
+          "text": "cliff",
+          "startTime": 9.963205,
+          "endTime": 11.025893
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "stop in chase of their design",
+      "startTime": 11.025893,
+      "endTime": 15.410948,
+      "words": [
+        {
+          "id": 11,
+          "text": "stop",
+          "startTime": 11.025893,
+          "endTime": 12.487388
+        },
+        {
+          "id": 12,
+          "text": "in",
+          "startTime": 12.487388,
+          "endTime": 13.154393
+        },
+        {
+          "id": 13,
+          "text": "chase",
+          "startTime": 13.154393,
+          "endTime": 13.81792
+        },
+        {
+          "id": 14,
+          "text": "of",
+          "startTime": 13.81792,
+          "endTime": 14.348315
+        },
+        {
+          "id": 15,
+          "text": "their",
+          "startTime": 14.348315,
+          "endTime": 14.614292
+        },
+        {
+          "id": 16,
+          "text": "design",
+          "startTime": 14.614292,
+          "endTime": 15.410948
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "her mind's back hills feelings.",
+      "startTime": 15.410948,
+      "endTime": 20.728117,
+      "words": [
+        {
+          "id": 17,
+          "text": "her",
+          "startTime": 15.410948,
+          "endTime": 16.738422
+        },
+        {
+          "id": 18,
+          "text": "mind's",
+          "startTime": 16.738422,
+          "endTime": 17.270177
+        },
+        {
+          "id": 19,
+          "text": "back",
+          "startTime": 17.270177,
+          "endTime": 17.800233
+        },
+        {
+          "id": 20,
+          "text": "hills",
+          "startTime": 17.800233,
+          "endTime": 18.728117
+        },
+        {
+          "id": 21,
+          "text": "feelings.",
+          "startTime": 18.728117,
+          "endTime": 20.728117
+        }
+      ]
+    }
+  ]
+}

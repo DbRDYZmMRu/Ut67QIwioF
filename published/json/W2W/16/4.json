@@ -1,0 +1,344 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "My encumbering best",
+      "startTime": 2.99134,
+      "endTime": 5.650459,
+      "words": [
+        {
+          "id": 1,
+          "text": "My",
+          "startTime": 2.99134,
+          "endTime": 4.454311
+        },
+        {
+          "id": 2,
+          "text": "encumbering",
+          "startTime": 4.454311,
+          "endTime": 5.118727
+        },
+        {
+          "id": 3,
+          "text": "best",
+          "startTime": 5.118727,
+          "endTime": 5.650459
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "soils my diaper scent",
+      "startTime": 5.650459,
+      "endTime": 8.306738,
+      "words": [
+        {
+          "id": 4,
+          "text": "soils",
+          "startTime": 5.650459,
+          "endTime": 6.445114
+        },
+        {
+          "id": 5,
+          "text": "my",
+          "startTime": 6.445114,
+          "endTime": 7.110848
+        },
+        {
+          "id": 6,
+          "text": "diaper",
+          "startTime": 7.110848,
+          "endTime": 7.510095
+        },
+        {
+          "id": 7,
+          "text": "scent",
+          "startTime": 7.510095,
+          "endTime": 8.306738
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "as breakfast tilts tent",
+      "startTime": 8.306738,
+      "endTime": 11.358848,
+      "words": [
+        {
+          "id": 8,
+          "text": "as",
+          "startTime": 8.306738,
+          "endTime": 9.766587
+        },
+        {
+          "id": 9,
+          "text": "breakfast",
+          "startTime": 9.766587,
+          "endTime": 10.297257
+        },
+        {
+          "id": 10,
+          "text": "tilts",
+          "startTime": 10.297257,
+          "endTime": 10.82851
+        },
+        {
+          "id": 11,
+          "text": "tent",
+          "startTime": 10.82851,
+          "endTime": 11.358848
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "so a drawing contest",
+      "startTime": 11.358848,
+      "endTime": 13.885128,
+      "words": [
+        {
+          "id": 12,
+          "text": "so",
+          "startTime": 11.358848,
+          "endTime": 12.424539
+        },
+        {
+          "id": 13,
+          "text": "a",
+          "startTime": 12.424539,
+          "endTime": 12.689793
+        },
+        {
+          "id": 14,
+          "text": "drawing",
+          "startTime": 12.689793,
+          "endTime": 12.952448
+        },
+        {
+          "id": 15,
+          "text": "contest",
+          "startTime": 12.952448,
+          "endTime": 13.885128
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "for a better sentence",
+      "startTime": 13.885128,
+      "endTime": 16.671489,
+      "words": [
+        {
+          "id": 16,
+          "text": "for",
+          "startTime": 13.885128,
+          "endTime": 15.078333
+        },
+        {
+          "id": 17,
+          "text": "a",
+          "startTime": 15.078333,
+          "endTime": 15.341697
+        },
+        {
+          "id": 18,
+          "text": "better",
+          "startTime": 15.341697,
+          "endTime": 15.742577
+        },
+        {
+          "id": 19,
+          "text": "sentence",
+          "startTime": 15.742577,
+          "endTime": 16.671489
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "impressing its parent",
+      "startTime": 16.671489,
+      "endTime": 19.595619,
+      "words": [
+        {
+          "id": 20,
+          "text": "impressing",
+          "startTime": 16.671489,
+          "endTime": 18.132306
+        },
+        {
+          "id": 21,
+          "text": "its",
+          "startTime": 18.132306,
+          "endTime": 18.534278
+        },
+        {
+          "id": 22,
+          "text": "parent",
+          "startTime": 18.534278,
+          "endTime": 19.595619
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "it is data orderliness",
+      "startTime": 19.595619,
+      "endTime": 22.914895,
+      "words": [
+        {
+          "id": 23,
+          "text": "it",
+          "startTime": 19.595619,
+          "endTime": 20.919848
+        },
+        {
+          "id": 24,
+          "text": "is",
+          "startTime": 20.919848,
+          "endTime": 21.054345
+        },
+        {
+          "id": 25,
+          "text": "data",
+          "startTime": 21.054345,
+          "endTime": 21.45342
+        },
+        {
+          "id": 26,
+          "text": "orderliness",
+          "startTime": 21.45342,
+          "endTime": 22.914895
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "love’s first sign sent",
+      "startTime": 22.914895,
+      "endTime": 26.371589,
+      "words": [
+        {
+          "id": 27,
+          "text": "love’s",
+          "startTime": 22.914895,
+          "endTime": 24.243288
+        },
+        {
+          "id": 28,
+          "text": "first",
+          "startTime": 24.243288,
+          "endTime": 24.641299
+        },
+        {
+          "id": 29,
+          "text": "sign",
+          "startTime": 24.641299,
+          "endTime": 25.170023
+        },
+        {
+          "id": 30,
+          "text": "sent",
+          "startTime": 25.170023,
+          "endTime": 26.371589
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "telling of a progress",
+      "startTime": 26.371589,
+      "endTime": 28.49155,
+      "words": [
+        {
+          "id": 31,
+          "text": "telling",
+          "startTime": 26.371589,
+          "endTime": 27.161887
+        },
+        {
+          "id": 32,
+          "text": "of",
+          "startTime": 27.161887,
+          "endTime": 27.43109
+        },
+        {
+          "id": 33,
+          "text": "a",
+          "startTime": 27.43109,
+          "endTime": 27.559805
+        },
+        {
+          "id": 34,
+          "text": "progress",
+          "startTime": 27.559805,
+          "endTime": 28.49155
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "today it is earliness",
+      "startTime": 28.49155,
+      "endTime": 32.212035,
+      "words": [
+        {
+          "id": 35,
+          "text": "today",
+          "startTime": 28.49155,
+          "endTime": 30.214901
+        },
+        {
+          "id": 36,
+          "text": "it",
+          "startTime": 30.214901,
+          "endTime": 30.88533
+        },
+        {
+          "id": 37,
+          "text": "is",
+          "startTime": 30.88533,
+          "endTime": 31.148034
+        },
+        {
+          "id": 38,
+          "text": "earliness",
+          "startTime": 31.148034,
+          "endTime": 32.212035
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "by good morn sent.",
+      "startTime": 32.212035,
+      "endTime": 35.537567,
+      "words": [
+        {
+          "id": 39,
+          "text": "by",
+          "startTime": 32.212035,
+          "endTime": 32.87585
+        },
+        {
+          "id": 40,
+          "text": "good",
+          "startTime": 32.87585,
+          "endTime": 33.139541
+        },
+        {
+          "id": 41,
+          "text": "morn",
+          "startTime": 33.139541,
+          "endTime": 33.537567
+        },
+        {
+          "id": 42,
+          "text": "sent.",
+          "startTime": 33.537567,
+          "endTime": 35.537567
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "You please earth's pets",
+      "startTime": 2.191488,
+      "endTime": 5.117195,
+      "words": [
+        {
+          "id": 1,
+          "text": "You",
+          "startTime": 2.191488,
+          "endTime": 3.25575
+        },
+        {
+          "id": 2,
+          "text": "please",
+          "startTime": 3.25575,
+          "endTime": 3.653554
+        },
+        {
+          "id": 3,
+          "text": "earth's",
+          "startTime": 3.653554,
+          "endTime": 4.185079
+        },
+        {
+          "id": 4,
+          "text": "pets",
+          "startTime": 4.185079,
+          "endTime": 5.117195
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "silver, as gold’s heat rent",
+      "startTime": 5.117195,
+      "endTime": 9.632146,
+      "words": [
+        {
+          "id": 5,
+          "text": "silver,",
+          "startTime": 5.117195,
+          "endTime": 6.44585
+        },
+        {
+          "id": 6,
+          "text": "as",
+          "startTime": 6.44585,
+          "endTime": 7.63639
+        },
+        {
+          "id": 7,
+          "text": "gold’s",
+          "startTime": 7.63639,
+          "endTime": 8.036825
+        },
+        {
+          "id": 8,
+          "text": "heat",
+          "startTime": 8.036825,
+          "endTime": 8.435934
+        },
+        {
+          "id": 9,
+          "text": "rent",
+          "startTime": 8.435934,
+          "endTime": 9.632146
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "I remember a smelted yet",
+      "startTime": 9.632146,
+      "endTime": 12.81922,
+      "words": [
+        {
+          "id": 10,
+          "text": "I",
+          "startTime": 9.632146,
+          "endTime": 10.561172
+        },
+        {
+          "id": 11,
+          "text": "remember",
+          "startTime": 10.561172,
+          "endTime": 11.223092
+        },
+        {
+          "id": 12,
+          "text": "a",
+          "startTime": 11.223092,
+          "endTime": 11.488735
+        },
+        {
+          "id": 13,
+          "text": "smelted",
+          "startTime": 11.488735,
+          "endTime": 12.021184
+        },
+        {
+          "id": 14,
+          "text": "yet",
+          "startTime": 12.021184,
+          "endTime": 12.81922
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "by a lack of choice silliness.",
+      "startTime": 12.81922,
+      "endTime": 16.940403,
+      "words": [
+        {
+          "id": 15,
+          "text": "by",
+          "startTime": 12.81922,
+          "endTime": 13.479823
+        },
+        {
+          "id": 16,
+          "text": "a",
+          "startTime": 13.479823,
+          "endTime": 13.614117
+        },
+        {
+          "id": 17,
+          "text": "lack",
+          "startTime": 13.614117,
+          "endTime": 14.013494
+        },
+        {
+          "id": 18,
+          "text": "of",
+          "startTime": 14.013494,
+          "endTime": 14.40757
+        },
+        {
+          "id": 19,
+          "text": "choice",
+          "startTime": 14.40757,
+          "endTime": 14.940403
+        },
+        {
+          "id": 20,
+          "text": "silliness.",
+          "startTime": 14.940403,
+          "endTime": 16.940403
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I shaped her weight",
+      "startTime": 3.344096,
+      "endTime": 5.469207,
+      "words": [
+        {
+          "id": 1,
+          "text": "I",
+          "startTime": 3.344096,
+          "endTime": 4.137402
+        },
+        {
+          "id": 2,
+          "text": "shaped",
+          "startTime": 4.137402,
+          "endTime": 4.536833
+        },
+        {
+          "id": 3,
+          "text": "her",
+          "startTime": 4.536833,
+          "endTime": 4.670779
+        },
+        {
+          "id": 4,
+          "text": "weight",
+          "startTime": 4.670779,
+          "endTime": 5.469207
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "brittle as a thawing lake",
+      "startTime": 5.469207,
+      "endTime": 8.653645,
+      "words": [
+        {
+          "id": 5,
+          "text": "brittle",
+          "startTime": 5.469207,
+          "endTime": 6.528861
+        },
+        {
+          "id": 6,
+          "text": "as",
+          "startTime": 6.528861,
+          "endTime": 7.325947
+        },
+        {
+          "id": 7,
+          "text": "a",
+          "startTime": 7.325947,
+          "endTime": 7.459049
+        },
+        {
+          "id": 8,
+          "text": "thawing",
+          "startTime": 7.459049,
+          "endTime": 7.857157
+        },
+        {
+          "id": 9,
+          "text": "lake",
+          "startTime": 7.857157,
+          "endTime": 8.653645
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "demure with a heavy pace",
+      "startTime": 8.653645,
+      "endTime": 12.236849,
+      "words": [
+        {
+          "id": 10,
+          "text": "demure",
+          "startTime": 8.653645,
+          "endTime": 10.113804
+        },
+        {
+          "id": 11,
+          "text": "with",
+          "startTime": 10.113804,
+          "endTime": 10.907793
+        },
+        {
+          "id": 12,
+          "text": "a",
+          "startTime": 10.907793,
+          "endTime": 11.043699
+        },
+        {
+          "id": 13,
+          "text": "heavy",
+          "startTime": 11.043699,
+          "endTime": 11.441267
+        },
+        {
+          "id": 14,
+          "text": "pace",
+          "startTime": 11.441267,
+          "endTime": 12.236849
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "over each other, we met again.",
+      "startTime": 12.236849,
+      "endTime": 17.293098,
+      "words": [
+        {
+          "id": 15,
+          "text": "over",
+          "startTime": 12.236849,
+          "endTime": 13.431293
+        },
+        {
+          "id": 16,
+          "text": "each",
+          "startTime": 13.431293,
+          "endTime": 13.569157
+        },
+        {
+          "id": 17,
+          "text": "other,",
+          "startTime": 13.569157,
+          "endTime": 14.099621
+        },
+        {
+          "id": 18,
+          "text": "we",
+          "startTime": 14.099621,
+          "endTime": 15.025657
+        },
+        {
+          "id": 19,
+          "text": "met",
+          "startTime": 15.025657,
+          "endTime": 15.293098
+        },
+        {
+          "id": 20,
+          "text": "again.",
+          "startTime": 15.293098,
+          "endTime": 17.293098
+        }
+      ]
+    }
+  ]
+}
