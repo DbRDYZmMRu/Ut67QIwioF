@@ -1,0 +1,248 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Now I lay me down to sleep,",
+      "startTime": 3.590291,
+      "endTime": 6.779161,
+      "words": [
+        {
+          "id": 1,
+          "text": "Now",
+          "startTime": 3.590291,
+          "endTime": 5.051446
+        },
+        {
+          "id": 2,
+          "text": "I",
+          "startTime": 5.051446,
+          "endTime": 5.182102
+        },
+        {
+          "id": 3,
+          "text": "lay",
+          "startTime": 5.182102,
+          "endTime": 5.450801
+        },
+        {
+          "id": 4,
+          "text": "me",
+          "startTime": 5.450801,
+          "endTime": 5.712888
+        },
+        {
+          "id": 5,
+          "text": "down",
+          "startTime": 5.712888,
+          "endTime": 6.113573
+        },
+        {
+          "id": 6,
+          "text": "to",
+          "startTime": 6.113573,
+          "endTime": 6.381855
+        },
+        {
+          "id": 7,
+          "text": "sleep,",
+          "startTime": 6.381855,
+          "endTime": 6.779161
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "I pray thee, Lord, my soul to keep;",
+      "startTime": 6.779161,
+      "endTime": 11.5601,
+      "words": [
+        {
+          "id": 8,
+          "text": "I",
+          "startTime": 6.779161,
+          "endTime": 8.107747
+        },
+        {
+          "id": 9,
+          "text": "pray",
+          "startTime": 8.107747,
+          "endTime": 8.37232
+        },
+        {
+          "id": 10,
+          "text": "thee,",
+          "startTime": 8.37232,
+          "endTime": 8.770564
+        },
+        {
+          "id": 11,
+          "text": "Lord,",
+          "startTime": 8.770564,
+          "endTime": 9.96403
+        },
+        {
+          "id": 12,
+          "text": "my",
+          "startTime": 9.96403,
+          "endTime": 10.364072
+        },
+        {
+          "id": 13,
+          "text": "soul",
+          "startTime": 10.364072,
+          "endTime": 10.762115
+        },
+        {
+          "id": 14,
+          "text": "to",
+          "startTime": 10.762115,
+          "endTime": 11.029469
+        },
+        {
+          "id": 15,
+          "text": "keep;",
+          "startTime": 11.029469,
+          "endTime": 11.5601
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "to smear my dreams with breeze",
+      "startTime": 11.5601,
+      "endTime": 15.941957,
+      "words": [
+        {
+          "id": 16,
+          "text": "to",
+          "startTime": 11.5601,
+          "endTime": 13.017994
+        },
+        {
+          "id": 17,
+          "text": "smear",
+          "startTime": 13.017994,
+          "endTime": 13.284688
+        },
+        {
+          "id": 18,
+          "text": "my",
+          "startTime": 13.284688,
+          "endTime": 13.416855
+        },
+        {
+          "id": 19,
+          "text": "dreams",
+          "startTime": 13.416855,
+          "endTime": 13.817732
+        },
+        {
+          "id": 20,
+          "text": "with",
+          "startTime": 13.817732,
+          "endTime": 15.013864
+        },
+        {
+          "id": 21,
+          "text": "breeze",
+          "startTime": 15.013864,
+          "endTime": 15.941957
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "make of my morning a prince movie",
+      "startTime": 15.941957,
+      "endTime": 20.322617,
+      "words": [
+        {
+          "id": 22,
+          "text": "make",
+          "startTime": 15.941957,
+          "endTime": 17.404533
+        },
+        {
+          "id": 23,
+          "text": "of",
+          "startTime": 17.404533,
+          "endTime": 17.534388
+        },
+        {
+          "id": 24,
+          "text": "my",
+          "startTime": 17.534388,
+          "endTime": 17.799831
+        },
+        {
+          "id": 25,
+          "text": "morning",
+          "startTime": 17.799831,
+          "endTime": 18.197493
+        },
+        {
+          "id": 26,
+          "text": "a",
+          "startTime": 18.197493,
+          "endTime": 19.129694
+        },
+        {
+          "id": 27,
+          "text": "prince",
+          "startTime": 19.129694,
+          "endTime": 19.526337
+        },
+        {
+          "id": 28,
+          "text": "movie",
+          "startTime": 19.526337,
+          "endTime": 20.322617
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "where mirth flows in his breathing.",
+      "startTime": 20.322617,
+      "endTime": 26.443274,
+      "words": [
+        {
+          "id": 29,
+          "text": "where",
+          "startTime": 20.322617,
+          "endTime": 21.517631
+        },
+        {
+          "id": 30,
+          "text": "mirth",
+          "startTime": 21.517631,
+          "endTime": 22.049765
+        },
+        {
+          "id": 31,
+          "text": "flows",
+          "startTime": 22.049765,
+          "endTime": 23.24482
+        },
+        {
+          "id": 32,
+          "text": "in",
+          "startTime": 23.24482,
+          "endTime": 24.309229
+        },
+        {
+          "id": 33,
+          "text": "his",
+          "startTime": 24.309229,
+          "endTime": 24.443274
+        },
+        {
+          "id": 34,
+          "text": "breathing.",
+          "startTime": 24.443274,
+          "endTime": 26.443274
+        }
+      ]
+    }
+  ]
+}

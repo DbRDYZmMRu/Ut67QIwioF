@@ -1,0 +1,194 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Eve dumps on her bed",
+      "startTime": 4.179517,
+      "endTime": 7.366369,
+      "words": [
+        {
+          "id": 1,
+          "text": "Eve",
+          "startTime": 4.179517,
+          "endTime": 5.772822
+        },
+        {
+          "id": 2,
+          "text": "dumps",
+          "startTime": 5.772822,
+          "endTime": 6.440659
+        },
+        {
+          "id": 3,
+          "text": "on",
+          "startTime": 6.440659,
+          "endTime": 6.569497
+        },
+        {
+          "id": 4,
+          "text": "her",
+          "startTime": 6.569497,
+          "endTime": 6.70417
+        },
+        {
+          "id": 5,
+          "text": "bed",
+          "startTime": 6.70417,
+          "endTime": 7.366369
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "moan words we each prep",
+      "startTime": 7.366369,
+      "endTime": 10.95265,
+      "words": [
+        {
+          "id": 6,
+          "text": "moan",
+          "startTime": 7.366369,
+          "endTime": 8.827048
+        },
+        {
+          "id": 7,
+          "text": "words",
+          "startTime": 8.827048,
+          "endTime": 9.491864
+        },
+        {
+          "id": 8,
+          "text": "we",
+          "startTime": 9.491864,
+          "endTime": 10.0226
+        },
+        {
+          "id": 9,
+          "text": "each",
+          "startTime": 10.0226,
+          "endTime": 10.28633
+        },
+        {
+          "id": 10,
+          "text": "prep",
+          "startTime": 10.28633,
+          "endTime": 10.95265
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "escaping doors as unlimited",
+      "startTime": 10.95265,
+      "endTime": 15.201888,
+      "words": [
+        {
+          "id": 11,
+          "text": "escaping",
+          "startTime": 10.95265,
+          "endTime": 12.547163
+        },
+        {
+          "id": 12,
+          "text": "doors",
+          "startTime": 12.547163,
+          "endTime": 13.210184
+        },
+        {
+          "id": 13,
+          "text": "as",
+          "startTime": 13.210184,
+          "endTime": 14.006713
+        },
+        {
+          "id": 14,
+          "text": "unlimited",
+          "startTime": 14.006713,
+          "endTime": 15.201888
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "to gay worlds well frequented",
+      "startTime": 15.201888,
+      "endTime": 18.92011,
+      "words": [
+        {
+          "id": 15,
+          "text": "to",
+          "startTime": 15.201888,
+          "endTime": 15.998093
+        },
+        {
+          "id": 16,
+          "text": "gay",
+          "startTime": 15.998093,
+          "endTime": 16.265466
+        },
+        {
+          "id": 17,
+          "text": "worlds",
+          "startTime": 16.265466,
+          "endTime": 16.927536
+        },
+        {
+          "id": 18,
+          "text": "well",
+          "startTime": 16.927536,
+          "endTime": 17.99189
+        },
+        {
+          "id": 19,
+          "text": "frequented",
+          "startTime": 17.99189,
+          "endTime": 18.92011
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "before the dawn of our interest.",
+      "startTime": 18.92011,
+      "endTime": 23.973791,
+      "words": [
+        {
+          "id": 20,
+          "text": "before",
+          "startTime": 18.92011,
+          "endTime": 20.11734
+        },
+        {
+          "id": 21,
+          "text": "the",
+          "startTime": 20.11734,
+          "endTime": 20.24792
+        },
+        {
+          "id": 22,
+          "text": "dawn",
+          "startTime": 20.24792,
+          "endTime": 20.782671
+        },
+        {
+          "id": 23,
+          "text": "of",
+          "startTime": 20.782671,
+          "endTime": 21.712011
+        },
+        {
+          "id": 24,
+          "text": "our",
+          "startTime": 21.712011,
+          "endTime": 21.973791
+        },
+        {
+          "id": 25,
+          "text": "interest.",
+          "startTime": 21.973791,
+          "endTime": 23.973791
+        }
+      ]
+    }
+  ]
+}
