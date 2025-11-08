@@ -7,10 +7,9 @@ registerFont('font/Architects_Daughter.ttf', { family: 'Architects Daughter' });
 
 const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
-const outputDir = path.join(__dirname, 'images', 'share', 'W2W', '16');
+const outputDir = path.join(__dirname, 'images', 'share', 'W2W', '17');
 const titles = [
- "Poise Health", "Poses", "Love Again", "A Millisecond", "Apart", "Without Words", "That Stick", "Till the End"
-
+ "I'm Quick to Sleep", "Eavesdrop Decanted"
 
 
 ];
@@ -62,7 +61,7 @@ const generateImages = async () => {
     ctx.fillStyle = 'black';
     ctx.textAlign = 'center';
     ctx.textBaseline = 'top';
-    ctx.fillText('WEST TO WEST COLLECTION XVI', imageSize / 2, 10); // Corrected position
+    ctx.fillText('WEST TO WEST COLLECTION XVII', imageSize / 2, 10); // Corrected position
     
     // Save the image
     const buffer = canvas.toBuffer('image/png');
