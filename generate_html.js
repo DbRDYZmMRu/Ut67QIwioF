@@ -3,15 +3,14 @@ const path = require('path');
 
 // Array of poetry titles
 const poetryTitles = [
-"Poise Health", "Poses", "Love Again", "A Millisecond", "Apart", "Without Words", "That Stick", "Till the End"
-                                                       
+"I'm Quick to Sleep", "Eavesdrop Decanted"                                        
 
 
 
 ];
 
 // Create necessary directories
-const shareDir = path.join(__dirname, 'share', 'W2W', 'XVI');
+const shareDir = path.join(__dirname, 'share', 'W2W', 'XVII');
 fs.mkdirSync(shareDir, { recursive: true });
 
 // Template for the HTML content
@@ -92,16 +91,16 @@ const htmlTemplate = (title, description, keywords, ogImage, ogUrl, twitterImage
 
 // Generate HTML files
 poetryTitles.forEach((title, index) => {
-  const description = `${title} is a poem from West to West Collection XVI by Howard Frith Hilton`;
-  const keywords = `${title}, West to West Collection XVI`;
-  const ogImage = `https://frithhilton.com.ng/images/share/W2W/16/image_${index + 1}.png`;
-  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/west-to-west-collection-XVI.html?query=${index + 1}`;
+  const description = `${title} is a poem from West to West Collection XVII by Howard Frith Hilton`;
+  const keywords = `${title}, West to West Collection XVII`;
+  const ogImage = `https://frithhilton.com.ng/images/share/W2W/17/image_${index + 1}.png`;
+  const ogUrl = `https://www.frithhilton.com.ng/published/poetry/west-to-west-collection-XVII.html?query=${index + 1}`;
   const twitterImage = ogImage;
   const canonicalUrl = ogUrl;
   const redirectUrl = ogUrl;
   
   const htmlContent = htmlTemplate(
-    `${title} - West to West Collection XVI`,
+    `${title} - West to West Collection XVII`,
     description,
     keywords,
     ogImage,
