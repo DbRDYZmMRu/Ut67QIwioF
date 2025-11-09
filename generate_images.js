@@ -11,7 +11,7 @@ const outputDir = path.join(__dirname, 'images', 'share', 'W2W', '18');
 const titles = [
  "I’m Awake Now",
 "X Chat",
-"Crevices",
+"Crevice",
 "Ghee Eyes, Butter Words"
 
 
