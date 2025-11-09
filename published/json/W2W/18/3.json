@@ -1,0 +1,232 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "The depths of the mice",
+      "startTime": 3.102605,
+      "endTime": 5.62502,
+      "words": [
+        {
+          "id": 1,
+          "text": "The",
+          "startTime": 3.102605,
+          "endTime": 4.031123
+        },
+        {
+          "id": 2,
+          "text": "depths",
+          "startTime": 4.031123,
+          "endTime": 4.563112
+        },
+        {
+          "id": 3,
+          "text": "of",
+          "startTime": 4.563112,
+          "endTime": 4.693581
+        },
+        {
+          "id": 4,
+          "text": "the",
+          "startTime": 4.693581,
+          "endTime": 4.829137
+        },
+        {
+          "id": 5,
+          "text": "mice",
+          "startTime": 4.829137,
+          "endTime": 5.62502
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "the rent of my bad eye",
+      "startTime": 5.62502,
+      "endTime": 9.076535,
+      "words": [
+        {
+          "id": 6,
+          "text": "the",
+          "startTime": 5.62502,
+          "endTime": 6.554297
+        },
+        {
+          "id": 7,
+          "text": "rent",
+          "startTime": 6.554297,
+          "endTime": 7.22255
+        },
+        {
+          "id": 8,
+          "text": "of",
+          "startTime": 7.22255,
+          "endTime": 7.617942
+        },
+        {
+          "id": 9,
+          "text": "my",
+          "startTime": 7.617942,
+          "endTime": 7.883417
+        },
+        {
+          "id": 10,
+          "text": "bad",
+          "startTime": 7.883417,
+          "endTime": 8.014206
+        },
+        {
+          "id": 11,
+          "text": "eye",
+          "startTime": 8.014206,
+          "endTime": 9.076535
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "took the floor in flight",
+      "startTime": 9.076535,
+      "endTime": 12.399461,
+      "words": [
+        {
+          "id": 12,
+          "text": "took",
+          "startTime": 9.076535,
+          "endTime": 9.609368
+        },
+        {
+          "id": 13,
+          "text": "the",
+          "startTime": 9.609368,
+          "endTime": 9.875987
+        },
+        {
+          "id": 14,
+          "text": "floor",
+          "startTime": 9.875987,
+          "endTime": 10.539011
+        },
+        {
+          "id": 15,
+          "text": "in",
+          "startTime": 10.539011,
+          "endTime": 11.204617
+        },
+        {
+          "id": 16,
+          "text": "flight",
+          "startTime": 11.204617,
+          "endTime": 12.399461
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "so I stood as this spy",
+      "startTime": 12.399461,
+      "endTime": 15.98309,
+      "words": [
+        {
+          "id": 17,
+          "text": "so",
+          "startTime": 12.399461,
+          "endTime": 13.197591
+        },
+        {
+          "id": 18,
+          "text": "I",
+          "startTime": 13.197591,
+          "endTime": 13.46068
+        },
+        {
+          "id": 19,
+          "text": "stood",
+          "startTime": 13.46068,
+          "endTime": 14.127001
+        },
+        {
+          "id": 20,
+          "text": "as",
+          "startTime": 14.127001,
+          "endTime": 14.524359
+        },
+        {
+          "id": 21,
+          "text": "this",
+          "startTime": 14.524359,
+          "endTime": 14.789786
+        },
+        {
+          "id": 22,
+          "text": "spy",
+          "startTime": 14.789786,
+          "endTime": 15.98309
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "backbone of a mind",
+      "startTime": 15.98309,
+      "endTime": 18.374944,
+      "words": [
+        {
+          "id": 23,
+          "text": "backbone",
+          "startTime": 15.98309,
+          "endTime": 17.311506
+        },
+        {
+          "id": 24,
+          "text": "of",
+          "startTime": 17.311506,
+          "endTime": 17.444224
+        },
+        {
+          "id": 25,
+          "text": "a",
+          "startTime": 17.444224,
+          "endTime": 17.57732
+        },
+        {
+          "id": 26,
+          "text": "mind",
+          "startTime": 17.57732,
+          "endTime": 18.374944
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "but today, not mine.",
+      "startTime": 18.374944,
+      "endTime": 23.163947,
+      "words": [
+        {
+          "id": 27,
+          "text": "but",
+          "startTime": 18.374944,
+          "endTime": 19.704104
+        },
+        {
+          "id": 28,
+          "text": "today,",
+          "startTime": 19.704104,
+          "endTime": 20.505472
+        },
+        {
+          "id": 29,
+          "text": "not",
+          "startTime": 20.505472,
+          "endTime": 21.163947
+        },
+        {
+          "id": 30,
+          "text": "mine.",
+          "startTime": 21.163947,
+          "endTime": 23.163947
+        }
+      ]
+    }
+  ]
+}

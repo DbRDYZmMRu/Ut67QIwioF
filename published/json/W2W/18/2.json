@@ -1,0 +1,388 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "She's redolent of her fair share",
+      "startTime": 4.038246,
+      "endTime": 6.828048,
+      "words": [
+        {
+          "id": 1,
+          "text": "She's",
+          "startTime": 4.038246,
+          "endTime": 4.570916
+        },
+        {
+          "id": 2,
+          "text": "redolent",
+          "startTime": 4.570916,
+          "endTime": 5.234444
+        },
+        {
+          "id": 3,
+          "text": "of",
+          "startTime": 5.234444,
+          "endTime": 5.634574
+        },
+        {
+          "id": 4,
+          "text": "her",
+          "startTime": 5.634574,
+          "endTime": 5.766563
+        },
+        {
+          "id": 5,
+          "text": "fair",
+          "startTime": 5.766563,
+          "endTime": 6.03148
+        },
+        {
+          "id": 6,
+          "text": "share",
+          "startTime": 6.03148,
+          "endTime": 6.828048
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "her eyes mention the tell bare",
+      "startTime": 6.828048,
+      "endTime": 10.814671,
+      "words": [
+        {
+          "id": 7,
+          "text": "her",
+          "startTime": 6.828048,
+          "endTime": 7.886825
+        },
+        {
+          "id": 8,
+          "text": "eyes",
+          "startTime": 7.886825,
+          "endTime": 8.291774
+        },
+        {
+          "id": 9,
+          "text": "mention",
+          "startTime": 8.291774,
+          "endTime": 9.350328
+        },
+        {
+          "id": 10,
+          "text": "the",
+          "startTime": 9.350328,
+          "endTime": 9.613225
+        },
+        {
+          "id": 11,
+          "text": "tell",
+          "startTime": 9.613225,
+          "endTime": 9.884704
+        },
+        {
+          "id": 12,
+          "text": "bare",
+          "startTime": 9.884704,
+          "endTime": 10.814671
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "my dear roils the panic I fear",
+      "startTime": 10.814671,
+      "endTime": 15.066936,
+      "words": [
+        {
+          "id": 13,
+          "text": "my",
+          "startTime": 10.814671,
+          "endTime": 12.140613
+        },
+        {
+          "id": 14,
+          "text": "dear",
+          "startTime": 12.140613,
+          "endTime": 12.405582
+        },
+        {
+          "id": 15,
+          "text": "roils",
+          "startTime": 12.405582,
+          "endTime": 13.203479
+        },
+        {
+          "id": 16,
+          "text": "the",
+          "startTime": 13.203479,
+          "endTime": 13.469004
+        },
+        {
+          "id": 17,
+          "text": "panic",
+          "startTime": 13.469004,
+          "endTime": 13.866253
+        },
+        {
+          "id": 18,
+          "text": "I",
+          "startTime": 13.866253,
+          "endTime": 14.13458
+        },
+        {
+          "id": 19,
+          "text": "fear",
+          "startTime": 14.13458,
+          "endTime": 15.066936
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "tray in hand I server her ear",
+      "startTime": 15.066936,
+      "endTime": 20.510919,
+      "words": [
+        {
+          "id": 20,
+          "text": "tray",
+          "startTime": 15.066936,
+          "endTime": 16.387003
+        },
+        {
+          "id": 21,
+          "text": "in",
+          "startTime": 16.387003,
+          "endTime": 16.521476
+        },
+        {
+          "id": 22,
+          "text": "hand",
+          "startTime": 16.521476,
+          "endTime": 16.923283
+        },
+        {
+          "id": 23,
+          "text": "I",
+          "startTime": 16.923283,
+          "endTime": 17.849538
+        },
+        {
+          "id": 24,
+          "text": "serve",
+          "startTime": 17.849538,
+          "endTime": 18.249938
+        },
+        {
+          "id": 25,
+          "text": "her",
+          "startTime": 18.249938,
+          "endTime": 18.514922
+        },
+        {
+          "id": 26,
+          "text": "ear",
+          "startTime": 18.514922,
+          "endTime": 20.510919
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "longing her perspiring near",
+      "startTime": 20.510919,
+      "endTime": 23.296515,
+      "words": [
+        {
+          "id": 27,
+          "text": "longing",
+          "startTime": 20.510919,
+          "endTime": 20.774438
+        },
+        {
+          "id": 28,
+          "text": "her",
+          "startTime": 20.774438,
+          "endTime": 21.570483
+        },
+        {
+          "id": 29,
+          "text": "perspiring",
+          "startTime": 21.570483,
+          "endTime": 22.233178
+        },
+        {
+          "id": 30,
+          "text": "near",
+          "startTime": 22.233178,
+          "endTime": 23.296515
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "debts of our skin prepared",
+      "startTime": 23.296515,
+      "endTime": 27.280974,
+      "words": [
+        {
+          "id": 31,
+          "text": "debts",
+          "startTime": 23.296515,
+          "endTime": 24.358259
+        },
+        {
+          "id": 32,
+          "text": "of",
+          "startTime": 24.358259,
+          "endTime": 24.492566
+        },
+        {
+          "id": 33,
+          "text": "our",
+          "startTime": 24.492566,
+          "endTime": 24.759861
+        },
+        {
+          "id": 34,
+          "text": "skin",
+          "startTime": 24.759861,
+          "endTime": 25.288394
+        },
+        {
+          "id": 35,
+          "text": "prepared",
+          "startTime": 25.288394,
+          "endTime": 27.280974
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "all she owes riped in here",
+      "startTime": 27.280974,
+      "endTime": 31.002488,
+      "words": [
+        {
+          "id": 36,
+          "text": "all",
+          "startTime": 27.280974,
+          "endTime": 28.476001
+        },
+        {
+          "id": 37,
+          "text": "she",
+          "startTime": 28.476001,
+          "endTime": 28.743286
+        },
+        {
+          "id": 38,
+          "text": "owes",
+          "startTime": 28.743286,
+          "endTime": 29.673087
+        },
+        {
+          "id": 39,
+          "text": "riped",
+          "startTime": 29.673087,
+          "endTime": 29.938693
+        },
+        {
+          "id": 40,
+          "text": "in",
+          "startTime": 29.938693,
+          "endTime": 30.203416
+        },
+        {
+          "id": 41,
+          "text": "here",
+          "startTime": 30.203416,
+          "endTime": 31.002488
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "so I fit in the slice’s quiet",
+      "startTime": 31.002488,
+      "endTime": 33.789857,
+      "words": [
+        {
+          "id": 42,
+          "text": "so",
+          "startTime": 31.002488,
+          "endTime": 31.796639
+        },
+        {
+          "id": 43,
+          "text": "I",
+          "startTime": 31.796639,
+          "endTime": 32.063348
+        },
+        {
+          "id": 44,
+          "text": "fit",
+          "startTime": 32.063348,
+          "endTime": 32.326075
+        },
+        {
+          "id": 45,
+          "text": "in",
+          "startTime": 32.326075,
+          "endTime": 32.462074
+        },
+        {
+          "id": 46,
+          "text": "the",
+          "startTime": 32.462074,
+          "endTime": 32.59429
+        },
+        {
+          "id": 47,
+          "text": "slice’s",
+          "startTime": 32.59429,
+          "endTime": 33.124658
+        },
+        {
+          "id": 48,
+          "text": "quiet",
+          "startTime": 33.124658,
+          "endTime": 33.789857
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "returning bites off read.",
+      "startTime": 33.789857,
+      "endTime": 39.111491,
+      "words": [
+        {
+          "id": 49,
+          "text": "returning",
+          "startTime": 33.789857,
+          "endTime": 35.518443
+        },
+        {
+          "id": 50,
+          "text": "bites",
+          "startTime": 35.518443,
+          "endTime": 36.181047
+        },
+        {
+          "id": 51,
+          "text": "off",
+          "startTime": 36.181047,
+          "endTime": 37.111491
+        },
+        {
+          "id": 52,
+          "text": "read.",
+          "startTime": 37.111491,
+          "endTime": 39.111491
+        }
+      ]
+    }
+  ]
+}

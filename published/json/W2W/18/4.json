@@ -1,0 +1,404 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Sharing baths made of words",
+      "startTime": 4.630316,
+      "endTime": 8.224115,
+      "words": [
+        {
+          "id": 1,
+          "text": "Sharing",
+          "startTime": 4.630316,
+          "endTime": 6.364564
+        },
+        {
+          "id": 2,
+          "text": "baths",
+          "startTime": 6.364564,
+          "endTime": 6.761323
+        },
+        {
+          "id": 3,
+          "text": "made",
+          "startTime": 6.761323,
+          "endTime": 7.16036
+        },
+        {
+          "id": 4,
+          "text": "of",
+          "startTime": 7.16036,
+          "endTime": 7.293792
+        },
+        {
+          "id": 5,
+          "text": "words",
+          "startTime": 7.293792,
+          "endTime": 8.224115
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "the early math to solve for loss",
+      "startTime": 8.224115,
+      "endTime": 11.81064,
+      "words": [
+        {
+          "id": 6,
+          "text": "the",
+          "startTime": 8.224115,
+          "endTime": 9.294022
+        },
+        {
+          "id": 7,
+          "text": "early",
+          "startTime": 9.294022,
+          "endTime": 9.420979
+        },
+        {
+          "id": 8,
+          "text": "math",
+          "startTime": 9.420979,
+          "endTime": 9.817882
+        },
+        {
+          "id": 9,
+          "text": "to",
+          "startTime": 9.817882,
+          "endTime": 10.615385
+        },
+        {
+          "id": 10,
+          "text": "solve",
+          "startTime": 10.615385,
+          "endTime": 10.747003
+        },
+        {
+          "id": 11,
+          "text": "for",
+          "startTime": 10.747003,
+          "endTime": 11.284268
+        },
+        {
+          "id": 12,
+          "text": "loss",
+          "startTime": 11.284268,
+          "endTime": 11.81064
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "led to zero when her eyes poured",
+      "startTime": 11.81064,
+      "endTime": 15.796059,
+      "words": [
+        {
+          "id": 13,
+          "text": "led",
+          "startTime": 11.81064,
+          "endTime": 13.008624
+        },
+        {
+          "id": 14,
+          "text": "to",
+          "startTime": 13.008624,
+          "endTime": 13.270191
+        },
+        {
+          "id": 15,
+          "text": "zero",
+          "startTime": 13.270191,
+          "endTime": 13.801851
+        },
+        {
+          "id": 16,
+          "text": "when",
+          "startTime": 13.801851,
+          "endTime": 14.599321
+        },
+        {
+          "id": 17,
+          "text": "her",
+          "startTime": 14.599321,
+          "endTime": 14.732797
+        },
+        {
+          "id": 18,
+          "text": "eyes",
+          "startTime": 14.732797,
+          "endTime": 15.129127
+        },
+        {
+          "id": 19,
+          "text": "poured",
+          "startTime": 15.129127,
+          "endTime": 15.796059
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "her cornea words up an ocean floor",
+      "startTime": 15.796059,
+      "endTime": 20.4423,
+      "words": [
+        {
+          "id": 20,
+          "text": "her",
+          "startTime": 15.796059,
+          "endTime": 16.855553
+        },
+        {
+          "id": 21,
+          "text": "cornea",
+          "startTime": 16.855553,
+          "endTime": 17.522298
+        },
+        {
+          "id": 22,
+          "text": "words",
+          "startTime": 17.522298,
+          "endTime": 18.186269
+        },
+        {
+          "id": 23,
+          "text": "up",
+          "startTime": 18.186269,
+          "endTime": 18.849406
+        },
+        {
+          "id": 24,
+          "text": "an",
+          "startTime": 18.849406,
+          "endTime": 18.981672
+        },
+        {
+          "id": 25,
+          "text": "ocean",
+          "startTime": 18.981672,
+          "endTime": 19.51403
+        },
+        {
+          "id": 26,
+          "text": "floor",
+          "startTime": 19.51403,
+          "endTime": 20.4423
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "a forest I'd long believed, out unsung",
+      "startTime": 20.4423,
+      "endTime": 26.818151,
+      "words": [
+        {
+          "id": 27,
+          "text": "a",
+          "startTime": 20.4423,
+          "endTime": 21.372192
+        },
+        {
+          "id": 28,
+          "text": "forest",
+          "startTime": 21.372192,
+          "endTime": 21.771239
+        },
+        {
+          "id": 29,
+          "text": "I'd",
+          "startTime": 21.771239,
+          "endTime": 22.700539
+        },
+        {
+          "id": 30,
+          "text": "long",
+          "startTime": 22.700539,
+          "endTime": 23.234191
+        },
+        {
+          "id": 31,
+          "text": "believed,",
+          "startTime": 23.234191,
+          "endTime": 24.027598
+        },
+        {
+          "id": 32,
+          "text": "out",
+          "startTime": 24.027598,
+          "endTime": 24.957823
+        },
+        {
+          "id": 33,
+          "text": "unsung",
+          "startTime": 24.957823,
+          "endTime": 26.818151
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "and in the clarity as of a hum, I toured",
+      "startTime": 26.818151,
+      "endTime": 32.395393,
+      "words": [
+        {
+          "id": 34,
+          "text": "and",
+          "startTime": 26.818151,
+          "endTime": 28.281052
+        },
+        {
+          "id": 35,
+          "text": "in",
+          "startTime": 28.281052,
+          "endTime": 28.411518
+        },
+        {
+          "id": 36,
+          "text": "the",
+          "startTime": 28.411518,
+          "endTime": 28.545594
+        },
+        {
+          "id": 37,
+          "text": "clarity",
+          "startTime": 28.545594,
+          "endTime": 29.475782
+        },
+        {
+          "id": 38,
+          "text": "as",
+          "startTime": 29.475782,
+          "endTime": 29.870437
+        },
+        {
+          "id": 39,
+          "text": "of",
+          "startTime": 29.870437,
+          "endTime": 30.138829
+        },
+        {
+          "id": 40,
+          "text": "a",
+          "startTime": 30.138829,
+          "endTime": 30.271326
+        },
+        {
+          "id": 41,
+          "text": "hum,",
+          "startTime": 30.271326,
+          "endTime": 30.802907
+        },
+        {
+          "id": 42,
+          "text": "I",
+          "startTime": 30.802907,
+          "endTime": 31.598638
+        },
+        {
+          "id": 43,
+          "text": "toured",
+          "startTime": 31.598638,
+          "endTime": 32.395393
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "when past choice, I kissed ephemerous",
+      "startTime": 32.395393,
+      "endTime": 37.443196,
+      "words": [
+        {
+          "id": 44,
+          "text": "when",
+          "startTime": 32.395393,
+          "endTime": 33.858841
+        },
+        {
+          "id": 45,
+          "text": "past",
+          "startTime": 33.858841,
+          "endTime": 34.256359
+        },
+        {
+          "id": 46,
+          "text": "choice,",
+          "startTime": 34.256359,
+          "endTime": 35.184255
+        },
+        {
+          "id": 47,
+          "text": "I",
+          "startTime": 35.184255,
+          "endTime": 35.847674
+        },
+        {
+          "id": 48,
+          "text": "kissed",
+          "startTime": 35.847674,
+          "endTime": 36.114431
+        },
+        {
+          "id": 49,
+          "text": "ephemerous",
+          "startTime": 36.114431,
+          "endTime": 37.443196
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "to remember in kindling again her picture.",
+      "startTime": 37.443196,
+      "endTime": 44.88878,
+      "words": [
+        {
+          "id": 50,
+          "text": "to",
+          "startTime": 37.443196,
+          "endTime": 38.637447
+        },
+        {
+          "id": 51,
+          "text": "remember",
+          "startTime": 38.637447,
+          "endTime": 39.567074
+        },
+        {
+          "id": 52,
+          "text": "in",
+          "startTime": 39.567074,
+          "endTime": 40.3644
+        },
+        {
+          "id": 53,
+          "text": "kindling",
+          "startTime": 40.3644,
+          "endTime": 40.896753
+        },
+        {
+          "id": 54,
+          "text": "again",
+          "startTime": 40.896753,
+          "endTime": 41.694472
+        },
+        {
+          "id": 55,
+          "text": "her",
+          "startTime": 41.694472,
+          "endTime": 42.88878
+        },
+        {
+          "id": 56,
+          "text": "picture.",
+          "startTime": 42.88878,
+          "endTime": 44.88878
+        }
+      ]
+    }
+  ]
+}

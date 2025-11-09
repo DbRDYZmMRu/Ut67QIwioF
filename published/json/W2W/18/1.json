@@ -1,0 +1,198 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Sleep revised the words you said",
+      "startTime": 3.476127,
+      "endTime": 7.192331,
+      "words": [
+        {
+          "id": 1,
+          "text": "Sleep",
+          "startTime": 3.476127,
+          "endTime": 4.937726
+        },
+        {
+          "id": 2,
+          "text": "revised",
+          "startTime": 4.937726,
+          "endTime": 5.731462
+        },
+        {
+          "id": 3,
+          "text": "the",
+          "startTime": 5.731462,
+          "endTime": 5.998983
+        },
+        {
+          "id": 4,
+          "text": "words",
+          "startTime": 5.998983,
+          "endTime": 6.264241
+        },
+        {
+          "id": 5,
+          "text": "you",
+          "startTime": 6.264241,
+          "endTime": 6.530611
+        },
+        {
+          "id": 6,
+          "text": "said",
+          "startTime": 6.530611,
+          "endTime": 7.192331
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "the bed hankered more in pretence",
+      "startTime": 7.192331,
+      "endTime": 11.177286,
+      "words": [
+        {
+          "id": 7,
+          "text": "the",
+          "startTime": 7.192331,
+          "endTime": 8.255333
+        },
+        {
+          "id": 8,
+          "text": "bed",
+          "startTime": 8.255333,
+          "endTime": 8.521751
+        },
+        {
+          "id": 9,
+          "text": "hankered",
+          "startTime": 8.521751,
+          "endTime": 9.18431
+        },
+        {
+          "id": 10,
+          "text": "more",
+          "startTime": 9.18431,
+          "endTime": 9.716348
+        },
+        {
+          "id": 11,
+          "text": "in",
+          "startTime": 9.716348,
+          "endTime": 10.113952
+        },
+        {
+          "id": 12,
+          "text": "pretence",
+          "startTime": 10.113952,
+          "endTime": 11.177286
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "once again, you'd left me in my head",
+      "startTime": 11.177286,
+      "endTime": 15.16341,
+      "words": [
+        {
+          "id": 13,
+          "text": "once",
+          "startTime": 11.177286,
+          "endTime": 12.240797
+        },
+        {
+          "id": 14,
+          "text": "again,",
+          "startTime": 12.240797,
+          "endTime": 12.90554
+        },
+        {
+          "id": 15,
+          "text": "you'd",
+          "startTime": 12.90554,
+          "endTime": 13.567925
+        },
+        {
+          "id": 16,
+          "text": "left",
+          "startTime": 13.567925,
+          "endTime": 13.833824
+        },
+        {
+          "id": 17,
+          "text": "me",
+          "startTime": 13.833824,
+          "endTime": 14.098953
+        },
+        {
+          "id": 18,
+          "text": "in",
+          "startTime": 14.098953,
+          "endTime": 14.366838
+        },
+        {
+          "id": 19,
+          "text": "my",
+          "startTime": 14.366838,
+          "endTime": 14.49584
+        },
+        {
+          "id": 20,
+          "text": "head",
+          "startTime": 14.49584,
+          "endTime": 15.16341
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "I waited patiently to write this instead.",
+      "startTime": 15.16341,
+      "endTime": 20.613464,
+      "words": [
+        {
+          "id": 21,
+          "text": "I",
+          "startTime": 15.16341,
+          "endTime": 16.225114
+        },
+        {
+          "id": 22,
+          "text": "waited",
+          "startTime": 16.225114,
+          "endTime": 16.489183
+        },
+        {
+          "id": 23,
+          "text": "patiently",
+          "startTime": 16.489183,
+          "endTime": 17.420255
+        },
+        {
+          "id": 24,
+          "text": "to",
+          "startTime": 17.420255,
+          "endTime": 18.084053
+        },
+        {
+          "id": 25,
+          "text": "write",
+          "startTime": 18.084053,
+          "endTime": 18.216067
+        },
+        {
+          "id": 26,
+          "text": "this",
+          "startTime": 18.216067,
+          "endTime": 18.613464
+        },
+        {
+          "id": 27,
+          "text": "instead.",
+          "startTime": 18.613464,
+          "endTime": 20.613464
+        }
+      ]
+    }
+  ]
+}
