@@ -5,7 +5,7 @@ const path = require('path');
 const poetryTitles = [
 "I’m Awake Now",
 "X Chat",
-"Crevices",
+"Crevice",
 "Ghee Eyes, Butter Words"                                       
 
 
