@@ -7,9 +7,9 @@ registerFont('font/Architects_Daughter.ttf', { family: 'Architects Daughter' });
 
 const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
-const outputDir = path.join(__dirname, 'images', 'share', 'W2W', '19');
+const outputDir = path.join(__dirname, 'images', 'share', 'W2W', '20');
 const titles = [
- "How Easy", "With No Helmet", "For a Stagehand", "Before the Show", "Where It Begins"
+  "Montambanco", "Snafu Not Found", "Shared Ubiquity", "His Favourite Thai", "A Rag’s Story"
 
 
 ];
@@ -61,7 +61,7 @@ const generateImages = async () => {
     ctx.fillStyle = 'black';
     ctx.textAlign = 'center';
     ctx.textBaseline = 'top';
-    ctx.fillText('WEST TO WEST COLLECTION XIX', imageSize / 2, 10); // Corrected position
+    ctx.fillText('WEST TO WEST COLLECTION XX', imageSize / 2, 10); // Corrected position
     
     // Save the image
     const buffer = canvas.toBuffer('image/png');
