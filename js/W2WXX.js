@@ -1136,43 +1136,43 @@ if (_lorder.length > 0) {
 		 *  Set Tab state
 		 * ------------------------------------------------------------------------ */
 
-		let lastTabW2WXIX = localStorage.getItem("lastTabW2WXIX");
-		if (lastTabW2WXIX) {
-			switch (lastTabW2WXIX) {
+		let lastTabW2WXX = localStorage.getItem("lastTabW2WXX");
+		if (lastTabW2WXX) {
+			switch (lastTabW2WXX) {
 				case "Cover":
-					localStorage.setItem("coverTabW2WXIXIsActive", true);
-					localStorage.setItem("authorTabW2WXIXIsActive", false);
-					localStorage.setItem("dedTabW2WXIXIsActive", false);
-					localStorage.setItem("chapterTabW2WXIXIsActive", false);
+					localStorage.setItem("coverTabW2WXXIsActive", true);
+					localStorage.setItem("authorTabW2WXXIsActive", false);
+					localStorage.setItem("dedTabW2WXXIsActive", false);
+					localStorage.setItem("chapterTabW2WXXIsActive", false);
 					$('#pills-trekking-tab').click();
 					break;
 				case "Author":
-					localStorage.setItem("coverTabW2WXIXIsActive", false);
-					localStorage.setItem("authorTabW2WXIXIsActive", true);
-					localStorage.setItem("dedTabW2WXIXIsActive", false);
-					localStorage.setItem("chapterTabW2WXIXIsActive", false);
+					localStorage.setItem("coverTabW2WXXIsActive", false);
+					localStorage.setItem("authorTabW2WXXIsActive", true);
+					localStorage.setItem("dedTabW2WXXIsActive", false);
+					localStorage.setItem("chapterTabW2WXXIsActive", false);
 					$('#pills-analysis-tab').click();
 					break;
 				case "Dedication":
-					localStorage.setItem("coverTabW2WXIXIsActive", false);
-					localStorage.setItem("authorTabW2WXIXIsActive", false);
-					localStorage.setItem("dedTabW2WXIXIsActive", true);
-					localStorage.setItem("chapterTabW2WXIXIsActive", false);
+					localStorage.setItem("coverTabW2WXXIsActive", false);
+					localStorage.setItem("authorTabW2WXXIsActive", false);
+					localStorage.setItem("dedTabW2WXXIsActive", true);
+					localStorage.setItem("chapterTabW2WXXIsActive", false);
 					$('#pills-investment-management-11-tab').click();
 					break;
 				case "Chapters":
-					localStorage.setItem("coverTabW2WXIXIsActive", false);
-					localStorage.setItem("authorTabW2WXIXIsActive", false);
-					localStorage.setItem("dedTabW2WXIXIsActive", false);
-					localStorage.setItem("chapterTabW2WXIXIsActive", true);
+					localStorage.setItem("coverTabW2WXXIsActive", false);
+					localStorage.setItem("authorTabW2WXXIsActive", false);
+					localStorage.setItem("dedTabW2WXXIsActive", false);
+					localStorage.setItem("chapterTabW2WXXIsActive", true);
 					$('#pills-integration-tab').click();
 			}
 		} else {
-			lastTabW2WXIX = localStorage.setItem("lastTabW2WXIX", "Cover");
-			localStorage.setItem("coverTabW2WXIXIsActive", true);
-			localStorage.setItem("authorTabW2WXIXIsActive", false);
-			localStorage.setItem("dedTabW2WXIXIsActive", false);
-			localStorage.setItem("chapterTabW2WXIXIsActive", false);
+			lastTabW2WXX = localStorage.setItem("lastTabW2WXX", "Cover");
+			localStorage.setItem("coverTabW2WXXIsActive", true);
+			localStorage.setItem("authorTabW2WXXIsActive", false);
+			localStorage.setItem("dedTabW2WXXIsActive", false);
+			localStorage.setItem("chapterTabW2WXXIsActive", false);
 			$('#pills-trekking-tab').click();
 		}
 
