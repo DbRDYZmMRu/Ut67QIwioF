@@ -1,0 +1,230 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I got her images at sixteen",
+      "startTime": 4.377439,
+      "endTime": 7.830971,
+      "words": [
+        {
+          "id": 1,
+          "text": "I",
+          "startTime": 4.377439,
+          "endTime": 5.4386
+        },
+        {
+          "id": 2,
+          "text": "got",
+          "startTime": 5.4386,
+          "endTime": 5.706216
+        },
+        {
+          "id": 3,
+          "text": "her",
+          "startTime": 5.706216,
+          "endTime": 5.835022
+        },
+        {
+          "id": 4,
+          "text": "images",
+          "startTime": 5.835022,
+          "endTime": 6.63473
+        },
+        {
+          "id": 5,
+          "text": "at",
+          "startTime": 6.63473,
+          "endTime": 7.034276
+        },
+        {
+          "id": 6,
+          "text": "sixteen",
+          "startTime": 7.034276,
+          "endTime": 7.830971
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "took the floor with her a king",
+      "startTime": 7.830971,
+      "endTime": 11.815564,
+      "words": [
+        {
+          "id": 7,
+          "text": "took",
+          "startTime": 7.830971,
+          "endTime": 9.155081
+        },
+        {
+          "id": 8,
+          "text": "the",
+          "startTime": 9.155081,
+          "endTime": 9.423977
+        },
+        {
+          "id": 9,
+          "text": "floor",
+          "startTime": 9.423977,
+          "endTime": 9.687253
+        },
+        {
+          "id": 10,
+          "text": "with",
+          "startTime": 9.687253,
+          "endTime": 9.821942
+        },
+        {
+          "id": 11,
+          "text": "her",
+          "startTime": 9.821942,
+          "endTime": 10.353267
+        },
+        {
+          "id": 12,
+          "text": "a",
+          "startTime": 10.353267,
+          "endTime": 11.017614
+        },
+        {
+          "id": 13,
+          "text": "king",
+          "startTime": 11.017614,
+          "endTime": 11.815564
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "she rolled closer in friendship",
+      "startTime": 11.815564,
+      "endTime": 15.530862,
+      "words": [
+        {
+          "id": 14,
+          "text": "she",
+          "startTime": 11.815564,
+          "endTime": 13.008962
+        },
+        {
+          "id": 15,
+          "text": "rolled",
+          "startTime": 13.008962,
+          "endTime": 13.275706
+        },
+        {
+          "id": 16,
+          "text": "closer",
+          "startTime": 13.275706,
+          "endTime": 13.938222
+        },
+        {
+          "id": 17,
+          "text": "in",
+          "startTime": 13.938222,
+          "endTime": 14.73512
+        },
+        {
+          "id": 18,
+          "text": "friendship",
+          "startTime": 14.73512,
+          "endTime": 15.530862
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "up my arm, a warm heartstring",
+      "startTime": 15.530862,
+      "endTime": 19.660219,
+      "words": [
+        {
+          "id": 19,
+          "text": "up",
+          "startTime": 15.530862,
+          "endTime": 16.462215
+        },
+        {
+          "id": 20,
+          "text": "my",
+          "startTime": 16.462215,
+          "endTime": 16.728805
+        },
+        {
+          "id": 21,
+          "text": "arm,",
+          "startTime": 16.728805,
+          "endTime": 17.260045
+        },
+        {
+          "id": 22,
+          "text": "a",
+          "startTime": 17.260045,
+          "endTime": 18.062756
+        },
+        {
+          "id": 23,
+          "text": "warm",
+          "startTime": 18.062756,
+          "endTime": 18.59288
+        },
+        {
+          "id": 24,
+          "text": "heartstring",
+          "startTime": 18.59288,
+          "endTime": 19.660219
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "so our forever is missing of teen.",
+      "startTime": 19.660219,
+      "endTime": 26.040564,
+      "words": [
+        {
+          "id": 25,
+          "text": "so",
+          "startTime": 19.660219,
+          "endTime": 20.987066
+        },
+        {
+          "id": 26,
+          "text": "our",
+          "startTime": 20.987066,
+          "endTime": 21.118956
+        },
+        {
+          "id": 27,
+          "text": "forever",
+          "startTime": 21.118956,
+          "endTime": 21.914634
+        },
+        {
+          "id": 28,
+          "text": "is",
+          "startTime": 21.914634,
+          "endTime": 22.714419
+        },
+        {
+          "id": 29,
+          "text": "missing",
+          "startTime": 22.714419,
+          "endTime": 23.240973
+        },
+        {
+          "id": 30,
+          "text": "of",
+          "startTime": 23.240973,
+          "endTime": 24.040564
+        },
+        {
+          "id": 31,
+          "text": "teen.",
+          "startTime": 24.040564,
+          "endTime": 26.040564
+        }
+      ]
+    }
+  ]
+}

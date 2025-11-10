@@ -1,0 +1,564 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "She's six out of six",
+      "startTime": 3.741026,
+      "endTime": 6.400652,
+      "words": [
+        {
+          "id": 1,
+          "text": "She's",
+          "startTime": 3.741026,
+          "endTime": 5.067217
+        },
+        {
+          "id": 2,
+          "text": "six",
+          "startTime": 5.067217,
+          "endTime": 5.332974
+        },
+        {
+          "id": 3,
+          "text": "out",
+          "startTime": 5.332974,
+          "endTime": 5.600936
+        },
+        {
+          "id": 4,
+          "text": "of",
+          "startTime": 5.600936,
+          "endTime": 5.734031
+        },
+        {
+          "id": 5,
+          "text": "six",
+          "startTime": 5.734031,
+          "endTime": 6.400652
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "all visits out of business",
+      "startTime": 6.400652,
+      "endTime": 9.266423,
+      "words": [
+        {
+          "id": 6,
+          "text": "all",
+          "startTime": 6.400652,
+          "endTime": 7.062211
+        },
+        {
+          "id": 7,
+          "text": "visits",
+          "startTime": 7.062211,
+          "endTime": 7.594803
+        },
+        {
+          "id": 8,
+          "text": "out",
+          "startTime": 7.594803,
+          "endTime": 8.38727
+        },
+        {
+          "id": 9,
+          "text": "of",
+          "startTime": 8.38727,
+          "endTime": 8.52301
+        },
+        {
+          "id": 10,
+          "text": "business",
+          "startTime": 8.52301,
+          "endTime": 9.266423
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "Sunday cancelling",
+      "startTime": 9.266423,
+      "endTime": 11.655765,
+      "words": [
+        {
+          "id": 11,
+          "text": "Sunday",
+          "startTime": 9.266423,
+          "endTime": 10.592105
+        },
+        {
+          "id": 12,
+          "text": "cancelling",
+          "startTime": 10.592105,
+          "endTime": 11.655765
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "all her trips to garden Eden",
+      "startTime": 11.655765,
+      "endTime": 15.109271,
+      "words": [
+        {
+          "id": 13,
+          "text": "all",
+          "startTime": 11.655765,
+          "endTime": 12.582588
+        },
+        {
+          "id": 14,
+          "text": "her",
+          "startTime": 12.582588,
+          "endTime": 12.718172
+        },
+        {
+          "id": 15,
+          "text": "trips",
+          "startTime": 12.718172,
+          "endTime": 13.249047
+        },
+        {
+          "id": 16,
+          "text": "to",
+          "startTime": 13.249047,
+          "endTime": 13.910577
+        },
+        {
+          "id": 17,
+          "text": "garden",
+          "startTime": 13.910577,
+          "endTime": 14.30893
+        },
+        {
+          "id": 18,
+          "text": "Eden",
+          "startTime": 14.30893,
+          "endTime": 15.109271
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "she brought me gifts",
+      "startTime": 15.109271,
+      "endTime": 17.763224,
+      "words": [
+        {
+          "id": 19,
+          "text": "she",
+          "startTime": 15.109271,
+          "endTime": 16.565503
+        },
+        {
+          "id": 20,
+          "text": "brought",
+          "startTime": 16.565503,
+          "endTime": 16.834827
+        },
+        {
+          "id": 21,
+          "text": "me",
+          "startTime": 16.834827,
+          "endTime": 16.965166
+        },
+        {
+          "id": 22,
+          "text": "gifts",
+          "startTime": 16.965166,
+          "endTime": 17.763224
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "took lightly my nakedness",
+      "startTime": 17.763224,
+      "endTime": 21.221019,
+      "words": [
+        {
+          "id": 23,
+          "text": "took",
+          "startTime": 17.763224,
+          "endTime": 18.559502
+        },
+        {
+          "id": 24,
+          "text": "lightly",
+          "startTime": 18.559502,
+          "endTime": 19.226559
+        },
+        {
+          "id": 25,
+          "text": "my",
+          "startTime": 19.226559,
+          "endTime": 20.154207
+        },
+        {
+          "id": 26,
+          "text": "nakedness",
+          "startTime": 20.154207,
+          "endTime": 21.221019
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "six of seven office pins",
+      "startTime": 21.221019,
+      "endTime": 25.469027,
+      "words": [
+        {
+          "id": 27,
+          "text": "six",
+          "startTime": 21.221019,
+          "endTime": 22.678651
+        },
+        {
+          "id": 28,
+          "text": "of",
+          "startTime": 22.678651,
+          "endTime": 23.343299
+        },
+        {
+          "id": 29,
+          "text": "seven",
+          "startTime": 23.343299,
+          "endTime": 23.742529
+        },
+        {
+          "id": 30,
+          "text": "office",
+          "startTime": 23.742529,
+          "endTime": 24.139339
+        },
+        {
+          "id": 31,
+          "text": "pins",
+          "startTime": 24.139339,
+          "endTime": 25.469027
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "a sandglass by her desk",
+      "startTime": 25.469027,
+      "endTime": 28.389322,
+      "words": [
+        {
+          "id": 32,
+          "text": "a",
+          "startTime": 25.469027,
+          "endTime": 26.001032
+        },
+        {
+          "id": 33,
+          "text": "sandglass",
+          "startTime": 26.001032,
+          "endTime": 26.664304
+        },
+        {
+          "id": 34,
+          "text": "by",
+          "startTime": 26.664304,
+          "endTime": 27.325786
+        },
+        {
+          "id": 35,
+          "text": "her",
+          "startTime": 27.325786,
+          "endTime": 27.458614
+        },
+        {
+          "id": 36,
+          "text": "desk",
+          "startTime": 27.458614,
+          "endTime": 28.389322
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "history was a silver lining",
+      "startTime": 28.389322,
+      "endTime": 31.973215,
+      "words": [
+        {
+          "id": 37,
+          "text": "history",
+          "startTime": 28.389322,
+          "endTime": 29.718126
+        },
+        {
+          "id": 38,
+          "text": "was",
+          "startTime": 29.718126,
+          "endTime": 30.517674
+        },
+        {
+          "id": 39,
+          "text": "a",
+          "startTime": 30.517674,
+          "endTime": 30.648241
+        },
+        {
+          "id": 40,
+          "text": "silver",
+          "startTime": 30.648241,
+          "endTime": 31.178607
+        },
+        {
+          "id": 41,
+          "text": "lining",
+          "startTime": 31.178607,
+          "endTime": 31.973215
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "and then we both fell",
+      "startTime": 31.973215,
+      "endTime": 35.695975,
+      "words": [
+        {
+          "id": 42,
+          "text": "and",
+          "startTime": 31.973215,
+          "endTime": 33.567702
+        },
+        {
+          "id": 43,
+          "text": "then",
+          "startTime": 33.567702,
+          "endTime": 33.833692
+        },
+        {
+          "id": 44,
+          "text": "we",
+          "startTime": 33.833692,
+          "endTime": 34.631074
+        },
+        {
+          "id": 45,
+          "text": "both",
+          "startTime": 34.631074,
+          "endTime": 34.895548
+        },
+        {
+          "id": 46,
+          "text": "fell",
+          "startTime": 34.895548,
+          "endTime": 35.695975
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "fell through greasy",
+      "startTime": 35.695975,
+      "endTime": 38.218334,
+      "words": [
+        {
+          "id": 47,
+          "text": "fell",
+          "startTime": 35.695975,
+          "endTime": 36.888108
+        },
+        {
+          "id": 48,
+          "text": "through",
+          "startTime": 36.888108,
+          "endTime": 37.418883
+        },
+        {
+          "id": 49,
+          "text": "greasy",
+          "startTime": 37.418883,
+          "endTime": 38.218334
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "in our bites at sweetness",
+      "startTime": 38.218334,
+      "endTime": 42.335156,
+      "words": [
+        {
+          "id": 50,
+          "text": "in",
+          "startTime": 38.218334,
+          "endTime": 39.542767
+        },
+        {
+          "id": 51,
+          "text": "our",
+          "startTime": 39.542767,
+          "endTime": 39.810816
+        },
+        {
+          "id": 52,
+          "text": "bites",
+          "startTime": 39.810816,
+          "endTime": 40.606739
+        },
+        {
+          "id": 53,
+          "text": "at",
+          "startTime": 40.606739,
+          "endTime": 41.404618
+        },
+        {
+          "id": 54,
+          "text": "sweetness",
+          "startTime": 41.404618,
+          "endTime": 42.335156
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "paragraph": "so when it was morning",
+      "startTime": 42.335156,
+      "endTime": 45.520568,
+      "words": [
+        {
+          "id": 55,
+          "text": "so",
+          "startTime": 42.335156,
+          "endTime": 44.059797
+        },
+        {
+          "id": 56,
+          "text": "when",
+          "startTime": 44.059797,
+          "endTime": 44.192544
+        },
+        {
+          "id": 57,
+          "text": "it",
+          "startTime": 44.192544,
+          "endTime": 44.458583
+        },
+        {
+          "id": 58,
+          "text": "was",
+          "startTime": 44.458583,
+          "endTime": 44.590593
+        },
+        {
+          "id": 59,
+          "text": "morning",
+          "startTime": 44.590593,
+          "endTime": 45.520568
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "paragraph": "first day in measurement",
+      "startTime": 45.520568,
+      "endTime": 48.974366,
+      "words": [
+        {
+          "id": 60,
+          "text": "first",
+          "startTime": 45.520568,
+          "endTime": 46.450253
+        },
+        {
+          "id": 61,
+          "text": "day",
+          "startTime": 46.450253,
+          "endTime": 46.981498
+        },
+        {
+          "id": 62,
+          "text": "in",
+          "startTime": 46.981498,
+          "endTime": 47.646962
+        },
+        {
+          "id": 63,
+          "text": "measurement",
+          "startTime": 47.646962,
+          "endTime": 48.974366
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "paragraph": "I didn't take a peep",
+      "startTime": 48.974366,
+      "endTime": 51.762893,
+      "words": [
+        {
+          "id": 64,
+          "text": "I",
+          "startTime": 48.974366,
+          "endTime": 50.170533
+        },
+        {
+          "id": 65,
+          "text": "didn't",
+          "startTime": 50.170533,
+          "endTime": 50.435658
+        },
+        {
+          "id": 66,
+          "text": "take",
+          "startTime": 50.435658,
+          "endTime": 50.703793
+        },
+        {
+          "id": 67,
+          "text": "a",
+          "startTime": 50.703793,
+          "endTime": 50.966992
+        },
+        {
+          "id": 68,
+          "text": "peep",
+          "startTime": 50.966992,
+          "endTime": 51.762893
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "paragraph": "I'd finished my assignments.",
+      "startTime": 51.762893,
+      "endTime": 56.151648,
+      "words": [
+        {
+          "id": 69,
+          "text": "I'd",
+          "startTime": 51.762893,
+          "endTime": 52.961529
+        },
+        {
+          "id": 70,
+          "text": "finished",
+          "startTime": 52.961529,
+          "endTime": 53.489243
+        },
+        {
+          "id": 71,
+          "text": "my",
+          "startTime": 53.489243,
+          "endTime": 54.151648
+        },
+        {
+          "id": 72,
+          "text": "assignments.",
+          "startTime": 54.151648,
+          "endTime": 56.151648
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "When the death of log",
+      "startTime": 2.911266,
+      "endTime": 4.902823,
+      "words": [
+        {
+          "id": 1,
+          "text": "When",
+          "startTime": 2.911266,
+          "endTime": 3.707233
+        },
+        {
+          "id": 2,
+          "text": "the",
+          "startTime": 3.707233,
+          "endTime": 3.839743
+        },
+        {
+          "id": 3,
+          "text": "death",
+          "startTime": 3.839743,
+          "endTime": 4.107902
+        },
+        {
+          "id": 4,
+          "text": "of",
+          "startTime": 4.107902,
+          "endTime": 4.373275
+        },
+        {
+          "id": 5,
+          "text": "log",
+          "startTime": 4.373275,
+          "endTime": 4.902823
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "hangs over a cliff talk",
+      "startTime": 4.902823,
+      "endTime": 7.954909,
+      "words": [
+        {
+          "id": 6,
+          "text": "hangs",
+          "startTime": 4.902823,
+          "endTime": 6.10089
+        },
+        {
+          "id": 7,
+          "text": "over",
+          "startTime": 6.10089,
+          "endTime": 6.497658
+        },
+        {
+          "id": 8,
+          "text": "a",
+          "startTime": 6.497658,
+          "endTime": 6.632296
+        },
+        {
+          "id": 9,
+          "text": "cliff",
+          "startTime": 6.632296,
+          "endTime": 7.028207
+        },
+        {
+          "id": 10,
+          "text": "talk",
+          "startTime": 7.028207,
+          "endTime": 7.954909
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "heart-free, I'll walk.",
+      "startTime": 7.954909,
+      "endTime": 12.348585,
+      "words": [
+        {
+          "id": 11,
+          "text": "heart-free,",
+          "startTime": 7.954909,
+          "endTime": 9.287418
+        },
+        {
+          "id": 12,
+          "text": "I'll",
+          "startTime": 9.287418,
+          "endTime": 10.348585
+        },
+        {
+          "id": 13,
+          "text": "walk.",
+          "startTime": 10.348585,
+          "endTime": 12.348585
+        }
+      ]
+    }
+  ]
+}

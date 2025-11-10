@@ -1,0 +1,208 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Diapers felt my easement",
+      "startTime": 3.961498,
+      "endTime": 7.151946,
+      "words": [
+        {
+          "id": 1,
+          "text": "Diapers",
+          "startTime": 3.961498,
+          "endTime": 5.553996
+        },
+        {
+          "id": 2,
+          "text": "felt",
+          "startTime": 5.553996,
+          "endTime": 5.956645
+        },
+        {
+          "id": 3,
+          "text": "my",
+          "startTime": 5.956645,
+          "endTime": 6.222215
+        },
+        {
+          "id": 4,
+          "text": "easement",
+          "startTime": 6.222215,
+          "endTime": 7.151946
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "as the cologne flourished",
+      "startTime": 7.151946,
+      "endTime": 9.941754,
+      "words": [
+        {
+          "id": 5,
+          "text": "as",
+          "startTime": 7.151946,
+          "endTime": 7.814905
+        },
+        {
+          "id": 6,
+          "text": "the",
+          "startTime": 7.814905,
+          "endTime": 7.947634
+        },
+        {
+          "id": 7,
+          "text": "cologne",
+          "startTime": 7.947634,
+          "endTime": 8.612097
+        },
+        {
+          "id": 8,
+          "text": "flourished",
+          "startTime": 8.612097,
+          "endTime": 9.941754
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "detaching of emolument",
+      "startTime": 9.941754,
+      "endTime": 13.131701,
+      "words": [
+        {
+          "id": 9,
+          "text": "detaching",
+          "startTime": 9.941754,
+          "endTime": 11.399563
+        },
+        {
+          "id": 10,
+          "text": "of",
+          "startTime": 11.399563,
+          "endTime": 12.19761
+        },
+        {
+          "id": 11,
+          "text": "emolument",
+          "startTime": 12.19761,
+          "endTime": 13.131701
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "saw her wipe me clean",
+      "startTime": 13.131701,
+      "endTime": 15.383895,
+      "words": [
+        {
+          "id": 12,
+          "text": "saw",
+          "startTime": 13.131701,
+          "endTime": 13.925193
+        },
+        {
+          "id": 13,
+          "text": "her",
+          "startTime": 13.925193,
+          "endTime": 14.057112
+        },
+        {
+          "id": 14,
+          "text": "wipe",
+          "startTime": 14.057112,
+          "endTime": 14.323674
+        },
+        {
+          "id": 15,
+          "text": "me",
+          "startTime": 14.323674,
+          "endTime": 14.588962
+        },
+        {
+          "id": 16,
+          "text": "clean",
+          "startTime": 14.588962,
+          "endTime": 15.383895
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "so the foul she beared",
+      "startTime": 15.383895,
+      "endTime": 18.039496,
+      "words": [
+        {
+          "id": 17,
+          "text": "so",
+          "startTime": 15.383895,
+          "endTime": 16.317048
+        },
+        {
+          "id": 18,
+          "text": "the",
+          "startTime": 16.317048,
+          "endTime": 16.582058
+        },
+        {
+          "id": 19,
+          "text": "foul",
+          "startTime": 16.582058,
+          "endTime": 17.246431
+        },
+        {
+          "id": 20,
+          "text": "she",
+          "startTime": 17.246431,
+          "endTime": 17.511012
+        },
+        {
+          "id": 21,
+          "text": "beared",
+          "startTime": 17.511012,
+          "endTime": 18.039496
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "left me grace of clarity.",
+      "startTime": 18.039496,
+      "endTime": 22.300528,
+      "words": [
+        {
+          "id": 22,
+          "text": "left",
+          "startTime": 18.039496,
+          "endTime": 18.973006
+        },
+        {
+          "id": 23,
+          "text": "me",
+          "startTime": 18.973006,
+          "endTime": 19.236352
+        },
+        {
+          "id": 24,
+          "text": "grace",
+          "startTime": 19.236352,
+          "endTime": 19.768195
+        },
+        {
+          "id": 25,
+          "text": "of",
+          "startTime": 19.768195,
+          "endTime": 20.300528
+        },
+        {
+          "id": 26,
+          "text": "clarity.",
+          "startTime": 20.300528,
+          "endTime": 22.300528
+        }
+      ]
+    }
+  ]
+}

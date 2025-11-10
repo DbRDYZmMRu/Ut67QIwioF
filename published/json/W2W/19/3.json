@@ -1,0 +1,220 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Borrowing more time",
+      "startTime": 3.151436,
+      "endTime": 5.540452,
+      "words": [
+        {
+          "id": 1,
+          "text": "Borrowing",
+          "startTime": 3.151436,
+          "endTime": 4.477443
+        },
+        {
+          "id": 2,
+          "text": "more",
+          "startTime": 4.477443,
+          "endTime": 4.744066
+        },
+        {
+          "id": 3,
+          "text": "time",
+          "startTime": 4.744066,
+          "endTime": 5.540452
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "to keep her dial green",
+      "startTime": 5.540452,
+      "endTime": 7.92927,
+      "words": [
+        {
+          "id": 4,
+          "text": "to",
+          "startTime": 5.540452,
+          "endTime": 6.473193
+        },
+        {
+          "id": 5,
+          "text": "keep",
+          "startTime": 6.473193,
+          "endTime": 6.602034
+        },
+        {
+          "id": 6,
+          "text": "her",
+          "startTime": 6.602034,
+          "endTime": 6.869328
+        },
+        {
+          "id": 7,
+          "text": "dial",
+          "startTime": 6.869328,
+          "endTime": 7.268048
+        },
+        {
+          "id": 8,
+          "text": "green",
+          "startTime": 7.268048,
+          "endTime": 7.92927
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "yellow still my greeting",
+      "startTime": 7.92927,
+      "endTime": 11.25112,
+      "words": [
+        {
+          "id": 9,
+          "text": "yellow",
+          "startTime": 7.92927,
+          "endTime": 9.523759
+        },
+        {
+          "id": 10,
+          "text": "still",
+          "startTime": 9.523759,
+          "endTime": 10.187069
+        },
+        {
+          "id": 11,
+          "text": "my",
+          "startTime": 10.187069,
+          "endTime": 10.453283
+        },
+        {
+          "id": 12,
+          "text": "greeting",
+          "startTime": 10.453283,
+          "endTime": 11.25112
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "a cab driver in her traffic",
+      "startTime": 11.25112,
+      "endTime": 15.236614,
+      "words": [
+        {
+          "id": 13,
+          "text": "a",
+          "startTime": 11.25112,
+          "endTime": 12.448983
+        },
+        {
+          "id": 14,
+          "text": "cab",
+          "startTime": 12.448983,
+          "endTime": 12.84417
+        },
+        {
+          "id": 15,
+          "text": "driver",
+          "startTime": 12.84417,
+          "endTime": 13.37859
+        },
+        {
+          "id": 16,
+          "text": "in",
+          "startTime": 13.37859,
+          "endTime": 14.17181
+        },
+        {
+          "id": 17,
+          "text": "her",
+          "startTime": 14.17181,
+          "endTime": 14.307
+        },
+        {
+          "id": 18,
+          "text": "traffic",
+          "startTime": 14.307,
+          "endTime": 15.236614
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "motion denuded feelings",
+      "startTime": 15.236614,
+      "endTime": 18.687459,
+      "words": [
+        {
+          "id": 19,
+          "text": "motion",
+          "startTime": 15.236614,
+          "endTime": 16.96333
+        },
+        {
+          "id": 20,
+          "text": "denuded",
+          "startTime": 16.96333,
+          "endTime": 17.75797
+        },
+        {
+          "id": 21,
+          "text": "feelings",
+          "startTime": 17.75797,
+          "endTime": 18.687459
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "so we met at the red light.",
+      "startTime": 18.687459,
+      "endTime": 23.613125,
+      "words": [
+        {
+          "id": 22,
+          "text": "so",
+          "startTime": 18.687459,
+          "endTime": 19.618857
+        },
+        {
+          "id": 23,
+          "text": "we",
+          "startTime": 19.618857,
+          "endTime": 19.885348
+        },
+        {
+          "id": 24,
+          "text": "met",
+          "startTime": 19.885348,
+          "endTime": 20.680223
+        },
+        {
+          "id": 25,
+          "text": "at",
+          "startTime": 20.680223,
+          "endTime": 21.211761
+        },
+        {
+          "id": 26,
+          "text": "the",
+          "startTime": 21.211761,
+          "endTime": 21.342734
+        },
+        {
+          "id": 27,
+          "text": "red",
+          "startTime": 21.342734,
+          "endTime": 21.613125
+        },
+        {
+          "id": 28,
+          "text": "light.",
+          "startTime": 21.613125,
+          "endTime": 23.613125
+        }
+      ]
+    }
+  ]
+}
