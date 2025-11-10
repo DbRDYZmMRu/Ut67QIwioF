@@ -1,0 +1,364 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Oh shirts, a million by a size",
+      "startTime": 6.70854,
+      "endTime": 10.82779,
+      "words": [
+        {
+          "id": 1,
+          "text": "Oh",
+          "startTime": 6.70854,
+          "endTime": 7.639376
+        },
+        {
+          "id": 2,
+          "text": "shirts,",
+          "startTime": 7.639376,
+          "endTime": 8.438509
+        },
+        {
+          "id": 3,
+          "text": "a",
+          "startTime": 8.438509,
+          "endTime": 9.233968
+        },
+        {
+          "id": 4,
+          "text": "million",
+          "startTime": 9.233968,
+          "endTime": 9.500807
+        },
+        {
+          "id": 5,
+          "text": "by",
+          "startTime": 9.500807,
+          "endTime": 9.764141
+        },
+        {
+          "id": 6,
+          "text": "a",
+          "startTime": 9.764141,
+          "endTime": 10.030093
+        },
+        {
+          "id": 7,
+          "text": "size",
+          "startTime": 10.030093,
+          "endTime": 10.82779
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "while my dad came in bites",
+      "startTime": 10.82779,
+      "endTime": 14.415177,
+      "words": [
+        {
+          "id": 8,
+          "text": "while",
+          "startTime": 10.82779,
+          "endTime": 11.753953
+        },
+        {
+          "id": 9,
+          "text": "my",
+          "startTime": 11.753953,
+          "endTime": 12.025492
+        },
+        {
+          "id": 10,
+          "text": "dad",
+          "startTime": 12.025492,
+          "endTime": 12.555234
+        },
+        {
+          "id": 11,
+          "text": "came",
+          "startTime": 12.555234,
+          "endTime": 13.219182
+        },
+        {
+          "id": 12,
+          "text": "in",
+          "startTime": 13.219182,
+          "endTime": 13.351375
+        },
+        {
+          "id": 13,
+          "text": "bites",
+          "startTime": 13.351375,
+          "endTime": 14.415177
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "milk, cheese, meet a smile",
+      "startTime": 14.415177,
+      "endTime": 19.063048,
+      "words": [
+        {
+          "id": 14,
+          "text": "milk,",
+          "startTime": 14.415177,
+          "endTime": 16.273695
+        },
+        {
+          "id": 15,
+          "text": "cheese,",
+          "startTime": 16.273695,
+          "endTime": 17.070634
+        },
+        {
+          "id": 16,
+          "text": "meet",
+          "startTime": 17.070634,
+          "endTime": 18.132531
+        },
+        {
+          "id": 17,
+          "text": "a",
+          "startTime": 18.132531,
+          "endTime": 18.264278
+        },
+        {
+          "id": 18,
+          "text": "smile",
+          "startTime": 18.264278,
+          "endTime": 19.063048
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "the milk curd of my gripes",
+      "startTime": 19.063048,
+      "endTime": 22.917675,
+      "words": [
+        {
+          "id": 19,
+          "text": "the",
+          "startTime": 19.063048,
+          "endTime": 19.994338
+        },
+        {
+          "id": 20,
+          "text": "milk",
+          "startTime": 19.994338,
+          "endTime": 20.257979
+        },
+        {
+          "id": 21,
+          "text": "curd",
+          "startTime": 20.257979,
+          "endTime": 21.054799
+        },
+        {
+          "id": 22,
+          "text": "of",
+          "startTime": 21.054799,
+          "endTime": 21.586708
+        },
+        {
+          "id": 23,
+          "text": "my",
+          "startTime": 21.586708,
+          "endTime": 21.850738
+        },
+        {
+          "id": 24,
+          "text": "gripes",
+          "startTime": 21.850738,
+          "endTime": 22.917675
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "kids sought new designs",
+      "startTime": 22.917675,
+      "endTime": 26.233618,
+      "words": [
+        {
+          "id": 25,
+          "text": "kids",
+          "startTime": 22.917675,
+          "endTime": 24.509641
+        },
+        {
+          "id": 26,
+          "text": "sought",
+          "startTime": 24.509641,
+          "endTime": 24.906448
+        },
+        {
+          "id": 27,
+          "text": "new",
+          "startTime": 24.906448,
+          "endTime": 25.039103
+        },
+        {
+          "id": 28,
+          "text": "designs",
+          "startTime": 25.039103,
+          "endTime": 26.233618
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "lost in choice for a spice",
+      "startTime": 26.233618,
+      "endTime": 30.484646,
+      "words": [
+        {
+          "id": 29,
+          "text": "lost",
+          "startTime": 26.233618,
+          "endTime": 27.298801
+        },
+        {
+          "id": 30,
+          "text": "in",
+          "startTime": 27.298801,
+          "endTime": 27.55966
+        },
+        {
+          "id": 31,
+          "text": "choice",
+          "startTime": 27.55966,
+          "endTime": 28.359175
+        },
+        {
+          "id": 32,
+          "text": "for",
+          "startTime": 28.359175,
+          "endTime": 29.023145
+        },
+        {
+          "id": 33,
+          "text": "a",
+          "startTime": 29.023145,
+          "endTime": 29.154685
+        },
+        {
+          "id": 34,
+          "text": "spice",
+          "startTime": 29.154685,
+          "endTime": 30.484646
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "I grew up with no spite",
+      "startTime": 30.484646,
+      "endTime": 33.806328,
+      "words": [
+        {
+          "id": 35,
+          "text": "I",
+          "startTime": 30.484646,
+          "endTime": 31.811026
+        },
+        {
+          "id": 36,
+          "text": "grew",
+          "startTime": 31.811026,
+          "endTime": 31.945547
+        },
+        {
+          "id": 37,
+          "text": "up",
+          "startTime": 31.945547,
+          "endTime": 32.207773
+        },
+        {
+          "id": 38,
+          "text": "with",
+          "startTime": 32.207773,
+          "endTime": 32.612814
+        },
+        {
+          "id": 39,
+          "text": "no",
+          "startTime": 32.612814,
+          "endTime": 32.877225
+        },
+        {
+          "id": 40,
+          "text": "spite",
+          "startTime": 32.877225,
+          "endTime": 33.806328
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "for he'd my brain fried",
+      "startTime": 33.806328,
+      "endTime": 36.858453,
+      "words": [
+        {
+          "id": 41,
+          "text": "for",
+          "startTime": 33.806328,
+          "endTime": 34.605362
+        },
+        {
+          "id": 42,
+          "text": "he'd",
+          "startTime": 34.605362,
+          "endTime": 34.866099
+        },
+        {
+          "id": 43,
+          "text": "my",
+          "startTime": 34.866099,
+          "endTime": 35.130696
+        },
+        {
+          "id": 44,
+          "text": "brain",
+          "startTime": 35.130696,
+          "endTime": 35.532914
+        },
+        {
+          "id": 45,
+          "text": "fried",
+          "startTime": 35.532914,
+          "endTime": 36.858453
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "daddy ever disguised.",
+      "startTime": 36.858453,
+      "endTime": 40.584254,
+      "words": [
+        {
+          "id": 46,
+          "text": "daddy",
+          "startTime": 36.858453,
+          "endTime": 38.187147
+        },
+        {
+          "id": 47,
+          "text": "ever",
+          "startTime": 38.187147,
+          "endTime": 38.584254
+        },
+        {
+          "id": 48,
+          "text": "disguised.",
+          "startTime": 38.584254,
+          "endTime": 40.584254
+        }
+      ]
+    }
+  ]
+}

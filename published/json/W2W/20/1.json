@@ -1,0 +1,292 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I'm emptying the salts in my bag",
+      "startTime": 3.610575,
+      "endTime": 7.19251,
+      "words": [
+        {
+          "id": 1,
+          "text": "I'm",
+          "startTime": 3.610575,
+          "endTime": 4.936589
+        },
+        {
+          "id": 2,
+          "text": "emptying",
+          "startTime": 4.936589,
+          "endTime": 5.337723
+        },
+        {
+          "id": 3,
+          "text": "the",
+          "startTime": 5.337723,
+          "endTime": 5.600203
+        },
+        {
+          "id": 4,
+          "text": "salts",
+          "startTime": 5.600203,
+          "endTime": 6.136774
+        },
+        {
+          "id": 5,
+          "text": "in",
+          "startTime": 6.136774,
+          "endTime": 6.265256
+        },
+        {
+          "id": 6,
+          "text": "my",
+          "startTime": 6.265256,
+          "endTime": 6.528891
+        },
+        {
+          "id": 7,
+          "text": "bag",
+          "startTime": 6.528891,
+          "endTime": 7.19251
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "in the tank, there is a large shark",
+      "startTime": 7.19251,
+      "endTime": 11.188629,
+      "words": [
+        {
+          "id": 8,
+          "text": "in",
+          "startTime": 7.19251,
+          "endTime": 8.402471
+        },
+        {
+          "id": 9,
+          "text": "the",
+          "startTime": 8.402471,
+          "endTime": 8.528918
+        },
+        {
+          "id": 10,
+          "text": "tank,",
+          "startTime": 8.528918,
+          "endTime": 9.062319
+        },
+        {
+          "id": 11,
+          "text": "there",
+          "startTime": 9.062319,
+          "endTime": 9.861956
+        },
+        {
+          "id": 12,
+          "text": "is",
+          "startTime": 9.861956,
+          "endTime": 9.991237
+        },
+        {
+          "id": 13,
+          "text": "a",
+          "startTime": 9.991237,
+          "endTime": 10.125818
+        },
+        {
+          "id": 14,
+          "text": "large",
+          "startTime": 10.125818,
+          "endTime": 10.522271
+        },
+        {
+          "id": 15,
+          "text": "shark",
+          "startTime": 10.522271,
+          "endTime": 11.188629
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "the guest room has its fave snack",
+      "startTime": 11.188629,
+      "endTime": 14.910372,
+      "words": [
+        {
+          "id": 16,
+          "text": "the",
+          "startTime": 11.188629,
+          "endTime": 12.24519
+        },
+        {
+          "id": 17,
+          "text": "guest",
+          "startTime": 12.24519,
+          "endTime": 12.382728
+        },
+        {
+          "id": 18,
+          "text": "room",
+          "startTime": 12.382728,
+          "endTime": 12.91149
+        },
+        {
+          "id": 19,
+          "text": "has",
+          "startTime": 12.91149,
+          "endTime": 13.580064
+        },
+        {
+          "id": 20,
+          "text": "its",
+          "startTime": 13.580064,
+          "endTime": 13.710417
+        },
+        {
+          "id": 21,
+          "text": "fave",
+          "startTime": 13.710417,
+          "endTime": 14.111269
+        },
+        {
+          "id": 22,
+          "text": "snack",
+          "startTime": 14.111269,
+          "endTime": 14.910372
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "but first there are passport stamps",
+      "startTime": 14.910372,
+      "endTime": 18.492079,
+      "words": [
+        {
+          "id": 23,
+          "text": "but",
+          "startTime": 14.910372,
+          "endTime": 15.838044
+        },
+        {
+          "id": 24,
+          "text": "first",
+          "startTime": 15.838044,
+          "endTime": 16.366962
+        },
+        {
+          "id": 25,
+          "text": "there",
+          "startTime": 16.366962,
+          "endTime": 17.162757
+        },
+        {
+          "id": 26,
+          "text": "are",
+          "startTime": 17.162757,
+          "endTime": 17.297324
+        },
+        {
+          "id": 27,
+          "text": "passport",
+          "startTime": 17.297324,
+          "endTime": 17.689873
+        },
+        {
+          "id": 28,
+          "text": "stamps",
+          "startTime": 17.689873,
+          "endTime": 18.492079
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "their sheer size beat its breakfast",
+      "startTime": 18.492079,
+      "endTime": 23.403183,
+      "words": [
+        {
+          "id": 29,
+          "text": "their",
+          "startTime": 18.492079,
+          "endTime": 20.082405
+        },
+        {
+          "id": 30,
+          "text": "sheer",
+          "startTime": 20.082405,
+          "endTime": 20.219663
+        },
+        {
+          "id": 31,
+          "text": "size",
+          "startTime": 20.219663,
+          "endTime": 20.882826
+        },
+        {
+          "id": 32,
+          "text": "beat",
+          "startTime": 20.882826,
+          "endTime": 22.211001
+        },
+        {
+          "id": 33,
+          "text": "its",
+          "startTime": 22.211001,
+          "endTime": 22.475124
+        },
+        {
+          "id": 34,
+          "text": "breakfast",
+          "startTime": 22.475124,
+          "endTime": 23.403183
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "so its sickness is nocturnal forever.",
+      "startTime": 23.403183,
+      "endTime": 28.860635,
+      "words": [
+        {
+          "id": 35,
+          "text": "so",
+          "startTime": 23.403183,
+          "endTime": 24.203422
+        },
+        {
+          "id": 36,
+          "text": "its",
+          "startTime": 24.203422,
+          "endTime": 24.470743
+        },
+        {
+          "id": 37,
+          "text": "sickness",
+          "startTime": 24.470743,
+          "endTime": 25.264889
+        },
+        {
+          "id": 38,
+          "text": "is",
+          "startTime": 25.264889,
+          "endTime": 25.926778
+        },
+        {
+          "id": 39,
+          "text": "nocturnal",
+          "startTime": 25.926778,
+          "endTime": 26.860635
+        },
+        {
+          "id": 40,
+          "text": "forever.",
+          "startTime": 26.860635,
+          "endTime": 28.860635
+        }
+      ]
+    }
+  ]
+}

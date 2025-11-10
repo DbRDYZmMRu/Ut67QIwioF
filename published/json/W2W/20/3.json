@@ -1,0 +1,316 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "My dad is a minus",
+      "startTime": 4.19044,
+      "endTime": 7.910595,
+      "words": [
+        {
+          "id": 1,
+          "text": "My",
+          "startTime": 4.19044,
+          "endTime": 5.649308
+        },
+        {
+          "id": 2,
+          "text": "dad",
+          "startTime": 5.649308,
+          "endTime": 5.913873
+        },
+        {
+          "id": 3,
+          "text": "is",
+          "startTime": 5.913873,
+          "endTime": 6.843089
+        },
+        {
+          "id": 4,
+          "text": "a",
+          "startTime": 6.843089,
+          "endTime": 6.979678
+        },
+        {
+          "id": 5,
+          "text": "minus",
+          "startTime": 6.979678,
+          "endTime": 7.910595
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "oh see his earplugs",
+      "startTime": 7.910595,
+      "endTime": 10.297968,
+      "words": [
+        {
+          "id": 6,
+          "text": "oh",
+          "startTime": 7.910595,
+          "endTime": 8.838205
+        },
+        {
+          "id": 7,
+          "text": "see",
+          "startTime": 8.838205,
+          "endTime": 9.104504
+        },
+        {
+          "id": 8,
+          "text": "his",
+          "startTime": 9.104504,
+          "endTime": 9.501358
+        },
+        {
+          "id": 9,
+          "text": "earplugs",
+          "startTime": 9.501358,
+          "endTime": 10.297968
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "quiet virgin emotions",
+      "startTime": 10.297968,
+      "endTime": 13.354276,
+      "words": [
+        {
+          "id": 10,
+          "text": "quiet",
+          "startTime": 10.297968,
+          "endTime": 11.755144
+        },
+        {
+          "id": 11,
+          "text": "virgin",
+          "startTime": 11.755144,
+          "endTime": 12.157861
+        },
+        {
+          "id": 12,
+          "text": "emotions",
+          "startTime": 12.157861,
+          "endTime": 13.354276
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "he's to be deaf genius",
+      "startTime": 13.354276,
+      "endTime": 16.407996,
+      "words": [
+        {
+          "id": 13,
+          "text": "he's",
+          "startTime": 13.354276,
+          "endTime": 14.683782
+        },
+        {
+          "id": 14,
+          "text": "to",
+          "startTime": 14.683782,
+          "endTime": 14.94612
+        },
+        {
+          "id": 15,
+          "text": "be",
+          "startTime": 14.94612,
+          "endTime": 15.080665
+        },
+        {
+          "id": 16,
+          "text": "deaf",
+          "startTime": 15.080665,
+          "endTime": 15.475419
+        },
+        {
+          "id": 17,
+          "text": "genius",
+          "startTime": 15.475419,
+          "endTime": 16.407996
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "but oh listening seldom",
+      "startTime": 16.407996,
+      "endTime": 20.127012,
+      "words": [
+        {
+          "id": 18,
+          "text": "but",
+          "startTime": 16.407996,
+          "endTime": 17.602688
+        },
+        {
+          "id": 19,
+          "text": "oh",
+          "startTime": 17.602688,
+          "endTime": 18.268625
+        },
+        {
+          "id": 20,
+          "text": "listening",
+          "startTime": 18.268625,
+          "endTime": 19.197865
+        },
+        {
+          "id": 21,
+          "text": "seldom",
+          "startTime": 19.197865,
+          "endTime": 20.127012
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "the immemorable figure",
+      "startTime": 20.127012,
+      "endTime": 22.916558,
+      "words": [
+        {
+          "id": 22,
+          "text": "the",
+          "startTime": 20.127012,
+          "endTime": 21.187064
+        },
+        {
+          "id": 23,
+          "text": "immemorable",
+          "startTime": 21.187064,
+          "endTime": 21.987594
+        },
+        {
+          "id": 24,
+          "text": "figure",
+          "startTime": 21.987594,
+          "endTime": 22.916558
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "rooms space in his crock",
+      "startTime": 22.916558,
+      "endTime": 26.633831,
+      "words": [
+        {
+          "id": 25,
+          "text": "rooms",
+          "startTime": 22.916558,
+          "endTime": 24.109068
+        },
+        {
+          "id": 26,
+          "text": "space",
+          "startTime": 24.109068,
+          "endTime": 24.775034
+        },
+        {
+          "id": 27,
+          "text": "in",
+          "startTime": 24.775034,
+          "endTime": 25.440317
+        },
+        {
+          "id": 28,
+          "text": "his",
+          "startTime": 25.440317,
+          "endTime": 25.572362
+        },
+        {
+          "id": 29,
+          "text": "crock",
+          "startTime": 25.572362,
+          "endTime": 26.633831
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "shampoo a gorilla's asylum",
+      "startTime": 26.633831,
+      "endTime": 30.753435,
+      "words": [
+        {
+          "id": 30,
+          "text": "shampoo",
+          "startTime": 26.633831,
+          "endTime": 28.759766
+        },
+        {
+          "id": 31,
+          "text": "a",
+          "startTime": 28.759766,
+          "endTime": 28.893007
+        },
+        {
+          "id": 32,
+          "text": "gorilla's",
+          "startTime": 28.893007,
+          "endTime": 29.554857
+        },
+        {
+          "id": 33,
+          "text": "asylum",
+          "startTime": 29.554857,
+          "endTime": 30.753435
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "write him the poem for a plus.",
+      "startTime": 30.753435,
+      "endTime": 35.80364,
+      "words": [
+        {
+          "id": 34,
+          "text": "write",
+          "startTime": 30.753435,
+          "endTime": 32.080228
+        },
+        {
+          "id": 35,
+          "text": "him",
+          "startTime": 32.080228,
+          "endTime": 32.345597
+        },
+        {
+          "id": 36,
+          "text": "the",
+          "startTime": 32.345597,
+          "endTime": 32.479811
+        },
+        {
+          "id": 37,
+          "text": "poem",
+          "startTime": 32.479811,
+          "endTime": 33.143852
+        },
+        {
+          "id": 38,
+          "text": "for",
+          "startTime": 33.143852,
+          "endTime": 33.675007
+        },
+        {
+          "id": 39,
+          "text": "a",
+          "startTime": 33.675007,
+          "endTime": 33.80364
+        },
+        {
+          "id": 40,
+          "text": "plus.",
+          "startTime": 33.80364,
+          "endTime": 35.80364
+        }
+      ]
+    }
+  ]
+}

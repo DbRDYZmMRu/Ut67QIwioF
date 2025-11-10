@@ -1,0 +1,226 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Maybe I'm dreaming",
+      "startTime": 5.01922,
+      "endTime": 7.01114,
+      "words": [
+        {
+          "id": 1,
+          "text": "Maybe",
+          "startTime": 5.01922,
+          "endTime": 6.078807
+        },
+        {
+          "id": 2,
+          "text": "I'm",
+          "startTime": 6.078807,
+          "endTime": 6.210395
+        },
+        {
+          "id": 3,
+          "text": "dreaming",
+          "startTime": 6.210395,
+          "endTime": 7.01114
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "binocular weep affixed",
+      "startTime": 7.01114,
+      "endTime": 10.864134,
+      "words": [
+        {
+          "id": 4,
+          "text": "binocular",
+          "startTime": 7.01114,
+          "endTime": 8.869477
+        },
+        {
+          "id": 5,
+          "text": "weep",
+          "startTime": 8.869477,
+          "endTime": 9.268325
+        },
+        {
+          "id": 6,
+          "text": "affixed",
+          "startTime": 9.268325,
+          "endTime": 10.864134
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "in a situation I'm bleeding",
+      "startTime": 10.864134,
+      "endTime": 13.917007,
+      "words": [
+        {
+          "id": 7,
+          "text": "in",
+          "startTime": 10.864134,
+          "endTime": 10.995841
+        },
+        {
+          "id": 8,
+          "text": "a",
+          "startTime": 10.995841,
+          "endTime": 11.128713
+        },
+        {
+          "id": 9,
+          "text": "situation",
+          "startTime": 11.128713,
+          "endTime": 11.925383
+        },
+        {
+          "id": 10,
+          "text": "I'm",
+          "startTime": 11.925383,
+          "endTime": 12.987608
+        },
+        {
+          "id": 11,
+          "text": "bleeding",
+          "startTime": 12.987608,
+          "endTime": 13.917007
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "it's myself I'm never escaping",
+      "startTime": 13.917007,
+      "endTime": 18.161669,
+      "words": [
+        {
+          "id": 12,
+          "text": "it's",
+          "startTime": 13.917007,
+          "endTime": 15.644525
+        },
+        {
+          "id": 13,
+          "text": "myself",
+          "startTime": 15.644525,
+          "endTime": 16.308561
+        },
+        {
+          "id": 14,
+          "text": "I'm",
+          "startTime": 16.308561,
+          "endTime": 16.571465
+        },
+        {
+          "id": 15,
+          "text": "never",
+          "startTime": 16.571465,
+          "endTime": 16.83728
+        },
+        {
+          "id": 16,
+          "text": "escaping",
+          "startTime": 16.83728,
+          "endTime": 18.161669
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "not the fish wrap you're holding",
+      "startTime": 18.161669,
+      "endTime": 21.882891,
+      "words": [
+        {
+          "id": 17,
+          "text": "not",
+          "startTime": 18.161669,
+          "endTime": 19.229842
+        },
+        {
+          "id": 18,
+          "text": "the",
+          "startTime": 19.229842,
+          "endTime": 19.361976
+        },
+        {
+          "id": 19,
+          "text": "fish",
+          "startTime": 19.361976,
+          "endTime": 19.755356
+        },
+        {
+          "id": 20,
+          "text": "wrap",
+          "startTime": 19.755356,
+          "endTime": 20.292571
+        },
+        {
+          "id": 21,
+          "text": "you're",
+          "startTime": 20.292571,
+          "endTime": 20.816386
+        },
+        {
+          "id": 22,
+          "text": "holding",
+          "startTime": 20.816386,
+          "endTime": 21.882891
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "if you're my dad, what an itinerary.",
+      "startTime": 21.882891,
+      "endTime": 27.472989,
+      "words": [
+        {
+          "id": 23,
+          "text": "if",
+          "startTime": 21.882891,
+          "endTime": 23.077518
+        },
+        {
+          "id": 24,
+          "text": "you're",
+          "startTime": 23.077518,
+          "endTime": 23.210434
+        },
+        {
+          "id": 25,
+          "text": "my",
+          "startTime": 23.210434,
+          "endTime": 23.344551
+        },
+        {
+          "id": 26,
+          "text": "dad,",
+          "startTime": 23.344551,
+          "endTime": 24.410393
+        },
+        {
+          "id": 27,
+          "text": "what",
+          "startTime": 24.410393,
+          "endTime": 25.201345
+        },
+        {
+          "id": 28,
+          "text": "an",
+          "startTime": 25.201345,
+          "endTime": 25.472989
+        },
+        {
+          "id": 29,
+          "text": "itinerary.",
+          "startTime": 25.472989,
+          "endTime": 27.472989
+        }
+      ]
+    }
+  ]
+}

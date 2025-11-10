@@ -1,0 +1,404 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I stumbled on his headlamp’s dave",
+      "startTime": 3.384738,
+      "endTime": 7.771137,
+      "words": [
+        {
+          "id": 1,
+          "text": "I",
+          "startTime": 3.384738,
+          "endTime": 4.582904
+        },
+        {
+          "id": 2,
+          "text": "stumbled",
+          "startTime": 4.582904,
+          "endTime": 5.111749
+        },
+        {
+          "id": 3,
+          "text": "on",
+          "startTime": 5.111749,
+          "endTime": 6.045185
+        },
+        {
+          "id": 4,
+          "text": "his",
+          "startTime": 6.045185,
+          "endTime": 6.175535
+        },
+        {
+          "id": 5,
+          "text": "headlamp’s",
+          "startTime": 6.175535,
+          "endTime": 6.840473
+        },
+        {
+          "id": 6,
+          "text": "dave",
+          "startTime": 6.840473,
+          "endTime": 7.771137
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "if it was light, it wasn't on a stage",
+      "startTime": 7.771137,
+      "endTime": 12.151834,
+      "words": [
+        {
+          "id": 7,
+          "text": "if",
+          "startTime": 7.771137,
+          "endTime": 8.831959
+        },
+        {
+          "id": 8,
+          "text": "it",
+          "startTime": 8.831959,
+          "endTime": 8.966504
+        },
+        {
+          "id": 9,
+          "text": "was",
+          "startTime": 8.966504,
+          "endTime": 9.09759
+        },
+        {
+          "id": 10,
+          "text": "light,",
+          "startTime": 9.09759,
+          "endTime": 9.895362
+        },
+        {
+          "id": 11,
+          "text": "it",
+          "startTime": 9.895362,
+          "endTime": 10.692621
+        },
+        {
+          "id": 12,
+          "text": "wasn't",
+          "startTime": 10.692621,
+          "endTime": 10.95629
+        },
+        {
+          "id": 13,
+          "text": "on",
+          "startTime": 10.95629,
+          "endTime": 11.089676
+        },
+        {
+          "id": 14,
+          "text": "a",
+          "startTime": 11.089676,
+          "endTime": 11.488381
+        },
+        {
+          "id": 15,
+          "text": "stage",
+          "startTime": 11.488381,
+          "endTime": 12.151834
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "everyone called it blazing a trail",
+      "startTime": 12.151834,
+      "endTime": 15.736956,
+      "words": [
+        {
+          "id": 16,
+          "text": "everyone",
+          "startTime": 12.151834,
+          "endTime": 13.742785
+        },
+        {
+          "id": 17,
+          "text": "called",
+          "startTime": 13.742785,
+          "endTime": 14.143567
+        },
+        {
+          "id": 18,
+          "text": "it",
+          "startTime": 14.143567,
+          "endTime": 14.411058
+        },
+        {
+          "id": 19,
+          "text": "blazing",
+          "startTime": 14.411058,
+          "endTime": 14.805608
+        },
+        {
+          "id": 20,
+          "text": "a",
+          "startTime": 14.805608,
+          "endTime": 15.072008
+        },
+        {
+          "id": 21,
+          "text": "trail",
+          "startTime": 15.072008,
+          "endTime": 15.736956
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "it was racing to starve a shame",
+      "startTime": 15.736956,
+      "endTime": 20.385046,
+      "words": [
+        {
+          "id": 22,
+          "text": "it",
+          "startTime": 15.736956,
+          "endTime": 17.197308
+        },
+        {
+          "id": 23,
+          "text": "was",
+          "startTime": 17.197308,
+          "endTime": 17.461249
+        },
+        {
+          "id": 24,
+          "text": "racing",
+          "startTime": 17.461249,
+          "endTime": 18.394498
+        },
+        {
+          "id": 25,
+          "text": "to",
+          "startTime": 18.394498,
+          "endTime": 18.926094
+        },
+        {
+          "id": 26,
+          "text": "starve",
+          "startTime": 18.926094,
+          "endTime": 19.189187
+        },
+        {
+          "id": 27,
+          "text": "a",
+          "startTime": 19.189187,
+          "endTime": 19.458083
+        },
+        {
+          "id": 28,
+          "text": "shame",
+          "startTime": 19.458083,
+          "endTime": 20.385046
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "a die of pips always by a grace",
+      "startTime": 20.385046,
+      "endTime": 25.301205,
+      "words": [
+        {
+          "id": 29,
+          "text": "a",
+          "startTime": 20.385046,
+          "endTime": 21.715987
+        },
+        {
+          "id": 30,
+          "text": "die",
+          "startTime": 21.715987,
+          "endTime": 21.980503
+        },
+        {
+          "id": 31,
+          "text": "of",
+          "startTime": 21.980503,
+          "endTime": 22.244473
+        },
+        {
+          "id": 32,
+          "text": "pips",
+          "startTime": 22.244473,
+          "endTime": 22.778592
+        },
+        {
+          "id": 33,
+          "text": "always",
+          "startTime": 22.778592,
+          "endTime": 23.834628
+        },
+        {
+          "id": 34,
+          "text": "by",
+          "startTime": 23.834628,
+          "endTime": 23.971787
+        },
+        {
+          "id": 35,
+          "text": "a",
+          "startTime": 23.971787,
+          "endTime": 24.238448
+        },
+        {
+          "id": 36,
+          "text": "grace",
+          "startTime": 24.238448,
+          "endTime": 25.301205
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "so I hadn't found him in game",
+      "startTime": 25.301205,
+      "endTime": 28.617987,
+      "words": [
+        {
+          "id": 37,
+          "text": "so",
+          "startTime": 25.301205,
+          "endTime": 26.497887
+        },
+        {
+          "id": 38,
+          "text": "I",
+          "startTime": 26.497887,
+          "endTime": 26.628798
+        },
+        {
+          "id": 39,
+          "text": "hadn't",
+          "startTime": 26.628798,
+          "endTime": 26.760119
+        },
+        {
+          "id": 40,
+          "text": "found",
+          "startTime": 26.760119,
+          "endTime": 27.159069
+        },
+        {
+          "id": 41,
+          "text": "him",
+          "startTime": 27.159069,
+          "endTime": 27.424279
+        },
+        {
+          "id": 42,
+          "text": "in",
+          "startTime": 27.424279,
+          "endTime": 27.560016
+        },
+        {
+          "id": 43,
+          "text": "game",
+          "startTime": 27.560016,
+          "endTime": 28.617987
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "a warm cup, a mild milk pane",
+      "startTime": 28.617987,
+      "endTime": 34.064595,
+      "words": [
+        {
+          "id": 44,
+          "text": "a",
+          "startTime": 28.617987,
+          "endTime": 30.079787
+        },
+        {
+          "id": 45,
+          "text": "warm",
+          "startTime": 30.079787,
+          "endTime": 30.346255
+        },
+        {
+          "id": 46,
+          "text": "cup,",
+          "startTime": 30.346255,
+          "endTime": 31.14325
+        },
+        {
+          "id": 47,
+          "text": "a",
+          "startTime": 31.14325,
+          "endTime": 32.074686
+        },
+        {
+          "id": 48,
+          "text": "mild",
+          "startTime": 32.074686,
+          "endTime": 32.472749
+        },
+        {
+          "id": 49,
+          "text": "milk",
+          "startTime": 32.472749,
+          "endTime": 33.001237
+        },
+        {
+          "id": 50,
+          "text": "pane",
+          "startTime": 33.001237,
+          "endTime": 34.064595
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "a love song buff, ever brave.",
+      "startTime": 34.064595,
+      "endTime": 39.385411,
+      "words": [
+        {
+          "id": 51,
+          "text": "a",
+          "startTime": 34.064595,
+          "endTime": 34.860678
+        },
+        {
+          "id": 52,
+          "text": "love",
+          "startTime": 34.860678,
+          "endTime": 35.128339
+        },
+        {
+          "id": 53,
+          "text": "song",
+          "startTime": 35.128339,
+          "endTime": 35.395578
+        },
+        {
+          "id": 54,
+          "text": "buff,",
+          "startTime": 35.395578,
+          "endTime": 36.193416
+        },
+        {
+          "id": 55,
+          "text": "ever",
+          "startTime": 36.193416,
+          "endTime": 37.385411
+        },
+        {
+          "id": 56,
+          "text": "brave.",
+          "startTime": 37.385411,
+          "endTime": 39.385411
+        }
+      ]
+    }
+  ]
+}
