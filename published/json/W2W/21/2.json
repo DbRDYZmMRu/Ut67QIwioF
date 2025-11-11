@@ -1,0 +1,182 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Pomp for her denture",
+      "startTime": 3.432221,
+      "endTime": 6.482667,
+      "words": [
+        {
+          "id": 1,
+          "text": "Pomp",
+          "startTime": 3.432221,
+          "endTime": 5.021464
+        },
+        {
+          "id": 2,
+          "text": "for",
+          "startTime": 5.021464,
+          "endTime": 5.2902
+        },
+        {
+          "id": 3,
+          "text": "her",
+          "startTime": 5.2902,
+          "endTime": 5.421953
+        },
+        {
+          "id": 4,
+          "text": "denture",
+          "startTime": 5.421953,
+          "endTime": 6.482667
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "her elevated inch clutch",
+      "startTime": 6.482667,
+      "endTime": 9.411781,
+      "words": [
+        {
+          "id": 5,
+          "text": "her",
+          "startTime": 6.482667,
+          "endTime": 7.404814
+        },
+        {
+          "id": 6,
+          "text": "elevated",
+          "startTime": 7.404814,
+          "endTime": 8.213753
+        },
+        {
+          "id": 7,
+          "text": "inch",
+          "startTime": 8.213753,
+          "endTime": 8.600044
+        },
+        {
+          "id": 8,
+          "text": "clutch",
+          "startTime": 8.600044,
+          "endTime": 9.411781
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "her syllabic shawl spurred",
+      "startTime": 9.411781,
+      "endTime": 12.593951,
+      "words": [
+        {
+          "id": 9,
+          "text": "her",
+          "startTime": 9.411781,
+          "endTime": 10.60087
+        },
+        {
+          "id": 10,
+          "text": "syllabic",
+          "startTime": 10.60087,
+          "endTime": 11.132096
+        },
+        {
+          "id": 11,
+          "text": "shawl",
+          "startTime": 11.132096,
+          "endTime": 11.663625
+        },
+        {
+          "id": 12,
+          "text": "spurred",
+          "startTime": 11.663625,
+          "endTime": 12.593951
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "what fettered dibs rumptious",
+      "startTime": 12.593951,
+      "endTime": 16.036577,
+      "words": [
+        {
+          "id": 13,
+          "text": "what",
+          "startTime": 12.593951,
+          "endTime": 13.653451
+        },
+        {
+          "id": 14,
+          "text": "fettered",
+          "startTime": 13.653451,
+          "endTime": 14.183704
+        },
+        {
+          "id": 15,
+          "text": "dibs",
+          "startTime": 14.183704,
+          "endTime": 14.849879
+        },
+        {
+          "id": 16,
+          "text": "rumptious",
+          "startTime": 14.849879,
+          "endTime": 16.036577
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "looks in a moving wick of rush.",
+      "startTime": 16.036577,
+      "endTime": 21.233887,
+      "words": [
+        {
+          "id": 17,
+          "text": "looks",
+          "startTime": 16.036577,
+          "endTime": 17.241921
+        },
+        {
+          "id": 18,
+          "text": "in",
+          "startTime": 17.241921,
+          "endTime": 17.775697
+        },
+        {
+          "id": 19,
+          "text": "a",
+          "startTime": 17.775697,
+          "endTime": 17.909846
+        },
+        {
+          "id": 20,
+          "text": "moving",
+          "startTime": 17.909846,
+          "endTime": 18.302318
+        },
+        {
+          "id": 21,
+          "text": "wick",
+          "startTime": 18.302318,
+          "endTime": 18.705767
+        },
+        {
+          "id": 22,
+          "text": "of",
+          "startTime": 18.705767,
+          "endTime": 19.233887
+        },
+        {
+          "id": 23,
+          "text": "rush.",
+          "startTime": 19.233887,
+          "endTime": 21.233887
+        }
+      ]
+    }
+  ]
+}

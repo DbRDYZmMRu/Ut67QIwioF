@@ -1,0 +1,232 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Sweating with a bath running",
+      "startTime": 4.195044,
+      "endTime": 8.042321,
+      "words": [
+        {
+          "id": 1,
+          "text": "Sweating",
+          "startTime": 4.195044,
+          "endTime": 5.796631
+        },
+        {
+          "id": 2,
+          "text": "with",
+          "startTime": 5.796631,
+          "endTime": 6.58889
+        },
+        {
+          "id": 3,
+          "text": "a",
+          "startTime": 6.58889,
+          "endTime": 6.716587
+        },
+        {
+          "id": 4,
+          "text": "bath",
+          "startTime": 6.716587,
+          "endTime": 7.118872
+        },
+        {
+          "id": 5,
+          "text": "running",
+          "startTime": 7.118872,
+          "endTime": 8.042321
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "slices off juice in gripping hilt",
+      "startTime": 8.042321,
+      "endTime": 12.437761,
+      "words": [
+        {
+          "id": 6,
+          "text": "slices",
+          "startTime": 8.042321,
+          "endTime": 9.503404
+        },
+        {
+          "id": 7,
+          "text": "off",
+          "startTime": 9.503404,
+          "endTime": 9.774786
+        },
+        {
+          "id": 8,
+          "text": "juice",
+          "startTime": 9.774786,
+          "endTime": 10.577159
+        },
+        {
+          "id": 9,
+          "text": "in",
+          "startTime": 10.577159,
+          "endTime": 11.237092
+        },
+        {
+          "id": 10,
+          "text": "gripping",
+          "startTime": 11.237092,
+          "endTime": 11.770317
+        },
+        {
+          "id": 11,
+          "text": "hilt",
+          "startTime": 11.770317,
+          "endTime": 12.437761
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "it's imagination’s cross-width",
+      "startTime": 12.437761,
+      "endTime": 16.54661,
+      "words": [
+        {
+          "id": 12,
+          "text": "it's",
+          "startTime": 12.437761,
+          "endTime": 14.156485
+        },
+        {
+          "id": 13,
+          "text": "imagination’s",
+          "startTime": 14.156485,
+          "endTime": 15.348251
+        },
+        {
+          "id": 14,
+          "text": "cross-width",
+          "startTime": 15.348251,
+          "endTime": 16.54661
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "rites lined in their index neat",
+      "startTime": 16.54661,
+      "endTime": 20.400613,
+      "words": [
+        {
+          "id": 15,
+          "text": "rites",
+          "startTime": 16.54661,
+          "endTime": 17.750681
+        },
+        {
+          "id": 16,
+          "text": "lined",
+          "startTime": 17.750681,
+          "endTime": 18.409905
+        },
+        {
+          "id": 17,
+          "text": "in",
+          "startTime": 18.409905,
+          "endTime": 18.943251
+        },
+        {
+          "id": 18,
+          "text": "their",
+          "startTime": 18.943251,
+          "endTime": 19.203992
+        },
+        {
+          "id": 19,
+          "text": "index",
+          "startTime": 19.203992,
+          "endTime": 19.605551
+        },
+        {
+          "id": 20,
+          "text": "neat",
+          "startTime": 19.605551,
+          "endTime": 20.400613
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "the skyline, each in whistling",
+      "startTime": 20.400613,
+      "endTime": 24.392178,
+      "words": [
+        {
+          "id": 21,
+          "text": "the",
+          "startTime": 20.400613,
+          "endTime": 21.331935
+        },
+        {
+          "id": 22,
+          "text": "skyline,",
+          "startTime": 21.331935,
+          "endTime": 22.126704
+        },
+        {
+          "id": 23,
+          "text": "each",
+          "startTime": 22.126704,
+          "endTime": 23.315433
+        },
+        {
+          "id": 24,
+          "text": "in",
+          "startTime": 23.315433,
+          "endTime": 23.590822
+        },
+        {
+          "id": 25,
+          "text": "whistling",
+          "startTime": 23.590822,
+          "endTime": 24.392178
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "tuning, remitting no rear hint.",
+      "startTime": 24.392178,
+      "endTime": 30.370671,
+      "words": [
+        {
+          "id": 26,
+          "text": "tuning,",
+          "startTime": 24.392178,
+          "endTime": 25.980941
+        },
+        {
+          "id": 27,
+          "text": "remitting",
+          "startTime": 25.980941,
+          "endTime": 27.574198
+        },
+        {
+          "id": 28,
+          "text": "no",
+          "startTime": 27.574198,
+          "endTime": 27.973279
+        },
+        {
+          "id": 29,
+          "text": "rear",
+          "startTime": 27.973279,
+          "endTime": 28.370671
+        },
+        {
+          "id": 30,
+          "text": "hint.",
+          "startTime": 28.370671,
+          "endTime": 30.370671
+        }
+      ]
+    }
+  ]
+}
