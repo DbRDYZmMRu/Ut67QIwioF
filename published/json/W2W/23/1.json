@@ -1,0 +1,206 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "She's thirty with a mist",
+      "startTime": 3.318748,
+      "endTime": 6.36511,
+      "words": [
+        {
+          "id": 1,
+          "text": "She's",
+          "startTime": 3.318748,
+          "endTime": 4.109342
+        },
+        {
+          "id": 2,
+          "text": "thirty",
+          "startTime": 4.109342,
+          "endTime": 5.040858
+        },
+        {
+          "id": 3,
+          "text": "with",
+          "startTime": 5.040858,
+          "endTime": 5.441033
+        },
+        {
+          "id": 4,
+          "text": "a",
+          "startTime": 5.441033,
+          "endTime": 5.708416
+        },
+        {
+          "id": 5,
+          "text": "mist",
+          "startTime": 5.708416,
+          "endTime": 6.36511
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "it revisits me, says gists",
+      "startTime": 6.36511,
+      "endTime": 10.368405,
+      "words": [
+        {
+          "id": 6,
+          "text": "it",
+          "startTime": 6.36511,
+          "endTime": 7.706627
+        },
+        {
+          "id": 7,
+          "text": "revisits",
+          "startTime": 7.706627,
+          "endTime": 8.243176
+        },
+        {
+          "id": 8,
+          "text": "me,",
+          "startTime": 8.243176,
+          "endTime": 8.773312
+        },
+        {
+          "id": 9,
+          "text": "says",
+          "startTime": 8.773312,
+          "endTime": 9.573185
+        },
+        {
+          "id": 10,
+          "text": "gists",
+          "startTime": 9.573185,
+          "endTime": 10.368405
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "left on my grams of slips",
+      "startTime": 10.368405,
+      "endTime": 13.420745,
+      "words": [
+        {
+          "id": 11,
+          "text": "left",
+          "startTime": 10.368405,
+          "endTime": 11.560132
+        },
+        {
+          "id": 12,
+          "text": "on",
+          "startTime": 11.560132,
+          "endTime": 11.825364
+        },
+        {
+          "id": 13,
+          "text": "my",
+          "startTime": 11.825364,
+          "endTime": 11.959561
+        },
+        {
+          "id": 14,
+          "text": "grams",
+          "startTime": 11.959561,
+          "endTime": 12.482587
+        },
+        {
+          "id": 15,
+          "text": "of",
+          "startTime": 12.482587,
+          "endTime": 12.759102
+        },
+        {
+          "id": 16,
+          "text": "slips",
+          "startTime": 12.759102,
+          "endTime": 13.420745
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "gritty yelps, lovely secret",
+      "startTime": 13.420745,
+      "endTime": 17.146615,
+      "words": [
+        {
+          "id": 17,
+          "text": "gritty",
+          "startTime": 13.420745,
+          "endTime": 14.354133
+        },
+        {
+          "id": 18,
+          "text": "yelps,",
+          "startTime": 14.354133,
+          "endTime": 15.276967
+        },
+        {
+          "id": 19,
+          "text": "lovely",
+          "startTime": 15.276967,
+          "endTime": 16.206507
+        },
+        {
+          "id": 20,
+          "text": "secret",
+          "startTime": 16.206507,
+          "endTime": 17.146615
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "a toss crept for a night hit.",
+      "startTime": 17.146615,
+      "endTime": 22.595881,
+      "words": [
+        {
+          "id": 21,
+          "text": "a",
+          "startTime": 17.146615,
+          "endTime": 18.472582
+        },
+        {
+          "id": 22,
+          "text": "toss",
+          "startTime": 18.472582,
+          "endTime": 18.737982
+        },
+        {
+          "id": 23,
+          "text": "crept",
+          "startTime": 18.737982,
+          "endTime": 19.268142
+        },
+        {
+          "id": 24,
+          "text": "for",
+          "startTime": 19.268142,
+          "endTime": 20.198545
+        },
+        {
+          "id": 25,
+          "text": "a",
+          "startTime": 20.198545,
+          "endTime": 20.326234
+        },
+        {
+          "id": 26,
+          "text": "night",
+          "startTime": 20.326234,
+          "endTime": 20.595881
+        },
+        {
+          "id": 27,
+          "text": "hit.",
+          "startTime": 20.595881,
+          "endTime": 22.595881
+        }
+      ]
+    }
+  ]
+}

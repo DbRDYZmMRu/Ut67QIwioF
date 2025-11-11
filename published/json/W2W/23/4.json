@@ -1,0 +1,144 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "What other charms slash",
+      "startTime": 3.861611,
+      "endTime": 6.779834,
+      "words": [
+        {
+          "id": 1,
+          "text": "What",
+          "startTime": 3.861611,
+          "endTime": 4.92185
+        },
+        {
+          "id": 2,
+          "text": "other",
+          "startTime": 4.92185,
+          "endTime": 5.320013
+        },
+        {
+          "id": 3,
+          "text": "charms",
+          "startTime": 5.320013,
+          "endTime": 5.984781
+        },
+        {
+          "id": 4,
+          "text": "slash",
+          "startTime": 5.984781,
+          "endTime": 6.779834
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "sat at odd in a gnash",
+      "startTime": 6.779834,
+      "endTime": 10.103153,
+      "words": [
+        {
+          "id": 5,
+          "text": "sat",
+          "startTime": 6.779834,
+          "endTime": 7.7074
+        },
+        {
+          "id": 6,
+          "text": "at",
+          "startTime": 7.7074,
+          "endTime": 7.98499
+        },
+        {
+          "id": 7,
+          "text": "odd",
+          "startTime": 7.98499,
+          "endTime": 8.501879
+        },
+        {
+          "id": 8,
+          "text": "in",
+          "startTime": 8.501879,
+          "endTime": 9.165849
+        },
+        {
+          "id": 9,
+          "text": "a",
+          "startTime": 9.165849,
+          "endTime": 9.442834
+        },
+        {
+          "id": 10,
+          "text": "gnash",
+          "startTime": 9.442834,
+          "endTime": 10.103153
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "she wrote her lash",
+      "startTime": 10.103153,
+      "endTime": 12.890865,
+      "words": [
+        {
+          "id": 11,
+          "text": "she",
+          "startTime": 10.103153,
+          "endTime": 11.429651
+        },
+        {
+          "id": 12,
+          "text": "wrote",
+          "startTime": 11.429651,
+          "endTime": 11.695039
+        },
+        {
+          "id": 13,
+          "text": "her",
+          "startTime": 11.695039,
+          "endTime": 11.957049
+        },
+        {
+          "id": 14,
+          "text": "lash",
+          "startTime": 11.957049,
+          "endTime": 12.890865
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "new rules, a ruler.",
+      "startTime": 12.890865,
+      "endTime": 16.609130999999998,
+      "words": [
+        {
+          "id": 15,
+          "text": "new",
+          "startTime": 12.890865,
+          "endTime": 13.548701
+        },
+        {
+          "id": 16,
+          "text": "rules,",
+          "startTime": 13.548701,
+          "endTime": 14.215398
+        },
+        {
+          "id": 17,
+          "text": "a",
+          "startTime": 14.215398,
+          "endTime": 14.609131
+        },
+        {
+          "id": 18,
+          "text": "ruler.",
+          "startTime": 14.609131,
+          "endTime": 16.609130999999998
+        }
+      ]
+    }
+  ]
+}

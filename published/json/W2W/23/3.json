@@ -1,0 +1,182 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Huckleberry above persimmon",
+      "startTime": 3.810859,
+      "endTime": 6.740734,
+      "words": [
+        {
+          "id": 1,
+          "text": "Huckleberry",
+          "startTime": 3.810859,
+          "endTime": 4.877044
+        },
+        {
+          "id": 2,
+          "text": "above",
+          "startTime": 4.877044,
+          "endTime": 5.676889
+        },
+        {
+          "id": 3,
+          "text": "persimmon",
+          "startTime": 5.676889,
+          "endTime": 6.740734
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "snorkelling in her Kelly pool",
+      "startTime": 6.740734,
+      "endTime": 10.193699,
+      "words": [
+        {
+          "id": 4,
+          "text": "snorkelling",
+          "startTime": 6.740734,
+          "endTime": 8.329523
+        },
+        {
+          "id": 5,
+          "text": "in",
+          "startTime": 8.329523,
+          "endTime": 8.997602
+        },
+        {
+          "id": 6,
+          "text": "her",
+          "startTime": 8.997602,
+          "endTime": 9.128707
+        },
+        {
+          "id": 7,
+          "text": "Kelly",
+          "startTime": 9.128707,
+          "endTime": 9.528171
+        },
+        {
+          "id": 8,
+          "text": "pool",
+          "startTime": 9.528171,
+          "endTime": 10.193699
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "her cue ball, a ballot soup",
+      "startTime": 10.193699,
+      "endTime": 14.029921,
+      "words": [
+        {
+          "id": 9,
+          "text": "her",
+          "startTime": 10.193699,
+          "endTime": 11.252888
+        },
+        {
+          "id": 10,
+          "text": "cue",
+          "startTime": 11.252888,
+          "endTime": 11.518124
+        },
+        {
+          "id": 11,
+          "text": "ball,",
+          "startTime": 11.518124,
+          "endTime": 12.177275
+        },
+        {
+          "id": 12,
+          "text": "a",
+          "startTime": 12.177275,
+          "endTime": 12.852471
+        },
+        {
+          "id": 13,
+          "text": "ballot",
+          "startTime": 12.852471,
+          "endTime": 13.236033
+        },
+        {
+          "id": 14,
+          "text": "soup",
+          "startTime": 13.236033,
+          "endTime": 14.029921
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "her stun gun latches us",
+      "startTime": 14.029921,
+      "endTime": 16.433485,
+      "words": [
+        {
+          "id": 15,
+          "text": "her",
+          "startTime": 14.029921,
+          "endTime": 14.970494
+        },
+        {
+          "id": 16,
+          "text": "stun",
+          "startTime": 14.970494,
+          "endTime": 15.234716
+        },
+        {
+          "id": 17,
+          "text": "gun",
+          "startTime": 15.234716,
+          "endTime": 15.637752
+        },
+        {
+          "id": 18,
+          "text": "latches",
+          "startTime": 15.637752,
+          "endTime": 15.903257
+        },
+        {
+          "id": 19,
+          "text": "us",
+          "startTime": 15.903257,
+          "endTime": 16.433485
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "at pallor entry moods.",
+      "startTime": 16.433485,
+      "endTime": 20.021318,
+      "words": [
+        {
+          "id": 20,
+          "text": "at",
+          "startTime": 16.433485,
+          "endTime": 17.092382
+        },
+        {
+          "id": 21,
+          "text": "pallor",
+          "startTime": 17.092382,
+          "endTime": 17.629744
+        },
+        {
+          "id": 22,
+          "text": "entry",
+          "startTime": 17.629744,
+          "endTime": 18.021318
+        },
+        {
+          "id": 23,
+          "text": "moods.",
+          "startTime": 18.021318,
+          "endTime": 20.021318
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Reason I took a beaut out",
+      "startTime": 2.962822,
+      "endTime": 6.014286,
+      "words": [
+        {
+          "id": 1,
+          "text": "Reason",
+          "startTime": 2.962822,
+          "endTime": 4.161004
+        },
+        {
+          "id": 2,
+          "text": "I",
+          "startTime": 4.161004,
+          "endTime": 4.288887
+        },
+        {
+          "id": 3,
+          "text": "took",
+          "startTime": 4.288887,
+          "endTime": 4.553134
+        },
+        {
+          "id": 4,
+          "text": "a",
+          "startTime": 4.553134,
+          "endTime": 4.818852
+        },
+        {
+          "id": 5,
+          "text": "beaut",
+          "startTime": 4.818852,
+          "endTime": 5.218193
+        },
+        {
+          "id": 6,
+          "text": "out",
+          "startTime": 5.218193,
+          "endTime": 6.014286
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "was out impatient four walls",
+      "startTime": 6.014286,
+      "endTime": 9.341608,
+      "words": [
+        {
+          "id": 7,
+          "text": "was",
+          "startTime": 6.014286,
+          "endTime": 6.937775
+        },
+        {
+          "id": 8,
+          "text": "out",
+          "startTime": 6.937775,
+          "endTime": 7.343847
+        },
+        {
+          "id": 9,
+          "text": "impatient",
+          "startTime": 7.343847,
+          "endTime": 8.136534
+        },
+        {
+          "id": 10,
+          "text": "four",
+          "startTime": 8.136534,
+          "endTime": 8.403244
+        },
+        {
+          "id": 11,
+          "text": "walls",
+          "startTime": 8.403244,
+          "endTime": 9.341608
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "amorphous as a heart’s spur",
+      "startTime": 9.341608,
+      "endTime": 12.919993,
+      "words": [
+        {
+          "id": 12,
+          "text": "amorphous",
+          "startTime": 9.341608,
+          "endTime": 11.057436
+        },
+        {
+          "id": 13,
+          "text": "as",
+          "startTime": 11.057436,
+          "endTime": 11.727168
+        },
+        {
+          "id": 14,
+          "text": "a",
+          "startTime": 11.727168,
+          "endTime": 11.862137
+        },
+        {
+          "id": 15,
+          "text": "heart’s",
+          "startTime": 11.862137,
+          "endTime": 12.126561
+        },
+        {
+          "id": 16,
+          "text": "spur",
+          "startTime": 12.126561,
+          "endTime": 12.919993
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "while nana rocked a table lore",
+      "startTime": 12.919993,
+      "endTime": 16.364861,
+      "words": [
+        {
+          "id": 17,
+          "text": "while",
+          "startTime": 12.919993,
+          "endTime": 14.108194
+        },
+        {
+          "id": 18,
+          "text": "nana",
+          "startTime": 14.108194,
+          "endTime": 14.646898
+        },
+        {
+          "id": 19,
+          "text": "rocked",
+          "startTime": 14.646898,
+          "endTime": 14.903857
+        },
+        {
+          "id": 20,
+          "text": "a",
+          "startTime": 14.903857,
+          "endTime": 15.308706
+        },
+        {
+          "id": 21,
+          "text": "table",
+          "startTime": 15.308706,
+          "endTime": 15.834587
+        },
+        {
+          "id": 22,
+          "text": "lore",
+          "startTime": 15.834587,
+          "endTime": 16.364861
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "inflating was her menu���s sprout.",
+      "startTime": 16.364861,
+      "endTime": 21.828198,
+      "words": [
+        {
+          "id": 23,
+          "text": "inflating",
+          "startTime": 16.364861,
+          "endTime": 18.236543
+        },
+        {
+          "id": 24,
+          "text": "was",
+          "startTime": 18.236543,
+          "endTime": 19.032164
+        },
+        {
+          "id": 25,
+          "text": "her",
+          "startTime": 19.032164,
+          "endTime": 19.297617
+        },
+        {
+          "id": 26,
+          "text": "menu’s",
+          "startTime": 19.297617,
+          "endTime": 19.828198
+        },
+        {
+          "id": 27,
+          "text": "sprout.",
+          "startTime": 19.828198,
+          "endTime": 21.828198
+        }
+      ]
+    }
+  ]
+}
