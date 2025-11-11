@@ -1,0 +1,758 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "In a world of math and trad",
+      "startTime": 4.309427,
+      "endTime": 7.497647,
+      "words": [
+        {
+          "id": 1,
+          "text": "In",
+          "startTime": 4.309427,
+          "endTime": 5.370283
+        },
+        {
+          "id": 2,
+          "text": "a",
+          "startTime": 5.370283,
+          "endTime": 5.508056
+        },
+        {
+          "id": 3,
+          "text": "world",
+          "startTime": 5.508056,
+          "endTime": 5.635337
+        },
+        {
+          "id": 4,
+          "text": "of",
+          "startTime": 5.635337,
+          "endTime": 6.038475
+        },
+        {
+          "id": 5,
+          "text": "math",
+          "startTime": 6.038475,
+          "endTime": 6.568971
+        },
+        {
+          "id": 6,
+          "text": "and",
+          "startTime": 6.568971,
+          "endTime": 6.699725
+        },
+        {
+          "id": 7,
+          "text": "trad",
+          "startTime": 6.699725,
+          "endTime": 7.497647
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "it's her orbs that dampers",
+      "startTime": 7.497647,
+      "endTime": 10.693033,
+      "words": [
+        {
+          "id": 8,
+          "text": "it's",
+          "startTime": 7.497647,
+          "endTime": 8.437203
+        },
+        {
+          "id": 9,
+          "text": "her",
+          "startTime": 8.437203,
+          "endTime": 8.696684
+        },
+        {
+          "id": 10,
+          "text": "orbs",
+          "startTime": 8.696684,
+          "endTime": 9.225773
+        },
+        {
+          "id": 11,
+          "text": "that",
+          "startTime": 9.225773,
+          "endTime": 9.897504
+        },
+        {
+          "id": 12,
+          "text": "dampers",
+          "startTime": 9.897504,
+          "endTime": 10.693033
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "at doors after my forever",
+      "startTime": 10.693033,
+      "endTime": 14.403678,
+      "words": [
+        {
+          "id": 13,
+          "text": "at",
+          "startTime": 10.693033,
+          "endTime": 11.618062
+        },
+        {
+          "id": 14,
+          "text": "doors",
+          "startTime": 11.618062,
+          "endTime": 12.277655
+        },
+        {
+          "id": 15,
+          "text": "after",
+          "startTime": 12.277655,
+          "endTime": 12.942047
+        },
+        {
+          "id": 16,
+          "text": "my",
+          "startTime": 12.942047,
+          "endTime": 13.209867
+        },
+        {
+          "id": 17,
+          "text": "forever",
+          "startTime": 13.209867,
+          "endTime": 14.403678
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "traversing every rational",
+      "startTime": 14.403678,
+      "endTime": 18.653119,
+      "words": [
+        {
+          "id": 18,
+          "text": "traversing",
+          "startTime": 14.403678,
+          "endTime": 16.668043
+        },
+        {
+          "id": 19,
+          "text": "every",
+          "startTime": 16.668043,
+          "endTime": 17.333988
+        },
+        {
+          "id": 20,
+          "text": "rational",
+          "startTime": 17.333988,
+          "endTime": 18.653119
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "a canoe of no new river",
+      "startTime": 18.653119,
+      "endTime": 22.779039,
+      "words": [
+        {
+          "id": 21,
+          "text": "a",
+          "startTime": 18.653119,
+          "endTime": 19.722382
+        },
+        {
+          "id": 22,
+          "text": "canoe",
+          "startTime": 19.722382,
+          "endTime": 20.514282
+        },
+        {
+          "id": 23,
+          "text": "of",
+          "startTime": 20.514282,
+          "endTime": 21.045408
+        },
+        {
+          "id": 24,
+          "text": "no",
+          "startTime": 21.045408,
+          "endTime": 21.313652
+        },
+        {
+          "id": 25,
+          "text": "new",
+          "startTime": 21.313652,
+          "endTime": 21.703798
+        },
+        {
+          "id": 26,
+          "text": "river",
+          "startTime": 21.703798,
+          "endTime": 22.779039
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "dreaming of his islands",
+      "startTime": 22.779039,
+      "endTime": 26.226597,
+      "words": [
+        {
+          "id": 27,
+          "text": "dreaming",
+          "startTime": 22.779039,
+          "endTime": 24.762882
+        },
+        {
+          "id": 28,
+          "text": "of",
+          "startTime": 24.762882,
+          "endTime": 25.042959
+        },
+        {
+          "id": 29,
+          "text": "his",
+          "startTime": 25.042959,
+          "endTime": 25.166119
+        },
+        {
+          "id": 30,
+          "text": "islands",
+          "startTime": 25.166119,
+          "endTime": 26.226597
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "where he mighty math",
+      "startTime": 26.226597,
+      "endTime": 29.807223,
+      "words": [
+        {
+          "id": 31,
+          "text": "where",
+          "startTime": 26.226597,
+          "endTime": 27.020768
+        },
+        {
+          "id": 32,
+          "text": "he",
+          "startTime": 27.020768,
+          "endTime": 27.690814
+        },
+        {
+          "id": 33,
+          "text": "mighty",
+          "startTime": 27.690814,
+          "endTime": 28.886483
+        },
+        {
+          "id": 34,
+          "text": "math",
+          "startTime": 28.886483,
+          "endTime": 29.807223
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "by a soulical calendar",
+      "startTime": 29.807223,
+      "endTime": 32.605944,
+      "words": [
+        {
+          "id": 35,
+          "text": "by",
+          "startTime": 29.807223,
+          "endTime": 30.481848
+        },
+        {
+          "id": 36,
+          "text": "a",
+          "startTime": 30.481848,
+          "endTime": 30.605501
+        },
+        {
+          "id": 37,
+          "text": "soulical",
+          "startTime": 30.605501,
+          "endTime": 31.404832
+        },
+        {
+          "id": 38,
+          "text": "calendar",
+          "startTime": 31.404832,
+          "endTime": 32.605944
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "and the remembered",
+      "startTime": 32.605944,
+      "endTime": 34.720086,
+      "words": [
+        {
+          "id": 39,
+          "text": "and",
+          "startTime": 32.605944,
+          "endTime": 33.267397
+        },
+        {
+          "id": 40,
+          "text": "the",
+          "startTime": 33.267397,
+          "endTime": 33.664456
+        },
+        {
+          "id": 41,
+          "text": "remembered",
+          "startTime": 33.664456,
+          "endTime": 34.720086
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "curse at every writer",
+      "startTime": 34.720086,
+      "endTime": 38.300232,
+      "words": [
+        {
+          "id": 42,
+          "text": "curse",
+          "startTime": 34.720086,
+          "endTime": 35.779075
+        },
+        {
+          "id": 43,
+          "text": "at",
+          "startTime": 35.779075,
+          "endTime": 36.849458
+        },
+        {
+          "id": 44,
+          "text": "every",
+          "startTime": 36.849458,
+          "endTime": 37.388558
+        },
+        {
+          "id": 45,
+          "text": "writer",
+          "startTime": 37.388558,
+          "endTime": 38.300232
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "say my words bitter",
+      "startTime": 38.300232,
+      "endTime": 41.896265,
+      "words": [
+        {
+          "id": 46,
+          "text": "say",
+          "startTime": 38.300232,
+          "endTime": 39.248051
+        },
+        {
+          "id": 47,
+          "text": "my",
+          "startTime": 39.248051,
+          "endTime": 40.303329
+        },
+        {
+          "id": 48,
+          "text": "words",
+          "startTime": 40.303329,
+          "endTime": 40.831212
+        },
+        {
+          "id": 49,
+          "text": "bitter",
+          "startTime": 40.831212,
+          "endTime": 41.896265
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "o death’s accoster",
+      "startTime": 41.896265,
+      "endTime": 45.756132,
+      "words": [
+        {
+          "id": 50,
+          "text": "o",
+          "startTime": 41.896265,
+          "endTime": 44.027468
+        },
+        {
+          "id": 51,
+          "text": "death’s",
+          "startTime": 44.027468,
+          "endTime": 44.557614
+        },
+        {
+          "id": 52,
+          "text": "accoster",
+          "startTime": 44.557614,
+          "endTime": 45.756132
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "paragraph": "at fate boulevards",
+      "startTime": 45.756132,
+      "endTime": 48.405668,
+      "words": [
+        {
+          "id": 53,
+          "text": "at",
+          "startTime": 45.756132,
+          "endTime": 46.681986
+        },
+        {
+          "id": 54,
+          "text": "fate",
+          "startTime": 46.681986,
+          "endTime": 47.207163
+        },
+        {
+          "id": 55,
+          "text": "boulevards",
+          "startTime": 47.207163,
+          "endTime": 48.405668
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "paragraph": "philistine wrestler",
+      "startTime": 48.405668,
+      "endTime": 51.054812,
+      "words": [
+        {
+          "id": 56,
+          "text": "philistine",
+          "startTime": 48.405668,
+          "endTime": 49.993129
+        },
+        {
+          "id": 57,
+          "text": "wrestler",
+          "startTime": 49.993129,
+          "endTime": 51.054812
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "paragraph": "I wished the stag",
+      "startTime": 51.054812,
+      "endTime": 53.719603,
+      "words": [
+        {
+          "id": 58,
+          "text": "I",
+          "startTime": 51.054812,
+          "endTime": 52.128348
+        },
+        {
+          "id": 59,
+          "text": "wished",
+          "startTime": 52.128348,
+          "endTime": 52.524046
+        },
+        {
+          "id": 60,
+          "text": "the",
+          "startTime": 52.524046,
+          "endTime": 52.792335
+        },
+        {
+          "id": 61,
+          "text": "stag",
+          "startTime": 52.792335,
+          "endTime": 53.719603
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "paragraph": "I often wrote her",
+      "startTime": 53.719603,
+      "endTime": 56.369747,
+      "words": [
+        {
+          "id": 62,
+          "text": "I",
+          "startTime": 53.719603,
+          "endTime": 54.77712
+        },
+        {
+          "id": 63,
+          "text": "often",
+          "startTime": 54.77712,
+          "endTime": 55.046949
+        },
+        {
+          "id": 64,
+          "text": "wrote",
+          "startTime": 55.046949,
+          "endTime": 55.313671
+        },
+        {
+          "id": 65,
+          "text": "her",
+          "startTime": 55.313671,
+          "endTime": 56.369747
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "paragraph": "a sader secant",
+      "startTime": 56.369747,
+      "endTime": 58.759878,
+      "words": [
+        {
+          "id": 66,
+          "text": "a",
+          "startTime": 56.369747,
+          "endTime": 57.168271
+        },
+        {
+          "id": 67,
+          "text": "sader",
+          "startTime": 57.168271,
+          "endTime": 57.695959
+        },
+        {
+          "id": 68,
+          "text": "secant",
+          "startTime": 57.695959,
+          "endTime": 58.759878
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "paragraph": "riftin’ me apart",
+      "startTime": 58.759878,
+      "endTime": 62.092756,
+      "words": [
+        {
+          "id": 69,
+          "text": "riftin’",
+          "startTime": 58.759878,
+          "endTime": 61.022872
+        },
+        {
+          "id": 70,
+          "text": "me",
+          "startTime": 61.022872,
+          "endTime": 61.293879
+        },
+        {
+          "id": 71,
+          "text": "apart",
+          "startTime": 61.293879,
+          "endTime": 62.092756
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "paragraph": "o shear faster",
+      "startTime": 62.092756,
+      "endTime": 65.009675,
+      "words": [
+        {
+          "id": 72,
+          "text": "o",
+          "startTime": 62.092756,
+          "endTime": 63.42203
+        },
+        {
+          "id": 73,
+          "text": "shear",
+          "startTime": 63.42203,
+          "endTime": 63.816765
+        },
+        {
+          "id": 74,
+          "text": "faster",
+          "startTime": 63.816765,
+          "endTime": 65.009675
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "paragraph": "for the letters",
+      "startTime": 65.009675,
+      "endTime": 67.000004,
+      "words": [
+        {
+          "id": 75,
+          "text": "for",
+          "startTime": 65.009675,
+          "endTime": 66.06849
+        },
+        {
+          "id": 76,
+          "text": "the",
+          "startTime": 66.06849,
+          "endTime": 66.207766
+        },
+        {
+          "id": 77,
+          "text": "letters",
+          "startTime": 66.207766,
+          "endTime": 67.000004
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "paragraph": "wholly, I had",
+      "startTime": 67.000004,
+      "endTime": 69.394194,
+      "words": [
+        {
+          "id": 78,
+          "text": "wholly,",
+          "startTime": 67.000004,
+          "endTime": 67.942955
+        },
+        {
+          "id": 79,
+          "text": "I",
+          "startTime": 67.942955,
+          "endTime": 68.60365
+        },
+        {
+          "id": 80,
+          "text": "had",
+          "startTime": 68.60365,
+          "endTime": 69.394194
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "paragraph": "was my gap",
+      "startTime": 69.394194,
+      "endTime": 71.119823,
+      "words": [
+        {
+          "id": 81,
+          "text": "was",
+          "startTime": 69.394194,
+          "endTime": 70.190286
+        },
+        {
+          "id": 82,
+          "text": "my",
+          "startTime": 70.190286,
+          "endTime": 70.458447
+        },
+        {
+          "id": 83,
+          "text": "gap",
+          "startTime": 70.458447,
+          "endTime": 71.119823
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "paragraph": "here nigher",
+      "startTime": 71.119823,
+      "endTime": 73.782246,
+      "words": [
+        {
+          "id": 84,
+          "text": "here",
+          "startTime": 71.119823,
+          "endTime": 72.318174
+        },
+        {
+          "id": 85,
+          "text": "nigher",
+          "startTime": 72.318174,
+          "endTime": 73.782246
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "paragraph": "a gap map",
+      "startTime": 73.782246,
+      "endTime": 76.171899,
+      "words": [
+        {
+          "id": 86,
+          "text": "a",
+          "startTime": 73.782246,
+          "endTime": 74.976115
+        },
+        {
+          "id": 87,
+          "text": "gap",
+          "startTime": 74.976115,
+          "endTime": 75.377838
+        },
+        {
+          "id": 88,
+          "text": "map",
+          "startTime": 75.377838,
+          "endTime": 76.171899
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "paragraph": "they star",
+      "startTime": 76.171899,
+      "endTime": 77.899862,
+      "words": [
+        {
+          "id": 89,
+          "text": "they",
+          "startTime": 76.171899,
+          "endTime": 77.102975
+        },
+        {
+          "id": 90,
+          "text": "star",
+          "startTime": 77.102975,
+          "endTime": 77.899862
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "paragraph": "clearer.",
+      "startTime": 77.899862,
+      "endTime": 79.899862,
+      "words": [
+        {
+          "id": 91,
+          "text": "clearer.",
+          "startTime": 77.899862,
+          "endTime": 79.899862
+        }
+      ]
+    }
+  ]
+}

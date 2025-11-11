@@ -1,0 +1,320 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Shepherds’ merry-go-round",
+      "startTime": 4.013514,
+      "endTime": 7.992116,
+      "words": [
+        {
+          "id": 1,
+          "text": "Shepherds’",
+          "startTime": 4.013514,
+          "endTime": 6.3945
+        },
+        {
+          "id": 2,
+          "text": "merry-go-round",
+          "startTime": 6.3945,
+          "endTime": 7.992116
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "right match, to wrong house",
+      "startTime": 7.992116,
+      "endTime": 11.974959,
+      "words": [
+        {
+          "id": 3,
+          "text": "right",
+          "startTime": 7.992116,
+          "endTime": 9.187623
+        },
+        {
+          "id": 4,
+          "text": "match,",
+          "startTime": 9.187623,
+          "endTime": 9.990485
+        },
+        {
+          "id": 5,
+          "text": "to",
+          "startTime": 9.990485,
+          "endTime": 10.786254
+        },
+        {
+          "id": 6,
+          "text": "wrong",
+          "startTime": 10.786254,
+          "endTime": 11.17874
+        },
+        {
+          "id": 7,
+          "text": "house",
+          "startTime": 11.17874,
+          "endTime": 11.974959
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "flagged by hindsight grounds",
+      "startTime": 11.974959,
+      "endTime": 15.693753,
+      "words": [
+        {
+          "id": 8,
+          "text": "flagged",
+          "startTime": 11.974959,
+          "endTime": 13.838755
+        },
+        {
+          "id": 9,
+          "text": "by",
+          "startTime": 13.838755,
+          "endTime": 14.093197
+        },
+        {
+          "id": 10,
+          "text": "hindsight",
+          "startTime": 14.093197,
+          "endTime": 14.633211
+        },
+        {
+          "id": 11,
+          "text": "grounds",
+          "startTime": 14.633211,
+          "endTime": 15.693753
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "freedom eavesdrops her town",
+      "startTime": 15.693753,
+      "endTime": 18.752579,
+      "words": [
+        {
+          "id": 12,
+          "text": "freedom",
+          "startTime": 15.693753,
+          "endTime": 16.897492
+        },
+        {
+          "id": 13,
+          "text": "eavesdrops",
+          "startTime": 16.897492,
+          "endTime": 17.692855
+        },
+        {
+          "id": 14,
+          "text": "her",
+          "startTime": 17.692855,
+          "endTime": 17.958718
+        },
+        {
+          "id": 15,
+          "text": "town",
+          "startTime": 17.958718,
+          "endTime": 18.752579
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "an artificial door lets in a shout",
+      "startTime": 18.752579,
+      "endTime": 23.666322,
+      "words": [
+        {
+          "id": 16,
+          "text": "an",
+          "startTime": 18.752579,
+          "endTime": 20.214102
+        },
+        {
+          "id": 17,
+          "text": "artificial",
+          "startTime": 20.214102,
+          "endTime": 21.008276
+        },
+        {
+          "id": 18,
+          "text": "door",
+          "startTime": 21.008276,
+          "endTime": 21.539295
+        },
+        {
+          "id": 19,
+          "text": "lets",
+          "startTime": 21.539295,
+          "endTime": 22.335663
+        },
+        {
+          "id": 20,
+          "text": "in",
+          "startTime": 22.335663,
+          "endTime": 22.743859
+        },
+        {
+          "id": 21,
+          "text": "a",
+          "startTime": 22.743859,
+          "endTime": 22.872088
+        },
+        {
+          "id": 22,
+          "text": "shout",
+          "startTime": 22.872088,
+          "endTime": 23.666322
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "not a wool black in every crowd",
+      "startTime": 23.666322,
+      "endTime": 27.915485,
+      "words": [
+        {
+          "id": 23,
+          "text": "not",
+          "startTime": 23.666322,
+          "endTime": 25.128642
+        },
+        {
+          "id": 24,
+          "text": "a",
+          "startTime": 25.128642,
+          "endTime": 25.392431
+        },
+        {
+          "id": 25,
+          "text": "wool",
+          "startTime": 25.392431,
+          "endTime": 25.659098
+        },
+        {
+          "id": 26,
+          "text": "black",
+          "startTime": 25.659098,
+          "endTime": 26.059321
+        },
+        {
+          "id": 27,
+          "text": "in",
+          "startTime": 26.059321,
+          "endTime": 26.855429
+        },
+        {
+          "id": 28,
+          "text": "every",
+          "startTime": 26.855429,
+          "endTime": 27.119568
+        },
+        {
+          "id": 29,
+          "text": "crowd",
+          "startTime": 27.119568,
+          "endTime": 27.915485
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "a mask of colour hour to shroud",
+      "startTime": 27.915485,
+      "endTime": 33.495575,
+      "words": [
+        {
+          "id": 30,
+          "text": "a",
+          "startTime": 27.915485,
+          "endTime": 29.241934
+        },
+        {
+          "id": 31,
+          "text": "mask",
+          "startTime": 29.241934,
+          "endTime": 29.514128
+        },
+        {
+          "id": 32,
+          "text": "of",
+          "startTime": 29.514128,
+          "endTime": 30.446627
+        },
+        {
+          "id": 33,
+          "text": "colour",
+          "startTime": 30.446627,
+          "endTime": 30.972491
+        },
+        {
+          "id": 34,
+          "text": "hour",
+          "startTime": 30.972491,
+          "endTime": 32.431262
+        },
+        {
+          "id": 35,
+          "text": "to",
+          "startTime": 32.431262,
+          "endTime": 32.566917
+        },
+        {
+          "id": 36,
+          "text": "shroud",
+          "startTime": 32.566917,
+          "endTime": 33.495575
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "his broken doubt in neon bounce.",
+      "startTime": 33.495575,
+      "endTime": 39.471319,
+      "words": [
+        {
+          "id": 37,
+          "text": "his",
+          "startTime": 33.495575,
+          "endTime": 34.686642
+        },
+        {
+          "id": 38,
+          "text": "broken",
+          "startTime": 34.686642,
+          "endTime": 35.352413
+        },
+        {
+          "id": 39,
+          "text": "doubt",
+          "startTime": 35.352413,
+          "endTime": 36.147814
+        },
+        {
+          "id": 40,
+          "text": "in",
+          "startTime": 36.147814,
+          "endTime": 37.088658
+        },
+        {
+          "id": 41,
+          "text": "neon",
+          "startTime": 37.088658,
+          "endTime": 37.471319
+        },
+        {
+          "id": 42,
+          "text": "bounce.",
+          "startTime": 37.471319,
+          "endTime": 39.471319
+        }
+      ]
+    }
+  ]
+}

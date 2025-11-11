@@ -2,405 +2,191 @@
   "lyrics": [
     {
       "id": 1,
-      "paragraph": "The devil takes on the shapeshifter",
-      "startTime": 4.073101,
-      "endTime": 7.12566,
+      "paragraph": "I tried again like an elephant",
+      "startTime": 3.025039,
+      "endTime": 7.005172,
       "words": [
         {
           "id": 1,
-          "text": "The",
-          "startTime": 4.073101,
-          "endTime": 4.603697
+          "text": "I",
+          "startTime": 3.025039,
+          "endTime": 4.485384
         },
         {
           "id": 2,
-          "text": "devil",
-          "startTime": 4.603697,
-          "endTime": 5.003337
+          "text": "tried",
+          "startTime": 4.485384,
+          "endTime": 4.75143
         },
         {
           "id": 3,
-          "text": "takes",
-          "startTime": 5.003337,
-          "endTime": 5.39822
+          "text": "again",
+          "startTime": 4.75143,
+          "endTime": 5.280806
         },
         {
           "id": 4,
-          "text": "on",
-          "startTime": 5.39822,
-          "endTime": 5.666472
+          "text": "like",
+          "startTime": 5.280806,
+          "endTime": 5.939849
         },
         {
           "id": 5,
-          "text": "the",
-          "startTime": 5.666472,
-          "endTime": 6.064361
+          "text": "an",
+          "startTime": 5.939849,
+          "endTime": 6.076812
         },
         {
           "id": 6,
-          "text": "shapeshifter",
-          "startTime": 6.064361,
-          "endTime": 7.12566
+          "text": "elephant",
+          "startTime": 6.076812,
+          "endTime": 7.005172
         }
       ]
     },
     {
       "id": 2,
-      "paragraph": "spectators’ gazes take their seats",
-      "startTime": 7.12566,
-      "endTime": 11.511613,
+      "paragraph": "ears, hands, big in early arms",
+      "startTime": 7.005172,
+      "endTime": 11.393385,
       "words": [
         {
           "id": 7,
-          "text": "spectators’",
-          "startTime": 7.12566,
-          "endTime": 8.858674
+          "text": "ears,",
+          "startTime": 7.005172,
+          "endTime": 7.802729
         },
         {
           "id": 8,
-          "text": "gazes",
-          "startTime": 8.858674,
-          "endTime": 9.922955
+          "text": "hands,",
+          "startTime": 7.802729,
+          "endTime": 9.270503
         },
         {
           "id": 9,
-          "text": "take",
-          "startTime": 9.922955,
-          "endTime": 10.450129
+          "text": "big",
+          "startTime": 9.270503,
+          "endTime": 10.065201
         },
         {
           "id": 10,
-          "text": "their",
-          "startTime": 10.450129,
-          "endTime": 10.718506
+          "text": "in",
+          "startTime": 10.065201,
+          "endTime": 10.202083
         },
         {
           "id": 11,
-          "text": "seats",
-          "startTime": 10.718506,
-          "endTime": 11.511613
+          "text": "early",
+          "startTime": 10.202083,
+          "endTime": 10.597379
+        },
+        {
+          "id": 12,
+          "text": "arms",
+          "startTime": 10.597379,
+          "endTime": 11.393385
         }
       ]
     },
     {
       "id": 3,
-      "paragraph": "on a lady whose mask you’ll see",
-      "startTime": 11.511613,
-      "endTime": 14.695286,
+      "paragraph": "composure in heavy orchestra",
+      "startTime": 11.393385,
+      "endTime": 15.508496,
       "words": [
         {
-          "id": 12,
-          "text": "on",
-          "startTime": 11.511613,
-          "endTime": 12.440144
-        },
-        {
           "id": 13,
-          "text": "a",
-          "startTime": 12.440144,
-          "endTime": 12.568517
+          "text": "composure",
+          "startTime": 11.393385,
+          "endTime": 13.246228
         },
         {
           "id": 14,
-          "text": "lady",
-          "startTime": 12.568517,
-          "endTime": 13.237715
+          "text": "in",
+          "startTime": 13.246228,
+          "endTime": 14.041352
         },
         {
           "id": 15,
-          "text": "whose",
-          "startTime": 13.237715,
-          "endTime": 13.766069
+          "text": "heavy",
+          "startTime": 14.041352,
+          "endTime": 14.309828
         },
         {
           "id": 16,
-          "text": "mask",
-          "startTime": 13.766069,
-          "endTime": 14.297593
-        },
-        {
-          "id": 17,
-          "text": "you’ll",
-          "startTime": 14.297593,
-          "endTime": 14.431102
-        },
-        {
-          "id": 18,
-          "text": "see",
-          "startTime": 14.431102,
-          "endTime": 14.695286
+          "text": "orchestra",
+          "startTime": 14.309828,
+          "endTime": 15.508496
         }
       ]
     },
     {
       "id": 4,
-      "paragraph": "evokes cunning masculinity wit",
-      "startTime": 14.695286,
-      "endTime": 18.817545,
+      "paragraph": "the sobriquet of heavenly rants",
+      "startTime": 15.508496,
+      "endTime": 20.022995,
       "words": [
         {
+          "id": 17,
+          "text": "the",
+          "startTime": 15.508496,
+          "endTime": 16.572942
+        },
+        {
+          "id": 18,
+          "text": "sobriquet",
+          "startTime": 16.572942,
+          "endTime": 17.371051
+        },
+        {
           "id": 19,
-          "text": "evokes",
-          "startTime": 14.695286,
-          "endTime": 16.163241
+          "text": "of",
+          "startTime": 17.371051,
+          "endTime": 18.297877
         },
         {
           "id": 20,
-          "text": "cunning",
-          "startTime": 16.163241,
-          "endTime": 16.824621
+          "text": "heavenly",
+          "startTime": 18.297877,
+          "endTime": 18.956802
         },
         {
           "id": 21,
-          "text": "masculinity",
-          "startTime": 16.824621,
-          "endTime": 17.886027
-        },
-        {
-          "id": 22,
-          "text": "wit",
-          "startTime": 17.886027,
-          "endTime": 18.817545
+          "text": "rants",
+          "startTime": 18.956802,
+          "endTime": 20.022995
         }
       ]
     },
     {
       "id": 5,
-      "paragraph": "behind heavier bars of nothing",
-      "startTime": 18.817545,
-      "endTime": 23.322215,
+      "paragraph": "feelings bearing motherly psalm.",
+      "startTime": 20.022995,
+      "endTime": 25.616362,
       "words": [
         {
+          "id": 22,
+          "text": "feelings",
+          "startTime": 20.022995,
+          "endTime": 21.743065
+        },
+        {
           "id": 23,
-          "text": "behind",
-          "startTime": 18.817545,
-          "endTime": 20.142129
+          "text": "bearing",
+          "startTime": 21.743065,
+          "endTime": 22.951508
         },
         {
           "id": 24,
-          "text": "heavier",
-          "startTime": 20.142129,
-          "endTime": 20.940945
+          "text": "motherly",
+          "startTime": 22.951508,
+          "endTime": 23.616362
         },
         {
           "id": 25,
-          "text": "bars",
-          "startTime": 20.940945,
-          "endTime": 21.46493
-        },
-        {
-          "id": 26,
-          "text": "of",
-          "startTime": 21.46493,
-          "endTime": 22.138028
-        },
-        {
-          "id": 27,
-          "text": "nothing",
-          "startTime": 22.138028,
-          "endTime": 23.322215
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "paragraph": "at the river of her face—a tree",
-      "startTime": 23.322215,
-      "endTime": 28.901326,
-      "words": [
-        {
-          "id": 28,
-          "text": "at",
-          "startTime": 23.322215,
-          "endTime": 24.528241
-        },
-        {
-          "id": 29,
-          "text": "the",
-          "startTime": 24.528241,
-          "endTime": 24.663324
-        },
-        {
-          "id": 30,
-          "text": "river",
-          "startTime": 24.663324,
-          "endTime": 25.31913
-        },
-        {
-          "id": 31,
-          "text": "of",
-          "startTime": 25.31913,
-          "endTime": 25.991317
-        },
-        {
-          "id": 32,
-          "text": "her",
-          "startTime": 25.991317,
-          "endTime": 26.379624
-        },
-        {
-          "id": 33,
-          "text": "face—a",
-          "startTime": 26.379624,
-          "endTime": 28.104801
-        },
-        {
-          "id": 34,
-          "text": "tree",
-          "startTime": 28.104801,
-          "endTime": 28.901326
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "paragraph": "she's emotion, its community",
-      "startTime": 28.901326,
-      "endTime": 33.158303,
-      "words": [
-        {
-          "id": 35,
-          "text": "she's",
-          "startTime": 28.901326,
-          "endTime": 30.099104
-        },
-        {
-          "id": 36,
-          "text": "emotion,",
-          "startTime": 30.099104,
-          "endTime": 31.172337
-        },
-        {
-          "id": 37,
-          "text": "its",
-          "startTime": 31.172337,
-          "endTime": 31.960016
-        },
-        {
-          "id": 38,
-          "text": "community",
-          "startTime": 31.960016,
-          "endTime": 33.158303
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "paragraph": "clearly, devil's lemon appeal",
-      "startTime": 33.158303,
-      "endTime": 37.40534,
-      "words": [
-        {
-          "id": 39,
-          "text": "clearly,",
-          "startTime": 33.158303,
-          "endTime": 34.481009
-        },
-        {
-          "id": 40,
-          "text": "devil's",
-          "startTime": 34.481009,
-          "endTime": 35.678984
-        },
-        {
-          "id": 41,
-          "text": "lemon",
-          "startTime": 35.678984,
-          "endTime": 36.344609
-        },
-        {
-          "id": 42,
-          "text": "appeal",
-          "startTime": 36.344609,
-          "endTime": 37.40534
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "paragraph": "all that is artless in intuiting",
-      "startTime": 37.40534,
-      "endTime": 41.791649,
-      "words": [
-        {
-          "id": 43,
-          "text": "all",
-          "startTime": 37.40534,
-          "endTime": 38.474987
-        },
-        {
-          "id": 44,
-          "text": "that",
-          "startTime": 38.474987,
-          "endTime": 38.867326
-        },
-        {
-          "id": 45,
-          "text": "is",
-          "startTime": 38.867326,
-          "endTime": 39.005798
-        },
-        {
-          "id": 46,
-          "text": "artless",
-          "startTime": 39.005798,
-          "endTime": 39.800203
-        },
-        {
-          "id": 47,
-          "text": "in",
-          "startTime": 39.800203,
-          "endTime": 40.732986
-        },
-        {
-          "id": 48,
-          "text": "intuiting",
-          "startTime": 40.732986,
-          "endTime": 41.791649
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "paragraph": "so it's joy bridging her river.",
-      "startTime": 41.791649,
-      "endTime": 47.10741,
-      "words": [
-        {
-          "id": 49,
-          "text": "so",
-          "startTime": 41.791649,
-          "endTime": 42.853035
-        },
-        {
-          "id": 50,
-          "text": "it's",
-          "startTime": 42.853035,
-          "endTime": 43.116518
-        },
-        {
-          "id": 51,
-          "text": "joy",
-          "startTime": 43.116518,
-          "endTime": 43.909424
-        },
-        {
-          "id": 52,
-          "text": "bridging",
-          "startTime": 43.909424,
-          "endTime": 44.970093
-        },
-        {
-          "id": 53,
-          "text": "her",
-          "startTime": 44.970093,
-          "endTime": 45.10741
-        },
-        {
-          "id": 54,
-          "text": "river.",
-          "startTime": 45.10741,
-          "endTime": 47.10741
+          "text": "psalm.",
+          "startTime": 23.616362,
+          "endTime": 25.616362
         }
       ]
     }

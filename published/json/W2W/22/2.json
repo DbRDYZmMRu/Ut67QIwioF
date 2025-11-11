@@ -2,179 +2,271 @@
   "lyrics": [
     {
       "id": 1,
-      "paragraph": "Pomp for her denture",
-      "startTime": 3.432221,
-      "endTime": 6.482667,
+      "paragraph": "I found her in a blank below",
+      "startTime": 4.406966,
+      "endTime": 8.253021,
       "words": [
         {
           "id": 1,
-          "text": "Pomp",
-          "startTime": 3.432221,
-          "endTime": 5.021464
+          "text": "I",
+          "startTime": 4.406966,
+          "endTime": 5.997163
         },
         {
           "id": 2,
-          "text": "for",
-          "startTime": 5.021464,
-          "endTime": 5.2902
+          "text": "found",
+          "startTime": 5.997163,
+          "endTime": 6.398329
         },
         {
           "id": 3,
           "text": "her",
-          "startTime": 5.2902,
-          "endTime": 5.421953
+          "startTime": 6.398329,
+          "endTime": 6.666284
         },
         {
           "id": 4,
-          "text": "denture",
-          "startTime": 5.421953,
-          "endTime": 6.482667
+          "text": "in",
+          "startTime": 6.666284,
+          "endTime": 6.794593
+        },
+        {
+          "id": 5,
+          "text": "a",
+          "startTime": 6.794593,
+          "endTime": 7.056104
+        },
+        {
+          "id": 6,
+          "text": "blank",
+          "startTime": 7.056104,
+          "endTime": 7.459465
+        },
+        {
+          "id": 7,
+          "text": "below",
+          "startTime": 7.459465,
+          "endTime": 8.253021
         }
       ]
     },
     {
       "id": 2,
-      "paragraph": "her elevated inch clutch",
-      "startTime": 6.482667,
-      "endTime": 9.411781,
+      "paragraph": "his window to the quilled note",
+      "startTime": 8.253021,
+      "endTime": 12.109576,
       "words": [
         {
-          "id": 5,
-          "text": "her",
-          "startTime": 6.482667,
-          "endTime": 7.404814
-        },
-        {
-          "id": 6,
-          "text": "elevated",
-          "startTime": 7.404814,
-          "endTime": 8.213753
-        },
-        {
-          "id": 7,
-          "text": "inch",
-          "startTime": 8.213753,
-          "endTime": 8.600044
-        },
-        {
           "id": 8,
-          "text": "clutch",
-          "startTime": 8.600044,
-          "endTime": 9.411781
+          "text": "his",
+          "startTime": 8.253021,
+          "endTime": 9.457581
+        },
+        {
+          "id": 9,
+          "text": "window",
+          "startTime": 9.457581,
+          "endTime": 10.249699
+        },
+        {
+          "id": 10,
+          "text": "to",
+          "startTime": 10.249699,
+          "endTime": 10.787427
+        },
+        {
+          "id": 11,
+          "text": "the",
+          "startTime": 10.787427,
+          "endTime": 10.910406
+        },
+        {
+          "id": 12,
+          "text": "quilled",
+          "startTime": 10.910406,
+          "endTime": 11.313227
+        },
+        {
+          "id": 13,
+          "text": "note",
+          "startTime": 11.313227,
+          "endTime": 12.109576
         }
       ]
     },
     {
       "id": 3,
-      "paragraph": "her syllabic shawl spurred",
-      "startTime": 9.411781,
-      "endTime": 12.593951,
+      "paragraph": "but since she’s his talent’s rote",
+      "startTime": 12.109576,
+      "endTime": 16.231963,
       "words": [
         {
-          "id": 9,
-          "text": "her",
-          "startTime": 9.411781,
-          "endTime": 10.60087
+          "id": 14,
+          "text": "but",
+          "startTime": 12.109576,
+          "endTime": 13.569366
         },
         {
-          "id": 10,
-          "text": "syllabic",
-          "startTime": 10.60087,
-          "endTime": 11.132096
+          "id": 15,
+          "text": "since",
+          "startTime": 13.569366,
+          "endTime": 14.100927
         },
         {
-          "id": 11,
-          "text": "shawl",
-          "startTime": 11.132096,
-          "endTime": 11.663625
+          "id": 16,
+          "text": "she’s",
+          "startTime": 14.100927,
+          "endTime": 14.627952
         },
         {
-          "id": 12,
-          "text": "spurred",
-          "startTime": 11.663625,
-          "endTime": 12.593951
+          "id": 17,
+          "text": "his",
+          "startTime": 14.627952,
+          "endTime": 14.895622
+        },
+        {
+          "id": 18,
+          "text": "talent’s",
+          "startTime": 14.895622,
+          "endTime": 15.432223
+        },
+        {
+          "id": 19,
+          "text": "rote",
+          "startTime": 15.432223,
+          "endTime": 16.231963
         }
       ]
     },
     {
       "id": 4,
-      "paragraph": "what fettered dibs rumptious",
-      "startTime": 12.593951,
-      "endTime": 16.036577,
+      "paragraph": "he thought up her mom's clothe",
+      "startTime": 16.231963,
+      "endTime": 19.424727,
       "words": [
         {
-          "id": 13,
-          "text": "what",
-          "startTime": 12.593951,
-          "endTime": 13.653451
+          "id": 20,
+          "text": "he",
+          "startTime": 16.231963,
+          "endTime": 17.551571
         },
         {
-          "id": 14,
-          "text": "fettered",
-          "startTime": 13.653451,
-          "endTime": 14.183704
+          "id": 21,
+          "text": "thought",
+          "startTime": 17.551571,
+          "endTime": 17.689007
         },
         {
-          "id": 15,
-          "text": "dibs",
-          "startTime": 14.183704,
-          "endTime": 14.849879
+          "id": 22,
+          "text": "up",
+          "startTime": 17.689007,
+          "endTime": 18.097058
         },
         {
-          "id": 16,
-          "text": "rumptious",
-          "startTime": 14.849879,
-          "endTime": 16.036577
+          "id": 23,
+          "text": "her",
+          "startTime": 18.097058,
+          "endTime": 18.229603
+        },
+        {
+          "id": 24,
+          "text": "mom's",
+          "startTime": 18.229603,
+          "endTime": 18.629232
+        },
+        {
+          "id": 25,
+          "text": "clothe",
+          "startTime": 18.629232,
+          "endTime": 19.424727
         }
       ]
     },
     {
       "id": 5,
-      "paragraph": "looks in a moving wick of rush.",
-      "startTime": 16.036577,
-      "endTime": 21.233887,
+      "paragraph": "calls himself a prince, no photos",
+      "startTime": 19.424727,
+      "endTime": 25.002364,
       "words": [
         {
-          "id": 17,
-          "text": "looks",
-          "startTime": 16.036577,
-          "endTime": 17.241921
+          "id": 26,
+          "text": "calls",
+          "startTime": 19.424727,
+          "endTime": 20.745214
         },
         {
-          "id": 18,
-          "text": "in",
-          "startTime": 17.241921,
-          "endTime": 17.775697
+          "id": 27,
+          "text": "himself",
+          "startTime": 20.745214,
+          "endTime": 21.275392
         },
         {
-          "id": 19,
+          "id": 28,
           "text": "a",
-          "startTime": 17.775697,
-          "endTime": 17.909846
+          "startTime": 21.275392,
+          "endTime": 21.943479
         },
         {
-          "id": 20,
-          "text": "moving",
-          "startTime": 17.909846,
-          "endTime": 18.302318
+          "id": 29,
+          "text": "prince,",
+          "startTime": 21.943479,
+          "endTime": 22.740491
         },
         {
-          "id": 21,
-          "text": "wick",
-          "startTime": 18.302318,
-          "endTime": 18.705767
+          "id": 30,
+          "text": "no",
+          "startTime": 22.740491,
+          "endTime": 23.800948
         },
         {
-          "id": 22,
+          "id": 31,
+          "text": "photos",
+          "startTime": 23.800948,
+          "endTime": 25.002364
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "in blanket of her regal metronome.",
+      "startTime": 25.002364,
+      "endTime": 30.848769,
+      "words": [
+        {
+          "id": 32,
+          "text": "in",
+          "startTime": 25.002364,
+          "endTime": 26.594646
+        },
+        {
+          "id": 33,
+          "text": "blanket",
+          "startTime": 26.594646,
+          "endTime": 27.386209
+        },
+        {
+          "id": 34,
           "text": "of",
-          "startTime": 18.705767,
-          "endTime": 19.233887
+          "startTime": 27.386209,
+          "endTime": 28.054411
         },
         {
-          "id": 23,
-          "text": "rush.",
-          "startTime": 19.233887,
-          "endTime": 21.233887
+          "id": 35,
+          "text": "her",
+          "startTime": 28.054411,
+          "endTime": 28.319363
+        },
+        {
+          "id": 36,
+          "text": "regal",
+          "startTime": 28.319363,
+          "endTime": 28.848769
+        },
+        {
+          "id": 37,
+          "text": "metronome.",
+          "startTime": 28.848769,
+          "endTime": 30.848769
         }
       ]
     }

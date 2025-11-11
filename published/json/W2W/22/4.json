@@ -1,0 +1,238 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I felt her in debt timezone",
+      "startTime": 4.24997,
+      "endTime": 7.036747,
+      "words": [
+        {
+          "id": 1,
+          "text": "I",
+          "startTime": 4.24997,
+          "endTime": 4.780245
+        },
+        {
+          "id": 2,
+          "text": "felt",
+          "startTime": 4.780245,
+          "endTime": 5.044174
+        },
+        {
+          "id": 3,
+          "text": "her",
+          "startTime": 5.044174,
+          "endTime": 5.311019
+        },
+        {
+          "id": 4,
+          "text": "in",
+          "startTime": 5.311019,
+          "endTime": 5.580721
+        },
+        {
+          "id": 5,
+          "text": "debt",
+          "startTime": 5.580721,
+          "endTime": 5.840851
+        },
+        {
+          "id": 6,
+          "text": "timezone",
+          "startTime": 5.840851,
+          "endTime": 7.036747
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "her raft loft all of her own",
+      "startTime": 7.036747,
+      "endTime": 10.354981,
+      "words": [
+        {
+          "id": 7,
+          "text": "her",
+          "startTime": 7.036747,
+          "endTime": 7.970708
+        },
+        {
+          "id": 8,
+          "text": "raft",
+          "startTime": 7.970708,
+          "endTime": 8.363295
+        },
+        {
+          "id": 9,
+          "text": "loft",
+          "startTime": 8.363295,
+          "endTime": 8.896484
+        },
+        {
+          "id": 10,
+          "text": "all",
+          "startTime": 8.896484,
+          "endTime": 9.292554
+        },
+        {
+          "id": 11,
+          "text": "of",
+          "startTime": 9.292554,
+          "endTime": 9.558136
+        },
+        {
+          "id": 12,
+          "text": "her",
+          "startTime": 9.558136,
+          "endTime": 9.692387
+        },
+        {
+          "id": 13,
+          "text": "own",
+          "startTime": 9.692387,
+          "endTime": 10.354981
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "so a mom's drifting slow",
+      "startTime": 10.354981,
+      "endTime": 13.805299,
+      "words": [
+        {
+          "id": 14,
+          "text": "so",
+          "startTime": 10.354981,
+          "endTime": 11.686453
+        },
+        {
+          "id": 15,
+          "text": "a",
+          "startTime": 11.686453,
+          "endTime": 11.820379
+        },
+        {
+          "id": 16,
+          "text": "mom's",
+          "startTime": 11.820379,
+          "endTime": 12.344416
+        },
+        {
+          "id": 17,
+          "text": "drifting",
+          "startTime": 12.344416,
+          "endTime": 12.881855
+        },
+        {
+          "id": 18,
+          "text": "slow",
+          "startTime": 12.881855,
+          "endTime": 13.805299
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "at green, which known",
+      "startTime": 13.805299,
+      "endTime": 17.53163,
+      "words": [
+        {
+          "id": 19,
+          "text": "at",
+          "startTime": 13.805299,
+          "endTime": 14.600959
+        },
+        {
+          "id": 20,
+          "text": "green,",
+          "startTime": 14.600959,
+          "endTime": 15.410796
+        },
+        {
+          "id": 21,
+          "text": "which",
+          "startTime": 15.410796,
+          "endTime": 16.592863
+        },
+        {
+          "id": 22,
+          "text": "known",
+          "startTime": 16.592863,
+          "endTime": 17.53163
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "saves a colour I wrote",
+      "startTime": 17.53163,
+      "endTime": 20.18436,
+      "words": [
+        {
+          "id": 23,
+          "text": "saves",
+          "startTime": 17.53163,
+          "endTime": 18.194836
+        },
+        {
+          "id": 24,
+          "text": "a",
+          "startTime": 18.194836,
+          "endTime": 18.455082
+        },
+        {
+          "id": 25,
+          "text": "colour",
+          "startTime": 18.455082,
+          "endTime": 18.985137
+        },
+        {
+          "id": 26,
+          "text": "I",
+          "startTime": 18.985137,
+          "endTime": 19.390275
+        },
+        {
+          "id": 27,
+          "text": "wrote",
+          "startTime": 19.390275,
+          "endTime": 20.18436
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "yellow and red hope.",
+      "startTime": 20.18436,
+      "endTime": 24.437276,
+      "words": [
+        {
+          "id": 28,
+          "text": "yellow",
+          "startTime": 20.18436,
+          "endTime": 21.378732
+        },
+        {
+          "id": 29,
+          "text": "and",
+          "startTime": 21.378732,
+          "endTime": 22.040499
+        },
+        {
+          "id": 30,
+          "text": "red",
+          "startTime": 22.040499,
+          "endTime": 22.437276
+        },
+        {
+          "id": 31,
+          "text": "hope.",
+          "startTime": 22.437276,
+          "endTime": 24.437276
+        }
+      ]
+    }
+  ]
+}
