@@ -1,0 +1,206 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "She fetched the moon",
+      "startTime": 4.516971,
+      "endTime": 6.776009,
+      "words": [
+        {
+          "id": 1,
+          "text": "She",
+          "startTime": 4.516971,
+          "endTime": 5.450958
+        },
+        {
+          "id": 2,
+          "text": "fetched",
+          "startTime": 5.450958,
+          "endTime": 5.850016
+        },
+        {
+          "id": 3,
+          "text": "the",
+          "startTime": 5.850016,
+          "endTime": 6.114757
+        },
+        {
+          "id": 4,
+          "text": "moon",
+          "startTime": 6.114757,
+          "endTime": 6.776009
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "as it crawled along roofs",
+      "startTime": 6.776009,
+      "endTime": 9.561029,
+      "words": [
+        {
+          "id": 5,
+          "text": "as",
+          "startTime": 6.776009,
+          "endTime": 7.572888
+        },
+        {
+          "id": 6,
+          "text": "it",
+          "startTime": 7.572888,
+          "endTime": 7.706523
+        },
+        {
+          "id": 7,
+          "text": "crawled",
+          "startTime": 7.706523,
+          "endTime": 8.368639
+        },
+        {
+          "id": 8,
+          "text": "along",
+          "startTime": 8.368639,
+          "endTime": 8.764442
+        },
+        {
+          "id": 9,
+          "text": "roofs",
+          "startTime": 8.764442,
+          "endTime": 9.561029
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "so it blinded her eyes soon",
+      "startTime": 9.561029,
+      "endTime": 13.023772,
+      "words": [
+        {
+          "id": 10,
+          "text": "so",
+          "startTime": 9.561029,
+          "endTime": 10.640641
+        },
+        {
+          "id": 11,
+          "text": "it",
+          "startTime": 10.640641,
+          "endTime": 10.893072
+        },
+        {
+          "id": 12,
+          "text": "blinded",
+          "startTime": 10.893072,
+          "endTime": 11.5641
+        },
+        {
+          "id": 13,
+          "text": "her",
+          "startTime": 11.5641,
+          "endTime": 11.689074
+        },
+        {
+          "id": 14,
+          "text": "eyes",
+          "startTime": 11.689074,
+          "endTime": 12.227544
+        },
+        {
+          "id": 15,
+          "text": "soon",
+          "startTime": 12.227544,
+          "endTime": 13.023772
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "to becoming my dark smooth",
+      "startTime": 13.023772,
+      "endTime": 16.080317,
+      "words": [
+        {
+          "id": 16,
+          "text": "to",
+          "startTime": 13.023772,
+          "endTime": 13.944828
+        },
+        {
+          "id": 17,
+          "text": "becoming",
+          "startTime": 13.944828,
+          "endTime": 14.47541
+        },
+        {
+          "id": 18,
+          "text": "my",
+          "startTime": 14.47541,
+          "endTime": 14.740694
+        },
+        {
+          "id": 19,
+          "text": "dark",
+          "startTime": 14.740694,
+          "endTime": 15.142825
+        },
+        {
+          "id": 20,
+          "text": "smooth",
+          "startTime": 15.142825,
+          "endTime": 16.080317
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "she's a blind pig who stays true.",
+      "startTime": 16.080317,
+      "endTime": 21.797259,
+      "words": [
+        {
+          "id": 21,
+          "text": "she's",
+          "startTime": 16.080317,
+          "endTime": 17.411227
+        },
+        {
+          "id": 22,
+          "text": "a",
+          "startTime": 17.411227,
+          "endTime": 17.67183
+        },
+        {
+          "id": 23,
+          "text": "blind",
+          "startTime": 17.67183,
+          "endTime": 17.94001
+        },
+        {
+          "id": 24,
+          "text": "pig",
+          "startTime": 17.94001,
+          "endTime": 18.603672
+        },
+        {
+          "id": 25,
+          "text": "who",
+          "startTime": 18.603672,
+          "endTime": 19.260508
+        },
+        {
+          "id": 26,
+          "text": "stays",
+          "startTime": 19.260508,
+          "endTime": 19.797259
+        },
+        {
+          "id": 27,
+          "text": "true.",
+          "startTime": 19.797259,
+          "endTime": 21.797259
+        }
+      ]
+    }
+  ]
+}

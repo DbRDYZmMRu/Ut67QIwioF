@@ -1,0 +1,470 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Training in her range",
+      "startTime": 3.710476,
+      "endTime": 6.899949,
+      "words": [
+        {
+          "id": 1,
+          "text": "Training",
+          "startTime": 3.710476,
+          "endTime": 5.045118
+        },
+        {
+          "id": 2,
+          "text": "in",
+          "startTime": 5.045118,
+          "endTime": 5.17383
+        },
+        {
+          "id": 3,
+          "text": "her",
+          "startTime": 5.17383,
+          "endTime": 6.104238
+        },
+        {
+          "id": 4,
+          "text": "range",
+          "startTime": 6.104238,
+          "endTime": 6.899949
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "of an emotional climate",
+      "startTime": 6.899949,
+      "endTime": 9.164855,
+      "words": [
+        {
+          "id": 5,
+          "text": "of",
+          "startTime": 6.899949,
+          "endTime": 7.432092
+        },
+        {
+          "id": 6,
+          "text": "an",
+          "startTime": 7.432092,
+          "endTime": 7.692725
+        },
+        {
+          "id": 7,
+          "text": "emotional",
+          "startTime": 7.692725,
+          "endTime": 8.371305
+        },
+        {
+          "id": 8,
+          "text": "climate",
+          "startTime": 8.371305,
+          "endTime": 9.164855
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "perfected by her signage",
+      "startTime": 9.164855,
+      "endTime": 12.878966,
+      "words": [
+        {
+          "id": 9,
+          "text": "perfected",
+          "startTime": 9.164855,
+          "endTime": 11.156239
+        },
+        {
+          "id": 10,
+          "text": "by",
+          "startTime": 11.156239,
+          "endTime": 11.686208
+        },
+        {
+          "id": 11,
+          "text": "her",
+          "startTime": 11.686208,
+          "endTime": 11.950442
+        },
+        {
+          "id": 12,
+          "text": "signage",
+          "startTime": 11.950442,
+          "endTime": 12.878966
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "that read her heartbeat rate",
+      "startTime": 12.878966,
+      "endTime": 15.805029,
+      "words": [
+        {
+          "id": 13,
+          "text": "that",
+          "startTime": 12.878966,
+          "endTime": 13.805887
+        },
+        {
+          "id": 14,
+          "text": "read",
+          "startTime": 13.805887,
+          "endTime": 14.205268
+        },
+        {
+          "id": 15,
+          "text": "her",
+          "startTime": 14.205268,
+          "endTime": 14.476256
+        },
+        {
+          "id": 16,
+          "text": "heartbeat",
+          "startTime": 14.476256,
+          "endTime": 15.010386
+        },
+        {
+          "id": 17,
+          "text": "rate",
+          "startTime": 15.010386,
+          "endTime": 15.805029
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "a face she met no telling day",
+      "startTime": 15.805029,
+      "endTime": 19.77945,
+      "words": [
+        {
+          "id": 18,
+          "text": "a",
+          "startTime": 15.805029,
+          "endTime": 16.861625
+        },
+        {
+          "id": 19,
+          "text": "face",
+          "startTime": 16.861625,
+          "endTime": 17.530806
+        },
+        {
+          "id": 20,
+          "text": "she",
+          "startTime": 17.530806,
+          "endTime": 17.932996
+        },
+        {
+          "id": 21,
+          "text": "met",
+          "startTime": 17.932996,
+          "endTime": 18.18853
+        },
+        {
+          "id": 22,
+          "text": "no",
+          "startTime": 18.18853,
+          "endTime": 18.456051
+        },
+        {
+          "id": 23,
+          "text": "telling",
+          "startTime": 18.456051,
+          "endTime": 18.856278
+        },
+        {
+          "id": 24,
+          "text": "day",
+          "startTime": 18.856278,
+          "endTime": 19.77945
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "held his lust in earmuffs afraid",
+      "startTime": 19.77945,
+      "endTime": 23.245808,
+      "words": [
+        {
+          "id": 25,
+          "text": "held",
+          "startTime": 19.77945,
+          "endTime": 20.308635
+        },
+        {
+          "id": 26,
+          "text": "his",
+          "startTime": 20.308635,
+          "endTime": 20.578023
+        },
+        {
+          "id": 27,
+          "text": "lust",
+          "startTime": 20.578023,
+          "endTime": 21.242415
+        },
+        {
+          "id": 28,
+          "text": "in",
+          "startTime": 21.242415,
+          "endTime": 21.642112
+        },
+        {
+          "id": 29,
+          "text": "earmuffs",
+          "startTime": 21.642112,
+          "endTime": 22.306368
+        },
+        {
+          "id": 30,
+          "text": "afraid",
+          "startTime": 22.306368,
+          "endTime": 23.245808
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "for a klatsch not nulling her pain",
+      "startTime": 23.245808,
+      "endTime": 26.82245,
+      "words": [
+        {
+          "id": 31,
+          "text": "for",
+          "startTime": 23.245808,
+          "endTime": 24.175111
+        },
+        {
+          "id": 32,
+          "text": "a",
+          "startTime": 24.175111,
+          "endTime": 24.435913
+        },
+        {
+          "id": 33,
+          "text": "klatsch",
+          "startTime": 24.435913,
+          "endTime": 24.969053
+        },
+        {
+          "id": 34,
+          "text": "not",
+          "startTime": 24.969053,
+          "endTime": 25.232092
+        },
+        {
+          "id": 35,
+          "text": "nulling",
+          "startTime": 25.232092,
+          "endTime": 25.761908
+        },
+        {
+          "id": 36,
+          "text": "her",
+          "startTime": 25.761908,
+          "endTime": 25.889056
+        },
+        {
+          "id": 37,
+          "text": "pain",
+          "startTime": 25.889056,
+          "endTime": 26.82245
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "would deafen allaying the strange",
+      "startTime": 26.82245,
+      "endTime": 30.93884,
+      "words": [
+        {
+          "id": 38,
+          "text": "would",
+          "startTime": 26.82245,
+          "endTime": 27.4882
+        },
+        {
+          "id": 39,
+          "text": "deafen",
+          "startTime": 27.4882,
+          "endTime": 28.151059
+        },
+        {
+          "id": 40,
+          "text": "allaying",
+          "startTime": 28.151059,
+          "endTime": 29.471601
+        },
+        {
+          "id": 41,
+          "text": "the",
+          "startTime": 29.471601,
+          "endTime": 29.736037
+        },
+        {
+          "id": 42,
+          "text": "strange",
+          "startTime": 29.736037,
+          "endTime": 30.93884
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "he outliving the backdrop; his fame",
+      "startTime": 30.93884,
+      "endTime": 36.657711,
+      "words": [
+        {
+          "id": 43,
+          "text": "he",
+          "startTime": 30.93884,
+          "endTime": 32.266118
+        },
+        {
+          "id": 44,
+          "text": "outliving",
+          "startTime": 32.266118,
+          "endTime": 33.600193
+        },
+        {
+          "id": 45,
+          "text": "the",
+          "startTime": 33.600193,
+          "endTime": 33.866363
+        },
+        {
+          "id": 46,
+          "text": "backdrop;",
+          "startTime": 33.866363,
+          "endTime": 34.932354
+        },
+        {
+          "id": 47,
+          "text": "his",
+          "startTime": 34.932354,
+          "endTime": 35.462244
+        },
+        {
+          "id": 48,
+          "text": "fame",
+          "startTime": 35.462244,
+          "endTime": 36.657711
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "only colours she painted him in sane",
+      "startTime": 36.657711,
+      "endTime": 41.838333,
+      "words": [
+        {
+          "id": 49,
+          "text": "only",
+          "startTime": 36.657711,
+          "endTime": 37.984178
+        },
+        {
+          "id": 50,
+          "text": "colours",
+          "startTime": 37.984178,
+          "endTime": 38.788594
+        },
+        {
+          "id": 51,
+          "text": "she",
+          "startTime": 38.788594,
+          "endTime": 39.316631
+        },
+        {
+          "id": 52,
+          "text": "painted",
+          "startTime": 39.316631,
+          "endTime": 39.853127
+        },
+        {
+          "id": 53,
+          "text": "him",
+          "startTime": 39.853127,
+          "endTime": 40.246803
+        },
+        {
+          "id": 54,
+          "text": "in",
+          "startTime": 40.246803,
+          "endTime": 40.777199
+        },
+        {
+          "id": 55,
+          "text": "sane",
+          "startTime": 40.777199,
+          "endTime": 41.838333
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "so she's his life to buy, misses bargain.",
+      "startTime": 41.838333,
+      "endTime": 48.093604,
+      "words": [
+        {
+          "id": 56,
+          "text": "so",
+          "startTime": 41.838333,
+          "endTime": 42.633777
+        },
+        {
+          "id": 57,
+          "text": "she's",
+          "startTime": 42.633777,
+          "endTime": 43.563538
+        },
+        {
+          "id": 58,
+          "text": "his",
+          "startTime": 43.563538,
+          "endTime": 43.830263
+        },
+        {
+          "id": 59,
+          "text": "life",
+          "startTime": 43.830263,
+          "endTime": 44.227511
+        },
+        {
+          "id": 60,
+          "text": "to",
+          "startTime": 44.227511,
+          "endTime": 44.495892
+        },
+        {
+          "id": 61,
+          "text": "buy,",
+          "startTime": 44.495892,
+          "endTime": 45.296326
+        },
+        {
+          "id": 62,
+          "text": "misses",
+          "startTime": 45.296326,
+          "endTime": 46.093604
+        },
+        {
+          "id": 63,
+          "text": "bargain.",
+          "startTime": 46.093604,
+          "endTime": 48.093604
+        }
+      ]
+    }
+  ]
+}
