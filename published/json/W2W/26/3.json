@@ -1,0 +1,176 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I'm dwelling in a rage",
+      "startTime": 4.091723,
+      "endTime": 6.876465,
+      "words": [
+        {
+          "id": 1,
+          "text": "I'm",
+          "startTime": 4.091723,
+          "endTime": 5.148655
+        },
+        {
+          "id": 2,
+          "text": "dwelling",
+          "startTime": 5.148655,
+          "endTime": 5.680161
+        },
+        {
+          "id": 3,
+          "text": "in",
+          "startTime": 5.680161,
+          "endTime": 5.951967
+        },
+        {
+          "id": 4,
+          "text": "a",
+          "startTime": 5.951967,
+          "endTime": 6.216336
+        },
+        {
+          "id": 5,
+          "text": "rage",
+          "startTime": 6.216336,
+          "endTime": 6.876465
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "its face becomes pale",
+      "startTime": 6.876465,
+      "endTime": 10.075449,
+      "words": [
+        {
+          "id": 6,
+          "text": "its",
+          "startTime": 6.876465,
+          "endTime": 7.94528
+        },
+        {
+          "id": 7,
+          "text": "face",
+          "startTime": 7.94528,
+          "endTime": 8.474974
+        },
+        {
+          "id": 8,
+          "text": "becomes",
+          "startTime": 8.474974,
+          "endTime": 9.404126
+        },
+        {
+          "id": 9,
+          "text": "pale",
+          "startTime": 9.404126,
+          "endTime": 10.075449
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "more lonely than nays",
+      "startTime": 10.075449,
+      "endTime": 13.253234,
+      "words": [
+        {
+          "id": 10,
+          "text": "more",
+          "startTime": 10.075449,
+          "endTime": 11.13187
+        },
+        {
+          "id": 11,
+          "text": "lonely",
+          "startTime": 11.13187,
+          "endTime": 11.790148
+        },
+        {
+          "id": 12,
+          "text": "than",
+          "startTime": 11.790148,
+          "endTime": 12.459585
+        },
+        {
+          "id": 13,
+          "text": "nays",
+          "startTime": 12.459585,
+          "endTime": 13.253234
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "answers shot up space",
+      "startTime": 13.253234,
+      "endTime": 16.714038,
+      "words": [
+        {
+          "id": 14,
+          "text": "answers",
+          "startTime": 13.253234,
+          "endTime": 14.842882
+        },
+        {
+          "id": 15,
+          "text": "shot",
+          "startTime": 14.842882,
+          "endTime": 15.385238
+        },
+        {
+          "id": 16,
+          "text": "up",
+          "startTime": 15.385238,
+          "endTime": 15.774627
+        },
+        {
+          "id": 17,
+          "text": "space",
+          "startTime": 15.774627,
+          "endTime": 16.714038
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "I met who dented today.",
+      "startTime": 16.714038,
+      "endTime": 21.499254,
+      "words": [
+        {
+          "id": 18,
+          "text": "I",
+          "startTime": 16.714038,
+          "endTime": 18.430455
+        },
+        {
+          "id": 19,
+          "text": "met",
+          "startTime": 18.430455,
+          "endTime": 18.696059
+        },
+        {
+          "id": 20,
+          "text": "who",
+          "startTime": 18.696059,
+          "endTime": 18.960527
+        },
+        {
+          "id": 21,
+          "text": "dented",
+          "startTime": 18.960527,
+          "endTime": 19.499254
+        },
+        {
+          "id": 22,
+          "text": "today.",
+          "startTime": 19.499254,
+          "endTime": 21.499254
+        }
+      ]
+    }
+  ]
+}

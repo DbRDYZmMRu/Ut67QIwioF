@@ -1,0 +1,220 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Silent with a heavy drought",
+      "startTime": 4.198899,
+      "endTime": 8.714089,
+      "words": [
+        {
+          "id": 1,
+          "text": "Silent",
+          "startTime": 4.198899,
+          "endTime": 6.987388
+        },
+        {
+          "id": 2,
+          "text": "with",
+          "startTime": 6.987388,
+          "endTime": 7.384048
+        },
+        {
+          "id": 3,
+          "text": "a",
+          "startTime": 7.384048,
+          "endTime": 7.652076
+        },
+        {
+          "id": 4,
+          "text": "heavy",
+          "startTime": 7.652076,
+          "endTime": 7.918465
+        },
+        {
+          "id": 5,
+          "text": "drought",
+          "startTime": 7.918465,
+          "endTime": 8.714089
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "praising lips bent, crying out",
+      "startTime": 8.714089,
+      "endTime": 12.695129,
+      "words": [
+        {
+          "id": 6,
+          "text": "praising",
+          "startTime": 8.714089,
+          "endTime": 10.172709
+        },
+        {
+          "id": 7,
+          "text": "lips",
+          "startTime": 10.172709,
+          "endTime": 10.582531
+        },
+        {
+          "id": 8,
+          "text": "bent,",
+          "startTime": 10.582531,
+          "endTime": 11.241419
+        },
+        {
+          "id": 9,
+          "text": "crying",
+          "startTime": 11.241419,
+          "endTime": 12.03698
+        },
+        {
+          "id": 10,
+          "text": "out",
+          "startTime": 12.03698,
+          "endTime": 12.695129
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "cautiously using early clouds",
+      "startTime": 12.695129,
+      "endTime": 16.153486,
+      "words": [
+        {
+          "id": 11,
+          "text": "cautiously",
+          "startTime": 12.695129,
+          "endTime": 14.424418
+        },
+        {
+          "id": 12,
+          "text": "using",
+          "startTime": 14.424418,
+          "endTime": 14.822792
+        },
+        {
+          "id": 13,
+          "text": "early",
+          "startTime": 14.822792,
+          "endTime": 15.225775
+        },
+        {
+          "id": 14,
+          "text": "clouds",
+          "startTime": 15.225775,
+          "endTime": 16.153486
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "silhouettes mirroring far doubt",
+      "startTime": 16.153486,
+      "endTime": 20.268872,
+      "words": [
+        {
+          "id": 15,
+          "text": "silhouettes",
+          "startTime": 16.153486,
+          "endTime": 17.618793
+        },
+        {
+          "id": 16,
+          "text": "mirroring",
+          "startTime": 17.618793,
+          "endTime": 18.540705
+        },
+        {
+          "id": 17,
+          "text": "far",
+          "startTime": 18.540705,
+          "endTime": 18.943769
+        },
+        {
+          "id": 18,
+          "text": "doubt",
+          "startTime": 18.943769,
+          "endTime": 20.268872
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "drivel the clock’s earlier sprout",
+      "startTime": 20.268872,
+      "endTime": 23.730272,
+      "words": [
+        {
+          "id": 19,
+          "text": "drivel",
+          "startTime": 20.268872,
+          "endTime": 21.063985
+        },
+        {
+          "id": 20,
+          "text": "the",
+          "startTime": 21.063985,
+          "endTime": 21.729117
+        },
+        {
+          "id": 21,
+          "text": "clock’s",
+          "startTime": 21.729117,
+          "endTime": 22.122441
+        },
+        {
+          "id": 22,
+          "text": "earlier",
+          "startTime": 22.122441,
+          "endTime": 22.666269
+        },
+        {
+          "id": 23,
+          "text": "sprout",
+          "startTime": 22.666269,
+          "endTime": 23.730272
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "shaming a god’s thunder house.",
+      "startTime": 23.730272,
+      "endTime": 28.646708,
+      "words": [
+        {
+          "id": 24,
+          "text": "shaming",
+          "startTime": 23.730272,
+          "endTime": 24.918323
+        },
+        {
+          "id": 25,
+          "text": "a",
+          "startTime": 24.918323,
+          "endTime": 25.450887
+        },
+        {
+          "id": 26,
+          "text": "god’s",
+          "startTime": 25.450887,
+          "endTime": 25.977145
+        },
+        {
+          "id": 27,
+          "text": "thunder",
+          "startTime": 25.977145,
+          "endTime": 26.646708
+        },
+        {
+          "id": 28,
+          "text": "house.",
+          "startTime": 26.646708,
+          "endTime": 28.646708
+        }
+      ]
+    }
+  ]
+}

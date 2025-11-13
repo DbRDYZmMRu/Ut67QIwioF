@@ -1,0 +1,232 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "So the doors close",
+      "startTime": 3.252085,
+      "endTime": 5.514417,
+      "words": [
+        {
+          "id": 1,
+          "text": "So",
+          "startTime": 3.252085,
+          "endTime": 4.31484
+        },
+        {
+          "id": 2,
+          "text": "the",
+          "startTime": 4.31484,
+          "endTime": 4.450563
+        },
+        {
+          "id": 3,
+          "text": "doors",
+          "startTime": 4.450563,
+          "endTime": 4.839929
+        },
+        {
+          "id": 4,
+          "text": "close",
+          "startTime": 4.839929,
+          "endTime": 5.514417
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "one after another row",
+      "startTime": 5.514417,
+      "endTime": 8.570839,
+      "words": [
+        {
+          "id": 5,
+          "text": "one",
+          "startTime": 5.514417,
+          "endTime": 6.447572
+        },
+        {
+          "id": 6,
+          "text": "after",
+          "startTime": 6.447572,
+          "endTime": 7.243607
+        },
+        {
+          "id": 7,
+          "text": "another",
+          "startTime": 7.243607,
+          "endTime": 7.77395
+        },
+        {
+          "id": 8,
+          "text": "row",
+          "startTime": 7.77395,
+          "endTime": 8.570839
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "they dance in merry go",
+      "startTime": 8.570839,
+      "endTime": 12.300786,
+      "words": [
+        {
+          "id": 9,
+          "text": "they",
+          "startTime": 8.570839,
+          "endTime": 9.508464
+        },
+        {
+          "id": 10,
+          "text": "dance",
+          "startTime": 9.508464,
+          "endTime": 10.434132
+        },
+        {
+          "id": 11,
+          "text": "in",
+          "startTime": 10.434132,
+          "endTime": 10.958321
+        },
+        {
+          "id": 12,
+          "text": "merry",
+          "startTime": 10.958321,
+          "endTime": 11.371274
+        },
+        {
+          "id": 13,
+          "text": "go",
+          "startTime": 11.371274,
+          "endTime": 12.300786
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "round they clap her lows",
+      "startTime": 12.300786,
+      "endTime": 15.882249,
+      "words": [
+        {
+          "id": 14,
+          "text": "round",
+          "startTime": 12.300786,
+          "endTime": 13.224537
+        },
+        {
+          "id": 15,
+          "text": "they",
+          "startTime": 13.224537,
+          "endTime": 14.156897
+        },
+        {
+          "id": 16,
+          "text": "clap",
+          "startTime": 14.156897,
+          "endTime": 14.561807
+        },
+        {
+          "id": 17,
+          "text": "her",
+          "startTime": 14.561807,
+          "endTime": 14.822041
+        },
+        {
+          "id": 18,
+          "text": "lows",
+          "startTime": 14.822041,
+          "endTime": 15.882249
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "she lost me queueing tolls",
+      "startTime": 15.882249,
+      "endTime": 19.066079,
+      "words": [
+        {
+          "id": 19,
+          "text": "she",
+          "startTime": 15.882249,
+          "endTime": 16.943269
+        },
+        {
+          "id": 20,
+          "text": "lost",
+          "startTime": 16.943269,
+          "endTime": 17.206931
+        },
+        {
+          "id": 21,
+          "text": "me",
+          "startTime": 17.206931,
+          "endTime": 17.599232
+        },
+        {
+          "id": 22,
+          "text": "queueing",
+          "startTime": 17.599232,
+          "endTime": 18.139463
+        },
+        {
+          "id": 23,
+          "text": "tolls",
+          "startTime": 18.139463,
+          "endTime": 19.066079
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "keys to my lock for no hope.",
+      "startTime": 19.066079,
+      "endTime": 24.38653,
+      "words": [
+        {
+          "id": 24,
+          "text": "keys",
+          "startTime": 19.066079,
+          "endTime": 19.998628
+        },
+        {
+          "id": 25,
+          "text": "to",
+          "startTime": 19.998628,
+          "endTime": 20.796514
+        },
+        {
+          "id": 26,
+          "text": "my",
+          "startTime": 20.796514,
+          "endTime": 21.063734
+        },
+        {
+          "id": 27,
+          "text": "lock",
+          "startTime": 21.063734,
+          "endTime": 21.589826
+        },
+        {
+          "id": 28,
+          "text": "for",
+          "startTime": 21.589826,
+          "endTime": 22.259309
+        },
+        {
+          "id": 29,
+          "text": "no",
+          "startTime": 22.259309,
+          "endTime": 22.38653
+        },
+        {
+          "id": 30,
+          "text": "hope.",
+          "startTime": 22.38653,
+          "endTime": 24.38653
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Falling heavier an apple",
+      "startTime": 3.241136,
+      "endTime": 6.696289,
+      "words": [
+        {
+          "id": 1,
+          "text": "Falling",
+          "startTime": 3.241136,
+          "endTime": 4.573833
+        },
+        {
+          "id": 2,
+          "text": "heavier",
+          "startTime": 4.573833,
+          "endTime": 5.503224
+        },
+        {
+          "id": 3,
+          "text": "an",
+          "startTime": 5.503224,
+          "endTime": 5.900638
+        },
+        {
+          "id": 4,
+          "text": "apple",
+          "startTime": 5.900638,
+          "endTime": 6.696289
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "better with parent’s shoes",
+      "startTime": 6.696289,
+      "endTime": 10.018749,
+      "words": [
+        {
+          "id": 5,
+          "text": "better",
+          "startTime": 6.696289,
+          "endTime": 7.891778
+        },
+        {
+          "id": 6,
+          "text": "with",
+          "startTime": 7.891778,
+          "endTime": 8.549209
+        },
+        {
+          "id": 7,
+          "text": "parent’s",
+          "startTime": 8.549209,
+          "endTime": 9.089624
+        },
+        {
+          "id": 8,
+          "text": "shoes",
+          "startTime": 9.089624,
+          "endTime": 10.018749
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "the breeze signed a bruise",
+      "startTime": 10.018749,
+      "endTime": 13.336255,
+      "words": [
+        {
+          "id": 9,
+          "text": "the",
+          "startTime": 10.018749,
+          "endTime": 10.949643
+        },
+        {
+          "id": 10,
+          "text": "breeze",
+          "startTime": 10.949643,
+          "endTime": 11.344903
+        },
+        {
+          "id": 11,
+          "text": "signed",
+          "startTime": 11.344903,
+          "endTime": 12.010715
+        },
+        {
+          "id": 12,
+          "text": "a",
+          "startTime": 12.010715,
+          "endTime": 12.275395
+        },
+        {
+          "id": 13,
+          "text": "bruise",
+          "startTime": 12.275395,
+          "endTime": 13.336255
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "scare of every tree with fruit",
+      "startTime": 13.336255,
+      "endTime": 17.190861,
+      "words": [
+        {
+          "id": 14,
+          "text": "scare",
+          "startTime": 13.336255,
+          "endTime": 14.396477
+        },
+        {
+          "id": 15,
+          "text": "of",
+          "startTime": 14.396477,
+          "endTime": 15.062305
+        },
+        {
+          "id": 16,
+          "text": "every",
+          "startTime": 15.062305,
+          "endTime": 15.327058
+        },
+        {
+          "id": 17,
+          "text": "tree",
+          "startTime": 15.327058,
+          "endTime": 15.729886
+        },
+        {
+          "id": 18,
+          "text": "with",
+          "startTime": 15.729886,
+          "endTime": 16.394763
+        },
+        {
+          "id": 19,
+          "text": "fruit",
+          "startTime": 16.394763,
+          "endTime": 17.190861
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "tumbling its slope of scruples",
+      "startTime": 17.190861,
+      "endTime": 20.769732,
+      "words": [
+        {
+          "id": 20,
+          "text": "tumbling",
+          "startTime": 17.190861,
+          "endTime": 18.519184
+        },
+        {
+          "id": 21,
+          "text": "its",
+          "startTime": 18.519184,
+          "endTime": 18.780877
+        },
+        {
+          "id": 22,
+          "text": "slope",
+          "startTime": 18.780877,
+          "endTime": 19.30921
+        },
+        {
+          "id": 23,
+          "text": "of",
+          "startTime": 19.30921,
+          "endTime": 19.712116
+        },
+        {
+          "id": 24,
+          "text": "scruples",
+          "startTime": 19.712116,
+          "endTime": 20.769732
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "I held a mark I couldn't handle.",
+      "startTime": 20.769732,
+      "endTime": 25.171417,
+      "words": [
+        {
+          "id": 25,
+          "text": "I",
+          "startTime": 20.769732,
+          "endTime": 21.306108
+        },
+        {
+          "id": 26,
+          "text": "held",
+          "startTime": 21.306108,
+          "endTime": 21.565494
+        },
+        {
+          "id": 27,
+          "text": "a",
+          "startTime": 21.565494,
+          "endTime": 21.703107
+        },
+        {
+          "id": 28,
+          "text": "mark",
+          "startTime": 21.703107,
+          "endTime": 22.375795
+        },
+        {
+          "id": 29,
+          "text": "I",
+          "startTime": 22.375795,
+          "endTime": 22.764053
+        },
+        {
+          "id": 30,
+          "text": "couldn't",
+          "startTime": 22.764053,
+          "endTime": 23.171417
+        },
+        {
+          "id": 31,
+          "text": "handle.",
+          "startTime": 23.171417,
+          "endTime": 25.171417
+        }
+      ]
+    }
+  ]
+}
