@@ -1,0 +1,240 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "She held the gavel with a heart lofty",
+      "startTime": 4.442256,
+      "endTime": 9.225647,
+      "words": [
+        {
+          "id": 1,
+          "text": "She",
+          "startTime": 4.442256,
+          "endTime": 5.773985
+        },
+        {
+          "id": 2,
+          "text": "held",
+          "startTime": 5.773985,
+          "endTime": 6.171154
+        },
+        {
+          "id": 3,
+          "text": "the",
+          "startTime": 6.171154,
+          "endTime": 6.436302
+        },
+        {
+          "id": 4,
+          "text": "gavel",
+          "startTime": 6.436302,
+          "endTime": 7.22881
+        },
+        {
+          "id": 5,
+          "text": "with",
+          "startTime": 7.22881,
+          "endTime": 7.896106
+        },
+        {
+          "id": 6,
+          "text": "a",
+          "startTime": 7.896106,
+          "endTime": 8.026562
+        },
+        {
+          "id": 7,
+          "text": "heart",
+          "startTime": 8.026562,
+          "endTime": 8.426449
+        },
+        {
+          "id": 8,
+          "text": "lofty",
+          "startTime": 8.426449,
+          "endTime": 9.225647
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "prised in soul like the ducts of his sea",
+      "startTime": 9.225647,
+      "endTime": 14.26923,
+      "words": [
+        {
+          "id": 9,
+          "text": "prised",
+          "startTime": 9.225647,
+          "endTime": 10.686437
+        },
+        {
+          "id": 10,
+          "text": "in",
+          "startTime": 10.686437,
+          "endTime": 11.082906
+        },
+        {
+          "id": 11,
+          "text": "soul",
+          "startTime": 11.082906,
+          "endTime": 11.750331
+        },
+        {
+          "id": 12,
+          "text": "like",
+          "startTime": 11.750331,
+          "endTime": 12.414387
+        },
+        {
+          "id": 13,
+          "text": "the",
+          "startTime": 12.414387,
+          "endTime": 12.674554
+        },
+        {
+          "id": 14,
+          "text": "ducts",
+          "startTime": 12.674554,
+          "endTime": 13.077234
+        },
+        {
+          "id": 15,
+          "text": "of",
+          "startTime": 13.077234,
+          "endTime": 13.341794
+        },
+        {
+          "id": 16,
+          "text": "his",
+          "startTime": 13.341794,
+          "endTime": 13.609574
+        },
+        {
+          "id": 17,
+          "text": "sea",
+          "startTime": 13.609574,
+          "endTime": 14.26923
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "his belly awoken grumbled in a big hiss",
+      "startTime": 14.26923,
+      "endTime": 20.383071,
+      "words": [
+        {
+          "id": 18,
+          "text": "his",
+          "startTime": 14.26923,
+          "endTime": 15.726378
+        },
+        {
+          "id": 19,
+          "text": "belly",
+          "startTime": 15.726378,
+          "endTime": 16.137342
+        },
+        {
+          "id": 20,
+          "text": "awoken",
+          "startTime": 16.137342,
+          "endTime": 17.595985
+        },
+        {
+          "id": 21,
+          "text": "grumbled",
+          "startTime": 17.595985,
+          "endTime": 18.784453
+        },
+        {
+          "id": 22,
+          "text": "in",
+          "startTime": 18.784453,
+          "endTime": 19.055659
+        },
+        {
+          "id": 23,
+          "text": "a",
+          "startTime": 19.055659,
+          "endTime": 19.187685
+        },
+        {
+          "id": 24,
+          "text": "big",
+          "startTime": 19.187685,
+          "endTime": 19.44995
+        },
+        {
+          "id": 25,
+          "text": "hiss",
+          "startTime": 19.44995,
+          "endTime": 20.383071
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "he was hers, she his, and all her judiciary.",
+      "startTime": 20.383071,
+      "endTime": 27.425451,
+      "words": [
+        {
+          "id": 26,
+          "text": "he",
+          "startTime": 20.383071,
+          "endTime": 21.570687
+        },
+        {
+          "id": 27,
+          "text": "was",
+          "startTime": 21.570687,
+          "endTime": 21.840863
+        },
+        {
+          "id": 28,
+          "text": "hers,",
+          "startTime": 21.840863,
+          "endTime": 22.504076
+        },
+        {
+          "id": 29,
+          "text": "she",
+          "startTime": 22.504076,
+          "endTime": 23.428079
+        },
+        {
+          "id": 30,
+          "text": "his,",
+          "startTime": 23.428079,
+          "endTime": 24.239752
+        },
+        {
+          "id": 31,
+          "text": "and",
+          "startTime": 24.239752,
+          "endTime": 24.89212
+        },
+        {
+          "id": 32,
+          "text": "all",
+          "startTime": 24.89212,
+          "endTime": 25.159971
+        },
+        {
+          "id": 33,
+          "text": "her",
+          "startTime": 25.159971,
+          "endTime": 25.425451
+        },
+        {
+          "id": 34,
+          "text": "judiciary.",
+          "startTime": 25.425451,
+          "endTime": 27.425451
+        }
+      ]
+    }
+  ]
+}

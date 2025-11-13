@@ -1,0 +1,144 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "She sees my whims",
+      "startTime": 4.522875,
+      "endTime": 7.311762,
+      "words": [
+        {
+          "id": 1,
+          "text": "She",
+          "startTime": 4.522875,
+          "endTime": 5.983
+        },
+        {
+          "id": 2,
+          "text": "sees",
+          "startTime": 5.983,
+          "endTime": 6.248464
+        },
+        {
+          "id": 3,
+          "text": "my",
+          "startTime": 6.248464,
+          "endTime": 6.513716
+        },
+        {
+          "id": 4,
+          "text": "whims",
+          "startTime": 6.513716,
+          "endTime": 7.311762
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "like cherries in cuisines",
+      "startTime": 7.311762,
+      "endTime": 10.102794,
+      "words": [
+        {
+          "id": 5,
+          "text": "like",
+          "startTime": 7.311762,
+          "endTime": 7.974526
+        },
+        {
+          "id": 6,
+          "text": "cherries",
+          "startTime": 7.974526,
+          "endTime": 8.777737
+        },
+        {
+          "id": 7,
+          "text": "in",
+          "startTime": 8.777737,
+          "endTime": 9.045286
+        },
+        {
+          "id": 8,
+          "text": "cuisines",
+          "startTime": 9.045286,
+          "endTime": 10.102794
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "befitting an anthill’s meal",
+      "startTime": 10.102794,
+      "endTime": 13.154894,
+      "words": [
+        {
+          "id": 9,
+          "text": "befitting",
+          "startTime": 10.102794,
+          "endTime": 11.431145
+        },
+        {
+          "id": 10,
+          "text": "an",
+          "startTime": 11.431145,
+          "endTime": 11.563546
+        },
+        {
+          "id": 11,
+          "text": "anthill’s",
+          "startTime": 11.563546,
+          "endTime": 12.36047
+        },
+        {
+          "id": 12,
+          "text": "meal",
+          "startTime": 12.36047,
+          "endTime": 13.154894
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "she's buried in it the queen.",
+      "startTime": 13.154894,
+      "endTime": 18.082453,
+      "words": [
+        {
+          "id": 13,
+          "text": "she's",
+          "startTime": 13.154894,
+          "endTime": 14.216693
+        },
+        {
+          "id": 14,
+          "text": "buried",
+          "startTime": 14.216693,
+          "endTime": 14.613701
+        },
+        {
+          "id": 15,
+          "text": "in",
+          "startTime": 14.613701,
+          "endTime": 14.741756
+        },
+        {
+          "id": 16,
+          "text": "it",
+          "startTime": 14.741756,
+          "endTime": 15.419254
+        },
+        {
+          "id": 17,
+          "text": "the",
+          "startTime": 15.419254,
+          "endTime": 16.082453
+        },
+        {
+          "id": 18,
+          "text": "queen.",
+          "startTime": 16.082453,
+          "endTime": 18.082453
+        }
+      ]
+    }
+  ]
+}

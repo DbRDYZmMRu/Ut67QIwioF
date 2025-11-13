@@ -1,0 +1,118 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Silent as can be berry",
+      "startTime": 3.206462,
+      "endTime": 6.786345,
+      "words": [
+        {
+          "id": 1,
+          "text": "Silent",
+          "startTime": 3.206462,
+          "endTime": 5.063793
+        },
+        {
+          "id": 2,
+          "text": "as",
+          "startTime": 5.063793,
+          "endTime": 5.456841
+        },
+        {
+          "id": 3,
+          "text": "can",
+          "startTime": 5.456841,
+          "endTime": 5.72252
+        },
+        {
+          "id": 4,
+          "text": "be",
+          "startTime": 5.72252,
+          "endTime": 5.991318
+        },
+        {
+          "id": 5,
+          "text": "berry",
+          "startTime": 5.991318,
+          "endTime": 6.786345
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "read off a day too early",
+      "startTime": 6.786345,
+      "endTime": 10.627398,
+      "words": [
+        {
+          "id": 6,
+          "text": "read",
+          "startTime": 6.786345,
+          "endTime": 7.977434
+        },
+        {
+          "id": 7,
+          "text": "off",
+          "startTime": 7.977434,
+          "endTime": 8.105874
+        },
+        {
+          "id": 8,
+          "text": "a",
+          "startTime": 8.105874,
+          "endTime": 8.371861
+        },
+        {
+          "id": 9,
+          "text": "day",
+          "startTime": 8.371861,
+          "endTime": 8.649106
+        },
+        {
+          "id": 10,
+          "text": "too",
+          "startTime": 8.649106,
+          "endTime": 9.577168
+        },
+        {
+          "id": 11,
+          "text": "early",
+          "startTime": 9.577168,
+          "endTime": 10.627398
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "cashew chum hooly dooly.",
+      "startTime": 10.627398,
+      "endTime": 14.892984,
+      "words": [
+        {
+          "id": 12,
+          "text": "cashew",
+          "startTime": 10.627398,
+          "endTime": 11.833003
+        },
+        {
+          "id": 13,
+          "text": "chum",
+          "startTime": 11.833003,
+          "endTime": 12.498829
+        },
+        {
+          "id": 14,
+          "text": "hooly",
+          "startTime": 12.498829,
+          "endTime": 12.892984
+        },
+        {
+          "id": 15,
+          "text": "dooly.",
+          "startTime": 12.892984,
+          "endTime": 14.892984
+        }
+      ]
+    }
+  ]
+}

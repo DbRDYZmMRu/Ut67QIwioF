@@ -1,0 +1,174 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I received a phone call",
+      "startTime": 4.712573,
+      "endTime": 7.102619,
+      "words": [
+        {
+          "id": 1,
+          "text": "I",
+          "startTime": 4.712573,
+          "endTime": 5.647081
+        },
+        {
+          "id": 2,
+          "text": "received",
+          "startTime": 5.647081,
+          "endTime": 6.049046
+        },
+        {
+          "id": 3,
+          "text": "a",
+          "startTime": 6.049046,
+          "endTime": 6.31234
+        },
+        {
+          "id": 4,
+          "text": "phone",
+          "startTime": 6.31234,
+          "endTime": 6.578195
+        },
+        {
+          "id": 5,
+          "text": "call",
+          "startTime": 6.578195,
+          "endTime": 7.102619
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "or maybe it was a snore",
+      "startTime": 7.102619,
+      "endTime": 9.805168,
+      "words": [
+        {
+          "id": 6,
+          "text": "or",
+          "startTime": 7.102619,
+          "endTime": 8.169154
+        },
+        {
+          "id": 7,
+          "text": "maybe",
+          "startTime": 8.169154,
+          "endTime": 8.567228
+        },
+        {
+          "id": 8,
+          "text": "it",
+          "startTime": 8.567228,
+          "endTime": 8.69949
+        },
+        {
+          "id": 9,
+          "text": "was",
+          "startTime": 8.69949,
+          "endTime": 8.881993
+        },
+        {
+          "id": 10,
+          "text": "a",
+          "startTime": 8.881993,
+          "endTime": 9.281646
+        },
+        {
+          "id": 11,
+          "text": "snore",
+          "startTime": 9.281646,
+          "endTime": 9.805168
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "for they called this a plug",
+      "startTime": 9.805168,
+      "endTime": 13.129149,
+      "words": [
+        {
+          "id": 12,
+          "text": "for",
+          "startTime": 9.805168,
+          "endTime": 10.745314
+        },
+        {
+          "id": 13,
+          "text": "they",
+          "startTime": 10.745314,
+          "endTime": 10.877844
+        },
+        {
+          "id": 14,
+          "text": "called",
+          "startTime": 10.877844,
+          "endTime": 11.137825
+        },
+        {
+          "id": 15,
+          "text": "this",
+          "startTime": 11.137825,
+          "endTime": 11.66997
+        },
+        {
+          "id": 16,
+          "text": "a",
+          "startTime": 11.66997,
+          "endTime": 12.334148
+        },
+        {
+          "id": 17,
+          "text": "plug",
+          "startTime": 12.334148,
+          "endTime": 13.129149
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "merry worth, I got her hugs.",
+      "startTime": 13.129149,
+      "endTime": 18.186923,
+      "words": [
+        {
+          "id": 18,
+          "text": "merry",
+          "startTime": 13.129149,
+          "endTime": 14.321903
+        },
+        {
+          "id": 19,
+          "text": "worth,",
+          "startTime": 14.321903,
+          "endTime": 14.985638
+        },
+        {
+          "id": 20,
+          "text": "I",
+          "startTime": 14.985638,
+          "endTime": 15.650213
+        },
+        {
+          "id": 21,
+          "text": "got",
+          "startTime": 15.650213,
+          "endTime": 15.915604
+        },
+        {
+          "id": 22,
+          "text": "her",
+          "startTime": 15.915604,
+          "endTime": 16.186923
+        },
+        {
+          "id": 23,
+          "text": "hugs.",
+          "startTime": 16.186923,
+          "endTime": 18.186923
+        }
+      ]
+    }
+  ]
+}

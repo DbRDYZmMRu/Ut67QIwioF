@@ -1,0 +1,176 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I catch myself palm rubbing",
+      "startTime": 3.260581,
+      "endTime": 6.050573,
+      "words": [
+        {
+          "id": 1,
+          "text": "I",
+          "startTime": 3.260581,
+          "endTime": 3.931195
+        },
+        {
+          "id": 2,
+          "text": "catch",
+          "startTime": 3.931195,
+          "endTime": 4.195471
+        },
+        {
+          "id": 3,
+          "text": "myself",
+          "startTime": 4.195471,
+          "endTime": 4.852589
+        },
+        {
+          "id": 4,
+          "text": "palm",
+          "startTime": 4.852589,
+          "endTime": 5.257448
+        },
+        {
+          "id": 5,
+          "text": "rubbing",
+          "startTime": 5.257448,
+          "endTime": 6.050573
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "as if a soul-map scrubbing",
+      "startTime": 6.050573,
+      "endTime": 9.364468,
+      "words": [
+        {
+          "id": 6,
+          "text": "as",
+          "startTime": 6.050573,
+          "endTime": 7.11236
+        },
+        {
+          "id": 7,
+          "text": "if",
+          "startTime": 7.11236,
+          "endTime": 7.373804
+        },
+        {
+          "id": 8,
+          "text": "a",
+          "startTime": 7.373804,
+          "endTime": 7.638824
+        },
+        {
+          "id": 9,
+          "text": "soul-map",
+          "startTime": 7.638824,
+          "endTime": 8.306721
+        },
+        {
+          "id": 10,
+          "text": "scrubbing",
+          "startTime": 8.306721,
+          "endTime": 9.364468
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "how sensation swapping",
+      "startTime": 9.364468,
+      "endTime": 12.5537,
+      "words": [
+        {
+          "id": 11,
+          "text": "how",
+          "startTime": 9.364468,
+          "endTime": 10.569985
+        },
+        {
+          "id": 12,
+          "text": "sensation",
+          "startTime": 10.569985,
+          "endTime": 11.363112
+        },
+        {
+          "id": 13,
+          "text": "swapping",
+          "startTime": 11.363112,
+          "endTime": 12.5537
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "I unspool a new bobbin",
+      "startTime": 12.5537,
+      "endTime": 15.74442,
+      "words": [
+        {
+          "id": 14,
+          "text": "I",
+          "startTime": 12.5537,
+          "endTime": 12.956213
+        },
+        {
+          "id": 15,
+          "text": "unspool",
+          "startTime": 12.956213,
+          "endTime": 13.621514
+        },
+        {
+          "id": 16,
+          "text": "a",
+          "startTime": 13.621514,
+          "endTime": 14.281526
+        },
+        {
+          "id": 17,
+          "text": "new",
+          "startTime": 14.281526,
+          "endTime": 14.682367
+        },
+        {
+          "id": 18,
+          "text": "bobbin",
+          "startTime": 14.682367,
+          "endTime": 15.74442
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "though never in hurry.",
+      "startTime": 15.74442,
+      "endTime": 19.734179,
+      "words": [
+        {
+          "id": 19,
+          "text": "though",
+          "startTime": 15.74442,
+          "endTime": 16.405794
+        },
+        {
+          "id": 20,
+          "text": "never",
+          "startTime": 16.405794,
+          "endTime": 17.476389
+        },
+        {
+          "id": 21,
+          "text": "in",
+          "startTime": 17.476389,
+          "endTime": 17.734179
+        },
+        {
+          "id": 22,
+          "text": "hurry.",
+          "startTime": 17.734179,
+          "endTime": 19.734179
+        }
+      ]
+    }
+  ]
+}

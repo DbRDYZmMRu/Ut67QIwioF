@@ -1,0 +1,150 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "I'm somebody's groom",
+      "startTime": 3.720082,
+      "endTime": 6.241217,
+      "words": [
+        {
+          "id": 1,
+          "text": "I'm",
+          "startTime": 3.720082,
+          "endTime": 4.91135
+        },
+        {
+          "id": 2,
+          "text": "somebody's",
+          "startTime": 4.91135,
+          "endTime": 5.437839
+        },
+        {
+          "id": 3,
+          "text": "groom",
+          "startTime": 5.437839,
+          "endTime": 6.241217
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "watch me pick mushrooms",
+      "startTime": 6.241217,
+      "endTime": 9.829101,
+      "words": [
+        {
+          "id": 4,
+          "text": "watch",
+          "startTime": 6.241217,
+          "endTime": 7.436358
+        },
+        {
+          "id": 5,
+          "text": "me",
+          "startTime": 7.436358,
+          "endTime": 7.705395
+        },
+        {
+          "id": 6,
+          "text": "pick",
+          "startTime": 7.705395,
+          "endTime": 7.966201
+        },
+        {
+          "id": 7,
+          "text": "mushrooms",
+          "startTime": 7.966201,
+          "endTime": 9.829101
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "she found the caveat; it spurs",
+      "startTime": 9.829101,
+      "endTime": 13.684477,
+      "words": [
+        {
+          "id": 8,
+          "text": "she",
+          "startTime": 9.829101,
+          "endTime": 10.100669
+        },
+        {
+          "id": 9,
+          "text": "found",
+          "startTime": 10.100669,
+          "endTime": 10.367382
+        },
+        {
+          "id": 10,
+          "text": "the",
+          "startTime": 10.367382,
+          "endTime": 10.634972
+        },
+        {
+          "id": 11,
+          "text": "caveat;",
+          "startTime": 10.634972,
+          "endTime": 11.693637
+        },
+        {
+          "id": 12,
+          "text": "it",
+          "startTime": 11.693637,
+          "endTime": 12.621882
+        },
+        {
+          "id": 13,
+          "text": "spurs",
+          "startTime": 12.621882,
+          "endTime": 13.684477
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "latened, her cello tape sings bond.",
+      "startTime": 13.684477,
+      "endTime": 19.801874,
+      "words": [
+        {
+          "id": 14,
+          "text": "latened,",
+          "startTime": 13.684477,
+          "endTime": 15.410443
+        },
+        {
+          "id": 15,
+          "text": "her",
+          "startTime": 15.410443,
+          "endTime": 16.597909
+        },
+        {
+          "id": 16,
+          "text": "cello",
+          "startTime": 16.597909,
+          "endTime": 17.006737
+        },
+        {
+          "id": 17,
+          "text": "tape",
+          "startTime": 17.006737,
+          "endTime": 17.391028
+        },
+        {
+          "id": 18,
+          "text": "sings",
+          "startTime": 17.391028,
+          "endTime": 17.801874
+        },
+        {
+          "id": 19,
+          "text": "bond.",
+          "startTime": 17.801874,
+          "endTime": 19.801874
+        }
+      ]
+    }
+  ]
+}

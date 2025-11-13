@@ -1,0 +1,168 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "In the past, like in the future",
+      "startTime": 2.787403,
+      "endTime": 6.902024,
+      "words": [
+        {
+          "id": 1,
+          "text": "In",
+          "startTime": 2.787403,
+          "endTime": 4.249753
+        },
+        {
+          "id": 2,
+          "text": "the",
+          "startTime": 4.249753,
+          "endTime": 4.376875
+        },
+        {
+          "id": 3,
+          "text": "past,",
+          "startTime": 4.376875,
+          "endTime": 5.17845
+        },
+        {
+          "id": 4,
+          "text": "like",
+          "startTime": 5.17845,
+          "endTime": 5.704644
+        },
+        {
+          "id": 5,
+          "text": "in",
+          "startTime": 5.704644,
+          "endTime": 5.841961
+        },
+        {
+          "id": 6,
+          "text": "the",
+          "startTime": 5.841961,
+          "endTime": 6.106441
+        },
+        {
+          "id": 7,
+          "text": "future",
+          "startTime": 6.106441,
+          "endTime": 6.902024
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "evenly lover sins hitch luck",
+      "startTime": 6.902024,
+      "endTime": 10.360849,
+      "words": [
+        {
+          "id": 8,
+          "text": "evenly",
+          "startTime": 6.902024,
+          "endTime": 7.838847
+        },
+        {
+          "id": 9,
+          "text": "lover",
+          "startTime": 7.838847,
+          "endTime": 8.368796
+        },
+        {
+          "id": 10,
+          "text": "sins",
+          "startTime": 8.368796,
+          "endTime": 8.90009
+        },
+        {
+          "id": 11,
+          "text": "hitch",
+          "startTime": 8.90009,
+          "endTime": 9.692703
+        },
+        {
+          "id": 12,
+          "text": "luck",
+          "startTime": 9.692703,
+          "endTime": 10.360849
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "if you'll find me, lynch loss",
+      "startTime": 10.360849,
+      "endTime": 14.207058,
+      "words": [
+        {
+          "id": 13,
+          "text": "if",
+          "startTime": 10.360849,
+          "endTime": 11.154629
+        },
+        {
+          "id": 14,
+          "text": "you'll",
+          "startTime": 11.154629,
+          "endTime": 11.421961
+        },
+        {
+          "id": 15,
+          "text": "find",
+          "startTime": 11.421961,
+          "endTime": 11.813736
+        },
+        {
+          "id": 16,
+          "text": "me,",
+          "startTime": 11.813736,
+          "endTime": 12.48113
+        },
+        {
+          "id": 17,
+          "text": "lynch",
+          "startTime": 12.48113,
+          "endTime": 13.408223
+        },
+        {
+          "id": 18,
+          "text": "loss",
+          "startTime": 13.408223,
+          "endTime": 14.207058
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "with every penny pursed.",
+      "startTime": 14.207058,
+      "endTime": 17.941907,
+      "words": [
+        {
+          "id": 19,
+          "text": "with",
+          "startTime": 14.207058,
+          "endTime": 15.002393
+        },
+        {
+          "id": 20,
+          "text": "every",
+          "startTime": 15.002393,
+          "endTime": 15.409969
+        },
+        {
+          "id": 21,
+          "text": "penny",
+          "startTime": 15.409969,
+          "endTime": 15.941907
+        },
+        {
+          "id": 22,
+          "text": "pursed.",
+          "startTime": 15.941907,
+          "endTime": 17.941907
+        }
+      ]
+    }
+  ]
+}

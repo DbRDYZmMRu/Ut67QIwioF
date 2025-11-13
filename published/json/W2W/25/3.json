@@ -1,0 +1,106 @@
+{
+  "lyrics": [
+    {
+      "id": 1,
+      "paragraph": "Affairs seem gay",
+      "startTime": 3.428255,
+      "endTime": 5.956581,
+      "words": [
+        {
+          "id": 1,
+          "text": "Affairs",
+          "startTime": 3.428255,
+          "endTime": 4.759026
+        },
+        {
+          "id": 2,
+          "text": "seem",
+          "startTime": 4.759026,
+          "endTime": 5.155065
+        },
+        {
+          "id": 3,
+          "text": "gay",
+          "startTime": 5.155065,
+          "endTime": 5.956581
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "gay whiffs in her air",
+      "startTime": 5.956581,
+      "endTime": 9.137278,
+      "words": [
+        {
+          "id": 4,
+          "text": "gay",
+          "startTime": 5.956581,
+          "endTime": 7.015374
+        },
+        {
+          "id": 5,
+          "text": "whiffs",
+          "startTime": 7.015374,
+          "endTime": 7.682861
+        },
+        {
+          "id": 6,
+          "text": "in",
+          "startTime": 7.682861,
+          "endTime": 8.213867
+        },
+        {
+          "id": 7,
+          "text": "her",
+          "startTime": 8.213867,
+          "endTime": 8.47894
+        },
+        {
+          "id": 8,
+          "text": "air",
+          "startTime": 8.47894,
+          "endTime": 9.137278
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "airily, she shod his lay.",
+      "startTime": 9.137278,
+      "endTime": 14.330301,
+      "words": [
+        {
+          "id": 9,
+          "text": "airily,",
+          "startTime": 9.137278,
+          "endTime": 10.863045
+        },
+        {
+          "id": 10,
+          "text": "she",
+          "startTime": 10.863045,
+          "endTime": 11.796305
+        },
+        {
+          "id": 11,
+          "text": "shod",
+          "startTime": 11.796305,
+          "endTime": 12.067658
+        },
+        {
+          "id": 12,
+          "text": "his",
+          "startTime": 12.067658,
+          "endTime": 12.330301
+        },
+        {
+          "id": 13,
+          "text": "lay.",
+          "startTime": 12.330301,
+          "endTime": 14.330301
+        }
+      ]
+    }
+  ]
+}
