@@ -7,9 +7,9 @@ registerFont('font/Architects_Daughter.ttf', { family: 'Architects Daughter' });
 
 const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
-const outputDir = path.join(__dirname, 'images', 'share', 'W2W', '22');
+const outputDir = path.join(__dirname, 'images', 'share', 'W2W', '24');
 const titles = [
-  "Her Aperçu", "In Struck Shuns", "Trunk Calls", "Momsplain", "Histrionic Troths", "Pointless Paint"
+ "A Date’s Kickback", "She’s Seen My Love", "Love Aims"
 
 ];
 
@@ -60,7 +60,7 @@ const generateImages = async () => {
     ctx.fillStyle = 'black';
     ctx.textAlign = 'center';
     ctx.textBaseline = 'top';
-    ctx.fillText('WEST TO WEST COLLECTION XXII', imageSize / 2, 10); // Corrected position
+    ctx.fillText('WEST TO WEST COLLECTION XXIV', imageSize / 2, 10); // Corrected position
     
     // Save the image
     const buffer = canvas.toBuffer('image/png');
