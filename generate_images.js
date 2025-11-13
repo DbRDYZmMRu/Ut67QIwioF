@@ -7,10 +7,9 @@ registerFont('font/Architects_Daughter.ttf', { family: 'Architects Daughter' });
 
 const imageSize = 1080;
 const bgImagePath = 'https://raw.githubusercontent.com/DbRDYZmMRu/Ut67QIwioF/refs/heads/main/images/share/bg.jpg';
-const outputDir = path.join(__dirname, 'images', 'share', 'W2W', '25');
+const outputDir = path.join(__dirname, 'images', 'share', 'W2W', '26');
 const titles = [
-"Jellyfish", "Shipped Eyes", "Same Poise", "A Share Cut", "Should Be", "Not Blu", "Doubt Bleach", "Slavish Lavish"
-
+"At Her Behest", "Rainfall’s Route", "Delivery", "Smudge Pot"
 ];
 
 const drawText = (ctx, text, x, y, maxWidth) => {
@@ -60,7 +59,7 @@ const generateImages = async () => {
     ctx.fillStyle = 'black';
     ctx.textAlign = 'center';
     ctx.textBaseline = 'top';
-    ctx.fillText('WEST TO WEST COLLECTION XXV', imageSize / 2, 10); // Corrected position
+    ctx.fillText('WEST TO WEST COLLECTION XXVI', imageSize / 2, 10); // Corrected position
     
     // Save the image
     const buffer = canvas.toBuffer('image/png');
