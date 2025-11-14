@@ -2,12 +2,12 @@
 window.adData = [
 {
   type: 'video',
-  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_6.mp4',
-  duration: 32,
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/nov/ad_19.mp4',
+  duration: 34,
   cta: {
-    message: `Just the two of us, wandering where the leaves lead.⁠<br><br>Your adventure starts at the click of the button.`,
+    message: `Recently engaged? Here’s your sign to trade the ballroom for the beach. 🌊💍⁠<br>At AutoCamp Cape Cod, your wedding backdrop comes with ocean air and a serious wow factor your friends won’t be able to stop talking about. ⁠`,
     link: 'https://autocamp.com/',
-    buttonText: 'Adventure!'
+    buttonText: 'Trade!'
   }
 },
 {
@@ -209,6 +209,26 @@ Not all QLED are equal.<br><br> Choose the real QLED.`,
   duration: 46,
   cta: {
     message: `Designed to sculpt. Engineered to perform.<br><br>A new brand for those who refuse to compromise.`,
+    link: 'https://skims.com/en-ng/collections/nikeskims',
+    buttonText: 'Shop'
+  }
+},
+{
+  type: 'video',
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/nov/ad_17.mp4',
+  duration: 46,
+  cta: {
+    message: `khy energy. our new collection just launched on khy.com`,
+    link: 'https://khy.com/',
+    buttonText: 'Shop'
+  }
+},
+{
+  type: 'video',
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/nov/ad_18.mp4',
+  duration: 15,
+  cta: {
+    message: `NikeSKIMS Drop 2—redefined and ready for the winter season.`,
     link: 'https://skims.com/en-ng/collections/nikeskims',
     buttonText: 'Shop'
   }
