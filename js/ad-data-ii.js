@@ -185,6 +185,16 @@ Not all QLED are equal.<br><br> Choose the real QLED.`,
 },
 {
   type: 'video',
+  url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/nov/ad_16.mp4',
+  duration: 15,
+  cta: {
+    message: `CeeDee Lamb doesn’t leave anything up for grabs..`,
+    link: '#',
+    buttonText: 'Learn More'
+  }
+},
+{
+  type: 'video',
   url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/nov/ad_15.mp4',
   duration: 11,
   cta: {
