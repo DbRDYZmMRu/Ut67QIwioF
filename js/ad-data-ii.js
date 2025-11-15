@@ -155,6 +155,16 @@ Not all QLED are equal.<br><br> Choose the real QLED.`,
   },
   {
     type: 'video',
+    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/nov/ad_27.mp4',
+    duration: 20,
+    cta: {
+      message: `Lauren Dito in the Silk Low Rise Pant and Signature Faux Fur Coat. Now live on khy.com`,
+      link: 'https://www.khy.com/collections/the-holiday-collection?fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnUg9P9Yh80M8O8kTIvTWTvXw1FomOxOceZKCcXP4gCpWw_lEHvIZ6I0csHAo_aem_dLT-HYRtIbvXuckOJ7h8ZA',
+      buttonText: 'Shop KHY'
+    },
+  },
+  {
+    type: 'video',
     url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/oct/ad_13.mp4',
     duration: 88,
     cta: {
