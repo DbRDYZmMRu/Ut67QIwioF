@@ -6,7 +6,7 @@ const adsTop = [
   { img: '../images/ads/818.gif', link: '#', displayTime: 9000 },
   { img: '../images/ads/skimsAUG26.gif', link: 'https://skims.com/en-ng/collections/menswear?utm_source=instagram-story&utm_medium=owned-social&utm_campaign=menswear&fbclid=PAZXh0bgNhZW0CMTEAAaf11NQLS4cQ-TyN13Sz3z-TlNpvoFl9nNV2TI2R7ymm9WLqYU-0ItWl1VyqxQ_aem_KbxfVCEjgvGP4VbKi4tJzA, ', displayTime: 10000 },
   { img: '../images/ads/Rhode1.gif', link: 'https://www.rhodeskin.com', displayTime: 12000 },
-  { img: '../images/ads/CocacolaJuly5.gif', link: '#', displayTime: 30000 },
+  { img: '../images/ads/NOV15COCACOLA.gif', link: 'https://awakenyclothing.com', displayTime: 50000 },
   { img: '../images/ads/Personalday.gif', link: 'https://www.personalday.com/', displayTime: 10000 },
   { img: '../images/ads/LV-Aug-14.gif', link: 'https://us.louisvuitton.com/eng-us/new/for-men/new-formal/_/N-t4r4eke?utm_source=instagram&utm_medium=social&utm_campaign=PUBL_eu.louisvuitton.com%2Feng-e1%2Fnew%2Ffor-men%2Fnew-formal%2F_%2FN-t4r4eke_IG_US_ENG_AW_20220114_20220117_UNI_WATCH%20', displayTime: 10000 }
   
