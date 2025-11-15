@@ -122,25 +122,35 @@ Not all QLED are equal.<br><br> Choose the real QLED.`,
       buttonText: 'Shop TheoGrace!'
     }
   },
-  
   {
     type: 'video',
-    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/nov/ad_6.mp4',
-    duration: 30,
+    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/nov/ad_26.mp4',
+    duration: 38,
     cta: {
-      message: `Runway Reflections Chapter 3 — An ode to the home as a sanctuary of living.<br>Uncover backstage revelations at Nicolas Ghesquiere’s latest presentation unveiling with Tuba Avalon. <br><br>Watch the full film exclusively on YouTube.`,
-      link: 'https://youtu.be/ZRpHECexsiY?si=uqWT-rVmWFZcxdsY',
-      buttonText: 'Watch Documentary'
+      message: `We have arrived in Las Vegas for #Bravocon! 🎰🎰🎰<br>Come find us in the Bravo Bazaar all weekend selling our special Theograceofficial X Kathy themed name plates & more!`,
+      link: 'https://www.theograce.com/',
+      buttonText: 'Shop TheoGrace!'
+    }
+  },
+
+  {
+    type: 'video',
+    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/nov/ad_24.mp4',
+    duration: 25,
+    cta: {
+      message: `Structured drama. Drawn to the magnetic allure of Louis Vuitton’s modern muse, Nicolas Ghesquière’s Cruise 2026 Collection unfurls an expressive wardrobe — steeped in sculptural lines, avant-garde proportions, and metallic flourishes.`,
+      link: 'https://us.louisvuitton.com/eng-us/stories/cruise26-collection?utm_source=instagram&utm_medium=social&utm_campaign=PUBL_WOMENCRUISE26_IG_US_ENG20251114_WOM_MULTI',
+      buttonText: 'Explore'
     }
   },
   {
     type: 'video',
-    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/nov/ad_2.mp4',
-    duration: 15,
+    url: 'https://github.com/freshBoyChilling/discography/raw/refs/heads/main/ads/2025/nov/ad_25.mp4',
+    duration: 70,
     cta: {
-      message: `Spring-Summer 2026 Pre-Collection. <br>An effortless elegance emerges with Friend of the House Jude Bellingham, embodying relaxed silhouettes that exemplify the modern Men's vision from Pharrell — underscoring the country pursuits through a tailored jacket and technical tweed-woven puffer.`,
-      link: 'https://us.louisvuitton.com/eng-us/new/for-men/spring-summer-2026-pre-collection/_/N-t1o8k6nm?utm_source=instagram&utm_medium=social&utm_campaign=PUBL_MENS_PRECO_SS26_IG_WW_ENG_AW_20251024_20251102_MEN_RTW_MEN_PRECOLL_SS26',
-      buttonText: 'Shop the Pre-Collection'
+      message: `Le Voyage des Lumières. Embark on an enchanting journey of light this holiday season — from the Asnières atelier to snowy mountaintops and city skies, the Louis Vuitton lantern illuminates a world of wonder. Discover the gift selection via link`,
+      link: 'https://us.louisvuitton.com/eng-us/homepage',
+      buttonText: 'Discover'
     },
   },
   {
